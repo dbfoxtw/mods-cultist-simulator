@@ -1,0 +1,39 @@
+{
+  "portals": [
+    {
+      "id": "wood",
+      "label": "穿越林地",
+      "description": ""
+    },
+    {
+      "id": "whitedoor",
+      "label": "純白之門開啟",
+      "description": ""
+    },
+    {
+      "id": "stagdoor",
+      "label": "牡鹿之門開啟",
+      "description": ""
+    },
+    {
+      "id": "spiderdoor",
+      "label": "蜘蛛之門綻開",
+      "description": ""
+    },
+    {
+      "id": "peacockdoor",
+      "label": "孔雀之門解封",
+      "description": ""
+    },
+    {
+      "id": "tricuspidgate",
+      "label": "穿越三尖之門",
+      "description": ""
+    },
+    {
+      "id": "mysteries",
+      "label": "臨時神秘之門",
+      "description": "哈囉"
+    }
+  ]
+}
