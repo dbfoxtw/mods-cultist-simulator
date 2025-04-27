@@ -1,298 +1,159 @@
 {
-    "elements": [
-        {
-            "id": "project_upgrade_edge",
-            "label": "加強我對刃之密傳的理解",
-            "description": "我希望提升我的<b>刃</b>之密傳。",
-            "aspects": {
-                "project": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "project_subvert_edgetowinter",
-            "label": "將刃拗轉為冬",
-            "description": "我將承認耐心勝於蠻力，把我的<b>刃</b>之密傳拗轉為<b>冬</b>之密傳。",
-            "aspects": {
-                "project": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "project_upgrade_forge",
-            "label": "加強我對鑄之密傳的理解",
-            "description": "我希望提升我的<b>鑄</b>之密傳。",
-            "aspects": {
-                "project": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "project_subvert_forgetoedge",
-            "label": "將鑄拗轉為刃",
-            "description": "我將把我的<b>鑄</b>之密傳拗轉為<b>刃</b>之密傳。",
-            "aspects": {
-                "project": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "project_upgrade_grail",
-            "label": "加強我對杯之密傳的理解",
-            "description": "我希望提升我的<b>杯</b>之密傳。",
-            "aspects": {
-                "project": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "project_subvert_grailtomoth",
-            "label": "將杯之密傳拗轉為蛾",
-            "description": "我將把我的<b>杯</b>之密傳拗轉為<b>蛾</b>之密傳。",
-            "aspects": {
-                "project": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "project_upgrade_heart",
-            "label": "加強我對心之密傳的理解",
-            "description": "我希望提升我的<b>心</b>之密傳。",
-            "aspects": {
-                "project": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "project_subvert_hearttograil",
-            "label": "將心之密傳拗轉為杯",
-            "description": "我將把我的<b>心</b>之密傳拗轉為<b>杯</b>之密傳。",
-            "aspects": {
-                "project": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "project_upgrade_subvert_knock",
-            "label": "加強我對啟之密傳的理解",
-            "description": "我將加深我對<b>啟</b>之密傳的了解。",
-            "aspects": {
-                "project": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "project_upgrade_lantern",
-            "label": "加強我對燈之密傳的理解",
-            "description": "我希望提升我的<b>燈</b>之密傳。",
-            "aspects": {
-                "project": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "project_subvert_lanterntoforge",
-            "label": "將燈之密傳拗轉為鑄",
-            "description": "我將把我的<b>燈</b>之密傳拗轉為<b>鑄</b>之密傳。",
-            "aspects": {
-                "project": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "project_upgrade_moth",
-            "label": "加強我對蛾之密傳的理解",
-            "description": "我希望提升我的<b>蛾</b>之密傳。",
-            "aspects": {
-                "project": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "project_subvert_mothtolantern",
-            "label": "將蛾之密傳拗轉為燈",
-            "description": "我將把我的<b>蛾</b>之密傳拗轉為<b>燈</b>之密傳。",
-            "aspects": {
-                "project": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "project_upgrade_secrethistories",
-            "label": "加強我對秘史之密傳的理解",
-            "description": "我希望提升我的<b>秘史</b>之密傳。",
-            "aspects": {
-                "project": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "project_upgrade_winter",
-            "label": "加強我對冬之密傳的理解",
-            "description": "我希望提升我的<b>冬</b>之密傳。",
-            "aspects": {
-                "project": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "project_subvert_wintertoheart",
-            "label": "將冬之密傳拗轉為心",
-            "description": "我將把我的<b>冬</b>之密傳拗轉為<b>心</b>之密傳。",
-            "aspects": {
-                "project": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "project_influence_upgrade_edge",
-            "icon": "project_upgrade_edge",
-            "label": "擴大刃之影響",
-            "description": "我希望擴大這份<b>刃</b>之影響。",
-            "aspects": {
-                "project": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "project_influence_subvert_edgetowinter",
-            "icon": "project_subvert_edgetowinter",
-            "label": "將刃拗轉為冬",
-            "description": "我將承認耐心勝於蠻力，把我的<b>刃</b>之密傳拗轉為<b>冬</b>之密傳。",
-            "aspects": {
-                "project": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "project_influence_upgrade_forge",
-            "label": "擴大鑄之影響",
-            "description": "我希望擴大這份<b>鑄</b>之影響。",
-            "aspects": {
-                "project": 1
-            },
-            "icon": "project_upgrade_forge",
-            "lifetime": 1
-        },
-        {
-            "id": "project_influence_subvert_forgetoedge",
-            "icon": "project_subvert_forgetoedge",
-            "label": "將鑄拗轉為刃",
-            "description": "我將把我的<b>鑄</b>之密傳拗轉為<b>刃</b>之密傳。",
-            "aspects": {
-                "project": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "project_influence_upgrade_grail",
-            "icon": "project_upgrade_grail",
-            "label": "擴大杯之影響",
-            "description": "我希望擴大這份<b>杯</b>之影響。",
-            "aspects": {
-                "project": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "project_influence_subvert_grailtomoth",
-            "icon": "project_subvert_grailtomoth",
-            "label": "將杯之影響拗轉為蛾",
-            "description": "我將把我的<b>杯</b>之密傳拗轉為<b>蛾</b>之密傳。",
-            "aspects": {
-                "project": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "project_influence_upgrade_heart",
-            "icon": "project_upgrade_heart",
-            "label": "擴大心之影響",
-            "description": "我希望擴大這份<b>心</b>之影響。",
-            "aspects": {
-                "project": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "project_influence_subvert_hearttograil",
-            "icon": "project_subvert_hearttograil",
-            "label": "將心之影響拗轉為杯",
-            "description": "我將把我的<b>心</b>之密傳拗轉為<b>杯</b>之密傳。",
-            "aspects": {
-                "project": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "project_influence_upgrade_subvert_knock",
-            "icon": "project_upgrade_subvert_knock",
-            "label": "擴大啟之影響",
-            "description": "我將加深我對<b>啟</b>之影響的了解。",
-            "aspects": {
-                "project": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "project_influence_upgrade_lantern",
-            "icon": "project_upgrade_lantern",
-            "label": "擴大燈之影響",
-            "description": "我希望擴大這份<b>燈</b>之影響。",
-            "aspects": {
-                "project": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "project_influence_subvert_lanterntoforge",
-            "icon": "project_subvert_lanterntoforge",
-            "label": "將燈之影響拗轉為鑄",
-            "description": "我將把我的<b>燈</b>之密傳拗轉為<b>鑄</b>之密傳。",
-            "aspects": {
-                "project": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "project_influence_upgrade_moth",
-            "icon": "project_upgrade_moth",
-            "label": "擴大蛾之影響",
-            "description": "我希望擴大這份<b>蛾</b>之影響。",
-            "aspects": {
-                "project": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "project_influence_subvert_mothtolantern",
-            "icon": "project_upgrade_moth",
-            "label": "將蛾之影響拗轉為燈",
-            "description": "我將把我的<b>蛾</b>之密傳拗轉為<b>燈</b>之密傳。",
-            "aspects": {
-                "project": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "project_influence_upgrade_winter",
-            "icon": "project_upgrade_winter",
-            "label": "擴大冬之影響",
-            "description": "我希望擴大這份<b>冬</b>之影響。",
-            "aspects": {
-                "project": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "project_influence_subvert_wintertoheart",
-            "icon": "project_subvert_wintertoheart",
-            "label": "將冬影響拗轉為心",
-            "description": "我將把我的<b>冬</b>之密傳拗轉為<b>心</b>之密傳。",
-            "aspects": {
-                "project": 1
-            },
-            "lifetime": 1
-        }
-    ]
+	"elements": [
+		{
+			"id": "project_upgrade_edge",
+			"label": "加強我對刃之密傳的理解",
+			"description": "我希望提升我的<b>刃</b>之密傳。"
+		},
+		{
+			"id": "project_subvert_edgetowinter",
+			"label": "將刃拗轉為冬",
+			"description": "我將承認耐心勝於蠻力，把我的<b>刃</b>之密傳拗轉為<b>冬</b>之密傳。"
+		},
+		{
+			"id": "project_upgrade_forge",
+			"label": "加強我對鑄之密傳的理解",
+			"description": "我希望提升我的<b>鑄</b>之密傳。"
+		},
+		{
+			"id": "project_subvert_forgetoedge",
+			"label": "將鑄拗轉為刃",
+			"description": "我將把我的<b>鑄</b>之密傳拗轉為<b>刃</b>之密傳。"
+		},
+		{
+			"id": "project_upgrade_grail",
+			"label": "加強我對杯之密傳的理解",
+			"description": "我希望提升我的<b>杯</b>之密傳。"
+		},
+		{
+			"id": "project_subvert_grailtomoth",
+			"label": "將杯之密傳拗轉為蛾",
+			"description": "我將把我的<b>杯</b>之密傳拗轉為<b>蛾</b>之密傳。"
+		},
+		{
+			"id": "project_upgrade_heart",
+			"label": "加強我對心之密傳的理解",
+			"description": "我希望提升我的<b>心</b>之密傳。"
+		},
+		{
+			"id": "project_subvert_hearttograil",
+			"label": "將心之密傳拗轉為杯",
+			"description": "我將把我的<b>心</b>之密傳拗轉為<b>杯</b>之密傳。"
+		},
+		{
+			"id": "project_upgrade_subvert_knock",
+			"label": "加強我對啟之密傳的理解",
+			"description": "我將加深我對<b>啟</b>之密傳的了解。"
+		},
+		{
+			"id": "project_upgrade_lantern",
+			"label": "加強我對燈之密傳的理解",
+			"description": "我希望提升我的<b>燈</b>之密傳。"
+		},
+		{
+			"id": "project_subvert_lanterntoforge",
+			"label": "將燈之密傳拗轉為鑄",
+			"description": "我將把我的<b>燈</b>之密傳拗轉為<b>鑄</b>之密傳。"
+		},
+		{
+			"id": "project_upgrade_moth",
+			"label": "加強我對蛾之密傳的理解",
+			"description": "我希望提升我的<b>蛾</b>之密傳。"
+		},
+		{
+			"id": "project_subvert_mothtolantern",
+			"label": "將蛾之密傳拗轉為燈",
+			"description": "我將把我的<b>蛾</b>之密傳拗轉為<b>燈</b>之密傳。"
+		},
+		{
+			"id": "project_upgrade_secrethistories",
+			"label": "加強我對秘史之密傳的理解",
+			"description": "我希望提升我的<b>秘史</b>之密傳。"
+		},
+		{
+			"id": "project_upgrade_winter",
+			"label": "加強我對冬之密傳的理解",
+			"description": "我希望提升我的<b>冬</b>之密傳。"
+		},
+		{
+			"id": "project_subvert_wintertoheart",
+			"label": "將冬之密傳拗轉為心",
+			"description": "我將把我的<b>冬</b>之密傳拗轉為<b>心</b>之密傳。"
+		},
+		{
+			"id": "project_influence_upgrade_edge",
+			"label": "擴大刃之影響",
+			"description": "我希望擴大這份<b>刃</b>之影響。"
+		},
+		{
+			"id": "project_influence_subvert_edgetowinter",
+			"label": "將刃拗轉為冬",
+			"description": "我將承認耐心勝於蠻力，把我的<b>刃</b>之密傳拗轉為<b>冬</b>之密傳。"
+		},
+		{
+			"id": "project_influence_upgrade_forge",
+			"label": "擴大鑄之影響",
+			"description": "我希望擴大這份<b>鑄</b>之影響。"
+		},
+		{
+			"id": "project_influence_subvert_forgetoedge",
+			"label": "將鑄拗轉為刃",
+			"description": "我將把我的<b>鑄</b>之密傳拗轉為<b>刃</b>之密傳。"
+		},
+		{
+			"id": "project_influence_upgrade_grail",
+			"label": "擴大杯之影響",
+			"description": "我希望擴大這份<b>杯</b>之影響。"
+		},
+		{
+			"id": "project_influence_subvert_grailtomoth",
+			"label": "將杯之影響拗轉為蛾",
+			"description": "我將把我的<b>杯</b>之密傳拗轉為<b>蛾</b>之密傳。"
+		},
+		{
+			"id": "project_influence_upgrade_heart",
+			"label": "擴大心之影響",
+			"description": "我希望擴大這份<b>心</b>之影響。"
+		},
+		{
+			"id": "project_influence_subvert_hearttograil",
+			"label": "將心之影響拗轉為杯",
+			"description": "我將把我的<b>心</b>之密傳拗轉為<b>杯</b>之密傳。"
+		},
+		{
+			"id": "project_influence_upgrade_subvert_knock",
+			"label": "擴大啟之影響",
+			"description": "我將加深我對<b>啟</b>之影響的了解。"
+		},
+		{
+			"id": "project_influence_upgrade_lantern",
+			"label": "擴大燈之影響",
+			"description": "我希望擴大這份<b>燈</b>之影響。"
+		},
+		{
+			"id": "project_influence_subvert_lanterntoforge",
+			"label": "將燈之影響拗轉為鑄",
+			"description": "我將把我的<b>燈</b>之密傳拗轉為<b>鑄</b>之密傳。"
+		},
+		{
+			"id": "project_influence_upgrade_moth",
+			"label": "擴大蛾之影響",
+			"description": "我希望擴大這份<b>蛾</b>之影響。"
+		},
+		{
+			"id": "project_influence_subvert_mothtolantern",
+			"label": "將蛾之影響拗轉為燈",
+			"description": "我將把我的<b>蛾</b>之密傳拗轉為<b>燈</b>之密傳。"
+		},
+		{
+			"id": "project_influence_upgrade_winter",
+			"label": "擴大冬之影響",
+			"description": "我希望擴大這份<b>冬</b>之影響。"
+		},
+		{
+			"id": "project_influence_subvert_wintertoheart",
+			"label": "將冬影響拗轉為心",
+			"description": "我將把我的<b>冬</b>之密傳拗轉為<b>心</b>之密傳。"
+		}
+	]
 }

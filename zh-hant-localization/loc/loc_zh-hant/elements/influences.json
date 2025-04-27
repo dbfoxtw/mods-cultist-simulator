@@ -1,1084 +1,462 @@
 {
-    "elements": [
-        {
-            "id": "influenceedge",
-            "label": "激振的氣氛",
-            "aspects": {
-                "edge": 2,
-                "influence": 1
-            },
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "研究兩份相同的<b>刃</b>之影響如何相互協同可以將其加強。研究其如何受<b>冬</b>之影響的薰陶則能將其拗轉。",
-                    "required": {
-                        "influenceedge": 1,
-                        "influencewinter": 1,
-                        "dread": 1
-                    },
-                    "actionId": "study"
-                },
-                {
-                    "id": "knowledge",
-                    "label": "知識",
-                    "description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]",
-                    "required": {
-                        "fragmentedgec": 1,
-                        "fragmentedged": 1,
-                        "fragmentedgee": 1,
-                        "fragmentedgef": 1,
-                        "fragmentedgeg": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "五感變得敏銳。[一種二階影響：對於有洞察力的學徒來說很明顯，立刻能被辨別出來。可用於在某些<b>儀式</b>中召喚手下。]",
-            "lifetime": 60,
-            "xtriggers": {
-                "upgradeinfluence": "influenceedgec"
-            }
-        },
-        {
-            "id": "influenceedgec",
-            "label": "昂揚的氣氛",
-            "aspects": {
-                "edge": 6,
-                "influence": 1
-            },
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "研究兩份相同的<b>刃</b>之影響如何相互協同可以將其加強。研究其如何受<b>冬</b>之影響的薰陶則能將其拗轉。",
-                    "required": {
-                        "influenceedgec": 1,
-                        "influencewinterc": 1
-                    },
-                    "actionId": "study"
-                },
-                {
-                    "id": "knowledge",
-                    "label": "知識",
-                    "description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]",
-                    "required": {
-                        "fragmentedgec": 1,
-                        "fragmentedged": 1,
-                        "fragmentedgee": 1,
-                        "fragmentedgef": 1,
-                        "fragmentedgeg": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "群情激昂。[一種六階影響：跡象顯著無誤。可用於在某些<b>儀式</b>中召喚手下。]",
-            "lifetime": 60,
-            "xtriggers": {
-                "upgradeinfluence": "influenceedgee"
-            },
-            "decayTo": "influenceedge"
-        },
-        {
-            "id": "influenceedgee",
-            "label": "狂怒的氣氛",
-            "aspects": {
-                "edge": 10,
-                "influence": 1
-            },
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "研究兩份相同的<b>刃</b>之影響如何相互協同可以將其加強。研究其如何受<b>冬</b>之影響的薰陶則能將其拗轉。",
-                    "required": {
-                        "influenceedgee": 1,
-                        "influencewintere": 1
-                    },
-                    "actionId": "study"
-                },
-                {
-                    "id": "knowledge",
-                    "label": "知識",
-                    "description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]",
-                    "required": {
-                        "fragmentedgec": 1,
-                        "fragmentedged": 1,
-                        "fragmentedgee": 1,
-                        "fragmentedgef": 1,
-                        "fragmentedgeg": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "憤怒以各種形態彰顯。[一種十階影響！力量與危險互相穿插，結為一體。可用於在某些<b>儀式</b>中召喚手下。]",
-            "lifetime": 60,
-            "xtriggers": {
-                "upgradeinfluence": "influenceedgeg"
-            },
-            "decayTo": "influenceedgec"
-        },
-        {
-            "id": "influenceedgeg",
-            "label": "破局之力",
-            "aspects": {
-                "edge": 15,
-                "influence": 1
-            },
-            "description": "誰人能將注定的戰局扭轉？[一種十五階影響！可能引來某位司辰親身過問。可用於在某些<b>儀式</b>中召喚手下。]",
-            "lifetime": 60,
-            "decayTo": "influenceedgee"
-        },
-        {
-            "id": "influenceforge",
-            "label": "上升的熱力",
-            "aspects": {
-                "forge": 2,
-                "influence": 1
-            },
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "研究兩份相同的<b>鑄</b>之影響如何相互協同可以將其加強。研究其如何受<b>刃</b>之影響的薰陶則能將其拗轉。",
-                    "required": {
-                        "influenceforge": 1,
-                        "influenceedge": 1
-                    },
-                    "actionId": "study"
-                },
-                {
-                    "id": "knowledge",
-                    "label": "知識",
-                    "description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]",
-                    "required": {
-                        "fragmentforgec": 1,
-                        "fragmentforged": 1,
-                        "fragmentforgee": 1,
-                        "fragmentforgef": 1,
-                        "fragmentforgeg": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "薄霧與微光。[一種二階影響：對於有洞察力的學徒來說很明顯，立刻能被辨別出來。可用於在某些<b>儀式</b>中召喚手下，並且會在某些手下被摧毀時遺留。]",
-            "lifetime": 60,
-            "xtriggers": {
-                "upgradeinfluence": "influenceforgec"
-            }
-        },
-        {
-            "id": "influenceforgec",
-            "label": "顫抖的熱力",
-            "aspects": {
-                "forge": 6,
-                "influence": 1
-            },
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "研究兩份相同的<b>鑄</b>之影響如何相互協同可以將其加強。研究其如何受<b>刃</b>之影響的薰陶則能將其拗轉。",
-                    "required": {
-                        "influenceforgec": 1,
-                        "influenceedgec": 1
-                    },
-                    "actionId": "study"
-                },
-                {
-                    "id": "knowledge",
-                    "label": "知識",
-                    "description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]",
-                    "required": {
-                        "fragmentforgec": 1,
-                        "fragmentforged": 1,
-                        "fragmentforgee": 1,
-                        "fragmentforgef": 1,
-                        "fragmentforgeg": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "迸出火花的可能性。[一種六階影響：跡象顯著無誤。可用於在某些<b>儀式</b>中召喚手下。]",
-            "lifetime": 60,
-            "xtriggers": {
-                "upgradeinfluence": "influenceforgee"
-            },
-            "decayTo": "influenceforge"
-        },
-        {
-            "id": "influenceforgee",
-            "label": "蒸騰的熱力",
-            "aspects": {
-                "forge": 10,
-                "influence": 1
-            },
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "研究兩份相同的<b>鑄</b>之影響如何相互協同可以將其加強。研究其如何受<b>刃</b>之影響的薰陶則能將其拗轉。",
-                    "required": {
-                        "influenceforgee": 1,
-                        "influenceedgee": 1
-                    },
-                    "actionId": "study"
-                },
-                {
-                    "id": "knowledge",
-                    "label": "知識",
-                    "description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]",
-                    "required": {
-                        "fragmentforgec": 1,
-                        "fragmentforged": 1,
-                        "fragmentforgee": 1,
-                        "fragmentforgef": 1,
-                        "fragmentforgeg": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "這是火山的邊緣散發出的氣息。[一種十階影響！力量與危險互相穿插，結為一體。可用於在某些<b>儀式</b>中召喚手下。]",
-            "lifetime": 60,
-            "xtriggers": {
-                "upgradeinfluence": "influenceforgeg"
-            },
-            "decayTo": "influenceforgec"
-        },
-        {
-            "id": "influenceforgeg",
-            "label": "熾烈已極",
-            "aspects": {
-                "forge": 15,
-                "influence": 1
-            },
-            "description": "改變隨火焰而來。[一種十五階影響！可能引來某位司辰親身過問。可用於在某些<b>儀式</b>中召喚手下。]",
-            "lifetime": 60,
-            "decayTo": "influenceforgee"
-        },
-        {
-            "id": "influencegrail",
-            "label": "抬頭的食慾",
-            "aspects": {
-                "grail": 2,
-                "influence": 1
-            },
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "研究兩份相同的<b>杯</b>之影響如何相互協同可以將其加強。研究其如何受<b>蛾</b>之影響的薰陶則能將其拗轉。",
-                    "required": {
-                        "influencegrail": 1,
-                        "influencemoth": 1,
-                        "glimmering": 1,
-                        "glimmeringplus": 1
-                    },
-                    "actionId": "study"
-                },
-                {
-                    "id": "knowledge",
-                    "label": "知識",
-                    "description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]",
-                    "required": {
-                        "fragmentgrailc": 1,
-                        "fragmentgraild": 1,
-                        "fragmentgraile": 1,
-                        "fragmentgrailf": 1,
-                        "fragmentgrailg": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "所有知覺都被增強；所有感情都被加深。[一種二階影響：對於有洞察力的學徒來說很明顯，立刻能被辨別出來。可用於在某些<b>儀式</b>中召喚手下，並且會在某些手下被摧毀時遺留。]",
-            "lifetime": 60,
-            "xtriggers": {
-                "upgradeinfluence": "influencegrailc"
-            }
-        },
-        {
-            "id": "influencegrailc",
-            "label": "急切的食慾",
-            "aspects": {
-                "grail": 6,
-                "influence": 1
-            },
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "研究兩份相同的<b>杯</b>之影響如何相互協同可以將其加強。研究其如何受<b>蛾</b>之影響的薰陶則能將其拗轉。",
-                    "required": {
-                        "influencegrailc": 1,
-                        "influencemothc": 1
-                    },
-                    "actionId": "study"
-                },
-                {
-                    "id": "knowledge",
-                    "label": "知識",
-                    "description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]",
-                    "required": {
-                        "fragmentgrailc": 1,
-                        "fragmentgraild": 1,
-                        "fragmentgraile": 1,
-                        "fragmentgrailf": 1,
-                        "fragmentgrailg": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "難以控制自己。[一種六階影響：可引發強烈的共鳴或同感。可用於在某些<b>儀式</b>中召喚手下。]",
-            "lifetime": 60,
-            "xtriggers": {
-                "upgradeinfluence": "influencegraile"
-            },
-            "decayTo": "influencegrail"
-        },
-        {
-            "id": "influencegraile",
-            "label": "難耐的食慾",
-            "aspects": {
-                "grail": 10,
-                "influence": 1
-            },
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "研究兩份相同的<b>杯</b>之影響如何相互協同可以將其加強。研究其如何受<b>蛾</b>之影響的薰陶則能將其拗轉。",
-                    "required": {
-                        "influencegraile": 1,
-                        "influencemothe": 1
-                    },
-                    "actionId": "study"
-                },
-                {
-                    "id": "knowledge",
-                    "label": "知識",
-                    "description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]",
-                    "required": {
-                        "fragmentgrailc": 1,
-                        "fragmentgraild": 1,
-                        "fragmentgraile": 1,
-                        "fragmentgrailf": 1,
-                        "fragmentgrailg": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "唇舌期盼嘗味，十指期盼抓扼。[一種十階影響！力量與危險互相穿插，結為一體。可用於在某些<b>儀式</b>中召喚手下。]",
-            "lifetime": 60,
-            "xtriggers": {
-                "upgradeinfluence": "influencegrailg"
-            },
-            "decayTo": "influencegrailc"
-        },
-        {
-            "id": "influencegrailg",
-            "label": "道成肉紅身",
-            "aspects": {
-                "grail": 15,
-                "influence": 1
-            },
-            "description": "連空氣都似果肉飽含汁水般飽含著可能性。刺一下說不定便會淌出。[一種十五階影響！可能引來某位司辰親身過問。可用於在某些<b>儀式</b>中召喚手下。]",
-            "lifetime": 60,
-            "decayTo": "influencegraile"
-        },
-        {
-            "id": "influenceheart",
-            "label": "戰慄的氣息",
-            "aspects": {
-                "heart": 2,
-                "influence": 1
-            },
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "研究兩份相同的<b>心</b>之影響如何相互協同可以將其加強。研究其如何受<b>蛾</b>之影響的薰陶則能將其拗轉。",
-                    "required": {
-                        "influenceheart": 1,
-                        "influencegrail": 1,
-                        "vitality": 1,
-                        "vitalityplus": 1,
-                        "contentment": 1
-                    },
-                    "actionId": "study"
-                },
-                {
-                    "id": "knowledge",
-                    "label": "知識",
-                    "description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]",
-                    "required": {
-                        "fragmentheartc": 1,
-                        "fragmentheartd": 1,
-                        "fragmenthearte": 1,
-                        "fragmentheartf": 1,
-                        "fragmentheartg": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "輕點腳尖。輕快又舒適。[一種二階影響：對於有洞察力的學徒來說很明顯，立刻能被辨別出來。可用於在某些<b>儀式</b>中召喚手下，並且會在某些手下被摧毀時遺留。]",
-            "lifetime": 60,
-            "xtriggers": {
-                "upgradeinfluence": "influenceheartc"
-            },
-            "decayTo": "vitality"
-        },
-        {
-            "id": "influenceheartc",
-            "label": "脈動的氣息",
-            "aspects": {
-                "heart": 6,
-                "influence": 1
-            },
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "研究兩份相同的<b>心</b>之影響如何相互協同可以將其加強。研究其如何受<b>蛾</b>之影響的薰陶則能將其拗轉。",
-                    "required": {
-                        "influenceheartc": 1,
-                        "influencegrailc": 1
-                    },
-                    "actionId": "study"
-                },
-                {
-                    "id": "knowledge",
-                    "label": "知識",
-                    "description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]",
-                    "required": {
-                        "fragmentheartc": 1,
-                        "fragmentheartd": 1,
-                        "fragmenthearte": 1,
-                        "fragmentheartf": 1,
-                        "fragmentheartg": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "力量上湧，精神鼓舞。[一種六階影響：可引發強烈的共鳴或同感。可用於在某些<b>儀式</b>中召喚手下。]",
-            "lifetime": 60,
-            "xtriggers": {
-                "upgradeinfluence": "influencehearte"
-            },
-            "decayTo": "influenceheart"
-        },
-        {
-            "id": "influencehearte",
-            "label": "鼓震的氣息",
-            "aspects": {
-                "heart": 10,
-                "influence": 1
-            },
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "研究兩份相同的<b>心</b>之影響如何相互協同可以將其加強。研究其如何受<b>蛾</b>之影響的薰陶則能將其拗轉。",
-                    "required": {
-                        "influencehearte": 1,
-                        "influencegraile": 1
-                    },
-                    "actionId": "study"
-                },
-                {
-                    "id": "knowledge",
-                    "label": "知識",
-                    "description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]",
-                    "required": {
-                        "fragmentheartc": 1,
-                        "fragmentheartd": 1,
-                        "fragmenthearte": 1,
-                        "fragmentheartf": 1,
-                        "fragmentheartg": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "世界隨心而動。[一種十階影響！力量與危險互相穿插，結為一體。可用於在某些<b>儀式</b>中召喚手下。]",
-            "lifetime": 60,
-            "xtriggers": {
-                "upgradeinfluence": "influenceheartg"
-            },
-            "decayTo": "influenceheartc"
-        },
-        {
-            "id": "influenceheartg",
-            "label": "近在眉睫",
-            "aspects": {
-                "heart": 15,
-                "influence": 1
-            },
-            "description": "天空為鼓，大地已經準備好接受它的痴狂。[一種十五階影響！可能引來某位司辰親身過問。可用於在某些<b>儀式</b>中召喚手下。]",
-            "lifetime": 60,
-            "decayTo": "influencehearte"
-        },
-        {
-            "id": "sicknessprotection",
-            "label": "推遲行刑",
-            "description": "肉體皆會衰敗。但我得到了保證，我的肉體會衰敗得稍晚一點。[此卡是在你沒有“健康”時對付生病的最後一道保險。]",
-            "lifetime": 600,
-            "decayTo": "influenceheart"
-        },
-        {
-            "id": "influenceknock",
-            "label": "輕微的破綻",
-            "aspects": {
-                "knock": 2,
-                "influence": 1
-            },
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "當壓力足夠，世界的表皮就會撕裂。添加任一影響，將其拗轉為更高階的<b>啟</b>之影響。",
-                    "actionId": "study",
-                    "required": {
-                        "influenceedge": 1,
-                        "influenceforge": 1,
-                        "influencegrail": 1,
-                        "influenceheart": 1,
-                        "influenceknock": 1,
-                        "influencelantern": 1,
-                        "influencemoth": 1,
-                        "influencewinter": 1,
-                        "erudition": 1,
-                        "glimmering": 1,
-                        "vitality": 1,
-                        "eruditionplus": 1,
-                        "glimmeringplus": 1,
-                        "vitalityplus": 1
-                    }
-                },
-                {
-                    "id": "knowledge",
-                    "label": "知識",
-                    "description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]",
-                    "required": {
-                        "fragmentknockc": 1,
-                        "fragmentknockd": 1,
-                        "fragmentknocke": 1,
-                        "fragmentknockf": 1,
-                        "fragmentknockg": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "繫帶解開——窗戶外敞——鎖像上過油一樣轉動。[一種二階影響：對於有洞察力的學徒來說很明顯，立刻能辨別出來。可用於在某些<b>儀式</b>中召喚手下。]",
-            "lifetime": 60,
-            "xtriggers": {
-                "upgradeinfluence": "influenceknockc"
-            }
-        },
-        {
-            "id": "influenceknockc",
-            "label": "輕微的裂縫",
-            "aspects": {
-                "knock": 6,
-                "influence": 1
-            },
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "當壓力足夠，世界的表皮就會撕裂。添加任一影響，將其拗轉為更高階的<b>啟</b>之影響。",
-                    "actionId": "study",
-                    "required": {
-                        "influenceedgec": 1,
-                        "influenceforgec": 1,
-                        "influencegrailc": 1,
-                        "influenceheartc": 1,
-                        "influenceknockc": 1,
-                        "influencelanternc": 1,
-                        "influencemothc": 1,
-                        "influencewinterc": 1
-                    }
-                },
-                {
-                    "id": "knowledge",
-                    "label": "知識",
-                    "description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]",
-                    "required": {
-                        "fragmentknockc": 1,
-                        "fragmentknockd": 1,
-                        "fragmentknocke": 1,
-                        "fragmentknockf": 1,
-                        "fragmentknockg": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "雲朵分離——牆壁碾動——舊傷作痛。[一種六階影響：可引發強烈的共鳴或同感。可用於在某些<b>儀式</b>中召喚手下。]",
-            "lifetime": 60,
-            "xtriggers": {
-                "upgradeinfluence": "influenceknocke"
-            },
-            "decayTo": "influenceknock"
-        },
-        {
-            "id": "influenceknocke",
-            "label": "輕微的豁口",
-            "aspects": {
-                "knock": 10,
-                "influence": 1
-            },
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "當壓力足夠，世界的表皮就會撕裂。添加任一影響，將其拗轉為更高階的<b>啟</b>之影響。",
-                    "actionId": "study",
-                    "required": {
-                        "influenceedgee": 1,
-                        "influenceforgee": 1,
-                        "influencegraile": 1,
-                        "influencehearte": 1,
-                        "influenceknocke": 1,
-                        "influencelanterne": 1,
-                        "influencemothe": 1,
-                        "influencewintere": 1
-                    }
-                },
-                {
-                    "id": "knowledge",
-                    "label": "知識",
-                    "description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]",
-                    "required": {
-                        "fragmentknockc": 1,
-                        "fragmentknockd": 1,
-                        "fragmentknocke": 1,
-                        "fragmentknockf": 1,
-                        "fragmentknockg": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "框架扭曲——門扉爆開——蛇群自土中沸騰而出！[一種十階影響！力量與危險互相穿插，結為一體。可用於在某些<b>儀式</b>中召喚手下。]",
-            "lifetime": 60,
-            "xtriggers": {
-                "upgradeinfluence": "influenceknockg"
-            },
-            "decayTo": "influenceknockc"
-        },
-        {
-            "id": "influenceknockg",
-            "label": "錯誤的門",
-            "aspects": {
-                "knock": 15,
-                "influence": 1
-            },
-            "description": "那裡有一扇不該開啟的門，現在連它的合頁都在搖搖欲動。[一種十五階影響！可能引來某位司辰親身過問。可用於在某些<b>儀式</b>中召喚手下。]",
-            "lifetime": 60,
-            "decayTo": "influenceknocke"
-        },
-        {
-            "id": "influencelantern",
-            "label": "初識的光芒",
-            "aspects": {
-                "lantern": 2,
-                "influence": 1
-            },
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "研究兩份相同的<b>燈</b>之影響如何相互協同可以將其加強。研究其如何受<b>鑄</b>之影響的薰陶則能將其拗轉。",
-                    "required": {
-                        "influencelantern": 1,
-                        "influenceforge": 1,
-                        "erudition": 1,
-                        "eruditionplus": 1,
-                        "fascination": 1,
-                        "contentment": 1,
-                        "fleeting": 1
-                    },
-                    "actionId": "study"
-                },
-                {
-                    "id": "knowledge",
-                    "label": "知識",
-                    "description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]",
-                    "required": {
-                        "fragmentlanternc": 1,
-                        "fragmentlanternd": 1,
-                        "fragmentlanterne": 1,
-                        "fragmentlanternf": 1,
-                        "fragmentlanterng": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "在世界背後，有這樣一道光，凌駕於漫宿之上，能夠刺透玻璃與皮膚。它出現在了這裡。[一種二階影響：對於有洞察力的學徒來說很明顯，立刻能被辨別出來。可用於在某些<b>儀式</b>中召喚手下，且不會隨其中一部分手下的毀滅的而消失。如果不使用，將會拗轉為入迷。]",
-            "lifetime": 60,
-            "xtriggers": {
-                "upgradeinfluence": "influencelanternc"
-            },
-            "decayTo": "fascination"
-        },
-        {
-            "id": "influencelanternc",
-            "label": "強烈的光芒",
-            "aspects": {
-                "lantern": 6,
-                "influence": 1
-            },
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "研究兩份相同的<b>燈</b>之影響如何相互協同可以將其加強。研究其如何受<b>鑄</b>之影響的薰陶則能將其拗轉。",
-                    "required": {
-                        "influencelanternc": 1,
-                        "influenceforgec": 1
-                    },
-                    "actionId": "study"
-                },
-                {
-                    "id": "knowledge",
-                    "label": "知識",
-                    "description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]",
-                    "required": {
-                        "fragmentlanternc": 1,
-                        "fragmentlanternd": 1,
-                        "fragmentlanterne": 1,
-                        "fragmentlanternf": 1,
-                        "fragmentlanterng": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "光滴落在皮膚上，瀰漫在空氣中。[一種六階影響：可引發強烈的共鳴或同感。可用於在某些<b>儀式</b>中召喚手下。]",
-            "lifetime": 60,
-            "xtriggers": {
-                "upgradeinfluence": "influencelanterne"
-            },
-            "decayTo": "influencelantern"
-        },
-        {
-            "id": "influencelanterne",
-            "label": "暴烈的光芒",
-            "aspects": {
-                "lantern": 10,
-                "influence": 1
-            },
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "研究兩份相同的<b>燈</b>之影響如何相互協同可以將其加強。研究其如何受<b>鑄</b>之影響的薰陶則能將其拗轉。",
-                    "required": {
-                        "influencelanterne": 1,
-                        "influenceforgee": 1
-                    },
-                    "actionId": "study"
-                },
-                {
-                    "id": "knowledge",
-                    "label": "知識",
-                    "description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]",
-                    "required": {
-                        "fragmentlanternc": 1,
-                        "fragmentlanternd": 1,
-                        "fragmentlanterne": 1,
-                        "fragmentlanternf": 1,
-                        "fragmentlanterng": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "每個顏色都更加明亮，彷彿新染過一樣，然而現在它們全都開始流失色澤，褪至純白。[一種十階影響！力量與危險互相穿插，結為一體。可用於在某些<b>儀式</b>中召喚手下。]",
-            "lifetime": 60,
-            "xtriggers": {
-                "upgradeinfluence": "influencelanterng"
-            },
-            "decayTo": "influencelanternc"
-        },
-        {
-            "id": "influencelanterng",
-            "label": "驕盛奪目",
-            "aspects": {
-                "lantern": 15,
-                "influence": 1
-            },
-            "lifetime": 60,
-            "description": "你可以遮住雙眼，隨便你。遮也無用。[一種十五階影響！可能引來某位司辰親身過問。可用於在某些<b>儀式</b>中召喚手下。]",
-            "decayTo": "influencelanterne"
-        },
-        {
-            "id": "influencemoth",
-            "label": "腦中的嗡鳴",
-            "aspects": {
-                "moth": 2,
-                "influence": 1
-            },
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "研究兩份相同的<b>蛾</b>之影響如何相互協同可以將其加強。研究其如何受<b>燈</b>之影響的薰陶則能將其拗轉。",
-                    "required": {
-                        "influencemoth": 1,
-                        "influencelantern": 1,
-                        "erudition": 1,
-                        "eruditionplus": 1,
-                        "glimmering": 1,
-                        "glimmeringplus": 1,
-                        "fascination": 1,
-                        "fleeting": 1
-                    },
-                    "actionId": "study"
-                },
-                {
-                    "id": "knowledge",
-                    "label": "知識",
-                    "description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]",
-                    "required": {
-                        "fragmentmothc": 1,
-                        "fragmentmothd": 1,
-                        "fragmentmothe": 1,
-                        "fragmentmothf": 1,
-                        "fragmentmothg": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "in gi rum imus noc te et con sumi <b>喀嚓喀嚓喀嚓</b>[一種二階影響：對於有洞察力的學徒來說很明顯，立刻能辨別出來。可用於某些<b>儀式</b>中召喚手下，並且會在某些手下被摧毀時遺留。]",
-            "lifetime": 60,
-            "xtriggers": {
-                "upgradeinfluence": "influencemothc"
-            },
-            "decayTo": "restlessness"
-        },
-        {
-            "id": "influencemothc",
-            "label": "靈魂的振響",
-            "aspects": {
-                "moth": 6,
-                "influence": 1
-            },
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "研究兩份相同的<b>蛾</b>之影響如何相互協同可以將其加強。研究其如何受<b>燈</b>之影響的薰陶則能將其拗轉。",
-                    "required": {
-                        "influencemothc": 1,
-                        "influencelanternc": 1
-                    },
-                    "actionId": "study"
-                },
-                {
-                    "id": "knowledge",
-                    "label": "知識",
-                    "description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]",
-                    "required": {
-                        "fragmentmothc": 1,
-                        "fragmentmothd": 1,
-                        "fragmentmothe": 1,
-                        "fragmentmothf": 1,
-                        "fragmentmothg": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "噢，我們玩弄過的朋友，我們製造出的皮囊，依然在驅策著我們！[一種六階影響：可引發強烈的共鳴或同感。可用於在某些<b>儀式</b>中召喚手下。]",
-            "lifetime": 60,
-            "xtriggers": {
-                "upgradeinfluence": "influencemothe"
-            },
-            "decayTo": "influencemoth"
-        },
-        {
-            "id": "influencemothe",
-            "label": "心靈的咆哮",
-            "aspects": {
-                "moth": 10,
-                "influence": 1
-            },
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "研究兩份相同的<b>蛾</b>之影響如何相互協同可以將其加強。研究其如何受<b>燈</b>之影響的薰陶則能將其拗轉。",
-                    "required": {
-                        "influencemothe": 1,
-                        "influencelanterne": 1
-                    },
-                    "actionId": "study"
-                },
-                {
-                    "id": "knowledge",
-                    "label": "知識",
-                    "description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]",
-                    "required": {
-                        "fragmentmothc": 1,
-                        "fragmentmothd": 1,
-                        "fragmentmothe": 1,
-                        "fragmentmothf": 1,
-                        "fragmentmothg": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "情感歪曲了我們的思想。一種激情臣服於另一種，就像被風捲起的葉子！[一種十階影響！力量與危險互相穿插，結為一體。可用於在某些<b>儀式</b>中召喚手下。]",
-            "lifetime": 60,
-            "xtriggers": {
-                "upgradeinfluence": "influencemothg"
-            },
-            "decayTo": "influencemothc"
-        },
-        {
-            "id": "influencemothg",
-            "label": "舊日的渴慕",
-            "aspects": {
-                "moth": 15,
-                "influence": 1
-            },
-            "description": "\"\t\t\t\r\n我切切想望\"",
-            "lifetime": 60,
-            "decayTo": "influencemothe"
-        },
-        {
-            "id": "influencewinter",
-            "label": "冷冽的氣場",
-            "aspects": {
-                "winter": 2,
-                "influence": 1
-            },
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "研究兩份相同的<b>冬</b>之影響如何相互協同可以將其加強。研究其如何受<b>心</b>之影響的薰陶則能將其拗轉。",
-                    "required": {
-                        "influencewinter": 1,
-                        "influenceheart": 1,
-                        "vitality": 1,
-                        "vitalityplus": 1
-                    },
-                    "actionId": "study"
-                },
-                {
-                    "id": "knowledge",
-                    "label": "知識",
-                    "description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]",
-                    "required": {
-                        "fragmentwinterc": 1,
-                        "fragmentwinterd": 1,
-                        "fragmentwintere": 1,
-                        "fragmentwinterf": 1,
-                        "fragmentwinterg": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "一股特別的寒意徘徊於我的房間。[一種二階影響：對於有洞察力的學徒來說很明顯，立刻能被辨別出來。可用於在某些<b>儀式</b>中召喚手下，並且會在某些手下被摧毀時遺留。]",
-            "lifetime": 60,
-            "xtriggers": {
-                "upgradeinfluence": "influencewinterc"
-            },
-            "decayTo": "dread"
-        },
-        {
-            "id": "influencewinterc",
-            "label": "冰結的氣場",
-            "aspects": {
-                "winter": 6,
-                "influence": 1
-            },
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "研究兩份相同的<b>冬</b>之影響如何相互協同可以將其加強。研究其如何受<b>心</b>之影響的薰陶則能將其拗轉。",
-                    "required": {
-                        "influencewinterc": 1,
-                        "influenceheartc": 1
-                    },
-                    "actionId": "study"
-                },
-                {
-                    "id": "knowledge",
-                    "label": "知識",
-                    "description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]",
-                    "required": {
-                        "fragmentwinterc": 1,
-                        "fragmentwinterd": 1,
-                        "fragmentwintere": 1,
-                        "fragmentwinterf": 1,
-                        "fragmentwinterg": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "空氣凍得皮膚發脆。霜結上了玻璃。[一種六階影響：跡象顯著無誤。可用於在某些<b>儀式</b>中召喚手下。如果不使用，將會拗轉為恐懼。]",
-            "lifetime": 60,
-            "xtriggers": {
-                "upgradeinfluence": "influencewintere"
-            },
-            "decayTo": "influencewinter"
-        },
-        {
-            "id": "influencewintere",
-            "label": "嚴寒的氣場",
-            "aspects": {
-                "winter": 10,
-                "influence": 1
-            },
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "研究兩份相同的<b>冬</b>之影響如何相互協同可以將其加強。研究其如何受<b>心</b>之影響的薰陶則能將其拗轉。",
-                    "required": {
-                        "influencewintere": 1,
-                        "influencehearte": 1
-                    },
-                    "actionId": "study"
-                },
-                {
-                    "id": "knowledge",
-                    "label": "知識",
-                    "description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]",
-                    "required": {
-                        "fragmentwinterc": 1,
-                        "fragmentwinterd": 1,
-                        "fragmentwintere": 1,
-                        "fragmentwinterf": 1,
-                        "fragmentwinterg": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "冬季穿透了衣物，穿透了皮膚，宿居在血管裡。[一種十階影響！力量與危險互相穿插，結為一體。可用於在某些<b>儀式</b>中召喚手下。如果不使用，將會拗轉為恐懼。]",
-            "lifetime": 60,
-            "xtriggers": {
-                "upgradeinfluence": "influencewinterg"
-            },
-            "decayTo": "influencewinterc"
-        },
-        {
-            "id": "influencewinterg",
-            "label": "無瑕的冰霜",
-            "aspects": {
-                "winter": 15,
-                "influence": 1
-            },
-            "description": "這個世界死寂如冰，每一步都是一段艱辛旅程。[一種十五階影響！可能引來某位司辰親身過問。可用於在某些<b>儀式</b>中召喚手下。如果不使用，將會拗轉為恐懼。]",
-            "lifetime": 60,
-            "decayTo": "influencewintere"
-        },
-        {
-            "id": "husk",
-            "label": "空殼",
-            "aspects": {
-                "exhausted": 1
-            },
-            "description": "已被耗盡之物。",
-            "icon": "jumble",
-            "lifetime": 1
-        }
-    ]
+	"elements": [
+		{
+			"id": "influenceedge",
+			"label": "激振的氣氛",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "研究兩份相同的<b>刃</b>之影響如何相互協同可以將其加強。研究其如何受<b>冬</b>之影響的薰陶則能將其拗轉。"
+				},
+				{
+					"id": "knowledge",
+					"label": "知識",
+					"description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]"
+				}
+			],
+			"description": "五感變得敏銳。[一種二階影響：對於有洞察力的學徒來說很明顯，立刻能被辨別出來。可用於在某些<b>儀式</b>中召喚手下。]"
+		},
+		{
+			"id": "influenceedgec",
+			"label": "昂揚的氣氛",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "研究兩份相同的<b>刃</b>之影響如何相互協同可以將其加強。研究其如何受<b>冬</b>之影響的薰陶則能將其拗轉。"
+				},
+				{
+					"id": "knowledge",
+					"label": "知識",
+					"description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]"
+				}
+			],
+			"description": "群情激昂。[一種六階影響：跡象顯著無誤。可用於在某些<b>儀式</b>中召喚手下。]"
+		},
+		{
+			"id": "influenceedgee",
+			"label": "狂怒的氣氛",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "研究兩份相同的<b>刃</b>之影響如何相互協同可以將其加強。研究其如何受<b>冬</b>之影響的薰陶則能將其拗轉。"
+				},
+				{
+					"id": "knowledge",
+					"label": "知識",
+					"description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]"
+				}
+			],
+			"description": "憤怒以各種形態彰顯。[一種十階影響！力量與危險互相穿插，結為一體。可用於在某些<b>儀式</b>中召喚手下。]"
+		},
+		{
+			"id": "influenceedgeg",
+			"label": "破局之力",
+			"description": "誰人能將注定的戰局扭轉？[一種十五階影響！可能引來某位司辰親身過問。可用於在某些<b>儀式</b>中召喚手下。]"
+		},
+		{
+			"id": "influenceforge",
+			"label": "上升的熱力",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "研究兩份相同的<b>鑄</b>之影響如何相互協同可以將其加強。研究其如何受<b>刃</b>之影響的薰陶則能將其拗轉。"
+				},
+				{
+					"id": "knowledge",
+					"label": "知識",
+					"description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]"
+				}
+			],
+			"description": "薄霧與微光。[一種二階影響：對於有洞察力的學徒來說很明顯，立刻能被辨別出來。可用於在某些<b>儀式</b>中召喚手下，並且會在某些手下被摧毀時遺留。]"
+		},
+		{
+			"id": "influenceforgec",
+			"label": "顫抖的熱力",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "研究兩份相同的<b>鑄</b>之影響如何相互協同可以將其加強。研究其如何受<b>刃</b>之影響的薰陶則能將其拗轉。"
+				},
+				{
+					"id": "knowledge",
+					"label": "知識",
+					"description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]"
+				}
+			],
+			"description": "迸出火花的可能性。[一種六階影響：跡象顯著無誤。可用於在某些<b>儀式</b>中召喚手下。]"
+		},
+		{
+			"id": "influenceforgee",
+			"label": "蒸騰的熱力",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "研究兩份相同的<b>鑄</b>之影響如何相互協同可以將其加強。研究其如何受<b>刃</b>之影響的薰陶則能將其拗轉。"
+				},
+				{
+					"id": "knowledge",
+					"label": "知識",
+					"description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]"
+				}
+			],
+			"description": "這是火山的邊緣散發出的氣息。[一種十階影響！力量與危險互相穿插，結為一體。可用於在某些<b>儀式</b>中召喚手下。]"
+		},
+		{
+			"id": "influenceforgeg",
+			"label": "熾烈已極",
+			"description": "改變隨火焰而來。[一種十五階影響！可能引來某位司辰親身過問。可用於在某些<b>儀式</b>中召喚手下。]"
+		},
+		{
+			"id": "influencegrail",
+			"label": "抬頭的食慾",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "研究兩份相同的<b>杯</b>之影響如何相互協同可以將其加強。研究其如何受<b>蛾</b>之影響的薰陶則能將其拗轉。"
+				},
+				{
+					"id": "knowledge",
+					"label": "知識",
+					"description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]"
+				}
+			],
+			"description": "所有知覺都被增強；所有感情都被加深。[一種二階影響：對於有洞察力的學徒來說很明顯，立刻能被辨別出來。可用於在某些<b>儀式</b>中召喚手下，並且會在某些手下被摧毀時遺留。]"
+		},
+		{
+			"id": "influencegrailc",
+			"label": "急切的食慾",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "研究兩份相同的<b>杯</b>之影響如何相互協同可以將其加強。研究其如何受<b>蛾</b>之影響的薰陶則能將其拗轉。"
+				},
+				{
+					"id": "knowledge",
+					"label": "知識",
+					"description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]"
+				}
+			],
+			"description": "難以控制自己。[一種六階影響：可引發強烈的共鳴或同感。可用於在某些<b>儀式</b>中召喚手下。]"
+		},
+		{
+			"id": "influencegraile",
+			"label": "難耐的食慾",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "研究兩份相同的<b>杯</b>之影響如何相互協同可以將其加強。研究其如何受<b>蛾</b>之影響的薰陶則能將其拗轉。"
+				},
+				{
+					"id": "knowledge",
+					"label": "知識",
+					"description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]"
+				}
+			],
+			"description": "唇舌期盼嘗味，十指期盼抓扼。[一種十階影響！力量與危險互相穿插，結為一體。可用於在某些<b>儀式</b>中召喚手下。]"
+		},
+		{
+			"id": "influencegrailg",
+			"label": "道成肉紅身",
+			"description": "連空氣都似果肉飽含汁水般飽含著可能性。刺一下說不定便會淌出。[一種十五階影響！可能引來某位司辰親身過問。可用於在某些<b>儀式</b>中召喚手下。]"
+		},
+		{
+			"id": "influenceheart",
+			"label": "戰慄的氣息",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "研究兩份相同的<b>心</b>之影響如何相互協同可以將其加強。研究其如何受<b>蛾</b>之影響的薰陶則能將其拗轉。"
+				},
+				{
+					"id": "knowledge",
+					"label": "知識",
+					"description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]"
+				}
+			],
+			"description": "輕點腳尖。輕快又舒適。[一種二階影響：對於有洞察力的學徒來說很明顯，立刻能被辨別出來。可用於在某些<b>儀式</b>中召喚手下，並且會在某些手下被摧毀時遺留。]"
+		},
+		{
+			"id": "influenceheartc",
+			"label": "脈動的氣息",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "研究兩份相同的<b>心</b>之影響如何相互協同可以將其加強。研究其如何受<b>蛾</b>之影響的薰陶則能將其拗轉。"
+				},
+				{
+					"id": "knowledge",
+					"label": "知識",
+					"description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]"
+				}
+			],
+			"description": "力量上湧，精神鼓舞。[一種六階影響：可引發強烈的共鳴或同感。可用於在某些<b>儀式</b>中召喚手下。]"
+		},
+		{
+			"id": "influencehearte",
+			"label": "鼓震的氣息",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "研究兩份相同的<b>心</b>之影響如何相互協同可以將其加強。研究其如何受<b>蛾</b>之影響的薰陶則能將其拗轉。"
+				},
+				{
+					"id": "knowledge",
+					"label": "知識",
+					"description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]"
+				}
+			],
+			"description": "世界隨心而動。[一種十階影響！力量與危險互相穿插，結為一體。可用於在某些<b>儀式</b>中召喚手下。]"
+		},
+		{
+			"id": "influenceheartg",
+			"label": "近在眉睫",
+			"description": "天空為鼓，大地已經準備好接受它的痴狂。[一種十五階影響！可能引來某位司辰親身過問。可用於在某些<b>儀式</b>中召喚手下。]"
+		},
+		{
+			"id": "sicknessprotection",
+			"label": "推遲行刑",
+			"description": "肉體皆會衰敗。但我得到了保證，我的肉體會衰敗得稍晚一點。[此卡是在你沒有“健康”時對付生病的最後一道保險。]"
+		},
+		{
+			"id": "influenceknock",
+			"label": "輕微的破綻",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "當壓力足夠，世界的表皮就會撕裂。添加任一影響，將其拗轉為更高階的<b>啟</b>之影響。"
+				},
+				{
+					"id": "knowledge",
+					"label": "知識",
+					"description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]"
+				}
+			],
+			"description": "繫帶解開——窗戶外敞——鎖像上過油一樣轉動。[一種二階影響：對於有洞察力的學徒來說很明顯，立刻能辨別出來。可用於在某些<b>儀式</b>中召喚手下。]"
+		},
+		{
+			"id": "influenceknockc",
+			"label": "輕微的裂縫",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "當壓力足夠，世界的表皮就會撕裂。添加任一影響，將其拗轉為更高階的<b>啟</b>之影響。"
+				},
+				{
+					"id": "knowledge",
+					"label": "知識",
+					"description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]"
+				}
+			],
+			"description": "雲朵分離——牆壁碾動——舊傷作痛。[一種六階影響：可引發強烈的共鳴或同感。可用於在某些<b>儀式</b>中召喚手下。]"
+		},
+		{
+			"id": "influenceknocke",
+			"label": "輕微的豁口",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "當壓力足夠，世界的表皮就會撕裂。添加任一影響，將其拗轉為更高階的<b>啟</b>之影響。"
+				},
+				{
+					"id": "knowledge",
+					"label": "知識",
+					"description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]"
+				}
+			],
+			"description": "框架扭曲——門扉爆開——蛇群自土中沸騰而出！[一種十階影響！力量與危險互相穿插，結為一體。可用於在某些<b>儀式</b>中召喚手下。]"
+		},
+		{
+			"id": "influenceknockg",
+			"label": "錯誤的門",
+			"description": "那裡有一扇不該開啟的門，現在連它的合頁都在搖搖欲動。[一種十五階影響！可能引來某位司辰親身過問。可用於在某些<b>儀式</b>中召喚手下。]"
+		},
+		{
+			"id": "influencelantern",
+			"label": "初識的光芒",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "研究兩份相同的<b>燈</b>之影響如何相互協同可以將其加強。研究其如何受<b>鑄</b>之影響的薰陶則能將其拗轉。"
+				},
+				{
+					"id": "knowledge",
+					"label": "知識",
+					"description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]"
+				}
+			],
+			"description": "在世界背後，有這樣一道光，凌駕於漫宿之上，能夠刺透玻璃與皮膚。它出現在了這裡。[一種二階影響：對於有洞察力的學徒來說很明顯，立刻能被辨別出來。可用於在某些<b>儀式</b>中召喚手下，且不會隨其中一部分手下的毀滅的而消失。如果不使用，將會拗轉為入迷。]"
+		},
+		{
+			"id": "influencelanternc",
+			"label": "強烈的光芒",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "研究兩份相同的<b>燈</b>之影響如何相互協同可以將其加強。研究其如何受<b>鑄</b>之影響的薰陶則能將其拗轉。"
+				},
+				{
+					"id": "knowledge",
+					"label": "知識",
+					"description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]"
+				}
+			],
+			"description": "光滴落在皮膚上，瀰漫在空氣中。[一種六階影響：可引發強烈的共鳴或同感。可用於在某些<b>儀式</b>中召喚手下。]"
+		},
+		{
+			"id": "influencelanterne",
+			"label": "暴烈的光芒",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "研究兩份相同的<b>燈</b>之影響如何相互協同可以將其加強。研究其如何受<b>鑄</b>之影響的薰陶則能將其拗轉。"
+				},
+				{
+					"id": "knowledge",
+					"label": "知識",
+					"description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]"
+				}
+			],
+			"description": "每個顏色都更加明亮，彷彿新染過一樣，然而現在它們全都開始流失色澤，褪至純白。[一種十階影響！力量與危險互相穿插，結為一體。可用於在某些<b>儀式</b>中召喚手下。]"
+		},
+		{
+			"id": "influencelanterng",
+			"label": "驕盛奪目",
+			"description": "你可以遮住雙眼，隨便你。遮也無用。[一種十五階影響！可能引來某位司辰親身過問。可用於在某些<b>儀式</b>中召喚手下。]"
+		},
+		{
+			"id": "influencemoth",
+			"label": "腦中的嗡鳴",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "研究兩份相同的<b>蛾</b>之影響如何相互協同可以將其加強。研究其如何受<b>燈</b>之影響的薰陶則能將其拗轉。"
+				},
+				{
+					"id": "knowledge",
+					"label": "知識",
+					"description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]"
+				}
+			],
+			"description": "in gi rum imus noc te et con sumi <b>喀嚓喀嚓喀嚓</b>[一種二階影響：對於有洞察力的學徒來說很明顯，立刻能辨別出來。可用於某些<b>儀式</b>中召喚手下，並且會在某些手下被摧毀時遺留。]"
+		},
+		{
+			"id": "influencemothc",
+			"label": "靈魂的振響",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "研究兩份相同的<b>蛾</b>之影響如何相互協同可以將其加強。研究其如何受<b>燈</b>之影響的薰陶則能將其拗轉。"
+				},
+				{
+					"id": "knowledge",
+					"label": "知識",
+					"description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]"
+				}
+			],
+			"description": "噢，我們玩弄過的朋友，我們製造出的皮囊，依然在驅策著我們！[一種六階影響：可引發強烈的共鳴或同感。可用於在某些<b>儀式</b>中召喚手下。]"
+		},
+		{
+			"id": "influencemothe",
+			"label": "心靈的咆哮",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "研究兩份相同的<b>蛾</b>之影響如何相互協同可以將其加強。研究其如何受<b>燈</b>之影響的薰陶則能將其拗轉。"
+				},
+				{
+					"id": "knowledge",
+					"label": "知識",
+					"description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]"
+				}
+			],
+			"description": "情感歪曲了我們的思想。一種激情臣服於另一種，就像被風捲起的葉子！[一種十階影響！力量與危險互相穿插，結為一體。可用於在某些<b>儀式</b>中召喚手下。]"
+		},
+		{
+			"id": "influencemothg",
+			"label": "舊日的渴慕",
+			"description": "\"\t\t\t\r\n我切切想望\""
+		},
+		{
+			"id": "influencewinter",
+			"label": "冷冽的氣場",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "研究兩份相同的<b>冬</b>之影響如何相互協同可以將其加強。研究其如何受<b>心</b>之影響的薰陶則能將其拗轉。"
+				},
+				{
+					"id": "knowledge",
+					"label": "知識",
+					"description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]"
+				}
+			],
+			"description": "一股特別的寒意徘徊於我的房間。[一種二階影響：對於有洞察力的學徒來說很明顯，立刻能被辨別出來。可用於在某些<b>儀式</b>中召喚手下，並且會在某些手下被摧毀時遺留。]"
+		},
+		{
+			"id": "influencewinterc",
+			"label": "冰結的氣場",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "研究兩份相同的<b>冬</b>之影響如何相互協同可以將其加強。研究其如何受<b>心</b>之影響的薰陶則能將其拗轉。"
+				},
+				{
+					"id": "knowledge",
+					"label": "知識",
+					"description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]"
+				}
+			],
+			"description": "空氣凍得皮膚發脆。霜結上了玻璃。[一種六階影響：跡象顯著無誤。可用於在某些<b>儀式</b>中召喚手下。如果不使用，將會拗轉為恐懼。]"
+		},
+		{
+			"id": "influencewintere",
+			"label": "嚴寒的氣場",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "研究兩份相同的<b>冬</b>之影響如何相互協同可以將其加強。研究其如何受<b>心</b>之影響的薰陶則能將其拗轉。"
+				},
+				{
+					"id": "knowledge",
+					"label": "知識",
+					"description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]"
+				}
+			],
+			"description": "冬季穿透了衣物，穿透了皮膚，宿居在血管裡。[一種十階影響！力量與危險互相穿插，結為一體。可用於在某些<b>儀式</b>中召喚手下。如果不使用，將會拗轉為恐懼。]"
+		},
+		{
+			"id": "influencewinterg",
+			"label": "無瑕的冰霜",
+			"description": "這個世界死寂如冰，每一步都是一段艱辛旅程。[一種十五階影響！可能引來某位司辰親身過問。可用於在某些<b>儀式</b>中召喚手下。如果不使用，將會拗轉為恐懼。]"
+		},
+		{
+			"id": "husk",
+			"label": "空殼",
+			"description": "已被耗盡之物。"
+		}
+	]
 }

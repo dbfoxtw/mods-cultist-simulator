@@ -1,526 +1,250 @@
 {
-    "elements": [
-        {
-            "id": "locationbookdealer",
-            "label": "莫蘭書店",
-            "aspects": {
-                "location": 1
-            },
-            "slots": [
-                {
-                    "id": "Cost",
-                    "label": "消費",
-                    "required": {
-                        "funds": 1
-                    },
-                    "consumes": true,
-                    "actionId": "explore"
-                }
-            ],
-            "description": "一座光線昏暗的經營場所，屬莫蘭小姐所有；她買賣稀有，且有時會帶來危險的書籍。",
-            "unique": true,
-            "xtriggers": {
-                "exhaustlocation": "locationbookdealer_exhausted"
-            }
-        },
-        {
-            "id": "locationbookdealer_exhausted",
-            "label": "莫蘭書店[歇業]",
-            "description": "這裡是書商莫蘭的舊址，如今我必須去別的地方尋找知識了。",
-            "aspects": {
-                "location": 1,
-                "hq.potential": 1
-            },
-            "slots": [
-                {
-                    "id": "Old HQ",
-                    "description": "將舊總部放入此處將其廢棄，並搬遷至新總部。一旦實施則不可撤回。",
-                    "actionId": "explore",
-                    "required": {
-                        "hq": 1
-                    }
-                }
-            ],
-            "unique": true,
-            "xtriggers": {
-                "movehq": "hq.bookshop"
-            }
-        },
-        {
-            "id": "locationauctionhouse",
-            "label": "奧里弗拉姆拍賣行",
-            "aspects": {
-                "location": 1
-            },
-            "description": "奧里弗拉姆專賣古玩，香水，生物標本和稀有文獻。自被一場無法解釋的大火燒毀後，如今，它於侷促的新址展開業務。[你可以去拍賣行買賣物品。]",
-            "slots": [
-                {
-                    "id": "Sell",
-                    "label": "售賣",
-                    "description": "把物品放在此處拍賣。",
-                    "required": {
-                        "auctionable": 1
-                    },
-                    "actionId": "explore"
-                }
-            ],
-            "unique": true
-        },
-        {
-            "id": "locationcabaretclosed",
-            "label": "蛻衣俱樂部[歇業]",
-            "description": "一家據傳與密教有關的夜總會。只在每週特定的夜晚開放；不久即將重新開業。",
-            "unique": true,
-            "lifetime": 30,
-            "decayTo": "locationcabaret",
-            "uniquenessgroup": "uqcabaret",
-            "resaturate": true
-        },
-        {
-            "id": "locationcabaret",
-            "label": "蛻衣俱樂部",
-            "aspects": {
-                "location": 1,
-                "moth": 1,
-                "grail": 1,
-                "heart": 1
-            },
-            "description": "一家據傳與密教有關的夜總會。",
-            "slots": [
-                {
-                    "id": "Entry",
-                    "label": "入會",
-                    "actionId": "explore",
-                    "required": {
-                        "funds": 1,
-                        "sulochana": 1
-                    }
-                }
-            ],
-            "xtriggers": {
-                "locationcabaret": "locationcabaretclosed"
-            },
-            "unique": true,
-            "uniquenessgroup": "uqcabaret"
-        },
-        {
-            "id": "hq.abandoned",
-            "label": "廢棄的總部",
-            "description": "Forget it, J.N.",
-            "lifetime": 1
-        },
-        {
-            "id": "generichq",
-            "label": "總部？",
-            "aspects": {
-                "hq": 1
-            },
-            "description": "[Headquarters mechanics have changed.]",
-            "unique": true
-        },
-        {
-            "id": "hq.temporary",
-            "label": "臨時總部",
-            "aspects": {
-                "hq": 1,
-                "location": 1
-            },
-            "description": "我們辦的是私人事務。我們可以搬去更隱秘的地方。",
-            "slots": [
-                {
-                    "id": "Cupboard",
-                    "label": "櫥櫃",
-                    "description": "將追隨者置入此處，將其永久轉變成囚犯。",
-                    "actionId": "talk",
-                    "required": {
-                        "follower": 1
-                    },
-                    "forbidden": {
-                        "summoned": 1
-                    }
-                }
-            ],
-            "xtriggers": {
-                "movehq": "hq.abandoned"
-            },
-            "unique": true,
-            "icon": "generichq"
-        },
-        {
-            "id": "hq.townhouse",
-            "label": "奢華大宅",
-            "aspects": {
-                "hq": 1,
-                "location": 1,
-                "library": 1
-            },
-            "description": "我們總是先拉嚴窗簾，再把地毯捲起來，在地板上用粉筆寫寫畫畫。",
-            "slots": [
-                {
-                    "id": "Attic",
-                    "description": "將追隨者置入此處，將其永久轉變成囚犯。",
-                    "actionId": "talk",
-                    "required": {
-                        "follower": 1
-                    },
-                    "forbidden": {
-                        "summoned": 1
-                    }
-                },
-                {
-                    "id": "funds",
-                    "label": "資金",
-                    "description": "將資金放入此處，引發杯之影響。",
-                    "actionId": "explore",
-                    "required": {
-                        "funds": 1
-                    }
-                }
-            ],
-            "xtriggers": {
-                "movehq": "hq.abandoned"
-            },
-            "unique": true
-        },
-        {
-            "id": "hq.church",
-            "label": "非正統教會",
-            "aspects": {
-                "hq": 1,
-                "location": 1,
-                "sanctuary": 1
-            },
-            "description": "即便在禮拜日清晨，禮拜程序裡也會出些怪事，但大部分外人注意不到。我們不邀外人參加在更冷冽的時段舉辦的典禮。",
-            "slots": [
-                {
-                    "id": "Vestry",
-                    "description": "被鎖在此處的追隨者將永久轉變為囚犯。",
-                    "actionId": "talk",
-                    "required": {
-                        "follower": 1
-                    },
-                    "forbidden": {
-                        "summoned": 1
-                    }
-                },
-                {
-                    "id": "funds",
-                    "label": "資金",
-                    "description": "將資金放入此處，引發啟之影響。",
-                    "actionId": "explore",
-                    "required": {
-                        "funds": 1
-                    }
-                }
-            ],
-            "xtriggers": {
-                "movehq": "hq.abandoned"
-            },
-            "unique": true
-        },
-        {
-            "id": "hq.mithraeum",
-            "label": "燭光搖曳的密特拉寺",
-            "aspects": {
-                "hq": 1,
-                "location": 1,
-                "sanctuary": 1,
-                "secret": 1
-            },
-            "description": "新晉之人在此處讚美奧秘已近兩千年。讚詞改變，神明更迭，然而最終，不變的是血的存在。",
-            "slots": [
-                {
-                    "id": "Chains",
-                    "description": "將追隨者置入此處，將其永久轉變成囚犯。",
-                    "actionId": "talk",
-                    "required": {
-                        "follower": 1
-                    },
-                    "forbidden": {
-                        "summoned": 1
-                    }
-                },
-                {
-                    "id": "funds",
-                    "label": "資金",
-                    "description": "將資金放入此處，引發燈之影響。",
-                    "actionId": "explore",
-                    "required": {
-                        "funds": 1
-                    }
-                }
-            ],
-            "xtriggers": {
-                "movehq": "hq.abandoned"
-            },
-            "unique": true
-        },
-        {
-            "id": "hq.hospital",
-            "label": "藍紫大屋",
-            "aspects": {
-                "hq": 1,
-                "location": 1,
-                "pit": 1,
-                "secret": 1
-            },
-            "description": "我們將牆壁漆成同藍紫色廳堂的濃重顏色。我們打掃了蛛網並給所有窗戶安裝上不惹眼的百葉窗。我們還換掉了所有的鎖頭。",
-            "slots": [
-                {
-                    "id": "Cell",
-                    "description": "將追隨者置入此處，將其永久轉變成囚犯。",
-                    "actionId": "talk",
-                    "required": {
-                        "follower": 1
-                    },
-                    "forbidden": {
-                        "summoned": 1
-                    }
-                },
-                {
-                    "id": "funds",
-                    "label": "資金",
-                    "description": "將資金放入此處，引發啟之影響。",
-                    "actionId": "explore",
-                    "required": {
-                        "funds": 1
-                    }
-                }
-            ],
-            "xtriggers": {
-                "movehq": "hq.abandoned"
-            },
-            "unique": true
-        },
-        {
-            "id": "hq.bookshop",
-            "label": "書店後頭的房間",
-            "aspects": {
-                "hq": 1,
-                "location": 1,
-                "library": 1
-            },
-            "description": "莫蘭小姐存貨裡的次要品目尚在。隨著時間經過，有陌生人帶著書誤闖進來售賣，有時候我們會滿足他們。",
-            "slots": [
-                {
-                    "id": "Cellar",
-                    "description": "將追隨者置入此處，將其永久轉變成囚犯。",
-                    "actionId": "talk",
-                    "required": {
-                        "follower": 1
-                    },
-                    "forbidden": {
-                        "summoned": 1
-                    }
-                },
-                {
-                    "id": "funds",
-                    "label": "資金",
-                    "description": "將資金放入此處，引發心之影響。",
-                    "actionId": "explore",
-                    "required": {
-                        "funds": 1
-                    }
-                }
-            ],
-            "xtriggers": {
-                "movehq": "hq.abandoned"
-            },
-            "unique": true
-        },
-        {
-            "id": "hq.warehouse",
-            "label": "昏暗的倉庫",
-            "aspects": {
-                "hq": 1,
-                "location": 1,
-                "pit": 1,
-                "secret": 1
-            },
-            "description": "椽子上爬過成排的老鼠。它們散發出的氣味幾乎淹沒在河水的臭氣中。這裡離人們願意去的任何地方都相距甚遠。此類情況，在某種意義上，全都是優勢。",
-            "slots": [
-                {
-                    "id": "Shed",
-                    "description": "將追隨者置入此處，將其永久轉變成囚犯。",
-                    "actionId": "talk",
-                    "required": {
-                        "follower": 1
-                    },
-                    "forbidden": {
-                        "summoned": 1
-                    }
-                },
-                {
-                    "id": "funds",
-                    "label": "資金",
-                    "description": "將資金放入此處，引發鑄之影響。",
-                    "actionId": "explore",
-                    "required": {
-                        "funds": 1
-                    }
-                }
-            ],
-            "xtriggers": {
-                "movehq": "hq.abandoned"
-            },
-            "unique": true
-        },
-        {
-            "id": "hq.church.potential",
-            "label": "無人主持的教會",
-            "aspects": {
-                "location": 1,
-                "hq.potential": 1
-            },
-            "description": "一天晚上，祭司消失了，走得十分突然，還帶去了他的親信和教堂最珍貴的寶物。人們普遍猜測他去了更好的地方：一個靠近粼粼海波的陽光明媚之地。我們可以招攬他身後群羊無首的信眾，把此處作為我們的活動基地。",
-            "slots": [
-                {
-                    "id": "Old HQ",
-                    "description": "將舊總部放入此處將其廢棄，並搬遷至新總部。一旦實施則不可撤回。",
-                    "actionId": "explore",
-                    "required": {
-                        "hq": 1
-                    }
-                }
-            ],
-            "unique": true,
-            "xtriggers": {
-                "movehq": "hq.church"
-            },
-            "icon": "hq.church"
-        },
-        {
-            "id": "hq.mithraeum.potential",
-            "label": "空蕩蕩的密特拉寺",
-            "aspects": {
-                "location": 1,
-                "hq.potential": 1
-            },
-            "description": "此處原為敬拜之地。我們可以讓它重回舊用。",
-            "slots": [
-                {
-                    "id": "Old HQ",
-                    "description": "將舊總部放入此處將其廢棄，並搬遷至新總部。一旦實施則不可撤回。",
-                    "actionId": "explore",
-                    "required": {
-                        "hq": 1
-                    }
-                }
-            ],
-            "unique": true,
-            "xtriggers": {
-                "movehq": "hq.mithraeum"
-            },
-            "icon": "hq.mithraeum"
-        },
-        {
-            "id": "hq.hospital.potential",
-            "label": "空蕩蕩的醫院",
-            "aspects": {
-                "location": 1,
-                "hq.potential": 1
-            },
-            "description": "幽靈——鄰居們說——仍在樓內餘音迴盪的廳堂裡走動。如果我們占據此地，當然了，它們會離去，又或者我們可以令之為我所用。",
-            "slots": [
-                {
-                    "id": "Old HQ",
-                    "description": "將舊總部放入此處將其廢棄，並搬遷至新總部。一旦實施則不可撤回。",
-                    "actionId": "explore",
-                    "required": {
-                        "hq": 1
-                    }
-                }
-            ],
-            "unique": true,
-            "xtriggers": {
-                "movehq": "hq.hospital"
-            },
-            "icon": "hq.hospital"
-        },
-        {
-            "id": "hq.warehouse.potential",
-            "label": "廢棄的倉庫",
-            "aspects": {
-                "location": 1,
-                "hq.potential": 1
-            },
-            "description": "腐臭河流旁的一具腐臭空殼。誰會追我們追到這裡來？",
-            "slots": [
-                {
-                    "id": "Old HQ",
-                    "description": "將舊總部放入此處將其廢棄，並搬遷至新總部。一旦實施則不可撤回。",
-                    "actionId": "explore",
-                    "required": {
-                        "hq": 1
-                    }
-                }
-            ],
-            "unique": true,
-            "xtriggers": {
-                "movehq": "hq.warehouse"
-            },
-            "icon": "hq.warehouse"
-        },
-        {
-            "id": "locationstreetsstrange",
-            "label": "在月光下呈現異象的街巷",
-            "aspects": {
-                "location": 1
-            },
-            "description": "有時，月亮的光輝是開啟其他空間的鑰匙。我發現一處地點，在那麼一兩個晚上，街巷會以離奇的方式扭曲。如果我走去那裡，或許我能洞見真知，又或許我會沾染上瘋狂。",
-            "lifetime": 120
-        },
-        {
-            "id": "location.gallery",
-            "label": "蒙特梅倫齊—麥克唐納畫廊",
-            "comments": "currently just used for early Ghoul flavour, but we could do more.",
-            "aspects": {
-                "location": 1
-            },
-            "description": "阿利斯泰爾·蒙特梅倫齊，是蒙特梅倫齊家族第三位也是最後一位地圖測繪師。他那位神秘的贊助人蒂莫西·麥克唐納收藏了這些尺寸不大但引人注目的雜項藏品。在他們那次失敗的極地冒險後，這些藏品最後面向公眾開放，在安靜的公園旁邊一棟其貌不揚的灰色建築中展出，展出條件是：禁止拍照，且藏品不能暴露在日光之下。"
-        },
-        {
-            "id": "location.cemetery",
-            "label": "公墓",
-            "slots": [
-                {
-                    "id": "muscle",
-                    "label": "勞力",
-                    "description": "我可以雇一名幫手，又或自己親手去挖。",
-                    "actionId": "explore",
-                    "required": {
-                        "health": 1,
-                        "follower": 1
-                    }
-                }
-            ],
-            "description": "在醒時的世界，和在夢中一樣，死者通常位於下方。",
-            "aspects": {
-                "location": 1
-            },
-            "lifetime": 300,
-            "decayTo": "location.cemetery.closing"
-        },
-        {
-            "id": "location.cemetery.closing",
-            "label": "看守嚴密的公墓",
-            "description": "當局注意到了此地發生的異常舉動。他們派來了一名守衛。訪問此地將耗費更長的時間，而且很快會變得完全不可能。",
-            "slots": [
-                {
-                    "id": "muscle",
-                    "label": "勞力",
-                    "description": "我可以雇一名幫手，又或自己親手去挖。",
-                    "actionId": "explore",
-                    "required": {
-                        "health": 1,
-                        "follower": 1
-                    }
-                }
-            ],
-            "aspects": {
-                "location": 1
-            },
-            "lifetime": 60
-        }
-    ]
+	"elements": [
+		{
+			"id": "locationbookdealer",
+			"label": "莫蘭書店",
+			"slots": [
+				{
+					"id": "Cost",
+					"label": "消費"
+				}
+			],
+			"description": "一座光線昏暗的經營場所，屬莫蘭小姐所有；她買賣稀有，且有時會帶來危險的書籍。"
+		},
+		{
+			"id": "locationbookdealer_exhausted",
+			"label": "莫蘭書店[歇業]",
+			"description": "這裡是書商莫蘭的舊址，如今我必須去別的地方尋找知識了。",
+			"slots": [
+				{
+					"id": "Old HQ",
+					"description": "將舊總部放入此處將其廢棄，並搬遷至新總部。一旦實施則不可撤回。"
+				}
+			]
+		},
+		{
+			"id": "locationauctionhouse",
+			"label": "奧里弗拉姆拍賣行",
+			"description": "奧里弗拉姆專賣古玩，香水，生物標本和稀有文獻。自被一場無法解釋的大火燒毀後，如今，它於侷促的新址展開業務。[你可以去拍賣行買賣物品。]",
+			"slots": [
+				{
+					"id": "Sell",
+					"label": "售賣",
+					"description": "把物品放在此處拍賣。"
+				}
+			]
+		},
+		{
+			"id": "locationcabaretclosed",
+			"label": "蛻衣俱樂部[歇業]",
+			"description": "一家據傳與密教有關的夜總會。只在每週特定的夜晚開放；不久即將重新開業。"
+		},
+		{
+			"id": "locationcabaret",
+			"label": "蛻衣俱樂部",
+			"description": "一家據傳與密教有關的夜總會。",
+			"slots": [
+				{
+					"id": "Entry",
+					"label": "入會"
+				}
+			]
+		},
+		{
+			"id": "hq.abandoned",
+			"label": "廢棄的總部",
+			"description": "Forget it, J.N."
+		},
+		{
+			"id": "generichq",
+			"label": "總部？",
+			"description": "[Headquarters mechanics have changed.]"
+		},
+		{
+			"id": "hq.temporary",
+			"label": "臨時總部",
+			"description": "我們辦的是私人事務。我們可以搬去更隱秘的地方。",
+			"slots": [
+				{
+					"id": "Cupboard",
+					"label": "櫥櫃",
+					"description": "將追隨者置入此處，將其永久轉變成囚犯。"
+				}
+			]
+		},
+		{
+			"id": "hq.townhouse",
+			"label": "奢華大宅",
+			"description": "我們總是先拉嚴窗簾，再把地毯捲起來，在地板上用粉筆寫寫畫畫。",
+			"slots": [
+				{
+					"id": "Attic",
+					"description": "將追隨者置入此處，將其永久轉變成囚犯。"
+				},
+				{
+					"id": "funds",
+					"label": "資金",
+					"description": "將資金放入此處，引發杯之影響。"
+				}
+			]
+		},
+		{
+			"id": "hq.church",
+			"label": "非正統教會",
+			"description": "即便在禮拜日清晨，禮拜程序裡也會出些怪事，但大部分外人注意不到。我們不邀外人參加在更冷冽的時段舉辦的典禮。",
+			"slots": [
+				{
+					"id": "Vestry",
+					"description": "被鎖在此處的追隨者將永久轉變為囚犯。"
+				},
+				{
+					"id": "funds",
+					"label": "資金",
+					"description": "將資金放入此處，引發啟之影響。"
+				}
+			]
+		},
+		{
+			"id": "hq.mithraeum",
+			"label": "燭光搖曳的密特拉寺",
+			"description": "新晉之人在此處讚美奧秘已近兩千年。讚詞改變，神明更迭，然而最終，不變的是血的存在。",
+			"slots": [
+				{
+					"id": "Chains",
+					"description": "將追隨者置入此處，將其永久轉變成囚犯。"
+				},
+				{
+					"id": "funds",
+					"label": "資金",
+					"description": "將資金放入此處，引發燈之影響。"
+				}
+			]
+		},
+		{
+			"id": "hq.hospital",
+			"label": "藍紫大屋",
+			"description": "我們將牆壁漆成同藍紫色廳堂的濃重顏色。我們打掃了蛛網並給所有窗戶安裝上不惹眼的百葉窗。我們還換掉了所有的鎖頭。",
+			"slots": [
+				{
+					"id": "Cell",
+					"description": "將追隨者置入此處，將其永久轉變成囚犯。"
+				},
+				{
+					"id": "funds",
+					"label": "資金",
+					"description": "將資金放入此處，引發啟之影響。"
+				}
+			]
+		},
+		{
+			"id": "hq.bookshop",
+			"label": "書店後頭的房間",
+			"description": "莫蘭小姐存貨裡的次要品目尚在。隨著時間經過，有陌生人帶著書誤闖進來售賣，有時候我們會滿足他們。",
+			"slots": [
+				{
+					"id": "Cellar",
+					"description": "將追隨者置入此處，將其永久轉變成囚犯。"
+				},
+				{
+					"id": "funds",
+					"label": "資金",
+					"description": "將資金放入此處，引發心之影響。"
+				}
+			]
+		},
+		{
+			"id": "hq.warehouse",
+			"label": "昏暗的倉庫",
+			"description": "椽子上爬過成排的老鼠。它們散發出的氣味幾乎淹沒在河水的臭氣中。這裡離人們願意去的任何地方都相距甚遠。此類情況，在某種意義上，全都是優勢。",
+			"slots": [
+				{
+					"id": "Shed",
+					"description": "將追隨者置入此處，將其永久轉變成囚犯。"
+				},
+				{
+					"id": "funds",
+					"label": "資金",
+					"description": "將資金放入此處，引發鑄之影響。"
+				}
+			]
+		},
+		{
+			"id": "hq.church.potential",
+			"label": "無人主持的教會",
+			"description": "一天晚上，祭司消失了，走得十分突然，還帶去了他的親信和教堂最珍貴的寶物。人們普遍猜測他去了更好的地方：一個靠近粼粼海波的陽光明媚之地。我們可以招攬他身後群羊無首的信眾，把此處作為我們的活動基地。",
+			"slots": [
+				{
+					"id": "Old HQ",
+					"description": "將舊總部放入此處將其廢棄，並搬遷至新總部。一旦實施則不可撤回。"
+				}
+			]
+		},
+		{
+			"id": "hq.mithraeum.potential",
+			"label": "空蕩蕩的密特拉寺",
+			"description": "此處原為敬拜之地。我們可以讓它重回舊用。",
+			"slots": [
+				{
+					"id": "Old HQ",
+					"description": "將舊總部放入此處將其廢棄，並搬遷至新總部。一旦實施則不可撤回。"
+				}
+			]
+		},
+		{
+			"id": "hq.hospital.potential",
+			"label": "空蕩蕩的醫院",
+			"description": "幽靈——鄰居們說——仍在樓內餘音迴盪的廳堂裡走動。如果我們占據此地，當然了，它們會離去，又或者我們可以令之為我所用。",
+			"slots": [
+				{
+					"id": "Old HQ",
+					"description": "將舊總部放入此處將其廢棄，並搬遷至新總部。一旦實施則不可撤回。"
+				}
+			]
+		},
+		{
+			"id": "hq.warehouse.potential",
+			"label": "廢棄的倉庫",
+			"description": "腐臭河流旁的一具腐臭空殼。誰會追我們追到這裡來？",
+			"slots": [
+				{
+					"id": "Old HQ",
+					"description": "將舊總部放入此處將其廢棄，並搬遷至新總部。一旦實施則不可撤回。"
+				}
+			]
+		},
+		{
+			"id": "locationstreetsstrange",
+			"label": "在月光下呈現異象的街巷",
+			"description": "有時，月亮的光輝是開啟其他空間的鑰匙。我發現一處地點，在那麼一兩個晚上，街巷會以離奇的方式扭曲。如果我走去那裡，或許我能洞見真知，又或許我會沾染上瘋狂。"
+		},
+		{
+			"id": "location.gallery",
+			"label": "蒙特梅倫齊—麥克唐納畫廊",
+			"description": "阿利斯泰爾·蒙特梅倫齊，是蒙特梅倫齊家族第三位也是最後一位地圖測繪師。他那位神秘的贊助人蒂莫西·麥克唐納收藏了這些尺寸不大但引人注目的雜項藏品。在他們那次失敗的極地冒險後，這些藏品最後面向公眾開放，在安靜的公園旁邊一棟其貌不揚的灰色建築中展出，展出條件是：禁止拍照，且藏品不能暴露在日光之下。"
+		},
+		{
+			"id": "location.cemetery",
+			"label": "公墓",
+			"slots": [
+				{
+					"id": "muscle",
+					"label": "勞力",
+					"description": "我可以雇一名幫手，又或自己親手去挖。"
+				}
+			],
+			"description": "在醒時的世界，和在夢中一樣，死者通常位於下方。"
+		},
+		{
+			"id": "location.cemetery.closing",
+			"label": "看守嚴密的公墓",
+			"description": "當局注意到了此地發生的異常舉動。他們派來了一名守衛。訪問此地將耗費更長的時間，而且很快會變得完全不可能。",
+			"slots": [
+				{
+					"id": "muscle",
+					"label": "勞力",
+					"description": "我可以雇一名幫手，又或自己親手去挖。"
+				}
+			]
+		}
+	]
 }

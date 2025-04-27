@@ -1,712 +1,360 @@
 {
-    "elements": [
-        {
-            "id": "skillhealtha",
-            "label": "技能：健壯體魄",
-            "aspects": {
-                "healthskill": 1,
-                "ability": 1
-            },
-            "description": "鍛鍊身體有益身心。[與兩個“學有所成”一起使用可獲得更多“健康”。]",
-            "slots": [
-                {
-                    "id": "Health",
-                    "actionId": "work",
-                    "description": "我必須為此投入精力。",
-                    "required": {
-                        "health": 1
-                    }
-                },
-                {
-                    "id": "V1",
-                    "actionId": "study",
-                    "label": "學有所成",
-                    "required": {
-                        "vitalityplus": 1
-                    },
-                    "consumes": true,
-                    "description": "準備好強身健體了嗎？"
-                },
-                {
-                    "id": "V2",
-                    "actionId": "study",
-                    "label": "學有所成",
-                    "required": {
-                        "vitalityplus": 1
-                    },
-                    "consumes": true,
-                    "description": "準備好強身健體了嗎？"
-                }
-            ],
-            "xtriggers": {
-                "careeradvancement": "skillhealthb"
-            }
-        },
-        {
-            "id": "skillhealthb",
-            "label": "技能：強韌體魄",
-            "description": "表面上可能看不出來，但我已經像鐵匠和士兵那樣強壯了。[與三個“學有所成”一起使用可獲得更多“健康”。]",
-            "xtriggers": {
-                "careeradvancement": "skillhealthc"
-            },
-            "aspects": {
-                "healthskill": 2,
-                "ability": 1
-            },
-            "slots": [
-                {
-                    "id": "Health",
-                    "actionId": "work",
-                    "description": "我必須為此投入精力。",
-                    "required": {
-                        "health": 1
-                    }
-                },
-                {
-                    "id": "V1",
-                    "actionId": "study",
-                    "label": "學有所成",
-                    "required": {
-                        "vitalityplus": 1
-                    },
-                    "consumes": true,
-                    "description": "還要繼續強身健體嗎？[與三個“學有所成”一起使用可獲得更多“健康”。]"
-                },
-                {
-                    "id": "V2",
-                    "actionId": "study",
-                    "label": "學有所成",
-                    "required": {
-                        "vitalityplus": 1
-                    },
-                    "consumes": true,
-                    "description": "還要繼續強身健體嗎？"
-                },
-                {
-                    "id": "V3",
-                    "actionId": "study",
-                    "label": "學有所成",
-                    "required": {
-                        "vitalityplus": 1
-                    },
-                    "consumes": true,
-                    "description": "還要繼續強身健體嗎？"
-                }
-            ]
-        },
-        {
-            "id": "skillhealthc",
-            "label": "技能：鋼鐵體魄",
-            "description": "我可以把很多東西徒手捏爆了。[與四個“學有所成”一起使用可獲得更多“健康”。]",
-            "aspects": {
-                "healthskill": 3,
-                "ability": 1
-            },
-            "slots": [
-                {
-                    "id": "Health",
-                    "actionId": "work",
-                    "description": "我必須為此投入精力。",
-                    "required": {
-                        "health": 1
-                    }
-                },
-                {
-                    "id": "specialisation",
-                    "actionId": "study",
-                    "label": "更高境界",
-                    "required": {
-                        "lore": 1
-                    },
-                    "description": "如果有恰當的密傳，我就能用無形之術踏入更高的境界。我必須在力量與魅力間做出選擇。"
-                },
-                {
-                    "id": "V1",
-                    "actionId": "study",
-                    "label": "學有所成",
-                    "required": {
-                        "vitalityplus": 1
-                    },
-                    "consumes": true,
-                    "description": "我能變得更健康嗎？[與四個“學有所成”一起使用可獲得更多“健康”。]"
-                },
-                {
-                    "id": "V2",
-                    "actionId": "study",
-                    "label": "學有所成",
-                    "required": {
-                        "vitalityplus": 1
-                    },
-                    "consumes": true,
-                    "description": "我還能變得更健康嗎？"
-                },
-                {
-                    "id": "V3",
-                    "actionId": "study",
-                    "label": "學有所成",
-                    "required": {
-                        "vitalityplus": 1
-                    },
-                    "consumes": true,
-                    "description": "我還能變得更健康嗎？"
-                },
-                {
-                    "id": "V4",
-                    "actionId": "study",
-                    "label": "學有所成",
-                    "required": {
-                        "vitalityplus": 1
-                    },
-                    "consumes": true,
-                    "description": "我還能變得更健康嗎？"
-                }
-            ]
-        },
-        {
-            "id": "skillhealthd_strength",
-            "label": "技能：無敵體魄",
-            "description": "身動如山移，出手如壓頂。“用力氣掌控他人。用力量掌控自我。”[健康與技能已成長到頭。]",
-            "aspects": {
-                "healthskill": 4,
-                "ability": 1,
-                "murderskill": 1
-            },
-            "slots": [
-                {
-                    "id": "Health",
-                    "actionId": "work",
-                    "description": "我必須為此投入精力。",
-                    "required": {
-                        "health": 1
-                    }
-                }
-            ]
-        },
-        {
-            "id": "skillhealthd_grace",
-            "label": "技能：完美體魄",
-            "description": "達至機器般的精妙。筋腱裹束起白骨，外包裹光滑緊繃的皮膚。“我已達頂點，往後只有衰落。”[健康與技能已成長到頭。]",
-            "aspects": {
-                "healthskill": 4,
-                "ability": 1
-            },
-            "slots": [
-                {
-                    "id": "Health",
-                    "actionId": "work",
-                    "description": "我必須為此投入精力。",
-                    "required": {
-                        "health": 1
-                    }
-                }
-            ]
-        },
-        {
-            "id": "skillreasona",
-            "label": "技能：學識初顯",
-            "aspects": {
-                "reasonskill": 1,
-                "ability": 1
-            },
-            "description": "我能流利地引經據典了。[與兩個“學有所成”一起使用可獲得更多“理性”。]",
-            "slots": [
-                {
-                    "id": "e1",
-                    "label": "學有所成",
-                    "required": {
-                        "eruditionplus": 1
-                    },
-                    "consumes": true,
-                    "description": "要用更多的知識充實自己的頭腦嗎？",
-                    "actionId": "study"
-                },
-                {
-                    "id": "e2",
-                    "label": "學有所成",
-                    "required": {
-                        "eruditionplus": 1
-                    },
-                    "consumes": true,
-                    "description": "要用更多的知識充實自己的頭腦嗎？",
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "careeradvancement": "skillreasonb"
-            }
-        },
-        {
-            "id": "skillreasonb",
-            "label": "技能：學識卓著",
-            "description": "我的學識足夠讓我理解自身的渺小。[與三個“學有所成”一起使用可獲得更多“理性”。]",
-            "xtriggers": {
-                "careeradvancement": "skillreasonc"
-            },
-            "aspects": {
-                "reasonskill": 2,
-                "ability": 1
-            },
-            "slots": [
-                {
-                    "id": "e1",
-                    "label": "學有所成",
-                    "required": {
-                        "eruditionplus": 1
-                    },
-                    "consumes": true,
-                    "description": "我還能進一步學習嗎？",
-                    "actionId": "study"
-                },
-                {
-                    "id": "e2",
-                    "label": "學有所成",
-                    "required": {
-                        "eruditionplus": 1
-                    },
-                    "consumes": true,
-                    "description": "我還能進一步學習嗎？",
-                    "actionId": "study"
-                },
-                {
-                    "id": "e3",
-                    "label": "學有所成",
-                    "required": {
-                        "eruditionplus": 1
-                    },
-                    "consumes": true,
-                    "description": "我還能進一步學習嗎？",
-                    "actionId": "study"
-                }
-            ]
-        },
-        {
-            "id": "skillreasonc",
-            "label": "技能：學識淵博",
-            "description": "我的腦子裝滿了的知識，快要撐裂顱骨。[與四個“學有所成”一起使用可獲得更多“理性”。]",
-            "aspects": {
-                "reasonskill": 3,
-                "ability": 1
-            },
-            "slots": [
-                {
-                    "id": "specialisation",
-                    "actionId": "study",
-                    "label": "更高境界",
-                    "required": {
-                        "lore": 1
-                    },
-                    "description": "如果有恰當的密傳，我就能用無形之術邁入更高的境界。我必須在啟蒙與專注間做出選擇。"
-                },
-                {
-                    "id": "e1",
-                    "label": "學有所成",
-                    "required": {
-                        "eruditionplus": 1
-                    },
-                    "consumes": true,
-                    "description": "我能將理性磨礪得更加鋒銳嗎？",
-                    "actionId": "study"
-                },
-                {
-                    "id": "e2",
-                    "label": "學有所成",
-                    "required": {
-                        "eruditionplus": 1
-                    },
-                    "consumes": true,
-                    "description": "我能將理性磨礪得更加鋒銳嗎？",
-                    "actionId": "study"
-                },
-                {
-                    "id": "e3",
-                    "label": "學有所成",
-                    "required": {
-                        "eruditionplus": 1
-                    },
-                    "consumes": true,
-                    "description": "我能將理性磨礪得更加鋒銳嗎？",
-                    "actionId": "study"
-                },
-                {
-                    "id": "e4",
-                    "label": "學有所成",
-                    "required": {
-                        "eruditionplus": 1
-                    },
-                    "consumes": true,
-                    "description": "我能將理性磨礪得更加鋒銳嗎？",
-                    "actionId": "study"
-                }
-            ]
-        },
-        {
-            "id": "skillreasond_illumination",
-            "label": "技能：高深的思維",
-            "description": "我的頭腦好似玻璃，記憶好似光。[理性與技能已成長到頭。]",
-            "aspects": {
-                "reasonskill": 4,
-                "ability": 1
-            },
-            "icon": "skillreasonc"
-        },
-        {
-            "id": "skillreasond_concentration",
-            "label": "技能：靜默的厚重",
-            "description": "這份令人發寒的沉靜正是篤定帶來的沉靜。[理性與技能已成長到頭。]",
-            "aspects": {
-                "reasonskill": 4,
-                "ability": 1
-            },
-            "icon": "skillreasonc"
-        },
-        {
-            "id": "skillpassiona",
-            "label": "技能：栩栩如生的想像",
-            "aspects": {
-                "passionskill": 1,
-                "ability": 1
-            },
-            "description": "我的白日夢有時會比睡夢更加光怪陸離。[用於<b><作業></b>可進行繪畫；用於<b>研究</b>並和兩個“學有所成”一使用可獲得更多“激情”。]",
-            "slots": [
-                {
-                    "id": "G1",
-                    "label": "學有所成",
-                    "required": {
-                        "glimmeringplus": 1
-                    },
-                    "consumes": true,
-                    "description": "我要繼續為激情提供養料嗎？",
-                    "actionId": "study"
-                },
-                {
-                    "id": "G2",
-                    "label": "學有所成",
-                    "required": {
-                        "glimmeringplus": 1
-                    },
-                    "consumes": true,
-                    "description": "我要繼續為激情提供養料嗎？",
-                    "actionId": "study"
-                },
-                {
-                    "id": "painting1",
-                    "label": "要藝術還是餬口",
-                    "required": {
-                        "passion": 1,
-                        "mystique": 1,
-                        "notoriety": 1
-                    },
-                    "description": "我可以運用激情畫出最好的作品；如若我有一定的聲名，也可以畫些東西來博取眼球。",
-                    "actionId": "work"
-                },
-                {
-                    "id": "painting2",
-                    "label": "要藝術還是餬口",
-                    "required": {
-                        "passion": 1,
-                        "mystique": 1,
-                        "notoriety": 1
-                    },
-                    "description": "我可以運用激情畫出最好的作品；如若我有一定的聲名，也可以畫些東西來博取眼球。",
-                    "actionId": "work"
-                }
-            ],
-            "xtriggers": {
-                "careeradvancement": "skillpassionb"
-            }
-        },
-        {
-            "id": "skillpassionb",
-            "label": "技能：天馬行空的想像",
-            "description": "我因一天弄折六根鉛筆而出名。[用於<b><作業></b>可進行繪畫；用於<b>研究</b>並和三個“學有所成”一使用可獲得更多“激情”。]",
-            "xtriggers": {
-                "careeradvancement": "skillpassionc"
-            },
-            "aspects": {
-                "passionskill": 2,
-                "ability": 1
-            },
-            "slots": [
-                {
-                    "id": "G1",
-                    "label": "學有所成",
-                    "required": {
-                        "glimmeringplus": 1
-                    },
-                    "consumes": true,
-                    "description": "我眼中何所見，筆下何所能？[和三個“學有所成”一起使用可獲得更多“激情”。]",
-                    "actionId": "study"
-                },
-                {
-                    "id": "G2",
-                    "label": "學有所成",
-                    "required": {
-                        "glimmeringplus": 1
-                    },
-                    "consumes": true,
-                    "description": "我眼中何所見，筆下何所能？",
-                    "actionId": "study"
-                },
-                {
-                    "id": "G3",
-                    "label": "學有所成",
-                    "required": {
-                        "glimmeringplus": 1
-                    },
-                    "consumes": true,
-                    "description": "我眼中何所見，筆下何所能？",
-                    "actionId": "study"
-                },
-                {
-                    "id": "painting1",
-                    "label": "要藝術還是餬口",
-                    "required": {
-                        "passion": 1,
-                        "mystique": 1,
-                        "notoriety": 1
-                    },
-                    "description": "我可以運用激情畫出最好的作品；如若我有一定的聲名，也可以畫些東西來博取眼球。",
-                    "actionId": "work"
-                },
-                {
-                    "id": "painting2",
-                    "label": "要藝術還是餬口",
-                    "required": {
-                        "passion": 1,
-                        "mystique": 1,
-                        "notoriety": 1
-                    },
-                    "description": "我可以運用激情畫出最好的作品；如若我有一定的聲名，也可以畫些東西來博取眼球。",
-                    "actionId": "work"
-                },
-                {
-                    "id": "painting3",
-                    "label": "要藝術還是餬口",
-                    "required": {
-                        "passion": 1,
-                        "mystique": 1,
-                        "notoriety": 1
-                    },
-                    "description": "我可以運用激情畫出最好的作品；如若我有一定的聲名，也可以畫些東西來博取眼球。",
-                    "actionId": "work"
-                }
-            ]
-        },
-        {
-            "id": "skillpassionc",
-            "label": "技能：如醉如痴的想像",
-            "description": "我醒時的思緒被幽靈幻影所駕馭。[和四個“學有所成”一起使用可獲得更多“激情”。]",
-            "aspects": {
-                "passionskill": 3,
-                "ability": 1
-            },
-            "slots": [
-                {
-                    "id": "specialisation",
-                    "actionId": "study",
-                    "label": "更高境界",
-                    "required": {
-                        "lore": 1
-                    },
-                    "description": "如果有恰當的密傳，我就能用無形之術踏入更高的境界。我必須在錯亂與愚昧間做出選擇。"
-                },
-                {
-                    "id": "G1",
-                    "label": "學有所成",
-                    "required": {
-                        "glimmeringplus": 1
-                    },
-                    "consumes": true,
-                    "description": "紙上會留下何等暴烈的幻象？[用於<b><作業></b>可進行繪畫；用於<b>研究</b>並和四個“學有所成”一使用可獲得更多“激情”。]",
-                    "actionId": "study"
-                },
-                {
-                    "id": "G2",
-                    "label": "學有所成",
-                    "required": {
-                        "glimmeringplus": 1
-                    },
-                    "consumes": true,
-                    "description": "紙上會留下何等暴烈的幻象？",
-                    "actionId": "study"
-                },
-                {
-                    "id": "G3",
-                    "label": "學有所成",
-                    "required": {
-                        "glimmeringplus": 1
-                    },
-                    "consumes": true,
-                    "description": "紙上會留下何等暴烈的幻象？",
-                    "actionId": "study"
-                },
-                {
-                    "id": "G4",
-                    "label": "學有所成",
-                    "required": {
-                        "glimmeringplus": 1
-                    },
-                    "consumes": true,
-                    "description": "紙上會留下何等暴烈的幻象？",
-                    "actionId": "study"
-                },
-                {
-                    "id": "painting1",
-                    "label": "要藝術還是餬口",
-                    "required": {
-                        "passion": 1,
-                        "mystique": 1,
-                        "notoriety": 1
-                    },
-                    "description": "我可以運用激情畫出最好的作品；如若我有一定的聲名，也可以畫些東西來博取眼球。",
-                    "actionId": "work"
-                },
-                {
-                    "id": "painting2",
-                    "label": "要藝術還是餬口",
-                    "required": {
-                        "passion": 1,
-                        "mystique": 1,
-                        "notoriety": 1
-                    },
-                    "description": "我可以運用激情畫出最好的作品；如若我有一定的聲名，也可以畫些東西來博取眼球。",
-                    "actionId": "work"
-                },
-                {
-                    "id": "painting3",
-                    "label": "要藝術還是餬口",
-                    "required": {
-                        "passion": 1,
-                        "mystique": 1,
-                        "notoriety": 1
-                    },
-                    "description": "我可以運用激情畫出最好的作品；如若我有一定的聲名，也可以畫些東西來博取眼球。",
-                    "actionId": "work"
-                },
-                {
-                    "id": "painting4",
-                    "label": "要藝術還是餬口",
-                    "required": {
-                        "passion": 1,
-                        "mystique": 1,
-                        "notoriety": 1
-                    },
-                    "description": "我可以運用激情畫出最好的作品；如若我有一定的聲名，也可以畫些東西來博取眼球。",
-                    "actionId": "work"
-                }
-            ]
-        },
-        {
-            "id": "skillpassiond_unreason",
-            "label": "技能：永無止盡",
-            "description": "還有更多，更多，更多，更——[激情與技能已成長到頭。]",
-            "aspects": {
-                "passionskill": 4,
-                "ability": 1
-            },
-            "slots": [
-                {
-                    "id": "painting1",
-                    "label": "要藝術還是餬口",
-                    "required": {
-                        "passion": 1,
-                        "mystique": 1,
-                        "notoriety": 1
-                    },
-                    "description": "我可以運用激情畫出最好的作品；如若我有一定的聲名，也可以畫些東西來博取眼球。",
-                    "actionId": "work"
-                },
-                {
-                    "id": "painting2",
-                    "label": "要藝術還是餬口",
-                    "required": {
-                        "passion": 1,
-                        "mystique": 1,
-                        "notoriety": 1
-                    },
-                    "description": "我可以運用激情畫出最好的作品；如若我有一定的聲名，也可以畫些東西來博取眼球。",
-                    "actionId": "work"
-                },
-                {
-                    "id": "painting3",
-                    "label": "要藝術還是餬口",
-                    "required": {
-                        "passion": 1,
-                        "mystique": 1,
-                        "notoriety": 1
-                    },
-                    "description": "我可以運用激情畫出最好的作品；如若我有一定的聲名，也可以畫些東西來博取眼球。",
-                    "actionId": "work"
-                },
-                {
-                    "id": "painting4",
-                    "label": "要藝術還是餬口",
-                    "required": {
-                        "passion": 1,
-                        "mystique": 1,
-                        "notoriety": 1
-                    },
-                    "description": "我可以運用激情畫出最好的作品；如若我有一定的聲名，也可以畫些東西來博取眼球。",
-                    "actionId": "work"
-                }
-            ],
-            "icon": "skillpassionc"
-        },
-        {
-            "id": "skillpassiond_folly",
-            "label": "技能：洞開的靈魂",
-            "description": "“看哪，他們站在我門外叩門；若我聽見聲音，我就開門，要他們進到我這裡來，我與他們、他們與我一同坐席。”[激情與技能已成長到頭。]",
-            "aspects": {
-                "passionskill": 4,
-                "ability": 1
-            },
-            "slots": [
-                {
-                    "id": "painting1",
-                    "label": "要藝術還是餬口",
-                    "required": {
-                        "passion": 1,
-                        "mystique": 1,
-                        "notoriety": 1
-                    },
-                    "description": "我可以運用激情畫出最好的作品；如若我有一定的聲名，也可以畫些東西來博取眼球。",
-                    "actionId": "work"
-                },
-                {
-                    "id": "painting2",
-                    "label": "要藝術還是餬口",
-                    "required": {
-                        "passion": 1,
-                        "mystique": 1,
-                        "notoriety": 1
-                    },
-                    "description": "我可以運用激情畫出最好的作品；如若我有一定的聲名，也可以畫些東西來博取眼球。",
-                    "actionId": "work"
-                },
-                {
-                    "id": "painting3",
-                    "label": "要藝術還是餬口",
-                    "required": {
-                        "passion": 1,
-                        "mystique": 1,
-                        "notoriety": 1
-                    },
-                    "description": "我可以運用激情畫出最好的作品；如若我有一定的聲名，也可以畫些東西來博取眼球。",
-                    "actionId": "work"
-                },
-                {
-                    "id": "painting4",
-                    "label": "要藝術還是餬口",
-                    "required": {
-                        "passion": 1,
-                        "mystique": 1,
-                        "notoriety": 1
-                    },
-                    "description": "我可以運用激情畫出最好的作品；如若我有一定的聲名，也可以畫些東西來博取眼球。",
-                    "actionId": "work"
-                }
-            ],
-            "icon": "skillpassionc"
-        }
-    ]
+	"elements": [
+		{
+			"id": "skillhealtha",
+			"label": "技能：健壯體魄",
+			"description": "鍛鍊身體有益身心。[與兩個“學有所成”一起使用可獲得更多“健康”。]",
+			"slots": [
+				{
+					"id": "Health",
+					"description": "我必須為此投入精力。"
+				},
+				{
+					"id": "V1",
+					"label": "學有所成",
+					"description": "準備好強身健體了嗎？"
+				},
+				{
+					"id": "V2",
+					"label": "學有所成",
+					"description": "準備好強身健體了嗎？"
+				}
+			]
+		},
+		{
+			"id": "skillhealthb",
+			"label": "技能：強韌體魄",
+			"description": "表面上可能看不出來，但我已經像鐵匠和士兵那樣強壯了。[與三個“學有所成”一起使用可獲得更多“健康”。]",
+			"slots": [
+				{
+					"id": "Health",
+					"description": "我必須為此投入精力。"
+				},
+				{
+					"id": "V1",
+					"label": "學有所成",
+					"description": "還要繼續強身健體嗎？[與三個“學有所成”一起使用可獲得更多“健康”。]"
+				},
+				{
+					"id": "V2",
+					"label": "學有所成",
+					"description": "還要繼續強身健體嗎？"
+				},
+				{
+					"id": "V3",
+					"label": "學有所成",
+					"description": "還要繼續強身健體嗎？"
+				}
+			]
+		},
+		{
+			"id": "skillhealthc",
+			"label": "技能：鋼鐵體魄",
+			"description": "我可以把很多東西徒手捏爆了。[與四個“學有所成”一起使用可獲得更多“健康”。]",
+			"slots": [
+				{
+					"id": "Health",
+					"description": "我必須為此投入精力。"
+				},
+				{
+					"id": "specialisation",
+					"label": "更高境界",
+					"description": "如果有恰當的密傳，我就能用無形之術踏入更高的境界。我必須在力量與魅力間做出選擇。"
+				},
+				{
+					"id": "V1",
+					"label": "學有所成",
+					"description": "我能變得更健康嗎？[與四個“學有所成”一起使用可獲得更多“健康”。]"
+				},
+				{
+					"id": "V2",
+					"label": "學有所成",
+					"description": "我還能變得更健康嗎？"
+				},
+				{
+					"id": "V3",
+					"label": "學有所成",
+					"description": "我還能變得更健康嗎？"
+				},
+				{
+					"id": "V4",
+					"label": "學有所成",
+					"description": "我還能變得更健康嗎？"
+				}
+			]
+		},
+		{
+			"id": "skillhealthd_strength",
+			"label": "技能：無敵體魄",
+			"description": "身動如山移，出手如壓頂。“用力氣掌控他人。用力量掌控自我。”[健康與技能已成長到頭。]",
+			"slots": [
+				{
+					"id": "Health",
+					"description": "我必須為此投入精力。"
+				}
+			]
+		},
+		{
+			"id": "skillhealthd_grace",
+			"label": "技能：完美體魄",
+			"description": "達至機器般的精妙。筋腱裹束起白骨，外包裹光滑緊繃的皮膚。“我已達頂點，往後只有衰落。”[健康與技能已成長到頭。]",
+			"slots": [
+				{
+					"id": "Health",
+					"description": "我必須為此投入精力。"
+				}
+			]
+		},
+		{
+			"id": "skillreasona",
+			"label": "技能：學識初顯",
+			"description": "我能流利地引經據典了。[與兩個“學有所成”一起使用可獲得更多“理性”。]",
+			"slots": [
+				{
+					"id": "e1",
+					"label": "學有所成",
+					"description": "要用更多的知識充實自己的頭腦嗎？"
+				},
+				{
+					"id": "e2",
+					"label": "學有所成",
+					"description": "要用更多的知識充實自己的頭腦嗎？"
+				}
+			]
+		},
+		{
+			"id": "skillreasonb",
+			"label": "技能：學識卓著",
+			"description": "我的學識足夠讓我理解自身的渺小。[與三個“學有所成”一起使用可獲得更多“理性”。]",
+			"slots": [
+				{
+					"id": "e1",
+					"label": "學有所成",
+					"description": "我還能進一步學習嗎？"
+				},
+				{
+					"id": "e2",
+					"label": "學有所成",
+					"description": "我還能進一步學習嗎？"
+				},
+				{
+					"id": "e3",
+					"label": "學有所成",
+					"description": "我還能進一步學習嗎？"
+				}
+			]
+		},
+		{
+			"id": "skillreasonc",
+			"label": "技能：學識淵博",
+			"description": "我的腦子裝滿了的知識，快要撐裂顱骨。[與四個“學有所成”一起使用可獲得更多“理性”。]",
+			"slots": [
+				{
+					"id": "specialisation",
+					"label": "更高境界",
+					"description": "如果有恰當的密傳，我就能用無形之術邁入更高的境界。我必須在啟蒙與專注間做出選擇。"
+				},
+				{
+					"id": "e1",
+					"label": "學有所成",
+					"description": "我能將理性磨礪得更加鋒銳嗎？"
+				},
+				{
+					"id": "e2",
+					"label": "學有所成",
+					"description": "我能將理性磨礪得更加鋒銳嗎？"
+				},
+				{
+					"id": "e3",
+					"label": "學有所成",
+					"description": "我能將理性磨礪得更加鋒銳嗎？"
+				},
+				{
+					"id": "e4",
+					"label": "學有所成",
+					"description": "我能將理性磨礪得更加鋒銳嗎？"
+				}
+			]
+		},
+		{
+			"id": "skillreasond_illumination",
+			"label": "技能：高深的思維",
+			"description": "我的頭腦好似玻璃，記憶好似光。[理性與技能已成長到頭。]"
+		},
+		{
+			"id": "skillreasond_concentration",
+			"label": "技能：靜默的厚重",
+			"description": "這份令人發寒的沉靜正是篤定帶來的沉靜。[理性與技能已成長到頭。]"
+		},
+		{
+			"id": "skillpassiona",
+			"label": "技能：栩栩如生的想像",
+			"description": "我的白日夢有時會比睡夢更加光怪陸離。[用於<b><作業></b>可進行繪畫；用於<b>研究</b>並和兩個“學有所成”一使用可獲得更多“激情”。]",
+			"slots": [
+				{
+					"id": "G1",
+					"label": "學有所成",
+					"description": "我要繼續為激情提供養料嗎？"
+				},
+				{
+					"id": "G2",
+					"label": "學有所成",
+					"description": "我要繼續為激情提供養料嗎？"
+				},
+				{
+					"id": "painting1",
+					"label": "要藝術還是餬口",
+					"description": "我可以運用激情畫出最好的作品；如若我有一定的聲名，也可以畫些東西來博取眼球。"
+				},
+				{
+					"id": "painting2",
+					"label": "要藝術還是餬口",
+					"description": "我可以運用激情畫出最好的作品；如若我有一定的聲名，也可以畫些東西來博取眼球。"
+				}
+			]
+		},
+		{
+			"id": "skillpassionb",
+			"label": "技能：天馬行空的想像",
+			"description": "我因一天弄折六根鉛筆而出名。[用於<b><作業></b>可進行繪畫；用於<b>研究</b>並和三個“學有所成”一使用可獲得更多“激情”。]",
+			"slots": [
+				{
+					"id": "G1",
+					"label": "學有所成",
+					"description": "我眼中何所見，筆下何所能？[和三個“學有所成”一起使用可獲得更多“激情”。]"
+				},
+				{
+					"id": "G2",
+					"label": "學有所成",
+					"description": "我眼中何所見，筆下何所能？"
+				},
+				{
+					"id": "G3",
+					"label": "學有所成",
+					"description": "我眼中何所見，筆下何所能？"
+				},
+				{
+					"id": "painting1",
+					"label": "要藝術還是餬口",
+					"description": "我可以運用激情畫出最好的作品；如若我有一定的聲名，也可以畫些東西來博取眼球。"
+				},
+				{
+					"id": "painting2",
+					"label": "要藝術還是餬口",
+					"description": "我可以運用激情畫出最好的作品；如若我有一定的聲名，也可以畫些東西來博取眼球。"
+				},
+				{
+					"id": "painting3",
+					"label": "要藝術還是餬口",
+					"description": "我可以運用激情畫出最好的作品；如若我有一定的聲名，也可以畫些東西來博取眼球。"
+				}
+			]
+		},
+		{
+			"id": "skillpassionc",
+			"label": "技能：如醉如痴的想像",
+			"description": "我醒時的思緒被幽靈幻影所駕馭。[和四個“學有所成”一起使用可獲得更多“激情”。]",
+			"slots": [
+				{
+					"id": "specialisation",
+					"label": "更高境界",
+					"description": "如果有恰當的密傳，我就能用無形之術踏入更高的境界。我必須在錯亂與愚昧間做出選擇。"
+				},
+				{
+					"id": "G1",
+					"label": "學有所成",
+					"description": "紙上會留下何等暴烈的幻象？[用於<b><作業></b>可進行繪畫；用於<b>研究</b>並和四個“學有所成”一使用可獲得更多“激情”。]"
+				},
+				{
+					"id": "G2",
+					"label": "學有所成",
+					"description": "紙上會留下何等暴烈的幻象？"
+				},
+				{
+					"id": "G3",
+					"label": "學有所成",
+					"description": "紙上會留下何等暴烈的幻象？"
+				},
+				{
+					"id": "G4",
+					"label": "學有所成",
+					"description": "紙上會留下何等暴烈的幻象？"
+				},
+				{
+					"id": "painting1",
+					"label": "要藝術還是餬口",
+					"description": "我可以運用激情畫出最好的作品；如若我有一定的聲名，也可以畫些東西來博取眼球。"
+				},
+				{
+					"id": "painting2",
+					"label": "要藝術還是餬口",
+					"description": "我可以運用激情畫出最好的作品；如若我有一定的聲名，也可以畫些東西來博取眼球。"
+				},
+				{
+					"id": "painting3",
+					"label": "要藝術還是餬口",
+					"description": "我可以運用激情畫出最好的作品；如若我有一定的聲名，也可以畫些東西來博取眼球。"
+				},
+				{
+					"id": "painting4",
+					"label": "要藝術還是餬口",
+					"description": "我可以運用激情畫出最好的作品；如若我有一定的聲名，也可以畫些東西來博取眼球。"
+				}
+			]
+		},
+		{
+			"id": "skillpassiond_unreason",
+			"label": "技能：永無止盡",
+			"description": "還有更多，更多，更多，更——[激情與技能已成長到頭。]",
+			"slots": [
+				{
+					"id": "painting1",
+					"label": "要藝術還是餬口",
+					"description": "我可以運用激情畫出最好的作品；如若我有一定的聲名，也可以畫些東西來博取眼球。"
+				},
+				{
+					"id": "painting2",
+					"label": "要藝術還是餬口",
+					"description": "我可以運用激情畫出最好的作品；如若我有一定的聲名，也可以畫些東西來博取眼球。"
+				},
+				{
+					"id": "painting3",
+					"label": "要藝術還是餬口",
+					"description": "我可以運用激情畫出最好的作品；如若我有一定的聲名，也可以畫些東西來博取眼球。"
+				},
+				{
+					"id": "painting4",
+					"label": "要藝術還是餬口",
+					"description": "我可以運用激情畫出最好的作品；如若我有一定的聲名，也可以畫些東西來博取眼球。"
+				}
+			]
+		},
+		{
+			"id": "skillpassiond_folly",
+			"label": "技能：洞開的靈魂",
+			"description": "“看哪，他們站在我門外叩門；若我聽見聲音，我就開門，要他們進到我這裡來，我與他們、他們與我一同坐席。”[激情與技能已成長到頭。]",
+			"slots": [
+				{
+					"id": "painting1",
+					"label": "要藝術還是餬口",
+					"description": "我可以運用激情畫出最好的作品；如若我有一定的聲名，也可以畫些東西來博取眼球。"
+				},
+				{
+					"id": "painting2",
+					"label": "要藝術還是餬口",
+					"description": "我可以運用激情畫出最好的作品；如若我有一定的聲名，也可以畫些東西來博取眼球。"
+				},
+				{
+					"id": "painting3",
+					"label": "要藝術還是餬口",
+					"description": "我可以運用激情畫出最好的作品；如若我有一定的聲名，也可以畫些東西來博取眼球。"
+				},
+				{
+					"id": "painting4",
+					"label": "要藝術還是餬口",
+					"description": "我可以運用激情畫出最好的作品；如若我有一定的聲名，也可以畫些東西來博取眼球。"
+				}
+			]
+		}
+	]
 }

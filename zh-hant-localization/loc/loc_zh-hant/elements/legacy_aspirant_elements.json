@@ -1,40 +1,26 @@
 {
-    "elements": [
-        {
-            "id": "bequestintro",
-            "label": "一份遺贈",
-            "aspects": {
-                "legacyplotitem": 1
-            },
-            "description": "包裹中夾著我通信者的遺囑執行人留下的詭異書頁。我必須以<b>理性</b>或以<b>激情</b>來<b>研究</b>它。",
-            "slots": [
-                {
-                    "id": "Approach",
-                    "label": "方式",
-                    "actionId": "study",
-                    "required": {
-                        "reason": 1,
-                        "passion": 1
-                    },
-                    "description": "我是一個委身激情的人，還是一個堅持理性的人？。"
-                }
-            ]
-        },
-        {
-            "id": "introjob",
-            "label": "卑微的僱工之職",
-            "description": "醫院搬工之職，並不穩定。雖悲慘，卻也是你當下唯一的選擇。",
-            "aspects": {
-                "job": 1
-            }
-        },
-        {
-            "id": "contactintro",
-            "aspects": {
-                "legacyplotitem": 1
-            },
-            "label": "關於潛在合作者的筆記",
-            "description": "來信者記錄了他對我的觀察。他相信我有“潛能”。同樣的，他也記錄了他對另一個人的觀察。經過一定的時間與學習，我應該能找出那人的下落。"
-        }
-    ]
+	"elements": [
+		{
+			"id": "bequestintro",
+			"label": "一份遺贈",
+			"description": "包裹中夾著我通信者的遺囑執行人留下的詭異書頁。我必須以<b>理性</b>或以<b>激情</b>來<b>研究</b>它。",
+			"slots": [
+				{
+					"id": "Approach",
+					"label": "方式",
+					"description": "我是一個委身激情的人，還是一個堅持理性的人？。"
+				}
+			]
+		},
+		{
+			"id": "introjob",
+			"label": "卑微的僱工之職",
+			"description": "醫院搬工之職，並不穩定。雖悲慘，卻也是你當下唯一的選擇。"
+		},
+		{
+			"id": "contactintro",
+			"label": "關於潛在合作者的筆記",
+			"description": "來信者記錄了他對我的觀察。他相信我有“潛能”。同樣的，他也記錄了他對另一個人的觀察。經過一定的時間與學習，我應該能找出那人的下落。"
+		}
+	]
 }

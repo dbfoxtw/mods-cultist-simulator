@@ -1,1801 +1,803 @@
 {
-    "elements": [
-        {
-            "id": "fragmentedge",
-            "label": "刀子的秘密",
-            "aspects": {
-                "edge": 2,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.practical": 1
-            },
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>刃</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>冬</b>之密傳一同研究可將其拗轉，獲得<b>冬</b>之密傳。.",
-                    "required": {
-                        "fragmentedge": 1,
-                        "fragmentwinter": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "我們的祖先鑄造刀劍、教授武藝、在戰爭前夕咒罵——這些行為都遵循相同的規律。[在<b>儀式</b>中與屍體及<b>冬</b>之力一同運用，可使屍體復生。]",
-            "xtriggers": {
-                "epiphany": "fragmentedgeb"
-            }
-        },
-        {
-            "id": "fragmentedgeb",
-            "label": "千夫長的教誨",
-            "aspects": {
-                "edge": 4,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.practical": 1
-            },
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>刃</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>冬</b>之密傳一同研究可將其拗轉，獲得<b>冬</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentedgeb": 1,
-                        "fragmentwinterb": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "千夫長在悠久的過去中學到了有關於鮮血和傷口的刻骨故事。刀劍嘶鳴聲，正大聲訴說著這個故事。[在<b>儀式</b>中與屍體及<b>冬</b>之力一同運用，可使屍體復生。]",
-            "xtriggers": {
-                "epiphany": "fragmentedgec"
-            }
-        },
-        {
-            "id": "fragmentedgec",
-            "label": "狻猊行動",
-            "aspects": {
-                "edge": 6,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.practical": 1,
-                "challenge.grim": 1
-            },
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>刃</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>冬</b>之密傳一同研究可將其拗轉，獲得<b>冬</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentedgec": 1,
-                        "fragmentwinterc": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "一系列需要為之獻身、為之驚駭的神秘活動。[在<b>儀式</b>中與屍體及<b>冬</b>之力一同運用，可使屍體復生。]",
-            "xtriggers": {
-                "epiphany": "fragmentedged"
-            }
-        },
-        {
-            "id": "fragmentedged",
-            "label": "上校的具名者",
-            "aspects": {
-                "edge": 8,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.practical": 1,
-                "challenge.grim": 1
-            },
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>刃</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>冬</b>之密傳一同研究可將其拗轉，獲得<b>冬</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentedged": 1,
-                        "fragmentwinterd": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "上校在不同的時代有著不同的形象。他目盲；他耳聾；他不受創傷；他不容違抗。他的具名者皆如極年邁之人一般狡詐。",
-            "xtriggers": {
-                "epiphany": "fragmentedgee"
-            }
-        },
-        {
-            "id": "fragmentedgee",
-            "label": "獅子匠的具名者",
-            "aspects": {
-                "edge": 10,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.practical": 1,
-                "challenge.grim": 1,
-                "challenge.knowledge": 1
-            },
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>刃</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>冬</b>之密傳一同研究可將其拗轉，獲得<b>冬</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentedgee": 1,
-                        "fragmentwintere": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "獅子匠，按司辰的標準來看尚顯青澀，而按戰爭的標準來看相當老成。他的具名者皆是剛被招募的新成員，其吟誦有一種野蠻的力量。",
-            "xtriggers": {
-                "epiphany": "fragmentedgef"
-            }
-        },
-        {
-            "id": "fragmentedgef",
-            "label": "謀殺連珠",
-            "aspects": {
-                "edge": 12,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.practical": 1,
-                "challenge.grim": 1,
-                "challenge.knowledge": 1
-            },
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>刃</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>冬</b>之密傳一同研究可將其拗轉，獲得<b>冬</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentedgef": 1,
-                        "fragmentwinterf": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "此為確保終結的技藝。",
-            "xtriggers": {
-                "epiphany": "fragmentedgeg"
-            }
-        },
-        {
-            "id": "fragmentedgeg",
-            "label": "武力之秘",
-            "aspects": {
-                "edge": 14,
-                "lore": 1,
-                "subvertable_lore": 1
-            },
-            "description": "上校和獅子匠是肉源之神，但是裂分之狼是血源之神。狡詐、力氣與痛苦乃勝利的三大根基，下文即其秘密教義……",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "unique": true
-        },
-        {
-            "id": "fragmentforge",
-            "label": "鐵匠的秘密",
-            "aspects": {
-                "forge": 2,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.knowledge": 1
-            },
-            "description": "在五塊大陸上，鐵匠對鋼鐵低語相同的字句。眾所周知，殺人犯也會低語這些字句。而學徒自然也是如此。在儀式中唸出這些字句可激發出無情的<b>改變</b>。",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>鑄</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>刃</b>之密傳一同研究可將其拗轉，獲得<b>刃</b>之密傳。.",
-                    "required": {
-                        "fragmentforge": 1,
-                        "fragmentedge": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentforgeb"
-            }
-        },
-        {
-            "id": "fragmentforgeb",
-            "label": "熱烈的禱告",
-            "aspects": {
-                "forge": 4,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.knowledge": 1
-            },
-            "description": "當我們注視火焰時，我們所視何物？我們找到此物時，它會說出：一個賦予轉變神性的詞彙，此改變隨燒焦的皮膚剝落而出現。",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>鑄</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>刃</b>之密傳一同研究可將其拗轉，獲得<b>刃</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentforgeb": 1,
-                        "fragmentedgeb": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentforgec"
-            }
-        },
-        {
-            "id": "fragmentforgec",
-            "label": "塑形之詠",
-            "aspects": {
-                "forge": 6,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.knowledge": 1,
-                "challenge.practical": 1
-            },
-            "description": "當改變來臨之際，必須運用恰當的知識。[將其與<b>啟</b>之影響以及骨笛——或其他擁有同等法力的材料——一同運用於<b>儀式</b>中，可召喚汽靈。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>鑄</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>刃</b>之密傳一同研究可將其拗轉，獲得<b>刃</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentforgec": 1,
-                        "fragmentedgec": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentforged"
-            }
-        },
-        {
-            "id": "fragmentforged",
-            "label": "巧匠禱文",
-            "aspects": {
-                "forge": 8,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.knowledge": 1,
-                "challenge.practical": 1
-            },
-            "description": "鑄之具名者都念誦過這些話語。[將其與<b>啟</b>之影響以及骨笛——或其他擁有同等法力的材料——一同運用於<b>儀式</b>中，可召喚汽靈。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>鑄</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>刃</b>之密傳一同研究可將其拗轉，獲得<b>刃</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentforged": 1,
-                        "fragmentedged": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentforgee"
-            }
-        },
-        {
-            "id": "fragmentforgee",
-            "label": "裂變法術",
-            "aspects": {
-                "forge": 10,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.knowledge": 1,
-                "challenge.practical": 1,
-                "challenge.illumination": 1
-            },
-            "description": "破壞一樣東西，你就能得到片段。破壞那些片段，你就能得到塵埃。破壞塵埃，然後再破壞它的殘餘。就這樣，你得到了火。[將其與祝聖門楣以及少量耀素——或其他擁有同等法力的材料——一同運用於<b>儀式</b>中，可召喚坩堝王。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>鑄</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>刃</b>之密傳一同研究可將其拗轉，獲得<b>刃</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentforgee": 1,
-                        "fragmentedgee": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentforgef"
-            }
-        },
-        {
-            "id": "fragmentforgef",
-            "label": "熔爐頌",
-            "aspects": {
-                "forge": 12,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.knowledge": 1,
-                "challenge.practical": 1,
-                "challenge.illumination": 1
-            },
-            "description": "這是熱力向鋼鐵吟唱的讚歌。如果我們如實模仿，會使嘴唇乾裂，舌頭脫水。但是，哦！回報多麼豐厚。[將其與祝聖門楣以及少量耀素——或其他擁有同等法力的材料——一同運用於<b>儀式</b>中，可召喚坩堝王。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>鑄</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>刃</b>之密傳一同研究可將其拗轉，獲得<b>刃</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentforgef": 1,
-                        "fragmentedgef": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentforgeg"
-            }
-        },
-        {
-            "id": "fragmentforgeg",
-            "label": "鑄造之秘",
-            "aspects": {
-                "forge": 14,
-                "lore": 1,
-                "subvertable_lore": 1
-            },
-            "description": "白日鑄爐、弧月和昕旦是光源之神。汞、銀和金乃功業的種穰，下文即其秘密教義……[將其與祝聖門楣以及少量耀素——或其他擁有同等法力的材料——一同運用於<b>儀式</b>中，可召喚坩堝王。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "unique": true
-        },
-        {
-            "id": "fragmentgrail",
-            "label": "赤紅的秘密",
-            "aspects": {
-                "grail": 2,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.intuition": 1
-            },
-            "description": "只有使用了適當的墨水，一些字詞才能拼寫正確。",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>杯</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>蛾</b>之密傳一同研究可將其拗轉，獲得<b>蛾</b>之密傳。.",
-                    "required": {
-                        "fragmentgrail": 1,
-                        "fragmentmoth": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentgrailb"
-            }
-        },
-        {
-            "id": "fragmentgrailb",
-            "label": "偉大的咒語",
-            "aspects": {
-                "grail": 4,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.intuition": 1
-            },
-            "description": "偉大母親永記不忘。",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>杯</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>蛾</b>之密傳一同研究可將其拗轉，獲得<b>蛾</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentgrailb": 1,
-                        "fragmentmothb": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentgrailc"
-            }
-        },
-        {
-            "id": "fragmentgrailc",
-            "label": "悅人的聖禮",
-            "aspects": {
-                "grail": 6,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.intuition": 1,
-                "challenge.practical": 1
-            },
-            "description": "多麼悅耳啊。讓人想要一遍又一遍地聆聽。正是這些話語使獻祭變得甘甜。[將其與“拜占庭染劑”和<b>蛾</b>之影響——或其他擁有同等法力的材料——一同運用於儀式中，可召喚原生先知。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>杯</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>蛾</b>之密傳一同研究可將其拗轉，獲得<b>蛾</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentgrailc": 1,
-                        "fragmentmothc": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentgraild"
-            }
-        },
-        {
-            "id": "fragmentgraild",
-            "label": "酩酊禱文",
-            "aspects": {
-                "grail": 8,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.intuition": 1,
-                "challenge.practical": 1
-            },
-            "description": "杯之具名者的典儀進程有刺耳尖叫聲的參與。我們要盡可能地重現這些聲音，以求得其所提供的搏動之力。[將其與“拜占庭染劑”和<b>蛾</b>之影響——或其他擁有同等法力的材料——一同運用於儀式中，可召喚原生先知。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>杯</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>蛾</b>之密傳一同研究可將其拗轉，獲得<b>蛾</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentgraild": 1,
-                        "fragmentmothd": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentgraile"
-            }
-        },
-        {
-            "id": "fragmentgraile",
-            "label": "銷魂法術",
-            "aspects": {
-                "grail": 10,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.intuition": 1,
-                "challenge.practical": 1,
-                "challenge.paradox": 1
-            },
-            "description": "有些快感如此強烈，足以侵蝕現實世界的法則。[將該法術與“苦黑鹽”和“輕微的豁口”——或類似的法力源——一同運用於<b>儀式</b>中，可召喚伊澤姆本人。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>杯</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>蛾</b>之密傳一同研究可將其拗轉，獲得<b>蛾</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentgraile": 1,
-                        "fragmentmothe": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentgrailf"
-            }
-        },
-        {
-            "id": "fragmentgrailf",
-            "label": "芳卉述論",
-            "aspects": {
-                "grail": 12,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.intuition": 1,
-                "challenge.practical": 1,
-                "challenge.paradox": 1
-            },
-            "description": "制花人無法碰觸你；他無法找到你；他永遠擁有你欲求的東西。哪怕是細述他作品之精巧的言論也能引起眾司辰注意。[將該法術與“苦黑鹽”和“輕微的豁口”——或類似的法力源——一同運用於<b>儀式</b>中，可召喚伊澤姆本人。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>杯</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>蛾</b>之密傳一同研究可將其拗轉，獲得<b>蛾</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentgrailf": 1,
-                        "fragmentmothf": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentgrailg"
-            }
-        },
-        {
-            "id": "fragmentgrailg",
-            "label": "吞食之秘",
-            "aspects": {
-                "grail": 14,
-                "lore": 1,
-                "subvertable_lore": 1
-            },
-            "description": "聖杯是第一位血源之神。制花人來自於光。拾灘鴉曾是肉身。“飢餓”、“貪婪”和“渴求”乃食慾的苗床，下文即其秘密教義……[將該法術與“苦黑鹽”和“輕微的豁口”——或類似的法力源——一同運用於<b>儀式</b>中，可召喚伊澤姆本人。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "unique": true
-        },
-        {
-            "id": "fragmentheart",
-            "label": "雷鳴的秘密",
-            "aspects": {
-                "heart": 2,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.intuition": 1
-            },
-            "description": "每一聲雷霆都蘊含著共通的情緒。讓我們向它們致意吧。",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>心</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>杯</b>之密傳一同研究可將其拗轉，獲得<b>杯</b>之密傳。.",
-                    "required": {
-                        "fragmentheart": 1,
-                        "fragmentgrail": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentheartb"
-            }
-        },
-        {
-            "id": "fragmentheartb",
-            "label": "行步的言辭",
-            "aspects": {
-                "heart": 4,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.intuition": 1
-            },
-            "description": "這個法術的音節扣人心弦。我發現自己正跟隨節拍打著響指。它與我都不想停歇。",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>心</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>杯</b>之密傳一同研究可將其拗轉，獲得<b>杯</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentheartb": 1,
-                        "fragmentgrailb": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentheartc"
-            }
-        },
-        {
-            "id": "fragmentheartc",
-            "label": "喚醒之詠",
-            "aspects": {
-                "heart": 6,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.intuition": 1,
-                "challenge.practical": 1
-            },
-            "description": "誰聽後能依然無動於衷？沉睡之人？離世之人？大地與天空？[將其與“拜占庭染劑”和“隕鐵子彈”——或其他擁有同等法力的材料——一同運用於<b>儀式</b>中，可召喚擂擊者。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>心</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>杯</b>之密傳一同研究可將其拗轉，獲得<b>杯</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentheartc": 1,
-                        "fragmentgrailc": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentheartd"
-            }
-        },
-        {
-            "id": "fragmentheartd",
-            "label": "成雙禱文",
-            "aspects": {
-                "heart": 8,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.intuition": 1,
-                "challenge.practical": 1
-            },
-            "description": "人們總是祈求雙生女巫的護佑，於十字路口，於月初時分，於陸地庇護大海之處。[將其與“拜占庭染劑”和“隕鐵子彈”——或其他擁有同等法力的材料——一同運用於<b>儀式</b>中，可召喚擂擊者。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>心</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>杯</b>之密傳一同研究可將其拗轉，獲得<b>杯</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentheartd": 1,
-                        "fragmentgraild": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmenthearte"
-            }
-        },
-        {
-            "id": "fragmenthearte",
-            "label": "警醒法術",
-            "aspects": {
-                "heart": 10,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.intuition": 1,
-                "challenge.practical": 1,
-                "challenge.obsessive": 1
-            },
-            "description": "守夜者不入眠，入眠者不守夜。<b>守夜者不入眠，入眠者不守夜。</b>[將其與“拜占庭染劑”和“隕鐵子彈”——或其他擁有同等法力的材料——一同運用於<b>儀式</b>中，可召喚擂擊者。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>心</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>杯</b>之密傳一同研究可將其拗轉，獲得<b>杯</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmenthearte": 1,
-                        "fragmentgraile": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentheartf"
-            }
-        },
-        {
-            "id": "fragmentheartf",
-            "label": "絲絨符咒",
-            "aspects": {
-                "heart": 12,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.intuition": 1,
-                "challenge.practical": 1,
-                "challenge.obsessive": 1
-            },
-            "description": "絲毧總以否定作答，然而我們能在那聲否定中得到蔭蔽，就像野獸藏於樹杈間。[將其與“拜占庭染劑”和“隕鐵子彈”——或其他擁有同等法力的材料——一同運用於<b>儀式</b>中，可召喚擂擊者。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>心</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>杯</b>之密傳一同研究可將其拗轉，獲得<b>杯</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentheartf": 1,
-                        "fragmentgrailf": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentheartg"
-            }
-        },
-        {
-            "id": "fragmentheartg",
-            "label": "不休之秘",
-            "aspects": {
-                "heart": 14,
-                "lore": 1,
-                "subvertable_lore": 1
-            },
-            "description": "聖杯將轟雷之皮從肉體撕下。雙生女巫生於兩個子宮。絲毧覺醒於在林地根部嚐到血的味道時。心臟乃鮮血之鼓，下文即其秘密教義……[將其與“拜占庭染劑”和“隕鐵子彈”——或其他擁有同等法力的材料——一同運用於<b>儀式</b>中，可召喚擂擊者。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "unique": true
-        },
-        {
-            "id": "fragmentknock",
-            "label": "鎖匠的秘密",
-            "aspects": {
-                "knock": 2,
-                "lore": 1,
-                "challenge.knowledge": 1
-            },
-            "description": "每個鎖匠遲早會做夢。現在我們來背誦它的七個階段吧……[幾乎所有召喚<b>儀式</b>都需要<b>啟</b>之影響，此密傳可提供之。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級（除<b>秘史</b>外）的任意密傳片段一同研究可使其提升為更高等級的<b>啟</b>之密傳。.",
-                    "required": {
-                        "fragmentedge": 1,
-                        "fragmentforge": 1,
-                        "fragmentgrail": 1,
-                        "fragmentheart": 1,
-                        "fragmentknock": 1,
-                        "fragmentlantern": 1,
-                        "fragmentmoth": 1,
-                        "fragmentwinter": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentknockb"
-            }
-        },
-        {
-            "id": "fragmentknockb",
-            "label": "伊庫維姆儀式之一",
-            "aspects": {
-                "knock": 4,
-                "lore": 1,
-                "challenge.knowledge": 1
-            },
-            "description": "漫宿的每一道門在開啟前都需要獻祭。伊庫維姆諸儀式則規定了獻祭的方式。[幾乎所有召喚<b>儀式</b>都需要<b>啟</b>之影響，此密傳可提供之。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級（除<b>秘史</b>外）的任意密傳片段一同研究可使其提升為更高等級的<b>啟</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentedgeb": 1,
-                        "fragmentforgeb": 1,
-                        "fragmentgrailb": 1,
-                        "fragmentheartb": 1,
-                        "fragmentknockb": 1,
-                        "fragmentlanternb": 1,
-                        "fragmentmothb": 1,
-                        "fragmentwinterb": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentknockc"
-            }
-        },
-        {
-            "id": "fragmentknockc",
-            "label": "傷口通行權",
-            "aspects": {
-                "knock": 6,
-                "lore": 1,
-                "challenge.knowledge": 1,
-                "challenge.grim": 1
-            },
-            "description": "要開啟某些道路，人必須先開啟自己。此種修煉將以蟻母之名的開啟之法概括其中。[幾乎所有召喚<b>儀式</b>都需要<b>啟</b>之影響，此密傳可提供之。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級（除<b>秘史</b>外）的任意密傳片段一同研究可使其提升為更高等級的<b>啟</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentedgec": 1,
-                        "fragmentforgec": 1,
-                        "fragmentgrailc": 1,
-                        "fragmentheartc": 1,
-                        "fragmentknockc": 1,
-                        "fragmentlanternc": 1,
-                        "fragmentmothc": 1,
-                        "fragmentwinterc": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentknockd"
-            }
-        },
-        {
-            "id": "fragmentknockd",
-            "label": "弧月禱文",
-            "aspects": {
-                "knock": 8,
-                "lore": 1,
-                "challenge.knowledge": 1,
-                "challenge.grim": 1
-            },
-            "description": "當月亮的臉上添了傷口，這些字句便出現了。[幾乎所有召喚<b>儀式</b>都需要<b>啟</b>之影響，此密傳可提供之。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級（除<b>秘史</b>外）的任意密傳片段一同研究可使其提升為更高等級的<b>啟</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentedged": 1,
-                        "fragmentforged": 1,
-                        "fragmentgraild": 1,
-                        "fragmentheartd": 1,
-                        "fragmentknockd": 1,
-                        "fragmentlanternd": 1,
-                        "fragmentmothd": 1,
-                        "fragmentwinterd": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentknocke"
-            }
-        },
-        {
-            "id": "fragmentknocke",
-            "label": "蚺虵法術",
-            "aspects": {
-                "knock": 10,
-                "lore": 1,
-                "challenge.knowledge": 1,
-                "challenge.grim": 1,
-                "challenge.paradox": 1
-            },
-            "description": "蛇是不容拒絕的訪客。[幾乎所有召喚<b>儀式</b>都需要<b>啟</b>之影響，此密傳可提供之。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級（除<b>秘史</b>外）的任意密傳片段一同研究可使其提升為更高等級的<b>啟</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentedgee": 1,
-                        "fragmentforgee": 1,
-                        "fragmentgraile": 1,
-                        "fragmenthearte": 1,
-                        "fragmentknocke": 1,
-                        "fragmentlanterne": 1,
-                        "fragmentmothe": 1,
-                        "fragmentwintere": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentknockf"
-            }
-        },
-        {
-            "id": "fragmentknockf",
-            "label": "門閾喚起",
-            "aspects": {
-                "knock": 12,
-                "lore": 1,
-                "challenge.knowledge": 1,
-                "challenge.grim": 1,
-                "challenge.paradox": 1
-            },
-            "description": "仍有一位石源之神留存，她看守著所有的門關。[幾乎所有召喚<b>儀式</b>都需要<b>啟</b>之影響，此密傳可提供之。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級（除<b>秘史</b>外）的任意密傳片段一同研究可使其提升為更高等級的<b>啟</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentedgef": 1,
-                        "fragmentforgef": 1,
-                        "fragmentgrailf": 1,
-                        "fragmentheartf": 1,
-                        "fragmentknockf": 1,
-                        "fragmentlanternf": 1,
-                        "fragmentmothf": 1,
-                        "fragmentwinterf": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentknockg"
-            }
-        },
-        {
-            "id": "fragmentknockg",
-            "label": "開啟之秘",
-            "aspects": {
-                "knock": 14,
-                "lore": 1
-            },
-            "description": "蟻母是兩河的孩子。雙角斧是最後的石源之神。弧月源於光，生於月亮。傷口、門檻和揭示皆乃門的面相，下文即其秘密教義……[幾乎所有召喚<b>儀式</b>都需要<b>啟</b>之影響，此密傳可提供之。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "unique": true
-        },
-        {
-            "id": "fragmentlantern",
-            "label": "守夜人的秘密",
-            "aspects": {
-                "lantern": 2,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.knowledge": 1
-            },
-            "description": "其表述如下：“司辰各有其顏色，但顏色只存在於有光的地方。”",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>燈</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>鑄</b>之密傳一同研究可將其拗轉，獲得<b>鑄</b>之密傳。.",
-                    "required": {
-                        "fragmentlantern": 1,
-                        "fragmentforge": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentlanternb"
-            }
-        },
-        {
-            "id": "fragmentlanternb",
-            "label": "漫宿一瞥",
-            "aspects": {
-                "lantern": 4,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.knowledge": 1
-            },
-            "description": "詩章的隻言片語；關於我們所有人在一生中都至少要造訪兩次的某座房屋的一次回憶。對於第一次來到漫宿的人來說，此密傳幾乎是必不可少的。",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>燈</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>鑄</b>之密傳一同研究可將其拗轉，獲得<b>鑄</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentlanternb": 1,
-                        "fragmentforgeb": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentlanternc"
-            }
-        },
-        {
-            "id": "fragmentlanternc",
-            "label": "不仁梵咒",
-            "aspects": {
-                "lantern": 6,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.knowledge": 1,
-                "challenge.illumination": 1
-            },
-            "description": "“仁慈，”守夜人道，“僅能在影中覓得。”",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>燈</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>鑄</b>之密傳一同研究可將其拗轉，獲得<b>鑄</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentlanternc": 1,
-                        "fragmentforgec": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentlanternd"
-            }
-        },
-        {
-            "id": "fragmentlanternd",
-            "label": "爍光禱文",
-            "aspects": {
-                "lantern": 8,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.knowledge": 1,
-                "challenge.illumination": 1
-            },
-            "description": "瞳中扉指引前路；他並不仁慈；然而從始至今，他一直在照明驅暗。[將其與<b>啟</b>之工具以及“激振的氣氛”——或其他擁有同等法力的材料——一同運用於<b>儀式</b>中，可從鏡子後召喚跡形。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>燈</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>鑄</b>之密傳一同研究可將其拗轉，獲得<b>鑄</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentlanternd": 1,
-                        "fragmentforged": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentlanterne"
-            }
-        },
-        {
-            "id": "fragmentlanterne",
-            "label": "聚集法術",
-            "aspects": {
-                "lantern": 10,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.knowledge": 1,
-                "challenge.illumination": 1,
-                "challenge.paradox": 1
-            },
-            "description": "聚點於漫宿之燈處守候。它又被稱作道路之室，還有結尾之室。其錯綜複雜或許超出了人類的理解範圍，但這些法術可以對其進行基本的近似。[將其與<b>啟</b>之工具以及“激振的氣氛”——或其他擁有同等法力的材料——一同運用於<b>儀式</b>中，可從鏡子背後召喚跡形。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>燈</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>鑄</b>之密傳一同研究可將其拗轉，獲得<b>鑄</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentlanterne": 1,
-                        "fragmentforgee": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentlanternf"
-            }
-        },
-        {
-            "id": "fragmentlanternf",
-            "label": "攀升梵咒",
-            "aspects": {
-                "lantern": 12,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.knowledge": 1,
-                "challenge.illumination": 1,
-                "challenge.paradox": 1
-            },
-            "description": "刀刃階梯是守夜人最血腥的考驗。行過此梯且已死去之人都受到了殘陽的接待。而活著的行過此梯之人都距輝光近了一點點。[將其與<b>啟</b>之工具以及“激振的氣氛”——或其他擁有同等法力的材料——一同運用於<b>儀式</b>中，可從鏡子後召喚跡形。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>燈</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>鑄</b>之密傳一同研究可將其拗轉，獲得<b>鑄</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentlanternf": 1,
-                        "fragmentforgef": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentlanterng"
-            }
-        },
-        {
-            "id": "fragmentlanterng",
-            "label": "照明之秘",
-            "aspects": {
-                "lantern": 14,
-                "lore": 1,
-                "subvertable_lore": 1
-            },
-            "description": "弧月、昕旦、制花人和白日鑄爐是光源之神。尚有第五位，但現在我們知道那不是守夜人。不過守夜人仍與前五者共用一條秘密教義，下文即此秘密教義……[將其與“輕微的豁口”和“矛盾的古董”一同運用於<b>儀式</b>中，而後某位將來臨。將其告知獵人，則會使他當場發瘋。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "unique": true
-        },
-        {
-            "id": "fragmentmoth",
-            "label": "理髮師的警告",
-            "aspects": {
-                "moth": 2,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.intuition": 1
-            },
-            "description": "一位林地之神樂於將縷縷髮絲從頭皮上分離。以求關注，則將之焚燒。以求機遇，則將之埋葬。[在<b>儀式</b>中將其對一具屍體念誦，加上<b>冬</b>之影響，可使屍體復生。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>蛾</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>燈</b>之密傳一同研究可將其拗轉，獲得<b>燈</b>之密傳。.",
-                    "required": {
-                        "fragmentmoth": 1,
-                        "fragmentlantern": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentmothb"
-            }
-        },
-        {
-            "id": "fragmentmothb",
-            "label": "林地低語",
-            "aspects": {
-                "moth": 4,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.intuition": 1
-            },
-            "description": "夜不能寐，側耳聆聽。微風穿梭於枝椏間，竊竊私語。房屋沉溺於自己的夢中，大聲呼號。這皆是混沌所經之路。[在<b>儀式</b>中將其對一具屍體念誦，加上<b>冬</b>之影響，可使屍體復生。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>蛾</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>燈</b>之密傳一同研究可將其拗轉，獲得<b>燈</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentmothb": 1,
-                        "fragmentlanternb": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentmothc"
-            }
-        },
-        {
-            "id": "fragmentmothc",
-            "label": "蛻衣舞者的寓言",
-            "aspects": {
-                "moth": 6,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.intuition": 1,
-                "challenge.illumination": 1
-            },
-            "description": "蛻衣舞者的謎語是：“何物會失去？”每個蛻衣舞者的寓言都是回答謎語的一次嘗試。",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>蛾</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>燈</b>之密傳一同研究可將其拗轉，獲得<b>燈</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentmothc": 1,
-                        "fragmentlanternc": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentmothd"
-            }
-        },
-        {
-            "id": "fragmentmothd",
-            "label": "鼴鼠的勸誡",
-            "aspects": {
-                "moth": 8,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.intuition": 1,
-                "challenge.illumination": 1
-            },
-            "description": "鼴鼠的頭頂覆滿青苔，雙腳深陷泥土，且使樹木被緊鎖住。此文是鼴鼠給你的警告。",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>蛾</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>燈</b>之密傳一同研究可將其拗轉，獲得<b>燈</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentmothd": 1,
-                        "fragmentlanternd": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentmothe"
-            }
-        },
-        {
-            "id": "fragmentmothe",
-            "label": "蜈蚣的證詞",
-            "aspects": {
-                "moth": 10,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.intuition": 1,
-                "challenge.illumination": 1,
-                "challenge.obsessive": 1
-            },
-            "description": "蜈蚣自沙中來，往根下去。她找到了一個新家，但現在永遠也回不去了。她在除此之外的所有地方爬過：鎖眼，諸歷史，還有生育的、視覺的、聽覺的通道。此文是她要說的話。",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>蛾</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>燈</b>之密傳一同研究可將其拗轉，獲得<b>燈</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentmothe": 1,
-                        "fragmentlanterne": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentmothf"
-            }
-        },
-        {
-            "id": "fragmentmothf",
-            "label": "誕於股，甜於胸",
-            "aspects": {
-                "moth": 12,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.intuition": 1,
-                "challenge.illumination": 1,
-                "challenge.obsessive": 1
-            },
-            "description": "藤冠的飛蛾王在死去的轟雷王的大腿處孵化。飲盡他腹部的淋巴液。上述為你將看到的景象。",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>蛾</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>燈</b>之密傳一同研究可將其拗轉，獲得<b>燈</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentmothf": 1,
-                        "fragmentlanternf": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentmothg"
-            }
-        },
-        {
-            "id": "fragmentmothg",
-            "label": "杉中牝馬",
-            "aspects": {
-                "moth": 14,
-                "lore": 1,
-                "subvertable_lore": 1
-            },
-            "description": "真正的司辰不會面見虛源之神，環杉卻在林地茂盛處與樹中牝馬會面。她們的交合是被禁止的，而被禁止的事物擁有力量。此即他們交合的故事。",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "unique": true
-        },
-        {
-            "id": "fragmentsecrethistories",
-            "label": "密教殘篇",
-            "aspects": {
-                "secrethistories": 2,
-                "lore": 1,
-                "challenge.knowledge": 1
-            },
-            "description": "隱秘的歷史被掩蓋於我們所知的歷史之下，就像珍貴紅酒的氣味。這便是其中一重歷史中的一個細節。[用此知識殘篇探索，或可發現都城的秘密地點。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>秘史</b>密傳片段一同研究可使其提升至下一等級。.",
-                    "required": {
-                        "fragmentsecrethistories": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentsecrethistoriesb"
-            }
-        },
-        {
-            "id": "fragmentsecrethistoriesb",
-            "label": "鬼祟的真相",
-            "aspects": {
-                "secrethistories": 4,
-                "lore": 1,
-                "challenge.knowledge": 1
-            },
-            "description": "從毗鄰的故事中悄然透露出的一個細節。不要在可能被竊聽的地方談論這個。[用此知識殘篇探索，或可發現各郡的秘密地點。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>秘史</b>密傳片段一同研究可使其提升至下一等級。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentsecrethistoriesb": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentsecrethistoriesc"
-            }
-        },
-        {
-            "id": "fragmentsecrethistoriesc",
-            "label": "被遺忘的史籍",
-            "aspects": {
-                "secrethistories": 6,
-                "lore": 1,
-                "challenge.knowledge": 1,
-                "challenge.intuition": 1
-            },
-            "description": "一段故事，有關於一座沒有大門的城市，一位非曾出生的女王，一場非曾打起的戰爭。[用此知識殘篇探索，或可發現大陸上的秘密地點。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>秘史</b>密傳片段一同研究可使其提升至下一等級。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentsecrethistoriesc": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentsecrethistoriesd"
-            }
-        },
-        {
-            "id": "fragmentsecrethistoriesd",
-            "label": "禁斷的史詩",
-            "aspects": {
-                "secrethistories": 8,
-                "lore": 1,
-                "challenge.knowledge": 1,
-                "challenge.intuition": 1
-            },
-            "description": "眾司辰被最為血腥的戰爭吸引了注意。而後，重重歷史被編結如髮辮。[用此知識殘篇探索，或可發現在大陸另一端，森林盡頭之地中的秘密地點。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>秘史</b>密傳片段一同研究可使其提升至下一等級。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentsecrethistoriesd": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentsecrethistoriese"
-            }
-        },
-        {
-            "id": "fragmentsecrethistoriese",
-            "label": "懸而未定的模稜兩可",
-            "aspects": {
-                "secrethistories": 10,
-                "lore": 1,
-                "challenge.knowledge": 1,
-                "challenge.intuition": 1,
-                "challenge.illumination": 1
-            },
-            "description": "在漫宿中，司辰互相抗衡。紛爭平定後，祂們消解了不可能之事，歌頌了可能之事，將糾纏交錯的已成之事細密編織成如金色絲帶般的未來。萬事落定，歷史成為過去。然而例外依然存在。[用此知識殘篇探索，或可發現撕身山脈中的秘密地點，位於三千英里之外最古老帝國的遺骸之中。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>秘史</b>密傳片段一同研究可使其提升至下一等級。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentsecrethistoriese": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentsecrethistoriesf"
-            }
-        },
-        {
-            "id": "fragmentsecrethistoriesf",
-            "label": "浪遊旅人的地圖",
-            "aspects": {
-                "secrethistories": 12,
-                "lore": 1,
-                "challenge.knowledge": 1,
-                "challenge.intuition": 1,
-                "challenge.illumination": 1
-            },
-            "description": "浪遊旅人是一位無法踏足漫宿的司辰，但她能前往其他<i>任意地點</i>……並且，如果你相信她的自誇，她還是唯一知曉每重歷史的人。有時候，她會讓某人記錄下她的行蹤。[用此知識殘篇探索，或可發現遙遠的荒寂而平闊的沙地中的秘密地點。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>秘史</b>密傳片段一同研究可使其提升至下一等級。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentsecrethistoriesf": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentsecrethistoriesg"
-            }
-        },
-        {
-            "id": "fragmentsecrethistoriesg",
-            "label": "午港奇聞",
-            "aspects": {
-                "secrethistories": 14,
-                "lore": 1
-            },
-            "description": "午港是長生者享受大海與陽光，飲下泉水被世界遺忘，躲避紛擾，或者說躲避大部分紛擾之處。你能在希耶爾沃旅店聽到的故事，就像一杯將回憶五次蒸餾、不加冰塊的雞尾酒。[用此知識殘篇探索，或可發現薄暮群嶼的秘密地點，位於大洋彼岸的午港之處。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "unique": true
-        },
-        {
-            "id": "fragmentwinter",
-            "label": "守墓人的秘密",
-            "aspects": {
-                "winter": 2,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.knowledge": 1
-            },
-            "description": "據說，某種特定的知識只能通過特定種類的沉默來表達。那些淘氣的注釋者建議你閉著眼睛閱讀這些知識。[將其與屍體以及<b>刃</b>相一同運用於<b>儀式</b>中，可使屍體復生。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>冬</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>心</b>之密傳一同研究可將其拗轉，獲得<b>心</b>之密傳。.",
-                    "required": {
-                        "fragmentwinter": 1,
-                        "fragmentheart": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentwinterb"
-            }
-        },
-        {
-            "id": "fragmentwinterb",
-            "label": "純白之禮",
-            "aspects": {
-                "winter": 4,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.knowledge": 1
-            },
-            "description": "當我說起它時，我的雙唇不會因寒冷而結霜。每次都是如此，令人驚訝。[將其與<b>心</b>之影響以及拜占庭染劑一同運用於<b>儀式</b>中，可召喚無聲亡者。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>冬</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>心</b>之密傳一同研究可將其拗轉，獲得<b>心</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentwinterb": 1,
-                        "fragmentheartb": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentwinterc"
-            }
-        },
-        {
-            "id": "fragmentwinterc",
-            "label": "落日行動",
-            "aspects": {
-                "winter": 6,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.knowledge": 1,
-                "challenge.grim": 1
-            },
-            "description": "喚起、知悉並接納通往沉默的道路。[將其與<b>心</b>之影響以及“拜占庭染劑”一同運用於<b>儀式</b>中，可召喚無聲亡者。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>冬</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>心</b>之密傳一同研究可將其拗轉，獲得<b>心</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentwinterc": 1,
-                        "fragmentheartc": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentwinterd"
-            }
-        },
-        {
-            "id": "fragmentwinterd",
-            "label": "骨白鴿禱文",
-            "aspects": {
-                "winter": 8,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.knowledge": 1,
-                "challenge.grim": 1
-            },
-            "description": "有一位司掌紀念與哀悼的神靈，他已被剝奪至盡，然而他不受欺騙。你或可期待將來能親手碾碎他，把他變成一把碎鳥骨。[將其與“馬氏膏”以及一名追奉<b>啟</b>的助手——或其他有著同等力的資源——一同運用於<b>儀式</b>中，可召喚鏡中少女。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>冬</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>心</b>之密傳一同研究可將其拗轉，獲得<b>心</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentwinterd": 1,
-                        "fragmentheartd": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentwintere"
-            }
-        },
-        {
-            "id": "fragmentwintere",
-            "label": "失落司辰的吟誦",
-            "aspects": {
-                "winter": 10,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.knowledge": 1,
-                "challenge.grim": 1,
-                "challenge.obsessive": 1
-            },
-            "description": "六位已逝。五位源自岩石，一位源自光。現都歸於虛界。但他們的回憶仍具神力，而我們現在要拜請這種神力。[將其與“馬氏膏”以及一名追奉<b>啟</b>的助手——或其他有著同等力的資源——一同運用於<b>儀式</b>中，可召喚鏡中少女。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>冬</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>心</b>之密傳一同研究可將其拗轉，獲得<b>心</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentwintere": 1,
-                        "fragmenthearte": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentwinterf"
-            }
-        },
-        {
-            "id": "fragmentwinterf",
-            "label": "具名者的分裂",
-            "aspects": {
-                "winter": 12,
-                "lore": 1,
-                "subvertable_lore": 1,
-                "challenge.knowledge": 1,
-                "challenge.grim": 1,
-                "challenge.obsessive": 1
-            },
-            "description": "當驕陽被分裂，它的具名者亦隨之崩解。這些是曾為整體的那些具名者們的碎片。[將其與“馬氏膏”以及一名追奉<b>啟</b>的助手——或其他有著同等力的資源——一同運用於<b>儀式</b>中，可召喚鏡中少女。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與同等級的<b>冬</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>心</b>之密傳一同研究可將其拗轉，獲得<b>心</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "fragmentwinterf": 1,
-                        "fragmentheartf": 1,
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "xtriggers": {
-                "epiphany": "fragmentwinterg"
-            }
-        },
-        {
-            "id": "fragmentwinterg",
-            "label": "狼言",
-            "aspects": {
-                "winter": 14,
-                "lore": 1,
-                "subvertable_lore": 1
-            },
-            "description": "當鑄爐冷卻，輝光黯淡，林地化塵，裂分之狼也許方能將息，卻止於其能噬己之時。此言幾道出了被分裂者的怨恨。[對獵人說出此言，也許能令其當場發瘋。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "與理性一同研究可使密傳分解為低等級的片段。",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "unique": true
-        },
-        {
-            "id": "fragmentglory",
-            "label": "輝光的記憶",
-            "aspects": {
-                "lantern": 6,
-                "forge": 6,
-                "lore": 1
-            },
-            "description": "——",
-            "comments": "Hello, Seeker. If you're here to decipher enigmas, familiarise yourself with the eidesis in which were presented the Lion, the Boar and the Bull. - AK.",
-            "xtriggers": {
-                "epiphany": "bequestintro"
-            },
-            "noartneeded": true
-        },
-        {
-            "id": "prealzabo",
-            "label": "配方：洗波音靈藥？",
-            "description": "我取得了一個秘密配方——蜂蜜、冥府百合、象牙骨粉，再加一種只在埋葬死者處生長的斑點菌菇。",
-            "aspects": {
-                "lore": 1
-            },
-            "slots": [
-                {
-                    "id": "desire",
-                    "label": "誘惑",
-                    "description": "古老的回憶鑽入地下，於是再不能尋見——但在鑽得過於深遠之前，它們會先在另一處地方棲息。",
-                    "actionId": "study",
-                    "required": {
-                        "remembrancemarks": 1
-                    }
-                },
-                {
-                    "id": "taste",
-                    "label": "味道",
-                    "description": "再不能回頭。",
-                    "actionId": "study",
-                    "required": {
-                        "remnant": 1
-                    }
-                },
-                {
-                    "id": "materials",
-                    "label": "材料",
-                    "required": {
-                        "funds": 1
-                    },
-                    "actionId": "study"
-                }
-            ]
-        },
-        {
-            "id": "alzabo",
-            "label": "配方：洗波音靈藥",
-            "description": "此配方用於復甦處於生人肚中的腐肉的回憶。這種藥既然存在，必得到了制花人和悼歌詩人的允許……還有另一位司辰的協助。",
-            "comments": "RIP Gene Wolfe, 1931-2019. 'Some are haunted by ghosts. I am haunted by stories.'",
-            "aspects": {
-                "lore": 1
-            },
-            "slots": [
-                {
-                    "id": "desire",
-                    "label": "欲望",
-                    "description": "古老的回憶鑽入地下，於是再不能尋見——但在鑽得過於深遠之前，它們會先在另一處地方棲息。",
-                    "actionId": "study",
-                    "required": {
-                        "remembrancemarks": 1
-                    }
-                },
-                {
-                    "id": "feast",
-                    "label": "享食",
-                    "description": "喝下靈藥後，消化的酶成為了復活的信使。死者復生——只是在我回憶之中。",
-                    "actionId": "study",
-                    "required": {
-                        "remnant": 1
-                    }
-                }
-            ]
-        }
-    ]
+	"elements": [
+		{
+			"id": "fragmentedge",
+			"label": "刀子的秘密",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>刃</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>冬</b>之密傳一同研究可將其拗轉，獲得<b>冬</b>之密傳。."
+				}
+			],
+			"description": "我們的祖先鑄造刀劍、教授武藝、在戰爭前夕咒罵——這些行為都遵循相同的規律。[在<b>儀式</b>中與屍體及<b>冬</b>之力一同運用，可使屍體復生。]"
+		},
+		{
+			"id": "fragmentedgeb",
+			"label": "千夫長的教誨",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>刃</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>冬</b>之密傳一同研究可將其拗轉，獲得<b>冬</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			],
+			"description": "千夫長在悠久的過去中學到了有關於鮮血和傷口的刻骨故事。刀劍嘶鳴聲，正大聲訴說著這個故事。[在<b>儀式</b>中與屍體及<b>冬</b>之力一同運用，可使屍體復生。]"
+		},
+		{
+			"id": "fragmentedgec",
+			"label": "狻猊行動",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>刃</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>冬</b>之密傳一同研究可將其拗轉，獲得<b>冬</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			],
+			"description": "一系列需要為之獻身、為之驚駭的神秘活動。[在<b>儀式</b>中與屍體及<b>冬</b>之力一同運用，可使屍體復生。]"
+		},
+		{
+			"id": "fragmentedged",
+			"label": "上校的具名者",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>刃</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>冬</b>之密傳一同研究可將其拗轉，獲得<b>冬</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			],
+			"description": "上校在不同的時代有著不同的形象。他目盲；他耳聾；他不受創傷；他不容違抗。他的具名者皆如極年邁之人一般狡詐。"
+		},
+		{
+			"id": "fragmentedgee",
+			"label": "獅子匠的具名者",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>刃</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>冬</b>之密傳一同研究可將其拗轉，獲得<b>冬</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			],
+			"description": "獅子匠，按司辰的標準來看尚顯青澀，而按戰爭的標準來看相當老成。他的具名者皆是剛被招募的新成員，其吟誦有一種野蠻的力量。"
+		},
+		{
+			"id": "fragmentedgef",
+			"label": "謀殺連珠",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>刃</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>冬</b>之密傳一同研究可將其拗轉，獲得<b>冬</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			],
+			"description": "此為確保終結的技藝。"
+		},
+		{
+			"id": "fragmentedgeg",
+			"label": "武力之秘",
+			"description": "上校和獅子匠是肉源之神，但是裂分之狼是血源之神。狡詐、力氣與痛苦乃勝利的三大根基，下文即其秘密教義……",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentforge",
+			"label": "鐵匠的秘密",
+			"description": "在五塊大陸上，鐵匠對鋼鐵低語相同的字句。眾所周知，殺人犯也會低語這些字句。而學徒自然也是如此。在儀式中唸出這些字句可激發出無情的<b>改變</b>。",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>鑄</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>刃</b>之密傳一同研究可將其拗轉，獲得<b>刃</b>之密傳。."
+				}
+			]
+		},
+		{
+			"id": "fragmentforgeb",
+			"label": "熱烈的禱告",
+			"description": "當我們注視火焰時，我們所視何物？我們找到此物時，它會說出：一個賦予轉變神性的詞彙，此改變隨燒焦的皮膚剝落而出現。",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>鑄</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>刃</b>之密傳一同研究可將其拗轉，獲得<b>刃</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentforgec",
+			"label": "塑形之詠",
+			"description": "當改變來臨之際，必須運用恰當的知識。[將其與<b>啟</b>之影響以及骨笛——或其他擁有同等法力的材料——一同運用於<b>儀式</b>中，可召喚汽靈。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>鑄</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>刃</b>之密傳一同研究可將其拗轉，獲得<b>刃</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentforged",
+			"label": "巧匠禱文",
+			"description": "鑄之具名者都念誦過這些話語。[將其與<b>啟</b>之影響以及骨笛——或其他擁有同等法力的材料——一同運用於<b>儀式</b>中，可召喚汽靈。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>鑄</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>刃</b>之密傳一同研究可將其拗轉，獲得<b>刃</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentforgee",
+			"label": "裂變法術",
+			"description": "破壞一樣東西，你就能得到片段。破壞那些片段，你就能得到塵埃。破壞塵埃，然後再破壞它的殘餘。就這樣，你得到了火。[將其與祝聖門楣以及少量耀素——或其他擁有同等法力的材料——一同運用於<b>儀式</b>中，可召喚坩堝王。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>鑄</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>刃</b>之密傳一同研究可將其拗轉，獲得<b>刃</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentforgef",
+			"label": "熔爐頌",
+			"description": "這是熱力向鋼鐵吟唱的讚歌。如果我們如實模仿，會使嘴唇乾裂，舌頭脫水。但是，哦！回報多麼豐厚。[將其與祝聖門楣以及少量耀素——或其他擁有同等法力的材料——一同運用於<b>儀式</b>中，可召喚坩堝王。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>鑄</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>刃</b>之密傳一同研究可將其拗轉，獲得<b>刃</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentforgeg",
+			"label": "鑄造之秘",
+			"description": "白日鑄爐、弧月和昕旦是光源之神。汞、銀和金乃功業的種穰，下文即其秘密教義……[將其與祝聖門楣以及少量耀素——或其他擁有同等法力的材料——一同運用於<b>儀式</b>中，可召喚坩堝王。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentgrail",
+			"label": "赤紅的秘密",
+			"description": "只有使用了適當的墨水，一些字詞才能拼寫正確。",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>杯</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>蛾</b>之密傳一同研究可將其拗轉，獲得<b>蛾</b>之密傳。."
+				}
+			]
+		},
+		{
+			"id": "fragmentgrailb",
+			"label": "偉大的咒語",
+			"description": "偉大母親永記不忘。",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>杯</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>蛾</b>之密傳一同研究可將其拗轉，獲得<b>蛾</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentgrailc",
+			"label": "悅人的聖禮",
+			"description": "多麼悅耳啊。讓人想要一遍又一遍地聆聽。正是這些話語使獻祭變得甘甜。[將其與“拜占庭染劑”和<b>蛾</b>之影響——或其他擁有同等法力的材料——一同運用於儀式中，可召喚原生先知。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>杯</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>蛾</b>之密傳一同研究可將其拗轉，獲得<b>蛾</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentgraild",
+			"label": "酩酊禱文",
+			"description": "杯之具名者的典儀進程有刺耳尖叫聲的參與。我們要盡可能地重現這些聲音，以求得其所提供的搏動之力。[將其與“拜占庭染劑”和<b>蛾</b>之影響——或其他擁有同等法力的材料——一同運用於儀式中，可召喚原生先知。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>杯</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>蛾</b>之密傳一同研究可將其拗轉，獲得<b>蛾</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentgraile",
+			"label": "銷魂法術",
+			"description": "有些快感如此強烈，足以侵蝕現實世界的法則。[將該法術與“苦黑鹽”和“輕微的豁口”——或類似的法力源——一同運用於<b>儀式</b>中，可召喚伊澤姆本人。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>杯</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>蛾</b>之密傳一同研究可將其拗轉，獲得<b>蛾</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentgrailf",
+			"label": "芳卉述論",
+			"description": "制花人無法碰觸你；他無法找到你；他永遠擁有你欲求的東西。哪怕是細述他作品之精巧的言論也能引起眾司辰注意。[將該法術與“苦黑鹽”和“輕微的豁口”——或類似的法力源——一同運用於<b>儀式</b>中，可召喚伊澤姆本人。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>杯</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>蛾</b>之密傳一同研究可將其拗轉，獲得<b>蛾</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentgrailg",
+			"label": "吞食之秘",
+			"description": "聖杯是第一位血源之神。制花人來自於光。拾灘鴉曾是肉身。“飢餓”、“貪婪”和“渴求”乃食慾的苗床，下文即其秘密教義……[將該法術與“苦黑鹽”和“輕微的豁口”——或類似的法力源——一同運用於<b>儀式</b>中，可召喚伊澤姆本人。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentheart",
+			"label": "雷鳴的秘密",
+			"description": "每一聲雷霆都蘊含著共通的情緒。讓我們向它們致意吧。",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>心</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>杯</b>之密傳一同研究可將其拗轉，獲得<b>杯</b>之密傳。."
+				}
+			]
+		},
+		{
+			"id": "fragmentheartb",
+			"label": "行步的言辭",
+			"description": "這個法術的音節扣人心弦。我發現自己正跟隨節拍打著響指。它與我都不想停歇。",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>心</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>杯</b>之密傳一同研究可將其拗轉，獲得<b>杯</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentheartc",
+			"label": "喚醒之詠",
+			"description": "誰聽後能依然無動於衷？沉睡之人？離世之人？大地與天空？[將其與“拜占庭染劑”和“隕鐵子彈”——或其他擁有同等法力的材料——一同運用於<b>儀式</b>中，可召喚擂擊者。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>心</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>杯</b>之密傳一同研究可將其拗轉，獲得<b>杯</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentheartd",
+			"label": "成雙禱文",
+			"description": "人們總是祈求雙生女巫的護佑，於十字路口，於月初時分，於陸地庇護大海之處。[將其與“拜占庭染劑”和“隕鐵子彈”——或其他擁有同等法力的材料——一同運用於<b>儀式</b>中，可召喚擂擊者。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>心</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>杯</b>之密傳一同研究可將其拗轉，獲得<b>杯</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmenthearte",
+			"label": "警醒法術",
+			"description": "守夜者不入眠，入眠者不守夜。<b>守夜者不入眠，入眠者不守夜。</b>[將其與“拜占庭染劑”和“隕鐵子彈”——或其他擁有同等法力的材料——一同運用於<b>儀式</b>中，可召喚擂擊者。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>心</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>杯</b>之密傳一同研究可將其拗轉，獲得<b>杯</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentheartf",
+			"label": "絲絨符咒",
+			"description": "絲毧總以否定作答，然而我們能在那聲否定中得到蔭蔽，就像野獸藏於樹杈間。[將其與“拜占庭染劑”和“隕鐵子彈”——或其他擁有同等法力的材料——一同運用於<b>儀式</b>中，可召喚擂擊者。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>心</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>杯</b>之密傳一同研究可將其拗轉，獲得<b>杯</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentheartg",
+			"label": "不休之秘",
+			"description": "聖杯將轟雷之皮從肉體撕下。雙生女巫生於兩個子宮。絲毧覺醒於在林地根部嚐到血的味道時。心臟乃鮮血之鼓，下文即其秘密教義……[將其與“拜占庭染劑”和“隕鐵子彈”——或其他擁有同等法力的材料——一同運用於<b>儀式</b>中，可召喚擂擊者。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentknock",
+			"label": "鎖匠的秘密",
+			"description": "每個鎖匠遲早會做夢。現在我們來背誦它的七個階段吧……[幾乎所有召喚<b>儀式</b>都需要<b>啟</b>之影響，此密傳可提供之。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級（除<b>秘史</b>外）的任意密傳片段一同研究可使其提升為更高等級的<b>啟</b>之密傳。."
+				}
+			]
+		},
+		{
+			"id": "fragmentknockb",
+			"label": "伊庫維姆儀式之一",
+			"description": "漫宿的每一道門在開啟前都需要獻祭。伊庫維姆諸儀式則規定了獻祭的方式。[幾乎所有召喚<b>儀式</b>都需要<b>啟</b>之影響，此密傳可提供之。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級（除<b>秘史</b>外）的任意密傳片段一同研究可使其提升為更高等級的<b>啟</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentknockc",
+			"label": "傷口通行權",
+			"description": "要開啟某些道路，人必須先開啟自己。此種修煉將以蟻母之名的開啟之法概括其中。[幾乎所有召喚<b>儀式</b>都需要<b>啟</b>之影響，此密傳可提供之。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級（除<b>秘史</b>外）的任意密傳片段一同研究可使其提升為更高等級的<b>啟</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentknockd",
+			"label": "弧月禱文",
+			"description": "當月亮的臉上添了傷口，這些字句便出現了。[幾乎所有召喚<b>儀式</b>都需要<b>啟</b>之影響，此密傳可提供之。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級（除<b>秘史</b>外）的任意密傳片段一同研究可使其提升為更高等級的<b>啟</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentknocke",
+			"label": "蚺虵法術",
+			"description": "蛇是不容拒絕的訪客。[幾乎所有召喚<b>儀式</b>都需要<b>啟</b>之影響，此密傳可提供之。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級（除<b>秘史</b>外）的任意密傳片段一同研究可使其提升為更高等級的<b>啟</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentknockf",
+			"label": "門閾喚起",
+			"description": "仍有一位石源之神留存，她看守著所有的門關。[幾乎所有召喚<b>儀式</b>都需要<b>啟</b>之影響，此密傳可提供之。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級（除<b>秘史</b>外）的任意密傳片段一同研究可使其提升為更高等級的<b>啟</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentknockg",
+			"label": "開啟之秘",
+			"description": "蟻母是兩河的孩子。雙角斧是最後的石源之神。弧月源於光，生於月亮。傷口、門檻和揭示皆乃門的面相，下文即其秘密教義……[幾乎所有召喚<b>儀式</b>都需要<b>啟</b>之影響，此密傳可提供之。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentlantern",
+			"label": "守夜人的秘密",
+			"description": "其表述如下：“司辰各有其顏色，但顏色只存在於有光的地方。”",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>燈</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>鑄</b>之密傳一同研究可將其拗轉，獲得<b>鑄</b>之密傳。."
+				}
+			]
+		},
+		{
+			"id": "fragmentlanternb",
+			"label": "漫宿一瞥",
+			"description": "詩章的隻言片語；關於我們所有人在一生中都至少要造訪兩次的某座房屋的一次回憶。對於第一次來到漫宿的人來說，此密傳幾乎是必不可少的。",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>燈</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>鑄</b>之密傳一同研究可將其拗轉，獲得<b>鑄</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentlanternc",
+			"label": "不仁梵咒",
+			"description": "“仁慈，”守夜人道，“僅能在影中覓得。”",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>燈</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>鑄</b>之密傳一同研究可將其拗轉，獲得<b>鑄</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentlanternd",
+			"label": "爍光禱文",
+			"description": "瞳中扉指引前路；他並不仁慈；然而從始至今，他一直在照明驅暗。[將其與<b>啟</b>之工具以及“激振的氣氛”——或其他擁有同等法力的材料——一同運用於<b>儀式</b>中，可從鏡子後召喚跡形。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>燈</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>鑄</b>之密傳一同研究可將其拗轉，獲得<b>鑄</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentlanterne",
+			"label": "聚集法術",
+			"description": "聚點於漫宿之燈處守候。它又被稱作道路之室，還有結尾之室。其錯綜複雜或許超出了人類的理解範圍，但這些法術可以對其進行基本的近似。[將其與<b>啟</b>之工具以及“激振的氣氛”——或其他擁有同等法力的材料——一同運用於<b>儀式</b>中，可從鏡子背後召喚跡形。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>燈</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>鑄</b>之密傳一同研究可將其拗轉，獲得<b>鑄</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentlanternf",
+			"label": "攀升梵咒",
+			"description": "刀刃階梯是守夜人最血腥的考驗。行過此梯且已死去之人都受到了殘陽的接待。而活著的行過此梯之人都距輝光近了一點點。[將其與<b>啟</b>之工具以及“激振的氣氛”——或其他擁有同等法力的材料——一同運用於<b>儀式</b>中，可從鏡子後召喚跡形。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>燈</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>鑄</b>之密傳一同研究可將其拗轉，獲得<b>鑄</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentlanterng",
+			"label": "照明之秘",
+			"description": "弧月、昕旦、制花人和白日鑄爐是光源之神。尚有第五位，但現在我們知道那不是守夜人。不過守夜人仍與前五者共用一條秘密教義，下文即此秘密教義……[將其與“輕微的豁口”和“矛盾的古董”一同運用於<b>儀式</b>中，而後某位將來臨。將其告知獵人，則會使他當場發瘋。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentmoth",
+			"label": "理髮師的警告",
+			"description": "一位林地之神樂於將縷縷髮絲從頭皮上分離。以求關注，則將之焚燒。以求機遇，則將之埋葬。[在<b>儀式</b>中將其對一具屍體念誦，加上<b>冬</b>之影響，可使屍體復生。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>蛾</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>燈</b>之密傳一同研究可將其拗轉，獲得<b>燈</b>之密傳。."
+				}
+			]
+		},
+		{
+			"id": "fragmentmothb",
+			"label": "林地低語",
+			"description": "夜不能寐，側耳聆聽。微風穿梭於枝椏間，竊竊私語。房屋沉溺於自己的夢中，大聲呼號。這皆是混沌所經之路。[在<b>儀式</b>中將其對一具屍體念誦，加上<b>冬</b>之影響，可使屍體復生。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>蛾</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>燈</b>之密傳一同研究可將其拗轉，獲得<b>燈</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentmothc",
+			"label": "蛻衣舞者的寓言",
+			"description": "蛻衣舞者的謎語是：“何物會失去？”每個蛻衣舞者的寓言都是回答謎語的一次嘗試。",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>蛾</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>燈</b>之密傳一同研究可將其拗轉，獲得<b>燈</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentmothd",
+			"label": "鼴鼠的勸誡",
+			"description": "鼴鼠的頭頂覆滿青苔，雙腳深陷泥土，且使樹木被緊鎖住。此文是鼴鼠給你的警告。",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>蛾</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>燈</b>之密傳一同研究可將其拗轉，獲得<b>燈</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentmothe",
+			"label": "蜈蚣的證詞",
+			"description": "蜈蚣自沙中來，往根下去。她找到了一個新家，但現在永遠也回不去了。她在除此之外的所有地方爬過：鎖眼，諸歷史，還有生育的、視覺的、聽覺的通道。此文是她要說的話。",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>蛾</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>燈</b>之密傳一同研究可將其拗轉，獲得<b>燈</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentmothf",
+			"label": "誕於股，甜於胸",
+			"description": "藤冠的飛蛾王在死去的轟雷王的大腿處孵化。飲盡他腹部的淋巴液。上述為你將看到的景象。",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>蛾</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>燈</b>之密傳一同研究可將其拗轉，獲得<b>燈</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentmothg",
+			"label": "杉中牝馬",
+			"description": "真正的司辰不會面見虛源之神，環杉卻在林地茂盛處與樹中牝馬會面。她們的交合是被禁止的，而被禁止的事物擁有力量。此即他們交合的故事。",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentsecrethistories",
+			"label": "密教殘篇",
+			"description": "隱秘的歷史被掩蓋於我們所知的歷史之下，就像珍貴紅酒的氣味。這便是其中一重歷史中的一個細節。[用此知識殘篇探索，或可發現都城的秘密地點。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>秘史</b>密傳片段一同研究可使其提升至下一等級。."
+				}
+			]
+		},
+		{
+			"id": "fragmentsecrethistoriesb",
+			"label": "鬼祟的真相",
+			"description": "從毗鄰的故事中悄然透露出的一個細節。不要在可能被竊聽的地方談論這個。[用此知識殘篇探索，或可發現各郡的秘密地點。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>秘史</b>密傳片段一同研究可使其提升至下一等級。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentsecrethistoriesc",
+			"label": "被遺忘的史籍",
+			"description": "一段故事，有關於一座沒有大門的城市，一位非曾出生的女王，一場非曾打起的戰爭。[用此知識殘篇探索，或可發現大陸上的秘密地點。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>秘史</b>密傳片段一同研究可使其提升至下一等級。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentsecrethistoriesd",
+			"label": "禁斷的史詩",
+			"description": "眾司辰被最為血腥的戰爭吸引了注意。而後，重重歷史被編結如髮辮。[用此知識殘篇探索，或可發現在大陸另一端，森林盡頭之地中的秘密地點。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>秘史</b>密傳片段一同研究可使其提升至下一等級。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentsecrethistoriese",
+			"label": "懸而未定的模稜兩可",
+			"description": "在漫宿中，司辰互相抗衡。紛爭平定後，祂們消解了不可能之事，歌頌了可能之事，將糾纏交錯的已成之事細密編織成如金色絲帶般的未來。萬事落定，歷史成為過去。然而例外依然存在。[用此知識殘篇探索，或可發現撕身山脈中的秘密地點，位於三千英里之外最古老帝國的遺骸之中。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>秘史</b>密傳片段一同研究可使其提升至下一等級。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentsecrethistoriesf",
+			"label": "浪遊旅人的地圖",
+			"description": "浪遊旅人是一位無法踏足漫宿的司辰，但她能前往其他<i>任意地點</i>……並且，如果你相信她的自誇，她還是唯一知曉每重歷史的人。有時候，她會讓某人記錄下她的行蹤。[用此知識殘篇探索，或可發現遙遠的荒寂而平闊的沙地中的秘密地點。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>秘史</b>密傳片段一同研究可使其提升至下一等級。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentsecrethistoriesg",
+			"label": "午港奇聞",
+			"description": "午港是長生者享受大海與陽光，飲下泉水被世界遺忘，躲避紛擾，或者說躲避大部分紛擾之處。你能在希耶爾沃旅店聽到的故事，就像一杯將回憶五次蒸餾、不加冰塊的雞尾酒。[用此知識殘篇探索，或可發現薄暮群嶼的秘密地點，位於大洋彼岸的午港之處。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentwinter",
+			"label": "守墓人的秘密",
+			"description": "據說，某種特定的知識只能通過特定種類的沉默來表達。那些淘氣的注釋者建議你閉著眼睛閱讀這些知識。[將其與屍體以及<b>刃</b>相一同運用於<b>儀式</b>中，可使屍體復生。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>冬</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>心</b>之密傳一同研究可將其拗轉，獲得<b>心</b>之密傳。."
+				}
+			]
+		},
+		{
+			"id": "fragmentwinterb",
+			"label": "純白之禮",
+			"description": "當我說起它時，我的雙唇不會因寒冷而結霜。每次都是如此，令人驚訝。[將其與<b>心</b>之影響以及拜占庭染劑一同運用於<b>儀式</b>中，可召喚無聲亡者。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>冬</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>心</b>之密傳一同研究可將其拗轉，獲得<b>心</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentwinterc",
+			"label": "落日行動",
+			"description": "喚起、知悉並接納通往沉默的道路。[將其與<b>心</b>之影響以及“拜占庭染劑”一同運用於<b>儀式</b>中，可召喚無聲亡者。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>冬</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>心</b>之密傳一同研究可將其拗轉，獲得<b>心</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentwinterd",
+			"label": "骨白鴿禱文",
+			"description": "有一位司掌紀念與哀悼的神靈，他已被剝奪至盡，然而他不受欺騙。你或可期待將來能親手碾碎他，把他變成一把碎鳥骨。[將其與“馬氏膏”以及一名追奉<b>啟</b>的助手——或其他有著同等力的資源——一同運用於<b>儀式</b>中，可召喚鏡中少女。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>冬</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>心</b>之密傳一同研究可將其拗轉，獲得<b>心</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentwintere",
+			"label": "失落司辰的吟誦",
+			"description": "六位已逝。五位源自岩石，一位源自光。現都歸於虛界。但他們的回憶仍具神力，而我們現在要拜請這種神力。[將其與“馬氏膏”以及一名追奉<b>啟</b>的助手——或其他有著同等力的資源——一同運用於<b>儀式</b>中，可召喚鏡中少女。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>冬</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>心</b>之密傳一同研究可將其拗轉，獲得<b>心</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentwinterf",
+			"label": "具名者的分裂",
+			"description": "當驕陽被分裂，它的具名者亦隨之崩解。這些是曾為整體的那些具名者們的碎片。[將其與“馬氏膏”以及一名追奉<b>啟</b>的助手——或其他有著同等力的資源——一同運用於<b>儀式</b>中，可召喚鏡中少女。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與同等級的<b>冬</b>之密傳片段一同研究可使其提升至下一等級。與同等級的<b>心</b>之密傳一同研究可將其拗轉，獲得<b>心</b>之密傳。或者，與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentwinterg",
+			"label": "狼言",
+			"description": "當鑄爐冷卻，輝光黯淡，林地化塵，裂分之狼也許方能將息，卻止於其能噬己之時。此言幾道出了被分裂者的怨恨。[對獵人說出此言，也許能令其當場發瘋。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "與理性一同研究可使密傳分解為低等級的片段。"
+				}
+			]
+		},
+		{
+			"id": "fragmentglory",
+			"label": "輝光的記憶",
+			"description": "——"
+		},
+		{
+			"id": "prealzabo",
+			"label": "配方：洗波音靈藥？",
+			"description": "我取得了一個秘密配方——蜂蜜、冥府百合、象牙骨粉，再加一種只在埋葬死者處生長的斑點菌菇。",
+			"slots": [
+				{
+					"id": "desire",
+					"label": "誘惑",
+					"description": "古老的回憶鑽入地下，於是再不能尋見——但在鑽得過於深遠之前，它們會先在另一處地方棲息。"
+				},
+				{
+					"id": "taste",
+					"label": "味道",
+					"description": "再不能回頭。"
+				},
+				{
+					"id": "materials",
+					"label": "材料"
+				}
+			]
+		},
+		{
+			"id": "alzabo",
+			"label": "配方：洗波音靈藥",
+			"description": "此配方用於復甦處於生人肚中的腐肉的回憶。這種藥既然存在，必得到了制花人和悼歌詩人的允許……還有另一位司辰的協助。",
+			"slots": [
+				{
+					"id": "desire",
+					"label": "欲望",
+					"description": "古老的回憶鑽入地下，於是再不能尋見——但在鑽得過於深遠之前，它們會先在另一處地方棲息。"
+				},
+				{
+					"id": "feast",
+					"label": "享食",
+					"description": "喝下靈藥後，消化的酶成為了復活的信使。死者復生——只是在我回憶之中。"
+				}
+			]
+		}
+	]
 }

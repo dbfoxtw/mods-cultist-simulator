@@ -1,517 +1,284 @@
 {
-    "elements": [
-        {
-            "id": "ritetoolconsumeingredient",
-            "label": "海饗儀式",
-            "aspects": {
-                "ritual": 1
-            },
-            "slots": [
-                {
-                    "id": "Invocation",
-                    "label": "禱文",
-                    "actionId": "work",
-                    "required": {
-                        "lore": 1
-                    },
-                    "description": "祝辭為何？"
-                },
-                {
-                    "id": "Instrument",
-                    "label": "器具",
-                    "actionId": "work",
-                    "required": {
-                        "tool": 1
-                    },
-                    "description": "器具為何？"
-                },
-                {
-                    "id": "Offering",
-                    "label": "供奉",
-                    "actionId": "work",
-                    "required": {
-                        "ingredient": 1
-                    },
-                    "consumes": true,
-                    "description": "我們將放棄何物？"
-                },
-                {
-                    "id": "Desire",
-                    "label": "欲望",
-                    "actionId": "work",
-                    "required": {
-                        "desire": 6
-                    },
-                    "description": "我可變為何物？[該欄僅在飛升最終階段可用。如果你已達成第六印記，將你的飛升卡置於此處可完成“大功業”。]"
-                }
-            ],
-            "description": "此儀式將召喚雙生巫女以彌合現實與可能間的裂隙。學徒將把祭品傾倒進，或扔進水體：水體最好是，但並不非得是，海洋。",
-            "unique": true
-        },
-        {
-            "id": "ritetoolconsumeinfluence",
-            "label": "地圖之疆儀式",
-            "aspects": {
-                "ritual": 1
-            },
-            "slots": [
-                {
-                    "id": "Invocation",
-                    "label": "禱文",
-                    "actionId": "work",
-                    "required": {
-                        "lore": 1
-                    },
-                    "description": "祝辭為何？"
-                },
-                {
-                    "id": "Offering",
-                    "label": "供奉",
-                    "actionId": "work",
-                    "required": {
-                        "influence": 1
-                    },
-                    "description": "納受何種影響？",
-                    "consumes": true
-                },
-                {
-                    "id": "Instrument",
-                    "label": "器具",
-                    "actionId": "work",
-                    "required": {
-                        "tool": 1
-                    },
-                    "description": "器具為何？"
-                },
-                {
-                    "id": "Desire",
-                    "label": "欲望",
-                    "actionId": "work",
-                    "required": {
-                        "desire": 6
-                    },
-                    "description": "我可變為何物？[該欄僅在飛升最終階段可用。如果你已達成第六印記，將你的飛升卡置於此處可完成“大功業”。]"
-                }
-            ],
-            "description": "浪遊旅人是唯一一位從未進過漫宿的司辰。此儀式必須在正確的地點，正確的時間進行，浪遊旅人會去將這份正確占為己有。",
-            "unique": true
-        },
-        {
-            "id": "ritetoolconsumefollower",
-            "label": "魂之堝儀式",
-            "comments": "endgame rite",
-            "aspects": {
-                "ritual": 1
-            },
-            "slots": [
-                {
-                    "id": "Invocation",
-                    "label": "禱文",
-                    "actionId": "work",
-                    "required": {
-                        "lore": 1
-                    },
-                    "description": "祝辭為何？"
-                },
-                {
-                    "id": "Victim",
-                    "label": "被害者",
-                    "actionId": "work",
-                    "required": {
-                        "follower": 1,
-                        "prisoner": 1
-                    },
-                    "consumes": true,
-                    "description": "流血須為自願。"
-                },
-                {
-                    "id": "Instrument",
-                    "label": "器具",
-                    "actionId": "work",
-                    "required": {
-                        "tool": 1
-                    },
-                    "description": "血沿何物流淌？"
-                },
-                {
-                    "id": "Desire",
-                    "label": "欲望",
-                    "actionId": "work",
-                    "required": {
-                        "desire": 6
-                    },
-                    "description": "我可變為何物？[該欄僅在飛升最終階段可用。如果你已達成第六印記，將你的飛升卡置於此處可完成“大功業”。]"
-                }
-            ],
-            "description": "此儀式需用存有法力的器具將鮮血點燃：火焰是世界表皮上的破損。執行此儀式的助手極少能全身而退。",
-            "unique": true
-        },
-        {
-            "id": "ritetoolfollowerconsumelore",
-            "label": "守夜人之愴儀式",
-            "comments": "endgame rite",
-            "aspects": {
-                "ritual": 1
-            },
-            "slots": [
-                {
-                    "id": "Sacrifice",
-                    "label": "祭獻",
-                    "actionId": "work",
-                    "required": {
-                        "lore": 1
-                    },
-                    "consumes": true,
-                    "description": "我們將忘卻何物？"
-                },
-                {
-                    "id": "Assistant",
-                    "label": "援手",
-                    "actionId": "work",
-                    "required": {
-                        "follower": 1,
-                        "prisoner": 1
-                    },
-                    "description": "何人念頌祝辭？"
-                },
-                {
-                    "id": "Instrument",
-                    "label": "器具",
-                    "actionId": "work",
-                    "required": {
-                        "tool": 1
-                    },
-                    "description": "器具為何？"
-                },
-                {
-                    "id": "Desire",
-                    "label": "欲望",
-                    "actionId": "work",
-                    "required": {
-                        "desire": 6
-                    },
-                    "description": "我可變為何物？[該欄僅在飛升最終階段可用。如果你已達成第六印記，將你的飛升卡置於此處可完成“大功業”。]"
-                }
-            ],
-            "description": "此儀式將喚起守夜人所失去的事物，他常行走於無牆的居屋。（光在其前，影在其後。絕不能讓他看到你。）用存有法力的器具召喚他取走祭品：存在於你思維根源的珍貴的知識。必須有助手為你吟誦穩固神智的話語，所以請選擇一個信賴的人。",
-            "unique": true
-        },
-        {
-            "id": "ritefollowerconsumetool",
-            "label": "抗逆儀式",
-            "aspects": {
-                "ritual": 1
-            },
-            "slots": [
-                {
-                    "id": "Invocation",
-                    "label": "禱文",
-                    "actionId": "work",
-                    "required": {
-                        "lore": 1
-                    },
-                    "description": "祝辭為何？"
-                },
-                {
-                    "id": "Assistant",
-                    "label": "援手",
-                    "actionId": "work",
-                    "required": {
-                        "follower": 1,
-                        "prisoner": 1
-                    },
-                    "description": "何人念頌祝辭？"
-                },
-                {
-                    "id": "Offering",
-                    "label": "供奉",
-                    "actionId": "work",
-                    "required": {
-                        "tool": 1
-                    },
-                    "consumes": true,
-                    "description": "我們將放棄何物？"
-                },
-                {
-                    "id": "Desire",
-                    "label": "欲望",
-                    "actionId": "work",
-                    "required": {
-                        "desire": 6
-                    },
-                    "description": "我可變為何物？[該欄僅在飛升最終階段可用。如果你已達成第六印記，將你的飛升卡置於此處可完成“大功業”。]"
-                }
-            ],
-            "description": "此儀式將貫徹白日鑄爐的一項教導：工匠只有摧毀他最珍視的工具後，方能達成至高成就。獅子匠正是因此在上校面前砸碎了自己的劍。所以我的助手也必須摧毀一件器具。",
-            "unique": true
-        },
-        {
-            "id": "ritefollowerconsumeingredient",
-            "label": "仁母儀式",
-            "aspects": {
-                "ritual": 1
-            },
-            "slots": [
-                {
-                    "id": "Invocation",
-                    "label": "禱文",
-                    "actionId": "work",
-                    "required": {
-                        "lore": 1
-                    },
-                    "description": "祝辭為何？"
-                },
-                {
-                    "id": "Assistant",
-                    "label": "援手",
-                    "actionId": "work",
-                    "required": {
-                        "follower": 1,
-                        "prisoner": 1
-                    },
-                    "description": "何人念頌祝辭？"
-                },
-                {
-                    "id": "Offering",
-                    "label": "供奉",
-                    "actionId": "work",
-                    "required": {
-                        "ingredient": 1
-                    },
-                    "description": "獻上何物？",
-                    "consumes": true
-                },
-                {
-                    "id": "Desire",
-                    "label": "欲望",
-                    "actionId": "work",
-                    "required": {
-                        "desire": 6
-                    },
-                    "description": "我可變為何物？[該欄僅在飛升最終階段可用。如果你已達成第六印記，將你的飛升卡置於此處可完成“大功業”。]"
-                }
-            ],
-            "description": "助手是獻給蟻母的祭品。不過蟻母對治療和下毒同等了解，且她將寬仁待我，接受次一級的祭品作為替代。通常是這樣。這一經驗並不能給助手帶來寬慰。",
-            "unique": true
-        },
-        {
-            "id": "riteinfluenceconsumeingredient",
-            "label": "鴉饜儀式",
-            "aspects": {
-                "ritual": 1
-            },
-            "slots": [
-                {
-                    "id": "Invocation",
-                    "label": "禱文",
-                    "actionId": "work",
-                    "required": {
-                        "lore": 1
-                    },
-                    "description": "祝辭為何？"
-                },
-                {
-                    "id": "Influence",
-                    "label": "影響",
-                    "actionId": "work",
-                    "required": {
-                        "influence": 1
-                    },
-                    "description": "呈上何種法力？"
-                },
-                {
-                    "id": "Offering",
-                    "label": "供奉",
-                    "actionId": "work",
-                    "required": {
-                        "ingredient": 1
-                    },
-                    "description": "獻上何物？",
-                    "consumes": true
-                },
-                {
-                    "id": "Desire",
-                    "label": "欲望",
-                    "actionId": "work",
-                    "required": {
-                        "desire": 6
-                    },
-                    "description": "我可變為何物？[該欄僅在飛升最終階段可用。如果你已達成第六印記，將你的飛升卡置於此處可完成“大功業”。]"
-                }
-            ],
-            "description": "此儀式將於日出或月出時分召喚拾灘鴉。拾灘鴉將接受祭品，並還之以大地的贈禮。",
-            "unique": true
-        },
-        {
-            "id": "ritefollowerconsumeinfluence",
-            "label": "日落儀式",
-            "aspects": {
-                "ritual": 1
-            },
-            "slots": [
-                {
-                    "id": "Invocation",
-                    "label": "禱文",
-                    "actionId": "work",
-                    "required": {
-                        "lore": 1
-                    },
-                    "description": "祝辭為何？"
-                },
-                {
-                    "id": "Assistant",
-                    "label": "援手",
-                    "actionId": "work",
-                    "required": {
-                        "follower": 1,
-                        "prisoner": 1
-                    },
-                    "description": "何人念頌祝辭？"
-                },
-                {
-                    "id": "Offering",
-                    "label": "供奉",
-                    "actionId": "work",
-                    "required": {
-                        "influence": 1
-                    },
-                    "consumes": true,
-                    "description": "消耗何種影響？"
-                },
-                {
-                    "id": "Desire",
-                    "label": "欲望",
-                    "actionId": "work",
-                    "required": {
-                        "desire": 6
-                    },
-                    "description": "我可變為何物？[該欄僅在飛升最終階段可用。如果你已達成第六印記，將你的飛升卡置於此處可完成“大功業”。]"
-                }
-            ],
-            "description": "助手須以真實情感啼哭，灑淚於存留影響之處。如果一切順利，殘陽會耗盡這份影響，告知一種結尾，並提供幫助。",
-            "unique": true
-        },
-        {
-            "id": "riteinfluenceconsumefollower",
-            "label": "裂獸儀式",
-            "aspects": {
-                "ritual": 1
-            },
-            "slots": [
-                {
-                    "id": "Invocation",
-                    "label": "禱文",
-                    "actionId": "work",
-                    "required": {
-                        "lore": 1
-                    },
-                    "description": "祝辭為何？"
-                },
-                {
-                    "id": "Victim",
-                    "label": "被害者",
-                    "actionId": "work",
-                    "required": {
-                        "follower": 1,
-                        "prisoner": 1
-                    },
-                    "description": "分裂何人？",
-                    "consumes": true
-                },
-                {
-                    "id": "Influence",
-                    "label": "影響",
-                    "actionId": "work",
-                    "required": {
-                        "influence": 1
-                    },
-                    "description": "呈上何種法力？"
-                },
-                {
-                    "id": "Desire",
-                    "label": "欲望",
-                    "actionId": "work",
-                    "required": {
-                        "desire": 6
-                    },
-                    "description": "我可變為何物？[該欄僅在飛升最終階段可用。如果你已達成第六印記，將你的飛升卡置於此處可完成“大功業”。]"
-                }
-            ],
-            "description": "助手的名字在法力顯現之地，或之時，被從他頭上奪去；而他也被裂為九份。他曾像畜類一樣遭到追獵，但現在時移勢遷。",
-            "unique": true
-        },
-        {
-            "id": "riteconsumetoolingredientfollowerinfluence",
-            "label": "置閏儀式",
-            "aspects": {
-                "ritual": 1
-            },
-            "slots": [
-                {
-                    "id": "Sacrifice",
-                    "label": "祭獻",
-                    "actionId": "work",
-                    "required": {
-                        "lore": 1
-                    },
-                    "description": "將失而不還。",
-                    "consumes": true
-                },
-                {
-                    "id": "Offering",
-                    "label": "供奉",
-                    "actionId": "work",
-                    "required": {
-                        "follower": 1,
-                        "prisoner": 1,
-                        "summoned": 1
-                    },
-                    "description": "將失而不還。",
-                    "consumes": true
-                },
-                {
-                    "id": "Surrender",
-                    "label": "拋卻",
-                    "actionId": "work",
-                    "required": {
-                        "tool": 1
-                    },
-                    "description": "將失而不還。",
-                    "consumes": true
-                },
-                {
-                    "id": "Dissolution",
-                    "label": "融解",
-                    "actionId": "work",
-                    "required": {
-                        "influence": 1
-                    },
-                    "description": "將失而不還。",
-                    "consumes": true
-                },
-                {
-                    "id": "Grief",
-                    "label": "悲痛",
-                    "actionId": "work",
-                    "required": {
-                        "ingredient": 1
-                    },
-                    "description": "將失而不還。",
-                    "consumes": true
-                },
-                {
-                    "id": "Desire",
-                    "label": "欲望",
-                    "actionId": "work",
-                    "required": {
-                        "desire": 6,
-                        "promise": 1
-                    },
-                    "description": "我可變為何物？[該欄僅在飛升最終階段可用。如果你已達成第六印記，將你的飛升卡置於此處可完成“大功業”。]"
-                }
-            ],
-            "description": "此儀式將復現太陽乖蹇的命運。愚蠢的學徒會在迫不得已時使用此儀式。",
-            "unique": true
-        }
-    ]
+	"elements": [
+		{
+			"id": "ritetoolconsumeingredient",
+			"label": "海饗儀式",
+			"slots": [
+				{
+					"id": "Invocation",
+					"label": "禱文",
+					"description": "祝辭為何？"
+				},
+				{
+					"id": "Instrument",
+					"label": "器具",
+					"description": "器具為何？"
+				},
+				{
+					"id": "Offering",
+					"label": "供奉",
+					"description": "我們將放棄何物？"
+				},
+				{
+					"id": "Desire",
+					"label": "欲望",
+					"description": "我可變為何物？[該欄僅在飛升最終階段可用。如果你已達成第六印記，將你的飛升卡置於此處可完成“大功業”。]"
+				}
+			],
+			"description": "此儀式將召喚雙生巫女以彌合現實與可能間的裂隙。學徒將把祭品傾倒進，或扔進水體：水體最好是，但並不非得是，海洋。"
+		},
+		{
+			"id": "ritetoolconsumeinfluence",
+			"label": "地圖之疆儀式",
+			"slots": [
+				{
+					"id": "Invocation",
+					"label": "禱文",
+					"description": "祝辭為何？"
+				},
+				{
+					"id": "Offering",
+					"label": "供奉",
+					"description": "納受何種影響？"
+				},
+				{
+					"id": "Instrument",
+					"label": "器具",
+					"description": "器具為何？"
+				},
+				{
+					"id": "Desire",
+					"label": "欲望",
+					"description": "我可變為何物？[該欄僅在飛升最終階段可用。如果你已達成第六印記，將你的飛升卡置於此處可完成“大功業”。]"
+				}
+			],
+			"description": "浪遊旅人是唯一一位從未進過漫宿的司辰。此儀式必須在正確的地點，正確的時間進行，浪遊旅人會去將這份正確占為己有。"
+		},
+		{
+			"id": "ritetoolconsumefollower",
+			"label": "魂之堝儀式",
+			"slots": [
+				{
+					"id": "Invocation",
+					"label": "禱文",
+					"description": "祝辭為何？"
+				},
+				{
+					"id": "Victim",
+					"label": "被害者",
+					"description": "流血須為自願。"
+				},
+				{
+					"id": "Instrument",
+					"label": "器具",
+					"description": "血沿何物流淌？"
+				},
+				{
+					"id": "Desire",
+					"label": "欲望",
+					"description": "我可變為何物？[該欄僅在飛升最終階段可用。如果你已達成第六印記，將你的飛升卡置於此處可完成“大功業”。]"
+				}
+			],
+			"description": "此儀式需用存有法力的器具將鮮血點燃：火焰是世界表皮上的破損。執行此儀式的助手極少能全身而退。"
+		},
+		{
+			"id": "ritetoolfollowerconsumelore",
+			"label": "守夜人之愴儀式",
+			"slots": [
+				{
+					"id": "Sacrifice",
+					"label": "祭獻",
+					"description": "我們將忘卻何物？"
+				},
+				{
+					"id": "Assistant",
+					"label": "援手",
+					"description": "何人念頌祝辭？"
+				},
+				{
+					"id": "Instrument",
+					"label": "器具",
+					"description": "器具為何？"
+				},
+				{
+					"id": "Desire",
+					"label": "欲望",
+					"description": "我可變為何物？[該欄僅在飛升最終階段可用。如果你已達成第六印記，將你的飛升卡置於此處可完成“大功業”。]"
+				}
+			],
+			"description": "此儀式將喚起守夜人所失去的事物，他常行走於無牆的居屋。（光在其前，影在其後。絕不能讓他看到你。）用存有法力的器具召喚他取走祭品：存在於你思維根源的珍貴的知識。必須有助手為你吟誦穩固神智的話語，所以請選擇一個信賴的人。"
+		},
+		{
+			"id": "ritefollowerconsumetool",
+			"label": "抗逆儀式",
+			"slots": [
+				{
+					"id": "Invocation",
+					"label": "禱文",
+					"description": "祝辭為何？"
+				},
+				{
+					"id": "Assistant",
+					"label": "援手",
+					"description": "何人念頌祝辭？"
+				},
+				{
+					"id": "Offering",
+					"label": "供奉",
+					"description": "我們將放棄何物？"
+				},
+				{
+					"id": "Desire",
+					"label": "欲望",
+					"description": "我可變為何物？[該欄僅在飛升最終階段可用。如果你已達成第六印記，將你的飛升卡置於此處可完成“大功業”。]"
+				}
+			],
+			"description": "此儀式將貫徹白日鑄爐的一項教導：工匠只有摧毀他最珍視的工具後，方能達成至高成就。獅子匠正是因此在上校面前砸碎了自己的劍。所以我的助手也必須摧毀一件器具。"
+		},
+		{
+			"id": "ritefollowerconsumeingredient",
+			"label": "仁母儀式",
+			"slots": [
+				{
+					"id": "Invocation",
+					"label": "禱文",
+					"description": "祝辭為何？"
+				},
+				{
+					"id": "Assistant",
+					"label": "援手",
+					"description": "何人念頌祝辭？"
+				},
+				{
+					"id": "Offering",
+					"label": "供奉",
+					"description": "獻上何物？"
+				},
+				{
+					"id": "Desire",
+					"label": "欲望",
+					"description": "我可變為何物？[該欄僅在飛升最終階段可用。如果你已達成第六印記，將你的飛升卡置於此處可完成“大功業”。]"
+				}
+			],
+			"description": "助手是獻給蟻母的祭品。不過蟻母對治療和下毒同等了解，且她將寬仁待我，接受次一級的祭品作為替代。通常是這樣。這一經驗並不能給助手帶來寬慰。"
+		},
+		{
+			"id": "riteinfluenceconsumeingredient",
+			"label": "鴉饜儀式",
+			"slots": [
+				{
+					"id": "Invocation",
+					"label": "禱文",
+					"description": "祝辭為何？"
+				},
+				{
+					"id": "Influence",
+					"label": "影響",
+					"description": "呈上何種法力？"
+				},
+				{
+					"id": "Offering",
+					"label": "供奉",
+					"description": "獻上何物？"
+				},
+				{
+					"id": "Desire",
+					"label": "欲望",
+					"description": "我可變為何物？[該欄僅在飛升最終階段可用。如果你已達成第六印記，將你的飛升卡置於此處可完成“大功業”。]"
+				}
+			],
+			"description": "此儀式將於日出或月出時分召喚拾灘鴉。拾灘鴉將接受祭品，並還之以大地的贈禮。"
+		},
+		{
+			"id": "ritefollowerconsumeinfluence",
+			"label": "日落儀式",
+			"slots": [
+				{
+					"id": "Invocation",
+					"label": "禱文",
+					"description": "祝辭為何？"
+				},
+				{
+					"id": "Assistant",
+					"label": "援手",
+					"description": "何人念頌祝辭？"
+				},
+				{
+					"id": "Offering",
+					"label": "供奉",
+					"description": "消耗何種影響？"
+				},
+				{
+					"id": "Desire",
+					"label": "欲望",
+					"description": "我可變為何物？[該欄僅在飛升最終階段可用。如果你已達成第六印記，將你的飛升卡置於此處可完成“大功業”。]"
+				}
+			],
+			"description": "助手須以真實情感啼哭，灑淚於存留影響之處。如果一切順利，殘陽會耗盡這份影響，告知一種結尾，並提供幫助。"
+		},
+		{
+			"id": "riteinfluenceconsumefollower",
+			"label": "裂獸儀式",
+			"slots": [
+				{
+					"id": "Invocation",
+					"label": "禱文",
+					"description": "祝辭為何？"
+				},
+				{
+					"id": "Victim",
+					"label": "被害者",
+					"description": "分裂何人？"
+				},
+				{
+					"id": "Influence",
+					"label": "影響",
+					"description": "呈上何種法力？"
+				},
+				{
+					"id": "Desire",
+					"label": "欲望",
+					"description": "我可變為何物？[該欄僅在飛升最終階段可用。如果你已達成第六印記，將你的飛升卡置於此處可完成“大功業”。]"
+				}
+			],
+			"description": "助手的名字在法力顯現之地，或之時，被從他頭上奪去；而他也被裂為九份。他曾像畜類一樣遭到追獵，但現在時移勢遷。"
+		},
+		{
+			"id": "riteconsumetoolingredientfollowerinfluence",
+			"label": "置閏儀式",
+			"slots": [
+				{
+					"id": "Sacrifice",
+					"label": "祭獻",
+					"description": "將失而不還。"
+				},
+				{
+					"id": "Offering",
+					"label": "供奉",
+					"description": "將失而不還。"
+				},
+				{
+					"id": "Surrender",
+					"label": "拋卻",
+					"description": "將失而不還。"
+				},
+				{
+					"id": "Dissolution",
+					"label": "融解",
+					"description": "將失而不還。"
+				},
+				{
+					"id": "Grief",
+					"label": "悲痛",
+					"description": "將失而不還。"
+				},
+				{
+					"id": "Desire",
+					"label": "欲望",
+					"description": "我可變為何物？[該欄僅在飛升最終階段可用。如果你已達成第六印記，將你的飛升卡置於此處可完成“大功業”。]"
+				}
+			],
+			"description": "此儀式將復現太陽乖蹇的命運。愚蠢的學徒會在迫不得已時使用此儀式。"
+		}
+	]
 }

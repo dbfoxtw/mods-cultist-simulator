@@ -1,51 +1,24 @@
 {
-    "elements": [
-        {
-            "id": "mystique",
-            "label": "秘氛",
-            "aspects": {
-                "reputation": 1
-            },
-            "description": "離奇之感殘留不去。[“秘氛”可能引起獵人注意。獵人沒辦法用它立案調查你，但這會促使他們更努力地尋找證據。]",
-            "lifetime": 300
-        },
-        {
-            "id": "notoriety",
-            "label": "邪名",
-            "aspects": {
-                "reputation": 2
-            },
-            "description": "有些行為會長久留存於人們的記憶中。[“邪名”可能使獵人立案調查你。]",
-            "lifetime": 300,
-            "xtriggers": {
-                "scandalous": "notoriety"
-            }
-        },
-        {
-            "id": "evidence",
-            "aspects": {
-                "evidencelevel": 1
-            },
-            "label": "不確鑿證據",
-            "description": "一名獵人發現了我的罪證——或許為真實，或許為臆造。[擁有密教活動“證據”的獵人會變得更加危險。證據在製作它的獵人死後仍繼續存在。]",
-            "xtriggers": {
-                "investigatingsuccess": "evidenceb",
-                "investigatingsetback": "notoriety"
-            },
-            "lifetime": 600
-        },
-        {
-            "id": "evidenceb",
-            "aspects": {
-                "evidencelevel": 2
-            },
-            "label": "確鑿證據",
-            "description": "“大地啊，開裂吧！哦，不，它不會收容我的。”[掌握密教活動“確鑿證據”後，防剿局會以之給你定罪。證據在製作它的獵人死後仍繼續存在。]",
-            "xtriggers": {
-                "investigatingsetback": "evidence"
-            },
-            "lifetime": 600,
-            "decayTo": "evidence"
-        }
-    ]
+	"elements": [
+		{
+			"id": "mystique",
+			"label": "秘氛",
+			"description": "離奇之感殘留不去。[“秘氛”可能引起獵人注意。獵人沒辦法用它立案調查你，但這會促使他們更努力地尋找證據。]"
+		},
+		{
+			"id": "notoriety",
+			"label": "邪名",
+			"description": "有些行為會長久留存於人們的記憶中。[“邪名”可能使獵人立案調查你。]"
+		},
+		{
+			"id": "evidence",
+			"label": "不確鑿證據",
+			"description": "一名獵人發現了我的罪證——或許為真實，或許為臆造。[擁有密教活動“證據”的獵人會變得更加危險。證據在製作它的獵人死後仍繼續存在。]"
+		},
+		{
+			"id": "evidenceb",
+			"label": "確鑿證據",
+			"description": "“大地啊，開裂吧！哦，不，它不會收容我的。”[掌握密教活動“確鑿證據”後，防剿局會以之給你定罪。證據在製作它的獵人死後仍繼續存在。]"
+		}
+	]
 }

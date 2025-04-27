@@ -1,46 +1,34 @@
 {
-    "elements": [
-        {
-            "id": "insight",
-            "label": "洞見",
-            "description": "洞見奧秘。",
-            "lifetime": 1
-        },
-        {
-            "id": "bid",
-            "label": "出價",
-            "description": "在拍賣行中出價。",
-            "xtriggers": {
-                "restore": "funds"
-            }
-        },
-        {
-            "id": "abductioninprogress",
-            "label": "上鎖的牢房",
-            "description": "他們說，思想是自由的，然而思想是鎖在肉體上的。",
-            "lifetime": 1,
-            "icon": "seal_wardeddoor"
-        },
-        {
-            "id": "assassinationinprogress.player",
-            "label": "暗殺",
-            "description": "此舉將以死亡告終。可能是我的死亡。",
-            "lifetime": 1,
-            "icon": "dread"
-        },
-        {
-            "id": "assassinationinprogress.follower",
-            "label": "暗殺",
-            "description": "此舉將以死亡告終——他們的，或我們的。",
-            "lifetime": 1,
-            "icon": "dread"
-        },
-        {
-            "id": "scandalinprogress",
-            "label": "邪惡的流言",
-            "description": "他們所說的只是真理的影子，但我們的影子暴露了我們。",
-            "lifetime": 1,
-            "icon": "notoriety"
-        }
-    ]
+	"elements": [
+		{
+			"id": "insight",
+			"label": "洞見",
+			"description": "洞見奧秘。"
+		},
+		{
+			"id": "bid",
+			"label": "出價",
+			"description": "在拍賣行中出價。"
+		},
+		{
+			"id": "abductioninprogress",
+			"label": "上鎖的牢房",
+			"description": "他們說，思想是自由的，然而思想是鎖在肉體上的。"
+		},
+		{
+			"id": "assassinationinprogress.player",
+			"label": "暗殺",
+			"description": "此舉將以死亡告終。可能是我的死亡。"
+		},
+		{
+			"id": "assassinationinprogress.follower",
+			"label": "暗殺",
+			"description": "此舉將以死亡告終——他們的，或我們的。"
+		},
+		{
+			"id": "scandalinprogress",
+			"label": "邪惡的流言",
+			"description": "他們所說的只是真理的影子，但我們的影子暴露了我們。"
+		}
+	]
 }

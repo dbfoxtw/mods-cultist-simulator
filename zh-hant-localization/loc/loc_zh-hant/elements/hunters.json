@@ -1,199 +1,54 @@
 {
-    "elements": [
-        {
-            "id": "investigator1",
-            "label": "韋克菲爾德督察",
-            "aspects": {
-                "hunter": 1,
-                "mortal": 1,
-                "meticulous": 1,
-                "grim": 1
-            },
-            "description": "扎迦利·韋克菲爾德（意為醒時之境）：一名悒悒不樂卻又冷酷無情的督察警官。他最近被借調到了防剿局。",
-            "unique": true,
-            "xtriggers": {
-                "killmortal": "corpse",
-                "killhunter": "corpse",
-                "derangemortal": "zachary_r_c",
-                "capturehunter": "investigator1prisoner",
-                "dissolution": "influencewintere"
-            }
-        },
-        {
-            "id": "investigator2",
-            "label": "斯賓塞·霍布森",
-            "aspects": {
-                "hunter": 1,
-                "mortal": 1,
-                "mystic": 1,
-                "erratic": 1
-            },
-            "description": "霍布森當過記者，私家偵探和——時間極短的——教士。現在他是防剿局的一名幹員。",
-            "unique": true,
-            "xtriggers": {
-                "killmortal": "corpse",
-                "killhunter": "corpse",
-                "derangemortal": "spencer_r_c",
-                "capturehunter": "investigator2prisoner",
-                "dissolution": "influenceknocke"
-            }
-        },
-        {
-            "id": "investigator3",
-            "label": "康妮·李",
-            "aspects": {
-                "hunter": 1,
-                "mortal": 1,
-                "tenacious": 1,
-                "mystic": 1
-            },
-            "description": "女繼承人，女性參政論者兼冒險家。她最近把她那堂吉訶德式的熱忱和大筆財富投入到為防剿局辦事中。",
-            "unique": true,
-            "xtriggers": {
-                "killmortal": "corpse",
-                "killhunter": "corpse",
-                "derangemortal": "connie_r_c",
-                "capturehunter": "investigator3prisoner",
-                "dissolution": "influenceedgee"
-            }
-        },
-        {
-            "id": "investigator4",
-            "label": "納塔麗婭·龍博士",
-            "aspects": {
-                "hunter": 1,
-                "mortal": 1,
-                "idealist": 1,
-                "meticulous": 1
-            },
-            "description": "她在分析多重歷史時遭到嘲笑，被排擠出了學術界，這卻讓她變得更加堅定。她現在在和防剿局協作。",
-            "unique": true,
-            "xtriggers": {
-                "killmortal": "corpse",
-                "killhunter": "corpse",
-                "derangemortal": "natalia_r_c",
-                "capturehunter": "investigator4prisoner",
-                "dissolution": "influencelanterne"
-            }
-        },
-        {
-            "id": "defaulthunter",
-            "label": "討人嫌的警探",
-            "aspects": {
-                "hunter": 1,
-                "mortal": 1
-            },
-            "description": "這位紳士更願意獨自跟他的菸斗和《倫敦新聞畫報》待在一起，但是不行，<i>顯然</i>哪裡冒出來了些討厭鬼需要人像逮瘋狗一樣去逮他們，而且<i>顯然</i>其他人都沒功夫去做。",
-            "xtriggers": {
-                "killmortal": "corpse",
-                "killhunter": "corpse",
-                "derangemortal": "douglas_r",
-                "capturehunter": "defaulthunterprisoner",
-                "dissolution": "influenceforgec"
-            }
-        },
-        {
-            "id": "investigator1prisoner",
-            "label": "韋克菲爾德督察：俘獲！",
-            "aspects": {
-                "mortal": 1,
-                "prisoner": 1,
-                "lantern": 3,
-                "grail": 3,
-                "heart": 3,
-                "winter": 4
-            },
-            "description": "扎迦利·韋克菲爾德：一名悒悒不樂卻又冷酷無情的督察警官。讓我們確保他死在牢中。",
-            "unique": true,
-            "xtriggers": {
-                "killmortal": "corpse",
-                "derangemortal": "zachary_r_c",
-                "dissolution": "influencewintere"
-            },
-            "lifetime": 600,
-            "decayTo": "corpse"
-        },
-        {
-            "id": "investigator2prisoner",
-            "label": "斯賓塞·霍布森：俘獲！",
-            "aspects": {
-                "prisoner": 1,
-                "mortal": 1,
-                "lantern": 3,
-                "grail": 3,
-                "heart": 3,
-                "knock": 3
-            },
-            "description": "霍布森當過記者，私家偵探和——時間極短的——教士。讓我們確保他死在牢中。",
-            "unique": true,
-            "xtriggers": {
-                "killmortal": "corpse",
-                "derangemortal": "spencer_r_c",
-                "dissolution": "influenceknocke"
-            },
-            "lifetime": 600,
-            "decayTo": "corpse"
-        },
-        {
-            "id": "investigator3prisoner",
-            "label": "康妮·李：俘獲！",
-            "aspects": {
-                "prisoner": 1,
-                "mortal": 1,
-                "lantern": 3,
-                "grail": 3,
-                "heart": 3,
-                "edge": 3
-            },
-            "description": "女繼承人，女性參政論者兼冒險家。讓我們確保她死在牢中。",
-            "unique": true,
-            "xtriggers": {
-                "killmortal": "corpse",
-                "derangemortal": "connie_r_c",
-                "dissolution": "influenceedgee"
-            },
-            "lifetime": 600,
-            "decayTo": "corpse"
-        },
-        {
-            "id": "investigator4prisoner",
-            "label": "納塔麗婭·龍博士：俘獲！",
-            "aspects": {
-                "prisoner": 1,
-                "mortal": 1,
-                "lantern": 5,
-                "grail": 3,
-                "heart": 3
-            },
-            "description": "她在分析多重歷史時遭到嘲笑，被排擠出了學術界，這卻讓她變得更加堅定。讓我們確保她死在牢中。",
-            "unique": true,
-            "xtriggers": {
-                "killmortal": "corpse",
-                "derangemortal": "natalia_r_c",
-                "dissolution": "influencelanterne"
-            },
-            "lifetime": 600,
-            "decayTo": "corpse"
-        },
-        {
-            "id": "defaulthunterprisoner",
-            "label": "討人嫌的警探：俘獲！",
-            "aspects": {
-                "mortal": 1,
-                "prisoner": 1,
-                "lantern": 5,
-                "grail": 3,
-                "heart": 3
-            },
-            "description": "這位紳士更願意獨自跟他的菸斗和《倫敦新聞畫報》待在一起，不過如今他給關進了某個倒楣的地洞裡。",
-            "xtriggers": {
-                "killmortal": "corpse",
-                "derangemortal": "douglas_r",
-                "capturehunter": "defaulthunterprisoner",
-                "dissolution": "influenceforgec"
-            },
-            "lifetime": 600,
-            "decayTo": "corpse"
-        }
-    ]
+	"elements": [
+		{
+			"id": "investigator1",
+			"label": "韋克菲爾德督察",
+			"description": "扎迦利·韋克菲爾德（意為醒時之境）：一名悒悒不樂卻又冷酷無情的督察警官。他最近被借調到了防剿局。"
+		},
+		{
+			"id": "investigator2",
+			"label": "斯賓塞·霍布森",
+			"description": "霍布森當過記者，私家偵探和——時間極短的——教士。現在他是防剿局的一名幹員。"
+		},
+		{
+			"id": "investigator3",
+			"label": "康妮·李",
+			"description": "女繼承人，女性參政論者兼冒險家。她最近把她那堂吉訶德式的熱忱和大筆財富投入到為防剿局辦事中。"
+		},
+		{
+			"id": "investigator4",
+			"label": "納塔麗婭·龍博士",
+			"description": "她在分析多重歷史時遭到嘲笑，被排擠出了學術界，這卻讓她變得更加堅定。她現在在和防剿局協作。"
+		},
+		{
+			"id": "defaulthunter",
+			"label": "討人嫌的警探",
+			"description": "這位紳士更願意獨自跟他的菸斗和《倫敦新聞畫報》待在一起，但是不行，<i>顯然</i>哪裡冒出來了些討厭鬼需要人像逮瘋狗一樣去逮他們，而且<i>顯然</i>其他人都沒功夫去做。"
+		},
+		{
+			"id": "investigator1prisoner",
+			"label": "韋克菲爾德督察：俘獲！",
+			"description": "扎迦利·韋克菲爾德：一名悒悒不樂卻又冷酷無情的督察警官。讓我們確保他死在牢中。"
+		},
+		{
+			"id": "investigator2prisoner",
+			"label": "斯賓塞·霍布森：俘獲！",
+			"description": "霍布森當過記者，私家偵探和——時間極短的——教士。讓我們確保他死在牢中。"
+		},
+		{
+			"id": "investigator3prisoner",
+			"label": "康妮·李：俘獲！",
+			"description": "女繼承人，女性參政論者兼冒險家。讓我們確保她死在牢中。"
+		},
+		{
+			"id": "investigator4prisoner",
+			"label": "納塔麗婭·龍博士：俘獲！",
+			"description": "她在分析多重歷史時遭到嘲笑，被排擠出了學術界，這卻讓她變得更加堅定。讓我們確保她死在牢中。"
+		},
+		{
+			"id": "defaulthunterprisoner",
+			"label": "討人嫌的警探：俘獲！",
+			"description": "這位紳士更願意獨自跟他的菸斗和《倫敦新聞畫報》待在一起，不過如今他給關進了某個倒楣的地洞裡。"
+		}
+	]
 }

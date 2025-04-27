@@ -1,913 +1,460 @@
 {
-    "elements": [
-        {
-            "id": "commissionarticlesecrethistory",
-            "label": "委託：秘史",
-            "aspects": {},
-            "description": "I must CHANGE",
-            "lifetime": 1,
-            "decayTo": "commissionarticlesecrethistories",
-            "noartneeded": true
-        },
-        {
-            "id": "commissionarticlesecrethistoryb",
-            "label": "委託：秘史",
-            "aspects": {},
-            "description": "I must CHANGE",
-            "lifetime": 1,
-            "decayTo": "commissionarticlesecrethistoriesb",
-            "noartneeded": true
-        },
-        {
-            "id": "commissionarticlesecrethistoryc",
-            "label": "委託：秘史",
-            "aspects": {},
-            "description": "I must CHANGE",
-            "lifetime": 1,
-            "decayTo": "commissionarticlesecrethistoriesc",
-            "noartneeded": true
-        },
-        {
-            "id": "commissionarticlesecrethistories",
-            "label": "委託：秘史",
-            "aspects": {
-                "commission": 1,
-                "job": 1
-            },
-            "description": "伊本·阿迪姆博士，人稱阿勒頗人，向你提出了一項委託。他希望你提供你能找到的所有關於世界隱秘歷史的情報。[要完成此委任，你需要一個與之匹配且至少2級的密傳片段。]",
-            "slots": [
-                {
-                    "id": "lore",
-                    "label": "密傳",
-                    "required": {
-                        "lore": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "reason1",
-                    "label": "理性",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "work"
-                }
-            ],
-            "xtriggers": {
-                "commissionfulfilled": "compensation"
-            }
-        },
-        {
-            "id": "commissionarticlesecrethistoriesb",
-            "label": "委託：秘史（詳盡）",
-            "aspects": {
-                "commission": 1,
-                "job": 1
-            },
-            "description": "伊本·阿迪姆博士，人稱阿勒頗人，向你提出了一項委託。他要尋找一篇關於世界隱秘歷史的詳盡論文。[要完成此委任，你需要一個能與之匹配且至少4級的密傳片段。]",
-            "slots": [
-                {
-                    "id": "lore",
-                    "label": "密傳",
-                    "required": {
-                        "lore": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "reason1",
-                    "label": "理性",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "work"
-                }
-            ],
-            "xtriggers": {
-                "commissionfulfilled": "compensationb"
-            }
-        },
-        {
-            "id": "commissionarticlesecrethistoriesc",
-            "label": "委託：秘史（極其詳盡）",
-            "aspects": {
-                "commission": 1,
-                "job": 1
-            },
-            "description": "伊本·阿迪姆博士，人稱阿勒頗人，向你提出了一項委託。他要尋找一些關於世界隱秘歷史的特別隱晦的情報。[要完成此委任，你需要一個能與之匹配且至少6級的密傳片段。]",
-            "slots": [
-                {
-                    "id": "lore",
-                    "label": "密傳",
-                    "required": {
-                        "lore": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "reason1",
-                    "label": "理性",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "reason2",
-                    "label": "理性",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "work"
-                }
-            ],
-            "xtriggers": {
-                "commissionfulfilled": "compensationc"
-            }
-        },
-        {
-            "id": "commissionarticlelantern",
-            "label": "委託：燈",
-            "aspects": {
-                "commission": 1,
-                "job": 1
-            },
-            "description": "伊本·阿迪姆博士，人稱阿勒頗人，向你提出了一項委託。他希望你提供你能找到的所有關於<b>燈</b>之奧秘的情報。[要完成此委任，你需要一個能與之匹配且至少2級的密傳片段。]",
-            "slots": [
-                {
-                    "id": "lore",
-                    "label": "密傳",
-                    "required": {
-                        "lore": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "reason1",
-                    "label": "理性",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "work"
-                }
-            ],
-            "xtriggers": {
-                "commissionfulfilled": "compensation"
-            }
-        },
-        {
-            "id": "commissionarticlelanternb",
-            "label": "委託：燈（詳盡）",
-            "aspects": {
-                "commission": 1,
-                "job": 1
-            },
-            "description": "伊本·阿迪姆博士，人稱阿勒頗人，向你提出了一項委託。他希望你提供一份關於<b>燈</b>之奧秘的詳盡評述。[要完成此委任，你需要一能個能與之匹配且至少4級的密傳片段。]",
-            "slots": [
-                {
-                    "id": "lore",
-                    "label": "密傳",
-                    "required": {
-                        "lore": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "reason1",
-                    "label": "理性",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "work"
-                }
-            ],
-            "xtriggers": {
-                "commissionfulfilled": "compensationb"
-            }
-        },
-        {
-            "id": "commissionarticlelanternc",
-            "label": "委託：燈（極其詳盡）",
-            "aspects": {
-                "commission": 1,
-                "job": 1
-            },
-            "description": "伊本·阿迪姆博士，人稱阿勒頗人，向你提出了一項委託。他希望你提供一份關於<b>燈</b>之奧秘的極其詳盡的調查。[要完成此委任，你需要一個能與之匹配且至少6級的密傳片段。]",
-            "slots": [
-                {
-                    "id": "lore",
-                    "label": "密傳",
-                    "required": {
-                        "lore": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "reason1",
-                    "label": "理性",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "reason2",
-                    "label": "理性",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "work"
-                }
-            ],
-            "xtriggers": {
-                "commissionfulfilled": "compensationc"
-            }
-        },
-        {
-            "id": "commissionarticleforge",
-            "label": "委託：鑄",
-            "aspects": {
-                "commission": 1,
-                "job": 1
-            },
-            "description": "奧蘭普·貝謝女士正在為《凱爾伊蘇姆評論報》尋找合適的文章。她想要一些以<b>鑄</b>之準則為靈感的文字。[要完成此委任，你需要一個能與之匹配且至少2級的密傳片段。]",
-            "slots": [
-                {
-                    "id": "lore",
-                    "label": "密傳",
-                    "required": {
-                        "lore": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "reason1",
-                    "label": "理性",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "work"
-                }
-            ],
-            "xtriggers": {
-                "commissionfulfilled": "compensation"
-            }
-        },
-        {
-            "id": "commissionarticleforgeb",
-            "label": "委託：鑄（詳盡）",
-            "aspects": {
-                "commission": 1,
-                "job": 1
-            },
-            "description": "奧蘭普·貝謝女士正在為《凱爾伊蘇姆評論報》尋找適合的文章。她想要一些關於<b>鑄</b>的更加詳盡的文字。[要完成此委任，你需要一個能與之匹配且至少4級的密傳片段。]",
-            "slots": [
-                {
-                    "id": "lore",
-                    "label": "密傳",
-                    "required": {
-                        "lore": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "reason1",
-                    "label": "理性",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "work"
-                }
-            ],
-            "xtriggers": {
-                "commissionfulfilled": "compensationb"
-            }
-        },
-        {
-            "id": "commissionarticleforgec",
-            "label": "委託：鑄（極其詳盡）",
-            "aspects": {
-                "commission": 1,
-                "job": 1
-            },
-            "description": "奧蘭普·貝謝女士正在為《凱爾伊蘇姆評論報》尋找適合的文章。她想要一些關於<b>鑄</b>所帶來的改變和痛苦方面，極其詳盡甚至激烈的文字。[要完成此委任，你需要一個能與之匹配且至少6級的密傳片段。]",
-            "slots": [
-                {
-                    "id": "lore",
-                    "label": "密傳",
-                    "required": {
-                        "lore": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "reason1",
-                    "label": "理性",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "reason2",
-                    "label": "理性",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "work"
-                }
-            ],
-            "xtriggers": {
-                "commissionfulfilled": "compensationc"
-            }
-        },
-        {
-            "id": "commissionarticlegrail",
-            "label": "委託：杯",
-            "aspects": {
-                "commission": 1,
-                "job": 1
-            },
-            "description": "奧蘭普·貝謝女士正在為《凱爾伊蘇姆評論報》尋找適合的文章。她想要一些挑逗欲望的、關於赤杯的文字。[要完成此委任，你需要一個能與之匹配且至少2級的密傳片段。]",
-            "slots": [
-                {
-                    "id": "lore",
-                    "label": "密傳",
-                    "required": {
-                        "lore": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "reason1",
-                    "label": "理性",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "work"
-                }
-            ],
-            "xtriggers": {
-                "commissionfulfilled": "compensation"
-            }
-        },
-        {
-            "id": "commissionarticlegrailb",
-            "label": "委託：杯（詳盡）",
-            "aspects": {
-                "commission": 1,
-                "job": 1
-            },
-            "description": "奧蘭普·貝謝女士正在為《凱爾伊蘇姆評論報》尋找適合的文章。她感興趣的是關於赤杯與其誘惑力的更加詳盡的描述。[要完成此委任，你需要一個能與之匹配且至少4級的密傳片段。]",
-            "slots": [
-                {
-                    "id": "lore",
-                    "label": "密傳",
-                    "required": {
-                        "lore": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "reason1",
-                    "label": "理性",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "work"
-                }
-            ],
-            "xtriggers": {
-                "commissionfulfilled": "compensationb"
-            }
-        },
-        {
-            "id": "commissionarticlegrailc",
-            "label": "委託：杯（極其詳盡）",
-            "aspects": {
-                "commission": 1,
-                "job": 1
-            },
-            "description": "奧蘭普·貝謝女士正在為《凱爾伊蘇姆評論報》尋找適合的文章。她想要一些關於赤杯、極其詳盡且“不加掩飾”的文字。[要完成此委任，你需要一個能與之匹配且至少6級的密傳片段。]",
-            "slots": [
-                {
-                    "id": "lore",
-                    "label": "密傳",
-                    "required": {
-                        "lore": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "reason1",
-                    "label": "理性",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "passion1",
-                    "label": "激情",
-                    "required": {
-                        "passion": 1
-                    },
-                    "actionId": "work"
-                }
-            ],
-            "xtriggers": {
-                "commissionfulfilled": "compensationc"
-            }
-        },
-        {
-            "id": "commissionarticlemoth",
-            "label": "委託：蛾",
-            "aspects": {
-                "commission": 1,
-                "job": 1
-            },
-            "description": "奧蘭普·貝謝女士正在為《凱爾伊蘇姆評論報》尋找適合的文章。她尤其想要一些關於<b>蛾</b>之準則的有趣文字。[要完成此委任，你需要一個能與之匹配且至少2級的密傳片段。]",
-            "slots": [
-                {
-                    "id": "lore",
-                    "label": "密傳",
-                    "required": {
-                        "lore": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "reason1",
-                    "label": "理性",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "work"
-                }
-            ],
-            "xtriggers": {
-                "commissionfulfilled": "compensation"
-            }
-        },
-        {
-            "id": "commissionarticlemothb",
-            "label": "委託：蛾（詳盡）",
-            "aspects": {
-                "commission": 1,
-                "job": 1
-            },
-            "description": "奧蘭普·貝謝女士正在為《凱爾伊蘇姆評論報》尋找適合的文章。她想要一份關於<b>蛾</b>的、詳盡且神秘難解的文字。[要完成此委任，你需要一個能與之匹配且至少4級的密傳片段。]",
-            "slots": [
-                {
-                    "id": "lore",
-                    "label": "密傳",
-                    "required": {
-                        "lore": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "reason1",
-                    "label": "理性",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "work"
-                }
-            ],
-            "xtriggers": {
-                "commissionfulfilled": "compensationb"
-            }
-        },
-        {
-            "id": "commissionarticlemothc",
-            "label": "委託：蛾（極其詳盡）",
-            "aspects": {
-                "commission": 1,
-                "job": 1
-            },
-            "description": "奧蘭普·貝謝女士正在為《凱爾伊蘇姆評論報》尋找適合的文章。她想要一篇關於<b>蛾</b>與其難解之謎的、極其詳盡的闡析。[要完成此委任，你需要一個能與之匹配且至少6級的密傳片段。]",
-            "slots": [
-                {
-                    "id": "lore",
-                    "label": "密傳",
-                    "required": {
-                        "lore": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "reason1",
-                    "label": "理性",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "passion1",
-                    "label": "激情",
-                    "required": {
-                        "passion": 1
-                    },
-                    "actionId": "work"
-                }
-            ],
-            "xtriggers": {
-                "commissionfulfilled": "compensationc"
-            }
-        },
-        {
-            "id": "commissionarticleheart",
-            "label": "委託：心",
-            "aspects": {
-                "commission": 1,
-                "job": 1
-            },
-            "description": "伯爵願意為他感興趣的情報付出酬勞。這一次，他想要一些關於<b>心</b>之奧秘的紀錄。[要完成此委任，你需要一個能與之匹配且至少2級的密傳碎片。]",
-            "slots": [
-                {
-                    "id": "lore",
-                    "label": "密傳",
-                    "required": {
-                        "lore": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "reason1",
-                    "label": "理性",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "work"
-                }
-            ],
-            "xtriggers": {
-                "commissionfulfilled": "compensation"
-            }
-        },
-        {
-            "id": "commissionarticleheartb",
-            "label": "委託：心（詳盡）",
-            "aspects": {
-                "commission": 1,
-                "job": 1
-            },
-            "description": "伯爵願意為他感興趣的情報付出酬勞。這一次，他想要一篇關於<b>心</b>之奧秘的詳盡報告。[要完成此委任，你需要一個能與之匹配且至少4級的密傳碎片。]",
-            "slots": [
-                {
-                    "id": "lore",
-                    "label": "密傳",
-                    "required": {
-                        "lore": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "reason1",
-                    "label": "理性",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "work"
-                }
-            ],
-            "xtriggers": {
-                "commissionfulfilled": "compensationb"
-            }
-        },
-        {
-            "id": "commissionarticleheartc",
-            "label": "委託：心（極其詳盡）",
-            "aspects": {
-                "commission": 1,
-                "job": 1
-            },
-            "description": "伯爵願意為他感興趣的情報付出酬勞。這一次，他想要一篇關於<b>心</b>之奧秘的、極其詳盡的報告。[要完成此委任，你需要一個能與之匹配且至少6級的密傳碎片。]",
-            "slots": [
-                {
-                    "id": "lore",
-                    "label": "密傳",
-                    "required": {
-                        "lore": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "reason1",
-                    "label": "理性",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "passion1",
-                    "label": "激情",
-                    "required": {
-                        "passion": 1
-                    },
-                    "actionId": "work"
-                }
-            ],
-            "xtriggers": {
-                "commissionfulfilled": "compensationc"
-            }
-        },
-        {
-            "id": "commissionarticleedge",
-            "label": "委託：刃",
-            "aspects": {
-                "commission": 1,
-                "job": 1
-            },
-            "description": "伯爵願意為他感興趣的情報付出酬勞。這一次，他想要你能找到的所有關於<b>刃</b>之實踐的情報。[要完成此委任，你需要一個能與之匹配且至少2級的密傳碎片。]",
-            "slots": [
-                {
-                    "id": "lore",
-                    "label": "密傳",
-                    "required": {
-                        "lore": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "reason1",
-                    "label": "理性",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "work"
-                }
-            ],
-            "xtriggers": {
-                "commissionfulfilled": "compensation"
-            }
-        },
-        {
-            "id": "commissionarticleedgeb",
-            "label": "委託：刃（詳盡）",
-            "aspects": {
-                "commission": 1,
-                "job": 1
-            },
-            "description": "伯爵願意為他感興趣的情報付出酬勞。這一次，他想要一些關於<b>刃</b>之實踐的詳盡記錄。[要完成此委任，你需要一個能與之匹配且至少4級的密傳碎片。]",
-            "slots": [
-                {
-                    "id": "lore",
-                    "label": "密傳",
-                    "required": {
-                        "lore": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "reason1",
-                    "label": "理性",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "work"
-                }
-            ],
-            "xtriggers": {
-                "commissionfulfilled": "compensationb"
-            }
-        },
-        {
-            "id": "commissionarticleedgec",
-            "label": "委託：刃（極其詳盡）",
-            "aspects": {
-                "commission": 1,
-                "job": 1
-            },
-            "description": "伯爵願意為他感興趣的情報付出酬勞。這一次，他想要一篇關於<b>刃</b>之實踐的、極其詳盡的文章。[要完成此委任，你需要一個能與之匹配且至少6級的密傳碎片。]",
-            "slots": [
-                {
-                    "id": "lore",
-                    "label": "密傳",
-                    "required": {
-                        "lore": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "reason1",
-                    "label": "理性",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "reason2",
-                    "label": "理性",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "work"
-                }
-            ],
-            "xtriggers": {
-                "commissionfulfilled": "compensationc"
-            }
-        },
-        {
-            "id": "commissionarticleknock",
-            "label": "委託：啟",
-            "aspects": {
-                "commission": 1,
-                "job": 1
-            },
-            "description": "波比願意為她感興趣的情報付出酬勞。這一次，她想要一些關於<b>啟</b>之奧秘的紀錄。[要完成此委任，你需要一個能與之匹配且至少2級的密傳碎片。]",
-            "slots": [
-                {
-                    "id": "lore",
-                    "label": "密傳",
-                    "required": {
-                        "lore": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "reason1",
-                    "label": "理性",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "work"
-                }
-            ],
-            "xtriggers": {
-                "commissionfulfilled": "compensation"
-            }
-        },
-        {
-            "id": "commissionarticleknockb",
-            "label": "委託：啟（詳盡）",
-            "aspects": {
-                "commission": 1,
-                "job": 1
-            },
-            "description": "波比願意為她感興趣的情報付酬。這一次，她想要一篇關於<b>啟</b>之奧秘的詳盡報告。[要完成此委任，你需要一個能與之匹配且至少4級的密傳碎片。]",
-            "slots": [
-                {
-                    "id": "lore",
-                    "label": "密傳",
-                    "required": {
-                        "lore": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "reason1",
-                    "label": "理性",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "work"
-                }
-            ],
-            "xtriggers": {
-                "commissionfulfilled": "compensationb"
-            }
-        },
-        {
-            "id": "commissionarticleknockc",
-            "label": "委託：啟（極其詳盡）",
-            "aspects": {
-                "commission": 1,
-                "job": 1
-            },
-            "description": "波比願意為她感興趣的情報付出酬勞。這一次，她想要一篇關於<b>啟</b>之奧秘的、極其詳盡的報告。[要完成此委任，你需要一個能與之匹配且至少6級的密傳碎片。]",
-            "slots": [
-                {
-                    "id": "lore",
-                    "label": "密傳",
-                    "required": {
-                        "lore": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "reason1",
-                    "label": "理性",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "reason2",
-                    "label": "理性",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "work"
-                }
-            ],
-            "xtriggers": {
-                "commissionfulfilled": "compensationc"
-            }
-        },
-        {
-            "id": "commissionarticlewinter",
-            "label": "委託：冬",
-            "aspects": {
-                "commission": 1,
-                "job": 1
-            },
-            "description": "波比願意為她感興趣的情報付出酬勞。這一次，她想要一些關於<b>冬</b>之奧秘的紀錄。[要完成此委任，你需要一個能與之匹配且至少2級的密傳碎片。]",
-            "slots": [
-                {
-                    "id": "lore",
-                    "label": "密傳",
-                    "required": {
-                        "lore": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "reason1",
-                    "label": "理性",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "work"
-                }
-            ],
-            "xtriggers": {
-                "commissionfulfilled": "compensation"
-            }
-        },
-        {
-            "id": "commissionarticlewinterb",
-            "label": "委託：冬（詳盡）",
-            "aspects": {
-                "commission": 1,
-                "job": 1
-            },
-            "description": "波比願意為她感興趣的情報付出酬勞。這一次，她想要一篇關於<b>冬</b>之奧秘的詳盡報告。[要完成此委任，你需要一個能與之匹配且至少4級的密傳碎片。]",
-            "slots": [
-                {
-                    "id": "lore",
-                    "label": "密傳",
-                    "required": {
-                        "lore": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "reason1",
-                    "label": "理性",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "work"
-                }
-            ],
-            "xtriggers": {
-                "commissionfulfilled": "compensationb"
-            }
-        },
-        {
-            "id": "commissionarticlewinterc",
-            "label": "委託：冬（極其詳盡）",
-            "aspects": {
-                "commission": 1,
-                "job": 1
-            },
-            "description": "波比願意為她感興趣的情報付出酬勞。這一次，她想要一篇關於<b>冬</b>之奧秘的、極其詳盡的報告。[要完成此委任，你需要一個能與之匹配且至少6級的密傳碎片。]",
-            "slots": [
-                {
-                    "id": "lore",
-                    "label": "密傳",
-                    "required": {
-                        "lore": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "reason1",
-                    "label": "理性",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "work"
-                },
-                {
-                    "id": "reason2",
-                    "label": "理性",
-                    "required": {
-                        "reason": 1
-                    },
-                    "actionId": "work"
-                }
-            ],
-            "xtriggers": {
-                "commissionfulfilled": "compensationc"
-            }
-        }
-    ]
+	"elements": [
+		{
+			"id": "commissionarticlesecrethistory",
+			"label": "委託：秘史",
+			"description": "I must CHANGE"
+		},
+		{
+			"id": "commissionarticlesecrethistoryb",
+			"label": "委託：秘史",
+			"description": "I must CHANGE"
+		},
+		{
+			"id": "commissionarticlesecrethistoryc",
+			"label": "委託：秘史",
+			"description": "I must CHANGE"
+		},
+		{
+			"id": "commissionarticlesecrethistories",
+			"label": "委託：秘史",
+			"description": "伊本·阿迪姆博士，人稱阿勒頗人，向你提出了一項委託。他希望你提供你能找到的所有關於世界隱秘歷史的情報。[要完成此委任，你需要一個與之匹配且至少2級的密傳片段。]",
+			"slots": [
+				{
+					"id": "lore",
+					"label": "密傳"
+				},
+				{
+					"id": "reason1",
+					"label": "理性"
+				}
+			]
+		},
+		{
+			"id": "commissionarticlesecrethistoriesb",
+			"label": "委託：秘史（詳盡）",
+			"description": "伊本·阿迪姆博士，人稱阿勒頗人，向你提出了一項委託。他要尋找一篇關於世界隱秘歷史的詳盡論文。[要完成此委任，你需要一個能與之匹配且至少4級的密傳片段。]",
+			"slots": [
+				{
+					"id": "lore",
+					"label": "密傳"
+				},
+				{
+					"id": "reason1",
+					"label": "理性"
+				}
+			]
+		},
+		{
+			"id": "commissionarticlesecrethistoriesc",
+			"label": "委託：秘史（極其詳盡）",
+			"description": "伊本·阿迪姆博士，人稱阿勒頗人，向你提出了一項委託。他要尋找一些關於世界隱秘歷史的特別隱晦的情報。[要完成此委任，你需要一個能與之匹配且至少6級的密傳片段。]",
+			"slots": [
+				{
+					"id": "lore",
+					"label": "密傳"
+				},
+				{
+					"id": "reason1",
+					"label": "理性"
+				},
+				{
+					"id": "reason2",
+					"label": "理性"
+				}
+			]
+		},
+		{
+			"id": "commissionarticlelantern",
+			"label": "委託：燈",
+			"description": "伊本·阿迪姆博士，人稱阿勒頗人，向你提出了一項委託。他希望你提供你能找到的所有關於<b>燈</b>之奧秘的情報。[要完成此委任，你需要一個能與之匹配且至少2級的密傳片段。]",
+			"slots": [
+				{
+					"id": "lore",
+					"label": "密傳"
+				},
+				{
+					"id": "reason1",
+					"label": "理性"
+				}
+			]
+		},
+		{
+			"id": "commissionarticlelanternb",
+			"label": "委託：燈（詳盡）",
+			"description": "伊本·阿迪姆博士，人稱阿勒頗人，向你提出了一項委託。他希望你提供一份關於<b>燈</b>之奧秘的詳盡評述。[要完成此委任，你需要一能個能與之匹配且至少4級的密傳片段。]",
+			"slots": [
+				{
+					"id": "lore",
+					"label": "密傳"
+				},
+				{
+					"id": "reason1",
+					"label": "理性"
+				}
+			]
+		},
+		{
+			"id": "commissionarticlelanternc",
+			"label": "委託：燈（極其詳盡）",
+			"description": "伊本·阿迪姆博士，人稱阿勒頗人，向你提出了一項委託。他希望你提供一份關於<b>燈</b>之奧秘的極其詳盡的調查。[要完成此委任，你需要一個能與之匹配且至少6級的密傳片段。]",
+			"slots": [
+				{
+					"id": "lore",
+					"label": "密傳"
+				},
+				{
+					"id": "reason1",
+					"label": "理性"
+				},
+				{
+					"id": "reason2",
+					"label": "理性"
+				}
+			]
+		},
+		{
+			"id": "commissionarticleforge",
+			"label": "委託：鑄",
+			"description": "奧蘭普·貝謝女士正在為《凱爾伊蘇姆評論報》尋找合適的文章。她想要一些以<b>鑄</b>之準則為靈感的文字。[要完成此委任，你需要一個能與之匹配且至少2級的密傳片段。]",
+			"slots": [
+				{
+					"id": "lore",
+					"label": "密傳"
+				},
+				{
+					"id": "reason1",
+					"label": "理性"
+				}
+			]
+		},
+		{
+			"id": "commissionarticleforgeb",
+			"label": "委託：鑄（詳盡）",
+			"description": "奧蘭普·貝謝女士正在為《凱爾伊蘇姆評論報》尋找適合的文章。她想要一些關於<b>鑄</b>的更加詳盡的文字。[要完成此委任，你需要一個能與之匹配且至少4級的密傳片段。]",
+			"slots": [
+				{
+					"id": "lore",
+					"label": "密傳"
+				},
+				{
+					"id": "reason1",
+					"label": "理性"
+				}
+			]
+		},
+		{
+			"id": "commissionarticleforgec",
+			"label": "委託：鑄（極其詳盡）",
+			"description": "奧蘭普·貝謝女士正在為《凱爾伊蘇姆評論報》尋找適合的文章。她想要一些關於<b>鑄</b>所帶來的改變和痛苦方面，極其詳盡甚至激烈的文字。[要完成此委任，你需要一個能與之匹配且至少6級的密傳片段。]",
+			"slots": [
+				{
+					"id": "lore",
+					"label": "密傳"
+				},
+				{
+					"id": "reason1",
+					"label": "理性"
+				},
+				{
+					"id": "reason2",
+					"label": "理性"
+				}
+			]
+		},
+		{
+			"id": "commissionarticlegrail",
+			"label": "委託：杯",
+			"description": "奧蘭普·貝謝女士正在為《凱爾伊蘇姆評論報》尋找適合的文章。她想要一些挑逗欲望的、關於赤杯的文字。[要完成此委任，你需要一個能與之匹配且至少2級的密傳片段。]",
+			"slots": [
+				{
+					"id": "lore",
+					"label": "密傳"
+				},
+				{
+					"id": "reason1",
+					"label": "理性"
+				}
+			]
+		},
+		{
+			"id": "commissionarticlegrailb",
+			"label": "委託：杯（詳盡）",
+			"description": "奧蘭普·貝謝女士正在為《凱爾伊蘇姆評論報》尋找適合的文章。她感興趣的是關於赤杯與其誘惑力的更加詳盡的描述。[要完成此委任，你需要一個能與之匹配且至少4級的密傳片段。]",
+			"slots": [
+				{
+					"id": "lore",
+					"label": "密傳"
+				},
+				{
+					"id": "reason1",
+					"label": "理性"
+				}
+			]
+		},
+		{
+			"id": "commissionarticlegrailc",
+			"label": "委託：杯（極其詳盡）",
+			"description": "奧蘭普·貝謝女士正在為《凱爾伊蘇姆評論報》尋找適合的文章。她想要一些關於赤杯、極其詳盡且“不加掩飾”的文字。[要完成此委任，你需要一個能與之匹配且至少6級的密傳片段。]",
+			"slots": [
+				{
+					"id": "lore",
+					"label": "密傳"
+				},
+				{
+					"id": "reason1",
+					"label": "理性"
+				},
+				{
+					"id": "passion1",
+					"label": "激情"
+				}
+			]
+		},
+		{
+			"id": "commissionarticlemoth",
+			"label": "委託：蛾",
+			"description": "奧蘭普·貝謝女士正在為《凱爾伊蘇姆評論報》尋找適合的文章。她尤其想要一些關於<b>蛾</b>之準則的有趣文字。[要完成此委任，你需要一個能與之匹配且至少2級的密傳片段。]",
+			"slots": [
+				{
+					"id": "lore",
+					"label": "密傳"
+				},
+				{
+					"id": "reason1",
+					"label": "理性"
+				}
+			]
+		},
+		{
+			"id": "commissionarticlemothb",
+			"label": "委託：蛾（詳盡）",
+			"description": "奧蘭普·貝謝女士正在為《凱爾伊蘇姆評論報》尋找適合的文章。她想要一份關於<b>蛾</b>的、詳盡且神秘難解的文字。[要完成此委任，你需要一個能與之匹配且至少4級的密傳片段。]",
+			"slots": [
+				{
+					"id": "lore",
+					"label": "密傳"
+				},
+				{
+					"id": "reason1",
+					"label": "理性"
+				}
+			]
+		},
+		{
+			"id": "commissionarticlemothc",
+			"label": "委託：蛾（極其詳盡）",
+			"description": "奧蘭普·貝謝女士正在為《凱爾伊蘇姆評論報》尋找適合的文章。她想要一篇關於<b>蛾</b>與其難解之謎的、極其詳盡的闡析。[要完成此委任，你需要一個能與之匹配且至少6級的密傳片段。]",
+			"slots": [
+				{
+					"id": "lore",
+					"label": "密傳"
+				},
+				{
+					"id": "reason1",
+					"label": "理性"
+				},
+				{
+					"id": "passion1",
+					"label": "激情"
+				}
+			]
+		},
+		{
+			"id": "commissionarticleheart",
+			"label": "委託：心",
+			"description": "伯爵願意為他感興趣的情報付出酬勞。這一次，他想要一些關於<b>心</b>之奧秘的紀錄。[要完成此委任，你需要一個能與之匹配且至少2級的密傳碎片。]",
+			"slots": [
+				{
+					"id": "lore",
+					"label": "密傳"
+				},
+				{
+					"id": "reason1",
+					"label": "理性"
+				}
+			]
+		},
+		{
+			"id": "commissionarticleheartb",
+			"label": "委託：心（詳盡）",
+			"description": "伯爵願意為他感興趣的情報付出酬勞。這一次，他想要一篇關於<b>心</b>之奧秘的詳盡報告。[要完成此委任，你需要一個能與之匹配且至少4級的密傳碎片。]",
+			"slots": [
+				{
+					"id": "lore",
+					"label": "密傳"
+				},
+				{
+					"id": "reason1",
+					"label": "理性"
+				}
+			]
+		},
+		{
+			"id": "commissionarticleheartc",
+			"label": "委託：心（極其詳盡）",
+			"description": "伯爵願意為他感興趣的情報付出酬勞。這一次，他想要一篇關於<b>心</b>之奧秘的、極其詳盡的報告。[要完成此委任，你需要一個能與之匹配且至少6級的密傳碎片。]",
+			"slots": [
+				{
+					"id": "lore",
+					"label": "密傳"
+				},
+				{
+					"id": "reason1",
+					"label": "理性"
+				},
+				{
+					"id": "passion1",
+					"label": "激情"
+				}
+			]
+		},
+		{
+			"id": "commissionarticleedge",
+			"label": "委託：刃",
+			"description": "伯爵願意為他感興趣的情報付出酬勞。這一次，他想要你能找到的所有關於<b>刃</b>之實踐的情報。[要完成此委任，你需要一個能與之匹配且至少2級的密傳碎片。]",
+			"slots": [
+				{
+					"id": "lore",
+					"label": "密傳"
+				},
+				{
+					"id": "reason1",
+					"label": "理性"
+				}
+			]
+		},
+		{
+			"id": "commissionarticleedgeb",
+			"label": "委託：刃（詳盡）",
+			"description": "伯爵願意為他感興趣的情報付出酬勞。這一次，他想要一些關於<b>刃</b>之實踐的詳盡記錄。[要完成此委任，你需要一個能與之匹配且至少4級的密傳碎片。]",
+			"slots": [
+				{
+					"id": "lore",
+					"label": "密傳"
+				},
+				{
+					"id": "reason1",
+					"label": "理性"
+				}
+			]
+		},
+		{
+			"id": "commissionarticleedgec",
+			"label": "委託：刃（極其詳盡）",
+			"description": "伯爵願意為他感興趣的情報付出酬勞。這一次，他想要一篇關於<b>刃</b>之實踐的、極其詳盡的文章。[要完成此委任，你需要一個能與之匹配且至少6級的密傳碎片。]",
+			"slots": [
+				{
+					"id": "lore",
+					"label": "密傳"
+				},
+				{
+					"id": "reason1",
+					"label": "理性"
+				},
+				{
+					"id": "reason2",
+					"label": "理性"
+				}
+			]
+		},
+		{
+			"id": "commissionarticleknock",
+			"label": "委託：啟",
+			"description": "波比願意為她感興趣的情報付出酬勞。這一次，她想要一些關於<b>啟</b>之奧秘的紀錄。[要完成此委任，你需要一個能與之匹配且至少2級的密傳碎片。]",
+			"slots": [
+				{
+					"id": "lore",
+					"label": "密傳"
+				},
+				{
+					"id": "reason1",
+					"label": "理性"
+				}
+			]
+		},
+		{
+			"id": "commissionarticleknockb",
+			"label": "委託：啟（詳盡）",
+			"description": "波比願意為她感興趣的情報付酬。這一次，她想要一篇關於<b>啟</b>之奧秘的詳盡報告。[要完成此委任，你需要一個能與之匹配且至少4級的密傳碎片。]",
+			"slots": [
+				{
+					"id": "lore",
+					"label": "密傳"
+				},
+				{
+					"id": "reason1",
+					"label": "理性"
+				}
+			]
+		},
+		{
+			"id": "commissionarticleknockc",
+			"label": "委託：啟（極其詳盡）",
+			"description": "波比願意為她感興趣的情報付出酬勞。這一次，她想要一篇關於<b>啟</b>之奧秘的、極其詳盡的報告。[要完成此委任，你需要一個能與之匹配且至少6級的密傳碎片。]",
+			"slots": [
+				{
+					"id": "lore",
+					"label": "密傳"
+				},
+				{
+					"id": "reason1",
+					"label": "理性"
+				},
+				{
+					"id": "reason2",
+					"label": "理性"
+				}
+			]
+		},
+		{
+			"id": "commissionarticlewinter",
+			"label": "委託：冬",
+			"description": "波比願意為她感興趣的情報付出酬勞。這一次，她想要一些關於<b>冬</b>之奧秘的紀錄。[要完成此委任，你需要一個能與之匹配且至少2級的密傳碎片。]",
+			"slots": [
+				{
+					"id": "lore",
+					"label": "密傳"
+				},
+				{
+					"id": "reason1",
+					"label": "理性"
+				}
+			]
+		},
+		{
+			"id": "commissionarticlewinterb",
+			"label": "委託：冬（詳盡）",
+			"description": "波比願意為她感興趣的情報付出酬勞。這一次，她想要一篇關於<b>冬</b>之奧秘的詳盡報告。[要完成此委任，你需要一個能與之匹配且至少4級的密傳碎片。]",
+			"slots": [
+				{
+					"id": "lore",
+					"label": "密傳"
+				},
+				{
+					"id": "reason1",
+					"label": "理性"
+				}
+			]
+		},
+		{
+			"id": "commissionarticlewinterc",
+			"label": "委託：冬（極其詳盡）",
+			"description": "波比願意為她感興趣的情報付出酬勞。這一次，她想要一篇關於<b>冬</b>之奧秘的、極其詳盡的報告。[要完成此委任，你需要一個能與之匹配且至少6級的密傳碎片。]",
+			"slots": [
+				{
+					"id": "lore",
+					"label": "密傳"
+				},
+				{
+					"id": "reason1",
+					"label": "理性"
+				},
+				{
+					"id": "reason2",
+					"label": "理性"
+				}
+			]
+		}
+	]
 }

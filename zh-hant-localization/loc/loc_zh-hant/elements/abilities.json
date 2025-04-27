@@ -1,821 +1,363 @@
 {
-    "elements": [
-        {
-            "id": "hunger",
-            "label": "飢餓",
-            "aspects": {
-                "illhealth": 1,
-                "grail": 2,
-                "ingredient": 1
-            },
-            "slots": [
-                {
-                    "id": "nourishment",
-                    "label": "食物",
-                    "actionId": "dream",
-                    "description": "為了恢復，我必須吃點東西。",
-                    "required": {
-                        "funds": 1
-                    }
-                }
-            ],
-            "description": "要想恢復，我需要休息和有營養的食物。但是，當我涎水直淌，視線游離之際，我看見了那個赤色的杯子；它時不時便會同我講話。[在“飢餓”消失前將其入夢可恢復“健康”。]",
-            "xtriggers": {
-                "restorehealth": "health",
-                "scar_ability": "scar_heart"
-            },
-            "lifetime": 60,
-            "decayTo": "decrepitude"
-        },
-        {
-            "id": "health",
-            "label": "健康",
-            "aspects": {
-                "heart": 2,
-                "ingredient": 1,
-                "ability": 1
-            },
-            "animFrames": 1,
-            "xtriggers": {
-                "damagehealth": "injury",
-                "fallsick": "affliction",
-                "destroyhealth": "decrepitude",
-                "fatiguing": "fatigue",
-                "employment": "fatigue",
-                "job": "fatigue",
-                "ritual": "fatigue",
-                "society": "fatigue",
-                "scar_ability": "scar_heart"
-            },
-            "description": "屬於我的這具身體。世間存在各式各樣的身體，但這一具是屬於我的。我的頭腦需要它，正如菌菇需要泥土。[你可以用足量的活力獲得更多健康。]"
-        },
-        {
-            "id": "vitality",
-            "label": "活力",
-            "slots": [
-                {
-                    "id": "morevitality",
-                    "label": "更多活力",
-                    "actionId": "study",
-                    "description": "如果擁有足夠多的活力——或時而加上一些更異質的東西——我能增進自己的健康。",
-                    "required": {
-                        "vitality": 1,
-                        "influenceheart": 1
-                    }
-                }
-            ],
-            "aspects": {
-                "advancement": 1,
-                "heart": 1,
-                "influence": 1
-            },
-            "description": "鍛鍊，或者其他更少見的東西，令我精神振奮。[與另一張“活力”一同使用可提升技能。如果不使用，將會在三分鐘後消失。]",
-            "xtriggers": {
-                "upgradeinfluence": "influenceheartc"
-            },
-            "lifetime": 180
-        },
-        {
-            "id": "vitalityplus",
-            "label": "活力：學有所成",
-            "aspects": {
-                "advancement": 1,
-                "heart": 2,
-                "influence": 1
-            },
-            "description": "我已經準備好改變了。[與“力量”技能一同使用可升級該技能並獲得“健康”。五分鐘後將會退化回“活力”。]",
-            "xtriggers": {
-                "upgradeinfluence": "influenceheartc"
-            },
-            "lifetime": 300,
-            "decayTo": "vitality"
-        },
-        {
-            "id": "restlessness",
-            "label": "躁動",
-            "aspects": {
-                "influence": 1,
-                "forge": 2,
-                "heart": 2,
-                "grail": 2,
-                "lantern": 2,
-                "moth": 2,
-                "memory": 1
-            },
-            "description": "我為一種躁動的嚮往所俘。我似乎產生了某種……<i>企圖</i>。究竟是何企圖？",
-            "lifetime": 60,
-            "decayTo": "dread"
-        },
-        {
-            "id": "bloodshed",
-            "label": "流血",
-            "description": "血濺當場。",
-            "lifetime": 1
-        },
-        {
-            "id": "injury",
-            "label": "傷口",
-            "aspects": {
-                "illhealth": 1,
-                "knock": 2,
-                "ingredient": 1
-            },
-            "slots": [
-                {
-                    "id": "medicines",
-                    "label": "用藥，或者…",
-                    "actionId": "dream",
-                    "description": "我可以花錢請醫生…",
-                    "required": {
-                        "funds": 1
-                    }
-                },
-                {
-                    "id": "vitality",
-                    "label": "…活力",
-                    "description": "…可是我或許只要稍微休息一下就能恢復。",
-                    "required": {
-                        "vitality": 1
-                    },
-                    "actionId": "dream"
-                }
-            ],
-            "description": "要想恢復，我需要休息和有營養的食物。不過蟻母在和善地看著人的傷口。[在“傷口”消失前將其入夢也可恢復“健康”。]",
-            "xtriggers": {
-                "restorehealth": "health",
-                "scar_ability": "scar_heart"
-            },
-            "lifetime": 150,
-            "decayTo": "decrepitude"
-        },
-        {
-            "id": "disillusionment",
-            "label": "激情（破滅）",
-            "description": "我已經悖離了我自己的準則和偏好。[此卡不可使用，將於六十秒後復原。]",
-            "lifetime": 60,
-            "decayTo": "passion",
-            "icon": "passion",
-            "xtriggers": {
-                "scarability": "scar_moth",
-                "toreason": "concentration",
-                "damagepassion": "fascination"
-            },
-            "resaturate": true
-        },
-        {
-            "id": "passionexhausted",
-            "label": "激情（枯竭）",
-            "description": "激情之火衰弱不振。[此卡不可使用，將於六十秒後復原。]",
-            "lifetime": 60,
-            "decayTo": "passion",
-            "icon": "passion",
-            "xtriggers": {
-                "scarability": "scar_moth",
-                "toreason": "concentration",
-                "damagepassion": "fascination"
-            },
-            "resaturate": true
-        },
-        {
-            "id": "fatigue",
-            "label": "健康（疲勞）",
-            "aspects": {
-                "illhealth": 1,
-                "heart": 1
-            },
-            "description": "此卡不可使用，將會在六十秒後復原。我能通過入夢令其更快恢復。",
-            "xtriggers": {
-                "restorehealth": "health",
-                "damagehealth": "injury",
-                "destroyhealth": "decrepitude",
-                "fallsick": "affliction",
-                "scarability": "scar_heart"
-            },
-            "lifetime": 60,
-            "decayTo": "health",
-            "icon": "health",
-            "resaturate": true
-        },
-        {
-            "id": "affliction",
-            "label": "病痛",
-            "aspects": {
-                "illhealth": 1,
-                "winter": 2,
-                "ingredient": 1
-            },
-            "xtriggers": {
-                "restorehealth": "health",
-                "scarability": "scar_heart"
-            },
-            "slots": [
-                {
-                    "id": "medicine",
-                    "label": "用藥，或者…",
-                    "actionId": "dream",
-                    "description": "我可以花錢請醫生…",
-                    "required": {
-                        "funds": 1
-                    }
-                },
-                {
-                    "id": "vitality",
-                    "label": "…活力",
-                    "actionId": "dream",
-                    "description": "…可是我或許只要稍微休息一下就能恢復。",
-                    "required": {
-                        "vitality": 1
-                    }
-                }
-            ],
-            "description": "疾病令我虛弱。要想恢復，我需要休息和有營養的食物。[在“病痛”退化前將其入夢也可恢復“健康”。]",
-            "lifetime": 180,
-            "decayTo": "decrepitude"
-        },
-        {
-            "id": "reason",
-            "label": "理性",
-            "aspects": {
-                "lantern": 2,
-                "ingredient": 1,
-                "ability": 1
-            },
-            "animFrames": 1,
-            "description": "“在完全現實的情況下，有機體不可能長久地存活下去。”——雪莉·傑克森\n\n        [博聞能夠用於研究並憑之提升理性。]",
-            "xtriggers": {
-                "damagereason": "dread",
-                "fatiguing": "concentration",
-                "employment": "concentration",
-                "job": "concentration",
-                "topassion": "passion",
-                "ritual": "concentration",
-                "society": "concentration",
-                "scarability": "scar_lantern"
-            }
-        },
-        {
-            "id": "concentration",
-            "label": "理性[黯淡]",
-            "description": "我的頭腦疲累。[此卡不可使用，將於六十秒後復原。]",
-            "lifetime": 60,
-            "decayTo": "reason",
-            "icon": "reason",
-            "xtriggers": {
-                "scarability": "scar_lantern",
-                "topassion": "passionexhausted",
-                "damagereason": "dread"
-            },
-            "resaturate": true
-        },
-        {
-            "id": "erudition",
-            "label": "博聞",
-            "slots": [
-                {
-                    "id": "moreerudition",
-                    "label": "更多博聞",
-                    "actionId": "study",
-                    "description": "如果擁有足夠多的博聞——或時而加上一些更異質的東西——我能增進自己的理性。",
-                    "required": {
-                        "erudition": 1,
-                        "influencelantern": 1
-                    }
-                }
-            ],
-            "aspects": {
-                "advancement": 1,
-                "lantern": 1,
-                "influence": 1
-            },
-            "description": "我如饑似渴地吸收著知識，彷彿影子吸收光線。也許我離提升不遠了。[研究“博聞”能獲得更多“理性”。如果不使用，將會在三分鐘後消失。]",
-            "lifetime": 180,
-            "xtriggers": {
-                "upgradeinfluence": "influencelanternc"
-            }
-        },
-        {
-            "id": "eruditionplus",
-            "label": "博聞：學有所成",
-            "aspects": {
-                "advancement": 1,
-                "lantern": 2,
-                "influence": 1
-            },
-            "description": "我已經準備好改變了。[與“學識”技能一起使用可提升該技能並獲得“理性”。五分鐘後會退化回“博聞”。]",
-            "lifetime": 300,
-            "xtriggers": {
-                "upgradeinfluence": "influencelanternc"
-            },
-            "decayTo": "erudition"
-        },
-        {
-            "id": "dread",
-            "label": "恐懼",
-            "aspects": {
-                "edge": 2,
-                "inducesdespair": 1,
-                "influence": 1,
-                "illhealth": 1,
-                "memory": 1
-            },
-            "slots": [
-                {
-                    "id": "reminders",
-                    "label": "憶起",
-                    "actionId": "dream",
-                    "required": {
-                        "contentment": 1
-                    },
-                    "description": "我需要一點點平靜，或者一刻的快樂。[過多的恐懼會摧毀你。安逸能治癒恐懼。]"
-                },
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "或許我可以使用恐懼來增強一個危險的影響。",
-                    "required": {
-                        "influenceedge": 1,
-                        "influencewinter": 1
-                    },
-                    "actionId": "study"
-                },
-                {
-                    "id": "knowledge",
-                    "label": "知識",
-                    "description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]",
-                    "required": {
-                        "fragmentedgec": 1,
-                        "fragmentedged": 1,
-                        "fragmentedgee": 1,
-                        "fragmentedgef": 1,
-                        "fragmentedgeg": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "我已經見得太多了。不知名的恐懼正在用利齒啃噬著我的希望；一種關於存在本身的的恐懼。",
-            "lifetime": 180,
-            "xtriggers": {
-                "upgradeinfluence": "influenceedgec",
-                "glorify": "fascination"
-            }
-        },
-        {
-            "id": "passion",
-            "label": "激情",
-            "aspects": {
-                "moth": 2,
-                "ingredient": 1,
-                "ability": 1
-            },
-            "animFrames": 1,
-            "description": "“遲鈍的頭腦既缺乏直覺，也不通邏輯。”——布萊士·帕斯卡\n\n        [如果你擁有足量的“靈感”，你可以通過<b>研究</b>獲得更多“激情”。]",
-            "xtriggers": {
-                "damagepassion": "fascination",
-                "plead": "disillusionment",
-                "fatiguing": "passionexhausted",
-                "employment": "passionexhausted",
-                "job": "passionexhausted",
-                "toreason": "reason",
-                "ritual": "passionexhausted",
-                "society": "passionexhausted"
-            }
-        },
-        {
-            "id": "decrepitude",
-            "label": "衰老",
-            "description": "有些傷口永遠不會完全癒合。[沒能及時處理的傷口和飢餓會轉變為衰老，且永遠不會恢復為健康。衰老在你死亡之前會一直存在。]",
-            "aspects": {
-                "ability": 1,
-                "winter": 1,
-                "remnant": 1
-            },
-            "xtriggers": {
-                "tohealth": "health",
-                "alzabo": "memory.honeyed"
-            },
-            "slots": [
-                {
-                    "id": "consume",
-                    "label": "消耗",
-                    "required": {
-                        "ingredient": 1
-                    },
-                    "forbidden": {
-                        "poison": 1
-                    },
-                    "actionId": "dream"
-                }
-            ]
-        },
-        {
-            "id": "glimmering",
-            "label": "靈感",
-            "slots": [
-                {
-                    "id": "moreglimmering",
-                    "label": "更多靈感",
-                    "actionId": "study",
-                    "description": "如果擁有足夠多的博聞——或時而加上一些更異質的東西——我能增進自己的激情。",
-                    "required": {
-                        "glimmering": 1,
-                        "influencemoth": 1
-                    }
-                }
-            ],
-            "aspects": {
-                "advancement": 1,
-                "moth": 1,
-                "influence": 1
-            },
-            "description": "我的情緒比平常更為高昂。有些事物我永遠也不會理解，因而永遠都那麼珍貴，而如今我離它們更近了一點。[在研究中使用“靈感”可獲得“激情”。如果不使用，將會在三分鐘後消失。]",
-            "lifetime": 180,
-            "xtriggers": {
-                "upgradeinfluence": "influencemothc"
-            }
-        },
-        {
-            "id": "glimmeringplus",
-            "label": "靈感：學有所成",
-            "aspects": {
-                "advancement": 1,
-                "moth": 2,
-                "influence": 1
-            },
-            "description": "我已經準備好改變了。[與“想像”技能一起使用可升級該技能並獲得“激情”。五分鐘後將退化回“靈感”。]",
-            "lifetime": 300,
-            "xtriggers": {
-                "upgradeinfluence": "influencemothc"
-            },
-            "decayTo": "glimmering"
-        },
-        {
-            "id": "fascination",
-            "label": "入迷",
-            "aspects": {
-                "moth": 2,
-                "illhealth": 1,
-                "influence": 1,
-                "memory": 1
-            },
-            "slots": [
-                {
-                    "id": "reminders",
-                    "label": "憶起",
-                    "required": {
-                        "dread": 1,
-                        "fleeting": 1
-                    },
-                    "actionId": "dream",
-                    "description": "灰色的現實會使我的靈魂穩定。"
-                },
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "我或許可以使用入迷來增強一個誘人的影響。",
-                    "required": {
-                        "influencemoth": 1,
-                        "influencelantern": 1
-                    },
-                    "actionId": "study"
-                },
-                {
-                    "id": "knowledge",
-                    "label": "知識",
-                    "description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]",
-                    "required": {
-                        "fragmentmothc": 1,
-                        "fragmentmothd": 1,
-                        "fragmentmothe": 1,
-                        "fragmentmothf": 1,
-                        "fragmentmothg": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "光透過<b>裂縫漏入</b>。我的頭腦比<b>任何時候</b>都<b>更清晰</b>。<b>我升得越高，見得越多。</b>",
-            "lifetime": 180,
-            "xtriggers": {
-                "upgradeinfluence": "influencemothc"
-            }
-        },
-        {
-            "id": "scholarlatin",
-            "label": "學問：拉丁語",
-            "aspects": {
-                "language": 1
-            },
-            "slots": [
-                {
-                    "id": "Text",
-                    "label": "未翻譯文獻",
-                    "required": {
-                        "textlatin": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "一門死去的語言：如金剛石般失去生機。[部分書籍需翻譯後方可閱讀。]",
-            "unique": true
-        },
-        {
-            "id": "scholarfucine",
-            "label": "學問：富奇諾語",
-            "aspects": {
-                "language": 1
-            },
-            "slots": [
-                {
-                    "id": "Text",
-                    "label": "未翻譯文獻",
-                    "required": {
-                        "textfucine": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "已經消失的富奇諾湖東側曾有過一些住戶。賀拉斯曾警告說，那裡是女巫之地。而這便是他們所使用的語言。有些人將之稱作“乾涸之語”，另一些人則稱其為“女巫之語”。[部分書籍需翻譯後方可閱讀。]",
-            "unique": true
-        },
-        {
-            "id": "scholargreek",
-            "label": "學問：希臘語",
-            "aspects": {
-                "language": 1
-            },
-            "slots": [
-                {
-                    "id": "Text",
-                    "label": "未翻譯文獻",
-                    "required": {
-                        "textgreek": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "毫無疑問你對從早期到拜占庭時期的每一種希臘語都十分精通。但是，能擁有那些參考書籍總歸是件好事。[部分書籍需翻譯後方可閱讀。]",
-            "unique": true
-        },
-        {
-            "id": "scholarphrygian",
-            "label": "學問：弗里吉亞語",
-            "slots": [
-                {
-                    "id": "Text",
-                    "label": "未翻譯文獻",
-                    "required": {
-                        "textphrygian": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "aspects": {
-                "language": 1
-            },
-            "description": "弗里吉亞人崇拜的“偉大母親”就是我們所稱的聖杯。他們的土地曾見證過繩結姐妹會誕生，而這門語言便是轟雷之皮飛升時用於懇求的語言。[部分書籍需翻譯後方可閱讀。]",
-            "unique": true
-        },
-        {
-            "id": "scholararamaic",
-            "label": "學問：亞蘭語",
-            "slots": [
-                {
-                    "id": "Text",
-                    "label": "未翻譯文獻",
-                    "required": {
-                        "textaramaic": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "aspects": {
-                "language": 1
-            },
-            "description": "亞蘭與她這三千多年以來所養育的眾多孩子所使用的語言。[部分書籍需翻譯後方可閱讀。]",
-            "unique": true
-        },
-        {
-            "id": "scholarmandaic",
-            "label": "學問：淵深曼達安語",
-            "slots": [
-                {
-                    "id": "Text",
-                    "label": "未翻譯文獻",
-                    "required": {
-                        "textmandaic": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "aspects": {
-                "language": 1
-            },
-            "description": "深遠的沙漠深處引藏最深的關於最隱秘儀式的手跡。據說，它是蟻母其人與生俱來的語言。[部分書籍需翻譯後方可閱讀。]",
-            "unique": true
-        },
-        {
-            "id": "scholarsanskrit",
-            "label": "學問：梵語",
-            "slots": [
-                {
-                    "id": "Text",
-                    "label": "未翻譯文獻",
-                    "required": {
-                        "textsanskrit": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "aspects": {
-                "language": 1
-            },
-            "description": "次大陸的神聖語言。通向四千年的詩歌、典儀和奧秘的大門如今對你敞開，只要你能從它如同蓮花般捲曲的詞彙中掙出一條路。[部分書籍需翻譯後方可閱讀。]",
-            "unique": true
-        },
-        {
-            "id": "scholarvak",
-            "label": "學問：伐訶語",
-            "slots": [
-                {
-                    "id": "Text",
-                    "label": "未翻譯文獻",
-                    "required": {
-                        "textvak": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "aspects": {
-                "language": 1
-            },
-            "description": "這是早於諸神自血中誕生，更早於猿人直立行走前，就能在太陽居屋裡聽到的語言。[部分書籍需翻譯後方可閱讀。]",
-            "unique": true
-        },
-        {
-            "id": "fleeting",
-            "label": "一瞬追憶",
-            "description": "回首某個瞬間。下個瞬間即告消逝。",
-            "aspects": {
-                "secrethistories": 2,
-                "moth": 2,
-                "influence": 1,
-                "memory": 1
-            },
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "我或許能從我的回憶中尋找一些東西來增強一個短暫的影響。",
-                    "required": {
-                        "influencemoth": 1,
-                        "influencelantern": 1
-                    },
-                    "actionId": "study"
-                },
-                {
-                    "id": "knowledge",
-                    "label": "知識",
-                    "description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]",
-                    "required": {
-                        "fragmentmothc": 1,
-                        "fragmentmothd": 1,
-                        "fragmentmothe": 1,
-                        "fragmentmothf": 1,
-                        "fragmentmothg": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "lifetime": 120,
-            "xtriggers": {
-                "upgradeinfluence": "influencemothc"
-            }
-        },
-        {
-            "id": "contentment",
-            "label": "安逸",
-            "aspects": {
-                "lantern": 2,
-                "heart": 2,
-                "influence": 1
-            },
-            "description": "我很開心，大概吧。[安逸可以抵禦恐懼，但安逸難以久存。]",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "加上",
-                    "description": "我或許能使用安逸來增強正面影響。",
-                    "required": {
-                        "influencelantern": 1,
-                        "influenceheart": 1,
-                        "influencewinter": 1,
-                        "influenceforge": 1
-                    },
-                    "actionId": "study"
-                },
-                {
-                    "id": "knowledge",
-                    "label": "知識",
-                    "description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]",
-                    "required": {
-                        "fragmentheartc": 1,
-                        "fragmentheartd": 1,
-                        "fragmenthearte": 1,
-                        "fragmentheartf": 1,
-                        "fragmentheartg": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "lifetime": 60,
-            "xtriggers": {
-                "upgradeinfluence": "influenceheartc"
-            }
-        },
-        {
-            "id": "scar_edge",
-            "label": "傷疤：殘暴的經歷",
-            "description": "<b>浮士德</b>：我以為地獄只是個傳說。<b>梅菲斯托費勒斯<b>：噯，儘管這麼想吧，經歷會改變你的看法。[你已為力量做出了永久的犧牲。]",
-            "aspects": {
-                "tool": 1,
-                "edge": 4,
-                "scar": 1
-            }
-        },
-        {
-            "id": "scar_knock",
-            "label": "傷疤：半愈的瘺管",
-            "description": "並非所有門洞都是創口，但所有創口都是門洞。[你已為力量做出了永久的犧牲。]",
-            "aspects": {
-                "tool": 1,
-                "knock": 4,
-                "scar": 1
-            }
-        },
-        {
-            "id": "scar_winter",
-            "label": "傷疤：舊傷",
-            "description": "又朝日落走近了些，看到了夜空中的第一顆星。[你已為力量做出了永久的犧牲。]",
-            "aspects": {
-                "tool": 1,
-                "winter": 4,
-                "scar": 1
-            }
-        },
-        {
-            "id": "scar_heart",
-            "label": "傷疤：浪遊之心",
-            "description": "我擁有如此之多的生命，很難停止不動。我坐下休息時，關節痛如火燒。我知道我一旦止息，或許便是永遠。[你已為力量做出了永久的犧牲。小心：此卡不像“健康”，無法緩解生病和飢餓。]",
-            "aspects": {
-                "tool": 1,
-                "heart": 4,
-                "scar": 1
-            },
-            "xtriggers": {
-                "job": "scar_heart_fatigued",
-                "employment": "scar_heart_fatigued",
-                "ritual": "scar_heart_fatigued"
-            }
-        },
-        {
-            "id": "scar_heart_fatigued",
-            "label": "傷疤：浪遊之心（耗竭）",
-            "description": "我的動脈在呻吟，我的血管在燃燒。我無法再逼迫自己前進了。[請等待。]",
-            "decayTo": "scar_heart",
-            "lifetime": 60,
-            "resaturate": true
-        },
-        {
-            "id": "scar_moth",
-            "label": "傷疤：百變之相",
-            "description": "我換上過無數副假面孔。每一副假面孔都讓我更難回想起自己的本來面目。即便在情緒高揚時，我面上的筋骨依然柔軟可塑。[你已為力量做出了永久的犧牲。]",
-            "aspects": {
-                "tool": 1,
-                "moth": 4,
-                "scar": 1
-            },
-            "xtriggers": {
-                "job": "scar_moth_fatigued",
-                "employment": "scar_moth_fatigued",
-                "ritual": "scar_moth_fatigued"
-            }
-        },
-        {
-            "id": "scar_moth_fatigued",
-            "label": "傷疤：百變之相（耗竭）",
-            "description": "我每換上一副表情，五官就像水一樣起漣漪。如果我不加小心，我將徹底溶解。[請等待。]",
-            "decayTo": "scar_moth",
-            "lifetime": 60,
-            "resaturate": true
-        },
-        {
-            "id": "scar_lantern",
-            "label": "傷疤：半隱半現",
-            "description": "現在我有時會露出皮膚下的美貌。當我轉向合適的角度——當我的衣服滑落一旁——當遇上銳利的眼光——我的形狀被完美地揭示無餘。[你已為力量做出了永久的犧牲。]",
-            "aspects": {
-                "tool": 1,
-                "lantern": 4,
-                "scar": 1
-            }
-        }
-    ]
+	"elements": [
+		{
+			"id": "hunger",
+			"label": "飢餓",
+			"slots": [
+				{
+					"id": "nourishment",
+					"label": "食物",
+					"description": "為了恢復，我必須吃點東西。"
+				}
+			],
+			"description": "要想恢復，我需要休息和有營養的食物。但是，當我涎水直淌，視線游離之際，我看見了那個赤色的杯子；它時不時便會同我講話。[在“飢餓”消失前將其入夢可恢復“健康”。]"
+		},
+		{
+			"id": "health",
+			"label": "健康",
+			"description": "屬於我的這具身體。世間存在各式各樣的身體，但這一具是屬於我的。我的頭腦需要它，正如菌菇需要泥土。[你可以用足量的活力獲得更多健康。]"
+		},
+		{
+			"id": "vitality",
+			"label": "活力",
+			"slots": [
+				{
+					"id": "morevitality",
+					"label": "更多活力",
+					"description": "如果擁有足夠多的活力——或時而加上一些更異質的東西——我能增進自己的健康。"
+				}
+			],
+			"description": "鍛鍊，或者其他更少見的東西，令我精神振奮。[與另一張“活力”一同使用可提升技能。如果不使用，將會在三分鐘後消失。]"
+		},
+		{
+			"id": "vitalityplus",
+			"label": "活力：學有所成",
+			"description": "我已經準備好改變了。[與“力量”技能一同使用可升級該技能並獲得“健康”。五分鐘後將會退化回“活力”。]"
+		},
+		{
+			"id": "restlessness",
+			"label": "躁動",
+			"description": "我為一種躁動的嚮往所俘。我似乎產生了某種……<i>企圖</i>。究竟是何企圖？"
+		},
+		{
+			"id": "bloodshed",
+			"label": "流血",
+			"description": "血濺當場。"
+		},
+		{
+			"id": "injury",
+			"label": "傷口",
+			"slots": [
+				{
+					"id": "medicines",
+					"label": "用藥，或者…",
+					"description": "我可以花錢請醫生…"
+				},
+				{
+					"id": "vitality",
+					"label": "…活力",
+					"description": "…可是我或許只要稍微休息一下就能恢復。"
+				}
+			],
+			"description": "要想恢復，我需要休息和有營養的食物。不過蟻母在和善地看著人的傷口。[在“傷口”消失前將其入夢也可恢復“健康”。]"
+		},
+		{
+			"id": "disillusionment",
+			"label": "激情（破滅）",
+			"description": "我已經悖離了我自己的準則和偏好。[此卡不可使用，將於六十秒後復原。]"
+		},
+		{
+			"id": "passionexhausted",
+			"label": "激情（枯竭）",
+			"description": "激情之火衰弱不振。[此卡不可使用，將於六十秒後復原。]"
+		},
+		{
+			"id": "fatigue",
+			"label": "健康（疲勞）",
+			"description": "此卡不可使用，將會在六十秒後復原。我能通過入夢令其更快恢復。"
+		},
+		{
+			"id": "affliction",
+			"label": "病痛",
+			"slots": [
+				{
+					"id": "medicine",
+					"label": "用藥，或者…",
+					"description": "我可以花錢請醫生…"
+				},
+				{
+					"id": "vitality",
+					"label": "…活力",
+					"description": "…可是我或許只要稍微休息一下就能恢復。"
+				}
+			],
+			"description": "疾病令我虛弱。要想恢復，我需要休息和有營養的食物。[在“病痛”退化前將其入夢也可恢復“健康”。]"
+		},
+		{
+			"id": "reason",
+			"label": "理性",
+			"description": "“在完全現實的情況下，有機體不可能長久地存活下去。”——雪莉·傑克森\n\n        [博聞能夠用於研究並憑之提升理性。]"
+		},
+		{
+			"id": "concentration",
+			"label": "理性[黯淡]",
+			"description": "我的頭腦疲累。[此卡不可使用，將於六十秒後復原。]"
+		},
+		{
+			"id": "erudition",
+			"label": "博聞",
+			"slots": [
+				{
+					"id": "moreerudition",
+					"label": "更多博聞",
+					"description": "如果擁有足夠多的博聞——或時而加上一些更異質的東西——我能增進自己的理性。"
+				}
+			],
+			"description": "我如饑似渴地吸收著知識，彷彿影子吸收光線。也許我離提升不遠了。[研究“博聞”能獲得更多“理性”。如果不使用，將會在三分鐘後消失。]"
+		},
+		{
+			"id": "eruditionplus",
+			"label": "博聞：學有所成",
+			"description": "我已經準備好改變了。[與“學識”技能一起使用可提升該技能並獲得“理性”。五分鐘後會退化回“博聞”。]"
+		},
+		{
+			"id": "dread",
+			"label": "恐懼",
+			"slots": [
+				{
+					"id": "reminders",
+					"label": "憶起",
+					"description": "我需要一點點平靜，或者一刻的快樂。[過多的恐懼會摧毀你。安逸能治癒恐懼。]"
+				},
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "或許我可以使用恐懼來增強一個危險的影響。"
+				},
+				{
+					"id": "knowledge",
+					"label": "知識",
+					"description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]"
+				}
+			],
+			"description": "我已經見得太多了。不知名的恐懼正在用利齒啃噬著我的希望；一種關於存在本身的的恐懼。"
+		},
+		{
+			"id": "passion",
+			"label": "激情",
+			"description": "“遲鈍的頭腦既缺乏直覺，也不通邏輯。”——布萊士·帕斯卡\n\n        [如果你擁有足量的“靈感”，你可以通過<b>研究</b>獲得更多“激情”。]"
+		},
+		{
+			"id": "decrepitude",
+			"label": "衰老",
+			"description": "有些傷口永遠不會完全癒合。[沒能及時處理的傷口和飢餓會轉變為衰老，且永遠不會恢復為健康。衰老在你死亡之前會一直存在。]",
+			"slots": [
+				{
+					"id": "consume",
+					"label": "消耗"
+				}
+			]
+		},
+		{
+			"id": "glimmering",
+			"label": "靈感",
+			"slots": [
+				{
+					"id": "moreglimmering",
+					"label": "更多靈感",
+					"description": "如果擁有足夠多的博聞——或時而加上一些更異質的東西——我能增進自己的激情。"
+				}
+			],
+			"description": "我的情緒比平常更為高昂。有些事物我永遠也不會理解，因而永遠都那麼珍貴，而如今我離它們更近了一點。[在研究中使用“靈感”可獲得“激情”。如果不使用，將會在三分鐘後消失。]"
+		},
+		{
+			"id": "glimmeringplus",
+			"label": "靈感：學有所成",
+			"description": "我已經準備好改變了。[與“想像”技能一起使用可升級該技能並獲得“激情”。五分鐘後將退化回“靈感”。]"
+		},
+		{
+			"id": "fascination",
+			"label": "入迷",
+			"slots": [
+				{
+					"id": "reminders",
+					"label": "憶起",
+					"description": "灰色的現實會使我的靈魂穩定。"
+				},
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "我或許可以使用入迷來增強一個誘人的影響。"
+				},
+				{
+					"id": "knowledge",
+					"label": "知識",
+					"description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]"
+				}
+			],
+			"description": "光透過<b>裂縫漏入</b>。我的頭腦比<b>任何時候</b>都<b>更清晰</b>。<b>我升得越高，見得越多。</b>"
+		},
+		{
+			"id": "scholarlatin",
+			"label": "學問：拉丁語",
+			"slots": [
+				{
+					"id": "Text",
+					"label": "未翻譯文獻"
+				}
+			],
+			"description": "一門死去的語言：如金剛石般失去生機。[部分書籍需翻譯後方可閱讀。]"
+		},
+		{
+			"id": "scholarfucine",
+			"label": "學問：富奇諾語",
+			"slots": [
+				{
+					"id": "Text",
+					"label": "未翻譯文獻"
+				}
+			],
+			"description": "已經消失的富奇諾湖東側曾有過一些住戶。賀拉斯曾警告說，那裡是女巫之地。而這便是他們所使用的語言。有些人將之稱作“乾涸之語”，另一些人則稱其為“女巫之語”。[部分書籍需翻譯後方可閱讀。]"
+		},
+		{
+			"id": "scholargreek",
+			"label": "學問：希臘語",
+			"slots": [
+				{
+					"id": "Text",
+					"label": "未翻譯文獻"
+				}
+			],
+			"description": "毫無疑問你對從早期到拜占庭時期的每一種希臘語都十分精通。但是，能擁有那些參考書籍總歸是件好事。[部分書籍需翻譯後方可閱讀。]"
+		},
+		{
+			"id": "scholarphrygian",
+			"label": "學問：弗里吉亞語",
+			"slots": [
+				{
+					"id": "Text",
+					"label": "未翻譯文獻"
+				}
+			],
+			"description": "弗里吉亞人崇拜的“偉大母親”就是我們所稱的聖杯。他們的土地曾見證過繩結姐妹會誕生，而這門語言便是轟雷之皮飛升時用於懇求的語言。[部分書籍需翻譯後方可閱讀。]"
+		},
+		{
+			"id": "scholararamaic",
+			"label": "學問：亞蘭語",
+			"slots": [
+				{
+					"id": "Text",
+					"label": "未翻譯文獻"
+				}
+			],
+			"description": "亞蘭與她這三千多年以來所養育的眾多孩子所使用的語言。[部分書籍需翻譯後方可閱讀。]"
+		},
+		{
+			"id": "scholarmandaic",
+			"label": "學問：淵深曼達安語",
+			"slots": [
+				{
+					"id": "Text",
+					"label": "未翻譯文獻"
+				}
+			],
+			"description": "深遠的沙漠深處引藏最深的關於最隱秘儀式的手跡。據說，它是蟻母其人與生俱來的語言。[部分書籍需翻譯後方可閱讀。]"
+		},
+		{
+			"id": "scholarsanskrit",
+			"label": "學問：梵語",
+			"slots": [
+				{
+					"id": "Text",
+					"label": "未翻譯文獻"
+				}
+			],
+			"description": "次大陸的神聖語言。通向四千年的詩歌、典儀和奧秘的大門如今對你敞開，只要你能從它如同蓮花般捲曲的詞彙中掙出一條路。[部分書籍需翻譯後方可閱讀。]"
+		},
+		{
+			"id": "scholarvak",
+			"label": "學問：伐訶語",
+			"slots": [
+				{
+					"id": "Text",
+					"label": "未翻譯文獻"
+				}
+			],
+			"description": "這是早於諸神自血中誕生，更早於猿人直立行走前，就能在太陽居屋裡聽到的語言。[部分書籍需翻譯後方可閱讀。]"
+		},
+		{
+			"id": "fleeting",
+			"label": "一瞬追憶",
+			"description": "回首某個瞬間。下個瞬間即告消逝。",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "我或許能從我的回憶中尋找一些東西來增強一個短暫的影響。"
+				},
+				{
+					"id": "knowledge",
+					"label": "知識",
+					"description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]"
+				}
+			]
+		},
+		{
+			"id": "contentment",
+			"label": "安逸",
+			"description": "我很開心，大概吧。[安逸可以抵禦恐懼，但安逸難以久存。]",
+			"slots": [
+				{
+					"id": "with",
+					"label": "加上",
+					"description": "我或許能使用安逸來增強正面影響。"
+				},
+				{
+					"id": "knowledge",
+					"label": "知識",
+					"description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]"
+				}
+			]
+		},
+		{
+			"id": "scar_edge",
+			"label": "傷疤：殘暴的經歷",
+			"description": "<b>浮士德</b>：我以為地獄只是個傳說。<b>梅菲斯托費勒斯<b>：噯，儘管這麼想吧，經歷會改變你的看法。[你已為力量做出了永久的犧牲。]"
+		},
+		{
+			"id": "scar_knock",
+			"label": "傷疤：半愈的瘺管",
+			"description": "並非所有門洞都是創口，但所有創口都是門洞。[你已為力量做出了永久的犧牲。]"
+		},
+		{
+			"id": "scar_winter",
+			"label": "傷疤：舊傷",
+			"description": "又朝日落走近了些，看到了夜空中的第一顆星。[你已為力量做出了永久的犧牲。]"
+		},
+		{
+			"id": "scar_heart",
+			"label": "傷疤：浪遊之心",
+			"description": "我擁有如此之多的生命，很難停止不動。我坐下休息時，關節痛如火燒。我知道我一旦止息，或許便是永遠。[你已為力量做出了永久的犧牲。小心：此卡不像“健康”，無法緩解生病和飢餓。]"
+		},
+		{
+			"id": "scar_heart_fatigued",
+			"label": "傷疤：浪遊之心（耗竭）",
+			"description": "我的動脈在呻吟，我的血管在燃燒。我無法再逼迫自己前進了。[請等待。]"
+		},
+		{
+			"id": "scar_moth",
+			"label": "傷疤：百變之相",
+			"description": "我換上過無數副假面孔。每一副假面孔都讓我更難回想起自己的本來面目。即便在情緒高揚時，我面上的筋骨依然柔軟可塑。[你已為力量做出了永久的犧牲。]"
+		},
+		{
+			"id": "scar_moth_fatigued",
+			"label": "傷疤：百變之相（耗竭）",
+			"description": "我每換上一副表情，五官就像水一樣起漣漪。如果我不加小心，我將徹底溶解。[請等待。]"
+		},
+		{
+			"id": "scar_lantern",
+			"label": "傷疤：半隱半現",
+			"description": "現在我有時會露出皮膚下的美貌。當我轉向合適的角度——當我的衣服滑落一旁——當遇上銳利的眼光——我的形狀被完美地揭示無餘。[你已為力量做出了永久的犧牲。]"
+		}
+	]
 }

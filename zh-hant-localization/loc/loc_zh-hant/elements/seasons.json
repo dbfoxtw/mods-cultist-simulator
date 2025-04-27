@@ -1,143 +1,79 @@
 {
-    "elements": [
-        {
-            "id": "dayacquaintances",
-            "label": "結識新熟人的好日子",
-            "description": "我或許能找到同道中人。",
-            "aspects": {
-                "season": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "daypatrons",
-            "label": "結交新贊助人的好日子",
-            "description": "我或許能夠找到提供資助的人。",
-            "aspects": {
-                "season": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "daycriminals",
-            "label": "勾結惡徒的好日子",
-            "description": "我或許能夠找到做好弄髒自己雙手準備的人。",
-            "aspects": {
-                "season": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "dayplaces",
-            "label": "測繪地圖的好日子",
-            "description": "今日，我或許能路過一些有趣的地方。",
-            "aspects": {
-                "season": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "seasonsickness",
-            "label": "疾病肆虐的時節",
-            "description": "瘴氣汙濁了夜晚的空氣。[我的健康可能受損。受傷的追隨者也可能會死亡。]",
-            "aspects": {
-                "season": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "seasonserenities",
-            "label": "風靜浪平的時節",
-            "description": "明天會是更好的一天。",
-            "comments": "currently unused",
-            "aspects": {
-                "season": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "seasonsuspicion",
-            "label": "疑心暗起的時節",
-            "description": "我是不是正被人盯梢？",
-            "aspects": {
-                "season": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "seasondespair",
-            "label": "絕望無助的時節",
-            "description": "黑夜等待著我。",
-            "aspects": {
-                "season": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "seasonvisions",
-            "label": "幻象頻出的時節",
-            "description": "何等的奇觀。",
-            "aspects": {
-                "season": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "seasonambitions",
-            "label": "野心勃發的時節",
-            "description": "即林地之風逆轉方向的時節：食慾伴同凡人一併高升。",
-            "aspects": {
-                "season": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "seasonsilence",
-            "label": "寂然無聲的時節",
-            "description": "即未雨綢繆之期。",
-            "aspects": {
-                "season": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "seasonardours",
-            "label": "濃情蜜意的時節",
-            "description": "我們所有人既是猿猴，又是天使。",
-            "aspects": {
-                "season": 1
-            },
-            "lifetime": 1
-        },
-        {
-            "id": "schememurder",
-            "label": "兇殺的計策",
-            "aspects": {
-                "season": 1
-            },
-            "description": "對手對其敵人下手的決定留下了痕跡。",
-            "lifetime": 1,
-            "icon": "skillhealthd_strength"
-        },
-        {
-            "id": "schemeexpedition",
-            "label": "大膽的計策",
-            "aspects": {
-                "season": 1
-            },
-            "description": "對手大膽的決定留下了痕跡。",
-            "lifetime": 1,
-            "icon": "vaultrendingmountainsdefault"
-        },
-        {
-            "id": "schemeactivities",
-            "label": "小心的計策",
-            "aspects": {
-                "season": 1
-            },
-            "lifetime": 1,
-            "description": "對手小心的決定留下了痕跡。",
-            "icon": "contentment"
-        }
-    ]
+	"elements": [
+		{
+			"id": "dayacquaintances",
+			"label": "結識新熟人的好日子",
+			"description": "我或許能找到同道中人。"
+		},
+		{
+			"id": "daypatrons",
+			"label": "結交新贊助人的好日子",
+			"description": "我或許能夠找到提供資助的人。"
+		},
+		{
+			"id": "daycriminals",
+			"label": "勾結惡徒的好日子",
+			"description": "我或許能夠找到做好弄髒自己雙手準備的人。"
+		},
+		{
+			"id": "dayplaces",
+			"label": "測繪地圖的好日子",
+			"description": "今日，我或許能路過一些有趣的地方。"
+		},
+		{
+			"id": "seasonsickness",
+			"label": "疾病肆虐的時節",
+			"description": "瘴氣汙濁了夜晚的空氣。[我的健康可能受損。受傷的追隨者也可能會死亡。]"
+		},
+		{
+			"id": "seasonserenities",
+			"label": "風靜浪平的時節",
+			"description": "明天會是更好的一天。"
+		},
+		{
+			"id": "seasonsuspicion",
+			"label": "疑心暗起的時節",
+			"description": "我是不是正被人盯梢？"
+		},
+		{
+			"id": "seasondespair",
+			"label": "絕望無助的時節",
+			"description": "黑夜等待著我。"
+		},
+		{
+			"id": "seasonvisions",
+			"label": "幻象頻出的時節",
+			"description": "何等的奇觀。"
+		},
+		{
+			"id": "seasonambitions",
+			"label": "野心勃發的時節",
+			"description": "即林地之風逆轉方向的時節：食慾伴同凡人一併高升。"
+		},
+		{
+			"id": "seasonsilence",
+			"label": "寂然無聲的時節",
+			"description": "即未雨綢繆之期。"
+		},
+		{
+			"id": "seasonardours",
+			"label": "濃情蜜意的時節",
+			"description": "我們所有人既是猿猴，又是天使。"
+		},
+		{
+			"id": "schememurder",
+			"label": "兇殺的計策",
+			"description": "對手對其敵人下手的決定留下了痕跡。"
+		},
+		{
+			"id": "schemeexpedition",
+			"label": "大膽的計策",
+			"description": "對手大膽的決定留下了痕跡。"
+		},
+		{
+			"id": "schemeactivities",
+			"label": "小心的計策",
+			"description": "對手小心的決定留下了痕跡。"
+		}
+	]
 }

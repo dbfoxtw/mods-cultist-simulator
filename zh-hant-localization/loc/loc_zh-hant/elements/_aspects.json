@@ -3,1902 +3,1336 @@
         {
             "id": "acquaintance",
             "label": "熟人",
-            "description": "非友，亦非敵",
-            "isAspect": true
+            "description": "非友，亦非敵"
         },
         {
             "id": "independent",
             "label": "特立獨行者",
-            "description": "按著自己的步調研習無形之術的人。",
-            "isAspect": true
+            "description": "按著自己的步調研習無形之術的人。"
         },
         {
             "id": "benefactor",
             "label": "金主",
-            "description": "對我的工作成果感興趣之人，我與之走的越來越近了。",
-            "isAspect": true
+            "description": "對我的工作成果感興趣之人，我與之走的越來越近了。"
         },
         {
             "id": "follower",
             "label": "追隨者",
-            "description": "你的學生、合伙人、護衛、擁護者、被你欺騙、被你當作祭品的……伴侶。",
-            "isAspect": true
+            "description": "你的學生、合伙人、護衛、擁護者、被你欺騙、被你當作祭品的……伴侶。"
         },
         {
             "id": "hireling",
             "label": "僱工",
-            "description": "通過交易，我令此人短時間為我效力。",
-            "isAspect": true
+            "description": "通過交易，我令此人短時間為我效力。"
         },
         {
             "id": "disciple",
             "label": "門徒",
-            "description": "初窺奧秘。",
-            "isAspect": true
+            "description": "初窺奧秘。"
         },
         {
             "id": "devotee",
             "label": "義徒",
-            "description": "眼下，此人全心全意盡義祀奉。但此情很快便會消退，到那時他或許會質問自己都做了什麼。",
-            "isAspect": true
+            "description": "眼下，此人全心全意盡義祀奉。但此情很快便會消退，到那時他或許會質問自己都做了什麼。"
         },
         {
             "id": "exalted",
             "label": "已擢升",
-            "description": "此人無法再進一步晉升……至少在我麾下不能。",
-            "isAspect": true
+            "description": "此人無法再進一步晉升……至少在我麾下不能。"
         },
         {
             "id": "prisoner",
             "label": "囚犯",
-            "description": "被我攥在手心之人。",
-            "isAspect": true
+            "description": "被我攥在手心之人。"
         },
         {
             "id": "hunter",
             "label": "獵人",
-            "description": "雖然文明世界的法律出現晚於司辰的法則，但是它們共通之處在於，有時需要獻上犧牲。這個祭品是法律的代行人。",
-            "isAspect": true
+            "description": "雖然文明世界的法律出現晚於司辰的法則，但是它們共通之處在於，有時需要獻上犧牲。這個祭品是法律的代行人。"
         },
         {
             "id": "patron",
             "label": "贊助人",
-            "description": "我參與的社交圈子中的顯要之人。",
-            "isAspect": true
+            "description": "我參與的社交圈子中的顯要之人。"
         },
         {
             "id": "approval",
             "label": "認可",
-            "description": "有人越來越認可我這個人了。",
-            "isAspect": true
+            "description": "有人越來越認可我這個人了。"
         },
         {
             "id": "tutor",
             "label": "教師",
-            "description": "擁有寶貴知識之人。",
-            "isAspect": true
+            "description": "擁有寶貴知識之人。"
         },
         {
             "id": "annoyance",
             "label": "眼中釘",
-            "description": "我的眼中釘，肉中刺。或許我能想辦法擺脫它。",
-            "isAspect": true
+            "description": "我的眼中釘，肉中刺。或許我能想辦法擺脫它。"
         },
         {
             "id": "sending",
             "label": "派遣",
-            "description": "不完全是我，但也不完全是別的。",
-            "isAspect": true
+            "description": "不完全是我，但也不完全是別的。"
         },
         {
             "id": "edge",
             "label": "刃",
-            "description": "一切征服都在<b>刃</b>處開始。有一位居於此處之人目盲且不受創傷。而另一位，則是強力無匹，且越戰越強。[<b>刃</b>是戰鬥與抗爭的準則。]",
-            "isAspect": true,
-            "noartneeded": true
+            "description": "一切征服都在<b>刃</b>處開始。有一位居於此處之人目盲且不受創傷。而另一位，則是強力無匹，且越戰越強。[<b>刃</b>是戰鬥與抗爭的準則。]"
         },
         {
             "id": "forge",
             "label": "鑄",
-            "description": "我曾經看到過這樣一句話，“火是嚴冬，卻是帶有溫度。火是暖春，卻會耗盡一切。”[<b>鑄</b>是變換與毀滅的準則。]",
-            "isAspect": true
+            "description": "我曾經看到過這樣一句話，“火是嚴冬，卻是帶有溫度。火是暖春，卻會耗盡一切。”[<b>鑄</b>是變換與毀滅的準則。]"
         },
         {
             "id": "grail",
             "label": "杯",
-            "description": "食、色、性，有溺而無還者也。[<b>杯</b>是生育與饗宴的準則。]",
-            "isAspect": true,
-            "induces": [
-                {
-                    "id": "grailinduction",
-                    "chance": 5
-                }
-            ]
+            "description": "食、色、性，有溺而無還者也。[<b>杯</b>是生育與饗宴的準則。]"
         },
         {
             "id": "heart",
             "label": "心",
-            "description": "為了保護我們所知世界的表皮，不息之心無盡地搏動著。[<b>心</b>是長存與延續的準則。]",
-            "isAspect": true,
-            "induces": [
-                {
-                    "id": "heartinduction",
-                    "chance": 10
-                }
-            ]
+            "description": "為了保護我們所知世界的表皮，不息之心無盡地搏動著。[<b>心</b>是長存與延續的準則。]"
         },
         {
             "id": "knock",
             "label": "啟",
-            "description": "<b>啟</b>不允許封閉和孤立存在。它歡快地將我們推出無知的庇護。[<b>啟</b>是開啟與拆解的準則。]",
-            "isAspect": true
+            "description": "<b>啟</b>不允許封閉和孤立存在。它歡快地將我們推出無知的庇護。[<b>啟</b>是開啟與拆解的準則。]"
         },
         {
             "id": "lantern",
             "label": "燈",
-            "description": "“生命是束純淨的火焰，我們內心都擁有一顆無形的太陽。”——托馬斯·布朗。[<b>燈</b>是有“太陽之居屋”之稱的隱秘場所與其上光芒的準則。]",
-            "isAspect": true,
-            "induces": [
-                {
-                    "id": "lanterninduction",
-                    "chance": 5
-                }
-            ]
+            "description": "“生命是束純淨的火焰，我們內心都擁有一顆無形的太陽。”——托馬斯·布朗。[<b>燈</b>是有“太陽之居屋”之稱的隱秘場所與其上光芒的準則。]"
         },
         {
             "id": "moth",
             "label": "蛾",
-            "isAspect": true,
-            "description": "我知道有一個人會將蛾子捉來關在玻璃罩下。然後在如今夜一般的夜晚，將它們逐個放出，令其死於火燭。[<b>蛾</b>，狂野又凶險，是混沌與渴慕的準則。]",
-            "induces": [
-                {
-                    "id": "mothinduction",
-                    "chance": 10
-                }
-            ]
+            "description": "我知道有一個人會將蛾子捉來關在玻璃罩下。然後在如今夜一般的夜晚，將它們逐個放出，令其死於火燭。[<b>蛾</b>，狂野又凶險，是混沌與渴慕的準則。]"
         },
         {
             "id": "secrethistories",
             "label": "秘史",
-            "description": "歷史是時間在世界身上留下的傷疤。[<b>秘史</b>描繪了世界不為人知的千頭萬緒及它的重重過往。]",
-            "isAspect": true
+            "description": "歷史是時間在世界身上留下的傷疤。[<b>秘史</b>描繪了世界不為人知的千頭萬緒及它的重重過往。]"
         },
         {
             "id": "winter",
             "label": "冬",
-            "description": "……[<b>冬</b>是靜默、終結和不盡然逝去之物的準則。]",
-            "isAspect": true
+            "description": "……[<b>冬</b>是靜默、終結和不盡然逝去之物的準則。]"
         },
         {
             "id": "ability",
             "label": "能力",
-            "isAspect": true,
             "description": "使用頭腦與心靈、雙手與雙眼的才能。對大部分人來說是與生俱來之物。"
         },
         {
             "id": "scar",
             "label": "傷疤",
-            "isAspect": true,
             "description": "一種不可逆的行為導致的不可逆的結果。"
         },
         {
             "id": "advancement",
             "label": "提升",
-            "isAspect": true,
             "description": "這只是對未來的一瞥。[集夠足量此卡可以提升你的才能。]"
         },
         {
             "id": "potential",
             "label": "天賦",
-            "isAspect": true,
             "description": "卓越的印記？[在合適的情況下，這名追隨者可能變得更加強大。]"
         },
         {
             "id": "job",
             "label": "工作",
-            "isAspect": true,
-            "description": "一種以生命換取金錢的方式。",
-            "induces": [
-                {
-                    "id": "needs",
-                    "chance": 100
-                }
-            ]
+            "description": "一種以生命換取金錢的方式。"
         },
         {
             "id": "dance",
             "label": "舞蹈",
-            "isAspect": true,
-            "description": "比語言更古老，比生命更年輕。",
-            "induces": [
-                {
-                    "id": "heartinduction",
-                    "chance": 10
-                },
-                {
-                    "id": "mothglimmeringinduction",
-                    "chance": 10
-                }
-            ]
+            "description": "比語言更古老，比生命更年輕。"
         },
         {
             "id": "ecdysijob",
             "label": "一份蛻衣俱樂部的工作",
-            "isAspect": true,
             "description": "我獲得了一份在蛻衣俱樂部的舞台上演出的工作。"
         },
         {
             "id": "demotion",
             "label": "降職",
-            "isAspect": true,
             "description": "我已經很長時間沒有上班了。"
         },
         {
             "id": "ritual",
             "label": "儀式",
-            "isAspect": true,
             "description": "“以適當的方式，適當的順序，做適當的事情。願上神幫助我們所有人。”——或為海索所說。[在儀式中集齊性相以進行召喚。]"
         },
         {
             "id": "society",
             "label": "社團",
-            "isAspect": true,
             "description": "要想招募信徒，我必須構建一些讓他們篤信的東西。"
         },
         {
             "id": "rededicable",
             "label": "未確定",
-            "description": "組織的宗旨已經開始動搖。我能夠施加壓力來調整它的方向。",
-            "isAspect": true
+            "description": "組織的宗旨已經開始動搖。我能夠施加壓力來調整它的方向。"
         },
         {
             "id": "ingredient",
             "label": "原料",
-            "isAspect": true,
-            "description": "燃料、藥膏、顏料以及耐心：全都隨時間耗減。",
-            "induces": [
-                {
-                    "id": "needs",
-                    "chance": 100
-                }
-            ],
-            "comments": "This is so anything that generates Funds will always trigger the needs timer if it's not already running."
+            "description": "燃料、藥膏、顏料以及耐心：全都隨時間耗減。"
         },
         {
             "id": "pigment",
             "label": "顏料",
-            "isAspect": true,
             "description": "可以用在畫布上。"
         },
         {
             "id": "poison",
             "label": "致命毒藥",
-            "isAspect": true,
             "description": "如果你想要誰活下去，就千萬別把這個用在他身上。"
         },
         {
             "id": "influence",
             "label": "影響",
-            "isAspect": true,
             "description": "某種反響、共鳴、調和。很快便會消逝。"
         },
         {
             "id": "tool",
             "label": "工具",
-            "isAspect": true,
             "description": "“劍不殺人人殺人。”——小塞內卡"
         },
         {
             "id": "mirror",
             "label": "鏡子",
-            "isAspect": true,
             "description": "裂光芒之膚，橫流其血。"
         },
         {
             "id": "riddle",
             "label": "謎語",
-            "isAspect": true,
             "description": "有些問題只有一個答案；而有些問題從來沒有答案。"
         },
         {
             "id": "reputation",
             "label": "聲名",
-            "isAspect": true,
             "description": "“有很多人擔心自己的聲名，很少有人擔心自己的良心。”——普林尼"
         },
         {
             "id": "evidencelevel",
             "label": "證據等級",
-            "isAspect": true,
             "description": "有些證據更為有力。"
         },
         {
             "id": "suspicious",
             "label": "可疑",
-            "isAspect": true,
             "description": "可能會引得警探調查。"
         },
         {
             "id": "healthskill",
             "label": "力氣",
-            "isAspect": true,
             "description": "我身強體壯，不論白天還是晚上。[這可以讓你在做體力勞動，或做舞者時有更好的表現。]"
         },
         {
             "id": "murderskill",
             "label": "危險",
-            "isAspect": true,
             "description": "直接對抗總是不明智的。但萬不得已時，若不得不戰，我將陷入高度的危險。"
         },
         {
             "id": "passionskill",
             "label": "想像",
-            "isAspect": true,
             "description": "我的顱內幻象翻騰。[它可能會讓你創作出更多構思宏大的畫作。]"
         },
         {
             "id": "reasonskill",
             "label": "學識",
-            "isAspect": true,
             "description": "我乃智慧七柱之一。[此卡目前僅能讓你進一步增長理性。]"
         },
         {
             "id": "way",
             "label": "重返夢境之途",
-            "isAspect": true,
             "description": "有些記憶是描繪夢境的草圖。但有些記憶穿過了夢的邊境，抵達了林地和其上的居屋。"
         },
         {
             "id": "desire",
             "label": "欲望",
-            "isAspect": true,
             "description": "我的終極目標。我勢必要為它付出代價。"
         },
         {
             "id": "promise",
             "label": "諾言",
-            "isAspect": true,
             "description": "對結局的承諾。"
         },
         {
             "id": "rivalmarks",
             "label": "對手飛升",
-            "isAspect": true,
             "description": "雖說對手飛升到日之居所的可能性微乎其微。但如果他成功了，我或許會失去飛升的機會。[如果你的對手率先得到第七印記，在下一個野心勃發的時節，此人將有機會奪走你的遊戲勝利。]"
         },
         {
             "id": "changemarks",
             "label": "蛻變的形體",
-            "isAspect": true,
             "description": "每次轉變，我都會丟掉一些東西。"
         },
         {
             "id": "powermarks",
             "label": "塑之印記",
-            "isAspect": true,
             "description": "我可以向名為白日鑄爐的司辰尋求永生與力量。她的觸碰能為我帶來獨特的食慾，以及印記。"
         },
         {
             "id": "sensationmarks",
             "label": "悅之印記",
-            "isAspect": true,
             "description": "我可以向名為赤杯的司辰尋求永生與愉悅。她的觸碰能為我帶來獨特的食慾，以及印記。"
         },
         {
             "id": "enlightenmentmarks",
             "label": "光之印記",
-            "isAspect": true,
             "description": "我可以向名為守夜人的司辰尋求永生與啟明。他的觸碰能為我帶來獨特的食慾，以及印記。"
         },
         {
             "id": "remembrancemarks",
             "label": "回憶之爪",
-            "isAspect": true,
-            "description": "泥土之下是骸骨。骸骨之中是回憶。回憶之內是色彩。",
-            "comments": "Important! this is used to trigger the extra corpse-remnants discovery from Expeditions for Ghoul"
-        },
-        {
-            "id": "follower_lustenlightenment",
-            "isAspect": true,
-            "isHidden": true
-        },
-        {
-            "id": "follower_lustpower",
-            "isAspect": true,
-            "isHidden": true
-        },
-        {
-            "id": "follower_lustsensation",
-            "isAspect": true,
-            "isHidden": true
-        },
-        {
-            "id": "follower_lustchange",
-            "isAspect": true,
-            "isHidden": true
-        },
-        {
-            "id": "detectivetemptation",
-            "comments": "Aspect for Detective plot items",
-            "isAspect": true,
-            "isHidden": true
-        },
-        {
-            "id": "long.preference.assault",
-            "isAspect": true,
-            "isHidden": true
-        },
-        {
-            "id": "long.preference.intrigue",
-            "isAspect": true,
-            "isHidden": true
-        },
-        {
-            "id": "long.preference.dreamwork",
-            "isAspect": true,
-            "isHidden": true
-        },
-        {
-            "id": "long.preference.winter",
-            "isAspect": true,
-            "isHidden": true
+            "description": "泥土之下是骸骨。骸骨之中是回憶。回憶之內是色彩。"
         },
         {
             "id": "ascend",
             "label": "上升",
-            "isAspect": true,
-            "description": "追求下一道印記。",
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "追求下一道印記。"
         },
         {
             "id": "descend",
             "label": "下降",
-            "isAspect": true,
-            "description": "如果新的食慾未能得到滿足，我的印記將消失。",
-            "noartneeded": true,
-            "comments": "Recipe aspect"
+            "description": "如果新的食慾未能得到滿足，我的印記將消失。"
         },
         {
             "id": "article",
             "label": "文章",
-            "isAspect": true,
             "description": "關於特定主題的原創論文。"
         },
         {
             "id": "text",
             "label": "文獻",
-            "isAspect": true,
             "description": "書籍是不死的記憶。"
-        },
-        {
-            "id": "legacyplotitem",
-            "isAspect": true,
-            "isHidden": true,
-            "comments": "Used for plot items that shouldn't be passed down to another legacy through LEVER_LastBook, since they can break flows."
         },
         {
             "id": "autographed",
             "label": "親筆簽名作",
-            "isAspect": true,
             "description": "上面有製作者所做的標記。"
         },
         {
             "id": "lore",
             "label": "密傳",
-            "isAspect": true,
             "description": "有關無形之術的知識。我可以利用它來吸引追隨者，舉行儀式，開啟通往漫宿的道路，或是尋覓飛升之法……[“密傳”片段能通過與同性相的片段一同研究來提升等級。]"
         },
         {
             "id": "subvertable_lore",
-            "label": "可拗轉的密傳",
-            "isAspect": true,
-            "isHidden": true,
-            "noartneeded": true
+            "label": "可拗轉的密傳"
         },
         {
             "id": "memory",
             "label": "回憶",
-            "isAspect": true,
             "description": "我們銘記死者，直至將其遺忘。"
         },
         {
             "id": "language",
             "label": "語言",
-            "isAspect": true,
             "description": "在翻譯文獻方面相當有用。"
         },
         {
             "id": "tutorlatin",
             "label": "拉丁語學者",
-            "isAspect": true,
             "description": "若你向拉丁語學者求教，你便會獲得其指導。"
         },
         {
             "id": "tutorgreek",
             "label": "希臘語學者",
-            "isAspect": true,
             "description": "若你向希臘語學者求教，你便會獲得其指導。"
         },
         {
             "id": "tutoraramaic",
             "label": "亞蘭語學者",
-            "isAspect": true,
             "description": "若你向亞蘭語學者求教，你便會獲得其指導。"
         },
         {
             "id": "tutorsanskrit",
             "label": "梵語學者",
-            "isAspect": true,
             "description": "若你向梵語學者求教，你便會獲得其指導。"
         },
         {
             "id": "spirittutorfucine",
             "label": "富奇諾語使用者",
-            "isAspect": true,
             "description": "如果你了解其他相關語言，該靈體可能會教給你富奇諾語。"
         },
         {
             "id": "spirittutorphrygian",
             "label": "弗里吉亞語使用者",
-            "isAspect": true,
             "description": "如果你了解其他相關語言，該靈體可能會教給你弗里吉亞語。"
         },
         {
             "id": "spirittutormandaic",
             "label": "曼達安語使用者",
-            "isAspect": true,
             "description": "如果你了解其他相關語言，該靈體可能會教給你淵深曼達安語。"
         },
         {
             "id": "spiritsicknessprotector",
             "label": "抗病大師",
-            "description": "我可以與此物談論我的健康，它能給予人針對疾病的防護。",
-            "isAspect": true
+            "description": "我可以與此物談論我的健康，它能給予人針對疾病的防護。"
         },
         {
             "id": "spiriteatspassion",
             "label": "失物之燈",
-            "description": "我可以與此物交談，向它獻上我的激情。",
-            "isAspect": true
+            "description": "我可以與此物交談，向它獻上我的激情。"
         },
         {
             "id": "spiriteatsreason",
             "label": "褪思者",
-            "description": "我可以與此物交談，向它獻上我的理性。",
-            "isAspect": true
+            "description": "我可以與此物交談，向它獻上我的理性。"
         },
         {
             "id": "auctionable",
             "label": "可拍賣",
-            "description": "我大概可以拍賣此物，雖然拍賣價從來都是未知之數。",
-            "isAspect": true
+            "description": "我大概可以拍賣此物，雖然拍賣價從來都是未知之數。"
         },
         {
             "id": "compensationvalue",
             "label": "古幣面值",
-            "description": "斯賓特里亞古幣是隱秘世界的通行貨幣。有的古幣價值比其它的更高。不過可別指望花它能找零，它可不是尋常物件。",
-            "isAspect": true
+            "description": "斯賓特里亞古幣是隱秘世界的通行貨幣。有的古幣價值比其它的更高。不過可別指望花它能找零，它可不是尋常物件。"
         },
         {
             "id": "hq",
             "label": "總部",
-            "description": "進行談話與召開集會的地方。",
-            "isAspect": true
+            "description": "進行談話與召開集會的地方。"
         },
         {
             "id": "hq.potential",
             "label": "可做總部",
-            "description": ".",
-            "isAspect": true,
-            "isHidden": true
+            "description": "."
         },
         {
             "id": "movehq",
             "label": "搬遷到新總部",
-            "description": "Recipe aspect",
-            "isAspect": true,
-            "noartneeded": true
+            "description": "Recipe aspect"
         },
         {
             "id": "library",
             "label": "藏書室",
-            "description": "內藏各色小部頭書籍，殘章及零散紙品，或可有助研究。",
-            "isAspect": true
+            "description": "內藏各色小部頭書籍，殘章及零散紙品，或可有助研究。"
         },
         {
             "id": "pit",
             "label": "暗穴",
-            "description": "一口無光且無人陪伴的深井，我能在此體會嚴酷的真知。",
-            "isAspect": true
+            "description": "一口無光且無人陪伴的深井，我能在此體會嚴酷的真知。"
         },
         {
             "id": "secret",
             "label": "隱秘",
-            "description": "極難注意到的地點。[將此處設為總部將導致“聲名”卡消失。]",
-            "isAspect": true,
-            "induces": [
-                {
-                    "id": "secret.induction",
-                    "chance": 30
-                }
-            ]
+            "description": "極難注意到的地點。[將此處設為總部將導致“聲名”卡消失。]"
         },
         {
             "id": "sanctuary",
             "label": "聖所",
-            "description": "一處供人冥想，甚至獲得安寧的地方。",
-            "isAspect": true
+            "description": "一處供人冥想，甚至獲得安寧的地方。"
         },
         {
             "id": "location",
             "label": "地點",
-            "description": "一切事物皆有其所在之處，如此物位於此處。",
-            "isAspect": true
+            "description": "一切事物皆有其所在之處，如此物位於此處。"
         },
         {
             "id": "vaultcapital",
             "label": "位於首都",
-            "description": "我所居住的這個擁擠的首都中的一處隱秘場所。",
-            "isAspect": true
+            "description": "我所居住的這個擁擠的首都中的一處隱秘場所。"
         },
         {
             "id": "vaultshires",
             "label": "位於各郡",
-            "description": "這裡有綠色的田野和灰色的山丘。",
-            "isAspect": true
+            "description": "這裡有綠色的田野和灰色的山丘。"
         },
         {
             "id": "vaultcontinent",
             "label": "位於大陸",
-            "description": "穿越狹海，在敵國的未知角落。",
-            "isAspect": true
+            "description": "穿越狹海，在敵國的未知角落。"
         },
         {
             "id": "vaultlandbeyondforest",
             "label": "位於森林盡頭之地",
-            "description": "煙籠霧罩的小徑，偏居世外的村落，世界的表皮在這裡變得稀薄。",
-            "isAspect": true
+            "description": "煙籠霧罩的小徑，偏居世外的村落，世界的表皮在這裡變得稀薄。"
         },
         {
             "id": "vaultrendingmountains",
             "label": "位於撕身山脈",
-            "description": "山側土黃、山頂蓋雪，叫天天不應。",
-            "isAspect": true
+            "description": "山側土黃、山頂蓋雪，叫天天不應。"
         },
         {
             "id": "vaultloneandlevelsands",
             "label": "荒寂而平闊的沙地",
-            "description": "在這個乾旱又遙遠之地，放眼望去只有綿延的沙丘。",
-            "isAspect": true
+            "description": "在這個乾旱又遙遠之地，放眼望去只有綿延的沙丘。"
         },
         {
             "id": "vaulteveningisles",
             "label": "位於薄暮群嶼",
-            "description": "浪花拍打著一串綠意盎然的岩石島嶼。",
-            "isAspect": true
+            "description": "浪花拍打著一串綠意盎然的岩石島嶼。"
         },
         {
             "id": "peril",
             "label": "危機",
-            "description": "一種阻礙、危險或是為時過早的結局。",
-            "isAspect": true
+            "description": "一種阻礙、危險或是為時過早的結局。"
         },
         {
             "id": "curse",
             "label": "詛咒",
-            "description": "你必須破除的不利影響。",
-            "isAspect": true
+            "description": "你必須破除的不利影響。"
         },
         {
             "id": "guardian",
             "label": "守衛",
-            "description": "負責阻止你入內的存在。",
-            "isAspect": true
+            "description": "負責阻止你入內的存在。"
         },
         {
             "id": "seal",
             "label": "封印",
-            "description": "你的前進被其阻礙。",
-            "isAspect": true
+            "description": "你的前進被其阻礙。"
         },
         {
             "id": "vault",
             "label": "藏寶地",
-            "description": "藏有一些珍貴之物。",
-            "isAspect": true
+            "description": "藏有一些珍貴之物。"
         },
         {
             "id": "challenge.knowledge",
             "label": "知識所需",
-            "description": "這是一方缺失拼片的拼圖。也許我會在學海的偏遠之隅找到這些片段。[要想升級或拗轉此片段，你需要“博聞”，或有藏書室的總部。]",
-            "isAspect": true
+            "description": "這是一方缺失拼片的拼圖。也許我會在學海的偏遠之隅找到這些片段。[要想升級或拗轉此片段，你需要“博聞”，或有藏書室的總部。]"
         },
         {
             "id": "challenge.intuition",
             "label": "直覺所需",
-            "description": "若付出時間與靜思，有時答案會不請自來。[要想升級或拗轉此片段，你需要“靈感”，或有聖所的總部。]",
-            "isAspect": true
+            "description": "若付出時間與靜思，有時答案會不請自來。[要想升級或拗轉此片段，你需要“靈感”，或有聖所的總部。]"
         },
         {
             "id": "challenge.grim",
             "label": "嚴酷的教訓所需",
-            "description": "我會記得。[要想升級或拗轉此片段，你需要恐懼（可能越增越多），技能“無聲的厚重”，或一處有坑穴的總部。]",
-            "isAspect": true
+            "description": "我會記得。[要想升級或拗轉此片段，你需要恐懼（可能越增越多），技能“無聲的厚重”，或一處有坑穴的總部。]"
         },
         {
             "id": "challenge.obsessive",
             "label": "走火入魔的研究所需",
-            "description": "這個課題需要投入超出安全範圍的注意力。[要想升級或拗轉此片段，你需要有藏書室的總部，或技能“永無止盡”，或一張“理性”。理性有極小可能將永久受損。]",
-            "isAspect": true
+            "description": "這個課題需要投入超出安全範圍的注意力。[要想升級或拗轉此片段，你需要有藏書室的總部，或技能“永無止盡”，或一張“理性”。理性有極小可能將永久受損。]"
         },
         {
             "id": "challenge.paradox",
             "label": "矛盾的解法所需",
-            "description": "真理是一條蛇。答案是餵飽它的餌食。[要想升級或拗轉此片段，你需要有聖所的總部，或技能“洞開的靈魂”，或一張“激情”。激情有極小可能將永久受損。]",
-            "isAspect": true
+            "description": "真理是一條蛇。答案是餵飽它的餌食。[要想升級或拗轉此片段，你需要有聖所的總部，或技能“洞開的靈魂”，或一張“激情”。激情有極小可能將永久受損。]"
         },
         {
             "id": "challenge.illumination",
             "label": "光照所需",
-            "description": "水注滿杯，光注滿頭腦。[要想升級或拗轉此片段，你需要“入迷”（可能越增越多），或有圖書館的總部，或技能“高深的思維”。]",
-            "isAspect": true
+            "description": "水注滿杯，光注滿頭腦。[要想升級或拗轉此片段，你需要“入迷”（可能越增越多），或有圖書館的總部，或技能“高深的思維”。]"
         },
         {
             "id": "challenge.practical",
             "label": "應用試驗所需",
-            "description": "疼痛只在當下；知識則會被長久銘記。[要想升級或拗轉此片段，你需要冒“健康”風險，或者派出一名囚犯。]",
-            "isAspect": true
+            "description": "疼痛只在當下；知識則會被長久銘記。[要想升級或拗轉此片段，你需要冒“健康”風險，或者派出一名囚犯。]"
         },
         {
             "id": "summoned",
             "label": "召喚物",
-            "description": "此人本不屬於這個世界。",
-            "isAspect": true
+            "description": "此人本不屬於這個世界。"
         },
         {
             "id": "illhealth",
             "label": "健康欠佳",
-            "description": "也許我可以休息一下，恢復健康。",
-            "isAspect": true
+            "description": "也許我可以休息一下，恢復健康。"
         },
         {
             "id": "inducesdespair",
             "label": "誘發絕望",
-            "description": "此物可能導致絕望。",
-            "isAspect": true
+            "description": "此物可能導致絕望。"
         },
         {
             "id": "inducesvisions",
             "label": "誘發幻象",
-            "description": "我可能會看到不存在的東西。",
-            "isAspect": true
+            "description": "我可能會看到不存在的東西。"
         },
         {
             "id": "commissiongiven",
             "label": "接到的委託",
-            "description": "你需要完成的任務。",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "你需要完成的任務。"
         },
         {
             "id": "commissionfulfilled",
             "label": "完成的委託",
-            "description": "你已經完成的任務。",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "你已經完成的任務。"
         },
         {
             "id": "recruiting",
             "label": "招募",
-            "description": "要想見到光明，人不能盲目，但有時，正是光明使我們盲目。",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "要想見到光明，人不能盲目，但有時，正是光明使我們盲目。"
         },
         {
             "id": "hiring",
             "label": "僱傭",
-            "description": "延長僱工的時限。",
-            "isAspect": true,
-            "comments": "Recipe aspect. Use to rehire hirelings.",
-            "noartneeded": true
+            "description": "延長僱工的時限。"
         },
         {
             "id": "refiring",
             "label": "重燃",
-            "description": "演出召喚物的召喚時限。",
-            "isAspect": true,
-            "comments": "Recipe aspect. Use to refire devotees.",
-            "noartneeded": true
+            "description": "演出召喚物的召喚時限。"
         },
         {
             "id": "promotiontodisciple",
             "label": "晉升",
-            "description": "該讓他發下更進一步的誓言了。",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "該讓他發下更進一步的誓言了。"
         },
         {
             "id": "promotionto_d_edge",
             "label": "擢升：刃",
-            "description": "這是我們崇敬的真正奧秘。",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "這是我們崇敬的真正奧秘。"
         },
         {
             "id": "promotionto_d_forge",
             "label": "擢升：鑄",
-            "description": "這是我們崇敬的真正奧秘。",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "這是我們崇敬的真正奧秘。"
         },
         {
             "id": "promotionto_d_grail",
             "label": "擢升：杯",
-            "description": "這是我們崇敬的真正奧秘。",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "這是我們崇敬的真正奧秘。"
         },
         {
             "id": "promotionto_d_heart",
             "label": "擢升：心",
-            "description": "這是我們崇敬的真正奧秘。",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "這是我們崇敬的真正奧秘。"
         },
         {
             "id": "promotionto_d_knock",
             "label": "擢升：啟",
-            "description": "這是我們崇敬的真正奧秘。",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "這是我們崇敬的真正奧秘。"
         },
         {
             "id": "promotionto_d_lantern",
             "label": "擢升：燈",
-            "description": "這是我們崇敬的真正奧秘。",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "這是我們崇敬的真正奧秘。"
         },
         {
             "id": "promotionto_d_moth",
             "label": "擢升：蛾",
-            "description": "這是我們崇敬的真正奧秘。",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "這是我們崇敬的真正奧秘。"
         },
         {
             "id": "promotionto_d_winter",
             "label": "擢升：冬",
-            "description": "這是我們崇敬的真正奧秘。",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "這是我們崇敬的真正奧秘。"
         },
         {
             "id": "rival_promotion",
-            "label": "晉升：對手",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "label": "晉升：對手"
         },
         {
             "id": "fatiguing",
             "label": "身心的付出",
-            "description": "發生了一些事。",
-            "isAspect": true,
-            "comments": "Recipe aspect; runs to fatigue stats, or to convert situation-invested elements into a form that won't keep triggering a recipe that wants more of them (eg reason in Research, funds in bidding).",
-            "noartneeded": true
+            "description": "發生了一些事。"
         },
         {
             "id": "exhaustlocation",
             "label": "探索完畢的地點",
-            "description": "探索完畢的地點。除非重現，否則不會再次開啟。",
-            "isAspect": true,
-            "noartneeded": true
+            "description": "探索完畢的地點。除非重現，否則不會再次開啟。"
         },
         {
             "id": "restore",
             "label": "沒有發生什麼事",
-            "description": "一切如故",
-            "isAspect": true,
-            "comments": "Recipe aspect; runs when an situation fails to convert situation control elements back to their originals.",
-            "noartneeded": true
+            "description": "一切如故"
         },
         {
             "id": "decline",
             "label": "拒絕",
-            "description": "終結某事。",
-            "isAspect": true,
-            "comments": "Recipe aspect; runs when we want to decay something like an investment.",
-            "noartneeded": true
+            "description": "終結某事。"
         },
         {
             "id": "avowal",
             "label": "宣誓",
-            "description": "忠誠提升",
-            "isAspect": true,
-            "comments": "Recipe aspect; runs when we want to flip someone's loyalties positively",
-            "noartneeded": true
+            "description": "忠誠提升"
         },
         {
             "id": "rejection",
             "label": "拒絕",
-            "description": "忠誠生變",
-            "isAspect": true,
-            "comments": "Recipe aspect; runs when we want to flip someone's loyalties",
-            "noartneeded": true
+            "description": "忠誠生變"
         },
         {
             "id": "scarability",
             "label": "傷疤能力",
-            "description": "永久的將一種（啟用的和耗盡的均可）能力轉化為其傷疤版本",
-            "isAspect": true,
-            "noartneeded": true
+            "description": "永久的將一種（啟用的和耗盡的均可）能力轉化為其傷疤版本"
         },
         {
             "id": "restorehealth",
             "label": "恢復健康",
-            "description": "健康將得以恢復。",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "健康將得以恢復。"
         },
         {
             "id": "damagehealth",
             "label": "損害健康",
-            "description": "健康將受到損害。",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "健康將受到損害。"
         },
         {
             "id": "fallsick",
             "label": "生病",
-            "description": "健康將轉為病痛，可能對人造成潛在影響",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "健康將轉為病痛，可能對人造成潛在影響"
         },
         {
             "id": "destroyhealth",
             "label": "摧毀健康",
-            "description": "健康將徹底毀掉。",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "健康將徹底毀掉。"
         },
         {
             "id": "damagereason",
             "label": "損害理性",
-            "description": "理性將轉化為恐懼",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "理性將轉化為恐懼"
         },
         {
             "id": "toreason",
             "label": "轉為理性",
-            "description": "……將轉化為理性。",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "……將轉化為理性。"
         },
         {
             "id": "topassion",
             "label": "轉為激情",
-            "description": "……將轉化為激情。",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "……將轉化為激情。"
         },
         {
             "id": "tohealth",
             "label": "轉為健康",
-            "description": "……將轉化為健康。",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "……將轉化為健康。"
         },
         {
             "id": "dreadful",
             "label": "令人恐懼",
-            "description": "有產生恐懼的危險。",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true,
-            "induces": [
-                {
-                    "id": "dreadinduction",
-                    "chance": 30
-                }
-            ]
+            "description": "有產生恐懼的危險。"
         },
         {
             "id": "fascinating",
             "label": "令人入迷",
-            "description": "有產生入迷的危險。",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true,
-            "induces": [
-                {
-                    "id": "fascinationinduction",
-                    "chance": 30
-                }
-            ]
+            "description": "有產生入迷的危險。"
         },
         {
             "id": "damagepassion",
             "label": "減損激情",
-            "description": "激情將轉化為入迷。",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "激情將轉化為入迷。"
         },
         {
             "id": "killmortal",
             "label": "殺死凡人",
-            "description": "凡人將變作死屍",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "凡人將變作死屍"
         },
         {
             "id": "longded",
             "label": "殺死長生者",
-            "description": "長生者將變作其留下的獎賞",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "長生者將變作其留下的獎賞"
         },
         {
             "id": "killsummoned",
             "label": "殺死召喚物",
-            "description": "召喚物變作調味影響或阻礙召喚之人。",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "召喚物變作調味影響或阻礙召喚之人。"
         },
         {
             "id": "killmanifesting",
             "label": "殺死顯形的召喚物",
-            "description": "召喚物變作調味影響或阻礙召喚之人。",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "召喚物變作調味影響或阻礙召喚之人。"
         },
         {
             "id": "dissolution",
             "label": "融解",
-            "description": "內外相易，表裡互替。將某事物融解為一種<b>影響</b>。",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "內外相易，表裡互替。將某事物融解為一種<b>影響</b>。"
         },
         {
             "id": "raiseshattered",
-            "label": "把屍體轉化為破碎行屍",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "label": "把屍體轉化為破碎行屍"
         },
         {
             "id": "raiseburgeoning",
-            "label": "將把體轉化為抽芽行屍",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
-        },
-        {
-            "id": "renewshattered",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
-        },
-        {
-            "id": "renewburgeoning",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "label": "將把體轉化為抽芽行屍"
         },
         {
             "id": "rebellion",
             "label": "叛變",
-            "description": "追隨者將變為對手",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "追隨者將變為對手"
         },
         {
             "id": "endannoyance",
             "label": "除掉眼中釘",
-            "description": "討嫌的人，比如煩人的上司，會被解決掉。",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "討嫌的人，比如煩人的上司，會被解決掉。"
         },
         {
             "id": "careeradvancement",
             "label": "職業提升",
-            "description": "職位晉升或技能提升",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "職位晉升或技能提升"
         },
         {
             "id": "derangemortal",
             "label": "逼瘋凡人",
-            "description": "凡人將淪為瘋子",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "凡人將淪為瘋子"
         },
         {
             "id": "capturehunter",
             "label": "抓捕獵人",
-            "description": "獵人將被囚禁。",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "獵人將被囚禁。"
         },
         {
             "id": "killhunter",
             "label": "殺死獵人",
-            "description": "獵人將變作死屍。",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "獵人將變作死屍。"
         },
         {
             "id": "capturefollower",
             "label": "抓捕追隨者",
-            "description": "追隨者將被囚禁。",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "追隨者將被囚禁。"
         },
         {
             "id": "restorepassion",
             "label": "恢復激情",
-            "description": "激情將得以恢復。",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "激情將得以恢復。"
         },
         {
             "id": "plead",
             "label": "懇求",
-            "description": "可能會獲得寬赦。",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "可能會獲得寬赦。"
         },
         {
             "id": "employment",
             "label": "職業",
-            "description": "我已經完成了一天的工作。",
-            "isAspect": true,
-            "comments": "Recipe aspect. Refreshes job timers and fatigues stats",
-            "noartneeded": true
+            "description": "我已經完成了一天的工作。"
         },
         {
             "id": "scandalous",
             "label": "醜聞纏身",
-            "description": "全世界都將知道我的醜事。",
-            "isAspect": true,
-            "comments": "Recipe aspect. Refreshes reputation timers.",
-            "noartneeded": true
+            "description": "全世界都將知道我的醜事。"
         },
         {
             "id": "epiphany",
             "label": "頓悟",
-            "description": "提升我的理解力。",
-            "isAspect": true,
-            "comments": "Recipe aspect. Upgrades lore.",
-            "noartneeded": true
+            "description": "提升我的理解力。"
         },
         {
             "id": "upgradeinfluence",
             "label": "升級影響",
-            "description": "我找到了一種調和的方式。",
-            "isAspect": true,
-            "comments": "Recipe aspect. Upgrades influence.",
-            "noartneeded": true
+            "description": "我找到了一種調和的方式。"
         },
         {
             "id": "glorify",
             "label": "邁向<i>光</i>軍光",
-            "description": "將恐懼轉化為入迷，還可將其他元素轉換為更加<b>輝</b>煌的同等元素。",
-            "isAspect": true,
-            "noartneeded": true
+            "description": "將恐懼轉化為入迷，還可將其他元素轉換為更加<b>輝</b>煌的同等元素。"
         },
         {
             "id": "depiphany",
             "label": "蒙昧",
-            "description": "現在我想事情想得更簡單了。",
-            "isAspect": true,
-            "comments": "Recipe aspect. Downgrades and splits lore.",
-            "noartneeded": true
+            "description": "現在我想事情想得更簡單了。"
         },
         {
             "id": "investigatingsuccess",
             "label": "調查成功",
-            "description": "升級證據。",
-            "isAspect": true,
-            "comments": "Recipe aspect.",
-            "noartneeded": true
+            "description": "升級證據。"
         },
         {
             "id": "investigatingsetback",
             "label": "調查受挫",
-            "description": "降級證據。",
-            "isAspect": true,
-            "comments": "Recipe aspect.",
-            "noartneeded": true
+            "description": "降級證據。"
         },
         {
             "id": "crackmirror",
             "label": "打裂鏡子",
-            "description": "鏡子將進入裂損狀態。",
-            "isAspect": true,
-            "comments": "Recipe aspect",
-            "noartneeded": true
+            "description": "鏡子將進入裂損狀態。"
         },
         {
             "id": "mortal",
             "label": "凡人",
-            "description": "“我們如此習慣活著，以至於不願意死亡。”——托馬斯·布朗",
-            "isAspect": true
+            "description": "“我們如此習慣活著，以至於不願意死亡。”——托馬斯·布朗"
         },
         {
             "id": "commission",
             "label": "委託",
-            "description": "獲利的好機會。我需要在完成後將其交回給我的贊助人。",
-            "isAspect": true
+            "description": "獲利的好機會。我需要在完成後將其交回給我的贊助人。"
         },
         {
             "id": "benign",
             "label": "全憑好運",
-            "description": "我是多麼的幸運。",
-            "isAspect": true
+            "description": "我是多麼的幸運。"
         },
         {
             "id": "malign",
             "label": "醜陋之物",
-            "description": "不受歡迎的東西。",
-            "isAspect": true
+            "description": "不受歡迎的東西。"
         },
         {
             "id": "season",
             "label": "時節",
-            "description": "不久便會發生其名所述的事情。",
-            "isAspect": true,
-            "comments": "identifies card draws for Time seasonal events"
+            "description": "不久便會發生其名所述的事情。"
         },
         {
             "id": "devourer",
             "label": "吞噬者",
-            "description": "如果掙脫了束縛，可能會攻擊你或吞吃你的追隨者。",
-            "isAspect": true
+            "description": "如果掙脫了束縛，可能會攻擊你或吞吃你的追隨者。"
         },
         {
             "id": "deceiver",
             "label": "欺騙者",
-            "description": "如果它掙脫了束縛，可能會讓你或你的追隨者陷入瘋狂。",
-            "isAspect": true
+            "description": "如果它掙脫了束縛，可能會讓你或你的追隨者陷入瘋狂。"
         },
         {
             "id": "mystic",
             "label": "神秘主義者",
-            "description": "該獵人通常能在漫宿生物的攻擊下逃出一命，即便此類攻擊對其他人而言是不可阻擋的。",
-            "isAspect": true
+            "description": "該獵人通常能在漫宿生物的攻擊下逃出一命，即便此類攻擊對其他人而言是不可阻擋的。"
         },
         {
             "id": "brilliant",
             "label": "出類拔萃",
-            "description": "出類拔萃的獵人能夠觀察入微，將邪名直接轉變為確鑿證據。",
-            "noartneeded": true,
-            "isAspect": true
+            "description": "出類拔萃的獵人能夠觀察入微，將邪名直接轉變為確鑿證據。"
         },
         {
             "id": "erratic",
             "label": "飄忽不定",
-            "description": "該獵人經常沒辦法將邪名轉化為證據。話說回來，他有時卻能在沒有邪名的情況下造出證據來。",
-            "isAspect": true
+            "description": "該獵人經常沒辦法將邪名轉化為證據。話說回來，他有時卻能在沒有邪名的情況下造出證據來。"
         },
         {
             "id": "meticulous",
             "label": "一絲不苟",
-            "description": "該獵人能將他發現的所有邪名成功升作證據。",
-            "isAspect": true
+            "description": "該獵人能將他發現的所有邪名成功升作證據。"
         },
         {
             "id": "tenacious",
             "label": "堅韌不拔",
-            "description": "該獵人有三分之一機率能在攻擊下逃出一命，即使該攻擊對其他人而言是不可阻擋的。",
-            "isAspect": true
+            "description": "該獵人有三分之一機率能在攻擊下逃出一命，即使該攻擊對其他人而言是不可阻擋的。"
         },
         {
             "id": "wary",
             "label": "機警",
-            "description": "此人變得小心謹慎，不會再親自見我了。",
-            "isAspect": true
+            "description": "此人變得小心謹慎，不會再親自見我了。"
         },
         {
             "id": "grim",
             "label": "冷峻",
-            "description": "冷峻的獵人不會因輝光的誘惑而動搖……然而他自己的絕望或許能摧毀他。",
-            "isAspect": true
+            "description": "冷峻的獵人不會因輝光的誘惑而動搖……然而他自己的絕望或許能摧毀他。"
         },
         {
             "id": "idealist",
             "label": "理想主義者",
-            "description": "理想主義者不會有意志消沉——雖然有時他們的理想反可能阻滯他們。",
-            "isAspect": true
+            "description": "理想主義者不會有意志消沉——雖然有時他們的理想反可能阻滯他們。"
         },
         {
             "id": "venerationedge",
             "label": "崇敬：刃",
-            "description": "該組織崇敬<b>刃</b>之準則，我們特以上校和獅子匠之名拜請<b>刃</b>之力。",
-            "isAspect": true
+            "description": "該組織崇敬<b>刃</b>之準則，我們特以上校和獅子匠之名拜請<b>刃</b>之力。"
         },
         {
             "id": "venerationforge",
             "label": "崇敬：鑄",
-            "description": "該組織崇敬<b>鑄</b>之準則，我們特以白日鑄爐本尊和昕旦之名拜請<b>鑄</b>之力。",
-            "isAspect": true
+            "description": "該組織崇敬<b>鑄</b>之準則，我們特以白日鑄爐本尊和昕旦之名拜請<b>鑄</b>之力。"
         },
         {
             "id": "venerationgrail",
             "label": "崇敬：杯",
-            "description": "該組織崇敬<b>杯</b>之準則，我們特以赤杯本尊和雙生女巫之名拜請<b>杯</b>之力。",
-            "isAspect": true
+            "description": "該組織崇敬<b>杯</b>之準則，我們特以赤杯本尊和雙生女巫之名拜請<b>杯</b>之力。"
         },
         {
             "id": "venerationheart",
             "label": "崇敬：心",
-            "description": "該組織崇敬<b>心</b>之準則，我們特以轟雷之皮和絲毧之名拜請<b>心</b>之力。",
-            "isAspect": true
+            "description": "該組織崇敬<b>心</b>之準則，我們特以轟雷之皮和絲毧之名拜請<b>心</b>之力。"
         },
         {
             "id": "venerationknock",
             "label": "崇敬：啟",
-            "description": "該組織崇敬<b>啟</b>之準則，我們特以蟻母和弧月之名拜請<b>啟</b>之力。",
-            "isAspect": true
+            "description": "該組織崇敬<b>啟</b>之準則，我們特以蟻母和弧月之名拜請<b>啟</b>之力。"
         },
         {
             "id": "venerationlantern",
             "label": "崇敬：燈",
-            "description": "該組織崇敬<b>燈</b>之準則，我們特以瞳中扉和制花人之名拜請<b>燈</b>之力。",
-            "isAspect": true
+            "description": "該組織崇敬<b>燈</b>之準則，我們特以瞳中扉和制花人之名拜請<b>燈</b>之力。"
         },
         {
             "id": "venerationmoth",
             "label": "崇敬：蛾",
-            "description": "該組織崇敬<b>蛾</b>之準則，我們特以飛蛾本尊和雙生巫女之名拜請<b>蛾</b>之力。",
-            "isAspect": true
+            "description": "該組織崇敬<b>蛾</b>之準則，我們特以飛蛾本尊和雙生巫女之名拜請<b>蛾</b>之力。"
         },
         {
             "id": "venerationwinter",
             "label": "崇敬：冬",
-            "description": "該組織崇敬<b>冬</b>準則，我們特以殘陽和雙角利斧之名拜請<b>冬</b>之力。",
-            "isAspect": true
+            "description": "該組織崇敬<b>冬</b>準則，我們特以殘陽和雙角利斧之名拜請<b>冬</b>之力。"
         },
         {
             "id": "textlatin",
             "label": "以拉丁語寫就",
-            "description": "一門死去的語言：如金剛石般失去生機。[部分書籍需翻譯後方可閱讀。]",
-            "isAspect": true
+            "description": "一門死去的語言：如金剛石般失去生機。[部分書籍需翻譯後方可閱讀。]"
         },
         {
             "id": "textfucine",
             "label": "以富奇諾語寫就",
-            "description": "已經消失的富奇諾湖東側曾有人居住。賀拉斯曾警告說，那裡是女巫之地。而這便是她們的語言。有些人將之稱作“乾涸之語”，另一些人則稱其為“女巫之語”。[部分書籍需翻譯後方可閱讀。]",
-            "isAspect": true
+            "description": "已經消失的富奇諾湖東側曾有人居住。賀拉斯曾警告說，那裡是女巫之地。而這便是她們的語言。有些人將之稱作“乾涸之語”，另一些人則稱其為“女巫之語”。[部分書籍需翻譯後方可閱讀。]"
         },
         {
             "id": "textgreek",
             "label": "以希臘語寫就",
-            "description": "這是一門屬於哲學家、神學家和英雄的語言。[部分書籍需翻譯後方可閱讀。]",
-            "isAspect": true
+            "description": "這是一門屬於哲學家、神學家和英雄的語言。[部分書籍需翻譯後方可閱讀。]"
         },
         {
             "id": "textphrygian",
             "label": "以弗里吉亞語寫就",
-            "description": "弗里吉亞人崇拜的“偉大母親”就是我們所稱的聖杯。他們的土地曾見證過繩結姐妹會誕生，而這門語言便是轟雷之皮飛升時用於懇求的語言。[部分書籍需翻譯後方可閱讀。]",
-            "isAspect": true
+            "description": "弗里吉亞人崇拜的“偉大母親”就是我們所稱的聖杯。他們的土地曾見證過繩結姐妹會誕生，而這門語言便是轟雷之皮飛升時用於懇求的語言。[部分書籍需翻譯後方可閱讀。]"
         },
         {
             "id": "textaramaic",
             "label": "以亞蘭語寫就",
-            "description": "亞蘭與她這三千多年以來所養育的眾多孩子所使用的語言。[部分書籍需翻譯後方可閱讀。]",
-            "isAspect": true
+            "description": "亞蘭與她這三千多年以來所養育的眾多孩子所使用的語言。[部分書籍需翻譯後方可閱讀。]"
         },
         {
             "id": "textmandaic",
             "label": "以淵深曼達安語寫就",
-            "description": "深遠的沙漠深處引藏最深的關於最隱秘儀式的手跡。據說，它是蟻母其人與生俱來的語言。[部分書籍需翻譯後方可閱讀。]",
-            "isAspect": true
+            "description": "深遠的沙漠深處引藏最深的關於最隱秘儀式的手跡。據說，它是蟻母其人與生俱來的語言。[部分書籍需翻譯後方可閱讀。]"
         },
         {
             "id": "textsanskrit",
             "label": "以梵語寫就",
-            "description": "次大陸的神聖語言。通向四千年的詩歌、典儀和奧秘的大門如今對你敞開，只要你能從它如同蓮花般捲曲的詞彙中掙出一條路。[部分書籍需翻譯後方可閱讀。]",
-            "isAspect": true
+            "description": "次大陸的神聖語言。通向四千年的詩歌、典儀和奧秘的大門如今對你敞開，只要你能從它如同蓮花般捲曲的詞彙中掙出一條路。[部分書籍需翻譯後方可閱讀。]"
         },
         {
             "id": "textvak",
             "label": "以伐訶語寫就",
-            "description": "這是早於諸神自血中誕生，更早於猿人直立行走前，就能在太陽居屋裡聽到的語言。[部分書籍需翻譯後方可閱讀。]",
-            "isAspect": true
+            "description": "這是早於諸神自血中誕生，更早於猿人直立行走前，就能在太陽居屋裡聽到的語言。[部分書籍需翻譯後方可閱讀。]"
         },
         {
             "id": "follower_honoured",
             "label": "榮譽",
-            "description": "我為這位追隨者授予了禮物。",
-            "isAspect": true
+            "description": "我為這位追隨者授予了禮物。"
         },
         {
             "id": "romanticinterest",
             "label": "有意",
-            "description": "這是一個對我產生了愛慕之意的人。",
-            "isAspect": true
+            "description": "這是一個對我產生了愛慕之意的人。"
         },
         {
             "id": "long_wound",
             "label": "受創",
-            "description": "長生者有可能死去嗎？讓我們來試試。",
-            "isAspect": true,
-            "icon": "long_wound"
+            "description": "長生者有可能死去嗎？讓我們來試試。"
         },
         {
             "id": "follower_wound",
             "label": "受創",
-            "description": "此人因為我辦事而受了傷。[受傷的追隨者不能作為追隨者使用，也不能作使者和助手。此人也許會在“多病的時節”死亡。你可以通過<b>談話</b>治療此人。]",
-            "isAspect": true
+            "description": "此人因為我辦事而受了傷。[受傷的追隨者不能作為追隨者使用，也不能作使者和助手。此人也許會在“多病的時節”死亡。你可以通過<b>談話</b>治療此人。]"
         },
         {
             "id": "follower_scar_edge",
             "label": "傷疤：殘暴的經歷",
-            "description": "<b>浮士德</b>：我以為地獄只是個傳說。<b>梅菲斯托費勒斯<b>：噯，儘管這麼想吧，經歷會改變你的看法。[落下三道同樣傷疤的凡人必死無疑。]",
-            "isAspect": true
+            "description": "<b>浮士德</b>：我以為地獄只是個傳說。<b>梅菲斯托費勒斯<b>：噯，儘管這麼想吧，經歷會改變你的看法。[落下三道同樣傷疤的凡人必死無疑。]"
         },
         {
             "id": "follower_scar_knock",
             "label": "傷疤：半愈的瘺管",
-            "description": "並非所有門洞都是創口，但所有創口都是門洞。[落下三道同樣傷疤的凡人必死無疑。]",
-            "isAspect": true
+            "description": "並非所有門洞都是創口，但所有創口都是門洞。[落下三道同樣傷疤的凡人必死無疑。]"
         },
         {
             "id": "follower_scar_winter",
             "label": "傷疤：舊傷",
-            "description": "更近一步走向日落，已看到夜晚的初星。[落下三道同樣傷疤的凡人必死無疑。]",
-            "isAspect": true
+            "description": "更近一步走向日落，已看到夜晚的初星。[落下三道同樣傷疤的凡人必死無疑。]"
         },
         {
             "id": "corpse_scar",
             "label": "舊傷疤",
-            "description": "某個知曉痛苦滋味的人。",
-            "isAspect": true
+            "description": "某個知曉痛苦滋味的人。"
         },
         {
             "id": "resentment",
             "label": "怨恨",
-            "description": "太多的不滿會損害忠誠度。",
-            "comments": "Three resentments in the season of ambitions will turn someone Troublemaker",
-            "isAspect": true
+            "description": "太多的不滿會損害忠誠度。"
         },
         {
             "id": "boredom",
             "label": "厭倦",
-            "description": "我的金主終會對我喪失興味。",
-            "isAspect": true
+            "description": "我的金主終會對我喪失興味。"
         },
         {
             "id": "besotment",
             "label": "迷醉",
-            "description": "我的金主頗有好感地看著我。",
-            "isAspect": true
+            "description": "我的金主頗有好感地看著我。"
         },
         {
             "id": "benefactor_proposal",
             "label": "來自金主的求婚",
-            "description": "在一瞬激情的推動下，我的金主提出結婚。如果我能抓住機會接受，我的人生將會改變……並失去其他的前路。[在金主的熱情消退前與他交談。]",
-            "isAspect": true
+            "description": "在一瞬激情的推動下，我的金主提出結婚。如果我能抓住機會接受，我的人生將會改變……並失去其他的前路。[在金主的熱情消退前與他交談。]"
         },
         {
             "id": "desiremoth_track",
             "label": "舊形體",
-            "description": "我開始了解一支從第一大陸上雨水豐沛的森林中發源的舞蹈。",
-            "isAspect": true
+            "description": "我開始了解一支從第一大陸上雨水豐沛的森林中發源的舞蹈。"
         },
         {
             "id": "desireheart_track",
             "label": "新形體",
-            "description": "我開始了解一支從乾旱之地的山松下發源的舞蹈。",
-            "isAspect": true
+            "description": "我開始了解一支從乾旱之地的山松下發源的舞蹈。"
         },
         {
             "id": "potentialbenefactorm",
             "label": "站在後台入口的男士",
-            "description": "一位富有的男士有時會來觀看演出。人們都知道他喜歡在演出結束後向歌舞隊隊員致以敬意。",
-            "isAspect": true
+            "description": "一位富有的男士有時會來觀看演出。人們都知道他喜歡在演出結束後向歌舞隊隊員致以敬意。"
         },
         {
             "id": "potentialbenefactorf",
             "label": "坐在包廂中的女士",
-            "description": "一位富有的女士有時會來觀看演出。人們都知道她對歌舞隊隊員抱有強烈的興趣。",
-            "isAspect": true
+            "description": "一位富有的女士有時會來觀看演出。人們都知道她對歌舞隊隊員抱有強烈的興趣。"
         },
         {
             "id": "potentialecdysiast",
             "label": "目光炯炯的觀者",
-            "description": "有時她坐在第二排，為她的特殊團體尋找新血。被她僱傭的人則很少出現在城裡。",
-            "isAspect": true
+            "description": "有時她坐在第二排，為她的特殊團體尋找新血。被她僱傭的人則很少出現在城裡。"
         },
         {
             "id": "snarelevel",
             "label": "圈套的強弱",
-            "description": "有些圈套逃也輕鬆，有些卻是無比牢固。",
-            "isAspect": true
+            "description": "有些圈套逃也輕鬆，有些卻是無比牢固。"
         },
         {
             "id": "apostleforge.pillar4.dormant",
             "label": "被選中的羅盤",
-            "description": "我們的塑形者選中他，用於航向世界的破綻處——位於永不改變之地的薄弱處。找到這個地方之後，他會拋棄自己的雙眼，轉而為他的“目的”而活。",
-            "isAspect": true
+            "description": "我們的塑形者選中他，用於航向世界的破綻處——位於永不改變之地的薄弱處。找到這個地方之後，他會拋棄自己的雙眼，轉而為他的“目的”而活。"
         },
         {
             "id": "apostleforge.pillar4",
             "label": "你親眼看見了",
-            "description": "此人對一切盡皆盲目，只在對我們要尋找的世界破綻除外。維也納有一處；不過離家近得多的地方也有一處，此地的名稱始終如一，自凱爾·伊蘇起便是。他能帶領我們找到世界的瑕疵，用破曉器核心，施行我們的大功業。",
-            "isAspect": true
+            "description": "此人對一切盡皆盲目，只在對我們要尋找的世界破綻除外。維也納有一處；不過離家近得多的地方也有一處，此地的名稱始終如一，自凱爾·伊蘇起便是。他能帶領我們找到世界的瑕疵，用破曉器核心，施行我們的大功業。"
         },
         {
             "id": "mentor",
             "label": "導師",
-            "description": "我們的秘密統治者，握有我們忠誠之人，我們會用我們的作為將他托得更高。",
-            "isAspect": true
+            "description": "我們的秘密統治者，握有我們忠誠之人，我們會用我們的作為將他托得更高。"
         },
         {
             "id": "intention.assault",
             "label": "圖謀",
-            "description": "我們永生不死的敵人有所計劃。",
-            "isAspect": true,
-            "isHidden": true
+            "description": "我們永生不死的敵人有所計劃。"
         },
         {
             "id": "intention.intrigue",
             "label": "圖謀",
-            "description": "我們永生不死的敵人有所計劃。",
-            "isAspect": true,
-            "isHidden": true
+            "description": "我們永生不死的敵人有所計劃。"
         },
         {
             "id": "intention.dreams",
             "label": "圖謀",
-            "description": "我們永生不死的敵人有所計劃。",
-            "isAspect": true,
-            "isHidden": true
+            "description": "我們永生不死的敵人有所計劃。"
         },
         {
             "id": "intention.downtime",
             "label": "圖謀",
-            "description": "我們永生不死的敵人有所計劃。",
-            "isAspect": true,
-            "isHidden": true
+            "description": "我們永生不死的敵人有所計劃。"
         },
         {
             "id": "strategy.revealed",
             "label": "計謀被揭穿",
-            "description": "此計已暴露。",
-            "isAspect": true,
-            "isHidden": true
+            "description": "此計已暴露。"
         },
         {
             "id": "revealstrategy",
             "label": "揭穿計謀",
-            "description": "揭穿一個暗地裡的陰謀",
-            "isAspect": true,
-            "noartneeded": true
+            "description": "揭穿一個暗地裡的陰謀"
         },
         {
             "id": "revealidentity",
             "label": "揭穿身份",
-            "description": "揭穿一個未知的敵人",
-            "isAspect": true,
-            "noartneeded": true
+            "description": "揭穿一個未知的敵人"
         },
         {
             "id": "long.lesson",
             "label": "學有所成",
-            "description": "我們的敵手在觀察和學習。",
-            "isAspect": true,
-            "isHidden": true
+            "description": "我們的敵手在觀察和學習。"
         },
         {
             "id": "long.might",
             "label": "力量",
-            "description": "隨著時間推移，這名長生者將在城市中拉攏盟友，積累資源，增強他襲擊我們的能力。[如果長生者的等級達到10，他會考慮直接攻擊你。]",
-            "isAspect": true
+            "description": "隨著時間推移，這名長生者將在城市中拉攏盟友，積累資源，增強他襲擊我們的能力。[如果長生者的等級達到10，他會考慮直接攻擊你。]"
         },
         {
             "id": "long.connections",
             "label": "人脈",
-            "description": "隨著時間推移，這名長生者將在城市中建立起關係網，增強他使用“陰謀”陷害我們的能力。[如果長生者的等級達到10，他會考慮直接攻擊你。]",
-            "isAspect": true
+            "description": "隨著時間推移，這名長生者將在城市中建立起關係網，增強他使用“陰謀”陷害我們的能力。[如果長生者的等級達到10，他會考慮直接攻擊你。]"
         },
         {
             "id": "long.dreamwork",
             "label": "浩如星光",
-            "description": "隨著時間推移，這名長生者將會得知我們夢境的形狀，增強他從漫宿攻擊我們的能力。[如果長生者的等級達到10，他會考慮直接攻擊你。]",
-            "isAspect": true
+            "description": "隨著時間推移，這名長生者將會得知我們夢境的形狀，增強他從漫宿攻擊我們的能力。[如果長生者的等級達到10，他會考慮直接攻擊你。]"
         },
         {
             "id": "long.enemy",
             "label": "永生不死的敵人",
-            "description": "許多長生者為司辰效力。他們強烈反對晉升新具名者，只是因為他們將來可能，僅僅是可能，篡奪司辰之位。部分長生者則仇恨司辰。然而，他們對新晉具名者的反對可以說是更甚。",
-            "isAspect": true,
-            "isHidden": true
+            "description": "許多長生者為司辰效力。他們強烈反對晉升新具名者，只是因為他們將來可能，僅僅是可能，篡奪司辰之位。部分長生者則仇恨司辰。然而，他們對新晉具名者的反對可以說是更甚。"
         },
         {
             "id": "greatwork",
             "label": "大功業的一環",
-            "description": "當功業竟成，我們的創教者，我們的靈感會升入更高的境界。",
-            "isAspect": true
+            "description": "當功業竟成，我們的創教者，我們的靈感會升入更高的境界。"
         },
         {
             "id": "greatwork.sabotaged",
             "label": "遭到破壞！",
-            "description": "大功業岌岌可危。[可用一名<b>鑄</b>之追隨者和一枚古銀幣修復。]",
-            "isAspect": true
+            "description": "大功業岌岌可危。[可用一名<b>鑄</b>之追隨者和一枚古銀幣修復。]"
         },
         {
             "id": "sabotage",
             "label": "蓄意破壞！",
-            "description": "會將“大功業”卡牌轉變為其不穩定，待修復的版本。",
-            "isAspect": true,
-            "noartneeded": true
+            "description": "會將“大功業”卡牌轉變為其不穩定，待修復的版本。"
         },
         {
             "id": "sabotage.repair",
-            "label": "修復破壞！",
-            "isAspect": true,
-            "noartneeded": true
+            "label": "修復破壞！"
         },
         {
             "id": "grailflavour",
             "label": "至甜",
-            "description": "草莓、肉桂、橙花。",
-            "isAspect": true
+            "description": "草莓、肉桂、橙花。"
         },
         {
             "id": "heartflavour",
             "label": "鹹",
-            "description": "銅、沒藥、鏽跡。",
-            "isAspect": true
+            "description": "銅、沒藥、鏽跡。"
         },
         {
             "id": "mothflavour",
             "label": "甜",
-            "description": "無花果、堅果、麥芽。",
-            "isAspect": true
+            "description": "無花果、堅果、麥芽。"
         },
         {
             "id": "vitulationupgrade",
             "label": "升級謝肉祭的客人",
-            "description": "客人聚齊！",
-            "isAspect": true,
-            "noartneeded": true
+            "description": "客人聚齊！"
         },
         {
             "id": "cloudwitnessesupgrade",
             "label": "升級盤桓雲集的見證者",
-            "description": "見證者聚齊！",
-            "isAspect": true,
-            "noartneeded": true
+            "description": "見證者聚齊！"
         },
         {
             "id": "renew.apostlelantern.pillar3",
-            "label": "重下誘餌",
-            "isAspect": true,
-            "noartneeded": true
+            "label": "重下誘餌"
         },
         {
             "id": "poison.notoriety",
             "label": "已暴露",
-            "description": "這名追隨者的秘密已被曝光。只要他還在外活動，新聞媒體就可能對他產生興趣。",
-            "isAspect": true,
-            "icon": "reputation",
-            "induces": [
-                {
-                    "id": "poison.notoriety.induction",
-                    "chance": 30
-                }
-            ]
+            "description": "這名追隨者的秘密已被曝光。只要他還在外活動，新聞媒體就可能對他產生興趣。"
         },
         {
             "id": "poison.passion.dread",
             "label": "被毒所侵的激情",
-            "description": "我的情緒趕染上了使人毛骨悚然的恐怖。[在任何地方使用此卡都高機率會生成“恐懼”。]",
-            "isAspect": true,
-            "induces": [
-                {
-                    "id": "poison.passion.dread.induction",
-                    "chance": 70
-                }
-            ]
+            "description": "我的情緒趕染上了使人毛骨悚然的恐怖。[在任何地方使用此卡都高機率會生成“恐懼”。]"
         },
         {
             "id": "poison.reason.fascination",
             "label": "驕盛燦爛的侵染",
-            "description": "我被反覆出現在夢中的燭火撩撥著。[在任何地方使用此卡都高機率會生成“入迷”。]",
-            "isAspect": true,
-            "induces": [
-                {
-                    "id": "poison.reason.fascination.induction",
-                    "chance": 70
-                }
-            ]
+            "description": "我被反覆出現在夢中的燭火撩撥著。[在任何地方使用此卡都高機率會生成“入迷”。]"
         },
         {
             "id": "poison.health.dread",
             "label": "衰弱的肉體",
-            "description": "我已成了如影隨形的疼痛的俘虜。[在任何地方使用此卡都高機率會生成“恐懼”。]",
-            "isAspect": true,
-            "induces": [
-                {
-                    "id": "poison.health.dread.induction",
-                    "chance": 70
-                }
-            ]
+            "description": "我已成了如影隨形的疼痛的俘虜。[在任何地方使用此卡都高機率會生成“恐懼”。]"
         },
         {
             "id": "poison.fascination.longlesson",
             "label": "我記憶中的眼睛",
-            "description": "長生者送給我一個甜蜜的夢境。我必須忍住自己不去想它。[如果你在<b>入夢</b>或儀式中使用此卡，長生者就會藉此了解你，增加他在你夢中的力量。]",
-            "isAspect": true
+            "description": "長生者送給我一個甜蜜的夢境。我必須忍住自己不去想它。[如果你在<b>入夢</b>或儀式中使用此卡，長生者就會藉此了解你，增加他在你夢中的力量。]"
         },
         {
             "id": "poison.dread.longlesson",
             "label": "我心中的牙齒",
-            "description": "長生者打造夢境來侵擾我。徹底忘掉這些夢會更穩妥，但不去想它則更明智。[如果你在<b>入夢</b>或儀式中使用此卡，長生者就會藉此了解你，增加他在你夢中的力量。]",
-            "isAspect": true
+            "description": "長生者打造夢境來侵擾我。徹底忘掉這些夢會更穩妥，但不去想它則更明智。[如果你在<b>入夢</b>或儀式中使用此卡，長生者就會藉此了解你，增加他在你夢中的力量。]"
         },
         {
             "id": "poison.way.long",
             "label": "道路在監視下",
-            "description": "長生者派人監視著這條道路。若我走過，他就會在我的睡眠中更了解我。",
-            "isAspect": true
+            "description": "長生者派人監視著這條道路。若我走過，他就會在我的睡眠中更了解我。"
         },
         {
             "id": "lockscar",
             "label": "傷疤鎖",
-            "description": "也許蛇親吻過我，也許刀子啜飲過我，也許是我把夢做得太鋒利。[在儀式中使用相當強度的<b>啟</b>或可開啟此傷疤。]",
-            "isAspect": true
+            "description": "也許蛇親吻過我，也許刀子啜飲過我，也許是我把夢做得太鋒利。[在儀式中使用相當強度的<b>啟</b>或可開啟此傷疤。]"
         },
         {
             "id": "openedlockscar",
             "label": "開啟傷疤鎖",
-            "description": "[此傷疤正在開啟。]",
-            "isAspect": true
+            "description": "[此傷疤正在開啟。]"
         },
         {
             "id": "unlockscar",
             "label": "傷疤將會開啟。",
-            "description": "Recipe aspect.",
-            "isAspect": true,
-            "noartneeded": true
+            "description": "Recipe aspect."
         },
         {
             "id": "ghoul.hunger",
             "label": "墓地之口",
-            "description": "如今我已嚐過了墓地的果實，這種飢餓便時常來煩擾我。聞見腐敗的芳香我的嘴就流涎水，肚腸像狗一樣嚎叫。[食用<b>殘骸</b>可使之輕減。不要讓它累積到七，到那時遊戲將結束，且結束得並不令人愉快。]",
-            "isAspect": true
+            "description": "如今我已嚐過了墓地的果實，這種飢餓便時常來煩擾我。聞見腐敗的芳香我的嘴就流涎水，肚腸像狗一樣嚎叫。[食用<b>殘骸</b>可使之輕減。不要讓它累積到七，到那時遊戲將結束，且結束得並不令人愉快。]"
         },
         {
             "id": "colours.furious",
             "label": "蟠七之色",
-            "description": "於低垂的紅太陽下，沙丘連成的沙床上，一頭怪獸與自己扭打著，身側圍擁著隨同者們。它體型鬆弛肥大，色如不純的硫磺；數條生著獠牙、觸角般的脖頸像貓仔一樣互相扭打著。它歡快地撕扯著自己的肉，淌下的血是金色的。它重重翻倒，摔成一灘肉褶山肉片海，壓死了一團隨同者，令餘下的邊是尖叫邊是歡呼。",
-            "isAspect": true
+            "description": "於低垂的紅太陽下，沙丘連成的沙床上，一頭怪獸與自己扭打著，身側圍擁著隨同者們。它體型鬆弛肥大，色如不純的硫磺；數條生著獠牙、觸角般的脖頸像貓仔一樣互相扭打著。它歡快地撕扯著自己的肉，淌下的血是金色的。它重重翻倒，摔成一灘肉褶山肉片海，壓死了一團隨同者，令餘下的邊是尖叫邊是歡呼。"
         },
         {
             "id": "colours.luxurious",
             "label": "潮水之色",
-            "description": "在漫宿藍色的夜霧中，游弋著一個珊瑚所製的既為宮殿又為王冠之物，此物時不時讓位於月亮。它用它的前沿吸進那些不顯要的具名者，將自己的礦物和汁液塗裹其上；它從它的後沿排出他們，其已拋光磨亮彷若寶石餘下的用於餵飽它那顆帶刺的浪潮之心。",
-            "isAspect": true
+            "description": "在漫宿藍色的夜霧中，游弋著一個珊瑚所製的既為宮殿又為王冠之物，此物時不時讓位於月亮。它用它的前沿吸進那些不顯要的具名者，將自己的礦物和汁液塗裹其上；它從它的後沿排出他們，其已拋光磨亮彷若寶石餘下的用於餵飽它那顆帶刺的浪潮之心。"
         },
         {
             "id": "colours.liminal",
             "label": "雙重門關之色",
-            "description": "當我回憶雙角利斧，我想起了山楂花的香味。我想起了透射著金紅霞光的紫色暮空。我想起了方做過活不久的她雙刃淋漓的樣子。",
-            "isAspect": true
+            "description": "當我回憶雙角利斧，我想起了山楂花的香味。我想起了透射著金紅霞光的紫色暮空。我想起了方做過活不久的她雙刃淋漓的樣子。"
         },
         {
             "id": "colours.horizon",
             "label": "天際之色",
-            "description": "在霧氣散去，太陽或被誤認為是月亮之時，於天幕上的某些斑塊可見一種黯淡的白金色。我們屏住呼吸，看著它轉亮，直到每一重顏色與臨近的分離開來，彷若一個個新鑄的文字。逆孵之卵。",
-            "isAspect": true
+            "description": "在霧氣散去，太陽或被誤認為是月亮之時，於天幕上的某些斑塊可見一種黯淡的白金色。我們屏住呼吸，看著它轉亮，直到每一重顏色與臨近的分離開來，彷若一個個新鑄的文字。逆孵之卵。"
         },
         {
             "id": "colours.splendid",
             "label": "已逝之色",
-            "description": "玫紅極光與藍青電光爭奪著天空。無夜晚亦無黎明，只存在預備為午的時辰和停滯於午的時辰。我們每一個人都向天空射下的金針敞開心胸。一切色彩在驕陽下皆顯得更濃。",
-            "isAspect": true
+            "description": "玫紅極光與藍青電光爭奪著天空。無夜晚亦無黎明，只存在預備為午的時辰和停滯於午的時辰。我們每一個人都向天空射下的金針敞開心胸。一切色彩在驕陽下皆顯得更濃。"
         },
         {
             "id": "colours.endless",
             "label": "轉動之色",
-            "description": "隨著一輪一輪地轉動，它的纖毛有節奏地顛撲扭擺，它的身體由透明漲成猩紅。它或許醜陋，但它卻美麗好似玻璃迷宮褪去鮮血。它不會停歇，且它通體纏卷永無窮盡。轉輪。",
-            "isAspect": true
+            "description": "隨著一輪一輪地轉動，它的纖毛有節奏地顛撲扭擺，它的身體由透明漲成猩紅。它或許醜陋，但它卻美麗好似玻璃迷宮褪去鮮血。它不會停歇，且它通體纏卷永無窮盡。轉輪。"
         },
         {
             "id": "colours.wildering",
             "label": "非黑之色",
-            "description": "沒入黑暗前的林地與其瑩綠好似帶毒的果實、其色如肉紅石髓的根莖。飛蛾的眼睛因飢餓而透出歡喜。他正在捕獵。",
-            "isAspect": true
+            "description": "沒入黑暗前的林地與其瑩綠好似帶毒的果實、其色如肉紅石髓的根莖。飛蛾的眼睛因飢餓而透出歡喜。他正在捕獵。"
         },
         {
             "id": "colours.golden",
             "label": "古焰之色",
-            "description": "它只是一塊石頭而已，儘管被打磨得光滑鋒銳臻至午夜之境。然而待再細看：它的每個刻面都映現著一個光點。也許是火光的閃爍，也許每個都是一顆不同的<b>星星</b>。",
-            "isAspect": true
+            "description": "它只是一塊石頭而已，儘管被打磨得光滑鋒銳臻至午夜之境。然而待再細看：它的每個刻面都映現著一個光點。也許是火光的閃爍，也許每個都是一顆不同的<b>星星</b>。"
         },
         {
             "id": "colours.honeyed",
             "label": "將現之色",
-            "description": "我們的翅膀舒展而閃耀，我們的鱗片如黑曜石般泛著柔光，我們的雙眼擁有寶石般的刻面，我們的腳爪黯黑到無懈可擊。",
-            "isAspect": true
+            "description": "我們的翅膀舒展而閃耀，我們的鱗片如黑曜石般泛著柔光，我們的雙眼擁有寶石般的刻面，我們的腳爪黯黑到無懈可擊。"
         },
         {
             "id": "ascension.remembrance.offering",
             "label": "悼歌詩人的開價",
-            "description": "悼歌詩人乃被剝奪至奪無可奪之司辰，一一喚亡者以姓名之司辰。每隔一段漫長的時間，他便會收取極大的代價，將亡者中的一人喚出虛界，使其得以續命，獨行於世，毫髮不傷，直至其迎來自己的終末之冬。",
-            "isAspect": true
+            "description": "悼歌詩人乃被剝奪至奪無可奪之司辰，一一喚亡者以姓名之司辰。每隔一段漫長的時間，他便會收取極大的代價，將亡者中的一人喚出虛界，使其得以續命，獨行於世，毫髮不傷，直至其迎來自己的終末之冬。"
         },
         {
             "id": "remnant",
             "label": "殘骸",
-            "description": "別人曾用的肉身。",
-            "isAspect": true
+            "description": "別人曾用的肉身。"
         },
         {
             "id": "manifesting",
             "label": "顯形",
-            "description": "此靈體正在進入現世。這比分娩要容易，但不像穿過一扇門那麼容易。",
-            "isAspect": true
+            "description": "此靈體正在進入現世。這比分娩要容易，但不像穿過一扇門那麼容易。"
         },
         {
             "id": "stale",
             "label": "厭煩",
-            "description": "我開始重複我自己了。[厭煩情緒越嚴重，對你的作品影響越大。產出非常高品質的作品可以逐步減少“厭煩”。]",
-            "isAspect": true,
-            "icon": "boredom"
+            "description": "我開始重複我自己了。[厭煩情緒越嚴重，對你的作品影響越大。產出非常高品質的作品可以逐步減少“厭煩”。]"
         },
         {
             "id": "project",
             "label": "課題",
-            "description": "研究課題的提綱",
-            "isHidden": true,
-            "isAspect": true
+            "description": "研究課題的提綱"
         },
         {
             "id": "exhausted",
             "label": "枯竭",
-            "description": "過一段時間即會恢復。",
-            "isAspect": true
+            "description": "過一段時間即會恢復。"
         }
     ]
 }

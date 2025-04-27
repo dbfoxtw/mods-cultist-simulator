@@ -3,254 +3,182 @@
         {
             "id": "uqauclair",
             "label": "奧克萊爾",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         },
         {
             "id": "uqcat",
             "label": "卡特·卡羅",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         },
         {
             "id": "uqconnie",
             "label": "康妮",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         },
         {
             "id": "uqclovette",
             "label": "克羅薇特",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         },
         {
             "id": "uqclifton",
             "label": "克利夫頓",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         },
         {
             "id": "uqdouglas",
             "label": "道格拉斯",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         },
         {
             "id": "uqdorothy",
             "label": "多蘿西",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         },
         {
             "id": "uqelridge",
             "label": "埃爾里奇",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         },
         {
             "id": "uqenid",
             "label": "伊妮德",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         },
         {
             "id": "uqlaidlaw",
             "label": "萊德勞",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         },
         {
             "id": "uqleo",
             "label": "里奧",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         },
         {
             "id": "uqnatalia",
             "label": "納塔麗婭",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         },
         {
             "id": "uqneville",
             "label": "內維爾",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         },
         {
             "id": "uqporter",
             "label": "波特",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         },
         {
             "id": "uqrenira",
             "label": "芮妮拉",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         },
         {
             "id": "uqrose",
             "label": "蘿絲",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         },
         {
             "id": "uqsaliba",
             "label": "薩利巴",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         },
         {
             "id": "uqslee",
             "label": "思雷",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         },
         {
             "id": "uqspencer",
             "label": "斯賓塞",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         },
         {
             "id": "uqsylvia",
             "label": "西爾維婭",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         },
         {
             "id": "uqtristan",
             "label": "崔斯坦",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         },
         {
             "id": "uqvalciane",
             "label": "萬查妮",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         },
         {
             "id": "uqvictor",
             "label": "維克多",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         },
         {
             "id": "uqviolet",
             "label": "維奧萊特",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         },
         {
             "id": "uqysabet",
             "label": "伊莎貝特",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         },
         {
             "id": "uqzachary",
             "label": "扎迦利",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         },
         {
             "id": "uqbenefactorm",
             "label": "男性金主",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         },
         {
             "id": "uqbenefactorf",
             "label": "女性金主",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         },
         {
             "id": "uqcabaret",
             "label": "蛻衣俱樂部的位置",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         },
         {
             "id": "uqdesire",
             "label": "欲望",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         },
         {
             "id": "uqsending",
             "label": "派遣",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         },
         {
             "id": "uqvitulation",
             "label": "謝肉祭的準備",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         },
         {
             "id": "uqthirdwaywitnesses",
             "label": "第三道的見證者",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         },
         {
             "id": "uqspirit_forgee_edge",
             "label": "坩堝王",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         },
         {
             "id": "uqspirit_graile_edge",
             "label": "第二乾渴者伊澤姆",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         },
         {
             "id": "uqspirit_lanterne_secret",
             "label": "德蕾莎",
-            "description": "",
-            "isAspect": true,
-            "isHidden": true
+            "description": ""
         }
     ]
 }

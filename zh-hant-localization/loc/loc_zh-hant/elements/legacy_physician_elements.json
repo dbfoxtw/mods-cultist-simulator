@@ -1,20 +1,14 @@
 {
-    "elements": [
-        {
-            "id": "legacyphysicianjob",
-            "description": "今天，我將回到工作崗位。",
-            "label": "研究所職位",
-            "aspects": {
-                "job": 1
-            }
-        },
-        {
-            "id": "legacyphysiciannotes",
-            "description": "我親眼見證了#PREVIOUSCHARACTERNAME#被病魔壓垮的可怖過程。我手寫的病歷也越來越潦草了。",
-            "label": "#PREVIOUSCHARACTERNAME#的病歷筆記",
-            "aspects": {
-                "legacyplotitem": 1
-            }
-        }
-    ]
+	"elements": [
+		{
+			"id": "legacyphysicianjob",
+			"description": "今天，我將回到工作崗位。",
+			"label": "研究所職位"
+		},
+		{
+			"id": "legacyphysiciannotes",
+			"description": "我親眼見證了#PREVIOUSCHARACTERNAME#被病魔壓垮的可怖過程。我手寫的病歷也越來越潦草了。",
+			"label": "#PREVIOUSCHARACTERNAME#的病歷筆記"
+		}
+	]
 }

@@ -1,118 +1,59 @@
 {
-    "elements": [
-        {
-            "id": "rumour",
-            "label": "古怪的傳聞",
-            "description": "這或許能讓我找到所需的人，或者這意味著某種完全不同的東西。[跟隨傳聞的指引，繼續探索。]",
-            "aspects": {
-                "ingredient": 1,
-                "secrethistories": 1,
-                "moth": 1
-            },
-            "lifetime": 60
-        },
-        {
-            "id": "favour",
-            "label": "當局欠下的人情",
-            "description": "我掌握了某些讓人欠我情的東西，只管一次用。[這會使你或你的一名追隨者免受牢獄之災……但並不夠可靠。]",
-            "aspects": {
-                "suspicious": 1
-            },
-            "lifetime": 300
-        },
-        {
-            "id": "mistakenidentity",
-            "label": "錯認身份",
-            "aspects": {
-                "mortal": 1
-            },
-            "description": "到頭來，這並不是你要尋找的人。他無足輕重，不會讓你留下任何印象。或許已經沒有什麼人值得你去見了。",
-            "xtriggers": {
-                "rebellion": "generic_r"
-            },
-            "comments": "This xtrigger is here specifically in case someone runs through all the possible rivals as a Detective",
-            "lifetime": 10
-        },
-        {
-            "id": "funds",
-            "label": "資金",
-            "aspects": {
-                "ingredient": 1
-            },
-            "description": "足夠供我舒舒服服地生活一小段時間。"
-        },
-        {
-            "id": "compensation",
-            "label": "古鐵幣",
-            "aspects": {
-                "edge": 2,
-                "secrethistories": 1,
-                "compensationvalue": 2,
-                "ingredient": 1,
-                "auctionable": 2
-            },
-            "description": "隱秘世界的新晉者用斯賓特里亞古幣支付各種費用。古鐵幣面值最低，背面畫著兇殺的情景。[“古錢幣”可以在拍賣行換成份數的普通資金。]"
-        },
-        {
-            "id": "compensationb",
-            "label": "古銅幣",
-            "aspects": {
-                "forge": 4,
-                "secrethistories": 1,
-                "compensationvalue": 4,
-                "ingredient": 1,
-                "auctionable": 3
-            },
-            "description": "隱秘世界的新晉者用斯賓特里亞古幣支付各種費用。古青銅幣背面通常畫著塑造的場景。[“古錢幣”可以在拍賣行換成份數的普通資金。]"
-        },
-        {
-            "id": "compensationc",
-            "label": "古銀幣",
-            "aspects": {
-                "grail": 6,
-                "secrethistories": 1,
-                "compensationvalue": 8,
-                "ingredient": 1,
-                "auctionable": 4
-            },
-            "description": "隱秘世界的新晉者用斯賓特里亞古幣支付各種費用。古幣很容易賣出數值更高的普通貨幣。古銀幣更具價值，背面通常畫著淫蕩的情景。[“古錢幣”可以在拍賣行換成份數的普通資金。]"
-        },
-        {
-            "id": "compensationd",
-            "label": "古金幣",
-            "aspects": {
-                "lantern": 8,
-                "secrethistories": 1,
-                "compensationvalue": 16,
-                "ingredient": 1,
-                "auctionable": 5
-            },
-            "description": "隱秘世界的新晉者用斯賓特里亞古幣支付各種費用。古幣很容易賣出數值更高的普通貨幣。古金幣背面畫著凡人肉眼不可見的情形。[“古錢幣”可以在拍賣行換成份數的普通資金。]"
-        },
-        {
-            "id": "mapbookdealer",
-            "label": "去往莫蘭書店的路線",
-            "aspects": {
-                "legacyplotitem": 1
-            },
-            "description": "語焉不詳的路線說明，教人如何去往某個不為人知的地址，找到名為莫蘭的稀有書籍商販。"
-        },
-        {
-            "id": "jumble",
-            "label": "一堆雜物",
-            "aspects": {
-                "auctionable": 1
-            },
-            "description": "一堆舊衣服與沒什麼價值的首飾。或許它們能在哪換得幾個便士，但對我沒有什麼用處。"
-        },
-        {
-            "id": "snare",
-            "label": "圈套",
-            "aspects": {
-                "snarelevel": 1
-            },
-            "description": "我為我的對手下好了圈套。[圈套可用於任何無派人士，或者用於挫敗其搜刮藏寶地的企圖。]",
-            "lifetime": 300
-        }
-    ]
+	"elements": [
+		{
+			"id": "rumour",
+			"label": "古怪的傳聞",
+			"description": "這或許能讓我找到所需的人，或者這意味著某種完全不同的東西。[跟隨傳聞的指引，繼續探索。]"
+		},
+		{
+			"id": "favour",
+			"label": "當局欠下的人情",
+			"description": "我掌握了某些讓人欠我情的東西，只管一次用。[這會使你或你的一名追隨者免受牢獄之災……但並不夠可靠。]"
+		},
+		{
+			"id": "mistakenidentity",
+			"label": "錯認身份",
+			"description": "到頭來，這並不是你要尋找的人。他無足輕重，不會讓你留下任何印象。或許已經沒有什麼人值得你去見了。"
+		},
+		{
+			"id": "funds",
+			"label": "資金",
+			"description": "足夠供我舒舒服服地生活一小段時間。"
+		},
+		{
+			"id": "compensation",
+			"label": "古鐵幣",
+			"description": "隱秘世界的新晉者用斯賓特里亞古幣支付各種費用。古鐵幣面值最低，背面畫著兇殺的情景。[“古錢幣”可以在拍賣行換成份數的普通資金。]"
+		},
+		{
+			"id": "compensationb",
+			"label": "古銅幣",
+			"description": "隱秘世界的新晉者用斯賓特里亞古幣支付各種費用。古青銅幣背面通常畫著塑造的場景。[“古錢幣”可以在拍賣行換成份數的普通資金。]"
+		},
+		{
+			"id": "compensationc",
+			"label": "古銀幣",
+			"description": "隱秘世界的新晉者用斯賓特里亞古幣支付各種費用。古幣很容易賣出數值更高的普通貨幣。古銀幣更具價值，背面通常畫著淫蕩的情景。[“古錢幣”可以在拍賣行換成份數的普通資金。]"
+		},
+		{
+			"id": "compensationd",
+			"label": "古金幣",
+			"description": "隱秘世界的新晉者用斯賓特里亞古幣支付各種費用。古幣很容易賣出數值更高的普通貨幣。古金幣背面畫著凡人肉眼不可見的情形。[“古錢幣”可以在拍賣行換成份數的普通資金。]"
+		},
+		{
+			"id": "mapbookdealer",
+			"label": "去往莫蘭書店的路線",
+			"description": "語焉不詳的路線說明，教人如何去往某個不為人知的地址，找到名為莫蘭的稀有書籍商販。"
+		},
+		{
+			"id": "jumble",
+			"label": "一堆雜物",
+			"description": "一堆舊衣服與沒什麼價值的首飾。或許它們能在哪換得幾個便士，但對我沒有什麼用處。"
+		},
+		{
+			"id": "snare",
+			"label": "圈套",
+			"description": "我為我的對手下好了圈套。[圈套可用於任何無派人士，或者用於挫敗其搜刮藏寶地的企圖。]"
+		}
+	]
 }

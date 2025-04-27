@@ -1,262 +1,134 @@
 {
-    "elements": [
-        {
-            "id": "legacydancerjob",
-            "label": "與歡騰劇院的合約",
-            "description": "我在歡騰劇院中的舞蹈隊任職。在我的好運，抑或美貌，消逝之前，這個職位都將歸我所有……又除非我找到了更好的工作。",
-            "aspects": {
-                "job": 1,
-                "dance": 1,
-                "potentialbenefactorm": 1,
-                "potentialbenefactorf": 1,
-                "potentialecdysiast": 1
-            },
-            "lifetime": 120,
-            "decayTo": "legacydancerjob_suspended",
-            "xtriggers": {
-                "job": "legacydancerjob"
-            },
-            "slots": [
-                {
-                    "id": "health",
-                    "label": "健康",
-                    "actionId": "work",
-                    "required": {
-                        "health": 1
-                    }
-                }
-            ]
-        },
-        {
-            "id": "legacydancerjob_suspended",
-            "label": "與歡騰劇院的合約：停職",
-            "description": "我錯過了太多的演出。如果我夠真情實意地懇求，也許還能挽回工作。",
-            "aspects": {
-                "job": 1
-            },
-            "lifetime": 300,
-            "xtriggers": {
-                "plead": "legacydancerjob"
-            },
-            "slots": [
-                {
-                    "id": "passion",
-                    "label": "激情",
-                    "actionId": "work",
-                    "required": {
-                        "passion": 1
-                    }
-                }
-            ]
-        },
-        {
-            "id": "dancerlegacy_plotitem_a",
-            "label": "揉成一團的詩文",
-            "description": "這是致另一名舞者的信，署名為#LAST_FOLLOWER#。寫信人描述了他於夢中一片昏暗的林地裡遇到該舞者的原委。他夢到了鼓聲、拍翅聲、影子的皮膚、月亮的血。怪不得信被扔掉了。但我看出這些話裡有層層深意尚待揭開。",
-            "slots": [
-                {
-                    "id": "Approach",
-                    "label": "方式",
-                    "actionId": "study",
-                    "description": "是心的悸動，還是小提琴的高鳴？",
-                    "required": {
-                        "heart": 1,
-                        "moth": 1
-                    }
-                }
-            ],
-            "aspects": {
-                "legacyplotitem": 1
-            }
-        },
-        {
-            "id": "dancerjobecdysisa",
-            "label": "與蛻衣俱樂部的合約",
-            "description": "我在蛻衣俱樂部開業的夜晚表演。",
-            "slots": [
-                {
-                    "id": "location",
-                    "label": "蛻衣俱樂部",
-                    "description": "蛻衣俱樂部——我在人們的見證下揭示己身的地方。",
-                    "actionId": "work",
-                    "required": {
-                        "locationcabaret": 1
-                    }
-                },
-                {
-                    "id": "purpose",
-                    "label": "目的",
-                    "actionId": "work",
-                    "required": {
-                        "changemarks": 1,
-                        "healthskill": 1
-                    },
-                    "description": "我可以展示<b>技能</b>以進修更複雜的舞蹈；或者用<b>欲望</b>來追求蛻變；又或者將其留空，如果我只想賺錢的話。"
-                },
-                {
-                    "id": "abilityfirst",
-                    "label": "能力，或者傷疤",
-                    "description": "我應當將自己的哪樣東西獻出？",
-                    "actionId": "work",
-                    "required": {
-                        "health": 1,
-                        "passion": 1,
-                        "scar": 1
-                    }
-                },
-                {
-                    "id": "influence",
-                    "label": "影響",
-                    "description": "今天是什麼讓我心神不寧？",
-                    "actionId": "work",
-                    "required": {
-                        "influence": 1
-                    },
-                    "consumes": true
-                }
-            ],
-            "aspects": {
-                "job": 1,
-                "dance": 1,
-                "ecdysijob": 1
-            }
-        },
-        {
-            "id": "dancerjobecdysisb",
-            "label": "與蛻衣俱樂部的上級合約",
-            "description": "我在蛻衣俱樂部表演更艱深的舞蹈。",
-            "slots": [
-                {
-                    "id": "location",
-                    "label": "蛻衣俱樂部",
-                    "description": "蛻衣俱樂部——我在人們的見證下揭示己身的地方。",
-                    "actionId": "work",
-                    "required": {
-                        "locationcabaret": 1
-                    }
-                },
-                {
-                    "id": "purpose",
-                    "label": "目的",
-                    "actionId": "work",
-                    "required": {
-                        "changemarks": 1,
-                        "healthskill": 1
-                    },
-                    "description": "我可以展示<b>技能</b>以進修更複雜的舞蹈；或者用<b>欲望</b>來追求蛻變；又或者將其留空，如果我只想賺錢的話。"
-                },
-                {
-                    "id": "abilityfirst",
-                    "label": "能力，或者傷疤",
-                    "description": "我應當將自己的哪樣東西獻出？",
-                    "actionId": "work",
-                    "required": {
-                        "health": 1,
-                        "passion": 1,
-                        "scar": 1
-                    }
-                },
-                {
-                    "id": "abilitysecond",
-                    "label": "能力，或者傷疤",
-                    "description": "我應當將自己的哪樣東西獻出？",
-                    "actionId": "work",
-                    "required": {
-                        "health": 1,
-                        "passion": 1,
-                        "scar": 1
-                    }
-                },
-                {
-                    "id": "influence",
-                    "label": "影響",
-                    "description": "今天是什麼讓我心神不寧？",
-                    "actionId": "work",
-                    "required": {
-                        "influence": 1
-                    },
-                    "consumes": true
-                }
-            ],
-            "aspects": {
-                "job": 1,
-                "dance": 1,
-                "ecdysijob": 1
-            }
-        },
-        {
-            "id": "dancerjobecdysisc",
-            "label": "與蛻衣俱樂部的特殊合約",
-            "description": "我偶爾被聘以重金，為那些非常挑剔的鑑賞家表演非常特殊的舞蹈。",
-            "slots": [
-                {
-                    "id": "location",
-                    "label": "蛻衣俱樂部",
-                    "description": "蛻衣俱樂部——我在人們的見證下揭示己身的地方。",
-                    "actionId": "work",
-                    "required": {
-                        "locationcabaret": 1
-                    }
-                },
-                {
-                    "id": "purpose",
-                    "label": "目的",
-                    "actionId": "work",
-                    "required": {
-                        "changemarks": 1,
-                        "healthskill": 1
-                    },
-                    "description": "我可以使用<b>欲望</b>以追求蛻變；又或者將其留空，如果我只想賺錢的話。"
-                },
-                {
-                    "id": "abilityfirst",
-                    "label": "能力，或者傷疤",
-                    "description": "我應當將自己的哪樣東西獻出？",
-                    "actionId": "work",
-                    "required": {
-                        "health": 1,
-                        "passion": 1,
-                        "scar": 1
-                    }
-                },
-                {
-                    "id": "abilitysecond",
-                    "label": "能力，或者傷疤",
-                    "description": "我應當將自己的哪樣東西獻出？",
-                    "actionId": "work",
-                    "required": {
-                        "health": 1,
-                        "passion": 1,
-                        "scar": 1
-                    }
-                },
-                {
-                    "id": "abilitythird",
-                    "label": "能力，或者傷疤",
-                    "description": "我應當將自己的哪樣東西獻出？",
-                    "actionId": "work",
-                    "required": {
-                        "health": 1,
-                        "passion": 1,
-                        "scar": 1
-                    }
-                },
-                {
-                    "id": "influence",
-                    "label": "影響",
-                    "description": "今天是什麼讓我心神不寧？",
-                    "actionId": "work",
-                    "required": {
-                        "influence": 1
-                    },
-                    "consumes": true
-                }
-            ],
-            "aspects": {
-                "job": 1,
-                "dance": 1,
-                "ecdysijob": 1
-            }
-        }
-    ]
+	"elements": [
+		{
+			"id": "legacydancerjob",
+			"label": "與歡騰劇院的合約",
+			"description": "我在歡騰劇院中的舞蹈隊任職。在我的好運，抑或美貌，消逝之前，這個職位都將歸我所有……又除非我找到了更好的工作。",
+			"slots": [
+				{
+					"id": "health",
+					"label": "健康"
+				}
+			]
+		},
+		{
+			"id": "legacydancerjob_suspended",
+			"label": "與歡騰劇院的合約：停職",
+			"description": "我錯過了太多的演出。如果我夠真情實意地懇求，也許還能挽回工作。",
+			"slots": [
+				{
+					"id": "passion",
+					"label": "激情"
+				}
+			]
+		},
+		{
+			"id": "dancerlegacy_plotitem_a",
+			"label": "揉成一團的詩文",
+			"description": "這是致另一名舞者的信，署名為#LAST_FOLLOWER#。寫信人描述了他於夢中一片昏暗的林地裡遇到該舞者的原委。他夢到了鼓聲、拍翅聲、影子的皮膚、月亮的血。怪不得信被扔掉了。但我看出這些話裡有層層深意尚待揭開。",
+			"slots": [
+				{
+					"id": "Approach",
+					"label": "方式",
+					"description": "是心的悸動，還是小提琴的高鳴？"
+				}
+			]
+		},
+		{
+			"id": "dancerjobecdysisa",
+			"label": "與蛻衣俱樂部的合約",
+			"description": "我在蛻衣俱樂部開業的夜晚表演。",
+			"slots": [
+				{
+					"id": "location",
+					"label": "蛻衣俱樂部",
+					"description": "蛻衣俱樂部——我在人們的見證下揭示己身的地方。"
+				},
+				{
+					"id": "purpose",
+					"label": "目的",
+					"description": "我可以展示<b>技能</b>以進修更複雜的舞蹈；或者用<b>欲望</b>來追求蛻變；又或者將其留空，如果我只想賺錢的話。"
+				},
+				{
+					"id": "abilityfirst",
+					"label": "能力，或者傷疤",
+					"description": "我應當將自己的哪樣東西獻出？"
+				},
+				{
+					"id": "influence",
+					"label": "影響",
+					"description": "今天是什麼讓我心神不寧？"
+				}
+			]
+		},
+		{
+			"id": "dancerjobecdysisb",
+			"label": "與蛻衣俱樂部的上級合約",
+			"description": "我在蛻衣俱樂部表演更艱深的舞蹈。",
+			"slots": [
+				{
+					"id": "location",
+					"label": "蛻衣俱樂部",
+					"description": "蛻衣俱樂部——我在人們的見證下揭示己身的地方。"
+				},
+				{
+					"id": "purpose",
+					"label": "目的",
+					"description": "我可以展示<b>技能</b>以進修更複雜的舞蹈；或者用<b>欲望</b>來追求蛻變；又或者將其留空，如果我只想賺錢的話。"
+				},
+				{
+					"id": "abilityfirst",
+					"label": "能力，或者傷疤",
+					"description": "我應當將自己的哪樣東西獻出？"
+				},
+				{
+					"id": "abilitysecond",
+					"label": "能力，或者傷疤",
+					"description": "我應當將自己的哪樣東西獻出？"
+				},
+				{
+					"id": "influence",
+					"label": "影響",
+					"description": "今天是什麼讓我心神不寧？"
+				}
+			]
+		},
+		{
+			"id": "dancerjobecdysisc",
+			"label": "與蛻衣俱樂部的特殊合約",
+			"description": "我偶爾被聘以重金，為那些非常挑剔的鑑賞家表演非常特殊的舞蹈。",
+			"slots": [
+				{
+					"id": "location",
+					"label": "蛻衣俱樂部",
+					"description": "蛻衣俱樂部——我在人們的見證下揭示己身的地方。"
+				},
+				{
+					"id": "purpose",
+					"label": "目的",
+					"description": "我可以使用<b>欲望</b>以追求蛻變；又或者將其留空，如果我只想賺錢的話。"
+				},
+				{
+					"id": "abilityfirst",
+					"label": "能力，或者傷疤",
+					"description": "我應當將自己的哪樣東西獻出？"
+				},
+				{
+					"id": "abilitysecond",
+					"label": "能力，或者傷疤",
+					"description": "我應當將自己的哪樣東西獻出？"
+				},
+				{
+					"id": "abilitythird",
+					"label": "能力，或者傷疤",
+					"description": "我應當將自己的哪樣東西獻出？"
+				},
+				{
+					"id": "influence",
+					"label": "影響",
+					"description": "今天是什麼讓我心神不寧？"
+				}
+			]
+		}
+	]
 }

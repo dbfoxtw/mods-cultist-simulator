@@ -1,494 +1,221 @@
 {
-    "elements": [
-        {
-            "id": "apostleforge.mentor",
-            "label": "我們的塑形者#PREVIOUSCHARACTERNAME#",
-            "description": "斯人撫育我們，造就我們；斯人在流放中等待，必將於我們帶來拂曉之時再起。",
-            "comments": "Is an acquaintance so we can hijack the cult foundation recipe.",
-            "aspects": {
-                "mentor": 1
-            }
-        },
-        {
-            "id": "legacyapostleforgejob",
-            "label": "寶地",
-            "description": "我在我們塑形者的左手上已等待太久。隨我成就“大功業”之時已至。",
-            "aspects": {
-                "job": 1
-            },
-            "icon": "apostleforge.pillar1"
-        },
-        {
-            "id": "apostleforge.pillarfuel",
-            "label": "塑形者的指引",
-            "description": "到時我們需要倚仗我們的塑形者的指引，用屍骸火花鑄造出破曉器核心，將<b>鑄</b>之原料精煉至最終形態，將一名追隨者變為塑形者的羅盤，從名為蘇洛恰那的麗姬亞成員處習得鑰匙，而後完成功業。但如若我們不趕緊滿足他的要求，<b>恐懼</b>將隨之而至。",
-            "aspects": {
-                "influence": 1
-            },
-            "lifetime": 60,
-            "decayTo": "dread",
-            "icon": "mentorguidance"
-        },
-        {
-            "id": "apostleforge.pillar1",
-            "label": "破曉技術",
-            "description": "<b>塑形者言道</b>：“我須得扮演鑄爐。命你放置屍骸火花於引擎之正中心，用最高等級的奧秘將其喚醒，最猛烈的煉金素材為其燃料，找到在每重歷史中名字都相同的大地邊緣處的破綻，將裝置帶到那裡，連帶麗姬亞成員蘇洛恰那所知的咬噬之鑰。喚起鑄爐最猛烈的熱力，使用最強大的開啟之秘；而後我將目送你融解。”"
-        },
-        {
-            "id": "apostleforge.pillar2.dormant",
-            "label": "休眠中的破曉器核心",
-            "description": "由彎曲金屬構成的閃耀的牢籠，禁錮著遠古光明的一個小小片段，柔光四射。它說不定可以做我們拂曉的起點，如果我們能用最猛烈的煉金素材再度點燃並淨化之。",
-            "aspects": {
-                "tool": 1,
-                "greatwork": 1
-            }
-        },
-        {
-            "id": "apostleforge.pillar2",
-            "label": "破曉器核心",
-            "description": "由彎曲金屬構成的發光的牢籠，囚繫著太陽之火的一點小小微粒，光芒熾烈。如果我們能將其攜至世界露出破綻，空氣為之著彩的地方，便能帶來拂曉。",
-            "aspects": {
-                "tool": 1,
-                "greatwork": 1
-            },
-            "xtriggers": {
-                "sabotage": "apostleforge.pillar2.sabotaged"
-            }
-        },
-        {
-            "id": "apostleforge.pillar3",
-            "label": "藍金",
-            "description": "這是絕頂狂暴的煉金素材：它致死的藍焰比光更迅捷。人一觸即死。",
-            "aspects": {
-                "ingredient": 1,
-                "greatwork": 1
-            },
-            "xtriggers": {
-                "sabotage": "apostleforge.pillar3.sabotaged"
-            }
-        },
-        {
-            "id": "apostleforge.pillar5",
-            "label": "E夫人的協助",
-            "description": "E夫人交給我一個小小的青銅喀邁拉頭顱作為信物。待我們做好正式儀式的準備，她將懷揣她所持的鑰匙前往世界的破綻處，好讓漫宿在我帶來黎明之時為我們的塑形者敞開大門。但她不會永遠等待下去。",
-            "aspects": {
-                "promise": 1
-            },
-            "unique": true,
-            "lifetime": 600
-        },
-        {
-            "id": "apostleforge.pillar2.dormant.sabotaged",
-            "label": "被毀的休眠中的破曉器核心",
-            "description": "由破爛的金屬胡亂纏成的圓球，禁錮著光的一點小小微粒，醉酒般上下沉浮著。我們必須在它完全崩解前將其修復！",
-            "aspects": {
-                "tool": 1,
-                "greatwork.sabotaged": 1
-            },
-            "xtriggers": {
-                "sabotage.repair": "apostleforge.pillar2.dormant"
-            }
-        },
-        {
-            "id": "apostleforge.pillar2.sabotaged",
-            "label": "被毀的破曉器核心",
-            "description": "由爆燃的金屬胡亂纏成的圓球。太陽之火的一點小小微粒在其內時斷時續地顫抖著，光芒熾烈。我們必須在它完全崩解前將其修復！",
-            "aspects": {
-                "tool": 1,
-                "greatwork.sabotaged": 1
-            },
-            "xtriggers": {
-                "sabotage.repair": "apostleforge.pillar2"
-            }
-        },
-        {
-            "id": "apostleforge.pillar3.sabotaged",
-            "label": "不穩定的藍金",
-            "description": "一種中了毒，一直發出怪響的高能素材錠。我們必須安撫住它的怒火，要快！",
-            "aspects": {
-                "ingredient": 1,
-                "greatwork.sabotaged": 1
-            },
-            "xtriggers": {
-                "sabotage.repair": "apostleforge.pillar3"
-            }
-        },
-        {
-            "id": "apostlegrail.mentor",
-            "label": "我們的愉悅者#PREVIOUSCHARACTERNAME#",
-            "description": "我們以之為甘露和歡樂之源者，斯人靜待於放逐之途，直到最盛大的筵宴——“謝肉祭”來臨。",
-            "comments": "Is an acquaintance so we can hijack the cult foundation recipe.",
-            "aspects": {
-                "mentor": 1
-            }
-        },
-        {
-            "id": "legacyapostlegrailjob",
-            "label": "職責與愉悅",
-            "description": "賜我們愉悅者救我免於死亡，免於無趣。我們應為他獻上一切。",
-            "aspects": {
-                "job": 1
-            },
-            "icon": "apostlegrail.pillar1"
-        },
-        {
-            "id": "apostlegrail.pillarfuel",
-            "label": "悅人之血",
-            "description": "我得到了一小瓶我們愉悅者的血液。我們的愉悅者在裡面留下了以微小的細胞為文字的指示。我們可以口嚐到他，如同他可以嚐到我們。如果我們浪費這血，我們的愉悅者將震怒。",
-            "aspects": {
-                "ingredient": 1,
-                "grail": 3,
-                "auctionable": 1
-            },
-            "lifetime": 240,
-            "decayTo": "dread",
-            "icon": "mentorguidance"
-        },
-        {
-            "id": "apostlegrail.pillar1",
-            "label": "謝肉祭的食譜",
-            "description": "“愉悅者當給予生命；愉悅者當奪取生命；愉悅者當永無饜足。我們須採購隱秘的滋味，將其以司辰的賜物浸漬；我們須聚集宴主；須於大吉之時，以無人能敵的聲音高呼不休之秘，並用低語之觚共飲。”",
-            "aspects": {
-                "lore": 1
-            }
-        },
-        {
-            "id": "apostlegrail.pillar2.dormant",
-            "label": "無助之血",
-            "description": "我生了一種病。我的血液有恙，筋骨不適。我會死去。不過若得了我們愉悅者的聖血，我或許能延命無虞。",
-            "aspects": {
-                "illhealth": 1
-            },
-            "slots": [
-                {
-                    "id": "blood",
-                    "actionId": "dream",
-                    "label": "血",
-                    "required": {
-                        "apostlegrail.pillarfuel": 1
-                    }
-                }
-            ]
-        },
-        {
-            "id": "apostlegrail.pillar2",
-            "label": "醇味之血",
-            "description": "我現在和悅人者流著相同的血。只要我的血管有他滋味的庇佑，病症便不能侵蝕於我。若離了他的恩澤，我會死去。",
-            "aspects": {
-                "promise": 1
-            },
-            "lifetime": 600,
-            "decayTo": "apostlegrail.pillar2.dormant"
-        },
-        {
-            "id": "apostlegrail.pillar3",
-            "label": "七重庇佑",
-            "description": "某稀奇古怪的“T.R.N.有限公司之香料與風味分部”一貫致力於為我們這樣的顧客提供餐飲服務。他們將這些誘人的食材運來，點綴裝盤則由我們親手操辦……在將食材送進密不透風、昏暗無光的廚房處理妥當之後。",
-            "aspects": {
-                "ingredient": 1,
-                "job": 1,
-                "grail": 2
-            }
-        },
-        {
-            "id": "apostlegrail.pillar4.inprogress1",
-            "label": "第一部分宴主",
-            "description": "我們釣到幾個醉心食色性之人。他們為一場官能盛宴而來。",
-            "aspects": {
-                "summoned": 1
-            },
-            "uniquenessgroup": "uqvitulation",
-            "lifetime": 120,
-            "xtriggers": {
-                "vitulationupgrade": "apostlegrail.pillar4.inprogress2",
-                "sabotage": "notoriety"
-            }
-        },
-        {
-            "id": "apostlegrail.pillar4.inprogress2",
-            "label": "第二部分宴主",
-            "description": "消息傳開。好奇心和食慾會驅使陌生人參加我們的謝肉祭。",
-            "aspects": {
-                "summoned": 1
-            },
-            "uniquenessgroup": "uqvitulation",
-            "lifetime": 120,
-            "decayTo": "apostlegrail.pillar4.inprogress1",
-            "xtriggers": {
-                "vitulationupgrade": "apostlegrail.pillar4.inprogress3",
-                "sabotage": "notoriety"
-            }
-        },
-        {
-            "id": "apostlegrail.pillar4.inprogress3",
-            "label": "第三部分宴主",
-            "description": "零星前來的髒兮兮的精神病態之人與好打聽之人。",
-            "aspects": {
-                "summoned": 1
-            },
-            "uniquenessgroup": "uqvitulation",
-            "lifetime": 120,
-            "decayTo": "apostlegrail.pillar4.inprogress2",
-            "xtriggers": {
-                "vitulationupgrade": "apostlegrail.pillar4.inprogress4",
-                "sabotage": "notoriety"
-            }
-        },
-        {
-            "id": "apostlegrail.pillar4.inprogress4",
-            "label": "第四部分宴主",
-            "description": "飢餓之人、貪婪之人、好奇之人，都收到了我們的請柬。",
-            "aspects": {
-                "summoned": 1
-            },
-            "uniquenessgroup": "uqvitulation",
-            "lifetime": 120,
-            "decayTo": "apostlegrail.pillar4.inprogress3",
-            "xtriggers": {
-                "vitulationupgrade": "apostlegrail.pillar4.inprogress5",
-                "sabotage": "apostlegrail.pillar4.inprogress1"
-            }
-        },
-        {
-            "id": "apostlegrail.pillar4.inprogress5",
-            "label": "第五部分宴主",
-            "description": "如今謝肉祭的大名在所有嗜肉的口舌間暗暗傳揚。",
-            "aspects": {
-                "summoned": 1
-            },
-            "uniquenessgroup": "uqvitulation",
-            "lifetime": 120,
-            "decayTo": "apostlegrail.pillar4.inprogress4",
-            "xtriggers": {
-                "vitulationupgrade": "apostlegrail.pillar4.inprogress6",
-                "sabotage": "apostlegrail.pillar4.inprogress2"
-            }
-        },
-        {
-            "id": "apostlegrail.pillar4.inprogress6",
-            "label": "第六部分宴主",
-            "description": "時間一到，賓客會如鼠群般湧來。",
-            "aspects": {
-                "summoned": 1
-            },
-            "uniquenessgroup": "uqvitulation",
-            "lifetime": 120,
-            "decayTo": "apostlegrail.pillar4.inprogress5",
-            "xtriggers": {
-                "vitulationupgrade": "apostlegrail.pillar4.inprogress7",
-                "sabotage": "apostlegrail.pillar4.inprogress3"
-            }
-        },
-        {
-            "id": "apostlegrail.pillar4.inprogress7",
-            "label": "聚齊宴主",
-            "description": "我們只等持鑰匙者前來，於我們的愉悅者扮演赤杯時打開王皮之門。",
-            "aspects": {
-                "summoned": 1
-            },
-            "uniquenessgroup": "uqvitulation",
-            "lifetime": 120,
-            "decayTo": "apostlegrail.pillar4.inprogress6",
-            "xtriggers": {
-                "sabotage": "apostlegrail.pillar4.inprogress4"
-            }
-        },
-        {
-            "id": "apostlegrail.pillar4",
-            "label": "東道主與賓客",
-            "description": "一聲令下，大批宴主即集合一處，死命瞪大眼睛——張大嘴巴——來饗食與被食——吸去我身上我們愉悅者的血。屬於我們的愉悅將指引他們宴飲，操線仙娥則將擰轉鑰匙。",
-            "aspects": {
-                "summoned": 1
-            }
-        },
-        {
-            "id": "apostlelantern.mentor",
-            "label": "我們的沐光明者#PREVIOUSCHARACTERNAME#",
-            "description": "我們的物質源頭，精神源頭，現居於漫宿者。",
-            "comments": "Is an acquaintance so we can hijack the cult foundation recipe.",
-            "aspects": {
-                "mentor": 1
-            }
-        },
-        {
-            "id": "legacyapostlelanternjob",
-            "label": "最初的夢境",
-            "description": "這些夢將我掏空，如一顆枯萎的橡樹。現在我已大體做好準備。",
-            "aspects": {
-                "job": 1
-            },
-            "icon": "apostlelantern.pillar1"
-        },
-        {
-            "id": "apostlelantern.pillarfuel",
-            "label": "關於鑰匙的夢境",
-            "description": "又是這個夢。這是給我，還有另外某人的指示，如果我能尋到他的話。它將領我進入漫宿。它將告訴我該做什麼。對於那些對輝光有所了解的人來說，它是觸及真正鑰匙的前兆。",
-            "lifetime": 60,
-            "aspects": {
-                "tool": 1
-            },
-            "decayTo": "fascination",
-            "icon": "mentorguidance"
-        },
-        {
-            "id": "apostlelantern.pillar1",
-            "label": "第三態",
-            "description": "“我們指引前路，我們照明驅暗，我們無有憐憫之心。令你尋找眼睛之門背後的十字路，在彼處育植誘餌，派遣銀白色的死者帶來凡人睡去的靈魂。待見證者數足，召來白日之鑰，將三瓣之門‘向外’敞開，即，使它處於第三態。”",
-            "aspects": {
-                "tool": 1
-            }
-        },
-        {
-            "id": "apostlelantern.pillar2",
-            "label": "小十字路",
-            "slots": [
-                {
-                    "id": "keydream",
-                    "label": "關於鑰匙的夢境",
-                    "required": {
-                        "apostlelantern.pillarfuel": 1
-                    },
-                    "actionId": "dream"
-                },
-                {
-                    "id": "lanterninfluence",
-                    "label": "關於光的夢境",
-                    "required": {
-                        "influencelanterng": 1
-                    },
-                    "actionId": "dream"
-                }
-            ],
-            "description": "一雙相互盤結的小路藏在樹影之下，還有三尖之門的那隻眼睛，在臨近刀刃階梯頂端的地方。是聚點的陰影？倒影？還是它的姐妹？",
-            "aspects": {
-                "way": 1
-            },
-            "unique": true
-        },
-        {
-            "id": "apostlelantern.pillar3",
-            "label": "誘餌",
-            "slots": [
-                {
-                    "id": "fascination",
-                    "label": "垂鉤待魚來",
-                    "required": {
-                        "fascination": 1
-                    },
-                    "actionId": "study"
-                }
-            ],
-            "description": "一旦被人看見，誘餌便會緊抓不放。沒有幾個活著的靈魂能如此深入漫宿。我必須找來一名鏡中少女助我，先將誘餌拿給她看，她才會帶靈魂來此。",
-            "aspects": {
-                "influence": 1
-            },
-            "xtriggers": {
-                "renew.apostlelantern.pillar3": "apostlelantern.pillar3"
-            },
-            "lifetime": 180
-        },
-        {
-            "id": "apostlelantern.pillar4.inprogress1",
-            "label": "見證者：尋七得一",
-            "description": "一個孤影，在誘餌的金光與漫宿的藍光籠罩下的十字路上遊蕩。",
-            "aspects": {
-                "summoned": 1
-            },
-            "uniquenessgroup": "uqthirdwaywitnesses",
-            "lifetime": 120,
-            "xtriggers": {
-                "cloudwitnessesupgrade": "apostlelantern.pillar4.inprogress2",
-                "sabotage": "fascination"
-            },
-            "icon": "apostlelantern.pillar4"
-        },
-        {
-            "id": "apostlelantern.pillar4.inprogress2",
-            "label": "見證者：尋七得二",
-            "description": "一對見證者，在誘餌的金光與漫宿的藍光籠罩下的十字路上遊蕩。",
-            "aspects": {
-                "summoned": 1
-            },
-            "uniquenessgroup": "uqthirdwaywitnesses",
-            "lifetime": 120,
-            "decayTo": "apostlelantern.pillar4.inprogress1",
-            "xtriggers": {
-                "cloudwitnessesupgrade": "apostlelantern.pillar4.inprogress3",
-                "sabotage": "fascination"
-            },
-            "icon": "apostlelantern.pillar4"
-        },
-        {
-            "id": "apostlelantern.pillar4.inprogress3",
-            "label": "見證者：尋七得三",
-            "description": "他們的面孔變得前所未有的空洞，然而他們執起了彼此的雙手。",
-            "aspects": {
-                "summoned": 1
-            },
-            "uniquenessgroup": "uqthirdwaywitnesses",
-            "lifetime": 120,
-            "decayTo": "apostlelantern.pillar4.inprogress2",
-            "xtriggers": {
-                "cloudwitnessesupgrade": "apostlelantern.pillar4.inprogress4",
-                "sabotage": "fascination"
-            },
-            "icon": "apostlelantern.pillar4"
-        },
-        {
-            "id": "apostlelantern.pillar4.inprogress4",
-            "label": "見證者：尋七得四",
-            "description": "光明將他們的顏色漂盡，但他們的天性注定其將隨某一時刻臨近而生出斑紋。",
-            "aspects": {
-                "summoned": 1
-            },
-            "uniquenessgroup": "uqthirdwaywitnesses",
-            "lifetime": 120,
-            "decayTo": "apostlelantern.pillar4.inprogress3",
-            "xtriggers": {
-                "cloudwitnessesupgrade": "apostlelantern.pillar4.inprogress5",
-                "sabotage": "apostlelantern.pillar4.inprogress1"
-            },
-            "icon": "apostlelantern.pillar4"
-        },
-        {
-            "id": "apostlelantern.pillar4.inprogress5",
-            "label": "見證者：尋七得五",
-            "description": "五名見證者等待著將會漸次長大，但永不會成熟的果實。",
-            "aspects": {
-                "summoned": 1
-            },
-            "uniquenessgroup": "uqthirdwaywitnesses",
-            "lifetime": 120,
-            "decayTo": "apostlelantern.pillar4.inprogress4",
-            "xtriggers": {
-                "cloudwitnessesupgrade": "apostlelantern.pillar4.inprogress6",
-                "sabotage": "apostlelantern.pillar4.inprogress2"
-            },
-            "icon": "apostlelantern.pillar4"
-        },
-        {
-            "id": "apostlelantern.pillar4.inprogress6",
-            "label": "見證者：尋七得六",
-            "description": "氣氛痛苦至極。他們無法移開視線。",
-            "aspects": {
-                "summoned": 1
-            },
-            "uniquenessgroup": "uqthirdwaywitnesses",
-            "lifetime": 120,
-            "decayTo": "apostlelantern.pillar4.inprogress5",
-            "xtriggers": {
-                "cloudwitnessesupgrade": "apostlelantern.pillar4",
-                "sabotage": "apostlelantern.pillar4.inprogress3"
-            },
-            "icon": "apostlelantern.pillar4"
-        },
-        {
-            "id": "apostlelantern.pillar4",
-            "label": "盤桓雲集的見證者",
-            "description": "七名無聲的靈魂輕柔地向發光之源頭致以祈求。",
-            "aspects": {
-                "summoned": 1
-            }
-        }
-    ]
+	"elements": [
+		{
+			"id": "apostleforge.mentor",
+			"label": "我們的塑形者#PREVIOUSCHARACTERNAME#",
+			"description": "斯人撫育我們，造就我們；斯人在流放中等待，必將於我們帶來拂曉之時再起。"
+		},
+		{
+			"id": "legacyapostleforgejob",
+			"label": "寶地",
+			"description": "我在我們塑形者的左手上已等待太久。隨我成就“大功業”之時已至。"
+		},
+		{
+			"id": "apostleforge.pillarfuel",
+			"label": "塑形者的指引",
+			"description": "到時我們需要倚仗我們的塑形者的指引，用屍骸火花鑄造出破曉器核心，將<b>鑄</b>之原料精煉至最終形態，將一名追隨者變為塑形者的羅盤，從名為蘇洛恰那的麗姬亞成員處習得鑰匙，而後完成功業。但如若我們不趕緊滿足他的要求，<b>恐懼</b>將隨之而至。"
+		},
+		{
+			"id": "apostleforge.pillar1",
+			"label": "破曉技術",
+			"description": "<b>塑形者言道</b>：“我須得扮演鑄爐。命你放置屍骸火花於引擎之正中心，用最高等級的奧秘將其喚醒，最猛烈的煉金素材為其燃料，找到在每重歷史中名字都相同的大地邊緣處的破綻，將裝置帶到那裡，連帶麗姬亞成員蘇洛恰那所知的咬噬之鑰。喚起鑄爐最猛烈的熱力，使用最強大的開啟之秘；而後我將目送你融解。”"
+		},
+		{
+			"id": "apostleforge.pillar2.dormant",
+			"label": "休眠中的破曉器核心",
+			"description": "由彎曲金屬構成的閃耀的牢籠，禁錮著遠古光明的一個小小片段，柔光四射。它說不定可以做我們拂曉的起點，如果我們能用最猛烈的煉金素材再度點燃並淨化之。"
+		},
+		{
+			"id": "apostleforge.pillar2",
+			"label": "破曉器核心",
+			"description": "由彎曲金屬構成的發光的牢籠，囚繫著太陽之火的一點小小微粒，光芒熾烈。如果我們能將其攜至世界露出破綻，空氣為之著彩的地方，便能帶來拂曉。"
+		},
+		{
+			"id": "apostleforge.pillar3",
+			"label": "藍金",
+			"description": "這是絕頂狂暴的煉金素材：它致死的藍焰比光更迅捷。人一觸即死。"
+		},
+		{
+			"id": "apostleforge.pillar5",
+			"label": "E夫人的協助",
+			"description": "E夫人交給我一個小小的青銅喀邁拉頭顱作為信物。待我們做好正式儀式的準備，她將懷揣她所持的鑰匙前往世界的破綻處，好讓漫宿在我帶來黎明之時為我們的塑形者敞開大門。但她不會永遠等待下去。"
+		},
+		{
+			"id": "apostleforge.pillar2.dormant.sabotaged",
+			"label": "被毀的休眠中的破曉器核心",
+			"description": "由破爛的金屬胡亂纏成的圓球，禁錮著光的一點小小微粒，醉酒般上下沉浮著。我們必須在它完全崩解前將其修復！"
+		},
+		{
+			"id": "apostleforge.pillar2.sabotaged",
+			"label": "被毀的破曉器核心",
+			"description": "由爆燃的金屬胡亂纏成的圓球。太陽之火的一點小小微粒在其內時斷時續地顫抖著，光芒熾烈。我們必須在它完全崩解前將其修復！"
+		},
+		{
+			"id": "apostleforge.pillar3.sabotaged",
+			"label": "不穩定的藍金",
+			"description": "一種中了毒，一直發出怪響的高能素材錠。我們必須安撫住它的怒火，要快！"
+		},
+		{
+			"id": "apostlegrail.mentor",
+			"label": "我們的愉悅者#PREVIOUSCHARACTERNAME#",
+			"description": "我們以之為甘露和歡樂之源者，斯人靜待於放逐之途，直到最盛大的筵宴——“謝肉祭”來臨。"
+		},
+		{
+			"id": "legacyapostlegrailjob",
+			"label": "職責與愉悅",
+			"description": "賜我們愉悅者救我免於死亡，免於無趣。我們應為他獻上一切。"
+		},
+		{
+			"id": "apostlegrail.pillarfuel",
+			"label": "悅人之血",
+			"description": "我得到了一小瓶我們愉悅者的血液。我們的愉悅者在裡面留下了以微小的細胞為文字的指示。我們可以口嚐到他，如同他可以嚐到我們。如果我們浪費這血，我們的愉悅者將震怒。"
+		},
+		{
+			"id": "apostlegrail.pillar1",
+			"label": "謝肉祭的食譜",
+			"description": "“愉悅者當給予生命；愉悅者當奪取生命；愉悅者當永無饜足。我們須採購隱秘的滋味，將其以司辰的賜物浸漬；我們須聚集宴主；須於大吉之時，以無人能敵的聲音高呼不休之秘，並用低語之觚共飲。”"
+		},
+		{
+			"id": "apostlegrail.pillar2.dormant",
+			"label": "無助之血",
+			"description": "我生了一種病。我的血液有恙，筋骨不適。我會死去。不過若得了我們愉悅者的聖血，我或許能延命無虞。",
+			"slots": [
+				{
+					"id": "blood",
+					"label": "血"
+				}
+			]
+		},
+		{
+			"id": "apostlegrail.pillar2",
+			"label": "醇味之血",
+			"description": "我現在和悅人者流著相同的血。只要我的血管有他滋味的庇佑，病症便不能侵蝕於我。若離了他的恩澤，我會死去。"
+		},
+		{
+			"id": "apostlegrail.pillar3",
+			"label": "七重庇佑",
+			"description": "某稀奇古怪的“T.R.N.有限公司之香料與風味分部”一貫致力於為我們這樣的顧客提供餐飲服務。他們將這些誘人的食材運來，點綴裝盤則由我們親手操辦……在將食材送進密不透風、昏暗無光的廚房處理妥當之後。"
+		},
+		{
+			"id": "apostlegrail.pillar4.inprogress1",
+			"label": "第一部分宴主",
+			"description": "我們釣到幾個醉心食色性之人。他們為一場官能盛宴而來。"
+		},
+		{
+			"id": "apostlegrail.pillar4.inprogress2",
+			"label": "第二部分宴主",
+			"description": "消息傳開。好奇心和食慾會驅使陌生人參加我們的謝肉祭。"
+		},
+		{
+			"id": "apostlegrail.pillar4.inprogress3",
+			"label": "第三部分宴主",
+			"description": "零星前來的髒兮兮的精神病態之人與好打聽之人。"
+		},
+		{
+			"id": "apostlegrail.pillar4.inprogress4",
+			"label": "第四部分宴主",
+			"description": "飢餓之人、貪婪之人、好奇之人，都收到了我們的請柬。"
+		},
+		{
+			"id": "apostlegrail.pillar4.inprogress5",
+			"label": "第五部分宴主",
+			"description": "如今謝肉祭的大名在所有嗜肉的口舌間暗暗傳揚。"
+		},
+		{
+			"id": "apostlegrail.pillar4.inprogress6",
+			"label": "第六部分宴主",
+			"description": "時間一到，賓客會如鼠群般湧來。"
+		},
+		{
+			"id": "apostlegrail.pillar4.inprogress7",
+			"label": "聚齊宴主",
+			"description": "我們只等持鑰匙者前來，於我們的愉悅者扮演赤杯時打開王皮之門。"
+		},
+		{
+			"id": "apostlegrail.pillar4",
+			"label": "東道主與賓客",
+			"description": "一聲令下，大批宴主即集合一處，死命瞪大眼睛——張大嘴巴——來饗食與被食——吸去我身上我們愉悅者的血。屬於我們的愉悅將指引他們宴飲，操線仙娥則將擰轉鑰匙。"
+		},
+		{
+			"id": "apostlelantern.mentor",
+			"label": "我們的沐光明者#PREVIOUSCHARACTERNAME#",
+			"description": "我們的物質源頭，精神源頭，現居於漫宿者。"
+		},
+		{
+			"id": "legacyapostlelanternjob",
+			"label": "最初的夢境",
+			"description": "這些夢將我掏空，如一顆枯萎的橡樹。現在我已大體做好準備。"
+		},
+		{
+			"id": "apostlelantern.pillarfuel",
+			"label": "關於鑰匙的夢境",
+			"description": "又是這個夢。這是給我，還有另外某人的指示，如果我能尋到他的話。它將領我進入漫宿。它將告訴我該做什麼。對於那些對輝光有所了解的人來說，它是觸及真正鑰匙的前兆。"
+		},
+		{
+			"id": "apostlelantern.pillar1",
+			"label": "第三態",
+			"description": "“我們指引前路，我們照明驅暗，我們無有憐憫之心。令你尋找眼睛之門背後的十字路，在彼處育植誘餌，派遣銀白色的死者帶來凡人睡去的靈魂。待見證者數足，召來白日之鑰，將三瓣之門‘向外’敞開，即，使它處於第三態。”"
+		},
+		{
+			"id": "apostlelantern.pillar2",
+			"label": "小十字路",
+			"slots": [
+				{
+					"id": "keydream",
+					"label": "關於鑰匙的夢境"
+				},
+				{
+					"id": "lanterninfluence",
+					"label": "關於光的夢境"
+				}
+			],
+			"description": "一雙相互盤結的小路藏在樹影之下，還有三尖之門的那隻眼睛，在臨近刀刃階梯頂端的地方。是聚點的陰影？倒影？還是它的姐妹？"
+		},
+		{
+			"id": "apostlelantern.pillar3",
+			"label": "誘餌",
+			"slots": [
+				{
+					"id": "fascination",
+					"label": "垂鉤待魚來"
+				}
+			],
+			"description": "一旦被人看見，誘餌便會緊抓不放。沒有幾個活著的靈魂能如此深入漫宿。我必須找來一名鏡中少女助我，先將誘餌拿給她看，她才會帶靈魂來此。"
+		},
+		{
+			"id": "apostlelantern.pillar4.inprogress1",
+			"label": "見證者：尋七得一",
+			"description": "一個孤影，在誘餌的金光與漫宿的藍光籠罩下的十字路上遊蕩。"
+		},
+		{
+			"id": "apostlelantern.pillar4.inprogress2",
+			"label": "見證者：尋七得二",
+			"description": "一對見證者，在誘餌的金光與漫宿的藍光籠罩下的十字路上遊蕩。"
+		},
+		{
+			"id": "apostlelantern.pillar4.inprogress3",
+			"label": "見證者：尋七得三",
+			"description": "他們的面孔變得前所未有的空洞，然而他們執起了彼此的雙手。"
+		},
+		{
+			"id": "apostlelantern.pillar4.inprogress4",
+			"label": "見證者：尋七得四",
+			"description": "光明將他們的顏色漂盡，但他們的天性注定其將隨某一時刻臨近而生出斑紋。"
+		},
+		{
+			"id": "apostlelantern.pillar4.inprogress5",
+			"label": "見證者：尋七得五",
+			"description": "五名見證者等待著將會漸次長大，但永不會成熟的果實。"
+		},
+		{
+			"id": "apostlelantern.pillar4.inprogress6",
+			"label": "見證者：尋七得六",
+			"description": "氣氛痛苦至極。他們無法移開視線。"
+		},
+		{
+			"id": "apostlelantern.pillar4",
+			"label": "盤桓雲集的見證者",
+			"description": "七名無聲的靈魂輕柔地向發光之源頭致以祈求。"
+		}
+	]
 }
