@@ -1,2 +1,5 @@
 # mods-cultist-simulator
-My Mods for Cultist Simulator
+
+Mods not ready, just a placeholder.
+
+Working on Traditional Chinese localization.
