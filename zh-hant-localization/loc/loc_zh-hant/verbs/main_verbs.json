@@ -1,121 +1,63 @@
 {
-    "verbs": [
-        {
-            "id": "work",
-            "label": "作業",
-            "description": "或賺錢餬口，或施展無形之術。",
-            "atStart": true,
-            "slot":
-                {
-                    "id": "work",
-                    "label": "作業",
-                    "description": "我能做的，我知道的，或者我身為的。",
-                    "required": {
-                        "ability": 1,
-                        "job": 1,
-                        "ritual": 1,
-                        "desire": 1,
-                        "benefactor": 1
-                    },
-                    "forbidden": {
-                        "reasonskill": 1
-                    }
-                }
-        },
-        {
-            "id": "dream",
-            "label": "入夢",
-            "description": "休息，重新考慮你的目標，或冒險探索睡夢中的國度。",
-            "atStart": false,
-            "slot":
-                {
-                    "id": "dream",
-                    "label": "入夢",
-                    "description": "或做夢的方向，或待解的煩憂。",
-                    "required": {
-                        "ability": 1,
-                        "desire": 1,
-                        "illhealth": 1,
-                        "way": 1,
-                        "funds": 1
-                    }
-                }
-        },
-        {
-            "id": "study",
-            "label": "研究",
-            "description": "解鎖書籍和其他寶物。",
-            "atStart": false,
-            "slot":
-                {
-                    "id": "study",
-                    "label": "研究",
-                    "description": "研究無形之術足夠耗盡十世人生。",
-                    "required": {
-                        "text": 1,
-                        "lore": 1,
-                        "ability": 1,
-                        "influence": 1,
-                        "tutor": 1,
-                        "language": 1,
-                        "legacyplotitem": 1
-                      },
-                      "forbidden": { "contentment": 1 },
-                  },
-        },
-        {
-            "id": "talk",
-            "label": "談話",
-            "description": "逼問，威脅，誘騙，教導，招募。",
-            "atStart": false,
-            "slot":
-                {
-                    "id": "talk",
-                    "label": "談話",
-                    "description": "盟友，仇敵，或者敵友難辨之人。",
-                    "required": {
-                        "mortal": 1,
-                        "summoned": 1,
-                        "patron": 1,
-                        "society": 1,
-                        "hq": 1,
-                        "lore": 1
-                    },
-                    "forbidden": {
-                        "wary": 1
-                    }
-                }
-        },
-        {
-            "id": "explore",
-            "label": "探索",
-            "description": "投入健康或者追隨者來探索城市；調查各個地點；探究密傳之所示。探索的結果通常難以預期。",
-            "atStart": false,
-            "slot":
-                {
-                    "id": "explore",
-                    "label": "探索",
-                    "description": "地點，人物，場所，秘密。",
-                    "required": {
-                        "health": 1,
-                        "follower": 1,
-                        "secrethistories": 1,
-                        "location": 1,
-                        "ghoul.hunger": 1
-                    },
-                    "forbidden": {
-                        "hireling": 1
-                    }
-                }
-        },
-        {
-            "id": "time",
-            "label": "時間",
-            "description": "日晷之影。",
-            "slot": {
-              "id": "time",
-              "label": "時間"
-            }
-        }
-    ]
+	"verbs": [
+		{
+			"id": "work",
+			"label": "作業",
+			"description": "或賺錢餬口，或施展無形之術。",
+			"slot": {
+				"id": "work",
+				"label": "作業",
+				"description": "我能做的，我知道的，或者我身為的。"
+			}
+		},
+		{
+			"id": "dream",
+			"label": "入夢",
+			"description": "休息，重新考慮你的目標，或冒險探索睡夢中的國度。",
+			"slot": {
+				"id": "dream",
+				"label": "入夢",
+				"description": "或做夢的方向，或待解的煩憂。"
+			}
+		},
+		{
+			"id": "study",
+			"label": "研究",
+			"description": "解鎖書籍和其他寶物。",
+			"slot": {
+				"id": "study",
+				"label": "研究",
+				"description": "研究無形之術足夠耗盡十世人生。"
+			}
+		},
+		{
+			"id": "talk",
+			"label": "談話",
+			"description": "逼問，威脅，誘騙，教導，招募。",
+			"slot": {
+				"id": "talk",
+				"label": "談話",
+				"description": "盟友，仇敵，或者敵友難辨之人。"
+			}
+		},
+		{
+			"id": "explore",
+			"label": "探索",
+			"description": "投入健康或者追隨者來探索城市；調查各個地點；探究密傳之所示。探索的結果通常難以預期。",
+			"slot": {
+				"id": "explore",
+				"label": "探索",
+				"description": "地點，人物，場所，秘密。"
+			}
+		},
+		{
+			"id": "time",
+			"label": "時間",
+			"description": "日晷之影。",
+			"slot": {
+				"id": "time",
+				"label": "時間"
+			}
+		}
+	]
 }
