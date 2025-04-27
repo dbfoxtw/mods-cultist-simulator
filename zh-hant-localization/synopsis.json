@@ -1,10 +1,10 @@
 {
     "name": "<font=NotoSansCJKsc-Regular>繁體中文翻譯</font>",
     "author": "dbfoxtw",
-    "version": "0.0.1",
-    "description": "<font=NotoSansCJKsc-Regular>繁體中文翻譯測試版</font>",
+    "version": "0.1.0",
+    "description": "<font=NotoSansCJKsc-Regular>繁體中文翻譯，相容2024.11.c.1</font>",
     "description_long": "",
     "tags": [
-        "Translation"
+        "Community Translation"
     ]
 }
