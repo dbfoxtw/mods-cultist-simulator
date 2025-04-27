@@ -1,6 +1,5 @@
 ﻿{
     "cultures": [
-
 	   {
 		    "id": "zh-hant",
 		    "endonym": "繁體中文",
@@ -8,7 +7,6 @@
 		    "fontscript": "cjk",
 		    "boldallowed": false,
 		    "released":true,
-
 				"uilabels": {
 					"UI_PAUSE": "$暫停\n<size=60%><alpha=#99><smallcaps>[{SETTING:kbpause}]</smallcaps>",
 					"UI_UNPAUSE": "$繼續遊戲\n<size=60%><alpha=#99><smallcaps>[{SETTING:kbpause}]</smallcaps>",
@@ -182,5 +180,4 @@
 				}
 	    }
     ]
-
 }
