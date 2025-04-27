@@ -1,382 +1,164 @@
 {
-    "recipes": [
-        {
-            "id": "studyupgrade_downgrade_lore_hint",
-            "label": "增長關於無形之術的知識？",
-            "actionId": "study",
-            "requirements": {
-                "lore": 1,
-                "edge": -1,
-                "forge": -1,
-                "grail": -1,
-                "heart": -1,
-                "knock": -1,
-                "lantern": -1,
-                "moth": -1,
-                "secrethistories": -1,
-                "winter": -1,
-                "alzabo": -1,
-                "prealzabo": -1
-            },
-            "startdescription": "如果我有兩份性相和等級相同的密傳片段，我就能把它們放在一起研究，增進我的理解。如果使用<b>理性</b>，我就能分析密傳，將其分解成級別較低的片段。或者我可以用另一種密傳來拗轉它……",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "studyupgradelore_hint",
-            "label": "增長關於無形之術的知識？",
-            "actionId": "study",
-            "requirements": {
-                "lore": 1,
-                "healthskill": -1,
-                "alzabo": -1,
-                "prealzabo": -1
-            },
-            "startdescription": "如果我有兩份性相和等級相同的密傳片段，我就能把它們放在一起研究，增進我的理解。或者我可以用另一種密傳來拗轉它……",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "studyprealzabo_hint",
-            "label": "大膽的試驗",
-            "actionId": "study",
-            "requirements": {
-                "prealzabo": 1
-            },
-            "startdescription": "我只需要購買最後的幾樣原料，然後就可以準備進行調製了。我必須鼓起勇氣……去尋找一份合適的餐點。",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "studyalzabo_hint",
-            "label": "蜜漬白鴿之宴",
-            "actionId": "study",
-            "requirements": {
-                "alzabo": 1
-            },
-            "startdescription": "我可以通過進食<b>殘骸</b>來保住他們擁有的知識中的一小點，使其不至化為塵土。說不定我之後還得重蹈此行。",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "translatelatinhint",
-            "label": "翻譯拉丁語？",
-            "actionId": "study",
-            "requirements": {
-                "textlatin": 1
-            },
-            "startdescription": "我的拉丁語水平還不足以解讀此文。我或許可以找本教材，或者雇個教師。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "translategreekhint",
-            "label": "翻譯希臘語？",
-            "actionId": "study",
-            "requirements": {
-                "textgreek": 1
-            },
-            "startdescription": "我的希臘語水平還不足以解讀此文。我或許可以找本教材，或者雇個教師。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "translatearamaichint",
-            "label": "翻譯亞蘭語？",
-            "actionId": "study",
-            "requirements": {
-                "textaramaic": 1
-            },
-            "startdescription": "我的亞蘭語水平還不足以解讀此文。我或許可以找本教材，或者雇個教師。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "translatesanskrithint",
-            "label": "翻譯梵語？",
-            "actionId": "study",
-            "requirements": {
-                "textsanskrit": 1
-            },
-            "startdescription": "我的梵語水平還不足以解讀此文。我或許可以找本教材，或者雇個教師。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "translatefucinehint",
-            "label": "翻譯富奇諾語？",
-            "actionId": "study",
-            "requirements": {
-                "textfucine": 1
-            },
-            "startdescription": "我並不懂富奇諾語，恐怕活著的人裡沒有人懂了。或許哪裡能發現類似羅塞塔的石碑……也許我可以找一個不完全算活人的教師。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "translatephrygianhint",
-            "label": "翻譯弗里吉亞語？",
-            "actionId": "study",
-            "requirements": {
-                "textphrygian": 1
-            },
-            "startdescription": "我並不懂弗里吉亞語，恐怕活著的人裡沒有人懂了。或許哪裡能發現類似羅塞塔的石碑……也許我可以找一個不完全算活人的教師。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "translatemandaichint",
-            "label": "翻譯淵深曼達安語？",
-            "actionId": "study",
-            "requirements": {
-                "textmandaic": 1
-            },
-            "startdescription": "我並不懂淵深曼達安語，恐怕活著的人裡沒有人懂了。或許哪裡能發現類似羅塞塔的石碑……也許我可以找一個不完全算活人的教師。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "translatevakhint",
-            "label": "翻譯伐訶語？",
-            "actionId": "study",
-            "requirements": {
-                "textvak": 1
-            },
-            "startdescription": "我並不懂伐訶語，恐怕活著的人裡沒有人懂了。或許哪裡能發現類似羅塞塔的石碑……也許我可以找一個不完全算活人的教師。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "studyincreasehealthskilld_wronglore",
-            "label": "鍛鍊身體：獨家技巧？",
-            "actionId": "study",
-            "requirements": {
-                "skillhealthc": 1,
-                "vitalityplus": 4,
-                "lore": 1
-            },
-            "startdescription": "這篇<b>密傳</b>在此處一無用處。我必須嘗試點別的。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "increasehealthfurtherhint",
-            "label": "增進我的健康？",
-            "actionId": "study",
-            "requirements": {
-                "vitality": 2
-            },
-            "startdescription": "我越是<b>健康</b>，就需要越多的<b>活力</b>。[使用“體魄”技能增加“健康”。]",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "increasereasonfurtherhint",
-            "label": "增進我的理性？",
-            "actionId": "study",
-            "requirements": {
-                "erudition": 2
-            },
-            "startdescription": "我越是<b>理性</b>，就需要越多的<b>博聞</b>。[使用“學識”技能增長“理性”。]",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "increasepassionfurtherhint",
-            "label": "增進我的激情？",
-            "actionId": "study",
-            "requirements": {
-                "glimmering": 2
-            },
-            "startdescription": "我越是<b>激情</b>，就需要越多的</b>靈感<b>。[使用“想像”技能增加“激情”。]",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "studyupgradeinfluences.apostlelanternhint",
-            "label": "保持新鮮感",
-            "actionId": "study",
-            "requirements": {
-                "apostlelantern.pillar3": 1
-            },
-            "startdescription": "即便是最大的誘惑，隨著時間推移，也會逐漸變得明滅而黯淡。我須得用痴謎之色啟用將其喚醒。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "studyupgradeinfluenceshint2",
-            "label": "升級影響？",
-            "actionId": "study",
-            "requirements": {
-                "influence": 2,
-                "lore": -1,
-                "healthskill": -1,
-                "reasonskill": -1,
-                "passionskill": -1
-            },
-            "startdescription": "恰當地組合<b>影響</b>有可能增強其法力……前提是我擁有相應的無形之術知識。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "increasehealthfurtherhintpluswithskillneedslore",
-            "label": "將我的<b>技能</b>提升至非凡境地？",
-            "actionId": "study",
-            "requirements": {
-                "vitalityplus": 1,
-                "skillhealthc": 1
-            },
-            "startdescription": "我需要足夠<b>學有所成</b>……和更多其他東西。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "increasehealthfurtherhintpluswithskill",
-            "label": "增進我的健康？",
-            "actionId": "study",
-            "requirements": {
-                "vitalityplus": 1,
-                "healthskill": 1
-            },
-            "startdescription": "我需要更加學有所成。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "increasehealthfurtherhintplus",
-            "label": "增進我的健康？",
-            "actionId": "study",
-            "requirements": {
-                "vitalityplus": 1
-            },
-            "startdescription": "我得將它和<b>力量</b>技能一起運用。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "increasehealthfurtherhint1",
-            "label": "增進我的健康？",
-            "actionId": "study",
-            "requirements": {
-                "vitality": 1
-            },
-            "startdescription": "我需要更多。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "increasereasonfurtherhintpluswithskillneedslore",
-            "label": "將我的<b>技能</b>提升至非凡境地？",
-            "actionId": "study",
-            "requirements": {
-                "eruditionplus": 1,
-                "skillreasonc": 1
-            },
-            "startdescription": "我需要足夠<b>學有所成</b>……和更多其他東西。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "increasereasonfurtherhintpluswithskill",
-            "label": "增進我的理性？",
-            "actionId": "study",
-            "requirements": {
-                "eruditionplus": 1,
-                "reasonskill": 1
-            },
-            "startdescription": "我需要更加學有所成。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "increasereasonfurtherhintplus",
-            "label": "增進我的理性？",
-            "actionId": "study",
-            "requirements": {
-                "eruditionplus": 1
-            },
-            "startdescription": "我得將它和學識技能一起運用。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "increasereasonfurtherhint1",
-            "label": "增進我的理性？",
-            "actionId": "study",
-            "requirements": {
-                "erudition": 1
-            },
-            "startdescription": "我需要不止一個。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "increasepassionfurtherhintpluswithskillneedslore",
-            "label": "將我的<b>技能</b>提升至非凡境地？",
-            "actionId": "study",
-            "requirements": {
-                "glimmeringplus": 1,
-                "skillpassionc": 1
-            },
-            "startdescription": "我需要足夠<b>學有所成</b>……和更多其他東西。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "increasepassionfurtherhintpluswithskill",
-            "label": "增進我的激情？",
-            "actionId": "study",
-            "requirements": {
-                "glimmeringplus": 1,
-                "passionskill": 1
-            },
-            "startdescription": "我需要更加學有所成。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "increasepassionfurtherhintplus",
-            "label": "增進我的激情？",
-            "actionId": "study",
-            "requirements": {
-                "glimmeringplus": 1
-            },
-            "startdescription": "我得將它和<b>想像</b>技能一起運用。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "increasepassionfurtherhint1",
-            "label": "增進我的激情？",
-            "actionId": "study",
-            "requirements": {
-                "glimmering": 1
-            },
-            "startdescription": "我需要不止一個。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "studyrestlessnesshint",
-            "label": "研究躁動？",
-            "actionId": "study",
-            "requirements": {
-                "restlessness": 1
-            },
-            "startdescription": "研究，需要一個人安安靜靜地坐住。躁動極少會成為做學問者的朋友。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "studyupgradeinfluenceshint1",
-            "label": "升級影響？",
-            "actionId": "study",
-            "requirements": {
-                "influence": 1
-            },
-            "startdescription": "恰當地組合<b>影響</b>有可能增強其法力……",
-            "hintonly": true,
-            "craftable": false
-        }
-    ]
+	"recipes": [
+		{
+			"id": "studyupgrade_downgrade_lore_hint",
+			"label": "增長關於無形之術的知識？",
+			"startdescription": "如果我有兩份性相和等級相同的密傳片段，我就能把它們放在一起研究，增進我的理解。如果使用<b>理性</b>，我就能分析密傳，將其分解成級別較低的片段。或者我可以用另一種密傳來拗轉它……"
+		},
+		{
+			"id": "studyupgradelore_hint",
+			"label": "增長關於無形之術的知識？",
+			"startdescription": "如果我有兩份性相和等級相同的密傳片段，我就能把它們放在一起研究，增進我的理解。或者我可以用另一種密傳來拗轉它……"
+		},
+		{
+			"id": "studyprealzabo_hint",
+			"label": "大膽的試驗",
+			"startdescription": "我只需要購買最後的幾樣原料，然後就可以準備進行調製了。我必須鼓起勇氣……去尋找一份合適的餐點。"
+		},
+		{
+			"id": "studyalzabo_hint",
+			"label": "蜜漬白鴿之宴",
+			"startdescription": "我可以通過進食<b>殘骸</b>來保住他們擁有的知識中的一小點，使其不至化為塵土。說不定我之後還得重蹈此行。"
+		},
+		{
+			"id": "translatelatinhint",
+			"label": "翻譯拉丁語？",
+			"startdescription": "我的拉丁語水平還不足以解讀此文。我或許可以找本教材，或者雇個教師。"
+		},
+		{
+			"id": "translategreekhint",
+			"label": "翻譯希臘語？",
+			"startdescription": "我的希臘語水平還不足以解讀此文。我或許可以找本教材，或者雇個教師。"
+		},
+		{
+			"id": "translatearamaichint",
+			"label": "翻譯亞蘭語？",
+			"startdescription": "我的亞蘭語水平還不足以解讀此文。我或許可以找本教材，或者雇個教師。"
+		},
+		{
+			"id": "translatesanskrithint",
+			"label": "翻譯梵語？",
+			"startdescription": "我的梵語水平還不足以解讀此文。我或許可以找本教材，或者雇個教師。"
+		},
+		{
+			"id": "translatefucinehint",
+			"label": "翻譯富奇諾語？",
+			"startdescription": "我並不懂富奇諾語，恐怕活著的人裡沒有人懂了。或許哪裡能發現類似羅塞塔的石碑……也許我可以找一個不完全算活人的教師。"
+		},
+		{
+			"id": "translatephrygianhint",
+			"label": "翻譯弗里吉亞語？",
+			"startdescription": "我並不懂弗里吉亞語，恐怕活著的人裡沒有人懂了。或許哪裡能發現類似羅塞塔的石碑……也許我可以找一個不完全算活人的教師。"
+		},
+		{
+			"id": "translatemandaichint",
+			"label": "翻譯淵深曼達安語？",
+			"startdescription": "我並不懂淵深曼達安語，恐怕活著的人裡沒有人懂了。或許哪裡能發現類似羅塞塔的石碑……也許我可以找一個不完全算活人的教師。"
+		},
+		{
+			"id": "translatevakhint",
+			"label": "翻譯伐訶語？",
+			"startdescription": "我並不懂伐訶語，恐怕活著的人裡沒有人懂了。或許哪裡能發現類似羅塞塔的石碑……也許我可以找一個不完全算活人的教師。"
+		},
+		{
+			"id": "studyincreasehealthskilld_wronglore",
+			"label": "鍛鍊身體：獨家技巧？",
+			"startdescription": "這篇<b>密傳</b>在此處一無用處。我必須嘗試點別的。"
+		},
+		{
+			"id": "increasehealthfurtherhint",
+			"label": "增進我的健康？",
+			"startdescription": "我越是<b>健康</b>，就需要越多的<b>活力</b>。[使用“體魄”技能增加“健康”。]"
+		},
+		{
+			"id": "increasereasonfurtherhint",
+			"label": "增進我的理性？",
+			"startdescription": "我越是<b>理性</b>，就需要越多的<b>博聞</b>。[使用“學識”技能增長“理性”。]"
+		},
+		{
+			"id": "increasepassionfurtherhint",
+			"label": "增進我的激情？",
+			"startdescription": "我越是<b>激情</b>，就需要越多的</b>靈感<b>。[使用“想像”技能增加“激情”。]"
+		},
+		{
+			"id": "studyupgradeinfluences.apostlelanternhint",
+			"label": "保持新鮮感",
+			"startdescription": "即便是最大的誘惑，隨著時間推移，也會逐漸變得明滅而黯淡。我須得用痴謎之色啟用將其喚醒。"
+		},
+		{
+			"id": "studyupgradeinfluenceshint2",
+			"label": "升級影響？",
+			"startdescription": "恰當地組合<b>影響</b>有可能增強其法力……前提是我擁有相應的無形之術知識。"
+		},
+		{
+			"id": "increasehealthfurtherhintpluswithskillneedslore",
+			"label": "將我的<b>技能</b>提升至非凡境地？",
+			"startdescription": "我需要足夠<b>學有所成</b>……和更多其他東西。"
+		},
+		{
+			"id": "increasehealthfurtherhintpluswithskill",
+			"label": "增進我的健康？",
+			"startdescription": "我需要更加學有所成。"
+		},
+		{
+			"id": "increasehealthfurtherhintplus",
+			"label": "增進我的健康？",
+			"startdescription": "我得將它和<b>力量</b>技能一起運用。"
+		},
+		{
+			"id": "increasehealthfurtherhint1",
+			"label": "增進我的健康？",
+			"startdescription": "我需要更多。"
+		},
+		{
+			"id": "increasereasonfurtherhintpluswithskillneedslore",
+			"label": "將我的<b>技能</b>提升至非凡境地？",
+			"startdescription": "我需要足夠<b>學有所成</b>……和更多其他東西。"
+		},
+		{
+			"id": "increasereasonfurtherhintpluswithskill",
+			"label": "增進我的理性？",
+			"startdescription": "我需要更加學有所成。"
+		},
+		{
+			"id": "increasereasonfurtherhintplus",
+			"label": "增進我的理性？",
+			"startdescription": "我得將它和學識技能一起運用。"
+		},
+		{
+			"id": "increasereasonfurtherhint1",
+			"label": "增進我的理性？",
+			"startdescription": "我需要不止一個。"
+		},
+		{
+			"id": "increasepassionfurtherhintpluswithskillneedslore",
+			"label": "將我的<b>技能</b>提升至非凡境地？",
+			"startdescription": "我需要足夠<b>學有所成</b>……和更多其他東西。"
+		},
+		{
+			"id": "increasepassionfurtherhintpluswithskill",
+			"label": "增進我的激情？",
+			"startdescription": "我需要更加學有所成。"
+		},
+		{
+			"id": "increasepassionfurtherhintplus",
+			"label": "增進我的激情？",
+			"startdescription": "我得將它和<b>想像</b>技能一起運用。"
+		},
+		{
+			"id": "increasepassionfurtherhint1",
+			"label": "增進我的激情？",
+			"startdescription": "我需要不止一個。"
+		},
+		{
+			"id": "studyrestlessnesshint",
+			"label": "研究躁動？",
+			"startdescription": "研究，需要一個人安安靜靜地坐住。躁動極少會成為做學問者的朋友。"
+		},
+		{
+			"id": "studyupgradeinfluenceshint1",
+			"label": "升級影響？",
+			"startdescription": "恰當地組合<b>影響</b>有可能增強其法力……"
+		}
+	]
 }

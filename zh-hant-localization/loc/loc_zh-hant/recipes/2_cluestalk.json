@@ -1,301 +1,119 @@
 {
-    "recipes": [
-        {
-            "id": "recruitindependentresentmenthint",
-            "label": "招募一名無派人士？",
-            "actionId": "talk",
-            "requirements": {
-                "independent": 1,
-                "mortal": 1,
-                "resentment": 1
-            },
-            "startdescription": "不。此人還未與我們冰釋前嫌。也許，有一天，如果我不再繼續加害於他的話，他的想法應會有所改變。",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "recruitindependenthint",
-            "label": "招募一名無派人士？",
-            "actionId": "talk",
-            "requirements": {
-                "independent": 1,
-                "mortal": 1,
-                "resentment": -1
-            },
-            "startdescription": "此人可能入伙……只要我能將我教的性相提升至二十一階。[你可以招募與你信仰不同的搗亂分子，只要你能提供足夠的法力——但你必須將至少一件“工具”作為禮物送給這名無派人士。]",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "promoteto_d_edgehint",
-            "label": "擢升門徒？",
-            "actionId": "talk",
-            "requirements": {
-                "cultedge_1": 1,
-                "follower": 1,
-                "disciple": 1
-            },
-            "startdescription": "要將門徒擢升為暗殺者，我需要至少強達二十一級的<b>刃</b>。無論如何，適格之人必須窮兇極惡。",
-            "hintonly": true,
-            "craftable": true
-        },
-        {
-            "id": "promoteto_d_forgehint",
-            "label": "擢升門徒？",
-            "actionId": "talk",
-            "requirements": {
-                "cultforge_1": 1,
-                "follower": 1,
-                "disciple": 1
-            },
-            "startdescription": "要將門徒擢升為重塑者，我需要至少強達二十一級的<b>鑄</b>。無論如何，適格之人必須獨具匠心、手藝精湛。",
-            "hintonly": true,
-            "craftable": true
-        },
-        {
-            "id": "promoteto_d_grailhint",
-            "label": "擢升門徒？",
-            "actionId": "talk",
-            "requirements": {
-                "cultgrail_1": 1,
-                "follower": 1,
-                "disciple": 1
-            },
-            "startdescription": "要將門徒擢升為縱情者，我需要至少強達二十一級的<b>杯</b>。無論如何，適格之人必須食慾驚人。",
-            "hintonly": true,
-            "craftable": true
-        },
-        {
-            "id": "promoteto_d_hearthint",
-            "label": "擢升門徒？",
-            "actionId": "talk",
-            "requirements": {
-                "cultheart_1": 1,
-                "follower": 1,
-                "disciple": 1
-            },
-            "startdescription": "要將門徒擢升為蠱舞者，我需要至少強達二十一級的<b>心</b>。無論如何，適格之人必須精力充沛。",
-            "hintonly": true,
-            "craftable": true
-        },
-        {
-            "id": "promoteto_d_knockhint",
-            "label": "擢升門徒？",
-            "actionId": "talk",
-            "requirements": {
-                "cultknock_1": 1,
-                "follower": 1,
-                "disciple": 1
-            },
-            "startdescription": "要將門徒擢升為鑰匙，我需要至少強達二十一級的<b>啟</b>。無論如何，適格之人必須天資獨具。",
-            "hintonly": true,
-            "craftable": true
-        },
-        {
-            "id": "promoteto_d_lanternhint",
-            "label": "擢升門徒？",
-            "actionId": "talk",
-            "requirements": {
-                "cultlantern_1": 1,
-                "follower": 1,
-                "disciple": 1
-            },
-            "startdescription": "要將門徒擢升為先見者，我需要至少強達二十一級的<b>燈</b>。無論如何，適格之人必須眼明心亮。",
-            "hintonly": true,
-            "craftable": true
-        },
-        {
-            "id": "promoteto_d_mothhint",
-            "label": "擢升門徒？",
-            "actionId": "talk",
-            "requirements": {
-                "cultmoth_1": 1,
-                "follower": 1,
-                "disciple": 1
-            },
-            "startdescription": "要將門徒擢升為易皮者，我需要至少強達二十一級的<b>蛾</b>。無論如何，適格之人百年難遇。",
-            "hintonly": true,
-            "craftable": true
-        },
-        {
-            "id": "promoteto_d_winterhint",
-            "label": "擢升門徒？",
-            "actionId": "talk",
-            "requirements": {
-                "venerationwinter": 1,
-                "venerationedge": -1,
-                "venerationforge": -1,
-                "venerationgrail": -1,
-                "venerationheart": -1,
-                "venerationlantern": -1,
-                "venerationknock": -1,
-                "venerationmoth": -1,
-                "follower": 1,
-                "disciple": 1
-            },
-            "startdescription": "要將門徒擢升至無名的位階，我需要至少強達二十一級的<b>冬</b>。無論如何，適格之人必須心如死灰。",
-            "hintonly": true,
-            "craftable": true
-        },
-        {
-            "id": "promotetodisciplehint",
-            "label": "晉升信徒？",
-            "actionId": "talk",
-            "requirements": {
-                "society": 1,
-                "follower": 1,
-                "disciple": -1,
-                "summoned": -11
-            },
-            "startdescription": "要將信徒晉升到門徒，我需要為其提供恰當的性相，且至少強達七級。",
-            "hintonly": true,
-            "craftable": true
-        },
-        {
-            "id": "talktobenefactorhint",
-            "label": "我的金主執著於會面的私密性。",
-            "actionId": "talk",
-            "requirements": {
-                "benefactor": 1
-            },
-            "startdescription": "“我們可不能在這裡聊天，親愛的。我們得私下裡說。”",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "recruitacquaintancenoculthint",
-            "label": "招募新的追隨者？",
-            "actionId": "talk",
-            "requirements": {
-                "society": -1,
-                "acquaintance": 1
-            },
-            "startdescription": "[待你建立教派後，將<b>教派</b>放入<b><談話></b>中可招募<b>熟人</b>入教。]",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "recruitacquaintancehint",
-            "label": "招募新的追隨者？",
-            "actionId": "talk",
-            "requirements": {
-                "society": 1,
-                "acquaintance": 1
-            },
-            "startdescription": "要招募追隨者，我需要一點我們所崇敬的神力。我可以從<b>影響</b>、<b>工具</b>、<b>原料</b>，或我教傳承中的<b>密傳</b>獲得。",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "talk_aladim_wantscommission",
-            "label": "委託？",
-            "actionId": "talk",
-            "requirements": {
-                "aladim": 1
-            },
-            "startdescription": "“那份委託進展如何？我很想聽聽你的想法。”",
-            "hintonly": true,
-            "craftable": true
-        },
-        {
-            "id": "talk_bechet_wantscommission",
-            "label": "委託？",
-            "actionId": "talk",
-            "requirements": {
-                "bechet": 1
-            },
-            "startdescription": "“哈囉，有什麼要給我的嗎？委託如何了？”",
-            "hintonly": true,
-            "craftable": true
-        },
-        {
-            "id": "talk_jannings_wantscommission",
-            "label": "委託？",
-            "actionId": "talk",
-            "requirements": {
-                "jannings": 1
-            },
-            "startdescription": "“拜託了，你會完成委託嗎？我的同僚十分需要這份資訊。”",
-            "hintonly": true,
-            "craftable": true
-        },
-        {
-            "id": "talk_poppy_wantscommission",
-            "label": "委託？",
-            "actionId": "talk",
-            "requirements": {
-                "poppycommission": 1
-            },
-            "startdescription": "“噢，快點完成委託啊！我可等不及了。”",
-            "hintonly": true,
-            "craftable": true
-        },
-        {
-            "id": "fulfilcommission_aladimhint",
-            "label": "完成博士的委託？",
-            "actionId": "talk",
-            "requirements": {
-                "commission": 1,
-                "aladim": 1,
-                "article": 1
-            },
-            "startdescription": "“唔，我想要的可不止這些。”[檢查委託細節。]",
-            "warmup": 10,
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "fulfilcommission_bechethint",
-            "label": "完成貝謝女士的委託？",
-            "actionId": "talk",
-            "requirements": {
-                "commission": 1,
-                "bechet": 1,
-                "article": 1
-            },
-            "startdescription": "“抱歉，不太對。和我想要的有些不一樣。”[檢查委託細節。]",
-            "warmup": 10,
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "fulfilcommission_janningshint",
-            "label": "完成伯爵的委託？",
-            "actionId": "talk",
-            "requirements": {
-                "commission": 1,
-                "jannings": 1,
-                "article": 1
-            },
-            "startdescription": "“不對不對不對，這可不行。我的要求可是相當具體的。”[檢查委託細節。]",
-            "warmup": 10,
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "fulfilcommission_poppyhint",
-            "label": "完成波比的委託？",
-            "actionId": "talk",
-            "requirements": {
-                "commission": 1,
-                "poppycommission": 1,
-                "article": 1
-            },
-            "startdescription": "“噢親愛的，我很抱歉。但我需要更多……深入的見解。”[檢查委託細節。]",
-            "warmup": 10,
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "talk_nointeraction_mortal",
-            "label": "無話可說？",
-            "actionId": "talk",
-            "requirements": {
-                "mortal": 1
-            },
-            "startdescription": "“我覺得我們之間無話可談了。”",
-            "craftable": false,
-            "hintonly": true
-        }
-    ]
+	"recipes": [
+		{
+			"id": "recruitindependentresentmenthint",
+			"label": "招募一名無派人士？",
+			"startdescription": "不。此人還未與我們冰釋前嫌。也許，有一天，如果我不再繼續加害於他的話，他的想法應會有所改變。"
+		},
+		{
+			"id": "recruitindependenthint",
+			"label": "招募一名無派人士？",
+			"startdescription": "此人可能入伙……只要我能將我教的性相提升至二十一階。[你可以招募與你信仰不同的搗亂分子，只要你能提供足夠的法力——但你必須將至少一件“工具”作為禮物送給這名無派人士。]"
+		},
+		{
+			"id": "promoteto_d_edgehint",
+			"label": "擢升門徒？",
+			"startdescription": "要將門徒擢升為暗殺者，我需要至少強達二十一級的<b>刃</b>。無論如何，適格之人必須窮兇極惡。"
+		},
+		{
+			"id": "promoteto_d_forgehint",
+			"label": "擢升門徒？",
+			"startdescription": "要將門徒擢升為重塑者，我需要至少強達二十一級的<b>鑄</b>。無論如何，適格之人必須獨具匠心、手藝精湛。"
+		},
+		{
+			"id": "promoteto_d_grailhint",
+			"label": "擢升門徒？",
+			"startdescription": "要將門徒擢升為縱情者，我需要至少強達二十一級的<b>杯</b>。無論如何，適格之人必須食慾驚人。"
+		},
+		{
+			"id": "promoteto_d_hearthint",
+			"label": "擢升門徒？",
+			"startdescription": "要將門徒擢升為蠱舞者，我需要至少強達二十一級的<b>心</b>。無論如何，適格之人必須精力充沛。"
+		},
+		{
+			"id": "promoteto_d_knockhint",
+			"label": "擢升門徒？",
+			"startdescription": "要將門徒擢升為鑰匙，我需要至少強達二十一級的<b>啟</b>。無論如何，適格之人必須天資獨具。"
+		},
+		{
+			"id": "promoteto_d_lanternhint",
+			"label": "擢升門徒？",
+			"startdescription": "要將門徒擢升為先見者，我需要至少強達二十一級的<b>燈</b>。無論如何，適格之人必須眼明心亮。"
+		},
+		{
+			"id": "promoteto_d_mothhint",
+			"label": "擢升門徒？",
+			"startdescription": "要將門徒擢升為易皮者，我需要至少強達二十一級的<b>蛾</b>。無論如何，適格之人百年難遇。"
+		},
+		{
+			"id": "promoteto_d_winterhint",
+			"label": "擢升門徒？",
+			"startdescription": "要將門徒擢升至無名的位階，我需要至少強達二十一級的<b>冬</b>。無論如何，適格之人必須心如死灰。"
+		},
+		{
+			"id": "promotetodisciplehint",
+			"label": "晉升信徒？",
+			"startdescription": "要將信徒晉升到門徒，我需要為其提供恰當的性相，且至少強達七級。"
+		},
+		{
+			"id": "talktobenefactorhint",
+			"label": "我的金主執著於會面的私密性。",
+			"startdescription": "“我們可不能在這裡聊天，親愛的。我們得私下裡說。”"
+		},
+		{
+			"id": "recruitacquaintancenoculthint",
+			"label": "招募新的追隨者？",
+			"startdescription": "[待你建立教派後，將<b>教派</b>放入<b><談話></b>中可招募<b>熟人</b>入教。]"
+		},
+		{
+			"id": "recruitacquaintancehint",
+			"label": "招募新的追隨者？",
+			"startdescription": "要招募追隨者，我需要一點我們所崇敬的神力。我可以從<b>影響</b>、<b>工具</b>、<b>原料</b>，或我教傳承中的<b>密傳</b>獲得。"
+		},
+		{
+			"id": "talk_aladim_wantscommission",
+			"label": "委託？",
+			"startdescription": "“那份委託進展如何？我很想聽聽你的想法。”"
+		},
+		{
+			"id": "talk_bechet_wantscommission",
+			"label": "委託？",
+			"startdescription": "“哈囉，有什麼要給我的嗎？委託如何了？”"
+		},
+		{
+			"id": "talk_jannings_wantscommission",
+			"label": "委託？",
+			"startdescription": "“拜託了，你會完成委託嗎？我的同僚十分需要這份資訊。”"
+		},
+		{
+			"id": "talk_poppy_wantscommission",
+			"label": "委託？",
+			"startdescription": "“噢，快點完成委託啊！我可等不及了。”"
+		},
+		{
+			"id": "fulfilcommission_aladimhint",
+			"label": "完成博士的委託？",
+			"startdescription": "“唔，我想要的可不止這些。”[檢查委託細節。]"
+		},
+		{
+			"id": "fulfilcommission_bechethint",
+			"label": "完成貝謝女士的委託？",
+			"startdescription": "“抱歉，不太對。和我想要的有些不一樣。”[檢查委託細節。]"
+		},
+		{
+			"id": "fulfilcommission_janningshint",
+			"label": "完成伯爵的委託？",
+			"startdescription": "“不對不對不對，這可不行。我的要求可是相當具體的。”[檢查委託細節。]"
+		},
+		{
+			"id": "fulfilcommission_poppyhint",
+			"label": "完成波比的委託？",
+			"startdescription": "“噢親愛的，我很抱歉。但我需要更多……深入的見解。”[檢查委託細節。]"
+		},
+		{
+			"id": "talk_nointeraction_mortal",
+			"label": "無話可說？",
+			"startdescription": "“我覺得我們之間無話可談了。”"
+		}
+	]
 }

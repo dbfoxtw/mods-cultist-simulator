@@ -1,52 +1,22 @@
 {
-    "recipes": [
-        {
-            "id": "deathofthebody",
-            "label": "健康已耗盡",
-            "actionId": "healthend",
-            "requirements": {
-                "health": -1,
-                "fatigue": -1
-            },
-            "effects": {},
-            "startdescription": "我的生命正在流失——",
-            "description": "他們會在哪裡將我找見呢？我不在此處。",
-            "warmup": 0,
-            "craftable": false,
-            "ending": "deathofthebody",
-            "signalEndingFlavour": "Melancholy"
-        },
-        {
-            "id": "forlornblooddeathofthebody",
-            "label": "健康已耗盡",
-            "actionId": "healthend",
-            "requirements": {
-                "health": -1,
-                "fatigue": -1,
-                "apostlegrail.pillar2": -1
-            },
-            "effects": {},
-            "startdescription": "骨子裡的痼疾壓倒了我。除非我能振作起來，或者品嘗我們愉悅者的血，否則一切都將結束。",
-            "description": "他們會在哪裡將我找見呢？我不在此處。",
-            "warmup": 0,
-            "craftable": false,
-            "ending": "deathofthebody",
-            "signalEndingFlavour": "Melancholy"
-        },
-        {
-            "id": "workvictory",
-            "label": "我會在舒適的生活中安頓下來。",
-            "actionId": "workwin",
-            "requirements": {
-                "passion": 1
-            },
-            "effects": {},
-            "startdescription": "我已經放棄了我的夢想。我會過得很好的。",
-            "description": "結束了",
-            "warmup": 0,
-            "craftable": false,
-            "ending": "workvictory",
-            "burnimage": "retirement"
-        }
-    ]
+	"recipes": [
+		{
+			"id": "deathofthebody",
+			"label": "健康已耗盡",
+			"startdescription": "我的生命正在流失——",
+			"description": "他們會在哪裡將我找見呢？我不在此處。"
+		},
+		{
+			"id": "forlornblooddeathofthebody",
+			"label": "健康已耗盡",
+			"startdescription": "骨子裡的痼疾壓倒了我。除非我能振作起來，或者品嘗我們愉悅者的血，否則一切都將結束。",
+			"description": "他們會在哪裡將我找見呢？我不在此處。"
+		},
+		{
+			"id": "workvictory",
+			"label": "我會在舒適的生活中安頓下來。",
+			"startdescription": "我已經放棄了我的夢想。我會過得很好的。",
+			"description": "結束了"
+		}
+	]
 }

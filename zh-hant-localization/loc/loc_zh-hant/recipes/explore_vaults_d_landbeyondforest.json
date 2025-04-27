@@ -1,315 +1,76 @@
 {
-    "recipes": [
-        {
-            "id": "explore_vaultlandbeyondforest1_setup",
-            "label": "探險開始：蠟燭岩洞",
-            "actionId": "explore",
-            "requirements": {
-                "funds": 1,
-                "follower": 1,
-                "vaultlandbeyondforest1": 1
-            },
-            "effects": {
-                "peril_mountains": 1,
-                "guardian_serpent": 1
-            },
-            "startdescription": "通往高處的洞穴的道路是危險的。但下方黑暗中所蟄伏著的東西很可能更為可怕。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
-            "description": ".",
-            "warmup": 30,
-            "craftable": true,
-            "linked": [
-                {
-                    "id": "explorevault_expeditionbegun",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "explore_vaultlandbeyondforest2_setup",
-            "label": "探險開始：大公的城塞",
-            "actionId": "explore",
-            "requirements": {
-                "funds": 1,
-                "follower": 1,
-                "vaultlandbeyondforest2": 1
-            },
-            "effects": {
-                "seal_hiddendoor": 1,
-                "guardian_dead": 1
-            },
-            "startdescription": "大公城塞的地下室必然極為隱秘，並且如果傳聞為真，在要塞的高牆背後，為他所害者很可能死不瞑目。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
-            "description": ".",
-            "warmup": 30,
-            "craftable": true,
-            "linked": [
-                {
-                    "id": "explorevault_expeditionbegun",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "explore_vaultlandbeyondforest3_setup",
-            "label": "探險開始：格呂內瓦爾德的長駐馬戲團",
-            "actionId": "explore",
-            "requirements": {
-                "funds": 1,
-                "follower": 1,
-                "vaultlandbeyondforest3": 1
-            },
-            "effects": {
-                "guardian_watchers": 1,
-                "curse_nowhere": 1
-            },
-            "startdescription": "馬戲團一眾人準備對我們舉起武器，且我們擔心，馬戲團裡的神怪也許受了蠕蟲的碰觸。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
-            "description": ".",
-            "warmup": 30,
-            "craftable": true,
-            "linked": [
-                {
-                    "id": "explorevault_expeditionbegun",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "explore_vaultlandbeyondforest4_setup",
-            "label": "探險開始：瑞弗克塔樓",
-            "actionId": "explore",
-            "requirements": {
-                "funds": 1,
-                "follower": 1,
-                "vaultlandbeyondforest4": 1
-            },
-            "effects": {
-                "seal_hiddendoor": 1,
-                "curse_affliction": 1
-            },
-            "startdescription": "我們必須努力搜尋任何可能留存的寶藏；如果塔樓的確已經被學徒內戰所摧毀，那裡可能仍然殘留著危險的影響。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
-            "description": ".",
-            "warmup": 30,
-            "craftable": true,
-            "linked": [
-                {
-                    "id": "explorevault_expeditionbegun",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "explore_vaultlandbeyondforest5_setup",
-            "label": "探險開始：庫茲涅佐夫的捐贈",
-            "actionId": "explore",
-            "requirements": {
-                "funds": 1,
-                "follower": 1,
-                "vaultlandbeyondforest5": 1
-            },
-            "effects": {
-                "seal_hiddendoor": 1,
-                "guardian_watchers": 1,
-                "peril_treacherousground": 1
-            },
-            "startdescription": "前往捐贈樓的路並不漫長，但走進去卻很困難。我們已三次申請訪問許可，然而每次都收到不甚友好的回覆。毋庸置疑，樓裡的員工會試圖阻止我們進入。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
-            "description": ".",
-            "warmup": 30,
-            "craftable": true,
-            "linked": [
-                {
-                    "id": "explorevault_expeditionbegun",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "explore_vaultlandbeyondforestdefault_setup",
-            "label": "探險開始：狐百合原野",
-            "actionId": "explore",
-            "requirements": {
-                "funds": 1,
-                "follower": 1,
-                "vaultlandbeyondforestdefault": 1
-            },
-            "effects": {
-                "peril_mountains": 1,
-                "guardian_watchers": 1,
-                "curse_visions": 1
-            },
-            "startdescription": "穿過群山通向高處的狐百合之海的的道路將是艱險的。山上的農民會試圖趕走我們。即便我們安全到家，也很可能難以在腦海中擺脫那裡的景象。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
-            "description": ".",
-            "warmup": 30,
-            "craftable": true,
-            "linked": [
-                {
-                    "id": "explorevault_expeditionbegun",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "explorevaultlandbeyondforest1_success",
-            "label": "光之巢穴",
-            "actionId": "explore",
-            "requirements": {
-                "vaultlandbeyondforest1": 1
-            },
-            "effects": {
-                "vaultlandbeyondforest1": -1
-            },
-            "internaldeck": {
-                "spec": [
-                    "influencelanternc",
-                    "accountkanishkspidersdooraramaic",
-                    "theskythesoularamaic",
-                    "ingredientlanternf"
-                ],
-                "draws": 4,
-                "defaultcard": "compensationc",
-                "resetonexhaustion": false
-            },
-            "startdescription": "因為充當巨蛇的通路，山洞下的隧道非常平滑，但要不是我們帶著燈，它的黑暗將令人窒息。然而它盤踞的房間出乎意料地明亮。作為月光的替代品，發光的真菌充滿了整個空間。也許蠟燭並沒有驅趕走這些真菌，反而吸引了它們。",
-            "description": "一小堆寶藏，自經年累月的巨蛇食物中篩選而出，並被巨蛇拱成一堆，閃閃發光。",
-            "warmup": 30,
-            "craftable": false
-        },
-        {
-            "id": "explorevaultlandbeyondforest2_success",
-            "label": "空墓穴",
-            "actionId": "explore",
-            "requirements": {
-                "vaultlandbeyondforest2": 1
-            },
-            "effects": {
-                "vaultlandbeyondforest2": -1
-            },
-            "internaldeck": {
-                "spec": [
-                    "influencegrailc",
-                    "gospelzacchaeusgreek",
-                    "catalogueofunchartedpleasuresphrygian",
-                    "bookofthronesphrygian",
-                    "twentysixenticementsseventormentsfucine",
-                    "toolheartd"
-                ],
-                "draws": 6,
-                "defaultcard": "compensationc",
-                "resetonexhaustion": false
-            },
-            "startdescription": "此處乃大公的陵墓。垂掛的蛛網宛如柔軟的灰色的簾幕。在最盡頭豎立著一個巨大的砂岩石棺，裡面空無一物。",
-            "description": "有人在棺樞前面留下了一小堆寶物，彷彿貢品。塵土上沒有任何足跡。無論是何人留下的寶物，此人定是來於很久之前，或者在通過時無需接觸地面。",
-            "warmup": 30,
-            "craftable": false
-        },
-        {
-            "id": "explorevaultlandbeyondforest3_success",
-            "label": "馬戲團後方",
-            "actionId": "explore",
-            "requirements": {
-                "vaultlandbeyondforest3": 1
-            },
-            "effects": {
-                "vaultlandbeyondforest3": -1
-            },
-            "internaldeck": {
-                "spec": [
-                    "erudition",
-                    "jumble",
-                    "sunsetpassageslatin",
-                    "historyofshadowlesskingsaramaic",
-                    "ivorybookfucine",
-                    "ingredientgrailf",
-                    "textbooksanskrit"
-                ],
-                "draws": 7,
-                "defaultcard": "compensationc",
-                "resetonexhaustion": false
-            },
-            "startdescription": "在條紋帳篷裡，髒汙而渾濁的玻璃後的畸形陰魂不散。在灰色帳篷裡，滴水的霧氣緊緊包裹我們，宛如捕獵中的貓——那霧簡直彷彿是活物。在黑色上綴著星點的帳篷裡，星象儀與表面鑲嵌著寶石的雕塑完美嚙合。在紅色帳篷裡，面如白蠟的教士躺在玻璃棺材裡，胸前緊抱著書本——",
-            "description": "在紅色的帳篷裡，滿紙荒唐。馬戲團眾人在每個地方都貼滿了寫滿圖示的紙張：時間分析，舊時氣候的解構。這個地方散發著虛界的氣息。我們應當在離開時燒毀它。在一個支架桌上隨意堆放著一些戰利品和紀念品。",
-            "warmup": 30,
-            "craftable": false
-        },
-        {
-            "id": "explorevaultlandbeyondforest4_success",
-            "label": "遲來已久的結局",
-            "actionId": "explore",
-            "requirements": {
-                "vaultlandbeyondforest4": 1
-            },
-            "effects": {
-                "vaultlandbeyondforest4": -1
-            },
-            "internaldeck": {
-                "spec": [
-                    "furioustantrasanskrit",
-                    "twinserpenttantrasanskrit",
-                    "howendwillbeginvak",
-                    "ingredientforgeb"
-                ],
-                "draws": 4,
-                "defaultcard": "compensationc",
-                "resetonexhaustion": false
-            },
-            "startdescription": "塔的下方是一個狹窄的地窖，地窖的板岩牆已經裂縫。它的體積——它本應是個正立方型空間，卻不知為何有超額數量的角。房頂和牆壁的接合處滲出藍色的光。地面緩慢地伸縮，如同氣泡的表面。如果跺腳，能聽到回音。向下挖掘，還出現有怎樣的空間？",
-            "description": "把書捆好放進麻袋。迅速沿扶手爬回殘塔。頭頂的天空飄著漣漪般的鈷藍色極光。顫動的藍光沖刷著四周的山嶺。我們離去時，從築塔的石塊傳來高亢的鳴響。閃電從天空劈下，突然間萬籟俱寂。殘塔消失了。",
-            "warmup": 30,
-            "craftable": false
-        },
-        {
-            "id": "explorevaultlandbeyondforest5_success",
-            "label": "文字的結末",
-            "actionId": "explore",
-            "requirements": {
-                "vaultlandbeyondforest5": 1
-            },
-            "effects": {
-                "vaultlandbeyondforest5": -1
-            },
-            "internaldeck": {
-                "spec": [
-                    "burningwomanphrygian",
-                    "encirclingtantrasanskrit",
-                    "knownunknowntantrasanskrit",
-                    "ironbookfucine",
-                    "silverbookfucine",
-                    "matthiasamethystpursuitaramaic"
-                ],
-                "draws": 6,
-                "defaultcard": "compensationc",
-                "resetonexhaustion": false
-            },
-            "startdescription": "圖書館的天花板在多年前便已坍塌。許多書籍已被漏水泡成了發脹的書漿。一定還有留存的東西。",
-            "description": "一副和藹微笑著的男人——深色皮膚，眼睛明亮，沒有頭髮與眉毛——的肖像看管著這座破敗的圖書館。肖像畫題為“不要在意我”，簽名難以辨認，蜷曲潦草。畫的四角已經捲起。當我們在書架上泡脹的書本中尋找完好無損的寶物時，這幅畫用它仁慈的微笑看著我們。",
-            "warmup": 30,
-            "craftable": false
-        },
-        {
-            "id": "explorevaultlandbeyondforestdefault_success",
-            "label": "花的滋養",
-            "actionId": "explore",
-            "requirements": {
-                "vaultlandbeyondforestdefault": 1
-            },
-            "effects": {
-                "vaultlandbeyondforestdefault": -1
-            },
-            "deckeffect": {
-                "vaultrewardsd": 3
-            },
-            "startdescription": "我們將布浸入氨水，蒙在臉上，以抵抗狐百合的香氣。即便這樣，我們仍然頭暈目眩，身體卻對各種矛盾的欲望作出回應。這裡有我們所找尋的遺骨。搜索它們，然後離開。",
-            "description": "狐百合之花白如穴居動物，如冰霜，如清潔的床單。很難將目光從它們身上移開。我們將闔上眼睛，帶著寶藏拼力離開。",
-            "warmup": 30,
-            "craftable": false,
-            "linked": [
-                {
-                    "id": "expeditionascensionheartd",
-                    "chance": 100
-                },
-                {
-                    "id": "expeditionascensionmothd",
-                    "chance": 100
-                }
-            ]
-        }
-    ]
+	"recipes": [
+		{
+			"id": "explore_vaultlandbeyondforest1_setup",
+			"label": "探險開始：蠟燭岩洞",
+			"startdescription": "通往高處的洞穴的道路是危險的。但下方黑暗中所蟄伏著的東西很可能更為可怕。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
+			"description": "."
+		},
+		{
+			"id": "explore_vaultlandbeyondforest2_setup",
+			"label": "探險開始：大公的城塞",
+			"startdescription": "大公城塞的地下室必然極為隱秘，並且如果傳聞為真，在要塞的高牆背後，為他所害者很可能死不瞑目。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
+			"description": "."
+		},
+		{
+			"id": "explore_vaultlandbeyondforest3_setup",
+			"label": "探險開始：格呂內瓦爾德的長駐馬戲團",
+			"startdescription": "馬戲團一眾人準備對我們舉起武器，且我們擔心，馬戲團裡的神怪也許受了蠕蟲的碰觸。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
+			"description": "."
+		},
+		{
+			"id": "explore_vaultlandbeyondforest4_setup",
+			"label": "探險開始：瑞弗克塔樓",
+			"startdescription": "我們必須努力搜尋任何可能留存的寶藏；如果塔樓的確已經被學徒內戰所摧毀，那裡可能仍然殘留著危險的影響。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
+			"description": "."
+		},
+		{
+			"id": "explore_vaultlandbeyondforest5_setup",
+			"label": "探險開始：庫茲涅佐夫的捐贈",
+			"startdescription": "前往捐贈樓的路並不漫長，但走進去卻很困難。我們已三次申請訪問許可，然而每次都收到不甚友好的回覆。毋庸置疑，樓裡的員工會試圖阻止我們進入。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
+			"description": "."
+		},
+		{
+			"id": "explore_vaultlandbeyondforestdefault_setup",
+			"label": "探險開始：狐百合原野",
+			"startdescription": "穿過群山通向高處的狐百合之海的的道路將是艱險的。山上的農民會試圖趕走我們。即便我們安全到家，也很可能難以在腦海中擺脫那裡的景象。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
+			"description": "."
+		},
+		{
+			"id": "explorevaultlandbeyondforest1_success",
+			"label": "光之巢穴",
+			"startdescription": "因為充當巨蛇的通路，山洞下的隧道非常平滑，但要不是我們帶著燈，它的黑暗將令人窒息。然而它盤踞的房間出乎意料地明亮。作為月光的替代品，發光的真菌充滿了整個空間。也許蠟燭並沒有驅趕走這些真菌，反而吸引了它們。",
+			"description": "一小堆寶藏，自經年累月的巨蛇食物中篩選而出，並被巨蛇拱成一堆，閃閃發光。"
+		},
+		{
+			"id": "explorevaultlandbeyondforest2_success",
+			"label": "空墓穴",
+			"startdescription": "此處乃大公的陵墓。垂掛的蛛網宛如柔軟的灰色的簾幕。在最盡頭豎立著一個巨大的砂岩石棺，裡面空無一物。",
+			"description": "有人在棺樞前面留下了一小堆寶物，彷彿貢品。塵土上沒有任何足跡。無論是何人留下的寶物，此人定是來於很久之前，或者在通過時無需接觸地面。"
+		},
+		{
+			"id": "explorevaultlandbeyondforest3_success",
+			"label": "馬戲團後方",
+			"startdescription": "在條紋帳篷裡，髒汙而渾濁的玻璃後的畸形陰魂不散。在灰色帳篷裡，滴水的霧氣緊緊包裹我們，宛如捕獵中的貓——那霧簡直彷彿是活物。在黑色上綴著星點的帳篷裡，星象儀與表面鑲嵌著寶石的雕塑完美嚙合。在紅色帳篷裡，面如白蠟的教士躺在玻璃棺材裡，胸前緊抱著書本——",
+			"description": "在紅色的帳篷裡，滿紙荒唐。馬戲團眾人在每個地方都貼滿了寫滿圖示的紙張：時間分析，舊時氣候的解構。這個地方散發著虛界的氣息。我們應當在離開時燒毀它。在一個支架桌上隨意堆放著一些戰利品和紀念品。"
+		},
+		{
+			"id": "explorevaultlandbeyondforest4_success",
+			"label": "遲來已久的結局",
+			"startdescription": "塔的下方是一個狹窄的地窖，地窖的板岩牆已經裂縫。它的體積——它本應是個正立方型空間，卻不知為何有超額數量的角。房頂和牆壁的接合處滲出藍色的光。地面緩慢地伸縮，如同氣泡的表面。如果跺腳，能聽到回音。向下挖掘，還出現有怎樣的空間？",
+			"description": "把書捆好放進麻袋。迅速沿扶手爬回殘塔。頭頂的天空飄著漣漪般的鈷藍色極光。顫動的藍光沖刷著四周的山嶺。我們離去時，從築塔的石塊傳來高亢的鳴響。閃電從天空劈下，突然間萬籟俱寂。殘塔消失了。"
+		},
+		{
+			"id": "explorevaultlandbeyondforest5_success",
+			"label": "文字的結末",
+			"startdescription": "圖書館的天花板在多年前便已坍塌。許多書籍已被漏水泡成了發脹的書漿。一定還有留存的東西。",
+			"description": "一副和藹微笑著的男人——深色皮膚，眼睛明亮，沒有頭髮與眉毛——的肖像看管著這座破敗的圖書館。肖像畫題為“不要在意我”，簽名難以辨認，蜷曲潦草。畫的四角已經捲起。當我們在書架上泡脹的書本中尋找完好無損的寶物時，這幅畫用它仁慈的微笑看著我們。"
+		},
+		{
+			"id": "explorevaultlandbeyondforestdefault_success",
+			"label": "花的滋養",
+			"startdescription": "我們將布浸入氨水，蒙在臉上，以抵抗狐百合的香氣。即便這樣，我們仍然頭暈目眩，身體卻對各種矛盾的欲望作出回應。這裡有我們所找尋的遺骨。搜索它們，然後離開。",
+			"description": "狐百合之花白如穴居動物，如冰霜，如清潔的床單。很難將目光從它們身上移開。我們將闔上眼睛，帶著寶藏拼力離開。"
+		}
+	]
 }

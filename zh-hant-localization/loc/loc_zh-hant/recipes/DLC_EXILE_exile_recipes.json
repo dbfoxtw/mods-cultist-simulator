@@ -1,2344 +1,538 @@
 {
-    "recipes": [
-        {
-            "id": "_cities",
-            "actionid": "spawner",
-            "effects": {
-                "city.aachen": 1,
-                "city.alexandria": 1,
-                "city.algiers": 1,
-                "city.amsterdam": 1,
-                "city.avignon": 1,
-                "city.baghdad": 1,
-                "city.budapest": 1,
-                "city.candia": 1,
-                "city.cluj": 1,
-                "city.granada": 1,
-                "city.istanbul": 1,
-                "city.kaunas": 1,
-                "city.kiev": 1,
-                "city.krakow": 1,
-                "city.leningrad": 1,
-                "city.london": 1,
-                "city.marrakech": 1,
-                "city.meshad": 1,
-                "city.munich": 1,
-                "city.nizhny": 1,
-                "city.paris": 1,
-                "city.prague": 1,
-                "city.rostock": 1,
-                "city.samarkand": 1,
-                "city.stalingrad": 1,
-                "city.strasbourg": 1,
-                "city.sverdlovsk": 1,
-                "city.tiflis": 1,
-                "city.tirana": 1,
-                "city.tripoli": 1,
-                "city.valletta": 1,
-                "city.venice": 1,
-                "city.vienna": 1
-            },
-            "warmup": 1
-        },
-        {
-            "id": "_domiciles",
-            "actionid": "spawner",
-            "effects": {
-                "domicile.aachen": 1,
-                "domicile.alexandria": 1,
-                "domicile.algiers": 1,
-                "domicile.amsterdam": 1,
-                "domicile.avignon": 1,
-                "domicile.baghdad": 1,
-                "domicile.budapest": 1,
-                "domicile.candia": 1,
-                "domicile.cluj": 1,
-                "domicile.granada": 1,
-                "domicile.istanbul": 1,
-                "domicile.kaunas": 1,
-                "domicile.kiev": 1,
-                "domicile.krakow": 1,
-                "domicile.leningrad": 1,
-                "domicile.london": 1,
-                "domicile.marrakech": 1,
-                "domicile.meshad": 1,
-                "domicile.munich": 1,
-                "domicile.nizhny": 1,
-                "domicile.paris": 1,
-                "domicile.prague": 1,
-                "domicile.rostock": 1,
-                "domicile.samarkand": 1,
-                "domicile.stalingrad": 1,
-                "domicile.strasbourg": 1,
-                "domicile.sverdlovsk": 1,
-                "domicile.tiflis": 1,
-                "domicile.tirana": 1,
-                "domicile.tripoli": 1,
-                "domicile.valletta": 1,
-                "domicile.venice": 1,
-                "domicile.vienna": 1
-            },
-            "warmup": 1
-        },
-        {
-            "id": "travel.first",
-            "actionid": "travel",
-            "label": "夠遠，而且盡快",
-            "startdescription": "我手頭的現金支付路上的開銷綽綽有餘——但是我可能得輕裝出行。[離開一座城市會甩掉追兵——但他們最終將再次找到你。]",
-            "effects": {
-                "cash": 2
-            },
-            "warmup": 1
-        },
-        {
-            "id": "travel.caper.begin",
-            "actionid": "travel",
-            "label": "行動開始",
-            "startdescription": "進去，辦事，再出來。我可不認為事情會這麼簡單。",
-            "description": "我出發了。[多留意進行中的操作，流程中可能遭遇難關。]",
-            "requirements": {
-                "vault": 1
-            },
-            "aspects": {
-                "minortracerisk": 1
-            },
-            "alt": [
-                {
-                    "id": "opx.caper.populate",
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 2,
-                        "filter": {
-                            "vault": 1,
-                            "edge": 1,
-                            "forge": 1,
-                            "grail": 1,
-                            "heart": 1,
-                            "knock": 1,
-                            "lantern": 1,
-                            "moth": 1,
-                            "secrethistories": 1,
-                            "winter": 1
-                        }
-                    }
-                }
-            ],
-            "warmup": 30,
-            "craftable": true
-        },
-        {
-            "id": "opx.caper.progress3",
-            "actionid": "opx.caper",
-            "label": "戰利品！",
-            "startdescription": "我正是為此而來。",
-            "requirements": {
-                "progress": 3
-            },
-            "warmup": 5,
-            "linked": [
-                {
-                    "id": "opx.caper.end"
-                }
-            ]
-        },
-        {
-            "id": "opx.caper.progress2",
-            "actionid": "opx.caper",
-            "label": "最後的難關……",
-            "startdescription": "馬上就成了——",
-            "requirements": {
-                "progress": 2
-            },
-            "aspects": {
-                "opx.progress2": 1
-            },
-            "warmup": 5,
-            "linked": [
-                {
-                    "id": "opx.caper.next"
-                }
-            ]
-        },
-        {
-            "id": "opx.caper.progress1",
-            "actionid": "opx.caper",
-            "label": "另一個難關……",
-            "startdescription": "又怎麼了？",
-            "requirements": {
-                "progress": 1
-            },
-            "aspects": {
-                "opx.progress1": 1
-            },
-            "warmup": 5,
-            "linked": [
-                {
-                    "id": "opx.caper.next"
-                }
-            ]
-        },
-        {
-            "id": "opx.caper.populate",
-            "actionid": "opx.caper",
-            "label": "忙碌的夜晚即將到來",
-            "startdescription": "準備好了。 [累積三層進展即判定為成功。此前需要戰勝難關。]",
-            "aspects": {
-                "opx.progress0": 1
-            },
-            "warmup": 10,
-            "linked": [
-                {
-                    "id": "opx.caper.next"
-                }
-            ]
-        },
-        {
-            "id": "opx.caper.next",
-            "actionid": "opx.caper",
-            "label": "一個難關",
-            "startdescription": "@#ee.armouredgate|一道沉重而堅實的門擋住了我的去路。\n#ee.avidadept|“一位精於杯相的學徒早已駐紮在這裡。為了應對她的伎倆，你得做好準備。”\n#ee.bosk|多刺樹枝的輕撫，暗綠的氣息，我掌下滑動的毛絨觸感，漆黑而鼓動著的黑暗……林地在此處無比貼近世界的表皮。\n”#ee.coiltrace|“那股力量本身，地表之下的那個東西。防剿局說它最初只是七蟠的一條小卷鬚。那個舊日神靈，你明白吧？神明的血肉開始腐爛，裡面滋生了一些別的東西。他們稱之為蠕蟲。我勸你小心點。這不是危言聳聽。”\n#ee.crags|“很多上去的通道都被堵住了。你要嘛得找出一條路，要嘛就得自己造一條。我想過給你搞點炸藥，但是防剿局不喜歡炸藥，而軍方不喜歡我。”\n#ee.creepinghorror|悚然的恐怖滲入肌膚。靠近點，黑夜說。再靠近點。\n#ee.deceiver|這裡潛伏著一個狡詐的生物！\n#ee.devourer|這裡潛伏著一個擁有毀滅性力量的生物！有些怪物是獅子匠的孩子，有些是厄客德娜所生，有些二者皆是。除此之外的那些則更糟。\n#ee.feast|為了前往我的目的地，我需要一場儀式，或者一場盛宴。我很想把它當成一場聚會，儘管這不是我會自願參加的那種。無論古怪的醉意是否降臨，我都必須保持頭腦冷靜。不然我返回時能帶走的就只有宿醉了。\n#ee.fretfuldead|遍身蛛網、目光嚴苛的死屍——儘管身體脆弱，他們卻比看起來更敏捷。他們的觸碰能直接從肌膚中抽走歲月。\n#ee.guardedcompound|這個地方被嚴密看守著——有高牆，有塔樓，還有守衛。\n#ee.labyrinthseal|一組不同尋常的機械裝置封住了帶有裝甲的藏寶庫門。我不清楚它究竟是超自然的造物還是機械學的作品，但是我知道它一定會為我添很多麻煩。\n#ee.ligeian|一位麗姬亞！我沒辦法擊敗她，但是我能讓她相信我不值得她動勞。\n#ee.miasma|一片黏稠、惡臭的瘴氣。我感覺頭暈腦脹。\n#ee.mist|絲毧那位無名的具名者曾從此地經過。這霧氣正是她灰衣的褶邊。它必將如地獄般難以從中穿行。\n#ee.monks|這個地方的守衛不易被賄賂或誘惑所打動。 有人說這是因為他們發過神聖的誓言，但我懷疑這是因為他們嚴密監視著彼此。\n#ee.ordeal.agony|現在我面臨著一道苦痛的磨練。 我經歷過類似的事，這就是為什麼我不希望再來一次。我仍舊帶著上一次的疤痕，儘管不在皮膚上。\n#ee.ordeal.desolation|現在我面臨著一道孤寂的磨練——一場靈魂的日落。\n#ee.ordeal.enigma|現在我面臨著一道謎題的磨練——有兩條通行之路：全知全曉，或是一無所知。\n#ee.percussigant|一團跌跌撞撞地旋轉著的、長著皮毛與利爪的音樂立刻吸引了我的注意。是一隻擂擊者！\n#ee.scarredduellist|一位傷痕累累的決鬥者向我致意。\n#ee.securevault|一座沉重的藏寶庫門，上面有一把令人印象深刻的鎖。\n#ee.shadowedway|入口就在這裡的某處。 我只需要找到它。\n#ee.soldiers|武裝人員守衛著這個地方。\n#ee.storm|雷聲緊隨著閃電穿過雲層，驟雨如重拳般落下。\n#ee.strixriddenadversary|一位決鬥者尖嘯著向我奔襲而來。他緊繃的肌肉震顫著，眼睛黑中帶金，如同貓頭鷹的眼睛。他已被林鴞所掌控——那是刃之神靈的一位多翼的具名者。\n#ee.thugs|一群粗魯無禮的不法之徒在此處遊蕩，渴望著能找點麻煩。\n#ee.unknownlocation|一處不為人知的地方。我甚至必須得先弄明白它到底在哪裡。\n#ee.unwelcomememories|不愉快的回憶！四周牆上的鏡子閃閃爍爍，我看到了我自己，在那些侍奉我的大敵的日子裡，我經受過的事情，還有比那更糟糕的，我做過的事情——\n#ee.vigil|教眾的歌聲逐漸柔和，變得就像一支搖籃曲。 我發覺自己必須硬撐著才能不閉上眼睛。 我的腦袋裡彷彿塞滿了羽毛。無論如何，我都必須保持清醒，直至天亮。\n一個難關即將到來。@\n[大多數的難關都能用足夠的對應性相解決。]",
-            "warmup": 60,
-            "slots": [
-                {
-                    "id": "response",
-                    "label": "回應",
-                    "required": {
-                        "edge": 1,
-                        "forge": 1,
-                        "grail": 1,
-                        "heart": 1,
-                        "knock": 1,
-                        "lantern": 1,
-                        "moth": 1,
-                        "secrethistories": 1,
-                        "winter": 1
-                    }
-                }
-            ],
-            "alt": [
-                {
-                    "id": "opx.caper.tryresolve.edge"
-                },
-                {
-                    "id": "opx.caper.tryresolve.forge"
-                },
-                {
-                    "id": "opx.caper.tryresolve.grail"
-                },
-                {
-                    "id": "opx.caper.tryresolve.heart"
-                },
-                {
-                    "id": "opx.caper.tryresolve.knock"
-                },
-                {
-                    "id": "opx.caper.tryresolve.lantern"
-                },
-                {
-                    "id": "opx.caper.tryresolve.moth"
-                },
-                {
-                    "id": "opx.caper.tryresolve.secrethistories"
-                },
-                {
-                    "id": "opx.caper.tryresolve.winter"
-                }
-            ],
-            "linked": [
-                {
-                    "chance": 30,
-                    "id": "opx.caper.lucky"
-                },
-                {
-                    "id": "opx.caper.end"
-                }
-            ]
-        },
-        {
-            "id": "opx.caper.tryresolve.edge",
-            "actionid": "opx.caper",
-            "label": "暴力就是答案",
-            "startdescription": "@#ee.devourer|這裡盤踞著一個擁有毀滅性力量的生物。而我比它強得多。\n#ee.soldiers|嘈雜，混亂，但這是必要的。 現在我必須得把靴子擦乾淨了。\n#|我使用了力量。@",
-            "requirements": {
-                "minedge": 1,
-                "edge": "minedge"
-            },
-            "linked": [
-                {
-                    "id": "opx.caper.makeprogress"
-                }
-            ]
-        },
-        {
-            "id": "opx.caper.tryresolve.forge",
-            "actionid": "opx.caper",
-            "label": "錘與砧",
-            "startdescription": "@#ee.mist|火焰和匠心再一次為我所用。\n#ee.securevault|我闖入了藏寶庫。\n#|我使用了匠心。@",
-            "requirements": {
-                "minforge": 1,
-                "forge": "minforge"
-            },
-            "linked": [
-                {
-                    "id": "opx.caper.makeprogress"
-                }
-            ]
-        },
-        {
-            "id": "opx.caper.tryresolve.grail",
-            "actionid": "opx.caper",
-            "label": "貪慾與欺瞞",
-            "startdescription": "@#ee.soldiers|我和守衛此地的士兵們達成了協議。#|我使用了賄賂。@",
-            "requirements": {
-                "mingrail": 1,
-                "grail": "mingrail"
-            },
-            "linked": [
-                {
-                    "id": "opx.caper.makeprogress"
-                }
-            ]
-        },
-        {
-            "id": "opx.caper.tryresolve.heart",
-            "actionid": "opx.caper",
-            "label": "不休之鼓",
-            "startdescription": "@#|我使用了存續。@",
-            "requirements": {
-                "minheart": 1,
-                "heart": "minheart"
-            },
-            "linked": [
-                {
-                    "id": "opx.caper.makeprogress"
-                }
-            ]
-        },
-        {
-            "id": "opx.caper.tryresolve.knock",
-            "actionid": "opx.caper",
-            "label": "所有創口都是門洞",
-            "startdescription": "@#|我打開了封閉之物。@",
-            "requirements": {
-                "minknock": 1,
-                "knock": "minknock"
-            },
-            "linked": [
-                {
-                    "id": "opx.caper.makeprogress"
-                }
-            ]
-        },
-        {
-            "id": "opx.caper.tryresolve.lantern",
-            "actionid": "opx.caper",
-            "label": "光照",
-            "startdescription": "@#ee.mist|守夜人先於絲毧而來”，這是學徒們會說的那種話。我想它的意思是說，迷霧也只不過是一種特別潮濕的黑暗。#|我驅散了黑暗。@",
-            "requirements": {
-                "minlantern": 1,
-                "lantern": "minlantern"
-            },
-            "linked": [
-                {
-                    "id": "opx.caper.makeprogress"
-                }
-            ]
-        },
-        {
-            "id": "opx.caper.tryresolve.moth",
-            "actionid": "opx.caper",
-            "label": "煙霧與鏡子",
-            "startdescription": "@#ee.devourer|這裡盤踞著一個擁有毀滅性力量的生物。我不能正面對敵，所以我用了詭計。\n#ee.soldiers|本應守衛此地的士兵們早已亂鬨鬨地衝進了夜色之中。在他們回來前我應該會有剛好足夠的時間——\n#|我使用了詭計。@",
-            "requirements": {
-                "minmoth": 1,
-                "moth": "minmoth"
-            },
-            "linked": [
-                {
-                    "id": "opx.caper.makeprogress"
-                }
-            ]
-        },
-        {
-            "id": "opx.caper.tryresolve.secrethistories",
-            "actionid": "opx.caper",
-            "label": "並非只有一重歷史",
-            "startdescription": "@#|我使用了知識。@",
-            "requirements": {
-                "minsecrethistories": 1,
-                "secrethistories": "minsecrethistories"
-            },
-            "linked": [
-                {
-                    "id": "opx.caper.makeprogress"
-                }
-            ]
-        },
-        {
-            "id": "opx.caper.tryresolve.winter",
-            "actionid": "opx.caper",
-            "label": "夜色加深",
-            "startdescription": "@#|我使用了耐心。@",
-            "requirements": {
-                "minwinter": 1,
-                "winter": "minwinter"
-            },
-            "linked": [
-                {
-                    "id": "opx.caper.makeprogress"
-                }
-            ]
-        },
-        {
-            "id": "opx.caper.lucky",
-            "actionid": "opx.caper",
-            "label": "好運",
-            "startdescription": "換成別人，應該早就放棄了。[沒有對應性相時，偶爾也能突破難關。]",
-            "warmup": 10,
-            "linked": [
-                {
-                    "id": "opx.caper.makeprogress"
-                }
-            ]
-        },
-        {
-            "id": "opx.caper.makeprogress",
-            "actionid": "opx.caper",
-            "label": "進展",
-            "startdescription": "下一步是什麼？",
-            "effects": {
-                "complication": -1,
-                "progress": 1
-            },
-            "linked": [
-                {
-                    "id": "opx.caper.progress3"
-                },
-                {
-                    "id": "opx.caper.progress2"
-                },
-                {
-                    "id": "opx.caper.progress1"
-                }
-            ]
-        },
-        {
-            "id": "opx.caper.end",
-            "actionid": "opx.caper",
-            "effects": {
-                "complication": -100
-            },
-            "linked": [
-                {
-                    "id": "opx.caper.success"
-                },
-                {
-                    "id": "opx.caper.failure"
-                }
-            ]
-        },
-        {
-            "id": "opx.caper.success",
-            "actionid": "opx.caper",
-            "label": "成功！",
-            "startdescription": "我安全地帶著戰利品逃脫了！",
-            "requirements": {
-                "progress": 3
-            },
-            "effects": {
-                "progress": -3
-            },
-            "burnimage": "caper.complete",
-            "aspects": {
-                "fatiguing": 1,
-                "success": 1
-            }
-        },
-        {
-            "id": "opx.caper.failure",
-            "actionid": "opx.caper",
-            "label": "災難般的結果！",
-            "startdescription": "行動失敗了！",
-            "aspects": {
-                "fatiguing": 1
-            },
-            "effects": {
-                "trace": 1
-            }
-        },
-        {
-            "id": "travel.visit.serapeum.peristasis",
-            "actionid": "travel",
-            "label": "和布萊克伍德博士交談",
-            "startdescription": "“你知道我從來不贊同你的職業選擇，”她告訴我，“我也沒空評價你的辭職方式。但是我很高興看到你與那個混蛋分道揚鑣了。我就當你是出於道德才做出這個決定的吧。當然，我會給你一點力所能及的小小幫助。”",
-            "slots": [
-                {
-                    "id": "assistancewith",
-                    "label": "協助",
-                    "actionid": "travel",
-                    "required": {
-                        "rarity.lantern": 1,
-                        "wound.exile": 1,
-                        "wound.exile.medusa": 1,
-                        "trace": 1,
-                        "temptation.obscurity": 1
-                    }
-                }
-            ],
-            "requirements": {
-                "vault.serapeum.completed": 1
-            },
-            "alt": [
-                {
-                    "id": "travel.visit.serapeum.peristasis.pentiment"
-                },
-                {
-                    "id": "travel.visit.serapeum.peristasis.heal"
-                },
-                {
-                    "id": "travel.visit.serapeum.peristasis.hide"
-                },
-                {
-                    "id": "travel.visit.serapeum.peristasis.obscure"
-                }
-            ],
-            "warmup": 30,
-            "craftable": true
-        },
-        {
-            "id": "travel.visit.serapeum.peristasis.pentiment",
-            "actionid": "travel",
-            "requirements": {
-                "rarity.lantern": 1
-            },
-            "label": "和布萊克伍德博士交談",
-            "startdescription": "“驕陽之書！我真想直接把採購部的人叫來，但是塞拉皮雍由白日鑄爐所庇護，這就意味著我們不能這麼做。為什麼？你知道什麼是<i>pentimento</i>嗎？那是藝術家的遺憾。原本打算的事並非如此，且仍有痕跡留存。留下來的痕跡遠比作者所料想的要多。”"
-        },
-        {
-            "id": "travel.visit.serapeum.peristasis.heal",
-            "actionid": "travel",
-            "requirements": {
-                "damage.exile": 1
-            },
-            "label": "和布萊克伍德博士交談",
-            "startdescription": "“恐怕我們這裡的醫學知識有限。如果我還在噤聲圖書館，情況就完全不一樣了……但是我們會盡力而為。”[這最多可以治療三道傷口。]",
-            "purge": {
-                "damage.exile": 3
-            },
-            "effects": {
-                "vault.serapeum.completed": -1
-            }
-        },
-        {
-            "id": "travel.visit.serapeum.peristasis.hide",
-            "actionid": "travel",
-            "requirements": {
-                "trace": 1
-            },
-            "label": "和布萊克伍德博士交談",
-            "startdescription": "“恐怕他最後還是會找到你，但我看不出我們有什麼理由讓他稱心如意。”[這將清除目前的所有痕跡並生成一個偽造的行蹤。]",
-            "purge": {
-                "trace": 7
-            },
-            "effects": {
-                "vault.serapeum.completed": -1,
-                "trail.false.exile": 1
-            }
-        },
-        {
-            "id": "travel.visit.shrine.lionsmith.tripoli.pentiment.colonel",
-            "actionid": "travel",
-            "requirements": {
-                "loc.shrine.lionsmith.tripoli": 1,
-                "contact.retainer": 1
-            },
-            "extantreqs": {
-                "memento.grail.lantern": -1,
-                "defiance.consecration.colonel": 1
-            },
-            "label": "在安泰俄斯神廟中",
-            "startdescription": "縱然陽光斑駁地照射在沙石地上，聖所中依然又靜又冷。“這裡只剩下我一個了，”老人平靜地說，“所以也只有我知道她被埋葬在這裡——就在這聖壇的巨石之下。你要知道，凡人的軀體難以產下大地之子，她的心臟也因此爆裂。然後你父親就把你帶走了……”",
-            "description": "老人走後，我依然留在聖所，直到僅餘框架的窗外群星閃爍，空氣也隨著夜幕降臨變得寒冷刺骨。他離開前把一件禮物塞進我的手心——我降生時所覆肉膜的一塊殘片。“你是在那把碎劍下誕生的，”他說，“所以我們一直在期待著你選擇反叛。我們未曾料到你會選擇背叛獅子匠，但選擇是自由的陰影。”",
-            "warmup": 30,
-            "aspects": {
-                "fatiguing": 1
-            },
-            "effects": {
-                "memento.grail.lantern": 1,
-                "grief": 1
-            },
-            "burnimage": "pentiment",
-            "craftable": true
-        },
-        {
-            "id": "travel.visit.shrine.lionsmith.tripoli.pentiment",
-            "actionid": "travel",
-            "requirements": {
-                "loc.shrine.lionsmith.tripoli": 1,
-                "contact.retainer": 1
-            },
-            "extantreqs": {
-                "memento.grail.lantern": -1
-            },
-            "label": "在安泰俄斯神廟中",
-            "startdescription": "縱然陽光斑駁地照射在沙石地上，聖所中依然又靜又冷。“這裡只剩下我一個了，”老人平靜地說，“所以也只有我知道她被埋葬在這裡——就在這聖壇的巨石之下。你要知道，凡人的軀體難以產下大地之子，她的心臟也因此爆裂。然後你父親就把你帶走了……”",
-            "description": "老人走後，我依然留在聖所，直到僅餘框架的窗外群星閃爍，空氣也隨著夜幕降臨變得寒冷刺骨。他離開前把一件禮物塞進我的手心——我降生時所覆肉膜的一塊殘片。“你是在那把碎劍下誕生的，”他說，“所以我們一直在期待著你選擇反叛。誠然，反叛之後必定會有更加艱難的選擇。”",
-            "warmup": 30,
-            "aspects": {
-                "fatiguing": 1
-            },
-            "effects": {
-                "memento.grail.lantern": 1,
-                "grief": 1
-            },
-            "burnimage": "pentiment",
-            "craftable": true
-        },
-        {
-            "id": "travel.visit.shrine.lionsmith.tripoli.pentiment.after",
-            "actionid": "travel",
-            "requirements": {
-                "loc.shrine.lionsmith.tripoli": 1,
-                "contact.retainer": 1
-            },
-            "extantreqs": {
-                "memento.grail.lantern": 1
-            },
-            "burnimage": "pentiment",
-            "label": "在安泰俄斯神廟中",
-            "startdescription": "今天這裡沒有老人的蹤跡。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "travel.visit.serapeum.peristasis.obscure",
-            "actionid": "travel",
-            "requirements": {
-                "temptation.obscurity": 1
-            },
-            "label": "和布萊克伍德博士交談",
-            "startdescription": "“沒錯，既然你提到了這個。關於避免不必要的注意，我們確實知道一點方法。”[這將生成三張“隱秘”。]",
-            "effects": {
-                "vault.serapeum.completed": -1,
-                "obscurity": 3
-            }
-        },
-        {
-            "id": "travel.visit.shrine.colonel.blocked.hint",
-            "actionid": "travel",
-            "label": "敵對的神祠？",
-            "startdescription": "我效忠於獅子匠，上校的永恆之敵。我在這裡不受歡迎。",
-            "extantreqs": {
-                "defiance.consecration.lionsmith": 1
-            },
-            "requirements": {
-                "shrine.colonel": 1
-            },
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "travel.visit.shrine.lionsmith.blocked.hint",
-            "actionid": "travel",
-            "label": "敵對的神祠？",
-            "startdescription": "我效忠於上校，獅子匠的永恆之敵。我在這裡不受歡迎。",
-            "extantreqs": {
-                "defiance.consecration.colonel": 1
-            },
-            "requirements": {
-                "shrine.lionsmith": 1
-            },
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "travel.visit.shrine.blocked.tranquillity",
-            "actionid": "travel",
-            "label": "安寧的反面",
-            "startdescription": "今天不行。我繼續走著，用口哨吹著我以為自己早已忘卻的曲調。[當場上有“安寧”時，你不能進入獅子匠或上校的神祠。]",
-            "extantreqs": {
-                "tranquillity": 1
-            },
-            "requirements": {
-                "shrine.edge": 1
-            },
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "travel.visit.shrine.abandonobscurity.hint",
-            "actionid": "travel",
-            "label": "獻祭的可能？",
-            "startdescription": "這裡尊崇的神靈可能會接受某種特定的誓言。但是此舉現在還不能讓你得到什麼回報。[當場上有<b>誘惑：反抗</b>時，再試試。]",
-            "requirements": {
-                "shrine.edge": 1,
-                "temptation.obscurity": 1
-            },
-            "extantreqs": {
-                "temptation.defiance": -1
-            },
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "travel.visit.shrine.consecration.hint",
-            "actionid": "travel",
-            "label": "你已宣誓皈依",
-            "startdescription": "向衝突之神宣誓皈依——不可反悔，就像傷疤與背叛無法復原。[你不能宣誓兩次。]",
-            "comments": "This should trigger only if neither Consecration recipe does.",
-            "requirements": {
-                "shrine.edge": 1,
-                "temptation.defiance": 1
-            },
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "travel.visit.shrine.colonel.upgrade.hint",
-            "actionid": "travel",
-            "label": "拜訪鐵之神祠？",
-            "startdescription": "我花了幾十年的時間來避免和司辰打交道。也許是時候改變了。",
-            "requirements": {
-                "shrine.colonel": 1,
-                "lore": -1
-            },
-            "extantreqs": {
-                "tranquillity": -1
-            },
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "travel.visit.shrine.colonel.consecrated.weapon",
-            "actionid": "travel",
-            "label": "去鐵之神祠朝聖，以取回聖物",
-            "startdescription": "上校的神祠中有時有火藥的氣味，有時則是雪的氣味。我已經掌握了他的奧義。如果我在他的神祠裡冥想，或許會找到一些留給我的東西。[每次以上校之名進行的冥想都會造成傷口。]",
-            "description": "我在祭壇下方找到了一件很久之前留給我的東西。",
-            "requirements": {
-                "shrine.colonel": 1,
-                "fragmentedgeg.colonel": 1
-            },
-            "extantreqs": {
-                "defiance.consecration.colonel": 1,
-                "tranquillity": -1,
-                "weakness.foe.unknown": -1
-            },
-            "effects": {
-                "location": -1,
-                "wound.exile": 1
-            },
-            "aspects": {
-                "epiphany.colonel": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "travel.visit.shrine.colonel.consecrated.revelation",
-            "actionid": "travel",
-            "label": "去鐵之神祠朝聖，以尋求啟示",
-            "startdescription": "上校的神祠中有時有火藥的氣味，有時則是雪的氣味。我已經掌握了他的奧義。如果我在他的神祠裡冥想，或許我會聽見他的聲音。[每次以上校之名進行的冥想都會造成傷口。]",
-            "description": "神祠中的陰影愈加濃厚。我與上校一般目盲。具名者奎里努斯手持雙頭長矛站在我面前，但我卻看不見他。“大地之子啊，”他低聲說，“這是給你的智慧。”[你了解了大敵的一個弱點。]",
-            "requirements": {
-                "shrine.colonel": 1,
-                "fragmentedgeg.colonel": 1
-            },
-            "extantreqs": {
-                "defiance.consecration.colonel": 1,
-                "tranquillity": -1
-            },
-            "effects": {
-                "location": -1,
-                "wound.exile": 1
-            },
-            "linked": [
-                {
-                    "id": "cold.weakness.reveal.colonel",
-                    "label": "Revelation",
-                    "extantreqs": {
-                        "rkx.weakness.cold.hidden": 1
-                    },
-                    "purge": {
-                        "rkx.weakness.cold.hidden": 1
-                    }
-                },
-                {
-                    "id": "heat.weakness.reveal.colonel",
-                    "label": "Revelation",
-                    "extantreqs": {
-                        "rkx.weakness.heat.hidden": 1
-                    },
-                    "purge": {
-                        "rkx.weakness.heat.hidden": 1
-                    }
-                },
-                {
-                    "id": "sea.weakness.reveal.colonel",
-                    "label": "Revelation",
-                    "extantreqs": {
-                        "rkx.weakness.sea.hidden": 1
-                    },
-                    "purge": {
-                        "rkx.weakness.sea.hidden": 1
-                    }
-                },
-                {
-                    "id": "faith.weakness.reveal.colonel",
-                    "label": "Revelation",
-                    "extantreqs": {
-                        "rkx.weakness.faith.hidden": 1
-                    },
-                    "purge": {
-                        "rkx.weakness.faith.hidden": 1
-                    }
-                },
-                {
-                    "id": "heights.weakness.reveal.colonel",
-                    "label": "Revelation",
-                    "extantreqs": {
-                        "rkx.weakness.heights.hidden": 1
-                    },
-                    "purge": {
-                        "rkx.weakness.heights.hidden": 1
-                    }
-                },
-                {
-                    "id": "cats.weakness.reveal.colonel",
-                    "label": "Revelation",
-                    "extantreqs": {
-                        "rkx.weakness.cats.hidden": 1
-                    },
-                    "purge": {
-                        "rkx.weakness.cats.hidden": 1
-                    }
-                },
-                {
-                    "id": "flowermaker.weakness.reveal.colonel",
-                    "label": "Revelation",
-                    "extantreqs": {
-                        "rkx.weakness.flowermaker.hidden": 1
-                    },
-                    "purge": {
-                        "rkx.weakness.flowermaker.hidden": 1
-                    }
-                },
-                {
-                    "id": "horned.weakness.reveal.colonel",
-                    "label": "Revelation",
-                    "extantreqs": {
-                        "rkx.weakness.horned.hidden": 1
-                    },
-                    "purge": {
-                        "rkx.weakness.horned.hidden": 1
-                    }
-                },
-                {
-                    "id": "wolf.weakness.reveal.colonel",
-                    "label": "Revelation",
-                    "extantreqs": {
-                        "rkx.weakness.wolf.hidden": 1
-                    },
-                    "purge": {
-                        "rkx.weakness.wolf.hidden": 1
-                    }
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "travel.visit.shrine.colonel.consecrated.upgrade",
-            "actionid": "travel",
-            "label": "去鐵之神祠朝聖",
-            "startdescription": "上校的神祠中有時有火藥的氣味，有時則是雪的氣味。在此冥想會讓我更深刻地理解上校具名者教導的技巧。[每次以上校之名進行冥想都會造成傷口。]",
-            "description": "每次舉行這個儀式都要付出鮮血。我躺在神祠裡，在意識昏沉的迷亂之中，我覺得自己聽到了多翼者在房椽間低語。“鮮血歸於大地，鮮血歸於……”",
-            "requirements": {
-                "shrine.colonel": 1,
-                "lore": 1
-            },
-            "extantreqs": {
-                "defiance.consecration.colonel": 1,
-                "tranquillity": -1
-            },
-            "aspects": {
-                "epiphany.colonel": 1
-            },
-            "effects": {
-                "location": -1,
-                "wound.exile": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "travel.visit.shrine.colonel.upgrade",
-            "actionid": "travel",
-            "label": "拜訪鐵之神祠",
-            "startdescription": "上校的神祠中有時有火藥的氣味，有時則是雪的氣味。 @#fragmentedgeg.exile|我學不到什麼新東西了，但我能獲得活力來治癒傷口。#|我能在這裡學到更多<b>刃</b>的戰鬥奧秘。@",
-            "description": "我的骨頭嘎吱作響，我的聽覺愈加敏銳。",
-            "requirements": {
-                "shrine.colonel": 1,
-                "lore": 1
-            },
-            "extantreqs": {
-                "defiance.consecration.lionsmith": -1,
-                "tranquillity": -1
-            },
-            "aspects": {
-                "epiphany": 1
-            },
-            "effects": {
-                "location": -1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "travel.visit.shrine.lionsmith.upgrade.hint",
-            "actionid": "travel",
-            "label": "拜訪銅之神祠？",
-            "startdescription": "我花了幾十年的時間來避免和司辰打交道。也許是時候改變了。",
-            "requirements": {
-                "shrine.lionsmith": 1,
-                "lore": -1
-            },
-            "extantreqs": {
-                "tranquillity": -1
-            },
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "travel.visit.shrine.lionsmith.consecrated.weapon",
-            "actionid": "travel",
-            "label": "去銅之神祠朝聖，以取回聖物",
-            "startdescription": "獅子匠神祠中的氣味明亮如熾熱的黃銅，腥臭如大型的貓科動物。我已經掌握了他的奧義。如果我在他的神祠裡冥想，或許會找到一些留給我的東西。[每次以獅子匠之名進行冥想都會造成狂怒。]",
-            "description": "我在祭壇下方找到了一件很久之前留給我的東西。",
-            "requirements": {
-                "shrine.lionsmith": 1,
-                "fragmentedgeg.lionsmith": 1
-            },
-            "extantreqs": {
-                "defiance.consecration.lionsmith": 1,
-                "tranquillity": -1,
-                "weakness.foe.unknown": -1
-            },
-            "effects": {
-                "location": -1,
-                "rage": 1
-            },
-            "aspects": {
-                "epiphany.lionsmith": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "travel.visit.shrine.lionsmith.consecrated.revelation",
-            "actionid": "travel",
-            "label": "去銅之神祠朝聖，以尋求啟示",
-            "startdescription": "獅子匠神祠中的氣味明亮如熾熱的黃銅，腥臭如大型的貓科動物。我已經掌握了他的奧義。如果我在他的神祠裡冥想，或許我會聽見他的聲音。[每次以獅子匠之名進行冥想都會造成狂怒。]",
-            "description": "日光像血一般滴入我的雙眼，我眼中所見只有一片金光。具名者曼尼特嚎叫著站在光中，但我無法看到她的身影。“大地之子！”她嘶聲低語道，“聽我說！”[你了解了大敵的一個弱點。] ",
-            "requirements": {
-                "shrine.lionsmith": 1,
-                "fragmentedgeg.lionsmith": 1
-            },
-            "extantreqs": {
-                "defiance.consecration.lionsmith": 1,
-                "tranquillity": -1
-            },
-            "effects": {
-                "location": -1,
-                "rage": 1
-            },
-            "linked": [
-                {
-                    "id": "cats.weakness.reveal.lionsmith",
-                    "label": "Revelation",
-                    "extantreqs": {
-                        "rkx.weakness.cats.hidden": 1
-                    },
-                    "purge": {
-                        "rkx.weakness.cats.hidden": 1
-                    }
-                },
-                {
-                    "id": "heat.weakness.reveal.lionsmith",
-                    "label": "Revelation",
-                    "extantreqs": {
-                        "rkx.weakness.heat.hidden": 1
-                    },
-                    "purge": {
-                        "rkx.weakness.heat.hidden": 1
-                    }
-                },
-                {
-                    "id": "sea.weakness.reveal.lionsmith",
-                    "label": "Revelation",
-                    "extantreqs": {
-                        "rkx.weakness.sea.hidden": 1
-                    },
-                    "purge": {
-                        "rkx.weakness.sea.hidden": 1
-                    }
-                },
-                {
-                    "id": "faith.weakness.reveal.lionsmith",
-                    "label": "Revelation",
-                    "extantreqs": {
-                        "rkx.weakness.faith.hidden": 1
-                    },
-                    "purge": {
-                        "rkx.weakness.faith.hidden": 1
-                    }
-                },
-                {
-                    "id": "heights.weakness.reveal.lionsmith",
-                    "label": "Revelation",
-                    "extantreqs": {
-                        "rkx.weakness.heights.hidden": 1
-                    },
-                    "purge": {
-                        "rkx.weakness.heights.hidden": 1
-                    }
-                },
-                {
-                    "id": "cold.weakness.reveal.lionsmith",
-                    "label": "Revelation",
-                    "extantreqs": {
-                        "rkx.weakness.cold.hidden": 1
-                    },
-                    "purge": {
-                        "rkx.weakness.cold.hidden": 1
-                    }
-                },
-                {
-                    "id": "flowermaker.weakness.reveal.lionsmith",
-                    "label": "Revelation",
-                    "extantreqs": {
-                        "rkx.weakness.flowermaker.hidden": 1
-                    },
-                    "purge": {
-                        "rkx.weakness.flowermaker.hidden": 1
-                    }
-                },
-                {
-                    "id": "horned.weakness.reveal.lionsmith",
-                    "label": "Revelation",
-                    "extantreqs": {
-                        "rkx.weakness.horned.hidden": 1
-                    },
-                    "purge": {
-                        "rkx.weakness.horned.hidden": 1
-                    }
-                },
-                {
-                    "id": "wolf.weakness.reveal.lionsmith",
-                    "label": "Revelation",
-                    "extantreqs": {
-                        "rkx.weakness.wolf.hidden": 1
-                    },
-                    "purge": {
-                        "rkx.weakness.wolf.hidden": 1
-                    }
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "travel.visit.shrine.lionsmith.consecrated.upgrade",
-            "actionid": "travel",
-            "label": "去銅之神祠朝聖",
-            "startdescription": "獅子匠神祠中的氣味明亮如熾熱的黃銅，腥臭如大型的貓科動物。在此冥想會讓我更深刻地理解獅子匠具名者教導的技巧。[每次以獅子匠之名進行冥想都會造成狂怒。]",
-            "description": "我的力量淹沒了我的思想，我環繞神殿而行，發出野獸般的咆哮。透過狂怒的迷霧，我覺得自己聽到了多翼者在房椽間低語。“大地之力。大地之……”",
-            "requirements": {
-                "shrine.lionsmith": 1,
-                "lore": 1
-            },
-            "extantreqs": {
-                "defiance.consecration.lionsmith": 1,
-                "tranquillity": -1
-            },
-            "aspects": {
-                "epiphany.lionsmith": 1
-            },
-            "effects": {
-                "location": -1,
-                "rage": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "travel.visit.shrine.lionsmith.upgrade",
-            "actionid": "travel",
-            "label": "拜訪銅之神祠",
-            "startdescription": "獅子匠神祠中的氣味明亮如熾熱的黃銅，腥臭如大型的貓科動物。@#fragmentedgeg.exile|我學不到什麼新東西了，但我能獲得活力來治癒傷口。#|我能在這裡學到更多<b>刃</b>的戰鬥奧秘。@",
-            "description": "我正變得更加強大。",
-            "requirements": {
-                "shrine.lionsmith": 1,
-                "lore": 1
-            },
-            "extantreqs": {
-                "defiance.consecration.colonel": -1,
-                "tranquillity": -1
-            },
-            "aspects": {
-                "epiphany": 1
-            },
-            "effects": {
-                "location": -1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "travel.visit.shrine.consecration.colonel",
-            "actionid": "travel",
-            "label": "向上校宣誓皈依",
-            "startdescription": "我將把自己奉獻給上校。[這將使你受傷並限制你與獅子匠的交易，但會提升反抗等級，並開啟通向上校奧義之路。]",
-            "description": "我已蒙上自己的雙眼，在肌膚上刻下疤痕。我已用九重忍耐之誓言束縛己身。我是上校的士兵，他永不會解除我的職責。",
-            "requirements": {
-                "shrine.colonel": 1,
-                "temptation.defiance": 1,
-                "defiance.consecration.lionsmith": -1,
-                "defiance.consecration.colonel": -1
-            },
-            "extantreqs": {
-                "tranquillity": -1
-            },
-            "mutations": [
-                {
-                    "filter": "temptation.defiance",
-                    "mutate": "defiancemarks",
-                    "level": 1,
-                    "additive": true
-                },
-                {
-                    "filter": "temptation.defiance",
-                    "mutate": "defiance.consecration.colonel",
-                    "level": 1
-                }
-            ],
-            "effects": {
-                "location": -1,
-                "wound.exile": 1
-            },
-            "burnimage": "consecration.colonel",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "travel.visit.shrine.consecration.lionsmith",
-            "actionid": "travel",
-            "label": "向獅子匠宣誓皈依",
-            "startdescription": "我將把自己奉獻給獅子匠。[這將激怒你並限制你與上校的交易，但會提升反抗等級，並開啟通向獅子匠奧義之路。]",
-            "description": "我已使猛獸流血，並燒焦了自己的皮膚。我已經歷了三重英勇試煉。我是獅子匠的戰士，除非有朝一日他解除我的職責。",
-            "requirements": {
-                "shrine.lionsmith": 1,
-                "temptation.defiance": 1,
-                "defiance.consecration.lionsmith": -1,
-                "defiance.consecration.colonel": -1
-            },
-            "extantreqs": {
-                "tranquillity": -1
-            },
-            "mutations": [
-                {
-                    "filter": "temptation.defiance",
-                    "mutate": "defiancemarks",
-                    "level": 1,
-                    "additive": true
-                },
-                {
-                    "filter": "temptation.defiance",
-                    "mutate": "defiance.consecration.lionsmith",
-                    "level": 1
-                }
-            ],
-            "effects": {
-                "location": -1,
-                "rage": 1
-            },
-            "burnimage": "consecration.lionsmith",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "travel.visit.shrine.colonel.abandonobscurity",
-            "actionid": "travel",
-            "label": "不屈誓言",
-            "startdescription": "我或許會選擇接受不屈誓言。它要求我不計代價，堅持到底。[這將給予你一道傷口，並使你無法獲取隱秘勝利，但是會提升你的反抗等級。]",
-            "description": "“每一樁苦難都是教訓，每一道傷疤都是武器。沒有失敗，唯有毀滅。”",
-            "requirements": {
-                "shrine.colonel": 1,
-                "temptation.obscurity": 1
-            },
-            "extantreqs": {
-                "temptation.defiance": 1,
-                "defiance.consecration.colonel": 1,
-                "tranquillity": -1
-            },
-            "slots": [
-                {
-                    "id": "defiance",
-                    "label": "反抗",
-                    "required": {
-                        "temptation.defiance": 1
-                    },
-                    "greedy": true
-                }
-            ],
-            "mutations": [
-                {
-                    "filter": "temptation.defiance",
-                    "mutate": "defiancemarks",
-                    "level": 1,
-                    "additive": true
-                }
-            ],
-            "effects": {
-                "temptation.obscurity": -1,
-                "location": -1,
-                "wound.exile": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "travel.visit.shrine.lionsmith.abandonobscurity",
-            "actionid": "travel",
-            "label": "黃銅誓言",
-            "startdescription": "我或許會選擇接受黃銅誓言。它要求我保持勇氣，即使是在最危急的境地中。[這將給予你一張“狂怒”，並使你無法獲取隱秘勝利，但是會提升你的反抗等級。]",
-            "description": "“力量源於勇氣。勇氣源於力量。沒有失敗，唯有恥辱。”",
-            "requirements": {
-                "shrine.lionsmith": 1,
-                "temptation.obscurity": 1
-            },
-            "extantreqs": {
-                "temptation.defiance": 1,
-                "defiance.consecration.lionsmith": 1,
-                "tranquillity": -1
-            },
-            "slots": [
-                {
-                    "id": "defiance",
-                    "label": "反抗",
-                    "required": {
-                        "temptation.defiance": 1
-                    },
-                    "greedy": true
-                }
-            ],
-            "mutations": [
-                {
-                    "filter": "temptation.defiance",
-                    "mutate": "defiancemarks",
-                    "level": 1,
-                    "additive": true
-                }
-            ],
-            "effects": {
-                "temptation.obscurity": -1,
-                "location": -1,
-                "rage": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "travel.visit.shrine.nameless.hint",
-            "actionid": "travel",
-            "label": "昂首離去",
-            "startdescription": "我不會在這裡浪費時間。[“狂怒”存在時無法使用這座神祠。]",
-            "requirements": {
-                "loc.shrine.nameless": 1
-            },
-            "extantreqs": {
-                "rage": 1
-            },
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "travel.visit.shrine.nameless.pentiment",
-            "actionid": "travel",
-            "label": "向那位無名的具名者獻上一件覆畫殘跡",
-            "startdescription": "這次，一些事會被適當地遺忘。",
-            "requirements": {
-                "loc.shrine.nameless": 1,
-                "pentiment": 1
-            },
-            "extantreqs": {
-                "rage": -1
-            },
-            "warmup": 30,
-            "craftable": true,
-            "linked": [
-                {
-                    "id": "travel.visit.shrine.nameless.pentiment.ii"
-                },
-                {
-                    "id": "travel.visit.shrine.nameless.pentiment.break"
-                }
-            ]
-        },
-        {
-            "id": "travel.visit.shrine.nameless.pentiment.ii",
-            "actionid": "travel",
-            "requirements": {
-                "pentiment": 1
-            },
-            "label": "向那位無名的具名者獻上第二件覆畫殘跡",
-            "startdescription": "霧氣屏息以待。",
-            "slots": [
-                {
-                    "id": "pentiment",
-                    "label": "覆畫殘跡",
-                    "required": {
-                        "pentiment": 1
-                    }
-                }
-            ],
-            "warmup": 30,
-            "linked": [
-                {
-                    "id": "travel.visit.shrine.nameless.pentiment.iii"
-                },
-                {
-                    "id": "travel.visit.shrine.nameless.pentiment.break"
-                }
-            ]
-        },
-        {
-            "id": "travel.visit.shrine.nameless.pentiment.iii",
-            "actionid": "travel",
-            "requirements": {
-                "pentiment": 2
-            },
-            "label": "向那位無名的具名者獻上第三件覆畫殘跡",
-            "startdescription": "更多將被絲毧埋葬之物。",
-            "slots": [
-                {
-                    "id": "pentiment",
-                    "label": "覆畫殘跡",
-                    "required": {
-                        "pentiment": 1
-                    }
-                }
-            ],
-            "warmup": 30,
-            "linked": [
-                {
-                    "id": "travel.visit.shrine.nameless.pentiment.iv"
-                },
-                {
-                    "id": "travel.visit.shrine.nameless.pentiment.break"
-                }
-            ]
-        },
-        {
-            "id": "travel.visit.shrine.nameless.pentiment.iv",
-            "actionid": "travel",
-            "requirements": {
-                "pentiment": 3
-            },
-            "label": "向那位無名的具名者獻上第四件覆畫殘跡",
-            "startdescription": "讓世界的表皮光滑乾淨。",
-            "slots": [
-                {
-                    "id": "pentiment",
-                    "label": "覆畫殘跡",
-                    "required": {
-                        "pentiment": 1
-                    }
-                }
-            ],
-            "warmup": 30,
-            "linked": [
-                {
-                    "id": "travel.visit.shrine.nameless.pentiment.v"
-                },
-                {
-                    "id": "travel.visit.shrine.nameless.pentiment.break"
-                }
-            ]
-        },
-        {
-            "id": "travel.visit.shrine.nameless.pentiment.v",
-            "actionid": "travel",
-            "requirements": {
-                "pentiment": 4
-            },
-            "label": "向那位無名的具名者獻上第五件覆畫殘跡",
-            "startdescription": "隱秘的罪行，隱秘的懊悔，隱秘的喜悅——都遺失在林地之中。",
-            "slots": [
-                {
-                    "id": "pentiment",
-                    "label": "覆畫殘跡",
-                    "required": {
-                        "pentiment": 1
-                    }
-                }
-            ],
-            "warmup": 30,
-            "linked": [
-                {
-                    "id": "travel.visit.shrine.nameless.pentiment.vi"
-                },
-                {
-                    "id": "travel.visit.shrine.nameless.pentiment.break"
-                }
-            ]
-        },
-        {
-            "id": "travel.visit.shrine.nameless.pentiment.vi",
-            "actionid": "travel",
-            "requirements": {
-                "pentiment": 5
-            },
-            "label": "向那位無名的具名者獻上第六件覆畫殘跡",
-            "startdescription": "迷霧之中：大地與黑色苔蘚的氣息。",
-            "slots": [
-                {
-                    "id": "pentiment",
-                    "label": "覆畫殘跡",
-                    "required": {
-                        "pentiment": 1
-                    }
-                }
-            ],
-            "warmup": 30,
-            "linked": [
-                {
-                    "id": "travel.visit.shrine.nameless.pentiment.vii"
-                },
-                {
-                    "id": "travel.visit.shrine.nameless.pentiment.break"
-                }
-            ]
-        },
-        {
-            "id": "travel.visit.shrine.nameless.pentiment.vii",
-            "actionid": "travel",
-            "requirements": {
-                "pentiment": 6
-            },
-            "label": "向那位無名的具名者獻上第七件覆畫殘跡",
-            "startdescription": "迷霧之中：巨大的鎖鏈發出深沉刺耳的隆隆聲。",
-            "slots": [
-                {
-                    "id": "pentiment",
-                    "label": "覆畫殘跡",
-                    "required": {
-                        "pentiment": 1
-                    }
-                }
-            ],
-            "warmup": 30,
-            "linked": [
-                {
-                    "id": "travel.visit.shrine.nameless.pentiment.final"
-                },
-                {
-                    "id": "travel.visit.shrine.nameless.pentiment.break"
-                }
-            ]
-        },
-        {
-            "id": "travel.visit.shrine.nameless.pentiment.final",
-            "requirements": {
-                "pentiment": 7
-            },
-            "actionid": "travel",
-            "label": "進入迷霧",
-            "startdescription": "成了。我舒展了一下身體，擰了擰我的脖子。我周圍的霧氣正在消散……但並未完全散去。絲毧一定喜歡我的禮物。接下來，我將行走於那位無名的具名者衣褶的庇護中。也就是說，你們這些混蛋要是<i>現在</i>還想找到我，就自求多福吧。",
-            "warmup": 30,
-            "effects": {
-                "obscurity": 9,
-                "pentiment": -7,
-                "location": -1,
-                "op.dawn": 1,
-                "trail.false.exile.nameless": 1
-            }
-        },
-        {
-            "id": "travel.visit.shrine.nameless.pentiment.break",
-            "actionid": "travel",
-            "label": "黎明將至",
-            "startdescription": "這是一個開始。但是還沒有足夠的秘密來引起絲毧的矚目。總要七個秘密才能成事。霧氣在我身邊消散，神祠已消失無蹤。",
-            "effects": {
-                "op.dawn": 1,
-                "location": -1
-            }
-        },
-        {
-            "id": "travel.visit.shrine.nameless.downgrade",
-            "actionid": "travel",
-            "label": "向迷霧獻上秘密",
-            "startdescription": "我點燃蠟燭，等待。[這會永久性地將你的密傳降低一級，但會給你一張“隱秘”與一張“安寧”。]",
-            "description": "迷霧既不飄動，也不靜止。夜晚寂靜無聲。過了一會，燭火垂下頭去，優雅地掙扎了片刻，便在一堆蠟油中結束了生命。什麼也沒有發生。",
-            "requirements": {
-                "loc.shrine.nameless": 1,
-                "lore": 1
-            },
-            "extantreqs": {
-                "rage": -1
-            },
-            "aspects": {
-                "depiphany": 1
-            },
-            "effects": {
-                "loc.shrine.nameless": -1,
-                "obscurity": 1,
-                "tranquillity": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "travel.visit.shrine.nameless",
-            "actionid": "travel",
-            "label": "於迷霧中休憩片刻",
-            "startdescription": "我倚靠在牆上等待。[這會產生一張“安寧”。]",
-            "description": "迷霧既不飄動，也不靜止。夜晚寂靜無聲。一小時後，我回到了床上，今晚我一定會休息得很好。",
-            "requirements": {
-                "loc.shrine.nameless": 1
-            },
-            "extantreqs": {
-                "rage": -1
-            },
-            "effects": {
-                "loc.shrine.nameless": -1,
-                "tranquillity": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "travel.wilderness.leave",
-            "actionid": "travel",
-            "label": "哪裡都行，只要不是這裡",
-            "startdescription": "我必須繼續前行。[你可能到達任何地方。]",
-            "comments": "You can leave wilderness even if you have outstanding Rage. I'm not a monster.",
-            "requirements": {
-                "wilderness": 1,
-                "domicile": 1,
-                "cash": 1
-            },
-            "effects": {
-                "wilderness": -1
-            },
-            "internaldeck": {
-                "spec": [
-                    "end.bornholm",
-                    "end.slettnes",
-                    "end.cheko",
-                    "end.paro",
-                    "end.messana",
-                    "end.ghardaia",
-                    "end.morbihan",
-                    "city.alexandria",
-                    "city.algiers",
-                    "city.amsterdam",
-                    "city.avignon",
-                    "city.baghdad",
-                    "city.budapest",
-                    "city.candia",
-                    "city.cluj",
-                    "city.granada",
-                    "city.istanbul",
-                    "city.kaunas",
-                    "city.kiev",
-                    "city.krakow",
-                    "city.london",
-                    "city.marrakech",
-                    "city.meshad",
-                    "city.munich",
-                    "city.nizhny",
-                    "city.paris",
-                    "city.prague",
-                    "city.aachen",
-                    "city.rostock",
-                    "city.samarkand",
-                    "city.leningrad",
-                    "city.stalingrad",
-                    "city.strasbourg",
-                    "city.tiflis",
-                    "city.tirana",
-                    "city.tripoli",
-                    "city.valletta",
-                    "city.venice",
-                    "city.vienna",
-                    "city.sverdlovsk"
-                ],
-                "draws": 1,
-                "defaultcard": "end.slettnes",
-                "resetonexhaustion": false
-            },
-            "warmup": 30,
-            "craftable": true,
-            "linked": [
-                {
-                    "id": "travel.depart"
-                }
-            ]
-        },
-        {
-            "id": "travel.rage.hint",
-            "actionid": "travel",
-            "label": "不",
-            "startdescription": "一想到要<i>再次</i>逃跑，我的熱血就沸騰起來。我必須回頭戰鬥，直至狂怒平息。[狂怒時不能離開城市。]",
-            "requirements": {
-                "destination": 1
-            },
-            "comments": "This is only a hint, so the Wilderness recipe will override it.",
-            "extantreqs": {
-                "rage": 1
-            },
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "travel.ally.duplicate.hint",
-            "actionid": "travel",
-            "label": "煙霧彈太多了",
-            "startdescription": "[你一次只能派出一名盟友去偽造行蹤。]",
-            "requirements": {
-                "ally": 1
-            },
-            "extantreqs": {
-                "apx.trail.false.exile": 1
-            },
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "travel.ally.hint",
-            "actionid": "travel",
-            "label": "派一名盟友去偽造行蹤？",
-            "startdescription": "[放入一個你還沒去過的城市。]",
-            "requirements": {
-                "ally": 1,
-                "exhausted": -1
-            },
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "travel.ally",
-            "actionid": "travel",
-            "label": "派一名盟友去偽造行蹤",
-            "startdescription": "這件事是有風險的，但什麼事情沒有風險呢？[只要場上存在偽造的行蹤，清算人就不會找到你。你將永遠無法前往這個城市。你的盟友偽造行蹤需要花費的時間無法預測；在這段時間內你聯繫不上他們；並且有很小的可能性，他們永遠不會回來。]",
-            "description": "此人正在途中。",
-            "requirements": {
-                "ally": 1,
-                "destination": 1,
-                "exhausted": -1,
-                "end": -1,
-                "wilderness": -1
-            },
-            "extantreqs": {
-                "apx.trail.false.exile": -1
-            },
-            "effects": {
-                "apx.trail.false.exile": 1
-            },
-            "alt": [
-                {
-                    "id": "ally.trail.false.begin",
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 3,
-                        "filter": {
-                            "ally": 1,
-                            "destination": 1,
-                            "apx.trail.false.exile": 1
-                        }
-                    }
-                }
-            ],
-            "craftable": true,
-            "warmup": 60
-        },
-        {
-            "id": "ally.trail.false.begin",
-            "actionid": "ally.trail.false.1",
-            "label": "準備偽造行蹤……",
-            "startdescription": "@#ally.barber|祖爾菲亞正在安排一場合適的混亂。\n#ally.delver||歐索麗娜正在有條不紊地工作。\n#ally.fivegoer|瓦西爾似乎要準備一場聚會。\n#ally.ghoul|多明卡斯正在密謀。\n#ally.huntress||拉拉·柴瑪正在製造有用的混亂。\n#ally.smuggler|喬吉奧打算在轉移那些人的注意力的同時順便撈上一筆。\n#ally.visionary|米蕾婭準備做一些令人難忘的事情。\n#ally.vivisectionist雅寧斯正在安排他的資源。@ [每一輪都有一定機率成功偽造行蹤。]",
-            "warmup": 60,
-            "linked": [
-                {
-                    "id": "ally.trail.false.create",
-                    "chance": 30
-                },
-                {
-                    "id": "ally.trail.false.begin"
-                }
-            ]
-        },
-        {
-            "id": "ally.trail.false.create",
-            "actionid": "ally.trail.false.1",
-            "label": "正在偽造行蹤",
-            "startdescription": "@#ally.barber|祖爾菲亞安排了一場合適的混亂。\n#ally.delver||歐索麗娜有條不紊地完成了她的工作。\n#ally.fivegoer|瓦西爾的慶祝活動吸引了所有人的注意力。\n#ally.ghoul|多明卡斯完成了密謀。\n#ally.huntress||拉拉·柴瑪製造了有用的混亂。\n#ally.smuggler|喬吉奧成功地在轉移那些人的注意力的同時撈上了一筆。\n#ally.visionary|米蕾婭完成了令人難忘的作品。\n#ally.vivisectionist雅寧斯已經把資源安排好了。@",
-            "description": "我的盟友已經成功偽造了我的行蹤。他會隱藏起自己的蹤跡然後馬上回來——我希望如此。",
-            "alt": [
-                {
-                    "id": "ally.trail.false.waiting",
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 2,
-                        "filter": {
-                            "ally": 1,
-                            "destination": 1
-                        }
-                    }
-                }
-            ],
-            "effects": {
-                "trail.false.exile": 1
-            },
-            "warmup": 60
-        },
-        {
-            "id": "ally.trail.false.waiting",
-            "actionid": "ally.trail.false.2",
-            "label": "等待……",
-            "startdescription": "快要回來了？",
-            "linked": [
-                {
-                    "id": "ally.trail.false.waiting.displaytext"
-                }
-            ]
-        },
-        {
-            "id": "ally.trail.false.waiting.displaytext",
-            "actionid": "ally.trail.false.2",
-            "label": "等待……",
-            "startdescription": "@#ally.barber|祖爾菲亞完成了任務。只要她能安全上路，那她馬上就會回來。
-#ally.delver|歐索麗娜完成了任務。只要她能安全上路，那她馬上就會回來。
-#ally.fivegoer|瓦西爾完成了任務。只要他能安全上路，那他馬上就會回來。
-#ally.ghoul|多明卡斯完成了任務。只要他能安全上路，他那馬上就會回來。
-#ally.huntress|拉拉·柴瑪完成了任務。只要她能安全上路，那她馬上就會回來。
-#ally.smuggler|喬吉奧完成了任務。只要他能安全上路，那他馬上就會回來。
-#ally.visionary|米蕾婭完成了任務。只要她能安全上路，那她馬上就會回來。
-#ally.vivisectionist|雅寧斯完成了任務。只要他能安全上路，那他馬上就會回來。@",
-            "warmup": 60,
-            "linked": [
-                {
-                    "id": "ally.trail.false.returning",
-                    "chance": 30
-                },
-                {
-                    "id": "ally.trail.false.lost",
-                    "chance": 10
-                },
-                {
-                    "id": "ally.trail.false.waiting"
-                }
-            ]
-        },
-        {
-            "id": "ally.trail.false.returning",
-            "actionid": "ally.trail.false.2",
-            "label": "回歸……",
-            "startdescription": "@#ally.barber|祖爾菲亞在回來的路上。\n#ally.delver|歐索麗娜在回來的路上。\n#ally.fivegoer|瓦西爾在回來的路上。\n#ally.ghoul|多明卡斯在回來的路上。\n#ally.huntress|拉拉·柴瑪在回來的路上。\n#ally.smuggler|喬吉奧在回來的路上。\n#ally.visionary|米蕾婭在回來的路上。\n#ally.vivisectionist|雅寧斯在回來的路上。@",
-            "warmup": 60,
-            "aspects": {
-                "fatiguing": 1
-            },
-            "effects": {
-                "destination": -1
-            }
-        },
-        {
-            "id": "ally.trail.false.lost",
-            "actionid": "ally.trail.false.2",
-            "label": "失去……",
-            "startdescription": "@#ally.barber|祖爾菲亞消失了。那可能意味著任何事情。但我想我不會再見到她了。\n#ally.delver|我想，歐索麗娜回到大地之中去了——不管是以什麼方式。\n#ally.fivegoer|我差點錯過這篇文章：關於在行李箱中發現屍體的報告，那具屍體有一些“非常獨特的解剖學特徵”。那隻可能是瓦西爾。\n#ally.ghoul|一篇報導中稱，立陶宛的一個“大人物”被發現中毒身亡。多明卡斯說不定會喜歡“大人物”這個稱呼。\n#ally.huntress|人們發現了柴瑪的屍體，邊上還有三具男屍，他們全都在雙眼之間乾淨俐落地中了槍。她至死都在戰鬥。\n#ally.smuggler|看來喬吉奧被他的老仇人找上了門。 那甚至都不是清算人做的——只是他的眾多競爭對手之一。\n#ally.visionary|米蕾婭被逮捕了，罪名是“洩露秘密”。\n#ally.vivisectionist|我今天讀到了關於一位德國貴族的報導。他在斑疹傷寒爆發時志願在醫院救治病患，最終自己也染病殉職。雅寧斯是一個複雜的人。我會想念他的。@",
-            "effects": {
-                "ally": -1,
-                "destination": -1,
-                "grief": 1
-            },
-            "warmup": 60
-        },
-        {
-            "id": "travel.prepare.end",
-            "actionid": "travel",
-            "label": "最後一次啟程",
-            "startdescription": "我的火車在黎明時分發車。我有忘記什麼嗎？[目的地在地圖之疆。你不能再繼續前行。抵達目的地後，你就要準備好結束這一切了。盟友不會跟隨你前往地圖之疆。]",
-            "requirements": {
-                "end": 1,
-                "destination": 1,
-                "cash": 2
-            },
-            "extantreqs": {
-                "rage": -1
-            },
-            "craftable": true,
-            "linked": [
-                {
-                    "id": "travel.showslot"
-                }
-            ]
-        },
-        {
-            "id": "travel.prepare.wilderness",
-            "actionid": "travel",
-            "label": "進入荒野",
-            "startdescription": "這是不得已的去處。暴露在安全的人群之外，我將更容易被追蹤。我不清楚這裡的地形。我可能很容易就會毫無尊嚴地死去。[你只能攜帶隨身資產。出發將終止所有正在進行的清算人行動並清除所有的痕跡，但也將放棄資產、場地、目的地和當地聯絡人，並終止你自己正在進行的行動。]",
-            "requirements": {
-                "wilderness": 1,
-                "destination": 1
-            },
-            "extantreqs": {
-                "rage": -1
-            },
-            "craftable": true,
-            "linked": [
-                {
-                    "id": "travel.showslot"
-                }
-            ]
-        },
-        {
-            "id": "travel.prepare.remote",
-            "actionid": "travel",
-            "label": "準備前往遙遠的目的地",
-            "startdescription": "我的火車在黎明時分發車。我有忘記什麼嗎？[你只能攜帶隨身資產。出發將終止所有正在進行的清算人行動並清除所有的痕跡，但也將放棄資產、場地、目的地和當地聯絡人，並終止你自己正在進行的行動。]",
-            "requirements": {
-                "remote": 1,
-                "destination": 1,
-                "cash": 2
-            },
-            "extantreqs": {
-                "rage": -1
-            },
-            "craftable": true,
-            "linked": [
-                {
-                    "id": "travel.showslot"
-                }
-            ]
-        },
-        {
-            "id": "travel.prepare",
-            "actionid": "travel",
-            "label": "準備出發",
-            "startdescription": "是時候動身了。我有忘記什麼嗎？[你只能攜帶隨身資產。出發將終止所有正在進行的清算人行動並清除所有的痕跡，但也將放棄資產、場地、目的地和當地聯絡人，並終止你自己正在進行的行動。]",
-            "requirements": {
-                "destination": 1,
-                "cash": 1,
-                "remote": -1,
-                "end": -1
-            },
-            "extantreqs": {
-                "rage": -1
-            },
-            "craftable": true,
-            "linked": [
-                {
-                    "id": "travel.showslot"
-                }
-            ]
-        },
-        {
-            "id": "travel.prepare.remote.hint",
-            "actionid": "travel",
-            "label": "準備出發？",
-            "startdescription": "這個目的地十分遙遠。我需要足夠的現金來支付路費。",
-            "requirements": {
-                "op": -1,
-                "connection": -1,
-                "destination": 1,
-                "remote": 1
-            },
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "travel.prepare.hint",
-            "actionid": "travel",
-            "label": "準備出發？",
-            "startdescription": "我需要現金來支付路費。",
-            "requirements": {
-                "op": -1,
-                "connection": -1,
-                "destination": 1
-            },
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "travel.showslot",
-            "actionid": "travel",
-            "label": "準備出發",
-            "startdescription": "是時候動身了。我有忘記什麼嗎？[你只能攜帶隨身資產。使用“出讓”來丟棄任何你不想攜帶的資產。出發將終止所有正在進行的清算人行動並清除所有的痕跡，但也將放棄資產、場地和當地聯絡人，並終止你自己正在進行的行動。]",
-            "slots": [
-                {
-                    "id": "preparations",
-                    "label": "準備工作",
-                    "required": {
-                        "portable": 1
-                    },
-                    "greedy": true
-                }
-            ],
-            "alt": [
-                {
-                    "id": "travel.packing"
-                }
-            ],
-            "warmup": 10,
-            "linked": [
-                {
-                    "id": "travel.end.depart"
-                },
-                {
-                    "id": "travel.depart"
-                }
-            ]
-        },
-        {
-            "id": "travel.packing",
-            "actionid": "travel",
-            "label": "正在打包……",
-            "startdescription": "我可能用得上這個。[你可以帶上任何可攜帶的東西。但它們會使你的準備時間變長。]",
-            "requirements": {
-                "asset": 1
-            },
-            "mutations": [
-                {
-                    "filter": "asset",
-                    "mutate": "asset.packed",
-                    "level": 1
-                },
-                {
-                    "filter": "asset.packed",
-                    "mutate": "asset",
-                    "level": -1
-                }
-            ],
-            "linked": [
-                {
-                    "id": "travel.showslot"
-                }
-            ]
-        },
-        {
-            "id": "travel.end.depart",
-            "actionid": "travel",
-            "label": "去往地圖之疆",
-            "startdescription": "我的盟友只能陪我到這裡。是時候說再見了。",
-            "requirements": {
-                "end": 1
-            },
-            "extantreqs": {
-                "ally": 1
-            },
-            "purge": {
-                "ally": 100
-            },
-            "deleteverb": {
-                "ally.trail.false*": 1
-            },
-            "warmup": 10,
-            "linked": [
-                {
-                    "id": "travel.depart"
-                }
-            ]
-        },
-        {
-            "id": "travel.depart",
-            "actionid": "travel",
-            "label": "啟程",
-            "startdescription": "告別。",
-            "requirements": {
-                "destination": 1
-            },
-            "haltverb": {
-                "rkx*": 100,
-                "opx*": 100,
-                "scout": 1,
-                "use": 1,
-                "send": 1,
-                "relinquish": 1,
-                "spawn.*": 100,
-                "spit.*": 100
-            },
-            "purge": {
-                "trace": 100,
-                "asset": 100,
-                "op": 100,
-                "location": 100,
-                "destination": 100,
-                "contact.local": 100,
-                "rkx.internal": 100,
-                "damage.underling": 100,
-                "domicile": 1
-            },
-            "comments": "Deleting the rkx verb and then recreating it with the alt works fine because effect execution occurs in turn inside each recipe, and the alt with additional gives us another recipe. But keep an eye on this.",
-            "alt": [
-                {
-                    "id": "rkx.arrive.ahead",
-                    "additional": true
-                }
-            ],
-            "warmup": 10,
-            "burnimage": "departure",
-            "linked": [
-                {
-                    "id": "travel.enroute"
-                }
-            ]
-        },
-        {
-            "id": "travel.enroute",
-            "actionid": "travel",
-            "label": "在途中……",
-            "startdescription": "我在路上……",
-            "mutations": [
-                {
-                    "filter": "destination",
-                    "mutate": "lure.foe",
-                    "level": -1
-                },
-                {
-                    "filter": "destination",
-                    "mutate": "rkx.infected",
-                    "level": -1
-                }
-            ],
-            "aspects": {
-                "arriving": 1
-            },
-            "linked": [
-                {
-                    "id": "travel.stillenroute.remote"
-                },
-                {
-                    "id": "travel.arrive"
-                }
-            ]
-        },
-        {
-            "id": "travel.stillenroute.remote",
-            "actionid": "travel",
-            "label": "在途中……",
-            "startdescription": "穿過黑暗，進入新的一天。我已經走得足夠遠了，清算人必須比平時更加賣力尋找，才有可能找到我。除非他們已經在這裡了？",
-            "requirements": {
-                "remote": 1
-            },
-            "effects": {
-                "obscurity": 1
-            },
-            "warmup": 10,
-            "linked": [
-                {
-                    "id": "travel.arrive"
-                }
-            ]
-        },
-        {
-            "id": "travel.arrive",
-            "actionid": "travel",
-            "label": "到達",
-            "startdescription": "@#domicile.aachen|拉拉·柴瑪在我以前住過的酒店留了言，上面只有一個詞：“中午”。她沒有告訴我中午在哪裡見面，但是柴瑪一向擅長在必要的時候找到她要見的人。\n#domicile.alexandria|即便置身其中，隱形的塞拉皮雍也是隱形的。我可能從下船的那一刻起就已經算是進來了。我得過一段時間才能確定。\n#domicile.algiers|陽光明媚的碼頭上有一排白色的房子。我有M·喬吉奧的一位手下在那裡的地址。\n#domicile.amsterdam|斯特根加兄弟不在城裡——這或許不是巧合——他們那座窗戶很多的房子也是空的。但他們通過管家給我留了口信，說他們請了一位有影響力的客戶來幫助我。\n#domicile.avignon|M·喬吉奧邀請我到他在教皇宮附近訂好的房間裡用餐。\n#domicile.baghdad|珀西·斯泰爾斯在車站等我。他依舊留著一頭滑稽的卷髮，只是因為歲月而變白了不少。他看起來格外像個風流快活的主教。“你來得正是時候，”他一邊說，一邊握著我的手賣力地上下搖晃，“眼下這裡正有個互相幫助的好機會，對咱們兩個都有好處。”\n#domicile.budapest|雖然天氣很冷，但莉莉還是一如既往，在她那位於城市公園中的“宮廷”裡接待來賓。她照舊穿著一身寡婦的黑袍，在與客戶會面的間隙下棋。“我就知道你會來，”她無可奈何地說。“請務必告訴我，你還沒有把他們帶到這裡來吧？”\n#domicile.candia|在抵達克里特島的前一夜，我夢見了地下諸神。醒來後，我走上甲板。星星閃爍著無情的光芒，如同在夜幕上戳出的小孔。夜空晴朗，海平線銳利如刀刃。我身後傳來一個女人的聲音，以我無法理解的語言說出了一個爆裂般的詞語。我轉過身去，發現她只有半張臉，另一半像蝶翅一般布滿鱗片。然後我才真正從夢中醒來，在漆黑悶熱的船艙中孤身一人。\n#domicile.cluj|聽到我提起莉莉的名字，奧拉迪亞咖啡館的常客們都哀傷地搖了搖頭。“她並不和藹，但是很有耐心，”其中一人表示，“不像那個從瓦斯盧伊來的屠夫。但是我們覺得你只能去見見他了。我會替你介紹的。”\n#domicile.granada|米蕾婭的住處在阿爾拜辛區，在阿拉伯語裡，它的原意是：“走了整整一天之後爬到山頂上才能到達的地方，而且所有街道上都沒有燈。”\n#domicile.istanbul|憑藉著凱末爾的名號，我得以在塔克西姆廣場上一家骯髒的咖啡屋裡與一位面龐如鷹的克拉科爾老兵會面。他似乎主要是想抱怨他們的總統和英國人走得太近了。但是等我聽了足夠久以後，他終於不情願地同意了為我提供幫助。\n#domicile.kiev|一下火車，我就聞到了血的氣味。我回過頭去：什麼都沒有，只有煙味和汗臭。這一定是我的錯覺。可是它又來了。紅銅似的血腥味。\n#domicile.krakow|伊茲喬克為我在閣樓上準備了個房間。“我太老了，他們不會殺我的。”他向我擔保說，“假如他們找上門來，我躲在桌子底下哭就是了。”\n#domicile.leningrad|“雅典人”蘇斯金確實還記得我。“我會給你張羅一場風光的葬禮的，”他興高采烈地告訴我，“我打算在季赫溫給你挑塊地皮。雖然很小，但是我不認為你的朋友會給你留什麼全屍。不，別推辭，我一定得這麼做。我也只能為你做這麼多了。”\n#domicile.london|奧塔維奧在維多利亞車站外等我，示威者遊行經過時，他悲傷地搖了搖頭。“人當然得拿工資，”他哀嘆道，“可是瞧這些亂子，這完全沒有必要。你知道嗎？連賽馬場都關門了。還有那些警察！活像一窩鬧哄哄的蜜蜂！也許我也應該罷個工，好叫他們去抓真正的罪犯。”\n#domicile.marrakech|我沒認出納維爾，但他認出了我，並熱情地向我打招呼。“你的心是鋼鐵，”他解釋說，“但是鋼鐵也能成為鏡子，我們能在鏡子中找到輝光。你沒明白我的意思，對嗎？沒關係！接受我的幫助，想離開的時候就離開。你只需要做這麼多。”\n#domicile.meshad|我的朋友隱居在馬什哈德城外的一個小村莊裡。在病倒之後，因為她信仰舊宗教，就去了巴澤胡爾聖火廟祈求治癒。她死在太陽落下之前。我到達時，她的屍體已經被送到塔上舉行天葬了。\n#domicile.munich|雅寧斯伯爵派了一個沉默寡言、傷痕累累的僕人帶我去會面的地點。\n#domicile.nizhny|蘇斯金的手下很警惕，但是當我提起追兵時，其中一個拍了拍我的肩膀，講了些關於清算人的下流話。我假裝自己沒有被冒犯到。\n#domicile.paris|“艾德琳姑姑”的手下是個粗魯無禮的瘦高個，身上穿著一件皮圍裙。他一句話也沒跟我說，只是坐在那裡把大塊的生肉餵給他的狗吃，但是我的話他也聽進去了。我離開的時候，他示意叫一個大塊頭科西嘉人跟我一起走。\n#domicile.prague|“艾德琳姑姑”是個小山一樣的女人，她有著麻雀的眼睛、大熊的脖子、紅彤彤的臉頰，和一副與外表不符的甜美嗓音。 “來幫我砸幾個腦殼嗎？”她熱情洋溢地問道。\n#domicile.rostock|雅寧斯通知過手下我要來。我在這裡想待多久就可以待多久。\n#domicile.samarkand|我的扎吉德派朋友被憂愁壓彎了腰。他幾乎說不出話來。但我還能仰仗他的幫助。\n#domicile.stalingrad|“食鳥者”在一座被燒毀的教堂裡築起了老巢。我確定自己看到了一條大蛇——它像濕漉漉的皮革一般閃閃發亮——我一靠近，它就穿過碎石溜走了。但是祖爾菲亞和其他人堅稱那裡什麼也沒有。\n#domicile.sverdlovsk|祖爾菲亞的朋友現在是政委了。他向我保證，只要我不惹太多麻煩，他就會好好招待我。\n#domicile.strasbourg|博物館旁的小花園裡有個高大的身影在等著我。不仔細看的話，那就像是個披著毯子的男人。就當它確實是吧。他在我耳邊低語時，我並沒有看他。但離開時我卻知曉了一些斯特拉斯堡的隱藏道路。\n#domicile.tiflis|我敲響瓦西爾的房門時，他敞開的窗戶中正傳出留聲機歡快的音樂。\n#domicile.tirana|我的索古派朋友用力地與我握了手。“我能把你引薦給他，”她說，“只要你有足夠的年歲來贏得他的青睞。”\n#domicile.tripoli|走下火車的那一刻，藍天如一聲怒吼撲面而來，金色的砂石彷彿在腳下崩裂，我突然因一陣本不應有的思鄉之情而震顫。\n#domicile.valletta|凱末爾在碼頭區等著我。“我會盡我所能。”他向我保證，“我說的話總督都願意聽。你也了解英國人，他們很可靠，雖然不怎麼聰明。”\n#domicile.venice|歐索麗娜在卡納雷吉歐區開了一家小小的魚餐廳。“你也知道我的毛病，”我上次拜訪她的時候，她這樣說道，“我一向對鱈魚乾完全沒有抵抗力。如果我從來沒嚐過它的話，我現在肯定還生活在土地裡呢。”\n#domicile.vienna|離開車站時，我發現一個頭髮花白、身著黑白兩色衣服的女人在馬路的另一側看著我。人潮從她的面前湧過，她消失得無影無蹤。\n#domicile.bornholm|我在海港的上方找了處房子。當我的大敵到來時，我將會在懸崖上等著他。\n#domicile.cheko|我在小屋的主臥室裡生起了火，又盡我所能地修理了百葉窗。我不知道自己還得在這裡等多久。\n#domicile.ghardaia|每當夜幕降臨，隨著天色轉暗，沙漠中的空氣都會變得像新雪一樣清新，這幾乎讓我忘記了自己為什麼來到這裡。\n#domicile.messana|這裡很安靜。無論他來得多麼悄無聲息，我都能聽到動靜。但我想，他不會選擇暗中潛行，他太驕傲了。\n#domicile.morbihan|“你可以留下來。”院長說，“但是我不會收你的錢。追逐你的是魔鬼。這裡無法為你提供庇護，大地之上沒有任何地方能夠為你提供庇護。”\n#domicile.paro|爬上來需要很長時間，而我確定我的大敵不需要那麼久。但是一旦他追過來，我還能及時看到。\n#domicile.slettnes|我是在黃昏時抵達的。燈光閃爍個不停。它也會把他吸引到這裡來。\n#|我到了。@",
-            "comments": "Converts packed assets back into assets.",
-            "alt": [
-                {
-                    "id": "scout.first",
-                    "additional": true
-                },
-                {
-                    "id": "meeting.navil.chaima",
-                    "additional": true
-                }
-            ],
-            "mutations": [
-                {
-                    "filter": "asset.packed",
-                    "mutate": "asset",
-                    "level": 0
-                },
-                {
-                    "filter": "asset",
-                    "mutate": "asset.packed",
-                    "level": 0
-                }
-            ],
-            "warmup": 10
-        },
-        {
-            "id": "meeting.navil.chaima",
-            "actionid": "meeting.navil.chaima",
-            "label": "重聚",
-            "startdescription": "“柴瑪！”納維爾高興地喊道。“父親。”她也向他致意，但語氣更加謹慎。他們擁抱了一下，納維爾轉身向我微笑。“我的女兒為上校狩獵怪物，而我為獅子匠治癒它們。不過，見到她總是令我很高興。畢竟，在他們反目之前，獅子匠不也是上校的孩子嗎？在世上的所有人當中，你最應當知道這一點。”[請注意厄客德娜。柴瑪對她有興趣。]",
-            "extantreqs": {
-                "domicile.marrakech": 1,
-                "ally.huntress": 1
-            },
-            "warmup": 10
-        },
-        {
-            "id": "turn.begin",
-            "actionid": "time.exile",
-            "label": "日輪轉動",
-            "startdescription": "太陽穿過天空，黑夜緊隨而至。",
-            "warmup": 60,
-            "comments": "No enemies arrive in the first turn.",
-            "alt": [
-                {
-                    "id": "use.first",
-                    "additional": true
-                }
-            ],
-            "linked": [
-                {
-                    "id": "turn.next"
-                }
-            ]
-        },
-        {
-            "id": "turn.next",
-            "actionid": "time.exile",
-            "label": "日輪轉動",
-            "startdescription": "太陽穿過天空，黑夜緊隨而至。[在每個週期結束時，清算人都有可能進入城市。如果場上有痕跡，則此機率將增加，痕跡越多，可能性就越大。]",
-            "warmup": 60,
-            "comments": "using linked recipes so we can select just one possible additional trace response",
-            "linked": [
-                {
-                    "id": "wounds.exile.danger"
-                },
-                {
-                    "id": "turn.check.traces"
-                },
-                {
-                    "id": "turn.check.trace"
-                },
-                {
-                    "id": "turn.check.no.trace"
-                },
-                {
-                    "id": "turn.check.mapedge.traces"
-                },
-                {
-                    "id": "turn.check.mapedge.trace"
-                },
-                {
-                    "id": "turn.check.mapedge.no.trace"
-                },
-                {
-                    "id": "turn.next"
-                }
-            ]
-        },
-        {
-            "id": "turn.check.traces",
-            "actionid": "time.exile",
-            "extantreqs": {
-                "trace": 2,
-                "rkx.underlings.blocker": -1,
-                "diversion.exile": -1,
-                "rkx.foe.defeated": -1
-            },
-            "alt": [
-                {
-                    "id": "rkx.arrive.traces",
-                    "additional": true,
-                    "chance": 70
-                }
-            ],
-            "linked": [
-                {
-                    "id": "wounds.exile.danger"
-                },
-                {
-                    "id": "turn.next"
-                }
-            ]
-        },
-        {
-            "id": "turn.check.trace",
-            "actionid": "time.exile",
-            "extantreqs": {
-                "trace": 1,
-                "rkx.underlings.blocker": -1,
-                "diversion.exile": -1,
-                "rkx.foe.defeated": -1
-            },
-            "alt": [
-                {
-                    "id": "rkx.arrive.trace",
-                    "additional": true,
-                    "chance": 30
-                }
-            ],
-            "linked": [
-                {
-                    "id": "wounds.exile.danger"
-                },
-                {
-                    "id": "turn.next"
-                }
-            ]
-        },
-        {
-            "id": "turn.check.no.trace",
-            "actionid": "time.exile",
-            "extantreqs": {
-                "trace": -1,
-                "rkx.underlings.blocker": -1,
-                "diversion.exile": -1,
-                "rkx.foe.defeated": -1
-            },
-            "alt": [
-                {
-                    "id": "rkx.arrive.no.trace",
-                    "additional": true,
-                    "chance": 10
-                }
-            ],
-            "linked": [
-                {
-                    "id": "wounds.exile.danger"
-                },
-                {
-                    "id": "turn.next"
-                }
-            ]
-        },
-        {
-            "id": "turn.check.mapedge.traces",
-            "actionid": "time.exile",
-            "extantreqs": {
-                "trace": 2,
-                "rkx.foe": -1,
-                "rkx.underlings.blocker": 1,
-                "diversion.exile": -1,
-                "rkx.foe.defeated": -1
-            },
-            "alt": [
-                {
-                    "id": "rkx.foe.arrive.mapedge",
-                    "additional": true,
-                    "chance": 70
-                }
-            ],
-            "linked": [
-                {
-                    "id": "wounds.exile.danger"
-                },
-                {
-                    "id": "turn.next"
-                }
-            ]
-        },
-        {
-            "id": "turn.check.mapedge.trace",
-            "actionid": "time.exile",
-            "extantreqs": {
-                "trace": 1,
-                "rkx.foe": -1,
-                "rkx.underlings.blocker": 1,
-                "diversion.exile": -1,
-                "rkx.foe.defeated": -1
-            },
-            "alt": [
-                {
-                    "id": "rkx.foe.arrive.mapedge",
-                    "additional": true,
-                    "chance": 30
-                }
-            ],
-            "linked": [
-                {
-                    "id": "wounds.exile.danger"
-                },
-                {
-                    "id": "turn.next"
-                }
-            ]
-        },
-        {
-            "id": "turn.check.mapedge.no.trace",
-            "actionid": "time.exile",
-            "extantreqs": {
-                "rkx.foe": -1,
-                "rkx.underlings.blocker": 1,
-                "diversion.exile": -1,
-                "rkx.foe.defeated": -1
-            },
-            "alt": [
-                {
-                    "id": "rkx.foe.arrive.mapedge",
-                    "additional": true,
-                    "chance": 10
-                }
-            ],
-            "linked": [
-                {
-                    "id": "wounds.exile.danger"
-                },
-                {
-                    "id": "turn.next"
-                }
-            ]
-        },
-        {
-            "id": "wounds.exile.danger",
-            "actionid": "time.exile",
-            "label": "清算已至",
-            "startdescription": "天空漸漸遠去，其他一切也終將如此。[如果本週期結束時，你依舊有七道傷口，你就會死去。]",
-            "extantreqs": {
-                "damage.exile": 7
-            },
-            "warmup": 15,
-            "signalEndingFlavour": "Melancholy",
-            "linked": [
-                {
-                    "id": "wounds.exile.ending"
-                },
-                {
-                    "id": "turn.next"
-                }
-            ]
-        },
-        {
-            "id": "wounds.exile.ending",
-            "actionid": "time.exile",
-            "label": "清算已至",
-            "extantreqs": {
-                "damage.exile": 7
-            },
-            "ending": "foecaughtup"
-        },
-        {
-            "id": "spawn.obscurity",
-            "actionid": "spawn.obscurity",
-            "label": "時間的女兒",
-            "startdescription": "如果真相是時間的女兒，那麼忘卻是誰的孩子？[你獲得了“隱秘”。]",
-            "extantreqs": {
-                "rkx.foe": -1
-            },
-            "effects": {
-                "obscurity": 1
-            },
-            "warmup": 5
-        },
-        {
-            "id": "spawn.trace",
-            "actionid": "spawn.trace",
-            "label": "痕跡！",
-            "startdescription": "人在世上行走時，很難不留下足跡。[清算人會用痕跡來找到你。]",
-            "effects": {
-                "trace": 1
-            },
-            "warmup": 5
-        }
-    ]
+	"recipes": [
+		{
+			"id": "travel.first",
+			"label": "夠遠，而且盡快",
+			"startdescription": "我手頭的現金支付路上的開銷綽綽有餘——但是我可能得輕裝出行。[離開一座城市會甩掉追兵——但他們最終將再次找到你。]"
+		},
+		{
+			"id": "travel.caper.begin",
+			"label": "行動開始",
+			"startdescription": "進去，辦事，再出來。我可不認為事情會這麼簡單。",
+			"description": "我出發了。[多留意進行中的操作，流程中可能遭遇難關。]"
+		},
+		{
+			"id": "opx.caper.progress3",
+			"label": "戰利品！",
+			"startdescription": "我正是為此而來。"
+		},
+		{
+			"id": "opx.caper.progress2",
+			"label": "最後的難關……",
+			"startdescription": "馬上就成了——"
+		},
+		{
+			"id": "opx.caper.progress1",
+			"label": "另一個難關……",
+			"startdescription": "又怎麼了？"
+		},
+		{
+			"id": "opx.caper.populate",
+			"label": "忙碌的夜晚即將到來",
+			"startdescription": "準備好了。 [累積三層進展即判定為成功。此前需要戰勝難關。]"
+		},
+		{
+			"id": "opx.caper.next",
+			"label": "一個難關",
+			"startdescription": "@#ee.armouredgate|一道沉重而堅實的門擋住了我的去路。\n#ee.avidadept|“一位精於杯相的學徒早已駐紮在這裡。為了應對她的伎倆，你得做好準備。”\n#ee.bosk|多刺樹枝的輕撫，暗綠的氣息，我掌下滑動的毛絨觸感，漆黑而鼓動著的黑暗……林地在此處無比貼近世界的表皮。\n”#ee.coiltrace|“那股力量本身，地表之下的那個東西。防剿局說它最初只是七蟠的一條小卷鬚。那個舊日神靈，你明白吧？神明的血肉開始腐爛，裡面滋生了一些別的東西。他們稱之為蠕蟲。我勸你小心點。這不是危言聳聽。”\n#ee.crags|“很多上去的通道都被堵住了。你要嘛得找出一條路，要嘛就得自己造一條。我想過給你搞點炸藥，但是防剿局不喜歡炸藥，而軍方不喜歡我。”\n#ee.creepinghorror|悚然的恐怖滲入肌膚。靠近點，黑夜說。再靠近點。\n#ee.deceiver|這裡潛伏著一個狡詐的生物！\n#ee.devourer|這裡潛伏著一個擁有毀滅性力量的生物！有些怪物是獅子匠的孩子，有些是厄客德娜所生，有些二者皆是。除此之外的那些則更糟。\n#ee.feast|為了前往我的目的地，我需要一場儀式，或者一場盛宴。我很想把它當成一場聚會，儘管這不是我會自願參加的那種。無論古怪的醉意是否降臨，我都必須保持頭腦冷靜。不然我返回時能帶走的就只有宿醉了。\n#ee.fretfuldead|遍身蛛網、目光嚴苛的死屍——儘管身體脆弱，他們卻比看起來更敏捷。他們的觸碰能直接從肌膚中抽走歲月。\n#ee.guardedcompound|這個地方被嚴密看守著——有高牆，有塔樓，還有守衛。\n#ee.labyrinthseal|一組不同尋常的機械裝置封住了帶有裝甲的藏寶庫門。我不清楚它究竟是超自然的造物還是機械學的作品，但是我知道它一定會為我添很多麻煩。\n#ee.ligeian|一位麗姬亞！我沒辦法擊敗她，但是我能讓她相信我不值得她動勞。\n#ee.miasma|一片黏稠、惡臭的瘴氣。我感覺頭暈腦脹。\n#ee.mist|絲毧那位無名的具名者曾從此地經過。這霧氣正是她灰衣的褶邊。它必將如地獄般難以從中穿行。\n#ee.monks|這個地方的守衛不易被賄賂或誘惑所打動。 有人說這是因為他們發過神聖的誓言，但我懷疑這是因為他們嚴密監視著彼此。\n#ee.ordeal.agony|現在我面臨著一道苦痛的磨練。 我經歷過類似的事，這就是為什麼我不希望再來一次。我仍舊帶著上一次的疤痕，儘管不在皮膚上。\n#ee.ordeal.desolation|現在我面臨著一道孤寂的磨練——一場靈魂的日落。\n#ee.ordeal.enigma|現在我面臨著一道謎題的磨練——有兩條通行之路：全知全曉，或是一無所知。\n#ee.percussigant|一團跌跌撞撞地旋轉著的、長著皮毛與利爪的音樂立刻吸引了我的注意。是一隻擂擊者！\n#ee.scarredduellist|一位傷痕累累的決鬥者向我致意。\n#ee.securevault|一座沉重的藏寶庫門，上面有一把令人印象深刻的鎖。\n#ee.shadowedway|入口就在這裡的某處。 我只需要找到它。\n#ee.soldiers|武裝人員守衛著這個地方。\n#ee.storm|雷聲緊隨著閃電穿過雲層，驟雨如重拳般落下。\n#ee.strixriddenadversary|一位決鬥者尖嘯著向我奔襲而來。他緊繃的肌肉震顫著，眼睛黑中帶金，如同貓頭鷹的眼睛。他已被林鴞所掌控——那是刃之神靈的一位多翼的具名者。\n#ee.thugs|一群粗魯無禮的不法之徒在此處遊蕩，渴望著能找點麻煩。\n#ee.unknownlocation|一處不為人知的地方。我甚至必須得先弄明白它到底在哪裡。\n#ee.unwelcomememories|不愉快的回憶！四周牆上的鏡子閃閃爍爍，我看到了我自己，在那些侍奉我的大敵的日子裡，我經受過的事情，還有比那更糟糕的，我做過的事情——\n#ee.vigil|教眾的歌聲逐漸柔和，變得就像一支搖籃曲。 我發覺自己必須硬撐著才能不閉上眼睛。 我的腦袋裡彷彿塞滿了羽毛。無論如何，我都必須保持清醒，直至天亮。\n一個難關即將到來。@\n[大多數的難關都能用足夠的對應性相解決。]",
+			"slots": [
+				{
+					"id": "response",
+					"label": "回應"
+				}
+			]
+		},
+		{
+			"id": "opx.caper.tryresolve.edge",
+			"label": "暴力就是答案",
+			"startdescription": "@#ee.devourer|這裡盤踞著一個擁有毀滅性力量的生物。而我比它強得多。\n#ee.soldiers|嘈雜，混亂，但這是必要的。 現在我必須得把靴子擦乾淨了。\n#|我使用了力量。@"
+		},
+		{
+			"id": "opx.caper.tryresolve.forge",
+			"label": "錘與砧",
+			"startdescription": "@#ee.mist|火焰和匠心再一次為我所用。\n#ee.securevault|我闖入了藏寶庫。\n#|我使用了匠心。@"
+		},
+		{
+			"id": "opx.caper.tryresolve.grail",
+			"label": "貪慾與欺瞞",
+			"startdescription": "@#ee.soldiers|我和守衛此地的士兵們達成了協議。#|我使用了賄賂。@"
+		},
+		{
+			"id": "opx.caper.tryresolve.heart",
+			"label": "不休之鼓",
+			"startdescription": "@#|我使用了存續。@"
+		},
+		{
+			"id": "opx.caper.tryresolve.knock",
+			"label": "所有創口都是門洞",
+			"startdescription": "@#|我打開了封閉之物。@"
+		},
+		{
+			"id": "opx.caper.tryresolve.lantern",
+			"label": "光照",
+			"startdescription": "@#ee.mist|守夜人先於絲毧而來”，這是學徒們會說的那種話。我想它的意思是說，迷霧也只不過是一種特別潮濕的黑暗。#|我驅散了黑暗。@"
+		},
+		{
+			"id": "opx.caper.tryresolve.moth",
+			"label": "煙霧與鏡子",
+			"startdescription": "@#ee.devourer|這裡盤踞著一個擁有毀滅性力量的生物。我不能正面對敵，所以我用了詭計。\n#ee.soldiers|本應守衛此地的士兵們早已亂鬨鬨地衝進了夜色之中。在他們回來前我應該會有剛好足夠的時間——\n#|我使用了詭計。@"
+		},
+		{
+			"id": "opx.caper.tryresolve.secrethistories",
+			"label": "並非只有一重歷史",
+			"startdescription": "@#|我使用了知識。@"
+		},
+		{
+			"id": "opx.caper.tryresolve.winter",
+			"label": "夜色加深",
+			"startdescription": "@#|我使用了耐心。@"
+		},
+		{
+			"id": "opx.caper.lucky",
+			"label": "好運",
+			"startdescription": "換成別人，應該早就放棄了。[沒有對應性相時，偶爾也能突破難關。]"
+		},
+		{
+			"id": "opx.caper.makeprogress",
+			"label": "進展",
+			"startdescription": "下一步是什麼？"
+		},
+		{
+			"id": "opx.caper.success",
+			"label": "成功！",
+			"startdescription": "我安全地帶著戰利品逃脫了！"
+		},
+		{
+			"id": "opx.caper.failure",
+			"label": "災難般的結果！",
+			"startdescription": "行動失敗了！"
+		},
+		{
+			"id": "travel.visit.serapeum.peristasis",
+			"label": "和布萊克伍德博士交談",
+			"startdescription": "“你知道我從來不贊同你的職業選擇，”她告訴我，“我也沒空評價你的辭職方式。但是我很高興看到你與那個混蛋分道揚鑣了。我就當你是出於道德才做出這個決定的吧。當然，我會給你一點力所能及的小小幫助。”",
+			"slots": [
+				{
+					"id": "assistancewith",
+					"label": "協助"
+				}
+			]
+		},
+		{
+			"id": "travel.visit.serapeum.peristasis.pentiment",
+			"label": "和布萊克伍德博士交談",
+			"startdescription": "“驕陽之書！我真想直接把採購部的人叫來，但是塞拉皮雍由白日鑄爐所庇護，這就意味著我們不能這麼做。為什麼？你知道什麼是<i>pentimento</i>嗎？那是藝術家的遺憾。原本打算的事並非如此，且仍有痕跡留存。留下來的痕跡遠比作者所料想的要多。”"
+		},
+		{
+			"id": "travel.visit.serapeum.peristasis.heal",
+			"label": "和布萊克伍德博士交談",
+			"startdescription": "“恐怕我們這裡的醫學知識有限。如果我還在噤聲圖書館，情況就完全不一樣了……但是我們會盡力而為。”[這最多可以治療三道傷口。]"
+		},
+		{
+			"id": "travel.visit.serapeum.peristasis.hide",
+			"label": "和布萊克伍德博士交談",
+			"startdescription": "“恐怕他最後還是會找到你，但我看不出我們有什麼理由讓他稱心如意。”[這將清除目前的所有痕跡並生成一個偽造的行蹤。]"
+		},
+		{
+			"id": "travel.visit.shrine.lionsmith.tripoli.pentiment.colonel",
+			"label": "在安泰俄斯神廟中",
+			"startdescription": "縱然陽光斑駁地照射在沙石地上，聖所中依然又靜又冷。“這裡只剩下我一個了，”老人平靜地說，“所以也只有我知道她被埋葬在這裡——就在這聖壇的巨石之下。你要知道，凡人的軀體難以產下大地之子，她的心臟也因此爆裂。然後你父親就把你帶走了……”",
+			"description": "老人走後，我依然留在聖所，直到僅餘框架的窗外群星閃爍，空氣也隨著夜幕降臨變得寒冷刺骨。他離開前把一件禮物塞進我的手心——我降生時所覆肉膜的一塊殘片。“你是在那把碎劍下誕生的，”他說，“所以我們一直在期待著你選擇反叛。我們未曾料到你會選擇背叛獅子匠，但選擇是自由的陰影。”"
+		},
+		{
+			"id": "travel.visit.shrine.lionsmith.tripoli.pentiment",
+			"label": "在安泰俄斯神廟中",
+			"startdescription": "縱然陽光斑駁地照射在沙石地上，聖所中依然又靜又冷。“這裡只剩下我一個了，”老人平靜地說，“所以也只有我知道她被埋葬在這裡——就在這聖壇的巨石之下。你要知道，凡人的軀體難以產下大地之子，她的心臟也因此爆裂。然後你父親就把你帶走了……”",
+			"description": "老人走後，我依然留在聖所，直到僅餘框架的窗外群星閃爍，空氣也隨著夜幕降臨變得寒冷刺骨。他離開前把一件禮物塞進我的手心——我降生時所覆肉膜的一塊殘片。“你是在那把碎劍下誕生的，”他說，“所以我們一直在期待著你選擇反叛。誠然，反叛之後必定會有更加艱難的選擇。”"
+		},
+		{
+			"id": "travel.visit.shrine.lionsmith.tripoli.pentiment.after",
+			"label": "在安泰俄斯神廟中",
+			"startdescription": "今天這裡沒有老人的蹤跡。"
+		},
+		{
+			"id": "travel.visit.serapeum.peristasis.obscure",
+			"label": "和布萊克伍德博士交談",
+			"startdescription": "“沒錯，既然你提到了這個。關於避免不必要的注意，我們確實知道一點方法。”[這將生成三張“隱秘”。]"
+		},
+		{
+			"id": "travel.visit.shrine.colonel.blocked.hint",
+			"label": "敵對的神祠？",
+			"startdescription": "我效忠於獅子匠，上校的永恆之敵。我在這裡不受歡迎。"
+		},
+		{
+			"id": "travel.visit.shrine.lionsmith.blocked.hint",
+			"label": "敵對的神祠？",
+			"startdescription": "我效忠於上校，獅子匠的永恆之敵。我在這裡不受歡迎。"
+		},
+		{
+			"id": "travel.visit.shrine.blocked.tranquillity",
+			"label": "安寧的反面",
+			"startdescription": "今天不行。我繼續走著，用口哨吹著我以為自己早已忘卻的曲調。[當場上有“安寧”時，你不能進入獅子匠或上校的神祠。]"
+		},
+		{
+			"id": "travel.visit.shrine.abandonobscurity.hint",
+			"label": "獻祭的可能？",
+			"startdescription": "這裡尊崇的神靈可能會接受某種特定的誓言。但是此舉現在還不能讓你得到什麼回報。[當場上有<b>誘惑：反抗</b>時，再試試。]"
+		},
+		{
+			"id": "travel.visit.shrine.consecration.hint",
+			"label": "你已宣誓皈依",
+			"startdescription": "向衝突之神宣誓皈依——不可反悔，就像傷疤與背叛無法復原。[你不能宣誓兩次。]"
+		},
+		{
+			"id": "travel.visit.shrine.colonel.upgrade.hint",
+			"label": "拜訪鐵之神祠？",
+			"startdescription": "我花了幾十年的時間來避免和司辰打交道。也許是時候改變了。"
+		},
+		{
+			"id": "travel.visit.shrine.colonel.consecrated.weapon",
+			"label": "去鐵之神祠朝聖，以取回聖物",
+			"startdescription": "上校的神祠中有時有火藥的氣味，有時則是雪的氣味。我已經掌握了他的奧義。如果我在他的神祠裡冥想，或許會找到一些留給我的東西。[每次以上校之名進行的冥想都會造成傷口。]",
+			"description": "我在祭壇下方找到了一件很久之前留給我的東西。"
+		},
+		{
+			"id": "travel.visit.shrine.colonel.consecrated.revelation",
+			"label": "去鐵之神祠朝聖，以尋求啟示",
+			"startdescription": "上校的神祠中有時有火藥的氣味，有時則是雪的氣味。我已經掌握了他的奧義。如果我在他的神祠裡冥想，或許我會聽見他的聲音。[每次以上校之名進行的冥想都會造成傷口。]",
+			"description": "神祠中的陰影愈加濃厚。我與上校一般目盲。具名者奎里努斯手持雙頭長矛站在我面前，但我卻看不見他。“大地之子啊，”他低聲說，“這是給你的智慧。”[你了解了大敵的一個弱點。]"
+		},
+		{
+			"id": "travel.visit.shrine.colonel.consecrated.upgrade",
+			"label": "去鐵之神祠朝聖",
+			"startdescription": "上校的神祠中有時有火藥的氣味，有時則是雪的氣味。在此冥想會讓我更深刻地理解上校具名者教導的技巧。[每次以上校之名進行冥想都會造成傷口。]",
+			"description": "每次舉行這個儀式都要付出鮮血。我躺在神祠裡，在意識昏沉的迷亂之中，我覺得自己聽到了多翼者在房椽間低語。“鮮血歸於大地，鮮血歸於……”"
+		},
+		{
+			"id": "travel.visit.shrine.colonel.upgrade",
+			"label": "拜訪鐵之神祠",
+			"startdescription": "上校的神祠中有時有火藥的氣味，有時則是雪的氣味。 @#fragmentedgeg.exile|我學不到什麼新東西了，但我能獲得活力來治癒傷口。#|我能在這裡學到更多<b>刃</b>的戰鬥奧秘。@",
+			"description": "我的骨頭嘎吱作響，我的聽覺愈加敏銳。"
+		},
+		{
+			"id": "travel.visit.shrine.lionsmith.upgrade.hint",
+			"label": "拜訪銅之神祠？",
+			"startdescription": "我花了幾十年的時間來避免和司辰打交道。也許是時候改變了。"
+		},
+		{
+			"id": "travel.visit.shrine.lionsmith.consecrated.weapon",
+			"label": "去銅之神祠朝聖，以取回聖物",
+			"startdescription": "獅子匠神祠中的氣味明亮如熾熱的黃銅，腥臭如大型的貓科動物。我已經掌握了他的奧義。如果我在他的神祠裡冥想，或許會找到一些留給我的東西。[每次以獅子匠之名進行冥想都會造成狂怒。]",
+			"description": "我在祭壇下方找到了一件很久之前留給我的東西。"
+		},
+		{
+			"id": "travel.visit.shrine.lionsmith.consecrated.revelation",
+			"label": "去銅之神祠朝聖，以尋求啟示",
+			"startdescription": "獅子匠神祠中的氣味明亮如熾熱的黃銅，腥臭如大型的貓科動物。我已經掌握了他的奧義。如果我在他的神祠裡冥想，或許我會聽見他的聲音。[每次以獅子匠之名進行冥想都會造成狂怒。]",
+			"description": "日光像血一般滴入我的雙眼，我眼中所見只有一片金光。具名者曼尼特嚎叫著站在光中，但我無法看到她的身影。“大地之子！”她嘶聲低語道，“聽我說！”[你了解了大敵的一個弱點。] "
+		},
+		{
+			"id": "travel.visit.shrine.lionsmith.consecrated.upgrade",
+			"label": "去銅之神祠朝聖",
+			"startdescription": "獅子匠神祠中的氣味明亮如熾熱的黃銅，腥臭如大型的貓科動物。在此冥想會讓我更深刻地理解獅子匠具名者教導的技巧。[每次以獅子匠之名進行冥想都會造成狂怒。]",
+			"description": "我的力量淹沒了我的思想，我環繞神殿而行，發出野獸般的咆哮。透過狂怒的迷霧，我覺得自己聽到了多翼者在房椽間低語。“大地之力。大地之……”"
+		},
+		{
+			"id": "travel.visit.shrine.lionsmith.upgrade",
+			"label": "拜訪銅之神祠",
+			"startdescription": "獅子匠神祠中的氣味明亮如熾熱的黃銅，腥臭如大型的貓科動物。@#fragmentedgeg.exile|我學不到什麼新東西了，但我能獲得活力來治癒傷口。#|我能在這裡學到更多<b>刃</b>的戰鬥奧秘。@",
+			"description": "我正變得更加強大。"
+		},
+		{
+			"id": "travel.visit.shrine.consecration.colonel",
+			"label": "向上校宣誓皈依",
+			"startdescription": "我將把自己奉獻給上校。[這將使你受傷並限制你與獅子匠的交易，但會提升反抗等級，並開啟通向上校奧義之路。]",
+			"description": "我已蒙上自己的雙眼，在肌膚上刻下疤痕。我已用九重忍耐之誓言束縛己身。我是上校的士兵，他永不會解除我的職責。"
+		},
+		{
+			"id": "travel.visit.shrine.consecration.lionsmith",
+			"label": "向獅子匠宣誓皈依",
+			"startdescription": "我將把自己奉獻給獅子匠。[這將激怒你並限制你與上校的交易，但會提升反抗等級，並開啟通向獅子匠奧義之路。]",
+			"description": "我已使猛獸流血，並燒焦了自己的皮膚。我已經歷了三重英勇試煉。我是獅子匠的戰士，除非有朝一日他解除我的職責。"
+		},
+		{
+			"id": "travel.visit.shrine.colonel.abandonobscurity",
+			"label": "不屈誓言",
+			"startdescription": "我或許會選擇接受不屈誓言。它要求我不計代價，堅持到底。[這將給予你一道傷口，並使你無法獲取隱秘勝利，但是會提升你的反抗等級。]",
+			"description": "“每一樁苦難都是教訓，每一道傷疤都是武器。沒有失敗，唯有毀滅。”",
+			"slots": [
+				{
+					"id": "defiance",
+					"label": "反抗"
+				}
+			]
+		},
+		{
+			"id": "travel.visit.shrine.lionsmith.abandonobscurity",
+			"label": "黃銅誓言",
+			"startdescription": "我或許會選擇接受黃銅誓言。它要求我保持勇氣，即使是在最危急的境地中。[這將給予你一張“狂怒”，並使你無法獲取隱秘勝利，但是會提升你的反抗等級。]",
+			"description": "“力量源於勇氣。勇氣源於力量。沒有失敗，唯有恥辱。”",
+			"slots": [
+				{
+					"id": "defiance",
+					"label": "反抗"
+				}
+			]
+		},
+		{
+			"id": "travel.visit.shrine.nameless.hint",
+			"label": "昂首離去",
+			"startdescription": "我不會在這裡浪費時間。[“狂怒”存在時無法使用這座神祠。]"
+		},
+		{
+			"id": "travel.visit.shrine.nameless.pentiment",
+			"label": "向那位無名的具名者獻上一件覆畫殘跡",
+			"startdescription": "這次，一些事會被適當地遺忘。"
+		},
+		{
+			"id": "travel.visit.shrine.nameless.pentiment.ii",
+			"label": "向那位無名的具名者獻上第二件覆畫殘跡",
+			"startdescription": "霧氣屏息以待。",
+			"slots": [
+				{
+					"id": "pentiment",
+					"label": "覆畫殘跡"
+				}
+			]
+		},
+		{
+			"id": "travel.visit.shrine.nameless.pentiment.iii",
+			"label": "向那位無名的具名者獻上第三件覆畫殘跡",
+			"startdescription": "更多將被絲毧埋葬之物。",
+			"slots": [
+				{
+					"id": "pentiment",
+					"label": "覆畫殘跡"
+				}
+			]
+		},
+		{
+			"id": "travel.visit.shrine.nameless.pentiment.iv",
+			"label": "向那位無名的具名者獻上第四件覆畫殘跡",
+			"startdescription": "讓世界的表皮光滑乾淨。",
+			"slots": [
+				{
+					"id": "pentiment",
+					"label": "覆畫殘跡"
+				}
+			]
+		},
+		{
+			"id": "travel.visit.shrine.nameless.pentiment.v",
+			"label": "向那位無名的具名者獻上第五件覆畫殘跡",
+			"startdescription": "隱秘的罪行，隱秘的懊悔，隱秘的喜悅——都遺失在林地之中。",
+			"slots": [
+				{
+					"id": "pentiment",
+					"label": "覆畫殘跡"
+				}
+			]
+		},
+		{
+			"id": "travel.visit.shrine.nameless.pentiment.vi",
+			"label": "向那位無名的具名者獻上第六件覆畫殘跡",
+			"startdescription": "迷霧之中：大地與黑色苔蘚的氣息。",
+			"slots": [
+				{
+					"id": "pentiment",
+					"label": "覆畫殘跡"
+				}
+			]
+		},
+		{
+			"id": "travel.visit.shrine.nameless.pentiment.vii",
+			"label": "向那位無名的具名者獻上第七件覆畫殘跡",
+			"startdescription": "迷霧之中：巨大的鎖鏈發出深沉刺耳的隆隆聲。",
+			"slots": [
+				{
+					"id": "pentiment",
+					"label": "覆畫殘跡"
+				}
+			]
+		},
+		{
+			"id": "travel.visit.shrine.nameless.pentiment.final",
+			"label": "進入迷霧",
+			"startdescription": "成了。我舒展了一下身體，擰了擰我的脖子。我周圍的霧氣正在消散……但並未完全散去。絲毧一定喜歡我的禮物。接下來，我將行走於那位無名的具名者衣褶的庇護中。也就是說，你們這些混蛋要是<i>現在</i>還想找到我，就自求多福吧。"
+		},
+		{
+			"id": "travel.visit.shrine.nameless.pentiment.break",
+			"label": "黎明將至",
+			"startdescription": "這是一個開始。但是還沒有足夠的秘密來引起絲毧的矚目。總要七個秘密才能成事。霧氣在我身邊消散，神祠已消失無蹤。"
+		},
+		{
+			"id": "travel.visit.shrine.nameless.downgrade",
+			"label": "向迷霧獻上秘密",
+			"startdescription": "我點燃蠟燭，等待。[這會永久性地將你的密傳降低一級，但會給你一張“隱秘”與一張“安寧”。]",
+			"description": "迷霧既不飄動，也不靜止。夜晚寂靜無聲。過了一會，燭火垂下頭去，優雅地掙扎了片刻，便在一堆蠟油中結束了生命。什麼也沒有發生。"
+		},
+		{
+			"id": "travel.visit.shrine.nameless",
+			"label": "於迷霧中休憩片刻",
+			"startdescription": "我倚靠在牆上等待。[這會產生一張“安寧”。]",
+			"description": "迷霧既不飄動，也不靜止。夜晚寂靜無聲。一小時後，我回到了床上，今晚我一定會休息得很好。"
+		},
+		{
+			"id": "travel.wilderness.leave",
+			"label": "哪裡都行，只要不是這裡",
+			"startdescription": "我必須繼續前行。[你可能到達任何地方。]"
+		},
+		{
+			"id": "travel.rage.hint",
+			"label": "不",
+			"startdescription": "一想到要<i>再次</i>逃跑，我的熱血就沸騰起來。我必須回頭戰鬥，直至狂怒平息。[狂怒時不能離開城市。]"
+		},
+		{
+			"id": "travel.ally.duplicate.hint",
+			"label": "煙霧彈太多了",
+			"startdescription": "[你一次只能派出一名盟友去偽造行蹤。]"
+		},
+		{
+			"id": "travel.ally.hint",
+			"label": "派一名盟友去偽造行蹤？",
+			"startdescription": "[放入一個你還沒去過的城市。]"
+		},
+		{
+			"id": "travel.ally",
+			"label": "派一名盟友去偽造行蹤",
+			"startdescription": "這件事是有風險的，但什麼事情沒有風險呢？[只要場上存在偽造的行蹤，清算人就不會找到你。你將永遠無法前往這個城市。你的盟友偽造行蹤需要花費的時間無法預測；在這段時間內你聯繫不上他們；並且有很小的可能性，他們永遠不會回來。]",
+			"description": "此人正在途中。"
+		},
+		{
+			"id": "ally.trail.false.begin",
+			"label": "準備偽造行蹤……",
+			"startdescription": "@#ally.barber|祖爾菲亞正在安排一場合適的混亂。\n#ally.delver||歐索麗娜正在有條不紊地工作。\n#ally.fivegoer|瓦西爾似乎要準備一場聚會。\n#ally.ghoul|多明卡斯正在密謀。\n#ally.huntress||拉拉·柴瑪正在製造有用的混亂。\n#ally.smuggler|喬吉奧打算在轉移那些人的注意力的同時順便撈上一筆。\n#ally.visionary|米蕾婭準備做一些令人難忘的事情。\n#ally.vivisectionist雅寧斯正在安排他的資源。@ [每一輪都有一定機率成功偽造行蹤。]"
+		},
+		{
+			"id": "ally.trail.false.create",
+			"label": "正在偽造行蹤",
+			"startdescription": "@#ally.barber|祖爾菲亞安排了一場合適的混亂。\n#ally.delver||歐索麗娜有條不紊地完成了她的工作。\n#ally.fivegoer|瓦西爾的慶祝活動吸引了所有人的注意力。\n#ally.ghoul|多明卡斯完成了密謀。\n#ally.huntress||拉拉·柴瑪製造了有用的混亂。\n#ally.smuggler|喬吉奧成功地在轉移那些人的注意力的同時撈上了一筆。\n#ally.visionary|米蕾婭完成了令人難忘的作品。\n#ally.vivisectionist雅寧斯已經把資源安排好了。@",
+			"description": "我的盟友已經成功偽造了我的行蹤。他會隱藏起自己的蹤跡然後馬上回來——我希望如此。"
+		},
+		{
+			"id": "ally.trail.false.waiting",
+			"label": "等待……",
+			"startdescription": "快要回來了？"
+		},
+		{
+			"id": "ally.trail.false.waiting.displaytext",
+			"label": "等待……",
+			"startdescription": "@#ally.barber|祖爾菲亞完成了任務。只要她能安全上路，那她馬上就會回來。#ally.delver|歐索麗娜完成了任務。只要她能安全上路，那她馬上就會回來。#ally.fivegoer|瓦西爾完成了任務。只要他能安全上路，那他馬上就會回來。#ally.ghoul|多明卡斯完成了任務。只要他能安全上路，他那馬上就會回來。#ally.huntress|拉拉·柴瑪完成了任務。只要她能安全上路，那她馬上就會回來。#ally.smuggler|喬吉奧完成了任務。只要他能安全上路，那他馬上就會回來。#ally.visionary|米蕾婭完成了任務。只要她能安全上路，那她馬上就會回來。#ally.vivisectionist|雅寧斯完成了任務。只要他能安全上路，那他馬上就會回來。@"
+		},
+		{
+			"id": "ally.trail.false.returning",
+			"label": "回歸……",
+			"startdescription": "@#ally.barber|祖爾菲亞在回來的路上。\n#ally.delver|歐索麗娜在回來的路上。\n#ally.fivegoer|瓦西爾在回來的路上。\n#ally.ghoul|多明卡斯在回來的路上。\n#ally.huntress|拉拉·柴瑪在回來的路上。\n#ally.smuggler|喬吉奧在回來的路上。\n#ally.visionary|米蕾婭在回來的路上。\n#ally.vivisectionist|雅寧斯在回來的路上。@"
+		},
+		{
+			"id": "ally.trail.false.lost",
+			"label": "失去……",
+			"startdescription": "@#ally.barber|祖爾菲亞消失了。那可能意味著任何事情。但我想我不會再見到她了。\n#ally.delver|我想，歐索麗娜回到大地之中去了——不管是以什麼方式。\n#ally.fivegoer|我差點錯過這篇文章：關於在行李箱中發現屍體的報告，那具屍體有一些“非常獨特的解剖學特徵”。那隻可能是瓦西爾。\n#ally.ghoul|一篇報導中稱，立陶宛的一個“大人物”被發現中毒身亡。多明卡斯說不定會喜歡“大人物”這個稱呼。\n#ally.huntress|人們發現了柴瑪的屍體，邊上還有三具男屍，他們全都在雙眼之間乾淨俐落地中了槍。她至死都在戰鬥。\n#ally.smuggler|看來喬吉奧被他的老仇人找上了門。 那甚至都不是清算人做的——只是他的眾多競爭對手之一。\n#ally.visionary|米蕾婭被逮捕了，罪名是“洩露秘密”。\n#ally.vivisectionist|我今天讀到了關於一位德國貴族的報導。他在斑疹傷寒爆發時志願在醫院救治病患，最終自己也染病殉職。雅寧斯是一個複雜的人。我會想念他的。@"
+		},
+		{
+			"id": "travel.prepare.end",
+			"label": "最後一次啟程",
+			"startdescription": "我的火車在黎明時分發車。我有忘記什麼嗎？[目的地在地圖之疆。你不能再繼續前行。抵達目的地後，你就要準備好結束這一切了。盟友不會跟隨你前往地圖之疆。]"
+		},
+		{
+			"id": "travel.prepare.wilderness",
+			"label": "進入荒野",
+			"startdescription": "這是不得已的去處。暴露在安全的人群之外，我將更容易被追蹤。我不清楚這裡的地形。我可能很容易就會毫無尊嚴地死去。[你只能攜帶隨身資產。出發將終止所有正在進行的清算人行動並清除所有的痕跡，但也將放棄資產、場地、目的地和當地聯絡人，並終止你自己正在進行的行動。]"
+		},
+		{
+			"id": "travel.prepare.remote",
+			"label": "準備前往遙遠的目的地",
+			"startdescription": "我的火車在黎明時分發車。我有忘記什麼嗎？[你只能攜帶隨身資產。出發將終止所有正在進行的清算人行動並清除所有的痕跡，但也將放棄資產、場地、目的地和當地聯絡人，並終止你自己正在進行的行動。]"
+		},
+		{
+			"id": "travel.prepare",
+			"label": "準備出發",
+			"startdescription": "是時候動身了。我有忘記什麼嗎？[你只能攜帶隨身資產。出發將終止所有正在進行的清算人行動並清除所有的痕跡，但也將放棄資產、場地、目的地和當地聯絡人，並終止你自己正在進行的行動。]"
+		},
+		{
+			"id": "travel.prepare.remote.hint",
+			"label": "準備出發？",
+			"startdescription": "這個目的地十分遙遠。我需要足夠的現金來支付路費。"
+		},
+		{
+			"id": "travel.prepare.hint",
+			"label": "準備出發？",
+			"startdescription": "我需要現金來支付路費。"
+		},
+		{
+			"id": "travel.showslot",
+			"label": "準備出發",
+			"startdescription": "是時候動身了。我有忘記什麼嗎？[你只能攜帶隨身資產。使用“出讓”來丟棄任何你不想攜帶的資產。出發將終止所有正在進行的清算人行動並清除所有的痕跡，但也將放棄資產、場地和當地聯絡人，並終止你自己正在進行的行動。]",
+			"slots": [
+				{
+					"id": "preparations",
+					"label": "準備工作"
+				}
+			]
+		},
+		{
+			"id": "travel.packing",
+			"label": "正在打包……",
+			"startdescription": "我可能用得上這個。[你可以帶上任何可攜帶的東西。但它們會使你的準備時間變長。]"
+		},
+		{
+			"id": "travel.end.depart",
+			"label": "去往地圖之疆",
+			"startdescription": "我的盟友只能陪我到這裡。是時候說再見了。"
+		},
+		{
+			"id": "travel.depart",
+			"label": "啟程",
+			"startdescription": "告別。"
+		},
+		{
+			"id": "travel.enroute",
+			"label": "在途中……",
+			"startdescription": "我在路上……"
+		},
+		{
+			"id": "travel.stillenroute.remote",
+			"label": "在途中……",
+			"startdescription": "穿過黑暗，進入新的一天。我已經走得足夠遠了，清算人必須比平時更加賣力尋找，才有可能找到我。除非他們已經在這裡了？"
+		},
+		{
+			"id": "travel.arrive",
+			"label": "到達",
+			"startdescription": "@#domicile.aachen|拉拉·柴瑪在我以前住過的酒店留了言，上面只有一個詞：“中午”。她沒有告訴我中午在哪裡見面，但是柴瑪一向擅長在必要的時候找到她要見的人。\n#domicile.alexandria|即便置身其中，隱形的塞拉皮雍也是隱形的。我可能從下船的那一刻起就已經算是進來了。我得過一段時間才能確定。\n#domicile.algiers|陽光明媚的碼頭上有一排白色的房子。我有M·喬吉奧的一位手下在那裡的地址。\n#domicile.amsterdam|斯特根加兄弟不在城裡——這或許不是巧合——他們那座窗戶很多的房子也是空的。但他們通過管家給我留了口信，說他們請了一位有影響力的客戶來幫助我。\n#domicile.avignon|M·喬吉奧邀請我到他在教皇宮附近訂好的房間裡用餐。\n#domicile.baghdad|珀西·斯泰爾斯在車站等我。他依舊留著一頭滑稽的卷髮，只是因為歲月而變白了不少。他看起來格外像個風流快活的主教。“你來得正是時候，”他一邊說，一邊握著我的手賣力地上下搖晃，“眼下這裡正有個互相幫助的好機會，對咱們兩個都有好處。”\n#domicile.budapest|雖然天氣很冷，但莉莉還是一如既往，在她那位於城市公園中的“宮廷”裡接待來賓。她照舊穿著一身寡婦的黑袍，在與客戶會面的間隙下棋。“我就知道你會來，”她無可奈何地說。“請務必告訴我，你還沒有把他們帶到這裡來吧？”\n#domicile.candia|在抵達克里特島的前一夜，我夢見了地下諸神。醒來後，我走上甲板。星星閃爍著無情的光芒，如同在夜幕上戳出的小孔。夜空晴朗，海平線銳利如刀刃。我身後傳來一個女人的聲音，以我無法理解的語言說出了一個爆裂般的詞語。我轉過身去，發現她只有半張臉，另一半像蝶翅一般布滿鱗片。然後我才真正從夢中醒來，在漆黑悶熱的船艙中孤身一人。\n#domicile.cluj|聽到我提起莉莉的名字，奧拉迪亞咖啡館的常客們都哀傷地搖了搖頭。“她並不和藹，但是很有耐心，”其中一人表示，“不像那個從瓦斯盧伊來的屠夫。但是我們覺得你只能去見見他了。我會替你介紹的。”\n#domicile.granada|米蕾婭的住處在阿爾拜辛區，在阿拉伯語裡，它的原意是：“走了整整一天之後爬到山頂上才能到達的地方，而且所有街道上都沒有燈。”\n#domicile.istanbul|憑藉著凱末爾的名號，我得以在塔克西姆廣場上一家骯髒的咖啡屋裡與一位面龐如鷹的克拉科爾老兵會面。他似乎主要是想抱怨他們的總統和英國人走得太近了。但是等我聽了足夠久以後，他終於不情願地同意了為我提供幫助。\n#domicile.kiev|一下火車，我就聞到了血的氣味。我回過頭去：什麼都沒有，只有煙味和汗臭。這一定是我的錯覺。可是它又來了。紅銅似的血腥味。\n#domicile.krakow|伊茲喬克為我在閣樓上準備了個房間。“我太老了，他們不會殺我的。”他向我擔保說，“假如他們找上門來，我躲在桌子底下哭就是了。”\n#domicile.leningrad|“雅典人”蘇斯金確實還記得我。“我會給你張羅一場風光的葬禮的，”他興高采烈地告訴我，“我打算在季赫溫給你挑塊地皮。雖然很小，但是我不認為你的朋友會給你留什麼全屍。不，別推辭，我一定得這麼做。我也只能為你做這麼多了。”\n#domicile.london|奧塔維奧在維多利亞車站外等我，示威者遊行經過時，他悲傷地搖了搖頭。“人當然得拿工資，”他哀嘆道，“可是瞧這些亂子，這完全沒有必要。你知道嗎？連賽馬場都關門了。還有那些警察！活像一窩鬧哄哄的蜜蜂！也許我也應該罷個工，好叫他們去抓真正的罪犯。”\n#domicile.marrakech|我沒認出納維爾，但他認出了我，並熱情地向我打招呼。“你的心是鋼鐵，”他解釋說，“但是鋼鐵也能成為鏡子，我們能在鏡子中找到輝光。你沒明白我的意思，對嗎？沒關係！接受我的幫助，想離開的時候就離開。你只需要做這麼多。”\n#domicile.meshad|我的朋友隱居在馬什哈德城外的一個小村莊裡。在病倒之後，因為她信仰舊宗教，就去了巴澤胡爾聖火廟祈求治癒。她死在太陽落下之前。我到達時，她的屍體已經被送到塔上舉行天葬了。\n#domicile.munich|雅寧斯伯爵派了一個沉默寡言、傷痕累累的僕人帶我去會面的地點。\n#domicile.nizhny|蘇斯金的手下很警惕，但是當我提起追兵時，其中一個拍了拍我的肩膀，講了些關於清算人的下流話。我假裝自己沒有被冒犯到。\n#domicile.paris|“艾德琳姑姑”的手下是個粗魯無禮的瘦高個，身上穿著一件皮圍裙。他一句話也沒跟我說，只是坐在那裡把大塊的生肉餵給他的狗吃，但是我的話他也聽進去了。我離開的時候，他示意叫一個大塊頭科西嘉人跟我一起走。\n#domicile.prague|“艾德琳姑姑”是個小山一樣的女人，她有著麻雀的眼睛、大熊的脖子、紅彤彤的臉頰，和一副與外表不符的甜美嗓音。 “來幫我砸幾個腦殼嗎？”她熱情洋溢地問道。\n#domicile.rostock|雅寧斯通知過手下我要來。我在這裡想待多久就可以待多久。\n#domicile.samarkand|我的扎吉德派朋友被憂愁壓彎了腰。他幾乎說不出話來。但我還能仰仗他的幫助。\n#domicile.stalingrad|“食鳥者”在一座被燒毀的教堂裡築起了老巢。我確定自己看到了一條大蛇——它像濕漉漉的皮革一般閃閃發亮——我一靠近，它就穿過碎石溜走了。但是祖爾菲亞和其他人堅稱那裡什麼也沒有。\n#domicile.sverdlovsk|祖爾菲亞的朋友現在是政委了。他向我保證，只要我不惹太多麻煩，他就會好好招待我。\n#domicile.strasbourg|博物館旁的小花園裡有個高大的身影在等著我。不仔細看的話，那就像是個披著毯子的男人。就當它確實是吧。他在我耳邊低語時，我並沒有看他。但離開時我卻知曉了一些斯特拉斯堡的隱藏道路。\n#domicile.tiflis|我敲響瓦西爾的房門時，他敞開的窗戶中正傳出留聲機歡快的音樂。\n#domicile.tirana|我的索古派朋友用力地與我握了手。“我能把你引薦給他，”她說，“只要你有足夠的年歲來贏得他的青睞。”\n#domicile.tripoli|走下火車的那一刻，藍天如一聲怒吼撲面而來，金色的砂石彷彿在腳下崩裂，我突然因一陣本不應有的思鄉之情而震顫。\n#domicile.valletta|凱末爾在碼頭區等著我。“我會盡我所能。”他向我保證，“我說的話總督都願意聽。你也了解英國人，他們很可靠，雖然不怎麼聰明。”\n#domicile.venice|歐索麗娜在卡納雷吉歐區開了一家小小的魚餐廳。“你也知道我的毛病，”我上次拜訪她的時候，她這樣說道，“我一向對鱈魚乾完全沒有抵抗力。如果我從來沒嚐過它的話，我現在肯定還生活在土地裡呢。”\n#domicile.vienna|離開車站時，我發現一個頭髮花白、身著黑白兩色衣服的女人在馬路的另一側看著我。人潮從她的面前湧過，她消失得無影無蹤。\n#domicile.bornholm|我在海港的上方找了處房子。當我的大敵到來時，我將會在懸崖上等著他。\n#domicile.cheko|我在小屋的主臥室裡生起了火，又盡我所能地修理了百葉窗。我不知道自己還得在這裡等多久。\n#domicile.ghardaia|每當夜幕降臨，隨著天色轉暗，沙漠中的空氣都會變得像新雪一樣清新，這幾乎讓我忘記了自己為什麼來到這裡。\n#domicile.messana|這裡很安靜。無論他來得多麼悄無聲息，我都能聽到動靜。但我想，他不會選擇暗中潛行，他太驕傲了。\n#domicile.morbihan|“你可以留下來。”院長說，“但是我不會收你的錢。追逐你的是魔鬼。這裡無法為你提供庇護，大地之上沒有任何地方能夠為你提供庇護。”\n#domicile.paro|爬上來需要很長時間，而我確定我的大敵不需要那麼久。但是一旦他追過來，我還能及時看到。\n#domicile.slettnes|我是在黃昏時抵達的。燈光閃爍個不停。它也會把他吸引到這裡來。\n#|我到了。@"
+		},
+		{
+			"id": "meeting.navil.chaima",
+			"label": "重聚",
+			"startdescription": "“柴瑪！”納維爾高興地喊道。“父親。”她也向他致意，但語氣更加謹慎。他們擁抱了一下，納維爾轉身向我微笑。“我的女兒為上校狩獵怪物，而我為獅子匠治癒它們。不過，見到她總是令我很高興。畢竟，在他們反目之前，獅子匠不也是上校的孩子嗎？在世上的所有人當中，你最應當知道這一點。”[請注意厄客德娜。柴瑪對她有興趣。]"
+		},
+		{
+			"id": "turn.begin",
+			"label": "日輪轉動",
+			"startdescription": "太陽穿過天空，黑夜緊隨而至。"
+		},
+		{
+			"id": "turn.next",
+			"label": "日輪轉動",
+			"startdescription": "太陽穿過天空，黑夜緊隨而至。[在每個週期結束時，清算人都有可能進入城市。如果場上有痕跡，則此機率將增加，痕跡越多，可能性就越大。]"
+		},
+		{
+			"id": "wounds.exile.danger",
+			"label": "清算已至",
+			"startdescription": "天空漸漸遠去，其他一切也終將如此。[如果本週期結束時，你依舊有七道傷口，你就會死去。]"
+		},
+		{
+			"id": "wounds.exile.ending",
+			"label": "清算已至"
+		},
+		{
+			"id": "spawn.obscurity",
+			"label": "時間的女兒",
+			"startdescription": "如果真相是時間的女兒，那麼忘卻是誰的孩子？[你獲得了“隱秘”。]"
+		},
+		{
+			"id": "spawn.trace",
+			"label": "痕跡！",
+			"startdescription": "人在世上行走時，很難不留下足跡。[清算人會用痕跡來找到你。]"
+		}
+	]
 }

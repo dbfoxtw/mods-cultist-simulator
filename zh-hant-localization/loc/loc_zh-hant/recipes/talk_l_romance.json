@@ -1,788 +1,213 @@
 {
-    "recipes": [
-        {
-            "id": "L_talk_roseopportunity",
-            "label": "偷情不成？",
-            "actionId": "talk",
-            "slots": [
-                {
-                    "id": "ascension",
-                    "label": "同道中人？",
-                    "required": {
-                        "desire": 1
-                    }
-                }
-            ],
-            "alt": [
-                {
-                    "id": "A_startrose_power_initiate",
-                    "chance": 100
-                },
-                {
-                    "id": "A_startrose_sensation_initiate",
-                    "chance": 100
-                },
-                {
-                    "id": "A_startrose_change_initiate",
-                    "chance": 100
-                },
-                {
-                    "id": "A_startrose_enlightenment_initiate",
-                    "chance": 100
-                }
-            ],
-            "startdescription": ".",
-            "description": "今晚的情形正向非我本意的方向發展。是我說錯了什麼？還是我們只是無可救藥地不適合彼此？",
-            "craftable": false,
-            "warmup": 30
-        },
-        {
-            "id": "A_startrose_power_initiate",
-            "actionId": "rose",
-            "label": "戮力同升",
-            "requirements": {
-                "follower_lustpower": 1,
-                "resentment": -1,
-                "powermarks": 1
-            },
-            "startdescription": "\"@#uqtristan|崔斯坦在我把話說完之前便站起了身。“我們該走了，”他的語氣非常平靜，然而當他把手放在我肩頭時，手在顫抖。\r\n#uqvalciane|在我們交談時，萬查妮一寸一寸靠近。她握注我手時，她的手指傳來機械般的力道，她的皮膚有著餘燼般的熱力。“我不是光，”她警告我說，“我們應當對彼此寬容。\r\n#uqelridge|埃爾里奇專注地聽我說的每一個字。他的眼睛從不離開我的眼睛。他只說唯一的一句話，“是”；但是等到我們抵達我家時，我甚至還沒來得及問，他便開始搶著回答“是”。\r\n#uqlaidlaw|萊德勞的眼睛隨著我的話閃閃發光。看起來他沒辦法移開目光。在我們都沒有意識到的時候，他的雙手放到了我身上。那一瞬間，拍賣師突然打了個結巴。我們在引得別人說三道四前一起離開了。@\"",
-            "description": ".",
-            "mutations": [
-                {
-                    "filterOnAspectId": "mortal",
-                    "mutateAspectId": "romanticinterest",
-                    "mutationLevel": 1
-                },
-                {
-                    "filterOnAspectId": "mortal",
-                    "mutateAspectId": "forge",
-                    "mutationLevel": 1
-                }
-            ],
-            "craftable": false
-        },
-        {
-            "id": "A_startrose_sensation_initiate",
-            "actionId": "rose",
-            "label": "探秘的伙伴",
-            "requirements": {
-                "follower_lustsensation": 1,
-                "resentment": -1,
-                "sensationmarks": 1
-            },
-            "startdescription": "\"@#uqrose|蘿絲倚回我的臂彎，滿足地微笑著。“和從前一模一樣，”她說道。“你打算什麼時候帶我回家？”\r\n#uqsaliba|薩利巴邊沉思邊把手指伸進我的頭髮裡轉。“不會有好結果的，”他說著，臉上露出一些滿意的神色。\r\n#uqvictor|在桌台之上，可見之處，維克多是一位完美的紳士。他一直擱在桌上的那隻手手掌朝上。一隻蛾子落到攤開的掌中：他合上手將它碾碎。“叫我想起了美好回憶，”他說。“我們走吧。”\r\n#uqviolet|維奧萊特不知何時改換成了與我面面相對的姿勢，開始為我印上點點雪片一樣轉瞬即化的吻。“我不等人，”她警告我，“你要還知道好歹，就帶我回家。\r\n#uqrenira|芮妮拉在旁人交匯的目光下風度大方地端坐著。有些旁觀的會員投給她的眼光更多於給那些跳舞的人。我們像一滴熱蠟流向另一滴一樣並肩走開。“我很希望你接下來別做傻事”，她用極輕的聲音說道，我們的雙唇隨即相接。@\"",
-            "description": ".",
-            "mutations": [
-                {
-                    "filterOnAspectId": "mortal",
-                    "mutateAspectId": "romanticinterest",
-                    "mutationLevel": 1
-                },
-                {
-                    "filterOnAspectId": "mortal",
-                    "mutateAspectId": "grail",
-                    "mutationLevel": 1
-                }
-            ],
-            "craftable": false
-        },
-        {
-            "id": "A_startrose_enlightenment_initiate",
-            "actionId": "rose",
-            "label": "分享光明",
-            "requirements": {
-                "follower_lustenlightenment": 1,
-                "resentment": -1,
-                "enlightenmentmarks": 1
-            },
-            "startdescription": "\"@#uqenid|伊妮德徐徐向我行來，近一點，又近一點，像浪峰上的一個倒影，直至緊貼我身側。她一句話也沒說，當時沒有，後來也沒有。\r\n#uqauclair|和奧克萊爾講話總是有一點像在鬥劍，又有一點像在對帳，所以看到她猶豫且有失優雅地任其流露了過長時間，對我來說是個驚訝。“我不想碰你，”她最後說出口，“但是今晚，我想躺在你床上。”\r\n#uqcat|卡特·卡羅聽著，我說著。她的手臂和我的挽在一起。“這和我的夢說的不一樣”，她插進這樣一句話，“但我喜歡不一樣的體驗。”她微笑道。“我夢到我帶你回家。也許應該反過來，你帶我回家。”\r\n#uqclifton|克利夫頓扭動著身子貼近我。“我什麼都沒喝，”他向我保證，“但我還是醉了。也許是醉給月色了。”他試探地將一隻手放在我胯邊。“也許是醉給你。我們現在回家吧？”\r\n#uqneville|內維爾好像控制不住臉上的微笑。他急切地聽著我說的每一個字。“我從沒想過——”他用極輕的聲音吐出。\r\n#uqslee|看樣子，思雷準備了一首詩獻給我。詩寫得十分恭維。不過確實有點沒完沒了。吻他是個打住他的好法子。@\r\n\r\n\"",
-            "description": ".",
-            "mutations": [
-                {
-                    "filterOnAspectId": "mortal",
-                    "mutateAspectId": "romanticinterest",
-                    "mutationLevel": 1
-                },
-                {
-                    "filterOnAspectId": "mortal",
-                    "mutateAspectId": "lantern",
-                    "mutationLevel": 1
-                }
-            ],
-            "craftable": false
-        },
-        {
-            "id": "A_startrose_change_initiate",
-            "actionId": "rose",
-            "label": "將變得不一樣的二人",
-            "requirements": {
-                "follower_lustchange": 1,
-                "resentment": -1,
-                "changemarks": 1
-            },
-            "startdescription": "\"@#uqporter|波特在座位上蜷縮著，一動不動，但雙眼亮晶晶地望向舞台，和我俯身吻他時他的眼神相同。“你的味道，”他說道，“我們是一樣的人。”他竊笑著，然後把手放回我身上。\r\n#uqysabet|伊莎貝特在每場表演結束時都熱烈鼓掌。隨著一杯杯雞尾酒下肚，她的掌聲越來越用力。在我們第一個吻結束後，她靠回座位，關心了一下我，然後再一次，重新開始鼓掌。\r\n#uqclovette|克羅薇特興奮地緊摟住我手臂，“我開始明白了。我不知道具體是什麼，但裡面有東西。而且裡面也有你——有你！”她有一會兒再沒說話，後來，過了好長一段時間，我們已離開俱樂部很久後，她又開口了，聲音很輕，“也有你。”\r\n#uqdorothy|多蘿西隨著音樂哼唱。多蘿西不自覺地隨著舞者的動作擺動。我親吻多蘿西時，她用同樣的吻法回報給我。她收回嘴唇時呼吸粗重。“我們變得不一樣了，從現在開始，”她說。\r\n#uqsylvia|西爾維婭一邊望著舞台一邊直把橄欖往嘴裡塞，還大聲咀嚼著。她吻我時咬了我的上唇，用力到出血，而且令我往後好幾個小時嘴裡一直有橄欖味。“我要鑽進你衣服，”她如饑似渴地說，“鑽到最裡面。看看我們合不合縫。”\r\n#uqleo|一開始，里奧坐得筆直，但待興奮勁和雞尾酒一起湧上頭，他開始放鬆姿勢，最後把自己放倒在了我身上。“我想變得不一樣，”他悄聲說，“但不知道怎麼做。”他的眼睛大睜著，嘴溫軟待親。@\"",
-            "description": ".",
-            "mutations": [
-                {
-                    "filterOnAspectId": "mortal",
-                    "mutateAspectId": "romanticinterest",
-                    "mutationLevel": 1
-                },
-                {
-                    "filterOnAspectId": "mortal",
-                    "mutateAspectId": "heart",
-                    "mutationLevel": 1
-                },
-                {
-                    "filterOnAspectId": "mortal",
-                    "mutateAspectId": "moth",
-                    "mutationLevel": 1
-                }
-            ],
-            "craftable": false
-        },
-        {
-            "id": "L_checkjealousy",
-            "label": "另一人？",
-            "actionId": "rose",
-            "requirements": {
-                "romanticinterest": 1,
-                "summoned": -1,
-                "corpse": -1
-            },
-            "comments": "re requirements: can't be another if there isn't even one. Also people don't *currently* get jealous of the dead. They're either non-viable, or kept somewhere extremely private",
-            "slots": [
-                {
-                    "id": "Who?",
-                    "label": "是誰？",
-                    "description": "手與手相牽，目與目相對。",
-                    "required": {
-                        "romanticinterest": 1
-                    },
-                    "forbidden": {
-                        "summoned": -1,
-                        "corpse": -1
-                    },
-                    "greedy": true
-                }
-            ],
-            "startdescription": "還有另一個人嗎？",
-            "description": ".",
-            "linked": [
-                {
-                    "id": "L_activatejealousy",
-                    "chance": 100
-                },
-                {
-                    "id": "L_roserouter",
-                    "chance": 100
-                }
-            ],
-            "warmup": 5
-        },
-        {
-            "id": "L_activatejealousy",
-            "label": "噢！玫瑰，汝有疾！",
-            "actionId": "rose",
-            "requirements": {
-                "romanticinterest": 2
-            },
-            "comments": "careful: this is a potential weak spot if we ever start making romantic interest additive not binary",
-            "startdescription": "我的兩位特別的朋友選擇在同一時間拜訪我。我們的交談進行得很生硬。",
-            "description": "隨著夜幕降臨，氣氛變得緊張，而且出現了一個棘手的情況。",
-            "warmup": 10,
-            "effects": {
-                "mystique": 1
-            },
-            "alt": [
-                {
-                    "id": "A_roseend_expulsion",
-                    "chance": 100,
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 1,
-                        "filter": {
-                            "resentment": 3
-                        }
-                    }
-                }
-            ],
-            "mutations": [
-                {
-                    "filterOnAspectId": "mortal",
-                    "mutateAspectId": "resentment",
-                    "mutationLevel": 1,
-                    "additive": true
-                }
-            ]
-        },
-        {
-            "id": "A_roseend_expulsion",
-            "actionId": "roseextra",
-            "comments": "allows us to have only one of a jealous lover break up with the player",
-            "label": "後果來了！",
-            "startdescription": "\"@#uqauclair|Auclair#uqcat|Cat#uqclovette|Clovette#uqclifton|Clifton#uqdorothy|Dorothy#uqelridge|Elridge\r\n#uqenid|Enid#uqlaidlaw|Laidlaw#uqleo|Leo#uqneville|Neville#uqporter|Porter#uqrenira|Renira#uqrose|Rose\r\n#uqsaliba|Saliba#uqslee|Slee#uqsylvia|Sylvia#uqtristan|Tristan\r\n#uqvalciane|Valciane#uqvictor|Victor#uqviolet|Violet#uqysabet|Ysabet#|我的情人@不會再忍受我的不聞不問。\"",
-            "description": "我們兩人都會記得這一刻的難堪。",
-            "slots": [
-                {
-                    "id": "glummer",
-                    "label": "身後所遺",
-                    "required": {
-                        "contentment": 1
-                    },
-                    "greedy": true
-                }
-            ],
-            "mutations": [
-                {
-                    "filterOnAspectId": "romanticinterest",
-                    "mutateAspectId": "romanticinterest",
-                    "mutationLevel": -1
-                }
-            ],
-            "effects": {
-                "dread": 1,
-                "contentment": -1
-            },
-            "warmup": 10,
-            "craftable": false
-        },
-        {
-            "id": "L_roserouter",
-            "actionId": "rose",
-            "linked": [
-                {
-                    "id": "L_continuerose_corpse",
-                    "chance": 100
-                },
-                {
-                    "id": "L_continuerose_risen",
-                    "chance": 100
-                },
-                {
-                    "id": "L_continuerose_power",
-                    "chance": 100
-                },
-                {
-                    "id": "L_continuerose_sensation",
-                    "chance": 100
-                },
-                {
-                    "id": "L_continuerose_change",
-                    "chance": 100
-                },
-                {
-                    "id": "L_continuerose_enlightenment",
-                    "chance": 100
-                },
-                {
-                    "id": "L_continuerose_noone",
-                    "chance": 100
-                }
-            ],
-            "craftable": false
-        },
-        {
-            "id": "L_continuerose_corpse",
-            "actionId": "rose",
-            "label": "為舊愛感到寂寥和苦悶",
-            "requirements": {
-                "corpse": 1,
-                "romanticinterest": 1
-            },
-            "startdescription": "我不能，現在還不能。悲傷還是留到將來。",
-            "description": "\"隨著時間流逝，他的身體會和他此刻的靈魂一樣消逝無蹤，我會遺忘。\r\n\r\n除非……\"",
-            "effects": {
-                "dread": 1
-            },
-            "warmup": 30,
-            "craftable": false
-        },
-        {
-            "id": "L_continuerose_risen",
-            "actionId": "rose",
-            "label": "別讓我離去",
-            "requirements": {
-                "summoned": 1,
-                "romanticinterest": 1
-            },
-            "slots": [
-                {
-                    "id": "Blood?",
-                    "label": "血？",
-                    "description": "身體的力量所在",
-                    "required": {
-                        "health": 1
-                    }
-                }
-            ],
-            "startdescription": "愛我的人已無原先的風采。我可以給他一點我的血——只給一點，然而他有時貪得無厭……如果我給他一點血，他會記住的，會記住一段時間。",
-            "description": "不。他活過，現在他死了。並且待一定時間後，死亡將成為他的唯一。",
-            "alt": [
-                {
-                    "id": "A_continuerose_risen_success",
-                    "chance": 100
-                }
-            ],
-            "mutations": [
-                {
-                    "filterOnAspectId": "summoned",
-                    "mutateAspectId": "resentment",
-                    "mutationLevel": 1,
-                    "additive": true
-                }
-            ],
-            "warmup": 30,
-            "craftable": false,
-            "linked": [
-                {
-                    "id": "L_roseend_risen",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "A_continuerose_risen_success",
-            "actionId": "rose",
-            "label": "別讓我離去",
-            "requirements": {
-                "health": 1
-            },
-            "startdescription": "我曾經的情人肌膚的色澤——遺留下的色澤——更濃重，更飽滿了。舊日的光芒在那雙眼中再度點亮。",
-            "description": "\"@#spirit_wintera_edge|痛楚、寒冷、淒涼，這便是留給我們的所有。也許正因為是為我們留下的，它們才顯出寶貴。\r\n#spirit_wintera_moth|他的雙手，他的雙唇，飽含著生命，卻是蘋果表皮和百合花瓣那種冷冰冰的生命。不過那仍是他的雙手，他的雙唇。@\"",
-            "effects": {
-                "dread": 1
-            },
-            "deckeffect": {
-                "roserewards": 1
-            },
-            "aspects": {
-                "damagehealth": 1
-            },
-            "craftable": false
-        },
-        {
-            "id": "L_continuerose_power",
-            "actionId": "rose",
-            "label": "偷情：體力充沛的用處",
-            "requirements": {
-                "follower_lustpower": 1,
-                "romanticinterest": 1
-            },
-            "slots": [
-                {
-                    "id": "What?",
-                    "label": "健康",
-                    "description": "身體的力量所在",
-                    "required": {
-                        "health": 1,
-                        "dread": 1,
-                        "funds": 1
-                    }
-                }
-            ],
-            "startdescription": "我的情人不容易滿足——不過，我也一樣。",
-            "description": "眼下……我騰不出精力。",
-            "alt": [
-                {
-                    "id": "A_rose_binoff_dread",
-                    "chance": 100
-                },
-                {
-                    "id": "A_rose_binoff_funds",
-                    "chance": 100
-                },
-                {
-                    "id": "A_continuerose_power_success",
-                    "chance": 100
-                }
-            ],
-            "mutations": [
-                {
-                    "filterOnAspectId": "mortal",
-                    "mutateAspectId": "resentment",
-                    "mutationLevel": 1,
-                    "additive": true
-                }
-            ],
-            "warmup": 30,
-            "craftable": false,
-            "linked": [
-                {
-                    "id": "L_roseend",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "A_continuerose_power_success",
-            "actionId": "rose",
-            "label": "偷情：體力充沛的用處",
-            "requirements": {
-                "health": 1
-            },
-            "startdescription": "待我完事後，我們都將陷入沉睡。但我還沒完事。",
-            "description": "\"@#uqtristan|崔斯坦從不碰勁頭烈的酒水，除非和我共飲。他從不忘給鐘錶上弦，除了我來訪的夜晚。他總是心懷警惕，不願閉眼；然而有的時候，當我們在一起時，他不能不閉眼。\r\n#uqvalciane|萬查妮的肌膚泛著暖爐的熱力。她的力氣徹底耗盡了。每次我離開時，她都會送我下樓，為了與我最後一吻。\r\n#uqelridge|埃爾里奇行動起來毫不猶豫，既優雅又洗鍊，精準預測了我的喜好。\r\n#uqlaidlaw|萊德勞花樣百出而又不知疲倦。他喜歡給我送小禮物：發條裝置、利口酒、關在籠中的玩物。@\"",
-            "effects": {
-                "contentment": 1
-            },
-            "deckeffect": {
-                "roserewards": 1
-            },
-            "aspects": {
-                "fatiguing": 1
-            },
-            "craftable": false
-        },
-        {
-            "id": "L_continuerose_sensation",
-            "actionId": "rose",
-            "label": "偷情：火急火燎的愉悅",
-            "requirements": {
-                "follower_lustsensation": 1,
-                "romanticinterest": 1
-            },
-            "slots": [
-                {
-                    "id": "What?",
-                    "label": "激情",
-                    "description": "最急切的要事。",
-                    "required": {
-                        "passion": 1,
-                        "dread": 1,
-                        "funds": 1
-                    }
-                }
-            ],
-            "startdescription": "我的情人在嘗試各種享樂上具有無窮無盡的匠心——不過到現在為止，我還跟得上他的步調。",
-            "description": "眼下……我勻不出時間。",
-            "alt": [
-                {
-                    "id": "A_rose_binoff_dread",
-                    "chance": 100
-                },
-                {
-                    "id": "A_rose_binoff_funds",
-                    "chance": 100
-                },
-                {
-                    "id": "A_continuerose_sensation_success",
-                    "chance": 100
-                }
-            ],
-            "mutations": [
-                {
-                    "filterOnAspectId": "mortal",
-                    "mutateAspectId": "resentment",
-                    "mutationLevel": 1,
-                    "additive": true
-                }
-            ],
-            "warmup": 30,
-            "craftable": false,
-            "linked": [
-                {
-                    "id": "L_roseend",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "A_continuerose_sensation_success",
-            "actionId": "rose",
-            "label": "偷情：火急火燎的愉悅",
-            "requirements": {
-                "passion": 1
-            },
-            "startdescription": "連續好多天——好多天——這段回憶都會如夏夜的閃電一樣打斷我的思緒。",
-            "description": "\"@#uqrose|在我越過門關的那一刻，蘿斯正纏在我身上，貪婪地索求。只有那一次，她叫我“維克多”。後來，我們誰也沒再提這事。\r\n#uqsaliba|薩利巴總是無休無止，總是不知疲倦。他從來不笑。有時在事後，他聲音哽咽，好像快要掉下淚來，但雙眼仍是乾的。\r\n#uqvictor|維克多總會送我單獨一支的玫瑰花，他把花遞給我時總會猶豫。他從不在事後露出猶豫之情。\r\n#uqviolet|維奧萊特的熱情像一口黑井一樣伸不見底。她的歡愉帶著一種無情，但她從不造成任何長久的痛苦。\r\n#uqrenira|我到時，芮妮拉全身籠罩著香水味。我走時，她攤開酥軟的四肢倒在床上。接下來幾天我會一直帶著她的味道。@\"",
-            "effects": {
-                "contentment": 1
-            },
-            "deckeffect": {
-                "roserewards": 1
-            },
-            "aspects": {
-                "fatiguing": 1
-            },
-            "craftable": false
-        },
-        {
-            "id": "L_continuerose_enlightenment",
-            "actionId": "rose",
-            "label": "偷情：理解帶來的狂喜",
-            "requirements": {
-                "follower_lustenlightenment": 1,
-                "romanticinterest": 1
-            },
-            "slots": [
-                {
-                    "id": "What?",
-                    "label": "理性",
-                    "description": "真正的精神之光。",
-                    "required": {
-                        "reason": 1,
-                        "dread": 1,
-                        "funds": 1
-                    }
-                }
-            ],
-            "startdescription": "我的情人既與我辯論肉體之上的議題，也同我實踐肉體之間的議題。我必須跟上他的強度。",
-            "description": "眼下……我分不出心思。",
-            "alt": [
-                {
-                    "id": "A_rose_binoff_dread",
-                    "chance": 100
-                },
-                {
-                    "id": "A_rose_binoff_funds",
-                    "chance": 100
-                },
-                {
-                    "id": "A_continuerose_enlightenment_success",
-                    "chance": 100
-                }
-            ],
-            "warmup": 30,
-            "mutations": [
-                {
-                    "filterOnAspectId": "mortal",
-                    "mutateAspectId": "resentment",
-                    "mutationLevel": 1,
-                    "additive": true
-                }
-            ],
-            "craftable": false,
-            "linked": [
-                {
-                    "id": "L_roseend",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "A_continuerose_enlightenment_success",
-            "actionId": "rose",
-            "label": "偷情：理解帶來的狂喜",
-            "requirements": {
-                "reason": 1
-            },
-            "startdescription": "在一起的我們更加光明",
-            "description": "\"@#uqenid|比起注視著我，伊妮德更喜歡閉上眼睛。她說看見會讓她難受。她說得那樣纏綿，讓我沒辦法覺得不中聽。\r\n#uqauclair|奧克萊爾擺好象棋盤。棋的規則每晚稍有不同。當晚到最後，我們都無心顧及規則了。\r\n#uqcat|卡特·卡羅知道如何到達。卡特·卡羅知道繁多的到達之法。當月亮分開窗簾，探入黑暗時，我們會一起依樣行事。\r\n#uqclifton|我去找克利夫頓時，他的住處總是燈火通明——蠟燭、電弧燈、甚至還有油燈。他堅持要這麼做。隨著夜晚的進行，燈光一支接一支熄滅，最終留下我們在純粹的黑暗中行我們的好事。\r\n#uqneville|內維爾用茶和鮮花歡迎我。他盤腿坐在我腳邊等我開口。哄他自己主動總要費我一番功夫，不過他從不讓我失望。\r\n#uqslee|思雷他雷打不動，來時總備好了詩。有的時候我心思在讀詩上。有的時候我心思在做其他事情上。@\"",
-            "effects": {
-                "contentment": 1
-            },
-            "deckeffect": {
-                "roserewards": 1
-            },
-            "aspects": {
-                "fatiguing": 1
-            },
-            "craftable": false
-        },
-        {
-            "id": "L_continuerose_change",
-            "actionId": "rose",
-            "label": "偷情：當我們正在……",
-            "requirements": {
-                "follower_lustchange": 1,
-                "romanticinterest": 1
-            },
-            "slots": [
-                {
-                    "id": "What?",
-                    "description": "一樁急事。",
-                    "required": {
-                        "passion": 1,
-                        "dread": 1,
-                        "funds": 1
-                    }
-                }
-            ],
-            "startdescription": "我的情人和我擁有同一種欲望，儘管我們可能並不完全理解它。",
-            "description": "眼下……我就是不能。",
-            "alt": [
-                {
-                    "id": "A_rose_binoff_dread",
-                    "chance": 100
-                },
-                {
-                    "id": "A_rose_binoff_funds",
-                    "chance": 100
-                },
-                {
-                    "id": "A_continuerose_change_success",
-                    "chance": 100
-                }
-            ],
-            "warmup": 30,
-            "mutations": [
-                {
-                    "filterOnAspectId": "mortal",
-                    "mutateAspectId": "resentment",
-                    "mutationLevel": 1,
-                    "additive": true
-                }
-            ],
-            "craftable": false,
-            "linked": [
-                {
-                    "id": "L_roseend",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "A_continuerose_change_success",
-            "actionId": "rose",
-            "label": "偷情：當我們正在……",
-            "requirements": {
-                "passion": 1
-            },
-            "startdescription": "在一起的我們變得不同",
-            "description": "\"@#uqporter|波特已捨得花心思在和我幽會前洗澡。他也捨得花心思刮鬍子了，刮得還很精心。\r\n#uqysabet|伊莎貝特行動太快，因著這份輕巧，她給人她從不停在一個地方的印象。不過不知為何，她總出現在她該在的地方。\r\n#uqclovette|克羅薇特會在最奇怪的時機笑出聲，不過她的笑聲最終總能帶來好的結果。她的快樂簡直到了看得見摸得著的程度，可以讓人沉迷其中，且出來後必會變個樣子。\r\n#uqdorothy|多蘿西堅持要讓留聲機播曲子，從我們觸碰的那一刻開始，到我們分開為止。這會攪擾到我們。不過她補償了我，而對音樂的回憶會交織在對夜晚的回憶中，如編入緞子的一根亮線。\r\n#uqsylvia|西爾維婭用她的剪刀剪下你的衣服，然後為你接下來要做的事情選了一個位置。這個位置並不順手。\r\n#uqleo|里奧見到我很快樂——特別快樂——快樂到有時我能從他纖弱的肌膚下看出快樂的形狀。我用手指順著那個形狀劃過，提振他，安撫他；與之同時，我們成為了在一起的我們。@\"",
-            "effects": {
-                "contentment": 1
-            },
-            "deckeffect": {
-                "roserewards": 1
-            },
-            "aspects": {
-                "fatiguing": 1
-            },
-            "craftable": false
-        },
-        {
-            "id": "L_continuerose_noone",
-            "label": "獨處",
-            "actionId": "rose",
-            "requirements": {},
-            "startdescription": "我孤身一人，但孤獨中有著平和。",
-            "description": "有些日子就是比平日更好。有時候，天空不再像張骯髒的被單。有時候，河裡的流水更加清澈。",
-            "effects": {
-                "contentment": 1
-            },
-            "craftable": false
-        },
-        {
-            "id": "L_roseend",
-            "actionId": "rose",
-            "requirements": {
-                "resentment": 3
-            },
-            "label": "後果來了！",
-            "startdescription": "@#uqauclair|奧克萊爾#uqcat|卡特#uqclovette|克羅薇特#uqclifton|克利夫頓#uqdorothy|多蘿西#uqelridge|埃爾里奇#uqenid|伊妮德#uqlaidlaw|萊德勞#uqleo|里奧#uqneville|內維爾#uqporter|波特#uqrenira|芮妮拉#uqrose|蘿絲#uqsaliba|薩利巴#uqslee|思雷#uqsylvia|西爾維婭#uqtristan|崔斯坦#uqvalciane|萬查妮#uqvictor|維克多#uqviolet|維奧萊特#uqysabet|伊莎貝特#uq|我的情人@不能再忍受我的不聞不問。",
-            "description": "我們兩人都會記得這一刻的難堪。",
-            "slots": [
-                {
-                    "id": "glummer",
-                    "label": "身後所遺",
-                    "required": {
-                        "contentment": 1
-                    },
-                    "greedy": true
-                }
-            ],
-            "mutations": [
-                {
-                    "filterOnAspectId": "romanticinterest",
-                    "mutateAspectId": "romanticinterest",
-                    "mutationLevel": -1
-                }
-            ],
-            "effects": {
-                "dread": 1,
-                "contentment": -1
-            },
-            "warmup": 10,
-            "craftable": false
-        },
-        {
-            "id": "L_roseend_risen",
-            "actionId": "rose",
-            "requirements": {
-                "resentment": 3,
-                "summoned": 1
-            },
-            "label": "後果來了！",
-            "startdescription": "回憶能超越死亡存在。怒火也如是，輕蔑亦如是。愛，也是嗎？我在這裡找不到答案。",
-            "description": "這是早已發端的終結的最後時刻。[即使亡者也不會饒恕你的不聞不問。]",
-            "slots": [
-                {
-                    "id": "glummer",
-                    "label": "身後所遺",
-                    "required": {
-                        "contentment": 1
-                    },
-                    "greedy": true
-                }
-            ],
-            "mutations": [
-                {
-                    "filterOnAspectId": "romanticinterest",
-                    "mutateAspectId": "romanticinterest",
-                    "mutationLevel": -1
-                }
-            ],
-            "effects": {
-                "dread": 1,
-                "contentment": -1
-            },
-            "warmup": 10,
-            "craftable": false
-        },
-        {
-            "id": "A_rose_binoff_dread",
-            "actionId": "rose",
-            "requirements": {
-                "dread": 1
-            },
-            "label": "在我的情人面前說出我的絕望，結束這段私情",
-            "startdescription": "“我們沒有未來。或許，我們連分都不會分開，但是我們肯定無法在一起。”",
-            "description": "我的舊情人離去了。寂靜變得濃重。",
-            "effects": {
-                "dread": 1
-            },
-            "mutations": [
-                {
-                    "filterOnAspectId": "romanticinterest",
-                    "mutateAspectId": "resentment",
-                    "mutationLevel": 2,
-                    "additive": true
-                },
-                {
-                    "filterOnAspectId": "romanticinterest",
-                    "mutateAspectId": "romanticinterest",
-                    "mutationLevel": -1
-                }
-            ]
-        },
-        {
-            "id": "A_rose_binoff_funds",
-            "actionId": "rose",
-            "requirements": {
-                "funds": 1
-            },
-            "label": "以羞辱的方式結束這段私情",
-            "startdescription": "“拿著。給你自己買點好東西。”",
-            "description": "我的舊情人摔門而去。",
-            "effects": {
-                "funds": -1,
-                "dread": 1
-            },
-            "mutations": [
-                {
-                    "filterOnAspectId": "romanticinterest",
-                    "mutateAspectId": "resentment",
-                    "mutationLevel": 2,
-                    "additive": true
-                },
-                {
-                    "filterOnAspectId": "romanticinterest",
-                    "mutateAspectId": "romanticinterest",
-                    "mutationLevel": -1
-                }
-            ]
-        }
-    ]
+	"recipes": [
+		{
+			"id": "L_talk_roseopportunity",
+			"label": "偷情不成？",
+			"slots": [
+				{
+					"id": "ascension",
+					"label": "同道中人？"
+				}
+			],
+			"startdescription": ".",
+			"description": "今晚的情形正向非我本意的方向發展。是我說錯了什麼？還是我們只是無可救藥地不適合彼此？"
+		},
+		{
+			"id": "A_startrose_power_initiate",
+			"label": "戮力同升",
+			"startdescription": "\"@#uqtristan|崔斯坦在我把話說完之前便站起了身。“我們該走了，”他的語氣非常平靜，然而當他把手放在我肩頭時，手在顫抖。\r\n#uqvalciane|在我們交談時，萬查妮一寸一寸靠近。她握注我手時，她的手指傳來機械般的力道，她的皮膚有著餘燼般的熱力。“我不是光，”她警告我說，“我們應當對彼此寬容。\r\n#uqelridge|埃爾里奇專注地聽我說的每一個字。他的眼睛從不離開我的眼睛。他只說唯一的一句話，“是”；但是等到我們抵達我家時，我甚至還沒來得及問，他便開始搶著回答“是”。\r\n#uqlaidlaw|萊德勞的眼睛隨著我的話閃閃發光。看起來他沒辦法移開目光。在我們都沒有意識到的時候，他的雙手放到了我身上。那一瞬間，拍賣師突然打了個結巴。我們在引得別人說三道四前一起離開了。@\"",
+			"description": "."
+		},
+		{
+			"id": "A_startrose_sensation_initiate",
+			"label": "探秘的伙伴",
+			"startdescription": "\"@#uqrose|蘿絲倚回我的臂彎，滿足地微笑著。“和從前一模一樣，”她說道。“你打算什麼時候帶我回家？”\r\n#uqsaliba|薩利巴邊沉思邊把手指伸進我的頭髮裡轉。“不會有好結果的，”他說著，臉上露出一些滿意的神色。\r\n#uqvictor|在桌台之上，可見之處，維克多是一位完美的紳士。他一直擱在桌上的那隻手手掌朝上。一隻蛾子落到攤開的掌中：他合上手將它碾碎。“叫我想起了美好回憶，”他說。“我們走吧。”\r\n#uqviolet|維奧萊特不知何時改換成了與我面面相對的姿勢，開始為我印上點點雪片一樣轉瞬即化的吻。“我不等人，”她警告我，“你要還知道好歹，就帶我回家。\r\n#uqrenira|芮妮拉在旁人交匯的目光下風度大方地端坐著。有些旁觀的會員投給她的眼光更多於給那些跳舞的人。我們像一滴熱蠟流向另一滴一樣並肩走開。“我很希望你接下來別做傻事”，她用極輕的聲音說道，我們的雙唇隨即相接。@\"",
+			"description": "."
+		},
+		{
+			"id": "A_startrose_enlightenment_initiate",
+			"label": "分享光明",
+			"startdescription": "\"@#uqenid|伊妮德徐徐向我行來，近一點，又近一點，像浪峰上的一個倒影，直至緊貼我身側。她一句話也沒說，當時沒有，後來也沒有。\r\n#uqauclair|和奧克萊爾講話總是有一點像在鬥劍，又有一點像在對帳，所以看到她猶豫且有失優雅地任其流露了過長時間，對我來說是個驚訝。“我不想碰你，”她最後說出口，“但是今晚，我想躺在你床上。”\r\n#uqcat|卡特·卡羅聽著，我說著。她的手臂和我的挽在一起。“這和我的夢說的不一樣”，她插進這樣一句話，“但我喜歡不一樣的體驗。”她微笑道。“我夢到我帶你回家。也許應該反過來，你帶我回家。”\r\n#uqclifton|克利夫頓扭動著身子貼近我。“我什麼都沒喝，”他向我保證，“但我還是醉了。也許是醉給月色了。”他試探地將一隻手放在我胯邊。“也許是醉給你。我們現在回家吧？”\r\n#uqneville|內維爾好像控制不住臉上的微笑。他急切地聽著我說的每一個字。“我從沒想過——”他用極輕的聲音吐出。\r\n#uqslee|看樣子，思雷準備了一首詩獻給我。詩寫得十分恭維。不過確實有點沒完沒了。吻他是個打住他的好法子。@\r\n\r\n\"",
+			"description": "."
+		},
+		{
+			"id": "A_startrose_change_initiate",
+			"label": "將變得不一樣的二人",
+			"startdescription": "\"@#uqporter|波特在座位上蜷縮著，一動不動，但雙眼亮晶晶地望向舞台，和我俯身吻他時他的眼神相同。“你的味道，”他說道，“我們是一樣的人。”他竊笑著，然後把手放回我身上。\r\n#uqysabet|伊莎貝特在每場表演結束時都熱烈鼓掌。隨著一杯杯雞尾酒下肚，她的掌聲越來越用力。在我們第一個吻結束後，她靠回座位，關心了一下我，然後再一次，重新開始鼓掌。\r\n#uqclovette|克羅薇特興奮地緊摟住我手臂，“我開始明白了。我不知道具體是什麼，但裡面有東西。而且裡面也有你——有你！”她有一會兒再沒說話，後來，過了好長一段時間，我們已離開俱樂部很久後，她又開口了，聲音很輕，“也有你。”\r\n#uqdorothy|多蘿西隨著音樂哼唱。多蘿西不自覺地隨著舞者的動作擺動。我親吻多蘿西時，她用同樣的吻法回報給我。她收回嘴唇時呼吸粗重。“我們變得不一樣了，從現在開始，”她說。\r\n#uqsylvia|西爾維婭一邊望著舞台一邊直把橄欖往嘴裡塞，還大聲咀嚼著。她吻我時咬了我的上唇，用力到出血，而且令我往後好幾個小時嘴裡一直有橄欖味。“我要鑽進你衣服，”她如饑似渴地說，“鑽到最裡面。看看我們合不合縫。”\r\n#uqleo|一開始，里奧坐得筆直，但待興奮勁和雞尾酒一起湧上頭，他開始放鬆姿勢，最後把自己放倒在了我身上。“我想變得不一樣，”他悄聲說，“但不知道怎麼做。”他的眼睛大睜著，嘴溫軟待親。@\"",
+			"description": "."
+		},
+		{
+			"id": "L_checkjealousy",
+			"label": "另一人？",
+			"slots": [
+				{
+					"id": "Who?",
+					"label": "是誰？",
+					"description": "手與手相牽，目與目相對。"
+				}
+			],
+			"startdescription": "還有另一個人嗎？",
+			"description": "."
+		},
+		{
+			"id": "L_activatejealousy",
+			"label": "噢！玫瑰，汝有疾！",
+			"startdescription": "我的兩位特別的朋友選擇在同一時間拜訪我。我們的交談進行得很生硬。",
+			"description": "隨著夜幕降臨，氣氛變得緊張，而且出現了一個棘手的情況。"
+		},
+		{
+			"id": "A_roseend_expulsion",
+			"label": "後果來了！",
+			"startdescription": "\"@#uqauclair|Auclair#uqcat|Cat#uqclovette|Clovette#uqclifton|Clifton#uqdorothy|Dorothy#uqelridge|Elridge\r\n#uqenid|Enid#uqlaidlaw|Laidlaw#uqleo|Leo#uqneville|Neville#uqporter|Porter#uqrenira|Renira#uqrose|Rose\r\n#uqsaliba|Saliba#uqslee|Slee#uqsylvia|Sylvia#uqtristan|Tristan\r\n#uqvalciane|Valciane#uqvictor|Victor#uqviolet|Violet#uqysabet|Ysabet#|我的情人@不會再忍受我的不聞不問。\"",
+			"description": "我們兩人都會記得這一刻的難堪。",
+			"slots": [
+				{
+					"id": "glummer",
+					"label": "身後所遺"
+				}
+			]
+		},
+		{
+			"id": "L_continuerose_corpse",
+			"label": "為舊愛感到寂寥和苦悶",
+			"startdescription": "我不能，現在還不能。悲傷還是留到將來。",
+			"description": "\"隨著時間流逝，他的身體會和他此刻的靈魂一樣消逝無蹤，我會遺忘。\r\n\r\n除非……\""
+		},
+		{
+			"id": "L_continuerose_risen",
+			"label": "別讓我離去",
+			"slots": [
+				{
+					"id": "Blood?",
+					"label": "血？",
+					"description": "身體的力量所在"
+				}
+			],
+			"startdescription": "愛我的人已無原先的風采。我可以給他一點我的血——只給一點，然而他有時貪得無厭……如果我給他一點血，他會記住的，會記住一段時間。",
+			"description": "不。他活過，現在他死了。並且待一定時間後，死亡將成為他的唯一。"
+		},
+		{
+			"id": "A_continuerose_risen_success",
+			"label": "別讓我離去",
+			"startdescription": "我曾經的情人肌膚的色澤——遺留下的色澤——更濃重，更飽滿了。舊日的光芒在那雙眼中再度點亮。",
+			"description": "\"@#spirit_wintera_edge|痛楚、寒冷、淒涼，這便是留給我們的所有。也許正因為是為我們留下的，它們才顯出寶貴。\r\n#spirit_wintera_moth|他的雙手，他的雙唇，飽含著生命，卻是蘋果表皮和百合花瓣那種冷冰冰的生命。不過那仍是他的雙手，他的雙唇。@\""
+		},
+		{
+			"id": "L_continuerose_power",
+			"label": "偷情：體力充沛的用處",
+			"slots": [
+				{
+					"id": "What?",
+					"label": "健康",
+					"description": "身體的力量所在"
+				}
+			],
+			"startdescription": "我的情人不容易滿足——不過，我也一樣。",
+			"description": "眼下……我騰不出精力。"
+		},
+		{
+			"id": "A_continuerose_power_success",
+			"label": "偷情：體力充沛的用處",
+			"startdescription": "待我完事後，我們都將陷入沉睡。但我還沒完事。",
+			"description": "\"@#uqtristan|崔斯坦從不碰勁頭烈的酒水，除非和我共飲。他從不忘給鐘錶上弦，除了我來訪的夜晚。他總是心懷警惕，不願閉眼；然而有的時候，當我們在一起時，他不能不閉眼。\r\n#uqvalciane|萬查妮的肌膚泛著暖爐的熱力。她的力氣徹底耗盡了。每次我離開時，她都會送我下樓，為了與我最後一吻。\r\n#uqelridge|埃爾里奇行動起來毫不猶豫，既優雅又洗鍊，精準預測了我的喜好。\r\n#uqlaidlaw|萊德勞花樣百出而又不知疲倦。他喜歡給我送小禮物：發條裝置、利口酒、關在籠中的玩物。@\""
+		},
+		{
+			"id": "L_continuerose_sensation",
+			"label": "偷情：火急火燎的愉悅",
+			"slots": [
+				{
+					"id": "What?",
+					"label": "激情",
+					"description": "最急切的要事。"
+				}
+			],
+			"startdescription": "我的情人在嘗試各種享樂上具有無窮無盡的匠心——不過到現在為止，我還跟得上他的步調。",
+			"description": "眼下……我勻不出時間。"
+		},
+		{
+			"id": "A_continuerose_sensation_success",
+			"label": "偷情：火急火燎的愉悅",
+			"startdescription": "連續好多天——好多天——這段回憶都會如夏夜的閃電一樣打斷我的思緒。",
+			"description": "\"@#uqrose|在我越過門關的那一刻，蘿斯正纏在我身上，貪婪地索求。只有那一次，她叫我“維克多”。後來，我們誰也沒再提這事。\r\n#uqsaliba|薩利巴總是無休無止，總是不知疲倦。他從來不笑。有時在事後，他聲音哽咽，好像快要掉下淚來，但雙眼仍是乾的。\r\n#uqvictor|維克多總會送我單獨一支的玫瑰花，他把花遞給我時總會猶豫。他從不在事後露出猶豫之情。\r\n#uqviolet|維奧萊特的熱情像一口黑井一樣伸不見底。她的歡愉帶著一種無情，但她從不造成任何長久的痛苦。\r\n#uqrenira|我到時，芮妮拉全身籠罩著香水味。我走時，她攤開酥軟的四肢倒在床上。接下來幾天我會一直帶著她的味道。@\""
+		},
+		{
+			"id": "L_continuerose_enlightenment",
+			"label": "偷情：理解帶來的狂喜",
+			"slots": [
+				{
+					"id": "What?",
+					"label": "理性",
+					"description": "真正的精神之光。"
+				}
+			],
+			"startdescription": "我的情人既與我辯論肉體之上的議題，也同我實踐肉體之間的議題。我必須跟上他的強度。",
+			"description": "眼下……我分不出心思。"
+		},
+		{
+			"id": "A_continuerose_enlightenment_success",
+			"label": "偷情：理解帶來的狂喜",
+			"startdescription": "在一起的我們更加光明",
+			"description": "\"@#uqenid|比起注視著我，伊妮德更喜歡閉上眼睛。她說看見會讓她難受。她說得那樣纏綿，讓我沒辦法覺得不中聽。\r\n#uqauclair|奧克萊爾擺好象棋盤。棋的規則每晚稍有不同。當晚到最後，我們都無心顧及規則了。\r\n#uqcat|卡特·卡羅知道如何到達。卡特·卡羅知道繁多的到達之法。當月亮分開窗簾，探入黑暗時，我們會一起依樣行事。\r\n#uqclifton|我去找克利夫頓時，他的住處總是燈火通明——蠟燭、電弧燈、甚至還有油燈。他堅持要這麼做。隨著夜晚的進行，燈光一支接一支熄滅，最終留下我們在純粹的黑暗中行我們的好事。\r\n#uqneville|內維爾用茶和鮮花歡迎我。他盤腿坐在我腳邊等我開口。哄他自己主動總要費我一番功夫，不過他從不讓我失望。\r\n#uqslee|思雷他雷打不動，來時總備好了詩。有的時候我心思在讀詩上。有的時候我心思在做其他事情上。@\""
+		},
+		{
+			"id": "L_continuerose_change",
+			"label": "偷情：當我們正在……",
+			"slots": [
+				{
+					"id": "What?",
+					"description": "一樁急事。"
+				}
+			],
+			"startdescription": "我的情人和我擁有同一種欲望，儘管我們可能並不完全理解它。",
+			"description": "眼下……我就是不能。"
+		},
+		{
+			"id": "A_continuerose_change_success",
+			"label": "偷情：當我們正在……",
+			"startdescription": "在一起的我們變得不同",
+			"description": "\"@#uqporter|波特已捨得花心思在和我幽會前洗澡。他也捨得花心思刮鬍子了，刮得還很精心。\r\n#uqysabet|伊莎貝特行動太快，因著這份輕巧，她給人她從不停在一個地方的印象。不過不知為何，她總出現在她該在的地方。\r\n#uqclovette|克羅薇特會在最奇怪的時機笑出聲，不過她的笑聲最終總能帶來好的結果。她的快樂簡直到了看得見摸得著的程度，可以讓人沉迷其中，且出來後必會變個樣子。\r\n#uqdorothy|多蘿西堅持要讓留聲機播曲子，從我們觸碰的那一刻開始，到我們分開為止。這會攪擾到我們。不過她補償了我，而對音樂的回憶會交織在對夜晚的回憶中，如編入緞子的一根亮線。\r\n#uqsylvia|西爾維婭用她的剪刀剪下你的衣服，然後為你接下來要做的事情選了一個位置。這個位置並不順手。\r\n#uqleo|里奧見到我很快樂——特別快樂——快樂到有時我能從他纖弱的肌膚下看出快樂的形狀。我用手指順著那個形狀劃過，提振他，安撫他；與之同時，我們成為了在一起的我們。@\""
+		},
+		{
+			"id": "L_continuerose_noone",
+			"label": "獨處",
+			"startdescription": "我孤身一人，但孤獨中有著平和。",
+			"description": "有些日子就是比平日更好。有時候，天空不再像張骯髒的被單。有時候，河裡的流水更加清澈。"
+		},
+		{
+			"id": "L_roseend",
+			"label": "後果來了！",
+			"startdescription": "@#uqauclair|奧克萊爾#uqcat|卡特#uqclovette|克羅薇特#uqclifton|克利夫頓#uqdorothy|多蘿西#uqelridge|埃爾里奇#uqenid|伊妮德#uqlaidlaw|萊德勞#uqleo|里奧#uqneville|內維爾#uqporter|波特#uqrenira|芮妮拉#uqrose|蘿絲#uqsaliba|薩利巴#uqslee|思雷#uqsylvia|西爾維婭#uqtristan|崔斯坦#uqvalciane|萬查妮#uqvictor|維克多#uqviolet|維奧萊特#uqysabet|伊莎貝特#uq|我的情人@不能再忍受我的不聞不問。",
+			"description": "我們兩人都會記得這一刻的難堪。",
+			"slots": [
+				{
+					"id": "glummer",
+					"label": "身後所遺"
+				}
+			]
+		},
+		{
+			"id": "L_roseend_risen",
+			"label": "後果來了！",
+			"startdescription": "回憶能超越死亡存在。怒火也如是，輕蔑亦如是。愛，也是嗎？我在這裡找不到答案。",
+			"description": "這是早已發端的終結的最後時刻。[即使亡者也不會饒恕你的不聞不問。]",
+			"slots": [
+				{
+					"id": "glummer",
+					"label": "身後所遺"
+				}
+			]
+		},
+		{
+			"id": "A_rose_binoff_dread",
+			"label": "在我的情人面前說出我的絕望，結束這段私情",
+			"startdescription": "“我們沒有未來。或許，我們連分都不會分開，但是我們肯定無法在一起。”",
+			"description": "我的舊情人離去了。寂靜變得濃重。"
+		},
+		{
+			"id": "A_rose_binoff_funds",
+			"label": "以羞辱的方式結束這段私情",
+			"startdescription": "“拿著。給你自己買點好東西。”",
+			"description": "我的舊情人摔門而去。"
+		}
+	]
 }

@@ -1,269 +1,64 @@
 {
-    "recipes": [
-        {
-            "id": "explore_vaultloneandlevelsands1_setup",
-            "label": "探險開始：被星辰擊碎的神殿",
-            "actionId": "explore",
-            "requirements": {
-                "funds": 1,
-                "follower": 1,
-                "vaultloneandlevelsands1": 1
-            },
-            "effects": {
-                "peril_desert": 1,
-                "seal_hiddendoor": 1,
-                "curse_visions": 1
-            },
-            "startdescription": "一顆星辰墜落在沙漠深處。它沒能完全摧毀它擊中的聖地。古老祭壇的寶藏或許仍然埋藏在星辰的墓穴之下。但我們必須謹慎地靠近星辰：它仍然會與不屬於這個世界的能量產生共鳴。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
-            "description": ".",
-            "warmup": 30,
-            "craftable": true,
-            "linked": [
-                {
-                    "id": "explorevault_expeditionbegun",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "explore_vaultloneandlevelsands2_setup",
-            "label": "探險開始：拉貢之墓",
-            "actionId": "explore",
-            "requirements": {
-                "funds": 1,
-                "follower": 1,
-                "vaultloneandlevelsands2": 1
-            },
-            "effects": {
-                "peril_desert": 1,
-                "seal_wardeddoor": 1,
-                "curse_dread": 1
-            },
-            "startdescription": "拉貢之墓地處沙漠，難以發現。我們必須借助星星確認方向。墓門承受住了盜墓者長久以來的攻擊。我們必須拿出我們擁有的所有武力。那裡宛如詛咒。我們必須做好萬全的準備。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
-            "description": ".",
-            "warmup": 30,
-            "craftable": true,
-            "linked": [
-                {
-                    "id": "explorevault_expeditionbegun",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "explore_vaultloneandlevelsands3_setup",
-            "label": "探險開始：墨薩拿",
-            "actionId": "explore",
-            "requirements": {
-                "funds": 1,
-                "follower": 1,
-                "vaultloneandlevelsands3": 1
-            },
-            "effects": {
-                "peril_desert": 1,
-                "guardian_watchers": 1,
-                "curse_affliction": 1
-            },
-            "startdescription": "墨薩拿的村民在過去百年都保持著強健的體魄和充沛的活力。他們會阻止任何挖掘他們秘密的企圖，甚至很可能擁有操縱詛咒的能力——前提是我們得先設法穿過沙漠，與他們接觸。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
-            "description": ".",
-            "warmup": 30,
-            "craftable": true,
-            "linked": [
-                {
-                    "id": "explorevault_expeditionbegun",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "explore_vaultloneandlevelsands4_setup",
-            "label": "探險開始：七蟠寺",
-            "actionId": "explore",
-            "requirements": {
-                "funds": 1,
-                "follower": 1,
-                "vaultloneandlevelsands4": 1
-            },
-            "effects": {
-                "peril_desert": 1,
-                "seal_wardeddoor": 1,
-                "curse_nowhere": 1
-            },
-            "startdescription": "“這個地方禁止生命的存在”，贊恩·馬克·甘提斯在手記中如是寫道。因此我們不會在那裡發現蛇。此外那個地方聽起來被詛咒了，並且甘提斯記錄了他在探索中沒能開啟的門。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
-            "description": ".",
-            "warmup": 30,
-            "craftable": true,
-            "linked": [
-                {
-                    "id": "explorevault_expeditionbegun",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "explore_vaultloneandlevelsandsdefault_setup",
-            "label": "探險開始：彌阿",
-            "actionId": "explore",
-            "requirements": {
-                "funds": 1,
-                "follower": 1,
-                "vaultloneandlevelsandsdefault": 1
-            },
-            "effects": {
-                "peril_desert": 1,
-                "seal_hiddendoor": 1,
-                "guardian_dead": 1,
-                "curse_affliction": 1
-            },
-            "startdescription": "彌阿，陷入沙漠已久的城市。僅有幽靈還在市街徘徊。任何尚存之物都會被徹底掩藏起來。浪遊旅人的詛咒籠罩著整座城市：這座城市曾虧待她，而這就是她的復仇。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
-            "description": ".",
-            "warmup": 30,
-            "craftable": true,
-            "linked": [
-                {
-                    "id": "explorevault_expeditionbegun",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "explorevaultloneandlevelsands1_success",
-            "label": "開門石",
-            "actionId": "explore",
-            "requirements": {
-                "vaultloneandlevelsands1": 1
-            },
-            "effects": {
-                "vaultloneandlevelsands1": -1
-            },
-            "internaldeck": {
-                "spec": [
-                    "toollanternd",
-                    "focusambermandaic",
-                    "medusaslamentgreek",
-                    "manneralchemistsparedvak"
-                ],
-                "draws": 4,
-                "defaultcard": "compensationd",
-                "resetonexhaustion": false
-            },
-            "startdescription": "隕石位於分崩離析的神廟中，蜿蜒如海洋生物，表面在穿過大氣層的過程中變得平滑。早在幾個世紀前古老祭壇肯定已然坍塌，但隕石仍然回應著我們的觸摸。在風中它發出電線般的嗡嗡聲。它的表面不斷變換，如眼睛般張開……",
-            "description": "發生了什麼？隕石已經合上，冰冷而沉默。沙土堆積其上，顯示這數百年來從未有人涉足。但此刻在我們的手中的，是我們在隕石之中發現的寶藏。",
-            "warmup": 30,
-            "craftable": false
-        },
-        {
-            "id": "explorevaultloneandlevelsands2_success",
-            "label": "拉貢的結末",
-            "actionId": "explore",
-            "requirements": {
-                "vaultloneandlevelsands2": 1
-            },
-            "effects": {
-                "vaultloneandlevelsands2": -1
-            },
-            "internaldeck": {
-                "spec": [
-                    "toolsecrethistoriesd",
-                    "voyagesfofucine",
-                    "toolmothf",
-                    "ingredientmothf",
-                    "ingredientknockf"
-                ],
-                "draws": 5,
-                "defaultcard": "compensationd",
-                "resetonexhaustion": false
-            },
-            "startdescription": "在中央大廳中，拉貢，那位曾經不死的長生者，赤裸而平靜地橫躺在檀香製成的棺樞之上。他被保存得很好——身形修長、皮膚黝黑、無比健康——但當我們靠近時，他化為黑色的碎塊，落葉般地分崩離析。殘渣中有東西發出微光。",
-            "description": "我們發現一塊懷錶，一本書，一些阿爾及利亞貨幣——都是我們這個時代的產物。他在聽任自己最終安息之前，一定多次往返此處。在懷錶的背面，我們發現它雕刻著名為忘卻會的長生者社團的標誌——閉合的眼睛。",
-            "warmup": 30,
-            "craftable": false,
-            "alt": [
-                {
-                    "id": "expedition.corpse.find.vaultloneandlevelsands2",
-                    "additional": true
-                }
-            ]
-        },
-        {
-            "id": "explorevaultloneandlevelsands3_success",
-            "label": "長生的宴席",
-            "actionId": "explore",
-            "requirements": {
-                "vaultloneandlevelsands3": 1
-            },
-            "effects": {
-                "vaultloneandlevelsands3": -1
-            },
-            "internaldeck": {
-                "spec": [
-                    "toolheartf",
-                    "songscarapacecrossmandaic",
-                    "sevenfoldslayingsevencoiledfucine"
-                ],
-                "draws": 3,
-                "defaultcard": "compensationd",
-                "resetonexhaustion": false
-            },
-            "startdescription": "在糧倉下方，我們發現了墨薩拿最深的秘密：一座祭壇，上面擺放著人類屍體的殘肢斷臂，已做過防腐處理。僅有很少的部分得以留存。數年來訪客們一定有在大吃這副身軀。這是長生者的肉嗎？這也許能解釋他們的長壽。",
-            "description": "牆上陳列著值得注意的物什。可能是從不明智的旅客身上獲得的戰利品，也可能是長生者的所有物。沒有跡象表明那名長生者究竟是自願的犧牲者，祖先，還是階下囚，現在我們也無法從村民處得知更多。祭壇上以希臘文寫就銘文：<b>獻給洪水</b>。",
-            "warmup": 30,
-            "craftable": false
-        },
-        {
-            "id": "explorevaultloneandlevelsands4_success",
-            "label": "神蛇之蟠",
-            "actionId": "explore",
-            "requirements": {
-                "vaultloneandlevelsands4": 1
-            },
-            "effects": {
-                "vaultloneandlevelsands4": -1
-            },
-            "internaldeck": {
-                "spec": [
-                    "ingredientwinterf",
-                    "influencewintere",
-                    "toolknockd",
-                    "memoryofgodsfucine",
-                    "toolwinterf"
-                ],
-                "draws": 5,
-                "defaultcard": "compensationd",
-                "resetonexhaustion": false
-            },
-            "startdescription": "“七蟠寺”，甘提斯在手記中如此稱呼它，位於其中的偶像是由石頭奇蹟般堆疊而成的石蛇——一重又一重，形成了令靈魂暈眩的蛇結。不安的預感蔓延至廟宇的每個角落。在這種感覺壓垮我們之前，我們應迅速搜查這個地方。",
-            "description": "寺廟乾淨得如同剛剛清掃過。門檻上沒有沙土，恐怖而盤旋迴轉的石蛇上亦一塵不染。在其迴旋之中我們不時找到一些藏品，彷彿它們是調皮地留給我們找到，亦或是偶像盤旋在它們之上。",
-            "warmup": 30,
-            "craftable": false
-        },
-        {
-            "id": "explorevaultloneandlevelsandsdefault_success",
-            "label": "往昔不再之城",
-            "actionId": "explore",
-            "requirements": {
-                "vaultloneandlevelsandsdefault": 1
-            },
-            "effects": {
-                "vaultloneandlevelsandsdefault": -1
-            },
-            "deckeffect": {
-                "vaultrewardsf": 3
-            },
-            "startdescription": "彌阿的風十分任性。它像個窮孩子一樣拉扯著我們的衣服，向我們的臉上投擲沙土，在布滿塵土的石塊中哀鳴。這座荒廢之城並不單調。這裡有柱子、拱門、被沙子蒙蔽的雕像，和不知延伸到何處的腳印。",
-            "description": "我們在一個可能是地窖或神殿的廢棄房間裡發現了遺跡。房間的牆壁開裂，裂縫中流出沙土。當我們回到地面時，風正在上行，幾乎將我們吹至空中。也許它非常想念我們。",
-            "warmup": 30,
-            "craftable": false,
-            "linked": [
-                {
-                    "id": "expeditionascensionmothe",
-                    "chance": 100
-                },
-                {
-                    "id": "expeditionascensionhearte",
-                    "chance": 100
-                }
-            ]
-        }
-    ]
+	"recipes": [
+		{
+			"id": "explore_vaultloneandlevelsands1_setup",
+			"label": "探險開始：被星辰擊碎的神殿",
+			"startdescription": "一顆星辰墜落在沙漠深處。它沒能完全摧毀它擊中的聖地。古老祭壇的寶藏或許仍然埋藏在星辰的墓穴之下。但我們必須謹慎地靠近星辰：它仍然會與不屬於這個世界的能量產生共鳴。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
+			"description": "."
+		},
+		{
+			"id": "explore_vaultloneandlevelsands2_setup",
+			"label": "探險開始：拉貢之墓",
+			"startdescription": "拉貢之墓地處沙漠，難以發現。我們必須借助星星確認方向。墓門承受住了盜墓者長久以來的攻擊。我們必須拿出我們擁有的所有武力。那裡宛如詛咒。我們必須做好萬全的準備。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
+			"description": "."
+		},
+		{
+			"id": "explore_vaultloneandlevelsands3_setup",
+			"label": "探險開始：墨薩拿",
+			"startdescription": "墨薩拿的村民在過去百年都保持著強健的體魄和充沛的活力。他們會阻止任何挖掘他們秘密的企圖，甚至很可能擁有操縱詛咒的能力——前提是我們得先設法穿過沙漠，與他們接觸。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
+			"description": "."
+		},
+		{
+			"id": "explore_vaultloneandlevelsands4_setup",
+			"label": "探險開始：七蟠寺",
+			"startdescription": "“這個地方禁止生命的存在”，贊恩·馬克·甘提斯在手記中如是寫道。因此我們不會在那裡發現蛇。此外那個地方聽起來被詛咒了，並且甘提斯記錄了他在探索中沒能開啟的門。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
+			"description": "."
+		},
+		{
+			"id": "explore_vaultloneandlevelsandsdefault_setup",
+			"label": "探險開始：彌阿",
+			"startdescription": "彌阿，陷入沙漠已久的城市。僅有幽靈還在市街徘徊。任何尚存之物都會被徹底掩藏起來。浪遊旅人的詛咒籠罩著整座城市：這座城市曾虧待她，而這就是她的復仇。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
+			"description": "."
+		},
+		{
+			"id": "explorevaultloneandlevelsands1_success",
+			"label": "開門石",
+			"startdescription": "隕石位於分崩離析的神廟中，蜿蜒如海洋生物，表面在穿過大氣層的過程中變得平滑。早在幾個世紀前古老祭壇肯定已然坍塌，但隕石仍然回應著我們的觸摸。在風中它發出電線般的嗡嗡聲。它的表面不斷變換，如眼睛般張開……",
+			"description": "發生了什麼？隕石已經合上，冰冷而沉默。沙土堆積其上，顯示這數百年來從未有人涉足。但此刻在我們的手中的，是我們在隕石之中發現的寶藏。"
+		},
+		{
+			"id": "explorevaultloneandlevelsands2_success",
+			"label": "拉貢的結末",
+			"startdescription": "在中央大廳中，拉貢，那位曾經不死的長生者，赤裸而平靜地橫躺在檀香製成的棺樞之上。他被保存得很好——身形修長、皮膚黝黑、無比健康——但當我們靠近時，他化為黑色的碎塊，落葉般地分崩離析。殘渣中有東西發出微光。",
+			"description": "我們發現一塊懷錶，一本書，一些阿爾及利亞貨幣——都是我們這個時代的產物。他在聽任自己最終安息之前，一定多次往返此處。在懷錶的背面，我們發現它雕刻著名為忘卻會的長生者社團的標誌——閉合的眼睛。"
+		},
+		{
+			"id": "explorevaultloneandlevelsands3_success",
+			"label": "長生的宴席",
+			"startdescription": "在糧倉下方，我們發現了墨薩拿最深的秘密：一座祭壇，上面擺放著人類屍體的殘肢斷臂，已做過防腐處理。僅有很少的部分得以留存。數年來訪客們一定有在大吃這副身軀。這是長生者的肉嗎？這也許能解釋他們的長壽。",
+			"description": "牆上陳列著值得注意的物什。可能是從不明智的旅客身上獲得的戰利品，也可能是長生者的所有物。沒有跡象表明那名長生者究竟是自願的犧牲者，祖先，還是階下囚，現在我們也無法從村民處得知更多。祭壇上以希臘文寫就銘文：<b>獻給洪水</b>。"
+		},
+		{
+			"id": "explorevaultloneandlevelsands4_success",
+			"label": "神蛇之蟠",
+			"startdescription": "“七蟠寺”，甘提斯在手記中如此稱呼它，位於其中的偶像是由石頭奇蹟般堆疊而成的石蛇——一重又一重，形成了令靈魂暈眩的蛇結。不安的預感蔓延至廟宇的每個角落。在這種感覺壓垮我們之前，我們應迅速搜查這個地方。",
+			"description": "寺廟乾淨得如同剛剛清掃過。門檻上沒有沙土，恐怖而盤旋迴轉的石蛇上亦一塵不染。在其迴旋之中我們不時找到一些藏品，彷彿它們是調皮地留給我們找到，亦或是偶像盤旋在它們之上。"
+		},
+		{
+			"id": "explorevaultloneandlevelsandsdefault_success",
+			"label": "往昔不再之城",
+			"startdescription": "彌阿的風十分任性。它像個窮孩子一樣拉扯著我們的衣服，向我們的臉上投擲沙土，在布滿塵土的石塊中哀鳴。這座荒廢之城並不單調。這裡有柱子、拱門、被沙子蒙蔽的雕像，和不知延伸到何處的腳印。",
+			"description": "我們在一個可能是地窖或神殿的廢棄房間裡發現了遺跡。房間的牆壁開裂，裂縫中流出沙土。當我們回到地面時，風正在上行，幾乎將我們吹至空中。也許它非常想念我們。"
+		}
+	]
 }

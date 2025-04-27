@@ -1,118 +1,52 @@
 {
-    "recipes": [
-        {
-            "id": "conjurationpower",
-            "label": "心之鑰匙",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": 2,
-                "follower": 1,
-                "ascensionpowera": 1
-            },
-            "effects": {},
-            "startdescription": "我能否利用這種儀式讓一位司辰附體呢？力量如氣味一般伴祂降臨。當然……我並不能得知哪位司辰會降臨。",
-            "description": "儀式完成，門扉即將洞開。",
-            "warmup": 30,
-            "craftable": false,
-            "comments": "legacy",
-            "burnimage": "flammarion"
-        },
-        {
-            "id": "conjurationpowerclue",
-            "label": "心之鑰匙？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "ascensionpowera": 1
-            },
-            "effects": {
-                "mystique": 1
-            },
-            "startdescription": "我能否利用這種儀式讓一位司辰附體呢？力量如氣味一般伴祂降臨。",
-            "description": "不起作用。我還需要別的東西——用於開啟道路之物。並且我還需要一名自願的犧牲者。",
-            "warmup": 30,
-            "craftable": false,
-            "comments": "legacy",
-            "burnimage": "flammarion"
-        },
-        {
-            "id": "conjurationenlightenment",
-            "label": "夢中之扉",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": 2,
-                "funds": 1,
-                "ascensionenlightenmenta": 1
-            },
-            "effects": {},
-            "startdescription": "利用這種儀式，我應該能追上守夜人的腳步，獲悉更多關於這棟無牆居屋的知識。",
-            "description": "儀式完成，門扉即將洞開。",
-            "warmup": 30,
-            "craftable": false,
-            "comments": "legacy",
-            "burnimage": "flammarion"
-        },
-        {
-            "id": "conjurationenlightenmentclue",
-            "label": "夢中之扉？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "ascensionenlightenmenta": 1
-            },
-            "startdescription": "利用這種儀式，我能不能追上守夜人的腳步，獲悉更多關於這棟無牆居屋的知識呢？",
-            "description": "不起作用。我需要拜請另一路神力——開啟之力。我還需要資金來購買用來點亮守夜人前路的稀罕蠟燭。",
-            "warmup": 30,
-            "craftable": false,
-            "comments": "legacy",
-            "burnimage": "flammarion"
-        },
-        {
-            "id": "ascensionpowerapromotion",
-            "label": "赤杯駕臨",
-            "actionId": "grailminorpromotion",
-            "requirements": {},
-            "slots": [
-                {
-                    "id": "Dedication",
-                    "label": "奉上",
-                    "required": {
-                        "passion": 1
-                    }
-                }
-            ],
-            "startdescription": "心臟搏動如鼓，血液燃燒沸騰。快成功了。我一定會更加熱忱地奉獻己身。",
-            "description": "儀式失敗了！我幾乎就要成功了——彷彿那即將點燃的蠟燭；彷彿那即將流進心臟的熱血。我必須再試一次。",
-            "warmup": 60,
-            "craftable": false,
-            "comments": "legacy",
-            "burnimage": "flammarion"
-        },
-        {
-            "id": "ascensionenlightenmentapromotion",
-            "label": "我聽見了守夜人的腳步",
-            "actionId": "watchmanminorpromotion",
-            "requirements": {},
-            "effects": {
-                "mystique": 1
-            },
-            "slots": [
-                {
-                    "id": "Dedication",
-                    "label": "奉上",
-                    "required": {
-                        "reason": 1
-                    }
-                }
-            ],
-            "startdescription": "世界的壁障顫抖如薄紗。我快要成功了。我必須全神貫注。",
-            "description": "我的指尖幾乎已經要碰觸到我所尋求的真知了。僅僅毫釐之差。我必須再試一次。",
-            "warmup": 60,
-            "craftable": false,
-            "comments": "legacy",
-            "burnimage": "flammarion"
-        }
-    ]
+	"recipes": [
+		{
+			"id": "conjurationpower",
+			"label": "心之鑰匙",
+			"startdescription": "我能否利用這種儀式讓一位司辰附體呢？力量如氣味一般伴祂降臨。當然……我並不能得知哪位司辰會降臨。",
+			"description": "儀式完成，門扉即將洞開。"
+		},
+		{
+			"id": "conjurationpowerclue",
+			"label": "心之鑰匙？",
+			"startdescription": "我能否利用這種儀式讓一位司辰附體呢？力量如氣味一般伴祂降臨。",
+			"description": "不起作用。我還需要別的東西——用於開啟道路之物。並且我還需要一名自願的犧牲者。"
+		},
+		{
+			"id": "conjurationenlightenment",
+			"label": "夢中之扉",
+			"startdescription": "利用這種儀式，我應該能追上守夜人的腳步，獲悉更多關於這棟無牆居屋的知識。",
+			"description": "儀式完成，門扉即將洞開。"
+		},
+		{
+			"id": "conjurationenlightenmentclue",
+			"label": "夢中之扉？",
+			"startdescription": "利用這種儀式，我能不能追上守夜人的腳步，獲悉更多關於這棟無牆居屋的知識呢？",
+			"description": "不起作用。我需要拜請另一路神力——開啟之力。我還需要資金來購買用來點亮守夜人前路的稀罕蠟燭。"
+		},
+		{
+			"id": "ascensionpowerapromotion",
+			"label": "赤杯駕臨",
+			"slots": [
+				{
+					"id": "Dedication",
+					"label": "奉上"
+				}
+			],
+			"startdescription": "心臟搏動如鼓，血液燃燒沸騰。快成功了。我一定會更加熱忱地奉獻己身。",
+			"description": "儀式失敗了！我幾乎就要成功了——彷彿那即將點燃的蠟燭；彷彿那即將流進心臟的熱血。我必須再試一次。"
+		},
+		{
+			"id": "ascensionenlightenmentapromotion",
+			"label": "我聽見了守夜人的腳步",
+			"slots": [
+				{
+					"id": "Dedication",
+					"label": "奉上"
+				}
+			],
+			"startdescription": "世界的壁障顫抖如薄紗。我快要成功了。我必須全神貫注。",
+			"description": "我的指尖幾乎已經要碰觸到我所尋求的真知了。僅僅毫釐之差。我必須再試一次。"
+		}
+	]
 }

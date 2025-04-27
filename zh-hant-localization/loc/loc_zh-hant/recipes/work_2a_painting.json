@@ -1,1787 +1,358 @@
 {
-    "recipes": [
-        {
-            "id": "paintbasic",
-            "label": "作畫",
-            "actionId": "work",
-            "requirements": {
-                "ritual": -1,
-                "job": -1,
-                "passion": 1,
-                "passionskill": -1
-            },
-            "startdescription": "我經常作畫。我能繪出夢中那些快被我遺忘的景象。或許我能把它們賣出去。多半不能。",
-            "description": "我完成了一幅畫作，滿心的激動喜悅卻只能由我一人獨享。[有時，繪畫能給你帶來靈感。<b>研究</b>它們能解鎖進階的繪畫選項。]",
-            "slots": [
-                {
-                    "id": "Yearning",
-                    "label": "渴盼",
-                    "required": {
-                        "restlessness": 1
-                    },
-                    "consumes": true,
-                    "description": "若我感覺躁動，也許此事正是我想做的。"
-                }
-            ],
-            "alt": [
-                {
-                    "id": "paintbasicsuccess",
-                    "chance": 30
-                }
-            ],
-            "deckeffect": {
-                "paintingresultsbasic": 1
-            },
-            "aspects": {
-                "fatiguing": 1
-            },
-            "craftable": true,
-            "warmup": 60
-        },
-        {
-            "id": "paintbasicsuccess",
-            "label": "我賣出了一幅畫！",
-            "actionId": "work",
-            "description": "有位買家願意買下我的畫作！或許她會把我的畫掛在空閒的臥室裡，這輩子再也不多看它一眼。但畢竟，錢就是錢。[有時，繪畫能給你帶來“靈感”。<b>研究</b>它們能解鎖進階的繪畫選項。]",
-            "deckeffect": {
-                "paintingresultsbasic": 2
-            },
-            "aspects": {
-                "fatiguing": 1
-            },
-            "effects": {
-                "funds": 2
-            }
-        },
-        {
-            "id": "paintwithskill",
-            "label": "作畫",
-            "actionId": "work",
-            "requirements": {
-                "passionskill": 1,
-                "ritual": -1,
-                "job": -1
-            },
-            "slots": [
-                {
-                    "id": "Inspiration",
-                    "label": "靈感",
-                    "required": {
-                        "lore": 1,
-                        "influence": 1,
-                        "follower": 1,
-                        "acquaintance": 1,
-                        "memory": 1
-                    },
-                    "description": "富有價值的畫題並非必需，但有其作用。有些題材會引起當局注意，但這不是正好說明它們有意思嗎？"
-                }
-            ],
-            "startdescription": "誰也說不準。幹這個或許能維持生計。[放入“激情”可繪製出獨特的作品。放入“秘氛”，尤其是“邪名”可引人注意，多多賺錢。但需要注意：如果你放入“邪名”，展覽這幅繪畫會讓你一直暴露於公共視野。]",
-            "warmup": 20,
-            "craftable": true,
-            "alt": [
-                {
-                    "id": "painthasgrandmemory.nocanvas",
-                    "chance": 100
-                },
-                {
-                    "id": "painthasgrandmemory",
-                    "chance": 100
-                },
-                {
-                    "id": "painthaslore",
-                    "chance": 100
-                },
-                {
-                    "id": "painthasinfluence",
-                    "chance": 100
-                },
-                {
-                    "id": "painthasmemory",
-                    "chance": 100
-                },
-                {
-                    "id": "painthassummoned",
-                    "chance": 100
-                },
-                {
-                    "id": "painthasfollower",
-                    "chance": 100
-                }
-            ],
-            "linked": [
-                {
-                    "id": "paintaddpigment",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "painthasgrandmemory.nocanvas",
-            "actionId": "work",
-            "label": "被遺忘的色彩",
-            "startdescription": "我記得已經被這個世界遺失的色彩。即便我能做到，我也並不敢真實地將它們再現於世。但是，下次有作畫的需要時，我或許可以嘗試一些致敬元素。",
-            "requirements": {
-                "memory": 5,
-                "passion": 1
-            },
-            "extantreqs": {
-                "canvas.pale": -1
-            },
-            "warmup": 30,
-            "linked": [
-                {
-                    "id": "paint.prepareforcanvas.pale"
-                }
-            ]
-        },
-        {
-            "id": "paint.prepareforcanvas.pale",
-            "actionId": "work",
-            "label": "為淡白至極的畫作準備畫布",
-            "startdescription": "人或為畫家，或為畫布。今日，我是畫家。[準備畫布要花一些時間，且將占用<b><作業></b>行動槽。]",
-            "description": "世界可以為淡白至極的畫作再多等待一會兒。反正已經等待許久了。",
-            "slots": [
-                {
-                    "id": "corpse",
-                    "label": "材料",
-                    "description": "處理過程漫長而複雜，但完工後，其氣味將幾不可聞。",
-                    "required": {
-                        "corpse": 1
-                    }
-                }
-            ],
-            "linked": [
-                {
-                    "id": "paint.createcanvas.pale"
-                }
-            ],
-            "warmup": 30
-        },
-        {
-            "id": "paint.createcanvas.pale",
-            "actionId": "work",
-            "label": "淡白的畫布",
-            "requirements": {
-                "corpse": 1
-            },
-            "startdescription": "準備工作必須保密，在一個無窗的房間中進行……但同時也必須保證極好的通風。",
-            "description": "完成了。他人永遠也不會知道，除非他真的貼得特別近去看。最好永遠別讓當局看到這張畫布。[下次畫畫時再度使用<b>回憶</b>，便可開始在“畫布”上作畫。]",
-            "effects": {
-                "canvas.pale": 1,
-                "corpse": -1,
-                "notoriety": 1
-            },
-            "warmup": 120
-        },
-        {
-            "id": "painthasgrandmemory",
-            "actionId": "work",
-            "label": "被遺忘的色彩",
-            "startdescription": "\"@#memory.furious|於低垂的紅太陽下，沙丘連成的沙床上，一頭怪獸與自己扭打著，身側圍擁著隨同者們。它體型鬆弛肥大，色如不純的硫磺……\r\n\t#memory.luxurious|在漫宿藍色的夜霧中，游弋著一個珊瑚所製的既為宮殿又為王冠之物，此物時不時讓位於月亮……\r\n\t#memory.liminal|透射著金紅霞光的紫色暮空……\r\n\t#memory.horizon|在霧氣散去，太陽或被誤認為是月亮之時，於天幕上的某些斑塊可見一種黯淡的白金色……\r\n\t#memory.splendid|玫紅極光與藍青電光爭奪著天空。無夜晚亦無黎明，只存在預備為午的時辰和停滯於午的時辰……\r\n\t#memory.endless|它或許醜陋，但它卻美麗好似玻璃迷宮褪去鮮血……\r\n\t#memory.wildering|沒入黑暗前的林地與其瑩綠好似帶毒的果實、其色如肉紅石髓的根莖……\r\n\t#memory.golden|它的每個刻面都映現著一個光點。也許是火光的閃爍……\r\n\t#memory.honeyed|我們的翅膀舒展而閃耀，我們的鱗片如黑曜石般泛著柔光……\r\n\t@\"",
-            "requirements": {
-                "memory": 5,
-                "passion": 1
-            },
-            "warmup": 30,
-            "linked": [
-                {
-                    "id": "paint.palestpainting.continue"
-                }
-            ]
-        },
-        {
-            "id": "paint.palestpainting.continue",
-            "actionId": "work",
-            "label": "繼續創作淡白至極的畫作",
-            "startdescription": "我像獵手一般跟蹤著筆下的畫面，從不直視它的眼睛。我無法用任何顏料表達這些失落的色彩，所以我必須將其輕描淡寫。",
-            "description": "世界可以為淡白至極的畫作再多等待一會兒。反正已經等待許久了。",
-            "slots": [
-                {
-                    "id": "canvas.pale",
-                    "label": "畫布",
-                    "greedy": true,
-                    "description": "Slowly, softly.",
-                    "required": {
-                        "canvas.pale": 1
-                    }
-                }
-            ],
-            "alt": [
-                {
-                    "id": "paint.palestpainting.furious"
-                },
-                {
-                    "id": "paint.palestpainting.luxurious"
-                },
-                {
-                    "id": "paint.palestpainting.liminal"
-                },
-                {
-                    "id": "paint.palestpainting.horizon"
-                },
-                {
-                    "id": "paint.palestpainting.splendid"
-                },
-                {
-                    "id": "paint.palestpainting.endless"
-                },
-                {
-                    "id": "paint.palestpainting.wildering"
-                },
-                {
-                    "id": "paint.palestpainting.golden"
-                },
-                {
-                    "id": "paint.palestpainting.honeyed"
-                }
-            ],
-            "warmup": 60
-        },
-        {
-            "id": "paint.palestpainting.furious",
-            "actionId": "work",
-            "label": "蟠七之色",
-            "startdescription": "於低垂的紅太陽下，沙丘連成的沙床上，一頭怪獸與自己扭打著，身側圍擁著隨同者們。它體型鬆弛肥大，色如不純的硫磺；數條生著獠牙、觸角般的脖頸像貓仔一樣互相扭打著。它歡快地撕扯著自己的肉，淌下的血是金色的。它重重翻倒，摔成一灘肉褶山肉片海，壓死了一團隨同者，令餘下的邊是尖叫邊是歡呼。",
-            "requirements": {
-                "memory.furious": 1
-            },
-            "effects": {
-                "memory.furious": -1
-            },
-            "aspects": {
-                "fatiguing": 1
-            },
-            "mutations": [
-                {
-                    "mutate": "colours.furious",
-                    "filter": "canvas.pale",
-                    "level": 1
-                }
-            ],
-            "linked": [
-                {
-                    "id": "paint.palestpainting.complete"
-                }
-            ]
-        },
-        {
-            "id": "paint.palestpainting.luxurious",
-            "actionId": "work",
-            "label": "潮水之色",
-            "startdescription": "在漫宿藍色的夜霧中，游弋著一個珊瑚所製的既為宮殿又為王冠之物，此物時不時讓位於月亮。它用它的前沿吸進那些不顯要的具名者，將自己的礦物和汁液塗裹其上；它從它的後沿排出他們，其已拋光磨亮彷若寶石——但不是排出他們中的所有——餘下的用於餵飽它那顆帶刺的浪潮之心。",
-            "requirements": {
-                "memory.luxurious": 1
-            },
-            "effects": {
-                "memory.luxurious": -1
-            },
-            "aspects": {
-                "fatiguing": 1
-            },
-            "mutations": [
-                {
-                    "mutate": "colours.luxurious",
-                    "filter": "canvas.pale",
-                    "level": 1
-                }
-            ],
-            "linked": [
-                {
-                    "id": "paint.palestpainting.complete"
-                }
-            ]
-        },
-        {
-            "id": "paint.palestpainting.liminal",
-            "actionId": "work",
-            "label": "雙重門關之色",
-            "startdescription": "當我回憶雙角利斧，我想起了山楂花的香味。我想起了透射著金紅霞光的紫色暮空。我想起了方做過活不久的她雙刃淋漓的樣子。",
-            "requirements": {
-                "memory.liminal": 1
-            },
-            "effects": {
-                "memory.liminal": -1
-            },
-            "aspects": {
-                "fatiguing": 1
-            },
-            "mutations": [
-                {
-                    "mutate": "colours.liminal",
-                    "filter": "canvas.pale",
-                    "level": 1
-                }
-            ],
-            "linked": [
-                {
-                    "id": "paint.palestpainting.complete"
-                }
-            ]
-        },
-        {
-            "id": "paint.palestpainting.horizon",
-            "actionId": "work",
-            "label": "天際之色",
-            "startdescription": "在霧氣散去，太陽或被誤認為是月亮之時，於天幕上的某些斑塊可見一種黯淡的白金色。我們屏住呼吸，看著它轉亮，直到每一重顏色與臨近的分離開來，彷若一個個新鑄的文字。逆孵之卵。",
-            "requirements": {
-                "memory.horizon": 1
-            },
-            "effects": {
-                "memory.horizon": -1
-            },
-            "aspects": {
-                "fatiguing": 1
-            },
-            "mutations": [
-                {
-                    "mutate": "colours.horizon",
-                    "filter": "canvas.pale",
-                    "level": 1
-                }
-            ],
-            "linked": [
-                {
-                    "id": "paint.palestpainting.complete"
-                }
-            ]
-        },
-        {
-            "id": "paint.palestpainting.splendid",
-            "actionId": "work",
-            "label": "已逝之色",
-            "startdescription": "玫紅極光與藍青電光爭奪著天空。無夜晚亦無黎明，只存在預備為午的時辰和停滯於午的時辰。我們每一個人都向天空射下的金針敞開心胸。一切色彩在驕陽下皆顯得更濃。",
-            "requirements": {
-                "memory.splendid": 1
-            },
-            "effects": {
-                "memory.splendid": -1
-            },
-            "aspects": {
-                "fatiguing": 1
-            },
-            "mutations": [
-                {
-                    "mutate": "colours.splendid",
-                    "filter": "canvas.pale",
-                    "level": 1
-                }
-            ],
-            "linked": [
-                {
-                    "id": "paint.palestpainting.complete"
-                }
-            ]
-        },
-        {
-            "id": "paint.palestpainting.endless",
-            "actionId": "work",
-            "label": "轉動之色",
-            "startdescription": "隨著一輪一輪地轉動，它的纖毛有節奏地顛撲扭擺，它的身體由透明漲成猩紅。它或許醜陋，但它卻美麗好似玻璃迷宮褪去鮮血。它不會停歇，且它通體纏卷永無窮盡。轉輪。",
-            "requirements": {
-                "memory.endless": 1
-            },
-            "effects": {
-                "memory.endless": -1
-            },
-            "aspects": {
-                "fatiguing": 1
-            },
-            "mutations": [
-                {
-                    "mutate": "colours.endless",
-                    "filter": "canvas.pale",
-                    "level": 1
-                }
-            ],
-            "linked": [
-                {
-                    "id": "paint.palestpainting.complete"
-                }
-            ]
-        },
-        {
-            "id": "paint.palestpainting.wildering",
-            "actionId": "work",
-            "label": "非黑之色",
-            "startdescription": "沒入黑暗前的林地與其瑩綠好似帶毒的果實、其色如肉紅石髓的根莖。飛蛾的眼睛因飢餓而透出歡喜。他正在捕獵。",
-            "requirements": {
-                "memory.wildering": 1
-            },
-            "effects": {
-                "memory.wildering": -1
-            },
-            "aspects": {
-                "fatiguing": 1
-            },
-            "mutations": [
-                {
-                    "mutate": "colours.wildering",
-                    "filter": "canvas.pale",
-                    "level": 1
-                }
-            ],
-            "linked": [
-                {
-                    "id": "paint.palestpainting.complete"
-                }
-            ]
-        },
-        {
-            "id": "paint.palestpainting.golden",
-            "actionId": "work",
-            "label": "古焰之色",
-            "startdescription": "它只是一塊石頭而已，儘管被打磨得光滑鋒銳臻至午夜之境。然而待再細看：它的每個刻面都映現著一個光點。也許是火光的閃爍，也許每個都是一顆不同的<b>星星</b>。",
-            "requirements": {
-                "memory.golden": 1
-            },
-            "effects": {
-                "memory.golden": -1
-            },
-            "aspects": {
-                "fatiguing": 1
-            },
-            "mutations": [
-                {
-                    "mutate": "colours.golden",
-                    "filter": "canvas.pale",
-                    "level": 1
-                }
-            ],
-            "linked": [
-                {
-                    "id": "paint.palestpainting.complete"
-                }
-            ]
-        },
-        {
-            "id": "paint.palestpainting.honeyed",
-            "actionId": "work",
-            "label": "將現之色",
-            "startdescription": "我們的翅膀舒展而閃耀，我們的鱗片如黑曜石般泛著柔光，我們的雙眼擁有寶石般的刻面，我們的腳爪黯黑到無懈可擊。",
-            "requirements": {
-                "memory.honeyed": 1
-            },
-            "effects": {
-                "memory.honeyed": -1
-            },
-            "aspects": {
-                "fatiguing": 1
-            },
-            "mutations": [
-                {
-                    "mutate": "colours.honeyed",
-                    "filter": "canvas.pale",
-                    "level": 1
-                }
-            ],
-            "linked": [
-                {
-                    "id": "paint.palestpainting.complete"
-                }
-            ]
-        },
-        {
-            "id": "paint.palestpainting.complete",
-            "actionId": "work",
-            "label": "九色既明",
-            "startdescription": "幾近完成。鴿子密匝匝地在我頭頂上的屋脊聚集。黃昏屏息以待。",
-            "description": "這幅畫不是一扇門。這些司辰業已離世。連祂們的回音都變得空虛。但我仍於此紀念祂們。那位被剝奪至奪無可奪之人，不受欺騙之人，一一喚亡者以姓名之人——祂或許會滿意於這副作品。",
-            "requirements": {
-                "colours.furious": 1,
-                "colours.luxurious": 1,
-                "colours.liminal": 1,
-                "colours.horizon": 1,
-                "colours.splendid": 1,
-                "colours.endless": 1,
-                "colours.wildering": 1,
-                "colours.golden": 1,
-                "colours.honeyed": 1
-            },
-            "effects": {
-                "memory": -1,
-                "canvas.pale": -1,
-                "painting.palest": 1,
-                "notoriety": 2
-            },
-            "aspects": {
-                "fatiguing": 1
-            },
-            "warmup": 30
-        },
-        {
-            "id": "painthaslore",
-            "actionId": "work",
-            "label": "玄奧之作",
-            "startdescription": "看得懂的人自然會明白。[包括防剿局的人。]",
-            "requirements": {
-                "lore": 1
-            },
-            "effects": {
-                "insight": 1,
-                "notoriety": 1
-            },
-            "warmup": 5,
-            "linked": [
-                {
-                    "id": "paintaddpigment",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "painthasinfluence",
-            "actionId": "work",
-            "label": "隨心之作",
-            "startdescription": "應當能引起反響。",
-            "effects": {
-                "insight": 1
-            },
-            "requirements": {
-                "influence": 1
-            },
-            "warmup": 5,
-            "linked": [
-                {
-                    "id": "paintaddpigment",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "painthasmemory",
-            "actionId": "work",
-            "label": "重述一段人生",
-            "startdescription": "這些回憶本會失落於我們腳下的泥土中，而今它們會流傳下去。",
-            "requirements": {
-                "memory": 1
-            },
-            "effects": {
-                "insight": 1,
-                "notoriety": 1
-            },
-            "warmup": 10,
-            "linked": [
-                {
-                    "id": "paint.memory.menacing.once",
-                    "chance": 30
-                },
-                {
-                    "id": "paint.memory.shameful.once",
-                    "chance": 30
-                },
-                {
-                    "id": "paint.memory.unexpected.once",
-                    "chance": 30
-                },
-                {
-                    "id": "paint.memory.joyful.once",
-                    "chance": 30
-                },
-                {
-                    "id": "paint.memory.profitable.once",
-                    "chance": 30
-                },
-                {
-                    "id": "paint.memory.generic"
-                },
-                {
-                    "id": "paintaddpigment"
-                }
-            ]
-        },
-        {
-            "id": "paint.memory.menacing.once",
-            "actionId": "work",
-            "label": "靈魂中的秘密",
-            "startdescription": "我瞥見了七蟠之死。[或將引起防剿局注意。]",
-            "requirements": {
-                "memory.menacing": 1
-            },
-            "effects": {
-                "pre.fragmentedgeb": 1,
-                "insight": 3,
-                "notoriety": 1,
-                "memory.menacing": -1
-            },
-            "warmup": 10,
-            "maxexecutions": 1,
-            "linked": [
-                {
-                    "id": "paintaddpigment"
-                }
-            ]
-        },
-        {
-            "id": "paint.memory.shameful.once",
-            "actionId": "work",
-            "label": "靈魂中的秘密",
-            "startdescription": "我瞥見了偉大母親的形狀。[或將引起防剿局注意。]",
-            "requirements": {
-                "memory.shameful": 1
-            },
-            "effects": {
-                "pre.fragmentgrailb": 1,
-                "insight": 3,
-                "notoriety": 1,
-                "memory.shameful": -1
-            },
-            "warmup": 10,
-            "maxexecutions": 1,
-            "linked": [
-                {
-                    "id": "paintaddpigment"
-                }
-            ]
-        },
-        {
-            "id": "paint.memory.unexpected.once",
-            "actionId": "work",
-            "label": "靈魂中的秘密",
-            "startdescription": "我瞥見了雙角斧的犧牲。[或將引起防剿局注意。]",
-            "requirements": {
-                "memory.unexpected": 1
-            },
-            "effects": {
-                "pre.fragmentknockb": 1,
-                "insight": 3,
-                "notoriety": 1,
-                "memory.unexpected": -1
-            },
-            "warmup": 10,
-            "maxexecutions": 1,
-            "linked": [
-                {
-                    "id": "paintaddpigment"
-                }
-            ]
-        },
-        {
-            "id": "paint.memory.joyful.once",
-            "actionId": "work",
-            "label": "靈魂中的秘密",
-            "startdescription": "我瞥見了轉輪的旋轉，儘管學徒們所知的是那轉動早已停歇。[或將引起防剿局注意。]",
-            "requirements": {
-                "memory.joyful": 1
-            },
-            "effects": {
-                "pre.fragmentheartb": 1,
-                "insight": 3,
-                "notoriety": 1,
-                "memory.joyful": -1
-            },
-            "warmup": 10,
-            "maxexecutions": 1,
-            "linked": [
-                {
-                    "id": "paintaddpigment"
-                }
-            ]
-        },
-        {
-            "id": "paint.memory.profitable.once",
-            "actionId": "work",
-            "label": "靈魂中的秘密",
-            "startdescription": "我瞥見了火如何改變，甚至是在火有了刻面後的歲月中的改變。[或將引起防剿局注意。]",
-            "requirements": {
-                "memory.profitable": 1
-            },
-            "effects": {
-                "pre.fragmentforgeb": 1,
-                "insight": 3,
-                "notoriety": 1,
-                "memory.profitable": -1
-            },
-            "warmup": 10,
-            "maxexecutions": 1,
-            "linked": [
-                {
-                    "id": "paintaddpigment"
-                }
-            ]
-        },
-        {
-            "id": "paint.memory.generic",
-            "actionId": "work",
-            "label": "人生一幕幕",
-            "startdescription": "我不覺得這是我自己的人生，不過也許它終究是的。總有一天我將完全無法分辨是與不是。",
-            "requirements": {
-                "memory.profitable": 1
-            },
-            "effects": {
-                "insight": 2,
-                "memory": -1
-            },
-            "warmup": 10,
-            "linked": [
-                {
-                    "id": "paintaddpigment"
-                }
-            ]
-        },
-        {
-            "id": "painthasfollower",
-            "actionId": "work",
-            "label": "肖像畫",
-            "startdescription": "或許能用來記住某人。",
-            "effects": {
-                "insight": 1
-            },
-            "requirements": {
-                "mortal": 1
-            },
-            "warmup": 5,
-            "linked": [
-                {
-                    "id": "paintaddpigment",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "painthassummoned",
-            "actionId": "work",
-            "label": "不同尋常的肖像畫",
-            "startdescription": "我要將他的形象畫到我們世界的畫布上，這或許能讓他在這個世界多留一段時間。[可能會引起防剿局的興趣。]",
-            "requirements": {
-                "summoned": 1
-            },
-            "effects": {
-                "insight": 1,
-                "notoriety": 1
-            },
-            "warmup": 5,
-            "linked": [
-                {
-                    "id": "paintaddpigment",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "paintaddpigment",
-            "actionId": "work",
-            "label": "夜之斑斕",
-            "warmup": 20,
-            "startdescription": "我可以花錢去買更好的顏料，或者我可以嘗試一些更異質的顏料……",
-            "slots": [
-                {
-                    "id": "Paints",
-                    "label": "畫材",
-                    "required": {
-                        "pigment": 1,
-                        "funds": 1
-                    }
-                }
-            ],
-            "alt": [
-                {
-                    "id": "paintluck",
-                    "chance": 30
-                }
-            ],
-            "linked": [
-                {
-                    "id": "paintfourpassion",
-                    "chance": 100
-                },
-                {
-                    "id": "paintthreepassion",
-                    "chance": 100
-                },
-                {
-                    "id": "painttwopassion",
-                    "chance": 100
-                },
-                {
-                    "id": "paintonepassion",
-                    "chance": 100
-                },
-                {
-                    "id": "paintnopassion",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "paintluck",
-            "actionId": "work",
-            "warmup": 1,
-            "label": "順心的一天",
-            "startdescription": "我發揮得比平時更出色。",
-            "effects": {
-                "insight": 1
-            },
-            "comments": "Passionless painting never does better than usual.",
-            "linked": [
-                {
-                    "id": "paintluck",
-                    "chance": 30
-                },
-                {
-                    "id": "paintfourpassion",
-                    "chance": 100
-                },
-                {
-                    "id": "paintthreepassion",
-                    "chance": 100
-                },
-                {
-                    "id": "painttwopassion",
-                    "chance": 100
-                },
-                {
-                    "id": "paintonepassion",
-                    "chance": 100
-                },
-                {
-                    "id": "paintcheckpigment",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "paintfourpassion",
-            "label": "全神貫注",
-            "startdescription": "我已投入全副心力。",
-            "actionId": "work",
-            "warmup": 10,
-            "requirements": {
-                "passion": 4
-            },
-            "aspects": {
-                "fatiguing": 1
-            },
-            "effects": {
-                "insight": 4
-            },
-            "linked": [
-                {
-                    "id": "paintcheckpigment",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "paintthreepassion",
-            "actionId": "work",
-            "label": "忘我投入",
-            "startdescription": "世界在我身邊消隱。",
-            "warmup": 10,
-            "requirements": {
-                "passion": 3
-            },
-            "aspects": {
-                "fatiguing": 1
-            },
-            "effects": {
-                "insight": 3
-            },
-            "linked": [
-                {
-                    "id": "paintcheckpigment",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "painttwopassion",
-            "actionId": "work",
-            "label": "滿腔激情",
-            "startdescription": "我知道筆觸有誤，但我也能想見成品的樣子。",
-            "warmup": 10,
-            "requirements": {
-                "passion": 2
-            },
-            "aspects": {
-                "fatiguing": 1
-            },
-            "effects": {
-                "insight": 2
-            },
-            "linked": [
-                {
-                    "id": "paintcheckpigment",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "paintonepassion",
-            "actionId": "work",
-            "label": "用心作畫",
-            "startdescription": "我沒退步。",
-            "warmup": 10,
-            "requirements": {
-                "passion": 1
-            },
-            "aspects": {
-                "fatiguing": 1
-            },
-            "effects": {
-                "insight": 1
-            },
-            "linked": [
-                {
-                    "id": "paintcheckpigment",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "paintnopassion",
-            "actionId": "work",
-            "label": "機械死板",
-            "startdescription": "老實說，我只是在不停地重複往畫布上抹顏料這個動作罷了。毫無疑問，這幅作品會很糟。",
-            "warmup": 5,
-            "requirements": {
-                "passion": -1
-            },
-            "aspects": {
-                "fatiguing": 1
-            },
-            "effects": {
-                "insight": -1
-            },
-            "linked": [
-                {
-                    "id": "paintcheckpigment",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "paintcheckpigment",
-            "actionId": "work",
-            "alt": [
-                {
-                    "id": "painthasfunds",
-                    "chance": 100
-                },
-                {
-                    "id": "painthaspigment",
-                    "chance": 100
-                },
-                {
-                    "id": "paintresults",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "painthasfunds",
-            "actionId": "work",
-            "requirements": {
-                "funds": 1
-            },
-            "effects": {
-                "insight": 1,
-                "funds": -1
-            },
-            "label": "用上等材料……",
-            "startdescription": "……畫上等畫作？",
-            "linked": [
-                {
-                    "id": "paintresults",
-                    "chance": 100
-                }
-            ],
-            "warmup": 5
-        },
-        {
-            "id": "painthaspigment",
-            "actionId": "work",
-            "requirements": {
-                "pigment": 1
-            },
-            "effects": {
-                "insight": 1,
-                "notoriety": 1
-            },
-            "label": "強效顏料",
-            "startdescription": "這顏料很危險，甚至是違法的。",
-            "warmup": 5,
-            "linked": [
-                {
-                    "id": "matchedge",
-                    "chance": 100
-                },
-                {
-                    "id": "matchforge",
-                    "chance": 100
-                },
-                {
-                    "id": "matchgrail",
-                    "chance": 100
-                },
-                {
-                    "id": "matchheart",
-                    "chance": 100
-                },
-                {
-                    "id": "matchknock",
-                    "chance": 100
-                },
-                {
-                    "id": "matchlantern",
-                    "chance": 100
-                },
-                {
-                    "id": "matchmoth",
-                    "chance": 100
-                },
-                {
-                    "id": "matchwinter",
-                    "chance": 100
-                },
-                {
-                    "id": "paintresults",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "matchedge",
-            "requirements": {
-                "ingredientedgeb": 1,
-                "edge": 5
-            },
-            "actionId": "work",
-            "label": "相稱的介質",
-            "startdescription": "能與寒冬抗衡的永遠是暖春。",
-            "effects": {
-                "insight": 2,
-                "influenceedgec": 1
-            },
-            "warmup": 5,
-            "linked": [
-                {
-                    "id": "paintmasteredge_unique",
-                    "chance": 100
-                },
-                {
-                    "id": "paintresults",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "matchforge",
-            "requirements": {
-                "ingredientforgeb": 1,
-                "forge": 5
-            },
-            "actionId": "work",
-            "label": "相稱的介質",
-            "startdescription": "黑色的顆粒，經過恰當處理，讓位於暴烈的色彩。",
-            "effects": {
-                "insight": 2,
-                "influenceforgec": 1
-            },
-            "warmup": 5,
-            "linked": [
-                {
-                    "id": "paintmasterforge_unique",
-                    "chance": 100
-                },
-                {
-                    "id": "paintresults",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "matchgrail",
-            "requirements": {
-                "ingredientgrailb": 1,
-                "grail": 5
-            },
-            "actionId": "work",
-            "label": "相稱的介質",
-            "startdescription": "永遠不會徹底乾涸。完美。",
-            "effects": {
-                "insight": 2,
-                "influencegrailc": 1,
-                "notoriety": 1
-            },
-            "comments": "Extra notoriety for Grail",
-            "warmup": 5,
-            "linked": [
-                {
-                    "id": "paintmastergrail_unique",
-                    "chance": 100
-                },
-                {
-                    "id": "paintresults",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "matchheart",
-            "requirements": {
-                "ingredientheartb": 1,
-                "heart": 5
-            },
-            "actionId": "work",
-            "label": "相稱的介質",
-            "startdescription": "甜蜜的海上黎明，重生之色。",
-            "effects": {
-                "insight": 2,
-                "influenceheartc": 1
-            },
-            "warmup": 5,
-            "linked": [
-                {
-                    "id": "paintmasterheart_unique",
-                    "chance": 100
-                },
-                {
-                    "id": "paintresults",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "matchknock",
-            "requirements": {
-                "ingredientknockb": 1,
-                "knock": 5
-            },
-            "actionId": "work",
-            "label": "相稱的介質",
-            "startdescription": "或早或晚，這張畫布終會毀壞，然而其上的色彩將越來越濃烈。",
-            "effects": {
-                "insight": 2,
-                "influenceknockc": 1
-            },
-            "warmup": 5,
-            "linked": [
-                {
-                    "id": "paintmasterknock_unique",
-                    "chance": 100
-                },
-                {
-                    "id": "paintresults",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "matchlantern",
-            "requirements": {
-                "ingredientlanternb": 1,
-                "lantern": 5
-            },
-            "actionId": "work",
-            "label": "相稱的介質",
-            "startdescription": "它將在絕對的黑暗中現出最大優勢，和我們所有人一樣。",
-            "effects": {
-                "insight": 2,
-                "influencelanternc": 1
-            },
-            "warmup": 5,
-            "linked": [
-                {
-                    "id": "paintmasterlantern_unique",
-                    "chance": 100
-                },
-                {
-                    "id": "paintresults",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "matchmoth",
-            "requirements": {
-                "ingredientmothb": 1,
-                "moth": 5
-            },
-            "actionId": "work",
-            "label": "相稱的介質",
-            "startdescription": "讓藝評家去爭論這究竟是何種顏色吧，他們或許會為此大打出手。",
-            "effects": {
-                "insight": 2,
-                "restlessness": 1,
-                "influencemothc": 1
-            },
-            "warmup": 5,
-            "linked": [
-                {
-                    "id": "paintmastermoth_unique",
-                    "chance": 100
-                },
-                {
-                    "id": "paintresults",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "matchwinter",
-            "requirements": {
-                "ingredientwinterb": 1,
-                "winter": 5
-            },
-            "effects": {
-                "insight": 2,
-                "dread": 1,
-                "influencewinterc": 1
-            },
-            "actionId": "work",
-            "label": "相稱的介質",
-            "startdescription": "我在做什麼？我都做了些什麼？這會讓某些人，甚至是所有人傷透了心。",
-            "warmup": 5,
-            "linked": [
-                {
-                    "id": "paintmasterwinter_unique",
-                    "chance": 100
-                },
-                {
-                    "id": "paintresults",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "paintmasteredge_unique",
-            "requirements": {
-                "insight": 7,
-                "edge": 9
-            },
-            "maxexecutions": 1,
-            "effects": {
-                "paintingmasteredge": 1
-            },
-            "actionId": "work",
-            "linked": [
-                {
-                    "id": "paintresults",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "paintmasterforge_unique",
-            "requirements": {
-                "insight": 7,
-                "forge": 9
-            },
-            "maxexecutions": 1,
-            "effects": {
-                "paintingmasterforge": 1
-            },
-            "actionId": "work",
-            "linked": [
-                {
-                    "id": "paintresults",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "paintmastergrail_unique",
-            "requirements": {
-                "insight": 7,
-                "grail": 9
-            },
-            "maxexecutions": 1,
-            "effects": {
-                "paintingmastergrail": 1
-            },
-            "actionId": "work",
-            "linked": [
-                {
-                    "id": "paintresults",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "paintmasterheart_unique",
-            "requirements": {
-                "insight": 7,
-                "heart": 9
-            },
-            "maxexecutions": 1,
-            "effects": {
-                "paintingmasterheart": 1
-            },
-            "actionId": "work",
-            "linked": [
-                {
-                    "id": "paintresults",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "paintmasterknock_unique",
-            "requirements": {
-                "insight": 7,
-                "knock": 9
-            },
-            "maxexecutions": 1,
-            "effects": {
-                "paintingmasterknock": 1
-            },
-            "actionId": "work",
-            "linked": [
-                {
-                    "id": "paintresults",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "paintmasterlantern_unique",
-            "requirements": {
-                "insight": 7,
-                "lantern": 9
-            },
-            "maxexecutions": 1,
-            "effects": {
-                "paintingmasterlantern": 1
-            },
-            "actionId": "work",
-            "linked": [
-                {
-                    "id": "paintresults",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "paintmastermoth_unique",
-            "requirements": {
-                "insight": 7,
-                "moth": 9
-            },
-            "maxexecutions": 1,
-            "effects": {
-                "paintingmastermoth": 1
-            },
-            "actionId": "work",
-            "linked": [
-                {
-                    "id": "paintresults",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "paintmasterwinter_unique",
-            "requirements": {
-                "insight": 7,
-                "winter": 9
-            },
-            "maxexecutions": 1,
-            "effects": {
-                "paintingmasterwinter": 1
-            },
-            "actionId": "work",
-            "linked": [
-                {
-                    "id": "paintresults",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "paintresults",
-            "label": "完成！",
-            "startdescription": " ",
-            "actionId": "work",
-            "warmup": 1,
-            "effects": {
-                "restlessness": -1,
-                "pigment": -1
-            },
-            "linked": [
-                {
-                    "id": "paintingqualitymaster_unique",
-                    "chance": 100
-                },
-                {
-                    "id": "paintingqualityglorious",
-                    "chance": 100
-                },
-                {
-                    "id": "paintingqualitymagnificent",
-                    "chance": 100
-                },
-                {
-                    "id": "paintingqualityexceptional",
-                    "chance": 100
-                },
-                {
-                    "id": "paintingqualitygood",
-                    "chance": 100
-                },
-                {
-                    "id": "paintingqualitycompetent",
-                    "chance": 100
-                },
-                {
-                    "id": "paintingqualityfailure",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "paintingqualitymaster_unique",
-            "actionId": "work",
-            "warmup": 5,
-            "label": "獨一無二之作",
-            "startdescription": "我畫了一幅獨一無二的作品，我絕不敢將這幅非凡之作公之於眾。[這幅作品見不得光，不能賺取“資金”。]",
-            "requirements": {
-                "tool": 1
-            },
-            "effects": {
-                "glimmering": 3,
-                "contentment": 1,
-                "insight": -99
-            }
-        },
-        {
-            "id": "paintingqualityglorious",
-            "actionId": "work",
-            "warmup": 5,
-            "label": "輝煌的畫作",
-            "startdescription": "就算再也不碰畫布，我也能名垂青史了。",
-            "requirements": {
-                "insight": 8
-            },
-            "deckeffect": {
-                "paintingresults": 6
-            },
-            "mutations": [
-                {
-                    "filter": "passionskill",
-                    "mutate": "stale",
-                    "level": -1,
-                    "additive": true
-                }
-            ],
-            "linked": [
-                {
-                    "id": "paintingreputationcheck",
-                    "chance": 100
-                }
-            ],
-            "effects": {
-                "insight": -99,
-                "fascination": 1
-            }
-        },
-        {
-            "id": "paintingqualitymagnificent",
-            "actionId": "work",
-            "warmup": 5,
-            "label": "瑰麗的畫作",
-            "startdescription": "我創作出一幅美麗與特色兼備的作品。這很可能使我聲名大噪。",
-            "requirements": {
-                "insight": 6
-            },
-            "deckeffect": {
-                "paintingresults": 5
-            },
-            "mutations": [
-                {
-                    "filter": "passionskill",
-                    "mutate": "stale",
-                    "level": -1,
-                    "additive": true
-                }
-            ],
-            "linked": [
-                {
-                    "id": "paintingreputationcheck",
-                    "chance": 100
-                }
-            ],
-            "effects": {
-                "insight": -99,
-                "fascination": 1
-            }
-        },
-        {
-            "id": "paintingqualityexceptional",
-            "actionId": "work",
-            "warmup": 5,
-            "label": "出色的畫作",
-            "startdescription": "這幅作品挺特別，或許會引起反響。",
-            "requirements": {
-                "insight": 4
-            },
-            "deckeffect": {
-                "paintingresults": 4
-            },
-            "mutations": [
-                {
-                    "filter": "passionskill",
-                    "mutate": "stale",
-                    "level": -1,
-                    "additive": true
-                }
-            ],
-            "linked": [
-                {
-                    "id": "paintingreputationcheck",
-                    "chance": 100
-                }
-            ],
-            "effects": {
-                "insight": -99
-            }
-        },
-        {
-            "id": "paintingqualitygood",
-            "actionId": "work",
-            "warmup": 5,
-            "label": "良好的畫作",
-            "startdescription": "這是我的得意之作。只要得到充分的展示，它便能賣出好價錢。",
-            "requirements": {
-                "insight": 2
-            },
-            "deckeffect": {
-                "paintingresults": 3
-            },
-            "linked": [
-                {
-                    "id": "paintingreputationcheck",
-                    "chance": 100
-                }
-            ],
-            "effects": {
-                "insight": -99
-            }
-        },
-        {
-            "id": "paintingqualitycompetent",
-            "actionId": "work",
-            "warmup": 5,
-            "label": "合格的畫作",
-            "startdescription": "完全拿得出手。",
-            "requirements": {
-                "insight": 1
-            },
-            "deckeffect": {
-                "paintingresults": 2
-            },
-            "linked": [
-                {
-                    "id": "paintingreputationcheck",
-                    "chance": 100
-                }
-            ],
-            "effects": {
-                "insight": -99
-            }
-        },
-        {
-            "id": "paintingqualityfailure",
-            "actionId": "work",
-            "warmup": 5,
-            "label": "毫無價值！",
-            "startdescription": "我畫出的東西一無用處，一無優點。我該為自己感到羞愧。不過如果我聲名在外，這幅畫還是有可能賣出去的……",
-            "requirements": {
-                "insight": -1
-            },
-            "effects": {
-                "insight": -99
-            },
-            "linked": [
-                {
-                    "id": "paintingreputationcheck",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "paintingreputationcheck",
-            "actionId": "work",
-            "effects": {
-                "insight": -1
-            },
-            "linked": [
-                {
-                    "id": "paintingreputation_celebrated",
-                    "chance": 100
-                },
-                {
-                    "id": "paintingreputation_famed",
-                    "chance": 100
-                },
-                {
-                    "id": "paintingreputation_notable",
-                    "chance": 100
-                },
-                {
-                    "id": "paintingreputation_significant",
-                    "chance": 100
-                },
-                {
-                    "id": "paintingreputation_known",
-                    "chance": 100
-                },
-                {
-                    "id": "paintingreputation_noticed",
-                    "chance": 100
-                },
-                {
-                    "id": "paintingreputation_unknown",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "paintingreputation_celebrated",
-            "label": "對藝術家的回報？",
-            "description": "我的新作廣獲好評！我畫技精良，名聲遠播。",
-            "actionId": "work",
-            "requirements": {
-                "reputation": 9,
-                "stale": -1
-            },
-            "deckeffect": {
-                "paintingresultsreputation": 7
-            },
-            "linked": [
-                {
-                    "id": "painting.reputation.overexposure"
-                }
-            ]
-        },
-        {
-            "id": "paintingreputation_famed",
-            "label": "對藝術家的回報？",
-            "description": "我的新作小獲名氣！我的畫收到了良好的評價。",
-            "actionId": "work",
-            "requirements": {
-                "reputation": 7,
-                "stale": -2
-            },
-            "deckeffect": {
-                "paintingresultsreputation": 6
-            },
-            "linked": [
-                {
-                    "id": "painting.reputation.overexposure"
-                }
-            ]
-        },
-        {
-            "id": "paintingreputation_notable",
-            "label": "對藝術家的回報？",
-            "description": "我的新作受到矚目！我已將最近的幾幅畫公開展覽。肯定會有人掏錢的。",
-            "actionId": "work",
-            "requirements": {
-                "reputation": 5,
-                "stale": -3
-            },
-            "deckeffect": {
-                "paintingresultsreputation": 4
-            },
-            "linked": [
-                {
-                    "id": "painting.reputation.overexposure"
-                }
-            ]
-        },
-        {
-            "id": "paintingreputation_significant",
-            "label": "對藝術家的回報？",
-            "description": "我的新作受到好評！我或可以此餬口，不過世事難料。",
-            "actionId": "work",
-            "requirements": {
-                "reputation": 3,
-                "stale": -4
-            },
-            "deckeffect": {
-                "paintingresultsreputation": 3
-            },
-            "linked": [
-                {
-                    "id": "painting.reputation.overexposure"
-                }
-            ]
-        },
-        {
-            "id": "paintingreputation_known",
-            "label": "對藝術家的回報？",
-            "description": "我的新作引發注意。應該能賣得出去。",
-            "actionId": "work",
-            "requirements": {
-                "reputation": 2,
-                "stale": -5
-            },
-            "deckeffect": {
-                "paintingresultsreputation": 2
-            }
-        },
-        {
-            "id": "paintingreputation_noticed",
-            "comments": "No links to over-exposure risk. The overexposure cards will happily decay to funds.",
-            "label": "對藝術家的回報？",
-            "description": "我的新作引來幾人觀看。運氣好的話能賣得出去。",
-            "actionId": "work",
-            "requirements": {
-                "reputation": 1
-            },
-            "deckeffect": {
-                "paintingresultsreputation": 1
-            }
-        },
-        {
-            "id": "paintingreputation_unknown",
-            "comments": "No links to over-exposure risk. The overexposure cards will happily decay to funds.",
-            "label": "對藝術家的回報？",
-            "description": "我的新作無人問津。沒有進帳。也許作畫本身便是其回報吧，但願如此。",
-            "actionId": "work",
-            "requirements": {
-                "reputation": -1
-            }
-        },
-        {
-            "id": "painting.reputation.overexposure",
-            "label": "對藝術家的回報？",
-            "actionId": "work",
-            "requirements": {
-                "overexposure": 1
-            },
-            "effects": {
-                "overexposure": -1
-            },
-            "mutations": [
-                {
-                    "filter": "passionskill",
-                    "mutate": "stale",
-                    "level": 1,
-                    "additive": true
-                }
-            ],
-            "linked": [
-                {
-                    "id": "painting.reputation.overexposure"
-                }
-            ]
-        },
-        {
-            "id": "paintmansus",
-            "label": "描繪漫宿",
-            "actionId": "work",
-            "requirements": {
-                "lantern": 1
-            },
-            "effects": {
-                "paintingmansus": 1
-            },
-            "startdescription": "我回想起了夢中的那些建築……",
-            "description": "這作品見不得日光。它會給我帶來麻煩。",
-            "warmup": 0,
-            "craftable": false
-        }
-    ]
+	"recipes": [
+		{
+			"id": "paintbasic",
+			"label": "作畫",
+			"startdescription": "我經常作畫。我能繪出夢中那些快被我遺忘的景象。或許我能把它們賣出去。多半不能。",
+			"description": "我完成了一幅畫作，滿心的激動喜悅卻只能由我一人獨享。[有時，繪畫能給你帶來靈感。<b>研究</b>它們能解鎖進階的繪畫選項。]",
+			"slots": [
+				{
+					"id": "Yearning",
+					"label": "渴盼",
+					"description": "若我感覺躁動，也許此事正是我想做的。"
+				}
+			]
+		},
+		{
+			"id": "paintbasicsuccess",
+			"label": "我賣出了一幅畫！",
+			"description": "有位買家願意買下我的畫作！或許她會把我的畫掛在空閒的臥室裡，這輩子再也不多看它一眼。但畢竟，錢就是錢。[有時，繪畫能給你帶來“靈感”。<b>研究</b>它們能解鎖進階的繪畫選項。]"
+		},
+		{
+			"id": "paintwithskill",
+			"label": "作畫",
+			"slots": [
+				{
+					"id": "Inspiration",
+					"label": "靈感",
+					"description": "富有價值的畫題並非必需，但有其作用。有些題材會引起當局注意，但這不是正好說明它們有意思嗎？"
+				}
+			],
+			"startdescription": "誰也說不準。幹這個或許能維持生計。[放入“激情”可繪製出獨特的作品。放入“秘氛”，尤其是“邪名”可引人注意，多多賺錢。但需要注意：如果你放入“邪名”，展覽這幅繪畫會讓你一直暴露於公共視野。]"
+		},
+		{
+			"id": "painthasgrandmemory.nocanvas",
+			"label": "被遺忘的色彩",
+			"startdescription": "我記得已經被這個世界遺失的色彩。即便我能做到，我也並不敢真實地將它們再現於世。但是，下次有作畫的需要時，我或許可以嘗試一些致敬元素。"
+		},
+		{
+			"id": "paint.prepareforcanvas.pale",
+			"label": "為淡白至極的畫作準備畫布",
+			"startdescription": "人或為畫家，或為畫布。今日，我是畫家。[準備畫布要花一些時間，且將占用<b><作業></b>行動槽。]",
+			"description": "世界可以為淡白至極的畫作再多等待一會兒。反正已經等待許久了。",
+			"slots": [
+				{
+					"id": "corpse",
+					"label": "材料",
+					"description": "處理過程漫長而複雜，但完工後，其氣味將幾不可聞。"
+				}
+			]
+		},
+		{
+			"id": "paint.createcanvas.pale",
+			"label": "淡白的畫布",
+			"startdescription": "準備工作必須保密，在一個無窗的房間中進行……但同時也必須保證極好的通風。",
+			"description": "完成了。他人永遠也不會知道，除非他真的貼得特別近去看。最好永遠別讓當局看到這張畫布。[下次畫畫時再度使用<b>回憶</b>，便可開始在“畫布”上作畫。]"
+		},
+		{
+			"id": "painthasgrandmemory",
+			"label": "被遺忘的色彩",
+			"startdescription": "\"@#memory.furious|於低垂的紅太陽下，沙丘連成的沙床上，一頭怪獸與自己扭打著，身側圍擁著隨同者們。它體型鬆弛肥大，色如不純的硫磺……\r\n\t#memory.luxurious|在漫宿藍色的夜霧中，游弋著一個珊瑚所製的既為宮殿又為王冠之物，此物時不時讓位於月亮……\r\n\t#memory.liminal|透射著金紅霞光的紫色暮空……\r\n\t#memory.horizon|在霧氣散去，太陽或被誤認為是月亮之時，於天幕上的某些斑塊可見一種黯淡的白金色……\r\n\t#memory.splendid|玫紅極光與藍青電光爭奪著天空。無夜晚亦無黎明，只存在預備為午的時辰和停滯於午的時辰……\r\n\t#memory.endless|它或許醜陋，但它卻美麗好似玻璃迷宮褪去鮮血……\r\n\t#memory.wildering|沒入黑暗前的林地與其瑩綠好似帶毒的果實、其色如肉紅石髓的根莖……\r\n\t#memory.golden|它的每個刻面都映現著一個光點。也許是火光的閃爍……\r\n\t#memory.honeyed|我們的翅膀舒展而閃耀，我們的鱗片如黑曜石般泛著柔光……\r\n\t@\""
+		},
+		{
+			"id": "paint.palestpainting.continue",
+			"label": "繼續創作淡白至極的畫作",
+			"startdescription": "我像獵手一般跟蹤著筆下的畫面，從不直視它的眼睛。我無法用任何顏料表達這些失落的色彩，所以我必須將其輕描淡寫。",
+			"description": "世界可以為淡白至極的畫作再多等待一會兒。反正已經等待許久了。",
+			"slots": [
+				{
+					"id": "canvas.pale",
+					"label": "畫布",
+					"description": "Slowly, softly."
+				}
+			]
+		},
+		{
+			"id": "paint.palestpainting.furious",
+			"label": "蟠七之色",
+			"startdescription": "於低垂的紅太陽下，沙丘連成的沙床上，一頭怪獸與自己扭打著，身側圍擁著隨同者們。它體型鬆弛肥大，色如不純的硫磺；數條生著獠牙、觸角般的脖頸像貓仔一樣互相扭打著。它歡快地撕扯著自己的肉，淌下的血是金色的。它重重翻倒，摔成一灘肉褶山肉片海，壓死了一團隨同者，令餘下的邊是尖叫邊是歡呼。"
+		},
+		{
+			"id": "paint.palestpainting.luxurious",
+			"label": "潮水之色",
+			"startdescription": "在漫宿藍色的夜霧中，游弋著一個珊瑚所製的既為宮殿又為王冠之物，此物時不時讓位於月亮。它用它的前沿吸進那些不顯要的具名者，將自己的礦物和汁液塗裹其上；它從它的後沿排出他們，其已拋光磨亮彷若寶石——但不是排出他們中的所有——餘下的用於餵飽它那顆帶刺的浪潮之心。"
+		},
+		{
+			"id": "paint.palestpainting.liminal",
+			"label": "雙重門關之色",
+			"startdescription": "當我回憶雙角利斧，我想起了山楂花的香味。我想起了透射著金紅霞光的紫色暮空。我想起了方做過活不久的她雙刃淋漓的樣子。"
+		},
+		{
+			"id": "paint.palestpainting.horizon",
+			"label": "天際之色",
+			"startdescription": "在霧氣散去，太陽或被誤認為是月亮之時，於天幕上的某些斑塊可見一種黯淡的白金色。我們屏住呼吸，看著它轉亮，直到每一重顏色與臨近的分離開來，彷若一個個新鑄的文字。逆孵之卵。"
+		},
+		{
+			"id": "paint.palestpainting.splendid",
+			"label": "已逝之色",
+			"startdescription": "玫紅極光與藍青電光爭奪著天空。無夜晚亦無黎明，只存在預備為午的時辰和停滯於午的時辰。我們每一個人都向天空射下的金針敞開心胸。一切色彩在驕陽下皆顯得更濃。"
+		},
+		{
+			"id": "paint.palestpainting.endless",
+			"label": "轉動之色",
+			"startdescription": "隨著一輪一輪地轉動，它的纖毛有節奏地顛撲扭擺，它的身體由透明漲成猩紅。它或許醜陋，但它卻美麗好似玻璃迷宮褪去鮮血。它不會停歇，且它通體纏卷永無窮盡。轉輪。"
+		},
+		{
+			"id": "paint.palestpainting.wildering",
+			"label": "非黑之色",
+			"startdescription": "沒入黑暗前的林地與其瑩綠好似帶毒的果實、其色如肉紅石髓的根莖。飛蛾的眼睛因飢餓而透出歡喜。他正在捕獵。"
+		},
+		{
+			"id": "paint.palestpainting.golden",
+			"label": "古焰之色",
+			"startdescription": "它只是一塊石頭而已，儘管被打磨得光滑鋒銳臻至午夜之境。然而待再細看：它的每個刻面都映現著一個光點。也許是火光的閃爍，也許每個都是一顆不同的<b>星星</b>。"
+		},
+		{
+			"id": "paint.palestpainting.honeyed",
+			"label": "將現之色",
+			"startdescription": "我們的翅膀舒展而閃耀，我們的鱗片如黑曜石般泛著柔光，我們的雙眼擁有寶石般的刻面，我們的腳爪黯黑到無懈可擊。"
+		},
+		{
+			"id": "paint.palestpainting.complete",
+			"label": "九色既明",
+			"startdescription": "幾近完成。鴿子密匝匝地在我頭頂上的屋脊聚集。黃昏屏息以待。",
+			"description": "這幅畫不是一扇門。這些司辰業已離世。連祂們的回音都變得空虛。但我仍於此紀念祂們。那位被剝奪至奪無可奪之人，不受欺騙之人，一一喚亡者以姓名之人——祂或許會滿意於這副作品。"
+		},
+		{
+			"id": "painthaslore",
+			"label": "玄奧之作",
+			"startdescription": "看得懂的人自然會明白。[包括防剿局的人。]"
+		},
+		{
+			"id": "painthasinfluence",
+			"label": "隨心之作",
+			"startdescription": "應當能引起反響。"
+		},
+		{
+			"id": "painthasmemory",
+			"label": "重述一段人生",
+			"startdescription": "這些回憶本會失落於我們腳下的泥土中，而今它們會流傳下去。"
+		},
+		{
+			"id": "paint.memory.menacing.once",
+			"label": "靈魂中的秘密",
+			"startdescription": "我瞥見了七蟠之死。[或將引起防剿局注意。]"
+		},
+		{
+			"id": "paint.memory.shameful.once",
+			"label": "靈魂中的秘密",
+			"startdescription": "我瞥見了偉大母親的形狀。[或將引起防剿局注意。]"
+		},
+		{
+			"id": "paint.memory.unexpected.once",
+			"label": "靈魂中的秘密",
+			"startdescription": "我瞥見了雙角斧的犧牲。[或將引起防剿局注意。]"
+		},
+		{
+			"id": "paint.memory.joyful.once",
+			"label": "靈魂中的秘密",
+			"startdescription": "我瞥見了轉輪的旋轉，儘管學徒們所知的是那轉動早已停歇。[或將引起防剿局注意。]"
+		},
+		{
+			"id": "paint.memory.profitable.once",
+			"label": "靈魂中的秘密",
+			"startdescription": "我瞥見了火如何改變，甚至是在火有了刻面後的歲月中的改變。[或將引起防剿局注意。]"
+		},
+		{
+			"id": "paint.memory.generic",
+			"label": "人生一幕幕",
+			"startdescription": "我不覺得這是我自己的人生，不過也許它終究是的。總有一天我將完全無法分辨是與不是。"
+		},
+		{
+			"id": "painthasfollower",
+			"label": "肖像畫",
+			"startdescription": "或許能用來記住某人。"
+		},
+		{
+			"id": "painthassummoned",
+			"label": "不同尋常的肖像畫",
+			"startdescription": "我要將他的形象畫到我們世界的畫布上，這或許能讓他在這個世界多留一段時間。[可能會引起防剿局的興趣。]"
+		},
+		{
+			"id": "paintaddpigment",
+			"label": "夜之斑斕",
+			"startdescription": "我可以花錢去買更好的顏料，或者我可以嘗試一些更異質的顏料……",
+			"slots": [
+				{
+					"id": "Paints",
+					"label": "畫材"
+				}
+			]
+		},
+		{
+			"id": "paintluck",
+			"label": "順心的一天",
+			"startdescription": "我發揮得比平時更出色。"
+		},
+		{
+			"id": "paintfourpassion",
+			"label": "全神貫注",
+			"startdescription": "我已投入全副心力。"
+		},
+		{
+			"id": "paintthreepassion",
+			"label": "忘我投入",
+			"startdescription": "世界在我身邊消隱。"
+		},
+		{
+			"id": "painttwopassion",
+			"label": "滿腔激情",
+			"startdescription": "我知道筆觸有誤，但我也能想見成品的樣子。"
+		},
+		{
+			"id": "paintonepassion",
+			"label": "用心作畫",
+			"startdescription": "我沒退步。"
+		},
+		{
+			"id": "paintnopassion",
+			"label": "機械死板",
+			"startdescription": "老實說，我只是在不停地重複往畫布上抹顏料這個動作罷了。毫無疑問，這幅作品會很糟。"
+		},
+		{
+			"id": "painthasfunds",
+			"label": "用上等材料……",
+			"startdescription": "……畫上等畫作？"
+		},
+		{
+			"id": "painthaspigment",
+			"label": "強效顏料",
+			"startdescription": "這顏料很危險，甚至是違法的。"
+		},
+		{
+			"id": "matchedge",
+			"label": "相稱的介質",
+			"startdescription": "能與寒冬抗衡的永遠是暖春。"
+		},
+		{
+			"id": "matchforge",
+			"label": "相稱的介質",
+			"startdescription": "黑色的顆粒，經過恰當處理，讓位於暴烈的色彩。"
+		},
+		{
+			"id": "matchgrail",
+			"label": "相稱的介質",
+			"startdescription": "永遠不會徹底乾涸。完美。"
+		},
+		{
+			"id": "matchheart",
+			"label": "相稱的介質",
+			"startdescription": "甜蜜的海上黎明，重生之色。"
+		},
+		{
+			"id": "matchknock",
+			"label": "相稱的介質",
+			"startdescription": "或早或晚，這張畫布終會毀壞，然而其上的色彩將越來越濃烈。"
+		},
+		{
+			"id": "matchlantern",
+			"label": "相稱的介質",
+			"startdescription": "它將在絕對的黑暗中現出最大優勢，和我們所有人一樣。"
+		},
+		{
+			"id": "matchmoth",
+			"label": "相稱的介質",
+			"startdescription": "讓藝評家去爭論這究竟是何種顏色吧，他們或許會為此大打出手。"
+		},
+		{
+			"id": "matchwinter",
+			"label": "相稱的介質",
+			"startdescription": "我在做什麼？我都做了些什麼？這會讓某些人，甚至是所有人傷透了心。"
+		},
+		{
+			"id": "paintresults",
+			"label": "完成！",
+			"startdescription": " "
+		},
+		{
+			"id": "paintingqualitymaster_unique",
+			"label": "獨一無二之作",
+			"startdescription": "我畫了一幅獨一無二的作品，我絕不敢將這幅非凡之作公之於眾。[這幅作品見不得光，不能賺取“資金”。]"
+		},
+		{
+			"id": "paintingqualityglorious",
+			"label": "輝煌的畫作",
+			"startdescription": "就算再也不碰畫布，我也能名垂青史了。"
+		},
+		{
+			"id": "paintingqualitymagnificent",
+			"label": "瑰麗的畫作",
+			"startdescription": "我創作出一幅美麗與特色兼備的作品。這很可能使我聲名大噪。"
+		},
+		{
+			"id": "paintingqualityexceptional",
+			"label": "出色的畫作",
+			"startdescription": "這幅作品挺特別，或許會引起反響。"
+		},
+		{
+			"id": "paintingqualitygood",
+			"label": "良好的畫作",
+			"startdescription": "這是我的得意之作。只要得到充分的展示，它便能賣出好價錢。"
+		},
+		{
+			"id": "paintingqualitycompetent",
+			"label": "合格的畫作",
+			"startdescription": "完全拿得出手。"
+		},
+		{
+			"id": "paintingqualityfailure",
+			"label": "毫無價值！",
+			"startdescription": "我畫出的東西一無用處，一無優點。我該為自己感到羞愧。不過如果我聲名在外，這幅畫還是有可能賣出去的……"
+		},
+		{
+			"id": "paintingreputation_celebrated",
+			"label": "對藝術家的回報？",
+			"description": "我的新作廣獲好評！我畫技精良，名聲遠播。"
+		},
+		{
+			"id": "paintingreputation_famed",
+			"label": "對藝術家的回報？",
+			"description": "我的新作小獲名氣！我的畫收到了良好的評價。"
+		},
+		{
+			"id": "paintingreputation_notable",
+			"label": "對藝術家的回報？",
+			"description": "我的新作受到矚目！我已將最近的幾幅畫公開展覽。肯定會有人掏錢的。"
+		},
+		{
+			"id": "paintingreputation_significant",
+			"label": "對藝術家的回報？",
+			"description": "我的新作受到好評！我或可以此餬口，不過世事難料。"
+		},
+		{
+			"id": "paintingreputation_known",
+			"label": "對藝術家的回報？",
+			"description": "我的新作引發注意。應該能賣得出去。"
+		},
+		{
+			"id": "paintingreputation_noticed",
+			"label": "對藝術家的回報？",
+			"description": "我的新作引來幾人觀看。運氣好的話能賣得出去。"
+		},
+		{
+			"id": "paintingreputation_unknown",
+			"label": "對藝術家的回報？",
+			"description": "我的新作無人問津。沒有進帳。也許作畫本身便是其回報吧，但願如此。"
+		},
+		{
+			"id": "painting.reputation.overexposure",
+			"label": "對藝術家的回報？"
+		},
+		{
+			"id": "paintmansus",
+			"label": "描繪漫宿",
+			"startdescription": "我回想起了夢中的那些建築……",
+			"description": "這作品見不得日光。它會給我帶來麻煩。"
+		}
+	]
 }

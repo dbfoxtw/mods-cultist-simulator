@@ -1,430 +1,135 @@
 {
-    "recipes": [
-        {
-            "id": "ambition.apostlegrail.emitfuel",
-            "actionId": "work",
-            "label": "來自我們的愉悅者的指引",
-            "requirements": {
-                "apostlegrail.mentor": 1
-            },
-            "startdescription": "我們的愉悅者遣信使送來一小瓶他最神聖的血液。",
-            "effects": {
-                "apostlegrail.pillarfuel": 1
-            }
-        },
-        {
-            "id": "work.apostlegrail.majorvictory.postbetrayal",
-            "actionId": "work",
-            "label": "謝肉祭如期舉行",
-            "extantreqs": {
-                "apostlegrail.mentor": -1
-            },
-            "startdescription": "為與杯同在，我們的愉悅者須得給予生命，奪取生命，並永不饜足。於是我則擔任謝肉祭的壓軸大菜。凡愉悅者的孩子的身體都符合要求，但罪犯天孽者不能大張旗鼓地進入漫宿。所以我站出來，在好歹逃過特里豐的誘惑之後，我將獻出己身，任由瑪麗內特醃製，任七重庇佑和三番滋味淹沒我，而當第一口咬下時，我簡直沒有什麼感覺；我簡直完全沒有感覺。",
-            "requirements": {
-                "fragmentheartg": 1,
-                "influencegrailg": 1,
-                "apostlegrail.pillar2": 1,
-                "apostlegrail.pillar3": 1,
-                "apostlegrail.pillar4": 1,
-                "toolgrailf": 1,
-                "grailflavour": 1,
-                "heartflavour": 1,
-                "mothflavour": 1
-            },
-            "warmup": 60,
-            "craftable": true,
-            "ending": "majorgrailvictory"
-        },
-        {
-            "id": "work.apostlegrail.majorvictory",
-            "actionId": "work",
-            "label": "謝肉祭所需的最後環節",
-            "extantreqs": {
-                "apostlegrail.mentor": 1
-            },
-            "startdescription": "為與杯同在，我們的愉悅者須得給予生命，奪取生命，並永不饜足。於是我則擔任謝肉祭的壓軸大菜。凡愉悅者的孩子的身體都能符合要求，但罪犯天孽者不能大張旗鼓地進入漫宿。於是由我獻出己身，任由瑪麗內特醃製，任七重庇佑和三番滋味淹沒我，而當第一口咬下時，我簡直沒有什麼感覺；我簡直完全沒有感覺。",
-            "requirements": {
-                "fragmentheartg": 1,
-                "influencegrailg": 1,
-                "apostlegrail.pillar2": 1,
-                "apostlegrail.pillar3": 1,
-                "apostlegrail.pillar4": 1,
-                "toolgrailf": 1,
-                "grailflavour": 1,
-                "heartflavour": 1,
-                "mothflavour": 1
-            },
-            "warmup": 60,
-            "craftable": true,
-            "ending": "majorgrailvictory"
-        },
-        {
-            "id": "explore.apostlegrail.purchase.apostlegrail.pillar3",
-            "actionId": "explore",
-            "label": "競拍稀有香料",
-            "startdescription": "我們的愉悅者的血可以在特定鑑賞家處購買特定貨物。謝肉祭的一切用品須得完美無缺。",
-            "requirements": {
-                "locationauctionhouse": 1,
-                "apostlegrail.pillarfuel": 1
-            },
-            "effects": {
-                "apostlegrail.pillar3": 1,
-                "apostlegrail.pillarfuel": -1
-            },
-            "warmup": 5,
-            "craftable": true,
-            "linked": [
-                {
-                    "id": "auctionbuy"
-                }
-            ]
-        },
-        {
-            "id": "work.apostlegrail.upgrade.apostlegrail.pillar3.finished",
-            "actionId": "work",
-            "label": "七重庇佑已備齊",
-            "startdescription": "備齊七重庇佑和三番滋味：鹹、甜、至甜。我們這些最尊貴的宴主理應享受最尊貴的待遇。",
-            "requirements": {
-                "apostlegrail.pillar3": 1,
-                "grailflavour": 1,
-                "heartflavour": 1,
-                "mothflavour": 1,
-                "ritual": -1
-            },
-            "craftable": true
-        },
-        {
-            "id": "work.apostlegrail.upgrade.apostlegrail.pillar3",
-            "actionId": "work",
-            "label": "準備七重庇佑",
-            "startdescription": "氣味和滋味都得精確符合食譜所記。只有這樣才能激發我和我的同僚足夠的胃口——高漲到醒時的世界裡從未有過的程度。",
-            "requirements": {
-                "apostlegrail.pillar3": 1,
-                "ritual": -1
-            },
-            "description": "我找不到需要添加的某種香味或滋味。",
-            "slots": [
-                {
-                    "id": "enhancement",
-                    "label": "加料",
-                    "description": "為謝肉祭加入一點特別的成分，確保其執行順利無誤。",
-                    "required": {
-                        "ingredientgraild": 1,
-                        "ingredientmothd": 1,
-                        "ingredientheartf": 1
-                    }
-                }
-            ],
-            "alt": [
-                {
-                    "id": "work.apostlegrail.upgrade.apostlegrail.pillar3.finished"
-                },
-                {
-                    "id": "work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.grail"
-                },
-                {
-                    "id": "work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.heart"
-                },
-                {
-                    "id": "work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.moth"
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.grail",
-            "actionId": "work",
-            "label": "制花人的贈禮",
-            "startdescription": "如果我們死去，我們也仍活在殺死我們的人身上。",
-            "requirements": {
-                "ingredientgraild": 1,
-                "grailflavour": -1
-            },
-            "effects": {
-                "ingredientgraild": -1
-            },
-            "mutations": [
-                {
-                    "filter": "apostlegrail.pillar3",
-                    "mutate": "grailflavour",
-                    "level": 1
-                }
-            ],
-            "linked": [
-                {
-                    "id": "work.apostlegrail.upgrade.apostlegrail.pillar3.finished"
-                }
-            ]
-        },
-        {
-            "id": "work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.heart",
-            "actionId": "work",
-            "label": "雅努斯的滋味",
-            "startdescription": "雅努斯是除建立支配外，不管其他事務的神明。雅努斯是非死卻已死的聖徒。雅努斯是連結“不可能”與“注定”的門扉。",
-            "requirements": {
-                "ingredientheartf": 1,
-                "heartflavour": -1
-            },
-            "effects": {
-                "ingredientheartf": -1
-            },
-            "mutations": [
-                {
-                    "filter": "apostlegrail.pillar3",
-                    "mutate": "heartflavour",
-                    "level": 1
-                }
-            ],
-            "linked": [
-                {
-                    "id": "work.apostlegrail.upgrade.apostlegrail.pillar3.finished"
-                }
-            ]
-        },
-        {
-            "id": "work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.moth",
-            "actionId": "work",
-            "label": "漆黑亞麻的滋味",
-            "startdescription": "我們必須忘記自己原為何物。",
-            "requirements": {
-                "ingredientmothd": 1,
-                "mothflavour": -1
-            },
-            "effects": {
-                "ingredientmothd": -1
-            },
-            "mutations": [
-                {
-                    "filter": "apostlegrail.pillar3",
-                    "mutate": "mothflavour",
-                    "level": 1
-                }
-            ],
-            "linked": [
-                {
-                    "id": "work.apostlegrail.upgrade.apostlegrail.pillar3.finished"
-                }
-            ]
-        },
-        {
-            "id": "talk.apostlegrail.createpillar4",
-            "actionId": "talk",
-            "label": "開始準備謝肉祭",
-            "startdescription": "在我們的愉悅者證實他的胃口之時，我們將舉辦一場盛大的慶祝。",
-            "description": "只能等我們知道赤杯的影響何時達到鼎盛，我們才能最終敲定日期。但是我們現在就可以，且應該，開始挑選宴主的組成者。",
-            "requirements": {
-                "apostlegrail.pillar1": 1
-            },
-            "craftable": true,
-            "effects": {
-                "apostlegrail.pillar4.inprogress1": 1
-            },
-            "warmup": 60
-        },
-        {
-            "id": "talk.apostlegrail.upgradepillar4.attempt",
-            "actionId": "talk",
-            "label": "邀請最後一名賓客",
-            "startdescription": "若持鑰匙者不來，一切準備皆徒勞。",
-            "description": "我們的持鑰匙者還未就位",
-            "requirements": {
-                "apostlegrail.pillar4.inprogress7": 1
-            },
-            "slots": [
-                {
-                    "id": "finalguest",
-                    "label": "持鑰匙者",
-                    "required": {
-                        "marinette": 1
-                    }
-                }
-            ],
-            "alt": [
-                {
-                    "id": "talk.apostlegrail.upgradepillar4.marinetteready"
-                },
-                {
-                    "id": "talk.apostlegrail.upgradepillar4.marinettenotready"
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "talk.apostlegrail.upgradepillar4.inprogress.attempt",
-            "actionId": "talk",
-            "label": "進一步增多宴主",
-            "startdescription": "我們得招徠更多參加者。我們的幫手有：貪婪、好奇、淫慾和徹頭徹尾的無所事事。",
-            "description": "我們已經把期待的慾火煽動至極限。",
-            "requirements": {
-                "uqvitulation": 1
-            },
-            "slots": [
-                {
-                    "id": "more",
-                    "label": "還要更多",
-                    "required": {
-                        "mystique": 1
-                    }
-                }
-            ],
-            "alt": [
-                {
-                    "id": "talk.apostlegrail.upgradepillar4.succeed"
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "talk.apostlegrail.upgradepillar4.marinetteready",
-            "actionId": "talk",
-            "label": "持鑰匙者",
-            "startdescription": "“<sprite name=winter>。”",
-            "requirements": {
-                "marinette": 1,
-                "approval": 7,
-                "apostlegrail.pillar4.inprogress7": 1
-            },
-            "effects": {
-                "marinette": -1,
-                "apostlegrail.pillar4.inprogress7": -1,
-                "apostlegrail.pillar4": 1
-            },
-            "craftable": false
-        },
-        {
-            "id": "talk.apostlegrail.upgradepillar4.marinettenotready",
-            "actionId": "talk",
-            "label": "還不夠",
-            "startdescription": "“……<sprite name=grail>。”[瑪麗內特尚未饜足。]",
-            "requirements": {
-                "marinette": 1
-            },
-            "craftable": false
-        },
-        {
-            "id": "talk.apostlegrail.upgradepillar4.succeed",
-            "actionId": "talk",
-            "label": "宴主增加中",
-            "startdescription": "神聖與神秘並重的名單上需要更多名字的出現，盛大的夜晚需要更多面孔的出現。",
-            "requirements": {
-                "mystique": 1,
-                "uqvitulation": 1
-            },
-            "effects": {
-                "mystique": -1
-            },
-            "aspects": {
-                "vitulationupgrade": 1
-            },
-            "craftable": false
-        },
-        {
-            "id": "talk.apostlegrail.sulochanamarinette",
-            "actionId": "talk",
-            "label": "被引薦給操線仙娥",
-            "startdescription": "“你真的要這麼做嗎？”，蘇洛恰那一面沉思一面用一隻腳的靴底碾滅她抽剩的香菸。“那我離開，現在就走。我會把你的話遞給我說的那個姐妹。我確定她會來的……只要血管夠。”",
-            "description": "",
-            "requirements": {
-                "apostlegrail.pillar1": 1
-            },
-            "effects": {
-                "marinette.enroute": 1,
-                "sulochana": -1
-            },
-            "craftable": false
-        },
-        {
-            "id": "talk.apostlegrail.marinette.ready.hint",
-            "actionId": "talk",
-            "label": "瑪麗內特已饜足",
-            "startdescription": "“<sprite name=heart>。”[瑪麗內特現已可以加入賓客行列。]",
-            "requirements": {
-                "marinette": 1,
-                "approval": 7
-            },
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "talk.apostlegrail.marinette",
-            "actionId": "talk",
-            "label": "對操線的瑪麗內特提出請求",
-            "startdescription": "“<sprite name=grail>？”",
-            "description": "“<sprite name=grail>。<sprite name=grail>。<sprite name=grail>！”",
-            "requirements": {
-                "marinette": 1,
-                "approval": -7
-            },
-            "slots": [
-                {
-                    "id": "sacrifice",
-                    "label": "血",
-                    "required": {
-                        "follower": 1
-                    },
-                    "forbidden": {
-                        "summoned": -1
-                    }
-                }
-            ],
-            "warmup": 60,
-            "craftable": true,
-            "alt": [
-                {
-                    "id": "talk.apostlegrail.marinettenext.hireling"
-                },
-                {
-                    "id": "talk.apostlegrail.marinettenext.follower"
-                }
-            ]
-        },
-        {
-            "id": "talk.apostlegrail.marinettenext.hireling",
-            "actionId": "talk",
-            "label": "血",
-            "startdescription": "瑪麗內特一般把皮膚剩下。有時把骨骼剩下。她滿會急切地食用掉我們雇來的幫手，但幫手通常會反抗，且最後場面通常不太體面。",
-            "requirements": {
-                "marinette": 1,
-                "hireling": 1
-            },
-            "effects": {
-                "hireling": -1,
-                "notoriety": 1
-            },
-            "mutations": [
-                {
-                    "filter": "marinette",
-                    "mutate": "approval",
-                    "level": 1,
-                    "additive": true
-                }
-            ],
-            "craftable": false
-        },
-        {
-            "id": "talk.apostlegrail.marinettenext.follower",
-            "actionId": "talk",
-            "label": "血",
-            "startdescription": "瑪麗內特一般會把皮膚剩下。有時把骨骼剩下。若我們讓我們忠實的追隨者閉上雙眼，事情便能很快辦完。",
-            "mutations": [
-                {
-                    "filter": "marinette",
-                    "mutate": "approval",
-                    "level": 1,
-                    "additive": true
-                }
-            ],
-            "requirements": {
-                "marinette": 1,
-                "follower": 1
-            },
-            "effects": {
-                "follower": -1
-            },
-            "craftable": false
-        }
-    ]
+	"recipes": [
+		{
+			"id": "ambition.apostlegrail.emitfuel",
+			"label": "來自我們的愉悅者的指引",
+			"startdescription": "我們的愉悅者遣信使送來一小瓶他最神聖的血液。"
+		},
+		{
+			"id": "work.apostlegrail.majorvictory.postbetrayal",
+			"label": "謝肉祭如期舉行",
+			"startdescription": "為與杯同在，我們的愉悅者須得給予生命，奪取生命，並永不饜足。於是我則擔任謝肉祭的壓軸大菜。凡愉悅者的孩子的身體都符合要求，但罪犯天孽者不能大張旗鼓地進入漫宿。所以我站出來，在好歹逃過特里豐的誘惑之後，我將獻出己身，任由瑪麗內特醃製，任七重庇佑和三番滋味淹沒我，而當第一口咬下時，我簡直沒有什麼感覺；我簡直完全沒有感覺。"
+		},
+		{
+			"id": "work.apostlegrail.majorvictory",
+			"label": "謝肉祭所需的最後環節",
+			"startdescription": "為與杯同在，我們的愉悅者須得給予生命，奪取生命，並永不饜足。於是我則擔任謝肉祭的壓軸大菜。凡愉悅者的孩子的身體都能符合要求，但罪犯天孽者不能大張旗鼓地進入漫宿。於是由我獻出己身，任由瑪麗內特醃製，任七重庇佑和三番滋味淹沒我，而當第一口咬下時，我簡直沒有什麼感覺；我簡直完全沒有感覺。"
+		},
+		{
+			"id": "explore.apostlegrail.purchase.apostlegrail.pillar3",
+			"label": "競拍稀有香料",
+			"startdescription": "我們的愉悅者的血可以在特定鑑賞家處購買特定貨物。謝肉祭的一切用品須得完美無缺。"
+		},
+		{
+			"id": "work.apostlegrail.upgrade.apostlegrail.pillar3.finished",
+			"label": "七重庇佑已備齊",
+			"startdescription": "備齊七重庇佑和三番滋味：鹹、甜、至甜。我們這些最尊貴的宴主理應享受最尊貴的待遇。"
+		},
+		{
+			"id": "work.apostlegrail.upgrade.apostlegrail.pillar3",
+			"label": "準備七重庇佑",
+			"startdescription": "氣味和滋味都得精確符合食譜所記。只有這樣才能激發我和我的同僚足夠的胃口——高漲到醒時的世界裡從未有過的程度。",
+			"description": "我找不到需要添加的某種香味或滋味。",
+			"slots": [
+				{
+					"id": "enhancement",
+					"label": "加料",
+					"description": "為謝肉祭加入一點特別的成分，確保其執行順利無誤。"
+				}
+			]
+		},
+		{
+			"id": "work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.grail",
+			"label": "制花人的贈禮",
+			"startdescription": "如果我們死去，我們也仍活在殺死我們的人身上。"
+		},
+		{
+			"id": "work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.heart",
+			"label": "雅努斯的滋味",
+			"startdescription": "雅努斯是除建立支配外，不管其他事務的神明。雅努斯是非死卻已死的聖徒。雅努斯是連結“不可能”與“注定”的門扉。"
+		},
+		{
+			"id": "work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.moth",
+			"label": "漆黑亞麻的滋味",
+			"startdescription": "我們必須忘記自己原為何物。"
+		},
+		{
+			"id": "talk.apostlegrail.createpillar4",
+			"label": "開始準備謝肉祭",
+			"startdescription": "在我們的愉悅者證實他的胃口之時，我們將舉辦一場盛大的慶祝。",
+			"description": "只能等我們知道赤杯的影響何時達到鼎盛，我們才能最終敲定日期。但是我們現在就可以，且應該，開始挑選宴主的組成者。"
+		},
+		{
+			"id": "talk.apostlegrail.upgradepillar4.attempt",
+			"label": "邀請最後一名賓客",
+			"startdescription": "若持鑰匙者不來，一切準備皆徒勞。",
+			"description": "我們的持鑰匙者還未就位",
+			"slots": [
+				{
+					"id": "finalguest",
+					"label": "持鑰匙者"
+				}
+			]
+		},
+		{
+			"id": "talk.apostlegrail.upgradepillar4.inprogress.attempt",
+			"label": "進一步增多宴主",
+			"startdescription": "我們得招徠更多參加者。我們的幫手有：貪婪、好奇、淫慾和徹頭徹尾的無所事事。",
+			"description": "我們已經把期待的慾火煽動至極限。",
+			"slots": [
+				{
+					"id": "more",
+					"label": "還要更多"
+				}
+			]
+		},
+		{
+			"id": "talk.apostlegrail.upgradepillar4.marinetteready",
+			"label": "持鑰匙者",
+			"startdescription": "“<sprite name=winter>。”"
+		},
+		{
+			"id": "talk.apostlegrail.upgradepillar4.marinettenotready",
+			"label": "還不夠",
+			"startdescription": "“……<sprite name=grail>。”[瑪麗內特尚未饜足。]"
+		},
+		{
+			"id": "talk.apostlegrail.upgradepillar4.succeed",
+			"label": "宴主增加中",
+			"startdescription": "神聖與神秘並重的名單上需要更多名字的出現，盛大的夜晚需要更多面孔的出現。"
+		},
+		{
+			"id": "talk.apostlegrail.sulochanamarinette",
+			"label": "被引薦給操線仙娥",
+			"startdescription": "“你真的要這麼做嗎？”，蘇洛恰那一面沉思一面用一隻腳的靴底碾滅她抽剩的香菸。“那我離開，現在就走。我會把你的話遞給我說的那個姐妹。我確定她會來的……只要血管夠。”",
+			"description": ""
+		},
+		{
+			"id": "talk.apostlegrail.marinette.ready.hint",
+			"label": "瑪麗內特已饜足",
+			"startdescription": "“<sprite name=heart>。”[瑪麗內特現已可以加入賓客行列。]"
+		},
+		{
+			"id": "talk.apostlegrail.marinette",
+			"label": "對操線的瑪麗內特提出請求",
+			"startdescription": "“<sprite name=grail>？”",
+			"description": "“<sprite name=grail>。<sprite name=grail>。<sprite name=grail>！”",
+			"slots": [
+				{
+					"id": "sacrifice",
+					"label": "血"
+				}
+			]
+		},
+		{
+			"id": "talk.apostlegrail.marinettenext.hireling",
+			"label": "血",
+			"startdescription": "瑪麗內特一般把皮膚剩下。有時把骨骼剩下。她滿會急切地食用掉我們雇來的幫手，但幫手通常會反抗，且最後場面通常不太體面。"
+		},
+		{
+			"id": "talk.apostlegrail.marinettenext.follower",
+			"label": "血",
+			"startdescription": "瑪麗內特一般會把皮膚剩下。有時把骨骼剩下。若我們讓我們忠實的追隨者閉上雙眼，事情便能很快辦完。"
+		}
+	]
 }

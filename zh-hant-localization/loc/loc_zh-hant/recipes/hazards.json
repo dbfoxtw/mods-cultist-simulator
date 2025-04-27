@@ -1,744 +1,254 @@
 {
-    "recipes": [
-        {
-            "id": "despairrisk",
-            "label": "陰暗思緒",
-            "actionId": "despair",
-            "requirements": {},
-            "effects": {},
-            "slots": [
-                {
-                    "id": "Shadows",
-                    "label": "陰影",
-                    "required": {
-                        "inducesdespair": 1
-                    },
-                    "greedy": true
-                }
-            ],
-            "startdescription": "諸事不順。我須得小心，不讓疑慮滋生。[“恐懼”可能引發成長完全的“絕望”。]",
-            "description": ".",
-            "warmup": 60,
-            "craftable": false,
-            "linked": [
-                {
-                    "id": "despairactive",
-                    "chance": 100
-                },
-                {
-                    "id": "despairdefeated",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "despairactive",
-            "label": "絕望",
-            "actionId": "despair",
-            "requirements": {
-                "inducesdespair": 1
-            },
-            "startdescription": "絕望似狼，吞噬念想。[你可以投入“安逸”來戰勝<b>絕望</b>，否則若“恐懼”累積至3份，你將被它毀滅。]",
-            "description": ".",
-            "warmup": 60,
-            "slots": [
-                {
-                    "id": "Thoughts",
-                    "label": "思緒",
-                    "required": {
-                        "contentment": 1,
-                        "inducesdespair": 1
-                    },
-                    "greedy": true,
-                }
-            ],
-            "craftable": false,
-            "alt": [
-                {
-                    "id": "despairwarning",
-                    "chance": 100
-                }
-            ],
-            "linked": [
-                {
-                    "id": "despairabate",
-                    "chance": 100
-                },
-                {
-                    "id": "despairdeath",
-                    "chance": 100
-                },
-                {
-                    "id": "despairactive",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "despairwarning",
-            "label": "絕望",
-            "actionId": "despair",
-            "requirements": {
-                "dread": 2,
-                "contentment": -1
-            },
-            "startdescription": "絕望隨緊跟不捨。[你可以投入“安逸”來戰勝<b>絕望</b>，否則若“恐懼”累積至3份，你將被它毀滅。]",
-            "description": ".",
-            "comments": "This exists specifically for the burn image at 2 Dread.",
-            "burnimage": "despair",
-            "linked": [
-                {
-                    "id": "despairabate",
-                    "chance": 100
-                },
-                {
-                    "id": "despairdeath",
-                    "chance": 100
-                },
-                {
-                    "id": "despairactive",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "despairabate",
-            "label": "絕望緩解",
-            "actionId": "despair",
-            "requirements": {
-                "contentment": 1
-            },
-            "effects": {
-                "inducesdespair": -1,
-                "contentment": -1
-            },
-            "startdescription": "美好的回憶將惡狼拒之門外。[一張“安逸”消滅一張“恐懼”。]",
-            "description": ".",
-            "warmup": 10,
-            "craftable": false,
-            "linked": [
-                {
-                    "id": "despairactive",
-                    "chance": 100
-                },
-                {
-                    "id": "despairdefeated",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "despairdeath",
-            "label": "絕望將我淹沒",
-            "actionId": "despair",
-            "requirements": {
-                "inducesdespair": 3
-            },
-            "slots": [
-                {
-                    "id": "Thoughts",
-                    "label": "思緒",
-                    "required": {
-                        "contentment": 1
-                    },
-                    "greedy": true
-                }
-            ],
-            "effects": {},
-            "startdescription": "快到頭了——[馬上尋求“安逸”，否則一切都完了。]",
-            "description": "他們會在哪裡將我找見呢？我不在此處。",
-            "warmup": 60,
-            "craftable": false,
-            "alt": [
-                {
-                    "id": "despairabate",
-                    "chance": 100
-                }
-            ],
-            "ending": "despairending",
-            "signalEndingFlavour": "Melancholy",
-            "comments": "Consider (1) allowing the threshold to grab Dread too. (2) allowing the active step to have a low-risk possibility of increasing Dread (3) providing a reward when Despair is defeated."
-        },
-        {
-            "id": "despairdefeated",
-            "label": "雲開霧散",
-            "actionId": "despair",
-            "effects": {
-                "fleeting": 1
-            },
-            "startdescription": ".",
-            "description": "絕望之狼巡往別處。[離開“恐懼”的惡化，“絕望”已消退，至少現下如此。]",
-            "craftable": false
-        },
-        {
-            "id": "visionsrisk",
-            "label": "空氣中的顫慄",
-            "actionId": "visions",
-            "requirements": {},
-            "slots": [
-                {
-                    "id": "Shadows",
-                    "label": "陰影",
-                    "required": {
-                        "fascination": 1
-                    },
-                    "greedy": true
-                }
-            ],
-            "startdescription": "陽光像陰影一樣搖曳。而夢在鏡面背後泛起漣漪。我須小心，不要游離出醒時的世界。[“入迷”可能引發“幻象”。]",
-            "description": ".",
-            "warmup": 60,
-            "craftable": false,
-            "linked": [
-                {
-                    "id": "visionsactive",
-                    "chance": 100
-                },
-                {
-                    "id": "visionsdefeated",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "visionsactive",
-            "label": "我看到不存在的東西",
-            "actionId": "visions",
-            "requirements": {
-                "fascination": 1
-            },
-            "startdescription": "圖畫低語，窗櫺眨動。我知道這些不是真的，但我如何確定呢？[可用“恐懼”或“一瞬追憶”消除幻象；否則若“入迷”累積至3個，你將迷失自我。]",
-            "description": ".",
-            "warmup": 60,
-            "slots": [
-                {
-                    "id": "Thoughts",
-                    "label": "思緒",
-                    "required": {
-                        "dread": 1,
-                        "fascination": 1,
-                        "fleeting": 1
-                    },
-                    "greedy": true,
-                }
-            ],
-            "craftable": false,
-            "alt": [
-                {
-                    "id": "visionswarning",
-                    "chance": 100
-                }
-            ],
-            "linked": [
-                {
-                    "id": "visionsabate",
-                    "chance": 100
-                },
-                {
-                    "id": "visionsabatefleeting",
-                    "chance": 100
-                },
-                {
-                    "id": "visionsdeath",
-                    "chance": 100
-                },
-                {
-                    "id": "visionsactive",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "visionswarning",
-            "label": "我看到不存在的東西！",
-            "actionId": "visions",
-            "requirements": {
-                "fascination": 2,
-                "dread": -1,
-                "fleeting": -1
-            },
-            "startdescription": "整個世界亮得凶險。[可用“恐懼”或“一瞬追憶”消除幻象；否則若“入迷”累積至3個，你將迷失自我。]",
-            "description": ".",
-            "comments": "This exists specifically for the burn image at 2 Fascination.",
-            "burnimage": "visions",
-            "linked": [
-                {
-                    "id": "visionsabate",
-                    "chance": 100
-                },
-                {
-                    "id": "visionsabatefleeting",
-                    "chance": 100
-                },
-                {
-                    "id": "visionsdeath",
-                    "chance": 100
-                },
-                {
-                    "id": "visionsactive",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "visionsdeath",
-            "label": "救救我——",
-            "actionId": "visions",
-            "requirements": {
-                "fascination": 3
-            },
-            "slots": [
-                {
-                    "id": "Thoughts",
-                    "label": "思緒",
-                    "required": {
-                        "dread": 1,
-                        "fleeting": 1
-                    },
-                    "greedy": true
-                }
-            ],
-            "effects": {},
-            "startdescription": "萬物表面溢出的光都是什麼？輝光快要到來，但我不能停在這裡看它——[如果你不能馬上找到“恐懼”或“一瞬追憶”，一切都完了。]",
-            "description": "他們會在哪裡將我找見呢？我不在此處。",
-            "warmup": 60,
-            "craftable": false,
-            "alt": [
-                {
-                    "id": "visionsabate",
-                    "chance": 100
-                },
-                {
-                    "id": "visionsabatefleeting",
-                    "chance": 100
-                }
-            ],
-            "signalEndingFlavour": "Melancholy",
-            "ending": "visionsending"
-        },
-        {
-            "id": "visionsabate",
-            "label": "幻象緩解",
-            "actionId": "visions",
-            "requirements": {
-                "dread": 1
-            },
-            "effects": {
-                "fascination": -1,
-                "dread": -1
-            },
-            "startdescription": "影子是光下的避風港。絕望是壓艙石。甚至不幸也有其用處。[一個“恐懼”消除一個“入迷”。]",
-            "description": ".",
-            "warmup": 10,
-            "craftable": false,
-            "linked": [
-                {
-                    "id": "visionsactive",
-                    "chance": 100
-                },
-                {
-                    "id": "visionsdefeated",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "visionsabatefleeting",
-            "label": "幻象緩解",
-            "actionId": "visions",
-            "requirements": {
-                "fleeting": 1
-            },
-            "effects": {
-                "fascination": -1,
-                "fleeting": -1
-            },
-            "startdescription": "踏實的日常可以驅逐幻影。我把自己與日常牢繫在一起。[一個“一瞬追憶”消除一個“入迷”。]",
-            "description": ".",
-            "warmup": 10,
-            "craftable": false,
-            "linked": [
-                {
-                    "id": "visionsactive",
-                    "chance": 100
-                },
-                {
-                    "id": "visionsdefeated",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "visionsdefeated",
-            "label": "世界恢復如常",
-            "actionId": "visions",
-            "effects": {
-                "fleeting": 1
-            },
-            "startdescription": ".",
-            "description": "鏡子平靜。太陽穩定。輝光褪去。我的神智清明，雖然我不知這意味著什麼。[離開“入迷”的驅動，“幻象”已消退，至少現下如此。]",
-            "craftable": false
-        },
-        {
-            "id": "curse_dread_dormant",
-            "label": "蜇伏的涸魂詛咒",
-            "actionId": "curse_dread",
-            "startdescription": "涸魂詛咒尚未生效。",
-            "alt": [
-                {
-                    "id": "curse_dread_active",
-                    "chance": 30
-                }
-            ],
-            "linked": [
-                {
-                    "id": "curse_dread_dormant",
-                    "chance": 100
-                }
-            ],
-            "warmup": 60,
-            "craftable": false
-        },
-        {
-            "id": "curse_dread_active",
-            "label": "涸魂詛咒",
-            "requirements": {
-                "reason": -1
-            },
-            "actionId": "curse_dread",
-            "startdescription": "涸魂詛咒輕柔降下，如同一隻枯槁的手落在肩頭。",
-            "slots": [
-                {
-                    "id": "Reason",
-                    "label": "理性",
-                    "greedy": true,
-                    "required": {
-                        "reason": 1
-                    }
-                }
-            ],
-            "linked": [
-                {
-                    "id": "curse_dread_active",
-                    "chance": 100
-                },
-                {
-                    "id": "curse_dread_attempt_mitigation",
-                    "chance": 100
-                }
-            ],
-            "warmup": 60
-        },
-        {
-            "id": "curse_dread_attempt_mitigation",
-            "label": "涸魂詛咒：最後的機會",
-            "actionId": "curse_dread",
-            "slots": [
-                {
-                    "id": "Protection",
-                    "label": "防護",
-                    "required": {
-                        "influencehearte": 1,
-                        "influenceheartg": 1
-                    }
-                }
-            ],
-            "alt": [
-                {
-                    "id": "curse_dread_mitigation_successful",
-                    "chance": 100
-                }
-            ],
-            "startdescription": "詛咒已被消除。現在通道已經緊緊圍繞著我所見的一切。[擁有足夠的<b>心</b>之影響力才能避開詛咒。]",
-            "description": "我的顱骨嘎吱作響。光在眼中發灰。",
-            "aspects": {
-                "damagereason": 1
-            },
-            "warmup": 60
-        },
-        {
-            "id": "curse_dread_mitigation_successful",
-            "label": "轟雷之皮的寵愛",
-            "actionId": "curse_dread",
-            "requirements": {
-                "influence": 1
-            },
-            "effects": {
-                "influence": -1
-            },
-            "startdescription": "拍擊鼓面並口念祝詞。保持希望，直到吟唱結束。",
-            "description": "我的靈魂再次充盈。詛咒已經過去。遙遙遠望，地平線上，那場風暴如一頭警覺的野獸般移動著。"
-        },
-        {
-            "id": "curse_visions_dormant",
-            "label": "蜇伏的第五目詛咒",
-            "actionId": "curse_visions",
-            "startdescription": "第五目詛咒尚未生效。",
-            "alt": [
-                {
-                    "id": "curse_visions_active",
-                    "chance": 30
-                }
-            ],
-            "linked": [
-                {
-                    "id": "curse_visions_dormant",
-                    "chance": 100
-                }
-            ],
-            "warmup": 60,
-            "craftable": false
-        },
-        {
-            "id": "curse_visions_active",
-            "label": "第五目詛咒",
-            "actionId": "curse_visions",
-            "requirements": {
-                "passion": -1
-            },
-            "startdescription": "第三目是一個傳說，或者就是松果體。第四目，則是某些飛升過程中的“印記”。第五目現正在我面前開眼。",
-            "slots": [
-                {
-                    "id": "Passion",
-                    "label": "激情",
-                    "greedy": true,
-                    "required": {
-                        "passion": 1
-                    }
-                }
-            ],
-            "linked": [
-                {
-                    "id": "curse_visions_active",
-                    "chance": 100
-                },
-                {
-                    "id": "curse_visions_attempt_mitigation",
-                    "chance": 100
-                }
-            ],
-            "warmup": 60
-        },
-        {
-            "id": "curse_visions_attempt_mitigation",
-            "label": "第五目詛咒：最後的機會",
-            "actionId": "curse_visions",
-            "slots": [
-                {
-                    "id": "Protection",
-                    "label": "防護",
-                    "required": {
-                        "influencehearte": 1,
-                        "influenceheartg": 1
-                    }
-                }
-            ],
-            "alt": [
-                {
-                    "id": "curse_visions_mitigation_successful",
-                    "chance": 100
-                }
-            ],
-            "startdescription": "詛咒已經固著。世界現正在腐爛，漏出光來。[要想避開詛咒，你須得擁有足夠的<b>心</b>之影響。]",
-            "description": "我沒辦法不去看。如果看得夠久，我會情願一直看下去。",
-            "aspects": {
-                "damagepassion": 1
-            },
-            "warmup": 60
-        },
-        {
-            "id": "curse_visions_mitigation_successful",
-            "label": "轟雷之皮的寵愛",
-            "actionId": "curse_visions",
-            "requirements": {
-                "influence": 1
-            },
-            "effects": {
-                "influence": -1
-            },
-            "startdescription": "拍擊鼓面並口念祝詞。我將閉上所有眼睛，直到吟唱結束。",
-            "description": "我的雙眼澄明。詛咒已經過去。遙遙遠望，地平線上，那場風暴如一頭警覺的野獸般移動著。"
-        },
-        {
-            "id": "curse_affliction_dormant",
-            "label": "蜇伏的遲息詛咒",
-            "actionId": "curse_affliction",
-            "startdescription": "遲息詛咒尚未生效。",
-            "alt": [
-                {
-                    "id": "curse_affliction_active",
-                    "chance": 30
-                }
-            ],
-            "linked": [
-                {
-                    "id": "curse_affliction_dormant",
-                    "chance": 100
-                }
-            ],
-            "warmup": 60,
-            "craftable": false
-        },
-        {
-            "id": "curse_affliction_active",
-            "label": "遲息詛咒",
-            "actionId": "curse_affliction",
-            "requirements": {
-                "health": -1
-            },
-            "startdescription": "遲息詛咒從咳嗽開始——像討債人一樣在你的喉間遊蕩。",
-            "slots": [
-                {
-                    "id": "Health",
-                    "label": "健康",
-                    "greedy": true,
-                    "required": {
-                        "health": 1
-                    }
-                }
-            ],
-            "linked": [
-                {
-                    "id": "curse_affliction_active",
-                    "chance": 100
-                },
-                {
-                    "id": "curse_affliction_attempt_mitigation",
-                    "chance": 100
-                }
-            ],
-            "warmup": 60
-        },
-        {
-            "id": "curse_affliction_attempt_mitigation",
-            "label": "遲息詛咒：最後的機會",
-            "actionId": "curse_affliction",
-            "slots": [
-                {
-                    "id": "Protection",
-                    "label": "防護",
-                    "required": {
-                        "influencehearte": 1,
-                        "influenceheartg": 1
-                    }
-                }
-            ],
-            "alt": [
-                {
-                    "id": "curse_affliction_mitigation_successful",
-                    "chance": 100
-                }
-            ],
-            "startdescription": "詛咒已經固著。生命的鼓動現正在變緩。[要想避開詛咒，你須得擁有足夠的<b>心</b>之影響。]",
-            "description": "我們這次生命中的每一次呼吸都比在上次生命要弱，直到我們的最後一口呼吸。這個過程慢到無法察覺……直到有人被遲息詛咒纏上。",
-            "aspects": {
-                "destroyhealth": 1
-            },
-            "warmup": 60
-        },
-        {
-            "id": "curse_affliction_mitigation_successful",
-            "label": "轟雷之皮的寵愛",
-            "actionId": "curse_affliction",
-            "requirements": {
-                "influence": 1
-            },
-            "effects": {
-                "influence": -1
-            },
-            "startdescription": "拍擊鼓面並口念祝詞。按捺住咳嗽，直到吟唱結束。",
-            "description": "我的兩肺清潔。詛咒已經過去。遙遙遠望，地平線上，那場風暴如一頭警覺的野獸般移動著。"
-        },
-        {
-            "id": "curse_nowhere_dormant",
-            "label": "有什麼東西跟我們回來了",
-            "actionId": "curse_nowhere",
-            "startdescription": "我瞥見世間微妙的運動——就像時而飄過視野的斑點，但更加狡黠。有時，我也會聽見它們的聲音。",
-            "alt": [
-                {
-                    "id": "curse_nowhere_active",
-                    "chance": 30
-                }
-            ],
-            "linked": [
-                {
-                    "id": "curse_nowhere_dormant",
-                    "chance": 100
-                }
-            ],
-            "warmup": 60,
-            "craftable": false
-        },
-        {
-            "id": "curse_nowhere_active",
-            "label": "世間的蠕蟲",
-            "actionId": "curse_nowhere",
-            "requirements": {
-                "mortal": -1
-            },
-            "startdescription": "城市裡有<b>蠕蟲</b>。人看不見蠕蟲，但也不會忘記蠕蟲。蠕蟲會一直尋找，直至找到它們能從皮膚空檔鑽進去的人，好去做那些蠕蟲會做的事。",
-            "slots": [
-                {
-                    "id": "Someone",
-                    "label": "某人",
-                    "greedy": true,
-                    "required": {
-                        "mortal": 1
-                    }
-                }
-            ],
-            "linked": [
-                {
-                    "id": "curse_nowhere_active",
-                    "chance": 100
-                },
-                {
-                    "id": "curse_nowhere_attempt_mitigation",
-                    "chance": 100
-                }
-            ],
-            "warmup": 60
-        },
-        {
-            "id": "curse_nowhere_attempt_mitigation",
-            "label": "世間的蠕蟲：最後的機會",
-            "actionId": "curse_nowhere",
-            "slots": [
-                {
-                    "id": "Protection",
-                    "label": "防護",
-                    "required": {
-                        "influenceheartg": 1
-                    }
-                }
-            ],
-            "alt": [
-                {
-                    "id": "curse_nowhere_mitigation_successful",
-                    "chance": 100
-                }
-            ],
-            "startdescription": "蠕蟲已鑽進皮膚下。快沒救了。[要想救回此人，你需要擁有極高階的<b>心</b>之影響。]",
-            "description": "當蠕蟲侵入肉體，你除破壞餘下的東西外別無他法——先燒掉再仔細篩查。",
-            "effects": {
-                "mortal": -1,
-                "notoriety": 1,
-                "dread": 1
-            },
-            "warmup": 60
-        },
-        {
-            "id": "curse_nowhere_mitigation_successful",
-            "label": "轟雷之皮的寵愛",
-            "actionId": "curse_nowhere",
-            "requirements": {
-                "influence": 1
-            },
-            "effects": {
-                "influence": -1
-            },
-            "startdescription": "祈求閃電吧。只有風暴自身的氣息才能拯救此人了。",
-            "description": "擺脫蠕蟲的感覺好似一口氣拉開窗簾，空氣含著雨水和臭氧的氣味。我們的手指仍在敲打轟雷之皮的節拍。"
-        }
-    ]
+	"recipes": [
+		{
+			"id": "despairrisk",
+			"label": "陰暗思緒",
+			"slots": [
+				{
+					"id": "Shadows",
+					"label": "陰影"
+				}
+			],
+			"startdescription": "諸事不順。我須得小心，不讓疑慮滋生。[“恐懼”可能引發成長完全的“絕望”。]",
+			"description": "."
+		},
+		{
+			"id": "despairactive",
+			"label": "絕望",
+			"startdescription": "絕望似狼，吞噬念想。[你可以投入“安逸”來戰勝<b>絕望</b>，否則若“恐懼”累積至3份，你將被它毀滅。]",
+			"description": ".",
+			"slots": [
+				{
+					"id": "Thoughts",
+					"label": "思緒"
+				}
+			]
+		},
+		{
+			"id": "despairwarning",
+			"label": "絕望",
+			"startdescription": "絕望隨緊跟不捨。[你可以投入“安逸”來戰勝<b>絕望</b>，否則若“恐懼”累積至3份，你將被它毀滅。]",
+			"description": "."
+		},
+		{
+			"id": "despairabate",
+			"label": "絕望緩解",
+			"startdescription": "美好的回憶將惡狼拒之門外。[一張“安逸”消滅一張“恐懼”。]",
+			"description": "."
+		},
+		{
+			"id": "despairdeath",
+			"label": "絕望將我淹沒",
+			"slots": [
+				{
+					"id": "Thoughts",
+					"label": "思緒"
+				}
+			],
+			"startdescription": "快到頭了——[馬上尋求“安逸”，否則一切都完了。]",
+			"description": "他們會在哪裡將我找見呢？我不在此處。"
+		},
+		{
+			"id": "despairdefeated",
+			"label": "雲開霧散",
+			"startdescription": ".",
+			"description": "絕望之狼巡往別處。[離開“恐懼”的惡化，“絕望”已消退，至少現下如此。]"
+		},
+		{
+			"id": "visionsrisk",
+			"label": "空氣中的顫慄",
+			"slots": [
+				{
+					"id": "Shadows",
+					"label": "陰影"
+				}
+			],
+			"startdescription": "陽光像陰影一樣搖曳。而夢在鏡面背後泛起漣漪。我須小心，不要游離出醒時的世界。[“入迷”可能引發“幻象”。]",
+			"description": "."
+		},
+		{
+			"id": "visionsactive",
+			"label": "我看到不存在的東西",
+			"startdescription": "圖畫低語，窗櫺眨動。我知道這些不是真的，但我如何確定呢？[可用“恐懼”或“一瞬追憶”消除幻象；否則若“入迷”累積至3個，你將迷失自我。]",
+			"description": ".",
+			"slots": [
+				{
+					"id": "Thoughts",
+					"label": "思緒"
+				}
+			]
+		},
+		{
+			"id": "visionswarning",
+			"label": "我看到不存在的東西！",
+			"startdescription": "整個世界亮得凶險。[可用“恐懼”或“一瞬追憶”消除幻象；否則若“入迷”累積至3個，你將迷失自我。]",
+			"description": "."
+		},
+		{
+			"id": "visionsdeath",
+			"label": "救救我——",
+			"slots": [
+				{
+					"id": "Thoughts",
+					"label": "思緒"
+				}
+			],
+			"startdescription": "萬物表面溢出的光都是什麼？輝光快要到來，但我不能停在這裡看它——[如果你不能馬上找到“恐懼”或“一瞬追憶”，一切都完了。]",
+			"description": "他們會在哪裡將我找見呢？我不在此處。"
+		},
+		{
+			"id": "visionsabate",
+			"label": "幻象緩解",
+			"startdescription": "影子是光下的避風港。絕望是壓艙石。甚至不幸也有其用處。[一個“恐懼”消除一個“入迷”。]",
+			"description": "."
+		},
+		{
+			"id": "visionsabatefleeting",
+			"label": "幻象緩解",
+			"startdescription": "踏實的日常可以驅逐幻影。我把自己與日常牢繫在一起。[一個“一瞬追憶”消除一個“入迷”。]",
+			"description": "."
+		},
+		{
+			"id": "visionsdefeated",
+			"label": "世界恢復如常",
+			"startdescription": ".",
+			"description": "鏡子平靜。太陽穩定。輝光褪去。我的神智清明，雖然我不知這意味著什麼。[離開“入迷”的驅動，“幻象”已消退，至少現下如此。]"
+		},
+		{
+			"id": "curse_dread_dormant",
+			"label": "蜇伏的涸魂詛咒",
+			"startdescription": "涸魂詛咒尚未生效。"
+		},
+		{
+			"id": "curse_dread_active",
+			"label": "涸魂詛咒",
+			"startdescription": "涸魂詛咒輕柔降下，如同一隻枯槁的手落在肩頭。",
+			"slots": [
+				{
+					"id": "Reason",
+					"label": "理性"
+				}
+			]
+		},
+		{
+			"id": "curse_dread_attempt_mitigation",
+			"label": "涸魂詛咒：最後的機會",
+			"slots": [
+				{
+					"id": "Protection",
+					"label": "防護"
+				}
+			],
+			"startdescription": "詛咒已被消除。現在通道已經緊緊圍繞著我所見的一切。[擁有足夠的<b>心</b>之影響力才能避開詛咒。]",
+			"description": "我的顱骨嘎吱作響。光在眼中發灰。"
+		},
+		{
+			"id": "curse_dread_mitigation_successful",
+			"label": "轟雷之皮的寵愛",
+			"startdescription": "拍擊鼓面並口念祝詞。保持希望，直到吟唱結束。",
+			"description": "我的靈魂再次充盈。詛咒已經過去。遙遙遠望，地平線上，那場風暴如一頭警覺的野獸般移動著。"
+		},
+		{
+			"id": "curse_visions_dormant",
+			"label": "蜇伏的第五目詛咒",
+			"startdescription": "第五目詛咒尚未生效。"
+		},
+		{
+			"id": "curse_visions_active",
+			"label": "第五目詛咒",
+			"startdescription": "第三目是一個傳說，或者就是松果體。第四目，則是某些飛升過程中的“印記”。第五目現正在我面前開眼。",
+			"slots": [
+				{
+					"id": "Passion",
+					"label": "激情"
+				}
+			]
+		},
+		{
+			"id": "curse_visions_attempt_mitigation",
+			"label": "第五目詛咒：最後的機會",
+			"slots": [
+				{
+					"id": "Protection",
+					"label": "防護"
+				}
+			],
+			"startdescription": "詛咒已經固著。世界現正在腐爛，漏出光來。[要想避開詛咒，你須得擁有足夠的<b>心</b>之影響。]",
+			"description": "我沒辦法不去看。如果看得夠久，我會情願一直看下去。"
+		},
+		{
+			"id": "curse_visions_mitigation_successful",
+			"label": "轟雷之皮的寵愛",
+			"startdescription": "拍擊鼓面並口念祝詞。我將閉上所有眼睛，直到吟唱結束。",
+			"description": "我的雙眼澄明。詛咒已經過去。遙遙遠望，地平線上，那場風暴如一頭警覺的野獸般移動著。"
+		},
+		{
+			"id": "curse_affliction_dormant",
+			"label": "蜇伏的遲息詛咒",
+			"startdescription": "遲息詛咒尚未生效。"
+		},
+		{
+			"id": "curse_affliction_active",
+			"label": "遲息詛咒",
+			"startdescription": "遲息詛咒從咳嗽開始——像討債人一樣在你的喉間遊蕩。",
+			"slots": [
+				{
+					"id": "Health",
+					"label": "健康"
+				}
+			]
+		},
+		{
+			"id": "curse_affliction_attempt_mitigation",
+			"label": "遲息詛咒：最後的機會",
+			"slots": [
+				{
+					"id": "Protection",
+					"label": "防護"
+				}
+			],
+			"startdescription": "詛咒已經固著。生命的鼓動現正在變緩。[要想避開詛咒，你須得擁有足夠的<b>心</b>之影響。]",
+			"description": "我們這次生命中的每一次呼吸都比在上次生命要弱，直到我們的最後一口呼吸。這個過程慢到無法察覺……直到有人被遲息詛咒纏上。"
+		},
+		{
+			"id": "curse_affliction_mitigation_successful",
+			"label": "轟雷之皮的寵愛",
+			"startdescription": "拍擊鼓面並口念祝詞。按捺住咳嗽，直到吟唱結束。",
+			"description": "我的兩肺清潔。詛咒已經過去。遙遙遠望，地平線上，那場風暴如一頭警覺的野獸般移動著。"
+		},
+		{
+			"id": "curse_nowhere_dormant",
+			"label": "有什麼東西跟我們回來了",
+			"startdescription": "我瞥見世間微妙的運動——就像時而飄過視野的斑點，但更加狡黠。有時，我也會聽見它們的聲音。"
+		},
+		{
+			"id": "curse_nowhere_active",
+			"label": "世間的蠕蟲",
+			"startdescription": "城市裡有<b>蠕蟲</b>。人看不見蠕蟲，但也不會忘記蠕蟲。蠕蟲會一直尋找，直至找到它們能從皮膚空檔鑽進去的人，好去做那些蠕蟲會做的事。",
+			"slots": [
+				{
+					"id": "Someone",
+					"label": "某人"
+				}
+			]
+		},
+		{
+			"id": "curse_nowhere_attempt_mitigation",
+			"label": "世間的蠕蟲：最後的機會",
+			"slots": [
+				{
+					"id": "Protection",
+					"label": "防護"
+				}
+			],
+			"startdescription": "蠕蟲已鑽進皮膚下。快沒救了。[要想救回此人，你需要擁有極高階的<b>心</b>之影響。]",
+			"description": "當蠕蟲侵入肉體，你除破壞餘下的東西外別無他法——先燒掉再仔細篩查。"
+		},
+		{
+			"id": "curse_nowhere_mitigation_successful",
+			"label": "轟雷之皮的寵愛",
+			"startdescription": "祈求閃電吧。只有風暴自身的氣息才能拯救此人了。",
+			"description": "擺脫蠕蟲的感覺好似一口氣拉開窗簾，空氣含著雨水和臭氧的氣味。我們的手指仍在敲打轟雷之皮的節拍。"
+		}
+	]
 }

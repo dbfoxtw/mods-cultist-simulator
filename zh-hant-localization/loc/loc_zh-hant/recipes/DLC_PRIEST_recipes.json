@@ -1,1342 +1,282 @@
 {
-    "recipes": [
-        {
-            "id": "work.priest.first",
-            "actionId": "work",
-            "label": "主持第一次禮拜",
-            "startdescription": "我已選定經文：馬提亞斯7:7——“你們祈求，就給你們；受苦，就得到；叩門稱啟，就將你們洞開。”聖書不知何時攤開在那一頁。我發誓若非如此我不會選這一節。",
-            "description": "布道進行順利，儘管聲音在此地的迴響充滿誘惑，引得我開始自由發揮。我不完全記得我說了什麼話，但講道很受歡迎。我走下講壇時，袖子被一顆釘子刮破了，一個坐在前排的女人倒吸了一口涼氣。",
-            "requirements": {
-                "priestjob": 1,
-                "passion": 1
-            },
-            "effects": {
-                "funds": 1,
-                "reason": 1
-            },
-            "warmup": 10,
-            "craftable": true,
-            "maxexecutions": 1,
-            "alt": [
-                {
-                    "id": "dream.priest.open",
-                    "additional": true
-                },
-                {
-                    "id": "study.priest.open",
-                    "additional": true
-                }
-            ]
-        },
-        {
-            "id": "work.priest.second",
-            "actionId": "work",
-            "label": "主持禮拜並談及《鎖匠的夢境》",
-            "startdescription": "我要再談馬提亞斯關於門的見解，但這次我也會談及聖亞割妮，談及人在鑄造了鑰匙後會在夜晚碰上的事情。",
-            "description": "他們中的一部分人也經歷過這種夢境。我從他們的臉上能看出來。是因為這座教堂——此處的門不止有我們眼見到的門。當肢體以恰當的方式接合時，連心臟的瓣膜也成為一扇門。我從未在布道中將之說出口，但他們的心臟依然響應著其中的真實。",
-            "requirements": {
-                "priestjob": 1,
-                "reason": 1,
-                "fragmentknock": 1
-            },
-            "effects": {
-                "fervour": 1
-            },
-            "warmup": 60,
-            "craftable": true,
-            "maxexecutions": 1,
-            "alt": [
-                {
-                    "id": "priest.repevent",
-                    "additional": true
-                },
-                {
-                    "id": "explore.priest.open",
-                    "additional": true
-                }
-            ]
-        },
-        {
-            "id": "work.priest.third",
-            "actionId": "work",
-            "label": "主持禮拜",
-            "startdescription": "會眾邊等待邊竊竊私語，回聲彷彿翅膀在高處拍打，樹枝在風中搖擺。教堂的執事和司事目送著我就位。他們的眼中有種我未曾料到的東西。那是……驕傲嗎？",
-            "description": "我的心臟是我血液穿行的十字路。我的舌頭是磨銳的赤焰。我在彩繪玻璃上看到了不常出現的圖案。一匹灰色牝馬、一顆劈開的樹、一對孿生的蛇。我講完時，會眾們已經站離座位，跺著腳厲聲叫罵起來，而他們的眼，他們的嘴，都是門洞。司事當著整個教堂的面，把我的手握在他自己枯皺的手中。他雙眼含淚。“我們終於等到了，”他輕聲說。",
-            "requirements": {
-                "priestjob": 1,
-                "ability": 1,
-                "lore": 1,
-                "fervour": 1
-            },
-            "effects": {
-                "funds": 1,
-                "fervour": -1
-            },
-            "warmup": 60,
-            "craftable": true,
-            "maxexecutions": 1,
-            "alt": [
-                {
-                    "id": "talk.priest.open",
-                    "additional": true
-                }
-            ]
-        },
-        {
-            "id": "dream.priest.open",
-            "actionId": "dream",
-            "label": "義人的睡夢",
-            "startdescription": "我如我所受教的一般施行了祀奉。我已將我不該閱讀的諸史擱置。我不再談論繩結和無敵太陽。主教的文書十分明確地提出了這些要求。不過在我的夢中，聖亞割妮仍然時不時來找我，這次是在今夜。",
-            "description": "聖亞割妮在煙霧中走來，窄小、蒼白的雙腳碾碎了其下的藍紫色堇花。聖亞割妮細瘦的雙手擎著幾把鑰匙和一柄閃亮的刀和一根銳利的蠟燭，最後一樣是殉難而死的她自身的頭顱。聖亞割妮把她的臉孔抬高過我肩，親吻了我的額頭，我向她敞開，如同一扇門敞開。當我醒來，我的心臟狂跳，皮膚如遭針刺，四肢戰兢不已。我開始洩露液體。",
-            "effects": {
-                "health": 1
-            },
-            "warmup": 60
-        },
-        {
-            "id": "study.priest.open",
-            "actionId": "study",
-            "label": "文字中的鉸頁",
-            "startdescription": "我開始拆解我手邊的書籍……",
-            "description": "我拿出我的一本舊手記。一捆紙頁從封皮下掉出，滑向地板。是某些我將之抄錄並試圖忘記了許久的東西。",
-            "effects": {
-                "fragmentknock": 1
-            },
-            "warmup": 10
-        },
-        {
-            "id": "explore.priest.open",
-            "actionId": "explore",
-            "label": "古舊的石頭",
-            "startdescription": "這座城市有一座大教堂，很久以前是祭奉鑰匙使徒聖彼得的。它於兩個世紀前被大火燒毀。我從書中讀到它暗中祭奉的是聖斯帕克：也許這就是起火的根由。人們將它重建時，當時的國王不情不願地同意不再讓聖彼得繼續掌管鑰匙。曾經這座教堂也是祭奉聖彼得的……",
-            "description": "這座教堂如今有了另一位主保聖人。也許是哪一位主教想抹銷掉築它的磚石的所見。但石頭銘記不忘。這裡有一塊上刻四射光芒的太陽。這裡，洗禮壇下，刻著繩結。這裡，祭台後的窗戶上，有著只在拂曉時可見，旋轉如朵朵花兒的那七把鑰匙……",
-            "effects": {
-                "hq.church": 1
-            },
-            "warmup": 30
-        },
-        {
-            "id": "talk.priest.open",
-            "actionId": "talk",
-            "label": "俯身相迎",
-            "startdescription": "執事和司事來找我談一項私人事務。他們帶來了一名客人——我從未見過此人，但此人現正單膝跪倒向我致敬。現在三人皆向我致敬——",
-            "effects": {
-                "LEVER_LastCult": 1,
-                "LEVER_LastFollower": 1
-            },
-            "warmup": 30,
-            "linked": [
-                {
-                    "id": "talk.priest.open.followup"
-                }
-            ]
-        },
-        {
-            "id": "talk.priest.open.followup",
-            "actionId": "talk",
-            "label": "重新奉身",
-            "startdescription": "司事又開始落淚。“我們可等到你了。#PREVIOUSCHARACTERNAME#教給了我們@#cultedge_1|閃亮的刃鋒#cultforge_1|塑形的赤焰中蘊含的神力#cultgrail_1|食慾的隱秘快感#cultheart_1|永不止息的舞蹈#cultknock_1|鑰匙的本質#cultlantern_1|輝光#cultmoth_1|林地#cultsecrethistories_1|多重的歷史#cultwinter_1|靜默#|世界表皮之下的顏色@，我們已依他的教導準備好了‘道路’，你是我們的‘光’，是我們的‘門關’。我們需要你。引領我們吧。”",
-            "mutations": [
-                {
-                    "filter": "society",
-                    "mutate": "rededicable",
-                    "level": 1
-                }
-            ]
-        },
-        {
-            "id": "talk.rededicatecult",
-            "actionId": "talk",
-            "label": "新的道路",
-            "startdescription": "#PREVIOUSCHARACTERNAME#預備好了路，而我<i>便是</i>路。我可以改換既成的形態。[有且只有一次，你可以給你的教派改立另一種核心密傳。請準備好具有你想要的性相的“秘傳”再開始這一過程。]",
-            "description": "我們當遵循#PREVIOUSCHARACTERNAME#所定之路……至少現下如此。",
-            "requirements": {
-                "society": 1,
-                "rededicable": 1,
-                "mortal": -1,
-                "summoned": -1,
-                "influence": -1,
-                "ability": -1,
-                "tool": -1,
-                "ingredient": -1,
-                "lore": -1
-            },
-            "slots": [
-                {
-                    "id": "principle",
-                    "label": "新的立教準則",
-                    "required": {
-                        "lore": 1
-                    }
-                }
-            ],
-            "alt": [
-                {
-                    "id": "talk.rededicatecult.edge",
-                    "label": "重新奉身於教派：刃",
-                    "startdescription": "我將在此教派的過往與將來間劃下一道閃亮的分隔線。我將用力量讓它們屈從於我的意願。[你可以追求<b>啟</b>之外的飛升之法。並不是限制你只能追求此法。]",
-                    "requirements": {
-                        "society": 1,
-                        "lore": 1,
-                        "edge": 1
-                    },
-                    "effects": {
-                        "society": -1,
-                        "cultedge_1": 1,
-                        "ascensionpowera": 1
-                    },
-                    "mutations": [
-                        {
-                            "filter": "society",
-                            "mutate": "rededicable",
-                            "level": -1
-                        }
-                    ]
-                },
-                {
-                    "id": "talk.rededicatecult.forge",
-                    "label": "重新奉身於教派：鑄",
-                    "startdescription": "我將重塑此教派，讓它為我的目的服務。我手握意想不到的力量。[你可以追求<b>啟</b>之外的飛升之法。並不是限制你只能追求此法。]",
-                    "requirements": {
-                        "society": 1,
-                        "lore": 1,
-                        "forge": 1
-                    },
-                    "effects": {
-                        "society": -1,
-                        "cultforge_1": 1,
-                        "ascensionpowera": 1
-                    },
-                    "mutations": [
-                        {
-                            "filter": "society",
-                            "mutate": "rededicable",
-                            "level": -1
-                        }
-                    ]
-                },
-                {
-                    "id": "talk.rededicatecult.grail",
-                    "label": "重新奉身於教派：杯",
-                    "startdescription": "我將整治此教派，讓它為我的欲望服務。我會更仔細地考量這些欲望的本質。[你可以追求<b>啟</b>之外的飛升之法。並不是限制你只能追求此法。]",
-                    "requirements": {
-                        "society": 1,
-                        "lore": 1,
-                        "grail": 1
-                    },
-                    "effects": {
-                        "society": -1,
-                        "cultgrail_1": 1,
-                        "ascensionsensationa": 1
-                    },
-                    "mutations": [
-                        {
-                            "filter": "society",
-                            "mutate": "rededicable",
-                            "level": -1
-                        }
-                    ]
-                },
-                {
-                    "id": "talk.rededicatecult.heart",
-                    "label": "重新奉身於教派：心",
-                    "startdescription": "舊的教派休止；新的教派將永不休止。此刻，我聽到了血流中的鼓點。[你可以追求<b>啟</b>之外的飛升之法。並不是限制你只能追求此法。]",
-                    "requirements": {
-                        "society": 1,
-                        "lore": 1,
-                        "heart": 1
-                    },
-                    "effects": {
-                        "society": -1,
-                        "cultheart_1": 1,
-                        "ascensionsensationa": 1
-                    },
-                    "mutations": [
-                        {
-                            "filter": "society",
-                            "mutate": "rededicable",
-                            "level": -1
-                        }
-                    ]
-                },
-                {
-                    "id": "talk.rededicatecult.knock",
-                    "label": "重新奉身於教派：啟",
-                    "startdescription": "如今封印已開，其後所藏的正是此教派的真身。打開封印的是聖亞割妮，然而等在其後的是誰？[你可以追求<b>啟</b>之外的飛升之法。並不是限制你只能追求此法。]",
-                    "requirements": {
-                        "society": 1,
-                        "lore": 1,
-                        "knock": 1
-                    },
-                    "effects": {
-                        "society": -1,
-                        "cultknock_1": 1,
-                        "ascensionenlightenmenta": 1
-                    },
-                    "mutations": [
-                        {
-                            "filter": "society",
-                            "mutate": "rededicable",
-                            "level": -1
-                        }
-                    ]
-                },
-                {
-                    "id": "talk.rededicatecult.lantern",
-                    "label": "重新奉身於教派：燈",
-                    "startdescription": "我將揭示新的真實。我或許會更深入地考量這份真實應有的面貌。[你可以追求<b>啟</b>之外的飛升之法。並不是限制你只能追求此法。]",
-                    "requirements": {
-                        "society": 1,
-                        "lore": 1,
-                        "lantern": 1
-                    },
-                    "effects": {
-                        "society": -1,
-                        "cultlantern_1": 1,
-                        "ascensionenlightenmenta": 1
-                    },
-                    "mutations": [
-                        {
-                            "filter": "society",
-                            "mutate": "rededicable",
-                            "level": -1
-                        }
-                    ]
-                },
-                {
-                    "id": "talk.rededicatecult.moth",
-                    "label": "重新奉身於教派：蛾",
-                    "startdescription": "他們將改變；若不然，我當改變他們。如果我來了興頭，還可以將改變行得更甚。[你可以追求<b>啟</b>之外的飛升之法。並不是限制你只能追求此法。]",
-                    "requirements": {
-                        "society": 1,
-                        "lore": 1,
-                        "moth": 1
-                    },
-                    "effects": {
-                        "society": -1,
-                        "cultmoth_1": 1,
-                        "ascensionsensationa": 1
-                    },
-                    "mutations": [
-                        {
-                            "filter": "society",
-                            "mutate": "rededicable",
-                            "level": -1
-                        }
-                    ]
-                },
-                {
-                    "id": "talk.rededicatecult.secrethistories",
-                    "label": "重新奉身於教派：秘史",
-                    "startdescription": "在另一重歷史中，我們的教派保持不變。在這裡不是。在這裡，我更改了我們的路線……我還可以更改行得更甚。[你可以追求<b>啟</b>之外的飛升之法。並不是限制你只能追求此法。]",
-                    "requirements": {
-                        "society": 1,
-                        "lore": 1,
-                        "secrethistories": 1
-                    },
-                    "effects": {
-                        "society": -1,
-                        "cultsecrethistories_1": 1,
-                        "ascensionenlightenmenta": 1
-                    },
-                    "mutations": [
-                        {
-                            "filter": "society",
-                            "mutate": "rededicable",
-                            "level": -1
-                        }
-                    ]
-                },
-                {
-                    "id": "talk.rededicatecult.winter",
-                    "label": "重新奉身於教派：冬",
-                    "startdescription": "今晚，舊道已至盡頭。但第一次，我握住了我們命運的韁繩。讓我選擇的話……我可以走上一條不一樣的路途。[你可以追求<b>啟</b>之外的飛升之法。並不是限制你只能追求此法。]",
-                    "requirements": {
-                        "society": 1,
-                        "lore": 1,
-                        "winter": 1
-                    },
-                    "effects": {
-                        "society": -1,
-                        "cultwinter_1": 1,
-                        "ascensionenlightenmenta": 1
-                    },
-                    "mutations": [
-                        {
-                            "filter": "society",
-                            "mutate": "rededicable",
-                            "level": -1
-                        }
-                    ]
-                }
-            ],
-            "craftable": true,
-            "warmup": 60
-        },
-        {
-            "id": "work.priest.passion.fervour.lore",
-            "actionId": "work",
-            "label": "在熱忱的會眾面前即興宣講一條秘密教義",
-            "startdescription": "會眾業已進入亢奮狀態。幾乎任何隱秘知識都會令他們欣喜若狂。",
-            "description": "終於，他們的亢奮鼓衰力竭。他們是怎麼想這個夜晚的呢？[“熱忱”和“密傳”在一起有極高機率會引發“欣喜若狂”，但會用掉“熱忱”。]",
-            "requirements": {
-                "priestjob": 1,
-                "passion": 1,
-                "lore": 1,
-                "fervour": 1
-            },
-            "effects": {
-                "funds": 1,
-                "fervour": -1
-            },
-            "alt": [
-                {
-                    "id": "priest.repevent",
-                    "chance": 90,
-                    "additional": true
-                }
-            ],
-            "warmup": 50,
-            "craftable": true
-        },
-        {
-            "id": "work.priest.reason.fervour.lore",
-            "actionId": "work",
-            "label": "為熱忱的會眾就一條秘密教義有備而來地布道",
-            "startdescription": "會眾業已進入亢奮狀態。幾乎任何隱秘知識都會令他們欣喜若狂。",
-            "description": "終於，他們的亢奮鼓衰力竭。他們是怎麼想這個夜晚的呢？[“熱忱”和“密傳”在一起有極高機率會引發“欣喜若狂”，但會用掉“熱忱”。]",
-            "requirements": {
-                "priestjob": 1,
-                "reason": 1,
-                "lore": 1,
-                "fervour": 1
-            },
-            "effects": {
-                "funds": 1,
-                "fervour": -1
-            },
-            "alt": [
-                {
-                    "id": "priest.repevent",
-                    "chance": 90,
-                    "additional": true
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "work.priest.passion.fervour",
-            "actionId": "work",
-            "label": "在熱忱的會眾面前即興而發地布道",
-            "startdescription": "會眾業已進入亢奮狀態。多半任何隱秘知識都會令他們欣喜若狂。",
-            "description": "終於，他們的熱忱鼓衰力竭。他們是怎麼想這個夜晚的呢？[“熱忱”通常都會引發“欣喜若狂”，但會用掉“熱忱”。]",
-            "requirements": {
-                "priestjob": 1,
-                "passion": 1,
-                "fervour": 1
-            },
-            "effects": {
-                "funds": 1,
-                "fervour": -1
-            },
-            "alt": [
-                {
-                    "id": "priest.repevent",
-                    "chance": 70,
-                    "additional": true
-                }
-            ],
-            "warmup": 50,
-            "craftable": true
-        },
-        {
-            "id": "work.priest.reason.fervour",
-            "actionId": "work",
-            "label": "對熱忱的會眾準備萬全地布道",
-            "startdescription": "會眾業已進入亢奮狀態。多半任何隱秘知識都會令他們欣喜若狂。",
-            "description": "終於，他們的熱忱鼓衰力竭。他們是怎麼想這個夜晚的呢？[“熱忱”通常都會引發“欣喜若狂”，但會用掉“熱忱”。]",
-            "requirements": {
-                "priestjob": 1,
-                "reason": 1,
-                "fervour": 1
-            },
-            "effects": {
-                "funds": 1,
-                "fervour": -1
-            },
-            "alt": [
-                {
-                    "id": "priest.repevent",
-                    "chance": 70,
-                    "additional": true
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "work.priest.passion.lore",
-            "actionId": "work",
-            "label": "就一條秘密教義即興而發地布道",
-            "startdescription": "我要對他們的靈魂言講，倘若我講得堅定雄辯，他們的靈魂許會回應於我。[用恰當的教義激情地傳教很有可能產生“熱忱”。即興傳教則會更快一點。]",
-            "requirements": {
-                "priestjob": 1,
-                "passion": 1,
-                "lore": 1
-            },
-            "linked": [
-                {
-                    "id": "preach.edge",
-                    "challenges": {
-                        "edge": "base"
-                    }
-                },
-                {
-                    "id": "preach.forge",
-                    "challenges": {
-                        "forge": "base"
-                    }
-                },
-                {
-                    "id": "preach.grail",
-                    "challenges": {
-                        "grail": "base"
-                    }
-                },
-                {
-                    "id": "preach.heart",
-                    "challenges": {
-                        "heart": "base"
-                    }
-                },
-                {
-                    "id": "preach.moth",
-                    "challenges": {
-                        "moth": "base"
-                    }
-                },
-                {
-                    "id": "work.priest.nolorematch"
-                }
-            ],
-            "warmup": 50,
-            "craftable": true
-        },
-        {
-            "id": "work.priest.reason.lore",
-            "actionId": "work",
-            "label": "就一條秘密教義有備而來地布道",
-            "startdescription": "我要對他們的靈魂言講，倘若我講得準確可信，他們的靈魂許會回應於我。[用恰當的教義理性地傳教很有可能產生“熱忱”。]",
-            "requirements": {
-                "priestjob": 1,
-                "reason": 1,
-                "lore": 1
-            },
-            "linked": [
-                {
-                    "id": "preach.knock",
-                    "challenges": {
-                        "knock": "base"
-                    }
-                },
-                {
-                    "id": "preach.secrethistories",
-                    "challenges": {
-                        "secrethistories": "base"
-                    }
-                },
-                {
-                    "id": "preach.winter",
-                    "challenges": {
-                        "winter": "base"
-                    }
-                },
-                {
-                    "id": "preach.lantern",
-                    "challenges": {
-                        "lantern": "base"
-                    }
-                },
-                {
-                    "id": "work.priest.nolorematch"
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "work.priest.nolorematch",
-            "actionId": "work",
-            "label": "一場沉悶的典禮",
-            "startdescription": "今晚，他們在聽……但左耳進右耳出。[若將“理性”與更理性的教義，“激情”與更激情的教義一同使用，會更有可能產生“熱忱”。所用“密傳”越深邃，“欣喜若狂”的可能性越大。]",
-            "effects": {
-                "funds": 1
-            }
-        },
-        {
-            "id": "preach.edge",
-            "actionId": "work",
-            "label": "“以力降力。”",
-            "startdescription": "“懸於世界之上的光並不樂見投降。抗爭至最後一息吧。如太陽居屋中的天使互相對抗，我們也當對抗。直到終被征服。”[所用“密傳”越深邃，“欣喜若狂”的可能性越大。]",
-            "effects": {
-                "funds": 1,
-                "fervour": 1
-            },
-            "alt": [
-                {
-                    "id": "priest.repevent",
-                    "challenges": {
-                        "edge": "base"
-                    },
-                    "additional": true
-                }
-            ]
-        },
-        {
-            "id": "preach.forge",
-            "actionId": "work",
-            "label": "“思考林地是徒勞的，因火的到來已致其終被變為灰燼。”",
-            "startdescription": "“我們皆被改變。有時我們變為無有生命之物——有時為從未擁有生命之物——有時候，為光輝之物。又有時，我們自己改變自己。此即太陽的陰影於之等待的十字路。”[所用“密傳”越深邃，“欣喜若狂”的可能性越大。]",
-            "effects": {
-                "funds": 1,
-                "fervour": 1
-            },
-            "alt": [
-                {
-                    "id": "priest.repevent",
-                    "challenges": {
-                        "forge": "base"
-                    },
-                    "additional": true
-                }
-            ]
-        },
-        {
-            "id": "preach.grail",
-            "actionId": "work",
-            "label": "“你走了我們母親所走的路，所以我必將她的杯交在你手中。”",
-            "startdescription": "“我們的靈魂居於一座座房屋，即我們的肉身中。我們的五感即是窗戶，每種感官都有其伴生的食慾。其食慾得不到滿足，就如同窗戶無人打理。誰又願意住在窗戶汙跡斑斑的房屋中？”[所用“密傳”越深邃，“欣喜若狂”的可能性越大。]",
-            "effects": {
-                "funds": 1,
-                "fervour": 1
-            },
-            "alt": [
-                {
-                    "id": "priest.repevent",
-                    "challenges": "grail",
-                    "additional": true
-                }
-            ]
-        },
-        {
-            "id": "preach.heart",
-            "actionId": "work",
-            "label": "“虛妄的心臟一待休止，當從他們那裡取走；而真正的心臟不會休止。”",
-            "startdescription": "“在太陽的居屋中，輝光天使的舞蹈不會休止。那些被推翻者，無論水波還是創口還是雪，已不在居屋之內，但只要他們在舞中之任有人接手，他們或永遠不會返回。所以讓我們同心協手，把我們小小的舞步加進這場舞蹈中去吧。”[所用“密傳”越深邃，“欣喜若狂”的可能性越大。]",
-            "effects": {
-                "funds": 1,
-                "fervour": 1
-            },
-            "alt": [
-                {
-                    "id": "priest.repevent",
-                    "challenges": "heart",
-                    "additional": true
-                }
-            ]
-        },
-        {
-            "id": "preach.knock",
-            "actionId": "work",
-            "label": "“他拆毀的，就不能再建造；他打開人，便不得合閉。”",
-            "startdescription": "“你們敞開了此地之門，而我穿門而過，遂於此立於你們面前，但我現許諾：終有一時我當敞開，你們當穿我而過，立於比此地更高遠處。”[所用“密傳”越深邃，“欣喜若狂”的可能性越大。]",
-            "effects": {
-                "funds": 1,
-                "fervour": 1
-            },
-            "alt": [
-                {
-                    "id": "priest.repevent",
-                    "challenges": "knock",
-                    "additional": true
-                }
-            ]
-        },
-        {
-            "id": "preach.lantern",
-            "actionId": "work",
-            "label": "“仁慈和真實使國王存續：但對於光，只有真實使之存續。”",
-            "startdescription": "“輝光索求真實。當我們為真實籠罩時，它將不灼燒我們。”[所用“密傳”越深邃，“欣喜若狂”的可能性越大。]",
-            "effects": {
-                "funds": 1,
-                "fervour": 1
-            },
-            "alt": [
-                {
-                    "id": "priest.repevent",
-                    "challenges": "lantern",
-                    "additional": true
-                }
-            ]
-        },
-        {
-            "id": "preach.moth",
-            "actionId": "work",
-            "label": "“祂們引領了我，先將我帶入黑暗，而後帶入光。”",
-            "startdescription": "“輝光索求真實。當我們為謊言籠罩時，它則將從我們身上灼去之。”[所用“密傳”越深邃，“欣喜若狂”的可能性越大。]",
-            "effects": {
-                "funds": 1,
-                "fervour": 1
-            },
-            "alt": [
-                {
-                    "id": "priest.repevent",
-                    "challenges": "moth",
-                    "additional": true
-                }
-            ]
-        },
-        {
-            "id": "preach.secrethistories",
-            "actionId": "work",
-            "label": "“倘若給一件舊衣服縫上一塊新補丁，而後這件衣服撕了，那麼得到的是一件衣服，還是兩件，還是沒有衣服？”",
-            "startdescription": "“我對你們說過這些話。我沒對你們說過這些話。在昨日這兩件事均為假。到今日，會有幾件成真？”[所用“密傳”越深邃，“欣喜若狂”的可能性越大。]",
-            "effects": {
-                "funds": 1,
-                "fervour": 1
-            },
-            "alt": [
-                {
-                    "id": "priest.repevent",
-                    "challenges": "secrethistories",
-                    "additional": true
-                }
-            ]
-        },
-        {
-            "id": "preach.winter",
-            "actionId": "work",
-            "label": "“他獨自肅坐，葆持靜默，因冬不永待。”",
-            "startdescription": "“閉上你們的嘴。閉上你們的耳。惟聽。”[所用“密傳”越深邃，“欣喜若狂”的可能性越大。]",
-            "effects": {
-                "funds": 1,
-                "fervour": 1
-            },
-            "alt": [
-                {
-                    "id": "priest.repevent",
-                    "challenges": "winter",
-                    "additional": true
-                }
-            ]
-        },
-        {
-            "id": "priest.repevent",
-            "actionId": "priest.repevent",
-            "label": "欣喜若狂",
-            "startdescription": "有時，我的話語——還有我借來的話語——將我的會眾推到不只專心致志，而是欣喜若狂。",
-            "description": "\"@#reputation|我們的祀奉之舉引來了議論……\r\n#funds|會眾慷慨解囊捐獻，且所捐的不止有奉獻盤裡的那些。@\"",
-            "slots": [
-                {
-                    "id": "society",
-                    "label": "核心圈子",
-                    "description": "我可以將那些最熱心的敬拜者引入一個核心小圈子……",
-                    "required": {
-                        "society": 1
-                    }
-                }
-            ],
-            "alt": [
-                {
-                    "id": "priest.repevent.devotee.edge",
-                    "requirements": {
-                        "venerationedge": 1
-                    },
-                    "deckeffect": {
-                        "priest.repevent": 1
-                    },
-                    "label": "靈感",
-                    "description": "\"一名敬拜者夢到了分裂之聖徒亞割妮！與此同時，@#reputation|我們的祀奉之舉引來了議論……\r\n#funds|其餘會眾慷慨解囊捐獻，且所捐的不止有奉獻盤裡的那些。@\"",
-                    "effects": {
-                        "funds": 2,
-                        "devotee_edge": 1
-                    }
-                },
-                {
-                    "id": "priest.repevent.devotee.forge",
-                    "requirements": {
-                        "venerationforge": 1
-                    },
-                    "deckeffect": {
-                        "priest.repevent": 1
-                    },
-                    "label": "靈感",
-                    "description": "\"一名敬拜者夢到了火焰之聖徒亞割妮！與此同時，@#reputation|我們的祀奉之舉引來了議論……\r\n#funds|其餘會眾慷慨解囊捐獻，且所捐的不止有奉獻盤裡的那些。@\"",
-                    "effects": {
-                        "funds": 2,
-                        "devotee_forge": 1
-                    }
-                },
-                {
-                    "id": "priest.repevent.devotee.grail",
-                    "requirements": {
-                        "venerationgrail": 1
-                    },
-                    "deckeffect": {
-                        "priest.repevent": 1
-                    },
-                    "label": "靈感",
-                    "description": "\"一名敬拜者夢到了赤紅之聖徒亞割妮！與此同時，@#reputation|我們的祀奉之舉引來了議論……\r\n#funds|其餘會眾慷慨解囊捐獻，且所捐的不止有奉獻盤裡的那些。@\"",
-                    "effects": {
-                        "funds": 2,
-                        "devotee_grail": 1
-                    }
-                },
-                {
-                    "id": "priest.repevent.devotee.heart",
-                    "requirements": {
-                        "venerationheart": 1
-                    },
-                    "deckeffect": {
-                        "priest.repevent": 1
-                    },
-                    "label": "靈感",
-                    "description": "\"一名敬拜者夢到了鼓點之聖徒亞割妮！與此同時，@#reputation|我們的祀奉之舉引來了議論……\r\n#funds|其餘會眾慷慨解囊捐獻，且所捐的不止有奉獻盤裡的那些。@\"",
-                    "effects": {
-                        "funds": 2,
-                        "devotee_heart": 1
-                    }
-                },
-                {
-                    "id": "priest.repevent.devotee.knock",
-                    "requirements": {
-                        "venerationknock": 1
-                    },
-                    "deckeffect": {
-                        "priest.repevent": 1
-                    },
-                    "label": "靈感",
-                    "description": "\"一名敬拜者夢到了門關之聖徒亞割妮！與此同時，@#reputation|我們的祀奉之舉引來了議論……\r\n#funds|其餘會眾慷慨解囊捐獻，且所捐的不止有奉獻盤裡的那些。@\"",
-                    "effects": {
-                        "funds": 2,
-                        "devotee_knock": 1
-                    }
-                },
-                {
-                    "id": "priest.repevent.devotee.lantern",
-                    "requirements": {
-                        "venerationlantern": 1
-                    },
-                    "deckeffect": {
-                        "priest.repevent": 1
-                    },
-                    "label": "靈感",
-                    "description": "\"一名敬拜者夢到了蠟燭之聖徒亞割妮！與此同時，@#reputation|我們的祀奉之舉引來了議論……\r\n#funds|其餘會眾慷慨解囊捐獻，且所捐的不止有奉獻盤裡的那些。@\"",
-                    "effects": {
-                        "funds": 2,
-                        "devotee_lantern": 1
-                    }
-                },
-                {
-                    "id": "priest.repevent.devotee.moth",
-                    "requirements": {
-                        "venerationmoth": 1
-                    },
-                    "deckeffect": {
-                        "priest.repevent": 1
-                    },
-                    "label": "靈感",
-                    "description": "\"一名敬拜者夢到了剪刀之聖徒亞割妮！與此同時，@#reputation|我們的祀奉之舉引來了議論……\r\n#funds|其餘會眾慷慨解囊捐獻，且所捐的不止有奉獻盤裡的那些。@\"",
-                    "effects": {
-                        "funds": 2,
-                        "devotee_moth": 1
-                    }
-                },
-                {
-                    "id": "priest.repevent.devotee.winter",
-                    "requirements": {
-                        "venerationwinter": 1
-                    },
-                    "deckeffect": {
-                        "priest.repevent": 1
-                    },
-                    "label": "靈感",
-                    "description": "\"一名敬拜者有夢而不言說之；不過，他的確不需要言說！與此同時，@#reputation|我們的祀奉之舉引來了議論……\r\n#funds|其餘會眾慷慨解囊捐獻，且所捐的不止有奉獻盤裡的那些。@\"",
-                    "effects": {
-                        "funds": 2,
-                        "devotee_winter": 1
-                    }
-                }
-            ],
-            "deckeffect": {
-                "priest.repevent": 1
-            },
-            "effects": {
-                "funds": 1
-            },
-            "warmup": 30
-        },
-        {
-            "id": "work.priest.passion",
-            "actionId": "work",
-            "label": "主持禮拜",
-            "startdescription": "我將即興而發地布道。",
-            "description": "會眾們傾耳而聽。今日我沒有和他們分享隱秘教義。",
-            "requirements": {
-                "priestjob": 1,
-                "passion": 1
-            },
-            "effects": {
-                "funds": 1
-            },
-            "alt": [
-                {
-                    "id": "priest.repevent",
-                    "chance": 10,
-                    "additional": true
-                }
-            ],
-            "warmup": 50,
-            "craftable": true
-        },
-        {
-            "id": "work.priest.reason",
-            "actionId": "work",
-            "label": "主持禮拜",
-            "startdescription": "我將準備萬全地布道。",
-            "description": "會眾們傾耳而聽。今日我沒有和他們分享隱秘教義。",
-            "requirements": {
-                "priestjob": 1,
-                "reason": 1
-            },
-            "effects": {
-                "funds": 1
-            },
-            "alt": [
-                {
-                    "id": "priest.repevent",
-                    "chance": 10,
-                    "additional": true
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "work.openscar",
-            "actionId": "work",
-            "label": "打開傷疤",
-            "startdescription": "我曾為七道鎖，我或可打開，供我的教民通過。這正是於已逝的那些長夜中，那份渴盼在教導我的。我會眾的禱告將漲升我的痛楚。",
-            "description": "痛楚回落。這給了我片刻間的寬慰，然而絕望隨後洶湧而至。也許我還未就位。也許我永遠不會。",
-            "requirements": {
-                "ritual": 1,
-                "lockscar": 1,
-                "knock": 24
-            },
-            "effects": {
-                "dread": 1
-            },
-            "aspects": {
-                "unlockscar": 1
-            },
-            "linked": [
-                {
-                    "id": "work.openscar.continue"
-                }
-            ],
-            "warmup": 30,
-            "craftable": true
-        },
-        {
-            "id": "work.openscar.continue",
-            "actionId": "work",
-            "label": "另一道傷疤",
-            "startdescription": "又一道。我忠實的信徒一面落淚一面一刻不停地操作手上的器具，照管我的乾渴，擦去我口中流出的血。也許我會如熟透果實一樣爆開。也許我會如雨幕一樣灑落。",
-            "description": "痛楚回落。也許我暫時還不能勝任。",
-            "slots": [
-                {
-                    "id": "scar",
-                    "label": "我身負的鎖",
-                    "required": {
-                        "lockscar": 1
-                    }
-                }
-            ],
-            "effects": {
-                "dread": 1
-            },
-            "alt": [
-                {
-                    "id": "minorknockvictory"
-                },
-                {
-                    "id": "work.openscar.failed"
-                }
-            ],
-            "linked": [
-                {
-                    "id": "work.openscar.continue"
-                }
-            ],
-            "aspects": {
-                "unlockscar": 1
-            },
-            "warmup": 30,
-            "craftable": false
-        },
-        {
-            "id": "work.openscar.failed",
-            "actionId": "work",
-            "label": "另一道傷疤？",
-            "startdescription": "痛楚的潮水回落。這給了我片刻間的寬慰，然而絕望隨後洶湧而至。也許我暫時還不能勝任。也許我永遠不會。",
-            "requirements": {
-                "lockscar": -1
-            },
-            "warmup": 10,
-            "craftable": false
-        },
-        {
-            "id": "minorknockvictory",
-            "actionId": "work",
-            "label": "門關",
-            "startdescription": "我的教民退離開我身邊，哭泣著，號叫著，歡笑著。如今在他們做一下那一切後，我無法在他們眼中保持美麗，但如今他們仰望我，好似我要成為新的天穹——",
-            "requirements": {
-                "openedlockscar": 6,
-                "lockscar": 1
-            },
-            "warmup": 30,
-            "signalEndingFlavour": "Grand",
-            "ending": "minorknockvictory"
-        },
-        {
-            "id": "work.priest.scarhealth.hint",
-            "actionId": "work",
-            "label": "“成為門關？”",
-            "requirements": {
-                "priestjob": 1,
-                "health": 1
-            },
-            "startdescription": "聖亞割妮引我來到此地，來到我實現自己潛能之地——不僅是去開門，而是要讓自己，<i>成為</i>，一扇門。[放入至少十級的“密傳”和“熱忱”，開啟產生<b>傷疤鎖</b>的過程。]",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "work.priest.scarhealth",
-            "actionId": "work",
-            "label": "“成為門關”",
-            "requirements": {
-                "priestjob": 1,
-                "health": 1,
-                "lore": 1,
-                "fervour": 1
-            },
-            "startdescription": "我的教民站在我面前，提高聲音匯成歌詠，臉向上仰，燃燒著烈火熊熊。世上存在見者甚寡——開啟者更寡的門。如果願意受這一路上的苦，或有一日我能成為這樣的門中的一扇，供我的會眾穿過。“叩門稱啟，就將你們洞開。”",
-            "description": "會眾們滿足於我的禁慾行為，但那種神聖的火花不見了。[要產生<b>傷疤鎖</b>，你需要“躁動”，至少十級的”密傳“和一特定的身體或精神上的訓誡。每種傷疤你都只能擁有一道。]",
-            "aspects": {
-                "damagehealth": 1
-            },
-            "effects": {
-                "fervour": -1,
-                "funds": 1
-            },
-            "alt": [
-                {
-                    "id": "priest.repevent",
-                    "chance": 90,
-                    "additional": true
-                }
-            ],
-            "slots": [
-                {
-                    "id": "restlessnessfuel",
-                    "label": "渴盼",
-                    "required": {
-                        "restlessness": 1
-                    },
-                    "greedy": true
-                }
-            ],
-            "linked": [
-                {
-                    "id": "work.priest.scarhealth.restlessnesspresent"
-                }
-            ],
-            "craftable": true,
-            "warmup": 60
-        },
-        {
-            "id": "work.priest.scarhealth.restlessnesspresent",
-            "actionId": "work",
-            "label": "門關之功",
-            "startdescription": "執事正朗讀到聖勒庇爵之書：“銅塑形，然心勞作。餓昭顯紅杯，病昭顯白雪。燈知曉，而蛾理解。至於劍，待它登場時，它是它自己的答案。”",
-            "description": "我受了苦。也許受得還不夠。我的躁動已緩解，我的會眾已滿足，僅此而已。[要產生<b>傷疤鎖</b>，你需要“躁動”，至少十級的”密傳“和一種與該密傳匹配的、特定的身體或精神上的訓誡。每種傷疤你都只能擁有一道。]",
-            "requirements": {
-                "restlessness": 1
-            },
-            "effects": {
-                "restlessness": -1
-            },
-            "slots": [
-                {
-                    "id": "discipline",
-                    "label": "訓誡",
-                    "required": {
-                        "injury": 1,
-                        "compensationb": 1,
-                        "hunger": 1,
-                        "vitality": 1,
-                        "erudition": 1,
-                        "glimmering": 1,
-                        "affliction": 1
-                    }
-                }
-            ],
-            "alt": [
-                {
-                    "id": "a_scarhealth_edge",
-                    "chance": 100
-                },
-                {
-                    "id": "a_scarhealth_forge",
-                    "chance": 100
-                },
-                {
-                    "id": "a_scarhealth_grail",
-                    "chance": 100
-                },
-                {
-                    "id": "a_scarhealth_heart",
-                    "chance": 100
-                },
-                {
-                    "id": "a_scarhealth_lantern",
-                    "chance": 100
-                },
-                {
-                    "id": "a_scarhealth_moth",
-                    "chance": 100
-                },
-                {
-                    "id": "a_scarhealth_winter",
-                    "chance": 100
-                },
-                {
-                    "id": "a_noscar_secrethistories",
-                    "chance": 100
-                },
-                {
-                    "id": "a_noscar_knock",
-                    "chance": 100
-                }
-            ],
-            "warmup": 60,
-            "craftable": false
-        },
-        {
-            "id": "a_scarhealth_edge",
-            "actionId": "work",
-            "label": "蟠七幻象",
-            "startdescription": "幻象中，我的傷口有七條枝叉，枝叉又有七條枝叉，每條枝叉的枝叉又有七個頭顱。幻象中，頭顱一個接一個地全被一位以傷疤為武器者斬斷。他每割一個頭顱便交到執蠟燭等待的聖亞割妮處，而隨著一次次斷首，我的痛苦在增長。",
-            "description": "我的會眾不眠不休地等待了一整晚。我醒來了。我的傷口閉合，落下傷疤。[“健康”已永久地轉為一道傷疤。印記數目總為七，你需要有七道傷疤鎖。辦法總是有的，雖然其要求或很苛刻。]",
-            "requirements": {
-                "edge": 10,
-                "restlessness": 1,
-                "injury": 2
-            },
-            "extantreqs": {
-                "lockscaredge": -1,
-                "openedlockscaredge": -1
-            },
-            "effects": {
-                "injury": -1,
-                "lockscaredge": 1,
-                "fervour": -1,
-                "restlessness": -1
-            },
-            "warmup": 0,
-            "craftable": false
-        },
-        {
-            "id": "a_scarhealth_forge",
-            "actionId": "work",
-            "label": "燧石幻象",
-            "startdescription": "幻象中，我藉著黑色玉石燈的光亮，行走於太陽居屋下的寒冷坑道。燧石從牆壁上突出稜角，其尖端散發著熱力。我用手依次劃過每一塊。它們不再銳利，是以我的教民將執蠟燭前來。",
-            "description": "我的會眾不眠不休地等待了一整晚。我醒來了。我的傷口幾近癒合，將會落下傷疤。[“健康”已永久地轉為一道傷疤。印記數目總為七，你需要有七道傷疤鎖。辦法總是有的，雖然其要求或很苛刻。]",
-            "requirements": {
-                "forge": 16,
-                "restlessness": 1,
-                "compensationb": 1
-            },
-            "extantreqs": {
-                "lockscarforge": -1,
-                "openedlockscarforge": -1
-            },
-            "effects": {
-                "injury": -1,
-                "lockscarforge": 1,
-                "restlessness": -1,
-                "fervour": -1,
-                "compensationb": -1
-            },
-            "warmup": 0,
-            "craftable": false
-        },
-        {
-            "id": "a_scarhealth_grail",
-            "actionId": "work",
-            "label": "紅杯幻象",
-            "startdescription": "“來，”幻象中的骨白女人言道，“讓我示範給你看，傷疤並不都帶來疼痛。”她將她的嘴與湧出我血液的井口相接，直到她慘白的軀體渾身戰慄，牽出玫瑰色的涎絲。",
-            "description": "我的會眾不眠不休地等待了一整晚。我醒來了。我的傷口幾近無形，但會落下傷疤。[“健康”已永久地轉為一道傷疤。印記數目總為七，你需要有七道傷疤鎖。辦法總是有的，雖然其要求或很苛刻。]",
-            "requirements": {
-                "grail": 14,
-                "restlessness": 1,
-                "hunger": 1
-            },
-            "extantreqs": {
-                "lockscargrail": -1,
-                "openedlockscargrail": -1
-            },
-            "effects": {
-                "injury": -1,
-                "lockscargrail": 1,
-                "restlessness": -1,
-                "fervour": -1
-            },
-            "warmup": 0,
-            "craftable": false
-        },
-        {
-            "id": "a_scarhealth_heart",
-            "actionId": "work",
-            "label": "松樹幻象",
-            "startdescription": "幻象中，一片松樹的樹幹被火引燃，舞者們的陰影卻在變幻莫測的火光中來來去去。我隨每一聲鼓響擺脫一片皮膚，下刀者卻不是聖亞割妮，而後我終於再也無法承受，先前壓抑住的所有慘叫從我體內噴出——",
-            "description": "我的會眾不眠不休地等待了一整晚。我醒來了。傷口中我唯一能看見的那一個位於心臟之上，將隨時間而癒合，但會落下傷疤。[“健康”已永久地轉為一道傷疤。印記數目總為七，你需要有七道傷疤鎖。辦法總是有的，雖然其要求或很苛刻。]",
-            "requirements": {
-                "heart": 11,
-                "restlessness": 1,
-                "vitality": 1
-            },
-            "extantreqs": {
-                "lockscarheart": -1,
-                "openedlockscarheart": -1
-            },
-            "effects": {
-                "injury": -1,
-                "lockscarheart": 1,
-                "restlessness": -1,
-                "fervour": -1,
-                "vitality": -1
-            },
-            "warmup": 0,
-            "craftable": false
-        },
-        {
-            "id": "a_scarhealth_lantern",
-            "actionId": "work",
-            "label": "孔雀幻象",
-            "startdescription": "幻象中，我們因牆壁撕裂得以進入第二廳室，它像孔雀一樣嚎啕大叫，但它的血是黃金。我們排著勝利的隊列從陰雲繚繞的山坡行進到太陽居所那明光燦爛的門廊，我們的嘴巴張開好承載言辭；雖然同所有降生一樣，最初的言辭是一聲嚎啕。",
-            "description": "我的會眾不眠不休地等待了一整晚。我醒來了。我的嘴被延長至雙頰，雖已幾近癒合，依然會給說話帶來新的痛苦。傷口將癒合，我的話語將煥然一新，但會落下傷疤。[“健康”已永久地轉為一道傷疤。印記數目總為七，你需要有七道傷疤鎖。辦法總是有的，雖然其要求或很苛刻。]",
-            "requirements": {
-                "lantern": 11,
-                "restlessness": 1,
-                "erudition": 1
-            },
-            "extantreqs": {
-                "lockscarlantern": -1,
-                "openedlockscarlantern": -1
-            },
-            "effects": {
-                "injury": -1,
-                "lockscarlantern": 1,
-                "restlessness": -1,
-                "fervour": -1,
-                "erudition": -1
-            },
-            "warmup": 0,
-            "craftable": false
-        },
-        {
-            "id": "a_scarhealth_moth",
-            "actionId": "work",
-            "label": "剪翼幻象",
-            "startdescription": "幻象中，我看到了我們的翅膀，還聽到了我們將其舒展開來以便下剪的簌簌聲。我們的腹部黑白相間如纏繃帶，我們的喙銳利如剪。來將我們包入蛹中，鎖進黑暗裡吧。破開我們的卵殼，偷走我們的毛髮，從內裡守望我們吧。",
-            "description": "我的會眾不眠不休地等待了一整晚。我醒來了。我背後的一對傷口將會癒合，但會落下傷疤。[“健康”已永久地轉為一道傷疤。印記數目總為七，你需要有七道傷疤鎖。辦法總是有的，雖然其要求或很苛刻。]",
-            "requirements": {
-                "moth": 12,
-                "restlessness": 1,
-                "glimmering": 1
-            },
-            "extantreqs": {
-                "lockscarmoth": -1,
-                "openedlockscarmoth": -1
-            },
-            "effects": {
-                "injury": -1,
-                "lockscarmoth": 1,
-                "restlessness": -1,
-                "fervour": -1,
-                "glimmering": -1
-            },
-            "warmup": 0,
-            "craftable": false
-        },
-        {
-            "id": "a_scarhealth_winter",
-            "actionId": "work",
-            "label": "九載幻象",
-            "startdescription": "於牆垛上的素白中等待吧。看那日頭行得遲慢。喀俄涅靜默地行走在大街小巷。她的裙襬是風。潔白如斯呵她的表面。且看何物休止於風暴中。",
-            "description": "我的會眾一直等到日出時，我從白色睡夢中醒轉。冰霜將我手凍得枯槁。傷口是沒有的，談不上是傷口，但會出現傷疤。[“健康”已永久地轉為一道傷疤。印記數目總為七，你需要有七道傷疤鎖。辦法總是有的，雖然其要求或很苛刻。]",
-            "requirements": {
-                "winter": 12,
-                "restlessness": 1,
-                "affliction": 1
-            },
-            "extantreqs": {
-                "lockscarwinter": -1,
-                "openedlockscarwinter": -1
-            },
-            "effects": {
-                "injury": -1,
-                "lockscarwinter": 1,
-                "restlessness": -1,
-                "fervour": -1
-            },
-            "craftable": false
-        },
-        {
-            "id": "a_noscar_knock",
-            "actionId": "work",
-            "label": "聖亞割妮幻象",
-            "startdescription": "我開始守夜。我的嘴敞開。我的眼敞開。隨著會眾放聲唱起讚美詩，聖亞割妮穿過我的嘴眼進入，像一隻探求的手。",
-            "description": "聖亞割妮解開我舌頭的鎖，我嚐到血。聖亞割妮圍住我心臟的脈管，我感到片刻疼痛。聖亞割妮從所有創口中最初的那個離開，即我肚皮上的小坑裡伴我降生之蛇被切斷處，但她首先肯定了我，提振了我。這便是我的路，直到我成為路。我將作為門扉向我的教民敞開，讓他們穿我而過。[<b>啟</b>和<b>秘史</b>不能產生傷疤鎖，其餘的七個性相才能。]",
-            "requirements": {
-                "knock": 3
-            },
-            "effects": {
-                "funds": 1,
-                "restlessness": -1,
-                "fervour": -1,
-                "influenceknockc": 1
-            },
-            "craftable": false
-        },
-        {
-            "id": "a_noscar_secrethistories",
-            "actionId": "work",
-            "label": "一百零八之數幻象",
-            "startdescription": "我開始守夜。會眾們的聲音越提越高。從窗透入的條條光線在祭台前混為一體。在那光中，我看到了還未發生的事件……",
-            "description": "貴胄們臥在骨骸之野，身穿黑黃條紋、重飾以黃金的衣裝，頭戴衣裝上的扁兜帽。它們的眼睛睜向天空。它們的鱗片帶傷且寒涼。現在它們終於是有形的了，目視它們將喚來早已遭禁的知識。上述之事沒有發生。[<b>啟</b>和<b>秘史</b>不能產生傷疤鎖，其餘的七個性相才能。]",
-            "requirements": {
-                "secrethistories": 2
-            },
-            "effects": {
-                "funds": 1,
-                "restlessness": -1,
-                "fervour": -1,
-                "erudition": 1
-            },
-            "craftable": false
-        }
-    ]
+	"recipes": [
+		{
+			"id": "work.priest.first",
+			"label": "主持第一次禮拜",
+			"startdescription": "我已選定經文：馬提亞斯7:7——“你們祈求，就給你們；受苦，就得到；叩門稱啟，就將你們洞開。”聖書不知何時攤開在那一頁。我發誓若非如此我不會選這一節。",
+			"description": "布道進行順利，儘管聲音在此地的迴響充滿誘惑，引得我開始自由發揮。我不完全記得我說了什麼話，但講道很受歡迎。我走下講壇時，袖子被一顆釘子刮破了，一個坐在前排的女人倒吸了一口涼氣。"
+		},
+		{
+			"id": "work.priest.second",
+			"label": "主持禮拜並談及《鎖匠的夢境》",
+			"startdescription": "我要再談馬提亞斯關於門的見解，但這次我也會談及聖亞割妮，談及人在鑄造了鑰匙後會在夜晚碰上的事情。",
+			"description": "他們中的一部分人也經歷過這種夢境。我從他們的臉上能看出來。是因為這座教堂——此處的門不止有我們眼見到的門。當肢體以恰當的方式接合時，連心臟的瓣膜也成為一扇門。我從未在布道中將之說出口，但他們的心臟依然響應著其中的真實。"
+		},
+		{
+			"id": "work.priest.third",
+			"label": "主持禮拜",
+			"startdescription": "會眾邊等待邊竊竊私語，回聲彷彿翅膀在高處拍打，樹枝在風中搖擺。教堂的執事和司事目送著我就位。他們的眼中有種我未曾料到的東西。那是……驕傲嗎？",
+			"description": "我的心臟是我血液穿行的十字路。我的舌頭是磨銳的赤焰。我在彩繪玻璃上看到了不常出現的圖案。一匹灰色牝馬、一顆劈開的樹、一對孿生的蛇。我講完時，會眾們已經站離座位，跺著腳厲聲叫罵起來，而他們的眼，他們的嘴，都是門洞。司事當著整個教堂的面，把我的手握在他自己枯皺的手中。他雙眼含淚。“我們終於等到了，”他輕聲說。"
+		},
+		{
+			"id": "dream.priest.open",
+			"label": "義人的睡夢",
+			"startdescription": "我如我所受教的一般施行了祀奉。我已將我不該閱讀的諸史擱置。我不再談論繩結和無敵太陽。主教的文書十分明確地提出了這些要求。不過在我的夢中，聖亞割妮仍然時不時來找我，這次是在今夜。",
+			"description": "聖亞割妮在煙霧中走來，窄小、蒼白的雙腳碾碎了其下的藍紫色堇花。聖亞割妮細瘦的雙手擎著幾把鑰匙和一柄閃亮的刀和一根銳利的蠟燭，最後一樣是殉難而死的她自身的頭顱。聖亞割妮把她的臉孔抬高過我肩，親吻了我的額頭，我向她敞開，如同一扇門敞開。當我醒來，我的心臟狂跳，皮膚如遭針刺，四肢戰兢不已。我開始洩露液體。"
+		},
+		{
+			"id": "study.priest.open",
+			"label": "文字中的鉸頁",
+			"startdescription": "我開始拆解我手邊的書籍……",
+			"description": "我拿出我的一本舊手記。一捆紙頁從封皮下掉出，滑向地板。是某些我將之抄錄並試圖忘記了許久的東西。"
+		},
+		{
+			"id": "explore.priest.open",
+			"label": "古舊的石頭",
+			"startdescription": "這座城市有一座大教堂，很久以前是祭奉鑰匙使徒聖彼得的。它於兩個世紀前被大火燒毀。我從書中讀到它暗中祭奉的是聖斯帕克：也許這就是起火的根由。人們將它重建時，當時的國王不情不願地同意不再讓聖彼得繼續掌管鑰匙。曾經這座教堂也是祭奉聖彼得的……",
+			"description": "這座教堂如今有了另一位主保聖人。也許是哪一位主教想抹銷掉築它的磚石的所見。但石頭銘記不忘。這裡有一塊上刻四射光芒的太陽。這裡，洗禮壇下，刻著繩結。這裡，祭台後的窗戶上，有著只在拂曉時可見，旋轉如朵朵花兒的那七把鑰匙……"
+		},
+		{
+			"id": "talk.priest.open",
+			"label": "俯身相迎",
+			"startdescription": "執事和司事來找我談一項私人事務。他們帶來了一名客人——我從未見過此人，但此人現正單膝跪倒向我致敬。現在三人皆向我致敬——"
+		},
+		{
+			"id": "talk.priest.open.followup",
+			"label": "重新奉身",
+			"startdescription": "司事又開始落淚。“我們可等到你了。#PREVIOUSCHARACTERNAME#教給了我們@#cultedge_1|閃亮的刃鋒#cultforge_1|塑形的赤焰中蘊含的神力#cultgrail_1|食慾的隱秘快感#cultheart_1|永不止息的舞蹈#cultknock_1|鑰匙的本質#cultlantern_1|輝光#cultmoth_1|林地#cultsecrethistories_1|多重的歷史#cultwinter_1|靜默#|世界表皮之下的顏色@，我們已依他的教導準備好了‘道路’，你是我們的‘光’，是我們的‘門關’。我們需要你。引領我們吧。”"
+		},
+		{
+			"id": "talk.rededicatecult",
+			"label": "新的道路",
+			"startdescription": "#PREVIOUSCHARACTERNAME#預備好了路，而我<i>便是</i>路。我可以改換既成的形態。[有且只有一次，你可以給你的教派改立另一種核心密傳。請準備好具有你想要的性相的“秘傳”再開始這一過程。]",
+			"description": "我們當遵循#PREVIOUSCHARACTERNAME#所定之路……至少現下如此。",
+			"slots": [
+				{
+					"id": "principle",
+					"label": "新的立教準則"
+				}
+			]
+		},
+		{
+			"id": "work.priest.passion.fervour.lore",
+			"label": "在熱忱的會眾面前即興宣講一條秘密教義",
+			"startdescription": "會眾業已進入亢奮狀態。幾乎任何隱秘知識都會令他們欣喜若狂。",
+			"description": "終於，他們的亢奮鼓衰力竭。他們是怎麼想這個夜晚的呢？[“熱忱”和“密傳”在一起有極高機率會引發“欣喜若狂”，但會用掉“熱忱”。]"
+		},
+		{
+			"id": "work.priest.reason.fervour.lore",
+			"label": "為熱忱的會眾就一條秘密教義有備而來地布道",
+			"startdescription": "會眾業已進入亢奮狀態。幾乎任何隱秘知識都會令他們欣喜若狂。",
+			"description": "終於，他們的亢奮鼓衰力竭。他們是怎麼想這個夜晚的呢？[“熱忱”和“密傳”在一起有極高機率會引發“欣喜若狂”，但會用掉“熱忱”。]"
+		},
+		{
+			"id": "work.priest.passion.fervour",
+			"label": "在熱忱的會眾面前即興而發地布道",
+			"startdescription": "會眾業已進入亢奮狀態。多半任何隱秘知識都會令他們欣喜若狂。",
+			"description": "終於，他們的熱忱鼓衰力竭。他們是怎麼想這個夜晚的呢？[“熱忱”通常都會引發“欣喜若狂”，但會用掉“熱忱”。]"
+		},
+		{
+			"id": "work.priest.reason.fervour",
+			"label": "對熱忱的會眾準備萬全地布道",
+			"startdescription": "會眾業已進入亢奮狀態。多半任何隱秘知識都會令他們欣喜若狂。",
+			"description": "終於，他們的熱忱鼓衰力竭。他們是怎麼想這個夜晚的呢？[“熱忱”通常都會引發“欣喜若狂”，但會用掉“熱忱”。]"
+		},
+		{
+			"id": "work.priest.passion.lore",
+			"label": "就一條秘密教義即興而發地布道",
+			"startdescription": "我要對他們的靈魂言講，倘若我講得堅定雄辯，他們的靈魂許會回應於我。[用恰當的教義激情地傳教很有可能產生“熱忱”。即興傳教則會更快一點。]"
+		},
+		{
+			"id": "work.priest.reason.lore",
+			"label": "就一條秘密教義有備而來地布道",
+			"startdescription": "我要對他們的靈魂言講，倘若我講得準確可信，他們的靈魂許會回應於我。[用恰當的教義理性地傳教很有可能產生“熱忱”。]"
+		},
+		{
+			"id": "work.priest.nolorematch",
+			"label": "一場沉悶的典禮",
+			"startdescription": "今晚，他們在聽……但左耳進右耳出。[若將“理性”與更理性的教義，“激情”與更激情的教義一同使用，會更有可能產生“熱忱”。所用“密傳”越深邃，“欣喜若狂”的可能性越大。]"
+		},
+		{
+			"id": "preach.edge",
+			"label": "“以力降力。”",
+			"startdescription": "“懸於世界之上的光並不樂見投降。抗爭至最後一息吧。如太陽居屋中的天使互相對抗，我們也當對抗。直到終被征服。”[所用“密傳”越深邃，“欣喜若狂”的可能性越大。]"
+		},
+		{
+			"id": "preach.forge",
+			"label": "“思考林地是徒勞的，因火的到來已致其終被變為灰燼。”",
+			"startdescription": "“我們皆被改變。有時我們變為無有生命之物——有時為從未擁有生命之物——有時候，為光輝之物。又有時，我們自己改變自己。此即太陽的陰影於之等待的十字路。”[所用“密傳”越深邃，“欣喜若狂”的可能性越大。]"
+		},
+		{
+			"id": "preach.grail",
+			"label": "“你走了我們母親所走的路，所以我必將她的杯交在你手中。”",
+			"startdescription": "“我們的靈魂居於一座座房屋，即我們的肉身中。我們的五感即是窗戶，每種感官都有其伴生的食慾。其食慾得不到滿足，就如同窗戶無人打理。誰又願意住在窗戶汙跡斑斑的房屋中？”[所用“密傳”越深邃，“欣喜若狂”的可能性越大。]"
+		},
+		{
+			"id": "preach.heart",
+			"label": "“虛妄的心臟一待休止，當從他們那裡取走；而真正的心臟不會休止。”",
+			"startdescription": "“在太陽的居屋中，輝光天使的舞蹈不會休止。那些被推翻者，無論水波還是創口還是雪，已不在居屋之內，但只要他們在舞中之任有人接手，他們或永遠不會返回。所以讓我們同心協手，把我們小小的舞步加進這場舞蹈中去吧。”[所用“密傳”越深邃，“欣喜若狂”的可能性越大。]"
+		},
+		{
+			"id": "preach.knock",
+			"label": "“他拆毀的，就不能再建造；他打開人，便不得合閉。”",
+			"startdescription": "“你們敞開了此地之門，而我穿門而過，遂於此立於你們面前，但我現許諾：終有一時我當敞開，你們當穿我而過，立於比此地更高遠處。”[所用“密傳”越深邃，“欣喜若狂”的可能性越大。]"
+		},
+		{
+			"id": "preach.lantern",
+			"label": "“仁慈和真實使國王存續：但對於光，只有真實使之存續。”",
+			"startdescription": "“輝光索求真實。當我們為真實籠罩時，它將不灼燒我們。”[所用“密傳”越深邃，“欣喜若狂”的可能性越大。]"
+		},
+		{
+			"id": "preach.moth",
+			"label": "“祂們引領了我，先將我帶入黑暗，而後帶入光。”",
+			"startdescription": "“輝光索求真實。當我們為謊言籠罩時，它則將從我們身上灼去之。”[所用“密傳”越深邃，“欣喜若狂”的可能性越大。]"
+		},
+		{
+			"id": "preach.secrethistories",
+			"label": "“倘若給一件舊衣服縫上一塊新補丁，而後這件衣服撕了，那麼得到的是一件衣服，還是兩件，還是沒有衣服？”",
+			"startdescription": "“我對你們說過這些話。我沒對你們說過這些話。在昨日這兩件事均為假。到今日，會有幾件成真？”[所用“密傳”越深邃，“欣喜若狂”的可能性越大。]"
+		},
+		{
+			"id": "preach.winter",
+			"label": "“他獨自肅坐，葆持靜默，因冬不永待。”",
+			"startdescription": "“閉上你們的嘴。閉上你們的耳。惟聽。”[所用“密傳”越深邃，“欣喜若狂”的可能性越大。]"
+		},
+		{
+			"id": "priest.repevent",
+			"label": "欣喜若狂",
+			"startdescription": "有時，我的話語——還有我借來的話語——將我的會眾推到不只專心致志，而是欣喜若狂。",
+			"description": "\"@#reputation|我們的祀奉之舉引來了議論……\r\n#funds|會眾慷慨解囊捐獻，且所捐的不止有奉獻盤裡的那些。@\"",
+			"slots": [
+				{
+					"id": "society",
+					"label": "核心圈子",
+					"description": "我可以將那些最熱心的敬拜者引入一個核心小圈子……"
+				}
+			]
+		},
+		{
+			"id": "work.priest.passion",
+			"label": "主持禮拜",
+			"startdescription": "我將即興而發地布道。",
+			"description": "會眾們傾耳而聽。今日我沒有和他們分享隱秘教義。"
+		},
+		{
+			"id": "work.priest.reason",
+			"label": "主持禮拜",
+			"startdescription": "我將準備萬全地布道。",
+			"description": "會眾們傾耳而聽。今日我沒有和他們分享隱秘教義。"
+		},
+		{
+			"id": "work.openscar",
+			"label": "打開傷疤",
+			"startdescription": "我曾為七道鎖，我或可打開，供我的教民通過。這正是於已逝的那些長夜中，那份渴盼在教導我的。我會眾的禱告將漲升我的痛楚。",
+			"description": "痛楚回落。這給了我片刻間的寬慰，然而絕望隨後洶湧而至。也許我還未就位。也許我永遠不會。"
+		},
+		{
+			"id": "work.openscar.continue",
+			"label": "另一道傷疤",
+			"startdescription": "又一道。我忠實的信徒一面落淚一面一刻不停地操作手上的器具，照管我的乾渴，擦去我口中流出的血。也許我會如熟透果實一樣爆開。也許我會如雨幕一樣灑落。",
+			"description": "痛楚回落。也許我暫時還不能勝任。",
+			"slots": [
+				{
+					"id": "scar",
+					"label": "我身負的鎖"
+				}
+			]
+		},
+		{
+			"id": "work.openscar.failed",
+			"label": "另一道傷疤？",
+			"startdescription": "痛楚的潮水回落。這給了我片刻間的寬慰，然而絕望隨後洶湧而至。也許我暫時還不能勝任。也許我永遠不會。"
+		},
+		{
+			"id": "minorknockvictory",
+			"label": "門關",
+			"startdescription": "我的教民退離開我身邊，哭泣著，號叫著，歡笑著。如今在他們做一下那一切後，我無法在他們眼中保持美麗，但如今他們仰望我，好似我要成為新的天穹——"
+		},
+		{
+			"id": "work.priest.scarhealth.hint",
+			"label": "“成為門關？”",
+			"startdescription": "聖亞割妮引我來到此地，來到我實現自己潛能之地——不僅是去開門，而是要讓自己，<i>成為</i>，一扇門。[放入至少十級的“密傳”和“熱忱”，開啟產生<b>傷疤鎖</b>的過程。]"
+		},
+		{
+			"id": "work.priest.scarhealth",
+			"label": "“成為門關”",
+			"startdescription": "我的教民站在我面前，提高聲音匯成歌詠，臉向上仰，燃燒著烈火熊熊。世上存在見者甚寡——開啟者更寡的門。如果願意受這一路上的苦，或有一日我能成為這樣的門中的一扇，供我的會眾穿過。“叩門稱啟，就將你們洞開。”",
+			"description": "會眾們滿足於我的禁慾行為，但那種神聖的火花不見了。[要產生<b>傷疤鎖</b>，你需要“躁動”，至少十級的”密傳“和一特定的身體或精神上的訓誡。每種傷疤你都只能擁有一道。]",
+			"slots": [
+				{
+					"id": "restlessnessfuel",
+					"label": "渴盼"
+				}
+			]
+		},
+		{
+			"id": "work.priest.scarhealth.restlessnesspresent",
+			"label": "門關之功",
+			"startdescription": "執事正朗讀到聖勒庇爵之書：“銅塑形，然心勞作。餓昭顯紅杯，病昭顯白雪。燈知曉，而蛾理解。至於劍，待它登場時，它是它自己的答案。”",
+			"description": "我受了苦。也許受得還不夠。我的躁動已緩解，我的會眾已滿足，僅此而已。[要產生<b>傷疤鎖</b>，你需要“躁動”，至少十級的”密傳“和一種與該密傳匹配的、特定的身體或精神上的訓誡。每種傷疤你都只能擁有一道。]",
+			"slots": [
+				{
+					"id": "discipline",
+					"label": "訓誡"
+				}
+			]
+		},
+		{
+			"id": "a_scarhealth_edge",
+			"label": "蟠七幻象",
+			"startdescription": "幻象中，我的傷口有七條枝叉，枝叉又有七條枝叉，每條枝叉的枝叉又有七個頭顱。幻象中，頭顱一個接一個地全被一位以傷疤為武器者斬斷。他每割一個頭顱便交到執蠟燭等待的聖亞割妮處，而隨著一次次斷首，我的痛苦在增長。",
+			"description": "我的會眾不眠不休地等待了一整晚。我醒來了。我的傷口閉合，落下傷疤。[“健康”已永久地轉為一道傷疤。印記數目總為七，你需要有七道傷疤鎖。辦法總是有的，雖然其要求或很苛刻。]"
+		},
+		{
+			"id": "a_scarhealth_forge",
+			"label": "燧石幻象",
+			"startdescription": "幻象中，我藉著黑色玉石燈的光亮，行走於太陽居屋下的寒冷坑道。燧石從牆壁上突出稜角，其尖端散發著熱力。我用手依次劃過每一塊。它們不再銳利，是以我的教民將執蠟燭前來。",
+			"description": "我的會眾不眠不休地等待了一整晚。我醒來了。我的傷口幾近癒合，將會落下傷疤。[“健康”已永久地轉為一道傷疤。印記數目總為七，你需要有七道傷疤鎖。辦法總是有的，雖然其要求或很苛刻。]"
+		},
+		{
+			"id": "a_scarhealth_grail",
+			"label": "紅杯幻象",
+			"startdescription": "“來，”幻象中的骨白女人言道，“讓我示範給你看，傷疤並不都帶來疼痛。”她將她的嘴與湧出我血液的井口相接，直到她慘白的軀體渾身戰慄，牽出玫瑰色的涎絲。",
+			"description": "我的會眾不眠不休地等待了一整晚。我醒來了。我的傷口幾近無形，但會落下傷疤。[“健康”已永久地轉為一道傷疤。印記數目總為七，你需要有七道傷疤鎖。辦法總是有的，雖然其要求或很苛刻。]"
+		},
+		{
+			"id": "a_scarhealth_heart",
+			"label": "松樹幻象",
+			"startdescription": "幻象中，一片松樹的樹幹被火引燃，舞者們的陰影卻在變幻莫測的火光中來來去去。我隨每一聲鼓響擺脫一片皮膚，下刀者卻不是聖亞割妮，而後我終於再也無法承受，先前壓抑住的所有慘叫從我體內噴出——",
+			"description": "我的會眾不眠不休地等待了一整晚。我醒來了。傷口中我唯一能看見的那一個位於心臟之上，將隨時間而癒合，但會落下傷疤。[“健康”已永久地轉為一道傷疤。印記數目總為七，你需要有七道傷疤鎖。辦法總是有的，雖然其要求或很苛刻。]"
+		},
+		{
+			"id": "a_scarhealth_lantern",
+			"label": "孔雀幻象",
+			"startdescription": "幻象中，我們因牆壁撕裂得以進入第二廳室，它像孔雀一樣嚎啕大叫，但它的血是黃金。我們排著勝利的隊列從陰雲繚繞的山坡行進到太陽居所那明光燦爛的門廊，我們的嘴巴張開好承載言辭；雖然同所有降生一樣，最初的言辭是一聲嚎啕。",
+			"description": "我的會眾不眠不休地等待了一整晚。我醒來了。我的嘴被延長至雙頰，雖已幾近癒合，依然會給說話帶來新的痛苦。傷口將癒合，我的話語將煥然一新，但會落下傷疤。[“健康”已永久地轉為一道傷疤。印記數目總為七，你需要有七道傷疤鎖。辦法總是有的，雖然其要求或很苛刻。]"
+		},
+		{
+			"id": "a_scarhealth_moth",
+			"label": "剪翼幻象",
+			"startdescription": "幻象中，我看到了我們的翅膀，還聽到了我們將其舒展開來以便下剪的簌簌聲。我們的腹部黑白相間如纏繃帶，我們的喙銳利如剪。來將我們包入蛹中，鎖進黑暗裡吧。破開我們的卵殼，偷走我們的毛髮，從內裡守望我們吧。",
+			"description": "我的會眾不眠不休地等待了一整晚。我醒來了。我背後的一對傷口將會癒合，但會落下傷疤。[“健康”已永久地轉為一道傷疤。印記數目總為七，你需要有七道傷疤鎖。辦法總是有的，雖然其要求或很苛刻。]"
+		},
+		{
+			"id": "a_scarhealth_winter",
+			"label": "九載幻象",
+			"startdescription": "於牆垛上的素白中等待吧。看那日頭行得遲慢。喀俄涅靜默地行走在大街小巷。她的裙襬是風。潔白如斯呵她的表面。且看何物休止於風暴中。",
+			"description": "我的會眾一直等到日出時，我從白色睡夢中醒轉。冰霜將我手凍得枯槁。傷口是沒有的，談不上是傷口，但會出現傷疤。[“健康”已永久地轉為一道傷疤。印記數目總為七，你需要有七道傷疤鎖。辦法總是有的，雖然其要求或很苛刻。]"
+		},
+		{
+			"id": "a_noscar_knock",
+			"label": "聖亞割妮幻象",
+			"startdescription": "我開始守夜。我的嘴敞開。我的眼敞開。隨著會眾放聲唱起讚美詩，聖亞割妮穿過我的嘴眼進入，像一隻探求的手。",
+			"description": "聖亞割妮解開我舌頭的鎖，我嚐到血。聖亞割妮圍住我心臟的脈管，我感到片刻疼痛。聖亞割妮從所有創口中最初的那個離開，即我肚皮上的小坑裡伴我降生之蛇被切斷處，但她首先肯定了我，提振了我。這便是我的路，直到我成為路。我將作為門扉向我的教民敞開，讓他們穿我而過。[<b>啟</b>和<b>秘史</b>不能產生傷疤鎖，其餘的七個性相才能。]"
+		},
+		{
+			"id": "a_noscar_secrethistories",
+			"label": "一百零八之數幻象",
+			"startdescription": "我開始守夜。會眾們的聲音越提越高。從窗透入的條條光線在祭台前混為一體。在那光中，我看到了還未發生的事件……",
+			"description": "貴胄們臥在骨骸之野，身穿黑黃條紋、重飾以黃金的衣裝，頭戴衣裝上的扁兜帽。它們的眼睛睜向天空。它們的鱗片帶傷且寒涼。現在它們終於是有形的了，目視它們將喚來早已遭禁的知識。上述之事沒有發生。[<b>啟</b>和<b>秘史</b>不能產生傷疤鎖，其餘的七個性相才能。]"
+		}
+	]
 }

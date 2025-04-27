@@ -1,59 +1,31 @@
 {
-    "recipes": [
-        {
-            "id": "health_expel_to_scar",
-            "label": "健康：落下傷疤",
-            "actionId": "scar_ability",
-            "startdescription": "我的身體正在改變……",
-            "description": "有些動作會留下更深的印記。[“健康”已永久地成為一道傷疤。注意：傷疤不能治療生病與挨餓。]",
-            "requirements": {
-                "health": 1
-            },
-            "aspects": {
-                "scarability": 1
-            },
-            "warmup": 10
-        },
-        {
-            "id": "passion_expel_to_scar",
-            "label": "激情：落下傷疤",
-            "actionId": "scar_ability",
-            "startdescription": "我的多愁善感正在改變我……",
-            "description": "我的思緒將我的肉體與靈魂綁定得甚是牢靠。[“激情”已永久地成為一道傷疤。]",
-            "requirements": {
-                "passion": 1
-            },
-            "aspects": {
-                "scarability": 1
-            },
-            "warmup": 10
-        },
-        {
-            "id": "expel_independent",
-            "label": "渾然不查",
-            "actionId": "expel_independent",
-            "startdescription": "我的對手不可能知道等待他的是什麼。",
-            "warmup": 1
-        },
-        {
-            "id": "expel_corpses",
-            "label": "一抹虛影",
-            "actionId": "expel_corpse",
-            "requirements": {
-                "corpse": 1
-            },
-            "startdescription": "長眠於此。",
-            "warmup": 1
-        },
-        {
-            "id": "expel_injury",
-            "label": "一道血痕",
-            "actionId": "expel_injury",
-            "requirements": {
-                "injury": 1
-            },
-            "startdescription": "痛楚是最後的禮物。",
-            "warmup": 1
-        }
-    ]
+	"recipes": [
+		{
+			"id": "health_expel_to_scar",
+			"label": "健康：落下傷疤",
+			"startdescription": "我的身體正在改變……",
+			"description": "有些動作會留下更深的印記。[“健康”已永久地成為一道傷疤。注意：傷疤不能治療生病與挨餓。]"
+		},
+		{
+			"id": "passion_expel_to_scar",
+			"label": "激情：落下傷疤",
+			"startdescription": "我的多愁善感正在改變我……",
+			"description": "我的思緒將我的肉體與靈魂綁定得甚是牢靠。[“激情”已永久地成為一道傷疤。]"
+		},
+		{
+			"id": "expel_independent",
+			"label": "渾然不查",
+			"startdescription": "我的對手不可能知道等待他的是什麼。"
+		},
+		{
+			"id": "expel_corpses",
+			"label": "一抹虛影",
+			"startdescription": "長眠於此。"
+		},
+		{
+			"id": "expel_injury",
+			"label": "一道血痕",
+			"startdescription": "痛楚是最後的禮物。"
+		}
+	]
 }

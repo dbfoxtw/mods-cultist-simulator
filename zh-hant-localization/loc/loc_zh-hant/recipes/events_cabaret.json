@@ -1,164 +1,58 @@
 {
-    "recipes": [
-        {
-            "id": "explorecabaret",
-            "actionId": "explore",
-            "label": "造訪蛻衣俱樂部",
-            "requirements": {
-                "locationcabaret": 1,
-                "funds": 1
-            },
-            "startdescription": "入口掩沒在緋赤色、硃砂色和肉紅色的軟簾下。門的上方是俱樂部的標語：“<b>IN GI RUM IMUS NOC TE ET CON SUMI MUR IGNI</b>”。翻譯過來是：“我們徹夜飛旋，直至沒入火焰。”",
-            "description": ".",
-            "effects": {
-                "funds": -1
-            },
-            "craftable": true,
-            "deckeffect": {
-                "cabaretevents": 1
-            },
-            "linked": [
-                {
-                    "id": "cabaretpleasure",
-                    "chance": 100
-                },
-                {
-                    "id": "cabaretallure",
-                    "chance": 100
-                },
-                {
-                    "id": "cabareteducation",
-                    "chance": 100
-                },
-                {
-                    "id": "cabaretglimpse",
-                    "chance": 100
-                },
-                {
-                    "id": "cabaretharm",
-                    "chance": 100
-                },
-                {
-                    "id": "cabaretexposure",
-                    "chance": 100
-                },
-                {
-                    "id": "cabarethunger",
-                    "chance": 100
-                },
-                {
-                    "id": "cabaretfey",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "cabaretpleasure",
-            "label": "夜總會裡的良宵之歡",
-            "actionId": "explore",
-            "requirements": {
-                "contentment": 1
-            },
-            "startdescription": "酒水，歌曲，燈光；拱頂牆壁，灰青色煙霧，著衣與不著衣的肉體糾纏扭動。",
-            "description": "我買到了歡愉。我於墮落的深夜十分才醉步蹣跚著回到家，癱倒在床。",
-            "warmup": 15,
-            "craftable": false
-        },
-        {
-            "id": "cabaretallure",
-            "label": "蛻衣俱樂部裡的誘惑",
-            "actionId": "explore",
-            "requirements": {
-                "fascination": 1
-            },
-            "startdescription": "在今晚名為“紫晶”的表演中，揮動捕網的獵手穿行於由葉衣舞者組成的低語迷宮，追逐著一位紗翅女子。每個動作都緩慢如在水下。",
-            "description": "隨著演出結束，燈光極緩地熄滅。沒有掌聲。我們各自隨人流走到街上，只有夢作陪。",
-            "effects": {
-                "contentment": 1
-            },
-            "warmup": 15,
-            "craftable": false
-        },
-        {
-            "id": "cabareteducation",
-            "label": "在蛻衣俱樂部裡受教",
-            "actionId": "explore",
-            "requirements": {
-                "erudition": 1
-            },
-            "startdescription": "飛舞的圍巾和真誠的肉體構成今晚雜亂無章的表演。觀眾轉而交談起來。",
-            "description": "我整晚都花在與一桌冒充內行、裝腔作勢、或許根本就是剛入行的傢伙互談理論。其中某些理論可能是真的。",
-            "effects": {
-                "contentment": 1
-            },
-            "warmup": 15,
-            "craftable": false
-        },
-        {
-            "id": "cabaretglimpse",
-            "label": "在蛻衣俱樂部裡瞥見更多",
-            "actionId": "explore",
-            "requirements": {
-                "glimmering": 1
-            },
-            "startdescription": "今晚演出的布景被畫成彷彿出自皮拉內西的噩夢圖景——一片巨大的，不可能現實存在的地底監獄。眾舞者頭戴怪物面具，快得像火，每個迅速的動作都伴著邪惡的意圖。",
-            "description": "舞者們越過、跨過布景，好似在景中的樓梯和吊橋上移動。他們的身體如是被布景塗料沾髒。觀眾中傳來一聲低吼。“居屋的牆壁……”",
-            "warmup": 15,
-            "craftable": false
-        },
-        {
-            "id": "cabaretharm",
-            "label": "蛻衣俱樂部裡的傷人絕品",
-            "actionId": "explore",
-            "requirements": {
-                "vitality": 1
-            },
-            "startdescription": "今晚，表演者們在觀眾間穿梭，拋接刀子或紅色玻璃瓶，彎腰贈予耳語或其他禮物。",
-            "description": "一位舞者將紅色玻璃杯按到我的嘴上。杯口鋒利。我的嘴在流血。但杯中之物是某種烈酒——",
-            "effects": {
-                "contentment": 1
-            },
-            "warmup": 15,
-            "craftable": false
-        },
-        {
-            "id": "cabaretexposure",
-            "label": "蛻衣俱樂部裡的突發事件",
-            "actionId": "explore",
-            "requirements": {
-                "notoriety": 1
-            },
-            "startdescription": "當觀眾席傳來驚懼的呻吟時，表演幾乎還沒開始！",
-            "description": "表演立刻終止；燈亮了起來；我們被從座位帶離，驅趕到街上。到底發生了什麼一直不明瞭，但俱樂部的工作人員似乎已做好準備，就像此事以前也發生過一樣。燈光在附近的窗中亮起，路人愣愣地看著大群客人分散到夜色中。",
-            "warmup": 15,
-            "craftable": false
-        },
-        {
-            "id": "cabarethunger",
-            "label": "蛻衣俱樂部裡的飢渴",
-            "actionId": "explore",
-            "requirements": {
-                "influencegrail": 1
-            },
-            "startdescription": "一位舞者從舞台左側進入，緊裹著象徵筋腱的紅色繃帶。她解下一層。又一層。又一層。又一層——",
-            "description": "這一定是個戲法。人類不可能如此輕柔地脫掉衣飾，讓皮膚下的骨骼顯露出來。骨骼粉嫩如桃肉。，器官密集似葡萄。燈光轉弱，黯淡，完全熄滅，舞台上的紅色明星也一同消失。我們所有人的嘴唇都是乾的。",
-            "warmup": 15,
-            "craftable": false
-        },
-        {
-            "id": "cabaretfey",
-            "label": "蛻衣俱樂部裡的奧秘",
-            "actionId": "explore",
-            "requirements": {
-                "influencemoth": 1
-            },
-            "startdescription": "“請欣賞‘盤旋之舞’！”典禮主持人宣布。一名舞者在舞台上起起伏伏，大張雙臂。活的蛾群從她口中噴湧而出！",
-            "description": "白色蛾群在廳中兜轉。它們停在酒杯邊緣小口啜飲。觀眾鼓起掌來。台上的女人移動的樣子像她擁有太多肢體。蛾子圍聚著我的手臂，依上我的肩頭。一會兒後，我將走出屋外，去看清冷的星星：裝作整件事都是我的夢。這家俱樂部的煙霧變幻叵測。",
-            "effects": {
-                "contentment": 1
-            },
-            "warmup": 15,
-            "craftable": false
-        }
-    ]
+	"recipes": [
+		{
+			"id": "explorecabaret",
+			"label": "造訪蛻衣俱樂部",
+			"startdescription": "入口掩沒在緋赤色、硃砂色和肉紅色的軟簾下。門的上方是俱樂部的標語：“<b>IN GI RUM IMUS NOC TE ET CON SUMI MUR IGNI</b>”。翻譯過來是：“我們徹夜飛旋，直至沒入火焰。”",
+			"description": "."
+		},
+		{
+			"id": "cabaretpleasure",
+			"label": "夜總會裡的良宵之歡",
+			"startdescription": "酒水，歌曲，燈光；拱頂牆壁，灰青色煙霧，著衣與不著衣的肉體糾纏扭動。",
+			"description": "我買到了歡愉。我於墮落的深夜十分才醉步蹣跚著回到家，癱倒在床。"
+		},
+		{
+			"id": "cabaretallure",
+			"label": "蛻衣俱樂部裡的誘惑",
+			"startdescription": "在今晚名為“紫晶”的表演中，揮動捕網的獵手穿行於由葉衣舞者組成的低語迷宮，追逐著一位紗翅女子。每個動作都緩慢如在水下。",
+			"description": "隨著演出結束，燈光極緩地熄滅。沒有掌聲。我們各自隨人流走到街上，只有夢作陪。"
+		},
+		{
+			"id": "cabareteducation",
+			"label": "在蛻衣俱樂部裡受教",
+			"startdescription": "飛舞的圍巾和真誠的肉體構成今晚雜亂無章的表演。觀眾轉而交談起來。",
+			"description": "我整晚都花在與一桌冒充內行、裝腔作勢、或許根本就是剛入行的傢伙互談理論。其中某些理論可能是真的。"
+		},
+		{
+			"id": "cabaretglimpse",
+			"label": "在蛻衣俱樂部裡瞥見更多",
+			"startdescription": "今晚演出的布景被畫成彷彿出自皮拉內西的噩夢圖景——一片巨大的，不可能現實存在的地底監獄。眾舞者頭戴怪物面具，快得像火，每個迅速的動作都伴著邪惡的意圖。",
+			"description": "舞者們越過、跨過布景，好似在景中的樓梯和吊橋上移動。他們的身體如是被布景塗料沾髒。觀眾中傳來一聲低吼。“居屋的牆壁……”"
+		},
+		{
+			"id": "cabaretharm",
+			"label": "蛻衣俱樂部裡的傷人絕品",
+			"startdescription": "今晚，表演者們在觀眾間穿梭，拋接刀子或紅色玻璃瓶，彎腰贈予耳語或其他禮物。",
+			"description": "一位舞者將紅色玻璃杯按到我的嘴上。杯口鋒利。我的嘴在流血。但杯中之物是某種烈酒——"
+		},
+		{
+			"id": "cabaretexposure",
+			"label": "蛻衣俱樂部裡的突發事件",
+			"startdescription": "當觀眾席傳來驚懼的呻吟時，表演幾乎還沒開始！",
+			"description": "表演立刻終止；燈亮了起來；我們被從座位帶離，驅趕到街上。到底發生了什麼一直不明瞭，但俱樂部的工作人員似乎已做好準備，就像此事以前也發生過一樣。燈光在附近的窗中亮起，路人愣愣地看著大群客人分散到夜色中。"
+		},
+		{
+			"id": "cabarethunger",
+			"label": "蛻衣俱樂部裡的飢渴",
+			"startdescription": "一位舞者從舞台左側進入，緊裹著象徵筋腱的紅色繃帶。她解下一層。又一層。又一層。又一層——",
+			"description": "這一定是個戲法。人類不可能如此輕柔地脫掉衣飾，讓皮膚下的骨骼顯露出來。骨骼粉嫩如桃肉。，器官密集似葡萄。燈光轉弱，黯淡，完全熄滅，舞台上的紅色明星也一同消失。我們所有人的嘴唇都是乾的。"
+		},
+		{
+			"id": "cabaretfey",
+			"label": "蛻衣俱樂部裡的奧秘",
+			"startdescription": "“請欣賞‘盤旋之舞’！”典禮主持人宣布。一名舞者在舞台上起起伏伏，大張雙臂。活的蛾群從她口中噴湧而出！",
+			"description": "白色蛾群在廳中兜轉。它們停在酒杯邊緣小口啜飲。觀眾鼓起掌來。台上的女人移動的樣子像她擁有太多肢體。蛾子圍聚著我的手臂，依上我的肩頭。一會兒後，我將走出屋外，去看清冷的星星：裝作整件事都是我的夢。這家俱樂部的煙霧變幻叵測。"
+		}
+	]
 }

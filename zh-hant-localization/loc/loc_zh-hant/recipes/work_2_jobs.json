@@ -1,987 +1,334 @@
 {
-    "recipes": [
-        {
-            "id": "findclericalwork",
-            "label": "找一份文書工作",
-            "actionId": "work",
-            "requirements": {
-                "reason": 1,
-                "ritual": -1,
-                "job": -1
-            },
-            "effects": {
-                "gloverandgloverjuniorjob": 1
-            },
-            "startdescription": "找一份不勞身，但未必不費心的工作。",
-            "description": "格洛弗父子公司為我提供了一個高層職位。明早八點整我就得來上班！",
-            "warmup": 10,
-            "craftable": true,
-            "maxexecutions": 1,
-            "burnimage": "office"
-        },
-        {
-            "id": "job_plead_hint",
-            "label": "為保住工作苦苦懇求？",
-            "actionId": "work",
-            "requirements": {
-                "demotion": 1
-            },
-            "aspects": {
-                "plead": 1
-            },
-            "startdescription": "一定要讓上級主管相信我已痛改前非。[以“激情”說服領導讓我重返崗位。]",
-            "hintonly": true,
-            "craftable": true
-        },
-        {
-            "id": "job_plead",
-            "label": "為保住工作苦苦懇求",
-            "actionId": "work",
-            "requirements": {
-                "passion": 1,
-                "demotion": 1
-            },
-            "aspects": {
-                "plead": 1
-            },
-            "startdescription": "這番對話並不愉快，但也許必不可少。",
-            "description": "他們又給了我一次機會。顯然他們覺得我應該感激不已。",
-            "craftable": true,
-            "warmup": 30
-        },
-        {
-            "id": "gloverandgloverjuniorwork",
-            "label": "格洛弗父子公司的高層工作",
-            "aspects": {
-                "employment": 1
-            },
-            "requirements": {
-                "gloverandgloverjuniorjob": 1,
-                "ritual": -1
-            },
-            "alt": [
-                {
-                    "id": "gloverandglover_diligence",
-                    "chance": 100
-                }
-            ],
-            "effects": {
-                "funds": 1
-            },
-            "actionId": "work",
-            "startdescription": "鋼筆發出刮擦聲，塵土泛著酸味，小格洛弗口中嘆氣，老格洛弗肚子貪婪地咕咕作響。",
-            "description": "職員們沉默著魚貫而出。我現下有空了。",
-            "warmup": 60,
-            "slots": [
-                {
-                    "id": "Diligence",
-                    "label": "勤勉",
-                    "required": {
-                        "reason": 1
-                    },
-                    "forbidden": {},
-                    "description": "加倍努力工作。有時候可能管用。"
-                }
-            ],
-            "craftable": true
-        },
-        {
-            "id": "gloverandglover_diligence",
-            "label": "在格洛弗父子公司加倍努力工作",
-            "aspects": {
-                "employment": 1
-            },
-            "requirements": {
-                "reason": 1
-            },
-            "effects": {
-                "funds": 1
-            },
-            "actionId": "work",
-            "startdescription": "我要加倍努力工作。也許能得到他們的讚賞。",
-            "description": "一日已畢。脖子酸痛。明天要做的工作還是一樣的多。",
-            "warmup": 0,
-            "craftable": false
-        },
-        {
-            "id": "gloverandgloverjunior_diligence_promotion",
-            "label": "升職！",
-            "requirements": {
-                "gloverandgloverjuniorjob": 1,
-                "reason": 1
-            },
-            "effects": {
-                "funds": 1
-            },
-            "aspects": {
-                "careeradvancement": 1
-            },
-            "actionId": "work",
-            "startdescription": "",
-            "description": "\"檔案部主管奧爾登先生叫我去辦公室，表揚我工作勤奮。我一直盯著他脖子上的痣，聽他講話、講話、沒完沒了地講話。不過講到最後，他給我升職了！\r\n\t\t\r\n\t\t我的新職位工資更高，辦公桌在臨街的窗戶旁。然而奧爾登先生現在成了我的直屬上司。奧爾登先生可是出了名地難對付。\"",
-            "warmup": 0
-        },
-        {
-            "id": "gloverandgloverjuniorwork_again",
-            "label": "格洛弗父子公司的高層工作",
-            "aspects": {
-                "employment": 1
-            },
-            "requirements": {
-                "gloverandgloverjuniorjob_nodifficultbossa": 1,
-                "ritual": -1
-            },
-            "alt": [
-                {
-                    "id": "gloverandglover_diligence_again",
-                    "chance": 100
-                }
-            ],
-            "effects": {
-                "funds": 1
-            },
-            "actionId": "work",
-            "startdescription": "鋼筆發出刮擦聲，塵土泛著酸味，小格洛弗口中嘆氣，老格洛弗肚子貪婪地咕咕作響。",
-            "description": "職員們沉默著魚貫而出。我現下有空了。",
-            "warmup": 60,
-            "slots": [
-                {
-                    "id": "Diligence",
-                    "label": "勤勉",
-                    "required": {
-                        "reason": 1
-                    },
-                    "forbidden": {},
-                    "description": "加倍努力工作。有時候可能管用。"
-                }
-            ],
-            "craftable": true
-        },
-        {
-            "id": "gloverandglover_diligence_again",
-            "label": "在格洛弗父子公司加倍努力工作",
-            "aspects": {
-                "employment": 1
-            },
-            "requirements": {
-                "reason": 1
-            },
-            "effects": {
-                "funds": 1
-            },
-            "actionId": "work",
-            "startdescription": "我要加倍努力工作。也許能得到他們的讚賞，也許能讓我重新爬上高級的職位。",
-            "description": "一日已畢。脖子酸痛。明天要做的工作還是一樣的多。",
-            "warmup": 0,
-            "craftable": false
-        },
-        {
-            "id": "gloverandgloverjunior_diligence_promotion_again",
-            "label": "升職！",
-            "requirements": {
-                "gloverandgloverjuniorjob_nodifficultbossa": 1,
-                "reason": 1
-            },
-            "effects": {
-                "funds": 1
-            },
-            "aspects": {
-                "careeradvancement": 1
-            },
-            "actionId": "work",
-            "startdescription": "",
-            "description": "我重新回到了高級職位。",
-            "warmup": 0
-        },
-        {
-            "id": "gloverandgloverwork_difficultbossa",
-            "actionId": "work",
-            "aspects": {
-                "employment": 1
-            },
-            "label": "在格洛弗父子公司工作",
-            "requirements": {
-                "gloverandglover_difficultbossa_job": 1
-            },
-            "startdescription": "我現在收入高了。奧爾登先生卻開始留心我。奧爾登先生是個特別挑剔的人。奧爾登先生喜歡事情辦得分毫不差。而且奧爾登先生從沒相信過我能勝任這個職位。",
-            "description": ".",
-            "effects": {
-                "funds": 2
-            },
-            "linked": [
-                {
-                    "id": "gloverandglover_difficultbossa_overtime_initial",
-                    "chance": 100
-                },
-                {
-                    "id": "gloverandglover_difficultbossa_overtime",
-                    "chance": 70
-                },
-                {
-                    "id": "gloverandglover_difficultbossa_no_overtime",
-                    "chance": 100
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "gloverandglover_difficultbossa_no_overtime",
-            "actionId": "work",
-            "aspects": {
-                "employment": 1
-            },
-            "label": "在格洛弗父子公司工作",
-            "startdescription": ".",
-            "description": "奧爾登先生今天沒從我的工作中挑出任何毛病。我離開時他沒有抬眼看我。"
-        },
-        {
-            "id": "gloverandglover_difficultbossa_patienceisavirtue",
-            "actionId": "work",
-            "label": "奧爾登要退休了！",
-            "startdescription": "“我明天將會離開格洛弗父子公司。做完今天的工作後，請來找我。”",
-            "description": "\"“你在我的指點下<i>確實</i>有些進步。我已經推薦你接替我的職位。我教你的東西你要記住，將來說不定能讓你在這個部門做出一番成績。你可以走了。”\r\n\t\r\n“還有一件事，我差點忘記了-”\r\n\t\r\n“明天請務必準時到崗。”\r\n\t\"",
-            "warmup": 30,
-            "craftable": false,
-            "aspects": {
-                "careeradvancement": 1
-            }
-        },
-        {
-            "id": "gloverandglover_difficultbossa_overtime_initial",
-            "comments": "Player will need to go through this minimum ten times. After that, the chance of overtime is reduced, and there is a small possibility Alden will retire.",
-            "actionId": "work",
-            "aspects": {
-                "employment": 1
-            },
-            "label": "在奧爾登先生的堅持下加班",
-            "startdescription": "“我認定工作完成後工作才算完成。我相信我們都了解這一點。”",
-            "slots": [
-                {
-                    "id": "Attention",
-                    "label": "專注",
-                    "required": {
-                        "reason": 1
-                    },
-                    "description": "加倍努力工作，運氣很好的話說不定管用。"
-                }
-            ],
-            "description": "“我的結論是你這一次的工作處於及格水準。你可以走了。明天請準時到崗。”\n\n[可能有法子對付奧爾登先生]",
-            "alt": [
-                {
-                    "id": "gloverandglover_difficultbossa_overtime_fail",
-                    "chance": 100
-                }
-            ],
-            "warmup": 30,
-            "craftable": false,
-            "maxexecutions": 1
-        },
-        {
-            "id": "gloverandglover_difficultbossa_overtime",
-            "actionId": "work",
-            "aspects": {
-                "employment": 1
-            },
-            "label": "在奧爾登先生的堅持下加班",
-            "startdescription": "“我認定工作完成後工作才算完成。我相信我們都了解這一點。”",
-            "slots": [
-                {
-                    "id": "Attention",
-                    "label": "專注",
-                    "required": {
-                        "reason": 1,
-                        "passion": 1
-                    },
-                    "description": "加倍努力工作，運氣很好的話說不定管用。"
-                }
-            ],
-            "description": "“我的結論是你這一次的工作處於及格水準。你可以走了。明天請準時到崗。”\n\n[可能有法子對付奧爾登先生]",
-            "alt": [
-                {
-                    "id": "gloverandglover_difficultbossa_overtime_fail",
-                    "chance": 100
-                }
-            ],
-            "warmup": 30,
-            "craftable": false,
-            "linked": [
-                {
-                    "id": "gloverandglover_difficultbossa_patienceisavirtue",
-                    "chance": 2
-                }
-            ]
-        },
-        {
-            "id": "gloverandglover_difficultbossa_overtime_fail",
-            "actionId": "work",
-            "aspects": {
-                "employment": 1
-            },
-            "label": "在奧爾登先生的堅持下加班",
-            "startdescription": "“我認為你沒有正確認識到我們這裡工作的重要性。這份工作需要你投入<i>全部精力</i>。”[加入理性以說服奧爾登先生。]",
-            "description": "“我本打算說我感到失望，不過我對你的期待本已很低了。我不得不扣除你的一部分薪水。你可以走了，別忘了明天請準時到崗。”\n\n[可能有法子對付奧爾登先生]",
-            "requirements": {
-                "reason": -1
-            },
-            "effects": {
-                "funds": -1
-            },
-            "craftable": false
-        },
-        {
-            "id": "gloverandgloverwork_difficultbossa_gone",
-            "actionId": "work",
-            "aspects": {
-                "employment": 1
-            },
-            "label": "在格洛弗父子公司工作",
-            "requirements": {
-                "gloverandglover_difficultbossa_gone_job": 1
-            },
-            "startdescription": "辦公室為奧爾登今天沒來的消息而沸騰。一個骨瘦如柴，緊張兮兮的傢伙從四層過來，被任命為檔案部（臨時）主管。他和奧爾登不一樣，不干涉我的工作。",
-            "description": "墨水，紙張，滋滋作響的電燈。我離開時辦公室已光線昏暗。但我是準點離開的。",
-            "effects": {
-                "funds": 2,
-                "gloverandglover_difficultbossa_gone_job": -1,
-                "gloverandgloverjob": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "gloverandgloverwork",
-            "label": "在格洛弗父子公司工作",
-            "aspects": {
-                "employment": 1
-            },
-            "requirements": {
-                "gloverandgloverjob": 1
-            },
-            "alt": [
-                {
-                    "id": "gloverandglover_diligence_promotion",
-                    "chance": 100
-                }
-            ],
-            "effects": {
-                "funds": 2
-            },
-            "actionId": "work",
-            "startdescription": "最近工作的要求更高了，不過薪水也是。",
-            "description": "墨水，紙張，滋滋作響的電燈。我離開時辦公室已光線昏暗。走到外面的人行道上，我把衣服領子翻了起來。",
-            "warmup": 70,
-            "slots": [
-                {
-                    "id": "Devotion",
-                    "label": "敬業",
-                    "required": {
-                        "reason": 1
-                    },
-                    "description": "加倍努力工作，運氣很好的話說不定管用。"
-                }
-            ],
-            "craftable": true
-        },
-        {
-            "id": "gloverandglover_diligence_promotion",
-            "label": "在格洛弗父子公司加班",
-            "aspects": {
-                "careeradvancement": 1
-            },
-            "requirements": {
-                "gloverandgloverjob": 1,
-                "reason": 2
-            },
-            "effects": {
-                "funds": 3
-            },
-            "actionId": "work",
-            "startdescription": "",
-            "description": "小格洛弗帶我去他所在的俱樂部吃了一次午餐。現在我得比以前做事更勤謹、更加小心，作為回報，他會從我為他父親賺的那些錢裡再多拿出一點給我。",
-            "warmup": 0
-        },
-        {
-            "id": "gloverandgloverwork_again",
-            "label": "在格洛弗父子公司工作",
-            "aspects": {
-                "employment": 1
-            },
-            "requirements": {
-                "gloverandgloverjob_youngerglovergone": 1
-            },
-            "alt": [
-                {
-                    "id": "gloverandglover_diligence_promotion_again",
-                    "chance": 100
-                }
-            ],
-            "effects": {
-                "funds": 2
-            },
-            "actionId": "work",
-            "startdescription": "最近工作的要求更高了，不過薪水也是。",
-            "description": "墨水，紙張，滋滋作響的電燈。我離開時辦公室已光線昏暗。走到外面的人行道上，我把衣服領子翻了起來。",
-            "warmup": 70,
-            "slots": [
-                {
-                    "id": "Devotion",
-                    "label": "敬業",
-                    "required": {
-                        "reason": 1
-                    },
-                    "description": "加倍努力工作，運氣很好的話說不定管用。"
-                }
-            ],
-            "craftable": true
-        },
-        {
-            "id": "gloverandglover_diligence_promotion_again",
-            "label": "在格洛弗父子公司加班",
-            "aspects": {
-                "careeradvancement": 1
-            },
-            "requirements": {
-                "reason": 2
-            },
-            "effects": {
-                "funds": 2
-            },
-            "actionId": "work",
-            "startdescription": "",
-            "description": "我已坐回高層職位。",
-            "warmup": 0
-        },
-        {
-            "id": "gloverandgloverseniorwork_retirementoption",
-            "label": "在格洛弗父子公司工作",
-            "aspects": {
-                "employment": 1
-            },
-            "requirements": {
-                "gloverandgloverseniorjob": 1,
-                "reason": 1
-            },
-            "effects": {
-                "funds": 3
-            },
-            "actionId": "work",
-            "startdescription": "先把自己的手攥成合適的形狀，然後開工。",
-            "description": "我總是最晚一個走的，比老格洛弗還還晚。",
-            "warmup": 70,
-            "slots": [
-                {
-                    "id": "Acceptance",
-                    "label": "接受",
-                    "required": {
-                        "passion": 1
-                    },
-                    "description": "我願意把畢生精力投入進去。"
-                }
-            ],
-            "alt": [
-                {
-                    "id": "workvictory",
-                    "chance": 100
-                }
-            ],
-            "craftable": true
-        },
-        {
-            "id": "gloverandgloverseniorwork",
-            "label": "在格洛弗父子公司工作",
-            "aspects": {
-                "employment": 1
-            },
-            "requirements": {
-                "gloverandgloverseniorjob": 1,
-                "reason": 1
-            },
-            "effects": {
-                "funds": 3
-            },
-            "actionId": "work",
-            "startdescription": "先把自己的手攥成合適的形狀，然後開工。",
-            "description": "我總是最晚一個走，比老格洛弗還還晚。我和小格洛弗關係不錯。他喜歡開玩笑說我以後說不定能接替他，當然了，這不可能。他父親不會允許。他開這種玩笑是為了讓我認清自己。他這麼做已經開始叫我惱火了。",
-            "warmup": 70,
-            "craftable": true
-        },
-        {
-            "id": "gloverandgloverseniorwork_hint",
-            "label": "在在格洛弗父子公司工作？",
-            "actionId": "work",
-            "requirements": {
-                "gloverandgloverseniorjob": 1
-            },
-            "startdescription": "我的工作要求很高。我需要投入一些理性才能做。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "gloverandgloverseniorworkyoungerglovergone",
-            "label": "在格洛弗父子公司工作",
-            "aspects": {
-                "employment": 1
-            },
-            "requirements": {
-                "gloverandgloverseniorjob_youngerglovergone": 1,
-                "reason": 1
-            },
-            "effects": {
-                "funds": 3
-            },
-            "actionId": "work",
-            "startdescription": "先把自己的手攥成合適的形狀，然後開工。",
-            "description": "我闔上眼，數字在我眼簾下列隊飄過。我睜開眼，光線使我刺痛。",
-            "warmup": 70,
-            "slots": [
-                {
-                    "id": "Ambition",
-                    "label": "野心",
-                    "required": {
-                        "passion": 1
-                    },
-                    "description": "小格洛弗留下的董事席位還是空的……"
-                }
-            ],
-            "alt": [
-                {
-                    "id": "gloverandgloversenior_diligence_promotion",
-                    "chance": 30
-                }
-            ],
-            "craftable": true
-        },
-        {
-            "id": "gloverandgloverseniorwork_youngerglovergone_hint",
-            "label": "在在格洛弗父子公司工作？",
-            "actionId": "work",
-            "requirements": {
-                "gloverandgloverseniorjob_youngerglovergone": 1
-            },
-            "startdescription": "我的工作要求很高。我需要投入一些理性才能完成。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "gloverandgloversenior_diligence_promotion",
-            "label": "升職！",
-            "requirements": {
-                "passion": 1
-            },
-            "effects": {
-                "funds": 5
-            },
-            "aspects": {
-                "careeradvancement": 1
-            },
-            "actionId": "work",
-            "startdescription": ".",
-            "description": "“我兒子”，老格洛弗說道，“是個招人疼的孩子，但確實少些志氣。而你正相反，你是胸有大志的人。我看著你就想起了我自己，你知道嗎？我這是真心話。嗯，我想我們可以安排你進董事會。”"
-        },
-        {
-            "id": "gloverandglovertopwork",
-            "label": "在格洛弗父子公司工作",
-            "aspects": {
-                "employment": 1
-            },
-            "actionId": "work",
-            "requirements": {
-                "gloverandglovertopjob": 1
-            },
-            "slots": [
-                {
-                    "id": "Scandal",
-                    "label": "中傷",
-                    "required": {
-                        "notoriety": 1
-                    },
-                    "greedy": true,
-                    "description": "我身居高位，這也許能再為我抵擋一陣醜聞。但這件事已經引起公司相當的重視，我可能會被解僱。"
-                }
-            ],
-            "startdescription": "工作日難熬的鐘點像在我眼前排成長隊等著我一樣。我吃完午餐就回家算了……",
-            "description": "如果說哪裡是格洛弗父子公司的心臟，那便是會計部了，那裡的錢來去滾滾如春潮。而公司的肢體則是那些大氣也不敢出的行政人員和職員。但我和其他董事處於它的顱頂，（至少現下）我不必懼怕醜聞，也無需顧慮財務壓力。",
-            "warmup": 50,
-            "effects": {
-                "funds": 4,
-                "notoriety": -1
-            },
-            "craftable": true,
-            "alt": [
-                {
-                    "id": "gloverandglovertopwork_scandal_a",
-                    "chance": 30
-                }
-            ]
-        },
-        {
-            "id": "gloverandglovertopwork_scandal_a",
-            "aspects": {
-                "employment": 1
-            },
-            "label": "一次表達擔憂的談話",
-            "actionId": "work",
-            "requirements": {
-                "notoriety": 1
-            },
-            "startdescription": ".",
-            "description": "我被叫去見老格洛弗——現在唯一的格洛弗。他在椅子上不安地扭動著。“我聽說——”他這樣開腔，又猶豫地停下，注視我的眼睛：“我不想再聽到任何關於——關於那事的話。哪怕是一個字，一個字都不要。”",
-            "effects": {
-                "funds": 4,
-                "notoriety": -1,
-                "gloverandglovertopjob": -1,
-                "gloverandglovertopjob_tainted": 1
-            }
-        },
-        {
-            "id": "gloverandglovertopjob_tainted",
-            "aspects": {
-                "employment": 1
-            },
-            "label": "在格洛弗父子公司工作",
-            "actionId": "work",
-            "requirements": {
-                "gloverandglovertopjob_tainted": 1
-            },
-            "slots": [
-                {
-                    "id": "Scandal",
-                    "label": "中傷",
-                    "required": {
-                        "notoriety": 1
-                    },
-                    "greedy": true,
-                    "description": "我身居高位，這也許能再為我遮擋一陣醜聞。但我現在切實面臨丟掉職位的危險。"
-                }
-            ],
-            "startdescription": "吃完午餐就能回家的日子已不再。同事開始懷疑我的身份。他們一點也不知道我非池中之物。",
-            "description": "我在一個位於五樓的齊整房間裡審核一列列齊整的數字。辦公室的窗外能看到河。秘書每五十九分鐘為我送來一杯熱飲。窗外的河是雨的顏色。",
-            "warmup": 60,
-            "effects": {
-                "funds": 4,
-                "notoriety": -1
-            },
-            "craftable": true,
-            "alt": [
-                {
-                    "id": "gloverandglovertopwork_scandal_b",
-                    "chance": 70
-                }
-            ]
-        },
-        {
-            "id": "gloverandglovertopwork_scandal_b",
-            "label": "遭到黜免！",
-            "actionId": "work",
-            "requirements": {
-                "notoriety": 1
-            },
-            "startdescription": ".",
-            "description": "我接到一封正式（但措辭小心到怪異的）信函，由格洛弗父子公司直接送到我手中。公司不再需要我擔任董事，但給我的退職金卻相當豐厚。公司衷心希望我們不會因為此事結怨。信上的簽名有點發抖……",
-            "effects": {
-                "funds": 8,
-                "notoriety": -1,
-                "gloverandglovertopjob_tainted": -1
-            }
-        },
-        {
-            "id": "institutephysicianwork",
-            "label": "在研究所工作",
-            "requirements": {
-                "institutephysicianjob": 1,
-                "ritual": -1
-            },
-            "effects": {
-                "funds": 2
-            },
-            "actionId": "work",
-            "startdescription": "研究所大廳有一股潮濕黏膩的氣味揮之不散。或許是因為牆漆。也許是因為病人。又也許是因為牆裡有什麼東西。",
-            "description": "我的工作做得不錯。病人經我之手變得更安靜了。",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "workbeg",
-            "label": "沿街乞討",
-            "actionId": "work",
-            "requirements": {
-                "decrepitude": 1
-            },
-            "effects": {
-                "funds": 1,
-                "dread": 1
-            },
-            "alt": [
-                {
-                    "id": "workbeg_lucky",
-                    "chance": 30
-                }
-            ],
-            "startdescription": "我向路人展示我的病弱之軀，希望博得他們的同情。",
-            "description": "長日漫漫。有人撒下幾枚硬幣，大多數人扭頭躲開。長時間望著這麼多退避三舍的背影著實難熬。",
-            "warmup": 90,
-            "craftable": true
-        },
-        {
-            "id": "workbeg_lucky",
-            "label": "沿街乞討",
-            "actionId": "work",
-            "requirements": {
-                "decrepitude": 1
-            },
-            "effects": {
-                "funds": 2
-            },
-            "description": "長日漫漫。有人撒下幾枚硬幣，大多數人扭頭躲開。但我碗裡多了枚索維林金幣！是有人慷慨解囊，還是失手漏下？",
-            "warmup": 90
-        },
-        {
-            "id": "workhealthskilld_edge",
-            "label": "做粗重活計：力大如山",
-            "actionId": "work",
-            "requirements": {
-                "health": 1,
-                "skillhealthd_strength": 1,
-                "ritual": -1,
-                "job": -1,
-                "benefactor": -1
-            },
-            "effects": {
-                "funds": 1,
-                "vitality": 1
-            },
-            "aspects": {
-                "employment": 1
-            },
-            "startdescription": "我又一次拿一身力氣換飯吃。",
-            "description": "他們說我幹活一個頂倆。其實並非如此；我不止頂兩個。",
-            "warmup": 40,
-            "craftable": true
-        },
-        {
-            "id": "workhealthskillc",
-            "label": "做粗重活計：臂膀強韌如鋼澆",
-            "actionId": "work",
-            "requirements": {
-                "health": 1,
-                "healthskill": 3,
-                "ritual": -1,
-                "job": -1,
-                "benefactor": -1
-            },
-            "effects": {
-                "funds": 1,
-                "vitality": 1
-            },
-            "aspects": {
-                "employment": 1
-            },
-            "startdescription": "我又一次拿一身力氣換飯吃。",
-            "description": "人們對我的巨力議論紛紛。內容並不全是誇讚。我領了薪水便離開了。",
-            "warmup": 45,
-            "craftable": true
-        },
-        {
-            "id": "workhealthskillb",
-            "label": "做粗重活計：臂膀強韌如鐵打",
-            "actionId": "work",
-            "requirements": {
-                "health": 1,
-                "healthskill": 2,
-                "ritual": -1,
-                "job": -1,
-                "benefactor": -1
-            },
-            "effects": {
-                "funds": 1,
-                "vitality": 1
-            },
-            "aspects": {
-                "employment": 1
-            },
-            "startdescription": "我要少說話，快做事。我不怕受傷。",
-            "description": "其他人不怎麼和我說話，但會在我經過時點頭。我領到了薪水。",
-            "warmup": 50,
-            "craftable": true
-        },
-        {
-            "id": "workhealthskilla",
-            "label": "做粗重活計：臂膀強韌如銅鑄",
-            "alt": [
-                {
-                    "id": "workhealthinjury",
-                    "chance": 10
-                }
-            ],
-            "actionId": "work",
-            "requirements": {
-                "health": 1,
-                "healthskill": 1,
-                "ritual": -1,
-                "job": -1,
-                "benefactor": -1
-            },
-            "effects": {
-                "funds": 1,
-                "vitality": 1
-            },
-            "aspects": {
-                "employment": 1
-            },
-            "startdescription": "那麼，去幹活吧。",
-            "description": "今天已經提早幹完了。我拿到了薪水。",
-            "warmup": 55,
-            "craftable": true
-        },
-        {
-            "id": "workhealth_noinjurychance",
-            "label": "做粗重活計",
-            "actionId": "work",
-            "requirements": {
-                "health": 1,
-                "ritual": -1,
-                "job": -1,
-                "benefactor": -1
-            },
-            "aspects": {
-                "employment": 1
-            },
-            "effects": {
-                "vitality": 1,
-                "funds": 1
-            },
-            "alt": [
-                {
-                    "id": "needs",
-                    "chance": 100,
-                    "additional": true
-                }
-            ],
-            "startdescription": "靠累斷腰的苦工換來一點微薄的薪水，我只有這點能耐了嗎？",
-            "description": "一日已畢，我也快累斃了。不過至少我對得起我拿的薪水。",
-            "warmup": 60,
-            "craftable": true,
-            "maxexecutions": 3,
-            "comments": "guaranteed three days without injury"
-        },
-        {
-            "id": "workhealth",
-            "label": "做粗重活計",
-            "alt": [
-                {
-                    "id": "workhealthinjury",
-                    "chance": 30
-                }
-            ],
-            "actionId": "work",
-            "requirements": {
-                "health": 1,
-                "ritual": -1,
-                "job": -1,
-                "benefactor": -1
-            },
-            "effects": {
-                "funds": 1,
-                "vitality": 1
-            },
-            "aspects": {
-                "employment": 1
-            },
-            "startdescription": "靠累斷腰的苦工換來一點微薄的薪水，我只有這點能耐了嗎？",
-            "description": "一日已畢，我也快累斃了。不過至少我對得起我拿的薪水。",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "workhealthinjury",
-            "label": "因工負傷！",
-            "actionId": "work",
-            "requirements": {},
-            "effects": {
-                "health": -1,
-                "injury": 1,
-                "funds": 1
-            },
-            "startdescription": ".",
-            "description": "我受傷了！我揣著少得可憐薪水，忍痛跛著腳走回家。",
-            "warmup": 0,
-            "craftable": false
-        },
-        {
-            "id": "workinvestmentjobc",
-            "label": "處理財務事宜",
-            "actionId": "work",
-            "requirements": {
-                "investmentsjobc": 1
-            },
-            "effects": {
-                "funds": 4
-            },
-            "linked": [
-                {
-                    "id": "investmentsjobdecline",
-                    "chance": 30
-                }
-            ],
-            "startdescription": "如果我抽出精力管理我的投資，靠收益足可供我寬裕度日。",
-            "description": "一封精緻的白色信函內裝著一張精緻的白色支票，上面記有一筆相當可觀的金額。",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "workinvestmentjobb",
-            "label": "處理財務事宜",
-            "actionId": "work",
-            "requirements": {
-                "investmentsjobb": 1
-            },
-            "effects": {
-                "funds": 3
-            },
-            "linked": [
-                {
-                    "id": "investmentsjobdecline",
-                    "chance": 30
-                }
-            ],
-            "startdescription": "如果我抽出精力管理我的投資，靠收益足可供我度日。",
-            "description": "一個端整的白色信封內裝著一張端整的白色支票，上記一筆小有魅力的金額。",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "workinvestmentjoba",
-            "label": "處理財務事宜",
-            "actionId": "work",
-            "requirements": {
-                "investmentsjoba": 1
-            },
-            "effects": {
-                "funds": 2
-            },
-            "linked": [
-                {
-                    "id": "investmentsjobdecline",
-                    "chance": 30
-                }
-            ],
-            "startdescription": "如果我抽出精力管理我的投資，靠收益可供我勉強度日。",
-            "description": "一封精緻的白色信函內裝著一張精緻的白色支票，上面記有一筆略顯寒酸的金額。",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "investmentsjobdecline",
-            "label": "行情惡化",
-            "aspects": {
-                "decline": 1
-            },
-            "actionId": "work",
-            "startdescription": ".",
-            "description": "我收到了例行的支票，但這次還附帶人不安的消息。我的投資損失不菲——或許因我運氣不佳；又或許存在另外一種可能，有敵人從中作梗。",
-            "warmup": 5,
-            "craftable": false
-        }
-    ]
+	"recipes": [
+		{
+			"id": "findclericalwork",
+			"label": "找一份文書工作",
+			"startdescription": "找一份不勞身，但未必不費心的工作。",
+			"description": "格洛弗父子公司為我提供了一個高層職位。明早八點整我就得來上班！"
+		},
+		{
+			"id": "job_plead_hint",
+			"label": "為保住工作苦苦懇求？",
+			"startdescription": "一定要讓上級主管相信我已痛改前非。[以“激情”說服領導讓我重返崗位。]"
+		},
+		{
+			"id": "job_plead",
+			"label": "為保住工作苦苦懇求",
+			"startdescription": "這番對話並不愉快，但也許必不可少。",
+			"description": "他們又給了我一次機會。顯然他們覺得我應該感激不已。"
+		},
+		{
+			"id": "gloverandgloverjuniorwork",
+			"label": "格洛弗父子公司的高層工作",
+			"startdescription": "鋼筆發出刮擦聲，塵土泛著酸味，小格洛弗口中嘆氣，老格洛弗肚子貪婪地咕咕作響。",
+			"description": "職員們沉默著魚貫而出。我現下有空了。",
+			"slots": [
+				{
+					"id": "Diligence",
+					"label": "勤勉",
+					"description": "加倍努力工作。有時候可能管用。"
+				}
+			]
+		},
+		{
+			"id": "gloverandglover_diligence",
+			"label": "在格洛弗父子公司加倍努力工作",
+			"startdescription": "我要加倍努力工作。也許能得到他們的讚賞。",
+			"description": "一日已畢。脖子酸痛。明天要做的工作還是一樣的多。"
+		},
+		{
+			"id": "gloverandgloverjunior_diligence_promotion",
+			"label": "升職！",
+			"startdescription": "",
+			"description": "\"檔案部主管奧爾登先生叫我去辦公室，表揚我工作勤奮。我一直盯著他脖子上的痣，聽他講話、講話、沒完沒了地講話。不過講到最後，他給我升職了！\r\n\t\t\r\n\t\t我的新職位工資更高，辦公桌在臨街的窗戶旁。然而奧爾登先生現在成了我的直屬上司。奧爾登先生可是出了名地難對付。\""
+		},
+		{
+			"id": "gloverandgloverjuniorwork_again",
+			"label": "格洛弗父子公司的高層工作",
+			"startdescription": "鋼筆發出刮擦聲，塵土泛著酸味，小格洛弗口中嘆氣，老格洛弗肚子貪婪地咕咕作響。",
+			"description": "職員們沉默著魚貫而出。我現下有空了。",
+			"slots": [
+				{
+					"id": "Diligence",
+					"label": "勤勉",
+					"description": "加倍努力工作。有時候可能管用。"
+				}
+			]
+		},
+		{
+			"id": "gloverandglover_diligence_again",
+			"label": "在格洛弗父子公司加倍努力工作",
+			"startdescription": "我要加倍努力工作。也許能得到他們的讚賞，也許能讓我重新爬上高級的職位。",
+			"description": "一日已畢。脖子酸痛。明天要做的工作還是一樣的多。"
+		},
+		{
+			"id": "gloverandgloverjunior_diligence_promotion_again",
+			"label": "升職！",
+			"startdescription": "",
+			"description": "我重新回到了高級職位。"
+		},
+		{
+			"id": "gloverandgloverwork_difficultbossa",
+			"label": "在格洛弗父子公司工作",
+			"startdescription": "我現在收入高了。奧爾登先生卻開始留心我。奧爾登先生是個特別挑剔的人。奧爾登先生喜歡事情辦得分毫不差。而且奧爾登先生從沒相信過我能勝任這個職位。",
+			"description": "."
+		},
+		{
+			"id": "gloverandglover_difficultbossa_no_overtime",
+			"label": "在格洛弗父子公司工作",
+			"startdescription": ".",
+			"description": "奧爾登先生今天沒從我的工作中挑出任何毛病。我離開時他沒有抬眼看我。"
+		},
+		{
+			"id": "gloverandglover_difficultbossa_patienceisavirtue",
+			"label": "奧爾登要退休了！",
+			"startdescription": "“我明天將會離開格洛弗父子公司。做完今天的工作後，請來找我。”",
+			"description": "\"“你在我的指點下<i>確實</i>有些進步。我已經推薦你接替我的職位。我教你的東西你要記住，將來說不定能讓你在這個部門做出一番成績。你可以走了。”\r\n\t\r\n“還有一件事，我差點忘記了-”\r\n\t\r\n“明天請務必準時到崗。”\r\n\t\""
+		},
+		{
+			"id": "gloverandglover_difficultbossa_overtime_initial",
+			"label": "在奧爾登先生的堅持下加班",
+			"startdescription": "“我認定工作完成後工作才算完成。我相信我們都了解這一點。”",
+			"slots": [
+				{
+					"id": "Attention",
+					"label": "專注",
+					"description": "加倍努力工作，運氣很好的話說不定管用。"
+				}
+			],
+			"description": "“我的結論是你這一次的工作處於及格水準。你可以走了。明天請準時到崗。”\n\n[可能有法子對付奧爾登先生]"
+		},
+		{
+			"id": "gloverandglover_difficultbossa_overtime",
+			"label": "在奧爾登先生的堅持下加班",
+			"startdescription": "“我認定工作完成後工作才算完成。我相信我們都了解這一點。”",
+			"slots": [
+				{
+					"id": "Attention",
+					"label": "專注",
+					"description": "加倍努力工作，運氣很好的話說不定管用。"
+				}
+			],
+			"description": "“我的結論是你這一次的工作處於及格水準。你可以走了。明天請準時到崗。”\n\n[可能有法子對付奧爾登先生]"
+		},
+		{
+			"id": "gloverandglover_difficultbossa_overtime_fail",
+			"label": "在奧爾登先生的堅持下加班",
+			"startdescription": "“我認為你沒有正確認識到我們這裡工作的重要性。這份工作需要你投入<i>全部精力</i>。”[加入理性以說服奧爾登先生。]",
+			"description": "“我本打算說我感到失望，不過我對你的期待本已很低了。我不得不扣除你的一部分薪水。你可以走了，別忘了明天請準時到崗。”\n\n[可能有法子對付奧爾登先生]"
+		},
+		{
+			"id": "gloverandgloverwork_difficultbossa_gone",
+			"label": "在格洛弗父子公司工作",
+			"startdescription": "辦公室為奧爾登今天沒來的消息而沸騰。一個骨瘦如柴，緊張兮兮的傢伙從四層過來，被任命為檔案部（臨時）主管。他和奧爾登不一樣，不干涉我的工作。",
+			"description": "墨水，紙張，滋滋作響的電燈。我離開時辦公室已光線昏暗。但我是準點離開的。"
+		},
+		{
+			"id": "gloverandgloverwork",
+			"label": "在格洛弗父子公司工作",
+			"startdescription": "最近工作的要求更高了，不過薪水也是。",
+			"description": "墨水，紙張，滋滋作響的電燈。我離開時辦公室已光線昏暗。走到外面的人行道上，我把衣服領子翻了起來。",
+			"slots": [
+				{
+					"id": "Devotion",
+					"label": "敬業",
+					"description": "加倍努力工作，運氣很好的話說不定管用。"
+				}
+			]
+		},
+		{
+			"id": "gloverandglover_diligence_promotion",
+			"label": "在格洛弗父子公司加班",
+			"startdescription": "",
+			"description": "小格洛弗帶我去他所在的俱樂部吃了一次午餐。現在我得比以前做事更勤謹、更加小心，作為回報，他會從我為他父親賺的那些錢裡再多拿出一點給我。"
+		},
+		{
+			"id": "gloverandgloverwork_again",
+			"label": "在格洛弗父子公司工作",
+			"startdescription": "最近工作的要求更高了，不過薪水也是。",
+			"description": "墨水，紙張，滋滋作響的電燈。我離開時辦公室已光線昏暗。走到外面的人行道上，我把衣服領子翻了起來。",
+			"slots": [
+				{
+					"id": "Devotion",
+					"label": "敬業",
+					"description": "加倍努力工作，運氣很好的話說不定管用。"
+				}
+			]
+		},
+		{
+			"id": "gloverandglover_diligence_promotion_again",
+			"label": "在格洛弗父子公司加班",
+			"startdescription": "",
+			"description": "我已坐回高層職位。"
+		},
+		{
+			"id": "gloverandgloverseniorwork_retirementoption",
+			"label": "在格洛弗父子公司工作",
+			"startdescription": "先把自己的手攥成合適的形狀，然後開工。",
+			"description": "我總是最晚一個走的，比老格洛弗還還晚。",
+			"slots": [
+				{
+					"id": "Acceptance",
+					"label": "接受",
+					"description": "我願意把畢生精力投入進去。"
+				}
+			]
+		},
+		{
+			"id": "gloverandgloverseniorwork",
+			"label": "在格洛弗父子公司工作",
+			"startdescription": "先把自己的手攥成合適的形狀，然後開工。",
+			"description": "我總是最晚一個走，比老格洛弗還還晚。我和小格洛弗關係不錯。他喜歡開玩笑說我以後說不定能接替他，當然了，這不可能。他父親不會允許。他開這種玩笑是為了讓我認清自己。他這麼做已經開始叫我惱火了。"
+		},
+		{
+			"id": "gloverandgloverseniorwork_hint",
+			"label": "在在格洛弗父子公司工作？",
+			"startdescription": "我的工作要求很高。我需要投入一些理性才能做。"
+		},
+		{
+			"id": "gloverandgloverseniorworkyoungerglovergone",
+			"label": "在格洛弗父子公司工作",
+			"startdescription": "先把自己的手攥成合適的形狀，然後開工。",
+			"description": "我闔上眼，數字在我眼簾下列隊飄過。我睜開眼，光線使我刺痛。",
+			"slots": [
+				{
+					"id": "Ambition",
+					"label": "野心",
+					"description": "小格洛弗留下的董事席位還是空的……"
+				}
+			]
+		},
+		{
+			"id": "gloverandgloverseniorwork_youngerglovergone_hint",
+			"label": "在在格洛弗父子公司工作？",
+			"startdescription": "我的工作要求很高。我需要投入一些理性才能完成。"
+		},
+		{
+			"id": "gloverandgloversenior_diligence_promotion",
+			"label": "升職！",
+			"startdescription": ".",
+			"description": "“我兒子”，老格洛弗說道，“是個招人疼的孩子，但確實少些志氣。而你正相反，你是胸有大志的人。我看著你就想起了我自己，你知道嗎？我這是真心話。嗯，我想我們可以安排你進董事會。”"
+		},
+		{
+			"id": "gloverandglovertopwork",
+			"label": "在格洛弗父子公司工作",
+			"slots": [
+				{
+					"id": "Scandal",
+					"label": "中傷",
+					"description": "我身居高位，這也許能再為我抵擋一陣醜聞。但這件事已經引起公司相當的重視，我可能會被解僱。"
+				}
+			],
+			"startdescription": "工作日難熬的鐘點像在我眼前排成長隊等著我一樣。我吃完午餐就回家算了……",
+			"description": "如果說哪裡是格洛弗父子公司的心臟，那便是會計部了，那裡的錢來去滾滾如春潮。而公司的肢體則是那些大氣也不敢出的行政人員和職員。但我和其他董事處於它的顱頂，（至少現下）我不必懼怕醜聞，也無需顧慮財務壓力。"
+		},
+		{
+			"id": "gloverandglovertopwork_scandal_a",
+			"label": "一次表達擔憂的談話",
+			"startdescription": ".",
+			"description": "我被叫去見老格洛弗——現在唯一的格洛弗。他在椅子上不安地扭動著。“我聽說——”他這樣開腔，又猶豫地停下，注視我的眼睛：“我不想再聽到任何關於——關於那事的話。哪怕是一個字，一個字都不要。”"
+		},
+		{
+			"id": "gloverandglovertopjob_tainted",
+			"label": "在格洛弗父子公司工作",
+			"slots": [
+				{
+					"id": "Scandal",
+					"label": "中傷",
+					"description": "我身居高位，這也許能再為我遮擋一陣醜聞。但我現在切實面臨丟掉職位的危險。"
+				}
+			],
+			"startdescription": "吃完午餐就能回家的日子已不再。同事開始懷疑我的身份。他們一點也不知道我非池中之物。",
+			"description": "我在一個位於五樓的齊整房間裡審核一列列齊整的數字。辦公室的窗外能看到河。秘書每五十九分鐘為我送來一杯熱飲。窗外的河是雨的顏色。"
+		},
+		{
+			"id": "gloverandglovertopwork_scandal_b",
+			"label": "遭到黜免！",
+			"startdescription": ".",
+			"description": "我接到一封正式（但措辭小心到怪異的）信函，由格洛弗父子公司直接送到我手中。公司不再需要我擔任董事，但給我的退職金卻相當豐厚。公司衷心希望我們不會因為此事結怨。信上的簽名有點發抖……"
+		},
+		{
+			"id": "institutephysicianwork",
+			"label": "在研究所工作",
+			"startdescription": "研究所大廳有一股潮濕黏膩的氣味揮之不散。或許是因為牆漆。也許是因為病人。又也許是因為牆裡有什麼東西。",
+			"description": "我的工作做得不錯。病人經我之手變得更安靜了。"
+		},
+		{
+			"id": "workbeg",
+			"label": "沿街乞討",
+			"startdescription": "我向路人展示我的病弱之軀，希望博得他們的同情。",
+			"description": "長日漫漫。有人撒下幾枚硬幣，大多數人扭頭躲開。長時間望著這麼多退避三舍的背影著實難熬。"
+		},
+		{
+			"id": "workbeg_lucky",
+			"label": "沿街乞討",
+			"description": "長日漫漫。有人撒下幾枚硬幣，大多數人扭頭躲開。但我碗裡多了枚索維林金幣！是有人慷慨解囊，還是失手漏下？"
+		},
+		{
+			"id": "workhealthskilld_edge",
+			"label": "做粗重活計：力大如山",
+			"startdescription": "我又一次拿一身力氣換飯吃。",
+			"description": "他們說我幹活一個頂倆。其實並非如此；我不止頂兩個。"
+		},
+		{
+			"id": "workhealthskillc",
+			"label": "做粗重活計：臂膀強韌如鋼澆",
+			"startdescription": "我又一次拿一身力氣換飯吃。",
+			"description": "人們對我的巨力議論紛紛。內容並不全是誇讚。我領了薪水便離開了。"
+		},
+		{
+			"id": "workhealthskillb",
+			"label": "做粗重活計：臂膀強韌如鐵打",
+			"startdescription": "我要少說話，快做事。我不怕受傷。",
+			"description": "其他人不怎麼和我說話，但會在我經過時點頭。我領到了薪水。"
+		},
+		{
+			"id": "workhealthskilla",
+			"label": "做粗重活計：臂膀強韌如銅鑄",
+			"startdescription": "那麼，去幹活吧。",
+			"description": "今天已經提早幹完了。我拿到了薪水。"
+		},
+		{
+			"id": "workhealth_noinjurychance",
+			"label": "做粗重活計",
+			"startdescription": "靠累斷腰的苦工換來一點微薄的薪水，我只有這點能耐了嗎？",
+			"description": "一日已畢，我也快累斃了。不過至少我對得起我拿的薪水。"
+		},
+		{
+			"id": "workhealth",
+			"label": "做粗重活計",
+			"startdescription": "靠累斷腰的苦工換來一點微薄的薪水，我只有這點能耐了嗎？",
+			"description": "一日已畢，我也快累斃了。不過至少我對得起我拿的薪水。"
+		},
+		{
+			"id": "workhealthinjury",
+			"label": "因工負傷！",
+			"startdescription": ".",
+			"description": "我受傷了！我揣著少得可憐薪水，忍痛跛著腳走回家。"
+		},
+		{
+			"id": "workinvestmentjobc",
+			"label": "處理財務事宜",
+			"startdescription": "如果我抽出精力管理我的投資，靠收益足可供我寬裕度日。",
+			"description": "一封精緻的白色信函內裝著一張精緻的白色支票，上面記有一筆相當可觀的金額。"
+		},
+		{
+			"id": "workinvestmentjobb",
+			"label": "處理財務事宜",
+			"startdescription": "如果我抽出精力管理我的投資，靠收益足可供我度日。",
+			"description": "一個端整的白色信封內裝著一張端整的白色支票，上記一筆小有魅力的金額。"
+		},
+		{
+			"id": "workinvestmentjoba",
+			"label": "處理財務事宜",
+			"startdescription": "如果我抽出精力管理我的投資，靠收益可供我勉強度日。",
+			"description": "一封精緻的白色信函內裝著一張精緻的白色支票，上面記有一筆略顯寒酸的金額。"
+		},
+		{
+			"id": "investmentsjobdecline",
+			"label": "行情惡化",
+			"startdescription": ".",
+			"description": "我收到了例行的支票，但這次還附帶人不安的消息。我的投資損失不菲——或許因我運氣不佳；又或許存在另外一種可能，有敵人從中作梗。"
+		}
+	]
 }

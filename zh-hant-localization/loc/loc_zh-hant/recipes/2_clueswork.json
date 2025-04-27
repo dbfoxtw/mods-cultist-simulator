@@ -1,1288 +1,428 @@
 {
-    "recipes": [
-        {
-            "id": "work.apostleforge.majorvictory.hint5",
-            "actionId": "work",
-            "label": "大功業最後的組成部分？",
-            "startdescription": "我們擁有核心及其燃料、羅盤、鑰匙和開啟之秘。現在我們只需等待鑄爐熾烈至極的時節。",
-            "requirements": {
-                "apostleforge.pillar2": 1,
-                "apostleforge.pillar3": 1,
-                "apostleforge.pillar4": 1,
-                "apostleforge.pillar5": 1,
-                "fragmentknockg": 1
-            },
-            "effects": {},
-            "warmup": 60,
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "work.apostleforge.majorvictory.hint4",
-            "actionId": "work",
-            "label": "大功業最後的組成部分？",
-            "startdescription": "我們擁有核心及其燃料、羅盤和鑰匙。但哪怕有這些也不夠。我們現在必須使用開啟之秘來鋪平我們塑形者要走的路。",
-            "requirements": {
-                "apostleforge.pillar2": 1,
-                "apostleforge.pillar3": 1,
-                "apostleforge.pillar4": 1,
-                "apostleforge.pillar5": 1
-            },
-            "effects": {},
-            "warmup": 60,
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "work.apostleforge.majorvictory.hint3",
-            "actionId": "work",
-            "label": "大功業最後的組成部分？",
-            "startdescription": "我們擁有核心及其燃料，和羅盤。我們仍然需要咬噬之鑰。",
-            "requirements": {
-                "apostleforge.pillar2": 1,
-                "apostleforge.pillar3": 1,
-                "apostleforge.pillar4": 1
-            },
-            "effects": {},
-            "warmup": 60,
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "work.apostleforge.majorvictory.hint2",
-            "actionId": "work",
-            "label": "大功業最後的組成部分？",
-            "startdescription": "我們擁有核心及其燃料。我們仍需要用我們已盲的羅盤來尋找世界的破綻。",
-            "requirements": {
-                "apostleforge.pillar2": 1,
-                "apostleforge.pillar3": 1
-            },
-            "effects": {},
-            "warmup": 60,
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "work.apostleforge.majorvictory.hint1",
-            "actionId": "work",
-            "label": "大功業最後的組成部分？",
-            "startdescription": "我們擁有核心：我們必須要有為其供源的藍金。",
-            "requirements": {
-                "apostleforge.pillar2": 1
-            },
-            "effects": {},
-            "warmup": 60,
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "work.apostlelantern.majorvictory.hint5",
-            "actionId": "work",
-            "label": "向外敞開的門？",
-            "startdescription": "我們需要與我們的貴賓合作。",
-            "requirements": {
-                "apostlelantern.pillar3": 1,
-                "apostlelantern.pillar4": 1,
-                "ingredientlanternf": 1,
-                "fragmentmothe": 1,
-                "toollanternf": 1,
-                "kleidouchos": 1
-            },
-            "hintonly": true
-        },
-        {
-            "id": "work.apostlelantern.majorvictory.hint4",
-            "actionId": "work",
-            "label": "向外敞開的門？",
-            "startdescription": "沒有那把不受管束的鑰匙，門不會“向外”打開。",
-            "requirements": {
-                "apostlelantern.pillar3": 1,
-                "apostlelantern.pillar4": 1,
-                "ingredientlanternf": 1,
-                "fragmentmothe": 1,
-                "toollanternf": 1
-            },
-            "hintonly": true
-        },
-        {
-            "id": "work.apostlelantern.majorvictory.hint3",
-            "actionId": "work",
-            "label": "向外敞開的門？",
-            "startdescription": "我們需要一面守夜人之鏡，讓我們的沐光明者扮演最耀眼的光明。",
-            "requirements": {
-                "apostlelantern.pillar3": 1,
-                "apostlelantern.pillar4": 1,
-                "ingredientlanternf": 1,
-                "fragmentmothe": 1
-            },
-            "hintonly": true
-        },
-        {
-            "id": "work.apostlelantern.majorvictory.hint2",
-            "actionId": "work",
-            "label": "向外敞開的門？",
-            "startdescription": "蜈蚣永遠知道路往何方。我們需要她的秘密。",
-            "requirements": {
-                "apostlelantern.pillar3": 1,
-                "apostlelantern.pillar4": 1,
-                "ingredientlanternf": 1
-            },
-            "hintonly": true
-        },
-        {
-            "id": "work.apostlelantern.majorvictory.hint1",
-            "actionId": "work",
-            "label": "向外敞開的門？",
-            "startdescription": "守夜人之眼被打開了，不是以平常的方式，而是用刀。我們需要它流出的液體。",
-            "requirements": {
-                "apostlelantern.pillar3": 1,
-                "apostlelantern.pillar4": 1
-            },
-            "hintonly": true
-        },
-        {
-            "id": "work.apostlelantern.majorvictory.hint0",
-            "actionId": "work",
-            "label": "向外敞開的門？",
-            "startdescription": "當然，門沒有見證者或許也能打開，但是離了行將受沐光明的見證者，我們又怎能成功扮演守夜人？守夜人沒有憐憫。",
-            "requirements": {
-                "apostlelantern.pillar3": 1
-            },
-            "hintonly": true
-        },
-        {
-            "id": "work.apostlegrail.majorvictory.hint5",
-            "actionId": "work",
-            "label": "謝肉祭所需的最後環節？",
-            "startdescription": "特別的香料需要特別的處理。除此之外，萬事俱備。",
-            "requirements": {
-                "fragmentheartg": 1,
-                "influencegrailg": 1,
-                "apostlegrail.pillar2": 1,
-                "apostlegrail.pillar3": 1,
-                "apostlegrail.pillar4": 1,
-                "toolgrailf": 1
-            },
-            "hintonly": true
-        },
-        {
-            "id": "work.apostlegrail.majorvictory.hint4",
-            "actionId": "work",
-            "label": "謝肉祭所需的最後環節？",
-            "startdescription": "離了不休之秘，“謝肉祭”達不到我們想要的烈度。",
-            "requirements": {
-                "influencegrailg": 1,
-                "apostlegrail.pillar2": 1,
-                "apostlegrail.pillar3": 1,
-                "apostlegrail.pillar4": 1,
-                "toolgrailf": 1
-            },
-            "hintonly": true
-        },
-        {
-            "id": "work.apostlegrail.majorvictory.hint3",
-            "actionId": "work",
-            "label": "謝肉祭所需的最後環節？",
-            "startdescription": "我們需要我們所能找到的最有力的<b>杯</b>之影響。",
-            "requirements": {
-                "apostlegrail.pillar2": 1,
-                "apostlegrail.pillar3": 1,
-                "apostlegrail.pillar4": 1,
-                "toolgrailf": 1
-            },
-            "hintonly": true
-        },
-        {
-            "id": "work.apostlegrail.majorvictory.hint2",
-            "actionId": "work",
-            "label": "謝肉祭所需的最後環節？",
-            "startdescription": "離了低語之觚的謝肉祭不能稱之為謝肉祭。",
-            "requirements": {
-                "apostlegrail.pillar2": 1,
-                "apostlegrail.pillar3": 1,
-                "apostlegrail.pillar4": 1
-            },
-            "hintonly": true
-        },
-        {
-            "id": "work.apostlegrail.majorvictory.hint1",
-            "actionId": "work",
-            "label": "謝肉祭所需的最後環節？",
-            "startdescription": "沒有足夠的賓客，我們不能開始“謝肉祭”。不能讓我們的愉悅者飢餓。",
-            "requirements": {
-                "apostlegrail.pillar2": 1,
-                "apostlegrail.pillar3": 1
-            },
-            "hintonly": true
-        },
-        {
-            "id": "work.apostlegrail.majorvictory.hint0",
-            "actionId": "work",
-            "label": "謝肉祭所需的最後環節？",
-            "startdescription": "沒有正確的調味，我們不能開始“謝肉祭”，為我，也為了其他宴主。",
-            "requirements": {
-                "apostlegrail.pillar2": 1
-            },
-            "hintonly": true
-        },
-        {
-            "id": "workbenefactorhint",
-            "label": "私下演出？",
-            "actionId": "work",
-            "requirements": {
-                "benefactor": 1
-            },
-            "startdescription": "為了滿足我的金主，我需要發揮一身本領，並把自己打扮的光鮮體面。光鮮總是要付出代價的。",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "workfundshint",
-            "label": "錢",
-            "actionId": "work",
-            "requirements": {
-                "funds": 1
-            },
-            "startdescription": "沒起什麼作用。但或許在未來，我還能找到別的投資門路。如果我還有未來的話。",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "skillhealthhintwork",
-            "label": "健康",
-            "actionId": "work",
-            "requirements": {
-                "healthskill": 1,
-                "job": -1
-            },
-            "startdescription": "我變得強壯了，但我仍然需要把我的健康獻給日常工作。",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "vitalityhintwork",
-            "label": "活力",
-            "actionId": "work",
-            "requirements": {
-                "vitality": 1
-            },
-            "startdescription": "無關工作，但研究它能增進我的健康。",
-            "craftable": false,
-            "hintonly": true,
-            "comments": "Not currently possible with restrictions on work primary slot"
-        },
-        {
-            "id": "eruditionhintwork",
-            "label": "博聞",
-            "actionId": "work",
-            "requirements": {
-                "erudition": 1
-            },
-            "startdescription": "無關工作，但研究它能增進我的理性。",
-            "craftable": false,
-            "hintonly": true,
-            "comments": "Not currently possible with restrictions on work primary slot"
-        },
-        {
-            "id": "glimmeringhintwork",
-            "label": "靈感",
-            "actionId": "work",
-            "requirements": {
-                "glimmering": 1
-            },
-            "startdescription": "無關工作，但研究它能增進我的激情。",
-            "craftable": false,
-            "hintonly": true,
-            "comments": "Not currently possible with restrictions on work primary slot"
-        },
-        {
-            "id": "contentmenthintwork",
-            "label": "安逸",
-            "actionId": "work",
-            "requirements": {
-                "contentment": 1
-            },
-            "startdescription": "快樂不能當飯吃。但是當被夜幕籠罩時，我唯一能倚仗的也只有快樂了。",
-            "craftable": false,
-            "hintonly": true,
-            "comments": "Not currently possible with restrictions on work primary slot"
-        },
-        {
-            "id": "commissionhint_wronglore",
-            "label": "履行委託",
-            "actionId": "work",
-            "requirements": {
-                "commission": 1,
-                "lore": 1
-            },
-            "startdescription": "我需要合適的密傳，我還需要將我的能力投入到工作上。[委託下方的描述會提示需要什麼“密傳”。]",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "commissionhint",
-            "label": "履行委託？",
-            "actionId": "work",
-            "requirements": {
-                "commission": 1
-            },
-            "startdescription": "如果我用合適的密傳片段<b>作業</b>，我就能撰寫所需的手稿。委託完成後，我還需與我的贊助人談話。",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "minorforgevictory_hint_sixth",
-            "label": "第七印記？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "powermarks": 6
-            },
-            "effects": {},
-            "startdescription": "第七印記乃烈火焚心。我已經如此接近，猶如燭火近於燭蠟。我需要所有我能找來的<b>鑄</b>之力，至少強達三十六階。",
-            "hintonly": true
-        },
-        {
-            "id": "minorforgevictory_hint",
-            "label": "第七印記？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "powermarks": 1
-            },
-            "effects": {},
-            "startdescription": "第七印記乃烈火焚心。我首先需要達成第六印記。",
-            "hintonly": true
-        },
-        {
-            "id": "minorgrailvictory_hint_sixth_with_romantic",
-            "label": "一條達成第七印記的捷徑？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "sensationmarks": 6,
-                "romanticinterest": 1
-            },
-            "effects": {},
-            "startdescription": "第七印記乃是真正生誕之宴。我已經如此接近，猶如血液近於心房。我需要更多……但赤杯曾獻祭過她愛的人，那些獻祭為她所珍視。如果我願意犧牲一名情人，我便只需要強答二十七階的法力。",
-            "hintonly": true
-        },
-        {
-            "id": "minorgrailvictory_hint_sixth",
-            "label": "第七印記？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "sensationmarks": 6
-            },
-            "effects": {},
-            "startdescription": "第七印記乃是真正生誕之宴。我已經如此接近，猶如血液近於心房。我需要所有我能找來的<b>杯</b>之力，至少強達三十六階。",
-            "hintonly": true
-        },
-        {
-            "id": "minorgrailvictory_hint",
-            "label": "第七印記？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "sensationmarks": 1
-            },
-            "effects": {},
-            "startdescription": "第七印記乃是真正生誕之宴。我首先需要達成第六印記。",
-            "hintonly": true
-        },
-        {
-            "id": "minorlanternvictory_hint_sixth",
-            "label": "第七印記？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "enlightenmentmarks": 6
-            },
-            "effects": {},
-            "startdescription": "第七印記乃是神侵。我已經如此接近，猶如光線近於影子邊緣。我需要所有我能找來的<b>燈</b>之力，至少強達三十六階。",
-            "hintonly": true
-        },
-        {
-            "id": "minorlanternvictory_hint",
-            "label": "第七印記？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "enlightenmentmarks": 1
-            },
-            "effects": {},
-            "startdescription": "第七印記乃是神侵。我首先需要達成第六印記。",
-            "hintonly": true
-        },
-        {
-            "id": "hint_summon_spirit_forgee_edge",
-            "label": "召喚源自白日鑄爐的強大生物？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": 2,
-                "forge": 1,
-                "lantern": 1,
-                "desire": -1
-            },
-            "extantreqs": {
-                "spirit_forgee_edge": -1,
-                "spirit_forgee_edge.defunct": -1,
-                "spirit_forgee_edge.consumed": -1
-            },
-            "startdescription": "我發現了一種有效的性相組合，但我還需要更多。為了召喚轄主火與輝光的生物，我需要大量的<b>鑄</b>之力，相當的<b>啟</b>之力，和一些<b>燈</b>。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "hint_summon_spirit_forgee_edge_exists",
-            "label": "再次召喚坩堝王？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": 2,
-                "forge": 1,
-                "lantern": 1,
-                "desire": -1
-            },
-            "extantreqs": {
-                "spirit_forgee_edge": 1
-            },
-            "startdescription": "我要考慮召喚坩堝王嗎？坩堝王已經存在於這個世界了。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "hint_summon_spirit_forgee_edge_dayd",
-            "label": "還要召喚坩堝王？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": 2,
-                "forge": 1,
-                "lantern": 1,
-                "desire": -1
-            },
-            "extantreqs": {
-                "spirit_forgee_edge.defunct": 1
-            },
-            "startdescription": "我要考慮召喚坩堝王嗎？他仍在漫宿裡把火燒旺。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "hint_summon_spirit_forgee_edge_nom",
-            "label": "真的要召喚坩堝王？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": 2,
-                "forge": 1,
-                "lantern": 1,
-                "desire": -1
-            },
-            "extantreqs": {
-                "spirit_forgee_edge.consumed": 1
-            },
-            "startdescription": "我食用了坩堝王那化為爐渣的遺體。他會生我的氣。不能召喚對你生氣的鑄之具名者。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "hint_summon_spirit_graile_edge",
-            "label": "召喚源自赤杯的強大生物？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": 2,
-                "grail": 1,
-                "forge": 1,
-                "desire": -1
-            },
-            "extantreqs": {
-                "spirit_graile_edge": -1,
-                "spirit_graile_edge.defunct": -1
-            },
-            "startdescription": "我發現了一種有效的性相組合，但我還需要更多力。為了召喚轄管血與改變的生物，我需要大量的<b>杯</b>之力，相當的<b>啟</b>之力，和一些<b>鑄</b>。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "hint_summon_spirit_graile_edge_exists",
-            "label": "再次召喚伊澤姆？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": 2,
-                "grail": 1,
-                "forge": 1,
-                "desire": -1
-            },
-            "extantreqs": {
-                "spirit_graile_edge": 1
-            },
-            "startdescription": "我要考慮召喚伊澤姆嗎？伊澤姆已經存在於這個世界了。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "hint_summon_spirit_graile_edge_dayd",
-            "label": "還要召喚伊澤姆？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": 2,
-                "grail": 1,
-                "forge": 1,
-                "desire": -1
-            },
-            "extantreqs": {
-                "spirit_graile_edge.defunct": 1
-            },
-            "startdescription": "我要考慮召喚伊澤姆嗎？伊澤姆還在漫宿生悶氣。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "hint_summon_spirit_lanterne_secret",
-            "label": "召喚不尋常之物？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": 2,
-                "lantern": 1,
-                "secrethistories": 1,
-                "desire": -1
-            },
-            "extantreqs": {
-                "spirit_lanterne_secret": -1,
-                "spirit_lanterne_secret.defunct": -1
-            },
-            "startdescription": "我發現了一種有效的性相組合，但我還需要更多法力。用足量的<b>燈</b>，相當程度的<b>啟</b>和一絲撩人的秘密，也許我能召喚出什麼有趣的東西。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "hint_summon_spirit_lanterne_secret_exists",
-            "label": "再次召喚巴爾多梅人？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": 2,
-                "lantern": 1,
-                "secrethistories": 1,
-                "desire": -1
-            },
-            "extantreqs": {
-                "spirit_lanterne_secret": 1
-            },
-            "startdescription": "我要考慮召喚巴爾多梅人嗎？她已經存在於這個世界了。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "hint_summon_spirit_lanterne_secret_dayd",
-            "label": "還要召喚巴爾多梅人？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": 2,
-                "lantern": 1,
-                "secrethistories": 1,
-                "desire": -1
-            },
-            "extantreqs": {
-                "spirit_lanterne_secret.defunct": 1
-            },
-            "startdescription": "我要考慮召喚巴爾多梅人嗎？她還在漫宿裡休息。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "hint_summon_spirit_forgec_winter",
-            "label": "召喚源自白日鑄爐的生物？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": 2,
-                "forge": 1,
-                "winter": 1,
-                "desire": -1
-            },
-            "startdescription": "我發現了一種有效的性相組合，但我還需要更多法力。為了喚起這個冒煙的，頑皮的存在，我需要相當的<b>鑄</b>之力，還有少量的<b>冬</b>與<b>啟</b>。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "hint_summon_spirit_grailc_moth",
-            "label": "召喚源自赤杯的生物？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": 2,
-                "grail": 1,
-                "moth": 1,
-                "desire": -1
-            },
-            "startdescription": "我發現了一種有效的性相組合，但我還需要更多法力。為了喚起這既怪誕卻又深情的存在，我需要相當強度的<b>杯</b>與少許<b>蛾</b>和<b>啟</b>。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "hint_summon_spirit_lanternc_edge",
-            "label": "召喚鏡子背後之物？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": 2,
-                "lantern": 1,
-                "edge": 1,
-                "desire": -1
-            },
-            "startdescription": "我發現了一種有效的性相組合，但我還需要更多法力。為了喚起這微妙、脆弱而又兇殘的生物，我需要的高強度的<b>燈</b>與些許<b>啟</b>和<b>刃</b>。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "hint_summon_spirit_heartc_edge",
-            "label": "召喚源自轟雷之皮的生物？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": 2,
-                "heart": 1,
-                "edge": 1,
-                "desire": -1
-            },
-            "startdescription": "我發現了一種有效的性相組合，但我還需要更多法力。為了喚起這快活、永無休止且殘忍無情的生物，我需要相當強度的<b>心</b>與少許<b>啟</b>和<b>刃</b>。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "hint_summon_spirit_winterd_edge",
-            "label": "召喚源自殘陽的生物",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": 2,
-                "winter": 1,
-                "edge": 1,
-                "desire": -1
-            },
-            "startdescription": "我發現了一種有效的性相組合，但我還需要更多法力。為了喚起這冷冽而閃亮的生物，我需要相當高強度的<b>冬</b>與少許<b>啟</b>和<b>刃</b>。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "hint_summon_spirit_winterb_heart",
-            "label": "召喚亡者大群的一員？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": 2,
-                "winter": 1,
-                "heart": 1,
-                "desire": -1
-            },
-            "startdescription": "我發現了一種有效的性相組合，但我還需要更多法力。為了喚起這悲慘的，不能發聲的生物，我需要的至少強達四級的<b>冬</b>與少許<b>啟</b>和<b>心</b>。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "hint_renew_spirit_wintera_edge",
-            "label": "靠傷疤測繪師的神力修復破碎行屍？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "spirit_wintera_edge": 1,
-                "desire": -1
-            },
-            "startdescription": "對於破碎行屍，維持比喚醒更難。但以足夠的<b>冬</b>相和足夠的<b>刃</b>，我也許能讓我的破碎行屍一直保持行動。又或者，我可以用它召喚更強大的靈體。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "hint_renew_spirit_wintera_moth",
-            "label": "靠環杉的力量修復抽芽行屍？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "spirit_wintera_moth": 1,
-                "desire": -1
-            },
-            "startdescription": "抽芽行屍能維持的時間不長。但以足夠的<b>冬</b>相和足夠的<b>蛾</b>，我也許能讓我的作品維持穩定稍長一點時間。又或者，我可以用它召喚更強大的靈體。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "hint_summon_spirit_wintera_edge",
-            "label": "為屍體注入傷疤測繪師的力量？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "winter": 1,
-                "edge": 1,
-                "desire": -1
-            },
-            "startdescription": "我發現了一種有效的性相組合，但我還需要更多法力。用一些<b>冬</b>性相，少許<b>刃</b>與一具屍體，我也許能創造一名殘暴的僕從。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "hint_summon_spirit_wintera_moth",
-            "label": "為屍體注入環杉的力量？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "winter": 1,
-                "moth": 1,
-                "desire": -1
-            },
-            "startdescription": "用一些<b>冬</b>相，少許<b>蛾</b>和一具屍體，我也許能創造一名狡詐的僕從。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "work.openscar.hint",
-            "actionId": "work",
-            "label": "門關飛升？",
-            "startdescription": "門關飛升需要七道傷疤鎖和強達二十四級的<b>啟</b>相。",
-            "requirements": {
-                "ritual": 1,
-                "lockscar": 1,
-                "knock": 1
-            },
-            "effects": {},
-            "warmup": 60,
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "ritehinthasknockedge",
-            "label": "召喚某些生物？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": 2,
-                "edge": 1,
-                "forge": -1,
-                "heart": -1,
-                "grail": -1,
-                "lantern": -1,
-                "moth": -1,
-                "secrethistories": -1,
-                "winter": -1
-            },
-            "startdescription": "存在多種可能，依我添加的是<b>燈</b>，是<b>心</b>，或是<b>冬</b>而不同。",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "ritehinthasknockforge",
-            "label": "召喚某些生物？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": 2,
-                "forge": 1,
-                "edge": -1,
-                "heart": -1,
-                "grail": -1,
-                "lantern": -1,
-                "moth": -1,
-                "secrethistories": -1,
-                "winter": -1
-            },
-            "startdescription": "存在多種可能。如果我添加<b>冬</b>，我也許能遇上某種冒煙之物。如果我添加<b>燈</b>，我也許能遇上某種熾熱的力量。",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "ritehinthasknockgrail",
-            "label": "召喚某些生物？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": 2,
-                "grail": 1,
-                "edge": -1,
-                "forge": -1,
-                "heart": -1,
-                "lantern": -1,
-                "moth": -1,
-                "secrethistories": -1,
-                "winter": -1
-            },
-            "startdescription": "存在多種可能。如果我添加<b>蛾</b>，我也許能遇上某種無形之物。如果我添加<b>鑄</b>，我也許能遇上某種誘惑的、野蠻的力量。",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "ritehinthasknockheart",
-            "label": "召喚某些生物？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": 2,
-                "heart": 1,
-                "edge": -1,
-                "forge": -1,
-                "grail": -1,
-                "lantern": -1,
-                "moth": -1,
-                "secrethistories": -1,
-                "winter": -1
-            },
-            "startdescription": "存在多種可能。如果我添加<b>刃</b>，我也許能遇上某種無法壓制之物。如果我添加<b>冬</b>，我也許能喚醒亡者的一員。",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "ritehinthasknocklantern",
-            "label": "召喚某些生物？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": 2,
-                "lantern": 1,
-                "edge": -1,
-                "forge": -1,
-                "heart": -1,
-                "grail": -1,
-                "moth": -1,
-                "secrethistories": -1,
-                "winter": -1
-            },
-            "startdescription": "存在多種可能。如果我添加<b>刃</b>，我也許能從鏡子背後帶出什麼。如果我添加<b>鑄</b>，我也許能遇上某種熾熱之物。",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "ritehinthasknockmoth",
-            "label": "召喚某些生物？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": 2,
-                "moth": 1,
-                "edge": -1,
-                "forge": -1,
-                "heart": -1,
-                "grail": -1,
-                "lantern": -1,
-                "secrethistories": -1,
-                "winter": -1
-            },
-            "startdescription": "存在多種可能。如果我添加<b>鑄</b>，我也許遇上某種無形之物。",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "ritehinthasknocksecrethistories",
-            "label": "召喚某些生物？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": 2,
-                "secrethistories": 1,
-                "edge": -1,
-                "forge": -1,
-                "heart": -1,
-                "grail": -1,
-                "lantern": -1,
-                "moth": -1,
-                "winter": -1
-            },
-            "startdescription": "存在多種可能。如果我添加足夠的<b>燈</b>，天知道能引來什麼？",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "ritehinthasknockwinter",
-            "label": "冬",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": 2,
-                "winter": 1,
-                "edge": -1,
-                "forge": -1,
-                "heart": -1,
-                "grail": -1,
-                "lantern": -1,
-                "moth": -1,
-                "secrethistories": -1
-            },
-            "startdescription": "存在多種可能。依我添加的是<b>刃</b>，是<b>心</b>，或是<b>鑄</b>而不同。",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "label": "理性的輝光？",
-            "id": "arcane_lantern_edge_hint",
-            "requirements": {
-                "ritual": 1,
-                "knock": -1,
-                "desire": -1,
-                "lantern": 1,
-                "edge": 1
-            },
-            "actionId": "work",
-            "startdescription": "以至少5點<b>燈</b>和1點<b>刃</b>，我能用名為“理性的輝光”的神秘法則將我的激情轉化為理性。",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "label": "激情的漩渦？",
-            "id": "arcane_moth_edge_hint",
-            "requirements": {
-                "ritual": 1,
-                "knock": -1,
-                "desire": -1,
-                "moth": 1,
-                "edge": 1
-            },
-            "actionId": "work",
-            "startdescription": "以至少5點<b>蛾</b>和1點<b>刃</b>，我能用名為“激情的漩渦”的法悅修煉將我的理性轉化為激情。",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "label": "鑄爐的赦罪？",
-            "id": "arcane_forge_grail_hint",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": -1,
-                "desire": -1,
-                "forge": 1,
-                "grail": 1
-            },
-            "startdescription": "以至少5點<b>鑄</b>和1點<b>杯</b>，我能用通稱“鑄爐的赦罪”的禁斷法術將我的理性轉化為激情。",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "label": "結尾悽美？",
-            "id": "arcane_winter_lantern_hint",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": -1,
-                "desire": -1,
-                "winter": 1,
-                "lantern": 1
-            },
-            "startdescription": "以至少5點<b>冬</b>和1點<b>燈</b>，我能請求結尾之司辰——殘陽，來摧毀一個人——但不是特定的某人。人選由殘陽獨斷。",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "ritehinthasedge",
-            "label": "召喚某些生物？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": -1,
-                "edge": 1,
-                "forge": -1,
-                "heart": -1,
-                "grail": -1,
-                "lantern": -1,
-                "moth": -1,
-                "secrethistories": -1,
-                "winter": -1
-            },
-            "startdescription": "<b>刃</b>是戰鬥與抗爭的性相。如果我添加<b>啟</b>，我也許能試著召喚什麼。如果我添加<b>燈</b>或<b>蛾</b>，我也許能在我的靈魂中發起一場戰鬥。",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "ritehinthasforge",
-            "label": "召喚某些生物？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": -1,
-                "forge": 1,
-                "edge": -1,
-                "heart": -1,
-                "grail": -1,
-                "lantern": -1,
-                "moth": -1,
-                "secrethistories": -1,
-                "winter": -1
-            },
-            "startdescription": "<b>鑄</b>是轉換與毀滅的性相。如果我添加<b>啟</b>，我也許能試著召喚什麼。如果我陷入衰老，那麼添加<b>杯</b>也許能修復我的身體。",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "ritehinthasgrail",
-            "label": "召喚某些生物？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": -1,
-                "grail": 1,
-                "edge": -1,
-                "forge": -1,
-                "heart": -1,
-                "lantern": -1,
-                "moth": -1,
-                "secrethistories": -1,
-                "winter": -1
-            },
-            "startdescription": "<b>杯</b>是食慾、血與生育的性相。如果我添加<b>啟</b>，我也許能試著召喚什麼。如果我陷入衰老，那麼添加<b>鑄</b>也許能修復我的身體。",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "ritehinthasheart",
-            "label": "召喚某些生物？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": -1,
-                "heart": 1,
-                "edge": -1,
-                "forge": -1,
-                "grail": -1,
-                "lantern": -1,
-                "moth": -1,
-                "secrethistories": -1,
-                "winter": -1
-            },
-            "startdescription": "<b>心</b>是存續的性相，也是運動無休的性相。如果我添加<b>啟</b>，我也許能試著召喚什麼。",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "ritehinthasknock",
-            "label": "召喚某些生物？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": 2,
-                "edge": -1,
-                "forge": -1,
-                "heart": -1,
-                "grail": -1,
-                "lantern": -1,
-                "moth": -1,
-                "secrethistories": -1,
-                "winter": 1
-            },
-            "startdescription": "召喚首先需要用到<b>啟</b>，但通常還需要其他兩種性相。如果不使用<b>啟</b>，我也許能找到除召喚之外的密教之儀。",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "ritehinthasmicroknock",
-            "label": "召喚某些生物？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": 1,
-                "edge": -1,
-                "forge": -1,
-                "heart": -1,
-                "grail": -1,
-                "lantern": -1,
-                "moth": -1,
-                "secrethistories": -1,
-                "winter": 1
-            },
-            "startdescription": "召喚首先需要用到<b>啟</b>，但我還需要再加大少許<b>啟</b>的用量。",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "ritehinthaslantern",
-            "label": "召喚某些生物？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": -1,
-                "lantern": 1,
-                "edge": -1,
-                "forge": -1,
-                "heart": -1,
-                "grail": -1,
-                "moth": -1,
-                "secrethistories": -1,
-                "winter": -1,
-                "apostlelantern.pillar4": -1
-            },
-            "comments": "extremely specific and probably unnecessary exclusion with the pillar, but it caught one person once",
-            "startdescription": "<b>燈</b>是有“太陽之居屋”之稱的隱秘場所與其上光芒的準則。如果我添加<b>啟</b>，我也許能試著召喚什麼。如果我添加<b>刃</b>，我能努力用我的理性征服激情。如果我添加<b>冬</b>，我也許能嘗試一種愚蠢而美麗的魔法。",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "ritehinthasmoth",
-            "label": "召喚某些生物？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": -1,
-                "moth": 1,
-                "edge": -1,
-                "forge": -1,
-                "heart": -1,
-                "grail": -1,
-                "lantern": -1,
-                "secrethistories": -1,
-                "winter": -1
-            },
-            "startdescription": "<b>蛾</b>，狂野又凶險，是混沌與渴慕的性相。如果我添加<b>啟</b>，我也許能試著召喚什麼。如果我添加<b>刃</b>，我能努力用我的激情淹沒理性。",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "ritehinthassecrethistories",
-            "label": "召喚某些生物？",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": -1,
-                "secrethistories": 1,
-                "edge": -1,
-                "forge": -1,
-                "heart": -1,
-                "grail": -1,
-                "lantern": -1,
-                "moth": -1,
-                "winter": -1
-            },
-            "startdescription": "<b>秘史</b>描繪了世界不為人知的千頭萬緒及它的重重過往。無形之術通常不會直接用到秘史。但如果我添加<b>啟</b>，說不定會有什麼作用呢？",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "ritehinthaswinter",
-            "label": "冬",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "knock": -1,
-                "winter": 1,
-                "edge": -1,
-                "forge": -1,
-                "heart": -1,
-                "grail": -1,
-                "lantern": -1,
-                "moth": -1,
-                "secrethistories": -1
-            },
-            "startdescription": "<b>冬</b>是靜默、結尾和不盡然逝去之物的性相。如果我添加啟，我也許能試著召喚什麼。如果我加入<b>燈</b>，我也許能嘗試一種愚蠢而美麗的魔法。",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "ritehint",
-            "label": "儀式",
-            "actionId": "work",
-            "requirements": {
-                "ritual": 1,
-                "lore": -1,
-                "ingredient": -1,
-                "influence": -1,
-                "follower": -1,
-                "tool": -1,
-                "desire": -1
-            },
-            "startdescription": "每個儀式都能派上各種用處。為了召喚，我需要從呼喚<b>啟</b>之力量來開始開闢道路。",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "ascensionpower_upgradetoobsession_hint",
-            "label": "還不夠，還沒到。",
-            "actionId": "work",
-            "requirements": {
-                "ascensionpowerb": 1,
-                "waystag_after": 1,
-                "forge": 1
-            },
-            "startdescription": "還不夠。白日鑄爐在她覺得我值得關注前不會理睬我。我需要至少強達六級的<b>鑄</b>之力量。",
-            "description": ".",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "ascensionsensation_upgradetoobsession_hint_m",
-            "label": "還不夠，還沒到。",
-            "actionId": "work",
-            "requirements": {
-                "ascensionsensationbm": 1,
-                "waystag_after": 1,
-                "grail": 1
-            },
-            "startdescription": "還不夠。赤杯在她覺得我值得關注前不會理睬我。我需要至少強達六級的<b>杯</b>之力量。",
-            "description": ".",
-            "hintonly": true
-        },
-        {
-            "id": "ascensionsensation_upgradetoobsession_hint_f",
-            "label": "還不夠，還沒到。",
-            "actionId": "work",
-            "requirements": {
-                "ascensionsensationbf": 1,
-                "waystag_after": 1,
-                "grail": 1
-            },
-            "startdescription": "還不夠。赤杯在她覺得我值得關注前不會理睬我。我需要至少強達六級的<b>杯</b>之力量。",
-            "description": ".",
-            "hintonly": true
-        },
-        {
-            "id": "ascensionenlightenment_upgradetoobsession_hint",
-            "label": "還不夠，還沒到。",
-            "actionId": "work",
-            "requirements": {
-                "ascensionenlightenmentb": 1,
-                "waystag_after": 1,
-                "lantern": 1
-            },
-            "startdescription": "還不夠。守夜人在他覺得我值得關注前不會理睬我。我需要至少強達六級的<b>燈</b>之力量。",
-            "description": ".",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "work.temptation.remembrance.hint",
-            "actionId": "work",
-            "label": "失落的色彩？",
-            "startdescription": "我如饑似渴地想要了解已失去者。而了解之路上又橫阻著另一種飢渴。這裡有一個我須得去學習的秘密。",
-            "requirements": {
-                "temptation.remembrance": 1
-            },
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "detectivework_plotitem_burning_hint",
-            "actionId": "work",
-            "label": "再想想？",
-            "startdescription": "我的決定是對的。可是……[你還有時間趕在在這份文件徹底毀掉前研究它。]",
-            "requirements": {
-                "legacydetective_plotitem_burning": 1
-            },
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "work.generaldesire.hint",
-            "actionId": "work",
-            "label": "大功業？",
-            "startdescription": "<b>欲望</b>的最終實現常常通向結局。光是去希望是不夠的。對於我的事業，我要嘛堅持，要嘛落敗。[<b>欲望<b>常常是贏得遊戲的常用手段。實現對<b>感官</b>，對<b>力量</b>或對<b>啟明</b>的欲望需要一場盛大的儀式。世間還存在其他更稀有的欲望，尤其是在食屍鬼，教士和舞者擴展包中。]",
-            "requirements": {
-                "desire": 1
-            },
-            "hintonly": true,
-            "craftable": false
-        }
-    ]
+	"recipes": [
+		{
+			"id": "work.apostleforge.majorvictory.hint5",
+			"label": "大功業最後的組成部分？",
+			"startdescription": "我們擁有核心及其燃料、羅盤、鑰匙和開啟之秘。現在我們只需等待鑄爐熾烈至極的時節。"
+		},
+		{
+			"id": "work.apostleforge.majorvictory.hint4",
+			"label": "大功業最後的組成部分？",
+			"startdescription": "我們擁有核心及其燃料、羅盤和鑰匙。但哪怕有這些也不夠。我們現在必須使用開啟之秘來鋪平我們塑形者要走的路。"
+		},
+		{
+			"id": "work.apostleforge.majorvictory.hint3",
+			"label": "大功業最後的組成部分？",
+			"startdescription": "我們擁有核心及其燃料，和羅盤。我們仍然需要咬噬之鑰。"
+		},
+		{
+			"id": "work.apostleforge.majorvictory.hint2",
+			"label": "大功業最後的組成部分？",
+			"startdescription": "我們擁有核心及其燃料。我們仍需要用我們已盲的羅盤來尋找世界的破綻。"
+		},
+		{
+			"id": "work.apostleforge.majorvictory.hint1",
+			"label": "大功業最後的組成部分？",
+			"startdescription": "我們擁有核心：我們必須要有為其供源的藍金。"
+		},
+		{
+			"id": "work.apostlelantern.majorvictory.hint5",
+			"label": "向外敞開的門？",
+			"startdescription": "我們需要與我們的貴賓合作。"
+		},
+		{
+			"id": "work.apostlelantern.majorvictory.hint4",
+			"label": "向外敞開的門？",
+			"startdescription": "沒有那把不受管束的鑰匙，門不會“向外”打開。"
+		},
+		{
+			"id": "work.apostlelantern.majorvictory.hint3",
+			"label": "向外敞開的門？",
+			"startdescription": "我們需要一面守夜人之鏡，讓我們的沐光明者扮演最耀眼的光明。"
+		},
+		{
+			"id": "work.apostlelantern.majorvictory.hint2",
+			"label": "向外敞開的門？",
+			"startdescription": "蜈蚣永遠知道路往何方。我們需要她的秘密。"
+		},
+		{
+			"id": "work.apostlelantern.majorvictory.hint1",
+			"label": "向外敞開的門？",
+			"startdescription": "守夜人之眼被打開了，不是以平常的方式，而是用刀。我們需要它流出的液體。"
+		},
+		{
+			"id": "work.apostlelantern.majorvictory.hint0",
+			"label": "向外敞開的門？",
+			"startdescription": "當然，門沒有見證者或許也能打開，但是離了行將受沐光明的見證者，我們又怎能成功扮演守夜人？守夜人沒有憐憫。"
+		},
+		{
+			"id": "work.apostlegrail.majorvictory.hint5",
+			"label": "謝肉祭所需的最後環節？",
+			"startdescription": "特別的香料需要特別的處理。除此之外，萬事俱備。"
+		},
+		{
+			"id": "work.apostlegrail.majorvictory.hint4",
+			"label": "謝肉祭所需的最後環節？",
+			"startdescription": "離了不休之秘，“謝肉祭”達不到我們想要的烈度。"
+		},
+		{
+			"id": "work.apostlegrail.majorvictory.hint3",
+			"label": "謝肉祭所需的最後環節？",
+			"startdescription": "我們需要我們所能找到的最有力的<b>杯</b>之影響。"
+		},
+		{
+			"id": "work.apostlegrail.majorvictory.hint2",
+			"label": "謝肉祭所需的最後環節？",
+			"startdescription": "離了低語之觚的謝肉祭不能稱之為謝肉祭。"
+		},
+		{
+			"id": "work.apostlegrail.majorvictory.hint1",
+			"label": "謝肉祭所需的最後環節？",
+			"startdescription": "沒有足夠的賓客，我們不能開始“謝肉祭”。不能讓我們的愉悅者飢餓。"
+		},
+		{
+			"id": "work.apostlegrail.majorvictory.hint0",
+			"label": "謝肉祭所需的最後環節？",
+			"startdescription": "沒有正確的調味，我們不能開始“謝肉祭”，為我，也為了其他宴主。"
+		},
+		{
+			"id": "workbenefactorhint",
+			"label": "私下演出？",
+			"startdescription": "為了滿足我的金主，我需要發揮一身本領，並把自己打扮的光鮮體面。光鮮總是要付出代價的。"
+		},
+		{
+			"id": "workfundshint",
+			"label": "錢",
+			"startdescription": "沒起什麼作用。但或許在未來，我還能找到別的投資門路。如果我還有未來的話。"
+		},
+		{
+			"id": "skillhealthhintwork",
+			"label": "健康",
+			"startdescription": "我變得強壯了，但我仍然需要把我的健康獻給日常工作。"
+		},
+		{
+			"id": "vitalityhintwork",
+			"label": "活力",
+			"startdescription": "無關工作，但研究它能增進我的健康。"
+		},
+		{
+			"id": "eruditionhintwork",
+			"label": "博聞",
+			"startdescription": "無關工作，但研究它能增進我的理性。"
+		},
+		{
+			"id": "glimmeringhintwork",
+			"label": "靈感",
+			"startdescription": "無關工作，但研究它能增進我的激情。"
+		},
+		{
+			"id": "contentmenthintwork",
+			"label": "安逸",
+			"startdescription": "快樂不能當飯吃。但是當被夜幕籠罩時，我唯一能倚仗的也只有快樂了。"
+		},
+		{
+			"id": "commissionhint_wronglore",
+			"label": "履行委託",
+			"startdescription": "我需要合適的密傳，我還需要將我的能力投入到工作上。[委託下方的描述會提示需要什麼“密傳”。]"
+		},
+		{
+			"id": "commissionhint",
+			"label": "履行委託？",
+			"startdescription": "如果我用合適的密傳片段<b>作業</b>，我就能撰寫所需的手稿。委託完成後，我還需與我的贊助人談話。"
+		},
+		{
+			"id": "minorforgevictory_hint_sixth",
+			"label": "第七印記？",
+			"startdescription": "第七印記乃烈火焚心。我已經如此接近，猶如燭火近於燭蠟。我需要所有我能找來的<b>鑄</b>之力，至少強達三十六階。"
+		},
+		{
+			"id": "minorforgevictory_hint",
+			"label": "第七印記？",
+			"startdescription": "第七印記乃烈火焚心。我首先需要達成第六印記。"
+		},
+		{
+			"id": "minorgrailvictory_hint_sixth_with_romantic",
+			"label": "一條達成第七印記的捷徑？",
+			"startdescription": "第七印記乃是真正生誕之宴。我已經如此接近，猶如血液近於心房。我需要更多……但赤杯曾獻祭過她愛的人，那些獻祭為她所珍視。如果我願意犧牲一名情人，我便只需要強答二十七階的法力。"
+		},
+		{
+			"id": "minorgrailvictory_hint_sixth",
+			"label": "第七印記？",
+			"startdescription": "第七印記乃是真正生誕之宴。我已經如此接近，猶如血液近於心房。我需要所有我能找來的<b>杯</b>之力，至少強達三十六階。"
+		},
+		{
+			"id": "minorgrailvictory_hint",
+			"label": "第七印記？",
+			"startdescription": "第七印記乃是真正生誕之宴。我首先需要達成第六印記。"
+		},
+		{
+			"id": "minorlanternvictory_hint_sixth",
+			"label": "第七印記？",
+			"startdescription": "第七印記乃是神侵。我已經如此接近，猶如光線近於影子邊緣。我需要所有我能找來的<b>燈</b>之力，至少強達三十六階。"
+		},
+		{
+			"id": "minorlanternvictory_hint",
+			"label": "第七印記？",
+			"startdescription": "第七印記乃是神侵。我首先需要達成第六印記。"
+		},
+		{
+			"id": "hint_summon_spirit_forgee_edge",
+			"label": "召喚源自白日鑄爐的強大生物？",
+			"startdescription": "我發現了一種有效的性相組合，但我還需要更多。為了召喚轄主火與輝光的生物，我需要大量的<b>鑄</b>之力，相當的<b>啟</b>之力，和一些<b>燈</b>。"
+		},
+		{
+			"id": "hint_summon_spirit_forgee_edge_exists",
+			"label": "再次召喚坩堝王？",
+			"startdescription": "我要考慮召喚坩堝王嗎？坩堝王已經存在於這個世界了。"
+		},
+		{
+			"id": "hint_summon_spirit_forgee_edge_dayd",
+			"label": "還要召喚坩堝王？",
+			"startdescription": "我要考慮召喚坩堝王嗎？他仍在漫宿裡把火燒旺。"
+		},
+		{
+			"id": "hint_summon_spirit_forgee_edge_nom",
+			"label": "真的要召喚坩堝王？",
+			"startdescription": "我食用了坩堝王那化為爐渣的遺體。他會生我的氣。不能召喚對你生氣的鑄之具名者。"
+		},
+		{
+			"id": "hint_summon_spirit_graile_edge",
+			"label": "召喚源自赤杯的強大生物？",
+			"startdescription": "我發現了一種有效的性相組合，但我還需要更多力。為了召喚轄管血與改變的生物，我需要大量的<b>杯</b>之力，相當的<b>啟</b>之力，和一些<b>鑄</b>。"
+		},
+		{
+			"id": "hint_summon_spirit_graile_edge_exists",
+			"label": "再次召喚伊澤姆？",
+			"startdescription": "我要考慮召喚伊澤姆嗎？伊澤姆已經存在於這個世界了。"
+		},
+		{
+			"id": "hint_summon_spirit_graile_edge_dayd",
+			"label": "還要召喚伊澤姆？",
+			"startdescription": "我要考慮召喚伊澤姆嗎？伊澤姆還在漫宿生悶氣。"
+		},
+		{
+			"id": "hint_summon_spirit_lanterne_secret",
+			"label": "召喚不尋常之物？",
+			"startdescription": "我發現了一種有效的性相組合，但我還需要更多法力。用足量的<b>燈</b>，相當程度的<b>啟</b>和一絲撩人的秘密，也許我能召喚出什麼有趣的東西。"
+		},
+		{
+			"id": "hint_summon_spirit_lanterne_secret_exists",
+			"label": "再次召喚巴爾多梅人？",
+			"startdescription": "我要考慮召喚巴爾多梅人嗎？她已經存在於這個世界了。"
+		},
+		{
+			"id": "hint_summon_spirit_lanterne_secret_dayd",
+			"label": "還要召喚巴爾多梅人？",
+			"startdescription": "我要考慮召喚巴爾多梅人嗎？她還在漫宿裡休息。"
+		},
+		{
+			"id": "hint_summon_spirit_forgec_winter",
+			"label": "召喚源自白日鑄爐的生物？",
+			"startdescription": "我發現了一種有效的性相組合，但我還需要更多法力。為了喚起這個冒煙的，頑皮的存在，我需要相當的<b>鑄</b>之力，還有少量的<b>冬</b>與<b>啟</b>。"
+		},
+		{
+			"id": "hint_summon_spirit_grailc_moth",
+			"label": "召喚源自赤杯的生物？",
+			"startdescription": "我發現了一種有效的性相組合，但我還需要更多法力。為了喚起這既怪誕卻又深情的存在，我需要相當強度的<b>杯</b>與少許<b>蛾</b>和<b>啟</b>。"
+		},
+		{
+			"id": "hint_summon_spirit_lanternc_edge",
+			"label": "召喚鏡子背後之物？",
+			"startdescription": "我發現了一種有效的性相組合，但我還需要更多法力。為了喚起這微妙、脆弱而又兇殘的生物，我需要的高強度的<b>燈</b>與些許<b>啟</b>和<b>刃</b>。"
+		},
+		{
+			"id": "hint_summon_spirit_heartc_edge",
+			"label": "召喚源自轟雷之皮的生物？",
+			"startdescription": "我發現了一種有效的性相組合，但我還需要更多法力。為了喚起這快活、永無休止且殘忍無情的生物，我需要相當強度的<b>心</b>與少許<b>啟</b>和<b>刃</b>。"
+		},
+		{
+			"id": "hint_summon_spirit_winterd_edge",
+			"label": "召喚源自殘陽的生物",
+			"startdescription": "我發現了一種有效的性相組合，但我還需要更多法力。為了喚起這冷冽而閃亮的生物，我需要相當高強度的<b>冬</b>與少許<b>啟</b>和<b>刃</b>。"
+		},
+		{
+			"id": "hint_summon_spirit_winterb_heart",
+			"label": "召喚亡者大群的一員？",
+			"startdescription": "我發現了一種有效的性相組合，但我還需要更多法力。為了喚起這悲慘的，不能發聲的生物，我需要的至少強達四級的<b>冬</b>與少許<b>啟</b>和<b>心</b>。"
+		},
+		{
+			"id": "hint_renew_spirit_wintera_edge",
+			"label": "靠傷疤測繪師的神力修復破碎行屍？",
+			"startdescription": "對於破碎行屍，維持比喚醒更難。但以足夠的<b>冬</b>相和足夠的<b>刃</b>，我也許能讓我的破碎行屍一直保持行動。又或者，我可以用它召喚更強大的靈體。"
+		},
+		{
+			"id": "hint_renew_spirit_wintera_moth",
+			"label": "靠環杉的力量修復抽芽行屍？",
+			"startdescription": "抽芽行屍能維持的時間不長。但以足夠的<b>冬</b>相和足夠的<b>蛾</b>，我也許能讓我的作品維持穩定稍長一點時間。又或者，我可以用它召喚更強大的靈體。"
+		},
+		{
+			"id": "hint_summon_spirit_wintera_edge",
+			"label": "為屍體注入傷疤測繪師的力量？",
+			"startdescription": "我發現了一種有效的性相組合，但我還需要更多法力。用一些<b>冬</b>性相，少許<b>刃</b>與一具屍體，我也許能創造一名殘暴的僕從。"
+		},
+		{
+			"id": "hint_summon_spirit_wintera_moth",
+			"label": "為屍體注入環杉的力量？",
+			"startdescription": "用一些<b>冬</b>相，少許<b>蛾</b>和一具屍體，我也許能創造一名狡詐的僕從。"
+		},
+		{
+			"id": "work.openscar.hint",
+			"label": "門關飛升？",
+			"startdescription": "門關飛升需要七道傷疤鎖和強達二十四級的<b>啟</b>相。"
+		},
+		{
+			"id": "ritehinthasknockedge",
+			"label": "召喚某些生物？",
+			"startdescription": "存在多種可能，依我添加的是<b>燈</b>，是<b>心</b>，或是<b>冬</b>而不同。"
+		},
+		{
+			"id": "ritehinthasknockforge",
+			"label": "召喚某些生物？",
+			"startdescription": "存在多種可能。如果我添加<b>冬</b>，我也許能遇上某種冒煙之物。如果我添加<b>燈</b>，我也許能遇上某種熾熱的力量。"
+		},
+		{
+			"id": "ritehinthasknockgrail",
+			"label": "召喚某些生物？",
+			"startdescription": "存在多種可能。如果我添加<b>蛾</b>，我也許能遇上某種無形之物。如果我添加<b>鑄</b>，我也許能遇上某種誘惑的、野蠻的力量。"
+		},
+		{
+			"id": "ritehinthasknockheart",
+			"label": "召喚某些生物？",
+			"startdescription": "存在多種可能。如果我添加<b>刃</b>，我也許能遇上某種無法壓制之物。如果我添加<b>冬</b>，我也許能喚醒亡者的一員。"
+		},
+		{
+			"id": "ritehinthasknocklantern",
+			"label": "召喚某些生物？",
+			"startdescription": "存在多種可能。如果我添加<b>刃</b>，我也許能從鏡子背後帶出什麼。如果我添加<b>鑄</b>，我也許能遇上某種熾熱之物。"
+		},
+		{
+			"id": "ritehinthasknockmoth",
+			"label": "召喚某些生物？",
+			"startdescription": "存在多種可能。如果我添加<b>鑄</b>，我也許遇上某種無形之物。"
+		},
+		{
+			"id": "ritehinthasknocksecrethistories",
+			"label": "召喚某些生物？",
+			"startdescription": "存在多種可能。如果我添加足夠的<b>燈</b>，天知道能引來什麼？"
+		},
+		{
+			"id": "ritehinthasknockwinter",
+			"label": "冬",
+			"startdescription": "存在多種可能。依我添加的是<b>刃</b>，是<b>心</b>，或是<b>鑄</b>而不同。"
+		},
+		{
+			"label": "理性的輝光？",
+			"id": "arcane_lantern_edge_hint",
+			"startdescription": "以至少5點<b>燈</b>和1點<b>刃</b>，我能用名為“理性的輝光”的神秘法則將我的激情轉化為理性。"
+		},
+		{
+			"label": "激情的漩渦？",
+			"id": "arcane_moth_edge_hint",
+			"startdescription": "以至少5點<b>蛾</b>和1點<b>刃</b>，我能用名為“激情的漩渦”的法悅修煉將我的理性轉化為激情。"
+		},
+		{
+			"label": "鑄爐的赦罪？",
+			"id": "arcane_forge_grail_hint",
+			"startdescription": "以至少5點<b>鑄</b>和1點<b>杯</b>，我能用通稱“鑄爐的赦罪”的禁斷法術將我的理性轉化為激情。"
+		},
+		{
+			"label": "結尾悽美？",
+			"id": "arcane_winter_lantern_hint",
+			"startdescription": "以至少5點<b>冬</b>和1點<b>燈</b>，我能請求結尾之司辰——殘陽，來摧毀一個人——但不是特定的某人。人選由殘陽獨斷。"
+		},
+		{
+			"id": "ritehinthasedge",
+			"label": "召喚某些生物？",
+			"startdescription": "<b>刃</b>是戰鬥與抗爭的性相。如果我添加<b>啟</b>，我也許能試著召喚什麼。如果我添加<b>燈</b>或<b>蛾</b>，我也許能在我的靈魂中發起一場戰鬥。"
+		},
+		{
+			"id": "ritehinthasforge",
+			"label": "召喚某些生物？",
+			"startdescription": "<b>鑄</b>是轉換與毀滅的性相。如果我添加<b>啟</b>，我也許能試著召喚什麼。如果我陷入衰老，那麼添加<b>杯</b>也許能修復我的身體。"
+		},
+		{
+			"id": "ritehinthasgrail",
+			"label": "召喚某些生物？",
+			"startdescription": "<b>杯</b>是食慾、血與生育的性相。如果我添加<b>啟</b>，我也許能試著召喚什麼。如果我陷入衰老，那麼添加<b>鑄</b>也許能修復我的身體。"
+		},
+		{
+			"id": "ritehinthasheart",
+			"label": "召喚某些生物？",
+			"startdescription": "<b>心</b>是存續的性相，也是運動無休的性相。如果我添加<b>啟</b>，我也許能試著召喚什麼。"
+		},
+		{
+			"id": "ritehinthasknock",
+			"label": "召喚某些生物？",
+			"startdescription": "召喚首先需要用到<b>啟</b>，但通常還需要其他兩種性相。如果不使用<b>啟</b>，我也許能找到除召喚之外的密教之儀。"
+		},
+		{
+			"id": "ritehinthasmicroknock",
+			"label": "召喚某些生物？",
+			"startdescription": "召喚首先需要用到<b>啟</b>，但我還需要再加大少許<b>啟</b>的用量。"
+		},
+		{
+			"id": "ritehinthaslantern",
+			"label": "召喚某些生物？",
+			"startdescription": "<b>燈</b>是有“太陽之居屋”之稱的隱秘場所與其上光芒的準則。如果我添加<b>啟</b>，我也許能試著召喚什麼。如果我添加<b>刃</b>，我能努力用我的理性征服激情。如果我添加<b>冬</b>，我也許能嘗試一種愚蠢而美麗的魔法。"
+		},
+		{
+			"id": "ritehinthasmoth",
+			"label": "召喚某些生物？",
+			"startdescription": "<b>蛾</b>，狂野又凶險，是混沌與渴慕的性相。如果我添加<b>啟</b>，我也許能試著召喚什麼。如果我添加<b>刃</b>，我能努力用我的激情淹沒理性。"
+		},
+		{
+			"id": "ritehinthassecrethistories",
+			"label": "召喚某些生物？",
+			"startdescription": "<b>秘史</b>描繪了世界不為人知的千頭萬緒及它的重重過往。無形之術通常不會直接用到秘史。但如果我添加<b>啟</b>，說不定會有什麼作用呢？"
+		},
+		{
+			"id": "ritehinthaswinter",
+			"label": "冬",
+			"startdescription": "<b>冬</b>是靜默、結尾和不盡然逝去之物的性相。如果我添加啟，我也許能試著召喚什麼。如果我加入<b>燈</b>，我也許能嘗試一種愚蠢而美麗的魔法。"
+		},
+		{
+			"id": "ritehint",
+			"label": "儀式",
+			"startdescription": "每個儀式都能派上各種用處。為了召喚，我需要從呼喚<b>啟</b>之力量來開始開闢道路。"
+		},
+		{
+			"id": "ascensionpower_upgradetoobsession_hint",
+			"label": "還不夠，還沒到。",
+			"startdescription": "還不夠。白日鑄爐在她覺得我值得關注前不會理睬我。我需要至少強達六級的<b>鑄</b>之力量。",
+			"description": "."
+		},
+		{
+			"id": "ascensionsensation_upgradetoobsession_hint_m",
+			"label": "還不夠，還沒到。",
+			"startdescription": "還不夠。赤杯在她覺得我值得關注前不會理睬我。我需要至少強達六級的<b>杯</b>之力量。",
+			"description": "."
+		},
+		{
+			"id": "ascensionsensation_upgradetoobsession_hint_f",
+			"label": "還不夠，還沒到。",
+			"startdescription": "還不夠。赤杯在她覺得我值得關注前不會理睬我。我需要至少強達六級的<b>杯</b>之力量。",
+			"description": "."
+		},
+		{
+			"id": "ascensionenlightenment_upgradetoobsession_hint",
+			"label": "還不夠，還沒到。",
+			"startdescription": "還不夠。守夜人在他覺得我值得關注前不會理睬我。我需要至少強達六級的<b>燈</b>之力量。",
+			"description": "."
+		},
+		{
+			"id": "work.temptation.remembrance.hint",
+			"label": "失落的色彩？",
+			"startdescription": "我如饑似渴地想要了解已失去者。而了解之路上又橫阻著另一種飢渴。這裡有一個我須得去學習的秘密。"
+		},
+		{
+			"id": "detectivework_plotitem_burning_hint",
+			"label": "再想想？",
+			"startdescription": "我的決定是對的。可是……[你還有時間趕在在這份文件徹底毀掉前研究它。]"
+		},
+		{
+			"id": "work.generaldesire.hint",
+			"label": "大功業？",
+			"startdescription": "<b>欲望</b>的最終實現常常通向結局。光是去希望是不夠的。對於我的事業，我要嘛堅持，要嘛落敗。[<b>欲望<b>常常是贏得遊戲的常用手段。實現對<b>感官</b>，對<b>力量</b>或對<b>啟明</b>的欲望需要一場盛大的儀式。世間還存在其他更稀有的欲望，尤其是在食屍鬼，教士和舞者擴展包中。]"
+		}
+	]
 }

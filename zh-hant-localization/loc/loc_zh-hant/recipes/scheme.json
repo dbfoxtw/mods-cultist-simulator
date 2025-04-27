@@ -1,587 +1,139 @@
 {
-    "recipes": [
-        {
-            "id": "scheme_murderhunter",
-            "label": "醞釀謀殺獵人的計策",
-            "actionId": "scheme",
-            "requirements": {
-                "schememurder": 1
-            },
-            "effects": {},
-            "startdescription": "有個對手想要獵人的命。我或許能利用這一點……但這也可能引起注意。",
-            "warmup": 60,
-            "craftable": false,
-            "linked": [
-                {
-                    "id": "scheme_murderhunter_grab",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "scheme_murderhunter_grab",
-            "label": "醞釀謀殺獵人的計策",
-            "actionId": "scheme",
-            "slots": [
-                {
-                    "id": "victim",
-                    "label": "被害者",
-                    "greedy": true,
-                    "required": {
-                        "hunter": 1
-                    }
-                }
-            ],
-            "effects": {},
-            "warmup": 60,
-            "craftable": false,
-            "linked": [
-                {
-                    "id": "scheme_murderhunter_success",
-                    "chance": 30
-                },
-                {
-                    "id": "scheme_murderhunter_failure",
-                    "chance": 100
-                },
-                {
-                    "id": "scheme_murderhunter_nohunterfound",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "scheme_murderhunter_success",
-            "label": "有人謀殺了獵人！",
-            "actionId": "scheme",
-            "requirements": {
-                "hunter": 1
-            },
-            "aspects": {
-                "killhunter": 1
-            },
-            "effects": {
-                "notoriety": 1
-            },
-            "startdescription": "我或許可以喘口氣了——但此事最後說不定會把防剿局引上門來。",
-            "warmup": 5,
-            "craftable": false
-        },
-        {
-            "id": "scheme_murderhunter_failure",
-            "label": "有人謀殺獵人失敗！",
-            "actionId": "scheme",
-            "requirements": {
-                "hunter": 1
-            },
-            "effects": {
-                "notoriety": 1
-            },
-            "startdescription": "此事最後說不定會把防剿局引上門來。",
-            "warmup": 5,
-            "craftable": false
-        },
-        {
-            "id": "scheme_murderhunter_nohunterfound",
-            "label": "謀殺獵人之計無果而終。",
-            "actionId": "scheme",
-            "effects": {},
-            "startdescription": "也許這是最好的結果。",
-            "warmup": 60,
-            "craftable": false
-        },
-        {
-            "id": "scheme_expedition_debug",
-            "label": "FORCE EXP START",
-            "actionId": "scheme",
-            "slots": [
-                {
-                    "id": "target",
-                    "label": "演員",
-                    "required": {
-                        "independent": 1
-                    }
-                }
-            ],
-            "warmup": 30,
-            "craftable": false,
-            "linked": [
-                {
-                    "chance": 100,
-                    "id": "scheme_expedition_grab"
-                }
-            ]
-        },
-        {
-            "id": "scheme_expedition_grab",
-            "label": "有個對手正在準備去探險……",
-            "actionId": "scheme",
-            "requirements": {
-                "schemeexpedition": 1
-            },
-            "slots": [
-                {
-                    "id": "target",
-                    "label": "目標",
-                    "greedy": true,
-                    "required": {
-                        "vault": 1
-                    }
-                }
-            ],
-            "effects": {},
-            "startdescription": "我的對手正在為飛升尋找工具與密傳。",
-            "warmup": 60,
-            "craftable": false,
-            "linked": [
-                {
-                    "id": "scheme_expedition_prep",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "scheme_expedition_prep",
-            "label": "設布圈套之機",
-            "actionId": "scheme",
-            "slots": [
-                {
-                    "id": "snare",
-                    "label": "伏擊",
-                    "required": {
-                        "snare": 1
-                    }
-                }
-            ],
-            "requirements": {
-                "vault": 1
-            },
-            "startdescription": "如果我事先設下圈套，我便能設法伏擊對手，破壞他的探險，甚至傷到他本人……",
-            "warmup": 60,
-            "craftable": false,
-            "linked": [
-                {
-                    "chance": 100,
-                    "id": "scheme_expedition_snare_great"
-                },
-                {
-                    "chance": 100,
-                    "id": "scheme_expedition_snare_good"
-                },
-                {
-                    "chance": 100,
-                    "id": "scheme_expedition_snare_poor"
-                },
-                {
-                    "chance": 100,
-                    "id": "scheme_expedition_snare_rubbish"
-                },
-                {
-                    "chance": 70,
-                    "id": "scheme_expedition_success"
-                },
-                {
-                    "chance": 100,
-                    "id": "scheme_expedition_failure"
-                }
-            ]
-        },
-        {
-            "id": "scheme_expedition_snare_great",
-            "actionId": "scheme",
-            "requirements": {
-                "snarelevel": 4
-            },
-            "linked": [
-                {
-                    "id": "scheme_expedition_snare_success",
-                    "chance": 90
-                },
-                {
-                    "id": "scheme_expedition_snare_failure",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "scheme_expedition_snare_good",
-            "actionId": "scheme",
-            "requirements": {
-                "snarelevel": 3
-            },
-            "linked": [
-                {
-                    "id": "scheme_expedition_snare_success",
-                    "chance": 70
-                },
-                {
-                    "id": "scheme_expedition_snare_failure",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "scheme_expedition_snare_poor",
-            "actionId": "scheme",
-            "requirements": {
-                "snarelevel": 2
-            },
-            "linked": [
-                {
-                    "id": "scheme_expedition_snare_success",
-                    "chance": 30
-                },
-                {
-                    "id": "scheme_expedition_snare_failure",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "scheme_expedition_snare_rubbish",
-            "actionId": "scheme",
-            "requirements": {
-                "snarelevel": 1
-            },
-            "linked": [
-                {
-                    "id": "scheme_expedition_snare_success",
-                    "chance": 10
-                },
-                {
-                    "id": "scheme_expedition_snare_failure",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "scheme_expedition_snare_success",
-            "label": "我們的圈套奏效了！",
-            "actionId": "scheme",
-            "effects": {
-                "snare": -1
-            },
-            "startdescription": "對手落入了我們的陷阱！他會設法撤退，回去自舔傷口。",
-            "mutations": [
-                {
-                    "filterOnAspectId": "independent",
-                    "mutateAspectId": "resentment",
-                    "mutationLevel": 1,
-                    "additive": true
-                }
-            ],
-            "warmup": 5,
-            "craftable": false,
-            "linked": [
-                {
-                    "id": "independent_scar",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "scheme_expedition_snare_failure",
-            "label": "我們的圈套沒有奏效了！",
-            "actionId": "scheme",
-            "startdescription": "對手避開了我們的陷阱……",
-            "mutations": [
-                {
-                    "filterOnAspectId": "independent",
-                    "mutateAspectId": "resentment",
-                    "mutationLevel": 1,
-                    "additive": true
-                }
-            ],
-            "effects": {
-                "snare": -1
-            },
-            "warmup": 5,
-            "craftable": false,
-            "linked": [
-                {
-                    "id": "scheme_expedition_success",
-                    "chance": 70
-                },
-                {
-                    "id": "scheme_expedition_failure",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "scheme_expedition_success",
-            "label": "對手把此地翻了個底朝天……",
-            "actionId": "scheme",
-            "requirements": {
-                "vault": 1
-            },
-            "effects": {
-                "vault": -1
-            },
-            "startdescription": "不論他來這裡是要找什麼，他都已經得手。",
-            "warmup": 5,
-            "craftable": false,
-            "alt": [
-                {
-                    "id": "expedition.corpse.find.vaultcapital5.ransackedbyrival",
-                    "additional": true
-                },
-                {
-                    "id": "expedition.corpse.find.vaultloneandlevelsands2.ransackedbyrival",
-                    "additional": true
-                },
-                {
-                    "id": "expedition.corpse.find.vaultrendingmountainsdefault.ransackedbyrival",
-                    "additional": true
-                },
-                {
-                    "id": "expedition.corpse.find.vaultshires4.ransackedbyrival",
-                    "additional": true
-                },
-                {
-                    "id": "expedition.corpse.find.vaultcapital5.ransackedbyrival",
-                    "additional": true
-                },
-                {
-                    "id": "expedition.corpse.find.vaultshires3.ransackedbyrival",
-                    "additional": true
-                }
-            ],
-            "linked": [
-                {
-                    "id": "scheme_promotion",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "scheme_expedition_failure",
-            "label": "對手的探險失敗了。",
-            "actionId": "scheme",
-            "requirements": {
-                "vault": 1
-            },
-            "effects": {},
-            "startdescription": "不論他來這裡是要找什麼，他都沒能得手。他已放棄了這次探索……至少現下如此。",
-            "warmup": 5,
-            "craftable": false
-        },
-        {
-            "id": "scheme_activities",
-            "label": "有個對手正在暗中活動。",
-            "actionId": "scheme",
-            "requirements": {
-                "schemeactivities": 1
-            },
-            "effects": {
-                "mystique": 1
-            },
-            "startdescription": "他仍舊潛伏著。他的目的究竟為何？[此事有極高機率會無疾而終，但偶爾也會出現某個對手偷偷增長力量的情況。你可以考慮空出一處探險地點來引蛇出洞。]",
-            "description": "對手在搞某些小破壞。防剿局可能會有所察覺。",
-            "alt": [
-                {
-                    "id": "scheme_calm",
-                    "chance": 10
-                },
-                {
-                    "id": "scheme_promotion",
-                    "chance": 11
-                }
-            ],
-            "warmup": 60,
-            "craftable": false
-        },
-        {
-            "id": "scheme_calm",
-            "label": "對手的心境緩和了。",
-            "actionId": "scheme",
-            "effects": {
-                "influenceheartc": 1
-            },
-            "description": "對手展現出周全的禮數：我收到了一封措辭謹慎文雅的信件，儘管信中所談無足輕重……或許某一天，我們雙方會有聯手的機會？[對手的怨恨偶爾會減輕。]",
-            "mutations": [
-                {
-                    "filterOnAspectId": "independent",
-                    "mutateAspectId": "resentment",
-                    "mutationLevel": -1,
-                    "additive": true
-                }
-            ],
-            "warmup": 60,
-            "craftable": false
-        },
-        {
-            "id": "scheme_promotion",
-            "label": "對手的事業取得了進展。",
-            "actionId": "scheme",
-            "alt": [
-                {
-                    "chance": 100,
-                    "id": "scheme_promotion_ascension"
-                }
-            ],
-            "effects": {
-                "mystique": 1
-            },
-            "aspects": {
-                "rival_promotion": 1
-            },
-            "description": "對手獲得了更多密傳、更多寶藏、更多人脈……他由此一步一步，積攢了更多實力。",
-            "warmup": 60,
-            "craftable": false
-        },
-        {
-            "id": "scheme_promotion_ascension",
-            "label": "對手奮力穿過三尖之門，獲得了更高的身份。",
-            "actionId": "scheme",
-            "requirements": {
-                "exalted": 1
-            },
-            "effects": {
-                "mystique": 1
-            },
-            "startdescription": "他離目標又近了一步，在太陽居屋的體制中又升了一級。[當心：一旦你的對手飛升到第7級，獲得遊戲勝利的將是他而不是你。]",
-            "mutations": [
-                {
-                    "filterOnAspectId": "independent",
-                    "mutateAspectId": "rivalmarks",
-                    "mutationLevel": 1,
-                    "additive": true
-                }
-            ],
-            "warmup": 60,
-            "craftable": false
-        },
-        {
-            "id": "independent_scar",
-            "label": "對手落下傷疤",
-            "startdescription": "對手遭到不幸。失敗給他留下了傷疤；他會記恨我。[落下三道同樣傷疤的凡人必死無疑。]",
-            "actionId": "scheme",
-            "linked": [
-                {
-                    "id": "independent_givescar_edge",
-                    "chance": 30
-                },
-                {
-                    "id": "independent_givescar_knock",
-                    "chance": 50
-                },
-                {
-                    "id": "independent_givescar_winter",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "independent_givescar_edge",
-            "actionId": "scheme",
-            "label": "對手受挫",
-            "mutations": [
-                {
-                    "filterOnAspectId": "mortal",
-                    "mutateAspectId": "follower_scar_edge",
-                    "mutationLevel": 1,
-                    "additive": true
-                },
-                {
-                    "filterOnAspectId": "mortal",
-                    "mutateAspectId": "edge",
-                    "mutationLevel": 2,
-                    "additive": true
-                }
-            ],
-            "linked": [
-                {
-                    "id": "independent_deathscar_edge",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "independent_givescar_knock",
-            "label": "對手受挫",
-            "actionId": "scheme",
-            "mutations": [
-                {
-                    "filterOnAspectId": "mortal",
-                    "mutateAspectId": "follower_scar_knock",
-                    "mutationLevel": 1,
-                    "additive": true
-                },
-                {
-                    "filterOnAspectId": "mortal",
-                    "mutateAspectId": "knock",
-                    "mutationLevel": 2,
-                    "additive": true
-                }
-            ],
-            "linked": [
-                {
-                    "id": "independent_deathscar_knock",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "independent_givescar_winter",
-            "actionId": "scheme",
-            "label": "對手受挫",
-            "mutations": [
-                {
-                    "filterOnAspectId": "mortal",
-                    "mutateAspectId": "follower_scar_winter",
-                    "mutationLevel": 1,
-                    "additive": true
-                },
-                {
-                    "filterOnAspectId": "mortal",
-                    "mutateAspectId": "winter",
-                    "mutationLevel": 2,
-                    "additive": true
-                }
-            ],
-            "linked": [
-                {
-                    "id": "independent_deathscar_winter",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "independent_deathscar_edge",
-            "actionId": "scheme",
-            "label": "死亡：一次敗北",
-            "requirements": {
-                "follower_scar_edge": 3
-            },
-            "description": "此人展現出了勇氣與韌性。但到最後，這些都不夠。[對手因落下三道<b>刃</b>傷疤而喪命。]",
-            "aspects": {
-                "killmortal": 1
-            }
-        },
-        {
-            "id": "independent_deathscar_knock",
-            "actionId": "scheme",
-            "label": "死亡：一處開口",
-            "requirements": {
-                "follower_scar_knock": 3
-            },
-            "description": "人為了有效地運轉，須得保持其內部之物存於內部，並阻止外部之物進入內部。當人的內部之物流出到外部到一定程度時，人就不再能持續運轉了。[對手因落下三道<b>啟</b>傷疤而喪命。]",
-            "aspects": {
-                "killmortal": 1
-            }
-        },
-        {
-            "id": "independent_deathscar_winter",
-            "actionId": "scheme",
-            "label": "死亡：一個結尾",
-            "requirements": {
-                "follower_scar_winter": 3
-            },
-            "description": "無聲雪落。夕陽如光的汙跡。[對手因落下三道<b>冬</b>傷疤而喪命。]",
-            "aspects": {
-                "killmortal": 1
-            }
-        }
-    ]
+	"recipes": [
+		{
+			"id": "scheme_murderhunter",
+			"label": "醞釀謀殺獵人的計策",
+			"startdescription": "有個對手想要獵人的命。我或許能利用這一點……但這也可能引起注意。"
+		},
+		{
+			"id": "scheme_murderhunter_grab",
+			"label": "醞釀謀殺獵人的計策",
+			"slots": [
+				{
+					"id": "victim",
+					"label": "被害者"
+				}
+			]
+		},
+		{
+			"id": "scheme_murderhunter_success",
+			"label": "有人謀殺了獵人！",
+			"startdescription": "我或許可以喘口氣了——但此事最後說不定會把防剿局引上門來。"
+		},
+		{
+			"id": "scheme_murderhunter_failure",
+			"label": "有人謀殺獵人失敗！",
+			"startdescription": "此事最後說不定會把防剿局引上門來。"
+		},
+		{
+			"id": "scheme_murderhunter_nohunterfound",
+			"label": "謀殺獵人之計無果而終。",
+			"startdescription": "也許這是最好的結果。"
+		},
+		{
+			"id": "scheme_expedition_debug",
+			"label": "FORCE EXP START",
+			"slots": [
+				{
+					"id": "target",
+					"label": "演員"
+				}
+			]
+		},
+		{
+			"id": "scheme_expedition_grab",
+			"label": "有個對手正在準備去探險……",
+			"slots": [
+				{
+					"id": "target",
+					"label": "目標"
+				}
+			],
+			"startdescription": "我的對手正在為飛升尋找工具與密傳。"
+		},
+		{
+			"id": "scheme_expedition_prep",
+			"label": "設布圈套之機",
+			"slots": [
+				{
+					"id": "snare",
+					"label": "伏擊"
+				}
+			],
+			"startdescription": "如果我事先設下圈套，我便能設法伏擊對手，破壞他的探險，甚至傷到他本人……"
+		},
+		{
+			"id": "scheme_expedition_snare_success",
+			"label": "我們的圈套奏效了！",
+			"startdescription": "對手落入了我們的陷阱！他會設法撤退，回去自舔傷口。"
+		},
+		{
+			"id": "scheme_expedition_snare_failure",
+			"label": "我們的圈套沒有奏效了！",
+			"startdescription": "對手避開了我們的陷阱……"
+		},
+		{
+			"id": "scheme_expedition_success",
+			"label": "對手把此地翻了個底朝天……",
+			"startdescription": "不論他來這裡是要找什麼，他都已經得手。"
+		},
+		{
+			"id": "scheme_expedition_failure",
+			"label": "對手的探險失敗了。",
+			"startdescription": "不論他來這裡是要找什麼，他都沒能得手。他已放棄了這次探索……至少現下如此。"
+		},
+		{
+			"id": "scheme_activities",
+			"label": "有個對手正在暗中活動。",
+			"startdescription": "他仍舊潛伏著。他的目的究竟為何？[此事有極高機率會無疾而終，但偶爾也會出現某個對手偷偷增長力量的情況。你可以考慮空出一處探險地點來引蛇出洞。]",
+			"description": "對手在搞某些小破壞。防剿局可能會有所察覺。"
+		},
+		{
+			"id": "scheme_calm",
+			"label": "對手的心境緩和了。",
+			"description": "對手展現出周全的禮數：我收到了一封措辭謹慎文雅的信件，儘管信中所談無足輕重……或許某一天，我們雙方會有聯手的機會？[對手的怨恨偶爾會減輕。]"
+		},
+		{
+			"id": "scheme_promotion",
+			"label": "對手的事業取得了進展。",
+			"description": "對手獲得了更多密傳、更多寶藏、更多人脈……他由此一步一步，積攢了更多實力。"
+		},
+		{
+			"id": "scheme_promotion_ascension",
+			"label": "對手奮力穿過三尖之門，獲得了更高的身份。",
+			"startdescription": "他離目標又近了一步，在太陽居屋的體制中又升了一級。[當心：一旦你的對手飛升到第7級，獲得遊戲勝利的將是他而不是你。]"
+		},
+		{
+			"id": "independent_scar",
+			"label": "對手落下傷疤",
+			"startdescription": "對手遭到不幸。失敗給他留下了傷疤；他會記恨我。[落下三道同樣傷疤的凡人必死無疑。]"
+		},
+		{
+			"id": "independent_givescar_edge",
+			"label": "對手受挫"
+		},
+		{
+			"id": "independent_givescar_knock",
+			"label": "對手受挫"
+		},
+		{
+			"id": "independent_givescar_winter",
+			"label": "對手受挫"
+		},
+		{
+			"id": "independent_deathscar_edge",
+			"label": "死亡：一次敗北",
+			"description": "此人展現出了勇氣與韌性。但到最後，這些都不夠。[對手因落下三道<b>刃</b>傷疤而喪命。]"
+		},
+		{
+			"id": "independent_deathscar_knock",
+			"label": "死亡：一處開口",
+			"description": "人為了有效地運轉，須得保持其內部之物存於內部，並阻止外部之物進入內部。當人的內部之物流出到外部到一定程度時，人就不再能持續運轉了。[對手因落下三道<b>啟</b>傷疤而喪命。]"
+		},
+		{
+			"id": "independent_deathscar_winter",
+			"label": "死亡：一個結尾",
+			"description": "無聲雪落。夕陽如光的汙跡。[對手因落下三道<b>冬</b>傷疤而喪命。]"
+		}
+	]
 }

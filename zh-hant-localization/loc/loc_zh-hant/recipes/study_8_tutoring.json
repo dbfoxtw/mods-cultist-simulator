@@ -1,299 +1,130 @@
 {
-    "recipes": [
-        {
-            "id": "studylatintutoring",
-            "label": "和教師學習拉丁語",
-            "actionId": "study",
-            "requirements": {
-                "tutorlatin": 1,
-                "commission": -1,
-                "article": -1
-            },
-            "slots": [
-                {
-                    "id": "Costs",
-                    "label": "費用",
-                    "required": {
-                        "compensationvalue": 1
-                    }
-                }
-            ],
-            "alt": [
-                {
-                    "id": "studylatintutoringpaid",
-                    "chance": 100
-                }
-            ],
-            "startdescription": "我要學拉丁語的話，此人便能教我；但我得用斯賓特里亞古幣，即隱秘世界的貨幣付錢才行。",
-            "description": "教師不會免費授課。下次吧。",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studylatintutoringpaid",
-            "label": "和教師學習拉丁語",
-            "actionId": "study",
-            "requirements": {
-                "compensationvalue": 2
-            },
-            "effects": {
-                "scholarlatin": 1,
-                "compensationvalue": -2
-            },
-            "startdescription": "這些錢夠了。我會認真聽講。",
-            "description": "盧克萊修的《物性論》、阿奎那的《神學大全》以及聲名狼藉的《司辰志》都是由這一語言寫就。"
-        },
-        {
-            "id": "studygreektutoring",
-            "label": "和教師學習希臘語",
-            "actionId": "study",
-            "requirements": {
-                "tutorgreek": 1,
-                "commission": -1,
-                "article": -1
-            },
-            "slots": [
-                {
-                    "id": "Costs",
-                    "label": "費用",
-                    "required": {
-                        "compensationvalue": 1
-                    }
-                }
-            ],
-            "alt": [
-                {
-                    "id": "studygreektutoringpaid",
-                    "chance": 100
-                }
-            ],
-            "startdescription": "我要學希臘語的話，此人便能教我；但我得用斯賓特里亞古幣，即隱秘世界的貨幣付錢才行。",
-            "description": "教師不會免費授課。下次吧。",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studygreektutoringpaid",
-            "label": "和教師學習希臘語",
-            "actionId": "study",
-            "requirements": {
-                "compensationvalue": 2
-            },
-            "effects": {
-                "scholargreek": 1,
-                "compensationvalue": -2
-            },
-            "startdescription": "這些錢夠了。我會認真聽講。",
-            "description": "《形上學》、普羅科匹厄斯的《秘史》和險惡的《論困於銀鏡之物》都是由這一語言寫就。"
-        },
-        {
-            "id": "studyaramaictutoring",
-            "label": "和教師學習亞蘭語",
-            "actionId": "study",
-            "requirements": {
-                "tutoraramaic": 1,
-                "commission": -1,
-                "article": -1
-            },
-            "slots": [
-                {
-                    "id": "Costs",
-                    "label": "費用",
-                    "required": {
-                        "compensationvalue": 1
-                    }
-                }
-            ],
-            "alt": [
-                {
-                    "id": "studyaramaictutoringpaid",
-                    "chance": 100
-                }
-            ],
-            "startdescription": "我要學亞蘭語的話，此人便能教我；但我得用斯賓特里亞古幣，即隱秘世界的貨幣付錢才行。",
-            "description": "教師不會免費授課。下次吧。",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyaramaictutoringpaid",
-            "label": "和教師學習亞蘭語",
-            "actionId": "study",
-            "requirements": {
-                "compensationvalue": 2
-            },
-            "effects": {
-                "scholararamaic": 1,
-                "compensationvalue": -2
-            },
-            "startdescription": "這些錢夠了。我會認真聽講。",
-            "description": "《亞蘭所見的幻象》、《但以理書》和《迦膩色伽在蜘蛛之門前的經過》都是由這一語言寫就。"
-        },
-        {
-            "id": "studysanskrittutoring",
-            "label": "和教師學習梵語",
-            "actionId": "study",
-            "requirements": {
-                "tutorsanskrit": 1,
-                "commission": -1,
-                "article": -1
-            },
-            "slots": [
-                {
-                    "id": "Costs",
-                    "label": "費用",
-                    "required": {
-                        "compensationvalue": 1
-                    }
-                }
-            ],
-            "alt": [
-                {
-                    "id": "studysanskrittutoringpaid",
-                    "chance": 100
-                }
-            ],
-            "startdescription": "我要學梵語的話，此人便能教我；但我得用斯賓特里亞古幣，即隱秘世界的貨幣付錢才行。",
-            "description": "教師不會免費授課。下次吧。",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studysanskrittutoringpaid",
-            "label": "和教師學習梵語",
-            "actionId": "study",
-            "requirements": {
-                "compensationvalue": 2
-            },
-            "effects": {
-                "scholarsanskrit": 1,
-                "compensationvalue": -2
-            },
-            "startdescription": "這些錢夠了。我會認真聽講。",
-            "description": "此乃次大陸的神聖語言。通向四千年的詩歌、典儀和奧秘的大門。"
-        },
-        {
-            "id": "studyfucinetutoringspirit",
-            "label": "和教師學習富奇諾語",
-            "actionId": "study",
-            "requirements": {
-                "spirittutorfucine": 1,
-                "summoned": 1
-            },
-            "slots": [
-                {
-                    "id": "Background",
-                    "label": "根底",
-                    "required": {
-                        "scholarlatin": 1
-                    }
-                }
-            ],
-            "alt": [
-                {
-                    "id": "studyfucinetutoringsuccessful",
-                    "chance": 100
-                }
-            ],
-            "startdescription": "“富奇諾語？對，我的富奇諾語還行。你要是會拉丁語做基礎的話我可以教你。不過要是讓我聽到了一絲‘女巫的語言’的風兒，這件事就免談。”",
-            "description": "我還沒打實必要的底子。",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyfucinetutoringsuccessful",
-            "label": "和教師學習富奇諾語",
-            "actionId": "study",
-            "requirements": {
-                "scholarlatin": 1
-            },
-            "effects": {
-                "scholarfucine": 1
-            },
-            "startdescription": "拉丁語會是我學習的基礎，只要是能學的我都會去學。",
-            "description": "要想長時間說富奇諾語，就必須抿水潤喉。這種語言讓人口乾舌燥，怕是只有住在湖岸邊上的人才會講。"
-        },
-        {
-            "id": "studyphrygiantutoringspirit",
-            "label": "和教師學習弗里吉亞語",
-            "actionId": "study",
-            "requirements": {
-                "spirittutorphrygian": 1,
-                "summoned": 1
-            },
-            "slots": [
-                {
-                    "id": "Background",
-                    "label": "根底",
-                    "required": {
-                        "scholargreek": 1
-                    }
-                }
-            ],
-            "alt": [
-                {
-                    "id": "studyphrygiantutoringsuccessful",
-                    "chance": 100
-                }
-            ],
-            "startdescription": "“弗里吉亞語！偉大母親的語言！當然，如果你希臘語不錯的話，我保證你學弗里吉亞語會<i>非常</i>省心。”",
-            "description": "我還沒打實必要的底子。",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyphrygiantutoringsuccessful",
-            "label": "和教師學習弗里吉亞語",
-            "actionId": "study",
-            "requirements": {
-                "scholargreek": 1
-            },
-            "effects": {
-                "scholarphrygian": 1
-            },
-            "startdescription": "希臘語會是我學習的基礎，只要是能學的我都會去學。",
-            "description": "希羅多德講過一個隨性的故事，說一位法老發現弗里吉亞語是人類最先開口講的語言。當然了，他說的不對，應該是伐訶語。不過每個人都喜歡聽這個故事。"
-        },
-        {
-            "id": "studymandaictutoringspirit",
-            "label": "和教師學習淵深曼達安語",
-            "actionId": "study",
-            "requirements": {
-                "spirittutormandaic": 1,
-                "summoned": 1
-            },
-            "slots": [
-                {
-                    "id": "Background",
-                    "label": "根底",
-                    "required": {
-                        "scholararamaic": 1
-                    }
-                }
-            ],
-            "alt": [
-                {
-                    "id": "studymandaictutoringsuccessful",
-                    "chance": 100
-                }
-            ],
-            "startdescription": "<b>“聚首於此，為不焚之神的語言獻上我等的追思！”</b>",
-            "description": "我還沒打實必要的底子。",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studymandaictutoringsuccessful",
-            "label": "和教師學習淵深曼達安語",
-            "actionId": "study",
-            "requirements": {
-                "scholararamaic": 1
-            },
-            "effects": {
-                "scholarmandaic": 1
-            },
-            "startdescription": "亞蘭語會是我學習的基礎，只要是能學的我都會去學。",
-            "description": "在某一重歷史中，這曾是無影眾王所用的語言。而在另一重歷史，則是受控之火的子女所用咒語的基礎。"
-        }
-    ]
+	"recipes": [
+		{
+			"id": "studylatintutoring",
+			"label": "和教師學習拉丁語",
+			"slots": [
+				{
+					"id": "Costs",
+					"label": "費用"
+				}
+			],
+			"startdescription": "我要學拉丁語的話，此人便能教我；但我得用斯賓特里亞古幣，即隱秘世界的貨幣付錢才行。",
+			"description": "教師不會免費授課。下次吧。"
+		},
+		{
+			"id": "studylatintutoringpaid",
+			"label": "和教師學習拉丁語",
+			"startdescription": "這些錢夠了。我會認真聽講。",
+			"description": "盧克萊修的《物性論》、阿奎那的《神學大全》以及聲名狼藉的《司辰志》都是由這一語言寫就。"
+		},
+		{
+			"id": "studygreektutoring",
+			"label": "和教師學習希臘語",
+			"slots": [
+				{
+					"id": "Costs",
+					"label": "費用"
+				}
+			],
+			"startdescription": "我要學希臘語的話，此人便能教我；但我得用斯賓特里亞古幣，即隱秘世界的貨幣付錢才行。",
+			"description": "教師不會免費授課。下次吧。"
+		},
+		{
+			"id": "studygreektutoringpaid",
+			"label": "和教師學習希臘語",
+			"startdescription": "這些錢夠了。我會認真聽講。",
+			"description": "《形上學》、普羅科匹厄斯的《秘史》和險惡的《論困於銀鏡之物》都是由這一語言寫就。"
+		},
+		{
+			"id": "studyaramaictutoring",
+			"label": "和教師學習亞蘭語",
+			"slots": [
+				{
+					"id": "Costs",
+					"label": "費用"
+				}
+			],
+			"startdescription": "我要學亞蘭語的話，此人便能教我；但我得用斯賓特里亞古幣，即隱秘世界的貨幣付錢才行。",
+			"description": "教師不會免費授課。下次吧。"
+		},
+		{
+			"id": "studyaramaictutoringpaid",
+			"label": "和教師學習亞蘭語",
+			"startdescription": "這些錢夠了。我會認真聽講。",
+			"description": "《亞蘭所見的幻象》、《但以理書》和《迦膩色伽在蜘蛛之門前的經過》都是由這一語言寫就。"
+		},
+		{
+			"id": "studysanskrittutoring",
+			"label": "和教師學習梵語",
+			"slots": [
+				{
+					"id": "Costs",
+					"label": "費用"
+				}
+			],
+			"startdescription": "我要學梵語的話，此人便能教我；但我得用斯賓特里亞古幣，即隱秘世界的貨幣付錢才行。",
+			"description": "教師不會免費授課。下次吧。"
+		},
+		{
+			"id": "studysanskrittutoringpaid",
+			"label": "和教師學習梵語",
+			"startdescription": "這些錢夠了。我會認真聽講。",
+			"description": "此乃次大陸的神聖語言。通向四千年的詩歌、典儀和奧秘的大門。"
+		},
+		{
+			"id": "studyfucinetutoringspirit",
+			"label": "和教師學習富奇諾語",
+			"slots": [
+				{
+					"id": "Background",
+					"label": "根底"
+				}
+			],
+			"startdescription": "“富奇諾語？對，我的富奇諾語還行。你要是會拉丁語做基礎的話我可以教你。不過要是讓我聽到了一絲‘女巫的語言’的風兒，這件事就免談。”",
+			"description": "我還沒打實必要的底子。"
+		},
+		{
+			"id": "studyfucinetutoringsuccessful",
+			"label": "和教師學習富奇諾語",
+			"startdescription": "拉丁語會是我學習的基礎，只要是能學的我都會去學。",
+			"description": "要想長時間說富奇諾語，就必須抿水潤喉。這種語言讓人口乾舌燥，怕是只有住在湖岸邊上的人才會講。"
+		},
+		{
+			"id": "studyphrygiantutoringspirit",
+			"label": "和教師學習弗里吉亞語",
+			"slots": [
+				{
+					"id": "Background",
+					"label": "根底"
+				}
+			],
+			"startdescription": "“弗里吉亞語！偉大母親的語言！當然，如果你希臘語不錯的話，我保證你學弗里吉亞語會<i>非常</i>省心。”",
+			"description": "我還沒打實必要的底子。"
+		},
+		{
+			"id": "studyphrygiantutoringsuccessful",
+			"label": "和教師學習弗里吉亞語",
+			"startdescription": "希臘語會是我學習的基礎，只要是能學的我都會去學。",
+			"description": "希羅多德講過一個隨性的故事，說一位法老發現弗里吉亞語是人類最先開口講的語言。當然了，他說的不對，應該是伐訶語。不過每個人都喜歡聽這個故事。"
+		},
+		{
+			"id": "studymandaictutoringspirit",
+			"label": "和教師學習淵深曼達安語",
+			"slots": [
+				{
+					"id": "Background",
+					"label": "根底"
+				}
+			],
+			"startdescription": "<b>“聚首於此，為不焚之神的語言獻上我等的追思！”</b>",
+			"description": "我還沒打實必要的底子。"
+		},
+		{
+			"id": "studymandaictutoringsuccessful",
+			"label": "和教師學習淵深曼達安語",
+			"startdescription": "亞蘭語會是我學習的基礎，只要是能學的我都會去學。",
+			"description": "在某一重歷史中，這曾是無影眾王所用的語言。而在另一重歷史，則是受控之火的子女所用咒語的基礎。"
+		}
+	]
 }

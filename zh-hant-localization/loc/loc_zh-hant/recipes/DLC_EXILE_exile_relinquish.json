@@ -1,501 +1,177 @@
 {
-    "recipes": [
-        {
-            "id": "relinquish.first",
-            "actionid": "relinquish",
-            "label": "出讓",
-            "startdescription": "當我帶走那些歲月時，有人向我開了一槍。我幾乎忘了這事。",
-            "description": "我已經給傷口換了藥。它也不影響我的活動。我可以等待傷口自己癒合，而如果我很著急，也可以用偷來的歲月治癒它——但這需要整整十年的時間，並且肯定會引起注意。",
-            "effects": {
-                "wound.exile": 1
-            },
-            "comments": "opened by initial scout recipe",
-            "alt": [
-                {
-                    "id": "send.first",
-                    "additional": true
-                }
-            ],
-            "warmup": 10,
-            "craftable": false
-        },
-        {
-            "id": "relinquish.decade.healwound.foe",
-            "actionid": "relinquish",
-            "label": "用偷來的十年治癒傷口",
-            "startdescription": "我須在黎明來臨之際，於全然安靜處點燃所用歲月，並將其灰燼敷於傷口之上。不論何時，這都並非易事，但如今此事將更為艱難，大敵整夜都在追蹤著我。[你需要一張“黎明”機會卡來完成行動。]",
-            "description": "我沒有足夠的時間，也沒有足夠安靜的環境。[準備好“黎明”機會卡。]",
-            "slots": [
-                {
-                    "id": "dawn",
-                    "label": "黎明",
-                    "description": "時機",
-                    "required": {
-                        "op.dawn": 1
-                    }
-                }
-            ],
-            "requirements": {
-                "decade.stolen": 1,
-                "damage.exile": 1
-            },
-            "extantreqs": {
-                "rkx.foe": 1
-            },
-            "alt": [
-                {
-                    "id": "relinquish.decade.healwound.success.foe"
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "relinquish.decade.healwound.success.foe",
-            "actionid": "relinquish",
-            "label": "用偷來的十年治癒傷口",
-            "startdescription": "我從昕旦那裡買回了一點時間。",
-            "requirements": {
-                "decade.stolen": 1,
-                "damage.exile": 1,
-                "op.dawn": 1
-            },
-            "effects": {
-                "decade.stolen": -1,
-                "damage.exile": -1,
-                "op.dawn": -1
-            }
-        },
-        {
-            "id": "relinquish.decade.healwound",
-            "actionid": "relinquish",
-            "label": "用偷來的十年治癒傷口",
-            "startdescription": "我須在黎明來臨之際，於全然安靜處點燃所用歲月——昕旦對此頗為挑剔——並將其灰燼敷於傷口之上。[你需要一張“黎明”機會卡來完成行動。]",
-            "description": "我沒有足夠的時間，也沒有足夠安靜的環境。[準備好“黎明”機會卡。]",
-            "slots": [
-                {
-                    "id": "dawn",
-                    "label": "黎明",
-                    "description": "時機",
-                    "required": {
-                        "op.dawn": 1
-                    }
-                }
-            ],
-            "requirements": {
-                "decade.stolen": 1,
-                "damage.exile": 1
-            },
-            "alt": [
-                {
-                    "id": "relinquish.decade.healwound.success"
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "relinquish.decade.healwound.success",
-            "actionid": "relinquish",
-            "label": "用偷來的十年治癒傷口",
-            "startdescription": "昕旦不仁。她總是索取必要之物。但祈求仁慈從不是我的風格。[追蹤你的清算人已經嗅到了歲月燃燒的氣味。]",
-            "requirements": {
-                "decade.stolen": 1,
-                "damage.exile": 1,
-                "op.dawn": 1
-            },
-            "effects": {
-                "decade.stolen": -1,
-                "damage.exile": -1,
-                "trace": 1,
-                "op.dawn": -1
-            }
-        },
-        {
-            "id": "relinquish.vitality.healwound",
-            "actionid": "relinquish",
-            "label": "用活力治癒傷口",
-            "startdescription": "作為一名清算人，我很久以前就學會了如何重新引導突然洶湧而至的生命。",
-            "description": "無形之術的學徒此刻定會向轟雷之皮祈禱。但我有更好的辦法。",
-            "requirements": {
-                "vitality": 1,
-                "damage.exile": 1
-            },
-            "effects": {
-                "vitality": -1,
-                "damage.exile": -1
-            },
-            "warmup": 30,
-            "craftable": true
-        },
-        {
-            "id": "relinquish.healwound.hint",
-            "actionid": "relinquish",
-            "label": "治癒傷口？",
-            "startdescription": "我可以用偷來的十年治癒我的傷口——儘管這可能會引來清算人的注意。或者如果我找到了活力的來源，我也可以用活力來治癒傷口。當然，有時間的話，我也可以等待傷口自行癒合。",
-            "requirements": {
-                "damage.exile": 1
-            },
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "relinquish.decade.unpack",
-            "actionid": "relinquish",
-            "label": "打碎偷來的十年",
-            "startdescription": "偷來的一年比偷來的十年更容易出手。我有可以將十年化整為零的工具，但我必須謹慎下筆，字跡工整。先於太陽而來者從不容忍粗心大意。[十年是無法賣掉的，但一年不能用來治癒傷口。此外一年不能重新合為十年。]",
-            "description": "終於完成了。我對著灰燼帳簿仔細地填好了十份匯票，接著燒掉代表十年的那張。每一張新票都價值四千兩百萬次人類的心跳。我覺得自己甚至能聽到它們在紙上顫抖的聲音……",
-            "requirements": {
-                "decade.stolen": 1
-            },
-            "effects": {
-                "decade.stolen": -1,
-                "year.stolen": 10
-            },
-            "warmup": 30,
-            "craftable": true
-        },
-        {
-            "id": "relinquish.convertyear",
-            "actionid": "relinquish",
-            "label": "快速籌集現金",
-            "startdescription": "直接用歲月換錢賣不來高價，還會很快引來清算人的注意。要是有更好的選擇，我就該盡量迴避此事。",
-            "description": "煙霧繚繞的房間；皺巴巴的鈔票。我受夠了。[行動是一種更安全的將歲月轉換為現金的方式。大多數行動都需要人脈。]",
-            "requirements": {
-                "year.stolen": 1
-            },
-            "effects": {
-                "year.stolen": -1,
-                "cash": 1
-            },
-            "aspects": {
-                "terribletracerisk": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "relinquish.corpse.exile.underling.defiance",
-            "actionid": "relinquish",
-            "label": "慶祝我的勝利",
-            "startdescription": "抗爭與征服之司辰認可勝利。我可以用這個戰利品抬高我在他們眼中的地位。",
-            "description": "事成。多翼者在白晝與黑夜拼殺的時辰從天而降，審判我的戰利品，待它們離開後，只剩下幾片碎骨、幾縷毛髮。",
-            "requirements": {
-                "corpse.exile.underling": 1,
-                "temptation.defiance": 1,
-                "defiance.underlingdefeated": -1
-            },
-            "effects": {
-                "corpse.exile.underling": -1
-            },
-            "mutations": [
-                {
-                    "filter": "temptation.defiance",
-                    "mutate": "defiance.underlingdefeated",
-                    "level": 1
-                },
-                {
-                    "filter": "temptation.defiance",
-                    "mutate": "defiancemarks",
-                    "level": 1,
-                    "additive": true
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "relinquish.corpse.exile.underling.lore",
-            "actionid": "relinquish",
-            "label": "從我的勝利中學習",
-            "startdescription": "只有憑藉敵人的鮮血，某些技藝才能被融會貫通。",
-            "description": "這個過程並不乾淨，也不愉快……但我對各種致命之舉有了更深刻的理解。",
-            "requirements": {
-                "corpse.exile.underling": 1,
-                "lore": 1
-            },
-            "effects": {
-                "corpse.exile.underling": -1
-            },
-            "aspects": {
-                "epiphany": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "relinquish.corpse.exile",
-            "actionid": "relinquish",
-            "label": "一場隱蔽的葬禮",
-            "startdescription": "若不將此人埋葬，就實在太不體面了。但是這場葬禮不應鋪張，以免引人耳目。",
-            "description": "我們悄悄弄走了這具可憐的軀殼。任何尋找他的人都只會發現一連串錯誤的線索。",
-            "requirements": {
-                "corpse.exile": 1,
-                "deception": 2
-            },
-            "effects": {
-                "corpse.exile": -1,
-                "obscurity": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "relinquish.trace.connections",
-            "actionid": "relinquish",
-            "label": "掩蓋我的痕跡",
-            "startdescription": "我的同夥會幫我篡改必要的紀錄。",
-            "description": "“書籍是不死的記憶”……從未遭遇過老練偽造者的人如是說。",
-            "requirements": {
-                "trace": 1,
-                "deception": 2,
-                "connection": 2
-            },
-            "effects": {
-                "trace": -1,
-                "obscurity": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "relinquish.night.connection",
-            "actionid": "relinquish",
-            "label": "掩蓋我的痕跡",
-            "startdescription": "當月亮落下時，我們將開始實施我們的計劃。",
-            "description": "太陽在失落的另一重歷史中升起。",
-            "requirements": {
-                "trace": 1,
-                "deception": 2,
-                "connection": 1,
-                "op.night": 1
-            },
-            "effects": {
-                "trace": -1,
-                "obscurity": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "relinquish.trace.space.connection",
-            "actionid": "relinquish",
-            "label": "掩蓋我的痕跡",
-            "startdescription": "我的朋友會保證作為誘餌之人一直待在那裡。",
-            "description": "我拿了一件舊大衣給誘餌。希望此人不要死得太慘。",
-            "requirements": {
-                "trace": 1,
-                "deception": 2,
-                "space": 1,
-                "connection": 1
-            },
-            "effects": {
-                "trace": -1,
-                "obscurity": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "relinquish.trace.space.night",
-            "actionid": "relinquish",
-            "label": "掩蓋我的痕跡",
-            "startdescription": "我會在夜間溜出去。",
-            "description": "在接下來的幾天裡都不會有人意識到我已經離開此地……到時候我會從其他地方出發。",
-            "requirements": {
-                "trace": 1,
-                "deception": 2,
-                "space": 1,
-                "op.night": 1
-            },
-            "effects": {
-                "trace": -1,
-                "obscurity": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "relinquish.trace.space",
-            "actionid": "relinquish",
-            "label": "掩蓋我的痕跡？",
-            "startdescription": "[你可以用一處住所加上一張“黑夜”或“人脈”的機會卡來消除痕跡，但不要用兩處住所。]",
-            "requirements": {
-                "trace": 1,
-                "deception": 2,
-                "space": 1
-            },
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "relinquish.trace",
-            "actionid": "relinquish",
-            "label": "掩蓋我的痕跡",
-            "startdescription": "我可以誤導跟隨我蹤跡的敵人。",
-            "description": "我彷彿是霧。",
-            "requirements": {
-                "trace": 1,
-                "deception": 2
-            },
-            "effects": {
-                "trace": -1,
-                "obscurity": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "relinquish.corpse.exile.underling.defiance.already.hint",
-            "actionid": "relinquish",
-            "label": "已被承認",
-            "startdescription": "已經有一場這樣的勝利得到了多翼者們的承認，它們是被殺之人的審判者。我不應該再麻煩它們了。",
-            "requirements": {
-                "corpse.exile.underling": 1,
-                "temptation.defiance": 1,
-                "defiance.underlingdefeated": 1
-            },
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "relinquish.corpse.exile.underling.hint",
-            "actionid": "relinquish",
-            "label": "死者的用處？",
-            "startdescription": "作為財產來說，人的屍體頗為不便，但有時也有它的價值。",
-            "requirements": {
-                "corpse.exile.underling": 1
-            },
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "relinquish.trace.hint.space",
-            "actionid": "relinquish",
-            "label": "掩蓋我的痕跡？",
-            "startdescription": "一個我再也不會去的地方……[加入另一張帶有“欺瞞”性相的卡牌，但不要另外加地址。]",
-            "requirements": {
-                "trace": 1,
-                "space": 1
-            },
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "relinquish.trace.hint.connection",
-            "actionid": "relinquish",
-            "label": "掩蓋我的痕跡？",
-            "startdescription": "有了熟悉此地的朋友相助……[加入另一張帶有“欺瞞”性相的卡牌。]",
-            "requirements": {
-                "trace": 1,
-                "connection": 1
-            },
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "relinquish.trace.hint.night",
-            "actionid": "relinquish",
-            "label": "掩蓋我的痕跡？",
-            "startdescription": "當黑夜蒙蔽了警惕的眼睛……[加入另一張帶有“欺瞞”性相的卡牌。]",
-            "requirements": {
-                "trace": 1,
-                "op.night": 1
-            },
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "relinquish.trace.hint",
-            "actionid": "relinquish",
-            "label": "掩蓋我的痕跡？",
-            "startdescription": "只要有合適的資源，我就能甩掉我的敵人，讓他們嗅不到我的氣味。[使用兩張帶有“欺瞞”性相的卡牌，但不要使用超過一個地址。]",
-            "requirements": {
-                "trace": 1
-            },
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "relinquish.sell",
-            "actionid": "relinquish",
-            "label": "試圖出售資產換取現金",
-            "startdescription": "@#licence.medical|我總能找到一個覺得自己配得上當醫生的人。\n#|也許我更需要現金。@ [這將把資產換成與其價值相等的現金。]",
-            "requirements": {
-                "worth": 1,
-                "cash": -1,
-                "trace": -1
-            },
-            "extantreqs": {
-                "asset.packed": -1
-            },
-            "comments": "cash also has worth, but let's not convert it back to cash",
-            "effects": {
-                "cash": "worth",
-                "asset": -1
-            },
-            "warmup": 30,
-            "craftable": true
-        },
-        {
-            "id": "relinquish.abandon",
-            "actionid": "relinquish",
-            "label": "放棄一項資產",
-            "startdescription": "當你被魔鬼追逐時，就必須輕裝前進。[用這個來擺脫任何你沒有時間隨身攜帶的可移動資產。]",
-            "requirements": {
-                "asset": 1,
-                "trace": -1
-            },
-            "extantreqs": {
-                "asset.packed": 1
-            },
-            "effects": {
-                "asset": -1
-            },
-            "warmup": 1,
-            "craftable": true
-        },
-        {
-            "id": "relinquish.provoke",
-            "actionid": "relinquish",
-            "label": "激怒我的聯絡人",
-            "startdescription": "我不是唯一一個有敵人的人。如果我把自己與這一方的不和公之於眾，我可能會獲得@#connection.official|黑社會人脈\n#connection.holy|激進分子人脈\n#connection.radicals|官方人脈\n#connection.ruler|激進分子人脈\n#connection.underworld|官方人脈@。或者我可能會惹惱我現在的聯絡人。[這通常有用，但有時會失敗，且會讓你失去目前的人脈並產生痕跡。]",
-            "requirements": {
-                "connection": 1,
-                "trace": -1
-            },
-            "linked": [
-                {
-                    "id": "relinquish.provoke.success",
-                    "chance": 70
-                },
-                {
-                    "id": "relinquish.provoke.failure"
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "relinquish.provoke.success",
-            "actionid": "relinquish",
-            "label": "成功！",
-            "startdescription": "新朋友。",
-            "aspects": {
-                "provoking": 1
-            }
-        },
-        {
-            "id": "relinquish.provoke.failure",
-            "actionid": "relinquish",
-            "label": "糟糕——",
-            "startdescription": "我知道那些言辭不好，但我沒有意識到<i>多麼</i>不好。",
-            "effects": {
-                "connection": -1,
-                "trace": 1
-            }
-        }
-    ]
+	"recipes": [
+		{
+			"id": "relinquish.first",
+			"label": "出讓",
+			"startdescription": "當我帶走那些歲月時，有人向我開了一槍。我幾乎忘了這事。",
+			"description": "我已經給傷口換了藥。它也不影響我的活動。我可以等待傷口自己癒合，而如果我很著急，也可以用偷來的歲月治癒它——但這需要整整十年的時間，並且肯定會引起注意。"
+		},
+		{
+			"id": "relinquish.decade.healwound.foe",
+			"label": "用偷來的十年治癒傷口",
+			"startdescription": "我須在黎明來臨之際，於全然安靜處點燃所用歲月，並將其灰燼敷於傷口之上。不論何時，這都並非易事，但如今此事將更為艱難，大敵整夜都在追蹤著我。[你需要一張“黎明”機會卡來完成行動。]",
+			"description": "我沒有足夠的時間，也沒有足夠安靜的環境。[準備好“黎明”機會卡。]",
+			"slots": [
+				{
+					"id": "dawn",
+					"label": "黎明",
+					"description": "時機"
+				}
+			]
+		},
+		{
+			"id": "relinquish.decade.healwound.success.foe",
+			"label": "用偷來的十年治癒傷口",
+			"startdescription": "我從昕旦那裡買回了一點時間。"
+		},
+		{
+			"id": "relinquish.decade.healwound",
+			"label": "用偷來的十年治癒傷口",
+			"startdescription": "我須在黎明來臨之際，於全然安靜處點燃所用歲月——昕旦對此頗為挑剔——並將其灰燼敷於傷口之上。[你需要一張“黎明”機會卡來完成行動。]",
+			"description": "我沒有足夠的時間，也沒有足夠安靜的環境。[準備好“黎明”機會卡。]",
+			"slots": [
+				{
+					"id": "dawn",
+					"label": "黎明",
+					"description": "時機"
+				}
+			]
+		},
+		{
+			"id": "relinquish.decade.healwound.success",
+			"label": "用偷來的十年治癒傷口",
+			"startdescription": "昕旦不仁。她總是索取必要之物。但祈求仁慈從不是我的風格。[追蹤你的清算人已經嗅到了歲月燃燒的氣味。]"
+		},
+		{
+			"id": "relinquish.vitality.healwound",
+			"label": "用活力治癒傷口",
+			"startdescription": "作為一名清算人，我很久以前就學會了如何重新引導突然洶湧而至的生命。",
+			"description": "無形之術的學徒此刻定會向轟雷之皮祈禱。但我有更好的辦法。"
+		},
+		{
+			"id": "relinquish.healwound.hint",
+			"label": "治癒傷口？",
+			"startdescription": "我可以用偷來的十年治癒我的傷口——儘管這可能會引來清算人的注意。或者如果我找到了活力的來源，我也可以用活力來治癒傷口。當然，有時間的話，我也可以等待傷口自行癒合。"
+		},
+		{
+			"id": "relinquish.decade.unpack",
+			"label": "打碎偷來的十年",
+			"startdescription": "偷來的一年比偷來的十年更容易出手。我有可以將十年化整為零的工具，但我必須謹慎下筆，字跡工整。先於太陽而來者從不容忍粗心大意。[十年是無法賣掉的，但一年不能用來治癒傷口。此外一年不能重新合為十年。]",
+			"description": "終於完成了。我對著灰燼帳簿仔細地填好了十份匯票，接著燒掉代表十年的那張。每一張新票都價值四千兩百萬次人類的心跳。我覺得自己甚至能聽到它們在紙上顫抖的聲音……"
+		},
+		{
+			"id": "relinquish.convertyear",
+			"label": "快速籌集現金",
+			"startdescription": "直接用歲月換錢賣不來高價，還會很快引來清算人的注意。要是有更好的選擇，我就該盡量迴避此事。",
+			"description": "煙霧繚繞的房間；皺巴巴的鈔票。我受夠了。[行動是一種更安全的將歲月轉換為現金的方式。大多數行動都需要人脈。]"
+		},
+		{
+			"id": "relinquish.corpse.exile.underling.defiance",
+			"label": "慶祝我的勝利",
+			"startdescription": "抗爭與征服之司辰認可勝利。我可以用這個戰利品抬高我在他們眼中的地位。",
+			"description": "事成。多翼者在白晝與黑夜拼殺的時辰從天而降，審判我的戰利品，待它們離開後，只剩下幾片碎骨、幾縷毛髮。"
+		},
+		{
+			"id": "relinquish.corpse.exile.underling.lore",
+			"label": "從我的勝利中學習",
+			"startdescription": "只有憑藉敵人的鮮血，某些技藝才能被融會貫通。",
+			"description": "這個過程並不乾淨，也不愉快……但我對各種致命之舉有了更深刻的理解。"
+		},
+		{
+			"id": "relinquish.corpse.exile",
+			"label": "一場隱蔽的葬禮",
+			"startdescription": "若不將此人埋葬，就實在太不體面了。但是這場葬禮不應鋪張，以免引人耳目。",
+			"description": "我們悄悄弄走了這具可憐的軀殼。任何尋找他的人都只會發現一連串錯誤的線索。"
+		},
+		{
+			"id": "relinquish.trace.connections",
+			"label": "掩蓋我的痕跡",
+			"startdescription": "我的同夥會幫我篡改必要的紀錄。",
+			"description": "“書籍是不死的記憶”……從未遭遇過老練偽造者的人如是說。"
+		},
+		{
+			"id": "relinquish.night.connection",
+			"label": "掩蓋我的痕跡",
+			"startdescription": "當月亮落下時，我們將開始實施我們的計劃。",
+			"description": "太陽在失落的另一重歷史中升起。"
+		},
+		{
+			"id": "relinquish.trace.space.connection",
+			"label": "掩蓋我的痕跡",
+			"startdescription": "我的朋友會保證作為誘餌之人一直待在那裡。",
+			"description": "我拿了一件舊大衣給誘餌。希望此人不要死得太慘。"
+		},
+		{
+			"id": "relinquish.trace.space.night",
+			"label": "掩蓋我的痕跡",
+			"startdescription": "我會在夜間溜出去。",
+			"description": "在接下來的幾天裡都不會有人意識到我已經離開此地……到時候我會從其他地方出發。"
+		},
+		{
+			"id": "relinquish.trace.space",
+			"label": "掩蓋我的痕跡？",
+			"startdescription": "[你可以用一處住所加上一張“黑夜”或“人脈”的機會卡來消除痕跡，但不要用兩處住所。]"
+		},
+		{
+			"id": "relinquish.trace",
+			"label": "掩蓋我的痕跡",
+			"startdescription": "我可以誤導跟隨我蹤跡的敵人。",
+			"description": "我彷彿是霧。"
+		},
+		{
+			"id": "relinquish.corpse.exile.underling.defiance.already.hint",
+			"label": "已被承認",
+			"startdescription": "已經有一場這樣的勝利得到了多翼者們的承認，它們是被殺之人的審判者。我不應該再麻煩它們了。"
+		},
+		{
+			"id": "relinquish.corpse.exile.underling.hint",
+			"label": "死者的用處？",
+			"startdescription": "作為財產來說，人的屍體頗為不便，但有時也有它的價值。"
+		},
+		{
+			"id": "relinquish.trace.hint.space",
+			"label": "掩蓋我的痕跡？",
+			"startdescription": "一個我再也不會去的地方……[加入另一張帶有“欺瞞”性相的卡牌，但不要另外加地址。]"
+		},
+		{
+			"id": "relinquish.trace.hint.connection",
+			"label": "掩蓋我的痕跡？",
+			"startdescription": "有了熟悉此地的朋友相助……[加入另一張帶有“欺瞞”性相的卡牌。]"
+		},
+		{
+			"id": "relinquish.trace.hint.night",
+			"label": "掩蓋我的痕跡？",
+			"startdescription": "當黑夜蒙蔽了警惕的眼睛……[加入另一張帶有“欺瞞”性相的卡牌。]"
+		},
+		{
+			"id": "relinquish.trace.hint",
+			"label": "掩蓋我的痕跡？",
+			"startdescription": "只要有合適的資源，我就能甩掉我的敵人，讓他們嗅不到我的氣味。[使用兩張帶有“欺瞞”性相的卡牌，但不要使用超過一個地址。]"
+		},
+		{
+			"id": "relinquish.sell",
+			"label": "試圖出售資產換取現金",
+			"startdescription": "@#licence.medical|我總能找到一個覺得自己配得上當醫生的人。\n#|也許我更需要現金。@ [這將把資產換成與其價值相等的現金。]"
+		},
+		{
+			"id": "relinquish.abandon",
+			"label": "放棄一項資產",
+			"startdescription": "當你被魔鬼追逐時，就必須輕裝前進。[用這個來擺脫任何你沒有時間隨身攜帶的可移動資產。]"
+		},
+		{
+			"id": "relinquish.provoke",
+			"label": "激怒我的聯絡人",
+			"startdescription": "我不是唯一一個有敵人的人。如果我把自己與這一方的不和公之於眾，我可能會獲得@#connection.official|黑社會人脈\n#connection.holy|激進分子人脈\n#connection.radicals|官方人脈\n#connection.ruler|激進分子人脈\n#connection.underworld|官方人脈@。或者我可能會惹惱我現在的聯絡人。[這通常有用，但有時會失敗，且會讓你失去目前的人脈並產生痕跡。]"
+		},
+		{
+			"id": "relinquish.provoke.success",
+			"label": "成功！",
+			"startdescription": "新朋友。"
+		},
+		{
+			"id": "relinquish.provoke.failure",
+			"label": "糟糕——",
+			"startdescription": "我知道那些言辭不好，但我沒有意識到<i>多麼</i>不好。"
+		}
+	]
 }
-
-

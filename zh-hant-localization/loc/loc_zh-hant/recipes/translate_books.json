@@ -1,28 +1,15 @@
 {
-    "recipes": [
-        {
-            "id": "translatehint",
-            "label": "嘗試翻譯文獻？",
-            "actionId": "study",
-            "requirements": {
-                "language": 1
-            },
-            "startdescription": "若我擁有以這種語言寫作的文獻，我便能開始翻譯。",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "translate",
-            "label": "開始翻譯文獻",
-            "actionId": "study",
-            "requirements": {
-                "language": 1,
-                "text": 1
-            },
-            "startdescription": "鎖緊書房房門。開始作業。",
-            "description": "我已準備好要研究的文獻。",
-            "warmup": 60,
-            "craftable": true
-        }
-    ]
+	"recipes": [
+		{
+			"id": "translatehint",
+			"label": "嘗試翻譯文獻？",
+			"startdescription": "若我擁有以這種語言寫作的文獻，我便能開始翻譯。"
+		},
+		{
+			"id": "translate",
+			"label": "開始翻譯文獻",
+			"startdescription": "鎖緊書房房門。開始作業。",
+			"description": "我已準備好要研究的文獻。"
+		}
+	]
 }

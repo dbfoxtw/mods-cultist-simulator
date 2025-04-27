@@ -1,119 +1,54 @@
 {
-    "recipes": [
-        {
-            "id": "temptationremembrancehintdream",
-            "label": "誘惑？",
-            "actionId": "dream",
-            "requirements": {
-                "temptation.remembrance": 1
-            },
-            "startdescription": "這世上有著各種顏色，漫宿則有另一番色彩，而其他的，便是失落的色彩。它們的缺失讓我放不下畫刀。[回憶的誘惑已將它的牙齒沒入了你，其他的誘惑將無法再染指你。]",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "vitalityhintdream",
-            "label": "活力",
-            "actionId": "dream",
-            "requirements": {
-                "vitality": 1
-            },
-            "startdescription": "它無法激發夢境。但研究它能增進我的健康。",
-            "craftable": false,
-            "hintonly": true,
-            "comments": "Not currently possible with restrictions on Dream primary slot"
-        },
-        {
-            "id": "eruditionhintdream",
-            "label": "博聞",
-            "actionId": "dream",
-            "requirements": {
-                "erudition": 1
-            },
-            "startdescription": "它無法激發夢境。但研究它能增進我的理性。",
-            "craftable": false,
-            "hintonly": true,
-            "comments": "Not currently possible with restrictions on Dream primary slot"
-        },
-        {
-            "id": "glimmeringhintdream",
-            "label": "靈感",
-            "actionId": "dream",
-            "requirements": {
-                "glimmering": 1
-            },
-            "startdescription": "它現在還無法激發夢境。但研究它能增進我的激情。",
-            "craftable": false,
-            "hintonly": true,
-            "comments": "Not currently possible with restrictions on Dream primary slot"
-        },
-        {
-            "id": "contentmenthintdream",
-            "label": "安逸",
-            "actionId": "dream",
-            "requirements": {
-                "contentment": 1
-            },
-            "startdescription": "安逸不是通往夢境的鑰匙，但夢境有時讓我感到安逸。",
-            "craftable": false,
-            "hintonly": true,
-            "comments": "Not currently possible with restrictions on Dream primary slot"
-        },
-        {
-            "id": "dedicationtoobsession_power_hint",
-            "label": "下一步",
-            "actionId": "dream",
-            "requirements": {
-                "ascensionpowerb": 1
-            },
-            "startdescription": "我已經在夢境中來到了我所能抵達的最遠處。我必須要開始施行“功業”了（在<b><作業></b>進行）。",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "dedicationtoobsession_enlightenment_hint",
-            "label": "下一步",
-            "actionId": "dream",
-            "requirements": {
-                "ascensionenlightenmentb": 1
-            },
-            "startdescription": "我已經在夢境中來到了我所能抵達的最遠處。我必須要開始施行“功業”了。",
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "tryreducefascination",
-            "label": "尋求冷靜？",
-            "actionId": "dream",
-            "requirements": {
-                "fascination": 1
-            },
-            "startdescription": "幻象之門紛紛向我敞開。些微的黑暗會讓我的光更加圓融。恐懼亦有其作用。",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "tryrecoverreason",
-            "label": "放空頭腦？",
-            "actionId": "dream",
-            "requirements": {
-                "dread": 1
-            },
-            "startdescription": "我只記得我有所改變；但我暫時想不起來，我是如何改變的。[使用正確的資源可以平息“恐懼”。]",
-            "hintonly": true,
-            "craftable": false
-        },
-        {
-            "id": "tryrecoverillhealth",
-            "label": "恢復？",
-            "actionId": "dream",
-            "requirements": {
-                "illhealth": 1
-            },
-            "startdescription": "休息能夠讓我恢復——如果我擁有所需的資源的話。",
-            "craftable": false,
-            "hintonly": true,
-            "comments": "This one's generic."
-        }
-    ]
+	"recipes": [
+		{
+			"id": "temptationremembrancehintdream",
+			"label": "誘惑？",
+			"actionId": "dream"
+		},
+		{
+			"id": "vitalityhintdream",
+			"label": "活力",
+			"actionId": "dream"
+		},
+		{
+			"id": "eruditionhintdream",
+			"label": "博聞",
+			"actionId": "dream"
+		},
+		{
+			"id": "glimmeringhintdream",
+			"label": "靈感",
+			"actionId": "dream"
+		},
+		{
+			"id": "contentmenthintdream",
+			"label": "安逸",
+			"actionId": "dream"
+		},
+		{
+			"id": "dedicationtoobsession_power_hint",
+			"label": "下一步",
+			"actionId": "dream"
+		},
+		{
+			"id": "dedicationtoobsession_enlightenment_hint",
+			"label": "下一步",
+			"actionId": "dream"
+		},
+		{
+			"id": "tryreducefascination",
+			"label": "尋求冷靜？",
+			"actionId": "dream"
+		},
+		{
+			"id": "tryrecoverreason",
+			"label": "放空頭腦？",
+			"actionId": "dream"
+		},
+		{
+			"id": "tryrecoverillhealth",
+			"label": "恢復？",
+			"actionId": "dream"
+		}
+	]
 }

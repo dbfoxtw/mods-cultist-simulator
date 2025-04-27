@@ -1,55 +1,16 @@
 {
-    "recipes": [
-        {
-            "id": "explore_vaultfloating1_setup",
-            "label": "探險開始：赫柏·斯坦頓號",
-            "actionId": "explore",
-            "requirements": {
-                "funds": 1,
-                "follower": 1,
-                "vaultfloating1": 1
-            },
-            "effects": {
-                "guardian_watchers": 1,
-                "seal_wardeddoor": 1,
-                "peril_sea": 1
-            },
-            "startdescription": "客船是極少造訪赫柏·斯坦頓號停泊的這座陰沉的海島的——但我們可以包下一艘漁船，然後聽憑海浪的安排。穿過守衛與重重門關的真正工作始於我們登上赫柏·斯坦頓號後。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
-            "description": ".",
-            "warmup": 30,
-            "craftable": true,
-            "linked": [
-                {
-                    "id": "explorevault_expeditionbegun",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "explorevaultfloating1_success",
-            "label": "一座舒適的巢",
-            "actionId": "explore",
-            "requirements": {
-                "vaultfloating1": 1
-            },
-            "effects": {
-                "vaultfloating1": -1
-            },
-            "internaldeck": {
-                "spec": [
-                    "ceaselesstantrasanskrit",
-                    "leoninetantrasanskrit",
-                    "incandescenttantrasanskrit",
-                    "firecircletantrasanskrit"
-                ],
-                "draws": 4,
-                "defaultcard": "compensationd",
-                "resetonexhaustion": false
-            },
-            "startdescription": "船上的乘客寥寥—難怪如此，既然這艘船的目的地是這座這沉悶而冰冷的島嶼。不過乘客至少有一名之數——此人用不止是物理上的門鎖守住了他的艙門。他肯定上岸去了。他隨時可能回來——",
-            "description": "我們把行李全部打開，把書本倒過來來回抖動，圖畫翻過來檢查背面。我們找到了衣物、票據、地圖，沒有什麼出格的東西……除了一片奇妙的、半透明的物質，狀如蛇蛻，搭在椅子背上。最後，我們在劈開床墊搜查裡面的填充物時，找到了一小堆象牙製卷軸筒。",
-            "warmup": 30,
-            "craftable": false
-        }
-    ]
+	"recipes": [
+		{
+			"id": "explore_vaultfloating1_setup",
+			"label": "探險開始：赫柏·斯坦頓號",
+			"startdescription": "客船是極少造訪赫柏·斯坦頓號停泊的這座陰沉的海島的——但我們可以包下一艘漁船，然後聽憑海浪的安排。穿過守衛與重重門關的真正工作始於我們登上赫柏·斯坦頓號後。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
+			"description": "."
+		},
+		{
+			"id": "explorevaultfloating1_success",
+			"label": "一座舒適的巢",
+			"startdescription": "船上的乘客寥寥—難怪如此，既然這艘船的目的地是這座這沉悶而冰冷的島嶼。不過乘客至少有一名之數——此人用不止是物理上的門鎖守住了他的艙門。他肯定上岸去了。他隨時可能回來——",
+			"description": "我們把行李全部打開，把書本倒過來來回抖動，圖畫翻過來檢查背面。我們找到了衣物、票據、地圖，沒有什麼出格的東西……除了一片奇妙的、半透明的物質，狀如蛇蛻，搭在椅子背上。最後，我們在劈開床墊搜查裡面的填充物時，找到了一小堆象牙製卷軸筒。"
+		}
+	]
 }

@@ -1,725 +1,161 @@
 {
-    "recipes": [
-        {
-            "id": "rkx.foe.arrive",
-            "actionid": "rkx.foe",
-            "label": "大敵將臨！",
-            "startdescription": "寒霜凍實了窗子，燭焰在陰影中蜷曲。我太了解這些跡象的含義了。",
-            "effects": {
-                "rkx.foe": 1
-            },
-            "extantreqs": {
-                "rkx.foe.defeated": -1
-            },
-            "warmup": 10,
-            "alt": [
-                {
-                    "id": "rkx.spawn.escort",
-                    "additional": true
-                }
-            ],
-            "linked": [
-                {
-                    "id": "rkx.foe.obscured"
-                },
-                {
-                    "id": "rkx.foe.attack"
-                }
-            ]
-        },
-        {
-            "id": "rkx.foe.arrive.mapedge",
-            "actionid": "rkx.foe",
-            "label": "大敵將至！",
-            "startdescription": "我的倒影映在刀面上，如同映在水中一般搖晃顫抖。在昕旦所偏愛的冷冽黎明，我的影子顯得長而怪異。這些都是我那大敵逼近的跡象。榮譽，或是傲慢，叫他孤身前來。",
-            "effects": {
-                "rkx.foe": 1
-            },
-            "extantreqs": {
-                "rkx.foe.defeated": -1
-            },
-            "linked": [
-                {
-                    "id": "rkx.foe.obscured"
-                },
-                {
-                    "id": "rkx.foe.attack"
-                }
-            ],
-            "warmup": 10
-        },
-        {
-            "id": "rkx.foe.arrive.defiance",
-            "actionid": "rkx.foe",
-            "label": "我引來了我的大敵！",
-            "startdescription": "希望我不會為此後悔。",
-            "effects": {
-                "rkx.foe": 1
-            },
-            "extantreqs": {
-                "rkx.foe.defeated": -1
-            },
-            "alt": [
-                {
-                    "id": "foe.weaknesses.generate.backup",
-                    "additional": true
-                }
-            ],
-            "warmup": 10,
-            "linked": [
-                {
-                    "id": "rkx.foe.attack"
-                }
-            ]
-        },
-        {
-            "id": "rkx.foe.selector",
-            "actionid": "rkx.foe",
-            "label": "我的大敵正在追蹤我",
-            "startdescription": "即使我看不見他，我也清楚他就在那裡，隨時都可能發起攻擊。",
-            "warmup": 5,
-            "linked": [
-                {
-                    "id": "rkx.foe.obscured"
-                },
-                {
-                    "id": "rkx.foe.attack",
-                    "chance": 30
-                },
-                {
-                    "id": "rkx.foe.selector"
-                }
-            ]
-        },
-        {
-            "id": "rkx.foe.obscured",
-            "actionid": "rkx.foe",
-            "label": "我的大敵近在咫尺！",
-            "startdescription": "“你躲不過我的。我太了解你了。”",
-            "extantreqs": {
-                "obscurity": 1
-            },
-            "effects": {
-                "obscurity": -1
-            },
-            "slots": [
-                {
-                    "id": "obscurity",
-                    "label": "隱秘",
-                    "required": {
-                        "obscurity": 1
-                    },
-                    "greedy": true
-                }
-            ],
-            "warmup": 20,
-            "linked": [
-                {
-                    "id": "rkx.foe.selector"
-                }
-            ]
-        },
-        {
-            "id": "rkx.foe.attack",
-            "actionid": "rkx.foe",
-            "label": "我的大敵正在進攻！",
-            "startdescription": "“你該跑得更遠一些。”\n[大敵的攻擊通常會命中。添加一張合適的卡牌來防禦。分心之物會讓你得到片刻喘息，但大敵只會被少數分心之物影響；一旦你發現了他的弱點，它們就會以明牌顯示。有時，他會破壞你的武器。]",
-            "slots": [
-                {
-                    "id": "defence",
-                    "label": "防禦",
-                    "required": {
-                        "lore": 1,
-                        "weapon": 1,
-                        "distraction": 1,
-                        "associate": 1,
-                        "defiance.consecration.lionsmith": 1
-                    },
-                    "forbidden": {
-                        "uq.weapon.profane": 1,
-                        "remnant": 1,
-                        "exhausted": 1
-                    }
-                }
-            ],
-            "alt": [
-                {
-                    "id": "rkx.spawn.escort",
-                    "additional": true
-                },
-                {
-                    "id": "rkx.foe.mock"
-                }
-            ],
-            "warmup": 20,
-            "effects": {
-                "husk": -1
-            },
-            "purge": {
-                "obscurity": 100
-            },
-            "linked": [
-                {
-                    "id": "rkx.foe.ligeian"
-                },
-                {
-                    "id": "rkx.foe.weaknessexploited.cold"
-                },
-                {
-                    "id": "rkx.foe.weaknessexploited.heat"
-                },
-                {
-                    "id": "rkx.foe.weaknessexploited.sea"
-                },
-                {
-                    "id": "rkx.foe.weaknessexploited.faith"
-                },
-                {
-                    "id": "rkx.foe.weaknessexploited.cats"
-                },
-                {
-                    "id": "rkx.foe.weaknessexploited.heights"
-                },
-                {
-                    "id": "rkx.foe.weaknessexploited.horned"
-                },
-                {
-                    "id": "rkx.foe.weaknessexploited.wolf"
-                },
-                {
-                    "id": "rkx.foe.weaknessexploited.flowermaker"
-                },
-                {
-                    "id": "rkx.foe.attack.success.wrongdistraction"
-                },
-                {
-                    "id": "rkx.foe.attack.success",
-                    "chance": 70
-                },
-                {
-                    "id": "rkx.foe.attack.failure"
-                }
-            ]
-        },
-        {
-            "id": "rkx.foe.mock",
-            "actionid": "rkx.foe",
-            "label": "像獅子匠般大笑",
-            "startdescription": "我可以以一種非常古老的姿勢來嘲諷我的大敵……同時將自己暴露在他的攻擊之下。或許名為獅子匠的司辰會讚賞我的勇莽。[受兩道傷，但將反抗提升一級。]",
-            "requirements": {
-                "defiance.consecration.lionsmith": 1
-            },
-            "mutations": [
-                {
-                    "filter": "defiance.consecration.lionsmith",
-                    "mutate": "defiancemarks",
-                    "level": 1,
-                    "additive": true
-                }
-            ],
-            "alt": [
-                {
-                    "id": "spit.foe.attack.success.mocked",
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 1,
-                        "filter": {
-                            "desire": 1
-                        }
-                    }
-                }
-            ],
-            "linked": [
-                {
-                    "id": "rkx.foe.attack.success.mocked"
-                }
-            ]
-        },
-        {
-            "id": "rkx.foe.attack.success.mocked",
-            "actionid": "rkx.foe",
-            "label": "一力降十會",
-            "startdescription": "我的大敵發出憤怒的嘶吼！在我來得及脫身之前，他就給了我沉重的一擊。",
-            "linked": [
-                {
-                    "id": "rkx.foe.attack"
-                }
-            ],
-            "warmup": 10
-        },
-        {
-            "id": "spit.foe.attack.success.mocked",
-            "actionid": "spit.foe.attack",
-            "label": "重傷！",
-            "startdescription": "我已為我的勇莽付出了代價——",
-            "effects": {
-                "wound.exile": 2
-            },
-            "aspects": {
-                "fatiguing": 1
-            },
-            "warmup": 2
-        },
-        {
-            "id": "rkx.foe.ligeian",
-            "actionid": "rkx.foe",
-            "label": "麗姬亞的干涉",
-            "startdescription": "即便是我的大敵也要忌憚麗姬亞。他在猶豫。",
-            "requirements": {
-                "ligeian": 1
-            },
-            "effects": {
-                "ligeian": -1
-            },
-            "warmup": 30,
-            "alt": [
-                {
-                    "id": "spit.foe.attack.failure.ligeian",
-                    "additional": true
-                }
-            ],
-            "linked": [
-                {
-                    "id": "rkx.foe.selector"
-                }
-            ]
-        },
-        {
-            "id": "rkx.foe.weaknessexploited.cold",
-            "actionid": "rkx.foe",
-            "label": "北風是我的屏障——",
-            "startdescription": "傳言是真的——風雪使我的大敵頭腦愚鈍、行動遲緩。",
-            "requirements": {
-                "op.cold": 1
-            },
-            "extantreqs": {
-                "uq.rkx.weakness.cold": 1
-            },
-            "purge": {
-                "rkx.weakness.cold.hidden": 1
-            },
-            "effects": {
-                "op.cold": -1
-            },
-            "warmup": 30,
-            "linked": [
-                {
-                    "id": "rkx.foe.attack.failure"
-                }
-            ]
-        },
-        {
-            "id": "rkx.foe.weaknessexploited.heat",
-            "actionid": "rkx.foe",
-            "label": "熱風是我的屏障—— ",
-            "startdescription": "傳言是真的——只要天氣夠熱，我的大敵就會變得頭腦愚鈍、行動遲緩。",
-            "requirements": {
-                "op.heat": 1
-            },
-            "extantreqs": {
-                "uq.rkx.weakness.heat": 1
-            },
-            "purge": {
-                "rkx.weakness.heat.hidden": 1
-            },
-            "effects": {
-                "op.heat": -1
-            },
-            "warmup": 30,
-            "linked": [
-                {
-                    "id": "rkx.foe.selector"
-                }
-            ]
-        },
-        {
-            "id": "rkx.foe.weaknessexploited.sea",
-            "actionid": "rkx.foe",
-            "label": "海洋是我的屏障——",
-            "startdescription": "所有清算人面對海洋都十分謹慎。但我聽說的事情是真的：我的大敵尤其害怕海洋的觸碰。",
-            "requirements": {
-                "op.sea": 1
-            },
-            "extantreqs": {
-                "uq.rkx.weakness.sea": 1
-            },
-            "purge": {
-                "rkx.weakness.sea.hidden": 1
-            },
-            "effects": {
-                "op.sea": -1
-            },
-            "warmup": 30,
-            "linked": [
-                {
-                    "id": "rkx.foe.selector"
-                }
-            ]
-        },
-        {
-            "id": "rkx.foe.weaknessexploited.faith",
-            "actionid": "rkx.foe",
-            "label": "舊習",
-            "startdescription": "正如我一直以來懷疑的那般，大敵的教育經歷在他身上留下了印記。他不是一個教徒，但他尊重信仰並受縛於此。",
-            "requirements": {
-                "op.faith": 1
-            },
-            "extantreqs": {
-                "uq.rkx.weakness.faith": 1
-            },
-            "purge": {
-                "rkx.weakness.faith.hidden": 1
-            },
-            "effects": {
-                "op.faith": -1
-            },
-            "warmup": 30,
-            "linked": [
-                {
-                    "id": "rkx.foe.selector"
-                }
-            ]
-        },
-        {
-            "id": "rkx.foe.weaknessexploited.cats",
-            "actionid": "rkx.foe",
-            "label": "獅子匠最微小的作品",
-            "startdescription": "這是真的！我的大敵怕貓！長久以來，哪怕只是有人暗示著提到了一星半點，他都恨不得殺死對方。現在我知道原因了。",
-            "requirements": {
-                "op.cats": 1
-            },
-            "extantreqs": {
-                "uq.rkx.weakness.cats": 1
-            },
-            "purge": {
-                "rkx.weakness.cats.hidden": 1
-            },
-            "effects": {
-                "op.cats": -1
-            },
-            "warmup": 30,
-            "linked": [
-                {
-                    "id": "rkx.foe.selector"
-                }
-            ]
-        },
-        {
-            "id": "rkx.foe.weaknessexploited.heights",
-            "actionid": "rkx.foe",
-            "label": "重力的威脅",
-            "startdescription": "高處令我的大敵頭暈目眩，意志消沉。我利用了這個優勢。",
-            "requirements": {
-                "op.heights": 1
-            },
-            "extantreqs": {
-                "uq.rkx.weakness.heights": 1
-            },
-            "purge": {
-                "rkx.weakness.heights.hidden": 1
-            },
-            "effects": {
-                "op.heights": -1
-            },
-            "warmup": 30,
-            "linked": [
-                {
-                    "id": "rkx.foe.selector"
-                }
-            ]
-        },
-        {
-            "id": "rkx.foe.weaknessexploited.horned",
-            "actionid": "rkx.foe",
-            "label": "利斧的陰影",
-            "startdescription": "雙角利斧並不眷顧我的大敵。它的影子不論落在哪裡，都會讓他猶豫不前。",
-            "requirements": {
-                "op.horned": 1
-            },
-            "extantreqs": {
-                "uq.rkx.weakness.horned": 1
-            },
-            "purge": {
-                "rkx.weakness.horned.hidden": 1
-            },
-            "effects": {
-                "op.horned": -1
-            },
-            "warmup": 30,
-            "linked": [
-                {
-                    "id": "rkx.foe.selector"
-                }
-            ]
-        },
-        {
-            "id": "rkx.foe.weaknessexploited.wolf",
-            "actionid": "rkx.foe",
-            "label": "狼的吐息",
-            "startdescription": "在我那大敵漫長而可恥的生涯中，他曾做的某事引起了裂分之狼特別的恨意。在其氣息強烈之地，他便小心謹慎。",
-            "requirements": {
-                "op.wolf": 1
-            },
-            "extantreqs": {
-                "uq.rkx.weakness.wolf": 1
-            },
-            "purge": {
-                "rkx.weakness.wolf.hidden": 1
-            },
-            "effects": {
-                "op.wolf": -1
-            },
-            "warmup": 30,
-            "linked": [
-                {
-                    "id": "rkx.foe.selector"
-                }
-            ]
-        },
-        {
-            "id": "rkx.foe.weaknessexploited.flowermaker",
-            "actionid": "rkx.foe",
-            "label": "制花人的光芒",
-            "startdescription": "制花人的影響中有什麼對我的大敵造成了困擾。我大概永遠都搞不清那到底是什麼。",
-            "requirements": {
-                "op.flowermaker": 1
-            },
-            "extantreqs": {
-                "uq.rkx.weakness.flowermaker": 1
-            },
-            "purge": {
-                "rkx.weakness.flowermaker.hidden": 1
-            },
-            "effects": {
-                "op.flowermaker": -1
-            },
-            "warmup": 30,
-            "linked": [
-                {
-                    "id": "rkx.foe.selector"
-                }
-            ]
-        },
-        {
-            "id": "rkx.foe.attack.success.wrongdistraction",
-            "actionid": "rkx.foe",
-            "label": "嗤之以鼻",
-            "requirements": {
-                "lore": -1,
-                "weapon": -1,
-                "associate": -1,
-                "distraction": 1
-            },
-            "startdescription": "@#op.cold|“我於雪中 <i>誕生</i>。”\n#op.heat|“正是我想要的天氣。”\n#op.sea|“好主意，我會用你屍體餵鯊魚的。”\n#op.cats|“過來，咪咪，來這裡。”\n#op.heights|“你有得摔呢。”\n#op.faith|“選錯神了。”\n#op.flowermaker|“我拜請制花人，祂永遠有我渴求之物……”\n#op.horned|“雙角利斧，割合剖聚之神。來啊，咱們分析一下你是個什麼貨色。”\n#op.wolf|“很恰當，你將屍骨無存。” [這並非大敵的弱點。]@",
-            "aspects": {
-                "fatiguing": 1
-            },
-            "alt": [
-                {
-                    "id": "spit.foe.attack.success",
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 3,
-                        "filter": {
-                            "lore": 1,
-                            "weapon": 1,
-                            "distraction": 1
-                        }
-                    }
-                }
-            ],
-            "effects": {
-                "distraction": -1
-            },
-            "linked": [
-                {
-                    "id": "rkx.foe.selector"
-                }
-            ],
-            "warmup": 10
-        },
-        {
-            "id": "rkx.foe.attack.success",
-            "actionid": "rkx.foe",
-            "label": "毫無防禦",
-            "startdescription": "“你總是這麼慢——”",
-            "aspects": {
-                "fatiguing": 1
-            },
-            "alt": [
-                {
-                    "id": "spit.foe.attack.success",
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 3,
-                        "filter": {
-                            "lore": 1,
-                            "weapon": 1,
-                            "distraction": 1
-                        }
-                    }
-                }
-            ],
-            "requirements": {
-                "lore": -1,
-                "weapon": -1,
-                "associate": -1
-            },
-            "linked": [
-                {
-                    "id": "rkx.foe.selector"
-                }
-            ],
-            "warmup": 10
-        },
-        {
-            "id": "spit.foe.attack.success",
-            "actionid": "spit.foe.attack",
-            "label": "沉重一擊！",
-            "startdescription": "這混蛋依舊該死地強大。[七道傷口將殺死你。]",
-            "effects": {
-                "wound.exile": 2
-            },
-            "aspects": {
-                "fatiguing": 1
-            },
-            "warmup": 2
-        },
-        {
-            "id": "rkx.foe.attack.failure",
-            "actionid": "rkx.foe",
-            "label": "大敵受阻",
-            "startdescription": "我擋下了他的攻擊—— ",
-            "alt": [
-                {
-                    "id": "spit.foe.attack.failure.lore",
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 1,
-                        "filter": {
-                            "lore": 1
-                        }
-                    }
-                },
-                {
-                    "id": "spit.foe.attack.failure.weapon",
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 1,
-                        "filter": {
-                            "weapon": 1
-                        }
-                    }
-                },
-                {
-                    "id": "spit.foe.attack.failure.associate",
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 1,
-                        "filter": {
-                            "associate": 1
-                        }
-                    }
-                }
-            ],
-            "linked": [
-                {
-                    "id": "rkx.foe.selector"
-                }
-            ],
-            "warmup": 10
-        },
-        {
-            "id": "spit.foe.attack.failure.lore",
-            "actionid": "spit.foe.attack.failure",
-            "requirements": {
-                "lore": 1
-            },
-            "label": "以技巧抵擋",
-            "startdescription": "行之有效。",
-            "aspects": {
-                "fatiguing": 1
-            },
-            "warmup": 2
-        },
-        {
-            "id": "spit.foe.attack.failure.weapon",
-            "actionid": "spit.foe.attack.failure",
-            "requirements": {
-                "weapon": 1
-            },
-            "label": "以武器抵擋",
-            "startdescription": "行之有效。",
-            "aspects": {
-                "fatiguing": 1
-            },
-            "linked": [
-                {
-                    "id": "spit.foe.attack.failure.weapon.broken",
-                    "chance": 30
-                }
-            ],
-            "warmup": 2
-        },
-        {
-            "id": "spit.foe.attack.failure.weapon.broken",
-            "actionid": "spit.foe.attack.failure",
-            "label": "“我也將摧毀你——”",
-            "startdescription": "@#weapon.b.2.exhausted|太近了！他劈手奪過步槍，像撅根棍子一般輕易折斷了槍管，甩在一邊。\n#weapon.b.1.exhausted|太近了！他劈手奪過步槍，像撅根棍子一般輕易折斷了槍管，甩在一邊。\n#weapon.d.exhausted|他奪走了比德之刃！並且單手把它撅成了兩段。\n#weapon.e.exhausted|他掃落了我手中的覆羽！隨後風奪走了它，無影無蹤。@",
-            "requirements": {
-                "weapon.c.exhausted": -1
-            },
-            "effects": {
-                "exhausted": -3,
-                "curio": -1,
-                "husk": 1
-            },
-            "warmup": 2
-        },
-        {
-            "id": "spit.foe.attack.failure.associate",
-            "actionid": "spit.foe.attack.failure",
-            "requirements": {
-                "associate": 1
-            },
-            "label": "患難之交",
-            "startdescription": "我的同伴替我擋下了他的攻擊！",
-            "aspects": {
-                "fatiguing": 1
-            },
-            "linked": [
-                {
-                    "id": "spit.foe.attack.failure.associate.killed",
-                    "chance": 30
-                }
-            ],
-            "warmup": 2
-        },
-        {
-            "id": "spit.foe.attack.failure.associate.killed",
-            "actionid": "spit.foe.attack.failure",
-            "label": "意外的犧牲",
-            "startdescription": "我的朋友在苦戰中犧牲了！但是這也給我的大敵留下了足以銘記的東西。[盟友和同伴可能會在與大敵的戰鬥中死去。他們能傷到他，但無法造成最後一擊。]",
-            "aspects": {
-                "killmortal": 1
-            },
-            "effects": {
-                "wound.foe": 1,
-                "grief": 1
-            },
-            "warmup": 2
-        },
-        {
-            "id": "spit.foe.attack.failure.ligeian",
-            "actionid": "spit.foe.attack.failure",
-            "label": "人外有人",
-            "startdescription": "我的大敵曾與一名麗姬亞成員有過節。現在他後悔了。",
-            "effects": {
-                "wound.foe": 1
-            },
-            "warmup": 2
-        }
-    ]
+	"recipes": [
+		{
+			"id": "rkx.foe.arrive",
+			"label": "大敵將臨！",
+			"startdescription": "寒霜凍實了窗子，燭焰在陰影中蜷曲。我太了解這些跡象的含義了。"
+		},
+		{
+			"id": "rkx.foe.arrive.mapedge",
+			"label": "大敵將至！",
+			"startdescription": "我的倒影映在刀面上，如同映在水中一般搖晃顫抖。在昕旦所偏愛的冷冽黎明，我的影子顯得長而怪異。這些都是我那大敵逼近的跡象。榮譽，或是傲慢，叫他孤身前來。"
+		},
+		{
+			"id": "rkx.foe.arrive.defiance",
+			"label": "我引來了我的大敵！",
+			"startdescription": "希望我不會為此後悔。"
+		},
+		{
+			"id": "rkx.foe.selector",
+			"label": "我的大敵正在追蹤我",
+			"startdescription": "即使我看不見他，我也清楚他就在那裡，隨時都可能發起攻擊。"
+		},
+		{
+			"id": "rkx.foe.obscured",
+			"label": "我的大敵近在咫尺！",
+			"startdescription": "“你躲不過我的。我太了解你了。”",
+			"slots": [
+				{
+					"id": "obscurity",
+					"label": "隱秘"
+				}
+			]
+		},
+		{
+			"id": "rkx.foe.attack",
+			"label": "我的大敵正在進攻！",
+			"startdescription": "“你該跑得更遠一些。”\n[大敵的攻擊通常會命中。添加一張合適的卡牌來防禦。分心之物會讓你得到片刻喘息，但大敵只會被少數分心之物影響；一旦你發現了他的弱點，它們就會以明牌顯示。有時，他會破壞你的武器。]",
+			"slots": [
+				{
+					"id": "defence",
+					"label": "防禦"
+				}
+			]
+		},
+		{
+			"id": "rkx.foe.mock",
+			"label": "像獅子匠般大笑",
+			"startdescription": "我可以以一種非常古老的姿勢來嘲諷我的大敵……同時將自己暴露在他的攻擊之下。或許名為獅子匠的司辰會讚賞我的勇莽。[受兩道傷，但將反抗提升一級。]"
+		},
+		{
+			"id": "rkx.foe.attack.success.mocked",
+			"label": "一力降十會",
+			"startdescription": "我的大敵發出憤怒的嘶吼！在我來得及脫身之前，他就給了我沉重的一擊。"
+		},
+		{
+			"id": "spit.foe.attack.success.mocked",
+			"label": "重傷！",
+			"startdescription": "我已為我的勇莽付出了代價——"
+		},
+		{
+			"id": "rkx.foe.ligeian",
+			"label": "麗姬亞的干涉",
+			"startdescription": "即便是我的大敵也要忌憚麗姬亞。他在猶豫。"
+		},
+		{
+			"id": "rkx.foe.weaknessexploited.cold",
+			"label": "北風是我的屏障——",
+			"startdescription": "傳言是真的——風雪使我的大敵頭腦愚鈍、行動遲緩。"
+		},
+		{
+			"id": "rkx.foe.weaknessexploited.heat",
+			"label": "熱風是我的屏障—— ",
+			"startdescription": "傳言是真的——只要天氣夠熱，我的大敵就會變得頭腦愚鈍、行動遲緩。"
+		},
+		{
+			"id": "rkx.foe.weaknessexploited.sea",
+			"label": "海洋是我的屏障——",
+			"startdescription": "所有清算人面對海洋都十分謹慎。但我聽說的事情是真的：我的大敵尤其害怕海洋的觸碰。"
+		},
+		{
+			"id": "rkx.foe.weaknessexploited.faith",
+			"label": "舊習",
+			"startdescription": "正如我一直以來懷疑的那般，大敵的教育經歷在他身上留下了印記。他不是一個教徒，但他尊重信仰並受縛於此。"
+		},
+		{
+			"id": "rkx.foe.weaknessexploited.cats",
+			"label": "獅子匠最微小的作品",
+			"startdescription": "這是真的！我的大敵怕貓！長久以來，哪怕只是有人暗示著提到了一星半點，他都恨不得殺死對方。現在我知道原因了。"
+		},
+		{
+			"id": "rkx.foe.weaknessexploited.heights",
+			"label": "重力的威脅",
+			"startdescription": "高處令我的大敵頭暈目眩，意志消沉。我利用了這個優勢。"
+		},
+		{
+			"id": "rkx.foe.weaknessexploited.horned",
+			"label": "利斧的陰影",
+			"startdescription": "雙角利斧並不眷顧我的大敵。它的影子不論落在哪裡，都會讓他猶豫不前。"
+		},
+		{
+			"id": "rkx.foe.weaknessexploited.wolf",
+			"label": "狼的吐息",
+			"startdescription": "在我那大敵漫長而可恥的生涯中，他曾做的某事引起了裂分之狼特別的恨意。在其氣息強烈之地，他便小心謹慎。"
+		},
+		{
+			"id": "rkx.foe.weaknessexploited.flowermaker",
+			"label": "制花人的光芒",
+			"startdescription": "制花人的影響中有什麼對我的大敵造成了困擾。我大概永遠都搞不清那到底是什麼。"
+		},
+		{
+			"id": "rkx.foe.attack.success.wrongdistraction",
+			"label": "嗤之以鼻",
+			"startdescription": "@#op.cold|“我於雪中 <i>誕生</i>。”\n#op.heat|“正是我想要的天氣。”\n#op.sea|“好主意，我會用你屍體餵鯊魚的。”\n#op.cats|“過來，咪咪，來這裡。”\n#op.heights|“你有得摔呢。”\n#op.faith|“選錯神了。”\n#op.flowermaker|“我拜請制花人，祂永遠有我渴求之物……”\n#op.horned|“雙角利斧，割合剖聚之神。來啊，咱們分析一下你是個什麼貨色。”\n#op.wolf|“很恰當，你將屍骨無存。” [這並非大敵的弱點。]@"
+		},
+		{
+			"id": "rkx.foe.attack.success",
+			"label": "毫無防禦",
+			"startdescription": "“你總是這麼慢——”"
+		},
+		{
+			"id": "spit.foe.attack.success",
+			"label": "沉重一擊！",
+			"startdescription": "這混蛋依舊該死地強大。[七道傷口將殺死你。]"
+		},
+		{
+			"id": "rkx.foe.attack.failure",
+			"label": "大敵受阻",
+			"startdescription": "我擋下了他的攻擊—— "
+		},
+		{
+			"id": "spit.foe.attack.failure.lore",
+			"label": "以技巧抵擋",
+			"startdescription": "行之有效。"
+		},
+		{
+			"id": "spit.foe.attack.failure.weapon",
+			"label": "以武器抵擋",
+			"startdescription": "行之有效。"
+		},
+		{
+			"id": "spit.foe.attack.failure.weapon.broken",
+			"label": "“我也將摧毀你——”",
+			"startdescription": "@#weapon.b.2.exhausted|太近了！他劈手奪過步槍，像撅根棍子一般輕易折斷了槍管，甩在一邊。\n#weapon.b.1.exhausted|太近了！他劈手奪過步槍，像撅根棍子一般輕易折斷了槍管，甩在一邊。\n#weapon.d.exhausted|他奪走了比德之刃！並且單手把它撅成了兩段。\n#weapon.e.exhausted|他掃落了我手中的覆羽！隨後風奪走了它，無影無蹤。@"
+		},
+		{
+			"id": "spit.foe.attack.failure.associate",
+			"label": "患難之交",
+			"startdescription": "我的同伴替我擋下了他的攻擊！"
+		},
+		{
+			"id": "spit.foe.attack.failure.associate.killed",
+			"label": "意外的犧牲",
+			"startdescription": "我的朋友在苦戰中犧牲了！但是這也給我的大敵留下了足以銘記的東西。[盟友和同伴可能會在與大敵的戰鬥中死去。他們能傷到他，但無法造成最後一擊。]"
+		},
+		{
+			"id": "spit.foe.attack.failure.ligeian",
+			"label": "人外有人",
+			"startdescription": "我的大敵曾與一名麗姬亞成員有過節。現在他後悔了。"
+		}
+	]
 }
-
-

@@ -1,1069 +1,246 @@
 {
-    "recipes": [
-        {
-            "id": "studyresearch.entrypoint",
-            "actionId": "study",
-            "label": "踏入黑夜",
-            "startdescription": "智慧是一個國度，此為它的地圖。[解開兩個“密傳”片段上所有挑戰，完成研究任務。失敗的話可重試。]",
-            "description": ".",
-            "requirements": {
-                "lore": 2
-            },
-            "effects": {},
-            "warmup": 30,
-            "craftable": false,
-            "linked": [
-                {
-                    "id": "studyresearch.attemptsolve",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "studyresearch.attemptsolve",
-            "actionId": "study",
-            "label": "踏入黑夜",
-            "startdescription": "智慧是一個國度，此為它的地圖。[解開兩個“密傳”片段上所有挑戰，完成研究任務。失敗的話可重試。]",
-            "linked": [
-                {
-                    "id": "studyresearch.nochallengesremaining"
-                },
-                {
-                    "id": "studyresearch.attemptsolve.challenge.knowledge"
-                },
-                {
-                    "id": "studyresearch.attemptsolve.challenge.intuition"
-                },
-                {
-                    "id": "studyresearch.attemptsolve.challenge.grim"
-                },
-                {
-                    "id": "studyresearch.attemptsolve.challenge.obsessive"
-                },
-                {
-                    "id": "studyresearch.attemptsolve.challenge.paradox"
-                },
-                {
-                    "id": "studyresearch.attemptsolve.challenge.illumination"
-                },
-                {
-                    "id": "studyresearch.attemptsolve.challenge.practical"
-                }
-            ]
-        },
-        {
-            "id": "studyresearch.attemptsolve.challenge.knowledge",
-            "actionId": "study",
-            "label": "挑戰：知識",
-            "requirements": {
-                "challenge.knowledge": 1
-            },
-            "startdescription": "這是一方缺失拼片的拼圖。也許我會在學海的偏遠之隅找到這些片段。[投入“博聞”，或使用藏書室。]",
-            "slots": [
-                {
-                    "id": "solvechallenge",
-                    "label": "解法",
-                    "required": {
-                        "erudition": 1,
-                        "library": 1
-                    }
-                }
-            ],
-            "warmup": 30,
-            "craftable": false,
-            "linked": [
-                {
-                    "id": "studyresearch.failed.challenge.knowledge"
-                },
-                {
-                    "id": "studyresearch.solved.challenge.knowledge"
-                }
-            ]
-        },
-        {
-            "id": "studyresearch.failed.challenge.knowledge",
-            "actionId": "study",
-            "label": "行不通！",
-            "startdescription": "我的研究暫時遇到阻礙。",
-            "requirements": {
-                "erudition": -1,
-                "library": -1
-            },
-            "warmup": 30
-        },
-        {
-            "id": "studyresearch.solved.challenge.knowledge",
-            "actionId": "study",
-            "label": "原來如此——！",
-            "startdescription": "——答案如此，對吧？[你破解了一關知識挑戰。]",
-            "mutations": [
-                {
-                    "filter": "lore",
-                    "mutateAspectId": "challenge.knowledge",
-                    "level": -1
-                }
-            ],
-            "warmup": 30,
-            "effects": {
-                "erudition": -1
-            },
-            "linked": [
-                {
-                    "id": "studyresearch.attemptsolve",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "studyresearch.attemptsolve.challenge.intuition",
-            "actionId": "study",
-            "label": "挑戰：直覺",
-            "requirements": {
-                "challenge.intuition": 1
-            },
-            "startdescription": "這是一方缺失拼片的拼圖。也許我會在學海的偏遠之隅找到這些片段。[投入“靈感”，或使用聖所。]",
-            "slots": [
-                {
-                    "id": "solvechallenge",
-                    "label": "解法",
-                    "required": {
-                        "glimmering": 1,
-                        "sanctuary": 1
-                    }
-                }
-            ],
-            "warmup": 30,
-            "craftable": false,
-            "linked": [
-                {
-                    "id": "studyresearch.failed.challenge.intuition"
-                },
-                {
-                    "id": "studyresearch.solved.challenge.intuition"
-                }
-            ]
-        },
-        {
-            "id": "studyresearch.failed.challenge.intuition",
-            "actionId": "study",
-            "label": "行不通！",
-            "startdescription": "我的研究暫時遇到阻礙。",
-            "requirements": {
-                "glimmering": -1,
-                "sanctuary": -1
-            },
-            "warmup": 30
-        },
-        {
-            "id": "studyresearch.solved.challenge.intuition",
-            "actionId": "study",
-            "label": "原來如此——！",
-            "startdescription": "——答案如此，對吧？[你破解了一關直覺挑戰。]",
-            "mutations": [
-                {
-                    "filter": "lore",
-                    "mutateAspectId": "challenge.intuition",
-                    "level": -1
-                }
-            ],
-            "warmup": 30,
-            "effects": {
-                "glimmering": -1
-            },
-            "linked": [
-                {
-                    "id": "studyresearch.attemptsolve",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "studyresearch.attemptsolve.challenge.grim",
-            "actionId": "study",
-            "label": "挑戰：嚴酷的教訓",
-            "requirements": {
-                "challenge.grim": 1
-            },
-            "startdescription": "這是一方缺失拼片的拼圖。也許我會在學海的偏遠之隅找到這些片段。[投入“恐懼”，或使用暗穴，或使用技能“無聲的厚重”。“恐懼”可能越增越多。]",
-            "slots": [
-                {
-                    "id": "solvechallenge",
-                    "label": "解法",
-                    "required": {
-                        "dread": 1,
-                        "pit": 1,
-                        "skillreasond_concentration": 1
-                    }
-                }
-            ],
-            "warmup": 30,
-            "craftable": false,
-            "linked": [
-                {
-                    "id": "studyresearch.failed.challenge.grim"
-                },
-                {
-                    "id": "studyresearch.solved.challenge.grim"
-                }
-            ]
-        },
-        {
-            "id": "studyresearch.failed.challenge.grim",
-            "actionId": "study",
-            "label": "行不通！",
-            "startdescription": "我的研究暫時遇到阻礙。",
-            "requirements": {
-                "dread": -1,
-                "pit": -1,
-                "skillreasond_concentration": -1
-            },
-            "warmup": 30
-        },
-        {
-            "id": "studyresearch.solved.challenge.grim",
-            "actionId": "study",
-            "label": "原來如此——！",
-            "startdescription": "——答案如此，對吧？[你破解了一關嚴酷挑戰。]",
-            "mutations": [
-                {
-                    "filter": "lore",
-                    "mutateAspectId": "challenge.grim",
-                    "level": -1
-                }
-            ],
-            "warmup": 30,
-            "alt": [
-                {
-                    "id": "dreadinduction_ifdread",
-                    "chance": 70,
-                    "additional": true
-                }
-            ],
-            "linked": [
-                {
-                    "id": "studyresearch.attemptsolve",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "studyresearch.attemptsolve.challenge.obsessive",
-            "actionId": "study",
-            "label": "挑戰：走火入魔的研究",
-            "requirements": {
-                "challenge.obsessive": 1
-            },
-            "startdescription": "這是一方缺失拼片的拼圖。也許我會在學海的偏遠之隅找到這些片段。[交出你的“理性”，理性可能永久受損；或使用藏書室；或使用技能“永無止盡”。]",
-            "slots": [
-                {
-                    "id": "solvechallenge",
-                    "label": "解法",
-                    "required": {
-                        "reason": 1,
-                        "library": 1,
-                        "skillpassiond_unreason": 1
-                    }
-                }
-            ],
-            "warmup": 30,
-            "craftable": false,
-            "linked": [
-                {
-                    "id": "studyresearch.failed.challenge.obsessive"
-                },
-                {
-                    "id": "studyresearch.solved.challenge.obsessive"
-                }
-            ]
-        },
-        {
-            "id": "studyresearch.failed.challenge.obsessive",
-            "actionId": "study",
-            "label": "行不通！",
-            "startdescription": "我的研究暫時遇到阻礙。",
-            "requirements": {
-                "reason": -1,
-                "library": -1,
-                "skillpassiond_unreason": -1
-            },
-            "warmup": 30
-        },
-        {
-            "id": "studyresearch.solved.challenge.obsessive",
-            "actionId": "study",
-            "label": "原來如此——！",
-            "startdescription": "——答案如此，對吧？[你破解了一關走火入魔挑戰。]",
-            "aspects": {
-                "fatiguing": 1
-            },
-            "mutations": [
-                {
-                    "filter": "lore",
-                    "mutateAspectId": "challenge.obsessive",
-                    "level": -1
-                }
-            ],
-            "warmup": 30,
-            "linked": [
-                {
-                    "id": "studyresearch.damagereason",
-                    "chance": 10
-                },
-                {
-                    "id": "studyresearch.attemptsolve",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "studyresearch.damagereason",
-            "actionId": "study",
-            "label": "走火入魔帶來的重負",
-            "startdescription": "我將我的思緒像磨刀一樣磨得鋒銳。現在這把刀的刀尖折斷了。[“理性”已永久受損。]",
-            "requirements": {
-                "concentration": 1
-            },
-            "aspects": {
-                "damagereason": 1
-            },
-            "warmup": 30,
-            "linked": [
-                {
-                    "id": "studyresearch.attemptsolve",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "studyresearch.attemptsolve.challenge.paradox",
-            "actionId": "study",
-            "label": "挑戰：矛盾的解法",
-            "requirements": {
-                "challenge.paradox": 1
-            },
-            "startdescription": "這是一方缺失拼片的拼圖。也許我會在學海的偏遠之隅找到這些片段。[交出“激情”，激情可能永久受損；或使用聖所；或使用技能“洞開的靈魂”。]",
-            "slots": [
-                {
-                    "id": "solvechallenge",
-                    "label": "解法",
-                    "required": {
-                        "passion": 1,
-                        "sanctuary": 1,
-                        "skillpassiond_folly": 1
-                    }
-                }
-            ],
-            "warmup": 30,
-            "craftable": false,
-            "linked": [
-                {
-                    "id": "studyresearch.failed.challenge.paradox"
-                },
-                {
-                    "id": "studyresearch.solved.challenge.paradox"
-                }
-            ]
-        },
-        {
-            "id": "studyresearch.failed.challenge.paradox",
-            "actionId": "study",
-            "label": "行不通！",
-            "startdescription": "我的研究暫時遇到阻礙。",
-            "requirements": {
-                "passion": -1,
-                "sanctuary": -1,
-                "skillpassiond_folly": -1
-            },
-            "warmup": 30
-        },
-        {
-            "id": "studyresearch.solved.challenge.paradox",
-            "actionId": "study",
-            "label": "原來如此——！",
-            "startdescription": "——答案如此，對吧？[你破解了一關矛盾挑戰。]",
-            "aspects": {
-                "fatiguing": 1
-            },
-            "mutations": [
-                {
-                    "filter": "lore",
-                    "mutateAspectId": "challenge.paradox",
-                    "level": -1
-                }
-            ],
-            "warmup": 30,
-            "linked": [
-                {
-                    "id": "studyresearch.damagepassion",
-                    "chance": 10
-                },
-                {
-                    "id": "studyresearch.attemptsolve",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "studyresearch.damagepassion",
-            "actionId": "study",
-            "label": "迷宮的心臟",
-            "startdescription": "我追隨我的激情穿過迷宮，現在位於它的心臟。迷宮的心臟是一個漆黑、空洞的地方，被燒毀得像焦木一樣。[“激情”已永久受損。]",
-            "requirements": {
-                "passionexhausted": 1
-            },
-            "aspects": {
-                "damagepassion": 1
-            },
-            "warmup": 30,
-            "linked": [
-                {
-                    "id": "studyresearch.attemptsolve",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "studyresearch.attemptsolve.challenge.illumination",
-            "actionId": "study",
-            "label": "挑戰：光照",
-            "requirements": {
-                "challenge.illumination": 1
-            },
-            "startdescription": "這是一方缺失拼片的拼圖。也許我會在學海的偏遠之隅找到這些片段。[投入“入迷”，入迷可能越生越多；或使用藏書室；或應用技能“高深的思維”。]",
-            "slots": [
-                {
-                    "id": "solvechallenge",
-                    "label": "解法",
-                    "required": {
-                        "fascination": 1,
-                        "library": 1,
-                        "skillreasond_illumination": 1
-                    }
-                }
-            ],
-            "warmup": 30,
-            "craftable": false,
-            "linked": [
-                {
-                    "id": "studyresearch.failed.challenge.illumination"
-                },
-                {
-                    "id": "studyresearch.solved.challenge.illumination"
-                }
-            ]
-        },
-        {
-            "id": "studyresearch.failed.challenge.illumination",
-            "actionId": "study",
-            "label": "行不通！",
-            "startdescription": "我的研究暫時遇到阻礙。",
-            "requirements": {
-                "fascination": -1,
-                "library": -1,
-                "skillreasond_illumination": -1
-            },
-            "warmup": 30
-        },
-        {
-            "id": "studyresearch.solved.challenge.illumination",
-            "actionId": "study",
-            "label": "原來如此——！",
-            "startdescription": "——答案如此，對吧？[你破解了一關光照挑戰。]",
-            "mutations": [
-                {
-                    "filter": "lore",
-                    "mutateAspectId": "challenge.illumination",
-                    "level": -1
-                }
-            ],
-            "warmup": 30,
-            "alt": [
-                {
-                    "id": "fascinationinduction_iffascination",
-                    "chance": 70,
-                    "additional": true
-                }
-            ],
-            "linked": [
-                {
-                    "id": "studyresearch.attemptsolve",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "studyresearch.attemptsolve.challenge.practical",
-            "actionId": "study",
-            "label": "挑戰：應用試驗",
-            "requirements": {
-                "challenge.practical": 1
-            },
-            "startdescription": "這是一方缺失拼片的拼圖。也許我會在學海的偏遠之隅找到這些片段。[用你的“健康”冒險，或使用一名囚犯。]",
-            "slots": [
-                {
-                    "id": "solvechallenge",
-                    "label": "解法",
-                    "required": {
-                        "health": 1,
-                        "prisoner": 1
-                    }
-                }
-            ],
-            "warmup": 30,
-            "craftable": false,
-            "linked": [
-                {
-                    "id": "studyresearch.failed.challenge.practical"
-                },
-                {
-                    "id": "studyresearch.solved.challenge.practical"
-                }
-            ]
-        },
-        {
-            "id": "studyresearch.failed.challenge.practical",
-            "actionId": "study",
-            "label": "行不通！",
-            "startdescription": "我的研究暫時遇到阻礙。",
-            "requirements": {
-                "health": -1,
-                "prisoner": -1
-            },
-            "warmup": 30
-        },
-        {
-            "id": "studyresearch.solved.challenge.practical",
-            "actionId": "study",
-            "label": "原來如此——！",
-            "startdescription": "——答案如此，對吧？[你破解了一關應用挑戰。]",
-            "aspects": {
-                "fatiguing": 1
-            },
-            "mutations": [
-                {
-                    "filter": "lore",
-                    "mutateAspectId": "challenge.practical",
-                    "level": -1
-                }
-            ],
-            "warmup": 30,
-            "linked": [
-                {
-                    "id": "studyresearch.damagehealth",
-                    "chance": 30
-                },
-                {
-                    "id": "studyresearch.attemptsolve",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "studyresearch.damagehealth",
-            "actionId": "study",
-            "label": "損害",
-            "startdescription": "疼痛予人教誨，他們如是說，尤其在他們自己不疼的時候。[“健康”受到傷害。]",
-            "requirements": {
-                "fatigue": 1
-            },
-            "aspects": {
-                "damagehealth": 1
-            },
-            "warmup": 30,
-            "linked": [
-                {
-                    "id": "studyresearch.attemptsolve",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "studyresearch.nochallengesremaining",
-            "actionId": "study",
-            "label": "瞠目於光中",
-            "startdescription": "我——我現在明白了！",
-            "description": "",
-            "warmup": 30,
-            "requirements": {
-                "challenge.knowledge": -1,
-                "challenge.intuition": -1,
-                "challenge.grim": -1,
-                "challenge.obsessive": -1,
-                "challenge.paradox": -1,
-                "challenge.illumination": -1,
-                "challenge.practical": -1
-            },
-            "mutations": [
-                {
-                    "filter": "lore",
-                    "mutateAspectId": "challenge.knowledge",
-                    "level": 0
-                },
-                {
-                    "filter": "lore",
-                    "mutateAspectId": "challenge.intuition",
-                    "level": 0
-                },
-                {
-                    "filter": "lore",
-                    "mutateAspectId": "challenge.grim",
-                    "level": 0
-                },
-                {
-                    "filter": "lore",
-                    "mutateAspectId": "challenge.obsessive",
-                    "level": 0
-                },
-                {
-                    "filter": "lore",
-                    "mutateAspectId": "challenge.paradox",
-                    "level": 0
-                },
-                {
-                    "filter": "lore",
-                    "mutateAspectId": "challenge.illumination",
-                    "level": 0
-                },
-                {
-                    "filter": "lore",
-                    "mutateAspectId": "challenge.practical",
-                    "level": 0
-                }
-            ],
-            "linked": [
-                {
-                    "id": "studyproject_upgrade_edge",
-                    "chance": 100
-                },
-                {
-                    "id": "studyproject_upgrade_forge",
-                    "chance": 100
-                },
-                {
-                    "id": "studyproject_upgrade_grail",
-                    "chance": 100
-                },
-                {
-                    "id": "studyproject_upgrade_heart",
-                    "chance": 100
-                },
-                {
-                    "id": "studyproject_upgrade_lantern",
-                    "chance": 100
-                },
-                {
-                    "id": "studyproject_upgrade_moth",
-                    "chance": 100
-                },
-                {
-                    "id": "studyproject_upgrade_secrethistories",
-                    "chance": 100
-                },
-                {
-                    "id": "studyproject_upgrade_winter",
-                    "chance": 100
-                },
-                {
-                    "id": "studyproject_subvert_edgetowinter",
-                    "chance": 100
-                },
-                {
-                    "id": "studyproject_subvert_forgetoedge",
-                    "chance": 100
-                },
-                {
-                    "id": "studyproject_subvert_grailtomoth",
-                    "chance": 100
-                },
-                {
-                    "id": "studyproject_subvert_hearttograil",
-                    "chance": 100
-                },
-                {
-                    "id": "studyproject_subvert_lanterntoforge",
-                    "chance": 100
-                },
-                {
-                    "id": "studyproject_subvert_mothtolantern",
-                    "chance": 100
-                },
-                {
-                    "id": "studyproject_subvert_wintertoheart",
-                    "chance": 100
-                },
-                {
-                    "id": "studyproject_upgrade_subvert_knock",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "studyresearchtick",
-            "comments": "The lore 2 requirement means this is only available when someone has paired two lore fragments with an earlier recipe. This routes to opportunities to increase Insight.",
-            "label": "值得期待的研究",
-            "actionId": "study",
-            "requirements": {
-                "lore": 2
-            },
-            "startdescription": "這個研究項目富有潛力。當研究需求浮現時，我須得將其滿足，獲得洞見。若得到三個洞見則成功，否則失敗。",
-            "description": ".",
-            "warmup": 30,
-            "linked": [
-                {
-                    "id": "studyresearchearlyconclusion",
-                    "chance": 100
-                },
-                {
-                    "id": "studyresearchneedsreason",
-                    "chance": 50
-                },
-                {
-                    "id": "studyresearchneedserudition",
-                    "chance": 50
-                },
-                {
-                    "id": "studyresearchneedsglimmering",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "studyresearchneedsreason",
-            "label": "困惑的疑影",
-            "actionId": "study",
-            "requirements": {},
-            "effects": {},
-            "slots": [
-                {
-                    "id": "Reason",
-                    "required": {
-                        "reason": 1
-                    },
-                    "greedy": true
-                }
-            ],
-            "alt": [
-                {
-                    "id": "studyresearchreasonsuccess",
-                    "chance": 100
-                }
-            ],
-            "startdescription": "路途被困惑籠罩。我須得投入更多的理性。",
-            "description": "我得用理性促進研究的進行。",
-            "warmup": 30,
-            "craftable": false,
-            "linked": [
-                {
-                    "id": "studyresearchconclusion",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "studyresearchreasonsuccess",
-            "label": "智力之光迸發！",
-            "actionId": "study",
-            "requirements": {
-                "reason": 1
-            },
-            "effects": {
-                "insight": 1
-            },
-            "craftable": false,
-            "startdescription": "這件事更占據了我的注意。但是我的努力正在獲得回報。[獲得“洞查”。]",
-            "linked": [
-                {
-                    "id": "studyresearchtick",
-                    "chance": 100
-                }
-            ],
-            "aspects": {
-                "fatiguing": 1
-            }
-        },
-        {
-            "id": "studyresearchneedserudition",
-            "label": "謎題的拼片",
-            "actionId": "study",
-            "requirements": {},
-            "effects": {},
-            "slots": [
-                {
-                    "id": "Erudition",
-                    "required": {
-                        "erudition": 1
-                    },
-                    "consumes": true,
-                    "greedy": true
-                }
-            ],
-            "alt": [
-                {
-                    "id": "studyresearcheruditionsuccess",
-                    "chance": 100
-                }
-            ],
-            "startdescription": "我的研究需要<b>博聞</b>。",
-            "description": "我的研究需要<b>博聞</b>。",
-            "warmup": 30,
-            "craftable": false,
-            "linked": [
-                {
-                    "id": "studyresearchconclusion",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "studyresearcheruditionsuccess",
-            "label": "拼在這裡正合適！",
-            "actionId": "study",
-            "requirements": {
-                "erudition": 1
-            },
-            "effects": {
-                "insight": 1
-            },
-            "craftable": false,
-            "startdescription": "知識生出知識。[獲得“洞見”。]",
-            "linked": [
-                {
-                    "id": "studyresearchtick",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "studyresearchneedsglimmering",
-            "label": "直覺之門",
-            "actionId": "study",
-            "requirements": {},
-            "effects": {},
-            "slots": [
-                {
-                    "id": "Glimmering",
-                    "required": {
-                        "glimmering": 1
-                    },
-                    "consumes": true,
-                    "greedy": true
-                }
-            ],
-            "alt": [
-                {
-                    "id": "studyresearchglimmeringsuccess",
-                    "chance": 100
-                }
-            ],
-            "startdescription": "我的研究需要靈感。",
-            "description": ".",
-            "warmup": 30,
-            "craftable": false,
-            "linked": [
-                {
-                    "id": "studyresearchconclusion",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "studyresearchglimmeringsuccess",
-            "label": "直覺之門打開！",
-            "actionId": "study",
-            "requirements": {
-                "glimmering": 1
-            },
-            "effects": {
-                "insight": 1
-            },
-            "startdescription": "有的時候，人會在意想不到的地方獲得洞見。[獲得“洞見”。]",
-            "craftable": false,
-            "linked": [
-                {
-                    "id": "studyresearchtick",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "studyresearchearlyconclusion",
-            "actionId": "study",
-            "comments": "this is a passthrough / router for if Insight reaches 3,which routes directly to the conclusion",
-            "requirements": {
-                "insight": 3
-            },
-            "alt": [
-                {
-                    "id": "studyresearchconclusion",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "studyresearchconclusion",
-            "actionId": "study",
-            "comments": "this is a passthrough / router which the player sees if they don't satisfy a research requirement.",
-            "alt": [
-                {
-                    "id": "studyresearchmaxinsight",
-                    "chance": 100
-                },
-                {
-                    "id": "studyresearchmoderateinsight",
-                    "chance": 100
-                },
-                {
-                    "id": "studyresearchminimalinsight",
-                    "chance": 100
-                },
-                {
-                    "id": "studyresearchconsolation",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "studyresearchmaxinsight",
-            "label": "研究完成，獲得通徹的洞見",
-            "alt": [
-                {
-                    "id": "studyresearchsuccess",
-                    "chance": 100
-                }
-            ],
-            "actionId": "study",
-            "requirements": {
-                "insight": 3
-            },
-            "effects": {},
-            "startdescription": "BEGIN studyresearchmaxinsight",
-            "description": "COMPLETE studyresearchmaxinsight",
-            "warmup": 0,
-            "comments": "This is currently a pass-through only; including for consistency."
-        },
-        {
-            "id": "studyresearchmoderateinsight",
-            "label": "研究完成，獲得局部的洞見",
-            "alt": [
-                {
-                    "id": "studyresearchsuccess",
-                    "chance": 70
-                },
-                {
-                    "id": "studyresearchconsolation",
-                    "chance": 100
-                }
-            ],
-            "actionId": "study",
-            "requirements": {
-                "insight": 2
-            },
-            "effects": {},
-            "startdescription": "BEGIN studyresearchsomeinsight",
-            "description": "COMPLETE studyresearchsomeinsight",
-            "warmup": 0
-        },
-        {
-            "id": "studyresearchminimalinsight",
-            "label": "研究完成，獲得零星的洞見",
-            "actionId": "study",
-            "requirements": {},
-            "alt": [
-                {
-                    "id": "studyresearchsuccess",
-                    "chance": 30
-                },
-                {
-                    "id": "studyresearchconsolation",
-                    "chance": 100
-                }
-            ],
-            "effects": {},
-            "startdescription": "BEGIN studyresearchnoinsight",
-            "description": "COMPLETE studyresearchnoinsight",
-            "warmup": 0
-        },
-        {
-            "id": "studyresearchsuccess",
-            "label": "成功！",
-            "actionId": "study",
-            "requirements": {},
-            "aspects": {
-                "restore": 1
-            },
-            "effects": {
-                "insight": -100
-            },
-            "startdescription": ".",
-            "description": "我學到了新東西。",
-            "warmup": 0,
-            "craftable": false,
-            "linked": [
-                {
-                    "id": "studyproject_upgrade_edge",
-                    "chance": 100
-                },
-                {
-                    "id": "studyproject_upgrade_forge",
-                    "chance": 100
-                },
-                {
-                    "id": "studyproject_upgrade_grail",
-                    "chance": 100
-                },
-                {
-                    "id": "studyproject_upgrade_heart",
-                    "chance": 100
-                },
-                {
-                    "id": "studyproject_upgrade_lantern",
-                    "chance": 100
-                },
-                {
-                    "id": "studyproject_upgrade_moth",
-                    "chance": 100
-                },
-                {
-                    "id": "studyproject_upgrade_secrethistories",
-                    "chance": 100
-                },
-                {
-                    "id": "studyproject_upgrade_winter",
-                    "chance": 100
-                },
-                {
-                    "id": "studyproject_subvert_edgetowinter",
-                    "chance": 100
-                },
-                {
-                    "id": "studyproject_subvert_forgetoedge",
-                    "chance": 100
-                },
-                {
-                    "id": "studyproject_subvert_grailtomoth",
-                    "chance": 100
-                },
-                {
-                    "id": "studyproject_subvert_hearttograil",
-                    "chance": 100
-                },
-                {
-                    "id": "studyproject_subvert_lanterntoforge",
-                    "chance": 100
-                },
-                {
-                    "id": "studyproject_subvert_mothtolantern",
-                    "chance": 100
-                },
-                {
-                    "id": "studyproject_subvert_wintertoheart",
-                    "chance": 100
-                },
-                {
-                    "id": "studyproject_upgrade_subvert_knock",
-                    "chance": 100
-                }
-            ]
-        }
-    ]
+	"recipes": [
+		{
+			"id": "studyresearch.entrypoint",
+			"label": "踏入黑夜",
+			"startdescription": "智慧是一個國度，此為它的地圖。[解開兩個“密傳”片段上所有挑戰，完成研究任務。失敗的話可重試。]",
+			"description": "."
+		},
+		{
+			"id": "studyresearch.attemptsolve",
+			"label": "踏入黑夜",
+			"startdescription": "智慧是一個國度，此為它的地圖。[解開兩個“密傳”片段上所有挑戰，完成研究任務。失敗的話可重試。]"
+		},
+		{
+			"id": "studyresearch.attemptsolve.challenge.knowledge",
+			"label": "挑戰：知識",
+			"startdescription": "這是一方缺失拼片的拼圖。也許我會在學海的偏遠之隅找到這些片段。[投入“博聞”，或使用藏書室。]",
+			"slots": [
+				{
+					"id": "solvechallenge",
+					"label": "解法"
+				}
+			]
+		},
+		{
+			"id": "studyresearch.failed.challenge.knowledge",
+			"label": "行不通！",
+			"startdescription": "我的研究暫時遇到阻礙。"
+		},
+		{
+			"id": "studyresearch.solved.challenge.knowledge",
+			"label": "原來如此——！",
+			"startdescription": "——答案如此，對吧？[你破解了一關知識挑戰。]"
+		},
+		{
+			"id": "studyresearch.attemptsolve.challenge.intuition",
+			"label": "挑戰：直覺",
+			"startdescription": "這是一方缺失拼片的拼圖。也許我會在學海的偏遠之隅找到這些片段。[投入“靈感”，或使用聖所。]",
+			"slots": [
+				{
+					"id": "solvechallenge",
+					"label": "解法"
+				}
+			]
+		},
+		{
+			"id": "studyresearch.failed.challenge.intuition",
+			"label": "行不通！",
+			"startdescription": "我的研究暫時遇到阻礙。"
+		},
+		{
+			"id": "studyresearch.solved.challenge.intuition",
+			"label": "原來如此——！",
+			"startdescription": "——答案如此，對吧？[你破解了一關直覺挑戰。]"
+		},
+		{
+			"id": "studyresearch.attemptsolve.challenge.grim",
+			"label": "挑戰：嚴酷的教訓",
+			"startdescription": "這是一方缺失拼片的拼圖。也許我會在學海的偏遠之隅找到這些片段。[投入“恐懼”，或使用暗穴，或使用技能“無聲的厚重”。“恐懼”可能越增越多。]",
+			"slots": [
+				{
+					"id": "solvechallenge",
+					"label": "解法"
+				}
+			]
+		},
+		{
+			"id": "studyresearch.failed.challenge.grim",
+			"label": "行不通！",
+			"startdescription": "我的研究暫時遇到阻礙。"
+		},
+		{
+			"id": "studyresearch.solved.challenge.grim",
+			"label": "原來如此——！",
+			"startdescription": "——答案如此，對吧？[你破解了一關嚴酷挑戰。]"
+		},
+		{
+			"id": "studyresearch.attemptsolve.challenge.obsessive",
+			"label": "挑戰：走火入魔的研究",
+			"startdescription": "這是一方缺失拼片的拼圖。也許我會在學海的偏遠之隅找到這些片段。[交出你的“理性”，理性可能永久受損；或使用藏書室；或使用技能“永無止盡”。]",
+			"slots": [
+				{
+					"id": "solvechallenge",
+					"label": "解法"
+				}
+			]
+		},
+		{
+			"id": "studyresearch.failed.challenge.obsessive",
+			"label": "行不通！",
+			"startdescription": "我的研究暫時遇到阻礙。"
+		},
+		{
+			"id": "studyresearch.solved.challenge.obsessive",
+			"label": "原來如此——！",
+			"startdescription": "——答案如此，對吧？[你破解了一關走火入魔挑戰。]"
+		},
+		{
+			"id": "studyresearch.damagereason",
+			"label": "走火入魔帶來的重負",
+			"startdescription": "我將我的思緒像磨刀一樣磨得鋒銳。現在這把刀的刀尖折斷了。[“理性”已永久受損。]"
+		},
+		{
+			"id": "studyresearch.attemptsolve.challenge.paradox",
+			"label": "挑戰：矛盾的解法",
+			"startdescription": "這是一方缺失拼片的拼圖。也許我會在學海的偏遠之隅找到這些片段。[交出“激情”，激情可能永久受損；或使用聖所；或使用技能“洞開的靈魂”。]",
+			"slots": [
+				{
+					"id": "solvechallenge",
+					"label": "解法"
+				}
+			]
+		},
+		{
+			"id": "studyresearch.failed.challenge.paradox",
+			"label": "行不通！",
+			"startdescription": "我的研究暫時遇到阻礙。"
+		},
+		{
+			"id": "studyresearch.solved.challenge.paradox",
+			"label": "原來如此——！",
+			"startdescription": "——答案如此，對吧？[你破解了一關矛盾挑戰。]"
+		},
+		{
+			"id": "studyresearch.damagepassion",
+			"label": "迷宮的心臟",
+			"startdescription": "我追隨我的激情穿過迷宮，現在位於它的心臟。迷宮的心臟是一個漆黑、空洞的地方，被燒毀得像焦木一樣。[“激情”已永久受損。]"
+		},
+		{
+			"id": "studyresearch.attemptsolve.challenge.illumination",
+			"label": "挑戰：光照",
+			"startdescription": "這是一方缺失拼片的拼圖。也許我會在學海的偏遠之隅找到這些片段。[投入“入迷”，入迷可能越生越多；或使用藏書室；或應用技能“高深的思維”。]",
+			"slots": [
+				{
+					"id": "solvechallenge",
+					"label": "解法"
+				}
+			]
+		},
+		{
+			"id": "studyresearch.failed.challenge.illumination",
+			"label": "行不通！",
+			"startdescription": "我的研究暫時遇到阻礙。"
+		},
+		{
+			"id": "studyresearch.solved.challenge.illumination",
+			"label": "原來如此——！",
+			"startdescription": "——答案如此，對吧？[你破解了一關光照挑戰。]"
+		},
+		{
+			"id": "studyresearch.attemptsolve.challenge.practical",
+			"label": "挑戰：應用試驗",
+			"startdescription": "這是一方缺失拼片的拼圖。也許我會在學海的偏遠之隅找到這些片段。[用你的“健康”冒險，或使用一名囚犯。]",
+			"slots": [
+				{
+					"id": "solvechallenge",
+					"label": "解法"
+				}
+			]
+		},
+		{
+			"id": "studyresearch.failed.challenge.practical",
+			"label": "行不通！",
+			"startdescription": "我的研究暫時遇到阻礙。"
+		},
+		{
+			"id": "studyresearch.solved.challenge.practical",
+			"label": "原來如此——！",
+			"startdescription": "——答案如此，對吧？[你破解了一關應用挑戰。]"
+		},
+		{
+			"id": "studyresearch.damagehealth",
+			"label": "損害",
+			"startdescription": "疼痛予人教誨，他們如是說，尤其在他們自己不疼的時候。[“健康”受到傷害。]"
+		},
+		{
+			"id": "studyresearch.nochallengesremaining",
+			"label": "瞠目於光中",
+			"startdescription": "我——我現在明白了！",
+			"description": ""
+		},
+		{
+			"id": "studyresearchtick",
+			"label": "值得期待的研究",
+			"startdescription": "這個研究項目富有潛力。當研究需求浮現時，我須得將其滿足，獲得洞見。若得到三個洞見則成功，否則失敗。",
+			"description": "."
+		},
+		{
+			"id": "studyresearchneedsreason",
+			"label": "困惑的疑影",
+			"startdescription": "路途被困惑籠罩。我須得投入更多的理性。",
+			"description": "我得用理性促進研究的進行。"
+		},
+		{
+			"id": "studyresearchreasonsuccess",
+			"label": "智力之光迸發！",
+			"startdescription": "這件事更占據了我的注意。但是我的努力正在獲得回報。[獲得“洞查”。]"
+		},
+		{
+			"id": "studyresearchneedserudition",
+			"label": "謎題的拼片",
+			"startdescription": "我的研究需要<b>博聞</b>。",
+			"description": "我的研究需要<b>博聞</b>。"
+		},
+		{
+			"id": "studyresearcheruditionsuccess",
+			"label": "拼在這裡正合適！",
+			"startdescription": "知識生出知識。[獲得“洞見”。]"
+		},
+		{
+			"id": "studyresearchneedsglimmering",
+			"label": "直覺之門",
+			"startdescription": "我的研究需要靈感。",
+			"description": "."
+		},
+		{
+			"id": "studyresearchglimmeringsuccess",
+			"label": "直覺之門打開！",
+			"startdescription": "有的時候，人會在意想不到的地方獲得洞見。[獲得“洞見”。]"
+		},
+		{
+			"id": "studyresearchmaxinsight",
+			"label": "研究完成，獲得通徹的洞見",
+			"startdescription": "BEGIN studyresearchmaxinsight",
+			"description": "COMPLETE studyresearchmaxinsight"
+		},
+		{
+			"id": "studyresearchmoderateinsight",
+			"label": "研究完成，獲得局部的洞見",
+			"startdescription": "BEGIN studyresearchsomeinsight",
+			"description": "COMPLETE studyresearchsomeinsight"
+		},
+		{
+			"id": "studyresearchminimalinsight",
+			"label": "研究完成，獲得零星的洞見",
+			"startdescription": "BEGIN studyresearchnoinsight",
+			"description": "COMPLETE studyresearchnoinsight"
+		},
+		{
+			"id": "studyresearchsuccess",
+			"label": "成功！",
+			"startdescription": ".",
+			"description": "我學到了新東西。"
+		}
+	]
 }

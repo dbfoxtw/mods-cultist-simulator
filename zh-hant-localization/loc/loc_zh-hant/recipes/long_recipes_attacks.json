@@ -1,2915 +1,949 @@
 {
-    "recipes": [
-        {
-            "id": "long.executestrategy.assassination.begin",
-            "actionId": "longassault.assassination",
-            "label": "暗中飛來的投槍",
-            "startdescription": "在早已逝去的年代，圖拉古拉里——即投槍手們——曾受僱獵殺不死者和他們的奴僕。一般觀點認為三聖公司在第一次蠕蟲大戰後除掉了他們……或許並非於每一重歷史中。[投槍有可能摧毀你和追隨者。用<sprite name=heart> <sprite name=lantern>之追隨者在投槍手準備期間發現他們，或者用<sprite name=edge> <sprite name=forge> <sprite name=winter>之追隨者在投槍手發起襲擊後防禦。防禦失敗的追隨者會死亡。投槍手無法免疫召喚物的攻擊。]",
-            "slots": [
-                {
-                    "id": "defender",
-                    "label": "發現",
-                    "required": {
-                        "follower": 1
-                    }
-                }
-            ],
-            "warmup": 120,
-            "internaldeck": {
-                "label": "目標",
-                "description": "投槍手的目標是誰？",
-                "spec": [
-                    "assassinationinprogress.follower",
-                    "assassinationinprogress.player"
-                ],
-                "resetonexhaustion": true,
-                "draws": 1
-            },
-            "linked": [
-                {
-                    "id": "longassault.assassination.uncovered.success",
-                    "challenges": {
-                        "heart": "base",
-                        "lantern": "base"
-                    }
-                },
-                {
-                    "id": "longassault.assassination.uncovered.failure"
-                },
-                {
-                    "id": "longassault.assassination.continue"
-                }
-            ]
-        },
-        {
-            "id": "longassault.assassination.uncovered.success",
-            "actionId": "longassault.assassination",
-            "requirements": {
-                "follower": 1
-            },
-            "label": "蛇已暴露",
-            "startdescription": "圖拉古拉里慣於偷襲。他們受不了日光。這一個逃跑了。（不回來了吧？）我們的敵人會注意到這點。",
-            "effects": {
-                "long.lesson.might": 1
-            },
-            "warmup": 10
-        },
-        {
-            "id": "longassault.assassination.uncovered.failure",
-            "actionId": "longassault.assassination",
-            "requirements": {
-                "follower": 1
-            },
-            "label": "靜候的蛇",
-            "startdescription": "我們的追隨者一去不回。我們只能推測圖拉古拉里用他的短標槍和毒藥放倒了此人。",
-            "effects": {
-                "follower": -1
-            },
-            "warmup": 10,
-            "linked": [
-                {
-                    "id": "longassault.assassination.continue"
-                }
-            ]
-        },
-        {
-            "id": "longassault.assassination.continue",
-            "actionId": "longassault.assassination",
-            "label": "第一道傷口",
-            "startdescription": "哪怕是最強者，投槍手也能一寸一寸地殺死他。[用<sprite name=edge> <sprite name=forge> <sprite name=winter>之追隨者進行防禦。防禦失敗的追隨者會死亡。投槍手無法免疫召喚物的攻擊。]",
-            "slots": [
-                {
-                    "id": "defender",
-                    "label": "防禦者",
-                    "required": {
-                        "follower": 1,
-                        "murderskill": 1
-                    }
-                }
-            ],
-            "warmup": 30,
-            "linked": [
-                {
-                    "id": "longassault.assassination.attack.defeated",
-                    "challenges": {
-                        "edge": "base",
-                        "winter": "base",
-                        "forge": "base"
-                    }
-                },
-                {
-                    "id": "longassault.assassination.defenderdefeated"
-                },
-                {
-                    "id": "longassault.assassination.murderskill.succeed",
-                    "chance": 30
-                },
-                {
-                    "id": "longassault.assassination.murderskill.failure"
-                },
-                {
-                    "id": "longassault.assassination.attack.player"
-                },
-                {
-                    "id": "longassault.assassination.attack.follower"
-                }
-            ]
-        },
-        {
-            "id": "longassault.assassination.defenderdefeated",
-            "actionId": "longassault.assassination",
-            "label": "不期之死",
-            "startdescription": "投槍手已奪去一名防禦者的性命：但現在能滿足他的報償只有他目標的死，或他自己的。",
-            "requirements": {
-                "follower": 1
-            },
-            "effects": {
-                "follower": -1
-            },
-            "warmup": 10,
-            "linked": [
-                {
-                    "id": "longassault.assassination.attack.player"
-                },
-                {
-                    "id": "longassault.assassination.attack.follower"
-                }
-            ]
-        },
-        {
-            "id": "longassault.assassination.attack.defeated",
-            "actionId": "longassault.assassination",
-            "label": "最終的報償",
-            "startdescription": "我方防禦者獲勝，投槍手已死。也許這樣就足以讓他們停手了。",
-            "effects": {
-                "long.lesson.might": 1
-            },
-            "warmup": 10
-        },
-        {
-            "id": "longassault.assassination.attack.player",
-            "actionId": "longassault.assassination",
-            "label": "投槍手的毒藥",
-            "startdescription": "投槍手會讓我染毒、流血，一滴又一滴。",
-            "slots": [
-                {
-                    "id": "health",
-                    "label": "攻擊……",
-                    "required": {
-                        "health": 1,
-                        "fatigue": 1
-                    },
-                    "greedy": true
-                }
-            ],
-            "alt": [
-                {
-                    "id": "longassault.assassination.killplayer"
-                }
-            ],
-            "aspects": {
-                "damagehealth": 1
-            },
-            "warmup": 10,
-            "linked": [
-                {
-                    "id": "longassault.assassination.continue"
-                }
-            ]
-        },
-        {
-            "id": "longassault.assassination.murderskill.succeed",
-            "actionId": "longassault.assassination",
-            "label": "折斷的槍頭",
-            "requirements": {
-                "murderskill": 1
-            },
-            "startdescription": "他們要有自知之明就不該招惹我。虧欠給他們的死亡，我用他們自己的來償。",
-            "warmup": 30,
-            "effects": {
-                "long.lesson.might": 1
-            }
-        },
-        {
-            "id": "longassault.assassination.murderskill.failure",
-            "actionId": "longassault.assassination",
-            "label": "苟延殘喘",
-            "requirements": {
-                "murderskill": 1
-            },
-            "startdescription": "我贏得了喘息之機，但他對我來說實在太強。我的力氣已完全不剩。",
-            "warmup": 30,
-            "effects": {
-                "murderskill": -1
-            },
-            "linked": [
-                {
-                    "id": "longassault.assassination.continue"
-                }
-            ]
-        },
-        {
-            "id": "longassault.assassination.killplayer",
-            "actionId": "longassault.assassination",
-            "label": "投槍下的末路",
-            "startdescription": "我已經沒有任何力氣了嗎？[如果你沒有可用的“健康”卡，投槍手的毒藥會終結這局遊戲。]",
-            "requirements": {
-                "health": -1,
-                "fatigue": -1,
-                "injury": -1
-            },
-            "ending": "deathofthebody",
-            "signalEndingFlavour": "Melancholy",
-            "comments": "The -1 to injury doesn't seem right, since the damagehealth in longassault.assassination.attack.player will always turn health/fatigue into an injury. To be checked."
-        },
-        {
-            "id": "longassault.assassination.attack.follower",
-            "actionId": "longassault.assassination",
-            "label": "致命的傷口",
-            "startdescription": "投槍手可能用一支投槍，也可能用一打；但致人死命的總是最後那支。[<sprite name=edge> <sprite name=forge> <sprite name=winter>之追隨者有可能逃出一命。其他人和運氣不佳的追隨者則必死。]",
-            "slots": [
-                {
-                    "id": "targetfollower",
-                    "label": "攻擊……",
-                    "required": {
-                        "follower": 1
-                    },
-                    "greedy": true
-                }
-            ],
-            "warmup": 10,
-            "linked": [
-                {
-                    "id": "longassault.assassination.attack.follower.failure",
-                    "challenges": {
-                        "edge": "base",
-                        "winter": "base",
-                        "forge": "base"
-                    }
-                },
-                {
-                    "id": "longassault.assassination.attack.follower.success"
-                },
-                {
-                    "id": "longassault.assassination.continue"
-                }
-            ]
-        },
-        {
-            "id": "longassault.assassination.attack.follower.failure",
-            "actionId": "longassault.assassination",
-            "label": "大逆轉",
-            "startdescription": "這次，投槍手遇到了意料之外的挑戰。他死了。也許這樣就能讓他們停手了。",
-            "effects": {
-                "long.lesson.might": 1
-            },
-            "warmup": 10
-        },
-        {
-            "id": "longassault.assassination.attack.follower.success",
-            "actionId": "longassault.assassination",
-            "label": "可期之死",
-            "startdescription": "被發現的那些投槍手的被害者有的在極度痛苦中身體扭曲，頭部後仰，雙眼暴突。有的身上鑽了個洞，像沉船一樣。此人連發現都沒被發現。他的死亡即投槍手可期的報償。",
-            "requirements": {
-                "follower": 1
-            },
-            "effects": {
-                "follower": -1
-            }
-        },
-        {
-            "id": "long.executestrategy.assault.abduct.follower.begin",
-            "actionId": "longassault.abduction",
-            "label": "綁架！",
-            "startdescription": "我們的敵人正在策劃一次綁架！",
-            "slots": [
-                {
-                    "id": "target",
-                    "label": "目標",
-                    "required": {
-                        "romanticinterest": 1
-                    },
-                    "greedy": true
-                }
-            ],
-            "linked": [
-                {
-                    "id": "long.executestrategy.assault.abduct.follower.captured"
-                },
-                {
-                    "id": "long.executestrategy.assault.abduct.follower.begin.nonromancedfollower"
-                }
-            ],
-            "effects": {
-                "abductioninprogress": 1
-            },
-            "warmup": 10
-        },
-        {
-            "id": "long.executestrategy.assault.abduct.follower.begin.nonromancedfollower",
-            "actionId": "longassault.abduction",
-            "label": "綁架！",
-            "startdescription": "我們的敵人正在策劃一次綁架！",
-            "slots": [
-                {
-                    "id": "target",
-                    "label": "目標",
-                    "required": {
-                        "follower": 1
-                    },
-                    "forbidden": {
-                        "summoned": 1,
-                        "hireling": 1
-                    },
-                    "greedy": true
-                }
-            ],
-            "linked": [
-                {
-                    "id": "long.executestrategy.assault.abduct.follower.captured"
-                }
-            ],
-            "warmup": 10
-        },
-        {
-            "id": "long.executestrategy.assault.abduct.follower.captured",
-            "actionId": "longassault",
-            "label": "被俘！",
-            "requirements": {
-                "follower": 1
-            },
-            "startdescription": "敵人把我們的追隨者監禁在一個上鎖房間中，那棟房子有人看管，位於無形之牆後，以抵擋無形之物的進入。",
-            "linked": [
-                {
-                    "id": "long.executestrategy.assault.abduct.follower.continue"
-                }
-            ],
-            "warmup": 10
-        },
-        {
-            "id": "long.executestrategy.assault.abduct.follower.continue",
-            "actionId": "longassault",
-            "label": "營救？",
-            "startdescription": "我們的敵人抓走了一名追隨者！此人會嘗試逃脫，我們說不定能幫上他——但這也可能是圈套。且此地有阻攔召喚物的措施。[<sprite name=edge> <sprite name=forge>和<sprite name=winter>裡的最高值將決定我們的追隨者們能否安然無恙地逃離。]",
-            "slots": [
-                {
-                    "id": "defender",
-                    "label": "防禦者",
-                    "required": {
-                        "follower": 1
-                    },
-                    "forbidden": {
-                        "summoned": 1
-                    }
-                }
-            ],
-            "linked": [
-                {
-                    "id": "long.executestrategy.assault.abduct.follower.defencesucceeded",
-                    "actionId": "longassault",
-                    "label": "勝利",
-                    "challenges": {
-                        "edge": "base",
-                        "forge": "base",
-                        "winter": "base"
-                    },
-                    "startdescription": "砸爛鎖頭——打破窗戶——大口呼吸夜晚的空氣。我們的追隨者自由了。以後，我們的敵人會加緊注意。",
-                    "effects": {
-                        "long.lesson.might": 1
-                    }
-                },
-                {
-                    "id": "long.executestrategy.assault.abduct.follower.defencefailed",
-                    "actionId": "longassault",
-                    "label": "圈套",
-                    "startdescription": "逃跑失敗。說不定以後還有機會。",
-                    "linked": [
-                        {
-                            "id": "long.executestrategy.assault.abduct.follower.continue"
-                        }
-                    ],
-                    "warmup": 300
-                }
-            ],
-            "warmup": 30
-        },
-        {
-            "id": "long.executestrategy.assault.forge.greatwork.begin",
-            "actionId": "longassault",
-            "label": "遭受破壞活動！",
-            "startdescription": "我們永生不死的敵人派來奸細，欲毀掉我們進行到半途的作業。",
-            "description": "敵人的奸細找不到任何能供他們打砸破壞的東西。",
-            "slots": [
-                {
-                    "id": "target",
-                    "label": "目標",
-                    "required": {
-                        "greatwork": 1
-                    },
-                    "greedy": true
-                }
-            ],
-            "linked": [
-                {
-                    "id": "long.executestrategy.assault.forge.greatwork.continue",
-                    "chance": 100
-                }
-            ],
-            "warmup": 10
-        },
-        {
-            "id": "long.executestrategy.assault.forge.greatwork.continue",
-            "actionId": "longassault",
-            "label": "保衛大功業",
-            "startdescription": "我們的工作間被包圍了！快保護大功業！[<sprite name=heart>或<sprite name=forge>之追隨者——越強越好——或許能擋下這次攻擊。]",
-            "description": "",
-            "slots": [
-                {
-                    "id": "defender",
-                    "label": "防禦者",
-                    "required": {
-                        "follower": 1
-                    }
-                }
-            ],
-            "requirements": {
-                "greatwork": 1
-            },
-            "warmup": 10,
-            "linked": [
-                {
-                    "id": "long.executestrategy.assault.failure",
-                    "challenges": {
-                        "heart": "base",
-                        "forge": "base"
-                    }
-                },
-                {
-                    "id": "long.executestrategy.assault.forge.greatwork.succeed"
-                }
-            ]
-        },
-        {
-            "id": "long.executestrategy.assault.forge.greatwork.succeed",
-            "actionId": "longassault",
-            "label": "蓄意破壞！",
-            "startdescription": "我們的敵人用鉤刀和撬棍大幹了一場。",
-            "aspects": {
-                "sabotage": 1
-            },
-            "warmup": 10
-        },
-        {
-            "id": "long.executestrategy.assault.setambush.expedition.begin",
-            "warmup": 10,
-            "actionId": "longassault",
-            "label": "埋伏",
-            "startdescription": "我們的敵人得知我們在籌劃一次探險。如果給他知道了目的地，他會派出盟友準備埋伏我們。",
-            "slots": [
-                {
-                    "id": "vault",
-                    "label": "藏寶地",
-                    "required": {
-                        "vault": 1
-                    },
-                    "greedy": true
-                }
-            ],
-            "linked": [
-                {
-                    "id": "long.executestrategy.assault.setambush.expedition.continue.watchers",
-                    "actionId": "longassault",
-                    "label": "橫生枝節",
-                    "startdescription": "我們的敵人買通了當地人監視該處。",
-                    "requirements": {
-                        "guardian_watchers": -1,
-                        "guardian_watchers_pre": -1
-                    },
-                    "mutations": [
-                        {
-                            "mutate": "guardian_watchers_pre",
-                            "level": 1,
-                            "filter": "vault"
-                        }
-                    ]
-                },
-                {
-                    "id": "long.executestrategy.assault.setambush.expedition.continue.monks",
-                    "actionId": "longassault",
-                    "label": "橫生枝節",
-                    "startdescription": "我們的敵人已派出效忠他的僕人保衛該處。",
-                    "requirements": {
-                        "guardian_monks": -1,
-                        "guardian_monks_pre": -1
-                    },
-                    "mutations": [
-                        {
-                            "mutate": "guardian_monks_pre",
-                            "level": 1,
-                            "filter": "vault"
-                        }
-                    ]
-                },
-                {
-                    "id": "long.executestrategy.assault.setambush.expedition.continue.dead",
-                    "actionId": "longassault",
-                    "label": "橫生枝節",
-                    "requirements": {
-                        "guardian_dead": -1,
-                        "guardian_dead_pre": -1
-                    },
-                    "startdescription": "我們的敵人已派出亡者保衛該處。",
-                    "mutations": [
-                        {
-                            "mutate": "guardian_dead_pre",
-                            "level": 1,
-                            "filter": "vault"
-                        }
-                    ]
-                },
-                {
-                    "id": "long.executestrategy.assault.setambush.expedition.continue.serpent",
-                    "actionId": "longassault",
-                    "label": "橫生枝節",
-                    "requirements": {
-                        "guardian_serpent": -1,
-                        "guardian_serpent_pre": -1
-                    },
-                    "startdescription": "我們的敵人已喚起一條巨蛇保衛該處。",
-                    "mutations": [
-                        {
-                            "mutate": "guardian_serpent_pre",
-                            "level": 1,
-                            "filter": "vault"
-                        }
-                    ],
-                    "warmup": 1
-                }
-            ]
-        },
-        {
-            "id": "long.executestrategy.assault.destroyhealth.begin",
-            "actionId": "longassault",
-            "label": "壓倒性的襲擊！",
-            "startdescription": "我們的敵人已派出幾位來勢洶洶的先生奉命殺死，或至少，搞殘我們。[這會毀掉你的“健康”。]",
-            "slots": [
-                {
-                    "id": "health",
-                    "label": "健康",
-                    "required": {
-                        "health": 1,
-                        "fatigue": 1
-                    },
-                    "greedy": true
-                }
-            ],
-            "aspects": {
-                "destroyhealth": 1
-            },
-            "comments": "Damaging health now so it doesn't figure into the Heart calculations",
-            "alt": [
-                {
-                    "id": "long.executestrategy.assault.health.nonefound",
-                    "chance": 100
-                }
-            ],
-            "linked": [
-                {
-                    "id": "long.executestrategy.assault.destroyhealth.continue",
-                    "chance": 100
-                }
-            ],
-            "warmup": 30
-        },
-        {
-            "id": "long.executestrategy.assault.health.nonefound",
-            "label": "奪命一擊",
-            "actionId": "longassault",
-            "requirements": {
-                "health": -1,
-                "fatigue": -1
-            },
-            "startdescription": "生病不適，精疲力盡或心不在焉會害我抵擋不住這次攻擊。[立即補充“健康”，否則將死亡。]",
-            "craftable": false,
-            "ending": "deathofthebody",
-            "signalEndingFlavour": "Melancholy"
-        },
-        {
-            "id": "long.executestrategy.assault.destroyhealth.continue",
-            "actionId": "longassault",
-            "label": "壓倒性的襲擊！",
-            "startdescription": "如果攻擊成功，我將遭到重創。[<sprite name=heart>或<sprite name=edge>的追隨者——越強越好——或許能擋下這次攻擊。]",
-            "slots": [
-                {
-                    "id": "defender",
-                    "label": "防禦者",
-                    "required": {
-                        "follower": 1
-                    }
-                }
-            ],
-            "requirements": {
-                "decrepitude": 1
-            },
-            "warmup": 10,
-            "linked": [
-                {
-                    "id": "long.executestrategy.assault.failure",
-                    "challenges": {
-                        "heart": "base",
-                        "edge": "base"
-                    }
-                },
-                {
-                    "id": "long.executestrategy.assault.destroyhealth.succeed",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "long.executestrategy.assault.destroyhealth.succeed",
-            "actionId": "longassault",
-            "label": "習學痛苦",
-            "startdescription": "我受苦。我忍耐。",
-            "effects": {
-                "influenceknock": 1
-            }
-        },
-        {
-            "id": "long.executestrategy.assault.injurefollower.begin",
-            "actionId": "longassault",
-            "label": "對追隨者的攻擊！",
-            "startdescription": "我們的敵人已派出使者，準備痛擊所有他能找到的我們的追隨者。",
-            "slots": [
-                {
-                    "id": "follower",
-                    "label": "追隨者",
-                    "required": {
-                        "follower": 1
-                    },
-                    "greedy": true
-                }
-            ],
-            "linked": [
-                {
-                    "id": "long.executestrategy.assault.injurefollower.hireling.continue"
-                },
-                {
-                    "id": "long.executestrategy.assault.injurefollower.spirit.continue"
-                },
-                {
-                    "id": "long.executestrategy.assault.injurefollower.continue"
-                }
-            ],
-            "warmup": 10
-        },
-        {
-            "id": "long.executestrategy.assault.injurefollower.hireling.continue",
-            "actionId": "longassault",
-            "label": "“<b>你付我的錢可不包括這個</b>”",
-            "startdescription": "這便是我們與這位僱工最後的聯絡。",
-            "requirements": {
-                "hireling": 1
-            },
-            "effects": {
-                "follower": -1
-            },
-            "warmup": 10
-        },
-        {
-            "id": "long.executestrategy.assault.injurefollower.spirit.continue",
-            "actionId": "longassault",
-            "label": "雙向搖擺的門",
-            "startdescription": "我們的敵人為其使者提供了把我們的召喚物驅逐出世界的手段。於是它離開了。",
-            "requirements": {
-                "summoned": 1
-            },
-            "effects": {
-                "follower": -1
-            },
-            "warmup": 10
-        },
-        {
-            "id": "long.executestrategy.assault.injurefollower.continue",
-            "actionId": "longassault",
-            "label": "增援？",
-            "requirements": {
-                "follower": 1
-            },
-            "startdescription": "另一名追隨者說不定會衝上去支援——但他也得冒受傷的風險。而且派靈體對抗遠古的長生者是愚蠢的行為。[<sprite name=edge> <sprite name=forge>和<sprite name=winter>裡的最高值將決定我們的追隨者們能否安然無恙地逃離]",
-            "slots": [
-                {
-                    "id": "defender",
-                    "label": "防禦者",
-                    "required": {
-                        "follower": 1
-                    },
-                    "forbidden": {
-                        "summoned": 1
-                    }
-                }
-            ],
-            "linked": [
-                {
-                    "id": "long.executestrategy.assault.injurefollower.defencesucceeded",
-                    "actionId": "longassault",
-                    "label": "勝利",
-                    "challenges": {
-                        "edge": "base",
-                        "forge": "base",
-                        "winter": "base"
-                    },
-                    "startdescription": "我們的追隨者不容小覷。我們敵人的使者已倉皇逃離。當然，敵人以後會加強重視。",
-                    "effects": {
-                        "long.lesson.might": 1
-                    }
-                },
-                {
-                    "id": "long.executestrategy.assault.injurefollower.defencefailed",
-                    "actionId": "longassault",
-                    "label": "失利",
-                    "startdescription": "我們都因為創教者效力而遭受苦難。或許苦難會提升我們的價值。",
-                    "mutations": [
-                        {
-                            "filterOnAspectId": "mortal",
-                            "mutateAspectId": "follower_wound",
-                            "mutationLevel": 1,
-                            "additive": false
-                        },
-                        {
-                            "filterOnAspectId": "mortal",
-                            "mutateAspectId": "follower",
-                            "mutationLevel": -1,
-                            "additive": false
-                        }
-                    ]
-                }
-            ],
-            "warmup": 30
-        },
-        {
-            "id": "long.executestrategy.assault.injurehealth.begin",
-            "actionId": "longassault",
-            "label": "襲擊！",
-            "startdescription": "我們的敵人派出一名雇來的暴徒前來打砸。敵人還沒下令要我的命，但是若我碰巧死了，他也不會難過就是。[這會使你的“健康”變成“受傷”。]",
-            "slots": [
-                {
-                    "id": "health",
-                    "label": "健康",
-                    "required": {
-                        "health": 1
-                    },
-                    "greedy": true
-                }
-            ],
-            "aspects": {
-                "damagehealth": 1
-            },
-            "comments": "Damaging health now so it doesn't figure into the Heart calculations",
-            "alt": [
-                {
-                    "id": "long.executestrategy.assault.health.nonefound",
-                    "chance": 100
-                }
-            ],
-            "linked": [
-                {
-                    "id": "long.executestrategy.assault.injurehealth.continue",
-                    "chance": 100
-                }
-            ],
-            "warmup": 30
-        },
-        {
-            "id": "long.executestrategy.assault.injurehealth.continue",
-            "actionId": "longassault",
-            "label": "襲擊！",
-            "startdescription": "誰來保護我？[<sprite name=heart>或<sprite name=edge>之追隨者——越強越好——或許能擋下這次攻擊。]",
-            "description": "",
-            "slots": [
-                {
-                    "id": "defender",
-                    "label": "防禦者",
-                    "required": {
-                        "follower": 1
-                    }
-                }
-            ],
-            "requirements": {
-                "injury": 1
-            },
-            "warmup": 10,
-            "linked": [
-                {
-                    "id": "long.executestrategy.assault.failure",
-                    "challenges": {
-                        "heart": "base",
-                        "edge": "base"
-                    }
-                },
-                {
-                    "id": "long.executestrategy.assault.injurehealth.succeed",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "long.executestrategy.assault.injurehealth.succeed",
-            "actionId": "longassault",
-            "label": "小小試煉",
-            "startdescription": "他們讓我流血，但還沒讓我倒下。"
-        },
-        {
-            "id": "long.executestrategy.assault.rob.begin",
-            "actionId": "longassault",
-            "label": "小賊",
-            "startdescription": "我們的敵人派出一名扒手來騷擾我。",
-            "description": "對我的敵人而言糟透了：我沒錢給他偷。",
-            "slots": [
-                {
-                    "id": "funds",
-                    "label": "資金",
-                    "required": {
-                        "funds": 1
-                    },
-                    "greedy": true
-                }
-            ],
-            "alt": [
-                {
-                    "id": "long.executestrategy.assault.rob.continue",
-                    "chance": 100
-                }
-            ],
-            "warmup": 10
-        },
-        {
-            "id": "long.executestrategy.assault.rob.continue",
-            "actionId": "longassault",
-            "label": "區區小賊，竟然會得手。",
-            "startdescription": "我的提包被人順走了！",
-            "effects": {
-                "funds": -1
-            }
-        },
-        {
-            "id": "long.executestrategy.assault.intimidate.begin",
-            "actionId": "longassault",
-            "label": "威嚇佯攻",
-            "startdescription": "敵人派出使者來威脅恐嚇我們。[<sprite name=heart>或<sprite name=grail>之追隨者——越強越好——或許能擋下這次攻擊。]",
-            "slots": [
-                {
-                    "id": "defender",
-                    "label": "防禦者",
-                    "required": {
-                        "follower": 1
-                    }
-                }
-            ],
-            "warmup": 10,
-            "linked": [
-                {
-                    "id": "long.executestrategy.assault.failure",
-                    "challenges": {
-                        "heart": "base",
-                        "grail": "base"
-                    }
-                },
-                {
-                    "id": "long.executestrategy.assault.intimidate.succeed",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "long.executestrategy.assault.intimidate.succeed",
-            "actionId": "longassault",
-            "label": "痛楚加身的預兆",
-            "startdescription": "用黑煤胡亂塗寫的咒罵——花園裡被釘死的動物——無人看管的房屋被放火。一場隱秘之戰中的小動作。",
-            "effects": {
-                "dread": 1
-            }
-        },
-        {
-            "id": "long.executestrategy.assault.failure",
-            "actionId": "longassault",
-            "label": "失敗的襲擊",
-            "startdescription": "我們防住了敵人的襲擊……但他也從我們身上了解到了什麼，他會更認真地將我們視作對他的威脅。可見將來的襲擊會更加凶險。",
-            "effects": {
-                "long.lesson.might": 1
-            },
-            "aspects": {
-                "restorehealth": 1,
-                "tohealth": 1
-            }
-        },
-        {
-            "id": "long.executestrategy.intrigue.scandal.begin",
-            "actionId": "scandal",
-            "label": "醜聞！",
-            "startdescription": "我們的敵人策動了一樁醜聞，將以燎原之勢傳遍我們的活動圈子。[“醜聞”會時不時地產生“惡名”，直到其自行消散為止。]",
-            "alt": [
-                {
-                    "id": "scandal.notoriety",
-                    "chance": 70,
-                    "additional": true
-                }
-            ],
-            "effects": {
-                "scandalinprogress": 1
-            },
-            "linked": [
-                {
-                    "id": "scandal.end",
-                    "chance": 10
-                },
-                {
-                    "id": "long.executestrategy.intrigue.scandal.begin",
-                    "chance": 100
-                }
-            ],
-            "warmup": 60
-        },
-        {
-            "id": "scandal.end",
-            "actionId": "scandal",
-            "label": "歸於沉寂",
-            "startdescription": "公眾是喜新厭舊的……幸虧如此。他們正在將我們遺忘。",
-            "effects": {
-                "mystique": 1
-            },
-            "warmup": 10
-        },
-        {
-            "id": "scandal.notoriety",
-            "actionId": "scandal.notoriety",
-            "label": "骯髒的謊言",
-            "startdescription": "雖然我們沒少做有愧的事，但這件事不是，完全沒有的事！然而它說不定真能陷我們於不義。",
-            "effects": {
-                "notoriety": 1
-            },
-            "warmup": 10
-        },
-        {
-            "id": "long.executestrategy.intrigue.follower.seduce.begin",
-            "actionId": "longintrigue",
-            "label": "秘密接觸",
-            "startdescription": "我們永生不死的敵人正嘗試與我們的一名追隨者——一名心懷積怨之人——會面。",
-            "slots": [
-                {
-                    "id": "target",
-                    "label": "受到引誘",
-                    "greedy": true,
-                    "required": {
-                        "resentment": 1
-                    },
-                    "forbidden": {
-                        "independent": 1,
-                        "investigator": 1,
-                        "romanticinterest": 1
-                    }
-                }
-            ],
-            "linked": [
-                {
-                    "id": "long.executestrategy.intrigue.follower.seduce.continue"
-                }
-            ],
-            "warmup": 10
-        },
-        {
-            "id": "long.executestrategy.intrigue.follower.seduce.continue",
-            "actionId": "longintrigue",
-            "label": "蠱惑人心",
-            "startdescription": "現在，長生者要使出他幾個世紀來學到的大奸巨滑……或許我們的追隨者將不再為我們效力。[用“激情”讓他保持忠誠。不一定能成功，但只要你擁有“激情”就能繼續嘗試。]",
-            "description": "",
-            "requirements": {
-                "resentment": 1
-            },
-            "slots": [
-                {
-                    "id": "passion",
-                    "label": "激烈的爭執",
-                    "required": {
-                        "passion": 1
-                    }
-                }
-            ],
-            "warmup": 10,
-            "linked": [
-                {
-                    "id": "long.executestrategy.intrigue.follower.seduce.defendpassion.try",
-                    "chance": 100
-                },
-                {
-                    "id": "long.executestrategy.intrigue.follower.seduce.succeed",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "long.executestrategy.intrigue.follower.seduce.defendpassion.try",
-            "actionId": "longintrigue",
-            "label": "激烈的辯白",
-            "startdescription": "激情或許能讓他動搖。[即使失敗，也能繼續嘗試。]",
-            "requirements": {
-                "passion": 1
-            },
-            "warmup": 10,
-            "aspects": {
-                "fatiguing": 1
-            },
-            "linked": [
-                {
-                    "id": "long.executestrategy.intrigue.follower.seduce.defendpassion.succeed",
-                    "chance": 70
-                },
-                {
-                    "id": "long.executestrategy.intrigue.follower.seduce.continue",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "long.executestrategy.intrigue.follower.seduce.defendpassion.succeed",
-            "actionId": "longintrigue",
-            "label": "緩兵之計",
-            "startdescription": "追隨者選擇留下……至少現下如此。[但他的“怨恨”有所增長，我們的敵人也更了解我們了。]",
-            "mutations": [
-                {
-                    "mutate": "resentment",
-                    "filter": "follower",
-                    "level": 1,
-                    "additive": true
-                }
-            ],
-            "warmup": 10,
-            "linked": [
-                {
-                    "id": "long.executestrategy.intrigue.failure"
-                }
-            ]
-        },
-        {
-            "id": "long.executestrategy.intrigue.follower.seduce.succeed",
-            "actionId": "longintrigue",
-            "label": "背信棄義",
-            "startdescription": "我們的追隨者背棄了神聖的託付。現在他將為我們日益強盛的敵人貢獻力量。",
-            "effects": {
-                "follower": -1,
-                "long.lesson.might": 1
-            },
-            "warmup": 10
-        },
-        {
-            "id": "long.executestrategy.intrigue.grail.greatwork.begin",
-            "actionId": "longintrigue",
-            "label": "遭受破壞活動！",
-            "startdescription": "我們永生不死的敵人企圖使我們的宴主相信，謝肉祭將會是噁心，凶險，或者無聊的。",
-            "slots": [
-                {
-                    "id": "target",
-                    "label": "目標",
-                    "required": {
-                        "uqvitulation": 1
-                    },
-                    "greedy": true
-                }
-            ],
-            "linked": [
-                {
-                    "id": "long.executestrategy.intrigue.grail.greatwork.continue",
-                    "chance": 100
-                }
-            ],
-            "warmup": 10
-        },
-        {
-            "id": "long.executestrategy.intrigue.grail.greatwork.continue",
-            "actionId": "longintrigue",
-            "label": "保衛大功業",
-            "startdescription": "我可以派特使去勸慰和安撫。[<sprite name=heart>或<sprite name=grail>之追隨者——越強越好——或許能擋下這次攻擊。]",
-            "description": "",
-            "slots": [
-                {
-                    "id": "defender",
-                    "label": "防禦者",
-                    "required": {
-                        "follower": 1
-                    }
-                }
-            ],
-            "requirements": {
-                "uqvitulation": 1
-            },
-            "warmup": 10,
-            "linked": [
-                {
-                    "id": "long.executestrategy.intrigue.failure",
-                    "challenges": {
-                        "heart": "base",
-                        "grail": "base"
-                    }
-                },
-                {
-                    "id": "long.executestrategy.intrigue.grail.greatwork.succeed"
-                }
-            ]
-        },
-        {
-            "id": "long.executestrategy.intrigue.grail.greatwork.succeed",
-            "actionId": "longintrigue",
-            "label": "宴主的不安",
-            "startdescription": "宴主四散。他貪婪的信仰餿掉了。",
-            "aspects": {
-                "sabotage": 1
-            },
-            "warmup": 10
-        },
-        {
-            "id": "long.executestrategy.intrigue.poison.follower.resentment.begin",
-            "actionId": "longintrigue",
-            "label": "積怨之種",
-            "startdescription": "敵人正在想辦法毒害一名追隨者的頭腦，叫他倒戈。",
-            "slots": [
-                {
-                    "id": "follower",
-                    "label": "目標",
-                    "greedy": true,
-                    "required": {
-                        "follower": 1
-                    },
-                    "forbidden": {
-                        "summoned": -1
-                    }
-                }
-            ],
-            "linked": [
-                {
-                    "id": "long.executestrategy.intrigue.poison.follower.resentment.continue"
-                },
-                {
-                    "id": "long.executestrategy.intrigue.poison.follower.resentment.hireling.continue"
-                }
-            ],
-            "warmup": 10
-        },
-        {
-            "id": "long.executestrategy.intrigue.poison.follower.resentment.continue",
-            "actionId": "longintrigue",
-            "label": "紮下禍根",
-            "requirements": {
-                "follower": 1
-            },
-            "startdescription": "他怎麼說？[用“激情”讓他保持忠誠。不一定能成功，但只要你擁有“激情”就能繼續嘗試。]",
-            "slots": [
-                {
-                    "id": "passionateargument",
-                    "label": "激烈的爭執",
-                    "required": {
-                        "passion": 1
-                    }
-                }
-            ],
-            "warmup": 10,
-            "linked": [
-                {
-                    "id": "long.executestrategy.intrigue.poison.follower.resentment.defendpassion.try"
-                },
-                {
-                    "id": "long.executestrategy.intrigue.poison.follower.resentment.succeed",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "long.executestrategy.intrigue.poison.follower.resentment.defendpassion.try",
-            "actionId": "longintrigue",
-            "label": "激烈的辯白",
-            "startdescription": "激情或許能讓他動搖。[即使失敗，也能繼續嘗試。]",
-            "requirements": {
-                "passion": 1
-            },
-            "warmup": 10,
-            "aspects": {
-                "fatiguing": 1
-            },
-            "linked": [
-                {
-                    "id": "long.executestrategy.intrigue.poison.follower.resentment.defendpassion.succeed",
-                    "chance": 70
-                },
-                {
-                    "id": "long.executestrategy.intrigue.poison.follower.resentment.continue",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "long.executestrategy.intrigue.poison.follower.resentment.defendpassion.succeed",
-            "actionId": "longintrigue",
-            "linked": [
-                {
-                    "id": "long.executestrategy.intrigue.failure"
-                }
-            ]
-        },
-        {
-            "id": "long.executestrategy.intrigue.poison.follower.resentment.succeed",
-            "actionId": "longintrigue",
-            "label": "氣餒之果",
-            "startdescription": "我們現在到了這個地步：我認為我的追隨者對我隱瞞了他聽到的議論我的話。",
-            "mutations": [
-                {
-                    "mutate": "resentment",
-                    "filter": "follower",
-                    "level": 1,
-                    "additive": true
-                }
-            ]
-        },
-        {
-            "id": "long.executestrategy.intrigue.poison.follower.resentment.hireling.continue",
-            "actionId": "longintrigue",
-            "label": "職業謹慎",
-            "startdescription": "這名僱工已經被人說服或威脅，消逝無蹤。我們不會再見到他。",
-            "requirements": {
-                "hireling": 1
-            },
-            "effects": {
-                "hireling": -1
-            },
-            "warmup": 10
-        },
-        {
-            "id": "long.executestrategy.intrigue.detective.assist.begin",
-            "actionId": "longintrigue",
-            "label": "意想不到的結盟？",
-            "startdescription": "我們永生不死的敵人正在尋找一枚可利用的棋子。",
-            "slots": [
-                {
-                    "id": "hunter",
-                    "label": "肉中之刺",
-                    "greedy": true,
-                    "required": {
-                        "hunter": 1
-                    }
-                }
-            ],
-            "linked": [
-                {
-                    "id": "long.executestrategy.intrigue.detective.assist.continue",
-                    "chance": 100
-                }
-            ],
-            "warmup": 10
-        },
-        {
-            "id": "long.executestrategy.intrigue.detective.assist.continue",
-            "actionId": "longintrigue",
-            "requirements": {
-                "hunter": 1
-            },
-            "label": "敵人的敵人",
-            "startdescription": "防剿局不挑剔援助的來源，而且毫無疑問，我們的大功業引起了他們極大關心。我們永生不死的敵人會在這裡使什麼壞呢？",
-            "linked": [
-                {
-                    "id": "long.executestrategy.intrigue.detective.assist.mystic",
-                    "chance": 70
-                },
-                {
-                    "id": "long.executestrategy.intrigue.detective.assist.idealist",
-                    "chance": 70
-                },
-                {
-                    "id": "long.executestrategy.intrigue.detective.assist.grim",
-                    "chance": 70
-                },
-                {
-                    "id": "long.executestrategy.intrigue.detective.assist.erratic",
-                    "chance": 70
-                },
-                {
-                    "id": "long.executestrategy.intrigue.detective.assist.evidence",
-                    "chance": 70
-                },
-                {
-                    "id": "long.executestrategy.intrigue.detective.assist.mystic",
-                    "chance": 100
-                },
-                {
-                    "id": "long.executestrategy.intrigue.detective.assist.idealist",
-                    "chance": 100
-                },
-                {
-                    "id": "long.executestrategy.intrigue.detective.assist.grim",
-                    "chance": 100
-                },
-                {
-                    "id": "long.executestrategy.intrigue.detective.assist.erratic",
-                    "chance": 100
-                },
-                {
-                    "id": "long.executestrategy.intrigue.detective.assist.evidence",
-                    "chance": 100
-                }
-            ],
-            "warmup": 10
-        },
-        {
-            "id": "long.executestrategy.intrigue.detective.assist.mystic",
-            "actionId": "longintrigue",
-            "requirements": {
-                "mystic": -1
-            },
-            "label": "防禦無形之術",
-            "startdescription": "我們的敵人已教會這個調查員如何防備靈體。[該調查員成了<b>神秘主義者</b>。]",
-            "mutations": [
-                {
-                    "mutate": "mystic",
-                    "filter": "hunter",
-                    "level": 1,
-                    "additive": true
-                }
-            ],
-            "warmup": 10
-        },
-        {
-            "id": "long.executestrategy.intrigue.detective.assist.idealist",
-            "actionId": "longintrigue",
-            "requirements": {
-                "idealist": -1
-            },
-            "label": "新的領悟",
-            "startdescription": "這名調查員已查知我們大功業的真面目，從而使他將其挫敗的決心得到鍛鑄、捶打、淬鍊。[該調查員成了<b>理想主義者</b>。]",
-            "mutations": [
-                {
-                    "mutate": "idealist",
-                    "filter": "hunter",
-                    "level": 1,
-                    "additive": true
-                }
-            ],
-            "warmup": 10
-        },
-        {
-            "id": "long.executestrategy.intrigue.detective.assist.grim",
-            "actionId": "longintrigue",
-            "requirements": {
-                "grim": -1
-            },
-            "label": "心堅如鐵",
-            "startdescription": "這名調查員被告知了他不會輕易忘懷的事情。[該調查員變得<b>冷峻</b>。]",
-            "mutations": [
-                {
-                    "mutate": "grim",
-                    "filter": "hunter",
-                    "level": 1,
-                    "additive": true
-                }
-            ],
-            "warmup": 10
-        },
-        {
-            "id": "long.executestrategy.intrigue.detective.assist.erratic",
-            "actionId": "longintrigue",
-            "requirements": {
-                "erratic": -1
-            },
-            "label": "新的視角",
-            "startdescription": "這名調查員已練就新的技術與直覺；然而現在，他的手時不時會發抖。[該調查員變得<b>飄忽不定</b>。]",
-            "mutations": [
-                {
-                    "mutate": "erratic",
-                    "filter": "hunter",
-                    "level": 1,
-                    "additive": true
-                },
-                {
-                    "mutate": "meticulous",
-                    "filter": "hunter",
-                    "level": -1,
-                    "additive": true
-                }
-            ],
-            "warmup": 10
-        },
-        {
-            "id": "long.executestrategy.intrigue.detective.assist.evidence",
-            "actionId": "longintrigue",
-            "requirements": {
-                "erratic": 1,
-                "grim": 1,
-                "idealist": 1,
-                "mystic": 1
-            },
-            "label": "公然作弊",
-            "startdescription": "我們永生不死的敵人在這名調查員耳邊低語。[敵方長生者提供了<b>證據</b>。]",
-            "effects": {
-                "evidence": 1
-            },
-            "warmup": 10
-        },
-        {
-            "id": "long.executestrategy.intrigue.adversary.assist.begin",
-            "actionId": "longintrigue",
-            "label": "意想不到的結盟？",
-            "startdescription": "我們永生不死的敵人在尋找盟友——尋找有潛力的人。[如果他找不到合適的人，他的陰謀將以失敗告終。]",
-            "slots": [
-                {
-                    "id": "rival",
-                    "label": "對手",
-                    "greedy": true,
-                    "required": {
-                        "independent": 1
-                    }
-                }
-            ],
-            "linked": [
-                {
-                    "id": "long.executestrategy.intrigue.adversary.assist.continue",
-                    "chance": 100
-                }
-            ],
-            "warmup": 10
-        },
-        {
-            "id": "long.executestrategy.intrigue.adversary.assist.continue",
-            "actionId": "longintrigue",
-            "requirements": {
-                "independent": 1
-            },
-            "label": "不死者的指點",
-            "startdescription": "敵人正在指導我們的對手怎樣更快飛升為長生者。如果他能招募到第二名長生者，我們的失敗便已注定。[<sprite name=heart>或<sprite name=moth>之追隨者——越強越好——或許能擋下這次攻擊。]",
-            "slots": [
-                {
-                    "id": "defender",
-                    "label": "防禦者",
-                    "required": {
-                        "follower": 1
-                    }
-                }
-            ],
-            "linked": [
-                {
-                    "id": "long.executestrategy.intrigue.failure",
-                    "challenges": {
-                        "heart": "base",
-                        "moth": "base"
-                    }
-                },
-                {
-                    "id": "long.executestrategy.intrigue.adversary.assist.succeed"
-                }
-            ],
-            "warmup": 10
-        },
-        {
-            "id": "long.executestrategy.intrigue.adversary.assist.succeed",
-            "actionId": "longintrigue",
-            "label": "更高",
-            "startdescription": "敵人已經將飛升的核心秘訣傳授給了我們的對手。毫無疑問，若對手變成真正的長生者，他會為敵人所用：這對我們可沒有多少幫助。",
-            "mutations": [
-                {
-                    "mutate": "rivalmarks",
-                    "filter": "independent",
-                    "level": 1,
-                    "additive": true
-                }
-            ],
-            "warmup": 10
-        },
-        {
-            "id": "long.executestrategy.intrigue.poison.follower.notoriety.begin",
-            "actionId": "longintrigue",
-            "label": "白日驚魂",
-            "startdescription": "敵人正在想辦法曝光我們追隨者的秘密。[如果他找不到還未曝光的追隨者，這件事將無疾而終。]",
-            "slots": [
-                {
-                    "id": "follower",
-                    "label": "目標",
-                    "greedy": true,
-                    "required": {
-                        "follower": 1
-                    },
-                    "forbidden": {
-                        "summoned": -1,
-                        "poison.notoriety": 1
-                    }
-                }
-            ],
-            "warmup": 10,
-            "linked": [
-                {
-                    "id": "long.executestrategy.intrigue.poison.follower.notoriety.continue"
-                }
-            ]
-        },
-        {
-            "id": "long.executestrategy.intrigue.poison.follower.notoriety.continue",
-            "actionId": "longintrigue",
-            "label": "對抗曝光？",
-            "startdescription": "我能拿出些其他的東西試著轉移公眾視線。[試用“秘氛”分散公眾注意力，但不一定能成功，還有可能產生“邪名”。用“當局欠下的人情”可立刻使其結束。]",
-            "slots": [
-                {
-                    "id": "defence",
-                    "label": "分散注意力",
-                    "required": {
-                        "mystique": 1,
-                        "favour": 1
-                    }
-                }
-            ],
-            "requirements": {
-                "follower": 1
-            },
-            "warmup": 10,
-            "linked": [
-                {
-                    "id": "long.executestrategy.intrigue.poison.follower.notoriety.defendfavour"
-                },
-                {
-                    "id": "long.executestrategy.intrigue.poison.follower.notoriety.defendmystique.try"
-                },
-                {
-                    "id": "long.executestrategy.intrigue.poison.follower.notoriety.succeed",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "long.executestrategy.intrigue.poison.follower.notoriety.defendfavour",
-            "actionId": "longintrigue",
-            "requirements": {
-                "favour": 1
-            },
-            "effects": {
-                "favour": -1
-            },
-            "linked": [
-                {
-                    "id": "long.executestrategy.intrigue.failure"
-                }
-            ]
-        },
-        {
-            "id": "long.executestrategy.intrigue.poison.follower.notoriety.defendmystique.try",
-            "actionId": "longintrigue",
-            "label": "分散注意力的事物",
-            "startdescription": "已經有太多陌生人知道這個追隨者的名字。[如果分散注意力失敗，我們可以繼續嘗試。成功則會產生“邪名”。]",
-            "requirements": {
-                "mystique": 1
-            },
-            "warmup": 10,
-            "effects": {
-                "mystique": -1
-            },
-            "linked": [
-                {
-                    "id": "long.executestrategy.intrigue.poison.follower.notoriety.defendmystique.succeed",
-                    "chance": 70
-                },
-                {
-                    "id": "long.executestrategy.intrigue.poison.follower.notoriety.continue",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "long.executestrategy.intrigue.poison.follower.notoriety.defendmystique.succeed",
-            "actionId": "longintrigue",
-            "effects": {
-                "notoriety": 1
-            },
-            "linked": [
-                {
-                    "id": "long.executestrategy.intrigue.failure"
-                }
-            ]
-        },
-        {
-            "id": "long.executestrategy.intrigue.poison.follower.notoriety.succeed",
-            "actionId": "longintrigue",
-            "label": "公眾視野",
-            "startdescription": "我們的追隨者在不好的意義上遠近聞名。",
-            "mutations": [
-                {
-                    "mutate": "poison.notoriety",
-                    "filter": "follower",
-                    "level": 1
-                }
-            ]
-        },
-        {
-            "id": "long.executestrategy.intrigue.mystiquetonotoriety.begin",
-            "actionId": "longintrigue",
-            "label": "杜撰傳聞",
-            "startdescription": "我們敵人正在想辦法把現存的謠言煽動地更離奇。",
-            "slots": [
-                {
-                    "id": "mystique",
-                    "label": "秘氛",
-                    "required": {
-                        "mystique": 1
-                    },
-                    "greedy": true
-                }
-            ],
-            "comments": "If we can't find mystique, we go on trying to generate it",
-            "linked": [
-                {
-                    "id": "long.executestrategy.intrigue.mystiquetonotoriety.continue",
-                    "chance": 100
-                },
-                {
-                    "id": "long.executestrategy.intrigue.createmystique.begin",
-                    "chance": 100
-                }
-            ],
-            "warmup": 10
-        },
-        {
-            "id": "long.executestrategy.intrigue.mystiquetonotoriety.continue",
-            "actionId": "longintrigue",
-            "label": "維護我們的聲名？",
-            "startdescription": "我說不定知道能把故事反轉的人。[<sprite name=heart>之追隨者——越強越好——或許能擋下這次攻擊。]",
-            "slots": [
-                {
-                    "id": "defender",
-                    "label": "防禦者",
-                    "required": {
-                        "follower": 1
-                    }
-                }
-            ],
-            "requirements": {
-                "mystique": 1
-            },
-            "warmup": 10,
-            "linked": [
-                {
-                    "id": "long.executestrategy.intrigue.failure",
-                    "challenges": {
-                        "heart": "base"
-                    }
-                },
-                {
-                    "id": "long.executestrategy.intrigue.mystiquetonotoriety.succeed",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "long.executestrategy.intrigue.mystiquetonotoriety.succeed",
-            "actionId": "longintrigue",
-            "label": "我們名聲掃地",
-            "startdescription": "這既不算真話，也不算謊言。",
-            "description": "",
-            "effects": {
-                "notoriety": 1,
-                "mystique": -1
-            }
-        },
-        {
-            "id": "long.executestrategy.intrigue.fraud.begin",
-            "actionId": "longintrigue",
-            "label": "紙上羅網",
-            "startdescription": "我們的敵人對我們提出了虛假的指證。必須讓當局相信我們的清白。[如果成功，你會失去一份或多份資金。<sprite name=heart>或<sprite name=moth>之追隨者——越強越好——或許能擋下這次攻擊。]",
-            "slots": [
-                {
-                    "id": "defender",
-                    "label": "防禦者",
-                    "required": {
-                        "follower": 1
-                    }
-                }
-            ],
-            "warmup": 10,
-            "linked": [
-                {
-                    "id": "long.executestrategy.intrigue.failure",
-                    "challenges": {
-                        "heart": "base",
-                        "moth": "base"
-                    }
-                },
-                {
-                    "id": "long.executestrategy.intrigue.fraud.succeed",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "long.executestrategy.intrigue.fraud.succeed",
-            "actionId": "longintrigue",
-            "label": "審計員的毒刺",
-            "startdescription": "“在以前的往來信函中，我們指出過你違約的可能性。現在我們更詳細地評估了這個問題……”",
-            "slots": [
-                {
-                    "id": "funds",
-                    "label": "資金",
-                    "required": {
-                        "funds": 1
-                    },
-                    "greedy": true
-                }
-            ],
-            "effects": {
-                "funds": -1
-            },
-            "warmup": 10,
-            "linked": [
-                {
-                    "id": "long.executestrategy.intrigue.fraud.succeed",
-                    "chance": 70
-                },
-                {
-                    "id": "long.executestrategy.intrigue.fraud.completed",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "long.executestrategy.intrigue.fraud.completed",
-            "actionId": "longintrigue",
-            "label": "會計長的饒赦",
-            "startdescription": "語帶威脅的來信從原先的源源不斷變得稀少，直至終止。結束了……至少現下如此。"
-        },
-        {
-            "id": "long.executestrategy.intrigue.createmystique.begin",
-            "actionId": "longintrigue",
-            "label": "無根無據的謠言",
-            "startdescription": "如果我們的敵人把謠言不斷重複，便有可能傷到我們。[<sprite name=heart>之追隨者——越強越好——或許能擋下這次攻擊。]",
-            "slots": [
-                {
-                    "id": "defender",
-                    "label": "防禦者",
-                    "required": {
-                        "follower": 1
-                    }
-                }
-            ],
-            "warmup": 10,
-            "linked": [
-                {
-                    "id": "long.executestrategy.intrigue.failure",
-                    "challenges": {
-                        "heart": "base"
-                    }
-                },
-                {
-                    "id": "long.executestrategy.intrigue.createmystique.succeed",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "long.executestrategy.intrigue.createmystique.succeed",
-            "actionId": "longintrigue",
-            "label": "謠言的迷霧",
-            "startdescription": "我的聲名不再完全取決於我的言行。",
-            "effects": {
-                "mystique": 1
-            }
-        },
-        {
-            "id": "long.executestrategy.intrigue.failure",
-            "actionId": "longintrigue",
-            "label": "疑罪從無",
-            "startdescription": "我的聲名不再跌落……但現在，我們的敵人會更加專注地盯著我們。",
-            "effects": {
-                "long.lesson.connections": 1
-            }
-        },
-        {
-            "id": "long.executestrategy.dreams.drysoul.begin",
-            "actionId": "longdreams",
-            "label": "涸魂詛咒出現",
-            "startdescription": "敵人正在用“涸魂詛咒”對付我們。我們可以僱傭“擂擊者”用激奮的捶打和快活的肢體動作驅散詛咒，然而敵人能在事後查出緣由。[“擂擊者”能避免詛咒發作，也會為我們的敵人提供經驗教訓。]",
-            "slots": [
-                {
-                    "id": "defender",
-                    "label": "擂擊者",
-                    "required": {
-                        "spirit_heartc_edge": 1
-                    }
-                }
-            ],
-            "alt": [
-                {
-                    "id": "long.executestrategy.dreams.drysoul.defeated"
-                },
-                {
-                    "id": "curse_dread_dormant",
-                    "chance": 100,
-                    "additional": true
-                }
-            ],
-            "warmup": 60
-        },
-        {
-            "id": "long.executestrategy.dreams.drysoul.defeated",
-            "actionId": "longdreams",
-            "label": "擂擊者的防護",
-            "startdescription": "\"\r\n來吧擂擊者，\r\n反覆唱著\r\n扭動四肢的讚歌：\r\n\r\n涸魂詛咒！\r\n涸魂詛咒！\r\n多肢畸形的宇宙！\"",
-            "requirements": {
-                "spirit_heartc_edge": 1
-            },
-            "effects": {
-                "long.lesson.dreamwork": 1
-            },
-            "aspects": {
-                "killsummoned": 1
-            },
-            "warmup": 10
-        },
-        {
-            "id": "long.executestrategy.dreams.fiftheye.begin",
-            "actionId": "longdreams",
-            "label": "第五目詛咒出現",
-            "startdescription": "敵人正在用“第五目詛咒”對付我們。我們可以用“汽靈”的煙氣攪擾他們的準備工作，然而敵人能在事後查出緣由。[“汽靈”能避免詛咒發作，但是會為我們的敵人提供經驗教訓。]",
-            "slots": [
-                {
-                    "id": "defender",
-                    "label": "擂擊者",
-                    "required": {
-                        "spirit_forgec_winter": 1
-                    }
-                }
-            ],
-            "alt": [
-                {
-                    "id": "long.executestrategy.dreams.fiftheye.defeated"
-                },
-                {
-                    "id": "curse_visions_dormant",
-                    "chance": 100,
-                    "additional": true
-                }
-            ],
-            "warmup": 60
-        },
-        {
-            "id": "long.executestrategy.dreams.fiftheye.defeated",
-            "actionId": "longdreams",
-            "label": "第五目詛咒泯滅於煙",
-            "startdescription": "第五目詛咒在被擊敗後消散。我方的汽靈也一同消失，帶著從我們這學到的不知什麼秘密。",
-            "requirements": {
-                "spirit_forgec_winter": 1
-            },
-            "effects": {
-                "long.lesson.dreamwork": 1
-            },
-            "aspects": {
-                "killsummoned": 1
-            },
-            "warmup": 10
-        },
-        {
-            "id": "long.executestrategy.dreams.poisonway.begin",
-            "actionId": "longdreams.poisonway",
-            "comments": "unique verb, because it loops",
-            "label": "擋路的看守",
-            "startdescription": "敵人會選擇一條我們進入漫宿的通道，並向之派出守衛。",
-            "slots": [
-                {
-                    "id": "way",
-                    "label": "道路",
-                    "required": {
-                        "way": 1
-                    },
-                    "forbidden": {
-                        "poison.long.way": 1,
-                        "waystagbefore_1": 1,
-                        "waystagbefore_2": 1,
-                        "waystagbefore_3": 1,
-                        "waystagbefore_4": 1,
-                        "waystagbefore_5": 1
-                    },
-                    "greedy": true
-                }
-            ],
-            "linked": [
-                {
-                    "id": "long.executestrategy.dreams.poisonway.continue"
-                },
-                {
-                    "id": "long.executestrategy.dreams.poisonway.begin"
-                }
-            ],
-            "warmup": 30
-        },
-        {
-            "id": "long.executestrategy.dreams.poisonway.continue",
-            "actionId": "longdreams.poisonway",
-            "label": "擋路的看守",
-            "requirements": {
-                "way": 1
-            },
-            "startdescription": "敵人已做出選擇。我們若不冒危險便不能再度通過此門。",
-            "mutations": [
-                {
-                    "filter": "way",
-                    "mutate": "poison.way.long",
-                    "level": 1
-                }
-            ]
-        },
-        {
-            "id": "long.executestrategy.dreams.lantern.greatwork.begin",
-            "actionId": "longdreams",
-            "label": "遭受破壞活動！",
-            "startdescription": "我們永生不死的敵人已經注意到我們在漫宿的作為。裂分之狼的一名不顯要的具名者正循氣味前來。",
-            "slots": [
-                {
-                    "id": "target",
-                    "label": "目標",
-                    "required": {
-                        "uqthirdwaywitnesses": 1
-                    },
-                    "greedy": true
-                }
-            ],
-            "linked": [
-                {
-                    "id": "long.executestrategy.dreams.lantern.greatwork.continue",
-                    "chance": 100
-                }
-            ],
-            "warmup": 10
-        },
-        {
-            "id": "long.executestrategy.dreams.lantern.greatwork.continue",
-            "actionId": "longdreams",
-            "label": "保衛大功業",
-            "startdescription": "我們的大功業遭到瘦灰惡獸的威脅。如果我們用光覆住它，或許能阻止這頭巡獵的碎狼。[<sprite name=heart>或<sprite name=lantern>之靈體或許能抵禦這次攻擊。]",
-            "description": "",
-            "slots": [
-                {
-                    "id": "defender",
-                    "label": "防禦者",
-                    "required": {
-                        "summoned": 1
-                    }
-                }
-            ],
-            "requirements": {
-                "uqthirdwaywitnesses": 1
-            },
-            "warmup": 10,
-            "linked": [
-                {
-                    "id": "long.executestrategy.dreams.lantern.greatwork.failure",
-                    "challenges": {
-                        "heart": "base",
-                        "lantern": "base"
-                    }
-                },
-                {
-                    "id": "long.executestrategy.dreams.lantern.greatwork.succeed"
-                }
-            ]
-        },
-        {
-            "id": "long.executestrategy.dreams.lantern.greatwork.succeed",
-            "actionId": "longdreams",
-            "label": "光芒漸暗",
-            "startdescription": "一個目擊者逃掉，一個被碎狼帶走。第三個呢？跑去某個連地圖都沒標註的地方了吧。",
-            "aspects": {
-                "sabotage": 1
-            },
-            "warmup": 10
-        },
-        {
-            "id": "long.executestrategy.dreams.lantern.greatwork.failure",
-            "actionId": "longdreams",
-            "label": "光芒遍覆",
-            "startdescription": "我們分散了這頭巡獵碎狼的注意力。大功業暫時安全了。",
-            "effects": {
-                "long.lesson.dreamwork": 1
-            },
-            "warmup": 10
-        },
-        {
-            "id": "long.executestrategy.dreams.poisonpassionwithdread.begin",
-            "actionId": "longdreams",
-            "label": "加深的暮色",
-            "slots": [
-                {
-                    "id": "seeking",
-                    "label": "激情",
-                    "required": {
-                        "passion": 1
-                    },
-                    "greedy": true
-                }
-            ],
-            "linked": [
-                {
-                    "id": "long.executestrategy.dreams.poisonpassionwithdread.continue"
-                }
-            ],
-            "startdescription": "死亡，據說，是朝下的。漫宿的根部深深地蔓延到光明之下。這是我敵人托來的夢告訴我的。",
-            "warmup": 60
-        },
-        {
-            "id": "long.executestrategy.dreams.poisonpassionwithdread.continue",
-            "actionId": "longdreams",
-            "label": "加深的暮色",
-            "startdescription": "在夢中，我看到無盡向下的樓梯，直下到亡者的歸處，世界轉動處。",
-            "requirements": {
-                "passion": 1
-            },
-            "mutations": [
-                {
-                    "filter": "passion",
-                    "mutate": "poison.passion.dread",
-                    "level": 1
-                }
-            ],
-            "alt": [
-                {
-                    "id": "poison.passion.dread.induction",
-                    "additional": true
-                }
-            ],
-            "warmup": 10
-        },
-        {
-            "id": "long.executestrategy.dreams.poisonreasonwithfascination.begin",
-            "actionId": "longdreams",
-            "label": "燭光與燭芯",
-            "startdescription": "敵人用各種圖景給我的夢境加味——每個圖景都是一個側面，預示了某位司辰的到來。",
-            "slots": [
-                {
-                    "id": "seeking",
-                    "label": "理性",
-                    "required": {
-                        "reason": 1
-                    },
-                    "greedy": true
-                }
-            ],
-            "linked": [
-                {
-                    "id": "long.executestrategy.dreams.poisonreasonwithfascination.continue"
-                }
-            ],
-            "warmup": 60
-        },
-        {
-            "id": "long.executestrategy.dreams.poisonreasonwithfascination.continue",
-            "actionId": "longdreams",
-            "label": "燭光與燭芯",
-            "startdescription": "誰是“制燭人”？為何我將夢到她？此火為何，燃料又為何？我的思緒便是引火的火絨。",
-            "requirements": {
-                "reason": 1
-            },
-            "mutations": [
-                {
-                    "filter": "reason",
-                    "mutate": "poison.reason.fascination",
-                    "level": 1
-                }
-            ],
-            "alt": [
-                {
-                    "id": "poison.reason.fascination.induction",
-                    "additional": true
-                }
-            ],
-            "warmup": 10
-        },
-        {
-            "id": "long.executestrategy.dreams.createfascination.poisoned.begin",
-            "actionId": "longdreams",
-            "label": "味美的夢",
-            "startdescription": "敵人對我的希望和恐懼有了更深入了解。他不再需要用我的恐懼作為他託夢的動力。今夜的夢如同封在琥珀中的肉桂。它從錘鍊場新鮮出爐，誘人如未切的蛋糕，籠罩著懷舊之情被點燃的光暈。",
-            "effects": {
-                "fascination": 1,
-                "contentment": 1
-            },
-            "linked": [
-                {
-                    "id": "long.executestrategy.dreams.applypoison.fascination.longlesson"
-                }
-            ],
-            "warmup": 60
-        },
-        {
-            "id": "long.executestrategy.dreams.dreadtofascination.poisoned.begin",
-            "actionId": "longdreams",
-            "label": "多汁的夢",
-            "startdescription": "敵對長生者給我送來一個關於光之果園的夢。安居在夢中，如同一隻多汁的梨裹在沙沙作響的紙中，帶來永絕恐懼的安心感。",
-            "slots": [
-                {
-                    "id": "seeking",
-                    "label": "恐懼",
-                    "required": {
-                        "dread": 1
-                    },
-                    "greedy": true
-                }
-            ],
-            "linked": [
-                {
-                    "id": "long.executestrategy.dreams.dreadtofascination.poisoned.continue"
-                }
-            ],
-            "warmup": 60
-        },
-        {
-            "id": "long.executestrategy.dreams.dreadtofascination.poisoned.continue",
-            "actionId": "longdreams",
-            "label": "多汁的夢",
-            "startdescription": "我收到的夢裹住了我的恐懼，如同水蛭吞噬一顆生命微粒。它以它的方式給出一份對於從未發生的對話的回憶，話間飽含明亮的笑聲。",
-            "requirements": {
-                "dread": 1
-            },
-            "effects": {
-                "dread": -1,
-                "fascination": 1,
-                "contentment": 1
-            },
-            "linked": [
-                {
-                    "id": "long.executestrategy.dreams.applypoison.fascination.longlesson"
-                }
-            ]
-        },
-        {
-            "id": "long.executestrategy.dreams.applypoison.fascination.longlesson",
-            "actionId": "longdreams",
-            "label": "多汁的夢",
-            "mutations": [
-                {
-                    "filter": "fascination",
-                    "mutate": "poison.fascination.longlesson",
-                    "level": 1,
-                    "additive": true
-                }
-            ]
-        },
-        {
-            "id": "long.executestrategy.dreams.createfascination.begin",
-            "actionId": "longdreams",
-            "label": "遙遠的光",
-            "startdescription": "敵人在漫宿的高窗上放了一支蠟燭。燭光將滲進我們的夢。",
-            "description": "這就是科賽利和海索分別在他們生活的年代記錄的位於睡夢邊緣的光。",
-            "effects": {
-                "fascination": 1
-            },
-            "warmup": 60
-        },
-        {
-            "id": "long.executestrategy.dreams.learndreams.begin",
-            "actionId": "longdreams",
-            "label": "袒露的角度",
-            "startdescription": "在一個特定的角度上，我的思想能映射漫宿之光。我們的敵人正設法獲知這個角度。",
-            "description": "我們的敵人在漫宿的殿堂裡搜尋我思想映射出的閃光，然而一無所獲。",
-            "slots": [
-                {
-                    "id": "impulses",
-                    "label": "衝動",
-                    "greedy": true,
-                    "required": {
-                        "fascination": 1
-                    }
-                }
-            ],
-            "warmup": 10,
-            "craftable": false,
-            "alt": [
-                {
-                    "id": "long.executestrategy.dreams.learndreams.continue",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "long.executestrategy.dreams.learndreams.continue",
-            "actionId": "longdreams",
-            "label": "袒露的角度",
-            "startdescription": "我們的敵人獲知了我思想的角度。我們變得更弱勢了。",
-            "requirements": {
-                "fascination": 1
-            },
-            "effects": {
-                "fascination": -1,
-                "long.lesson.dreamwork": 1
-            }
-        },
-        {
-            "id": "long.executestrategy.dreams.learnfears.begin",
-            "actionId": "longdreams",
-            "label": "恐懼的展覽",
-            "startdescription": "我心中有一個房間陳列著我的恐懼。在我夢中，那個房間有扇門。如果我的敵人找到了那扇門，他有可能能進入。",
-            "description": "我的恐懼隱沒在黑暗中。我們的敵人一無所獲。",
-            "slots": [
-                {
-                    "id": "impulses",
-                    "label": "衝動",
-                    "greedy": true,
-                    "required": {
-                        "dread": 1
-                    }
-                }
-            ],
-            "warmup": 10,
-            "craftable": false,
-            "alt": [
-                {
-                    "id": "long.executestrategy.dreams.learndreams.continue",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "long.executestrategy.dreams.learnfears.continue",
-            "actionId": "longdreams",
-            "label": "恐懼的展覽",
-            "startdescription": "我們的敵人發現了我心中陳列的恐懼。我們變得更弱勢了。",
-            "requirements": {
-                "dread": 1
-            },
-            "effects": {
-                "dread": -1,
-                "long.lesson.dreamwork": 1
-            }
-        },
-        {
-            "id": "long.executestrategy.downtime.learn.begin",
-            "actionId": "longdowntime",
-            "label": "不斷加強的勢力",
-            "startdescription": "我們永生不死的敵人在諸多國家中都擁有同盟和物資。他的行動緩慢，但隨著時間推移，他會調來越來越越多的同盟和物資來對抗我們。",
-            "warmup": 10,
-            "linked": [
-                {
-                    "id": "long.executestrategy.downtime.learn.might",
-                    "chance": 33
-                },
-                {
-                    "id": "long.executestrategy.downtime.learn.connections",
-                    "chance": 50
-                },
-                {
-                    "id": "long.executestrategy.downtime.learn.dreamwork",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "long.executestrategy.downtime.learn.might",
-            "label": "正在習得：力量",
-            "actionId": "longdowntime",
-            "effects": {
-                "long.lesson.might": 1
-            }
-        },
-        {
-            "id": "long.executestrategy.downtime.learn.connections",
-            "label": "正在習得：人脈",
-            "actionId": "longdowntime",
-            "effects": {
-                "long.lesson.connections": 1
-            }
-        },
-        {
-            "id": "long.executestrategy.downtime.learn.dreamwork",
-            "label": "正在習得：造夢",
-            "actionId": "longdowntime",
-            "effects": {
-                "long.lesson.dreamwork": 1
-            }
-        },
-        {
-            "id": "long.executestrategy.downtime.rest.begin",
-            "actionId": "longdowntime",
-            "label": "緩解",
-            "startdescription": "敵人暫時選擇等待。",
-            "warmup": 10,
-            "craftable": false
-        },
-        {
-            "id": "long.intrigue.confrontation",
-            "actionId": "long",
-            "label": "準備襲擊",
-            "startdescription": "敵人的人脈無處不在，這讓他有自信發起一次成功的公開襲擊。可以想見，很快我們就會迎來一次猛攻。",
-            "requirements": {
-                "long.connections": 10,
-                "diarist": -1,
-                "diarist_unknown": -1
-            },
-            "mutations": [
-                {
-                    "mutate": "long.might",
-                    "filter": "long.enemy",
-                    "level": 10
-                }
-            ],
-            "warmup": 60,
-            "linked": [
-                {
-                    "id": "long.assault.confrontation"
-                }
-            ],
-            "aspects": {
-                "revealidentity": 1
-            }
-        },
-        {
-            "id": "long.assault.confrontation",
-            "actionId": "long",
-            "comments": "Note: this takes effect in the main verb. Once in an assault confrontation, we're in it until the end.",
-            "label": "直接襲擊！",
-            "aspects": {
-                "revealidentity": 1
-            },
-            "slots": [
-                {
-                    "id": "follower",
-                    "label": "防禦者",
-                    "required": {
-                        "follower": 1,
-                        "murderskill": 1
-                    },
-                    "forbidden": {
-                        "summoned": 1,
-                        "hireling": 1
-                    }
-                }
-            ],
-            "startdescription": "該停止用嘍囉相互試互鬥了。@#welland|韋蘭上尉將親自用鑄之力對付我們。#tryphon|特里豐女士已決定讓她修剪精緻的指甲染上鮮血，親自發起襲擊。#julian|這位冷冽的敵人要親自動手消滅我們。#|我們的敵人親自下場戰鬥。@[長生者會不斷吞噬我的“健康”，直到我死去，雖然我忠實的追隨者可以保護我一段時間。而且必須是凡人追隨者——我們的敵人是無形之術的高手，靈體無法侵襲他。]",
-            "requirements": {
-                "long.might": 10,
-                "diarist": -1,
-                "diarist_unknown": -1
-            },
-            "alt": [
-                {
-                    "id": "expel_corpses",
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 9,
-                        "filter": {
-                            "corpse": 1
-                        }
-                    }
-                },
-                {
-                    "id": "long.assault.confrontation.vanquished"
-                },
-                {
-                    "id": "long.assault.confrontation.murderskill"
-                },
-                {
-                    "id": "long.assault.confrontation.defender"
-                }
-            ],
-            "warmup": 30,
-            "linked": [
-                {
-                    "id": "long.assault.confrontation.grabhealth"
-                }
-            ]
-        },
-        {
-            "id": "long.assault.confrontation.vanquished",
-            "actionId": "long",
-            "label": "長生者死了！",
-            "startdescription": "這位巨人活過無盡的時間，卻漲了歲數失了謹慎。",
-            "description": "[趁現在享受你的勝利吧。作業還要繼續。如果我們敵人能被人消滅，我們的導師也能。]",
-            "requirements": {
-                "long_wound": 3
-            },
-            "aspects": {
-                "longded": 1
-            },
-            "warmup": 60
-        },
-        {
-            "id": "long.assault.confrontation.grabhealth",
-            "label": "兇殘的猛攻",
-            "actionId": "long",
-            "slots": [
-                {
-                    "id": "injury",
-                    "label": "受傷",
-                    "required": {
-                        "health": 1,
-                        "fatigue": 1
-                    },
-                    "greedy": true
-                }
-            ],
-            "aspects": {
-                "damagehealth": 1
-            },
-            "alt": [
-                {
-                    "id": "expel_injury",
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 1,
-                        "filter": {
-                            "injury": 1
-                        }
-                    }
-                },
-                {
-                    "id": "deathofthebody",
-                    "chance": 100
-                }
-            ],
-            "startdescription": "長生者從影子襲來，然後重歸沉默！[如果我沒有剩餘的“健康”，我會死去。]",
-            "warmup": 10,
-            "linked": [
-                {
-                    "id": "long.assault.confrontation"
-                }
-            ]
-        },
-        {
-            "id": "long.assault.confrontation.defender",
-            "actionId": "long",
-            "label": "必要的犧牲",
-            "requirements": {
-                "follower": 1
-            },
-            "startdescription": "此人將為事業奉獻生命。[只有擁有至少5點<sprite name=edge><sprite name=forge><sprite name=winter>的追隨者才有機會傷到長生者。但其他人也能推遲注定到來的結果，雖然時間不長。]",
-            "linked": [
-                {
-                    "id": "long.assault.confrontation.weakfollower"
-                },
-                {
-                    "id": "long.assault.confrontation.strongfollower",
-                    "challenges": {
-                        "edge": "base",
-                        "forge": "base",
-                        "winter": "base"
-                    }
-                },
-                {
-                    "id": "long.assault.confrontation.strongfollower.failure"
-                }
-            ]
-        },
-        {
-            "id": "long.assault.confrontation.weakfollower",
-            "actionId": "long",
-            "label": "必要的犧牲",
-            "startdescription": "又一根蠟燭熄滅了。",
-            "requirements": {
-                "edge": -5,
-                "forge": -5,
-                "winter": -5
-            },
-            "warmup": 30,
-            "aspects": {
-                "killmortal": 1
-            },
-            "linked": [
-                {
-                    "id": "long.assault.confrontation"
-                }
-            ]
-        },
-        {
-            "id": "long.assault.confrontation.murderskill",
-            "actionId": "long",
-            "label": "踏入黑夜",
-            "startdescription": "我要面對這個生物。他擁有數世紀的力量……但我也不容小看。",
-            "requirements": {
-                "murderskill": 1
-            },
-            "linked": [
-                {
-                    "id": "long.assault.confrontation.murderskill.succeed",
-                    "chance": 30
-                },
-                {
-                    "id": "long.assault.confrontation.murderskill.failure"
-                }
-            ]
-        },
-        {
-            "id": "long.assault.confrontation.murderskill.succeed",
-            "actionId": "long",
-            "label": "我已敗倒，雖然吾刃傷敵如刀。",
-            "startdescription": "我與我的敵人在黑暗中搏鬥，儘管他遠強於我，我仍用犧牲我的力量換得他見血。他被我所傷！然而我已敗倒。",
-            "mutations": [
-                {
-                    "filter": "long.enemy",
-                    "mutate": "long_wound",
-                    "level": 1,
-                    "additive": true
-                }
-            ],
-            "warmup": 30,
-            "effects": {
-                "murderskill": -1
-            },
-            "linked": [
-                {
-                    "id": "long.assault.confrontation"
-                }
-            ]
-        },
-        {
-            "id": "long.assault.confrontation.murderskill.failure",
-            "actionId": "long",
-            "label": "我已敗倒",
-            "startdescription": "我與我的敵人對峙；我與他正面比拼力量；我敗倒。我雖可稱高於人類，但他早已不做人類很久。",
-            "warmup": 30,
-            "effects": {
-                "murderskill": -1
-            },
-            "linked": [
-                {
-                    "id": "long.assault.confrontation"
-                }
-            ]
-        },
-        {
-            "id": "long.assault.confrontation.strongfollower",
-            "actionId": "long",
-            "label": "高尚的結末",
-            "startdescription": "夜深人靜時，我們聽到一聲震動城市的尖嘯。長生者已傷！",
-            "mutations": [
-                {
-                    "filter": "long.enemy",
-                    "mutate": "long_wound",
-                    "level": 1,
-                    "additive": true
-                }
-            ],
-            "warmup": 30,
-            "aspects": {
-                "killmortal": 1
-            },
-            "alt": [
-                {
-                    "id": "expel_corpses",
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 9,
-                        "filter": {
-                            "corpse": 1
-                        }
-                    }
-                }
-            ],
-            "linked": [
-                {
-                    "id": "long.assault.confrontation"
-                }
-            ]
-        },
-        {
-            "id": "long.assault.confrontation.strongfollower.failure",
-            "actionId": "long",
-            "label": "高尚的失敗",
-            "startdescription": "數分鐘，又數小時過去。夜晚吞吃了我們的戰友，輕易地如游魚吞蠅。長生者仍不滿足，還在繼續襲擊。",
-            "warmup": 30,
-            "aspects": {
-                "killmortal": 1
-            },
-            "alt": [
-                {
-                    "id": "expel_corpses",
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 1,
-                        "filter": {
-                            "corpse": 1
-                        }
-                    }
-                }
-            ],
-            "linked": [
-                {
-                    "id": "long.assault.confrontation"
-                }
-            ]
-        },
-        {
-            "id": "long.dreams.confrontation",
-            "actionId": "long",
-            "comments": "Note: this takes effect in the main verb. Once in a dreams confrontation, we're in it until the end.",
-            "label": "幻影之戰",
-            "aspects": {
-                "revealidentity": 1
-            },
-            "slots": [
-                {
-                    "id": "summoned",
-                    "label": "防禦者",
-                    "required": {
-                        "summoned": 1
-                    }
-                }
-            ],
-            "startdescription": "@#welland|韋蘭上尉一反常態地選擇漫宿邊境作為我們的最終戰場。#tryphon|特里豐女士選擇在漫宿邊境進行我們最終的交鋒。#julian|科賽利在漫宿邊境召集盟友襲擊我們。#diarist|“日記作者”向我們發起總攻，地點是他熟門熟路的漫宿邊境。#|我們敵人從漫宿召喚出大群靈體攻擊我們。@[長生者會不斷吞噬我的“激情”和“理性”，直到我不復存在。但他自己也暴露了，我可以反攻……只要我能召喚出大量漫宿生物與之對抗。]",
-            "requirements": {
-                "long.dreamwork": 10
-            },
-            "alt": [
-                {
-                    "id": "long.dreams.confrontation.vanquished"
-                },
-                {
-                    "id": "long.dreams.confrontation.defender"
-                }
-            ],
-            "warmup": 30,
-            "linked": [
-                {
-                    "id": "long.dreams.confrontation.grabability"
-                }
-            ]
-        },
-        {
-            "id": "long.dreams.confrontation.vanquished",
-            "actionId": "long",
-            "label": "長生者敗退！",
-            "startdescription": "在邊境，在渦卷如颶的暗影，怒火燎天的煙氣中，長生者像融化的月亮一樣越縮越小。他的軍隊消散。他的圖謀破滅。他的名字已失落。",
-            "description": "[趁現在享受你的勝利吧。作業還要繼續。如果我們敵人能被人消滅，我們的導師也能。]",
-            "requirements": {
-                "long_wound": 3
-            },
-            "aspects": {
-                "longded": 1
-            },
-            "warmup": 60
-        },
-        {
-            "id": "long.dreams.confrontation.defender",
-            "actionId": "long",
-            "label": "邊境的戰鬥",
-            "requirements": {
-                "summoned": 1
-            },
-            "startdescription": "戰鬥存於想像中，而戰爭不是。我可以在夢境設置衛兵。[只有擁有至少5點<sprite name=edge><sprite name=lantern><sprite name=moth>的靈體才有機會傷到長生者。但其他的也能推遲注定到來的結果，雖然時間不長。]",
-            "linked": [
-                {
-                    "id": "long.dreams.confrontation.lantern.maid"
-                },
-                {
-                    "id": "long.dreams.confrontation.lantern.hint"
-                },
-                {
-                    "id": "long.dreams.confrontation.winter.maid"
-                },
-                {
-                    "id": "long.dreams.confrontation.forge.caligine"
-                },
-                {
-                    "id": "long.dreams.confrontation.grail.prophet"
-                },
-                {
-                    "id": "long.dreams.confrontation.weakfollower"
-                },
-                {
-                    "id": "long.dreams.confrontation.strongfollower",
-                    "challenges": {
-                        "edge": "base",
-                        "lantern": "base",
-                        "moth": "base"
-                    }
-                },
-                {
-                    "id": "long.dreams.confrontation.strongfollower.failure"
-                }
-            ]
-        },
-        {
-            "id": "long.dreams.confrontation.lantern.maid",
-            "actionId": "long",
-            "label": "與殘陽的默契",
-            "startdescription": "“日記作者”與那些走過刀刃階梯者素有交情。哪個鏡中少女也不會出手傷他。",
-            "requirements": {
-                "diarist": 1,
-                "spirit_winterd_edge": 1
-            },
-            "aspects": {
-                "killsummoned": 1
-            },
-            "warmup": 10,
-            "linked": [
-                {
-                    "id": "long.dreams.confrontation.cleanup"
-                }
-            ]
-        },
-        {
-            "id": "long.dreams.confrontation.winter.maid",
-            "actionId": "long",
-            "label": "冷冽的嚴冬",
-            "startdescription": "科賽利是冬之長生者。不論他實現此等冷意的方法為何，這都為他封住了鏡中少女的攻擊。",
-            "requirements": {
-                "julian": 1,
-                "spirit_winterd_edge": 1
-            },
-            "aspects": {
-                "killsummoned": 1
-            },
-            "warmup": 10,
-            "linked": [
-                {
-                    "id": "long.dreams.confrontation.cleanup"
-                }
-            ]
-        },
-        {
-            "id": "long.dreams.confrontation.lantern.hint",
-            "actionId": "long",
-            "label": "弧月之光",
-            "startdescription": "作為燈之長生者，”日記作者“和輝光的子孫互有默契。哪個跡形也無法傷到他。",
-            "requirements": {
-                "diarist": 1,
-                "spirit_lanternc_edge": 1
-            },
-            "aspects": {
-                "killsummoned": 1
-            },
-            "warmup": 10,
-            "linked": [
-                {
-                    "id": "long.dreams.confrontation.cleanup"
-                }
-            ]
-        },
-        {
-            "id": "long.dreams.confrontation.forge.caligine",
-            "actionId": "long",
-            "label": "熟諳於鑄",
-            "startdescription": "韋蘭早在我教創教者出生前便能自如地操縱火。哪個汽靈也無法傷到他。",
-            "requirements": {
-                "welland": 1,
-                "spirit_forgec_winter": 1
-            },
-            "aspects": {
-                "killsummoned": 1
-            },
-            "warmup": 10,
-            "linked": [
-                {
-                    "id": "long.dreams.confrontation.cleanup"
-                }
-            ]
-        },
-        {
-            "id": "long.dreams.confrontation.grail.prophet",
-            "actionId": "long",
-            "label": "某種同情",
-            "startdescription": "“不要那樣做，”特里豐女士會如此言道。說實話，原生先知也不會那樣做。",
-            "requirements": {
-                "tryphon": 1,
-                "spirit_grailc_moth": 1
-            },
-            "aspects": {
-                "killsummoned": 1
-            },
-            "warmup": 10,
-            "linked": [
-                {
-                    "id": "long.dreams.confrontation.cleanup"
-                }
-            ]
-        },
-        {
-            "id": "long.dreams.confrontation.weakfollower",
-            "actionId": "long",
-            "label": "必要的犧牲",
-            "requirements": {
-                "edge": -5,
-                "lantern": -5,
-                "moth": -5
-            },
-            "startdescription": "又一根蠟燭熄滅了。",
-            "warmup": 30,
-            "aspects": {
-                "killsummoned": 1
-            },
-            "linked": [
-                {
-                    "id": "long.dreams.confrontation.cleanup"
-                }
-            ]
-        },
-        {
-            "id": "long.dreams.confrontation.strongfollower",
-            "actionId": "long",
-            "label": "林地的傷口",
-            "startdescription": "血從樹枝間滴落。我們的敵人受傷了。",
-            "mutations": [
-                {
-                    "filter": "long.enemy",
-                    "mutate": "long_wound",
-                    "level": 1,
-                    "additive": true
-                }
-            ],
-            "warmup": 30,
-            "aspects": {
-                "killsummoned": 1
-            },
-            "linked": [
-                {
-                    "id": "long.dreams.confrontation.cleanup"
-                }
-            ]
-        },
-        {
-            "id": "long.dreams.confrontation.strongfollower.failure",
-            "actionId": "long",
-            "label": "延長的光",
-            "startdescription": "我們的敵人安然無恙。",
-            "warmup": 30,
-            "aspects": {
-                "killsummoned": 1
-            },
-            "linked": [
-                {
-                    "id": "long.dreams.confrontation.cleanup"
-                }
-            ]
-        },
-        {
-            "id": "long.dreams.confrontation.grabability",
-            "actionId": "long",
-            "label": "糾纏不休的黃昏",
-            "startdescription": "夢魘永不停歇。永不停歇。不分白天黑夜，夢裡夢外，半空中的響動，我向內生長的髮根，自始至終敞開的門和棲於寒冷的偏頭痛而且一切都在向我說話，無時無刻所有事物，保持清醒的苦役是蜿蜒的重力而邊境的擠壓是人群的擠壓而我正在蛻下我自己，就如同冰川的移動。\n\n[待“理性”或“激情”耗盡後，我將不復存在。]",
-            "slots": [
-                {
-                    "id": "wakingnightmares",
-                    "label": "醒時夢魘",
-                    "required": {
-                        "passion": 1,
-                        "reason": 1,
-                        "concentration": 1,
-                        "disillusionment": 1,
-                        "passionexhausted": 1
-                    },
-                    "greedy": true
-                }
-            ],
-            "effects": {
-                "passion": -1,
-                "reason": -1,
-                "concentration": -1,
-                "disillusionment": -1,
-                "passionexhausted": -1
-            },
-            "alt": [
-                {
-                    "id": "long.dreams.confrontation.destroyedbynightmares"
-                }
-            ],
-            "warmup": 10,
-            "linked": [
-                {
-                    "id": "long.dreams.confrontation.cleanup"
-                }
-            ]
-        },
-        {
-            "id": "long.dreams.confrontation.destroyedbynightmares",
-            "actionId": "long",
-            "label": "終得饒赦",
-            "startdescription": "-——不復存在——",
-            "requirements": {
-                "passion": -1,
-                "reason": -1,
-                "concentration": -1,
-                "disillusionment": -1,
-                "passionexhausted": -1
-            },
-            "ending": "longnightmareending",
-            "signalEndingFlavour": "Melancholy"
-        },
-        {
-            "id": "long.dreams.confrontation.cleanup",
-            "actionId": "long",
-            "label": "幻影之戰",
-            "aspects": {
-                "revealidentity": 1
-            },
-            "effects": {
-                "edge": -99,
-                "forge": -99,
-                "grail": -99,
-                "heart": -99,
-                "knock": -99,
-                "lantern": -99,
-                "moth": -99,
-                "winter": -99
-            },
-            "linked": [
-                {
-                    "id": "long.dreams.confrontation"
-                }
-            ]
-        }
-    ]
+	"recipes": [
+		{
+			"id": "long.executestrategy.assassination.begin",
+			"label": "暗中飛來的投槍",
+			"startdescription": "在早已逝去的年代，圖拉古拉里——即投槍手們——曾受僱獵殺不死者和他們的奴僕。一般觀點認為三聖公司在第一次蠕蟲大戰後除掉了他們……或許並非於每一重歷史中。[投槍有可能摧毀你和追隨者。用<sprite name=heart> <sprite name=lantern>之追隨者在投槍手準備期間發現他們，或者用<sprite name=edge> <sprite name=forge> <sprite name=winter>之追隨者在投槍手發起襲擊後防禦。防禦失敗的追隨者會死亡。投槍手無法免疫召喚物的攻擊。]",
+			"slots": [
+				{
+					"id": "defender",
+					"label": "發現"
+				}
+			],
+			"internaldeck": {
+				"label": "目標",
+				"description": "投槍手的目標是誰？"
+			}
+		},
+		{
+			"id": "longassault.assassination.uncovered.success",
+			"label": "蛇已暴露",
+			"startdescription": "圖拉古拉里慣於偷襲。他們受不了日光。這一個逃跑了。（不回來了吧？）我們的敵人會注意到這點。"
+		},
+		{
+			"id": "longassault.assassination.uncovered.failure",
+			"label": "靜候的蛇",
+			"startdescription": "我們的追隨者一去不回。我們只能推測圖拉古拉里用他的短標槍和毒藥放倒了此人。"
+		},
+		{
+			"id": "longassault.assassination.continue",
+			"label": "第一道傷口",
+			"startdescription": "哪怕是最強者，投槍手也能一寸一寸地殺死他。[用<sprite name=edge> <sprite name=forge> <sprite name=winter>之追隨者進行防禦。防禦失敗的追隨者會死亡。投槍手無法免疫召喚物的攻擊。]",
+			"slots": [
+				{
+					"id": "defender",
+					"label": "防禦者"
+				}
+			]
+		},
+		{
+			"id": "longassault.assassination.defenderdefeated",
+			"label": "不期之死",
+			"startdescription": "投槍手已奪去一名防禦者的性命：但現在能滿足他的報償只有他目標的死，或他自己的。"
+		},
+		{
+			"id": "longassault.assassination.attack.defeated",
+			"label": "最終的報償",
+			"startdescription": "我方防禦者獲勝，投槍手已死。也許這樣就足以讓他們停手了。"
+		},
+		{
+			"id": "longassault.assassination.attack.player",
+			"label": "投槍手的毒藥",
+			"startdescription": "投槍手會讓我染毒、流血，一滴又一滴。",
+			"slots": [
+				{
+					"id": "health",
+					"label": "攻擊……"
+				}
+			]
+		},
+		{
+			"id": "longassault.assassination.murderskill.succeed",
+			"label": "折斷的槍頭",
+			"startdescription": "他們要有自知之明就不該招惹我。虧欠給他們的死亡，我用他們自己的來償。"
+		},
+		{
+			"id": "longassault.assassination.murderskill.failure",
+			"label": "苟延殘喘",
+			"startdescription": "我贏得了喘息之機，但他對我來說實在太強。我的力氣已完全不剩。"
+		},
+		{
+			"id": "longassault.assassination.killplayer",
+			"label": "投槍下的末路",
+			"startdescription": "我已經沒有任何力氣了嗎？[如果你沒有可用的“健康”卡，投槍手的毒藥會終結這局遊戲。]"
+		},
+		{
+			"id": "longassault.assassination.attack.follower",
+			"label": "致命的傷口",
+			"startdescription": "投槍手可能用一支投槍，也可能用一打；但致人死命的總是最後那支。[<sprite name=edge> <sprite name=forge> <sprite name=winter>之追隨者有可能逃出一命。其他人和運氣不佳的追隨者則必死。]",
+			"slots": [
+				{
+					"id": "targetfollower",
+					"label": "攻擊……"
+				}
+			]
+		},
+		{
+			"id": "longassault.assassination.attack.follower.failure",
+			"label": "大逆轉",
+			"startdescription": "這次，投槍手遇到了意料之外的挑戰。他死了。也許這樣就能讓他們停手了。"
+		},
+		{
+			"id": "longassault.assassination.attack.follower.success",
+			"label": "可期之死",
+			"startdescription": "被發現的那些投槍手的被害者有的在極度痛苦中身體扭曲，頭部後仰，雙眼暴突。有的身上鑽了個洞，像沉船一樣。此人連發現都沒被發現。他的死亡即投槍手可期的報償。"
+		},
+		{
+			"id": "long.executestrategy.assault.abduct.follower.begin",
+			"label": "綁架！",
+			"startdescription": "我們的敵人正在策劃一次綁架！",
+			"slots": [
+				{
+					"id": "target",
+					"label": "目標"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.assault.abduct.follower.begin.nonromancedfollower",
+			"label": "綁架！",
+			"startdescription": "我們的敵人正在策劃一次綁架！",
+			"slots": [
+				{
+					"id": "target",
+					"label": "目標"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.assault.abduct.follower.captured",
+			"label": "被俘！",
+			"startdescription": "敵人把我們的追隨者監禁在一個上鎖房間中，那棟房子有人看管，位於無形之牆後，以抵擋無形之物的進入。"
+		},
+		{
+			"id": "long.executestrategy.assault.abduct.follower.continue",
+			"label": "營救？",
+			"startdescription": "我們的敵人抓走了一名追隨者！此人會嘗試逃脫，我們說不定能幫上他——但這也可能是圈套。且此地有阻攔召喚物的措施。[<sprite name=edge> <sprite name=forge>和<sprite name=winter>裡的最高值將決定我們的追隨者們能否安然無恙地逃離。]",
+			"slots": [
+				{
+					"id": "defender",
+					"label": "防禦者"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.assault.forge.greatwork.begin",
+			"label": "遭受破壞活動！",
+			"startdescription": "我們永生不死的敵人派來奸細，欲毀掉我們進行到半途的作業。",
+			"description": "敵人的奸細找不到任何能供他們打砸破壞的東西。",
+			"slots": [
+				{
+					"id": "target",
+					"label": "目標"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.assault.forge.greatwork.continue",
+			"label": "保衛大功業",
+			"startdescription": "我們的工作間被包圍了！快保護大功業！[<sprite name=heart>或<sprite name=forge>之追隨者——越強越好——或許能擋下這次攻擊。]",
+			"description": "",
+			"slots": [
+				{
+					"id": "defender",
+					"label": "防禦者"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.assault.forge.greatwork.succeed",
+			"label": "蓄意破壞！",
+			"startdescription": "我們的敵人用鉤刀和撬棍大幹了一場。"
+		},
+		{
+			"id": "long.executestrategy.assault.setambush.expedition.begin",
+			"label": "埋伏",
+			"startdescription": "我們的敵人得知我們在籌劃一次探險。如果給他知道了目的地，他會派出盟友準備埋伏我們。",
+			"slots": [
+				{
+					"id": "vault",
+					"label": "藏寶地"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.assault.destroyhealth.begin",
+			"label": "壓倒性的襲擊！",
+			"startdescription": "我們的敵人已派出幾位來勢洶洶的先生奉命殺死，或至少，搞殘我們。[這會毀掉你的“健康”。]",
+			"slots": [
+				{
+					"id": "health",
+					"label": "健康"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.assault.health.nonefound",
+			"label": "奪命一擊",
+			"startdescription": "生病不適，精疲力盡或心不在焉會害我抵擋不住這次攻擊。[立即補充“健康”，否則將死亡。]"
+		},
+		{
+			"id": "long.executestrategy.assault.destroyhealth.continue",
+			"label": "壓倒性的襲擊！",
+			"startdescription": "如果攻擊成功，我將遭到重創。[<sprite name=heart>或<sprite name=edge>的追隨者——越強越好——或許能擋下這次攻擊。]",
+			"slots": [
+				{
+					"id": "defender",
+					"label": "防禦者"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.assault.destroyhealth.succeed",
+			"label": "習學痛苦",
+			"startdescription": "我受苦。我忍耐。"
+		},
+		{
+			"id": "long.executestrategy.assault.injurefollower.begin",
+			"label": "對追隨者的攻擊！",
+			"startdescription": "我們的敵人已派出使者，準備痛擊所有他能找到的我們的追隨者。",
+			"slots": [
+				{
+					"id": "follower",
+					"label": "追隨者"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.assault.injurefollower.hireling.continue",
+			"label": "“<b>你付我的錢可不包括這個</b>”",
+			"startdescription": "這便是我們與這位僱工最後的聯絡。"
+		},
+		{
+			"id": "long.executestrategy.assault.injurefollower.spirit.continue",
+			"label": "雙向搖擺的門",
+			"startdescription": "我們的敵人為其使者提供了把我們的召喚物驅逐出世界的手段。於是它離開了。"
+		},
+		{
+			"id": "long.executestrategy.assault.injurefollower.continue",
+			"label": "增援？",
+			"startdescription": "另一名追隨者說不定會衝上去支援——但他也得冒受傷的風險。而且派靈體對抗遠古的長生者是愚蠢的行為。[<sprite name=edge> <sprite name=forge>和<sprite name=winter>裡的最高值將決定我們的追隨者們能否安然無恙地逃離]",
+			"slots": [
+				{
+					"id": "defender",
+					"label": "防禦者"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.assault.injurehealth.begin",
+			"label": "襲擊！",
+			"startdescription": "我們的敵人派出一名雇來的暴徒前來打砸。敵人還沒下令要我的命，但是若我碰巧死了，他也不會難過就是。[這會使你的“健康”變成“受傷”。]",
+			"slots": [
+				{
+					"id": "health",
+					"label": "健康"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.assault.injurehealth.continue",
+			"label": "襲擊！",
+			"startdescription": "誰來保護我？[<sprite name=heart>或<sprite name=edge>之追隨者——越強越好——或許能擋下這次攻擊。]",
+			"description": "",
+			"slots": [
+				{
+					"id": "defender",
+					"label": "防禦者"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.assault.injurehealth.succeed",
+			"label": "小小試煉",
+			"startdescription": "他們讓我流血，但還沒讓我倒下。"
+		},
+		{
+			"id": "long.executestrategy.assault.rob.begin",
+			"label": "小賊",
+			"startdescription": "我們的敵人派出一名扒手來騷擾我。",
+			"description": "對我的敵人而言糟透了：我沒錢給他偷。",
+			"slots": [
+				{
+					"id": "funds",
+					"label": "資金"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.assault.rob.continue",
+			"label": "區區小賊，竟然會得手。",
+			"startdescription": "我的提包被人順走了！"
+		},
+		{
+			"id": "long.executestrategy.assault.intimidate.begin",
+			"label": "威嚇佯攻",
+			"startdescription": "敵人派出使者來威脅恐嚇我們。[<sprite name=heart>或<sprite name=grail>之追隨者——越強越好——或許能擋下這次攻擊。]",
+			"slots": [
+				{
+					"id": "defender",
+					"label": "防禦者"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.assault.intimidate.succeed",
+			"label": "痛楚加身的預兆",
+			"startdescription": "用黑煤胡亂塗寫的咒罵——花園裡被釘死的動物——無人看管的房屋被放火。一場隱秘之戰中的小動作。"
+		},
+		{
+			"id": "long.executestrategy.assault.failure",
+			"label": "失敗的襲擊",
+			"startdescription": "我們防住了敵人的襲擊……但他也從我們身上了解到了什麼，他會更認真地將我們視作對他的威脅。可見將來的襲擊會更加凶險。"
+		},
+		{
+			"id": "long.executestrategy.intrigue.scandal.begin",
+			"label": "醜聞！",
+			"startdescription": "我們的敵人策動了一樁醜聞，將以燎原之勢傳遍我們的活動圈子。[“醜聞”會時不時地產生“惡名”，直到其自行消散為止。]"
+		},
+		{
+			"id": "scandal.end",
+			"label": "歸於沉寂",
+			"startdescription": "公眾是喜新厭舊的……幸虧如此。他們正在將我們遺忘。"
+		},
+		{
+			"id": "scandal.notoriety",
+			"label": "骯髒的謊言",
+			"startdescription": "雖然我們沒少做有愧的事，但這件事不是，完全沒有的事！然而它說不定真能陷我們於不義。"
+		},
+		{
+			"id": "long.executestrategy.intrigue.follower.seduce.begin",
+			"label": "秘密接觸",
+			"startdescription": "我們永生不死的敵人正嘗試與我們的一名追隨者——一名心懷積怨之人——會面。",
+			"slots": [
+				{
+					"id": "target",
+					"label": "受到引誘"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.intrigue.follower.seduce.continue",
+			"label": "蠱惑人心",
+			"startdescription": "現在，長生者要使出他幾個世紀來學到的大奸巨滑……或許我們的追隨者將不再為我們效力。[用“激情”讓他保持忠誠。不一定能成功，但只要你擁有“激情”就能繼續嘗試。]",
+			"description": "",
+			"slots": [
+				{
+					"id": "passion",
+					"label": "激烈的爭執"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.intrigue.follower.seduce.defendpassion.try",
+			"label": "激烈的辯白",
+			"startdescription": "激情或許能讓他動搖。[即使失敗，也能繼續嘗試。]"
+		},
+		{
+			"id": "long.executestrategy.intrigue.follower.seduce.defendpassion.succeed",
+			"label": "緩兵之計",
+			"startdescription": "追隨者選擇留下……至少現下如此。[但他的“怨恨”有所增長，我們的敵人也更了解我們了。]"
+		},
+		{
+			"id": "long.executestrategy.intrigue.follower.seduce.succeed",
+			"label": "背信棄義",
+			"startdescription": "我們的追隨者背棄了神聖的託付。現在他將為我們日益強盛的敵人貢獻力量。"
+		},
+		{
+			"id": "long.executestrategy.intrigue.grail.greatwork.begin",
+			"label": "遭受破壞活動！",
+			"startdescription": "我們永生不死的敵人企圖使我們的宴主相信，謝肉祭將會是噁心，凶險，或者無聊的。",
+			"slots": [
+				{
+					"id": "target",
+					"label": "目標"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.intrigue.grail.greatwork.continue",
+			"label": "保衛大功業",
+			"startdescription": "我可以派特使去勸慰和安撫。[<sprite name=heart>或<sprite name=grail>之追隨者——越強越好——或許能擋下這次攻擊。]",
+			"description": "",
+			"slots": [
+				{
+					"id": "defender",
+					"label": "防禦者"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.intrigue.grail.greatwork.succeed",
+			"label": "宴主的不安",
+			"startdescription": "宴主四散。他貪婪的信仰餿掉了。"
+		},
+		{
+			"id": "long.executestrategy.intrigue.poison.follower.resentment.begin",
+			"label": "積怨之種",
+			"startdescription": "敵人正在想辦法毒害一名追隨者的頭腦，叫他倒戈。",
+			"slots": [
+				{
+					"id": "follower",
+					"label": "目標"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.intrigue.poison.follower.resentment.continue",
+			"label": "紮下禍根",
+			"startdescription": "他怎麼說？[用“激情”讓他保持忠誠。不一定能成功，但只要你擁有“激情”就能繼續嘗試。]",
+			"slots": [
+				{
+					"id": "passionateargument",
+					"label": "激烈的爭執"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.intrigue.poison.follower.resentment.defendpassion.try",
+			"label": "激烈的辯白",
+			"startdescription": "激情或許能讓他動搖。[即使失敗，也能繼續嘗試。]"
+		},
+		{
+			"id": "long.executestrategy.intrigue.poison.follower.resentment.succeed",
+			"label": "氣餒之果",
+			"startdescription": "我們現在到了這個地步：我認為我的追隨者對我隱瞞了他聽到的議論我的話。"
+		},
+		{
+			"id": "long.executestrategy.intrigue.poison.follower.resentment.hireling.continue",
+			"label": "職業謹慎",
+			"startdescription": "這名僱工已經被人說服或威脅，消逝無蹤。我們不會再見到他。"
+		},
+		{
+			"id": "long.executestrategy.intrigue.detective.assist.begin",
+			"label": "意想不到的結盟？",
+			"startdescription": "我們永生不死的敵人正在尋找一枚可利用的棋子。",
+			"slots": [
+				{
+					"id": "hunter",
+					"label": "肉中之刺"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.intrigue.detective.assist.continue",
+			"label": "敵人的敵人",
+			"startdescription": "防剿局不挑剔援助的來源，而且毫無疑問，我們的大功業引起了他們極大關心。我們永生不死的敵人會在這裡使什麼壞呢？"
+		},
+		{
+			"id": "long.executestrategy.intrigue.detective.assist.mystic",
+			"label": "防禦無形之術",
+			"startdescription": "我們的敵人已教會這個調查員如何防備靈體。[該調查員成了<b>神秘主義者</b>。]"
+		},
+		{
+			"id": "long.executestrategy.intrigue.detective.assist.idealist",
+			"label": "新的領悟",
+			"startdescription": "這名調查員已查知我們大功業的真面目，從而使他將其挫敗的決心得到鍛鑄、捶打、淬鍊。[該調查員成了<b>理想主義者</b>。]"
+		},
+		{
+			"id": "long.executestrategy.intrigue.detective.assist.grim",
+			"label": "心堅如鐵",
+			"startdescription": "這名調查員被告知了他不會輕易忘懷的事情。[該調查員變得<b>冷峻</b>。]"
+		},
+		{
+			"id": "long.executestrategy.intrigue.detective.assist.erratic",
+			"label": "新的視角",
+			"startdescription": "這名調查員已練就新的技術與直覺；然而現在，他的手時不時會發抖。[該調查員變得<b>飄忽不定</b>。]"
+		},
+		{
+			"id": "long.executestrategy.intrigue.detective.assist.evidence",
+			"label": "公然作弊",
+			"startdescription": "我們永生不死的敵人在這名調查員耳邊低語。[敵方長生者提供了<b>證據</b>。]"
+		},
+		{
+			"id": "long.executestrategy.intrigue.adversary.assist.begin",
+			"label": "意想不到的結盟？",
+			"startdescription": "我們永生不死的敵人在尋找盟友——尋找有潛力的人。[如果他找不到合適的人，他的陰謀將以失敗告終。]",
+			"slots": [
+				{
+					"id": "rival",
+					"label": "對手"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.intrigue.adversary.assist.continue",
+			"label": "不死者的指點",
+			"startdescription": "敵人正在指導我們的對手怎樣更快飛升為長生者。如果他能招募到第二名長生者，我們的失敗便已注定。[<sprite name=heart>或<sprite name=moth>之追隨者——越強越好——或許能擋下這次攻擊。]",
+			"slots": [
+				{
+					"id": "defender",
+					"label": "防禦者"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.intrigue.adversary.assist.succeed",
+			"label": "更高",
+			"startdescription": "敵人已經將飛升的核心秘訣傳授給了我們的對手。毫無疑問，若對手變成真正的長生者，他會為敵人所用：這對我們可沒有多少幫助。"
+		},
+		{
+			"id": "long.executestrategy.intrigue.poison.follower.notoriety.begin",
+			"label": "白日驚魂",
+			"startdescription": "敵人正在想辦法曝光我們追隨者的秘密。[如果他找不到還未曝光的追隨者，這件事將無疾而終。]",
+			"slots": [
+				{
+					"id": "follower",
+					"label": "目標"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.intrigue.poison.follower.notoriety.continue",
+			"label": "對抗曝光？",
+			"startdescription": "我能拿出些其他的東西試著轉移公眾視線。[試用“秘氛”分散公眾注意力，但不一定能成功，還有可能產生“邪名”。用“當局欠下的人情”可立刻使其結束。]",
+			"slots": [
+				{
+					"id": "defence",
+					"label": "分散注意力"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.intrigue.poison.follower.notoriety.defendmystique.try",
+			"label": "分散注意力的事物",
+			"startdescription": "已經有太多陌生人知道這個追隨者的名字。[如果分散注意力失敗，我們可以繼續嘗試。成功則會產生“邪名”。]"
+		},
+		{
+			"id": "long.executestrategy.intrigue.poison.follower.notoriety.succeed",
+			"label": "公眾視野",
+			"startdescription": "我們的追隨者在不好的意義上遠近聞名。"
+		},
+		{
+			"id": "long.executestrategy.intrigue.mystiquetonotoriety.begin",
+			"label": "杜撰傳聞",
+			"startdescription": "我們敵人正在想辦法把現存的謠言煽動地更離奇。",
+			"slots": [
+				{
+					"id": "mystique",
+					"label": "秘氛"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.intrigue.mystiquetonotoriety.continue",
+			"label": "維護我們的聲名？",
+			"startdescription": "我說不定知道能把故事反轉的人。[<sprite name=heart>之追隨者——越強越好——或許能擋下這次攻擊。]",
+			"slots": [
+				{
+					"id": "defender",
+					"label": "防禦者"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.intrigue.mystiquetonotoriety.succeed",
+			"label": "我們名聲掃地",
+			"startdescription": "這既不算真話，也不算謊言。",
+			"description": ""
+		},
+		{
+			"id": "long.executestrategy.intrigue.fraud.begin",
+			"label": "紙上羅網",
+			"startdescription": "我們的敵人對我們提出了虛假的指證。必須讓當局相信我們的清白。[如果成功，你會失去一份或多份資金。<sprite name=heart>或<sprite name=moth>之追隨者——越強越好——或許能擋下這次攻擊。]",
+			"slots": [
+				{
+					"id": "defender",
+					"label": "防禦者"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.intrigue.fraud.succeed",
+			"label": "審計員的毒刺",
+			"startdescription": "“在以前的往來信函中，我們指出過你違約的可能性。現在我們更詳細地評估了這個問題……”",
+			"slots": [
+				{
+					"id": "funds",
+					"label": "資金"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.intrigue.fraud.completed",
+			"label": "會計長的饒赦",
+			"startdescription": "語帶威脅的來信從原先的源源不斷變得稀少，直至終止。結束了……至少現下如此。"
+		},
+		{
+			"id": "long.executestrategy.intrigue.createmystique.begin",
+			"label": "無根無據的謠言",
+			"startdescription": "如果我們的敵人把謠言不斷重複，便有可能傷到我們。[<sprite name=heart>之追隨者——越強越好——或許能擋下這次攻擊。]",
+			"slots": [
+				{
+					"id": "defender",
+					"label": "防禦者"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.intrigue.createmystique.succeed",
+			"label": "謠言的迷霧",
+			"startdescription": "我的聲名不再完全取決於我的言行。"
+		},
+		{
+			"id": "long.executestrategy.intrigue.failure",
+			"label": "疑罪從無",
+			"startdescription": "我的聲名不再跌落……但現在，我們的敵人會更加專注地盯著我們。"
+		},
+		{
+			"id": "long.executestrategy.dreams.drysoul.begin",
+			"label": "涸魂詛咒出現",
+			"startdescription": "敵人正在用“涸魂詛咒”對付我們。我們可以僱傭“擂擊者”用激奮的捶打和快活的肢體動作驅散詛咒，然而敵人能在事後查出緣由。[“擂擊者”能避免詛咒發作，也會為我們的敵人提供經驗教訓。]",
+			"slots": [
+				{
+					"id": "defender",
+					"label": "擂擊者"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.dreams.drysoul.defeated",
+			"label": "擂擊者的防護",
+			"startdescription": "\"\r\n來吧擂擊者，\r\n反覆唱著\r\n扭動四肢的讚歌：\r\n\r\n涸魂詛咒！\r\n涸魂詛咒！\r\n多肢畸形的宇宙！\""
+		},
+		{
+			"id": "long.executestrategy.dreams.fiftheye.begin",
+			"label": "第五目詛咒出現",
+			"startdescription": "敵人正在用“第五目詛咒”對付我們。我們可以用“汽靈”的煙氣攪擾他們的準備工作，然而敵人能在事後查出緣由。[“汽靈”能避免詛咒發作，但是會為我們的敵人提供經驗教訓。]",
+			"slots": [
+				{
+					"id": "defender",
+					"label": "擂擊者"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.dreams.fiftheye.defeated",
+			"label": "第五目詛咒泯滅於煙",
+			"startdescription": "第五目詛咒在被擊敗後消散。我方的汽靈也一同消失，帶著從我們這學到的不知什麼秘密。"
+		},
+		{
+			"id": "long.executestrategy.dreams.poisonway.begin",
+			"label": "擋路的看守",
+			"startdescription": "敵人會選擇一條我們進入漫宿的通道，並向之派出守衛。",
+			"slots": [
+				{
+					"id": "way",
+					"label": "道路"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.dreams.poisonway.continue",
+			"label": "擋路的看守",
+			"startdescription": "敵人已做出選擇。我們若不冒危險便不能再度通過此門。"
+		},
+		{
+			"id": "long.executestrategy.dreams.lantern.greatwork.begin",
+			"label": "遭受破壞活動！",
+			"startdescription": "我們永生不死的敵人已經注意到我們在漫宿的作為。裂分之狼的一名不顯要的具名者正循氣味前來。",
+			"slots": [
+				{
+					"id": "target",
+					"label": "目標"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.dreams.lantern.greatwork.continue",
+			"label": "保衛大功業",
+			"startdescription": "我們的大功業遭到瘦灰惡獸的威脅。如果我們用光覆住它，或許能阻止這頭巡獵的碎狼。[<sprite name=heart>或<sprite name=lantern>之靈體或許能抵禦這次攻擊。]",
+			"description": "",
+			"slots": [
+				{
+					"id": "defender",
+					"label": "防禦者"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.dreams.lantern.greatwork.succeed",
+			"label": "光芒漸暗",
+			"startdescription": "一個目擊者逃掉，一個被碎狼帶走。第三個呢？跑去某個連地圖都沒標註的地方了吧。"
+		},
+		{
+			"id": "long.executestrategy.dreams.lantern.greatwork.failure",
+			"label": "光芒遍覆",
+			"startdescription": "我們分散了這頭巡獵碎狼的注意力。大功業暫時安全了。"
+		},
+		{
+			"id": "long.executestrategy.dreams.poisonpassionwithdread.begin",
+			"label": "加深的暮色",
+			"slots": [
+				{
+					"id": "seeking",
+					"label": "激情"
+				}
+			],
+			"startdescription": "死亡，據說，是朝下的。漫宿的根部深深地蔓延到光明之下。這是我敵人托來的夢告訴我的。"
+		},
+		{
+			"id": "long.executestrategy.dreams.poisonpassionwithdread.continue",
+			"label": "加深的暮色",
+			"startdescription": "在夢中，我看到無盡向下的樓梯，直下到亡者的歸處，世界轉動處。"
+		},
+		{
+			"id": "long.executestrategy.dreams.poisonreasonwithfascination.begin",
+			"label": "燭光與燭芯",
+			"startdescription": "敵人用各種圖景給我的夢境加味——每個圖景都是一個側面，預示了某位司辰的到來。",
+			"slots": [
+				{
+					"id": "seeking",
+					"label": "理性"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.dreams.poisonreasonwithfascination.continue",
+			"label": "燭光與燭芯",
+			"startdescription": "誰是“制燭人”？為何我將夢到她？此火為何，燃料又為何？我的思緒便是引火的火絨。"
+		},
+		{
+			"id": "long.executestrategy.dreams.createfascination.poisoned.begin",
+			"label": "味美的夢",
+			"startdescription": "敵人對我的希望和恐懼有了更深入了解。他不再需要用我的恐懼作為他託夢的動力。今夜的夢如同封在琥珀中的肉桂。它從錘鍊場新鮮出爐，誘人如未切的蛋糕，籠罩著懷舊之情被點燃的光暈。"
+		},
+		{
+			"id": "long.executestrategy.dreams.dreadtofascination.poisoned.begin",
+			"label": "多汁的夢",
+			"startdescription": "敵對長生者給我送來一個關於光之果園的夢。安居在夢中，如同一隻多汁的梨裹在沙沙作響的紙中，帶來永絕恐懼的安心感。",
+			"slots": [
+				{
+					"id": "seeking",
+					"label": "恐懼"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.dreams.dreadtofascination.poisoned.continue",
+			"label": "多汁的夢",
+			"startdescription": "我收到的夢裹住了我的恐懼，如同水蛭吞噬一顆生命微粒。它以它的方式給出一份對於從未發生的對話的回憶，話間飽含明亮的笑聲。"
+		},
+		{
+			"id": "long.executestrategy.dreams.applypoison.fascination.longlesson",
+			"label": "多汁的夢"
+		},
+		{
+			"id": "long.executestrategy.dreams.createfascination.begin",
+			"label": "遙遠的光",
+			"startdescription": "敵人在漫宿的高窗上放了一支蠟燭。燭光將滲進我們的夢。",
+			"description": "這就是科賽利和海索分別在他們生活的年代記錄的位於睡夢邊緣的光。"
+		},
+		{
+			"id": "long.executestrategy.dreams.learndreams.begin",
+			"label": "袒露的角度",
+			"startdescription": "在一個特定的角度上，我的思想能映射漫宿之光。我們的敵人正設法獲知這個角度。",
+			"description": "我們的敵人在漫宿的殿堂裡搜尋我思想映射出的閃光，然而一無所獲。",
+			"slots": [
+				{
+					"id": "impulses",
+					"label": "衝動"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.dreams.learndreams.continue",
+			"label": "袒露的角度",
+			"startdescription": "我們的敵人獲知了我思想的角度。我們變得更弱勢了。"
+		},
+		{
+			"id": "long.executestrategy.dreams.learnfears.begin",
+			"label": "恐懼的展覽",
+			"startdescription": "我心中有一個房間陳列著我的恐懼。在我夢中，那個房間有扇門。如果我的敵人找到了那扇門，他有可能能進入。",
+			"description": "我的恐懼隱沒在黑暗中。我們的敵人一無所獲。",
+			"slots": [
+				{
+					"id": "impulses",
+					"label": "衝動"
+				}
+			]
+		},
+		{
+			"id": "long.executestrategy.dreams.learnfears.continue",
+			"label": "恐懼的展覽",
+			"startdescription": "我們的敵人發現了我心中陳列的恐懼。我們變得更弱勢了。"
+		},
+		{
+			"id": "long.executestrategy.downtime.learn.begin",
+			"label": "不斷加強的勢力",
+			"startdescription": "我們永生不死的敵人在諸多國家中都擁有同盟和物資。他的行動緩慢，但隨著時間推移，他會調來越來越越多的同盟和物資來對抗我們。"
+		},
+		{
+			"id": "long.executestrategy.downtime.learn.might",
+			"label": "正在習得：力量"
+		},
+		{
+			"id": "long.executestrategy.downtime.learn.connections",
+			"label": "正在習得：人脈"
+		},
+		{
+			"id": "long.executestrategy.downtime.learn.dreamwork",
+			"label": "正在習得：造夢"
+		},
+		{
+			"id": "long.executestrategy.downtime.rest.begin",
+			"label": "緩解",
+			"startdescription": "敵人暫時選擇等待。"
+		},
+		{
+			"id": "long.intrigue.confrontation",
+			"label": "準備襲擊",
+			"startdescription": "敵人的人脈無處不在，這讓他有自信發起一次成功的公開襲擊。可以想見，很快我們就會迎來一次猛攻。"
+		},
+		{
+			"id": "long.assault.confrontation",
+			"label": "直接襲擊！",
+			"slots": [
+				{
+					"id": "follower",
+					"label": "防禦者"
+				}
+			],
+			"startdescription": "該停止用嘍囉相互試互鬥了。@#welland|韋蘭上尉將親自用鑄之力對付我們。#tryphon|特里豐女士已決定讓她修剪精緻的指甲染上鮮血，親自發起襲擊。#julian|這位冷冽的敵人要親自動手消滅我們。#|我們的敵人親自下場戰鬥。@[長生者會不斷吞噬我的“健康”，直到我死去，雖然我忠實的追隨者可以保護我一段時間。而且必須是凡人追隨者——我們的敵人是無形之術的高手，靈體無法侵襲他。]"
+		},
+		{
+			"id": "long.assault.confrontation.vanquished",
+			"label": "長生者死了！",
+			"startdescription": "這位巨人活過無盡的時間，卻漲了歲數失了謹慎。",
+			"description": "[趁現在享受你的勝利吧。作業還要繼續。如果我們敵人能被人消滅，我們的導師也能。]"
+		},
+		{
+			"id": "long.assault.confrontation.grabhealth",
+			"label": "兇殘的猛攻",
+			"slots": [
+				{
+					"id": "injury",
+					"label": "受傷"
+				}
+			],
+			"startdescription": "長生者從影子襲來，然後重歸沉默！[如果我沒有剩餘的“健康”，我會死去。]"
+		},
+		{
+			"id": "long.assault.confrontation.defender",
+			"label": "必要的犧牲",
+			"startdescription": "此人將為事業奉獻生命。[只有擁有至少5點<sprite name=edge><sprite name=forge><sprite name=winter>的追隨者才有機會傷到長生者。但其他人也能推遲注定到來的結果，雖然時間不長。]"
+		},
+		{
+			"id": "long.assault.confrontation.weakfollower",
+			"label": "必要的犧牲",
+			"startdescription": "又一根蠟燭熄滅了。"
+		},
+		{
+			"id": "long.assault.confrontation.murderskill",
+			"label": "踏入黑夜",
+			"startdescription": "我要面對這個生物。他擁有數世紀的力量……但我也不容小看。"
+		},
+		{
+			"id": "long.assault.confrontation.murderskill.succeed",
+			"label": "我已敗倒，雖然吾刃傷敵如刀。",
+			"startdescription": "我與我的敵人在黑暗中搏鬥，儘管他遠強於我，我仍用犧牲我的力量換得他見血。他被我所傷！然而我已敗倒。"
+		},
+		{
+			"id": "long.assault.confrontation.murderskill.failure",
+			"label": "我已敗倒",
+			"startdescription": "我與我的敵人對峙；我與他正面比拼力量；我敗倒。我雖可稱高於人類，但他早已不做人類很久。"
+		},
+		{
+			"id": "long.assault.confrontation.strongfollower",
+			"label": "高尚的結末",
+			"startdescription": "夜深人靜時，我們聽到一聲震動城市的尖嘯。長生者已傷！"
+		},
+		{
+			"id": "long.assault.confrontation.strongfollower.failure",
+			"label": "高尚的失敗",
+			"startdescription": "數分鐘，又數小時過去。夜晚吞吃了我們的戰友，輕易地如游魚吞蠅。長生者仍不滿足，還在繼續襲擊。"
+		},
+		{
+			"id": "long.dreams.confrontation",
+			"label": "幻影之戰",
+			"slots": [
+				{
+					"id": "summoned",
+					"label": "防禦者"
+				}
+			],
+			"startdescription": "@#welland|韋蘭上尉一反常態地選擇漫宿邊境作為我們的最終戰場。#tryphon|特里豐女士選擇在漫宿邊境進行我們最終的交鋒。#julian|科賽利在漫宿邊境召集盟友襲擊我們。#diarist|“日記作者”向我們發起總攻，地點是他熟門熟路的漫宿邊境。#|我們敵人從漫宿召喚出大群靈體攻擊我們。@[長生者會不斷吞噬我的“激情”和“理性”，直到我不復存在。但他自己也暴露了，我可以反攻……只要我能召喚出大量漫宿生物與之對抗。]"
+		},
+		{
+			"id": "long.dreams.confrontation.vanquished",
+			"label": "長生者敗退！",
+			"startdescription": "在邊境，在渦卷如颶的暗影，怒火燎天的煙氣中，長生者像融化的月亮一樣越縮越小。他的軍隊消散。他的圖謀破滅。他的名字已失落。",
+			"description": "[趁現在享受你的勝利吧。作業還要繼續。如果我們敵人能被人消滅，我們的導師也能。]"
+		},
+		{
+			"id": "long.dreams.confrontation.defender",
+			"label": "邊境的戰鬥",
+			"startdescription": "戰鬥存於想像中，而戰爭不是。我可以在夢境設置衛兵。[只有擁有至少5點<sprite name=edge><sprite name=lantern><sprite name=moth>的靈體才有機會傷到長生者。但其他的也能推遲注定到來的結果，雖然時間不長。]"
+		},
+		{
+			"id": "long.dreams.confrontation.lantern.maid",
+			"label": "與殘陽的默契",
+			"startdescription": "“日記作者”與那些走過刀刃階梯者素有交情。哪個鏡中少女也不會出手傷他。"
+		},
+		{
+			"id": "long.dreams.confrontation.winter.maid",
+			"label": "冷冽的嚴冬",
+			"startdescription": "科賽利是冬之長生者。不論他實現此等冷意的方法為何，這都為他封住了鏡中少女的攻擊。"
+		},
+		{
+			"id": "long.dreams.confrontation.lantern.hint",
+			"label": "弧月之光",
+			"startdescription": "作為燈之長生者，”日記作者“和輝光的子孫互有默契。哪個跡形也無法傷到他。"
+		},
+		{
+			"id": "long.dreams.confrontation.forge.caligine",
+			"label": "熟諳於鑄",
+			"startdescription": "韋蘭早在我教創教者出生前便能自如地操縱火。哪個汽靈也無法傷到他。"
+		},
+		{
+			"id": "long.dreams.confrontation.grail.prophet",
+			"label": "某種同情",
+			"startdescription": "“不要那樣做，”特里豐女士會如此言道。說實話，原生先知也不會那樣做。"
+		},
+		{
+			"id": "long.dreams.confrontation.weakfollower",
+			"label": "必要的犧牲",
+			"startdescription": "又一根蠟燭熄滅了。"
+		},
+		{
+			"id": "long.dreams.confrontation.strongfollower",
+			"label": "林地的傷口",
+			"startdescription": "血從樹枝間滴落。我們的敵人受傷了。"
+		},
+		{
+			"id": "long.dreams.confrontation.strongfollower.failure",
+			"label": "延長的光",
+			"startdescription": "我們的敵人安然無恙。"
+		},
+		{
+			"id": "long.dreams.confrontation.grabability",
+			"label": "糾纏不休的黃昏",
+			"startdescription": "夢魘永不停歇。永不停歇。不分白天黑夜，夢裡夢外，半空中的響動，我向內生長的髮根，自始至終敞開的門和棲於寒冷的偏頭痛而且一切都在向我說話，無時無刻所有事物，保持清醒的苦役是蜿蜒的重力而邊境的擠壓是人群的擠壓而我正在蛻下我自己，就如同冰川的移動。\n\n[待“理性”或“激情”耗盡後，我將不復存在。]",
+			"slots": [
+				{
+					"id": "wakingnightmares",
+					"label": "醒時夢魘"
+				}
+			]
+		},
+		{
+			"id": "long.dreams.confrontation.destroyedbynightmares",
+			"label": "終得饒赦",
+			"startdescription": "-——不復存在——"
+		},
+		{
+			"id": "long.dreams.confrontation.cleanup",
+			"label": "幻影之戰"
+		}
+	]
 }

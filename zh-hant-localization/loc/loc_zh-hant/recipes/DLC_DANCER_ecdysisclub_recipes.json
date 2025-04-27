@@ -1,1059 +1,238 @@
 {
-    "recipes": [
-        {
-            "id": "explorecabaret_meetsulochana",
-            "actionId": "explore",
-            "label": "在蛻衣俱樂部與蘇洛恰那見面",
-            "requirements": {
-                "locationcabaret": 1,
-                "sulochana": 1
-            },
-            "startdescription": "蘇洛恰那·阿摩伐舍立於垂掛紅帷幕的門洞中。她一邊抽著她那獨一份的進口丁香香菸，一邊與一個身材細瘦，個子極高，或許是希臘人的人交談著。她看著我走來，眼睛一眨不眨，神色也沒有變化。",
-            "slots": [
-                {
-                    "id": "Subject",
-                    "label": "話題",
-                    "description": "我來這裡是為了談談……",
-                    "required": {
-                        "desire": 1
-                    }
-                }
-            ],
-            "description": "“沒得說？那別浪費我時間。”",
-            "alternativerecipes": [
-                {
-                    "id": "A_ecdysis_beginheart",
-                    "chance": 100
-                },
-                {
-                    "id": "A_ecdysis_beginmoth",
-                    "chance": 100
-                },
-                {
-                    "id": "A_ecdysis_switchtochangefromsensation",
-                    "chance": 100
-                },
-                {
-                    "id": "A_ecdysis_switchtochangefrompower",
-                    "chance": 100
-                },
-                {
-                    "id": "A_ecdysis_cantswitchtochangefromenlightenment",
-                    "chance": 100
-                },
-                {
-                    "id": "A_ecdysis_alreadyonchange",
-                    "chance": 100
-                },
-                {
-                    "id": "A_ecdysis_cantswitch",
-                    "chance": 100
-                }
-            ],
-            "craftable": true,
-            "warmup": 60
-        },
-        {
-            "id": "A_ecdysis_beginheart",
-            "actionId": "explore",
-            "maxexecutions": 1,
-            "extantreqs": {
-                "dancerjobecdysisa": -1,
-                "dancerjobecdysisb": -1,
-                "dancerjobecdysisc": -1
-            },
-            "requirements": {
-                "desireheart_track": 1
-            },
-            "label": "揭露肉體",
-            "startdescription": "“很好。”蘇洛恰那說，“我有一份工作給你。機會只有一次哦。”她吸了一口手上的煙。“你等會把衣服脫了。”她又說。煙霧在她臉前盤旋。她依然不眨眼。“脫掉外面那幾層。”",
-            "description": "我分到了一間歸我專用的狹窄化妝間——非常狹窄——比櫥櫃寬不了多少。我得到了我的第一套戲裝。樓下，鼓聲愈演愈烈。恰在這一刻，那個細瘦的希臘人一聲不吭地闖進來，彎下腰，輕聲告訴了我一個秘密。他的名字，我後來得知，是阿格狄斯提斯先生。",
-            "effects": {
-                "dancerjobecdysisa": 1,
-                "fragmentheart": 1
-            }
-        },
-        {
-            "id": "A_ecdysis_beginmoth",
-            "actionId": "explore",
-            "maxexecutions": 1,
-            "requirements": {
-                "desiremoth_track": 1
-            },
-            "extantreqs": {
-                "dancerjobecdysisa": -1,
-                "dancerjobecdysisb": -1,
-                "dancerjobecdysisc": -1
-            },
-            "label": "揭露自我",
-            "startdescription": "“很好。”蘇洛恰那說，“我有一份工作給你。機會只有一次哦。”她吸了一口手上的煙。“你等會把衣服脫了。”她又說。她靠到極近處。“脫完還有別的。”",
-            "description": "我分到了一間歸我專用的狹窄化妝間——非常狹窄——比櫥櫃寬不了多少。我得到了我的第一套戲裝。蘇洛恰那用一把銀剪刀剪下我一縷頭髮，並在我耳邊輕聲告訴了我一個秘密。",
-            "effects": {
-                "dancerjobecdysisa": 1,
-                "fragmentmoth": 1
-            }
-        },
-        {
-            "id": "A_ecdysis_switchtochangefromsensation",
-            "label": "追求蛻變，而非感官",
-            "requirements": {
-                "ascensionsensationa": 1
-            },
-            "actionId": "explore",
-            "effects": {
-                "ascensionsensationa": -1,
-                "ascensionchangea": 1
-            },
-            "startdescription": "“重新考慮聖杯之路了，是嗎？記住，形體一樣不容易。但如果你真的想蛻變——”",
-            "description": "蘇洛恰那湊近端詳我的臉，用一隻手捧住我的臉頰。她的皮膚冰冷，吐息溫熱。她的嘴角扭曲著。“你再想想。下次俱樂部開門時再來見我。我們繼續談。”",
-            "linked": [
-                {
-                    "id": "L_desire_addmothtrack",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "A_ecdysis_switchtochangefrompower",
-            "label": "追求蛻變，而非力量",
-            "requirements": {
-                "ascensionpowera": 1
-            },
-            "actionId": "explore",
-            "effects": {
-                "ascensionpowera": -1,
-                "ascensionchangea": 1
-            },
-            "startdescription": "“重新考慮鑄爐之路了，是嗎？記住，此火非彼火，但形體一樣不容易——”",
-            "description": "蘇洛恰那湊近端詳我的臉。她抖了抖菸灰。燃燒的菸頭紅光明滅。她輕笑道：“你再想想。下次俱樂部開門時再來見我。我們繼續談。”",
-            "linked": [
-                {
-                    "id": "L_desire_addmothtrack",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "A_ecdysis_cantswitchtochangefromenlightenment",
-            "label": "追求蛻變，而非啟明",
-            "requirements": {
-                "ascensionenlightenmenta": 1
-            },
-            "actionId": "explore",
-            "startdescription": "“重新考慮守夜人之路了，是嗎？好。但你還有路要走。”",
-            "description": "蘇洛恰那慢慢搖頭，與我始終目光相接。“首先，記住你是誰。”[如你想追求蛻變，先以誘惑入夢將其轉換，再與蘇洛恰那交談。]"
-        },
-        {
-            "id": "A_ecdysis_alreadyonchange",
-            "label": "今後的形體",
-            "actionId": "explore",
-            "requirements": {
-                "changemarks": 1
-            },
-            "startdescription": "“準備好開工了嗎？我們為什麼在這裡浪費時間？”[使用與俱樂部的合約，開始表演舞蹈。]",
-            "description": "“是的，我知道你要什麼。”她示意一旁的那個高個子。“阿格狄斯提斯先生也是。你來得晚太晚，趕不上今晚的舞了。下次俐落點。”"
-        },
-        {
-            "id": "A_ecdysis_cantswitch",
-            "label": "蛻變為時已晚",
-            "actionId": "explore",
-            "requirements": {
-                "desire": 1
-            },
-            "comments": "Need the desire requirement so we only fall through to this if there's an incompatible desire.",
-            "startdescription": "“不行。你就是現在的你。不可能了。”",
-            "description": "“你聽到我說的了嗎？不可能了。你可以成功，也可以失敗。但永遠不會真正改變。”她將發紅的菸蒂扔進黑暗。“在夢裡狂熱去吧。”"
-        },
-        {
-            "id": "ecdysisjobupgradehint_maxedout",
-            "label": "極致精深的舞步？",
-            "actionId": "work",
-            "startdescription": "我已受命表演最艱深的舞蹈。",
-            "comments": "Hint appears if we have max skill and don't qualify for an ecdysijob upgrade",
-            "requirements": {
-                "ecdysijob": 1,
-                "healthskill": 4
-            },
-            "craftable": true,
-            "hintonly": true
-        },
-        {
-            "id": "ecdysisjobupgrade_toc_hint",
-            "label": "向蘇洛恰那展示我的能力？",
-            "actionId": "work",
-            "startdescription": "蘇洛恰那為我四肢是否夠伸展、腰身是否夠靈活做了檢查。“還不到火候。”她說。[為了下一步的進展，請提升你的健康技能至最高等級並精修優雅。]",
-            "requirements": {
-                "dancerjobecdysisb": 1,
-                "healthskill": 2
-            },
-            "craftable": false,
-            "hintonly": true
-        },
-        {
-            "id": "ecdysisjobupgradehint",
-            "label": "更精深的舞步？",
-            "actionId": "work",
-            "startdescription": "觀眾越是金貴，舞蹈就越要艱深。在蘇洛恰那和阿格狄斯提斯先生允許我精進前，我得證明自己的身體能力可以勝任。[提高你的健康技能來打動他們。]",
-            "requirements": {
-                "ecdysijob": 1,
-                "healthskill": 1
-            },
-            "craftable": true,
-            "hintonly": true
-        },
-        {
-            "id": "ecdysisjobupgrade_tob",
-            "label": "向阿格狄斯提斯先生展示我的能力",
-            "actionId": "work",
-            "startdescription": "我已準備好在俱樂部深處，一間紅色百葉門後面的房間裡表演更加艱深的舞蹈了。將由阿格狄斯提斯先生判斷我是否夠格。",
-            "description": "阿格狄斯提斯先生把他修長而美麗的雙手交握在一起；他親切地笑了笑。他會從我身上采走一點點血液以備不測，如此我們便準備完畢。",
-            "requirements": {
-                "dancerjobecdysisa": 1,
-                "healthskill": 2
-            },
-            "effects": {
-                "dancerjobecdysisa": -1,
-                "dancerjobecdysisb": 1
-            },
-            "warmup": 30,
-            "craftable": true
-        },
-        {
-            "id": "ecdysisjobupgrade_toc",
-            "label": "向蘇洛恰那證明我的能力",
-            "actionId": "work",
-            "startdescription": "我相信我準備好表演那些只在特別專場演出的舞蹈了。蘇洛恰那將邀請我去到俱樂部最頂層的房間——一個開窗見月的閣樓，她保存她的鑰匙、她的珠寶和她的戰利品之地，並將在我起舞前為我送來盛在象牙杯中的葡萄酒。葡萄酒濃郁甜美，將令我腦中泉湧般現出新的思緒。空氣會像翅膀般拍動，但即便脫掉衣服後，我也不會覺得冷。",
-            "description": "“你可以的，”蘇洛恰那·阿摩伐舍說。“歡迎來到’蛻變室‘。”她用她往常的目光上下打量我。“就快了。就快了。或許是時候向我的姐妹提起你了。”",
-            "requirements": {
-                "dancerjobecdysisb": 1,
-                "skillhealthd_grace": 1
-            },
-            "effects": {
-                "dancerjobecdysisb": -1,
-                "dancerjobecdysisc": 1
-            },
-            "warmup": 30,
-            "craftable": true
-        },
-        {
-            "id": "ecdysisdanceclublantern_generichint",
-            "label": "別做那事，別在這裡做",
-            "actionId": "work",
-            "startdescription": "阿格狄斯提斯先生搖了搖他英俊的頭。他年歲難辨的雙眼閃爍著快樂，雖然那雙眼睛平時常駐悲傷。",
-            "requirements": {
-                "ecdysijob": 1,
-                "locationcabaret": 1,
-                "lantern": 1
-            },
-            "craftable": true,
-            "hintonly": true
-        },
-        {
-            "id": "ecdysisdanceclub_generichint",
-            "label": "舞台就在前方",
-            "actionId": "work",
-            "startdescription": "阿格狄斯提斯先生領我從化妝間走上舞台。他自己也曾是一名舞者。你看他的姿態就能看出。但是腿根處的舊傷迫使他放棄了舞台。",
-            "requirements": {
-                "ecdysijob": 1,
-                "locationcabaret": 1
-            },
-            "craftable": true,
-            "hintonly": true
-        },
-        {
-            "id": "ecdysisdance_generichint",
-            "label": "一夜又一夜",
-            "actionId": "work",
-            "startdescription": "蛻衣俱樂部開業的時間，我意識到，與月亮變幻身形的週期息息相關。俱樂部必在，且不止在新月夜開業。",
-            "requirements": {
-                "ecdysijob": 1
-            },
-            "warmup": 60,
-            "craftable": true,
-            "hintonly": true
-        },
-        {
-            "id": "ecdysisdance_sendingheartg",
-            "label": "最後一支舞",
-            "actionId": "work",
-            "startdescription": "阿格狄斯極少開口，他開口時的嗓音十分動人——溫潤如一支中音長笛。“你幾乎掌握了所需的所有技巧，”他說，“足夠你穿過王皮之門。有人會來借給你鑰匙。”他直視你的雙眼。“我求你不要握她的手，不要看她的腳，也不要問她想喝些什麼。”他開始非常柔聲地哭泣。“會受傷的。我愛她。”",
-            "description": "當舞蹈結束，當我的身體千瘡百孔，阿格狄斯提斯先生溫暖的的眼淚滴落在我殘破的肉體上時，我的影子成了獠牙巨獸的影子。“快去吧，”阿格狄斯提斯先生說。“快去睡吧。蘇洛恰那女士已經叫了瑪麗內特女士來。她是那個將要剝去你皮膚之人。”",
-            "requirements": {
-                "ecdysijob": 1,
-                "locationcabaret": 1,
-                "heart": 18,
-                "ascensionchangeg": 1
-            },
-            "effects": {
-                "funds": 1,
-                "mystique": 1,
-                "sendingheartg": 1
-            },
-            "deckeffect": {
-                "ecdysisrewards": 1
-            },
-            "aspects": {
-                "damagehealth": 1
-            },
-            "alternativerecipes": [
-                {
-                    "id": "ecdysisdance_sendingmothheartg",
-                    "chance": 100
-                },
-                {
-                    "id": "health_expel_to_scar",
-                    "chance": 30,
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 1,
-                        "filter": {
-                            "fatigue": 1
-                        }
-                    }
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "ecdysisdance_sendingmothg",
-            "label": "最後一支舞",
-            "actionId": "work",
-            "startdescription": "蘇洛恰那前來觀賞我最後的演出。“近在眼前了。我手上並沒有你須通過的那扇門的鑰匙。但是我的姐姐，我族還活著（並不是說有生命）的人裡年紀最大的——我的姐姐會在夢中為你帶來鑰匙。我囑咐你一件事，作為送給你和她的人情：別看她的臉。",
-            "description": "當舞蹈結束，當我的思緒顛三倒四，我的情緒如蛇揚首時，我再也無法輕易分辨何為真實。蘇洛恰那是真的，我覺得。鏡子裡我的倒影——後腿的倒影——非常真實。“快去吧，”蘇洛恰那說道。她抓住我的肩膀，用蛾翅般的吻輕撫我的嘴。她的雙唇冰冷。她的呼吸腐臭。她的雙目好似美好的夜晚。這是真實的嗎？",
-            "requirements": {
-                "ecdysijob": 1,
-                "locationcabaret": 1,
-                "moth": 18,
-                "ascensionchangeg": 1
-            },
-            "effects": {
-                "funds": 1,
-                "mystique": 1,
-                "sendingmothg": 1
-            },
-            "deckeffect": {
-                "ecdysisrewards": 1
-            },
-            "alternativerecipes": [
-                {
-                    "id": "ecdysisdance_sendingmothheartg",
-                    "chance": 100
-                },
-                {
-                    "id": "passion_expel_to_scar",
-                    "chance": 100,
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 3,
-                        "filter": {
-                            "passionexhausted": 1
-                        }
-                    }
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "ecdysisdance_sendingmothheartg",
-            "label": "最後一支舞",
-            "actionId": "work",
-            "startdescription": "蘇洛恰那和阿格狄斯提斯先生都前來觀賞我最後的演出。“近在眼前了，”她說。她皺起眉。“我不確定……不過，反正木已成舟。我就祝你在林地好運吧。”她點上一支菸。“會受傷的，”她帶著些許玩樂的意味補充道。在她身後，阿格狄斯提斯先生說出了你的名字，只輕輕地說了一次。他的聲音十分動人——溫潤如一隻中音長笛。",
-            "description": "當舞蹈結束，當我的思緒顛三倒四，我的情緒如蛇揚首時，我再也無法輕易分辨何為真實。蘇洛恰那是真的，我覺得。鏡子裡我的倒影——頭生雙角的獸形的倒影——非常真實。“快去吧，”蘇洛恰那說道。她抓住我的肩膀，用蛾翅般的吻輕撫我的嘴。她的雙唇冰冷。她的呼吸腐臭。她的雙目好似倒映的夜晚。這是真實的嗎？",
-            "requirements": {
-                "desiremoth_track": 3,
-                "desireheart_track": 3
-            },
-            "effects": {
-                "funds": 1,
-                "mystique": 1,
-                "sendingmothheartg": 1
-            },
-            "deckeffect": {
-                "ecdysisrewards": 1
-            },
-            "alternativerecipes": [
-                {
-                    "id": "passion_expel_to_scar",
-                    "chance": 100,
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 3,
-                        "filter": {
-                            "passionexhausted": 1
-                        }
-                    }
-                }
-            ],
-            "warmup": 60
-        },
-        {
-            "id": "ecdysisdance_sendingheartf",
-            "label": "在蛻衣俱樂部工作：出於白而勝於白",
-            "actionId": "work",
-            "startdescription": "舞蹈以裸體形式表演。阿格狄斯提斯先生進入我的化妝間，將我的身體塗成必要的白色。他在流淚。",
-            "description": "觀眾席既暗又靜。一道聚光燈追隨著我的舞步。有可能，但又不太可能，無人觀看我的表演——無人看到聚光燈漸漸暗淡，和我最後的墜落——無人看到一隻白鳥從我張開的嘴裡飛出，並被遺忘於夜色。",
-            "requirements": {
-                "ecdysijob": 1,
-                "locationcabaret": 1,
-                "heart": 15,
-                "ascensionchangef": 1
-            },
-            "effects": {
-                "funds": 1,
-                "mystique": 1,
-                "sendingheartf": 1
-            },
-            "deckeffect": {
-                "ecdysisrewards": 1
-            },
-            "alternativerecipes": [
-                {
-                    "id": "health_expel_to_scar",
-                    "chance": 30,
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 1,
-                        "filter": {
-                            "fatigue": 1
-                        }
-                    }
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "ecdysisdance_sendingmothf",
-            "label": "在蛻衣俱樂部工作：",
-            "actionId": "work",
-            "startdescription": "為了這個舞蹈，我剩下的頭髮必須全部去除——不是用剃刀剃掉，而是無微不至地用剪刀剪去。蘇洛恰那負責這項工作。只要我敢動一下，她就會叫罵著用剪尖兒戳我。“我們應該把你的牙磨尖銳，真的，”她若有所思地說，“但我們沒時間了。你使勁咬好了。”她用力拍打我頭頂的發碴，時間到了。",
-            "description": "這支舞蹈沒有舞伴，而唯一的觀眾則是祭品，他哭嚎著四處逃竄，捶打著牆壁。我緊追不捨，撞倒椅子，砸碎瓶子。我的牙齒刻入它的脖子。狼形的我從血中躍出。哪怕閉上眼，我也看得到它，如看日出一樣明晰。",
-            "requirements": {
-                "ecdysijob": 1,
-                "locationcabaret": 1,
-                "moth": 15,
-                "ascensionchangef": 1
-            },
-            "effects": {
-                "funds": 1,
-                "mystique": 1,
-                "sendingmothf": 1
-            },
-            "deckeffect": {
-                "ecdysisrewards": 1
-            },
-            "alternativerecipes": [
-                {
-                    "id": "passion_expel_to_scar",
-                    "chance": 30,
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 1,
-                        "filter": {
-                            "passionexhausted": 1
-                        }
-                    }
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "ecdysisdance_sendinghearte",
-            "label": "在蛻衣俱樂部工作：新的高度",
-            "actionId": "work",
-            "startdescription": "今晚蘇洛恰那親自為我穿上羽衣。“我從未到達在此之上的高度，哪怕是用舊形體，”她自己承認道。“我最後是以不一樣的途徑到達居屋的。”她捏了捏我的胯以示鼓勵。如此近的距離下，我看得見她的牙，如蛇牙般彎曲。“但我覺得你能走完全程。到時候了，我覺得，該提醒我姐姐你要來了。現在出去展現自己吧。漫宿固然好，可我還是要賺錢的。”",
-            "description": "今晚台下在座的只有七人：三男、三女，還有來向前者收費的阿格狄斯提斯先生。我隨外形奇特的七孔雪松笛起舞，演奏者是蘇洛恰那本人。天窗大開——夜晚寒冷，但我舞得忘我。另一個我升入夜空時，觀眾沒有鼓掌——只有贊同的呢喃。",
-            "requirements": {
-                "ecdysijob": 1,
-                "locationcabaret": 1,
-                "heart": 12,
-                "ascensionchangee": 1
-            },
-            "effects": {
-                "funds": 1,
-                "mystique": 1,
-                "sendinghearte": 1
-            },
-            "deckeffect": {
-                "ecdysisrewards": 1
-            },
-            "alternativerecipes": [
-                {
-                    "id": "health_expel_to_scar",
-                    "chance": 30,
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 1,
-                        "filter": {
-                            "fatigue": 1
-                        }
-                    }
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "ecdysisdance_sendingmothe",
-            "label": "在蛻衣俱樂部工作：新的高度",
-            "actionId": "work",
-            "startdescription": "今晚蘇洛恰那親自為我穿上羽衣。“我到達過這個高度，但沒到過更高的，”她自己承認道。“我最後是以不一樣的途徑到達居屋的。”她捏了捏我的胯以示鼓勵。如此近的距離下，我看得見她的牙，如蛇牙般彎曲。“但我覺得你能走完全程。到時候了，我覺得，該提醒我姐姐你要來了。現在出去展現自己吧。漫宿固然好，可我還是要賺錢的。”",
-            "description": "今晚台下在座的只有七人：三男、三女，還有來向前者收費的阿格狄斯提斯先生。我隨外形奇特的七孔雪松笛起舞，演奏者是蘇洛恰那本人。天窗大開——夜晚寒冷，但我舞得忘我。另一個我升入夜空時，觀眾沒有鼓掌——只有贊同的呢喃。",
-            "requirements": {
-                "ecdysijob": 1,
-                "locationcabaret": 1,
-                "moth": 12,
-                "ascensionchangee": 1
-            },
-            "effects": {
-                "funds": 1,
-                "mystique": 1,
-                "sendingmothe": 1
-            },
-            "deckeffect": {
-                "ecdysisrewards": 1
-            },
-            "alternativerecipes": [
-                {
-                    "id": "passion_expel_to_scar",
-                    "chance": 30,
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 1,
-                        "filter": {
-                            "passionexhausted": 1
-                        }
-                    }
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "ecdysisdance_sendingheartd",
-            "label": "在蛻衣俱樂部工作：罕見的追獵",
-            "actionId": "work",
-            "startdescription": "今晚的我身著淺紅褐色，頭戴狐面。身後掛著一條尾巴：追我的獵手需要點能抓握的東西。今晚的我獨舞，卻非獨自一人。當我從幕後窺看時，許多觀客正在離席。其他人則耐心坐等著，任紅黑衣飾的侍者把他們和椅子捆在一起。",
-            "description": "當音樂滑進一段狡黠的快步舞曲時，我跳下舞台，在座椅上下與座椅之間輾轉騰挪，爬高縱矮。觀客大聲叫喊著，試圖在我經過時抓住我，搖動著椅子追趕我。有個人在戰利品——我的尾巴掃過他指間時摔倒，但另一個人抓住了尾巴，一把拽下！侍者將他背到後台領取他應得的獎品。我伴著雷鳴般的掌聲溜出房間。只有得獎者看到了離去的另一個我，和我一樣有著狐面和紅褐色的外觀，華麗的尾巴完好無損。",
-            "requirements": {
-                "ecdysijob": 1,
-                "locationcabaret": 1,
-                "heart": 10,
-                "ascensionchanged": 1
-            },
-            "effects": {
-                "funds": 1,
-                "mystique": 1,
-                "sendingheartd": 1
-            },
-            "deckeffect": {
-                "ecdysisrewards": 1
-            },
-            "alternativerecipes": [
-                {
-                    "id": "health_expel_to_scar",
-                    "chance": 30,
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 1,
-                        "filter": {
-                            "fatigue": 1
-                        }
-                    }
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "ecdysisdance_sendingmothd",
-            "label": "在蛻衣俱樂部工作：罕見的追獵",
-            "actionId": "work",
-            "startdescription": "今晚的我身著淺紅褐色，頭戴狐面。身後掛著一條尾巴：追我的獵手需要點能抓握的東西。今晚的我獨舞，卻非獨自一人。當我從幕後窺看時，許多觀客正在離席。其他人則耐心坐等著，任紅黑衣飾的侍者把他們和椅子捆在一起。",
-            "description": "當音樂滑進一段狡黠的快步舞曲時，我跳下舞台，在座椅上下與座椅之間輾轉騰挪，爬高縱矮。觀客大聲叫喊著，試圖在我經過時抓住我，搖動著椅子追趕我。有個人在戰利品——我的尾巴掃過他指間時摔倒，但另一個人抓住了尾巴，一把拽下！侍者將他背到後台領取他應得的獎品。我伴著雷鳴般的掌聲溜出房間。只有得獎者看到了離去的另一個我，和我一樣有著狐面和紅褐色的外觀，華麗的尾巴完好無損。",
-            "requirements": {
-                "ecdysijob": 1,
-                "locationcabaret": 1,
-                "moth": 10,
-                "ascensionchanged": 1
-            },
-            "effects": {
-                "funds": 1,
-                "mystique": 1,
-                "sendingmothd": 1
-            },
-            "deckeffect": {
-                "ecdysisrewards": 1
-            },
-            "alternativerecipes": [
-                {
-                    "id": "passion_expel_to_scar",
-                    "chance": 30,
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 1,
-                        "filter": {
-                            "passionexhausted": 1
-                        }
-                    }
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "ecdysisdance_sendingheartc",
-            "label": "在蛻衣俱樂部工作：分離的影子",
-            "actionId": "work",
-            "startdescription": "我與一個舞伴共舞。我頭戴貓面。他假扮蛇。我兩隻黑手套的指尖都鑲著藍鋼。如果我的蛇舞伴動作太慢，我會給他的皮膚刻下抓痕，而我——則要小心躲避他面具上的獠牙，在我們湊近接吻的時候。",
-            "description": "我用優雅的貓步邁出自己的影子。我是一隻黑貓，蜷曲著積蓄力量，且行動不為任何人所查，直到我準備回歸本體為止。",
-            "requirements": {
-                "ecdysijob": 1,
-                "locationcabaret": 1,
-                "heart": 8,
-                "ascensionchangec": 1
-            },
-            "effects": {
-                "funds": 1,
-                "mystique": 1,
-                "sendingheartc": 1
-            },
-            "deckeffect": {
-                "ecdysisrewards": 1
-            },
-            "alternativerecipes": [
-                {
-                    "id": "health_expel_to_scar",
-                    "chance": 30,
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 1,
-                        "filter": {
-                            "fatigue": 1
-                        }
-                    }
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "ecdysisdance_sendingmothc",
-            "label": "在蛻衣俱樂部工作：分離的影子",
-            "actionId": "work",
-            "startdescription": "我與一個舞伴共舞。我頭戴貓面。他假扮蛇。我兩隻黑手套的指尖都鑲著藍鋼。如果我的蛇舞伴動作太慢，我會給他的皮膚刻下抓痕，而我——則要小心躲避他面具上的獠牙，在我們湊近接吻的時候。",
-            "description": "我用優雅的貓步邁出自己的影子。我是一隻黑貓，蜷曲著積蓄力量，且行動不為任何人所查，直到我準備回歸本體為止。",
-            "requirements": {
-                "ecdysijob": 1,
-                "locationcabaret": 1,
-                "moth": 8,
-                "ascensionchangec": 1
-            },
-            "effects": {
-                "funds": 1,
-                "mystique": 1,
-                "sendingmothc": 1
-            },
-            "deckeffect": {
-                "ecdysisrewards": 1
-            },
-            "alternativerecipes": [
-                {
-                    "id": "passion_expel_to_scar",
-                    "chance": 30,
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 1,
-                        "filter": {
-                            "passionexhausted": 1
-                        }
-                    }
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "ecdysisdance_sendingheartb",
-            "label": "在蛻衣俱樂部工作：昂首的毒蛇",
-            "actionId": "work",
-            "startdescription": "今晚我們把蛇帶到舞台上與我們一起舞動，我們頭戴鱗面，扭身紆行，好像自己也是蛇一樣。舞台環繞著燈光，空氣如銀色的霧，然而我的後頸淌下汗水。今夜我們為月亮而舞。",
-            "description": "在舞蹈的高潮，我發作了，全身抽搐，直到我胸中的震動現出身形——是一條昂首的毒蛇！他從我口中嘔吐般傾瀉而出，沿我的身體流下，再從舞台離去。觀眾掌聲如雷！我踉蹌著走開，胸口劇烈起伏。我知道蛇會以與它出來相同的方式回去，在我和它都做好準備之後。",
-            "requirements": {
-                "ecdysijob": 1,
-                "locationcabaret": 1,
-                "heart": 6,
-                "ascensionchangeb": 1
-            },
-            "effects": {
-                "funds": 1,
-                "mystique": 1,
-                "sendingheartb": 1
-            },
-            "deckeffect": {
-                "ecdysisrewards": 1
-            },
-            "alternativerecipes": [
-                {
-                    "id": "health_expel_to_scar",
-                    "chance": 30,
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 1,
-                        "filter": {
-                            "fatigue": 1
-                        }
-                    }
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "ecdysisdance_sendingmothb",
-            "label": "在蛻衣俱樂部工作：昂首的毒蛇",
-            "actionId": "work",
-            "startdescription": "今晚我們把蛇帶到舞台上與我們一起舞動，我們頭戴鱗面，扭身紆行，好像自己也是蛇一樣。舞台環繞著燈光，空氣如銀色的霧，然而我的後頸淌下汗水。今夜我們為月亮而舞。",
-            "description": "在舞蹈的高潮，我發作了，全身抽搐，直到我胸中的震動現出身形——是一條昂首的毒蛇！他從我口中嘔吐般傾瀉而出，沿我的身體流下，再從舞台離去。觀眾掌聲如雷！我踉蹌著走開，胸口劇烈起伏。我知道蛇會以與它出來相同的方式回去，在我和它都做好準備之後。",
-            "requirements": {
-                "ecdysijob": 1,
-                "locationcabaret": 1,
-                "moth": 6,
-                "ascensionchangeb": 1
-            },
-            "effects": {
-                "funds": 1,
-                "mystique": 1,
-                "sendingmothb": 1
-            },
-            "deckeffect": {
-                "ecdysisrewards": 1
-            },
-            "alternativerecipes": [
-                {
-                    "id": "passion_expel_to_scar",
-                    "chance": 30,
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 1,
-                        "filter": {
-                            "passionexhausted": 1
-                        }
-                    }
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "ecdysisdance_ascensionlessonmotha",
-            "label": "在蛻衣俱樂部工作：激烈的癒合",
-            "actionId": "work",
-            "startdescription": "今晚我們緊裹著條條綠色絲綢圍巾。我們會比平日更激烈地寬衣解帶。我開始前，阿格狄斯提斯先生遞給我一張綠如春葉的無嘴橢圓形面具。我猶豫了一會才帶上。他給面具裡側塗上了新鮮的土壤。",
-            "description": "解下第一條圍巾時，其痛苦令我震驚，如同剝去結痂。下一條容易些，然後又是一條，但我有點搖晃。我的舞伴擔憂地看著我：我知道我的表情藏在面具下不可見。到了結尾，我們一起收攏成一個圈。我扯下最後一條絲巾，帶來的急痛如同根莖被拽出泥土。我不敢拿下面具。之後，我的皮膚再無印記。",
-            "requirements": {
-                "ecdysijob": 1,
-                "locationcabaret": 1,
-                "moth": 4,
-                "ascensionchangea": 1
-            },
-            "effects": {
-                "funds": 1,
-                "mystique": 1,
-                "ascensionlessonmotha": 1
-            },
-            "deckeffect": {
-                "ecdysisrewards": 1
-            },
-            "alternativerecipes": [
-                {
-                    "id": "passion_expel_to_scar",
-                    "chance": 30,
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 1,
-                        "filter": {
-                            "passionexhausted": 1
-                        }
-                    }
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "ecdysisdance_ascensionlessonhearta",
-            "label": "在蛻衣俱樂部工作：激烈的癒合",
-            "actionId": "work",
-            "startdescription": "今晚我們緊裹著條條綠色絲綢圍巾。我們會比平日更激烈地寬衣解帶。我開始前，阿格狄斯提斯先生遞給我一張綠如春葉的無嘴橢圓形面具。我猶豫了一會才帶上。他給面具裡側塗上了新鮮的土壤。",
-            "description": "解下第一條圍巾時，其痛苦令我震驚，如同剝去結痂。下一條容易些，然後又是一條，但我有點搖晃。我的舞伴擔憂地看著我：我知道我的表情藏在面具下不可見。到了結尾，我們一起收攏成一個圈。我扯下最後一條絲巾，帶來的急痛如同根莖被拽出泥土。我不敢拿下面具。之後，我的皮膚再無印記。",
-            "requirements": {
-                "ecdysijob": 1,
-                "locationcabaret": 1,
-                "heart": 4,
-                "ascensionchangea": 1
-            },
-            "effects": {
-                "funds": 1,
-                "mystique": 1,
-                "ascensionlessonhearta": 1
-            },
-            "deckeffect": {
-                "ecdysisrewards": 1
-            },
-            "alternativerecipes": [
-                {
-                    "id": "health_expel_to_scar",
-                    "chance": 30,
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 1,
-                        "filter": {
-                            "fatigue": 1
-                        }
-                    }
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "ecdysisdance_ascensionlessonheart_fallthrough",
-            "label": "在蛻衣俱樂部工作：雷鳴，只差一點",
-            "actionId": "work",
-            "startdescription": "今晚我們戴著面具，如參加慶典般行進。阿格狄斯提斯先生在密切關注著。",
-            "description": "今晚有什麼東西近在咫尺——黑雲壓頂的雷鳴，空氣清新如山松的一刻。然而我們褪去了面具外的所有，而後傳來的唯有掌聲。[再加入一點<b>心</b>還可獲得更多。<b>欲望</b>越高，需要的<b>心</b>越多。]",
-            "requirements": {
-                "ecdysijob": 1,
-                "locationcabaret": 1,
-                "heart": 3,
-                "changemarks": 1
-            },
-            "effects": {
-                "funds": 1,
-                "mystique": 1
-            },
-            "deckeffect": {
-                "ecdysisrewards": 1
-            },
-            "alternativerecipes": [
-                {
-                    "id": "health_expel_to_scar",
-                    "chance": 30,
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 1,
-                        "filter": {
-                            "healthexhausted": 1
-                        }
-                    }
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "ecdysisdance_ascensionlessonmoth_fallthrough",
-            "actionId": "work",
-            "label": "在蛻衣俱樂部工作：屈服，只差一點",
-            "startdescription": "今晚我們戴著面具，如參加慶典般行進。蘇洛恰那等在側幕之後，以兜帽遮眼。",
-            "description": "今晚有什麼東西近在咫尺——如同風過樹枝的聲音，觀者眼中搖曳的火光。然而我們褪去了面具外的所有，而後傳來的唯有掌聲。[再加入一點<b>蛾</b>還可獲得更多。欲望越高，需要的<b>蛾</b>越多。]",
-            "requirements": {
-                "ecdysijob": 1,
-                "locationcabaret": 1,
-                "moth": 3,
-                "changemarks": 1
-            },
-            "effects": {
-                "funds": 1,
-                "mystique": 1
-            },
-            "deckeffect": {
-                "ecdysisrewards": 1
-            },
-            "alternativerecipes": [
-                {
-                    "id": "passion_expel_to_scar",
-                    "chance": 30,
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 1,
-                        "filter": {
-                            "passionexhausted": 1
-                        }
-                    }
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "ecdysisdance_genericheart",
-            "label": "在蛻衣俱樂部從事令人振奮的工作",
-            "actionId": "work",
-            "startdescription": "空氣震顫。我在台上的同伴是肉體與絲絨的電擊。阿格狄斯提斯先生的鼓聲大作。我們就此開始。",
-            "description": "樂手們以炫技結束演奏。有些觀眾如夢初醒。其他的則鼓起掌來。有個人強行擠開人群走向出口，臉色憔悴。總會有這樣一個人。我們跳離舞台時，阿格狄斯提斯先生使了一下眼色。然後蘇洛恰那出現，用她靈巧的雙手為我們中表演過猛的人包紮。",
-            "requirements": {
-                "ecdysijob": 1,
-                "locationcabaret": 1,
-                "heart": 3
-            },
-            "effects": {
-                "funds": 1,
-                "mystique": 1
-            },
-            "deckeffect": {
-                "ecdysisrewards": 1
-            },
-            "alternativerecipes": [
-                {
-                    "id": "health_expel_to_scar",
-                    "chance": 30,
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 1,
-                        "filter": {
-                            "fatigue": 1
-                        }
-                    }
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "ecdysisdance_genericmoth",
-            "actionId": "work",
-            "label": "在蛻衣俱樂部從事令人振奮的工作",
-            "startdescription": "空氣煙霧繚繞。我在台上的同伴是肉體與絲絨的震顫。阿格狄斯提斯先生的鼓聲大作。我們就此開始。",
-            "description": "樂手們以炫技結束演奏。有些觀眾如夢初醒。其他的則鼓起掌來。有個人強行擠開人群走向出口，臉色憔悴。總會有這樣一個人。我們跳離舞台時，阿格狄斯提斯先生使了一下眼色。然後蘇洛恰那出現，用她靈巧的雙手為我們中表演過猛的人包紮。",
-            "requirements": {
-                "ecdysijob": 1,
-                "locationcabaret": 1,
-                "moth": 3
-            },
-            "effects": {
-                "funds": 1,
-                "mystique": 1
-            },
-            "deckeffect": {
-                "ecdysisrewards": 1
-            },
-            "alternativerecipes": [
-                {
-                    "id": "passion_expel_to_scar",
-                    "chance": 30,
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 1,
-                        "filter": {
-                            "passionexhausted": 1
-                        }
-                    }
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "ecdysisdance_genericheart_rote",
-            "label": "在蛻衣俱樂部從事令人乏味的工作",
-            "actionId": "work",
-            "startdescription": "我們大步邁向舞台，七個人，頭向後甩，圍巾飄揚。但我已經感覺到有什麼東西缺失了。隔著藍色的煙霧，觀眾們的臉孔轉向我們，然後又轉回他們的雞尾酒和同伴。我抑制住由飄過舞台的煙霧引起的咳嗽。",
-            "description": "阿格狄斯提斯先生和其他樂手在一起，坐在他的鼓旁。我感到他的眼光在表演結束時落到我身上。他很失望，不過我知道他不會說難聽的話。最有可能的是，他什麼都不會說。",
-            "requirements": {
-                "ecdysijob": 1,
-                "locationcabaret": 1,
-                "heart": 2
-            },
-            "effects": {
-                "funds": 1,
-                "mystique": 1
-            },
-            "alternativerecipes": [
-                {
-                    "id": "health_expel_to_scar",
-                    "chance": 30,
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 1,
-                        "filter": {
-                            "fatigue": 1
-                        }
-                    }
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "ecdysisdance_genericmoth_rote",
-            "label": "在蛻衣俱樂部從事令人乏味的工作",
-            "actionId": "work",
-            "startdescription": "我們大步邁向舞台，七個人，頭向後甩，圍巾飛卷。但我已經感覺到有什麼東西缺失了。隔著藍色的煙霧，觀眾們的臉孔轉向我們，然後又轉回他們的雞尾酒和同伴。我抑制住由飄過舞台的煙霧引起的咳嗽。",
-            "description": "蘇洛恰那站在後台，一手托著另一手的手肘，眼睜睜看著我擠過她而去。“我期待的不止如此”，她沒好氣地說。",
-            "requirements": {
-                "ecdysijob": 1,
-                "locationcabaret": 1,
-                "moth": 2
-            },
-            "effects": {
-                "funds": 1,
-                "mystique": 1
-            },
-            "alternativerecipes": [
-                {
-                    "id": "passion_expel_to_scar",
-                    "chance": 30,
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 1,
-                        "filter": {
-                            "passion": 1
-                        }
-                    }
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "work_changedesire",
-            "label": "跟隨欲望的指引",
-            "actionId": "work",
-            "startdescription": "外出夜遊……",
-            "description": "第二天日出時，我發現自己靠在一支大煙囪上，俯瞰晨曦犁過城市。我的頭髮一團糟，還被人偷走了鞋子。",
-            "requirements": {
-                "changemarks": 1,
-                "ecdysijob": -1,
-                "job": -1,
-                "dance": -1,
-                "location": -1
-            },
-            "effects": {
-                "glimmering": 1,
-                "vitality": 1
-            },
-            "alternativerecipes": [
-                {
-                    "id": "work_changedesire_restlessness",
-                    "chance": 70
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "work_changedesire_restlessness",
-            "label": "跟隨欲望的指引",
-            "actionId": "work",
-            "description": "我與一名教士同飲淡色葡萄酒——我在碼頭邊看狗打架——在擺滿人體模型的房間裡被畫成素描上的輪廓。這些都不是我想要的。",
-            "effects": {
-                "restlessness": 1
-            }
-        }
-    ]
+	"recipes": [
+		{
+			"id": "explorecabaret_meetsulochana",
+			"label": "在蛻衣俱樂部與蘇洛恰那見面",
+			"startdescription": "蘇洛恰那·阿摩伐舍立於垂掛紅帷幕的門洞中。她一邊抽著她那獨一份的進口丁香香菸，一邊與一個身材細瘦，個子極高，或許是希臘人的人交談著。她看著我走來，眼睛一眨不眨，神色也沒有變化。",
+			"slots": [
+				{
+					"id": "Subject",
+					"label": "話題",
+					"description": "我來這裡是為了談談……"
+				}
+			],
+			"description": "“沒得說？那別浪費我時間。”"
+		},
+		{
+			"id": "A_ecdysis_beginheart",
+			"label": "揭露肉體",
+			"startdescription": "“很好。”蘇洛恰那說，“我有一份工作給你。機會只有一次哦。”她吸了一口手上的煙。“你等會把衣服脫了。”她又說。煙霧在她臉前盤旋。她依然不眨眼。“脫掉外面那幾層。”",
+			"description": "我分到了一間歸我專用的狹窄化妝間——非常狹窄——比櫥櫃寬不了多少。我得到了我的第一套戲裝。樓下，鼓聲愈演愈烈。恰在這一刻，那個細瘦的希臘人一聲不吭地闖進來，彎下腰，輕聲告訴了我一個秘密。他的名字，我後來得知，是阿格狄斯提斯先生。"
+		},
+		{
+			"id": "A_ecdysis_beginmoth",
+			"label": "揭露自我",
+			"startdescription": "“很好。”蘇洛恰那說，“我有一份工作給你。機會只有一次哦。”她吸了一口手上的煙。“你等會把衣服脫了。”她又說。她靠到極近處。“脫完還有別的。”",
+			"description": "我分到了一間歸我專用的狹窄化妝間——非常狹窄——比櫥櫃寬不了多少。我得到了我的第一套戲裝。蘇洛恰那用一把銀剪刀剪下我一縷頭髮，並在我耳邊輕聲告訴了我一個秘密。"
+		},
+		{
+			"id": "A_ecdysis_switchtochangefromsensation",
+			"label": "追求蛻變，而非感官",
+			"startdescription": "“重新考慮聖杯之路了，是嗎？記住，形體一樣不容易。但如果你真的想蛻變——”",
+			"description": "蘇洛恰那湊近端詳我的臉，用一隻手捧住我的臉頰。她的皮膚冰冷，吐息溫熱。她的嘴角扭曲著。“你再想想。下次俱樂部開門時再來見我。我們繼續談。”"
+		},
+		{
+			"id": "A_ecdysis_switchtochangefrompower",
+			"label": "追求蛻變，而非力量",
+			"startdescription": "“重新考慮鑄爐之路了，是嗎？記住，此火非彼火，但形體一樣不容易——”",
+			"description": "蘇洛恰那湊近端詳我的臉。她抖了抖菸灰。燃燒的菸頭紅光明滅。她輕笑道：“你再想想。下次俱樂部開門時再來見我。我們繼續談。”"
+		},
+		{
+			"id": "A_ecdysis_cantswitchtochangefromenlightenment",
+			"label": "追求蛻變，而非啟明",
+			"startdescription": "“重新考慮守夜人之路了，是嗎？好。但你還有路要走。”",
+			"description": "蘇洛恰那慢慢搖頭，與我始終目光相接。“首先，記住你是誰。”[如你想追求蛻變，先以誘惑入夢將其轉換，再與蘇洛恰那交談。]"
+		},
+		{
+			"id": "A_ecdysis_alreadyonchange",
+			"label": "今後的形體",
+			"startdescription": "“準備好開工了嗎？我們為什麼在這裡浪費時間？”[使用與俱樂部的合約，開始表演舞蹈。]",
+			"description": "“是的，我知道你要什麼。”她示意一旁的那個高個子。“阿格狄斯提斯先生也是。你來得晚太晚，趕不上今晚的舞了。下次俐落點。”"
+		},
+		{
+			"id": "A_ecdysis_cantswitch",
+			"label": "蛻變為時已晚",
+			"startdescription": "“不行。你就是現在的你。不可能了。”",
+			"description": "“你聽到我說的了嗎？不可能了。你可以成功，也可以失敗。但永遠不會真正改變。”她將發紅的菸蒂扔進黑暗。“在夢裡狂熱去吧。”"
+		},
+		{
+			"id": "ecdysisjobupgradehint_maxedout",
+			"label": "極致精深的舞步？",
+			"startdescription": "我已受命表演最艱深的舞蹈。"
+		},
+		{
+			"id": "ecdysisjobupgrade_toc_hint",
+			"label": "向蘇洛恰那展示我的能力？",
+			"startdescription": "蘇洛恰那為我四肢是否夠伸展、腰身是否夠靈活做了檢查。“還不到火候。”她說。[為了下一步的進展，請提升你的健康技能至最高等級並精修優雅。]"
+		},
+		{
+			"id": "ecdysisjobupgradehint",
+			"label": "更精深的舞步？",
+			"startdescription": "觀眾越是金貴，舞蹈就越要艱深。在蘇洛恰那和阿格狄斯提斯先生允許我精進前，我得證明自己的身體能力可以勝任。[提高你的健康技能來打動他們。]"
+		},
+		{
+			"id": "ecdysisjobupgrade_tob",
+			"label": "向阿格狄斯提斯先生展示我的能力",
+			"startdescription": "我已準備好在俱樂部深處，一間紅色百葉門後面的房間裡表演更加艱深的舞蹈了。將由阿格狄斯提斯先生判斷我是否夠格。",
+			"description": "阿格狄斯提斯先生把他修長而美麗的雙手交握在一起；他親切地笑了笑。他會從我身上采走一點點血液以備不測，如此我們便準備完畢。"
+		},
+		{
+			"id": "ecdysisjobupgrade_toc",
+			"label": "向蘇洛恰那證明我的能力",
+			"startdescription": "我相信我準備好表演那些只在特別專場演出的舞蹈了。蘇洛恰那將邀請我去到俱樂部最頂層的房間——一個開窗見月的閣樓，她保存她的鑰匙、她的珠寶和她的戰利品之地，並將在我起舞前為我送來盛在象牙杯中的葡萄酒。葡萄酒濃郁甜美，將令我腦中泉湧般現出新的思緒。空氣會像翅膀般拍動，但即便脫掉衣服後，我也不會覺得冷。",
+			"description": "“你可以的，”蘇洛恰那·阿摩伐舍說。“歡迎來到’蛻變室‘。”她用她往常的目光上下打量我。“就快了。就快了。或許是時候向我的姐妹提起你了。”"
+		},
+		{
+			"id": "ecdysisdanceclublantern_generichint",
+			"label": "別做那事，別在這裡做",
+			"startdescription": "阿格狄斯提斯先生搖了搖他英俊的頭。他年歲難辨的雙眼閃爍著快樂，雖然那雙眼睛平時常駐悲傷。"
+		},
+		{
+			"id": "ecdysisdanceclub_generichint",
+			"label": "舞台就在前方",
+			"startdescription": "阿格狄斯提斯先生領我從化妝間走上舞台。他自己也曾是一名舞者。你看他的姿態就能看出。但是腿根處的舊傷迫使他放棄了舞台。"
+		},
+		{
+			"id": "ecdysisdance_generichint",
+			"label": "一夜又一夜",
+			"startdescription": "蛻衣俱樂部開業的時間，我意識到，與月亮變幻身形的週期息息相關。俱樂部必在，且不止在新月夜開業。"
+		},
+		{
+			"id": "ecdysisdance_sendingheartg",
+			"label": "最後一支舞",
+			"startdescription": "阿格狄斯極少開口，他開口時的嗓音十分動人——溫潤如一支中音長笛。“你幾乎掌握了所需的所有技巧，”他說，“足夠你穿過王皮之門。有人會來借給你鑰匙。”他直視你的雙眼。“我求你不要握她的手，不要看她的腳，也不要問她想喝些什麼。”他開始非常柔聲地哭泣。“會受傷的。我愛她。”",
+			"description": "當舞蹈結束，當我的身體千瘡百孔，阿格狄斯提斯先生溫暖的的眼淚滴落在我殘破的肉體上時，我的影子成了獠牙巨獸的影子。“快去吧，”阿格狄斯提斯先生說。“快去睡吧。蘇洛恰那女士已經叫了瑪麗內特女士來。她是那個將要剝去你皮膚之人。”"
+		},
+		{
+			"id": "ecdysisdance_sendingmothg",
+			"label": "最後一支舞",
+			"startdescription": "蘇洛恰那前來觀賞我最後的演出。“近在眼前了。我手上並沒有你須通過的那扇門的鑰匙。但是我的姐姐，我族還活著（並不是說有生命）的人裡年紀最大的——我的姐姐會在夢中為你帶來鑰匙。我囑咐你一件事，作為送給你和她的人情：別看她的臉。",
+			"description": "當舞蹈結束，當我的思緒顛三倒四，我的情緒如蛇揚首時，我再也無法輕易分辨何為真實。蘇洛恰那是真的，我覺得。鏡子裡我的倒影——後腿的倒影——非常真實。“快去吧，”蘇洛恰那說道。她抓住我的肩膀，用蛾翅般的吻輕撫我的嘴。她的雙唇冰冷。她的呼吸腐臭。她的雙目好似美好的夜晚。這是真實的嗎？"
+		},
+		{
+			"id": "ecdysisdance_sendingmothheartg",
+			"label": "最後一支舞",
+			"startdescription": "蘇洛恰那和阿格狄斯提斯先生都前來觀賞我最後的演出。“近在眼前了，”她說。她皺起眉。“我不確定……不過，反正木已成舟。我就祝你在林地好運吧。”她點上一支菸。“會受傷的，”她帶著些許玩樂的意味補充道。在她身後，阿格狄斯提斯先生說出了你的名字，只輕輕地說了一次。他的聲音十分動人——溫潤如一隻中音長笛。",
+			"description": "當舞蹈結束，當我的思緒顛三倒四，我的情緒如蛇揚首時，我再也無法輕易分辨何為真實。蘇洛恰那是真的，我覺得。鏡子裡我的倒影——頭生雙角的獸形的倒影——非常真實。“快去吧，”蘇洛恰那說道。她抓住我的肩膀，用蛾翅般的吻輕撫我的嘴。她的雙唇冰冷。她的呼吸腐臭。她的雙目好似倒映的夜晚。這是真實的嗎？"
+		},
+		{
+			"id": "ecdysisdance_sendingheartf",
+			"label": "在蛻衣俱樂部工作：出於白而勝於白",
+			"startdescription": "舞蹈以裸體形式表演。阿格狄斯提斯先生進入我的化妝間，將我的身體塗成必要的白色。他在流淚。",
+			"description": "觀眾席既暗又靜。一道聚光燈追隨著我的舞步。有可能，但又不太可能，無人觀看我的表演——無人看到聚光燈漸漸暗淡，和我最後的墜落——無人看到一隻白鳥從我張開的嘴裡飛出，並被遺忘於夜色。"
+		},
+		{
+			"id": "ecdysisdance_sendingmothf",
+			"label": "在蛻衣俱樂部工作：",
+			"startdescription": "為了這個舞蹈，我剩下的頭髮必須全部去除——不是用剃刀剃掉，而是無微不至地用剪刀剪去。蘇洛恰那負責這項工作。只要我敢動一下，她就會叫罵著用剪尖兒戳我。“我們應該把你的牙磨尖銳，真的，”她若有所思地說，“但我們沒時間了。你使勁咬好了。”她用力拍打我頭頂的發碴，時間到了。",
+			"description": "這支舞蹈沒有舞伴，而唯一的觀眾則是祭品，他哭嚎著四處逃竄，捶打著牆壁。我緊追不捨，撞倒椅子，砸碎瓶子。我的牙齒刻入它的脖子。狼形的我從血中躍出。哪怕閉上眼，我也看得到它，如看日出一樣明晰。"
+		},
+		{
+			"id": "ecdysisdance_sendinghearte",
+			"label": "在蛻衣俱樂部工作：新的高度",
+			"startdescription": "今晚蘇洛恰那親自為我穿上羽衣。“我從未到達在此之上的高度，哪怕是用舊形體，”她自己承認道。“我最後是以不一樣的途徑到達居屋的。”她捏了捏我的胯以示鼓勵。如此近的距離下，我看得見她的牙，如蛇牙般彎曲。“但我覺得你能走完全程。到時候了，我覺得，該提醒我姐姐你要來了。現在出去展現自己吧。漫宿固然好，可我還是要賺錢的。”",
+			"description": "今晚台下在座的只有七人：三男、三女，還有來向前者收費的阿格狄斯提斯先生。我隨外形奇特的七孔雪松笛起舞，演奏者是蘇洛恰那本人。天窗大開——夜晚寒冷，但我舞得忘我。另一個我升入夜空時，觀眾沒有鼓掌——只有贊同的呢喃。"
+		},
+		{
+			"id": "ecdysisdance_sendingmothe",
+			"label": "在蛻衣俱樂部工作：新的高度",
+			"startdescription": "今晚蘇洛恰那親自為我穿上羽衣。“我到達過這個高度，但沒到過更高的，”她自己承認道。“我最後是以不一樣的途徑到達居屋的。”她捏了捏我的胯以示鼓勵。如此近的距離下，我看得見她的牙，如蛇牙般彎曲。“但我覺得你能走完全程。到時候了，我覺得，該提醒我姐姐你要來了。現在出去展現自己吧。漫宿固然好，可我還是要賺錢的。”",
+			"description": "今晚台下在座的只有七人：三男、三女，還有來向前者收費的阿格狄斯提斯先生。我隨外形奇特的七孔雪松笛起舞，演奏者是蘇洛恰那本人。天窗大開——夜晚寒冷，但我舞得忘我。另一個我升入夜空時，觀眾沒有鼓掌——只有贊同的呢喃。"
+		},
+		{
+			"id": "ecdysisdance_sendingheartd",
+			"label": "在蛻衣俱樂部工作：罕見的追獵",
+			"startdescription": "今晚的我身著淺紅褐色，頭戴狐面。身後掛著一條尾巴：追我的獵手需要點能抓握的東西。今晚的我獨舞，卻非獨自一人。當我從幕後窺看時，許多觀客正在離席。其他人則耐心坐等著，任紅黑衣飾的侍者把他們和椅子捆在一起。",
+			"description": "當音樂滑進一段狡黠的快步舞曲時，我跳下舞台，在座椅上下與座椅之間輾轉騰挪，爬高縱矮。觀客大聲叫喊著，試圖在我經過時抓住我，搖動著椅子追趕我。有個人在戰利品——我的尾巴掃過他指間時摔倒，但另一個人抓住了尾巴，一把拽下！侍者將他背到後台領取他應得的獎品。我伴著雷鳴般的掌聲溜出房間。只有得獎者看到了離去的另一個我，和我一樣有著狐面和紅褐色的外觀，華麗的尾巴完好無損。"
+		},
+		{
+			"id": "ecdysisdance_sendingmothd",
+			"label": "在蛻衣俱樂部工作：罕見的追獵",
+			"startdescription": "今晚的我身著淺紅褐色，頭戴狐面。身後掛著一條尾巴：追我的獵手需要點能抓握的東西。今晚的我獨舞，卻非獨自一人。當我從幕後窺看時，許多觀客正在離席。其他人則耐心坐等著，任紅黑衣飾的侍者把他們和椅子捆在一起。",
+			"description": "當音樂滑進一段狡黠的快步舞曲時，我跳下舞台，在座椅上下與座椅之間輾轉騰挪，爬高縱矮。觀客大聲叫喊著，試圖在我經過時抓住我，搖動著椅子追趕我。有個人在戰利品——我的尾巴掃過他指間時摔倒，但另一個人抓住了尾巴，一把拽下！侍者將他背到後台領取他應得的獎品。我伴著雷鳴般的掌聲溜出房間。只有得獎者看到了離去的另一個我，和我一樣有著狐面和紅褐色的外觀，華麗的尾巴完好無損。"
+		},
+		{
+			"id": "ecdysisdance_sendingheartc",
+			"label": "在蛻衣俱樂部工作：分離的影子",
+			"startdescription": "我與一個舞伴共舞。我頭戴貓面。他假扮蛇。我兩隻黑手套的指尖都鑲著藍鋼。如果我的蛇舞伴動作太慢，我會給他的皮膚刻下抓痕，而我——則要小心躲避他面具上的獠牙，在我們湊近接吻的時候。",
+			"description": "我用優雅的貓步邁出自己的影子。我是一隻黑貓，蜷曲著積蓄力量，且行動不為任何人所查，直到我準備回歸本體為止。"
+		},
+		{
+			"id": "ecdysisdance_sendingmothc",
+			"label": "在蛻衣俱樂部工作：分離的影子",
+			"startdescription": "我與一個舞伴共舞。我頭戴貓面。他假扮蛇。我兩隻黑手套的指尖都鑲著藍鋼。如果我的蛇舞伴動作太慢，我會給他的皮膚刻下抓痕，而我——則要小心躲避他面具上的獠牙，在我們湊近接吻的時候。",
+			"description": "我用優雅的貓步邁出自己的影子。我是一隻黑貓，蜷曲著積蓄力量，且行動不為任何人所查，直到我準備回歸本體為止。"
+		},
+		{
+			"id": "ecdysisdance_sendingheartb",
+			"label": "在蛻衣俱樂部工作：昂首的毒蛇",
+			"startdescription": "今晚我們把蛇帶到舞台上與我們一起舞動，我們頭戴鱗面，扭身紆行，好像自己也是蛇一樣。舞台環繞著燈光，空氣如銀色的霧，然而我的後頸淌下汗水。今夜我們為月亮而舞。",
+			"description": "在舞蹈的高潮，我發作了，全身抽搐，直到我胸中的震動現出身形——是一條昂首的毒蛇！他從我口中嘔吐般傾瀉而出，沿我的身體流下，再從舞台離去。觀眾掌聲如雷！我踉蹌著走開，胸口劇烈起伏。我知道蛇會以與它出來相同的方式回去，在我和它都做好準備之後。"
+		},
+		{
+			"id": "ecdysisdance_sendingmothb",
+			"label": "在蛻衣俱樂部工作：昂首的毒蛇",
+			"startdescription": "今晚我們把蛇帶到舞台上與我們一起舞動，我們頭戴鱗面，扭身紆行，好像自己也是蛇一樣。舞台環繞著燈光，空氣如銀色的霧，然而我的後頸淌下汗水。今夜我們為月亮而舞。",
+			"description": "在舞蹈的高潮，我發作了，全身抽搐，直到我胸中的震動現出身形——是一條昂首的毒蛇！他從我口中嘔吐般傾瀉而出，沿我的身體流下，再從舞台離去。觀眾掌聲如雷！我踉蹌著走開，胸口劇烈起伏。我知道蛇會以與它出來相同的方式回去，在我和它都做好準備之後。"
+		},
+		{
+			"id": "ecdysisdance_ascensionlessonmotha",
+			"label": "在蛻衣俱樂部工作：激烈的癒合",
+			"startdescription": "今晚我們緊裹著條條綠色絲綢圍巾。我們會比平日更激烈地寬衣解帶。我開始前，阿格狄斯提斯先生遞給我一張綠如春葉的無嘴橢圓形面具。我猶豫了一會才帶上。他給面具裡側塗上了新鮮的土壤。",
+			"description": "解下第一條圍巾時，其痛苦令我震驚，如同剝去結痂。下一條容易些，然後又是一條，但我有點搖晃。我的舞伴擔憂地看著我：我知道我的表情藏在面具下不可見。到了結尾，我們一起收攏成一個圈。我扯下最後一條絲巾，帶來的急痛如同根莖被拽出泥土。我不敢拿下面具。之後，我的皮膚再無印記。"
+		},
+		{
+			"id": "ecdysisdance_ascensionlessonhearta",
+			"label": "在蛻衣俱樂部工作：激烈的癒合",
+			"startdescription": "今晚我們緊裹著條條綠色絲綢圍巾。我們會比平日更激烈地寬衣解帶。我開始前，阿格狄斯提斯先生遞給我一張綠如春葉的無嘴橢圓形面具。我猶豫了一會才帶上。他給面具裡側塗上了新鮮的土壤。",
+			"description": "解下第一條圍巾時，其痛苦令我震驚，如同剝去結痂。下一條容易些，然後又是一條，但我有點搖晃。我的舞伴擔憂地看著我：我知道我的表情藏在面具下不可見。到了結尾，我們一起收攏成一個圈。我扯下最後一條絲巾，帶來的急痛如同根莖被拽出泥土。我不敢拿下面具。之後，我的皮膚再無印記。"
+		},
+		{
+			"id": "ecdysisdance_ascensionlessonheart_fallthrough",
+			"label": "在蛻衣俱樂部工作：雷鳴，只差一點",
+			"startdescription": "今晚我們戴著面具，如參加慶典般行進。阿格狄斯提斯先生在密切關注著。",
+			"description": "今晚有什麼東西近在咫尺——黑雲壓頂的雷鳴，空氣清新如山松的一刻。然而我們褪去了面具外的所有，而後傳來的唯有掌聲。[再加入一點<b>心</b>還可獲得更多。<b>欲望</b>越高，需要的<b>心</b>越多。]"
+		},
+		{
+			"id": "ecdysisdance_ascensionlessonmoth_fallthrough",
+			"label": "在蛻衣俱樂部工作：屈服，只差一點",
+			"startdescription": "今晚我們戴著面具，如參加慶典般行進。蘇洛恰那等在側幕之後，以兜帽遮眼。",
+			"description": "今晚有什麼東西近在咫尺——如同風過樹枝的聲音，觀者眼中搖曳的火光。然而我們褪去了面具外的所有，而後傳來的唯有掌聲。[再加入一點<b>蛾</b>還可獲得更多。欲望越高，需要的<b>蛾</b>越多。]"
+		},
+		{
+			"id": "ecdysisdance_genericheart",
+			"label": "在蛻衣俱樂部從事令人振奮的工作",
+			"startdescription": "空氣震顫。我在台上的同伴是肉體與絲絨的電擊。阿格狄斯提斯先生的鼓聲大作。我們就此開始。",
+			"description": "樂手們以炫技結束演奏。有些觀眾如夢初醒。其他的則鼓起掌來。有個人強行擠開人群走向出口，臉色憔悴。總會有這樣一個人。我們跳離舞台時，阿格狄斯提斯先生使了一下眼色。然後蘇洛恰那出現，用她靈巧的雙手為我們中表演過猛的人包紮。"
+		},
+		{
+			"id": "ecdysisdance_genericmoth",
+			"label": "在蛻衣俱樂部從事令人振奮的工作",
+			"startdescription": "空氣煙霧繚繞。我在台上的同伴是肉體與絲絨的震顫。阿格狄斯提斯先生的鼓聲大作。我們就此開始。",
+			"description": "樂手們以炫技結束演奏。有些觀眾如夢初醒。其他的則鼓起掌來。有個人強行擠開人群走向出口，臉色憔悴。總會有這樣一個人。我們跳離舞台時，阿格狄斯提斯先生使了一下眼色。然後蘇洛恰那出現，用她靈巧的雙手為我們中表演過猛的人包紮。"
+		},
+		{
+			"id": "ecdysisdance_genericheart_rote",
+			"label": "在蛻衣俱樂部從事令人乏味的工作",
+			"startdescription": "我們大步邁向舞台，七個人，頭向後甩，圍巾飄揚。但我已經感覺到有什麼東西缺失了。隔著藍色的煙霧，觀眾們的臉孔轉向我們，然後又轉回他們的雞尾酒和同伴。我抑制住由飄過舞台的煙霧引起的咳嗽。",
+			"description": "阿格狄斯提斯先生和其他樂手在一起，坐在他的鼓旁。我感到他的眼光在表演結束時落到我身上。他很失望，不過我知道他不會說難聽的話。最有可能的是，他什麼都不會說。"
+		},
+		{
+			"id": "ecdysisdance_genericmoth_rote",
+			"label": "在蛻衣俱樂部從事令人乏味的工作",
+			"startdescription": "我們大步邁向舞台，七個人，頭向後甩，圍巾飛卷。但我已經感覺到有什麼東西缺失了。隔著藍色的煙霧，觀眾們的臉孔轉向我們，然後又轉回他們的雞尾酒和同伴。我抑制住由飄過舞台的煙霧引起的咳嗽。",
+			"description": "蘇洛恰那站在後台，一手托著另一手的手肘，眼睜睜看著我擠過她而去。“我期待的不止如此”，她沒好氣地說。"
+		},
+		{
+			"id": "work_changedesire",
+			"label": "跟隨欲望的指引",
+			"startdescription": "外出夜遊……",
+			"description": "第二天日出時，我發現自己靠在一支大煙囪上，俯瞰晨曦犁過城市。我的頭髮一團糟，還被人偷走了鞋子。"
+		},
+		{
+			"id": "work_changedesire_restlessness",
+			"label": "跟隨欲望的指引",
+			"description": "我與一名教士同飲淡色葡萄酒——我在碼頭邊看狗打架——在擺滿人體模型的房間裡被畫成素描上的輪廓。這些都不是我想要的。"
+		}
+	]
 }

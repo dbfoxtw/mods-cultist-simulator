@@ -1,625 +1,202 @@
 {
-    "recipes": [
-        {
-            "id": "studyincreasehealthstarter",
-            "label": "鍛鍊身體",
-            "actionId": "study",
-            "requirements": {
-                "vitality": 2
-            },
-            "startdescription": "我洋溢著活力。如果我能花一些時間鍛鍊，我將從中受益。",
-            "description": "我變得更強壯了。[我獲得了“健康”，但下次獲得健康的難度會上升。]",
-            "effects": {
-                "vitality": -2,
-                "health": 1,
-                "skillhealtha": 1
-            },
-            "warmup": 60,
-            "maxexecutions": 1,
-            "craftable": true
-        },
-        {
-            "id": "studyincreasevitalitytoplus",
-            "label": "鍛鍊身體",
-            "actionId": "study",
-            "requirements": {
-                "vitality": 2
-            },
-            "startdescription": "我洋溢著活力。如果我能花一些時間鍛鍊，我將從中受益。",
-            "description": "我已做好變得更強壯的準備。[使用該“學有所成”來習得力量技能。]",
-            "effects": {
-                "vitality": -2,
-                "vitalityplus": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyincreasevitalitywithinfluencehearttoplus",
-            "label": "鍛鍊身體",
-            "actionId": "study",
-            "requirements": {
-                "vitality": 1,
-                "influenceheart": 1,
-                "lore": -1
-            },
-            "startdescription": "我洋溢著活力，且正處於一個生氣勃勃的季節。如果我能花一些時間鍛鍊，我將從中受益。[此卡加上恰當的“密傳”可以產生強力的密教<b>影響</b>。]",
-            "description": "我已做好變得更強壯的準備。[使用該“學有所成”來習得力量技能。]",
-            "effects": {
-                "influence": -2,
-                "vitalityplus": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyincreasehealthskilla",
-            "label": "鍛鍊身體：更加強壯……",
-            "actionId": "study",
-            "requirements": {
-                "skillhealtha": 1,
-                "vitalityplus": 2
-            },
-            "aspects": {
-                "careeradvancement": 1
-            },
-            "startdescription": "我將變得更加強壯。",
-            "description": "這部機器，即我的身體，湧動著力量。",
-            "effects": {
-                "health": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyincreasehealthskillb",
-            "label": "鍛鍊身體：還能更加強壯……",
-            "actionId": "study",
-            "requirements": {
-                "skillhealthb": 1,
-                "vitalityplus": 3
-            },
-            "aspects": {
-                "careeradvancement": 1
-            },
-            "startdescription": "我還能變得更加強壯。",
-            "description": "現在我可以扛著一個人過河，或者將他絞殺。",
-            "effects": {
-                "health": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyincreasehealthskill_to_d_edge",
-            "label": "鍛鍊身體：強力至更高的境界",
-            "actionId": "study",
-            "requirements": {
-                "skillhealthc": 1,
-                "vitalityplus": 4,
-                "edge": 1,
-                "lore": 1
-            },
-            "startdescription": "我將追隨獅子匠——無止境變強之神，及上校——不懼傷疤之神的腳步。",
-            "description": "我的心跳平穩如擂鼓，確鑿如法官的宣判。",
-            "effects": {
-                "health": 1,
-                "skillhealthc": -1,
-                "skillhealthd_strength": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyincreasehealthskill_to_d_forge",
-            "label": "鍛鍊身體：強力至更高的境界",
-            "actionId": "study",
-            "requirements": {
-                "skillhealthc": 1,
-                "vitalityplus": 4,
-                "forge": 1,
-                "lore": 1
-            },
-            "startdescription": "我會以和白日鑄爐一樣的力氣燃燒。",
-            "description": "我的心跳平穩如擂鼓，確鑿如法官的宣判。",
-            "effects": {
-                "health": 1,
-                "skillhealthc": -1,
-                "skillhealthd_strength": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyincreasehealthskill_to_d_grail",
-            "label": "鍛鍊身體：優雅至更深的境界",
-            "actionId": "study",
-            "requirements": {
-                "skillhealthc": 1,
-                "vitalityplus": 4,
-                "grail": 1,
-                "lore": 1
-            },
-            "startdescription": "我將執行赤杯的指示。我將變得柔韌，帶刺且甜美。",
-            "description": "風暴無法折斷能彎曲的樹木。",
-            "effects": {
-                "health": 1,
-                "skillhealthc": -1,
-                "skillhealthd_grace": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyincreasehealthskill_to_d_heart",
-            "label": "鍛鍊身體：優雅至更深的境界",
-            "actionId": "study",
-            "requirements": {
-                "skillhealthc": 1,
-                "vitalityplus": 4,
-                "heart": 9,
-                "lore": 1
-            },
-            "comments": "ugh: heart influence from vitalityplus",
-            "startdescription": "我將追隨轟雷之皮的話語。",
-            "description": "風暴無法折斷能彎曲的樹木。",
-            "effects": {
-                "health": 1,
-                "skillhealthc": -1,
-                "skillhealthd_grace": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyincreasehealthskill_to_d_moth",
-            "label": "鍛鍊身體：優雅至更深的境界",
-            "actionId": "study",
-            "requirements": {
-                "skillhealthc": 1,
-                "vitalityplus": 4,
-                "moth": 1,
-                "lore": 1
-            },
-            "startdescription": "我們穿火飛過，不會為之吞沒。",
-            "description": "風暴無法折斷能彎曲的樹木。",
-            "effects": {
-                "health": 1,
-                "skillhealthc": -1,
-                "skillhealthd_grace": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyincreasereasonstarter",
-            "label": "鍛鍊頭腦",
-            "actionId": "study",
-            "requirements": {
-                "erudition": 2
-            },
-            "startdescription": "我從這裡那裡偶然得知了些奇怪的事實。如果我把時間花在鑽研這些知識上，我便能增進我的理性。",
-            "description": "我的頭腦淵博如圖書館。[我獲得了“理性”，但下次獲得理性的難度會上升。]",
-            "effects": {
-                "erudition": -2,
-                "reason": 1,
-                "skillreasona": 1
-            },
-            "warmup": 60,
-            "maxexecutions": 1,
-            "craftable": true
-        },
-        {
-            "id": "studyincreaseeruditiontoplus",
-            "label": "鍛鍊頭腦",
-            "actionId": "study",
-            "requirements": {
-                "erudition": 2
-            },
-            "startdescription": "我從這裡那裡偶然得知了些奇怪的事實。如果我把時間花在鑽研這些知識上，我便能增進我的理性。",
-            "description": "我的頭腦淵博如圖書館。[使用該“學有所成”來習得學識技能。]",
-            "effects": {
-                "erudition": -2,
-                "eruditionplus": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyincreaseeruditionwithlanterninfluencetoplus",
-            "label": "思維之光",
-            "actionId": "study",
-            "requirements": {
-                "erudition": 1,
-                "influencelantern": 1,
-                "lore": -1
-            },
-            "startdescription": "我從這裡那裡偶然得知了些奇怪的事實……而這光輝出奇的時節，正適合我增進我的理性。[此卡加上恰當的“密傳”可以產生強力的密教<b>影響</b>。]",
-            "description": "我的頭腦淵博如圖書館。[使用該“學有所成”來習得學識技能。]",
-            "effects": {
-                "influence": -2,
-                "eruditionplus": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyincreasereasonskilla",
-            "label": "鍛鍊頭腦：更加聰慧",
-            "actionId": "study",
-            "requirements": {
-                "skillreasona": 1,
-                "eruditionplus": 2
-            },
-            "aspects": {
-                "careeradvancement": 1
-            },
-            "startdescription": "知識是一座一磚一瓦砌成的城市。但在城牆外的黑暗中等待的是什麼？如果沒有恐懼的對象，我們又何必築起高牆？",
-            "description": "我重新劃定了我熟知與無知的領域間的界限。",
-            "effects": {
-                "reason": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyincreasereasonskillb",
-            "label": "鍛鍊頭腦：聰慧絕頂……",
-            "actionId": "study",
-            "requirements": {
-                "skillreasonb": 1,
-                "eruditionplus": 3
-            },
-            "aspects": {
-                "careeradvancement": 1
-            },
-            "startdescription": "我還能變得更加聰慧。",
-            "description": "我的頭腦澄明如鏡子的國度，萬事萬物都清晰可辨，即便是那些我更願意視而不見的東西。",
-            "effects": {
-                "reason": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyincreasereasonskill_to_d_lantern",
-            "label": "鍛鍊頭腦：明透至更亮的境界",
-            "actionId": "study",
-            "requirements": {
-                "skillreasonc": 1,
-                "eruditionplus": 4,
-                "lantern": 9,
-                "lore": 1
-            },
-            "startdescription": "我將追隨看守人的腳步。",
-            "description": "我升得越高，看見得越多。",
-            "effects": {
-                "reason": 1,
-                "skillreasonc": -1,
-                "skillreasond_illumination": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyincreasereasonskill_to_d_winter",
-            "label": "鍛鍊頭腦：專注至更深的境界",
-            "actionId": "study",
-            "requirements": {
-                "skillreasonc": 1,
-                "eruditionplus": 4,
-                "winter": 1,
-                "lore": 1
-            },
-            "startdescription": "我將聆聽昕旦的話語。",
-            "description": "沉靜是美德。",
-            "effects": {
-                "reason": 1,
-                "skillreasonc": -1,
-                "skillreasond_concentration": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyincreasereasonskill_to_d_knock",
-            "label": "鍛鍊頭腦：明透至更亮的境界",
-            "actionId": "study",
-            "requirements": {
-                "skillreasonc": 1,
-                "eruditionplus": 4,
-                "knock": 1,
-                "lore": 1
-            },
-            "startdescription": "我將邁過雙角斧於之等待的門關。",
-            "description": "我升得越高，看見得越多。",
-            "effects": {
-                "reason": 1,
-                "skillreasonc": -1,
-                "skillreasond_illumination": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyincreasereasonskill_to_d_secrethistories",
-            "label": "鍛鍊頭腦：專注至更深的境界",
-            "actionId": "study",
-            "requirements": {
-                "skillreasonc": 1,
-                "eruditionplus": 4,
-                "secrethistories": 1,
-                "lore": 1
-            },
-            "startdescription": "無人全數記得每重歷史；故，無人能將其全數忘懷。",
-            "description": "沉靜是美德。",
-            "effects": {
-                "reason": 1,
-                "skillreasonc": -1,
-                "skillreasond_concentration": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyincreasereasonskill_to_d_forge",
-            "label": "鍛鍊頭腦：明透至更亮的境界",
-            "actionId": "study",
-            "requirements": {
-                "skillreasonc": 1,
-                "eruditionplus": 4,
-                "forge": 1,
-                "lore": 1
-            },
-            "startdescription": "我將再造己身，照亮蒙昧之夜。",
-            "description": "我升得越高，看見得越多。",
-            "effects": {
-                "reason": 1,
-                "skillreasonc": -1,
-                "skillreasond_illumination": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyincreasereasonskill_to_d_edge",
-            "label": "鍛鍊頭腦：專注至更深的境界",
-            "actionId": "study",
-            "requirements": {
-                "skillreasonc": 1,
-                "eruditionplus": 4,
-                "edge": 1,
-                "lore": 1
-            },
-            "startdescription": "我永不停歇；我不容違抗。",
-            "description": "沉靜是美德。",
-            "effects": {
-                "reason": 1,
-                "skillreasonc": -1,
-                "skillreasond_concentration": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyincreasepassionstarter",
-            "label": "培養想像",
-            "actionId": "study",
-            "requirements": {
-                "glimmering": 2
-            },
-            "startdescription": "“暴怒的老虎比訓練有素的馬更聰明。”如果我把時間花在鑽研現有知識上，我便能增進我的激情，並習得一項技能。",
-            "description": "我的心靈有許多窗口，而陽光並非唯一通過窗口之物。[我獲得了“激情”，但下次獲得激情的難度會上升。]",
-            "effects": {
-                "glimmering": -2,
-                "passion": 1,
-                "skillpassiona": 1
-            },
-            "warmup": 60,
-            "maxexecutions": 1,
-            "craftable": true
-        },
-        {
-            "id": "studyincreaseglimmeringtoplus",
-            "label": "培養想像",
-            "actionId": "study",
-            "requirements": {
-                "glimmering": 2
-            },
-            "startdescription": "“暴怒的老虎比訓練有素的馬更聰明。”如果我把時間花在鑽研現有的知識上，我便能打下增進激情的基礎。",
-            "description": "我的心靈有許多窗口，而陽光並非唯一通過窗口之物。[此‘“學有所成”’可與<b>想像技能</b>一同使用。]",
-            "effects": {
-                "glimmering": -2,
-                "glimmeringplus": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyincreaseglimmeringwithmothinfluencetoplus",
-            "label": "培養想像",
-            "actionId": "study",
-            "requirements": {
-                "glimmering": 1,
-                "influencemoth": 1,
-                "lore": -1
-            },
-            "startdescription": "“暴怒的老虎比訓練有素的馬更聰明。”這衝動頻發的時節，正適合我打下增進激情的基礎。[此卡加上恰當的“密傳”可以產生強力的密教<b>影響</b>。]",
-            "description": "我的心靈有許多窗口，而陽光並非唯一通過窗口之物。[此‘“學有所成”’可與<b>想像技能</b>一同使用。]",
-            "effects": {
-                "influence": -2,
-                "glimmeringplus": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyincreasepassionskilla",
-            "label": "培養想像：更加猛烈……",
-            "actionId": "study",
-            "requirements": {
-                "skillpassiona": 1,
-                "glimmeringplus": 2
-            },
-            "aspects": {
-                "careeradvancement": 1
-            },
-            "startdescription": "“只欲求而不行動者於世有害。”",
-            "description": "我的欲望與日俱增。它們的增長好像總是快過我的行動。",
-            "effects": {
-                "passion": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyincreasepassionskillb",
-            "label": "培養想像：猛烈至極……",
-            "actionId": "study",
-            "requirements": {
-                "skillpassionb": 1,
-                "glimmeringplus": 3
-            },
-            "aspects": {
-                "careeradvancement": 1
-            },
-            "startdescription": "“與其哺育只欲求而不行動的嬰孩，不如將其盡早扼殺在搖籃中。”",
-            "description": "要是換一個時代，我會成為一名先見，或者是異端教徒。",
-            "effects": {
-                "passion": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyincreasepassionskill_to_d_moth",
-            "label": "鍛鍊想像：非理性",
-            "actionId": "study",
-            "requirements": {
-                "skillpassionc": 1,
-                "glimmeringplus": 4,
-                "moth": 9,
-                "lore": 1
-            },
-            "startdescription": "剪掉我的頭髮，剪掉身上的束縛，剪掉我的喀嚓喀嚓喀嚓。",
-            "description": "給我你的答案吧，我當用問題擊敗它們……",
-            "effects": {
-                "passion": 1,
-                "skillpassionc": -1,
-                "skillpassiond_unreason": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyincreasepassionskill_to_d_heart",
-            "label": "鍛鍊想像：非理性",
-            "actionId": "study",
-            "requirements": {
-                "skillpassionc": 1,
-                "glimmeringplus": 4,
-                "heart": 1,
-                "lore": 1
-            },
-            "startdescription": "轟雷之皮允諾過：我們不休止不會休止之物。",
-            "description": "給我你的答案吧，我當用問題擊敗它們……",
-            "effects": {
-                "passion": 1,
-                "skillpassionc": -1,
-                "skillpassiond_unreason": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyincreasepassionskill_to_d_knock",
-            "label": "鍛鍊想像：愚昧",
-            "actionId": "study",
-            "requirements": {
-                "skillpassionc": 1,
-                "glimmeringplus": 4,
-                "knock": 1,
-                "lore": 1
-            },
-            "startdescription": "“蘋果樹從不向枝條詢問他應如何生長，獅子也不向馬問應如何捕獵。”",
-            "description": "而今，我的靈魂只待開啟。",
-            "effects": {
-                "passion": 1,
-                "skillpassionc": -1,
-                "skillpassiond_folly": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyincreasepassionskill_to_d_grail",
-            "label": "鍛鍊想像：愚昧",
-            "actionId": "study",
-            "requirements": {
-                "skillpassionc": 1,
-                "glimmeringplus": 4,
-                "grail": 1,
-                "lore": 1
-            },
-            "startdescription": "“只欲求而不行動者於世有害。”",
-            "description": "而今，我的靈魂只待開啟。",
-            "effects": {
-                "passion": 1,
-                "skillpassionc": -1,
-                "skillpassiond_folly": 1
-            },
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyhealth",
-            "label": "新鮮空氣與運動健身",
-            "actionId": "study",
-            "requirements": {
-                "health": 1,
-                "lore": -1
-            },
-            "comments": "lore limiter added in case we use health for researching lore at some point",
-            "effects": {
-                "vitality": 1
-            },
-            "startdescription": "走走長路舒活筋骨。",
-            "description": "我疏忽了研究，但我的身板更挺拔了。",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyreason",
-            "label": "閱讀手邊的隨便什麼文字",
-            "actionId": "study",
-            "requirements": {
-                "reason": 1,
-                "lore": -1
-            },
-            "comments": "lore limiter added because we use reason for researching (splitting) lore",
-            "effects": {
-                "erudition": 1
-            },
-            "startdescription": "世上到處都是著印刷文字，有時，連報紙裡也包蓄著知識。",
-            "description": "這些文字包蓄著知識。而我包蓄了這些文字。這有點像偷竊，有點像飲宴，也有點像傳染病的發病過程。",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studypassion",
-            "label": "閱讀感傷文學",
-            "actionId": "study",
-            "requirements": {
-                "passion": 1
-            },
-            "comments": "lore limiter added in case we use passion for researching lore at some point",
-            "effects": {
-                "glimmering": 1
-            },
-            "startdescription": "如果我是打算學點什麼，我是不會讀這東西的。",
-            "description": "我消磨掉了一段時光。其間先是被引得落淚，後又被逗笑了起來。與此同時，世界照常運轉。",
-            "warmup": 60,
-            "craftable": true
-        }
-    ]
+	"recipes": [
+		{
+			"id": "studyincreasehealthstarter",
+			"label": "鍛鍊身體",
+			"startdescription": "我洋溢著活力。如果我能花一些時間鍛鍊，我將從中受益。",
+			"description": "我變得更強壯了。[我獲得了“健康”，但下次獲得健康的難度會上升。]"
+		},
+		{
+			"id": "studyincreasevitalitytoplus",
+			"label": "鍛鍊身體",
+			"startdescription": "我洋溢著活力。如果我能花一些時間鍛鍊，我將從中受益。",
+			"description": "我已做好變得更強壯的準備。[使用該“學有所成”來習得力量技能。]"
+		},
+		{
+			"id": "studyincreasevitalitywithinfluencehearttoplus",
+			"label": "鍛鍊身體",
+			"startdescription": "我洋溢著活力，且正處於一個生氣勃勃的季節。如果我能花一些時間鍛鍊，我將從中受益。[此卡加上恰當的“密傳”可以產生強力的密教<b>影響</b>。]",
+			"description": "我已做好變得更強壯的準備。[使用該“學有所成”來習得力量技能。]"
+		},
+		{
+			"id": "studyincreasehealthskilla",
+			"label": "鍛鍊身體：更加強壯……",
+			"startdescription": "我將變得更加強壯。",
+			"description": "這部機器，即我的身體，湧動著力量。"
+		},
+		{
+			"id": "studyincreasehealthskillb",
+			"label": "鍛鍊身體：還能更加強壯……",
+			"startdescription": "我還能變得更加強壯。",
+			"description": "現在我可以扛著一個人過河，或者將他絞殺。"
+		},
+		{
+			"id": "studyincreasehealthskill_to_d_edge",
+			"label": "鍛鍊身體：強力至更高的境界",
+			"startdescription": "我將追隨獅子匠——無止境變強之神，及上校——不懼傷疤之神的腳步。",
+			"description": "我的心跳平穩如擂鼓，確鑿如法官的宣判。"
+		},
+		{
+			"id": "studyincreasehealthskill_to_d_forge",
+			"label": "鍛鍊身體：強力至更高的境界",
+			"startdescription": "我會以和白日鑄爐一樣的力氣燃燒。",
+			"description": "我的心跳平穩如擂鼓，確鑿如法官的宣判。"
+		},
+		{
+			"id": "studyincreasehealthskill_to_d_grail",
+			"label": "鍛鍊身體：優雅至更深的境界",
+			"startdescription": "我將執行赤杯的指示。我將變得柔韌，帶刺且甜美。",
+			"description": "風暴無法折斷能彎曲的樹木。"
+		},
+		{
+			"id": "studyincreasehealthskill_to_d_heart",
+			"label": "鍛鍊身體：優雅至更深的境界",
+			"startdescription": "我將追隨轟雷之皮的話語。",
+			"description": "風暴無法折斷能彎曲的樹木。"
+		},
+		{
+			"id": "studyincreasehealthskill_to_d_moth",
+			"label": "鍛鍊身體：優雅至更深的境界",
+			"startdescription": "我們穿火飛過，不會為之吞沒。",
+			"description": "風暴無法折斷能彎曲的樹木。"
+		},
+		{
+			"id": "studyincreasereasonstarter",
+			"label": "鍛鍊頭腦",
+			"startdescription": "我從這裡那裡偶然得知了些奇怪的事實。如果我把時間花在鑽研這些知識上，我便能增進我的理性。",
+			"description": "我的頭腦淵博如圖書館。[我獲得了“理性”，但下次獲得理性的難度會上升。]"
+		},
+		{
+			"id": "studyincreaseeruditiontoplus",
+			"label": "鍛鍊頭腦",
+			"startdescription": "我從這裡那裡偶然得知了些奇怪的事實。如果我把時間花在鑽研這些知識上，我便能增進我的理性。",
+			"description": "我的頭腦淵博如圖書館。[使用該“學有所成”來習得學識技能。]"
+		},
+		{
+			"id": "studyincreaseeruditionwithlanterninfluencetoplus",
+			"label": "思維之光",
+			"startdescription": "我從這裡那裡偶然得知了些奇怪的事實……而這光輝出奇的時節，正適合我增進我的理性。[此卡加上恰當的“密傳”可以產生強力的密教<b>影響</b>。]",
+			"description": "我的頭腦淵博如圖書館。[使用該“學有所成”來習得學識技能。]"
+		},
+		{
+			"id": "studyincreasereasonskilla",
+			"label": "鍛鍊頭腦：更加聰慧",
+			"startdescription": "知識是一座一磚一瓦砌成的城市。但在城牆外的黑暗中等待的是什麼？如果沒有恐懼的對象，我們又何必築起高牆？",
+			"description": "我重新劃定了我熟知與無知的領域間的界限。"
+		},
+		{
+			"id": "studyincreasereasonskillb",
+			"label": "鍛鍊頭腦：聰慧絕頂……",
+			"startdescription": "我還能變得更加聰慧。",
+			"description": "我的頭腦澄明如鏡子的國度，萬事萬物都清晰可辨，即便是那些我更願意視而不見的東西。"
+		},
+		{
+			"id": "studyincreasereasonskill_to_d_lantern",
+			"label": "鍛鍊頭腦：明透至更亮的境界",
+			"startdescription": "我將追隨看守人的腳步。",
+			"description": "我升得越高，看見得越多。"
+		},
+		{
+			"id": "studyincreasereasonskill_to_d_winter",
+			"label": "鍛鍊頭腦：專注至更深的境界",
+			"startdescription": "我將聆聽昕旦的話語。",
+			"description": "沉靜是美德。"
+		},
+		{
+			"id": "studyincreasereasonskill_to_d_knock",
+			"label": "鍛鍊頭腦：明透至更亮的境界",
+			"startdescription": "我將邁過雙角斧於之等待的門關。",
+			"description": "我升得越高，看見得越多。"
+		},
+		{
+			"id": "studyincreasereasonskill_to_d_secrethistories",
+			"label": "鍛鍊頭腦：專注至更深的境界",
+			"startdescription": "無人全數記得每重歷史；故，無人能將其全數忘懷。",
+			"description": "沉靜是美德。"
+		},
+		{
+			"id": "studyincreasereasonskill_to_d_forge",
+			"label": "鍛鍊頭腦：明透至更亮的境界",
+			"startdescription": "我將再造己身，照亮蒙昧之夜。",
+			"description": "我升得越高，看見得越多。"
+		},
+		{
+			"id": "studyincreasereasonskill_to_d_edge",
+			"label": "鍛鍊頭腦：專注至更深的境界",
+			"startdescription": "我永不停歇；我不容違抗。",
+			"description": "沉靜是美德。"
+		},
+		{
+			"id": "studyincreasepassionstarter",
+			"label": "培養想像",
+			"startdescription": "“暴怒的老虎比訓練有素的馬更聰明。”如果我把時間花在鑽研現有知識上，我便能增進我的激情，並習得一項技能。",
+			"description": "我的心靈有許多窗口，而陽光並非唯一通過窗口之物。[我獲得了“激情”，但下次獲得激情的難度會上升。]"
+		},
+		{
+			"id": "studyincreaseglimmeringtoplus",
+			"label": "培養想像",
+			"startdescription": "“暴怒的老虎比訓練有素的馬更聰明。”如果我把時間花在鑽研現有的知識上，我便能打下增進激情的基礎。",
+			"description": "我的心靈有許多窗口，而陽光並非唯一通過窗口之物。[此‘“學有所成”’可與<b>想像技能</b>一同使用。]"
+		},
+		{
+			"id": "studyincreaseglimmeringwithmothinfluencetoplus",
+			"label": "培養想像",
+			"startdescription": "“暴怒的老虎比訓練有素的馬更聰明。”這衝動頻發的時節，正適合我打下增進激情的基礎。[此卡加上恰當的“密傳”可以產生強力的密教<b>影響</b>。]",
+			"description": "我的心靈有許多窗口，而陽光並非唯一通過窗口之物。[此‘“學有所成”’可與<b>想像技能</b>一同使用。]"
+		},
+		{
+			"id": "studyincreasepassionskilla",
+			"label": "培養想像：更加猛烈……",
+			"startdescription": "“只欲求而不行動者於世有害。”",
+			"description": "我的欲望與日俱增。它們的增長好像總是快過我的行動。"
+		},
+		{
+			"id": "studyincreasepassionskillb",
+			"label": "培養想像：猛烈至極……",
+			"startdescription": "“與其哺育只欲求而不行動的嬰孩，不如將其盡早扼殺在搖籃中。”",
+			"description": "要是換一個時代，我會成為一名先見，或者是異端教徒。"
+		},
+		{
+			"id": "studyincreasepassionskill_to_d_moth",
+			"label": "鍛鍊想像：非理性",
+			"startdescription": "剪掉我的頭髮，剪掉身上的束縛，剪掉我的喀嚓喀嚓喀嚓。",
+			"description": "給我你的答案吧，我當用問題擊敗它們……"
+		},
+		{
+			"id": "studyincreasepassionskill_to_d_heart",
+			"label": "鍛鍊想像：非理性",
+			"startdescription": "轟雷之皮允諾過：我們不休止不會休止之物。",
+			"description": "給我你的答案吧，我當用問題擊敗它們……"
+		},
+		{
+			"id": "studyincreasepassionskill_to_d_knock",
+			"label": "鍛鍊想像：愚昧",
+			"startdescription": "“蘋果樹從不向枝條詢問他應如何生長，獅子也不向馬問應如何捕獵。”",
+			"description": "而今，我的靈魂只待開啟。"
+		},
+		{
+			"id": "studyincreasepassionskill_to_d_grail",
+			"label": "鍛鍊想像：愚昧",
+			"startdescription": "“只欲求而不行動者於世有害。”",
+			"description": "而今，我的靈魂只待開啟。"
+		},
+		{
+			"id": "studyhealth",
+			"label": "新鮮空氣與運動健身",
+			"startdescription": "走走長路舒活筋骨。",
+			"description": "我疏忽了研究，但我的身板更挺拔了。"
+		},
+		{
+			"id": "studyreason",
+			"label": "閱讀手邊的隨便什麼文字",
+			"startdescription": "世上到處都是著印刷文字，有時，連報紙裡也包蓄著知識。",
+			"description": "這些文字包蓄著知識。而我包蓄了這些文字。這有點像偷竊，有點像飲宴，也有點像傳染病的發病過程。"
+		},
+		{
+			"id": "studypassion",
+			"label": "閱讀感傷文學",
+			"startdescription": "如果我是打算學點什麼，我是不會讀這東西的。",
+			"description": "我消磨掉了一段時光。其間先是被引得落淚，後又被逗笑了起來。與此同時，世界照常運轉。"
+		}
+	]
 }

@@ -1,74 +1,29 @@
 {
-    "recipes": [
-        {
-            "id": "expeditionascensionmothb",
-            "label": "母親的具名者，月亮的具名者",
-            "actionId": "explore",
-            "requirements": {
-                "sendingmothb": 1
-            },
-            "warmup": 30,
-            "effects": {
-                "ascensionlessonmothb": 1,
-                "sending": -1
-            },
-            "description": "拋卻覆皮：在凱爾伊蘇姆那片灰色屋頂上一座乾燥的閣樓中，在灰色大海的視界中，在殺人孩童的夢中，劇痛老母曾與其子阿哈德曾一度見面。殺人孩童的骨骸仍舊躺在那裡。現在蛇形的我和我其餘的部分結合地太猛烈，使得外部的我游離了出去。"
-        },
-        {
-            "id": "expeditionascensionmothc",
-            "label": "漆黑亞麻的具名者",
-            "actionId": "explore",
-            "requirements": {
-                "sendingmothc": 1
-            },
-            "warmup": 30,
-            "effects": {
-                "ascensionlessonmothc": 1,
-                "sending": -1
-            },
-            "description": "拋卻足音：老成仔貓生於河沿的黑色亞麻叢中。她會帶給我那個始終為否的答案，而當貓形的我為她跳舞時，她會吃掉我的腳步聲。"
-        },
-        {
-            "id": "expeditionascensionmothd",
-            "label": "百合王的具名者",
-            "actionId": "explore",
-            "requirements": {
-                "sendingmothd": 1
-            },
-            "warmup": 30,
-            "effects": {
-                "ascensionlessonmothd": 1,
-                "sending": -1
-            },
-            "description": "拋卻顏色：制花人的具名者伈佊於山巔上等待，用他自己的體重將花朵榨出香氣，一如他會將狐形的我榨出轉變，彷彿新酒之於葡萄。"
-        },
-        {
-            "id": "expeditionascensionmothe",
-            "label": "與蜈蚣起舞",
-            "actionId": "explore",
-            "requirements": {
-                "sendingmothe": 1
-            },
-            "warmup": 30,
-            "effects": {
-                "ascensionlessonmothe": 1,
-                "sending": -1
-            },
-            "description": "拋卻視力：我著陸時，蜈蚣盤捲上雕形的我的雙足。我起飛時，蜈蚣的百爪鉤纏住我的羽毛。蜈蚣的一蟄從我眼中奪走了太陽，使我的雙眼能夠迎接即將來臨的最終轉變。"
-        },
-        {
-            "id": "expeditionascensionmothf",
-            "label": "狼的具名者",
-            "actionId": "explore",
-            "requirements": {
-                "sendingmothf": 1
-            },
-            "effects": {
-                "ascensionlessonmothf": 1,
-                "sending": -1
-            },
-            "warmup": 30,
-            "description": "拋卻骨骼：在午港的港口，一隻不知名的手把一塊硃砂塞進防波堤的最遠端。此舉是為了紀念賣花女柯艾勒，她投水溺亡後的屍身在這裡衝上岸。她不是第一人，也不會是最後一人。狼形的我會蜷在此處倦眠，而後裂分之狼會找上我，令我因他的憤恨而戰慄。"
-        }
-    ]
+	"recipes": [
+		{
+			"id": "expeditionascensionmothb",
+			"label": "母親的具名者，月亮的具名者",
+			"description": "拋卻覆皮：在凱爾伊蘇姆那片灰色屋頂上一座乾燥的閣樓中，在灰色大海的視界中，在殺人孩童的夢中，劇痛老母曾與其子阿哈德曾一度見面。殺人孩童的骨骸仍舊躺在那裡。現在蛇形的我和我其餘的部分結合地太猛烈，使得外部的我游離了出去。"
+		},
+		{
+			"id": "expeditionascensionmothc",
+			"label": "漆黑亞麻的具名者",
+			"description": "拋卻足音：老成仔貓生於河沿的黑色亞麻叢中。她會帶給我那個始終為否的答案，而當貓形的我為她跳舞時，她會吃掉我的腳步聲。"
+		},
+		{
+			"id": "expeditionascensionmothd",
+			"label": "百合王的具名者",
+			"description": "拋卻顏色：制花人的具名者伈佊於山巔上等待，用他自己的體重將花朵榨出香氣，一如他會將狐形的我榨出轉變，彷彿新酒之於葡萄。"
+		},
+		{
+			"id": "expeditionascensionmothe",
+			"label": "與蜈蚣起舞",
+			"description": "拋卻視力：我著陸時，蜈蚣盤捲上雕形的我的雙足。我起飛時，蜈蚣的百爪鉤纏住我的羽毛。蜈蚣的一蟄從我眼中奪走了太陽，使我的雙眼能夠迎接即將來臨的最終轉變。"
+		},
+		{
+			"id": "expeditionascensionmothf",
+			"label": "狼的具名者",
+			"description": "拋卻骨骼：在午港的港口，一隻不知名的手把一塊硃砂塞進防波堤的最遠端。此舉是為了紀念賣花女柯艾勒，她投水溺亡後的屍身在這裡衝上岸。她不是第一人，也不會是最後一人。狼形的我會蜷在此處倦眠，而後裂分之狼會找上我，令我因他的憤恨而戰慄。"
+		}
+	]
 }

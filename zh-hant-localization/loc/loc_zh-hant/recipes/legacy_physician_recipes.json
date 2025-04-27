@@ -1,155 +1,52 @@
 {
-    "recipes": [
-        {
-            "id": "legacyphysicianwork",
-            "label": "在研究所工作",
-            "actionId": "work",
-            "requirements": {
-                "legacyphysicianjob": 1
-            },
-            "effects": {
-                "funds": 2,
-                "legacyphysicianjob": -1,
-                "institutephysicianjob": 1,
-                "health": 1,
-                "reason": 3
-            },
-            "alt": [
-                {
-                    "id": "legacyphysicianopenstudy",
-                    "chance": 100,
-                    "additional": true
-                }
-            ],
-            "startdescription": "#PREVIOUSCHARACTERNAME#是一個——一個棘手的病人。等到他完事後，我必需得休息一段時間。",
-            "description": "今天我下班很早。主任很體貼我，但現在我必須回歸全時工作了。",
-            "warmup": 10,
-            "craftable": true
-        },
-        {
-            "id": "legacyphysicianopenstudy",
-            "actionId": "study",
-            "label": "關於#PREVIOUSCHARACTERNAME#病情的筆記",
-            "startdescription": "我之前塞進辦公桌抽屜的筆記散落了出來。",
-            "description": "病人提到的都是些沒什麼意義的事。無牆的房屋。分裂的太陽。無形的光芒。但是，當我回想他談論無形光芒時的情景，我內心會湧起衝動。我沒辦法再無視那些筆記了。\n[<b>時間</b>現在開始流逝。]",
-            "effects": {
-                "legacyphysiciannotes": 1
-            },
-            "alt": [
-                {
-                    "id": "needs",
-                    "chance": 100,
-                    "additional": true
-                }
-            ],
-            "warmup": 10
-        },
-        {
-            "id": "legacyphysicianstudynotes",
-            "actionId": "study",
-            "requirements": {
-                "legacyphysiciannotes": 1
-            },
-            "label": "研究我關於#PREVIOUSCHARACTERNAME#病情的筆記",
-            "startdescription": "當我開始閱讀時，我回想起了病人眼中透出的愉悅，聲音中的欣喜；但同時，他所在房間裡的那股氣味也湧上心頭。",
-            "description": "我突然莫名地想通了一些事情。我差不多已經快忘掉那次關於“莫蘭之道”的有趣閒聊了——而現在我意識到，“道”指的是去向莫蘭的“道路”。我之前就聽說過這個莫蘭，一名出售問題書籍的商販。\n剩下的內容都是胡言亂語——和從前一樣讓人摸不著頭緒。房屋怎會沒有牆壁呢？他渴求的“輝光”到底是什麼？但我已經感覺到有夢境正在睡眠中等待著我。",
-            "effects": {
-                "legacyphysiciannotes": -1,
-                "mapbookdealer": 1
-            },
-            "alt": [
-                {
-                    "id": "legacyphysicianopendream",
-                    "chance": 100,
-                    "additional": true
-                }
-            ],
-            "warmup": 30,
-            "comments": "The book dealer can be studied through the generic intro; there's a generic openexplore there",
-            "craftable": true
-        },
-        {
-            "id": "legacyphysicianopendream",
-            "actionId": "dream",
-            "label": "無形的光芒",
-            "startdescription": "睡夢中，我化身為一棵彎折的樹。蛾子在我的樹皮上蠕動。黎明即將到來，儘管其光芒並無可見之形。在光的觸碰下，我挺直腰，想要搆到太陽。",
-            "description": "當我醒來，臉上布滿喜悅的淚水。那道光！比我在醒時生活中碰到過的一切都要聖潔。但我見過了這類夢境最終把#PREVIOUSCHARACTERNAME#變成了什麼樣子。追隨夢境並不明智，也不安全。",
-            "effects": {
-                "contentment": 1
-            },
-            "alt": [
-                {
-                    "id": "legacyphysicianhook",
-                    "chance": 100,
-                    "additional": true
-                }
-            ],
-            "warmup": 30
-        },
-        {
-            "id": "legacyphysicianhook",
-            "actionId": "hookplot",
-            "label": "信仰？",
-            "startdescription": "我可以屈服於夢境。但他<i>將會</i>吞噬我的理性。",
-            "description": ".",
-            "alt": [
-                {
-                    "id": "legacyphysicianhookfulfilment",
-                    "chance": 100
-                }
-            ],
-            "slots": [
-                {
-                    "id": "Temptation",
-                    "label": "誘惑",
-                    "required": {
-                        "reason": 1
-                    },
-                    "consumes": true
-                }
-            ],
-            "linked": [
-                {
-                    "id": "legacyphysicianhook",
-                    "chance": 100
-                }
-            ],
-            "warmup": 60
-        },
-        {
-            "id": "legacyphysicianhookfulfilment",
-            "actionId": "hookplot",
-            "label": "守夜人之眼",
-            "requirements": {
-                "reason": 1
-            },
-            "startdescription": "守夜人即瞳中之扉。想要打開我自己眼睛上的鎖，必須付出一些小小的犧牲。",
-            "description": "我在睡夢中揮舞著匕首。我感受到了疼痛，但疼痛就是路標。我把傷口包紮好。我會告訴別人這只是意外。在夢中，我看到了那扇門。不久的將來，我會通過它。",
-            "effects": {
-                "ascensionenlightenmenta": 1,
-                "passion": 1,
-                "fragmentknock": 1,
-                "fragmentlantern": 1
-            },
-            "alt": [
-                {
-                    "id": "legacyphysicianopentalk",
-                    "chance": 100,
-                    "additional": true
-                }
-            ]
-        },
-        {
-            "id": "legacyphysicianopentalk",
-            "label": "同道中人",
-            "actionId": "talk",
-            "startdescription": "研究所裡有位病人也包紮著一隻眼睛。他說這是自殘造成的傷口。或許我們很快就會聊一聊。",
-            "description": "我的傷口已經痊癒，他的也是。他無法理解他為什麼會那樣做。但他也夢見了我，那天夜裡，我們緊密相連。",
-            "deckeffect": {
-                "acquaintances": 1
-            },
-            "warmup": 60,
-            "craftable": false
-        }
-    ]
+	"recipes": [
+		{
+			"id": "legacyphysicianwork",
+			"label": "在研究所工作",
+			"startdescription": "#PREVIOUSCHARACTERNAME#是一個——一個棘手的病人。等到他完事後，我必需得休息一段時間。",
+			"description": "今天我下班很早。主任很體貼我，但現在我必須回歸全時工作了。"
+		},
+		{
+			"id": "legacyphysicianopenstudy",
+			"label": "關於#PREVIOUSCHARACTERNAME#病情的筆記",
+			"startdescription": "我之前塞進辦公桌抽屜的筆記散落了出來。",
+			"description": "病人提到的都是些沒什麼意義的事。無牆的房屋。分裂的太陽。無形的光芒。但是，當我回想他談論無形光芒時的情景，我內心會湧起衝動。我沒辦法再無視那些筆記了。\n[<b>時間</b>現在開始流逝。]"
+		},
+		{
+			"id": "legacyphysicianstudynotes",
+			"label": "研究我關於#PREVIOUSCHARACTERNAME#病情的筆記",
+			"startdescription": "當我開始閱讀時，我回想起了病人眼中透出的愉悅，聲音中的欣喜；但同時，他所在房間裡的那股氣味也湧上心頭。",
+			"description": "我突然莫名地想通了一些事情。我差不多已經快忘掉那次關於“莫蘭之道”的有趣閒聊了——而現在我意識到，“道”指的是去向莫蘭的“道路”。我之前就聽說過這個莫蘭，一名出售問題書籍的商販。\n剩下的內容都是胡言亂語——和從前一樣讓人摸不著頭緒。房屋怎會沒有牆壁呢？他渴求的“輝光”到底是什麼？但我已經感覺到有夢境正在睡眠中等待著我。"
+		},
+		{
+			"id": "legacyphysicianopendream",
+			"label": "無形的光芒",
+			"startdescription": "睡夢中，我化身為一棵彎折的樹。蛾子在我的樹皮上蠕動。黎明即將到來，儘管其光芒並無可見之形。在光的觸碰下，我挺直腰，想要搆到太陽。",
+			"description": "當我醒來，臉上布滿喜悅的淚水。那道光！比我在醒時生活中碰到過的一切都要聖潔。但我見過了這類夢境最終把#PREVIOUSCHARACTERNAME#變成了什麼樣子。追隨夢境並不明智，也不安全。"
+		},
+		{
+			"id": "legacyphysicianhook",
+			"label": "信仰？",
+			"startdescription": "我可以屈服於夢境。但他<i>將會</i>吞噬我的理性。",
+			"description": ".",
+			"slots": [
+				{
+					"id": "Temptation",
+					"label": "誘惑"
+				}
+			]
+		},
+		{
+			"id": "legacyphysicianhookfulfilment",
+			"label": "守夜人之眼",
+			"startdescription": "守夜人即瞳中之扉。想要打開我自己眼睛上的鎖，必須付出一些小小的犧牲。",
+			"description": "我在睡夢中揮舞著匕首。我感受到了疼痛，但疼痛就是路標。我把傷口包紮好。我會告訴別人這只是意外。在夢中，我看到了那扇門。不久的將來，我會通過它。"
+		},
+		{
+			"id": "legacyphysicianopentalk",
+			"label": "同道中人",
+			"startdescription": "研究所裡有位病人也包紮著一隻眼睛。他說這是自殘造成的傷口。或許我們很快就會聊一聊。",
+			"description": "我的傷口已經痊癒，他的也是。他無法理解他為什麼會那樣做。但他也夢見了我，那天夜裡，我們緊密相連。"
+		}
+	]
 }

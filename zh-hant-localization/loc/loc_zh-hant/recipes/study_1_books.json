@@ -1,1933 +1,700 @@
 {
-    "recipes": [
-        {
-            "id": "studydehoris1",
-            "label": "閱讀《司辰志·卷一》",
-            "actionId": "study",
-            "requirements": {
-                "dehoris1": 1
-            },
-            "effects": {
-                "dehoris1": -1,
-                "fragmentmoth": 1,
-                "erudition": 1
-            },
-            "startdescription": "本卷主要講述了林地司辰中飛蛾、漆黑亞麻和環杉的故事。",
-            "description": "“輝光是一個疑問，飛蛾總以肯定作答。漆黑亞麻以否定作答，從來如此。”",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studydehoris2",
-            "label": "閱讀《司辰志·卷二》",
-            "actionId": "study",
-            "requirements": {
-                "dehoris2": 1
-            },
-            "effects": {
-                "dehoris2": -1,
-                "fragmentedge": 1,
-                "erudition": 1
-            },
-            "startdescription": "本卷主要講述了獅子匠，傷疤護民官及兩者敵對的故事。",
-            "description": "“獅子匠造出怪物意圖擊敗傷疤護民官，然而護民官身上的每一道傷疤都是武器。”",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studytravellingatnight1",
-            "label": "閱讀該卷《夜遊漫記》",
-            "actionId": "study",
-            "requirements": {
-                "travellingatnight1": 1
-            },
-            "effects": {
-                "travellingatnight1": -1,
-                "fragmentmoth": 1,
-                "erudition": 1
-            },
-            "startdescription": "“林地生長於漫宿牆外。每一個研習諸史的人都知道，漫宿無牆。”",
-            "description": "伊利奧波裡在書中描述了他如何通過他口中的銀色夢境反覆造訪夢中的林地。“通過遐想到達林地，”他解釋道，“如同遐想墜入愛河一般。不過我的確找到了有所裨助的<b>秘密</b>。”",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studytravellingatnight2",
-            "label": "閱讀該卷《夜遊漫記》",
-            "actionId": "study",
-            "requirements": {
-                "travellingatnight2": 1
-            },
-            "effects": {
-                "travellingatnight2": -1,
-                "fragmentwinter": 1,
-                "erudition": 1
-            },
-            "startdescription": "書中對伊利奧波裡自身的夢境與皇帝埃拉伽巴路斯的夢境，兩者間的相似處進行了大篇幅的討論。伊利奧波裡認為埃拉伽巴路斯是殘陽的傀儡或化身。“<b>純白</b>在世界以西，”伊利奧波裡評論道，“且<b>冬</b>不永待。”",
-            "description": "“謝天謝地，埃拉伽巴路斯最終尋見了純白之門。話語無法穿過純白之門，而且說實話，埃拉伽巴路斯講不出什麼有趣的話。我曾經嘗試追隨他的腳步，但終究對“純白”領會不足。大概我也幸而如此吧。但我確實知道……”",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studytravellingatnight3",
-            "label": "閱讀該卷《夜遊漫記》",
-            "actionId": "study",
-            "requirements": {
-                "travellingatnight3": 1
-            },
-            "effects": {
-                "travellingatnight3": -1,
-                "fragmentforge": 1,
-                "erudition": 1
-            },
-            "startdescription": "伊利奧波裡在討論火焰和不焚之神的論文中插入了數段致“巴爾多梅姬”的香艷詩文。",
-            "description": "“要去至牡鹿之門，我認為人需要的只是足夠強烈想要某物的念頭。可是我從來沒有那樣想要過什麼，當然，除了對巴爾多梅姬，且這恐怕是此事的死結所在：巴爾多梅姬想要的是牡鹿之門。不過，下文是我在波斯學到的一些東西。或許能教會你<i>你</i>想要何物。”",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studysixlettersonnecessity",
-            "label": "閱讀《須知六函》",
-            "actionId": "study",
-            "requirements": {
-                "sixlettersonnecessity": 1
-            },
-            "effects": {
-                "sixlettersonnecessity": -1,
-                "fragmentforge": 1,
-                "erudition": 1
-            },
-            "startdescription": "科賽利語氣急迫——彷彿自疑時日無多。",
-            "description": "“即便是冭陽也能被分裂，儘管它要求由㿟日鑄爐動手。”",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studylocksmithsdream1",
-            "label": "閱讀該卷《鎖匠的夢境》",
-            "actionId": "study",
-            "requirements": {
-                "locksmithsdream1": 1
-            },
-            "effects": {
-                "locksmithsdream1": -1,
-                "fragmentlantern": 1,
-                "erudition": 1
-            },
-            "startdescription": "木匠、泥瓦匠和其他工匠所經歷的神秘夢境互有相似之處，他們自以為揭露出的世界之建構亦然。本書時而辛辣，時而逗趣。沒人解釋得清加爾米耶為何熱衷於對工匠的夢展開這種異想天開的探索。",
-            "description": "“我們一次次聽說‘林地’，從世界的基盤升起的地方。一切樹木都向光生長。而‘林地’之樹向何生長？此光和彼‘光’有何區別？我認為通往林地夢境的鑰匙或在答案當中——在不完全真實的那個答案中。”",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studylocksmithsdream2",
-            "label": "閱讀該卷《鎖匠的夢境》",
-            "actionId": "study",
-            "requirements": {
-                "locksmithsdream2": 1
-            },
-            "effects": {
-                "locksmithsdream2": -1,
-                "fragmentknock": 1,
-                "erudition": 1
-            },
-            "startdescription": "加爾米耶在本卷中記錄了幾個夢境，進一步闡釋了自己周詳的理論。“我們反覆看到這樣一句話：下部無法脫離上部。”",
-            "description": "“最傑出的工匠最後都夢到了純白之門。我只是一名學者，而非工匠。我覺得一定存在一個所有這些工匠都知曉的秘密，不過我也覺得這個秘密只是其中的一半。”",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studylocksmithsdream3",
-            "label": "閱讀該卷《鎖匠的夢境》",
-            "actionId": "study",
-            "requirements": {
-                "locksmithsdream3": 1
-            },
-            "effects": {
-                "locksmithsdream3": -1,
-                "fragmentmothb": 1,
-                "glimmering": 1
-            },
-            "startdescription": "眾所周知，加爾米耶的文字從此卷開始語不成章，讓人弄不清哪些夢境其實是她本人的。",
-            "description": "“身著沙色長袍的女人告訴我：漫宿的階梯一直朝上延伸。死亡則朝下。蟻母用她的兩個頭顱分別衛戍上下兩方，若要通行，必須通過創口。我覺得純白之門或許就是創口。這即是亡者有時從此門通過的一個原因。我覺得我找到另一半秘密了，我希望本書的讀者能夠將兩半秘密拼合完整。”",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studylocksmithsdream4",
-            "label": "閱讀該卷《鎖匠的夢境》",
-            "actionId": "study",
-            "requirements": {
-                "locksmithsdream4": 1
-            },
-            "effects": {
-                "locksmithsdream4": -1,
-                "fragmentmothc": 1,
-                "fragmentlanternc": 1,
-                "fascination": 1
-            },
-            "startdescription": "“雅努斯是守門者、雙面之神、製造傷口之神、昭示改變之神，是太陽，是月亮。所以我們視他作守夜人、孿生子、蟻母、鑄爐、弧月和昕旦。他不可能兼為上述諸神吧？這可能嗎？<i>古羅馬祭司們</i>了解教堂，了解乾涸之地，了解埃拉伽巴路斯。所以他是雜糅而成的嗎？亦或他是其他存在？在加拉埃西亞，人們稱他為亞努斯·拉彌俄斯，不過忘卻會是人盡皆知地愛好誹謗，此名不可全信。”",
-            "description": "“那些人說，雅努斯不只有一張，而是有兩張臉孔。對此我要回問：為何只有一張臉？為何只有兩張臉？海索與科賽利——據托馬斯·洛夫·登曼稱——曾經認同‘此諸神兼是亦兼非’雅努斯。但在之後，海索堅稱‘兼是’他，科賽利則偏愛單純的‘兼非’。登曼是個不懷好意的半吊子，但這兩種說法聽起來各具其實。”",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyorchidtransfigurations1",
-            "label": "閱讀該卷《蘭花變容》",
-            "actionId": "study",
-            "requirements": {
-                "orchidtransfigurations1": 1
-            },
-            "effects": {
-                "orchidtransfigurations1": -1,
-                "fragmentgrail": 1,
-                "glimmering": 1
-            },
-            "startdescription": "本書的插圖的確奪人目光；使人臉色潮紅，合上書後仍在眼底印照不去。",
-            "description": "“人必先噬人，而後人噬之。為人噬者不可逆，如人之誕世不可逆。”",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyorchidtransfigurations2",
-            "label": "閱讀該卷《蘭花變容》",
-            "actionId": "study",
-            "requirements": {
-                "orchidtransfigurations2": 1
-            },
-            "effects": {
-                "orchidtransfigurations2": -1,
-                "fragmentgrailb": 1
-            },
-            "startdescription": "福路德，或假冒的福路德，以松樹騎士尋找硃砂杯的故事暗示了鍊金術傳統的“紅化法”與更古老的聖杯傳承間的對應關係。",
-            "description": "“於產床中尋覓硃砂杯”，這是交給松樹騎士的任務。令他驚奇的是，產床旁的助產士竟是山巒之母。帶著敬畏之情，他閹割了自己，並將自己的皮剝下。警醒風暴歡樂地從他的殘軀中衝出。”",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyorchidtransfigurations3",
-            "label": "閱讀該卷《蘭花變容》",
-            "actionId": "study",
-            "requirements": {
-                "orchidtransfigurations3": 1
-            },
-            "effects": {
-                "orchidtransfigurations3": -1,
-                "fragmentheart": 1
-            },
-            "startdescription": "一段山巒之母與警醒風暴間的長對話描述了山巒與風暴的下場，也描述了他們如何規避此類下場。",
-            "description": "“然而我們須用刀、”以獅背為王座者說：“絞索、火焰、<b>喚醒之語</b>對抗穿過三膜之門者。令無人可從此處通過：這是我們的法則，也是太陽的法則。”",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyhumoursofagentleman",
-            "label": "精讀薩維奇的《紳士笑話集》",
-            "actionId": "study",
-            "requirements": {
-                "humoursofagentleman": 1
-            },
-            "effects": {
-                "humoursofagentleman": -1,
-                "fragmentlantern": 1
-            },
-            "startdescription": "在第一幕結尾，琅優向施梓透露居屋的牆上有秘門，而烏亞則開始慣於進食蠕蟲。",
-            "description": "這部戲劇即粗俗間或又令人捧腹。戲中角色相互對立而又反覆無常。其中多句更加意有所指的台詞或可用於施展強力的法術，儘管它們藏於平平無奇的場景之中。",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyvictoryofcrowns",
-            "label": "研究“阿倫”的《王冠的勝利》",
-            "actionId": "study",
-            "requirements": {
-                "victoryofcrowns": 1
-            },
-            "effects": {
-                "victoryofcrowns": -1,
-                "fragmentedge": 1
-            },
-            "startdescription": "據“阿倫”稱，這些暗殺者是一位名為“尚校”的神靈的使者，是“隸屬於諸位秘密大師的士兵”。此類說法一直可上溯至羅馬時代。",
-            "description": "阿倫的學識令人存疑，但是他（她？）的文筆簡潔有力，在記述突發且暴力的死亡事件時穿插著警句：“司辰無夢，長生者力圖無夢。”",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyintroductiontohistories",
-            "label": "研究海索的《諸史導論》",
-            "actionId": "study",
-            "requirements": {
-                "introductiontohistories": 1
-            },
-            "effects": {
-                "introductiontohistories": -1,
-                "fragmentsecrethistories": 1
-            },
-            "startdescription": "書的序言用長篇筆墨警告人們一個名為朱利安·科賽利的人的罪惡行徑，海索將這位前同僚尖刻地描述成“蠕蟲中的蠕蟲”。海索貌似在本書創作早期得到過科賽利的建議，後又對其起疑。",
-            "description": "海索認定各歷史的中軸分別為<b>血</b>、<b>銀</b>、<b>設計</b>和<b>蠕蟲</b>，並稱所謂的第二史才是真正的歷史。",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studytreatiseonunderplaces",
-            "label": "研究海索的《下層論》",
-            "actionId": "study",
-            "requirements": {
-                "treatiseonunderplaces": 1
-            },
-            "effects": {
-                "treatiseonunderplaces": -1,
-                "fragmentknockb": 1
-            },
-            "startdescription": "“漫宿之牆浩如星光”，海索如是開篇。他的許多指點都無用得如出一轍，不過也確能體現出某些共通的關係。",
-            "description": "本書以浪蕩漢冒險小說的文風記錄了一場穿越夢魘的旅途，夾雜著或為對儀式片段的描述。“第十八次上升為結苞。第三十六次為綻蕊。”",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyonthewhite",
-            "label": "研究《論純白》",
-            "actionId": "study",
-            "requirements": {
-                "onthewhite": 1
-            },
-            "effects": {
-                "onthewhite": -1,
-                "fragmentwinter": 1
-            },
-            "startdescription": "若仔細研究本書，可以發現其內容似乎是一種美學理論，又或者是對繪畫之危險的一系列警告。",
-            "description": "赫舍在書中心煩意亂地寫下他對顏色的憤恨和對死亡的渴求。他還略微提及他正在構思，或已開始實踐的那件大作——“淡白至極的繪畫”將令世界為之著迷。他一遍遍重複著某幾句引人注目的話，他稱之為“<b>冬</b>之密文”。",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studywaroftheroadscensored",
-            "label": "研究《路權戰爭：1450—1580》規制版",
-            "actionId": "study",
-            "requirements": {
-                "waroftheroadscensored": 1
-            },
-            "effects": {
-                "waroftheroadscensored": -1,
-                "fragmentsecrethistoriesb": 1
-            },
-            "startdescription": "“在這重歷史的過往中，長生者們取得過至少一次成功。他們促成了與白日鑄爐的和平協定，其期限之長，足以讓英格蘭走完從早先四處征服到最終毀滅的路途。鑄爐自己則吞噬了他們中的最偉大者。”",
-            "description": "威利斯福特稱，英格蘭王室成為了受控之火的君王，將他們的敵人或是消滅或是轉化，從而征服歐洲，為聖斯帕克建立了宏偉的大教堂。與鑄爐之盟也開始讓他們付出代價。本書的最後幾章完全缺失。",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyqueensoftherivers",
-            "label": "研究《河川諸女王》",
-            "actionId": "study",
-            "requirements": {
-                "queensoftherivers": 1
-            },
-            "effects": {
-                "queensoftherivers": -1,
-                "fragmentsecrethistories": 1
-            },
-            "startdescription": "維斯瓦河女王被毒死。第聶伯河女王被魚鉤嗆死。塔霍河女王被活活燒死……",
-            "description": "真相大白，殺人真兇正是台下的觀眾。劇本要求存活的女王處死所有未逃走的觀眾。一段清醒到令人意外的收場白提示說，河川之名與歷史事件間的對應關係實為一種線索，可供探究我們所在的歷史背後的隱秘歷史。",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyapolloandmarsyas",
-            "label": "研究《阿波羅與馬西亞斯》",
-            "actionId": "study",
-            "requirements": {
-                "apolloandmarsyas": 1
-            },
-            "effects": {
-                "apolloandmarsyas": -1,
-                "fragmentheart": 1
-            },
-            "startdescription": "在神話原文中，馬西亞斯因比試音樂敗給了阿波羅而被剝皮，阿波羅事後亦為此後悔。在這個版本中，馬西亞斯的皮有著更深層的歷史……",
-            "description": "馬西亞斯的皮擁有給予神諭之力，後被偷運至弗里吉亞，讓庫柏勒的女祭司作成了鼓面。在歌劇的高潮，這面鼓的震響將想要侵犯女祭司之人逼瘋至自殺。最後，歌劇在最年幼的女祭司讚頌山松之美的憂愁歌聲中收尾。",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyskeletonsongs",
-            "label": "研究《骷髏歌》",
-            "actionId": "study",
-            "requirements": {
-                "skeletonsongs": 1
-            },
-            "effects": {
-                "skeletonsongs": -1,
-                "fragmentgrail": 1
-            },
-            "startdescription": "阿拉貝拉在引言中解釋說，她這本書本應有插圖，但防剿局不會允許。她暗示插圖仍存於某處。本書是致“尋找赤杯的帕西瓦爾爵士”的獻禮。",
-            "description": "二十六顆悅人的果實，七種責罰，九座花園，四樁悔事。",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyburningofunburntgod",
-            "label": "研究延森的《焚燒不焚之神》",
-            "actionId": "study",
-            "requirements": {
-                "burningofunburntgod": 1
-            },
-            "effects": {
-                "burningofunburntgod": -1,
-                "fragmentforgeb": 1,
-                "ritetoolconsumefollower": 1
-            },
-            "startdescription": "詹森提出假說稱，存在一位先於祆教的火神，祂的儀式即鐵匠的儀式。",
-            "description": "詹森最後不情願地得出結論，這位神祇是位女神。他認為性別或是其受到壓制的原因。書中描述的儀式通常是陰森，甚至是可怖的。",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studydebellismurorum",
-            "label": "研究“索利浦西斯托斯”的《牆垣之戰》",
-            "actionId": "study",
-            "requirements": {
-                "debellismurorum": 1
-            },
-            "effects": {
-                "debellismurorum": -1,
-                "fragmentedgeb": 1
-            },
-            "startdescription": "這首詩概括性地描寫了野獸、天氣現象、神秘概念三者間的戰爭。戰術部分寫得相當具體。",
-            "description": "“二一相合，角者得彰。於是得血。”",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studyonwhatiscontainedbysilver",
-            "label": "閱讀牧人者的《論困於銀鏡之物》",
-            "actionId": "study",
-            "requirements": {
-                "onwhatiscontainedbysilver": 1
-            },
-            "effects": {
-                "onwhatiscontainedbysilver": -1,
-                "fragmentlanternb": 1,
-                "ritetoolfollowerconsumelore": 1
-            },
-            "startdescription": "一部可怕的動物寓言集，講述了現於鏡面的恐怖。由三世紀署名“牧人者”所著，這本是近年新出的版本。",
-            "description": "“鏡中的處女/少女偏好蘭花，而[鏡後之人？]則偏愛杜鵑花。兩種花在剪下後都不該放在拋亮的青銅器前。”附錄中記有一個或能召喚這些存在的儀式，雖然其用途的細節尚不明確。",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studytruecompleteasclepian",
-            "label": "閱讀格里斯的《對居屋根基的阿斯克利庇之謎真實而完整的記述》",
-            "actionId": "study",
-            "requirements": {
-                "truecompleteasclepian": 1
-            },
-            "effects": {
-                "truecompleteasclepian": -1,
-                "fragmentheartb": 1,
-                "ritetoolconsumeinfluence": 1
-            },
-            "startdescription": "本書很顯然並非古卷，頂多稱得上十分破舊。但書中記錄了大量有意思的素材，特別是這樣一個很有說服力的對比：將無牆無門的居屋與擁有七竅的人體相比較。",
-            "description": "“死亡的方向朝下，”書中這樣解釋，“孔雀之門被認為是一種裂縫，或是一處磨損。但從其他角度看，它更像是一張嘴——或者說是一種更珍貴的入口。”對門扉討論中包括一種通過這些門召喚生物的儀式，雖然缺失了關鍵禱詞。",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studywainscothistories",
-            "label": "閱讀戈爾的《飾壁史話》",
-            "actionId": "study",
-            "requirements": {
-                "wainscothistories": 1
-            },
-            "effects": {
-                "wainscothistories": -1,
-                "fragmentsecrethistoriesb": 1
-            },
-            "startdescription": "戈爾並未直接提及漫宿，但其通篇拐彎抹角的比喻，從“在歲月階梯上攀升”，到“睡夢之門”，再到“藍色曉光”都透露出他觸碰到了不可見的世界。",
-            "description": "“在那個時代，談論太陽的分裂是件平常事；當時者便是由此了解蠻族勢力連帶他們粗鄙的諸神的入侵的。”",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studygeminiad",
-            "label": "閱讀《雙生姝麗》",
-            "actionId": "study",
-            "requirements": {
-                "geminiad": 1
-            },
-            "effects": {
-                "geminiad": -1,
-                "geminiadread": 1,
-                "fragmentgraild": 1,
-                "fragmentheartd": 1,
-                "fragmentmothd": 1,
-                "riteinfluenceconsumeingredient": 1
-            },
-            "startdescription": "本書描繪了一位司辰的性質與其教義，那是一位令靜止之物結合，位於水之緣、月之底的司辰：雙生巫女。書中的語言纏結，詩意，任性。我需要花些時間解開它。",
-            "description": "《雙生姝麗》提醒我們：眾所周知，雙生巫女常常以雙生女巫的形象現身——並且當其中一面飽足時，另一面仍然可以是飢餓的。這暗示了雙生巫女和林地司辰間的聯繫，特別是與其中一位名為絲毧的守密人的——雙生巫女自己是否算作林地司辰則依舊不明。且書中用大量筆墨描繪了二位一體的悲哀，即自她們仍為血肉之軀時便留存下來的悲哀。",
-            "warmup": 90,
-            "craftable": true
-        },
-        {
-            "id": "studychioneatabydos",
-            "label": "閱讀《喀俄涅在阿拜多斯城》",
-            "actionId": "study",
-            "requirements": {
-                "chioneatabydos": 1
-            },
-            "effects": {
-                "chioneatabydos": -1,
-                "fragmentwinterb": 1
-            },
-            "warmup": 60,
-            "startdescription": "一個名為“喀俄涅”的存在於暴風雪中降臨，要求緊閉城門。隨著阿拜多斯城陷落於她的咒語，死者甦生回歸，卻閉口不言……",
-            "description": "八年間，這座城市充斥著緩慢的死亡、霜凍的迷醉與沉默的美。但到了第九年，一場“吶喊謀反”發起，意在顛覆喀俄涅所要求的靜寂。謀反者打開城門，放一個身負傷疤的男人前來拽住喀俄涅的頭髮將她拖出城外。炎夏復又回返，而謀反者們卻死於悔恨。",
-            "craftable": true
-        },
-        {
-            "id": "studyirreproachabletraditionssocietynobleendeavour",
-            "label": "閱讀《高貴之舉社團那無可指摘的傳承》",
-            "actionId": "study",
-            "requirements": {
-                "irreproachabletraditionssocietynobleendeavour": 1
-            },
-            "effects": {
-                "irreproachabletraditionssocietynobleendeavour": -1,
-                "fragmentforgeb": 1
-            },
-            "warmup": 60,
-            "startdescription": "他們的“舉動”倒可稱高貴——放一場神秘的，能將他們變成超越人類之物的大火。但這種轉換罕有成功，大部分情況下他們會變成一堆難稱高貴的灰燼。",
-            "description": "帕特里奇聲稱他在成功飛升者身上發現了一個規律：他們都穿過牡鹿之門，獲得了通曉者之位。在飛升開始時，他們全都吟誦了巧匠禱文，又或是比那還厲害的禱詞。而且他們都很富有。",
-            "craftable": true
-        },
-        {
-            "id": "studyroseofnuriel",
-            "label": "閱讀《努列爾寶訓集》",
-            "actionId": "study",
-            "requirements": {
-                "roseofnuriel": 1
-            },
-            "effects": {
-                "roseofnuriel": -1,
-                "fragmentgrailb": 1,
-                "fragmentknockb": 1
-            },
-            "warmup": 60,
-            "startdescription": "努列爾解釋說，聖特里豐以“流血與出產的她”和“開啟的她”之名展現了隱秘的奇蹟。聖特里豐於是開啟了通往太陽居屋的道路；聖特里豐於是經由“偉大生誕”，飛升成為不死之人。",
-            "description": "聖特里豐的飛升始於他穿過“雙角之門”。他隨後學習了“酩酊禱文”——此文因極度神聖而未被努列爾錄於此書。且努列爾嚴厲地解釋說，為了獲得“偉大生誕”的<b>七道印記</b>，聖特里豐攝食了“不僅有靈魂已逝之人，還有靈魂猶存之人。”",
-            "craftable": true
-        },
-        {
-            "id": "studyroseofhypatia",
-            "label": "閱讀《希帕提婭寶訓集》",
-            "actionId": "study",
-            "requirements": {
-                "roseofhypatia": 1
-            },
-            "effects": {
-                "roseofhypatia": -1,
-                "fragmentheartb": 1,
-                "fragmentmothb": 1
-            },
-            "warmup": 60,
-            "startdescription": "本書稱聖寧法“並非由人生下，而是栽培而成”。“希帕提婭”指出，成為聖徒的這縷智識寄居在一名罪人的屍體上，為得是使這名罪人得蒙赦罪。",
-            "description": "“亡者並非都通過冬之門進入漫宿。亡者並非都能夠進入漫宿。”",
-            "craftable": true
-        },
-        {
-            "id": "studyroseofwaznei",
-            "label": "閱讀《瓦茲內寶訓集》",
-            "actionId": "study",
-            "requirements": {
-                "roseofwaznei": 1
-            },
-            "effects": {
-                "roseofwaznei": -1,
-                "fragmentlanternb": 1,
-                "fragmentedgeb": 1
-            },
-            "warmup": 60,
-            "startdescription": "瓦茲內偏好的支派——“真實姐妹會”——一直在追隨聖勒庇爵，以無情的光之司辰，瞳中扉的名義尋求飛升。聖勒庇爵失敗了，這或許是因為他被規模更大的姐妹會抓獲並勒斃在了儀式中，不過瓦茲內為尋求成功者指明了方法。",
-            "description": "“於夢境尋覓，於漫宿尋覓。唯有穿過牡鹿之門者才能獲得第三印記。此人必須穿過林地。此人必須攀至純白之門。在格里比的視線中，牡鹿之門等待著負光者前來。”",
-            "craftable": true
-        },
-        {
-            "id": "studysunsetpassages",
-            "label": "閱讀《日落殊途》",
-            "actionId": "study",
-            "requirements": {
-                "sunsetpassages": 1
-            },
-            "effects": {
-                "sunsetpassages": -1,
-                "fragmentwinterb": 1
-            },
-            "warmup": 60,
-            "startdescription": "教會在驕陽分裂前就尊崇它——但在驕陽尚完整時，它日後的複數個自我就已經被認為是它的具名者了。而昕旦執掌的自然是死亡和進入居屋的道路。",
-            "description": "“純白之禮”據稱是紀念司辰昕旦的儀式，在黎明前冷冽之時的葬禮中施行。這份文獻提醒道，在念誦儀式祝詞時，所有的刀刃都不能出鞘，“否則屍體將不再沉默。”",
-            "craftable": true
-        },
-        {
-            "id": "studygospelzacchaeus",
-            "label": "閱讀《撒該福音》",
-            "actionId": "study",
-            "requirements": {
-                "gospelzacchaeus": 1
-            },
-            "effects": {
-                "gospelzacchaeus": -1,
-                "fragmentknockc": 1,
-                "ritefollowerconsumeingredient": 1
-            },
-            "warmup": 60,
-            "startdescription": "“他身上的傷口其數為七，居屋之門其數為七，司辰的次級性相其數為七，性相<b>啟</b>凌駕於上，正因蟻母乃是救恩之母。”",
-            "description": "這本書描述了一個<b>儀式</b>，可將一具屍體轉為半死，“以紀念為林地流血的他。”這個儀式需要一具屍體和足夠的法力，作者建議使用<b>冬</b>之密傳中的禱文，以及一名被林地之力觸碰過的助手。",
-            "craftable": true
-        },
-        {
-            "id": "studymatthiasamethystloss",
-            "label": "閱讀《馬提亞斯與紫晶成蟲：失去》",
-            "actionId": "study",
-            "requirements": {
-                "matthiasamethystloss": 1
-            },
-            "effects": {
-                "matthiasamethystloss": -1,
-                "fragmentmothc": 1,
-                "ritetoolconsumeinfluence": 1
-            },
-            "warmup": 60,
-            "startdescription": "“居屋的法則禁止馬提亞斯去愛，而林地的習俗也禁止那隻成蟲停留。所以在她亮出阿拉卡之城的剪刀時，他最後一次將她喚來；她使他忍痛減去她背後的翅膀，這樣她就能留下；而他使她忍痛剪去他存放男性種籽的部位，這樣他們就能遠離“罪惡行徑”。這便是滿含血與歡樂的愛情。我們已將馬提亞斯逐出居屋。”",
-            "description": "“地圖之疆儀式是浪遊旅人給與我們的。它即當年馬提亞斯用於召喚紫晶成蟲的儀式，不過它也和其他許多召喚儀式一樣，可以用於喚來幾乎所有的存在——只要借助適當的工具，施加適當的影響。請溫柔地使用這個儀式，不要忘記那些為互相結合而承受過極度痛苦的具名者和長生者。”",
-            "craftable": true
-        },
-        {
-            "id": "studymatthiasamethysttransformation",
-            "label": "閱讀《馬提亞斯與紫晶成蟲：嬗變》",
-            "actionId": "study",
-            "requirements": {
-                "matthiasamethysttransformation": 1
-            },
-            "effects": {
-                "matthiasamethysttransformation": -1,
-                "fragmentforgec": 1
-            },
-            "warmup": 60,
-            "startdescription": "“我們已逐出馬提亞斯，也對紫晶成蟲施加了詛咒，但我們在夢中看著他們。我們看到他們將己身獻與鑄爐，誓要改變自己，飛升，獲得新生。他們向火而飛。”",
-            "description": "“這是馬提亞斯和成蟲所採取的行動的第一步，開啟了他們飛升成神的道路。他們升出了我們的視野之外，但他們的火焰或許仍在錘鍊場燃燒。”",
-            "craftable": true
-        },
-        {
-            "id": "studymatthiasamethystpursuit",
-            "label": "閱讀《馬提亞斯與紫晶成蟲：追尋》",
-            "actionId": "study",
-            "requirements": {
-                "matthiasamethystpursuit": 1
-            },
-            "effects": {
-                "matthiasamethystpursuit": -1,
-                "fragmentgrailc": 1
-            },
-            "warmup": 60,
-            "startdescription": "“馬提亞斯給我們下了一道挑戰，要我們在林地裡獵捕飛蛾麾下的具名者，用以豐富他的飛蟲標本。紫晶成蟲原先在與雙生巫女玩耍，卻又重回林地去尋求飛蛾的原諒。而飛蛾，不知出於一時興起還是出於懺悔，派她離開林地去將那名長生者誘入泥沼般的噩夢。”",
-            "description": "“馬提亞斯愛著成蟲。（真的嗎？長生者能夠戀愛？還是他們的靈魂中的那個器官已乾癟到無法挽回？）成蟲愛著馬提亞斯。（真的嗎？還是她只是一時興起？）他追尋著她穿過林地，但她在最後繞開了噩夢泥沼，而後他們一起躺在逐漸變亮的邊境。於是他們學會了杯之歡愉，這是他們為自己贏得的密傳。”",
-            "craftable": true
-        },
-        {
-            "id": "studyfranklinbancroftdiaries",
-            "label": "閱讀《富蘭克林·班克羅夫特勳爵1750-1790年間日記》",
-            "actionId": "study",
-            "requirements": {
-                "franklinbancroftdiaries": 1
-            },
-            "effects": {
-                "franklinbancroftdiaries": -1,
-                "fragmentlanternc": 1
-            },
-            "warmup": 60,
-            "startdescription": "班克羅夫特是個極有天賦的學徒，但他把自己的精力投在一些徒勞無益且異想天開的計劃：為漫宿的靈體舉辦“摘葡萄大賽”，教擂擊者玩雜耍，還有為玫瑰女巫艾爾郡變出想像中的鮮花風暴，後者甚至連與他交合都堅決拒絕。班克羅夫特花了二十頁篇幅哀嘆此事。",
-            "description": "本書記載的梵咒既高等又艱深，這種魔法可以讓一個人將其靈魂獻給守夜人，開啟飛升至居屋之路。班克羅夫特一喝高就會誇耀自己能背誦這一梵咒。他還給它譜上曲，在沃克斯豪爾花園的煙火大會上表演。",
-            "craftable": true
-        },
-        {
-            "id": "studyindignitiesobliviate",
-            "label": "閱讀《慣於欺瞞的忘卻互助會造成的種種侮辱傷害》",
-            "actionId": "study",
-            "requirements": {
-                "indignitiesobliviate": 1
-            },
-            "effects": {
-                "indignitiesobliviate": -1,
-                "fragmentwinterc": 1,
-                "ritetoolfollowerconsumelore": 1
-            },
-            "warmup": 60,
-            "startdescription": "“<b>第五十八條。</b>他們既聲稱繼承了遺忘家族的傳統，卻又在<b>不方便</b>執行時便將家族最為美麗亦最為神聖的典禮<b>摒棄不用</b>。<b>第五十九條</b>……”",
-            "description": "“在此我向大家披露互助會用於召喚靈體“汽靈”的儀式。他們<b>嚴重背叛</b>家族傳統，竟不將冬之新晉者和蠻橫錘骨與啟之密傳一起獻上，<b>而是</b>將啟之新晉者和錘骨與冬之密傳一起獻上！這不能忍——”",
-            "craftable": true
-        },
-        {
-            "id": "studyfurioustantra",
-            "label": "閱讀《狂怒密續》",
-            "actionId": "study",
-            "requirements": {
-                "furioustantra": 1
-            },
-            "effects": {
-                "furioustantra": -1,
-                "fragmentedgec": 1,
-                "ritefollowerconsumetool": 1
-            },
-            "warmup": 60,
-            "startdescription": "該密續講述了怒氣的用途和危險性。它提醒說，怒氣並不總能捱得過轉化。",
-            "description": "“滿月顯現，百獸復生，一條蜥蜴也不可屠戮，因為它可能是你。”",
-            "craftable": true
-        },
-        {
-            "id": "studydevouredtantra",
-            "label": "閱讀《貪食密續》",
-            "actionId": "study",
-            "requirements": {
-                "devouredtantra": 1
-            },
-            "effects": {
-                "devouredtantra": -1,
-                "fragmentgrailc": 1
-            },
-            "warmup": 60,
-            "startdescription": "《貪食密續》警告了食慾的用途和危險性，卻將大段篇幅用於描寫那些“擁有星形肢體的引發飢餓者”，行文間透出明顯的喜愛之情。",
-            "description": "“先由形態不一的眾口啖飲，再用胃中的無盡烈火吞食。”",
-            "craftable": true
-        },
-        {
-            "id": "studyceaselesstantra",
-            "label": "閱讀《無休密續》",
-            "actionId": "study",
-            "requirements": {
-                "ceaselesstantra": 1
-            },
-            "effects": {
-                "ceaselesstantra": -1,
-                "fragmentheartc": 1
-            },
-            "warmup": 60,
-            "startdescription": "《無休密續》主旨在於警告人們一種名為“擂擊者”的生物，卻又在最後給出了召喚該生物的咒語。據其所述，擂擊者可以學會任何一種舞蹈，但它們只喜歡學那一種。",
-            "description": "“不休止他物者，自身亦無休止。”",
-            "craftable": true
-        },
-        {
-            "id": "studyknownunknowntantra",
-            "label": "閱讀《昧知密續》",
-            "actionId": "study",
-            "requirements": {
-                "knownunknowntantra": 1
-            },
-            "effects": {
-                "knownunknowntantra": -1,
-                "fragmentlanternc": 1
-            },
-            "warmup": 60,
-            "startdescription": "《昧知密續》講述了一場前往漫宿“純白之門”的旅行，話語在那扇門後終止。它給出了一個只要用於正確的時間和地點，便能抵達那扇門的梵咒。",
-            "description": "“燈發出的光只能揭示林中樹影的間隙。”",
-            "craftable": true
-        },
-        {
-            "id": "studyencirclingtantra",
-            "label": "閱讀《盤繞密續》",
-            "actionId": "study",
-            "requirements": {
-                "encirclingtantra": 1
-            },
-            "effects": {
-                "encirclingtantra": -1,
-                "fragmentknockc": 1
-            },
-            "warmup": 60,
-            "startdescription": "《盤繞密續》提及了“巨蛇之門”，即那扇有時也稱作蜘蛛之門的飢餓門戶、蟻母的神聖之門、兜頸貴胄穿過的門。",
-            "description": "該密續記載了一篇禱文，卻也不忘提醒，它的法力不足以從獵手之門到達巨蛇之門。“路若無終點，其本身即終點”，文中不忘補充道。",
-            "craftable": true
-        },
-        {
-            "id": "studyshavenlocktantra",
-            "label": "閱讀《剃度密續》/《剃髮之人》",
-            "actionId": "study",
-            "requirements": {
-                "shavenlocktantra": 1
-            },
-            "effects": {
-                "shavenlocktantra": -1,
-                "fragmentmothc": 1
-            },
-            "warmup": 60,
-            "startdescription": "該密續大談特談那些準備拋棄舊我，尋求更高超新我的人。它警告說，一旦轉變真正開始——即“越過第三印記”——回歸舊我將變得危險而痛苦。",
-            "description": "“向大地低聲吐露你的秘密，用火將它們燒毀，棄至海中。即便如此，它們依然會緊抓你的頭髮”，密續如此提醒道。它給出了一個密教謎語，稱其有時能解答獵手之門的謎語。",
-            "craftable": true
-        },
-        {
-            "id": "studytantraworms",
-            "label": "閱讀《蠕蟲密續》",
-            "actionId": "study",
-            "requirements": {
-                "tantraworms": 1
-            },
-            "effects": {
-                "tantraworms": -1,
-                "fragmentwinterc": 1
-            },
-            "warmup": 60,
-            "startdescription": "該密續裡羅列了多種不怎麼實用的對策以對付蠕蟲，即“非蛇之蛇”。<b>蛾</b>與<b>冬</b>與它們最為接近，所以了解它們的弱點，但兩者又各具危險。獅子匠可以擊潰蠕蟲，但此法不建議凡人使用。",
-            "description": "“蠕蟲總是迫不及待地要宿在我們身上。下列做法可令我們的身體不適宜它們居住。”文中自帶圖解。那些圖解不但令人不忍卒看，而且裡面描繪的任何一種做法都會要了受術者的性命。",
-            "craftable": true
-        },
-        {
-            "id": "studybookofcentipede",
-            "label": "閱讀《蜈蚣之書》",
-            "actionId": "study",
-            "requirements": {
-                "bookofcentipede": 1
-            },
-            "effects": {
-                "bookofcentipede": -1,
-                "fragmentsecrethistoriesc": 1
-            },
-            "warmup": 60,
-            "startdescription": "“蜈蚣總能找到進入黑暗的方法。當她因此受罰時，她的反應很難受，在漫宿在彌阿都是。”",
-            "description": "“大河在沙地流淌，從神話流入傳說。畫中之河則向另一個方向流淌。其中之一已對蜈蚣關閉，但她有時仍能找到方法進入。”",
-            "craftable": true
-        },
-        {
-            "id": "studyaccountkanishkspidersdoor",
-            "label": "閱讀《迦膩色伽在蜘蛛之門前的經過》",
-            "actionId": "study",
-            "requirements": {
-                "accountkanishkspidersdoor": 1
-            },
-            "effects": {
-                "accountkanishkspidersdoor": -1,
-                "fragmentedgec": 1
-            },
-            "warmup": 60,
-            "startdescription": "迦膩色伽欲成為具名者。為達成這一目標，他將洛克·卡胡利變成承載他食慾的容器，承諾與其一同飛升。在蜘蛛之門前，他背叛了他的情人……",
-            "description": "千夫長耳聽此背叛之言，於是強迫迦膩色伽侍奉自己。千夫長不容違抗。洛克·卡胡利則留下撰寫本書，描述那些關於抗爭與競奪的公開的魔法。",
-            "craftable": true
-        },
-        {
-            "id": "studystumm",
-            "label": "觀看《噤聲》",
-            "actionId": "study",
-            "requirements": {
-                "stumm": 1,
-                "funds": 1
-            },
-            "effects": {
-                "stumm": -1,
-                "fragmentwinterc": 1,
-                "dread": 1,
-                "ritefollowerconsumeinfluence": 1,
-                "funds": -1
-            },
-            "warmup": 60,
-            "startdescription": "放映機嘎吱作響，靜靜地將畫面投在牆上。影片講述了一名研究禁忌科學的愚蠢學生的故事，他招募了一名舞者來誘使亡者通過世界表皮上的破綻重返世界。這是一個虛構的故事，但片中的標題字幕卻寫著“落日行動”……",
-            "description": "儀式的描述極為詳盡，令人毛骨悚然。先是世界的破綻，一種在流光溢彩的塗料中閃閃發光的影響。然後是舞者怎樣跳出令人無法抗拒的節拍。然後是學者複述行動步驟；而此刻，煙霧般的亡者正盤旋著穿過破綻處來吞吃他！影片最後定格在舞者警覺的雙眼。她從一開始就打算這麼做嗎？",
-            "craftable": true
-        },
-        {
-            "id": "studyvinzantinscriptions",
-            "label": "閱讀《文讚特銘文》",
-            "actionId": "study",
-            "requirements": {
-                "vinzantinscriptions": 1
-            },
-            "effects": {
-                "vinzantinscriptions": -1,
-                "fragmentforgec": 1
-            },
-            "warmup": 60,
-            "startdescription": "很久以前，據繩結姐妹會的描述，鑄爐愛上了名為驕陽的司辰。赤杯早就期待他們的結合，且杯之女祭司也預言了此事……",
-            "description": "文獻的其餘部分是杯之女祭司幸災樂禍地評論將要到來的塑形，夾雜著來自侍奉環杉，尤其是侍奉雙角利斧的眾姐妹會的警告與哀嘆。即便如此，文中仍附有一個至鑄爐的禱文。",
-            "craftable": true
-        },
-        {
-            "id": "studylarquebinecodex",
-            "label": "閱讀《拉奎伯斯寫本》",
-            "actionId": "study",
-            "requirements": {
-                "larquebinecodex": 1
-            },
-            "effects": {
-                "larquebinecodex": -1,
-                "fragmentheartc": 1
-            },
-            "warmup": 60,
-            "startdescription": "雙生女巫來自西方，誕自兩個子宮，兩人一為公主，一為怪物。然而她們自降生起便彼此相愛，並暗中相會“尋求結合”。",
-            "description": "當大旱降臨時，統御那片土地的諸王試圖獻祭公主與女巫，於是她們橫渡大海。當被絕望攫住時，她們縱身跳入深不見底的海水……並發現了畫中之河，於彼處憑藉赤杯的提攜進入漫宿。然而本書以譴責赤杯結束……",
-            "craftable": true
-        },
-        {
-            "id": "studyagainstsisterhoodknot",
-            "label": "閱讀《對繩結姐妹會與其墮落習俗之批判》",
-            "actionId": "study",
-            "requirements": {
-                "againstsisterhoodknot": 1
-            },
-            "effects": {
-                "againstsisterhoodknot": -1,
-                "fragmentsecrethistoriesd": 1
-            },
-            "warmup": 60,
-            "startdescription": "耶羅尼米斯宣稱，繩結姐妹會所侍奉的諸神靈做了如下安排：轟雷之皮愛著環衫，而聖杯將他摧毀，作為利斧的至親遭到摧毀的補償。耶羅尼米斯的文字在此處因激怒而變得語無倫次。",
-            "description": "最終，耶羅尼米斯恢復了鎮靜，開始描述轟雷之皮如何由孔雀之門進入漫宿。這一點，耶羅尼米斯堅稱，是“最最可厭的，雖說最可厭的那扇門向來可厭”。",
-            "craftable": true
-        },
-        {
-            "id": "studymorphycodex",
-            "label": "閱讀《墨菲寫本》",
-            "actionId": "study",
-            "requirements": {
-                "morphycodex": 1
-            },
-            "effects": {
-                "morphycodex": -1,
-                "fragmentsecrethistoriesd": 1
-            },
-            "warmup": 60,
-            "startdescription": "本書作者為聖杯、環杉與雙角斧——姐妹會所崇敬的神靈——記了一功，稱祂們同意在眾位居屋之司辰與被前者取代的司辰間締結的最終條約：轟雷之皮愛著環杉，而聖杯將他摧毀，作為雙角斧的手足遭到屠戮的補償。",
-            "description": "轟雷之皮由孔雀之門進入漫宿，“這是雙生巫女從未獲得過的特權：不過那時她們的功績也小得多。”作者承認由孔雀之門進入不太行得通，但堅稱在那種情況下別無他法。",
-            "craftable": true
-        },
-        {
-            "id": "studyleoninetantra",
-            "label": "閱讀《獅子密續》",
-            "actionId": "study",
-            "requirements": {
-                "leoninetantra": 1
-            },
-            "effects": {
-                "leoninetantra": -1,
-                "fragmentedged": 1
-            },
-            "warmup": 60,
-            "startdescription": "本文隱晦地描述了兜頸貴胄怎樣用數不勝數的方法對大河流域抵抗外族侵略者的戰爭施加影響，“雖然從某種意義上來說，它們也是侵略者”。",
-            "description": "“獅子是可以創造的，有別於創造孩童，亦有別於創造文字，而是如同創造武器。兜頸貴胄通過偷窺司辰的事務掌握了創造獅子的方法，且並非所有的獅子現都在侍奉黃金將軍。”",
-            "craftable": true
-        },
-        {
-            "id": "studyincandescenttantra",
-            "label": "閱讀《熾熱密續》",
-            "actionId": "study",
-            "requirements": {
-                "incandescenttantra": 1
-            },
-            "effects": {
-                "incandescenttantra": -1,
-                "fragmentforged": 1
-            },
-            "warmup": 60,
-            "startdescription": "記載了與某個名叫“坩堝公”的存在的對話。此公警告說自己的主人——燃燒的女王胃口巨大，且她與驕陽分享的赤裸欲望也極為危險。即便如此，他依然口稱對女王忠心耿耿。",
-            "description": "“改變的儀式必然是毀滅的儀式，而若想催生巨變，野蠻的破壞必不可少。”",
-            "craftable": true
-        },
-        {
-            "id": "studythirstingtantra",
-            "label": "閱讀《乾渴密續》",
-            "actionId": "study",
-            "requirements": {
-                "thirstingtantra": 1
-            },
-            "effects": {
-                "thirstingtantra": -1,
-                "fragmentgraild": 1,
-                "ritetoolconsumeingredient": 1
-            },
-            "warmup": 60,
-            "startdescription": "一篇對乾渴的諸多種類、用途及效果的專題研究。",
-            "description": "該密續描述了解除乾渴如何能令凡人升為乾渴之神的侍奉者，但也警告了為解除普通的乾渴而拒絕更稀有乾渴的後果。“一個口中乾渴的人，多麼強大的人啊，他的心智與世間的動態緊緊相連，將會從彼處回歸這個動態的世間。”",
-            "craftable": true
-        },
-        {
-            "id": "studyflayedtantra",
-            "label": "閱讀《剝皮密續》",
-            "actionId": "study",
-            "requirements": {
-                "flayedtantra": 1
-            },
-            "effects": {
-                "flayedtantra": -1,
-                "fragmentheartd": 1
-            },
-            "warmup": 60,
-            "startdescription": "“褪皮”曾為兜頸貴胄的一員，但它與同胞兄弟決裂，轉而跟隨轟雷之皮作無盡的舞蹈。",
-            "description": "當“褪皮”褪掉自己的皮後，它便得到了書寫密續所需的墨汁。它不得不面對同族的憤怒。下文是它抵擋同族用的禱文。",
-            "craftable": true
-        },
-        {
-            "id": "studywatchfultantra",
-            "label": "閱讀《警夜密續》",
-            "actionId": "study",
-            "requirements": {
-                "watchfultantra": 1
-            },
-            "effects": {
-                "watchfultantra": -1,
-                "fragmentlanternd": 1,
-                "ritetoolfollowerconsumelore": 1
-            },
-            "warmup": 60,
-            "startdescription": "該密續描述了幾種洞明密教啟示的過程，包含一個或能為從“獵手之門”到達“巨蛇之門”指路的法術——後者在西方通常稱作蜘蛛之門。",
-            "description": "“太陽素常在指定的時刻穿過居屋。自太陽分裂後，這一時間變得無法確定。”",
-            "craftable": true
-        },
-        {
-            "id": "studytwinserpenttantra",
-            "label": "閱讀《孿蛇密續》",
-            "actionId": "study",
-            "requirements": {
-                "twinserpenttantra": 1
-            },
-            "effects": {
-                "twinserpenttantra": -1,
-                "fragmentknockd": 1,
-                "ritefollowerconsumeingredient": 1
-            },
-            "warmup": 60,
-            "startdescription": "《孿蛇密續》描述了兜頸貴胄——一門起源不明的世家望族——如何參與禱告，獻祭並作詩祝頌鑰匙巨蛇、十字路孿生子和鏡子女王。“那迦盤繞，那迦現身於創口，那迦饒過已被傷害者。”",
-            "description": "文獻將兜頸貴胄描寫為“從其死亡的歷史逃入其未死的歷史”，聲稱它們現有一百零八名，然而——作為許多雙生異象中的一例——它們在跨出其死亡的史傳前，只有五十四名。",
-            "craftable": true
-        },
-        {
-            "id": "studyfirecircletantra",
-            "label": "閱讀《旋火密續》",
-            "actionId": "study",
-            "requirements": {
-                "firecircletantra": 1
-            },
-            "effects": {
-                "firecircletantra": -1,
-                "fragmentmothd": 1
-            },
-            "warmup": 60,
-            "startdescription": "文中的兜頸貴胄乞求林地能奮起吞噬前來進犯的帖木兒軍隊。“斑紋王”、“蜂蜜樹”與“海之孿生子”都拒絕了它們，直到它們向一個穴居於地洞的守秘者尋求幫助……",
-            "description": "攜帶著“穴居於地洞的守秘者”給與的勒索材料，兜頸貴胄們第二次向林地諸神靈請願，並獲得成功。帖木兒的軍隊四分之一為蜜蜂所噬，四分之一投水而亡，四分之一“解甲脫衣，蛻至無物。”——",
-            "craftable": true
-        },
-        {
-            "id": "studyasthesunhiscourse",
-            "label": "閱讀《其躔如日》",
-            "actionId": "study",
-            "requirements": {
-                "asthesunhiscourse": 1
-            },
-            "effects": {
-                "asthesunhiscourse": -1,
-                "fragmentedged": 1,
-                "ritefollowerconsumetool": 1
-            },
-            "warmup": 60,
-            "startdescription": "亞歷山大與萬王之王大流士在伊蘇斯會見了三日三夜。第一日，兩人互相威脅；第二日，互予承諾；第三日，互換秘密。大流士向亞歷山大道出了某些驚人之語，令後者不得不退回帳中思考“力量之事與支配之事”。",
-            "description": "第四日黎明，亞歷山大宣布：“日之躔回歸其始，吾之躔亦如是。”他就此回師馬其頓，並將質疑此決定的兩名將領處以極刑。他帶回了“目盲之神的數個名字”和“神聖背叛儀式”：對此約珥以為，若無背叛，戰爭本會結束。",
-            "craftable": true
-        },
-        {
-            "id": "studyconcursumdiaries",
-            "label": "閱讀《聚點日記》",
-            "actionId": "study",
-            "requirements": {
-                "concursumdiaries": 1
-            },
-            "effects": {
-                "concursumdiaries": -1,
-                "fragmentlanternd": 1
-            },
-            "warmup": 60,
-            "startdescription": "“世界上存在地圖，存在傳說，存在蘊含傳說的地圖，與有關地圖的傳說。漫宿的面相存於所有這些之中，如同水存於沼澤、杯盞與天空中。”",
-            "description": "韋斯特格倫描述了一系列漫宿內的探險。他著重於冒險經歷的種種細節——色彩，景色，質感——而不是實際行為。他的確警告說漫宿每年都在變化，不過也像讀者了保證門扉一直不變。“那些門也許會關合，但永遠不會消失。起碼有凡人留在漫宿時如此。我們在這裡就像老鼠。”",
-            "craftable": true
-        },
-        {
-            "id": "studyironbook",
-            "label": "閱讀《鐵之書》",
-            "actionId": "study",
-            "requirements": {
-                "ironbook": 1
-            },
-            "effects": {
-                "ironbook": -1,
-                "fragmentforged": 1
-            },
-            "warmup": 60,
-            "startdescription": "教團成員必須許下名為“鐵之鎖鏈”的誓言，保證永遠避世。這本指南書記有據推測早已廢棄的地址和暗語，大概原為聯絡伊里亞鎮上的教團聯絡人所用。",
-            "description": "指南的最後部分描述了怎樣處罰違背了隱世誓言的教團成員。其中包括一個用來召喚名為“坩堝王”的靈體，並令其代己復仇的禱文。伊芙妮提醒說這很可能是對付違背誓言之人的最後手段，僅當其他手段無法施展時才會使用：召喚坩堝王甚至可能引來白日鑄爐本人的注意。",
-            "craftable": true
-        },
-        {
-            "id": "studysilverbook",
-            "label": "閱讀《銀之書》",
-            "actionId": "study",
-            "requirements": {
-                "silverbook": 1
-            },
-            "effects": {
-                "silverbook": -1,
-                "fragmentknockd": 1
-            },
-            "warmup": 60,
-            "startdescription": "教團成員必須許下名為“銀之鎖鏈”的誓言，保證男性成員不與女性，女性成員不與男性交媾：“因為將降臨的雖並不必然是天孽，但仍是嚴重的危險。”看樣子，男性與男性、女性與女性間的交媾是允許的——實際上，布茲格哈什建議對此予以鼓勵，以助人遠離其他誘惑。",
-            "description": "指南書規定了幾種針對受到誘惑，可能違背誓言的成員的預防措施：戴面具、毀容、聽嚴厲的，詩歌般的訓誡。已違背誓言者會被處死，而進行了某些行為卻沒實際性交者則會被處以較輕的處罰。指南中給出了一個用來將此類處罰和召喚儀式結合在一起的禱文。",
-            "craftable": true
-        },
-        {
-            "id": "studyivorybook",
-            "label": "閱讀《白骨之書》",
-            "actionId": "study",
-            "requirements": {
-                "ivorybook": 1
-            },
-            "effects": {
-                "ivorybook": -1,
-                "fragmentwinterd": 1,
-                "ritefollowerconsumeinfluence": 1
-            },
-            "warmup": 60,
-            "startdescription": "教團成員必須許下名為“白骨鎖鏈”的誓言，保證不與司辰做交易。對一名學徒來說，要一字一句遵守這個誓言幾乎是不可能的，因此指南書中收錄了不計其數的解釋、例外和赦罪辦法。",
-            "description": "作者紅描述了教團的葬禮儀式，其中包括能夠——理論上——確保不將逝去長生者的靈魂交給司辰的咒語。此類儀式會隱秘地向回憶與紀念之神——名為骨白鴿的司辰致以祈求，“因我們與那位司辰達成了共識。”",
-            "craftable": true
-        },
-        {
-            "id": "studyworlddoesnotweep",
-            "label": "閱讀《世界從不落淚》",
-            "actionId": "study",
-            "requirements": {
-                "worlddoesnotweep": 1
-            },
-            "effects": {
-                "worlddoesnotweep": -1,
-                "fragmentwinterd": 1,
-                "riteinfluenceconsumefollower": 1
-            },
-            "warmup": 60,
-            "startdescription": "一名不知名的學徒寫下下述宣言：世界會遺忘，但骨白鴿不會。為保證某些做法能被人銘記，書中列出了一連串舊習做法，包括一種需要以特別駭人聽聞的方式獻祭的儀式……",
-            "description": "眾司辰企圖埋葬有關轉輪、燧石、浪潮及七蟠之遭遇的回憶，但白鴿不容許這樣做。他也不容許最初之卵的遭遇為人遺忘，儘管這或許是守夜人唯一能恕之事……",
-            "craftable": true
-        },
-        {
-            "id": "studydeedsofthescarredcaptain",
-            "label": "閱讀《傷疤上尉事跡錄》",
-            "actionId": "study",
-            "requirements": {
-                "deedsofthescarredcaptain": 1
-            },
-            "effects": {
-                "deedsofthescarredcaptain": -1,
-                "fragmentedged": 1
-            },
-            "warmup": 60,
-            "startdescription": "身負傷疤的上尉斬殺七怪，平定地面後建立邁錫尼的經過。",
-            "description": "上尉每消滅一怪，血的洪潮就升得更高，直至最後使一名女祭司溺死其中並重生為蛇神。她祝福上尉，上尉則在血潮退卻後離開邁錫尼，去向“林地之上的居屋”，成為至高的主宰。",
-            "craftable": true
-        },
-        {
-            "id": "studybookofdissolution",
-            "label": "閱讀《融解之書》",
-            "actionId": "study",
-            "requirements": {
-                "bookofdissolution": 1
-            },
-            "effects": {
-                "bookofdissolution": -1,
-                "fragmentforgee": 1,
-                "ritetoolconsumefollower": 1
-            },
-            "warmup": 60,
-            "startdescription": "這本書主要記載了向不焚之神，消耗與重造之神，即白日鑄爐的祈禱。該書認為鑄爐之力部分源於其性質，部分源於其工具。",
-            "description": "書中描寫了早期的，有著和現在不盡相同的門扉與通路的太陽之居屋。它頌揚了白日鑄爐開啟通往居屋道路的事跡，讚美了她將過往轉化為現今的作為，儘管這伴隨著石頭的慘叫……",
-            "craftable": true
-        },
-        {
-            "id": "studycatalogueofunchartedpleasures",
-            "label": "閱讀《未知快感概覽》",
-            "actionId": "study",
-            "requirements": {
-                "catalogueofunchartedpleasures": 1
-            },
-            "effects": {
-                "catalogueofunchartedpleasures": -1,
-                "fragmentgraile": 1
-            },
-            "warmup": 60,
-            "startdescription": "“有些快感，”有銷魂法術為證，“如此強烈，足以瓦解現實世界的規律”。這篇文獻列出了一些例證。",
-            "description": "分娩發生於歡愉與苦痛結合之時。因而鑄爐的第一條禁忌行徑誕下歡欣的火花，於輝光或虛界生根發芽：誰又能肯定在哪呢？因而制花人的種子埋下，儘管在很長的年月裡他只是一處無法滿足的期盼。",
-            "craftable": true
-        },
-        {
-            "id": "studythosewhodonotsleep",
-            "label": "閱讀《不眠者》",
-            "actionId": "study",
-            "requirements": {
-                "thosewhodonotsleep": 1
-            },
-            "effects": {
-                "thosewhodonotsleep": -1,
-                "fragmenthearte": 1,
-                "ritetoolconsumeingredient": 1
-            },
-            "warmup": 60,
-            "startdescription": "“雙生女巫分別降生自海洋兩岸的兩個子宮，一個貧窮，一個富有。女巫強於<b>心</b>相，以保她二者存活於世；巫女強於<b>杯</b>相，故而她二者慾壑難填……”",
-            "description": "“雙生女巫自西而來時，赤杯允許她們飛升，隨後卻對她們的力量產生了妒忌。於是赤杯引誘來一位偉大的樂手，將他作為具名者納入麾下，使他從血中重生為心之司辰，藉此讓自己在心之領域也掌握權柄。但赤杯並非常勝不敗。”",
-            "craftable": true
-        },
-        {
-            "id": "studytheskythesoul",
-            "label": "閱讀《魂歸蒼穹》",
-            "actionId": "study",
-            "requirements": {
-                "theskythesoul": 1
-            },
-            "effects": {
-                "theskythesoul": -1,
-                "fragmentlanterne": 1,
-                "fascination": 1
-            },
-            "warmup": 60,
-            "startdescription": "凱勒的詩簡短、晦澀，通常還充斥著暴力意象。“星星是針戳的小洞，太陽卻是創口。”",
-            "description": "“人總是可以再多死一分的，”凱勒說。“之前守夜人去了；其後或有且只有七位能去。”“然而我等生來注定追求輝光，一如火花向上飛舞。”",
-            "craftable": true
-        },
-        {
-            "id": "studyonthematterandthedeedsofserpents",
-            "label": "閱讀《蛇族事跡考察》",
-            "actionId": "study",
-            "requirements": {
-                "onthematterandthedeedsofserpents": 1
-            },
-            "effects": {
-                "onthematterandthedeedsofserpents": -1,
-                "fragmentknocke": 1,
-                "dread": 1
-            },
-            "warmup": 60,
-            "startdescription": "名為“兜頸貴胄”的蛇人一族了解到了“遺忘家族”教團的存在，並與之展開了跨越千里的戰爭。它們與蟻母結盟，因“它們原是她的子女”……",
-            "description": "文中描述了兜頸貴胄如何從第五史逃離（或將要逃離），而第五史也是它們死去（或注定要死去）的地方。兜頸貴胄參與到一場針對“大河流域”的秘密征服中——該流域在某些歷史中叫做印度——確保了除己之外對此地的征服均無理可依。",
-            "craftable": true
-        },
-        {
-            "id": "studyserenityofblackwood",
-            "label": "閱讀《黑林地的靜謐》",
-            "actionId": "study",
-            "requirements": {
-                "serenityofblackwood": 1
-            },
-            "effects": {
-                "serenityofblackwood": -1,
-                "fragmentmothe": 1,
-                "fascination": 1
-            },
-            "warmup": 60,
-            "startdescription": "“眾所周知的行蹤自在之人”將一座林中的旅行者聚集起來，帶領他們穿行其中，卻在途中將他們拋棄。他們則發覺自己陷入了“光輝怪物”的圍攻。",
-            "description": "旅行者們發現閉上雙眼便能活命（他們選緊閉的眼作他們的標記），且飲用清澈冰冷的溪水便能悄悄離開。他們從未忘記“眾所周知的行蹤自在之人，又稱蜈蚣”，但他們也從未原諒她。",
-            "craftable": true
-        },
-        {
-            "id": "studybookofthrones",
-            "label": "閱讀《王座之書》",
-            "actionId": "study",
-            "requirements": {
-                "bookofthrones": 1
-            },
-            "effects": {
-                "bookofthrones": -1,
-                "fragmentsecrethistoriese": 1,
-                "fragmentedgee": 1
-            },
-            "warmup": 60,
-            "startdescription": "在“第一重亦最偉大的歷史”中，一名波斯無影帝國的臣民向西而行，去往珀耳修斯後裔王國。他在那裡拜入珀耳修斯後裔守護神，“居於黑暗的傷疤人”門下。七年後他學成歸來，用其所學為無影帝國效力，成為了帝國的黃金將軍……",
-            "description": "多年的和平過後，珀耳修斯後裔王國的繼承者開始進擊無影帝國與眾王之王。黃金將軍本不願與自己導師的血親操戈相向，直到眾王之王向他耳語一個“關於背叛的巨大秘密”。他折斷佩劍，將自己與帝國與傷疤人的誓約一併捨棄，然後拋下之前的人生，進入了“隱於世後的廟宇”。",
-            "craftable": true
-        },
-        {
-            "id": "studysecondglory",
-            "label": "閱讀《第二輝光》",
-            "actionId": "study",
-            "requirements": {
-                "secondglory": 1
-            },
-            "effects": {
-                "secondglory": -1,
-                "fragmentwintere": 1,
-                "dread": 1,
-                "riteinfluenceconsumefollower": 1
-            },
-            "warmup": 60,
-            "startdescription": "尤賽為毀滅司辰之事進行辯解：他們老了、他們懦弱、他們卑劣、他們的時代已經過去，而通過輝煌的戰鬥奪取居屋正是人類耀眼的天命。",
-            "description": "尤賽訴說了名為七蟠的司辰如何在戰鬥中被上校斬殺，名為浪潮的司辰如何遭聖杯吞噬，以及逆孵之卵如何“像懦夫一樣逃走”。他對逆孵之卵肆言詈辱，並悲觀地警告說它將回歸。",
-            "craftable": true
-        },
-        {
-            "id": "studybookoftrueblood",
-            "label": "閱讀《真血之書》",
-            "actionId": "study",
-            "requirements": {
-                "bookoftrueblood": 1
-            },
-            "effects": {
-                "bookoftrueblood": -1,
-                "fragmentedgee": 1,
-                "dread": 1
-            },
-            "warmup": 60,
-            "startdescription": "軍團使節直接受命於名為傷疤護民官的司辰，並得到若亡於戰鬥則獲不死之身的允諾……",
-            "description": "在書的最後，卡西烏斯承認了自己的前使節身份。他敘述了自己對護民官的驚懼之情，並吐露了有關黃金將軍，即無影帝國的捍衛者，護民官之敵的秘密傳承，希冀護民官總有一天會被扳倒。",
-            "craftable": true
-        },
-        {
-            "id": "studyburningwoman",
-            "label": "閱讀《燃燒的女人》",
-            "actionId": "study",
-            "requirements": {
-                "burningwoman": 1
-            },
-            "effects": {
-                "burningwoman": -1,
-                "fragmentforgee": 1,
-                "fascination": 1
-            },
-            "warmup": 60,
-            "startdescription": "這部戲劇描述了鐵匠和學徒們追尋燃燒的女人足跡的巡禮之旅；此女出現在他們的夢中，給予每人一處傷口、一個言辭。",
-            "description": "鐵匠和學徒們放棄了找尋燃燒的女人，決心建立自己的王國，“在此處，我們的力量足以粉碎世界。”",
-            "craftable": true
-        },
-        {
-            "id": "studytwentysixenticementsseventorments",
-            "label": "閱讀《二十六種誘惑與七類苦痛》",
-            "actionId": "study",
-            "requirements": {
-                "twentysixenticementsseventorments": 1
-            },
-            "effects": {
-                "twentysixenticementsseventorments": -1,
-                "fragmentgraile": 1,
-                "dread": 1
-            },
-            "warmup": 60,
-            "startdescription": "“聖杯的誘惑之數多於其苦痛，但苦痛才是它的真本性。生誕是第一苦痛，而乾渴是第七苦痛。”",
-            "description": "要列舉杯的誘惑與苦痛，離不開“乾涸之地兩女巫”哀傷的歷史：降生於兩個子宮的煎熬，擺脫杯的掙扎與對杯的乞求，對結合為一的共同渴盼。",
-            "craftable": true
-        },
-        {
-            "id": "studyhistoryofshadowlesskings",
-            "label": "閱讀《真實準確的無影眾王史》",
-            "actionId": "study",
-            "requirements": {
-                "historyofshadowlesskings": 1
-            },
-            "effects": {
-                "historyofshadowlesskings": -1,
-                "fragmentsecrethistoriese": 1,
-                "fragmenthearte": 1
-            },
-            "warmup": 60,
-            "startdescription": "本書描述了“第一重亦最偉大的歷史”。波斯帝國——又稱“阿契美尼斯的子嗣”、“無影眾王”、“最輝煌帝國”——挺過了亞歷山大大帝的強攻，繁榮昌盛直至第五世紀。",
-            "description": "羅馬陷落後，無影帝國將拜占庭置於自己的蔭蔽下，並東進攻取大河流域。作者艾薩克的敘述以對抗“由扁頸蛇組成的無膚之師”的侵略戰爭開始，卻又唐突地以一系列他稱能令無影帝國存續的禱文收尾。",
-            "craftable": true
-        },
-        {
-            "id": "studyhighmysterieschurchsolar",
-            "label": "閱讀《吾太陽神教核心廳室之極密》",
-            "actionId": "study",
-            "requirements": {
-                "highmysterieschurchsolar": 1
-            },
-            "effects": {
-                "highmysterieschurchsolar": -1,
-                "fragmentlanterne": 1,
-                "fascination": 1
-            },
-            "warmup": 60,
-            "startdescription": "該教派崇拜的主要對象是驕陽，即原初的，未分裂的太陽；但本書也記載了如何祀奉驕陽的其他面相：祀奉冷冽的冬季黎明、消逝的夕陽、還有弧月，即太陽的“夜間自我”。該教派的祭司均為男性，但書中也記載了令女人轉性而具備男人特質的儀式。",
-            "description": "該教派將最重要的儀式放在聚點舉行；聚點是位於漫宿核心的廳室，已知的司辰行經之處。此類儀式包含致敬與太陽無關的司辰——聖杯、環杉、雙角利斧、轟雷之皮——的環節。",
-            "craftable": true
-        },
-        {
-            "id": "studymedusaslament",
-            "label": "閱讀《美杜莎的哀嘆》",
-            "actionId": "study",
-            "requirements": {
-                "medusaslament": 1
-            },
-            "effects": {
-                "medusaslament": -1,
-                "fragmentknocke": 1,
-                "dread": 1
-            },
-            "warmup": 60,
-            "startdescription": "詩的第一部分描述了七蟠遭遇一名戰士的伏擊，此人“全身上下都是那些背信棄義的神留下的傷疤，連雙目上都是，所以他不會因目睹虬結的蟠身而毀滅。”",
-            "description": "激戰一直持續至七蟠溺斃在自己的鮮血中，詩風由此轉向神秘而委婉。擁有七項頭銜的女神從七蟠的血沫中升起：她是披堅執銳的女王，是蛇的女兒，是鑰匙，是治療者，是殺人者，是神諭祭司，但她的第七頭銜隱而不宣。",
-            "craftable": true
-        },
-        {
-            "id": "studybookofmasks",
-            "label": "閱讀《面具之書》",
-            "actionId": "study",
-            "requirements": {
-                "bookofmasks": 1
-            },
-            "effects": {
-                "bookofmasks": -1,
-                "fragmentmothe": 1
-            },
-            "warmup": 60,
-            "startdescription": "笑鶇的面具，據雅典娜·凡納說，與漫宿的至尊之司辰驕陽（如今已分裂消逝）交情甚篤。景象竊賊的面具在漫宿畫下河流。浪遊旅人的面具在漫宿是為禁忌，原因不是她已做過的事，而是她會引發的事……",
-            "description": "蜈蚣的面具代表了她的生身地——彌阿城，曾因她爬進神殿域而對她降下刑罰。這副面具詛咒彌阿只能飲啜沙塵，在風中消逝無聞——“她並不因隱於面具之後而饒恕仇敵，蜈蚣的飢渴總有一天要得到滿足。”",
-            "craftable": true
-        },
-        {
-            "id": "studyinthemountainsasupontheplain",
-            "label": "閱讀《山中亦如平川，許無前人未達之途》",
-            "actionId": "study",
-            "requirements": {
-                "inthemountainsasupontheplain": 1
-            },
-            "effects": {
-                "inthemountainsasupontheplain": -1,
-                "fragmentsecrethistoriese": 1,
-                "fragmentmothe": 1
-            },
-            "warmup": 60,
-            "startdescription": "作者寧娜伽勒在書中講述了幾個熱鬧的故事，有關於說謎語的食人魔的，也有關於山中部落間的戰爭的，但在講述空手獵人傳說時，故事基調轉向憂鬱：聖杯有一位情人，他想要符合她的胃口，成為與她並肩的司辰，最終卻撕開併吞吃了自身，將名字留給了他曾漫遊過的山脈。",
-            "description": "寧娜伽勒稱那些有時以鳥型顯現的司辰——笑鶇、骨白鴿、拾灘鴉和雙生巫女——會在山頂的秘密地點會面，交換同僚沒聽過的閒話。時不時會有凡人不巧聽見他們。這樣的人總會被抹消，會面的地點也總在變化。",
-            "craftable": true
-        },
-        {
-            "id": "studymemoryofgods",
-            "label": "閱讀《緬懷諸神》",
-            "actionId": "study",
-            "requirements": {
-                "memoryofgods": 1
-            },
-            "effects": {
-                "memoryofgods": -1,
-                "fragmentwintere": 1,
-                "dread": 1
-            },
-            "warmup": 60,
-            "startdescription": "墳塋之子在書中著重點名譴責了傷疤護民官、赤杯、鑄爐和飛蛾，因他們謀殺了最初的諸神。“我們活在他們罪行的陰影下，”她寫到，“我們若不留心避免，必將重蹈覆轍。”",
-            "description": "墳塋之子描述了赤杯如何飲乾名為浪潮的司辰，飛蛾如何“從內部篡奪轉輪”，盜走了它的皮膚，以及鑄爐如何先蓋過燧石的光芒而後粉碎之。“也許這些行為可說是光輝的，”她評論到，“然而輝光不可說是仁慈的。”",
-            "craftable": true
-        },
-        {
-            "id": "studysevenfoldslayingsevencoiled",
-            "label": "閱讀《七步斬七蟠》",
-            "actionId": "study",
-            "requirements": {
-                "sevenfoldslayingsevencoiled": 1
-            },
-            "effects": {
-                "sevenfoldslayingsevencoiled": -1,
-                "fragmentedgef": 1,
-                "dread": 1
-            },
-            "warmup": 60,
-            "startdescription": "共十二節。在第一節，一位飛生而來，稱為傷疤者的司辰為他消滅七蟠而辯解，列舉了種種理由：七蟠的口腹之慾，它的不斷成長，它對人類的敵意。在第二節，一名女祭司熄滅了他的眼，並在他皮膚上刻下傷疤，以此保護他免受七蟠魔法的傷害。在接下來的七節，他每一節消滅七蟠的一個面相……",
-            "description": "在第十節，傷疤者將七蟠的鮮血灑遍庇護他的女祭司全身，以此借給她神力。在第十一節，他們向“隱於世後的廟宇”發動襲擊，強行進入其內。在第十二節，他們許下三重誓言，將其先祖、其後裔、其自身保護起來。",
-            "craftable": true
-        },
-        {
-            "id": "studybighuff",
-            "label": "閱讀《我的事跡、我的力量、我的成就和我所面臨的不公》",
-            "actionId": "study",
-            "requirements": {
-                "bighuff": 1
-            },
-            "effects": {
-                "bighuff": -1,
-                "fragmentforgef": 1
-            },
-            "warmup": 60,
-            "startdescription": "霍科博爾德吹噓自己的皇室血統，並堅稱鑄爐的魔法在由血統高貴之人施行時更有效。",
-            "description": "波辛德埋怨利米亞教團給他定罪。他承認在“達成那種特定的愉悅”後，他“有所改變”，但他堅稱此類改變既是高雅，也是必然的。“究竟誰是火，誰是燃料？”他詰問道。",
-            "craftable": true
-        },
-        {
-            "id": "studydreamconspiracyskies",
-            "label": "閱讀《降天祛孽之夢》",
-            "actionId": "study",
-            "requirements": {
-                "dreamconspiracyskies": 1
-            },
-            "effects": {
-                "dreamconspiracyskies": -1,
-                "fragmentgrailf": 1,
-                "fascination": 1
-            },
-            "warmup": 60,
-            "startdescription": "達馬翁堅稱司辰也屈從於自己的激情——屈從於憎恨，甚至愛，其程度遠超凡人。“年景的好壞，地球的轉動，熔爐的轉變——所有這些僅僅只是司辰的激情中較弱的那些成就的結果。”",
-            "description": "達馬翁認為眾司辰已然收斂對立，以免在太陽的居屋引發戰爭。他發覺司辰不去追求其他激情的原因是“懼怕天孽”。他推斷司辰存在吸血阿盧卡化的可怕可能性。“那樣的話他們會吞噬什麼呢？”",
-            "craftable": true
-        },
-        {
-            "id": "studybookwhitecat",
-            "label": "閱讀《白貓之書》",
-            "actionId": "study",
-            "requirements": {
-                "bookwhitecat": 1
-            },
-            "effects": {
-                "bookwhitecat": -1,
-                "fragmentheartf": 1
-            },
-            "warmup": 60,
-            "startdescription": "已知鳥型司辰——烏鴉、笑鶇、白鴿、還有孿鳶——會在戈爾迪翁北部的山中一個叫做棲木的地方見面，互聊閒話。佩涅羅佩稱直接聽到他們話語的凡人會被抹消掉，但她的貓不被神查知地回到她身邊，告訴了她從司辰集會聽來的傳聞。",
-            "description": "潘妮洛普所述的司辰間的閒話既零碎又混亂：有以希望、恐懼與無影帝國為棋子相互競奪的經過，有來自不為人知的歷史的關於殘跡與銘記的綱領。最有趣的是她擔心眾司辰會發現她打探神機，所以在書的結尾收錄了保護禱文。",
-            "craftable": true
-        },
-        {
-            "id": "studyfocusamber",
-            "label": "閱讀《琥珀之光》",
-            "actionId": "study",
-            "requirements": {
-                "focusamber": 1
-            },
-            "effects": {
-                "focusamber": -1,
-                "fragmentlanternf": 1,
-                "fascination": 1
-            },
-            "warmup": 60,
-            "startdescription": "奧馬爾聲稱名為守夜人的司辰既是肉源神——原為凡人的司辰——也是光源神——降自輝光的司辰——但在最後又補充說，守夜人有三重來源，即是說“實質上，他是琥珀神”。",
-            "description": "守夜人，據奧馬爾稱，原先完全是另外一位司辰，因其他司辰欲將其趕進虛界而逃入輝光，升入其間。奧馬爾講到這點時可能滲入了他自己的偏見：可想而知，此處的行文變得不那麼連貫。書的最後一部分致力於證明眼瞳，卵和太陽在某種意義上是一體的。",
-            "craftable": true
-        },
-        {
-            "id": "studysongscarapacecross",
-            "label": "閱讀《介殼種之歌》",
-            "actionId": "study",
-            "requirements": {
-                "songscarapacecross": 1
-            },
-            "effects": {
-                "songscarapacecross": -1,
-                "fragmentknockf": 1,
-                "dread": 1
-            },
-            "warmup": 60,
-            "startdescription": "作者席描述了人類文明存在之前，“介殼種”所施行的最初的司辰——石源諸神的儀式。他稱這些資訊是最後一名存活的介殼種告訴他的。",
-            "description": "這些儀式現已大半遭到淘汰。至少在過去的一千年裡，其中絕大多數都沒顯出任何作用。不過，席確認了至少一個擁有某種法力的禱文。他警告說此禱文須得謹慎使用，以免石源神找到從虛界返回的道路。",
-            "craftable": true
-        },
-        {
-            "id": "studyoriginsofhours",
-            "label": "閱讀《司辰的起源》",
-            "actionId": "study",
-            "requirements": {
-                "originsofhours": 1
-            },
-            "effects": {
-                "originsofhours": -1,
-                "fragmentmothf": 1,
-                "dread": 1
-            },
-            "warmup": 60,
-            "startdescription": "索哈姆的文字由抒情轉為自白。他將神分為肉源（原為凡人）、血源（經獻祭升為）、光源（從輝光而來）和石源（早於他所知）的。他強調飛蛾為首位血源神，後卻又自相矛盾地稱赤杯才是首位。",
-            "description": "“第一位神明自光中到來時，漫宿並非現在的模樣，但無需懷疑彼時它既已存在。”",
-            "craftable": true
-        },
-        {
-            "id": "studywherehasshegone",
-            "label": "閱讀《她去到過何地？》",
-            "actionId": "study",
-            "requirements": {
-                "wherehasshegone": 1
-            },
-            "effects": {
-                "wherehasshegone": -1,
-                "fragmentsecrethistoriesf": 1
-            },
-            "warmup": 60,
-            "startdescription": "據記載，浪遊旅人不僅旅經漫宿和林地，遊遍全部九個大陸，還去過那些禁止其他司辰踏足的地方……",
-            "description": "通過司辰間的閒話和無形的密傳，斯佩斯推斷浪遊旅人造訪過虛界，但不會再去。他還宣稱她尚未造訪過輝光，但或早或晚，她必然會去。",
-            "craftable": true
-        },
-        {
-            "id": "studybookextinguishedheart",
-            "label": "閱讀《寂滅之心》",
-            "actionId": "study",
-            "requirements": {
-                "bookextinguishedheart": 1
-            },
-            "effects": {
-                "bookextinguishedheart": -1,
-                "fragmentwinterf": 1,
-                "dread": 1,
-                "riteconsumetoolingredientfollowerinfluence": 1
-            },
-            "warmup": 60,
-            "startdescription": "拉扎裡稱太陽將在錘鍊場被白日鑄爐分裂，後者的兇器是心中的愛。",
-            "description": "“導致太陽之死的不會是愛，而是妒忌。導致太陽之死的不會是妒忌，而是渴求。導致太陽之死必不是渴求，而是好奇。置他於死地的必不是好奇，終究還是愛。”",
-            "craftable": true
-        },
-        {
-            "id": "studyhowendwillbegin",
-            "label": "閱讀《終結如何開始》",
-            "actionId": "study",
-            "requirements": {
-                "howendwillbegin": 1
-            },
-            "effects": {
-                "howendwillbegin": -1,
-                "fragmentedgeg": 1,
-                "dread": 1
-            },
-            "warmup": 60,
-            "startdescription": "在預言所述的戰爭中，受控之火的子女向大陸上的城邦進軍，但“太陽法的制定者”和“三倍姐妹會”聯合起來擊退了他們……在付出巨大代價後。",
-            "description": "“在不滅軍團與受控之火的戰鬥中，軍團將滅亡而火將解除控制。”",
-            "craftable": true
-        },
-        {
-            "id": "studymanneralchemistspared",
-            "label": "閱讀《鍊金術師保命之法》",
-            "actionId": "study",
-            "requirements": {
-                "manneralchemistspared": 1
-            },
-            "effects": {
-                "manneralchemistspared": -1,
-                "fragmentforgeg": 1,
-                "fascination": 1
-            },
-            "warmup": 60,
-            "startdescription": "在介殼種時代，人類生活在黑暗裡，跪著吃東西；那時的人類可以像寄生蟲一樣進入漫宿。有一人學會了燧石的技法，即塑形與再造的技法……",
-            "description": "“經過黑，黃，紅，這名愚蠢的凡人升入逆孵之卵的陰影，並加入侍奉他的行列。他或許時至今日仍在那裡。”",
-            "craftable": true
-        },
-        {
-            "id": "studyfivecreations",
-            "label": "閱讀《五大創造論》",
-            "actionId": "study",
-            "requirements": {
-                "fivecreations": 1
-            },
-            "effects": {
-                "fivecreations": -1,
-                "fragmentgrailg": 1,
-                "dread": 1
-            },
-            "warmup": 60,
-            "startdescription": "“<b>介殼源</b>：我們誕自甲殼，如同黃蜂的孩子從蜘蛛體內鑽出。<b>輝源</b>：我們生命的微粒降自“光”。<b>受汙之源</b>：我們出世時渾身赤裸，身上沾著林地根部的淤泥……”",
-            "description": "肖黑偏愛的理論是：我們是直立行走的猿猴的子孫，儘管他說及此論時語帶譏諷；又或者我們不僅攝食了我們的父母，“此行並非天孽”，也攝食了我們的起源，所以我們來自虛界。",
-            "craftable": true
-        },
-        {
-            "id": "studycommandspreservationallexists",
-            "label": "閱讀《關於維持一切事物存續的教令》",
-            "actionId": "study",
-            "requirements": {
-                "commandspreservationallexists": 1
-            },
-            "effects": {
-                "commandspreservationallexists": -1,
-                "fragmentheartg": 1
-            },
-            "warmup": 60,
-            "startdescription": "艾麗在本書中描述了能用於各種情況的強大保護咒。",
-            "description": "“重要的是，這些保護咒需每四年補修一次，以抵禦蠕蟲進入以及‘水波’和‘創口’的熱盼。”至少在現今這重歷史中，過去至少一千年內沒有跡象表明有人定期施放過這些保護咒。",
-            "craftable": true
-        },
-        {
-            "id": "studytimedivision",
-            "label": "閱讀《分裂之時》",
-            "actionId": "study",
-            "requirements": {
-                "timedivision": 1
-            },
-            "effects": {
-                "timedivision": -1,
-                "fragmentlanterng": 1,
-                "fascination": 1,
-                "dread": 1,
-                "riteconsumetoolingredientfollowerinfluence": 1
-            },
-            "warmup": 60,
-            "startdescription": "太陽將遭分裂，故它許不能再生產子嗣。即便如此，其子嗣之數應為四再其子嗣之數應為七再其子嗣之數更應不可計數。不可計數者將為七者打開道路，七者將攝食四者……",
-            "description": "阿米拉預卜了“第二拂曉”前，即驕陽再度升起前的四場大戰。她提醒道：“日出為血，我於此預言驕陽將從血中升起，卻既無鮮血的顏色，亦非夜晚的時辰。”她給出了她推測第二拂曉所需的一個儀式。",
-            "craftable": true
-        },
-        {
-            "id": "studymanualdeparture",
-            "label": "閱讀《脫身手冊》",
-            "actionId": "study",
-            "requirements": {
-                "manualdeparture": 1
-            },
-            "effects": {
-                "manualdeparture": -1,
-                "fragmentknockg": 1,
-                "dread": 1
-            },
-            "warmup": 60,
-            "startdescription": "不，不應該記錄這些門，但如果那時，我們在被迫離開第五史前做了記錄，我們現在的景況會好得多。所以我現在將其付諸筆端，如果你不喜歡，你可以制裁我。",
-            "description": "《脫身手冊》列舉了若干——密教上，軍事上和政治上的——快速脫逃策略。其中許多是可有可無，過時落後或高深難懂的，但這本手冊的確給出了若干強力的開啟門洞的技術。",
-            "craftable": true
-        },
-        {
-            "id": "studybirdsong",
-            "label": "閱讀《鳥鳴》",
-            "actionId": "study",
-            "requirements": {
-                "birdsong": 1
-            },
-            "effects": {
-                "birdsong": -1,
-                "fragmentmothg": 1,
-                "fascination": 1,
-                "dread": 1
-            },
-            "warmup": 60,
-            "startdescription": "<b>伊納姆</b>：拾灘鴉沒有分享他的寶藏嗎？<b>加爾基</b>：沒有分享最稀有的。他把最珍貴的留給自己了，號稱那些是他找到的，不是偷來的。",
-            "description": "卡皮吉吉努皮爾認為拾灘鴉不僅是盜賊，同時也是探子，甚至喜歡窺淫。他把司辰和祂們的具名者間秘密交合的記憶藏在居屋的角落，作為暗中誇耀的寶藏。還有一個很紅的猜測：熱情如火的林地司辰環杉，和有時與女巫做姐妹的樹中牝馬，這兩者間有私情。",
-            "craftable": true
-        },
-        {
-            "id": "studyvoyagesfo",
-            "label": "閱讀《奧萊爾的斐寧舜之遠航記》",
-            "actionId": "study",
-            "requirements": {
-                "voyagesfo": 1
-            },
-            "effects": {
-                "voyagesfo": -1,
-                "fragmentsecrethistoriesg": 1
-            },
-            "warmup": 60,
-            "startdescription": "斐寧舜顯然在沿畫中之河航行時拜訪過漫宿。他還稱他橫渡過沙灘最細膩的海域，挑戰過太陽表面的熱浪，也曾下潛到由墨玉照亮的地底之海……",
-            "description": "在最後一次遠航中，斐寧舜跨越了薄暮的海面，到一座平靜的島嶼上安度餘生。他認為那裡有一眼能保證他的安全的泉水。“人們會忘記我，”他宣告說，“而這本書是我留下的唯一痕跡。”",
-            "craftable": true
-        },
-        {
-            "id": "studyscarsky",
-            "label": "閱讀《天宇的傷疤》",
-            "actionId": "study",
-            "requirements": {
-                "scarsky": 1
-            },
-            "effects": {
-                "scarsky": -1,
-                "fragmentwinterg": 1,
-                "dread": 1,
-                "riteconsumetoolingredientfollowerinfluence": 1
-            },
-            "warmup": 60,
-            "startdescription": "這本書每一頁只寫有一個詞，但每翻過一頁，便有一個知識潛入腦中。",
-            "description": "最後一頁寫得滿滿當當。書的每個讀者都會在此處記下同一個詞。現在輪到我了。",
-            "craftable": true
-        },
-        {
-            "id": "studykitlingripe",
-            "label": "閱讀《老成仔貓與鼴鼠的墳墓（及其他故事）》",
-            "actionId": "study",
-            "requirements": {
-                "kitlingripe": 1
-            },
-            "effects": {
-                "kitlingripe": -1,
-                "fragmentmothb": 1,
-                "glimmering": 1
-            },
-            "warmup": 60,
-            "startdescription": "本書主角，一隻名為老成仔貓的無言貓形生物施行了一系列複雜的儀式來拯救她族中的親屬。在故事最後一幕，她復活了她的“另一位祖母”——鼴鼠。",
-            "description": "“蛇女巫殺死牡鹿時，仔貓摳出了它一隻眼睛。乾涸女巫殺死牝豬時，仔貓偷去了它一杯血液。隨後她帶著這些東西到埋葬鼴鼠的地方，散開自己的頭髮，開始舞蹈……”",
-            "craftable": true
-        },
-        {
-            "id": "studyraptintheking",
-            "label": "閱讀《為王著迷》",
-            "actionId": "study",
-            "requirements": {
-                "raptintheking": 1
-            },
-            "effects": {
-                "raptintheking": -1,
-                "fragmentheartc": 1,
-                "vitality": 1
-            },
-            "warmup": 60,
-            "startdescription": "這套舞蹈源自祭奉女神伊西斯與庫柏勒的密教所傳承的奧秘，不僅含有象徵和實際意義上的剝皮行為，而且永遠以人類心臟為儀式的主軸。作者著重圈點了他對自己被打斷的宴席的令人作嘔的感官描寫。",
-            "description": "“在那些盛大宴席間，總有一頭黑豬在經受屠宰前被加冕為王。每逢此時，它的心臟會經天平與一片羽毛互較輕重，而它的皮會成為主祭的披風。它的血肉被留給烏鴉，但我必須坦白我意不在其屍骸，而在於女帽製造者新入土的噴了香水的肉體。”",
-            "craftable": true
-        },
-        {
-            "id": "studyvienneseconundra",
-            "label": "閱讀《維也納未解之謎》",
-            "actionId": "study",
-            "requirements": {
-                "vienneseconundra": 1
-            },
-            "effects": {
-                "vienneseconundra": -1,
-                "fragmentmothc": 1,
-                "glimmering": 1
-            },
-            "warmup": 60,
-            "startdescription": "“K氏參加會議時，黑犬們被獻祭並分為四塊。M氏出席時，黑牝馬們遭到割喉。我的意見是這些獻祭是不必要的，但我們的麗姬亞朋友或許認為它們是‘恰當的’。下圖是肢解的示意圖——”",
-            "description": "“那就說美杜莎的謎語吧，我選擇譯成‘何物不得見？’還有一道謎語，我聽到的譯文是‘何物會失去？’要回答此問，我會複述一些歷史上著名上的作答——這些作答本身，某種意義上也是，祭品——”",
-            "craftable": true
-        },
-        {
-            "id": "studytextbooklatin",
-            "label": "提升拉丁語水平",
-            "actionId": "study",
-            "requirements": {
-                "textbooklatin": 1
-            },
-            "effects": {
-                "textbooklatin": -1,
-                "scholarlatin": 1
-            },
-            "startdescription": "我能回想起不少學生時代的所學，不過我需要複習。",
-            "description": "開啟記憶宮殿之門。",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studytextbookgreek",
-            "label": "提升希臘語水平",
-            "actionId": "study",
-            "requirements": {
-                "textbookgreek": 1
-            },
-            "effects": {
-                "textbookgreek": -1,
-                "scholargreek": 1
-            },
-            "startdescription": "誠然，我已經學會了希臘語的皮毛。但是我需要的不止是皮毛。",
-            "description": "這是一種果斷而獨特的語言，但我已經掌握了學習方法。",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studytextbookaramaic",
-            "label": "提升亞蘭語水平",
-            "actionId": "study",
-            "requirements": {
-                "textbookaramaic": 1
-            },
-            "effects": {
-                "textbookaramaic": -1,
-                "scholararamaic": 1
-            },
-            "startdescription": "自然，“亞蘭語”不只單一一種，不過我會盡我所能學習。",
-            "description": "我已經對其有了基本了解。",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studytextbooksanskrit",
-            "label": "提升梵語水平",
-            "actionId": "study",
-            "requirements": {
-                "textbooksanskrit": 1
-            },
-            "effects": {
-                "textbooksanskrit": -1,
-                "scholarsanskrit": 1
-            },
-            "startdescription": "這種語言的名字意為“精煉的語言”。",
-            "description": "詞彙太多，時間太少。我會在手邊常備資料以供參考。",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studytextbookfucine",
-            "label": "理解早已消亡的富奇諾語",
-            "actionId": "study",
-            "requirements": {
-                "textbookfucine": 1
-            },
-            "effects": {
-                "textbookfucine": -1,
-                "scholarfucine": 1
-            },
-            "startdescription": "這種語言與拉丁語有著共通之處，也與發狂老鼠的爪痕有著另一種共通之處。",
-            "description": "在有些方面，它與我會講的那些語言一致。但在另一些方面……好吧，我明白他們為什麼稱這門語言為“女巫的語言”了。不過現在我對它已有足夠理解。",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studytextbookphrygian",
-            "label": "學習弗里吉亞語的基礎",
-            "actionId": "study",
-            "requirements": {
-                "textbookphrygian": 1
-            },
-            "effects": {
-                "textbookphrygian": -1,
-                "scholarphrygian": 1
-            },
-            "startdescription": "弗里吉亞語，即邁達斯王、忒克墨薩公主、庫柏勒的祭司所講的語言。",
-            "description": "這種語言裡的某種東西讓人熱血奔湧。也許現今已無人記得這種失落的語音是一件幸事。",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studytextbookmandaic",
-            "label": "學習淵深曼達安語",
-            "actionId": "study",
-            "requirements": {
-                "textbookmandaic": 1
-            },
-            "effects": {
-                "textbookmandaic": -1,
-                "scholarmandaic": 1
-            },
-            "startdescription": "曼達安語是位於波斯最偏遠地區的諾斯替派教徒所用的語言。淵深曼達安語只流傳於該教派裡的一個支派，但講這種語言的學徒也一度出現過。",
-            "description": "這種語言的發音與亞蘭語正好有相似之處，足夠讓我以此入手學習；但這也並非易事。",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studytextbookvak",
-            "label": "獲取伐訶語知識",
-            "actionId": "study",
-            "requirements": {
-                "textbookvak": 1
-            },
-            "effects": {
-                "textbookvak": -1,
-                "scholarvak": 1
-            },
-            "startdescription": "司辰會說話嗎？如果會，這或許便是祂們使用的語言。",
-            "description": "據說伐訶語不是學能學會的，更別提對她了解了。怎麼說呢，她與我現在更加熟稔了一點。",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studytextbookreason",
-            "label": "提升理性",
-            "actionId": "study",
-            "requirements": {
-                "textbookreason": 1
-            },
-            "effects": {
-                "textbookreason": -1,
-                "eruditionplus": 1
-            },
-            "startdescription": "鍛鍊智力。",
-            "description": "計算機率——",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "studytextbookpassion",
-            "label": "閱讀詩歌",
-            "actionId": "study",
-            "requirements": {
-                "textbookpassion": 1
-            },
-            "effects": {
-                "textbookpassion": -1,
-                "glimmeringplus": 1
-            },
-            "startdescription": "我要讓想像力燃得更旺。",
-            "description": "迸發靈感——",
-            "warmup": 60,
-            "craftable": true
-        }
-    ]
+	"recipes": [
+		{
+			"id": "studydehoris1",
+			"label": "閱讀《司辰志·卷一》",
+			"startdescription": "本卷主要講述了林地司辰中飛蛾、漆黑亞麻和環杉的故事。",
+			"description": "“輝光是一個疑問，飛蛾總以肯定作答。漆黑亞麻以否定作答，從來如此。”"
+		},
+		{
+			"id": "studydehoris2",
+			"label": "閱讀《司辰志·卷二》",
+			"startdescription": "本卷主要講述了獅子匠，傷疤護民官及兩者敵對的故事。",
+			"description": "“獅子匠造出怪物意圖擊敗傷疤護民官，然而護民官身上的每一道傷疤都是武器。”"
+		},
+		{
+			"id": "studytravellingatnight1",
+			"label": "閱讀該卷《夜遊漫記》",
+			"startdescription": "“林地生長於漫宿牆外。每一個研習諸史的人都知道，漫宿無牆。”",
+			"description": "伊利奧波裡在書中描述了他如何通過他口中的銀色夢境反覆造訪夢中的林地。“通過遐想到達林地，”他解釋道，“如同遐想墜入愛河一般。不過我的確找到了有所裨助的<b>秘密</b>。”"
+		},
+		{
+			"id": "studytravellingatnight2",
+			"label": "閱讀該卷《夜遊漫記》",
+			"startdescription": "書中對伊利奧波裡自身的夢境與皇帝埃拉伽巴路斯的夢境，兩者間的相似處進行了大篇幅的討論。伊利奧波裡認為埃拉伽巴路斯是殘陽的傀儡或化身。“<b>純白</b>在世界以西，”伊利奧波裡評論道，“且<b>冬</b>不永待。”",
+			"description": "“謝天謝地，埃拉伽巴路斯最終尋見了純白之門。話語無法穿過純白之門，而且說實話，埃拉伽巴路斯講不出什麼有趣的話。我曾經嘗試追隨他的腳步，但終究對“純白”領會不足。大概我也幸而如此吧。但我確實知道……”"
+		},
+		{
+			"id": "studytravellingatnight3",
+			"label": "閱讀該卷《夜遊漫記》",
+			"startdescription": "伊利奧波裡在討論火焰和不焚之神的論文中插入了數段致“巴爾多梅姬”的香艷詩文。",
+			"description": "“要去至牡鹿之門，我認為人需要的只是足夠強烈想要某物的念頭。可是我從來沒有那樣想要過什麼，當然，除了對巴爾多梅姬，且這恐怕是此事的死結所在：巴爾多梅姬想要的是牡鹿之門。不過，下文是我在波斯學到的一些東西。或許能教會你<i>你</i>想要何物。”"
+		},
+		{
+			"id": "studysixlettersonnecessity",
+			"label": "閱讀《須知六函》",
+			"startdescription": "科賽利語氣急迫——彷彿自疑時日無多。",
+			"description": "“即便是冭陽也能被分裂，儘管它要求由㿟日鑄爐動手。”"
+		},
+		{
+			"id": "studylocksmithsdream1",
+			"label": "閱讀該卷《鎖匠的夢境》",
+			"startdescription": "木匠、泥瓦匠和其他工匠所經歷的神秘夢境互有相似之處，他們自以為揭露出的世界之建構亦然。本書時而辛辣，時而逗趣。沒人解釋得清加爾米耶為何熱衷於對工匠的夢展開這種異想天開的探索。",
+			"description": "“我們一次次聽說‘林地’，從世界的基盤升起的地方。一切樹木都向光生長。而‘林地’之樹向何生長？此光和彼‘光’有何區別？我認為通往林地夢境的鑰匙或在答案當中——在不完全真實的那個答案中。”"
+		},
+		{
+			"id": "studylocksmithsdream2",
+			"label": "閱讀該卷《鎖匠的夢境》",
+			"startdescription": "加爾米耶在本卷中記錄了幾個夢境，進一步闡釋了自己周詳的理論。“我們反覆看到這樣一句話：下部無法脫離上部。”",
+			"description": "“最傑出的工匠最後都夢到了純白之門。我只是一名學者，而非工匠。我覺得一定存在一個所有這些工匠都知曉的秘密，不過我也覺得這個秘密只是其中的一半。”"
+		},
+		{
+			"id": "studylocksmithsdream3",
+			"label": "閱讀該卷《鎖匠的夢境》",
+			"startdescription": "眾所周知，加爾米耶的文字從此卷開始語不成章，讓人弄不清哪些夢境其實是她本人的。",
+			"description": "“身著沙色長袍的女人告訴我：漫宿的階梯一直朝上延伸。死亡則朝下。蟻母用她的兩個頭顱分別衛戍上下兩方，若要通行，必須通過創口。我覺得純白之門或許就是創口。這即是亡者有時從此門通過的一個原因。我覺得我找到另一半秘密了，我希望本書的讀者能夠將兩半秘密拼合完整。”"
+		},
+		{
+			"id": "studylocksmithsdream4",
+			"label": "閱讀該卷《鎖匠的夢境》",
+			"startdescription": "“雅努斯是守門者、雙面之神、製造傷口之神、昭示改變之神，是太陽，是月亮。所以我們視他作守夜人、孿生子、蟻母、鑄爐、弧月和昕旦。他不可能兼為上述諸神吧？這可能嗎？<i>古羅馬祭司們</i>了解教堂，了解乾涸之地，了解埃拉伽巴路斯。所以他是雜糅而成的嗎？亦或他是其他存在？在加拉埃西亞，人們稱他為亞努斯·拉彌俄斯，不過忘卻會是人盡皆知地愛好誹謗，此名不可全信。”",
+			"description": "“那些人說，雅努斯不只有一張，而是有兩張臉孔。對此我要回問：為何只有一張臉？為何只有兩張臉？海索與科賽利——據托馬斯·洛夫·登曼稱——曾經認同‘此諸神兼是亦兼非’雅努斯。但在之後，海索堅稱‘兼是’他，科賽利則偏愛單純的‘兼非’。登曼是個不懷好意的半吊子，但這兩種說法聽起來各具其實。”"
+		},
+		{
+			"id": "studyorchidtransfigurations1",
+			"label": "閱讀該卷《蘭花變容》",
+			"startdescription": "本書的插圖的確奪人目光；使人臉色潮紅，合上書後仍在眼底印照不去。",
+			"description": "“人必先噬人，而後人噬之。為人噬者不可逆，如人之誕世不可逆。”"
+		},
+		{
+			"id": "studyorchidtransfigurations2",
+			"label": "閱讀該卷《蘭花變容》",
+			"startdescription": "福路德，或假冒的福路德，以松樹騎士尋找硃砂杯的故事暗示了鍊金術傳統的“紅化法”與更古老的聖杯傳承間的對應關係。",
+			"description": "“於產床中尋覓硃砂杯”，這是交給松樹騎士的任務。令他驚奇的是，產床旁的助產士竟是山巒之母。帶著敬畏之情，他閹割了自己，並將自己的皮剝下。警醒風暴歡樂地從他的殘軀中衝出。”"
+		},
+		{
+			"id": "studyorchidtransfigurations3",
+			"label": "閱讀該卷《蘭花變容》",
+			"startdescription": "一段山巒之母與警醒風暴間的長對話描述了山巒與風暴的下場，也描述了他們如何規避此類下場。",
+			"description": "“然而我們須用刀、”以獅背為王座者說：“絞索、火焰、<b>喚醒之語</b>對抗穿過三膜之門者。令無人可從此處通過：這是我們的法則，也是太陽的法則。”"
+		},
+		{
+			"id": "studyhumoursofagentleman",
+			"label": "精讀薩維奇的《紳士笑話集》",
+			"startdescription": "在第一幕結尾，琅優向施梓透露居屋的牆上有秘門，而烏亞則開始慣於進食蠕蟲。",
+			"description": "這部戲劇即粗俗間或又令人捧腹。戲中角色相互對立而又反覆無常。其中多句更加意有所指的台詞或可用於施展強力的法術，儘管它們藏於平平無奇的場景之中。"
+		},
+		{
+			"id": "studyvictoryofcrowns",
+			"label": "研究“阿倫”的《王冠的勝利》",
+			"startdescription": "據“阿倫”稱，這些暗殺者是一位名為“尚校”的神靈的使者，是“隸屬於諸位秘密大師的士兵”。此類說法一直可上溯至羅馬時代。",
+			"description": "阿倫的學識令人存疑，但是他（她？）的文筆簡潔有力，在記述突發且暴力的死亡事件時穿插著警句：“司辰無夢，長生者力圖無夢。”"
+		},
+		{
+			"id": "studyintroductiontohistories",
+			"label": "研究海索的《諸史導論》",
+			"startdescription": "書的序言用長篇筆墨警告人們一個名為朱利安·科賽利的人的罪惡行徑，海索將這位前同僚尖刻地描述成“蠕蟲中的蠕蟲”。海索貌似在本書創作早期得到過科賽利的建議，後又對其起疑。",
+			"description": "海索認定各歷史的中軸分別為<b>血</b>、<b>銀</b>、<b>設計</b>和<b>蠕蟲</b>，並稱所謂的第二史才是真正的歷史。"
+		},
+		{
+			"id": "studytreatiseonunderplaces",
+			"label": "研究海索的《下層論》",
+			"startdescription": "“漫宿之牆浩如星光”，海索如是開篇。他的許多指點都無用得如出一轍，不過也確能體現出某些共通的關係。",
+			"description": "本書以浪蕩漢冒險小說的文風記錄了一場穿越夢魘的旅途，夾雜著或為對儀式片段的描述。“第十八次上升為結苞。第三十六次為綻蕊。”"
+		},
+		{
+			"id": "studyonthewhite",
+			"label": "研究《論純白》",
+			"startdescription": "若仔細研究本書，可以發現其內容似乎是一種美學理論，又或者是對繪畫之危險的一系列警告。",
+			"description": "赫舍在書中心煩意亂地寫下他對顏色的憤恨和對死亡的渴求。他還略微提及他正在構思，或已開始實踐的那件大作——“淡白至極的繪畫”將令世界為之著迷。他一遍遍重複著某幾句引人注目的話，他稱之為“<b>冬</b>之密文”。"
+		},
+		{
+			"id": "studywaroftheroadscensored",
+			"label": "研究《路權戰爭：1450—1580》規制版",
+			"startdescription": "“在這重歷史的過往中，長生者們取得過至少一次成功。他們促成了與白日鑄爐的和平協定，其期限之長，足以讓英格蘭走完從早先四處征服到最終毀滅的路途。鑄爐自己則吞噬了他們中的最偉大者。”",
+			"description": "威利斯福特稱，英格蘭王室成為了受控之火的君王，將他們的敵人或是消滅或是轉化，從而征服歐洲，為聖斯帕克建立了宏偉的大教堂。與鑄爐之盟也開始讓他們付出代價。本書的最後幾章完全缺失。"
+		},
+		{
+			"id": "studyqueensoftherivers",
+			"label": "研究《河川諸女王》",
+			"startdescription": "維斯瓦河女王被毒死。第聶伯河女王被魚鉤嗆死。塔霍河女王被活活燒死……",
+			"description": "真相大白，殺人真兇正是台下的觀眾。劇本要求存活的女王處死所有未逃走的觀眾。一段清醒到令人意外的收場白提示說，河川之名與歷史事件間的對應關係實為一種線索，可供探究我們所在的歷史背後的隱秘歷史。"
+		},
+		{
+			"id": "studyapolloandmarsyas",
+			"label": "研究《阿波羅與馬西亞斯》",
+			"startdescription": "在神話原文中，馬西亞斯因比試音樂敗給了阿波羅而被剝皮，阿波羅事後亦為此後悔。在這個版本中，馬西亞斯的皮有著更深層的歷史……",
+			"description": "馬西亞斯的皮擁有給予神諭之力，後被偷運至弗里吉亞，讓庫柏勒的女祭司作成了鼓面。在歌劇的高潮，這面鼓的震響將想要侵犯女祭司之人逼瘋至自殺。最後，歌劇在最年幼的女祭司讚頌山松之美的憂愁歌聲中收尾。"
+		},
+		{
+			"id": "studyskeletonsongs",
+			"label": "研究《骷髏歌》",
+			"startdescription": "阿拉貝拉在引言中解釋說，她這本書本應有插圖，但防剿局不會允許。她暗示插圖仍存於某處。本書是致“尋找赤杯的帕西瓦爾爵士”的獻禮。",
+			"description": "二十六顆悅人的果實，七種責罰，九座花園，四樁悔事。"
+		},
+		{
+			"id": "studyburningofunburntgod",
+			"label": "研究延森的《焚燒不焚之神》",
+			"startdescription": "詹森提出假說稱，存在一位先於祆教的火神，祂的儀式即鐵匠的儀式。",
+			"description": "詹森最後不情願地得出結論，這位神祇是位女神。他認為性別或是其受到壓制的原因。書中描述的儀式通常是陰森，甚至是可怖的。"
+		},
+		{
+			"id": "studydebellismurorum",
+			"label": "研究“索利浦西斯托斯”的《牆垣之戰》",
+			"startdescription": "這首詩概括性地描寫了野獸、天氣現象、神秘概念三者間的戰爭。戰術部分寫得相當具體。",
+			"description": "“二一相合，角者得彰。於是得血。”"
+		},
+		{
+			"id": "studyonwhatiscontainedbysilver",
+			"label": "閱讀牧人者的《論困於銀鏡之物》",
+			"startdescription": "一部可怕的動物寓言集，講述了現於鏡面的恐怖。由三世紀署名“牧人者”所著，這本是近年新出的版本。",
+			"description": "“鏡中的處女/少女偏好蘭花，而[鏡後之人？]則偏愛杜鵑花。兩種花在剪下後都不該放在拋亮的青銅器前。”附錄中記有一個或能召喚這些存在的儀式，雖然其用途的細節尚不明確。"
+		},
+		{
+			"id": "studytruecompleteasclepian",
+			"label": "閱讀格里斯的《對居屋根基的阿斯克利庇之謎真實而完整的記述》",
+			"startdescription": "本書很顯然並非古卷，頂多稱得上十分破舊。但書中記錄了大量有意思的素材，特別是這樣一個很有說服力的對比：將無牆無門的居屋與擁有七竅的人體相比較。",
+			"description": "“死亡的方向朝下，”書中這樣解釋，“孔雀之門被認為是一種裂縫，或是一處磨損。但從其他角度看，它更像是一張嘴——或者說是一種更珍貴的入口。”對門扉討論中包括一種通過這些門召喚生物的儀式，雖然缺失了關鍵禱詞。"
+		},
+		{
+			"id": "studywainscothistories",
+			"label": "閱讀戈爾的《飾壁史話》",
+			"startdescription": "戈爾並未直接提及漫宿，但其通篇拐彎抹角的比喻，從“在歲月階梯上攀升”，到“睡夢之門”，再到“藍色曉光”都透露出他觸碰到了不可見的世界。",
+			"description": "“在那個時代，談論太陽的分裂是件平常事；當時者便是由此了解蠻族勢力連帶他們粗鄙的諸神的入侵的。”"
+		},
+		{
+			"id": "studygeminiad",
+			"label": "閱讀《雙生姝麗》",
+			"startdescription": "本書描繪了一位司辰的性質與其教義，那是一位令靜止之物結合，位於水之緣、月之底的司辰：雙生巫女。書中的語言纏結，詩意，任性。我需要花些時間解開它。",
+			"description": "《雙生姝麗》提醒我們：眾所周知，雙生巫女常常以雙生女巫的形象現身——並且當其中一面飽足時，另一面仍然可以是飢餓的。這暗示了雙生巫女和林地司辰間的聯繫，特別是與其中一位名為絲毧的守密人的——雙生巫女自己是否算作林地司辰則依舊不明。且書中用大量筆墨描繪了二位一體的悲哀，即自她們仍為血肉之軀時便留存下來的悲哀。"
+		},
+		{
+			"id": "studychioneatabydos",
+			"label": "閱讀《喀俄涅在阿拜多斯城》",
+			"startdescription": "一個名為“喀俄涅”的存在於暴風雪中降臨，要求緊閉城門。隨著阿拜多斯城陷落於她的咒語，死者甦生回歸，卻閉口不言……",
+			"description": "八年間，這座城市充斥著緩慢的死亡、霜凍的迷醉與沉默的美。但到了第九年，一場“吶喊謀反”發起，意在顛覆喀俄涅所要求的靜寂。謀反者打開城門，放一個身負傷疤的男人前來拽住喀俄涅的頭髮將她拖出城外。炎夏復又回返，而謀反者們卻死於悔恨。"
+		},
+		{
+			"id": "studyirreproachabletraditionssocietynobleendeavour",
+			"label": "閱讀《高貴之舉社團那無可指摘的傳承》",
+			"startdescription": "他們的“舉動”倒可稱高貴——放一場神秘的，能將他們變成超越人類之物的大火。但這種轉換罕有成功，大部分情況下他們會變成一堆難稱高貴的灰燼。",
+			"description": "帕特里奇聲稱他在成功飛升者身上發現了一個規律：他們都穿過牡鹿之門，獲得了通曉者之位。在飛升開始時，他們全都吟誦了巧匠禱文，又或是比那還厲害的禱詞。而且他們都很富有。"
+		},
+		{
+			"id": "studyroseofnuriel",
+			"label": "閱讀《努列爾寶訓集》",
+			"startdescription": "努列爾解釋說，聖特里豐以“流血與出產的她”和“開啟的她”之名展現了隱秘的奇蹟。聖特里豐於是開啟了通往太陽居屋的道路；聖特里豐於是經由“偉大生誕”，飛升成為不死之人。",
+			"description": "聖特里豐的飛升始於他穿過“雙角之門”。他隨後學習了“酩酊禱文”——此文因極度神聖而未被努列爾錄於此書。且努列爾嚴厲地解釋說，為了獲得“偉大生誕”的<b>七道印記</b>，聖特里豐攝食了“不僅有靈魂已逝之人，還有靈魂猶存之人。”"
+		},
+		{
+			"id": "studyroseofhypatia",
+			"label": "閱讀《希帕提婭寶訓集》",
+			"startdescription": "本書稱聖寧法“並非由人生下，而是栽培而成”。“希帕提婭”指出，成為聖徒的這縷智識寄居在一名罪人的屍體上，為得是使這名罪人得蒙赦罪。",
+			"description": "“亡者並非都通過冬之門進入漫宿。亡者並非都能夠進入漫宿。”"
+		},
+		{
+			"id": "studyroseofwaznei",
+			"label": "閱讀《瓦茲內寶訓集》",
+			"startdescription": "瓦茲內偏好的支派——“真實姐妹會”——一直在追隨聖勒庇爵，以無情的光之司辰，瞳中扉的名義尋求飛升。聖勒庇爵失敗了，這或許是因為他被規模更大的姐妹會抓獲並勒斃在了儀式中，不過瓦茲內為尋求成功者指明了方法。",
+			"description": "“於夢境尋覓，於漫宿尋覓。唯有穿過牡鹿之門者才能獲得第三印記。此人必須穿過林地。此人必須攀至純白之門。在格里比的視線中，牡鹿之門等待著負光者前來。”"
+		},
+		{
+			"id": "studysunsetpassages",
+			"label": "閱讀《日落殊途》",
+			"startdescription": "教會在驕陽分裂前就尊崇它——但在驕陽尚完整時，它日後的複數個自我就已經被認為是它的具名者了。而昕旦執掌的自然是死亡和進入居屋的道路。",
+			"description": "“純白之禮”據稱是紀念司辰昕旦的儀式，在黎明前冷冽之時的葬禮中施行。這份文獻提醒道，在念誦儀式祝詞時，所有的刀刃都不能出鞘，“否則屍體將不再沉默。”"
+		},
+		{
+			"id": "studygospelzacchaeus",
+			"label": "閱讀《撒該福音》",
+			"startdescription": "“他身上的傷口其數為七，居屋之門其數為七，司辰的次級性相其數為七，性相<b>啟</b>凌駕於上，正因蟻母乃是救恩之母。”",
+			"description": "這本書描述了一個<b>儀式</b>，可將一具屍體轉為半死，“以紀念為林地流血的他。”這個儀式需要一具屍體和足夠的法力，作者建議使用<b>冬</b>之密傳中的禱文，以及一名被林地之力觸碰過的助手。"
+		},
+		{
+			"id": "studymatthiasamethystloss",
+			"label": "閱讀《馬提亞斯與紫晶成蟲：失去》",
+			"startdescription": "“居屋的法則禁止馬提亞斯去愛，而林地的習俗也禁止那隻成蟲停留。所以在她亮出阿拉卡之城的剪刀時，他最後一次將她喚來；她使他忍痛減去她背後的翅膀，這樣她就能留下；而他使她忍痛剪去他存放男性種籽的部位，這樣他們就能遠離“罪惡行徑”。這便是滿含血與歡樂的愛情。我們已將馬提亞斯逐出居屋。”",
+			"description": "“地圖之疆儀式是浪遊旅人給與我們的。它即當年馬提亞斯用於召喚紫晶成蟲的儀式，不過它也和其他許多召喚儀式一樣，可以用於喚來幾乎所有的存在——只要借助適當的工具，施加適當的影響。請溫柔地使用這個儀式，不要忘記那些為互相結合而承受過極度痛苦的具名者和長生者。”"
+		},
+		{
+			"id": "studymatthiasamethysttransformation",
+			"label": "閱讀《馬提亞斯與紫晶成蟲：嬗變》",
+			"startdescription": "“我們已逐出馬提亞斯，也對紫晶成蟲施加了詛咒，但我們在夢中看著他們。我們看到他們將己身獻與鑄爐，誓要改變自己，飛升，獲得新生。他們向火而飛。”",
+			"description": "“這是馬提亞斯和成蟲所採取的行動的第一步，開啟了他們飛升成神的道路。他們升出了我們的視野之外，但他們的火焰或許仍在錘鍊場燃燒。”"
+		},
+		{
+			"id": "studymatthiasamethystpursuit",
+			"label": "閱讀《馬提亞斯與紫晶成蟲：追尋》",
+			"startdescription": "“馬提亞斯給我們下了一道挑戰，要我們在林地裡獵捕飛蛾麾下的具名者，用以豐富他的飛蟲標本。紫晶成蟲原先在與雙生巫女玩耍，卻又重回林地去尋求飛蛾的原諒。而飛蛾，不知出於一時興起還是出於懺悔，派她離開林地去將那名長生者誘入泥沼般的噩夢。”",
+			"description": "“馬提亞斯愛著成蟲。（真的嗎？長生者能夠戀愛？還是他們的靈魂中的那個器官已乾癟到無法挽回？）成蟲愛著馬提亞斯。（真的嗎？還是她只是一時興起？）他追尋著她穿過林地，但她在最後繞開了噩夢泥沼，而後他們一起躺在逐漸變亮的邊境。於是他們學會了杯之歡愉，這是他們為自己贏得的密傳。”"
+		},
+		{
+			"id": "studyfranklinbancroftdiaries",
+			"label": "閱讀《富蘭克林·班克羅夫特勳爵1750-1790年間日記》",
+			"startdescription": "班克羅夫特是個極有天賦的學徒，但他把自己的精力投在一些徒勞無益且異想天開的計劃：為漫宿的靈體舉辦“摘葡萄大賽”，教擂擊者玩雜耍，還有為玫瑰女巫艾爾郡變出想像中的鮮花風暴，後者甚至連與他交合都堅決拒絕。班克羅夫特花了二十頁篇幅哀嘆此事。",
+			"description": "本書記載的梵咒既高等又艱深，這種魔法可以讓一個人將其靈魂獻給守夜人，開啟飛升至居屋之路。班克羅夫特一喝高就會誇耀自己能背誦這一梵咒。他還給它譜上曲，在沃克斯豪爾花園的煙火大會上表演。"
+		},
+		{
+			"id": "studyindignitiesobliviate",
+			"label": "閱讀《慣於欺瞞的忘卻互助會造成的種種侮辱傷害》",
+			"startdescription": "“<b>第五十八條。</b>他們既聲稱繼承了遺忘家族的傳統，卻又在<b>不方便</b>執行時便將家族最為美麗亦最為神聖的典禮<b>摒棄不用</b>。<b>第五十九條</b>……”",
+			"description": "“在此我向大家披露互助會用於召喚靈體“汽靈”的儀式。他們<b>嚴重背叛</b>家族傳統，竟不將冬之新晉者和蠻橫錘骨與啟之密傳一起獻上，<b>而是</b>將啟之新晉者和錘骨與冬之密傳一起獻上！這不能忍——”"
+		},
+		{
+			"id": "studyfurioustantra",
+			"label": "閱讀《狂怒密續》",
+			"startdescription": "該密續講述了怒氣的用途和危險性。它提醒說，怒氣並不總能捱得過轉化。",
+			"description": "“滿月顯現，百獸復生，一條蜥蜴也不可屠戮，因為它可能是你。”"
+		},
+		{
+			"id": "studydevouredtantra",
+			"label": "閱讀《貪食密續》",
+			"startdescription": "《貪食密續》警告了食慾的用途和危險性，卻將大段篇幅用於描寫那些“擁有星形肢體的引發飢餓者”，行文間透出明顯的喜愛之情。",
+			"description": "“先由形態不一的眾口啖飲，再用胃中的無盡烈火吞食。”"
+		},
+		{
+			"id": "studyceaselesstantra",
+			"label": "閱讀《無休密續》",
+			"startdescription": "《無休密續》主旨在於警告人們一種名為“擂擊者”的生物，卻又在最後給出了召喚該生物的咒語。據其所述，擂擊者可以學會任何一種舞蹈，但它們只喜歡學那一種。",
+			"description": "“不休止他物者，自身亦無休止。”"
+		},
+		{
+			"id": "studyknownunknowntantra",
+			"label": "閱讀《昧知密續》",
+			"startdescription": "《昧知密續》講述了一場前往漫宿“純白之門”的旅行，話語在那扇門後終止。它給出了一個只要用於正確的時間和地點，便能抵達那扇門的梵咒。",
+			"description": "“燈發出的光只能揭示林中樹影的間隙。”"
+		},
+		{
+			"id": "studyencirclingtantra",
+			"label": "閱讀《盤繞密續》",
+			"startdescription": "《盤繞密續》提及了“巨蛇之門”，即那扇有時也稱作蜘蛛之門的飢餓門戶、蟻母的神聖之門、兜頸貴胄穿過的門。",
+			"description": "該密續記載了一篇禱文，卻也不忘提醒，它的法力不足以從獵手之門到達巨蛇之門。“路若無終點，其本身即終點”，文中不忘補充道。"
+		},
+		{
+			"id": "studyshavenlocktantra",
+			"label": "閱讀《剃度密續》/《剃髮之人》",
+			"startdescription": "該密續大談特談那些準備拋棄舊我，尋求更高超新我的人。它警告說，一旦轉變真正開始——即“越過第三印記”——回歸舊我將變得危險而痛苦。",
+			"description": "“向大地低聲吐露你的秘密，用火將它們燒毀，棄至海中。即便如此，它們依然會緊抓你的頭髮”，密續如此提醒道。它給出了一個密教謎語，稱其有時能解答獵手之門的謎語。"
+		},
+		{
+			"id": "studytantraworms",
+			"label": "閱讀《蠕蟲密續》",
+			"startdescription": "該密續裡羅列了多種不怎麼實用的對策以對付蠕蟲，即“非蛇之蛇”。<b>蛾</b>與<b>冬</b>與它們最為接近，所以了解它們的弱點，但兩者又各具危險。獅子匠可以擊潰蠕蟲，但此法不建議凡人使用。",
+			"description": "“蠕蟲總是迫不及待地要宿在我們身上。下列做法可令我們的身體不適宜它們居住。”文中自帶圖解。那些圖解不但令人不忍卒看，而且裡面描繪的任何一種做法都會要了受術者的性命。"
+		},
+		{
+			"id": "studybookofcentipede",
+			"label": "閱讀《蜈蚣之書》",
+			"startdescription": "“蜈蚣總能找到進入黑暗的方法。當她因此受罰時，她的反應很難受，在漫宿在彌阿都是。”",
+			"description": "“大河在沙地流淌，從神話流入傳說。畫中之河則向另一個方向流淌。其中之一已對蜈蚣關閉，但她有時仍能找到方法進入。”"
+		},
+		{
+			"id": "studyaccountkanishkspidersdoor",
+			"label": "閱讀《迦膩色伽在蜘蛛之門前的經過》",
+			"startdescription": "迦膩色伽欲成為具名者。為達成這一目標，他將洛克·卡胡利變成承載他食慾的容器，承諾與其一同飛升。在蜘蛛之門前，他背叛了他的情人……",
+			"description": "千夫長耳聽此背叛之言，於是強迫迦膩色伽侍奉自己。千夫長不容違抗。洛克·卡胡利則留下撰寫本書，描述那些關於抗爭與競奪的公開的魔法。"
+		},
+		{
+			"id": "studystumm",
+			"label": "觀看《噤聲》",
+			"startdescription": "放映機嘎吱作響，靜靜地將畫面投在牆上。影片講述了一名研究禁忌科學的愚蠢學生的故事，他招募了一名舞者來誘使亡者通過世界表皮上的破綻重返世界。這是一個虛構的故事，但片中的標題字幕卻寫著“落日行動”……",
+			"description": "儀式的描述極為詳盡，令人毛骨悚然。先是世界的破綻，一種在流光溢彩的塗料中閃閃發光的影響。然後是舞者怎樣跳出令人無法抗拒的節拍。然後是學者複述行動步驟；而此刻，煙霧般的亡者正盤旋著穿過破綻處來吞吃他！影片最後定格在舞者警覺的雙眼。她從一開始就打算這麼做嗎？"
+		},
+		{
+			"id": "studyvinzantinscriptions",
+			"label": "閱讀《文讚特銘文》",
+			"startdescription": "很久以前，據繩結姐妹會的描述，鑄爐愛上了名為驕陽的司辰。赤杯早就期待他們的結合，且杯之女祭司也預言了此事……",
+			"description": "文獻的其餘部分是杯之女祭司幸災樂禍地評論將要到來的塑形，夾雜著來自侍奉環杉，尤其是侍奉雙角利斧的眾姐妹會的警告與哀嘆。即便如此，文中仍附有一個至鑄爐的禱文。"
+		},
+		{
+			"id": "studylarquebinecodex",
+			"label": "閱讀《拉奎伯斯寫本》",
+			"startdescription": "雙生女巫來自西方，誕自兩個子宮，兩人一為公主，一為怪物。然而她們自降生起便彼此相愛，並暗中相會“尋求結合”。",
+			"description": "當大旱降臨時，統御那片土地的諸王試圖獻祭公主與女巫，於是她們橫渡大海。當被絕望攫住時，她們縱身跳入深不見底的海水……並發現了畫中之河，於彼處憑藉赤杯的提攜進入漫宿。然而本書以譴責赤杯結束……"
+		},
+		{
+			"id": "studyagainstsisterhoodknot",
+			"label": "閱讀《對繩結姐妹會與其墮落習俗之批判》",
+			"startdescription": "耶羅尼米斯宣稱，繩結姐妹會所侍奉的諸神靈做了如下安排：轟雷之皮愛著環衫，而聖杯將他摧毀，作為利斧的至親遭到摧毀的補償。耶羅尼米斯的文字在此處因激怒而變得語無倫次。",
+			"description": "最終，耶羅尼米斯恢復了鎮靜，開始描述轟雷之皮如何由孔雀之門進入漫宿。這一點，耶羅尼米斯堅稱，是“最最可厭的，雖說最可厭的那扇門向來可厭”。"
+		},
+		{
+			"id": "studymorphycodex",
+			"label": "閱讀《墨菲寫本》",
+			"startdescription": "本書作者為聖杯、環杉與雙角斧——姐妹會所崇敬的神靈——記了一功，稱祂們同意在眾位居屋之司辰與被前者取代的司辰間締結的最終條約：轟雷之皮愛著環杉，而聖杯將他摧毀，作為雙角斧的手足遭到屠戮的補償。",
+			"description": "轟雷之皮由孔雀之門進入漫宿，“這是雙生巫女從未獲得過的特權：不過那時她們的功績也小得多。”作者承認由孔雀之門進入不太行得通，但堅稱在那種情況下別無他法。"
+		},
+		{
+			"id": "studyleoninetantra",
+			"label": "閱讀《獅子密續》",
+			"startdescription": "本文隱晦地描述了兜頸貴胄怎樣用數不勝數的方法對大河流域抵抗外族侵略者的戰爭施加影響，“雖然從某種意義上來說，它們也是侵略者”。",
+			"description": "“獅子是可以創造的，有別於創造孩童，亦有別於創造文字，而是如同創造武器。兜頸貴胄通過偷窺司辰的事務掌握了創造獅子的方法，且並非所有的獅子現都在侍奉黃金將軍。”"
+		},
+		{
+			"id": "studyincandescenttantra",
+			"label": "閱讀《熾熱密續》",
+			"startdescription": "記載了與某個名叫“坩堝公”的存在的對話。此公警告說自己的主人——燃燒的女王胃口巨大，且她與驕陽分享的赤裸欲望也極為危險。即便如此，他依然口稱對女王忠心耿耿。",
+			"description": "“改變的儀式必然是毀滅的儀式，而若想催生巨變，野蠻的破壞必不可少。”"
+		},
+		{
+			"id": "studythirstingtantra",
+			"label": "閱讀《乾渴密續》",
+			"startdescription": "一篇對乾渴的諸多種類、用途及效果的專題研究。",
+			"description": "該密續描述了解除乾渴如何能令凡人升為乾渴之神的侍奉者，但也警告了為解除普通的乾渴而拒絕更稀有乾渴的後果。“一個口中乾渴的人，多麼強大的人啊，他的心智與世間的動態緊緊相連，將會從彼處回歸這個動態的世間。”"
+		},
+		{
+			"id": "studyflayedtantra",
+			"label": "閱讀《剝皮密續》",
+			"startdescription": "“褪皮”曾為兜頸貴胄的一員，但它與同胞兄弟決裂，轉而跟隨轟雷之皮作無盡的舞蹈。",
+			"description": "當“褪皮”褪掉自己的皮後，它便得到了書寫密續所需的墨汁。它不得不面對同族的憤怒。下文是它抵擋同族用的禱文。"
+		},
+		{
+			"id": "studywatchfultantra",
+			"label": "閱讀《警夜密續》",
+			"startdescription": "該密續描述了幾種洞明密教啟示的過程，包含一個或能為從“獵手之門”到達“巨蛇之門”指路的法術——後者在西方通常稱作蜘蛛之門。",
+			"description": "“太陽素常在指定的時刻穿過居屋。自太陽分裂後，這一時間變得無法確定。”"
+		},
+		{
+			"id": "studytwinserpenttantra",
+			"label": "閱讀《孿蛇密續》",
+			"startdescription": "《孿蛇密續》描述了兜頸貴胄——一門起源不明的世家望族——如何參與禱告，獻祭並作詩祝頌鑰匙巨蛇、十字路孿生子和鏡子女王。“那迦盤繞，那迦現身於創口，那迦饒過已被傷害者。”",
+			"description": "文獻將兜頸貴胄描寫為“從其死亡的歷史逃入其未死的歷史”，聲稱它們現有一百零八名，然而——作為許多雙生異象中的一例——它們在跨出其死亡的史傳前，只有五十四名。"
+		},
+		{
+			"id": "studyfirecircletantra",
+			"label": "閱讀《旋火密續》",
+			"startdescription": "文中的兜頸貴胄乞求林地能奮起吞噬前來進犯的帖木兒軍隊。“斑紋王”、“蜂蜜樹”與“海之孿生子”都拒絕了它們，直到它們向一個穴居於地洞的守秘者尋求幫助……",
+			"description": "攜帶著“穴居於地洞的守秘者”給與的勒索材料，兜頸貴胄們第二次向林地諸神靈請願，並獲得成功。帖木兒的軍隊四分之一為蜜蜂所噬，四分之一投水而亡，四分之一“解甲脫衣，蛻至無物。”——"
+		},
+		{
+			"id": "studyasthesunhiscourse",
+			"label": "閱讀《其躔如日》",
+			"startdescription": "亞歷山大與萬王之王大流士在伊蘇斯會見了三日三夜。第一日，兩人互相威脅；第二日，互予承諾；第三日，互換秘密。大流士向亞歷山大道出了某些驚人之語，令後者不得不退回帳中思考“力量之事與支配之事”。",
+			"description": "第四日黎明，亞歷山大宣布：“日之躔回歸其始，吾之躔亦如是。”他就此回師馬其頓，並將質疑此決定的兩名將領處以極刑。他帶回了“目盲之神的數個名字”和“神聖背叛儀式”：對此約珥以為，若無背叛，戰爭本會結束。"
+		},
+		{
+			"id": "studyconcursumdiaries",
+			"label": "閱讀《聚點日記》",
+			"startdescription": "“世界上存在地圖，存在傳說，存在蘊含傳說的地圖，與有關地圖的傳說。漫宿的面相存於所有這些之中，如同水存於沼澤、杯盞與天空中。”",
+			"description": "韋斯特格倫描述了一系列漫宿內的探險。他著重於冒險經歷的種種細節——色彩，景色，質感——而不是實際行為。他的確警告說漫宿每年都在變化，不過也像讀者了保證門扉一直不變。“那些門也許會關合，但永遠不會消失。起碼有凡人留在漫宿時如此。我們在這裡就像老鼠。”"
+		},
+		{
+			"id": "studyironbook",
+			"label": "閱讀《鐵之書》",
+			"startdescription": "教團成員必須許下名為“鐵之鎖鏈”的誓言，保證永遠避世。這本指南書記有據推測早已廢棄的地址和暗語，大概原為聯絡伊里亞鎮上的教團聯絡人所用。",
+			"description": "指南的最後部分描述了怎樣處罰違背了隱世誓言的教團成員。其中包括一個用來召喚名為“坩堝王”的靈體，並令其代己復仇的禱文。伊芙妮提醒說這很可能是對付違背誓言之人的最後手段，僅當其他手段無法施展時才會使用：召喚坩堝王甚至可能引來白日鑄爐本人的注意。"
+		},
+		{
+			"id": "studysilverbook",
+			"label": "閱讀《銀之書》",
+			"startdescription": "教團成員必須許下名為“銀之鎖鏈”的誓言，保證男性成員不與女性，女性成員不與男性交媾：“因為將降臨的雖並不必然是天孽，但仍是嚴重的危險。”看樣子，男性與男性、女性與女性間的交媾是允許的——實際上，布茲格哈什建議對此予以鼓勵，以助人遠離其他誘惑。",
+			"description": "指南書規定了幾種針對受到誘惑，可能違背誓言的成員的預防措施：戴面具、毀容、聽嚴厲的，詩歌般的訓誡。已違背誓言者會被處死，而進行了某些行為卻沒實際性交者則會被處以較輕的處罰。指南中給出了一個用來將此類處罰和召喚儀式結合在一起的禱文。"
+		},
+		{
+			"id": "studyivorybook",
+			"label": "閱讀《白骨之書》",
+			"startdescription": "教團成員必須許下名為“白骨鎖鏈”的誓言，保證不與司辰做交易。對一名學徒來說，要一字一句遵守這個誓言幾乎是不可能的，因此指南書中收錄了不計其數的解釋、例外和赦罪辦法。",
+			"description": "作者紅描述了教團的葬禮儀式，其中包括能夠——理論上——確保不將逝去長生者的靈魂交給司辰的咒語。此類儀式會隱秘地向回憶與紀念之神——名為骨白鴿的司辰致以祈求，“因我們與那位司辰達成了共識。”"
+		},
+		{
+			"id": "studyworlddoesnotweep",
+			"label": "閱讀《世界從不落淚》",
+			"startdescription": "一名不知名的學徒寫下下述宣言：世界會遺忘，但骨白鴿不會。為保證某些做法能被人銘記，書中列出了一連串舊習做法，包括一種需要以特別駭人聽聞的方式獻祭的儀式……",
+			"description": "眾司辰企圖埋葬有關轉輪、燧石、浪潮及七蟠之遭遇的回憶，但白鴿不容許這樣做。他也不容許最初之卵的遭遇為人遺忘，儘管這或許是守夜人唯一能恕之事……"
+		},
+		{
+			"id": "studydeedsofthescarredcaptain",
+			"label": "閱讀《傷疤上尉事跡錄》",
+			"startdescription": "身負傷疤的上尉斬殺七怪，平定地面後建立邁錫尼的經過。",
+			"description": "上尉每消滅一怪，血的洪潮就升得更高，直至最後使一名女祭司溺死其中並重生為蛇神。她祝福上尉，上尉則在血潮退卻後離開邁錫尼，去向“林地之上的居屋”，成為至高的主宰。"
+		},
+		{
+			"id": "studybookofdissolution",
+			"label": "閱讀《融解之書》",
+			"startdescription": "這本書主要記載了向不焚之神，消耗與重造之神，即白日鑄爐的祈禱。該書認為鑄爐之力部分源於其性質，部分源於其工具。",
+			"description": "書中描寫了早期的，有著和現在不盡相同的門扉與通路的太陽之居屋。它頌揚了白日鑄爐開啟通往居屋道路的事跡，讚美了她將過往轉化為現今的作為，儘管這伴隨著石頭的慘叫……"
+		},
+		{
+			"id": "studycatalogueofunchartedpleasures",
+			"label": "閱讀《未知快感概覽》",
+			"startdescription": "“有些快感，”有銷魂法術為證，“如此強烈，足以瓦解現實世界的規律”。這篇文獻列出了一些例證。",
+			"description": "分娩發生於歡愉與苦痛結合之時。因而鑄爐的第一條禁忌行徑誕下歡欣的火花，於輝光或虛界生根發芽：誰又能肯定在哪呢？因而制花人的種子埋下，儘管在很長的年月裡他只是一處無法滿足的期盼。"
+		},
+		{
+			"id": "studythosewhodonotsleep",
+			"label": "閱讀《不眠者》",
+			"startdescription": "“雙生女巫分別降生自海洋兩岸的兩個子宮，一個貧窮，一個富有。女巫強於<b>心</b>相，以保她二者存活於世；巫女強於<b>杯</b>相，故而她二者慾壑難填……”",
+			"description": "“雙生女巫自西而來時，赤杯允許她們飛升，隨後卻對她們的力量產生了妒忌。於是赤杯引誘來一位偉大的樂手，將他作為具名者納入麾下，使他從血中重生為心之司辰，藉此讓自己在心之領域也掌握權柄。但赤杯並非常勝不敗。”"
+		},
+		{
+			"id": "studytheskythesoul",
+			"label": "閱讀《魂歸蒼穹》",
+			"startdescription": "凱勒的詩簡短、晦澀，通常還充斥著暴力意象。“星星是針戳的小洞，太陽卻是創口。”",
+			"description": "“人總是可以再多死一分的，”凱勒說。“之前守夜人去了；其後或有且只有七位能去。”“然而我等生來注定追求輝光，一如火花向上飛舞。”"
+		},
+		{
+			"id": "studyonthematterandthedeedsofserpents",
+			"label": "閱讀《蛇族事跡考察》",
+			"startdescription": "名為“兜頸貴胄”的蛇人一族了解到了“遺忘家族”教團的存在，並與之展開了跨越千里的戰爭。它們與蟻母結盟，因“它們原是她的子女”……",
+			"description": "文中描述了兜頸貴胄如何從第五史逃離（或將要逃離），而第五史也是它們死去（或注定要死去）的地方。兜頸貴胄參與到一場針對“大河流域”的秘密征服中——該流域在某些歷史中叫做印度——確保了除己之外對此地的征服均無理可依。"
+		},
+		{
+			"id": "studyserenityofblackwood",
+			"label": "閱讀《黑林地的靜謐》",
+			"startdescription": "“眾所周知的行蹤自在之人”將一座林中的旅行者聚集起來，帶領他們穿行其中，卻在途中將他們拋棄。他們則發覺自己陷入了“光輝怪物”的圍攻。",
+			"description": "旅行者們發現閉上雙眼便能活命（他們選緊閉的眼作他們的標記），且飲用清澈冰冷的溪水便能悄悄離開。他們從未忘記“眾所周知的行蹤自在之人，又稱蜈蚣”，但他們也從未原諒她。"
+		},
+		{
+			"id": "studybookofthrones",
+			"label": "閱讀《王座之書》",
+			"startdescription": "在“第一重亦最偉大的歷史”中，一名波斯無影帝國的臣民向西而行，去往珀耳修斯後裔王國。他在那裡拜入珀耳修斯後裔守護神，“居於黑暗的傷疤人”門下。七年後他學成歸來，用其所學為無影帝國效力，成為了帝國的黃金將軍……",
+			"description": "多年的和平過後，珀耳修斯後裔王國的繼承者開始進擊無影帝國與眾王之王。黃金將軍本不願與自己導師的血親操戈相向，直到眾王之王向他耳語一個“關於背叛的巨大秘密”。他折斷佩劍，將自己與帝國與傷疤人的誓約一併捨棄，然後拋下之前的人生，進入了“隱於世後的廟宇”。"
+		},
+		{
+			"id": "studysecondglory",
+			"label": "閱讀《第二輝光》",
+			"startdescription": "尤賽為毀滅司辰之事進行辯解：他們老了、他們懦弱、他們卑劣、他們的時代已經過去，而通過輝煌的戰鬥奪取居屋正是人類耀眼的天命。",
+			"description": "尤賽訴說了名為七蟠的司辰如何在戰鬥中被上校斬殺，名為浪潮的司辰如何遭聖杯吞噬，以及逆孵之卵如何“像懦夫一樣逃走”。他對逆孵之卵肆言詈辱，並悲觀地警告說它將回歸。"
+		},
+		{
+			"id": "studybookoftrueblood",
+			"label": "閱讀《真血之書》",
+			"startdescription": "軍團使節直接受命於名為傷疤護民官的司辰，並得到若亡於戰鬥則獲不死之身的允諾……",
+			"description": "在書的最後，卡西烏斯承認了自己的前使節身份。他敘述了自己對護民官的驚懼之情，並吐露了有關黃金將軍，即無影帝國的捍衛者，護民官之敵的秘密傳承，希冀護民官總有一天會被扳倒。"
+		},
+		{
+			"id": "studyburningwoman",
+			"label": "閱讀《燃燒的女人》",
+			"startdescription": "這部戲劇描述了鐵匠和學徒們追尋燃燒的女人足跡的巡禮之旅；此女出現在他們的夢中，給予每人一處傷口、一個言辭。",
+			"description": "鐵匠和學徒們放棄了找尋燃燒的女人，決心建立自己的王國，“在此處，我們的力量足以粉碎世界。”"
+		},
+		{
+			"id": "studytwentysixenticementsseventorments",
+			"label": "閱讀《二十六種誘惑與七類苦痛》",
+			"startdescription": "“聖杯的誘惑之數多於其苦痛，但苦痛才是它的真本性。生誕是第一苦痛，而乾渴是第七苦痛。”",
+			"description": "要列舉杯的誘惑與苦痛，離不開“乾涸之地兩女巫”哀傷的歷史：降生於兩個子宮的煎熬，擺脫杯的掙扎與對杯的乞求，對結合為一的共同渴盼。"
+		},
+		{
+			"id": "studyhistoryofshadowlesskings",
+			"label": "閱讀《真實準確的無影眾王史》",
+			"startdescription": "本書描述了“第一重亦最偉大的歷史”。波斯帝國——又稱“阿契美尼斯的子嗣”、“無影眾王”、“最輝煌帝國”——挺過了亞歷山大大帝的強攻，繁榮昌盛直至第五世紀。",
+			"description": "羅馬陷落後，無影帝國將拜占庭置於自己的蔭蔽下，並東進攻取大河流域。作者艾薩克的敘述以對抗“由扁頸蛇組成的無膚之師”的侵略戰爭開始，卻又唐突地以一系列他稱能令無影帝國存續的禱文收尾。"
+		},
+		{
+			"id": "studyhighmysterieschurchsolar",
+			"label": "閱讀《吾太陽神教核心廳室之極密》",
+			"startdescription": "該教派崇拜的主要對象是驕陽，即原初的，未分裂的太陽；但本書也記載了如何祀奉驕陽的其他面相：祀奉冷冽的冬季黎明、消逝的夕陽、還有弧月，即太陽的“夜間自我”。該教派的祭司均為男性，但書中也記載了令女人轉性而具備男人特質的儀式。",
+			"description": "該教派將最重要的儀式放在聚點舉行；聚點是位於漫宿核心的廳室，已知的司辰行經之處。此類儀式包含致敬與太陽無關的司辰——聖杯、環杉、雙角利斧、轟雷之皮——的環節。"
+		},
+		{
+			"id": "studymedusaslament",
+			"label": "閱讀《美杜莎的哀嘆》",
+			"startdescription": "詩的第一部分描述了七蟠遭遇一名戰士的伏擊，此人“全身上下都是那些背信棄義的神留下的傷疤，連雙目上都是，所以他不會因目睹虬結的蟠身而毀滅。”",
+			"description": "激戰一直持續至七蟠溺斃在自己的鮮血中，詩風由此轉向神秘而委婉。擁有七項頭銜的女神從七蟠的血沫中升起：她是披堅執銳的女王，是蛇的女兒，是鑰匙，是治療者，是殺人者，是神諭祭司，但她的第七頭銜隱而不宣。"
+		},
+		{
+			"id": "studybookofmasks",
+			"label": "閱讀《面具之書》",
+			"startdescription": "笑鶇的面具，據雅典娜·凡納說，與漫宿的至尊之司辰驕陽（如今已分裂消逝）交情甚篤。景象竊賊的面具在漫宿畫下河流。浪遊旅人的面具在漫宿是為禁忌，原因不是她已做過的事，而是她會引發的事……",
+			"description": "蜈蚣的面具代表了她的生身地——彌阿城，曾因她爬進神殿域而對她降下刑罰。這副面具詛咒彌阿只能飲啜沙塵，在風中消逝無聞——“她並不因隱於面具之後而饒恕仇敵，蜈蚣的飢渴總有一天要得到滿足。”"
+		},
+		{
+			"id": "studyinthemountainsasupontheplain",
+			"label": "閱讀《山中亦如平川，許無前人未達之途》",
+			"startdescription": "作者寧娜伽勒在書中講述了幾個熱鬧的故事，有關於說謎語的食人魔的，也有關於山中部落間的戰爭的，但在講述空手獵人傳說時，故事基調轉向憂鬱：聖杯有一位情人，他想要符合她的胃口，成為與她並肩的司辰，最終卻撕開併吞吃了自身，將名字留給了他曾漫遊過的山脈。",
+			"description": "寧娜伽勒稱那些有時以鳥型顯現的司辰——笑鶇、骨白鴿、拾灘鴉和雙生巫女——會在山頂的秘密地點會面，交換同僚沒聽過的閒話。時不時會有凡人不巧聽見他們。這樣的人總會被抹消，會面的地點也總在變化。"
+		},
+		{
+			"id": "studymemoryofgods",
+			"label": "閱讀《緬懷諸神》",
+			"startdescription": "墳塋之子在書中著重點名譴責了傷疤護民官、赤杯、鑄爐和飛蛾，因他們謀殺了最初的諸神。“我們活在他們罪行的陰影下，”她寫到，“我們若不留心避免，必將重蹈覆轍。”",
+			"description": "墳塋之子描述了赤杯如何飲乾名為浪潮的司辰，飛蛾如何“從內部篡奪轉輪”，盜走了它的皮膚，以及鑄爐如何先蓋過燧石的光芒而後粉碎之。“也許這些行為可說是光輝的，”她評論到，“然而輝光不可說是仁慈的。”"
+		},
+		{
+			"id": "studysevenfoldslayingsevencoiled",
+			"label": "閱讀《七步斬七蟠》",
+			"startdescription": "共十二節。在第一節，一位飛生而來，稱為傷疤者的司辰為他消滅七蟠而辯解，列舉了種種理由：七蟠的口腹之慾，它的不斷成長，它對人類的敵意。在第二節，一名女祭司熄滅了他的眼，並在他皮膚上刻下傷疤，以此保護他免受七蟠魔法的傷害。在接下來的七節，他每一節消滅七蟠的一個面相……",
+			"description": "在第十節，傷疤者將七蟠的鮮血灑遍庇護他的女祭司全身，以此借給她神力。在第十一節，他們向“隱於世後的廟宇”發動襲擊，強行進入其內。在第十二節，他們許下三重誓言，將其先祖、其後裔、其自身保護起來。"
+		},
+		{
+			"id": "studybighuff",
+			"label": "閱讀《我的事跡、我的力量、我的成就和我所面臨的不公》",
+			"startdescription": "霍科博爾德吹噓自己的皇室血統，並堅稱鑄爐的魔法在由血統高貴之人施行時更有效。",
+			"description": "波辛德埋怨利米亞教團給他定罪。他承認在“達成那種特定的愉悅”後，他“有所改變”，但他堅稱此類改變既是高雅，也是必然的。“究竟誰是火，誰是燃料？”他詰問道。"
+		},
+		{
+			"id": "studydreamconspiracyskies",
+			"label": "閱讀《降天祛孽之夢》",
+			"startdescription": "達馬翁堅稱司辰也屈從於自己的激情——屈從於憎恨，甚至愛，其程度遠超凡人。“年景的好壞，地球的轉動，熔爐的轉變——所有這些僅僅只是司辰的激情中較弱的那些成就的結果。”",
+			"description": "達馬翁認為眾司辰已然收斂對立，以免在太陽的居屋引發戰爭。他發覺司辰不去追求其他激情的原因是“懼怕天孽”。他推斷司辰存在吸血阿盧卡化的可怕可能性。“那樣的話他們會吞噬什麼呢？”"
+		},
+		{
+			"id": "studybookwhitecat",
+			"label": "閱讀《白貓之書》",
+			"startdescription": "已知鳥型司辰——烏鴉、笑鶇、白鴿、還有孿鳶——會在戈爾迪翁北部的山中一個叫做棲木的地方見面，互聊閒話。佩涅羅佩稱直接聽到他們話語的凡人會被抹消掉，但她的貓不被神查知地回到她身邊，告訴了她從司辰集會聽來的傳聞。",
+			"description": "潘妮洛普所述的司辰間的閒話既零碎又混亂：有以希望、恐懼與無影帝國為棋子相互競奪的經過，有來自不為人知的歷史的關於殘跡與銘記的綱領。最有趣的是她擔心眾司辰會發現她打探神機，所以在書的結尾收錄了保護禱文。"
+		},
+		{
+			"id": "studyfocusamber",
+			"label": "閱讀《琥珀之光》",
+			"startdescription": "奧馬爾聲稱名為守夜人的司辰既是肉源神——原為凡人的司辰——也是光源神——降自輝光的司辰——但在最後又補充說，守夜人有三重來源，即是說“實質上，他是琥珀神”。",
+			"description": "守夜人，據奧馬爾稱，原先完全是另外一位司辰，因其他司辰欲將其趕進虛界而逃入輝光，升入其間。奧馬爾講到這點時可能滲入了他自己的偏見：可想而知，此處的行文變得不那麼連貫。書的最後一部分致力於證明眼瞳，卵和太陽在某種意義上是一體的。"
+		},
+		{
+			"id": "studysongscarapacecross",
+			"label": "閱讀《介殼種之歌》",
+			"startdescription": "作者席描述了人類文明存在之前，“介殼種”所施行的最初的司辰——石源諸神的儀式。他稱這些資訊是最後一名存活的介殼種告訴他的。",
+			"description": "這些儀式現已大半遭到淘汰。至少在過去的一千年裡，其中絕大多數都沒顯出任何作用。不過，席確認了至少一個擁有某種法力的禱文。他警告說此禱文須得謹慎使用，以免石源神找到從虛界返回的道路。"
+		},
+		{
+			"id": "studyoriginsofhours",
+			"label": "閱讀《司辰的起源》",
+			"startdescription": "索哈姆的文字由抒情轉為自白。他將神分為肉源（原為凡人）、血源（經獻祭升為）、光源（從輝光而來）和石源（早於他所知）的。他強調飛蛾為首位血源神，後卻又自相矛盾地稱赤杯才是首位。",
+			"description": "“第一位神明自光中到來時，漫宿並非現在的模樣，但無需懷疑彼時它既已存在。”"
+		},
+		{
+			"id": "studywherehasshegone",
+			"label": "閱讀《她去到過何地？》",
+			"startdescription": "據記載，浪遊旅人不僅旅經漫宿和林地，遊遍全部九個大陸，還去過那些禁止其他司辰踏足的地方……",
+			"description": "通過司辰間的閒話和無形的密傳，斯佩斯推斷浪遊旅人造訪過虛界，但不會再去。他還宣稱她尚未造訪過輝光，但或早或晚，她必然會去。"
+		},
+		{
+			"id": "studybookextinguishedheart",
+			"label": "閱讀《寂滅之心》",
+			"startdescription": "拉扎裡稱太陽將在錘鍊場被白日鑄爐分裂，後者的兇器是心中的愛。",
+			"description": "“導致太陽之死的不會是愛，而是妒忌。導致太陽之死的不會是妒忌，而是渴求。導致太陽之死必不是渴求，而是好奇。置他於死地的必不是好奇，終究還是愛。”"
+		},
+		{
+			"id": "studyhowendwillbegin",
+			"label": "閱讀《終結如何開始》",
+			"startdescription": "在預言所述的戰爭中，受控之火的子女向大陸上的城邦進軍，但“太陽法的制定者”和“三倍姐妹會”聯合起來擊退了他們……在付出巨大代價後。",
+			"description": "“在不滅軍團與受控之火的戰鬥中，軍團將滅亡而火將解除控制。”"
+		},
+		{
+			"id": "studymanneralchemistspared",
+			"label": "閱讀《鍊金術師保命之法》",
+			"startdescription": "在介殼種時代，人類生活在黑暗裡，跪著吃東西；那時的人類可以像寄生蟲一樣進入漫宿。有一人學會了燧石的技法，即塑形與再造的技法……",
+			"description": "“經過黑，黃，紅，這名愚蠢的凡人升入逆孵之卵的陰影，並加入侍奉他的行列。他或許時至今日仍在那裡。”"
+		},
+		{
+			"id": "studyfivecreations",
+			"label": "閱讀《五大創造論》",
+			"startdescription": "“<b>介殼源</b>：我們誕自甲殼，如同黃蜂的孩子從蜘蛛體內鑽出。<b>輝源</b>：我們生命的微粒降自“光”。<b>受汙之源</b>：我們出世時渾身赤裸，身上沾著林地根部的淤泥……”",
+			"description": "肖黑偏愛的理論是：我們是直立行走的猿猴的子孫，儘管他說及此論時語帶譏諷；又或者我們不僅攝食了我們的父母，“此行並非天孽”，也攝食了我們的起源，所以我們來自虛界。"
+		},
+		{
+			"id": "studycommandspreservationallexists",
+			"label": "閱讀《關於維持一切事物存續的教令》",
+			"startdescription": "艾麗在本書中描述了能用於各種情況的強大保護咒。",
+			"description": "“重要的是，這些保護咒需每四年補修一次，以抵禦蠕蟲進入以及‘水波’和‘創口’的熱盼。”至少在現今這重歷史中，過去至少一千年內沒有跡象表明有人定期施放過這些保護咒。"
+		},
+		{
+			"id": "studytimedivision",
+			"label": "閱讀《分裂之時》",
+			"startdescription": "太陽將遭分裂，故它許不能再生產子嗣。即便如此，其子嗣之數應為四再其子嗣之數應為七再其子嗣之數更應不可計數。不可計數者將為七者打開道路，七者將攝食四者……",
+			"description": "阿米拉預卜了“第二拂曉”前，即驕陽再度升起前的四場大戰。她提醒道：“日出為血，我於此預言驕陽將從血中升起，卻既無鮮血的顏色，亦非夜晚的時辰。”她給出了她推測第二拂曉所需的一個儀式。"
+		},
+		{
+			"id": "studymanualdeparture",
+			"label": "閱讀《脫身手冊》",
+			"startdescription": "不，不應該記錄這些門，但如果那時，我們在被迫離開第五史前做了記錄，我們現在的景況會好得多。所以我現在將其付諸筆端，如果你不喜歡，你可以制裁我。",
+			"description": "《脫身手冊》列舉了若干——密教上，軍事上和政治上的——快速脫逃策略。其中許多是可有可無，過時落後或高深難懂的，但這本手冊的確給出了若干強力的開啟門洞的技術。"
+		},
+		{
+			"id": "studybirdsong",
+			"label": "閱讀《鳥鳴》",
+			"startdescription": "<b>伊納姆</b>：拾灘鴉沒有分享他的寶藏嗎？<b>加爾基</b>：沒有分享最稀有的。他把最珍貴的留給自己了，號稱那些是他找到的，不是偷來的。",
+			"description": "卡皮吉吉努皮爾認為拾灘鴉不僅是盜賊，同時也是探子，甚至喜歡窺淫。他把司辰和祂們的具名者間秘密交合的記憶藏在居屋的角落，作為暗中誇耀的寶藏。還有一個很紅的猜測：熱情如火的林地司辰環杉，和有時與女巫做姐妹的樹中牝馬，這兩者間有私情。"
+		},
+		{
+			"id": "studyvoyagesfo",
+			"label": "閱讀《奧萊爾的斐寧舜之遠航記》",
+			"startdescription": "斐寧舜顯然在沿畫中之河航行時拜訪過漫宿。他還稱他橫渡過沙灘最細膩的海域，挑戰過太陽表面的熱浪，也曾下潛到由墨玉照亮的地底之海……",
+			"description": "在最後一次遠航中，斐寧舜跨越了薄暮的海面，到一座平靜的島嶼上安度餘生。他認為那裡有一眼能保證他的安全的泉水。“人們會忘記我，”他宣告說，“而這本書是我留下的唯一痕跡。”"
+		},
+		{
+			"id": "studyscarsky",
+			"label": "閱讀《天宇的傷疤》",
+			"startdescription": "這本書每一頁只寫有一個詞，但每翻過一頁，便有一個知識潛入腦中。",
+			"description": "最後一頁寫得滿滿當當。書的每個讀者都會在此處記下同一個詞。現在輪到我了。"
+		},
+		{
+			"id": "studykitlingripe",
+			"label": "閱讀《老成仔貓與鼴鼠的墳墓（及其他故事）》",
+			"startdescription": "本書主角，一隻名為老成仔貓的無言貓形生物施行了一系列複雜的儀式來拯救她族中的親屬。在故事最後一幕，她復活了她的“另一位祖母”——鼴鼠。",
+			"description": "“蛇女巫殺死牡鹿時，仔貓摳出了它一隻眼睛。乾涸女巫殺死牝豬時，仔貓偷去了它一杯血液。隨後她帶著這些東西到埋葬鼴鼠的地方，散開自己的頭髮，開始舞蹈……”"
+		},
+		{
+			"id": "studyraptintheking",
+			"label": "閱讀《為王著迷》",
+			"startdescription": "這套舞蹈源自祭奉女神伊西斯與庫柏勒的密教所傳承的奧秘，不僅含有象徵和實際意義上的剝皮行為，而且永遠以人類心臟為儀式的主軸。作者著重圈點了他對自己被打斷的宴席的令人作嘔的感官描寫。",
+			"description": "“在那些盛大宴席間，總有一頭黑豬在經受屠宰前被加冕為王。每逢此時，它的心臟會經天平與一片羽毛互較輕重，而它的皮會成為主祭的披風。它的血肉被留給烏鴉，但我必須坦白我意不在其屍骸，而在於女帽製造者新入土的噴了香水的肉體。”"
+		},
+		{
+			"id": "studyvienneseconundra",
+			"label": "閱讀《維也納未解之謎》",
+			"startdescription": "“K氏參加會議時，黑犬們被獻祭並分為四塊。M氏出席時，黑牝馬們遭到割喉。我的意見是這些獻祭是不必要的，但我們的麗姬亞朋友或許認為它們是‘恰當的’。下圖是肢解的示意圖——”",
+			"description": "“那就說美杜莎的謎語吧，我選擇譯成‘何物不得見？’還有一道謎語，我聽到的譯文是‘何物會失去？’要回答此問，我會複述一些歷史上著名上的作答——這些作答本身，某種意義上也是，祭品——”"
+		},
+		{
+			"id": "studytextbooklatin",
+			"label": "提升拉丁語水平",
+			"startdescription": "我能回想起不少學生時代的所學，不過我需要複習。",
+			"description": "開啟記憶宮殿之門。"
+		},
+		{
+			"id": "studytextbookgreek",
+			"label": "提升希臘語水平",
+			"startdescription": "誠然，我已經學會了希臘語的皮毛。但是我需要的不止是皮毛。",
+			"description": "這是一種果斷而獨特的語言，但我已經掌握了學習方法。"
+		},
+		{
+			"id": "studytextbookaramaic",
+			"label": "提升亞蘭語水平",
+			"startdescription": "自然，“亞蘭語”不只單一一種，不過我會盡我所能學習。",
+			"description": "我已經對其有了基本了解。"
+		},
+		{
+			"id": "studytextbooksanskrit",
+			"label": "提升梵語水平",
+			"startdescription": "這種語言的名字意為“精煉的語言”。",
+			"description": "詞彙太多，時間太少。我會在手邊常備資料以供參考。"
+		},
+		{
+			"id": "studytextbookfucine",
+			"label": "理解早已消亡的富奇諾語",
+			"startdescription": "這種語言與拉丁語有著共通之處，也與發狂老鼠的爪痕有著另一種共通之處。",
+			"description": "在有些方面，它與我會講的那些語言一致。但在另一些方面……好吧，我明白他們為什麼稱這門語言為“女巫的語言”了。不過現在我對它已有足夠理解。"
+		},
+		{
+			"id": "studytextbookphrygian",
+			"label": "學習弗里吉亞語的基礎",
+			"startdescription": "弗里吉亞語，即邁達斯王、忒克墨薩公主、庫柏勒的祭司所講的語言。",
+			"description": "這種語言裡的某種東西讓人熱血奔湧。也許現今已無人記得這種失落的語音是一件幸事。"
+		},
+		{
+			"id": "studytextbookmandaic",
+			"label": "學習淵深曼達安語",
+			"startdescription": "曼達安語是位於波斯最偏遠地區的諾斯替派教徒所用的語言。淵深曼達安語只流傳於該教派裡的一個支派，但講這種語言的學徒也一度出現過。",
+			"description": "這種語言的發音與亞蘭語正好有相似之處，足夠讓我以此入手學習；但這也並非易事。"
+		},
+		{
+			"id": "studytextbookvak",
+			"label": "獲取伐訶語知識",
+			"startdescription": "司辰會說話嗎？如果會，這或許便是祂們使用的語言。",
+			"description": "據說伐訶語不是學能學會的，更別提對她了解了。怎麼說呢，她與我現在更加熟稔了一點。"
+		},
+		{
+			"id": "studytextbookreason",
+			"label": "提升理性",
+			"startdescription": "鍛鍊智力。",
+			"description": "計算機率——"
+		},
+		{
+			"id": "studytextbookpassion",
+			"label": "閱讀詩歌",
+			"startdescription": "我要讓想像力燃得更旺。",
+			"description": "迸發靈感——"
+		}
+	]
 }

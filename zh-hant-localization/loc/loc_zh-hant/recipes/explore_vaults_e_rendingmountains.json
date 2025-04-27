@@ -1,266 +1,64 @@
 {
-    "recipes": [
-        {
-            "id": "explore_vaultrendingmountains1_setup",
-            "label": "探險開始:獵手之穴",
-            "actionId": "explore",
-            "requirements": {
-                "funds": 1,
-                "follower": 1,
-                "vaultrendingmountains1": 1
-            },
-            "effects": {
-                "peril_mountains": 1,
-                "guardian_watchers": 1,
-                "guardian_serpent": 1
-            },
-            "startdescription": "撕祭部落的陷阱迷宮。我們必須穿山越嶺，一路殺入部落。在那之後，毫無疑問的是，我們會在那裡發現別的東西。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
-            "description": ".",
-            "warmup": 30,
-            "craftable": true,
-            "linked": [
-                {
-                    "id": "explorevault_expeditionbegun",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "explore_vaultrendingmountains2_setup",
-            "label": "探險開始:避雪神廟",
-            "actionId": "explore",
-            "requirements": {
-                "funds": 1,
-                "follower": 1,
-                "vaultrendingmountains2": 1
-            },
-            "effects": {
-                "peril_mountains": 1,
-                "guardian_dead": 1,
-                "curse_nowhere": 1
-            },
-            "startdescription": "我們踏雪而行，攀山而上前往那座神廟。如果那些死者甦生過來襲擊我們，我們會幹掉它們。但擋在我們面前的還有一股扭曲的惡意，若是不消滅它，那它會跟著我們回去。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
-            "description": ".",
-            "warmup": 30,
-            "craftable": true,
-            "linked": [
-                {
-                    "id": "explorevault_expeditionbegun",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "explore_vaultrendingmountains3_setup",
-            "label": "探險開始:伊克瑪維之眼",
-            "actionId": "explore",
-            "requirements": {
-                "funds": 1,
-                "follower": 1,
-                "vaultrendingmountains3": 1
-            },
-            "effects": {
-                "peril_mountains": 1,
-                "seal_wardeddoor": 1,
-                "curse_visions": 1
-            },
-            "startdescription": "我們與觀星台之間隔著撕身山脈。那扇門會在我們面前緊閉，讓我們無法入內。我們所見的那些幻象會撕碎我們的五感。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
-            "description": ".",
-            "warmup": 30,
-            "craftable": true,
-            "linked": [
-                {
-                    "id": "explorevault_expeditionbegun",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "explore_vaultrendingmountains4_setup",
-            "label": "探險開始:石狼陵墓",
-            "actionId": "explore",
-            "requirements": {
-                "funds": 1,
-                "follower": 1,
-                "vaultrendingmountains4": 1
-            },
-            "effects": {
-                "peril_mountains": 1,
-                "seal_wardeddoor": 1,
-                "guardian_dead": 1
-            },
-            "startdescription": "自從墓主死了之後，這裡是不是就變成了連太陽都未曾踏足過的地方？不過或許，說墓主已死還為時尚早。如果我們想要洗劫這座寢陵，那我們就得面對雪崩，狂靈還有被手藝精湛的建築師們所密封的那扇墓門。讓我們做好準備吧。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
-            "description": ".",
-            "warmup": 30,
-            "craftable": true,
-            "linked": [
-                {
-                    "id": "explorevault_expeditionbegun",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "explore_vaultrendingmountainsdefault_setup",
-            "label": "探險開始:無影眾王的墓群",
-            "actionId": "explore",
-            "requirements": {
-                "funds": 1,
-                "follower": 1,
-                "vaultrendingmountainsdefault": 1
-            },
-            "effects": {
-                "peril_mountains": 1,
-                "seal_hiddendoor": 1,
-                "guardian_watchers": 1,
-                "curse_affliction": 1
-            },
-            "startdescription": "我們必須翻越群山，闖過守衛，而後解開無影眾王的詛咒。這樣我們或許才能找到寶藏。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
-            "description": ".",
-            "warmup": 30,
-            "craftable": true,
-            "linked": [
-                {
-                    "id": "explorevault_expeditionbegun",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "explorevaultrendingmountains1_success",
-            "label": "戰爭回憶",
-            "actionId": "explore",
-            "requirements": {
-                "vaultrendingmountains1": 1
-            },
-            "effects": {
-                "vaultrendingmountains1": -1
-            },
-            "internaldeck": {
-                "spec": [
-                    "ingredientedgef",
-                    "ingredientedgef",
-                    "ingredientedgef",
-                    "toolforged",
-                    "bookofdissolutionmandaic",
-                    "ingredientforgeb",
-                    "ingredientforgeb",
-                    "ingredientforgeb",
-                    "textbookmandaicaramaic"
-                ],
-                "draws": 9,
-                "defaultcard": "compensationd",
-                "resetonexhaustion": false
-            },
-            "startdescription": "在獵手之穴的塌陷深處，我們找到了一個房間，房間的牆壁上繪滿了戰鬥場景。此處是座聖壇，用以祭奠撕祭部落最偉大的獵手。",
-            "description": "這裡還堆著那些獵手所獵獲的戰利品。裡面也有現在已經滅絕了的動物。",
-            "warmup": 30,
-            "craftable": false
-        },
-        {
-            "id": "explorevaultrendingmountains2_success",
-            "label": "祭壇的外衣",
-            "actionId": "explore",
-            "requirements": {
-                "vaultrendingmountains2": 1
-            },
-            "effects": {
-                "vaultrendingmountains2": -1
-            },
-            "internaldeck": {
-                "spec": [
-                    "toolgraild",
-                    "wherehasshegonevak",
-                    "tooledgef",
-                    "dreamconspiracyskiesphrygian",
-                    "textbookvaksanskrit"
-                ],
-                "draws": 5,
-                "defaultcard": "compensationd",
-                "resetonexhaustion": false
-            },
-            "startdescription": "神殿內聳動著泛冷光的菌菇。要搜刮這個地方，我們先得戴著手套把密布在祭壇上的菌菇都剝下來。它們摸起來冰冷如霜。我們的手套現在也開始發光，我們的呼吸為這冰冷的神殿蒙上了霧氣。",
-            "description": "那些無名祭司在這裡留下了一堆屍骨和一堆珍寶。是祭品嗎？又或者是後來者死在了這裡？那些發光的菌菇用酸腐蝕著屍骨。",
-            "warmup": 30,
-            "craftable": false
-        },
-        {
-            "id": "explorevaultrendingmountains3_success",
-            "label": "天宮的運轉",
-            "actionId": "explore",
-            "requirements": {
-                "vaultrendingmountains3": 1
-            },
-            "effects": {
-                "vaultrendingmountains3": -1
-            },
-            "internaldeck": {
-                "spec": [
-                    "toollanternfcracked",
-                    "larquebinecodexphrygian",
-                    "bookofmasksphrygian",
-                    "toolknockd"
-                ],
-                "draws": 4,
-                "defaultcard": "compensationd",
-                "resetonexhaustion": false
-            },
-            "startdescription": "大望遠鏡生鏽了，從穹頂上掉了下來。鏡頭碎裂。蒼白的光在地板上來迴旋轉，宛若有舞者舉著提燈起舞一般。或許它們在效仿天體的運轉，又或者它們在用此來悼念太陽的消亡。",
-            "description": "居住在這裡的首席天文學家一定是無形之術的實踐者。在他住處那張腐朽的床下，一隻柏木箱子裡，我們找到了我們想要的東西。",
-            "warmup": 30,
-            "craftable": false
-        },
-        {
-            "id": "explorevaultrendingmountains4_success",
-            "label": "狼之將至",
-            "actionId": "explore",
-            "requirements": {
-                "vaultrendingmountains4": 1
-            },
-            "effects": {
-                "vaultrendingmountains4": -1
-            },
-            "internaldeck": {
-                "spec": [
-                    "ingredientwinterd",
-                    "ingredientwinterd",
-                    "ingredientwinterd",
-                    "secondglorymandaic",
-                    "asthesunhiscoursearamaic",
-                    "textbookphrygiangreek"
-                ],
-                "draws": 6,
-                "defaultcard": "compensationd",
-                "resetonexhaustion": false
-            },
-            "startdescription": "死者並沒未發出低語，但陵墓內迴盪著另一種聲音，我們聽到了微弱的嚎叫聲，嚎叫聲漸漸低沉，就彷彿一艘船外殼上的鐵皮逐漸剝落，這聲音攪著我們的骨髓。儘管聽起來非常像，但它絕對不是風的聲音。我們不該在這裡待上太久。",
-            "description": "寒氣逐漸加重，我們的皮膚上都結了一層薄冰。陵墓中央是一個陳放在花崗岩底座上的白色大理石碗狀物。裡面裝滿觸手如灼的冷雪——雪中埋了值得注意的物什。這些東西是藏在此處？還是供奉在此處？除此之外沒有剩下任何東西了。",
-            "warmup": 30,
-            "craftable": false
-        },
-        {
-            "id": "explorevaultrendingmountainsdefault_success",
-            "label": "身後所遺",
-            "actionId": "explore",
-            "requirements": {
-                "vaultrendingmountainsdefault": 1
-            },
-            "effects": {
-                "vaultrendingmountainsdefault": -1
-            },
-            "deckeffect": {
-                "vaultrewardse": 3
-            },
-            "startdescription": "我們把石頭移到一邊，然後用光照亮整座王陵。國王就躺在那裡，已經只剩下一具紙一樣薄而干的屍體，碎骨散落四處。國王並沒有坐起身來，看來他並非不死者。",
-            "description": "無影眾王只會將自己最為珍愛的寶物隨葬。他們並不打算把財富帶到來世。此物是這位王所珍視的隨葬珍寶。",
-            "warmup": 30,
-            "craftable": false,
-            "alt": [
-                {
-                    "id": "expedition.corpse.find.vaultrendingmountainsdefault",
-                    "additional": true
-                }
-            ]
-        }
-    ]
+	"recipes": [
+		{
+			"id": "explore_vaultrendingmountains1_setup",
+			"label": "探險開始:獵手之穴",
+			"startdescription": "撕祭部落的陷阱迷宮。我們必須穿山越嶺，一路殺入部落。在那之後，毫無疑問的是，我們會在那裡發現別的東西。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
+			"description": "."
+		},
+		{
+			"id": "explore_vaultrendingmountains2_setup",
+			"label": "探險開始:避雪神廟",
+			"startdescription": "我們踏雪而行，攀山而上前往那座神廟。如果那些死者甦生過來襲擊我們，我們會幹掉它們。但擋在我們面前的還有一股扭曲的惡意，若是不消滅它，那它會跟著我們回去。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
+			"description": "."
+		},
+		{
+			"id": "explore_vaultrendingmountains3_setup",
+			"label": "探險開始:伊克瑪維之眼",
+			"startdescription": "我們與觀星台之間隔著撕身山脈。那扇門會在我們面前緊閉，讓我們無法入內。我們所見的那些幻象會撕碎我們的五感。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
+			"description": "."
+		},
+		{
+			"id": "explore_vaultrendingmountains4_setup",
+			"label": "探險開始:石狼陵墓",
+			"startdescription": "自從墓主死了之後，這裡是不是就變成了連太陽都未曾踏足過的地方？不過或許，說墓主已死還為時尚早。如果我們想要洗劫這座寢陵，那我們就得面對雪崩，狂靈還有被手藝精湛的建築師們所密封的那扇墓門。讓我們做好準備吧。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
+			"description": "."
+		},
+		{
+			"id": "explore_vaultrendingmountainsdefault_setup",
+			"label": "探險開始:無影眾王的墓群",
+			"startdescription": "我們必須翻越群山，闖過守衛，而後解開無影眾王的詛咒。這樣我們或許才能找到寶藏。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
+			"description": "."
+		},
+		{
+			"id": "explorevaultrendingmountains1_success",
+			"label": "戰爭回憶",
+			"startdescription": "在獵手之穴的塌陷深處，我們找到了一個房間，房間的牆壁上繪滿了戰鬥場景。此處是座聖壇，用以祭奠撕祭部落最偉大的獵手。",
+			"description": "這裡還堆著那些獵手所獵獲的戰利品。裡面也有現在已經滅絕了的動物。"
+		},
+		{
+			"id": "explorevaultrendingmountains2_success",
+			"label": "祭壇的外衣",
+			"startdescription": "神殿內聳動著泛冷光的菌菇。要搜刮這個地方，我們先得戴著手套把密布在祭壇上的菌菇都剝下來。它們摸起來冰冷如霜。我們的手套現在也開始發光，我們的呼吸為這冰冷的神殿蒙上了霧氣。",
+			"description": "那些無名祭司在這裡留下了一堆屍骨和一堆珍寶。是祭品嗎？又或者是後來者死在了這裡？那些發光的菌菇用酸腐蝕著屍骨。"
+		},
+		{
+			"id": "explorevaultrendingmountains3_success",
+			"label": "天宮的運轉",
+			"startdescription": "大望遠鏡生鏽了，從穹頂上掉了下來。鏡頭碎裂。蒼白的光在地板上來迴旋轉，宛若有舞者舉著提燈起舞一般。或許它們在效仿天體的運轉，又或者它們在用此來悼念太陽的消亡。",
+			"description": "居住在這裡的首席天文學家一定是無形之術的實踐者。在他住處那張腐朽的床下，一隻柏木箱子裡，我們找到了我們想要的東西。"
+		},
+		{
+			"id": "explorevaultrendingmountains4_success",
+			"label": "狼之將至",
+			"startdescription": "死者並沒未發出低語，但陵墓內迴盪著另一種聲音，我們聽到了微弱的嚎叫聲，嚎叫聲漸漸低沉，就彷彿一艘船外殼上的鐵皮逐漸剝落，這聲音攪著我們的骨髓。儘管聽起來非常像，但它絕對不是風的聲音。我們不該在這裡待上太久。",
+			"description": "寒氣逐漸加重，我們的皮膚上都結了一層薄冰。陵墓中央是一個陳放在花崗岩底座上的白色大理石碗狀物。裡面裝滿觸手如灼的冷雪——雪中埋了值得注意的物什。這些東西是藏在此處？還是供奉在此處？除此之外沒有剩下任何東西了。"
+		},
+		{
+			"id": "explorevaultrendingmountainsdefault_success",
+			"label": "身後所遺",
+			"startdescription": "我們把石頭移到一邊，然後用光照亮整座王陵。國王就躺在那裡，已經只剩下一具紙一樣薄而干的屍體，碎骨散落四處。國王並沒有坐起身來，看來他並非不死者。",
+			"description": "無影眾王只會將自己最為珍愛的寶物隨葬。他們並不打算把財富帶到來世。此物是這位王所珍視的隨葬珍寶。"
+		}
+	]
 }
