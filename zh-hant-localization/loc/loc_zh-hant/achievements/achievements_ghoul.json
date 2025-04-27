@@ -1,9 +1,14 @@
-{"achievements": [
-
-  { "id": "A_ENDING_MINORWINTERVICTORY", "label": "沒有什麼必須被遺忘",
-  "descriptionunlocked": "我背負著失落司辰的色彩，彷彿一塊身燃玫瑰色火焰的炭。"
-  },
-  { "id": "A_ENDING_MINORCROWNEDGROWTHVICTORY", "label": "太陽吸起的一切四處侵染的瘴氣",
-  "descriptionunlocked": "我已將戴冠之孳的種子喝進肚中。" }
-
-]}
+{
+  "achievements": [
+    {
+      "id": "A_ENDING_MINORWINTERVICTORY",
+      "label": "沒有什麼必須被遺忘",
+      "descriptionunlocked": "我背負著失落司辰的色彩，彷彿一塊身燃玫瑰色火焰的炭。"
+    },
+    {
+      "id": "A_ENDING_MINORCROWNEDGROWTHVICTORY",
+      "label": "太陽吸起的一切四處侵染的瘴氣",
+      "descriptionunlocked": "我已將戴冠之孳的種子喝進肚中。"
+    }
+  ]
+}

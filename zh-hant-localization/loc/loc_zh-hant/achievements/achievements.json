@@ -1,134 +1,337 @@
-{"achievements": [
-
-  { "id": "A_CATEGORY_CS", "label": "密教模擬器" },
-  { "id": "A_CATEGORY_DANCER", "label": "舞者" },
-  { "id": "A_CATEGORY_PRIEST", "label": "教士" },
-  { "id": "A_CATEGORY_GHOUL", "label": "食屍鬼" },
-  { "id": "A_CATEGORY_EXILE", "label": "流亡者" },
-  { "id": "A_CATEGORY_EVERAFTER", "label": "共度餘生" },
-  { "id": "A_CATEGORY_MODS", "label": "Mods" },
-
- { "id": "A_CULT_LANTERN", "label": "輝光之鏡",
- "descriptionunlocked": "我已奉身於解明洩露自更猛烈處的光芒。" },
- { "id": "A_ENDING_DESPAIRENDING", "label": "豈有最苦，苦海無度",
- "descriptionunlocked": "絕望似狼，吞噬念想，也吞噬了我。" },
- { "id": "A_ENDING_DEATHOFTHEBODY", "label": "他們會在哪裡將我找見呢？",
- "descriptionunlocked": "我的身體已死。也許我的精神進入了漫宿。" },
- { "id": "A_MANSUS_WOOD", "label": "在我生命的當途，一片黑暗林地之中",
- "descriptionunlocked": "林地生長於漫宿牆外。每一個研習諸史的人都知道，漫宿無牆。" },
- { "id": "A_MANSUS_WHITEDOOR", "label": "日落無言",
- "descriptionunlocked": "話語不能穿過純白之門，我卻能。" },
- { "id": "A_ENDING_WINTERSACRIFICE", "label": "鐘鳴十二響",
- "descriptionunlocked": "我說話算數，但我沒有朋友。" },
- { "id": "A_CULT_FORGE", "label": "不屈教團",
- "descriptionunlocked": "我已奉身於改變與再造之火。" },
- { "id": "A_CULT_GRAIL", "label": "血杯教團",
- "descriptionunlocked": "我已奉身於生育、鮮血與食慾之奧秘。" },
- { "id": "A_CULT_KNOCK", "label": "神聖傷口會",
- "descriptionunlocked": "我已奉身於洞開門扉的司辰。" },
- { "id": "A_CULT_SECRETHISTORIES", "label": "聖許德拉會",
- "descriptionunlocked": "我已奉身於研究五大歷史，及其數以千計、亦虛亦實的分支。" },
- { "id": "A_MANSUS_STAGDOOR", "label": "它的口袋裡裝了什麼？",
- "descriptionunlocked": "我答出了牡鹿之門的謎語，躋身通曉者之列。" },
- { "id": "A_ENDING_WORKVICTORY", "label": "我沒有…*不快樂*",
- "descriptionunlocked": "我勤奮工作過。我埋頭苦幹過。我擁有過某種充實的生活。" },
- { "id": "A_ENDING_WORKVICTORYB", "label": "高階主管辦公室",
- "descriptionunlocked": "我將受我的同儕尊敬。然後總有一天，我將死去。" },
- { "id": "A_ENDING_ARREST", "label": "隔檻望日",
- "descriptionunlocked": "對我的審判存在爭議。但拜各位督察所賜，我還是落到了這個地方。" },
- { "id": "A_SUMMON_GENERIC", "label": "召喚異神",
- "descriptionunlocked": "我召出了一隻來自世界表皮另一邊的生物。" },
- { "id": "A_MANSUS_SPIDERDOOR", "label": "滲出血珠",
- "descriptionunlocked": "我已獻上必要的祭品，遂得以通過蜘蛛之門進入漫宿。" },
- { "id": "A_ENDING_VISIONSENDING", "label": "於巨大的精神壓力下",
- "descriptionunlocked": "我再也辨不出什麼是真實，什麼不是。" },
- { "id": "A_CULT_MOTH", "label": "荒林俱樂部",
- "descriptionunlocked": "我已奉身於混沌，還有變幻莫測的司辰。" },
- { "id": "A_MANSUS_PEACOCKDOOR", "label": "於玻璃花園",
- "descriptionunlocked": "孔雀之門樂於對我讓行，迎我入內。" },
- { "id": "A_CULT_WINTER", "label": "寂靜之子",
- "descriptionunlocked": "我已奉身於將臨的靜默與終結萬物的嚴寒。" },
- { "id": "A_CULT_HEART", "label": "不休聖堂",
- "descriptionunlocked": "我已奉身於永無止息的鼓點。" },
- { "id": "A_PROMOTED_EXALTED_LANTERN", "label": "先見者",
- "descriptionunlocked": "我已將一名信徒投射進燈之路途。" },
- { "id": "A_ENDING_MINORLANTERNVICTORY", "label": "輝光歸於你",
- "descriptionunlocked": "我跟在守夜人身後而行。我再不會變老。" },
- { "id": "A_CULT_EDGE", "label": "閃刃教會",
- "descriptionunlocked": "我已奉身於抗爭與征服之司辰。" },
- { "id": "A_PROMOTED_EXALTED_GRAIL", "label": "縱情者",
- "descriptionunlocked": "我已將一名信徒敬獻給杯之筵宴。" },
- { "id": "A_ENDING_MINORFORGEVICTORY", "label": "毛髮全無，千古不朽",
- "descriptionunlocked": "我征服鑄爐，贏得了勝利。我再不會變老。" },
- { "id": "A_PROMOTED_EXALTED_FORGE", "label": "重塑者",
- "descriptionunlocked": "我已將一名強力的信徒從鑄爐之火中塑形而出。" },
- { "id": "A_ENDING_MINORGRAILVICTORY", "label": "外表光滑，內裡鮮紅",
- "descriptionunlocked": "我貪食了黏稠之杯結出的果實。我再不會變老。" },
- { "id": "A_PROMOTED_EXALTED_MOTH", "label": "易皮者",
- "descriptionunlocked": "我已將一名信徒引領至飛蛾之林。" },
- { "id": "A_PROMOTED_EXALTED_KNOCK", "label": "鑰匙",
- "descriptionunlocked": "我已將一名信徒鑄造為真正的開啟之器。" },
- { "id": "A_PROMOTED_EXALTED_WINTER", "label": "唯余靜默",
- "descriptionunlocked": "....................." },
- { "id": "A_PROMOTED_EXALTED_HEART", "label": "蠱舞者",
- "descriptionunlocked": "我已將一名信徒拽引入無盡的心之舞蹈。" },
- { "id": "A_PROMOTED_EXALTED_EDGE", "label": "暗殺者",
- "descriptionunlocked": "我已將一名信徒磨礪成致命之刃。" },
- { "id": "A_MANSUS_TRICUSPIDGATE", "label": "走在我前的太陽",
- "descriptionunlocked": "日有其躔，吾亦如是。" },
- { "id": "A_ENDING_MAJORFORGEVICTORY", "label": "破曉",
- "descriptionunlocked": "我被耗盡，但另一個我升得更高。" },
- { "id": "A_ENDING_MAJORLANTERNVICTORY", "label": "第三條道路",
- "descriptionunlocked": "我迷失在另一個我的輝煌中。" },
- { "id": "A_ENDING_MAJORGRAILVICTORY", "label": "我即筵宴",
- "descriptionunlocked": "我被吞噬，被另一個升得更高的我。" },
- { "id": "A_ENDING_CATVICTORY", "label": "共度餘生：卡特",
- "descriptionunlocked": "她會力保我的睡夢甜蜜美好。" },
- { "id": "A_ENDING_MINORLANTERNVICTORY_WITHRISEN", "label": "鬼倀歸於你",
- "descriptionunlocked": "我們跟在守夜人身後而行。我們再不會變老。" },
- { "id": "A_ENDING_MINORFORGEVICTORY_WITHRISEN", "label": "毛髮全無，半朽不朽",
- "descriptionunlocked": "我們征服鑄爐，贏得了勝利。我們再不會變老。" },
- { "id": "A_ENDING_ENIDVICTORY", "label": "共度餘生：伊妮德",
- "descriptionunlocked": "我的努力得到了厚報。" },
- { "id": "A_ENDING_RENIRAVICTORY", "label": "共度餘生：芮妮拉",
- "descriptionunlocked": "我為她迷醉。" },
- { "id": "A_ENDING_MINORGRAILVICTORY_WITHRISEN", "label": "外表光滑，內裡已死",
- "descriptionunlocked": "我們貪食了黏稠之杯結出的果實。我們再不會變老。" },
- { "id": "A_ENDING_VICTORVICTORY", "label": "共度餘生：維克多",
- "descriptionunlocked": "我們是幸福的，我覺得。" },
- { "id": "A_ENDING_AUCLAIRVICTORY", "label": "共度餘生：奧克萊爾",
- "descriptionunlocked": "而今我們是精通心靈的學者。" },
- { "id": "A_ENDING_TRISTANVICTORY", "label": "共度餘生：崔斯坦",
- "descriptionunlocked": "我們的肉體會疲倦。我們會老去。但我不後悔。" },
- { "id": "A_ENDING_VALCIANEVICTORY", "label": "共度餘生：萬查妮",
- "descriptionunlocked": "她渴求被人找見。" },
- { "id": "A_ENDING_LAIDLAWVICTORY", "label": "共度餘生：萊德勞",
- "descriptionunlocked": "我們覺得我們已找到了一種可行的方式。" },
- { "id": "A_ENDING_ELRIDGEVICTORY", "label": "共度餘生：埃爾里奇",
- "descriptionunlocked": "我許會獎勵於他。" },
- { "id": "A_ENDING_ROSEVICTORY", "label": "共度餘生：蘿絲",
- "descriptionunlocked": "我們看起來是一對般配的愛人。" },
- { "id": "A_ENDING_SALIBAVICTORY", "label": "共度餘生：薩利巴",
- "descriptionunlocked": "我不是說這個結果不好。" },
- { "id": "A_ENDING_LEOVICTORY", "label": "共度餘生：里奧",
- "descriptionunlocked": "他即是愛的旋律，我如今聆聽到了他。" },
- { "id": "A_ENDING_VIOLETVICTORY", "label": "共度餘生：維奧萊特",
- "descriptionunlocked": "我們一支一支地澆滅燭火。" },
- { "id": "A_ENDING_NEVILLEVICTORY", "label": "共度餘生：內維爾",
- "descriptionunlocked": "過後他會向我表示感謝。" },
- { "id": "A_ENDING_CLIFTONVICTORY", "label": "共度餘生：克利夫頓",
- "descriptionunlocked": "他這個人啊，讓人笑也不是哭也不是。" },
- { "id": "A_ENDING_SLEEVICTORY", "label": "共度餘生：思雷",
- "descriptionunlocked": "我們的家屋裡隨處散落著他寫的字條。" },
- { "id": "A_ENDING_PORTERVICTORY", "label": "共度餘生：波特",
- "descriptionunlocked": "這就夠了。" },
- { "id": "A_ENDING_YSABETVICTORY", "label": "共度餘生：伊莎貝特",
- "descriptionunlocked": "我們的家屋是振翅小生靈的家園。" },
- { "id": "A_ENDING_SYLVIAVICTORY", "label": "共度餘生：西爾維婭",
- "descriptionunlocked": "與她生活並不輕鬆。" },
- { "id": "A_ENDING_CLOVETTEVICTORY", "label": "共度餘生：克羅薇特",
- "descriptionunlocked": "在一起的我們的心跳得更快。" },
- { "id": "A_ENDING_DOROTHYVICTORY", "label": "共度餘生：多蘿西",
- "descriptionunlocked": "我們會夢到同樣的粉紅色夢境。" }
-
-]}
+{
+  "achievements": [
+    {
+      "id": "A_CATEGORY_CS",
+      "label": "密教模擬器"
+    },
+    {
+      "id": "A_CATEGORY_DANCER",
+      "label": "舞者"
+    },
+    {
+      "id": "A_CATEGORY_PRIEST",
+      "label": "教士"
+    },
+    {
+      "id": "A_CATEGORY_GHOUL",
+      "label": "食屍鬼"
+    },
+    {
+      "id": "A_CATEGORY_EXILE",
+      "label": "流亡者"
+    },
+    {
+      "id": "A_CATEGORY_EVERAFTER",
+      "label": "共度餘生"
+    },
+    {
+      "id": "A_CATEGORY_MODS",
+      "label": "Mods"
+    },
+    {
+      "id": "A_CULT_LANTERN",
+      "label": "輝光之鏡",
+      "descriptionunlocked": "我已奉身於解明洩露自更猛烈處的光芒。"
+    },
+    {
+      "id": "A_ENDING_DESPAIRENDING",
+      "label": "豈有最苦，苦海無度",
+      "descriptionunlocked": "絕望似狼，吞噬念想，也吞噬了我。"
+    },
+    {
+      "id": "A_ENDING_DEATHOFTHEBODY",
+      "label": "他們會在哪裡將我找見呢？",
+      "descriptionunlocked": "我的身體已死。也許我的精神進入了漫宿。"
+    },
+    {
+      "id": "A_MANSUS_WOOD",
+      "label": "在我生命的當途，一片黑暗林地之中",
+      "descriptionunlocked": "林地生長於漫宿牆外。每一個研習諸史的人都知道，漫宿無牆。"
+    },
+    {
+      "id": "A_MANSUS_WHITEDOOR",
+      "label": "日落無言",
+      "descriptionunlocked": "話語不能穿過純白之門，我卻能。"
+    },
+    {
+      "id": "A_ENDING_WINTERSACRIFICE",
+      "label": "鐘鳴十二響",
+      "descriptionunlocked": "我說話算數，但我沒有朋友。"
+    },
+    {
+      "id": "A_CULT_FORGE",
+      "label": "不屈教團",
+      "descriptionunlocked": "我已奉身於改變與再造之火。"
+    },
+    {
+      "id": "A_CULT_GRAIL",
+      "label": "血杯教團",
+      "descriptionunlocked": "我已奉身於生育、鮮血與食慾之奧秘。"
+    },
+    {
+      "id": "A_CULT_KNOCK",
+      "label": "神聖傷口會",
+      "descriptionunlocked": "我已奉身於洞開門扉的司辰。"
+    },
+    {
+      "id": "A_CULT_SECRETHISTORIES",
+      "label": "聖許德拉會",
+      "descriptionunlocked": "我已奉身於研究五大歷史，及其數以千計、亦虛亦實的分支。"
+    },
+    {
+      "id": "A_MANSUS_STAGDOOR",
+      "label": "它的口袋裡裝了什麼？",
+      "descriptionunlocked": "我答出了牡鹿之門的謎語，躋身通曉者之列。"
+    },
+    {
+      "id": "A_ENDING_WORKVICTORY",
+      "label": "我沒有…*不快樂*",
+      "descriptionunlocked": "我勤奮工作過。我埋頭苦幹過。我擁有過某種充實的生活。"
+    },
+    {
+      "id": "A_ENDING_WORKVICTORYB",
+      "label": "高階主管辦公室",
+      "descriptionunlocked": "我將受我的同儕尊敬。然後總有一天，我將死去。"
+    },
+    {
+      "id": "A_ENDING_ARREST",
+      "label": "隔檻望日",
+      "descriptionunlocked": "對我的審判存在爭議。但拜各位督察所賜，我還是落到了這個地方。"
+    },
+    {
+      "id": "A_SUMMON_GENERIC",
+      "label": "召喚異神",
+      "descriptionunlocked": "我召出了一隻來自世界表皮另一邊的生物。"
+    },
+    {
+      "id": "A_MANSUS_SPIDERDOOR",
+      "label": "滲出血珠",
+      "descriptionunlocked": "我已獻上必要的祭品，遂得以通過蜘蛛之門進入漫宿。"
+    },
+    {
+      "id": "A_ENDING_VISIONSENDING",
+      "label": "於巨大的精神壓力下",
+      "descriptionunlocked": "我再也辨不出什麼是真實，什麼不是。"
+    },
+    {
+      "id": "A_CULT_MOTH",
+      "label": "荒林俱樂部",
+      "descriptionunlocked": "我已奉身於混沌，還有變幻莫測的司辰。"
+    },
+    {
+      "id": "A_MANSUS_PEACOCKDOOR",
+      "label": "於玻璃花園",
+      "descriptionunlocked": "孔雀之門樂於對我讓行，迎我入內。"
+    },
+    {
+      "id": "A_CULT_WINTER",
+      "label": "寂靜之子",
+      "descriptionunlocked": "我已奉身於將臨的靜默與終結萬物的嚴寒。"
+    },
+    {
+      "id": "A_CULT_HEART",
+      "label": "不休聖堂",
+      "descriptionunlocked": "我已奉身於永無止息的鼓點。"
+    },
+    {
+      "id": "A_PROMOTED_EXALTED_LANTERN",
+      "label": "先見者",
+      "descriptionunlocked": "我已將一名信徒投射進燈之路途。"
+    },
+    {
+      "id": "A_ENDING_MINORLANTERNVICTORY",
+      "label": "輝光歸於你",
+      "descriptionunlocked": "我跟在守夜人身後而行。我再不會變老。"
+    },
+    {
+      "id": "A_CULT_EDGE",
+      "label": "閃刃教會",
+      "descriptionunlocked": "我已奉身於抗爭與征服之司辰。"
+    },
+    {
+      "id": "A_PROMOTED_EXALTED_GRAIL",
+      "label": "縱情者",
+      "descriptionunlocked": "我已將一名信徒敬獻給杯之筵宴。"
+    },
+    {
+      "id": "A_ENDING_MINORFORGEVICTORY",
+      "label": "毛髮全無，千古不朽",
+      "descriptionunlocked": "我征服鑄爐，贏得了勝利。我再不會變老。"
+    },
+    {
+      "id": "A_PROMOTED_EXALTED_FORGE",
+      "label": "重塑者",
+      "descriptionunlocked": "我已將一名強力的信徒從鑄爐之火中塑形而出。"
+    },
+    {
+      "id": "A_ENDING_MINORGRAILVICTORY",
+      "label": "外表光滑，內裡鮮紅",
+      "descriptionunlocked": "我貪食了黏稠之杯結出的果實。我再不會變老。"
+    },
+    {
+      "id": "A_PROMOTED_EXALTED_MOTH",
+      "label": "易皮者",
+      "descriptionunlocked": "我已將一名信徒引領至飛蛾之林。"
+    },
+    {
+      "id": "A_PROMOTED_EXALTED_KNOCK",
+      "label": "鑰匙",
+      "descriptionunlocked": "我已將一名信徒鑄造為真正的開啟之器。"
+    },
+    {
+      "id": "A_PROMOTED_EXALTED_WINTER",
+      "label": "唯余靜默",
+      "descriptionunlocked": "....................."
+    },
+    {
+      "id": "A_PROMOTED_EXALTED_HEART",
+      "label": "蠱舞者",
+      "descriptionunlocked": "我已將一名信徒拽引入無盡的心之舞蹈。"
+    },
+    {
+      "id": "A_PROMOTED_EXALTED_EDGE",
+      "label": "暗殺者",
+      "descriptionunlocked": "我已將一名信徒磨礪成致命之刃。"
+    },
+    {
+      "id": "A_MANSUS_TRICUSPIDGATE",
+      "label": "走在我前的太陽",
+      "descriptionunlocked": "日有其躔，吾亦如是。"
+    },
+    {
+      "id": "A_ENDING_MAJORFORGEVICTORY",
+      "label": "破曉",
+      "descriptionunlocked": "我被耗盡，但另一個我升得更高。"
+    },
+    {
+      "id": "A_ENDING_MAJORLANTERNVICTORY",
+      "label": "第三條道路",
+      "descriptionunlocked": "我迷失在另一個我的輝煌中。"
+    },
+    {
+      "id": "A_ENDING_MAJORGRAILVICTORY",
+      "label": "我即筵宴",
+      "descriptionunlocked": "我被吞噬，被另一個升得更高的我。"
+    },
+    {
+      "id": "A_ENDING_CATVICTORY",
+      "label": "共度餘生：卡特",
+      "descriptionunlocked": "她會力保我的睡夢甜蜜美好。"
+    },
+    {
+      "id": "A_ENDING_MINORLANTERNVICTORY_WITHRISEN",
+      "label": "鬼倀歸於你",
+      "descriptionunlocked": "我們跟在守夜人身後而行。我們再不會變老。"
+    },
+    {
+      "id": "A_ENDING_MINORFORGEVICTORY_WITHRISEN",
+      "label": "毛髮全無，半朽不朽",
+      "descriptionunlocked": "我們征服鑄爐，贏得了勝利。我們再不會變老。"
+    },
+    {
+      "id": "A_ENDING_ENIDVICTORY",
+      "label": "共度餘生：伊妮德",
+      "descriptionunlocked": "我的努力得到了厚報。"
+    },
+    {
+      "id": "A_ENDING_RENIRAVICTORY",
+      "label": "共度餘生：芮妮拉",
+      "descriptionunlocked": "我為她迷醉。"
+    },
+    {
+      "id": "A_ENDING_MINORGRAILVICTORY_WITHRISEN",
+      "label": "外表光滑，內裡已死",
+      "descriptionunlocked": "我們貪食了黏稠之杯結出的果實。我們再不會變老。"
+    },
+    {
+      "id": "A_ENDING_VICTORVICTORY",
+      "label": "共度餘生：維克多",
+      "descriptionunlocked": "我們是幸福的，我覺得。"
+    },
+    {
+      "id": "A_ENDING_AUCLAIRVICTORY",
+      "label": "共度餘生：奧克萊爾",
+      "descriptionunlocked": "而今我們是精通心靈的學者。"
+    },
+    {
+      "id": "A_ENDING_TRISTANVICTORY",
+      "label": "共度餘生：崔斯坦",
+      "descriptionunlocked": "我們的肉體會疲倦。我們會老去。但我不後悔。"
+    },
+    {
+      "id": "A_ENDING_VALCIANEVICTORY",
+      "label": "共度餘生：萬查妮",
+      "descriptionunlocked": "她渴求被人找見。"
+    },
+    {
+      "id": "A_ENDING_LAIDLAWVICTORY",
+      "label": "共度餘生：萊德勞",
+      "descriptionunlocked": "我們覺得我們已找到了一種可行的方式。"
+    },
+    {
+      "id": "A_ENDING_ELRIDGEVICTORY",
+      "label": "共度餘生：埃爾里奇",
+      "descriptionunlocked": "我許會獎勵於他。"
+    },
+    {
+      "id": "A_ENDING_ROSEVICTORY",
+      "label": "共度餘生：蘿絲",
+      "descriptionunlocked": "我們看起來是一對般配的愛人。"
+    },
+    {
+      "id": "A_ENDING_SALIBAVICTORY",
+      "label": "共度餘生：薩利巴",
+      "descriptionunlocked": "我不是說這個結果不好。"
+    },
+    {
+      "id": "A_ENDING_LEOVICTORY",
+      "label": "共度餘生：里奧",
+      "descriptionunlocked": "他即是愛的旋律，我如今聆聽到了他。"
+    },
+    {
+      "id": "A_ENDING_VIOLETVICTORY",
+      "label": "共度餘生：維奧萊特",
+      "descriptionunlocked": "我們一支一支地澆滅燭火。"
+    },
+    {
+      "id": "A_ENDING_NEVILLEVICTORY",
+      "label": "共度餘生：內維爾",
+      "descriptionunlocked": "過後他會向我表示感謝。"
+    },
+    {
+      "id": "A_ENDING_CLIFTONVICTORY",
+      "label": "共度餘生：克利夫頓",
+      "descriptionunlocked": "他這個人啊，讓人笑也不是哭也不是。"
+    },
+    {
+      "id": "A_ENDING_SLEEVICTORY",
+      "label": "共度餘生：思雷",
+      "descriptionunlocked": "我們的家屋裡隨處散落著他寫的字條。"
+    },
+    {
+      "id": "A_ENDING_PORTERVICTORY",
+      "label": "共度餘生：波特",
+      "descriptionunlocked": "這就夠了。"
+    },
+    {
+      "id": "A_ENDING_YSABETVICTORY",
+      "label": "共度餘生：伊莎貝特",
+      "descriptionunlocked": "我們的家屋是振翅小生靈的家園。"
+    },
+    {
+      "id": "A_ENDING_SYLVIAVICTORY",
+      "label": "共度餘生：西爾維婭",
+      "descriptionunlocked": "與她生活並不輕鬆。"
+    },
+    {
+      "id": "A_ENDING_CLOVETTEVICTORY",
+      "label": "共度餘生：克羅薇特",
+      "descriptionunlocked": "在一起的我們的心跳得更快。"
+    },
+    {
+      "id": "A_ENDING_DOROTHYVICTORY",
+      "label": "共度餘生：多蘿西",
+      "descriptionunlocked": "我們會夢到同樣的粉紅色夢境。"
+    }
+  ]
+}

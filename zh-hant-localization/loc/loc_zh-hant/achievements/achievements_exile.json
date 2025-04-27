@@ -1,37 +1,59 @@
-{"achievements": [
-
-  { "id": "A_ENDING_FOECAUGHTUP", "label": "就當它是一件聖誕禮物吧",
-  "descriptionunlocked": "我都不覺得它能被稱作一具屍體，甚至連紀念品都算不上。"
-  },
-  { "id": "A_ENDING_OBSCURITYVICTORYA", "label": "地球的另一面",
-  "descriptionunlocked": "我不能冒讓他們重新發現我蹤跡的風險。"
-  },
-  { "id": "A_ENDING_OBSCURITYVICTORYB", "label": "甜美的骨頭",
-  "descriptionunlocked": "任何情況下，清算人均不得入內。"
-  },
-  { "id": "A_ENDING_OBSCURITYVICTORYC", "label": "絲絨豪宅",
-  "descriptionunlocked": "我曾貧窮過，也曾富有過，而我發覺我更樂意當個有錢人。"
-  },
-  { "id": "A_ENDING_OBSCURITYVICTORYA_FOESLAIN", "label": "只要最佳人選",
-  "descriptionunlocked": "我可以推薦一位專業人士接受你的委託……"
-  },
-  { "id": "A_ENDING_OBSCURITYVICTORYB_FOESLAIN", "label": "就業機會",
-  "descriptionunlocked": "不知怎麼，我沒辦法停止思考這件事……"
-  },
-  { "id": "A_ENDING_OBSCURITYVICTORYC_FOESLAIN", "label": "與夕陽作伴",
-  "descriptionunlocked": "世界很大，還有很多沒有被地圖標記的地方。"
-  },
-  { "id": "A_ENDING_COLONEL", "label": "維繫永恆之物",
-  "descriptionunlocked": "紛爭正是這個世界的引擎"
-  },
-  { "id": "A_ENDING_LIONSMITH", "label": "其樂無窮",
-  "descriptionunlocked": "鬥爭的對立面正是死亡。"
-  },
-  { "id": "A_ENDING_WOLF", "label": "火焰最後的功用",
-  "descriptionunlocked": "狼將與所有的漂泊之火共赴饕宴。"
-  },
-  { "id": "A_ENDING_VELVET", "label": "血裔",
-  "descriptionunlocked": "任何研習諸史的學者都知道：存乎中，形乎外。非此即彼。"
-  }
-
-]}
+{
+  "achievements": [
+    {
+      "id": "A_ENDING_FOECAUGHTUP",
+      "label": "就當它是一件聖誕禮物吧",
+      "descriptionunlocked": "我都不覺得它能被稱作一具屍體，甚至連紀念品都算不上。"
+    },
+    {
+      "id": "A_ENDING_OBSCURITYVICTORYA",
+      "label": "地球的另一面",
+      "descriptionunlocked": "我不能冒讓他們重新發現我蹤跡的風險。"
+    },
+    {
+      "id": "A_ENDING_OBSCURITYVICTORYB",
+      "label": "甜美的骨頭",
+      "descriptionunlocked": "任何情況下，清算人均不得入內。"
+    },
+    {
+      "id": "A_ENDING_OBSCURITYVICTORYC",
+      "label": "絲絨豪宅",
+      "descriptionunlocked": "我曾貧窮過，也曾富有過，而我發覺我更樂意當個有錢人。"
+    },
+    {
+      "id": "A_ENDING_OBSCURITYVICTORYA_FOESLAIN",
+      "label": "只要最佳人選",
+      "descriptionunlocked": "我可以推薦一位專業人士接受你的委託……"
+    },
+    {
+      "id": "A_ENDING_OBSCURITYVICTORYB_FOESLAIN",
+      "label": "就業機會",
+      "descriptionunlocked": "不知怎麼，我沒辦法停止思考這件事……"
+    },
+    {
+      "id": "A_ENDING_OBSCURITYVICTORYC_FOESLAIN",
+      "label": "與夕陽作伴",
+      "descriptionunlocked": "世界很大，還有很多沒有被地圖標記的地方。"
+    },
+    {
+      "id": "A_ENDING_COLONEL",
+      "label": "維繫永恆之物",
+      "descriptionunlocked": "紛爭正是這個世界的引擎"
+    },
+    {
+      "id": "A_ENDING_LIONSMITH",
+      "label": "其樂無窮",
+      "descriptionunlocked": "鬥爭的對立面正是死亡。"
+    },
+    {
+      "id": "A_ENDING_WOLF",
+      "label": "火焰最後的功用",
+      "descriptionunlocked": "狼將與所有的漂泊之火共赴饕宴。"
+    },
+    {
+      "id": "A_ENDING_VELVET",
+      "label": "血裔",
+      "descriptionunlocked": "任何研習諸史的學者都知道：存乎中，形乎外。非此即彼。"
+    }
+  ]
+}
