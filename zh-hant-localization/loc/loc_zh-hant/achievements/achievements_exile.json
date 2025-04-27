@@ -16,7 +16,7 @@
   "descriptionunlocked": "我可以推薦一位專業人士接受你的委託……"
   },
   { "id": "A_ENDING_OBSCURITYVICTORYB_FOESLAIN", "label": "就業機會",
-  "descriptionunlocked": "不知怎麼，我沒法停止思考這件事……"
+  "descriptionunlocked": "不知怎麼，我沒辦法停止思考這件事……"
   },
   { "id": "A_ENDING_OBSCURITYVICTORYC_FOESLAIN", "label": "與夕陽作伴",
   "descriptionunlocked": "世界很大，還有很多沒有被地圖標記的地方。"
@@ -32,7 +32,6 @@
   },
   { "id": "A_ENDING_VELVET", "label": "血裔",
   "descriptionunlocked": "任何研習諸史的學者都知道：存乎中，形乎外。非此即彼。"
-  },
-
+  }
 
 ]}

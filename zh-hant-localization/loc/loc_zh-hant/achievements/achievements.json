@@ -32,8 +32,8 @@
  "descriptionunlocked": "我答出了牡鹿之門的謎語，躋身通曉者之列。" },
  { "id": "A_ENDING_WORKVICTORY", "label": "我沒有…*不快樂*",
  "descriptionunlocked": "我勤奮工作過。我埋頭苦幹過。我擁有過某種充實的生活。" },
- { "id": "A_ENDING_WORKVICTORYB", "label": "高管辦公室",
- "descriptionunlocked": "我將受我的同儕尊敬。然後終有一天，我將死去。" },
+ { "id": "A_ENDING_WORKVICTORYB", "label": "高階主管辦公室",
+ "descriptionunlocked": "我將受我的同儕尊敬。然後總有一天，我將死去。" },
  { "id": "A_ENDING_ARREST", "label": "隔檻望日",
  "descriptionunlocked": "對我的審判存在爭議。但拜各位督察所賜，我還是落到了這個地方。" },
  { "id": "A_SUMMON_GENERIC", "label": "召喚異神",
@@ -107,7 +107,7 @@
  { "id": "A_ENDING_ELRIDGEVICTORY", "label": "共度餘生：埃爾里奇",
  "descriptionunlocked": "我許會獎勵於他。" },
  { "id": "A_ENDING_ROSEVICTORY", "label": "共度餘生：蘿絲",
- "descriptionunlocked": "我們看上去是一對般配的愛人。" },
+ "descriptionunlocked": "我們看起來是一對般配的愛人。" },
  { "id": "A_ENDING_SALIBAVICTORY", "label": "共度餘生：薩利巴",
  "descriptionunlocked": "我不是說這個結果不好。" },
  { "id": "A_ENDING_LEOVICTORY", "label": "共度餘生：里奧",
@@ -129,6 +129,6 @@
  { "id": "A_ENDING_CLOVETTEVICTORY", "label": "共度餘生：克羅薇特",
  "descriptionunlocked": "在一起的我們的心跳得更快。" },
  { "id": "A_ENDING_DOROTHYVICTORY", "label": "共度餘生：多蘿西",
- "descriptionunlocked": "我們會夢到同樣的粉紅色夢境。" },
+ "descriptionunlocked": "我們會夢到同樣的粉紅色夢境。" }
 
 ]}
