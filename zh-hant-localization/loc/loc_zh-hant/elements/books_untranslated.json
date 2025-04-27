@@ -137,7 +137,7 @@
                 "auctionable": 1,
                 "textlatin": 1
             },
-            "description": "亞歷山德羅·拉克羅切親王耗費多年時間暗中鑽研從意大利中部富奇諾沼澤獲得的碑文。他的研究成果能夠助你閱讀富奇諾語文獻……不過本書以一種簡單的拉丁語密碼寫成，你需要先破譯密碼。",
+            "description": "亞歷山德羅·拉克羅切親王耗費多年時間暗中鑽研從義大利中部富奇諾沼澤獲得的碑文。他的研究成果能夠助你閱讀富奇諾語文獻……不過本書以一種簡單的拉丁語密碼寫成，你需要先破譯密碼。",
             "xtriggers": {
                 "scholarlatin": "textbookfucine"
             }
@@ -277,7 +277,7 @@
                 "auctionable": 2,
                 "textaramaic": 1
             },
-            "description": "書中的圖解和插圖在數世紀後依然優美精緻，催人睏意，偶爾還催人肉慾。亞蘭語著。",
+            "description": "書中的圖解和插圖在數世紀後依然優美精緻，催人睡意，偶爾還催人肉慾。亞蘭語著。",
             "xtriggers": {
                 "scholararamaic": "matthiasamethystloss"
             }
@@ -291,7 +291,7 @@
                 "auctionable": 2,
                 "textaramaic": 1
             },
-            "description": "書中的圖解和插圖在數世紀後依然優美精緻，催人睏意，偶爾還催人肉慾。亞蘭語著。",
+            "description": "書中的圖解和插圖在數世紀後依然優美精緻，催人睡意，偶爾還催人肉慾。亞蘭語著。",
             "xtriggers": {
                 "scholararamaic": "matthiasamethysttransformation"
             }
@@ -305,7 +305,7 @@
                 "auctionable": 2,
                 "textaramaic": 1
             },
-            "description": "書中的圖解和插圖在數世紀後依然優美精緻，催人睏意，偶爾還催人肉慾。亞蘭語著。",
+            "description": "書中的圖解和插圖在數世紀後依然優美精緻，催人睡意，偶爾還催人肉慾。亞蘭語著。",
             "xtriggers": {
                 "scholararamaic": "matthiasamethystpursuit"
             }
@@ -319,7 +319,7 @@
                 "auctionable": 2,
                 "textlatin": 1
             },
-            "description": "一本臭名昭著的紳士所寫的臭名昭著的手記，以拉丁語寫成，無疑是為了安全起見。",
+            "description": "一本惡名昭彰的紳士所寫的惡名昭彰的手記，以拉丁語寫成，無疑是為了安全起見。",
             "xtriggers": {
                 "scholarlatin": "franklinbancroftdiaries"
             }
@@ -347,7 +347,7 @@
                 "auctionable": 2,
                 "textsanskrit": 1
             },
-            "description": "通說原文是由雷電在橡樹樹皮上燒灼而成，後被靈媒兼煙火技師雅各布·奧利弗·貴瑪玽斯通發現並謄寫下來。",
+            "description": "通說原文是由雷電在橡樹樹皮上燒灼而成，後被靈媒兼煙火技師雅各·奧利佛·貴瑪玽斯通發現並謄寫下來。",
             "xtriggers": {
                 "scholarsanskrit": "furioustantra"
             }
@@ -375,7 +375,7 @@
                 "auctionable": 2,
                 "textsanskrit": 1
             },
-            "description": "先鋒派編舞家尼古拉斯·凱爾創作的氣勢洶洶的芭蕾舞中據說編入了該密續。",
+            "description": "先鋒派編舞家尼可拉斯·凱爾創作的氣勢洶洶的芭蕾舞中據說編入了該密續。",
             "xtriggers": {
                 "scholarsanskrit": "ceaselesstantra"
             }
@@ -389,7 +389,7 @@
                 "auctionable": 2,
                 "textsanskrit": 1
             },
-            "description": "作者卡洛斯·加西亞·紹里，比利牛斯山中痴狂的神秘主義者，以會用三種語言背誦本文而聞名，儘管他從未造訪過那片次大陸。",
+            "description": "作者卡洛斯·加西亞·紹里，庇里牛斯山中痴狂的神秘主義者，以會用三種語言背誦本文而聞名，儘管他從未造訪過那片次大陸。",
             "xtriggers": {
                 "scholarsanskrit": "knownunknowntantra"
             }
@@ -487,7 +487,7 @@
                 "auctionable": 2,
                 "textphrygian": 1
             },
-            "description": "克里斯托弗·拉奎伯斯聲稱自己從馬爾馬拉海岸邊一個女巫家庭買到了兩本本書的手抄複製品。第三本“獻給了大海”。",
+            "description": "克里斯多福·拉奎伯斯聲稱自己從馬爾馬拉海岸邊一個女巫家庭買到了兩本本書的手抄複製品。第三本“獻給了大海”。",
             "xtriggers": {
                 "scholarphrygian": "larquebinecodex"
             }
@@ -529,7 +529,7 @@
                 "auctionable": 2,
                 "textsanskrit": 1
             },
-            "description": "在《獅子密續》最為臭名昭著的譯本中，阿什利·菲利普斯被列為翻譯者，但書的序言明確否定譯者的存在。這種令人困惑之處正是提及兜頸貴胄的書籍的特徵。",
+            "description": "在《獅子密續》最為惡名昭彰的譯本中，阿什利·菲利普斯被列為翻譯者，但書的序言明確否定譯者的存在。這種令人困惑之處正是提及兜頸貴胄的書籍的特徵。",
             "xtriggers": {
                 "scholarsanskrit": "leoninetantra"
             }
@@ -543,7 +543,7 @@
                 "auctionable": 2,
                 "textsanskrit": 1
             },
-            "description": "為人古怪的鋼鐵大亨邁克爾·布洛克利喜歡引用該密續的語句。此人死於工廠火災。",
+            "description": "為人古怪的鋼鐵大亨麥可·布洛克利喜歡引用該密續的語句。此人死於工廠火災。",
             "xtriggers": {
                 "scholarsanskrit": "incandescenttantra"
             }
@@ -585,7 +585,7 @@
                 "auctionable": 2,
                 "textsanskrit": 1
             },
-            "description": "因導致達菲德·瓊斯和梅雷迪斯·布萊恩之死而臭名昭著；這兩位早年間的物理學家都稱自己擁有該書的唯一抄本，最終於1840年進行了一場決鬥。",
+            "description": "因導致達菲德·瓊斯和梅雷迪斯·布萊恩之死而惡名昭彰；這兩位早年間的物理學家都稱自己擁有該書的唯一抄本，最終於1840年進行了一場決鬥。",
             "xtriggers": {
                 "scholarsanskrit": "watchfultantra"
             }
@@ -613,7 +613,7 @@
                 "auctionable": 2,
                 "textsanskrit": 1
             },
-            "description": "西歐已知現存的唯一一份抄本在1892年於大英圖書館失盜。一個叫做哈維·哈丁頓的人承認這是自己的犯行，並稱已在無法控制的奇異衝動下，就著黃油和大蒜吃掉了本書。",
+            "description": "西歐已知現存的唯一一份抄本在1892年於大英圖書館失盜。一個叫做哈維·哈丁頓的人承認這是自己的犯行，並稱已在無法控制的奇異衝動下，就著奶油和大蒜吃掉了本書。",
             "xtriggers": {
                 "scholarsanskrit": "firecircletantra"
             }
@@ -711,7 +711,7 @@
                 "auctionable": 2,
                 "textgreek": 1
             },
-            "description": "由靠做僱傭兵，也有時靠家裡匯錢過活的帕維爾·舒加在希臘生活時煞費苦心地收集成書。",
+            "description": "由靠做傭兵，也有時靠家裡匯錢過活的帕維爾·舒加在希臘生活時煞費苦心地收集成書。",
             "xtriggers": {
                 "scholargreek": "deedsofthescarredcaptain"
             }
@@ -865,7 +865,7 @@
                 "auctionable": 2,
                 "textfucine": 1
             },
-            "description": "畫家尼爾斯·弗雷德里克·馬斯凱爾曾做過一件臭名昭著之事：試圖以這些苦痛為題作畫。畫到第五類苦痛時，畫作的欲求增長得過於急切，使得他因失血而死。所幸書中的圖解沒有那麼詳細。",
+            "description": "畫家尼爾斯·弗雷德里克·馬斯凱爾曾做過一件惡名昭彰之事：試圖以這些苦痛為題作畫。畫到第五類苦痛時，畫作的欲求增長得過於急切，使得他因失血而死。所幸書中的圖解沒有那麼詳細。",
             "xtriggers": {
                 "scholarfucine": "twentysixenticementsseventorments"
             }

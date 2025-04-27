@@ -1079,6 +1079,6 @@
             "description": "已被耗盡之物。",
             "icon": "jumble",
             "lifetime": 1
-        },
+        }
     ]
 }

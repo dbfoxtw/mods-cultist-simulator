@@ -157,7 +157,7 @@
         },
         {
             "id": "explorelocationbookdealer_exhausted",
-            "label": "莫蘭書店要關張了！",
+            "label": "莫蘭書店要歇業了！",
             "actionId": "explore",
             "requirements": {
                 "genericrubbishbook": 1

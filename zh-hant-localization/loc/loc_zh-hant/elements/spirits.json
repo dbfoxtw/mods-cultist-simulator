@@ -347,7 +347,7 @@
         },
         {
             "id": "spirit_lanterne_secret",
-            "label": "特蕾莎",
+            "label": "德蕾莎",
             "aspects": {
                 "follower": 1,
                 "summoned": 1,
@@ -369,7 +369,7 @@
         },
         {
             "id": "pre.spirit_lanterne_secret",
-            "label": "特蕾莎",
+            "label": "德蕾莎",
             "aspects": {
                 "lantern": 12,
                 "secrethistories": 12,
@@ -417,7 +417,7 @@
         },
         {
             "id": "spirit_lanterne_secret.defunct",
-            "label": "特蕾莎正在休息",
+            "label": "德蕾莎正在休息",
             "description": "巴爾多梅人已返回睿智騎士小屋中休息。",
             "lifetime": 180,
             "comments": "This shouldn't have any aspects. We don't want it to be removed or used - it's solely a blocker.",

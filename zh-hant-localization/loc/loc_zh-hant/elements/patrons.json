@@ -303,7 +303,7 @@
         },
         {
             "id": "benefactorf",
-            "label": "第四代斯坦福女侯爵尼科爾",
+            "label": "第四代史丹佛女侯爵尼科爾",
             "description": "一位謹慎，聰慧的女性，有著窄間距的雙目和以她的歲數來說極好的肌膚。她已經親自打理財務多年，並義不容辭地向慈善事業捐款。",
             "animFrames": 1,
             "uniquenessgroup": "uqbenefactorf",
@@ -353,8 +353,8 @@
         },
         {
             "id": "benefactorf_rejectedplayer",
-            "label": "第四代斯坦福女侯爵尼科爾",
-            "description": "聽說最尊貴的斯坦福女侯爵已宣布她不太明自己看上我哪一點了。",
+            "label": "第四代史丹佛女侯爵尼科爾",
+            "description": "聽說最尊貴的史丹佛女侯爵已宣布她不太明自己看上我哪一點了。",
             "uniquenessgroup": "uqbenefactorf",
             "aspects": {
                 "mortal": 1
@@ -382,7 +382,7 @@
         },
         {
             "id": "benefactorf_proposedtoplayer",
-            "label": "第四代斯坦福女侯爵尼科爾",
+            "label": "第四代史丹佛女侯爵尼科爾",
             "description": "在一瞬激情的推動下，最尊貴的尼科爾女爵提出結婚。如果我能抓住機會接受，我的人生將會改變……並失去其他的前路。[請在女侯爵的熱情消退前和她談話，否則她會覺得自己被甩了。]",
             "uniquenessgroup": "uqbenefactorf",
             "aspects": {
@@ -399,7 +399,7 @@
         {
             "id": "benefactorwill",
             "label": "故人留下的文件",
-            "description": "某個愛我的人死了。或許他在遺囑裡給我留了東西。我該找個律師談談。[若想推進此事，你需要採取行動……不過會有小几率讓人懷疑到你頭上。]",
+            "description": "某個愛我的人死了。或許他在遺囑裡給我留了東西。我該找個律師談談。[若想推進此事，你需要採取行動……不過會有小機率讓人懷疑到你頭上。]",
             "slots": [
                 {
                     "id": "lawyerfees",
@@ -467,7 +467,7 @@
         {
             "id": "kleidouchos.enroute",
             "label": "施魯塞爾女士正在途中",
-            "description": "特蕾莎·加爾米耶的“筆友”，蘇洛恰那的“姐妹”，白日之鑰的持有者，正從維也納前來。也許我應該在車站見見她。",
+            "description": "德蕾莎·加爾米耶的“筆友”，蘇洛恰那的“姐妹”，白日之鑰的持有者，正從維也納前來。也許我應該在車站見見她。",
             "aspects": {
                 "patron": 1
             },

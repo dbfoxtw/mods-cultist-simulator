@@ -83,7 +83,7 @@
                 "hunter": 1,
                 "mortal": 1
             },
-            "description": "這位紳士更願意獨自跟他的煙斗和《倫敦新聞畫報》待在一起，但是不行，<i>顯然</i>哪裡冒出來了些討厭鬼需要人像逮瘋狗一樣去逮他們，而且<i>顯然</i>其他人都沒功夫去做。",
+            "description": "這位紳士更願意獨自跟他的菸斗和《倫敦新聞畫報》待在一起，但是不行，<i>顯然</i>哪裡冒出來了些討厭鬼需要人像逮瘋狗一樣去逮他們，而且<i>顯然</i>其他人都沒功夫去做。",
             "xtriggers": {
                 "killmortal": "corpse",
                 "killhunter": "corpse",
@@ -185,7 +185,7 @@
                 "grail": 3,
                 "heart": 3
             },
-            "description": "這位紳士更願意獨自跟他的煙斗和《倫敦新聞畫報》待在一起，不過如今他給關進了某個倒霉的地洞裡。",
+            "description": "這位紳士更願意獨自跟他的菸斗和《倫敦新聞畫報》待在一起，不過如今他給關進了某個倒楣的地洞裡。",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "douglas_r",

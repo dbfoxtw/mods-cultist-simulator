@@ -71,7 +71,7 @@
         {
             "id": "weakness.foe",
             "label": "大敵：一個弱點",
-            "description": "我的大敵容易被這一樣事物干擾……這或許能幫助我決定在哪兒面對他最好。",
+            "description": "我的大敵容易被這一樣事物干擾……這或許能幫助我決定在哪裡面對他最好。",
             "isAspect": true,
             "icon": "openedlockscar"
         },
@@ -744,7 +744,7 @@
         },
         {
             "id": "contact.local",
-            "label": "當地聯繫人",
+            "label": "當地聯絡人",
             "description": "屬於這裡的人。",
             "isAspect": true,
             "icon": "vaultcapital"
@@ -2744,7 +2744,7 @@
                 "shrine.edge": 1,
                 "shrine.colonel": 1
             },
-            "description": "馬耳他是地中海的療養院，士兵們來到這裡接受治療，而治療師中有一些人會實施無形之術。他們在醫院中緊鎖的房間裡設置神龕，用以拜請治療之司辰。沒有人向上校祈禱治癒。只有在死亡將會是一種仁慈的時候，他們才會到屋檐下這個正在腐爛的房間裡來拜請他。",
+            "description": "馬耳他是地中海的療養院，士兵們來到這裡接受治療，而治療師中有一些人會實施無形之術。他們在醫院中緊鎖的房間裡設置神龕，用以拜請治療之司辰。沒有人向上校祈禱治癒。只有在死亡將會是一種仁慈的時候，他們才會到屋簷下這個正在腐爛的房間裡來拜請他。",
             "slots": [
                 {
                     "actionid": "travel",
@@ -2949,7 +2949,7 @@
             "id": "contact.retainer",
             "label": "最後的安泰俄斯門徒",
             "comments": "no killmortal trigger because we want him permanently on the board.",
-            "description": "一個老人，頭戴以珠子裝飾的便帽，兩頰皺紋深深，臉上留著灰白的胡茬，眼裡流露出古老的哀傷。",
+            "description": "一個老人，頭戴以珠子裝飾的便帽，兩頰皺紋深深，臉上留著灰白的鬍渣，眼裡流露出古老的哀傷。",
             "xtriggers": {
                 "fatiguing": "contact.retainer.exhausted",
                 "mortal.introduce": [
@@ -2971,7 +2971,7 @@
             "id": "contact.retainer.exhausted",
             "label": "年邁信仆（枯竭）",
             "comments": "no killmortal trigger because we want him permanently on the board.",
-            "description": "一個老人，頭戴以珠子裝飾的便帽，兩頰皺紋深深，臉上留著灰白的胡茬，眼裡流露出古老的哀傷。",
+            "description": "一個老人，頭戴以珠子裝飾的便帽，兩頰皺紋深深，臉上留著灰白的鬍渣，眼裡流露出古老的哀傷。",
             "aspects": {
                 "exhausted": 1,
                 "mortal": 1,
@@ -3152,7 +3152,7 @@
             "id": "vault.ghoul",
             "label": "T部門",
             "inherits": "_vault.exile",
-            "description": "這個秘密部門歸屬於當局，專門研究那些致畸現象。等我們找到了它的位置之後，我們還必須衝破它的圍牆，並且經受住從它的核心中發出的可怕輻射。",
+            "description": "這個秘密部門歸屬於當局，專門研究那些致畸現象。等我們找到了它的位置之後，我們還必須衝破它的圍牆，並且承受住從它的核心中發出的可怕輻射。",
             "icon": "vaultcapital4",
             "xtriggers": {
                 "success": [
@@ -3292,7 +3292,7 @@
             "id": "vault.vivisectionist",
             "label": "慕尼黑的馬穆拉俱樂部",
             "inherits": "_vault.exile",
-            "description": "一幢有著尖頂山牆的漂亮磚房，門前矗立著兩棵古老的松樹。馬穆拉俱樂部的成員在閣樓上舉行痛苦與勇氣的儀式。這會是一段難捱的時光。",
+            "description": "一幢有著尖頂山牆的漂亮磚房，門前矗立著兩棵古老的松樹。馬穆拉俱樂部的成員在閣樓上舉行痛苦與勇氣的儀式。這會是一段難熬的時光。",
             "icon": "vaultcontinent4",
             "xtriggers": {
                 "success": [
@@ -3390,7 +3390,7 @@
         },
         {
             "id": "vault.fivegoer.completed",
-            "label": "打盹的衾下魅",
+            "label": "打瞌睡的衾下魅",
             "aspects": {
                 "vault.completed": 1,
                 "asset": 1
@@ -3519,7 +3519,7 @@
         {
             "id": "contact.cultist.flowermaker.fatigued",
             "label": "花觸之人正在恢復",
-            "description": "“我沒法不去想它們。我應該休息。”",
+            "description": "“我沒辦法不去想它們。我應該休息。”",
             "inherits": "_contact.mortal.fatigued",
             "icon": "devotee_grail",
             "decayTo": "contact.cultist.flowermaker",
@@ -3568,7 +3568,7 @@
             "id": "contact.labhite.fallen",
             "label": "墜落的狻猊",
             "inherits": "_contact.mortal",
-            "description": "狻猊只吃來自天空的食物來保持它們的力量和地位。這隻顯然是被厄客德娜臭名昭著的乳汁誘惑了……這引出了許多問題，但最緊迫的問題是，我們現在該拿它怎麼辦？",
+            "description": "狻猊只吃來自天空的食物來保持它們的力量和地位。這隻顯然是被厄客德娜惡名昭彰的乳汁誘惑了……這引出了許多問題，但最緊迫的問題是，我們現在該拿它怎麼辦？",
             "icon": "genericprisonermupgraded"
         },
         {
@@ -3676,7 +3676,7 @@
             "id": "contact.smuggler",
             "label": "走私商人喬吉奧",
             "inherits": "_contact.mortal",
-            "description": "一個神情憂鬱、帶著些哲學家氣質的走私商人。他走私稀有的香煙，稀有的毒藥和更稀有的武器。",
+            "description": "一個神情憂鬱、帶著些哲學家氣質的走私商人。他走私稀有的香菸，稀有的毒藥和更稀有的武器。",
             "xtriggers": {
                 "fatiguing": "contact.smuggler.fatigued",
                 "recruiting": "ally.smuggler",
@@ -3987,7 +3987,7 @@
             "id": "ally.smuggler",
             "label": "走私商人喬吉奧",
             "inherits": "_ally.mortal",
-            "description": "一個神情憂鬱、帶著些哲學家氣質的走私商人。他走私稀有的香煙，稀有的毒藥和更稀有的武器。",
+            "description": "一個神情憂鬱、帶著些哲學家氣質的走私商人。他走私稀有的香菸，稀有的毒藥和更稀有的武器。",
             "xtriggers": {
                 "fatiguing": [
                     {
@@ -4197,7 +4197,7 @@
                 "op": 1,
                 "price": 1
             },
-            "description": "一杆看起來相當破舊的步槍，不起眼地擺在一家古玩店的櫃臺上。",
+            "description": "一桿看起來相當破舊的步槍，不起眼地擺在一家古玩店的櫃臺上。",
             "xtriggers": {
                 "purchase": "weapon.b",
                 "renewal.exile": "op.weapon.b"
@@ -5196,7 +5196,7 @@
                 "grail": 2,
                 "worth": 1
             },
-            "description": "一幅令人厭惡的小畫，描繪著異教徒們曾經幹過的勾當。也可能是教會幹過的。我並不知道這段歷史，但我知道這幅聖像對鎖有著某種魔力。",
+            "description": "一幅令人厭惡的小畫，描繪著異教徒們曾經做過的勾當。也可能是教會做過的。我並不知道這段歷史，但我知道這幅聖像對鎖有著某種魔力。",
             "icon": "toolknockb"
         },
         {
@@ -5238,7 +5238,7 @@
                     "consumes": true
                 }
             ],
-            "description": "帶著華麗插圖的手稿殘頁，為了分開售賣而從原來的裝訂冊中撕了下來。我不懂上面的語言——波斯語？阿拉伯語？但不知何故，我能在足夠明亮的燈光下讀懂這些語句。司辰間的爭端，被隱藏的血脈，摧毀忠誠的秘密……沒有多少實用的信息，但是卻有一些關於“磨礪靈魂的聲音”的東西。"
+            "description": "帶著華麗插圖的手稿殘頁，為了分開售賣而從原來的裝訂冊中撕了下來。我不懂上面的語言——波斯語？阿拉伯語？但不知何故，我能在足夠明亮的燈光下讀懂這些語句。司辰間的爭端，被隱藏的血脈，摧毀忠誠的秘密……沒有多少實用的資訊，但是卻有一些關於“磨礪靈魂的聲音”的東西。"
         },
         {
             "id": "curio.morgen",
@@ -5271,7 +5271,7 @@
         {
             "id": "memento.grail",
             "label": "汙跡手套",
-            "description": "一開始我覺得它們餘溫尚存。過了一會兒，我才意識到它們總會保持溫暖。",
+            "description": "一開始我覺得它們餘溫尚存。過了一會，我才意識到它們總會保持溫暖。",
             "aspects": {
                 "asset": 1,
                 "portable": 1,
@@ -5298,14 +5298,14 @@
         },
         {
             "id": "memento.knock",
-            "label": "吸了一半的香煙",
+            "label": "吸了一半的香菸",
             "aspects": {
                 "pentiment": 1,
                 "pentiment.2": 1,
                 "knock": 2,
                 "heart": 2
             },
-            "description": "在一個充滿力量與分裂的時間和地點，這支香煙曾經與一位叛變的<b>啟</b>之長生者的手指與嘴唇十分熟稔。而至少在一重歷史中，他吸完了它。",
+            "description": "在一個充滿力量與分裂的時間和地點，這支香菸曾經與一位叛變的<b>啟</b>之長生者的手指與嘴唇十分熟稔。而至少在一重歷史中，他吸完了它。",
             "icon": "bytflavour"
         },
         {
@@ -5345,7 +5345,7 @@
                 "grail": 4,
                 "worth": 2
             },
-            "description": "很小，看起來很脆弱，但是砸起來可真帶勁兒。",
+            "description": "很小，看起來很脆弱，但是砸起來可真帶勁。",
             "icon": "toolforged"
         },
         {
@@ -5837,7 +5837,7 @@
                 ],
                 "fatiguing": "weapon.b.2.exhausted"
             },
-            "description": "一杆刻著五重多翼者標記的古董步槍。裡面還剩三顆被稱為“怪獸殺手”的鎳鐵彈丸。[獵獅人的步槍能快速復原，但只能使用三次。]",
+            "description": "一桿刻著五重多翼者標記的古董步槍。裡面還剩三顆被稱為“怪獸殺手”的鎳鐵彈丸。[獵獅人的步槍能快速復原，但只能使用三次。]",
             "icon": "weapon.b",
             "unique": true
         },
@@ -5879,7 +5879,7 @@
                 ],
                 "fatiguing": "weapon.b.1.exhausted"
             },
-            "description": "一杆刻著五重多翼者標記的古董步槍。裡面還剩兩顆被稱為“怪獸殺手”的鎳鐵彈丸。[獵獅人的步槍是一件神聖的武器，但它只能再使用兩次。]",
+            "description": "一桿刻著五重多翼者標記的古董步槍。裡面還剩兩顆被稱為“怪獸殺手”的鎳鐵彈丸。[獵獅人的步槍是一件神聖的武器，但它只能再使用兩次。]",
             "icon": "weapon.b",
             "unique": true
         },
@@ -5921,7 +5921,7 @@
                 ],
                 "fatiguing": "curio"
             },
-            "description": "一杆刻著五重多翼者標記的古董步槍。裡面只剩一顆鎳鐵彈丸了。[獵獅人的步槍是一件神聖的武器，但它只能再使用一次。]",
+            "description": "一桿刻著五重多翼者標記的古董步槍。裡面只剩一顆鎳鐵彈丸了。[獵獅人的步槍是一件神聖的武器，但它只能再使用一次。]",
             "icon": "weapon.b",
             "unique": true
         },
@@ -6156,7 +6156,7 @@
                 "portable": 1,
                 "worth": 2
             },
-            "description": "一杆刻著五重多翼者標記的古董步槍。[獵獅人的步槍是一件神聖的武器，但它只能再使用兩次。]",
+            "description": "一桿刻著五重多翼者標記的古董步槍。[獵獅人的步槍是一件神聖的武器，但它只能再使用兩次。]",
             "lifetime": 90,
             "decayTo": "weapon.b.2",
             "resaturate": true,
@@ -6172,7 +6172,7 @@
                 "portable": 1,
                 "worth": 2
             },
-            "description": "一杆刻著五重多翼者標記的古董步槍。[獵獅人的步槍是一件神聖的武器，但它只能再使用一次。]",
+            "description": "一桿刻著五重多翼者標記的古董步槍。[獵獅人的步槍是一件神聖的武器，但它只能再使用一次。]",
             "lifetime": 90,
             "decayTo": "weapon.b.1",
             "resaturate": true,
@@ -6204,7 +6204,7 @@
                 "portable": 1,
                 "worth": 3
             },
-            "description": "這把刀刃割出的傷口將會不停流血，直至癒合。一說“比德”是十八世紀圖盧茲一名喜歡收集刀具的外科醫生兼攔路劫匪。另一說“比德”只是阿拉伯語“蚊子”的訛傳。但我的大敵曾經把比德列為上校的具名者。",
+            "description": "這把刀刃割出的傷口將會不停流血，直至癒合。一說“比德”是十八世紀土魯斯一名喜歡收集刀具的外科醫生兼攔路劫匪。另一說“比德”只是阿拉伯語“蚊子”的訛傳。但我的大敵曾經把比德列為上校的具名者。",
             "lifetime": 90,
             "decayTo": "weapon.d",
             "resaturate": true,
@@ -6228,7 +6228,7 @@
         {
             "id": "obscurity",
             "label": "隱秘",
-            "description": "這可能是對抗清算人首領的唯一防禦。它也可能壓根就算不上是種防禦。",
+            "description": "這可能是對抗清算人首領的唯一防禦。它也可能根本就算不上是種防禦。",
             "aspects": {
                 "moth": 2,
                 "winter": 2,
@@ -6309,7 +6309,7 @@
         {
             "id": "decade.stolen",
             "label": "偷來的十年",
-            "description": "某人慷慨捐贈的十年，至少灰燼賬簿上是這樣寫的。",
+            "description": "某人慷慨捐贈的十年，至少灰燼帳簿上是這樣寫的。",
             "aspects": {
                 "lifespan.stolen": 10
             }
@@ -6317,7 +6317,7 @@
         {
             "id": "year.stolen",
             "label": "偷來的一年",
-            "description": "某人慷慨捐贈的一年，至少灰燼賬簿上是這樣寫的。",
+            "description": "某人慷慨捐贈的一年，至少灰燼帳簿上是這樣寫的。",
             "aspects": {
                 "lifespan.stolen": 1
             }
@@ -6378,7 +6378,7 @@
         {
             "id": "trail.false.exile.nameless",
             "label": "無名的祝福",
-            "description": "我還要在迷霧中走一會兒。[當場上有此卡時，清算人不會來到你身處的城市。但是如果他們已經出現了，此卡無效果。]",
+            "description": "我還要在迷霧中走一會。[當場上有此卡時，清算人不會來到你身處的城市。但是如果他們已經出現了，此卡無效果。]",
             "aspects": {
                 "diversion.exile": 1
             },
@@ -6808,11 +6808,11 @@
         },
         {
             "id": "domicile.avignon",
-            "label": "阿維尼翁",
+            "label": "亞維農",
             "aspects": {
                 "domicile": 1
             },
-            "description": "睡意朦朧的阿維尼翁，寒風過境。",
+            "description": "睡意朦朧的亞維農，寒風過境。",
             "icon": "domicile.avignon",
             "unique": true
         },
@@ -6826,7 +6826,7 @@
             "xtriggers": {
                 "uprising": "domicile.baghdad.turmoil"
             },
-            "description": "氣溫灼熱難耐，橘樹落滿灰塵，方磚鋪就的城市在優雅地腐朽。奧斯曼人不喜歡巴格達。現在，英國人扶持了一個敘利亞傀儡國王，一邊修建醫院，一邊把當地人炸得血肉模糊，迫使他們服從。這座城市隨時可能再次發生叛亂。",
+            "description": "氣溫灼熱難耐，橘樹落滿灰塵，方磚鋪就的城市在優雅地腐朽。鄂圖曼人不喜歡巴格達。現在，英國人扶持了一個敘利亞傀儡國王，一邊修建醫院，一邊把當地人炸得血肉模糊，迫使他們服從。這座城市隨時可能再次發生叛亂。",
             "icon": "domicile.baghdad",
             "unique": true
         },
@@ -6874,7 +6874,7 @@
         },
         {
             "id": "domicile.istanbul",
-            "label": "伊斯坦布爾",
+            "label": "伊斯坦堡",
             "aspects": {
                 "domicile": 1,
                 "troubled": 1
@@ -6931,7 +6931,7 @@
             "xtriggers": {
                 "uprising": "domicile.leningrad.turmoil"
             },
-            "description": "列寧去世了，而現在舊都以他命名。它背負著革命與紅色恐怖造成的舊傷，九月的洪水又給它添了一道傷痕。街道上仍舊飄著涅瓦河泥的臭味。在塔夫利宮高處一間窗簾遮掩的昏暗辦公室裡，季諾維耶夫等待著斯大林的下一步行動。",
+            "description": "列寧去世了，而現在舊都以他命名。它背負著革命與紅色恐怖造成的舊傷，九月的洪水又給它添了一道傷痕。街道上仍舊飄著涅瓦河泥的臭味。在塔夫利宮高處一間窗簾遮掩的昏暗辦公室裡，季諾維耶夫等待著史達林的下一步行動。",
             "icon": "domicile.leningrad",
             "unique": true
         },
@@ -7051,7 +7051,7 @@
         },
         {
             "id": "domicile.stalingrad",
-            "label": "斯大林格勒",
+            "label": "史達林格勒",
             "aspects": {
                 "domicile": 1,
                 "remote": 1,
@@ -7061,7 +7061,7 @@
             "xtriggers": {
                 "uprising": "domicile.stalingrad.turmoil"
             },
-            "description": "午夜的斯大林格勒。月色皎潔的街道上處處都貼著那位格魯吉亞人的畫像，散發著慈愛的威懾。",
+            "description": "午夜的史達林格勒。月色皎潔的街道上處處都貼著那位喬治亞人的畫像，散發著慈愛的威懾。",
             "icon": "domicile.stalingrad",
             "unique": true
         },
@@ -7122,7 +7122,7 @@
                 "comfort": 2,
                 "shrine.lionsmith.marker": 1
             },
-            "description": "西班牙人從柏柏爾人手中奪取了的黎波里，聖約翰騎士團又從西班牙手裡奪來了它，奧斯曼再從騎士團處把它奪走，而此地現在歸意大利管轄。柏柏爾人管的黎波里叫作“海上的新娘”，而如果我能相信我的大敵的話，我的母親稱這裡為“家鄉”。",
+            "description": "西班牙人從柏柏爾人手中奪取了的黎波里，聖約翰騎士團又從西班牙手裡奪來了它，鄂圖曼再從騎士團處把它奪走，而此地現在歸義大利管轄。柏柏爾人管的黎波里叫作“海上的新娘”，而如果我能相信我的大敵的話，我的母親稱這裡為“家鄉”。",
             "icon": "domicile.tripoli",
             "unique": true
         },
@@ -7214,7 +7214,7 @@
         },
         {
             "id": "domicile.istanbul.turmoil",
-            "label": "戰火中的伊斯坦布爾",
+            "label": "戰火中的伊斯坦堡",
             "aspects": {
                 "domicile": 1,
                 "turmoil": 1
@@ -7291,7 +7291,7 @@
         },
         {
             "id": "domicile.stalingrad.turmoil",
-            "label": "戰火中的斯大林格勒",
+            "label": "戰火中的史達林格勒",
             "aspects": {
                 "domicile": 1,
                 "turmoil": 1
@@ -7456,7 +7456,7 @@
         },
         {
             "id": "city.avignon",
-            "label": "阿維尼翁",
+            "label": "亞維農",
             "aspects": {
                 "destination": 1
             },
@@ -7471,7 +7471,7 @@
                     }
                 }
             ],
-            "description": "我那位搞走私的熟人，阿維尼翁的M·喬吉奧，提出要和我做一筆生意。 [一旦你離開現在的城市，這張卡牌將永遠消失。]",
+            "description": "我那位搞走私的熟人，亞維農的M·喬吉奧，提出要和我做一筆生意。 [一旦你離開現在的城市，這張卡牌將永遠消失。]",
             "xtriggers": {
                 "arriving": [
                     {
@@ -7664,7 +7664,7 @@
         },
         {
             "id": "city.istanbul",
-            "label": "伊斯坦布爾",
+            "label": "伊斯坦堡",
             "aspects": {
                 "destination": 1,
                 "troubled": 1
@@ -7680,7 +7680,7 @@
                     }
                 }
             ],
-            "description": "我的老戰友凱拉·凱末爾與伊斯坦布爾的黑社會殘黨有聯繫。也許他的名號能為我打通門路。[一旦你離開現在的城市，這張卡牌將永遠消失。]",
+            "description": "我的老戰友凱拉·凱末爾與伊斯坦堡的黑社會殘黨有聯繫。也許他的名號能為我打通門路。[一旦你離開現在的城市，這張卡牌將永遠消失。]",
             "unique": true,
             "xtriggers": {
                 "arriving": [
@@ -8154,7 +8154,7 @@
         },
         {
             "id": "city.stalingrad",
-            "label": "斯大林格勒",
+            "label": "史達林格勒",
             "aspects": {
                 "destination": 1,
                 "remote": 1,
@@ -8181,7 +8181,7 @@
                     }
                 }
             ],
-            "description": "被稱為“食鳥者”的有罪學徒已經徹底違反了凡人和漫宿的法律。我聽說理髮師祖爾菲亞在斯大林格勒加入了他們。食鳥者可不是好人，但我一直喜歡祖爾菲亞。 [一旦你離開現在的城市，這張卡牌將永遠消失。]",
+            "description": "被稱為“食鳥者”的有罪學徒已經徹底違反了凡人和漫宿的法律。我聽說理髮師祖爾菲亞在史達林格勒加入了他們。食鳥者可不是好人，但我一直喜歡祖爾菲亞。 [一旦你離開現在的城市，這張卡牌將永遠消失。]",
             "unique": true,
             "xtriggers": {
                 "arriving": [
@@ -8256,7 +8256,7 @@
                     }
                 }
             ],
-            "description": "在斯維爾德洛夫斯克，理髮師祖爾菲亞過去曾用珠寶向我購買歲月。後來她變得很奇怪，並且搬到了另一個城市。但在內戰之前，她向我介紹了她的一些聯繫人。[一旦你離開現在的城市，這張卡牌將永遠消失。]",
+            "description": "在斯維爾德洛夫斯克，理髮師祖爾菲亞過去曾用珠寶向我購買歲月。後來她變得很奇怪，並且搬到了另一個城市。但在內戰之前，她向我介紹了她的一些聯絡人。[一旦你離開現在的城市，這張卡牌將永遠消失。]",
             "unique": true,
             "xtriggers": {
                 "arriving": [
@@ -8354,7 +8354,7 @@
                     }
                 }
             ],
-            "description": "我在的黎波里沒有熟人。我壓根不記得這裡，但是很久之前，在的黎波里還屬於奧斯曼的時候，我在這裡出生了。[一旦你離開現在的城市，這張卡牌將永遠消失。]",
+            "description": "我在的黎波里沒有熟人。我根本不記得這裡，但是很久之前，在的黎波里還屬於鄂圖曼的時候，我在這裡出生了。[一旦你離開現在的城市，這張卡牌將永遠消失。]",
             "unique": true,
             "xtriggers": {
                 "arriving": [
@@ -8479,7 +8479,7 @@
             "aspects": {
                 "destination": 1
             },
-            "description": "到野外去。這隻該作為我最後的應急手段。[幾乎沒什麼有用的機會，你沒法在那裡生存太久。]",
+            "description": "到野外去。這隻該作為我最後的應急手段。[幾乎沒什麼有用的機會，你沒辦法在那裡生存太久。]",
             "xtriggers": {
                 "arriving": [
                     {
@@ -8583,7 +8583,7 @@
                 "grail": 2,
                 "moth": 2
             },
-            "description": "我發現了一個地方，那兒到處都是興奮的貓。",
+            "description": "我發現了一個地方，那裡到處都是興奮的貓。",
             "xtriggers": {
                 "renewal.exile": "op.cats",
                 "fatiguing": "husk"
@@ -8691,7 +8691,7 @@
                 "distraction": 1,
                 "ligeian": 1
             },
-            "description": "據我所知，早在圍城之前，施魯塞爾女士就在這兒住了很久。只要不引起她的注意，我或許就是安全的。",
+            "description": "據我所知，早在圍城之前，施魯塞爾女士就在這裡住了很久。只要不引起她的注意，我或許就是安全的。",
             "xtriggers": {
                 "renewal.exile": "op.kleidouchos",
                 "fatiguing": "husk"

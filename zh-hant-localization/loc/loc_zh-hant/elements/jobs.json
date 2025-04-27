@@ -2,7 +2,7 @@
     "elements": [
         {
             "id": "gloverandgloverjuniorjob",
-            "label": "坐上格洛弗父子公司的高層職位",
+            "label": "坐上格洛弗父子公司的基層職位",
             "aspects": {
                 "job": 1
             },
@@ -16,7 +16,7 @@
         },
         {
             "id": "gloverandgloverjuniorjob_nodifficultbossa",
-            "label": "坐上格洛弗父子公司的高層職位",
+            "label": "坐上格洛弗父子公司的基層職位",
             "aspects": {
                 "job": 1
             },
@@ -285,7 +285,7 @@
                     "actionId": "work"
                 }
             ],
-            "description": "公司對我這個職位的人還是比較寬容的，然而我曠工的事情已經被發覺了。我得想點辦法跟老格羅弗套套近乎了。",
+            "description": "公司對我這個職位的人還是比較寬容的，然而我曠工的事情已經被發覺了。我得想點辦法跟老格羅弗套套交情了。",
             "xtriggers": {
                 "plead": "gloverandglovertopjob_tainted"
             }

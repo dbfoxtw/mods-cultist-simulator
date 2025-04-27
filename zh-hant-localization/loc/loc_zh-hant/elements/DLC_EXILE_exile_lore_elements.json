@@ -25,7 +25,7 @@
                 "edge": 2,
                 "lore": 1
             },
-            "description": "我並非無形之術的學徒，但在我的職業生涯中，我曾經不得不殺死過幾個這樣的人。人就是要邊幹邊學。",
+            "description": "我並非無形之術的學徒，但在我的職業生涯中，我曾經不得不殺死過幾個這樣的人。人就是要邊做邊學。",
             "xtriggers": {
                 "epiphany": "fragmentedgeb.exile",
                 "fatiguing": "fragmentedge.exile.exhausted",
@@ -859,5 +859,3 @@
         }
     ]
 }
-
-

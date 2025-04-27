@@ -390,7 +390,7 @@
                 },
                 {
                     "id": "painting1",
-                    "label": "要藝術還是糊口",
+                    "label": "要藝術還是餬口",
                     "required": {
                         "passion": 1,
                         "mystique": 1,
@@ -401,7 +401,7 @@
                 },
                 {
                     "id": "painting2",
-                    "label": "要藝術還是糊口",
+                    "label": "要藝術還是餬口",
                     "required": {
                         "passion": 1,
                         "mystique": 1,
@@ -459,7 +459,7 @@
                 },
                 {
                     "id": "painting1",
-                    "label": "要藝術還是糊口",
+                    "label": "要藝術還是餬口",
                     "required": {
                         "passion": 1,
                         "mystique": 1,
@@ -470,7 +470,7 @@
                 },
                 {
                     "id": "painting2",
-                    "label": "要藝術還是糊口",
+                    "label": "要藝術還是餬口",
                     "required": {
                         "passion": 1,
                         "mystique": 1,
@@ -481,7 +481,7 @@
                 },
                 {
                     "id": "painting3",
-                    "label": "要藝術還是糊口",
+                    "label": "要藝術還是餬口",
                     "required": {
                         "passion": 1,
                         "mystique": 1,
@@ -552,7 +552,7 @@
                 },
                 {
                     "id": "painting1",
-                    "label": "要藝術還是糊口",
+                    "label": "要藝術還是餬口",
                     "required": {
                         "passion": 1,
                         "mystique": 1,
@@ -563,7 +563,7 @@
                 },
                 {
                     "id": "painting2",
-                    "label": "要藝術還是糊口",
+                    "label": "要藝術還是餬口",
                     "required": {
                         "passion": 1,
                         "mystique": 1,
@@ -574,7 +574,7 @@
                 },
                 {
                     "id": "painting3",
-                    "label": "要藝術還是糊口",
+                    "label": "要藝術還是餬口",
                     "required": {
                         "passion": 1,
                         "mystique": 1,
@@ -585,7 +585,7 @@
                 },
                 {
                     "id": "painting4",
-                    "label": "要藝術還是糊口",
+                    "label": "要藝術還是餬口",
                     "required": {
                         "passion": 1,
                         "mystique": 1,
@@ -607,7 +607,7 @@
             "slots": [
                 {
                     "id": "painting1",
-                    "label": "要藝術還是糊口",
+                    "label": "要藝術還是餬口",
                     "required": {
                         "passion": 1,
                         "mystique": 1,
@@ -618,7 +618,7 @@
                 },
                 {
                     "id": "painting2",
-                    "label": "要藝術還是糊口",
+                    "label": "要藝術還是餬口",
                     "required": {
                         "passion": 1,
                         "mystique": 1,
@@ -629,7 +629,7 @@
                 },
                 {
                     "id": "painting3",
-                    "label": "要藝術還是糊口",
+                    "label": "要藝術還是餬口",
                     "required": {
                         "passion": 1,
                         "mystique": 1,
@@ -640,7 +640,7 @@
                 },
                 {
                     "id": "painting4",
-                    "label": "要藝術還是糊口",
+                    "label": "要藝術還是餬口",
                     "required": {
                         "passion": 1,
                         "mystique": 1,
@@ -663,7 +663,7 @@
             "slots": [
                 {
                     "id": "painting1",
-                    "label": "要藝術還是糊口",
+                    "label": "要藝術還是餬口",
                     "required": {
                         "passion": 1,
                         "mystique": 1,
@@ -674,7 +674,7 @@
                 },
                 {
                     "id": "painting2",
-                    "label": "要藝術還是糊口",
+                    "label": "要藝術還是餬口",
                     "required": {
                         "passion": 1,
                         "mystique": 1,
@@ -685,7 +685,7 @@
                 },
                 {
                     "id": "painting3",
-                    "label": "要藝術還是糊口",
+                    "label": "要藝術還是餬口",
                     "required": {
                         "passion": 1,
                         "mystique": 1,
@@ -696,7 +696,7 @@
                 },
                 {
                     "id": "painting4",
-                    "label": "要藝術還是糊口",
+                    "label": "要藝術還是餬口",
                     "required": {
                         "passion": 1,
                         "mystique": 1,

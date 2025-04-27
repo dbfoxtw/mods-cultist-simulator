@@ -47,7 +47,7 @@
                 "society": "fatigue",
                 "scar_ability": "scar_heart"
             },
-            "description": "屬於我的這具身體。世間存在各種各樣的身體，但這一具是屬於我的。我的頭腦需要它，正如菌菇需要泥土。[你可以用足量的活力獲得更多健康。]"
+            "description": "屬於我的這具身體。世間存在各式各樣的身體，但這一具是屬於我的。我的頭腦需要它，正如菌菇需要泥土。[你可以用足量的活力獲得更多健康。]"
         },
         {
             "id": "vitality",
@@ -241,7 +241,7 @@
                 "ability": 1
             },
             "animFrames": 1,
-            "description": "“在完全現實的情況下，有機體不可能長久地存活下去。”——雪莉·傑克遜\n\n        [博聞能夠用於研究並憑之提升理性。]",
+            "description": "“在完全現實的情況下，有機體不可能長久地存活下去。”——雪莉·傑克森\n\n        [博聞能夠用於研究並憑之提升理性。]",
             "xtriggers": {
                 "damagereason": "dread",
                 "fatiguing": "concentration",

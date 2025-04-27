@@ -25,7 +25,7 @@
         },
         {
             "id": "locationbookdealer_exhausted",
-            "label": "莫蘭書店[關張]",
+            "label": "莫蘭書店[歇業]",
             "description": "這裡是書商莫蘭的舊址，如今我必須去別的地方尋找知識了。",
             "aspects": {
                 "location": 1,
@@ -68,7 +68,7 @@
         },
         {
             "id": "locationcabaretclosed",
-            "label": "蛻衣俱樂部[關張]",
+            "label": "蛻衣俱樂部[歇業]",
             "description": "一家據傳與密教有關的夜總會。只在每週特定的夜晚開放；不久即將重新開業。",
             "unique": true,
             "lifetime": 30,
@@ -444,7 +444,7 @@
                 "location": 1,
                 "hq.potential": 1
             },
-            "description": "腐臭河流旁的一具腐臭空殼。誰會追我們追到這兒來？",
+            "description": "腐臭河流旁的一具腐臭空殼。誰會追我們追到這裡來？",
             "slots": [
                 {
                     "id": "Old HQ",

@@ -3,7 +3,7 @@
         {
             "id": "legacydancerjob",
             "label": "與歡騰劇院的合約",
-            "description": "我在歡騰劇院中的舞蹈隊任職。在我的好運，抑或美貌，消逝之前，這個職位都將歸我所有……又除非我找到了更好的活兒。",
+            "description": "我在歡騰劇院中的舞蹈隊任職。在我的好運，抑或美貌，消逝之前，這個職位都將歸我所有……又除非我找到了更好的工作。",
             "aspects": {
                 "job": 1,
                 "dance": 1,
@@ -107,7 +107,7 @@
                 {
                     "id": "influence",
                     "label": "影響",
-                    "description": "今天是什麼讓我心神不安？",
+                    "description": "今天是什麼讓我心神不寧？",
                     "actionId": "work",
                     "required": {
                         "influence": 1
@@ -170,7 +170,7 @@
                 {
                     "id": "influence",
                     "label": "影響",
-                    "description": "今天是什麼讓我心神不安？",
+                    "description": "今天是什麼讓我心神不寧？",
                     "actionId": "work",
                     "required": {
                         "influence": 1
@@ -244,7 +244,7 @@
                 {
                     "id": "influence",
                     "label": "影響",
-                    "description": "今天是什麼讓我心神不安？",
+                    "description": "今天是什麼讓我心神不寧？",
                     "actionId": "work",
                     "required": {
                         "influence": 1

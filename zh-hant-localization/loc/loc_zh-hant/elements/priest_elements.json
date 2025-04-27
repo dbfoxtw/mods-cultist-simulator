@@ -84,7 +84,7 @@
         {
             "id": "lockscarmoth",
             "label": "蛾之傷疤鎖",
-            "description": "我為門關時，這道傷疤將對剪子起反應。",
+            "description": "我為門關時，這道傷疤將對剪刀起反應。",
             "aspects": {
                 "tool": 1,
                 "knock": 2,
@@ -182,7 +182,7 @@
         {
             "id": "openedlockscarmoth",
             "label": "蛾之傷疤鎖",
-            "description": "我為門關時，這道傷疤將對剪子起反應。",
+            "description": "我為門關時，這道傷疤將對剪刀起反應。",
             "aspects": {
                 "tool": 1,
                 "knock": 2,

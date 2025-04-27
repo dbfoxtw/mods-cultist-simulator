@@ -537,7 +537,7 @@
                 "follower_lustpower": 1
             },
             "animFrames": 1,
-            "description": "埃爾里奇已基本能管住自己在談話中不用刀剔牙了。但他還不能把刀一直放在靴子裡不拔出來。",
+            "description": "埃爾里奇已基本上能忍住自己在談話中不用刀剔牙了。但他還不能把刀一直放在靴子裡不拔出來。",
             "xtriggers": {
                 "promotiontodisciple": "elridge_c",
                 "killmortal": "corpse",
@@ -982,7 +982,7 @@
                 "follower_lustchange": 1
             },
             "animFrames": 1,
-            "description": "波特為他朋友們的利益一刻不停地揮舞著剃刀和剪子。",
+            "description": "波特為他朋友們的利益一刻不停地揮舞著剃刀和剪刀。",
             "xtriggers": {
                 "promotiontodisciple": "porter_c",
                 "killmortal": "corpse",
@@ -1323,7 +1323,7 @@
                 "lantern": 5,
                 "follower_lustenlightenment": 1
             },
-            "description": "思雷的頭痛愈發嚴重，他的理論卻一天天地實用起來。他的詩也越寫越好了。",
+            "description": "思雷的頭痛越來越嚴重，他的理論卻一天天地實用起來。他的詩也越寫越好了。",
             "animFrames": 1,
             "xtriggers": {
                 "promotionto_d_lantern": "slee_d",

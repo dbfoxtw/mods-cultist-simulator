@@ -15,7 +15,7 @@
         {
             "id": "benefactor",
             "label": "金主",
-            "description": "對我的工作成果感興趣之人，我與之走的愈發近了。",
+            "description": "對我的工作成果感興趣之人，我與之走的越來越近了。",
             "isAspect": true
         },
         {
@@ -39,7 +39,7 @@
         {
             "id": "devotee",
             "label": "義徒",
-            "description": "眼下，此人全心全意盡義祀奉。但此情很快便會消退，到那時他或許會質問自己都做下了什麼。",
+            "description": "眼下，此人全心全意盡義祀奉。但此情很快便會消退，到那時他或許會質問自己都做了什麼。",
             "isAspect": true
         },
         {
@@ -943,7 +943,7 @@
         {
             "id": "scarability",
             "label": "傷疤能力",
-            "description": "永久的將一種（激活的和耗盡的均可）能力轉化為其傷疤版本",
+            "description": "永久的將一種（啟用的和耗盡的均可）能力轉化為其傷疤版本",
             "isAspect": true,
             "noartneeded": true
         },
@@ -1315,7 +1315,7 @@
         {
             "id": "erratic",
             "label": "飄忽不定",
-            "description": "該獵人經常沒法將邪名轉化為證據。話說回來，他有時卻能在沒有邪名的情況下造出證據來。",
+            "description": "該獵人經常沒辦法將邪名轉化為證據。話說回來，他有時卻能在沒有邪名的情況下造出證據來。",
             "isAspect": true
         },
         {
@@ -1732,7 +1732,7 @@
         {
             "id": "poison.passion.dread",
             "label": "被毒所侵的激情",
-            "description": "我的情緒趕染上了使人毛骨悚然的恐怖。[在任何地方使用此卡都大概率會生成“恐懼”。]",
+            "description": "我的情緒趕染上了使人毛骨悚然的恐怖。[在任何地方使用此卡都高機率會生成“恐懼”。]",
             "isAspect": true,
             "induces": [
                 {
@@ -1744,7 +1744,7 @@
         {
             "id": "poison.reason.fascination",
             "label": "驕盛燦爛的侵染",
-            "description": "我被反覆出現在夢中的燭火撩撥著。[在任何地方使用此卡都大概率會生成“入迷”。]",
+            "description": "我被反覆出現在夢中的燭火撩撥著。[在任何地方使用此卡都高機率會生成“入迷”。]",
             "isAspect": true,
             "induces": [
                 {
@@ -1756,7 +1756,7 @@
         {
             "id": "poison.health.dread",
             "label": "衰弱的肉體",
-            "description": "我已成了如影隨形的疼痛的俘虜。[在任何地方使用此卡都大概率會生成“恐懼”。]",
+            "description": "我已成了如影隨形的疼痛的俘虜。[在任何地方使用此卡都高機率會生成“恐懼”。]",
             "isAspect": true,
             "induces": [
                 {
@@ -1768,7 +1768,7 @@
         {
             "id": "poison.fascination.longlesson",
             "label": "我記憶中的眼睛",
-            "description": "長生者送給我一個甜蜜的夢境。我必須管住自己不去想它。[如果你在<b>入夢</b>或儀式中使用此卡，長生者就會藉此了解你，增加他在你夢中的力量。]",
+            "description": "長生者送給我一個甜蜜的夢境。我必須忍住自己不去想它。[如果你在<b>入夢</b>或儀式中使用此卡，長生者就會藉此了解你，增加他在你夢中的力量。]",
             "isAspect": true
         },
         {
@@ -1883,7 +1883,7 @@
         {
             "id": "stale",
             "label": "厭煩",
-            "description": "我開始重複我自己了。[厭煩情緒越嚴重，對你的作品影響越大。產出非常高質量的作品可以逐步減少“厭煩”。]",
+            "description": "我開始重複我自己了。[厭煩情緒越嚴重，對你的作品影響越大。產出非常高品質的作品可以逐步減少“厭煩”。]",
             "isAspect": true,
             "icon": "boredom"
         },
@@ -1899,6 +1899,6 @@
             "label": "枯竭",
             "description": "過一段時間即會恢復。",
             "isAspect": true
-        },
+        }
     ]
 }
