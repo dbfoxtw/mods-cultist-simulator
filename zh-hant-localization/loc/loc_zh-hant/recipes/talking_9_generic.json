@@ -754,6 +754,34 @@
                 "acquaintances": 1
             },
             "maxexecutions": 1
-        }
+        },
+        {
+            "id": "talk_prisoner",
+            "label": "決定囚犯的命運",
+            "slots": [
+              {
+                "id": "Fate",
+                "label": "命運",
+                "description": "到底是什麼？"
+              }
+            ],
+            "startdescription": "自由，死亡，或……？",
+            "description": "他們的命運於此重歷史中還尚未成文。"
+          },
+          {
+            "id": "talkprisoner_fascination",
+            "label": "\"仁慈，僅能在影中覓得\"",
+            "startdescription": "畢竟，\"啟示錄\"只是\"大災變\"的另一種表達。"
+          },
+          {
+            "id": "talkprisoner_dread",
+            "label": "\"並非所有結局都是美好的\"",
+            "startdescription": "這是他們存於現世的最後一天，我會盡可能讓他們不帶任何痛苦。"
+          },
+          {
+            "id": "talkprisoner_restlessness",
+            "label": "仁慈，乃悔恨之泉",
+            "startdescription": "放其自由？為什麼？我需要這個問題的答案嗎？他們需要嗎？"
+          }
     ]
 }
