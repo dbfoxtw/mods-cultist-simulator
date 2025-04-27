@@ -2,10 +2,10 @@
     "recipes": [
         {
             "id": "health_expel_to_scar",
-            "label": "健康：落下伤疤",
+            "label": "健康：落下傷疤",
             "actionId": "scar_ability",
-            "startdescription": "我的身体正在改变……",
-            "description": "有些动作会留下更深的印记。[“健康”已永久地成为一道伤疤。注意：伤疤不能治疗生病与挨饿。]",
+            "startdescription": "我的身體正在改變……",
+            "description": "有些動作會留下更深的印記。[“健康”已永久地成為一道傷疤。注意：傷疤不能治療生病與挨餓。]",
             "requirements": {
                 "health": 1
             },
@@ -16,10 +16,10 @@
         },
         {
             "id": "passion_expel_to_scar",
-            "label": "激情：落下伤疤",
+            "label": "激情：落下傷疤",
             "actionId": "scar_ability",
-            "startdescription": "我的多愁善感正在改变我……",
-            "description": "我的思绪将我的肉体与灵魂绑定得甚是牢靠。[“激情”已永久地成为一道伤疤。]",
+            "startdescription": "我的多愁善感正在改變我……",
+            "description": "我的思緒將我的肉體與靈魂綁定得甚是牢靠。[“激情”已永久地成為一道傷疤。]",
             "requirements": {
                 "passion": 1
             },
@@ -30,19 +30,19 @@
         },
         {
             "id": "expel_independent",
-            "label": "浑然不查",
+            "label": "渾然不查",
             "actionId": "expel_independent",
-            "startdescription": "我的对手不可能知道等待他的是什么。",
+            "startdescription": "我的對手不可能知道等待他的是什麼。",
             "warmup": 1
         },
         {
             "id": "expel_corpses",
-            "label": "一抹虚影",
+            "label": "一抹虛影",
             "actionId": "expel_corpse",
             "requirements": {
                 "corpse": 1
             },
-            "startdescription": "长眠于此。",
+            "startdescription": "長眠於此。",
             "warmup": 1
         },
         {
@@ -52,7 +52,7 @@
             "requirements": {
                 "injury": 1
             },
-            "startdescription": "痛楚是最后的礼物。",
+            "startdescription": "痛楚是最後的禮物。",
             "warmup": 1
         }
     ]

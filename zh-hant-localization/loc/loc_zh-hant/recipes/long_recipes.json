@@ -4,7 +4,7 @@
             "id": "long.spawn.forge",
             "label": "某人已至",
             "actionId": "long",
-            "startdescription": "在烛火中，在炉火中，在飘摇如帘的烟气中，征兆确凿。我们塑形者的大敌——妨害我们成就功业之人——已来到这座城市。",
+            "startdescription": "在燭火中，在爐火中，在飄搖如簾的煙氣中，徵兆確鑿。我們塑形者的大敵——妨害我們成就功業之人——已來到這座城市。",
             "deckeffect": {
                 "forgelong": 1
             },
@@ -21,7 +21,7 @@
             "id": "long.spawn.grail",
             "label": "某人已至",
             "actionId": "long",
-            "startdescription": "滋味的变化，血滴的掉落，码头居民区生育频次激增的报道，都在对我们发出警告。我们愉悦者的大敌——妨害我们成就功业之人——已来到这座城市。",
+            "startdescription": "滋味的變化，血滴的掉落，碼頭居民區生育頻次激增的報道，都在對我們發出警告。我們愉悅者的大敵——妨害我們成就功業之人——已來到這座城市。",
             "deckeffect": {
                 "graillong": 1
             },
@@ -38,7 +38,7 @@
             "id": "long.spawn.lantern",
             "label": "某人已至",
             "actionId": "long",
-            "startdescription": "太阳的颜色，月亮的被掩，透镜的碎裂，都在对我们发出警告。我们的沐光明者的大敌——妨害我们成就功业之人——已来到这座城市。",
+            "startdescription": "太陽的顏色，月亮的被掩，透鏡的碎裂，都在對我們發出警告。我們的沐光明者的大敵——妨害我們成就功業之人——已來到這座城市。",
             "deckeffect": {
                 "lanternlong": 1
             },
@@ -53,7 +53,7 @@
         },
         {
             "id": "long.cycle",
-            "label": "某人在观察",
+            "label": "某人在觀察",
             "actionId": "long",
             "effects": {
                 "intention.assault": -9,
@@ -63,13 +63,13 @@
                 "strategy.prep": -9,
                 "strategy.prep.delayed": -9
             },
-            "startdescription": "藏形匿影的不死者在谋划他的下一步。",
+            "startdescription": "藏形匿影的不死者在謀劃他的下一步。",
             "warmup": 60,
             "slots": [
                 {
                     "id": "longlesson",
-                    "label": "习学",
-                    "description": "我们越挑衅敌人，敌人越从中了解我们，这会令其攻击更致命。",
+                    "label": "習學",
+                    "description": "我們越挑釁敵人，敵人越從中了解我們，這會令其攻擊更致命。",
                     "required": {
                         "long.lesson": 1
                     },
@@ -116,18 +116,18 @@
         {
             "id": "expelspy",
             "actionId": "expelspy",
-            "label": "脱出黑夜",
+            "label": "脫出黑夜",
             "requirements": {
                 "follower": 1
             },
-            "startdescription": "我方的密探回来了。",
+            "startdescription": "我方的密探回來了。",
             "warmup": 10
         },
         {
             "id": "long.upgrade.might",
             "actionId": "long",
             "label": "更大的力量",
-            "startdescription": "这名长生者的力量在增长。",
+            "startdescription": "這名長生者的力量在增長。",
             "requirements": {
                 "long.lesson.might": 1
             },
@@ -153,8 +153,8 @@
         {
             "id": "long.upgrade.connections",
             "actionId": "long",
-            "label": "更深的人脉",
-            "startdescription": "这名长生者的人脉在扩大。",
+            "label": "更深的人脈",
+            "startdescription": "這名長生者的人脈在擴大。",
             "requirements": {
                 "long.lesson.connections": 1
             },
@@ -181,7 +181,7 @@
             "id": "long.upgrade.dreamwork",
             "actionId": "long",
             "label": "星光，萌芽",
-            "startdescription": "这名长生者已进到了我梦境的更深处。",
+            "startdescription": "這名長生者已進到了我夢境的更深處。",
             "requirements": {
                 "long.lesson.dreamwork": 1
             },
@@ -207,8 +207,8 @@
         {
             "id": "long.selectstrategy",
             "actionId": "long",
-            "label": "定计",
-            "startdescription": "我们永生不死的敌人已定下行动方案。",
+            "label": "定計",
+            "startdescription": "我們永生不死的敵人已定下行動方案。",
             "requirements": { "intention.dreams": -1, "intention.downtime": -1, "intention.assault": -1, "intention.intrigue": -1 },
             "deckeffect": {
                 "long.strategies": 1
@@ -235,7 +235,7 @@
         },
         {
             "id": "long.preparestrategy.preference.assault",
-            "label": "定计",
+            "label": "定計",
             "actionId": "long",
             "requirements": {
                 "long.preference.assault": 1
@@ -252,7 +252,7 @@
         },
         {
             "id": "long.preparestrategy.preference.intrigue",
-            "label": "定计",
+            "label": "定計",
             "actionId": "long",
             "requirements": {
                 "long.preference.intrigue": 1
@@ -269,7 +269,7 @@
         },
         {
             "id": "long.preparestrategy.preference.dreamwork",
-            "label": "定计",
+            "label": "定計",
             "actionId": "long",
             "requirements": {
                 "long.preference.dreamwork": 1
@@ -287,13 +287,13 @@
         {
             "id": "long.preparestrategy",
             "actionId": "long",
-            "label": "准备行动",
-            "startdescription": "我们永生不死的敌人正在准备下一次行动。\n\n[放入长于<sprite name=knock> <sprite name=lantern>的追随者可尝试勘破长生者的策略。\n放入长于\n<sprite name=edge> <sprite name=forge>的追随者可尝试推迟“袭击”，\n长于<sprite name=grail> <sprite name=heart>者推迟“阴谋”，\n长于<sprite name=moth> <sprite name=winter>者推迟“星光”攻击。]",
+            "label": "準備行動",
+            "startdescription": "我們永生不死的敵人正在準備下一次行動。\n\n[放入長於<sprite name=knock> <sprite name=lantern>的追隨者可嘗試勘破長生者的策略。\n放入長於\n<sprite name=edge> <sprite name=forge>的追隨者可嘗試推遲“襲擊”，\n長於<sprite name=grail> <sprite name=heart>者推遲“陰謀”，\n長於<sprite name=moth> <sprite name=winter>者推遲“星光”攻擊。]",
             "slots": [
                 {
                     "id": "spy",
                     "label": "密探",
-                    "description": "密探可以探知长生者的计划。如果你得知或猜出了计划的真面目，恰当的密探便可以推迟计划实行。",
+                    "description": "密探可以探知長生者的計劃。如果你得知或猜出了計劃的真面目，恰當的密探便可以推遲計劃實行。",
                     "required": {
                         "follower": 1
                     }
@@ -540,46 +540,46 @@
             "requirements": {
                 "follower": 3
             },
-            "startdescription": "我们的敌人警醒不怠。我们派的密探太多了——只要多于两人，便会功亏一篑。",
+            "startdescription": "我們的敵人警醒不怠。我們派的密探太多了——只要多於兩人，便會功虧一簣。",
             "warmup": 10
         },
         {
             "id": "expelallspies_beforeconfrontation.might",
             "actionId": "expelallspies",
-            "label": "风暴前夕",
+            "label": "風暴前夕",
             "requirements": {
                 "long.might": 10,
                 "follower": 1
             },
-            "startdescription": "我们的敌人就要做好直接袭击我们的准备了。我们已召回密探。",
+            "startdescription": "我們的敵人就要做好直接襲擊我們的準備了。我們已召回密探。",
             "warmup": 10
         },
         {
             "id": "expelallspies_beforeconfrontation.connections",
             "actionId": "expelallspies",
-            "label": "风暴前夕",
+            "label": "風暴前夕",
             "requirements": {
                 "long.connections": 10,
                 "follower": 1
             },
-            "startdescription": "我们的敌人就要做好直接袭击我们的准备了。我们已召回密探。",
+            "startdescription": "我們的敵人就要做好直接襲擊我們的準備了。我們已召回密探。",
             "warmup": 10
         },
         {
             "id": "expelallspies_beforeconfrontation.dreamwork",
             "actionId": "expelallspies",
-            "label": "风暴前夕",
+            "label": "風暴前夕",
             "requirements": {
                 "long.dreamwork": 10,
                 "follower": 1
             },
-            "startdescription": "我们的敌人就要做好直接袭击我们的准备了。我们已召回密探。",
+            "startdescription": "我們的敵人就要做好直接襲擊我們的準備了。我們已召回密探。",
             "warmup": 10
         },
         {
             "id": "long.spyonstrategy.success",
             "actionId": "long",
-            "label": "密探发回的报告",
+            "label": "密探發回的報告",
             "alt": [
                 {
                     "id": "long.revealidentity.success.might"
@@ -595,7 +595,7 @@
                 "follower": 1,
                 "strategy.revealed": -1
             },
-            "startdescription": "长生者的策略渐露真容。",
+            "startdescription": "長生者的策略漸露真容。",
             "aspects": {
                 "revealstrategy": 1
             },
@@ -610,7 +610,7 @@
         {
             "id": "long.revealidentity.success.might",
             "actionId": "long",
-            "label": "敌人的身份",
+            "label": "敵人的身份",
             "requirements": {
                 "follower": 1,
                 "julian": -1,
@@ -628,7 +628,7 @@
         {
             "id": "long.revealidentity.success.connections",
             "actionId": "long",
-            "label": "敌人的身份",
+            "label": "敵人的身份",
             "requirements": {
                 "follower": 1,
                 "julian": -1,
@@ -646,7 +646,7 @@
         {
             "id": "long.revealidentity.success.dreamwork",
             "actionId": "long",
-            "label": "敌人的身份",
+            "label": "敵人的身份",
             "requirements": {
                 "follower": 1,
                 "julian": -1,
@@ -664,8 +664,8 @@
         {
             "id": "long.revealidentity.success",
             "actionId": "long",
-            "label": "敌人的身份",
-            "startdescription": "@#welland_unknown|我们的敌人叫韦兰上尉，一名在许多具名者麾下打过许多大仗的铸之长生者。他同时向狮子匠与白日铸炉效忠。他喜欢直接发动袭击，但也不是只会蛮干的士兵。\n#tryphon_unknown|我们的敌人叫特里丰女士，一名在全大陆顶级酒店留下一连串心碎灵魂的杯之长生者。她为圣杯与制花人所深爱。她倾向于耍弄阴谋，但对暴力也不陌生。\n#diarist_unknown|我们的敌人是一名通称“日记作者”的灯之长生者，如其所有同类，他为了漫宿抛弃了自己的实体。他被上校与弧月所宠爱。他偏好在梦中侵袭我们，但也别低估他在醒时世界的盟友。\n#julian_unknown|我们的敌人是一名缩写为“J·C”的冬之长生者。此人动机不明：他一向声称与忘却会及其后继者共进退，而该会从不插手司辰的战争。不过他还是来了，来坏我们的好事。@",
+            "label": "敵人的身份",
+            "startdescription": "@#welland_unknown|我們的敵人叫韋蘭上尉，一名在許多具名者麾下打過許多大仗的鑄之長生者。他同時向獅子匠與白日鑄爐效忠。他喜歡直接發動襲擊，但也不是只會蠻幹的士兵。\n#tryphon_unknown|我們的敵人叫特里豐女士，一名在全大陸頂級酒店留下一連串心碎靈魂的杯之長生者。她為聖杯與制花人所深愛。她傾向於耍弄陰謀，但對暴力也不陌生。\n#diarist_unknown|我們的敵人是一名通稱“日記作者”的燈之長生者，如其所有同類，他為了漫宿拋棄了自己的實體。他被上校與弧月所寵愛。他偏好在夢中侵襲我們，但也別低估他在醒時世界的盟友。\n#julian_unknown|我們的敵人是一名縮寫為“J·C”的冬之長生者。此人動機不明：他一向聲稱與忘卻會及其後繼者共進退，而該會從不插手司辰的戰爭。不過他還是來了，來壞我們的好事。@",
             "aspects": {
                 "revealidentity": 1
             },
@@ -680,8 +680,8 @@
         {
             "id": "long.delayaction.success.assault",
             "actionId": "long",
-            "label": "袭击推迟",
-            "startdescription": "我们预见长生者打算发起袭击；我们已将其稍微推迟。[每个行动最多只能推迟一次。]",
+            "label": "襲擊推遲",
+            "startdescription": "我們預見長生者打算發起襲擊；我們已將其稍微推遲。[每個行動最多只能推遲一次。]",
             "requirements": {
                 "follower": 1,
                 "strategy.prep": 1,
@@ -706,8 +706,8 @@
         {
             "id": "long.delayaction.success.intrigue",
             "actionId": "long",
-            "label": "阴谋推迟！",
-            "startdescription": "我们预见长生者打算发起阴谋；我们已将其稍微推迟。[每个行动最多只能推迟一次。]",
+            "label": "陰謀推遲！",
+            "startdescription": "我們預見長生者打算發起陰謀；我們已將其稍微推遲。[每個行動最多只能推遲一次。]",
             "requirements": {
                 "follower": 1,
                 "strategy.prep": 1,
@@ -733,7 +733,7 @@
             "id": "long.delayaction.success.dreams",
             "actionId": "long",
             "label": "月亮，被掩",
-            "startdescription": "我们预见长生者打算在梦中袭击我们；我们已将其稍微推迟。[每个行动最多只能推迟一次。]",
+            "startdescription": "我們預見長生者打算在夢中襲擊我們；我們已將其稍微推遲。[每個行動最多只能推遲一次。]",
             "requirements": {
                 "follower": 1,
                 "strategy.prep": 1,
@@ -758,9 +758,9 @@
         {
             "id": "long.delayaction.success",
             "actionId": "long",
-            "label": "我方的密探拖延了敌人",
+            "label": "我方的密探拖延了敵人",
             "comments": "This generic recipe is included only for backwards compatibility with beta folks",
-            "startdescription": "他能拖慢长生者的行动，但不能阻止。[每个行动最多只能推迟一次。]",
+            "startdescription": "他能拖慢長生者的行動，但不能阻止。[每個行動最多只能推遲一次。]",
             "requirements": {
                 "follower": 1,
                 "strategy.prep": 1,

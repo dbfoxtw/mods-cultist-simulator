@@ -2,14 +2,14 @@
     "elements": [
         {
             "id": "thugedgeminor",
-            "label": "大块头之人",
+            "label": "大塊頭之人",
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
                 "follower": 1,
                 "edge": 3
             },
-            "description": "“我搞定了工作。”[该雇工可以用于探险，并且可以帮你解决来寻找你犯罪证据的猎人和找你麻烦的家伙。]",
+            "description": "“我搞定了工作。”[該僱工可以用於探險，並且可以幫你解決來尋找你犯罪證據的獵人和找你麻煩的傢伙。]",
             "xtriggers": {
                 "hiring": "thugedgeminor",
                 "killmortal": "corpse",
@@ -20,14 +20,14 @@
         },
         {
             "id": "thugmothminor",
-            "label": "狡诈的女人",
+            "label": "狡詐的女人",
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
                 "follower": 1,
                 "moth": 3
             },
-            "description": "“我搞定了工作。”[该雇工可以用于探险，并且可以帮你解决来寻找你犯罪证据的猎人和找你麻烦的家伙。]",
+            "description": "“我搞定了工作。”[該僱工可以用於探險，並且可以幫你解決來尋找你犯罪證據的獵人和找你麻煩的傢伙。]",
             "xtriggers": {
                 "hiring": "thugmothminor",
                 "killmortal": "corpse",
@@ -38,14 +38,14 @@
         },
         {
             "id": "thugedge",
-            "label": "肌肉专家",
+            "label": "肌肉專家",
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
                 "follower": 1,
                 "edge": 5
             },
-            "description": "“我要把他们劈成两半。”[该雇工可以用于探险，并且可以可以帮你解决来寻找你犯罪证据的猎人和找你麻烦的家伙。]",
+            "description": "“我要把他們劈成兩半。”[該僱工可以用於探險，並且可以可以幫你解決來尋找你犯罪證據的獵人和找你麻煩的傢伙。]",
             "xtriggers": {
                 "hiring": "thugedge",
                 "killmortal": "corpse",
@@ -56,7 +56,7 @@
         },
         {
             "id": "thugforgeedge",
-            "label": "炸弹制造师",
+            "label": "炸彈製造師",
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
@@ -64,7 +64,7 @@
                 "forge": 5,
                 "edge": 3
             },
-            "description": "“也许我们这会儿不该谈政治。”[该雇工可以用于探险，并且可以可以帮你解决来寻找你犯罪证据的猎人和找你麻烦的家伙]",
+            "description": "“也許我們這會兒不該談政治。”[該僱工可以用於探險，並且可以可以幫你解決來尋找你犯罪證據的獵人和找你麻煩的傢伙]",
             "xtriggers": {
                 "hiring": "thugforgeedge",
                 "killmortal": "corpse",
@@ -75,14 +75,14 @@
         },
         {
             "id": "thugknock",
-            "label": "破门顾问",
+            "label": "破門顧問",
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
                 "follower": 1,
                 "knock": 5
             },
-            "description": "“我对门很在行。”[该雇工或可在某些探险中派上用场。]",
+            "description": "“我對門很在行。”[該僱工或可在某些探險中派上用場。]",
             "xtriggers": {
                 "hiring": "thugknock",
                 "killmortal": "corpse",
@@ -93,7 +93,7 @@
         },
         {
             "id": "thuglanternmoth",
-            "label": "占卜师",
+            "label": "占卜師",
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
@@ -101,7 +101,7 @@
                 "lantern": 5,
                 "moth": 3
             },
-            "description": "“我感受到了。我感受到了你的与众不同。”[该雇工可以用于探险，并且可以帮你解决来寻找你犯罪证据的猎人和找你麻烦的家伙。]",
+            "description": "“我感受到了。我感受到了你的與眾不同。”[該僱工可以用於探險，並且可以幫你解決來尋找你犯罪證據的獵人和找你麻煩的傢伙。]",
             "xtriggers": {
                 "hiring": "thuglanternmoth",
                 "killmortal": "corpse",
@@ -112,7 +112,7 @@
         },
         {
             "id": "thugmoth",
-            "label": "经验丰富的骗子",
+            "label": "經驗豐富的騙子",
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
@@ -120,7 +120,7 @@
                 "moth": 5,
                 "grail": 1
             },
-            "description": "“很高兴与您共事！”[该雇工可以用于探险，并且可以帮你解决来寻找你犯罪证据的猎人和找你麻烦的家伙。]",
+            "description": "“很高興與您共事！”[該僱工可以用於探險，並且可以幫你解決來尋找你犯罪證據的獵人和找你麻煩的傢伙。]",
             "xtriggers": {
                 "hiring": "thugmoth",
                 "killmortal": "corpse",

@@ -3,8 +3,8 @@
         {
             "id": "exile",
             "label": "流亡者",
-            "description": "没人能从清算人首领手里偷东西。但我就这么做了，我有我的理由。",
-            "startdescription": "日落时分。是时候动身了。",
+            "description": "沒人能從清算人首領手裡偷東西。但我就這麼做了，我有我的理由。",
+            "startdescription": "日落時分。是時候動身了。",
             "image": "exile",
             "effects": {
                 "trace": 7,
@@ -27,8 +27,8 @@
         {
             "id": "exile.obscurityvictorya",
             "label": "流亡者",
-            "description": "倘若往昔之事改变，一切又会如何？于另一重历史中，我是否收获了更为丰厚的回报？",
-            "startdescription": "日落时分。是时候动身了。",
+            "description": "倘若往昔之事改變，一切又會如何？於另一重歷史中，我是否收穫了更為豐厚的回報？",
+            "startdescription": "日落時分。是時候動身了。",
             "image": "exile",
             "effects": {
                 "decade.stolen": 7,
@@ -50,8 +50,8 @@
         {
             "id": "exile.obscurityvictoryb",
             "label": "流亡者",
-            "description": "倘若往昔之事改变，一切又会如何？于另一重历史中，我是否收获了更为丰厚的回报？",
-            "startdescription": "日落时分。是时候动身了。",
+            "description": "倘若往昔之事改變，一切又會如何？於另一重歷史中，我是否收穫了更為豐厚的回報？",
+            "startdescription": "日落時分。是時候動身了。",
             "image": "exile",
             "effects": {
                 "decade.stolen": 7,
@@ -73,8 +73,8 @@
         {
             "id": "exile.obscurityvictoryc",
             "label": "流亡者",
-            "description": "倘若往昔之事改变，一切又会如何？于另一重历史中，我是否升得更高？",
-            "startdescription": "日落时分。是时候动身了。",
+            "description": "倘若往昔之事改變，一切又會如何？於另一重歷史中，我是否升得更高？",
+            "startdescription": "日落時分。是時候動身了。",
             "image": "exile",
             "effects": {
                 "decade.stolen": 7,
@@ -96,8 +96,8 @@
         {
             "id": "exile.obscurityvictoryafoeslain",
             "label": "流亡者",
-            "description": "倘若往昔之事改变，一切又会如何？于另一重历史中，我是否收获了更为丰厚的回报？",
-            "startdescription": "日落时分。是时候动身了。",
+            "description": "倘若往昔之事改變，一切又會如何？於另一重歷史中，我是否收穫了更為豐厚的回報？",
+            "startdescription": "日落時分。是時候動身了。",
             "image": "exile",
             "effects": {
                 "decade.stolen": 7,
@@ -119,8 +119,8 @@
         {
             "id": "exile.obscurityvictorybfoeslain",
             "label": "流亡者",
-            "description": "倘若往昔之事改变，一切又会如何？于另一重历史中，我是否收获了更为丰厚的回报？",
-            "startdescription": "日落时分。是时候动身了。",
+            "description": "倘若往昔之事改變，一切又會如何？於另一重歷史中，我是否收穫了更為豐厚的回報？",
+            "startdescription": "日落時分。是時候動身了。",
             "image": "exile",
             "effects": {
                 "decade.stolen": 7,
@@ -142,8 +142,8 @@
         {
             "id": "exile.obscurityvictorycfoeslain",
             "label": "流亡者",
-            "description": "倘若往昔之事改变，一切又会如何？于另一重历史中，我是否升得更高？",
-            "startdescription": "日落时分。是时候动身了。",
+            "description": "倘若往昔之事改變，一切又會如何？於另一重歷史中，我是否升得更高？",
+            "startdescription": "日落時分。是時候動身了。",
             "image": "exile",
             "effects": {
                 "decade.stolen": 7,
@@ -165,8 +165,8 @@
         {
             "id": "exile.foecaughtup",
             "label": "流亡者",
-            "description": "倘若往昔之事改变，一切又会如何？于另一重历史中，我是否能保全性命？",
-            "startdescription": "日落时分。是时候动身了。",
+            "description": "倘若往昔之事改變，一切又會如何？於另一重歷史中，我是否能保全性命？",
+            "startdescription": "日落時分。是時候動身了。",
             "image": "exile",
             "effects": {
                 "decade.stolen": 7,
@@ -188,8 +188,8 @@
         {
             "id": "exile.ascensioncolonel",
             "label": "流亡者",
-            "description": "倘若往昔之事改变，一切又会如何？于另一重历史中，我是否找到了更像是“自由”的东西？",
-            "startdescription": "日落时分。是时候动身了。",
+            "description": "倘若往昔之事改變，一切又會如何？於另一重歷史中，我是否找到了更像是“自由”的東西？",
+            "startdescription": "日落時分。是時候動身了。",
             "image": "exile",
             "effects": {
                 "decade.stolen": 7,
@@ -211,8 +211,8 @@
         {
             "id": "exile.ascensionlionsmith",
             "label": "流亡者",
-            "description": "倘若往昔之事改变，一切又会如何？于另一重历史中，我是否找到了更像是“安宁”的东西？",
-            "startdescription": "日落时分。是时候动身了。",
+            "description": "倘若往昔之事改變，一切又會如何？於另一重歷史中，我是否找到了更像是“安寧”的東西？",
+            "startdescription": "日落時分。是時候動身了。",
             "image": "exile",
             "effects": {
                 "decade.stolen": 7,
@@ -234,8 +234,8 @@
         {
             "id": "exile.ascensionwolf",
             "label": "流亡者",
-            "description": "倘若往昔之事改变，一切又会如何？于另一重历史中，我仍是一个毁灭者吗？",
-            "startdescription": "日落时分。是时候动身了。",
+            "description": "倘若往昔之事改變，一切又會如何？於另一重歷史中，我仍是一個毀滅者嗎？",
+            "startdescription": "日落時分。是時候動身了。",
             "image": "exile",
             "effects": {
                 "decade.stolen": 7,
@@ -257,8 +257,8 @@
         {
             "id": "exile.victoryvelvet",
             "label": "流亡者",
-            "description": "倘若往昔之事改变，一切又会如何？于另一重历史中，我是否遇见了我的创造者？",
-            "startdescription": "日落时分。是时候动身了。",
+            "description": "倘若往昔之事改變，一切又會如何？於另一重歷史中，我是否遇見了我的創造者？",
+            "startdescription": "日落時分。是時候動身了。",
             "image": "exile",
             "effects": {
                 "decade.stolen": 7,

@@ -39,8 +39,8 @@
         },
         {
             "id": "hirelings",
-            "label": "残暴之人与狡诈之人",
-            "description": "物尽其用，人尽其才。",
+            "label": "殘暴之人與狡詐之人",
+            "description": "物盡其用，人盡其才。",
             "spec": [
                 "thugedge",
                 "thugforgeedge",
@@ -65,7 +65,7 @@
         },
         {
             "id": "hunters",
-            "label": "猎人",
+            "label": "獵人",
             "description": "盼我遭厄之人。",
             "spec": [
                 "investigator1",
@@ -78,8 +78,8 @@
         },
         {
             "id": "scholarpatrons",
-            "label": "赞助人",
-            "description": "可能会帮助我的人。",
+            "label": "贊助人",
+            "description": "可能會幫助我的人。",
             "spec": [
                 "aladimready",
                 "bechetready",
@@ -91,7 +91,7 @@
         },
         {
             "id": "aladimcommissions",
-            "label": "阿迪姆的兴趣所在",
+            "label": "阿迪姆的興趣所在",
             "description": "",
             "spec": [
                 "commissionarticlesecrethistories",
@@ -106,7 +106,7 @@
         },
         {
             "id": "bechetcommissions",
-            "label": "贝谢的兴趣所在",
+            "label": "貝謝的興趣所在",
             "description": "",
             "spec": [
                 "commissionarticleforge",
@@ -124,7 +124,7 @@
         },
         {
             "id": "janningscommissions",
-            "label": "雅宁斯的兴趣所在",
+            "label": "雅寧斯的興趣所在",
             "description": "",
             "spec": [
                 "commissionarticleedge",
@@ -138,7 +138,7 @@
         },
         {
             "id": "poppycommissions",
-            "label": "波比的兴趣所在",
+            "label": "波比的興趣所在",
             "description": "",
             "spec": [
                 "commissionarticlewinter",
@@ -152,8 +152,8 @@
         },
         {
             "id": "randomvictim",
-            "label": "不明智之人与不谨慎之人",
-            "description": "我们用他们行我们须行之事。",
+            "label": "不明智之人與不謹慎之人",
+            "description": "我們用他們行我們須行之事。",
             "spec": [
                 "genericprisonerm",
                 "genericprisonerf"

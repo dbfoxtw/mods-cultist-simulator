@@ -1,10 +1,10 @@
 {"achievements": [
 
-  { "id": "A_ENDING_MINORKNOCKVICTORY", "label": "被开封与被拆解",
-  "descriptionunlocked": "唯独在第五史，我将像浪头一样昂首，戴上扁兜帽标示我已成为何物。"
+  { "id": "A_ENDING_MINORKNOCKVICTORY", "label": "被開封與被拆解",
+  "descriptionunlocked": "唯獨在第五史，我將像浪頭一樣昂首，戴上扁兜帽標示我已成為何物。"
   },
-  { "id": "A_ENDING_MINORMAREVICTORY", "label": "牝马与我",
-  "descriptionunlocked": "我本该就此死去，但我的伤口是门扉。"
+  { "id": "A_ENDING_MINORMAREVICTORY", "label": "牝馬與我",
+  "descriptionunlocked": "我本該就此死去，但我的傷口是門扉。"
   },
 
 ]}

@@ -1,25 +1,25 @@
 {"achievements": [
 
-  { "id": "A_ENDING_WORKVICTORYMARRIAGE", "label": "共度余生：我",
-  "descriptionunlocked": "我是个功成名就的战利品。"
+  { "id": "A_ENDING_WORKVICTORYMARRIAGE", "label": "共度餘生：我",
+  "descriptionunlocked": "我是個功成名就的戰利品。"
   },
-  { "id": "A_ENDING_MINORMOTHVICTORY", "label": "渡渡鸟与巨龙",
-  "descriptionunlocked": "我变成了某种黑暗而不朽的有翅生物，某种不复存在的生物。"
+  { "id": "A_ENDING_MINORMOTHVICTORY", "label": "渡渡鳥與巨龍",
+  "descriptionunlocked": "我變成了某種黑暗而不朽的有翅生物，某種不復存在的生物。"
   },
-  { "id": "A_ENDING_MINORMOTHVICTORY_WITHRISEN", "label": "渡渡鸟与蛆虫",
-  "descriptionunlocked": "我们变成了某种黑暗而不朽的有翅生物，某种不复存在的生物。"
+  { "id": "A_ENDING_MINORMOTHVICTORY_WITHRISEN", "label": "渡渡鳥與蛆蟲",
+  "descriptionunlocked": "我們變成了某種黑暗而不朽的有翅生物，某種不復存在的生物。"
   },
-  { "id": "A_ENDING_MINORHEARTVICTORY", "label": "我的常性得证",
-  "descriptionunlocked": "我加入了轰雷之皮的风暴合唱。我永不停歇。"
+  { "id": "A_ENDING_MINORHEARTVICTORY", "label": "我的常性得證",
+  "descriptionunlocked": "我加入了轟雷之皮的風暴合唱。我永不停歇。"
   },
-  { "id": "A_ENDING_MINORHEARTVICTORY_WITHRISEN", "label": "我们的常性得证",
-  "descriptionunlocked": "我们加入了轰雷之皮的风暴合唱。我们永不停歇。"
+  { "id": "A_ENDING_MINORHEARTVICTORY_WITHRISEN", "label": "我們的常性得證",
+  "descriptionunlocked": "我們加入了轟雷之皮的風暴合唱。我們永不停歇。"
   },
   { "id": "A_ENDING_MINORMENISCATEVICTORY", "label": "月亮的居屋",
-  "descriptionunlocked": "弧月宠爱我们。"
+  "descriptionunlocked": "弧月寵愛我們。"
   },
   { "id": "A_ENDING_MINORMENISCATEVICTORY_WITHRISEN", "label": "吾月之居所",
-  "descriptionunlocked": "弧月宠爱我们。"
+  "descriptionunlocked": "弧月寵愛我們。"
   },
 
 ]}

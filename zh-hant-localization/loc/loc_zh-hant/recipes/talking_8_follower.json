@@ -2,10 +2,10 @@
     "recipes": [
         {
             "id": "talktofollower_attemptheal",
-            "label": "尝试治疗追随者",
+            "label": "嘗試治療追隨者",
             "actionId": "talk",
-            "startdescription": "出于同情，还是私利？",
-            "description": "我不能或不愿提供医疗援助。",
+            "startdescription": "出於同情，還是私利？",
+            "description": "我不能或不願提供醫療援助。",
             "requirements": {
                 "follower_wound": 1,
                 "mortal": 1,
@@ -14,8 +14,8 @@
             "slots": [
                 {
                     "id": "Healing",
-                    "label": "治疗",
-                    "description": "用资金购买药物。",
+                    "label": "治療",
+                    "description": "用資金購買藥物。",
                     "required": {
                         "funds": 1
                     }
@@ -32,8 +32,8 @@
         },
         {
             "id": "talktofollower_heal",
-            "label": "完成对追随者的治疗",
-            "startdescription": "也许暂时能保此人一命。但人类身体的承受能力是有限度的。",
+            "label": "完成對追隨者的治療",
+            "startdescription": "也許暫時能保此人一命。但人類身體的承受能力是有限度的。",
             "actionId": "talk",
             "requirements": {
                 "funds": 1
@@ -73,8 +73,8 @@
         {
             "id": "givescar_edge",
             "actionId": "talk",
-            "label": "习学教训",
-            "description": "伤口痊愈，伤疤留存。但每道伤疤，如学者舒加曾经眼见的一样，都是我们学到的教训。",
+            "label": "習學教訓",
+            "description": "傷口痊癒，傷疤留存。但每道傷疤，如學者舒加曾經眼見的一樣，都是我們學到的教訓。",
             "mutations": [
                 {
                     "filterOnAspectId": "follower",
@@ -98,9 +98,9 @@
         },
         {
             "id": "givescar_knock",
-            "label": "疼痛之门",
+            "label": "疼痛之門",
             "actionId": "talk",
-            "description": "伤口——尽可能地——痊愈了。一扇痛苦与可能性之门留存下来。",
+            "description": "傷口——盡可能地——痊癒了。一扇痛苦與可能性之門留存下來。",
             "mutations": [
                 {
                     "filterOnAspectId": "follower",
@@ -125,8 +125,8 @@
         {
             "id": "givescar_winter",
             "actionId": "talk",
-            "label": "结尾的开端",
-            "description": "伤口痊愈了，但此人曾和死亡擦肩而过。寂静如雪一般触碰了他。",
+            "label": "結尾的開端",
+            "description": "傷口痊癒了，但此人曾和死亡擦肩而過。寂靜如雪一般觸碰了他。",
             "mutations": [
                 {
                     "filterOnAspectId": "follower",
@@ -151,11 +151,11 @@
         {
             "id": "deathscar_edge",
             "actionId": "talk",
-            "label": "死亡：一次败北",
+            "label": "死亡：一次敗北",
             "requirements": {
                 "follower_scar_edge": 3
             },
-            "description": "此人展现出了勇气与韧性。但到最后，这些都不够。[你的追随者因落下三道<b>刃</b>伤疤而丧命。]",
+            "description": "此人展現出了勇氣與韌性。但到最後，這些都不夠。[你的追隨者因落下三道<b>刃</b>傷疤而喪命。]",
             "aspects": {
                 "killmortal": 1
             }
@@ -163,11 +163,11 @@
         {
             "id": "deathscar_knock",
             "actionId": "talk",
-            "label": "死亡：一处开口",
+            "label": "死亡：一處開口",
             "requirements": {
                 "follower_scar_knock": 3
             },
-            "description": "人为了有效地运转，须得保持其内部之物存于内部，并阻止外部之物进入内部。当人的内部之物流出到外部到一定程度时，人就不再能持续运转了。[你的追随者因落下三道<b>启</b>伤疤而丧命。]",
+            "description": "人為了有效地運轉，須得保持其內部之物存於內部，並阻止外部之物進入內部。當人的內部之物流出到外部到一定程度時，人就不再能持續運轉了。[你的追隨者因落下三道<b>啟</b>傷疤而喪命。]",
             "aspects": {
                 "killmortal": 1
             }
@@ -175,18 +175,18 @@
         {
             "id": "deathscar_winter",
             "actionId": "talk",
-            "label": "死亡：一个结尾",
+            "label": "死亡：一個結尾",
             "requirements": {
                 "follower_scar_winter": 3
             },
-            "description": "年景向西转向，朝冬而去。此人选择阖上双眼。[你的追随者因落下三道<b>冬</b>伤疤而丧命。]",
+            "description": "年景向西轉向，朝冬而去。此人選擇闔上雙眼。[你的追隨者因落下三道<b>冬</b>傷疤而喪命。]",
             "aspects": {
                 "killmortal": 1
             }
         },
         {
             "id": "talktofollower",
-            "label": "与追随者讨论教团事务",
+            "label": "與追隨者討論教團事務",
             "actionId": "talk",
             "requirements": {
                 "society": -1,
@@ -196,8 +196,8 @@
             "slots": [
                 {
                     "id": "Subject",
-                    "label": "话题",
-                    "description": "本教事务；目标；或者另一个话题。",
+                    "label": "話題",
+                    "description": "本教事務；目標；或者另一個話題。",
                     "required": {
                         "society": 1,
                         "evidencelevel": 1,
@@ -452,21 +452,21 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "去烟雾弥漫的会议室进行重要谈话。我需要我的追随者做什么呢？[放入教徒，派其办理教团事务、跟踪敌人、或再次起事。]",
-            "description": "无话可谈。",
+            "startdescription": "去煙霧瀰漫的會議室進行重要談話。我需要我的追隨者做什麼呢？[放入教徒，派其辦理教團事務、跟蹤敵人、或再次起事。]",
+            "description": "無話可談。",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "talktohireling_rehire",
             "actionId": "talk",
-            "label": "再付这名雇工一笔酬金。",
+            "label": "再付這名僱工一筆酬金。",
             "requirements": {
                 "hireling": 1,
                 "funds": 1
             },
-            "startdescription": "我可以花钱延长这名雇工的工期。",
-            "description": "“行啊。价钱和之前一样。”",
+            "startdescription": "我可以花錢延長這名僱工的工期。",
+            "description": "“行啊。價錢和之前一樣。”",
             "aspects": {
                 "hiring": 1
             },
@@ -479,13 +479,13 @@
         {
             "id": "talktodevotee_refire",
             "actionId": "talk",
-            "label": "重燃这名义徒的信仰",
+            "label": "重燃這名義徒的信仰",
             "requirements": {
                 "devotee": 1,
                 "fervour": 1
             },
-            "startdescription": "如果我义徒的信仰在动摇，我可以用<b>热忱</b>再度点燃他的热情。",
-            "description": "“你这么快便忘记了你做的那些梦？”",
+            "startdescription": "如果我義徒的信仰在動搖，我可以用<b>熱忱</b>再度點燃他的熱情。",
+            "description": "“你這麼快便忘記了你做的那些夢？”",
             "effects": {
                 "refiring": 1
             },
@@ -494,7 +494,7 @@
         },
         {
             "id": "A_talktofollower_cantgivetool",
-            "label": "不明智，还是不允许？",
+            "label": "不明智，還是不允許？",
             "actionId": "talk",
             "requirements": {
                 "follower": 1,
@@ -502,11 +502,11 @@
                 "summoned": -1,
                 "follower_honoured": 1
             },
-            "startdescription": "我已经给这名追随者送过礼了。[一名追随者只能收一份礼。]"
+            "startdescription": "我已經給這名追隨者送過禮了。[一名追隨者只能收一份禮。]"
         },
         {
             "id": "A_talktofollower_givetool_router",
-            "label": "赠予追随者一件工具",
+            "label": "贈予追隨者一件工具",
             "actionId": "talk",
             "requirements": {
                 "follower": 1,
@@ -516,7 +516,7 @@
                 "greatwork": -1,
                 "greatwork.sabotaged": -1
             },
-            "startdescription": "力量将从我手传到他手。[可为追随者增加相应的性相，但你将再也不能取回该工具，也不能赠与该人第二件工具。礼物会消减<b>怨恨</b>。]",
+            "startdescription": "力量將從我手傳到他手。[可為追隨者增加相應的性相，但你將再也不能取回該工具，也不能贈與該人第二件工具。禮物會消減<b>怨恨</b>。]",
             "description": ".",
             "linked": [
                 {
@@ -635,9 +635,9 @@
         },
         {
             "id": "L_give_tool_edgeb",
-            "label": "刃之薄礼",
+            "label": "刃之薄禮",
             "actionId": "talk",
-            "description": "用干虎筋穿起，挂在颈上。",
+            "description": "用干虎筋穿起，掛在頸上。",
             "requirements": {
                 "tooledgeb": 1
             },
@@ -667,9 +667,9 @@
         },
         {
             "id": "L_give_tool_edged",
-            "label": "刃之厚礼",
+            "label": "刃之厚禮",
             "actionId": "talk",
-            "description": "置于手边，但要包裹起来，免得其见血兴奋。",
+            "description": "置於手邊，但要包裹起來，免得其見血興奮。",
             "requirements": {
                 "tooledged": 1
             },
@@ -699,9 +699,9 @@
         },
         {
             "id": "L_give_tool_edgef",
-            "label": "刃之大礼",
+            "label": "刃之大禮",
             "actionId": "talk",
-            "description": "埋在一个它不能煽动叛乱的地方。",
+            "description": "埋在一個它不能煽動叛亂的地方。",
             "requirements": {
                 "tooledgef": 1
             },
@@ -731,9 +731,9 @@
         },
         {
             "id": "L_give_tool_forgeb",
-            "label": "铸之薄礼",
+            "label": "鑄之薄禮",
             "actionId": "talk",
-            "description": "保管方式：用精钢链穿起，挂在颈上。",
+            "description": "保管方式：用精鋼鏈穿起，掛在頸上。",
             "requirements": {
                 "toolforgeb": 1
             },
@@ -763,9 +763,9 @@
         },
         {
             "id": "L_give_tool_forged",
-            "label": "铸之厚礼",
+            "label": "鑄之厚禮",
             "actionId": "talk",
-            "description": "保管方式：用铁环牢牢固定在肉上。",
+            "description": "保管方式：用鐵環牢牢固定在肉上。",
             "requirements": {
                 "toolforged": 1
             },
@@ -795,9 +795,9 @@
         },
         {
             "id": "L_give_tool_forgef",
-            "label": "铸之大礼",
+            "label": "鑄之大禮",
             "actionId": "talk",
-            "description": "保管方式：置于私家神龛灯中。",
+            "description": "保管方式：置於私家神龕燈中。",
             "requirements": {
                 "toolforgef": 1
             },
@@ -827,9 +827,9 @@
         },
         {
             "id": "L_give_tool_grailmoth",
-            "label": "杯与蛾之薄礼",
+            "label": "杯與蛾之薄禮",
             "actionId": "talk",
-            "description": "保管方式：低于颈部，高于腰部，置于胸腔正当中。",
+            "description": "保管方式：低於頸部，高於腰部，置於胸腔正當中。",
             "requirements": {
                 "toolgrailmoth": 1
             },
@@ -865,9 +865,9 @@
         },
         {
             "id": "L_give_tool_grailb",
-            "label": "杯之薄礼",
+            "label": "杯之薄禮",
             "actionId": "talk",
-            "description": "保管方式：绝不可在日光下穿戴，唯有十分小心才能在月光下穿戴。",
+            "description": "保管方式：絕不可在日光下穿戴，唯有十分小心才能在月光下穿戴。",
             "requirements": {
                 "toolgrailb": 1
             },
@@ -897,9 +897,9 @@
         },
         {
             "id": "L_give_tool_graild",
-            "label": "杯之厚礼",
+            "label": "杯之厚禮",
             "actionId": "talk",
-            "description": "保管方式：我的仆从会把自己的头发编进这只环，供下一个所有者焚烧。",
+            "description": "保管方式：我的僕從會把自己的頭髮編進這隻環，供下一個所有者焚燒。",
             "requirements": {
                 "toolgraild": 1
             },
@@ -929,9 +929,9 @@
         },
         {
             "id": "L_give_tool_grailf",
-            "label": "杯之大礼",
+            "label": "杯之大禮",
             "actionId": "talk",
-            "description": "保管方式：置于酒窖，更稀有的葡萄酒旁。",
+            "description": "保管方式：置於酒窖，更稀有的葡萄酒旁。",
             "requirements": {
                 "toolgrailf": 1
             },
@@ -961,9 +961,9 @@
         },
         {
             "id": "L_give_tool_heartb",
-            "label": "心之薄礼",
+            "label": "心之薄禮",
             "actionId": "talk",
-            "description": "携带方式：置于襁褓中随身背负，如同对待乖巧的婴儿。",
+            "description": "攜帶方式：置於襁褓中隨身背負，如同對待乖巧的嬰兒。",
             "requirements": {
                 "toolheartb": 1
             },
@@ -993,9 +993,9 @@
         },
         {
             "id": "L_give_tool_heartd",
-            "label": "心之厚礼",
+            "label": "心之厚禮",
             "actionId": "talk",
-            "description": "保管方式：紧紧裹住，以防其不时震颤。",
+            "description": "保管方式：緊緊裹住，以防其不時震顫。",
             "requirements": {
                 "toolheartd": 1
             },
@@ -1025,9 +1025,9 @@
         },
         {
             "id": "L_give_tool_heartf",
-            "label": "心之大礼",
+            "label": "心之大禮",
             "actionId": "talk",
-            "description": "保管方式：置于壁炉上方，或门槛前方。",
+            "description": "保管方式：置於壁爐上方，或門檻前方。",
             "requirements": {
                 "toolheartf": 1
             },
@@ -1057,9 +1057,9 @@
         },
         {
             "id": "L_give_tool_knockb",
-            "label": "启之薄礼",
+            "label": "啟之薄禮",
             "actionId": "talk",
-            "description": "保管方式：用干蛇肠穿起，挂在颈上。",
+            "description": "保管方式：用干蛇腸穿起，掛在頸上。",
             "requirements": {
                 "toolknockb": 1
             },
@@ -1089,9 +1089,9 @@
         },
         {
             "id": "L_give_tool_knockd",
-            "label": "启之厚礼",
+            "label": "啟之厚禮",
             "actionId": "talk",
-            "description": "保管方式：置于不打开的门上。",
+            "description": "保管方式：置於不打開的門上。",
             "requirements": {
                 "toolknockd": 1
             },
@@ -1121,9 +1121,9 @@
         },
         {
             "id": "L_give_tool_knockf",
-            "label": "启之大礼",
+            "label": "啟之大禮",
             "actionId": "talk",
-            "description": "无法锁在某处。应保管于手中或舌下。",
+            "description": "無法鎖在某處。應保管於手中或舌下。",
             "requirements": {
                 "toolknockf": 1
             },
@@ -1153,9 +1153,9 @@
         },
         {
             "id": "L_give_tool_lanternb",
-            "label": "灯之薄礼",
+            "label": "燈之薄禮",
             "actionId": "talk",
-            "description": "保管方式：用金缠丝穿起，挂在颈上。",
+            "description": "保管方式：用金纏絲穿起，掛在頸上。",
             "requirements": {
                 "toollanternb": 1
             },
@@ -1185,9 +1185,9 @@
         },
         {
             "id": "L_give_tool_lanternd",
-            "label": "灯之厚礼",
+            "label": "燈之厚禮",
             "actionId": "talk",
-            "description": "不管保管在哪，都可见之于瞳孔中细碎的反照。",
+            "description": "不管保管在哪，都可見之於瞳孔中細碎的反照。",
             "requirements": {
                 "toollanternd": 1
             },
@@ -1217,9 +1217,9 @@
         },
         {
             "id": "L_give_tool_lanternf",
-            "label": "灯之大礼",
+            "label": "燈之大禮",
             "actionId": "talk",
-            "description": "保管方式：置于从未容许光线进入过的无窗房间。",
+            "description": "保管方式：置於從未容許光線進入過的無窗房間。",
             "requirements": {
                 "toollanternf": 1
             },
@@ -1249,9 +1249,9 @@
         },
         {
             "id": "L_give_tool_mothb",
-            "label": "蛾之薄礼",
+            "label": "蛾之薄禮",
             "actionId": "talk",
-            "description": "保管方式：置于乱发中，于绷带中，于盒子中，于我们下定决心才会造访的地方。",
+            "description": "保管方式：置於亂發中，於繃帶中，於盒子中，於我們下定決心才會造訪的地方。",
             "requirements": {
                 "toolmothb": 1
             },
@@ -1281,9 +1281,9 @@
         },
         {
             "id": "L_give_tool_mothd",
-            "label": "蛾之厚礼",
+            "label": "蛾之厚禮",
             "actionId": "talk",
-            "description": "保管方式：置于人体模型的空白脸庞上，永远面对墙。",
+            "description": "保管方式：置於人體模型的空白臉龐上，永遠面對牆。",
             "requirements": {
                 "toolmothd": 1
             },
@@ -1313,9 +1313,9 @@
         },
         {
             "id": "L_give_tool_mothf",
-            "label": "蛾之大礼",
+            "label": "蛾之大禮",
             "actionId": "talk",
-            "description": "保管方式：以铜碗盛水，拌入三滴血和三缕发，每周更换；再加一根铁针，可令此物永远指向北方。",
+            "description": "保管方式：以銅碗盛水，拌入三滴血和三縷發，每週更換；再加一根鐵針，可令此物永遠指向北方。",
             "requirements": {
                 "toolmothf": 1
             },
@@ -1345,9 +1345,9 @@
         },
         {
             "id": "L_give_tool_secrethistoriesb",
-            "label": "纪念秘史之薄礼",
+            "label": "紀念秘史之薄禮",
             "actionId": "talk",
-            "description": "有时，一件物品可以同时保管于多个地点。",
+            "description": "有時，一件物品可以同時保管於多個地點。",
             "requirements": {
                 "toolsecrethistoriesb": 1
             },
@@ -1377,9 +1377,9 @@
         },
         {
             "id": "L_give_tool_secrethistoriesd",
-            "label": "纪念秘史的厚礼",
+            "label": "紀念秘史的厚禮",
             "actionId": "talk",
-            "description": "保管方式：置于两面镜子之间，不熄灭的光下。",
+            "description": "保管方式：置於兩面鏡子之間，不熄滅的光下。",
             "requirements": {
                 "toolsecrethistoriesd": 1
             },
@@ -1409,9 +1409,9 @@
         },
         {
             "id": "L_give_tool_winterb",
-            "label": "冬之薄礼",
+            "label": "冬之薄禮",
             "actionId": "talk",
-            "description": "保管于寂静处。",
+            "description": "保管於寂靜處。",
             "requirements": {
                 "toolwinterb": 1
             },
@@ -1441,9 +1441,9 @@
         },
         {
             "id": "L_give_tool_winterd",
-            "label": "冬之厚礼",
+            "label": "冬之厚禮",
             "actionId": "talk",
-            "description": "保管于空荡处。",
+            "description": "保管於空蕩處。",
             "requirements": {
                 "toolwinterd": 1
             },
@@ -1473,9 +1473,9 @@
         },
         {
             "id": "L_give_tool_winterf",
-            "label": "冬之大礼",
+            "label": "冬之大禮",
             "actionId": "talk",
-            "description": "保管于寂静且空荡处。",
+            "description": "保管於寂靜且空蕩處。",
             "requirements": {
                 "toolwinterf": 1
             },
@@ -1505,21 +1505,21 @@
         },
         {
             "id": "L_give_tool_other",
-            "label": "并非所有物件都适合送礼",
+            "label": "並非所有物件都適合送禮",
             "actionId": "talk",
-            "description": "有些东西不能送给他人；有些东西没人会接受。"
+            "description": "有些東西不能送給他人；有些東西沒人會接受。"
         },
         {
             "id": "A_talktofollower_locationcabaret_lustsensation",
-            "label": "邀请此人至蜕衣俱乐部共度一晚",
+            "label": "邀請此人至蛻衣俱樂部共度一晚",
             "actionId": "talk",
             "requirements": {
                 "romanticinterest": -1,
                 "follower_lustsensation": 1,
                 "locationcabaret": 1
             },
-            "startdescription": "\"@#uqrose|萝丝咧嘴笑了。“谢谢你。我特别喜欢这个俱乐部。以前我哥哥经常带我去。”\r\n#uqsaliba|萨利巴打量着我，从脚趾到头顶。他把手指弯曲到掌心中，握成拳，然后放开。“好”，他同意道。\r\n#uqvictor|维克多挤挤眼。“好啊，一起。以前我妹妹喜欢去这个俱乐部。我也在找机会回去看看。”\r\n#uqviolet|维奥莱特先是轻笑，轻笑变成愉悦的大笑，笑到咳嗽才收住。待她缓过气，她用一根手指抬起我的下颚，直直地看进我的双眼。“哦，好啊”，她说道。\r\n#uqrenira|芮妮拉一言不发。她只是伸了个赏心悦目的懒腰，然后便起身从房间阔步走出。但走时她回头给了我长长的一瞥。@\"",
-            "description": "若我有意开始一段露水情缘，那么此处便是绝佳场所。只要我和同行之人具有相同的感性。[要想与该角色开始一段私情，请向其表明你们最深的欲望是一致的。]",
+            "startdescription": "\"@#uqrose|蘿絲咧嘴笑了。“謝謝你。我特別喜歡這個俱樂部。以前我哥哥經常帶我去。”\r\n#uqsaliba|薩利巴打量著我，從腳趾到頭頂。他把手指彎曲到掌心中，握成拳，然後放開。“好”，他同意道。\r\n#uqvictor|維克多擠擠眼。“好啊，一起。以前我妹妹喜歡去這個俱樂部。我也在找機會回去看看。”\r\n#uqviolet|維奧萊特先是輕笑，輕笑變成愉悅的大笑，笑到咳嗽才收住。待她緩過氣，她用一根手指抬起我的下顎，直直地看進我的雙眼。“哦，好啊”，她說道。\r\n#uqrenira|芮妮拉一言不發。她只是伸了個賞心悅目的懶腰，然後便起身從房間闊步走出。但走時她回頭給了我長長的一瞥。@\"",
+            "description": "若我有意開始一段露水情緣，那麼此處便是絕佳場所。只要我和同行之人具有相同的感性。[要想與該角色開始一段私情，請向其表明你們最深的欲望是一致的。]",
             "linked": [
                 {
                     "id": "L_talk_roseopportunity",
@@ -1529,15 +1529,15 @@
         },
         {
             "id": "A_talktofollower_locationcabaret_lustchange",
-            "label": "邀请此人至蜕衣俱乐部共度一晚",
+            "label": "邀請此人至蛻衣俱樂部共度一晚",
             "actionId": "talk",
             "requirements": {
                 "romanticinterest": -1,
                 "follower_lustchange": 1,
                 "locationcabaret": 1
             },
-            "startdescription": "\"@#uqporter|波特弓着背，口里嚼着一条甘草根。“行”，他说道。\r\n#uqysabet|伊莎贝特歪头想了想。“我会去的吧”，她说。她犹豫了如蝙蝠拍翅的一瞬。“应该会很精彩的”，她补充道。\r\n#uqclovette|克罗薇特拍起手来。“我还以为你永远也不会提呢！”\r\n#uqdorothy|多萝西果决地点头，点了两次，三次。“是时候了”，她柔声说道。\r\n#uqsylvia|西尔维娅打了个呵欠。她拎起眼罩边搔了搔底下的空洞。“棒极了”，她拖长语调说道。\r\n#uqleo|里奥忽地埋下头去。他抬眼向我一瞥，然后又看着地面。“我很乐意”，他语气非常正式，对着地面说道。@\"",
-            "description": "随着舞台上表演的进行，我同伴的呼吸变得急促；主要不是因为舞者衣不遮体，而是为台上显现的某些变形。[要想与该角色开始一段私情，请向其表明你们最深的欲望是一致的。]",
+            "startdescription": "\"@#uqporter|波特弓著背，口裡嚼著一條甘草根。“行”，他說道。\r\n#uqysabet|伊莎貝特歪頭想了想。“我會去的吧”，她說。她猶豫了如蝙蝠拍翅的一瞬。“應該會很精彩的”，她補充道。\r\n#uqclovette|克羅薇特拍起手來。“我還以為你永遠也不會提呢！”\r\n#uqdorothy|多蘿西果決地點頭，點了兩次，三次。“是時候了”，她柔聲說道。\r\n#uqsylvia|西爾維婭打了個呵欠。她拎起眼罩邊搔了搔底下的空洞。“棒極了”，她拖長語調說道。\r\n#uqleo|里奧忽地埋下頭去。他抬眼向我一瞥，然後又看著地面。“我很樂意”，他語氣非常正式，對著地面說道。@\"",
+            "description": "隨著舞台上表演的進行，我同伴的呼吸變得急促；主要不是因為舞者衣不遮體，而是為台上顯現的某些變形。[要想與該角色開始一段私情，請向其表明你們最深的欲望是一致的。]",
             "linked": [
                 {
                     "id": "L_talk_roseopportunity",
@@ -1547,15 +1547,15 @@
         },
         {
             "id": "A_talktofollower_locationstreetsstrange_lustenlightenment",
-            "label": "邀请此人去奇异的街巷散步",
+            "label": "邀請此人去奇異的街巷散步",
             "actionId": "talk",
             "requirements": {
                 "romanticinterest": -1,
                 "follower_lustenlightenment": 1,
                 "locationstreetsstrange": 1
             },
-            "startdescription": "\"@#uqauclair|奥克莱尔扬起脸，把她的嘴调整成欢快的，明白的微笑。“我乐意”，她说道。\r\n#uqcat|卡特端起她的茶杯，喝干，然后倾斜茶杯，仔细端详剩下的茶渣。“为什么不”，她说，“为什么不呢。”\r\n#uqclifton|克利夫顿打了个嗝，擦擦嘴。“行啊”，他赞同道。\r\n#uqenid|伊妮德抬头直视我，双眼发出光芒。“好”，她说道。\r\n#uqneville|内维尔咽了咽口水。“真的吗？谢谢你。我是说，嗯，当然！”\r\n#uqslee|有那么一刻，思雷看上去惊恐地仿佛我提出了手术干预。然后他真诚地点了点头。“我想知道后面会发生什么”，他说道。@\"",
-            "description": "地撒银光，晚风凉爽；夜晚的寂静引来言语，如暗色丝绒引来手指抚弄。[要想与该角色开始一段私情，请向其表明你们最深的欲望是一致的。]",
+            "startdescription": "\"@#uqauclair|奧克萊爾揚起臉，把她的嘴調整成歡快的，明白的微笑。“我樂意”，她說道。\r\n#uqcat|卡特端起她的茶杯，喝乾，然後傾斜茶杯，仔細端詳剩下的茶渣。“為什麼不”，她說，“為什麼不呢。”\r\n#uqclifton|克利夫頓打了個嗝，擦擦嘴。“行啊”，他贊同道。\r\n#uqenid|伊妮德抬頭直視我，雙眼發出光芒。“好”，她說道。\r\n#uqneville|內維爾咽了咽口水。“真的嗎？謝謝你。我是說，嗯，當然！”\r\n#uqslee|有那麼一刻，思雷看上去驚恐地彷彿我提出了手術干預。然後他真誠地點了點頭。“我想知道後面會發生什麼”，他說道。@\"",
+            "description": "地撒銀光，晚風涼爽；夜晚的寂靜引來言語，如暗色絲絨引來手指撫弄。[要想與該角色開始一段私情，請向其表明你們最深的欲望是一致的。]",
             "linked": [
                 {
                     "id": "L_talk_roseopportunity",
@@ -1565,15 +1565,15 @@
         },
         {
             "id": "A_talktofollower_locationauctionhouse_lustpower",
-            "label": "邀请此人至奥里弗拉姆共度一晚",
+            "label": "邀請此人至奧里弗拉姆共度一晚",
             "actionId": "talk",
             "requirements": {
                 "romanticinterest": -1,
                 "follower_lustpower": 1,
                 "locationauctionhouse": 1
             },
-            "startdescription": "\"@#uqtristan|崔斯坦用力地点了点头，没有说话。\r\n#uqvalciane|万查妮轻微地点了点头，但她的双眼放光如炉门打开时炉内的煤炭。\r\n#uqelridge|埃尔里奇将刀子“咔哒”一声收折起来，把注意力全副集中给我。“好，拜托了。”，他说道。\r\n#uqlaidlaw|莱德劳露出灿烂的笑容道：“听起来很妙啊！”@\"",
-            "description": "有人更爱月下漫步。有人更爱轻缓的音乐。但也有人喜欢珠光宝气，名流相伴，还有权力的轻声运转。[要想与该角色开始一段私情，请向其表明你们最深的欲望是一致的。]",
+            "startdescription": "\"@#uqtristan|崔斯坦用力地點了點頭，沒有說話。\r\n#uqvalciane|萬查妮輕微地點了點頭，但她的雙眼放光如爐門打開時爐內的煤炭。\r\n#uqelridge|埃爾里奇將刀子“喀噠”一聲收折起來，把注意力全副集中給我。“好，拜託了。”，他說道。\r\n#uqlaidlaw|萊德勞露出燦爛的笑容道：“聽起來很妙啊！”@\"",
+            "description": "有人更愛月下漫步。有人更愛輕緩的音樂。但也有人喜歡珠光寶氣，名流相伴，還有權力的輕聲運轉。[要想與該角色開始一段私情，請向其表明你們最深的欲望是一致的。]",
             "linked": [
                 {
                     "id": "L_talk_roseopportunity",
@@ -1583,47 +1583,47 @@
         },
         {
             "id": "A_talktofollower_locationcabaret_notinterested",
-            "label": "邀请此人至蜕衣俱乐部共度一晚",
+            "label": "邀請此人至蛻衣俱樂部共度一晚",
             "actionId": "talk",
             "requirements": {
                 "romanticinterest": -1,
                 "locationcabaret": 1
             },
-            "startdescription": "“我……不太想去那个地方。”",
-            "description": "[你的追随者对此处并无特别的兴趣。]"
+            "startdescription": "“我……不太想去那個地方。”",
+            "description": "[你的追隨者對此處並無特別的興趣。]"
         },
         {
             "id": "A_talktofollower_locationauctionhouse_notinterested",
-            "label": "邀请此人至奥里弗拉姆共度一晚",
+            "label": "邀請此人至奧里弗拉姆共度一晚",
             "actionId": "talk",
             "requirements": {
                 "romanticinterest": -1,
                 "locationauctionhouse": 1
             },
-            "startdescription": "“我……不太想去那个地方。”",
-            "description": "[你的追随者对此处并无特别的兴趣。]"
+            "startdescription": "“我……不太想去那個地方。”",
+            "description": "[你的追隨者對此處並無特別的興趣。]"
         },
         {
             "id": "A_talktofollower_locationstreetsstrange_notinterested",
-            "label": "邀请此人去一个离奇的地方散步",
+            "label": "邀請此人去一個離奇的地方散步",
             "actionId": "talk",
             "requirements": {
                 "romanticinterest": -1,
                 "locationstreetsstrange": 1
             },
-            "startdescription": "“我……不太想去那个地方。”",
-            "description": "[你的追随者对此处并无特别的兴趣。]"
+            "startdescription": "“我……不太想去那個地方。”",
+            "description": "[你的追隨者對此處並無特別的興趣。]"
         },
         {
             "id": "followeraction_repairtoollanternbcracked",
-            "label": "修复裂损的午之石",
+            "label": "修復裂損的午之石",
             "actionId": "talk",
             "requirements": {
                 "follower": 1,
                 "forge": 1,
                 "toollanternbcracked": 1
             },
-            "startdescription": "我们可以开始修复工作了，不过购买所需材料需花费<b>资金</b>。",
+            "startdescription": "我們可以開始修復工作了，不過購買所需材料需花費<b>資金</b>。",
             "description": ".",
             "linked": [
                 {
@@ -1634,20 +1634,20 @@
         },
         {
             "id": "followeraction_repairtoollanternbcracked_attempt",
-            "label": "正在修复裂损的午之石",
+            "label": "正在修復裂損的午之石",
             "actionId": "talk",
             "slots": [
                 {
                     "id": "Materials",
                     "label": "材料",
-                    "description": "稀有燃料与古怪粉末",
+                    "description": "稀有燃料與古怪粉末",
                     "required": {
                         "funds": 1
                     }
                 }
             ],
-            "startdescription": "我的追随者需要<b>资金</b>来完成这项工作。",
-            "description": "我无法提供追随者所需的材料。这块石头没能复原。",
+            "startdescription": "我的追隨者需要<b>資金</b>來完成這項工作。",
+            "description": "我無法提供追隨者所需的材料。這塊石頭沒能復原。",
             "warmup": 30,
             "alt": [
                 {
@@ -1658,13 +1658,13 @@
         },
         {
             "id": "followeraction_repairtoollanternbcracked_succeed",
-            "label": "正在修复裂损的午之石",
+            "label": "正在修復裂損的午之石",
             "actionId": "talk",
             "requirements": {
                 "funds": 1
             },
-            "startdescription": "追随者正在修理这块石头。",
-            "description": "石头修复完毕！它现在光亮一如从前。",
+            "startdescription": "追隨者正在修理這塊石頭。",
+            "description": "石頭修復完畢！它現在光亮一如從前。",
             "effects": {
                 "funds": -1,
                 "toollanternbcracked": -1,
@@ -1673,14 +1673,14 @@
         },
         {
             "id": "followeraction_repairtoollanterndcracked",
-            "label": "修复裂损的迷途之镜",
+            "label": "修復裂損的迷途之鏡",
             "actionId": "talk",
             "requirements": {
                 "follower": 1,
                 "forge": 1,
                 "toollanterndcracked": 1
             },
-            "startdescription": "我们可以开始修复了，不过购买所需材料需花费至少一枚<b>古铜币</b>。",
+            "startdescription": "我們可以開始修復了，不過購買所需材料需花費至少一枚<b>古銅幣</b>。",
             "description": ".",
             "linked": [
                 {
@@ -1691,20 +1691,20 @@
         },
         {
             "id": "followeraction_repairtoollanterndcracked_attempt",
-            "label": "正在修复裂损的迷途之镜",
+            "label": "正在修復裂損的迷途之鏡",
             "actionId": "talk",
             "slots": [
                 {
                     "id": "Materials",
                     "label": "材料",
-                    "description": "稀有金属与乌有之色",
+                    "description": "稀有金屬與烏有之色",
                     "required": {
                         "compensationvalue": 4
                     }
                 }
             ],
-            "startdescription": "我的追随者需要一枚<b>古铜币</b>，或更贵重的古币，来完成这项工作。",
-            "description": "我无法提供追随者所需的材料。这面镜子没能修复。",
+            "startdescription": "我的追隨者需要一枚<b>古銅幣</b>，或更貴重的古幣，來完成這項工作。",
+            "description": "我無法提供追隨者所需的材料。這面鏡子沒能修復。",
             "warmup": 30,
             "alt": [
                 {
@@ -1715,13 +1715,13 @@
         },
         {
             "id": "followeraction_repairtoollanterndcracked_succeed",
-            "label": "正在修复裂损的迷途之镜",
+            "label": "正在修復裂損的迷途之鏡",
             "actionId": "talk",
             "requirements": {
                 "compensationvalue": 4
             },
-            "startdescription": "追随者正在修理这面镜子。",
-            "description": "镜子修复完毕！它现在光亮一如从前。",
+            "startdescription": "追隨者正在修理這面鏡子。",
+            "description": "鏡子修復完畢！它現在光亮一如從前。",
             "effects": {
                 "compensationvalue": -1,
                 "toollanterndcracked": -1,
@@ -1730,14 +1730,14 @@
         },
         {
             "id": "followeraction_repairtoollanternfcracked",
-            "label": "修复裂损的守夜人之镜",
+            "label": "修復裂損的守夜人之鏡",
             "actionId": "talk",
             "requirements": {
                 "follower": 1,
                 "forge": 1,
                 "toollanternfcracked": 1
             },
-            "startdescription": "我们可以开始修复了，不过购买所需材料需花费至少一枚<b>古银币</b>。",
+            "startdescription": "我們可以開始修復了，不過購買所需材料需花費至少一枚<b>古銀幣</b>。",
             "description": ".",
             "linked": [
                 {
@@ -1748,20 +1748,20 @@
         },
         {
             "id": "followeraction_repairtoollanternfcracked_attempt",
-            "label": "正在修复裂损的守夜人之镜",
+            "label": "正在修復裂損的守夜人之鏡",
             "actionId": "talk",
             "slots": [
                 {
                     "id": "Materials",
                     "label": "材料",
-                    "description": "明媚之歌与异域合金",
+                    "description": "明媚之歌與異域合金",
                     "required": {
                         "compensationvalue": 8
                     }
                 }
             ],
-            "startdescription": "我的追随者需要一枚<b>古银币</b>，或更贵重的古币，来完成这项工作。",
-            "description": "我无法提供追随者所需的材料。这面镜子没能修复。",
+            "startdescription": "我的追隨者需要一枚<b>古銀幣</b>，或更貴重的古幣，來完成這項工作。",
+            "description": "我無法提供追隨者所需的材料。這面鏡子沒能修復。",
             "warmup": 30,
             "alt": [
                 {
@@ -1772,13 +1772,13 @@
         },
         {
             "id": "followeraction_repairtoollanternfcracked_succeed",
-            "label": "正在修复裂损的守夜人之镜",
+            "label": "正在修復裂損的守夜人之鏡",
             "actionId": "talk",
             "requirements": {
                 "compensationvalue": 8
             },
-            "startdescription": "追随者正在修理这面镜子。",
-            "description": "镜子修复完毕！它现在光亮一如从前。",
+            "startdescription": "追隨者正在修理這面鏡子。",
+            "description": "鏡子修復完畢！它現在光亮一如從前。",
             "effects": {
                 "compensationvalue": -1,
                 "toollanternfcracked": -1,
@@ -1787,14 +1787,14 @@
         },
         {
             "id": "followeraction.repair.greatwork.sabotaged",
-            "label": "修复大功业被破坏的环节",
+            "label": "修復大功業被破壞的環節",
             "actionId": "talk",
             "requirements": {
                 "follower": 1,
                 "forge": 1,
                 "greatwork.sabotaged": 1
             },
-            "startdescription": "我们可以开始修复了，不过购买所需材料需花费一枚<b>古银币</b>。",
+            "startdescription": "我們可以開始修復了，不過購買所需材料需花費一枚<b>古銀幣</b>。",
             "description": ".",
             "linked": [
                 {
@@ -1805,20 +1805,20 @@
         },
         {
             "id": "followeraction.repair.greatwork.sabotaged.attempt",
-            "label": "正在修复大功业被破坏的环节",
+            "label": "正在修復大功業被破壞的環節",
             "actionId": "talk",
             "slots": [
                 {
                     "id": "Materials",
                     "label": "材料",
-                    "description": "金属与怜悯",
+                    "description": "金屬與憐憫",
                     "required": {
                         "compensationvalue": 8
                     }
                 }
             ],
-            "startdescription": "我的追随者需要一枚<b>古银币</b>来完成这项工作。",
-            "description": "我无法提供追随者所需的材料。大功业仍然岌岌可危。",
+            "startdescription": "我的追隨者需要一枚<b>古銀幣</b>來完成這項工作。",
+            "description": "我無法提供追隨者所需的材料。大功業仍然岌岌可危。",
             "warmup": 30,
             "alt": [
                 {
@@ -1829,13 +1829,13 @@
         },
         {
             "id": "followeraction.repair.greatwork.sabotaged.succeed",
-            "label": "正在修复大功业被破坏的环节",
+            "label": "正在修復大功業被破壞的環節",
             "actionId": "talk",
             "requirements": {
                 "compensationvalue": 8
             },
-            "startdescription": "追随者正在修理。",
-            "description": "大功业将继续！",
+            "startdescription": "追隨者正在修理。",
+            "description": "大功業將繼續！",
             "aspects": {
                 "sabotage.repair": 1
             }
@@ -1843,8 +1843,8 @@
         {
             "id": "A_follower_settrap_independent",
             "actionId": "talk",
-            "label": "设计圈套来拖延或击败对手",
-            "startdescription": "对手不会像猎人一样上街巡查。他们只在中立之地与我们会面。为了击败对手，我们须得准备一个能让他失足落入的陷阱。[<b>刃</b>、<b>铸</b>、<b>蛾</b>和<b>冬</b>可用来设布<b>圈套</b>。<b>圈套</b>会在<b>无派人士</b>试图搜刮<b>藏宝地</b>时派上用场。]",
+            "label": "設計圈套來拖延或擊敗對手",
+            "startdescription": "對手不會像獵人一樣上街巡查。他們只在中立之地與我們會面。為了擊敗對手，我們須得準備一個能讓他失足落入的陷阱。[<b>刃</b>、<b>鑄</b>、<b>蛾</b>和<b>冬</b>可用來設布<b>圈套</b>。<b>圈套</b>會在<b>無派人士</b>試圖搜刮<b>藏寶地</b>時派上用場。]",
             "requirements": {
                 "independent": 1,
                 "follower": 1,
@@ -1874,8 +1874,8 @@
         {
             "id": "A_follower_settrap_vault",
             "actionId": "talk",
-            "label": "设计圈套来拖延或击败对手",
-            "startdescription": "对手是谨慎的：他们不会像猎人一样上街巡查。为了击败对手，我们须得准备一个陷阱，然后静待时机到来。[<b>刃</b>、<b>铸</b>、<b>蛾</b>和<b>冬</b>可用来设布<b>圈套</b>。<b>圈套</b>会在<b>无派人士</b>试图搜刮<b>藏宝地</b>时派上用场。]",
+            "label": "設計圈套來拖延或擊敗對手",
+            "startdescription": "對手是謹慎的：他們不會像獵人一樣上街巡查。為了擊敗對手，我們須得準備一個陷阱，然後靜待時機到來。[<b>刃</b>、<b>鑄</b>、<b>蛾</b>和<b>冬</b>可用來設布<b>圈套</b>。<b>圈套</b>會在<b>無派人士</b>試圖搜刮<b>藏寶地</b>時派上用場。]",
             "requirements": {
                 "vault": 1
             },
@@ -2106,8 +2106,8 @@
         {
             "id": "L_createsnare_great",
             "actionId": "talk",
-            "label": "阴险的圈套",
-            "description": "我的追随者设下了阴险狡诈的埋伏——此举谅必能够成功。",
+            "label": "陰險的圈套",
+            "description": "我的追隨者設下了陰險狡詐的埋伏——此舉諒必能夠成功。",
             "mutations": [
                 {
                     "filterOnAspectId": "snare",
@@ -2121,8 +2121,8 @@
         {
             "id": "L_createsnare_good",
             "actionId": "talk",
-            "label": "狡诈的圈套",
-            "description": "我的追随者设下了狡诈的埋伏——此举很可能会成功。",
+            "label": "狡詐的圈套",
+            "description": "我的追隨者設下了狡詐的埋伏——此舉很可能會成功。",
             "mutations": [
                 {
                     "filterOnAspectId": "snare",
@@ -2136,8 +2136,8 @@
         {
             "id": "L_createsnare_poor",
             "actionId": "talk",
-            "label": "差强人意的圈套",
-            "description": "我的追随者备好了一计，或许能挫败对手的计划——运气够好的话。",
+            "label": "差強人意的圈套",
+            "description": "我的追隨者備好了一計，或許能挫敗對手的計劃——運氣夠好的話。",
             "mutations": [
                 {
                     "filterOnAspectId": "snare",
@@ -2151,15 +2151,15 @@
         {
             "id": "L_createsnare_rubbish",
             "actionId": "talk",
-            "label": "孤注一掷的尝试",
-            "description": "我的追随者的计划往最好说是古怪，往最坏说就是不可行，不过也许敌人会失足落入套中呢。",
+            "label": "孤注一擲的嘗試",
+            "description": "我的追隨者的計劃往最好說是古怪，往最壞說就是不可行，不過也許敵人會失足落入套中呢。",
             "warmup": 30
         },
         {
             "id": "followeraction_abducthighedge",
-            "label": "教团事务：绑架陌生人",
+            "label": "教團事務：綁架陌生人",
             "actionId": "talk",
-            "startdescription": "暗杀者能够轻而易举地把受害者从街上抓走。",
+            "startdescription": "暗殺者能夠輕而易舉地把受害者從街上抓走。",
             "description": ".",
             "requirements": {
                 "society": 1,
@@ -2179,9 +2179,9 @@
         },
         {
             "id": "followeraction_abductmidedge",
-            "label": "教团事务：绑架陌生人",
+            "label": "教團事務：綁架陌生人",
             "actionId": "talk",
-            "startdescription": "善于此道的门徒大概能绑架来缺乏警惕的受害者。",
+            "startdescription": "善於此道的門徒大概能綁架來缺乏警惕的受害者。",
             "requirements": {
                 "society": 1,
                 "edge": 5,
@@ -2200,9 +2200,9 @@
         },
         {
             "id": "followeraction_abductlowedge",
-            "label": "教团事务：绑架陌生人",
+            "label": "教團事務：綁架陌生人",
             "actionId": "talk",
-            "startdescription": "我的信徒要想绑架受害者会很吃力，不过也要看他的运气。",
+            "startdescription": "我的信徒要想綁架受害者會很吃力，不過也要看他的運氣。",
             "requirements": {
                 "society": 1,
                 "edge": 1,
@@ -2221,10 +2221,10 @@
         },
         {
             "id": "followeraction_abductsuccess",
-            "label": "正在筹划一场绑架",
+            "label": "正在籌劃一場綁架",
             "actionId": "talk",
-            "startdescription": "我静待回音……",
-            "description": "我的手下带着一个被包装妥当的囚犯归来。",
+            "startdescription": "我靜待回音……",
+            "description": "我的手下帶著一個被包裝妥當的囚犯歸來。",
             "effects": {
                 "notoriety": 1,
                 "funds": 1
@@ -2236,10 +2236,10 @@
         },
         {
             "id": "followeraction_abductfailure",
-            "label": "正在筹划一场绑架",
+            "label": "正在籌劃一場綁架",
             "actionId": "talk",
-            "startdescription": "我静待回音……",
-            "description": "我的手下空手而归。",
+            "startdescription": "我靜待回音……",
+            "description": "我的手下空手而歸。",
             "effects": {
                 "notoriety": 1
             },
@@ -2253,10 +2253,10 @@
         },
         {
             "id": "followeraction_abductfailure_losefollower",
-            "label": "正在筹划一场绑架",
+            "label": "正在籌劃一場綁架",
             "actionId": "talk",
-            "startdescription": "我静待回音……",
-            "description": "我的手下回来了，两手空空且身受重伤。他盯上的受害者颇有胆量。[通过<b>谈话</b>治疗倒下的追随者。]",
+            "startdescription": "我靜待回音……",
+            "description": "我的手下回來了，兩手空空且身受重傷。他盯上的受害者頗有膽量。[通過<b>談話</b>治療倒下的追隨者。]",
             "effects": {
                 "notoriety": 1
             },
@@ -2278,9 +2278,9 @@
         },
         {
             "id": "followeraction_murderhighwinter",
-            "label": "教团事务：谋杀陌生人",
+            "label": "教團事務：謀殺陌生人",
             "actionId": "talk",
-            "startdescription": "此人几乎每次归来都带回一份死讯。",
+            "startdescription": "此人幾乎每次歸來都帶回一份死訊。",
             "description": ".",
             "requirements": {
                 "society": 1,
@@ -2300,9 +2300,9 @@
         },
         {
             "id": "followeraction_murdermidwinter",
-            "label": "教团事务：谋杀陌生人",
+            "label": "教團事務：謀殺陌生人",
             "actionId": "talk",
-            "startdescription": "善于此道的门徒大概能带回一具新鲜的尸体。",
+            "startdescription": "善於此道的門徒大概能帶回一具新鮮的屍體。",
             "requirements": {
                 "society": 1,
                 "winter": 5,
@@ -2321,7 +2321,7 @@
         },
         {
             "id": "followeraction_murderlowwinter",
-            "label": "教团事务：谋杀陌生人",
+            "label": "教團事務：謀殺陌生人",
             "actionId": "talk",
             "startdescription": "我的信徒失手的可能性很大。",
             "requirements": {
@@ -2342,10 +2342,10 @@
         },
         {
             "id": "followeraction_murdersuccess",
-            "label": "正在筹划一场谋杀……",
+            "label": "正在籌劃一場謀殺……",
             "actionId": "talk",
-            "startdescription": "我静待回音……",
-            "description": "我的手下带回一具新鲜的尸体和它生前的遗物。",
+            "startdescription": "我靜待回音……",
+            "description": "我的手下帶回一具新鮮的屍體和它生前的遺物。",
             "effects": {
                 "notoriety": 1,
                 "corpse": 1
@@ -2357,10 +2357,10 @@
         },
         {
             "id": "followeraction_murderfailure",
-            "label": "正在筹划一场谋杀……",
+            "label": "正在籌劃一場謀殺……",
             "actionId": "talk",
-            "startdescription": "我静待回音……",
-            "description": "我的手下空手而归。",
+            "startdescription": "我靜待回音……",
+            "description": "我的手下空手而歸。",
             "effects": {
                 "notoriety": 1
             },
@@ -2374,10 +2374,10 @@
         },
         {
             "id": "followeraction_murderfailure_losefollower",
-            "label": "正在筹划一场谋杀……",
+            "label": "正在籌劃一場謀殺……",
             "actionId": "talk",
-            "startdescription": "我静待回音……",
-            "description": "我的手下带着失败的消息归来。他盯上的受害者奋力抵抗，使他现在几乎站都站不稳了。[通过<b>谈话</b>治疗倒下的追随者。]",
+            "startdescription": "我靜待回音……",
+            "description": "我的手下帶著失敗的消息歸來。他盯上的受害者奮力抵抗，使他現在幾乎站都站不穩了。[通過<b>談話</b>治療倒下的追隨者。]",
             "effects": {
                 "notoriety": 1
             },
@@ -2399,9 +2399,9 @@
         },
         {
             "id": "followeraction_craftworkhighforge",
-            "label": "教团事务：出卖手艺",
+            "label": "教團事務：出賣手藝",
             "actionId": "talk",
-            "startdescription": "我麾下的重塑者可以从各路不法实验室和地下工厂赚来资金——偶尔会出岔子。",
+            "startdescription": "我麾下的重塑者可以從各路不法實驗室和地下工廠賺來資金——偶爾會出岔子。",
             "description": ".",
             "requirements": {
                 "society": 1,
@@ -2421,9 +2421,9 @@
         },
         {
             "id": "followeraction_craftworkmidforge",
-            "label": "教团事务：出卖手艺",
+            "label": "教團事務：出賣手藝",
             "actionId": "talk",
-            "startdescription": "我的门徒大概能从非法实验室和地下工厂赚来资金——但存有发生意外的风险。",
+            "startdescription": "我的門徒大概能從非法實驗室和地下工廠賺來資金——但存有發生意外的風險。",
             "requirements": {
                 "society": 1,
                 "forge": 5,
@@ -2442,9 +2442,9 @@
         },
         {
             "id": "followeraction_craftworklowforge",
-            "label": "教团事务：出卖手艺",
+            "label": "教團事務：出賣手藝",
             "actionId": "talk",
-            "startdescription": "我的信徒或许能从非法实验室和地下工厂赚来资金……如果他走运的话。",
+            "startdescription": "我的信徒或許能從非法實驗室和地下工廠賺來資金……如果他走運的話。",
             "requirements": {
                 "society": 1,
                 "forge": 1,
@@ -2465,8 +2465,8 @@
             "id": "followeraction_craftworksuccess",
             "label": "按照合同做工……",
             "actionId": "talk",
-            "startdescription": "这座城市里存在着各种违背国家王法的勾当。个别的甚至违背自然规律。其中一些非常危险。",
-            "description": "我的追随者带着劳动所得归来。",
+            "startdescription": "這座城市裡存在著各種違背國家王法的勾當。個別的甚至違背自然規律。其中一些非常危險。",
+            "description": "我的追隨者帶著勞動所得歸來。",
             "deckeffect": {
                 "robberyrewards": 2
             },
@@ -2476,8 +2476,8 @@
             "id": "followeraction_craftworkfailure",
             "label": "按照合同做工……",
             "actionId": "talk",
-            "startdescription": "这座城市里存在着各种违背国家王法的勾当。个别的甚至违背自然规律。其中一些非常危险。",
-            "description": "我的追随者空手而归。今天的工作任务超出了他所能。",
+            "startdescription": "這座城市裡存在著各種違背國家王法的勾當。個別的甚至違背自然規律。其中一些非常危險。",
+            "description": "我的追隨者空手而歸。今天的工作任務超出了他所能。",
             "effects": {},
             "alt": [
                 {
@@ -2491,8 +2491,8 @@
             "id": "followeraction_craftworkfailure_losefollower",
             "label": "按照合同做工……",
             "actionId": "talk",
-            "startdescription": "这座城市里存在着各种违背国家王法的勾当。个别的甚至违背自然规律。其中一些非常危险。",
-            "description": "发生了意外。[通过<b>谈话</b>治疗倒下的追随者。]",
+            "startdescription": "這座城市裡存在著各種違背國家王法的勾當。個別的甚至違背自然規律。其中一些非常危險。",
+            "description": "發生了意外。[通過<b>談話</b>治療倒下的追隨者。]",
             "mutations": [
                 {
                     "filterOnAspectId": "mortal",
@@ -2511,9 +2511,9 @@
         },
         {
             "id": "followeraction_seducehighgrail",
-            "label": "教团事务：引诱生人",
+            "label": "教團事務：引誘生人",
             "actionId": "talk",
-            "startdescription": "没有人能——几乎没有人能拒绝纵情者。",
+            "startdescription": "沒有人能——幾乎沒有人能拒絕縱情者。",
             "description": ".",
             "requirements": {
                 "society": 1,
@@ -2533,9 +2533,9 @@
         },
         {
             "id": "followeraction_seducemidgrail",
-            "label": "教团事务：引诱生人",
+            "label": "教團事務：引誘生人",
             "actionId": "talk",
-            "startdescription": "擅长劝诱的门徒大概能为我们钓回一个耳根子软的玩伴。",
+            "startdescription": "擅長勸誘的門徒大概能為我們釣回一個耳根子軟的玩伴。",
             "requirements": {
                 "society": 1,
                 "grail": 5,
@@ -2554,9 +2554,9 @@
         },
         {
             "id": "followeraction_seducelowgrail",
-            "label": "教团事务：引诱生人",
+            "label": "教團事務：引誘生人",
             "actionId": "talk",
-            "startdescription": "我的信徒或许能帮我们钓回一名受害者。",
+            "startdescription": "我的信徒或許能幫我們釣回一名受害者。",
             "requirements": {
                 "society": 1,
                 "grail": 1,
@@ -2575,10 +2575,10 @@
         },
         {
             "id": "followeraction_seducesuccess",
-            "label": "尝试色诱",
+            "label": "嘗試色誘",
             "actionId": "talk",
-            "startdescription": "我在外过夜的追随者悄声说着半真半假的话语。就算他的受害者知道这些话是谎言，或许也不会在乎。",
-            "description": "我的手下归来，身边伴着一名乐意顺服的囚犯。",
+            "startdescription": "我在外過夜的追隨者悄聲說著半真半假的話語。就算他的受害者知道這些話是謊言，或許也不會在乎。",
+            "description": "我的手下歸來，身邊伴著一名樂意順服的囚犯。",
             "effects": {
                 "notoriety": 1,
                 "funds": 1
@@ -2590,10 +2590,10 @@
         },
         {
             "id": "followeraction_seducefailure",
-            "label": "尝试色诱",
+            "label": "嘗試色誘",
             "actionId": "talk",
-            "startdescription": "我在外过夜的追随者悄声说着半真半假的话语。就算他的受害者知道这些话是谎言，或许也不会在乎。",
-            "description": "我的手下空手而归。",
+            "startdescription": "我在外過夜的追隨者悄聲說著半真半假的話語。就算他的受害者知道這些話是謊言，或許也不會在乎。",
+            "description": "我的手下空手而歸。",
             "effects": {
                 "notoriety": 1
             },
@@ -2607,10 +2607,10 @@
         },
         {
             "id": "followeraction_seducefailure_losefollower",
-            "label": "尝试色诱",
+            "label": "嘗試色誘",
             "actionId": "talk",
-            "startdescription": "我在外过夜的追随者悄声说着半真半假的话语。就算他的受害者知道这些话是谎言，或许也不会在乎。",
-            "description": "我的手下意识模糊，血流不止地归来了。看来某个情敌反感他的所作所为。[通过<b>谈话</b>治疗倒下的追随者。]",
+            "startdescription": "我在外過夜的追隨者悄聲說著半真半假的話語。就算他的受害者知道這些話是謊言，或許也不會在乎。",
+            "description": "我的手下意識模糊，血流不止地歸來了。看來某個情敵反感他的所作所為。[通過<b>談話</b>治療倒下的追隨者。]",
             "effects": {
                 "notoriety": 1
             },
@@ -2632,9 +2632,9 @@
         },
         {
             "id": "followeraction_burglehighknock",
-            "label": "教团事务：入室盗窃",
+            "label": "教團事務：入室盜竊",
             "actionId": "talk",
-            "startdescription": "我麾下的“钥匙”应当能击败这座城市所有的锁。",
+            "startdescription": "我麾下的“鑰匙”應當能擊敗這座城市所有的鎖。",
             "description": ".",
             "requirements": {
                 "society": 1,
@@ -2654,9 +2654,9 @@
         },
         {
             "id": "followeraction_burglemidknock",
-            "label": "教团事务：入室盗窃",
+            "label": "教團事務：入室盜竊",
             "actionId": "talk",
-            "startdescription": "我的门徒大概能利用他的才能从缺乏戒心之人处取来钱财。",
+            "startdescription": "我的門徒大概能利用他的才能從缺乏戒心之人處取來錢財。",
             "requirements": {
                 "society": 1,
                 "knock": 5,
@@ -2675,9 +2675,9 @@
         },
         {
             "id": "followeraction_burglelowknock",
-            "label": "教团事务：入室盗窃",
+            "label": "教團事務：入室盜竊",
             "actionId": "talk",
-            "startdescription": "我的信徒或许能从缺乏戒心之人处取来钱财……如果他走运的话。",
+            "startdescription": "我的信徒或許能從缺乏戒心之人處取來錢財……如果他走運的話。",
             "requirements": {
                 "society": 1,
                 "knock": 1,
@@ -2696,10 +2696,10 @@
         },
         {
             "id": "followeraction_burglesuccess",
-            "label": "破门，进门，出门……",
+            "label": "破門，進門，出門……",
             "actionId": "talk",
-            "startdescription": "在地窖和阁楼里，在隐秘的隔间和闭锁的壁橱里，不论是不是富人都会藏匿自己的钱财。",
-            "description": "我的追随者带着他的收获回来了。",
+            "startdescription": "在地窖和閣樓裡，在隱秘的隔間和閉鎖的壁櫥裡，不論是不是富人都會藏匿自己的錢財。",
+            "description": "我的追隨者帶著他的收穫回來了。",
             "effects": {
                 "notoriety": 1,
                 "funds": 1
@@ -2711,10 +2711,10 @@
         },
         {
             "id": "followeraction_burglefailure",
-            "label": "破门，进门，出门……",
+            "label": "破門，進門，出門……",
             "actionId": "talk",
-            "startdescription": "在地窖和阁楼里，在隐秘的隔间和闭锁的壁橱里，不论是不是富人都会藏匿自己的钱财。",
-            "description": "我的追随者空手而归。今天的工作任务超出了他所能。",
+            "startdescription": "在地窖和閣樓裡，在隱秘的隔間和閉鎖的壁櫥裡，不論是不是富人都會藏匿自己的錢財。",
+            "description": "我的追隨者空手而歸。今天的工作任務超出了他所能。",
             "effects": {
                 "notoriety": 1
             },
@@ -2728,10 +2728,10 @@
         },
         {
             "id": "followeraction_burglefailure_losefollower",
-            "label": "破门，进门，出门……",
+            "label": "破門，進門，出門……",
             "actionId": "talk",
-            "startdescription": "在地窖和阁楼里，在隐秘的隔间和闭锁的壁橱里，不论是不是富人都会藏匿自己的钱财。",
-            "description": "发生了意外。[通过<b>谈话</b>治疗倒下的追随者。]",
+            "startdescription": "在地窖和閣樓裡，在隱秘的隔間和閉鎖的壁櫥裡，不論是不是富人都會藏匿自己的錢財。",
+            "description": "發生了意外。[通過<b>談話</b>治療倒下的追隨者。]",
             "effects": {
                 "notoriety": 1
             },
@@ -2753,9 +2753,9 @@
         },
         {
             "id": "followeraction_charmhighheart",
-            "label": "教团事务：发挥魅力",
+            "label": "教團事務：發揮魅力",
             "actionId": "talk",
-            "startdescription": "并非每个人都认同我们的宗旨，不过我手下的蛊舞者到哪里都受欢迎。如果我们的声名出了问题，他谅必能把问题摆平。",
+            "startdescription": "並非每個人都認同我們的宗旨，不過我手下的蠱舞者到哪裡都受歡迎。如果我們的聲名出了問題，他諒必能把問題擺平。",
             "description": ".",
             "requirements": {
                 "society": 1,
@@ -2775,9 +2775,9 @@
         },
         {
             "id": "followeraction_charmmidheart",
-            "label": "教团事务：发挥魅力",
+            "label": "教團事務：發揮魅力",
             "actionId": "talk",
-            "startdescription": "并非每个人都认同我们的宗旨，不过如果我们的声名出了问题，我的门徒大概能把问题摆平。",
+            "startdescription": "並非每個人都認同我們的宗旨，不過如果我們的聲名出了問題，我的門徒大概能把問題擺平。",
             "requirements": {
                 "society": 1,
                 "heart": 5,
@@ -2796,9 +2796,9 @@
         },
         {
             "id": "followeraction_charmlowheart",
-            "label": "教团事务：发挥魅力",
+            "label": "教團事務：發揮魅力",
             "actionId": "talk",
-            "startdescription": "并非每个人都认同我们的宗旨，不过如果我们的声名出了问题，我的门徒或许能把问题摆平。",
+            "startdescription": "並非每個人都認同我們的宗旨，不過如果我們的聲名出了問題，我的門徒或許能把問題擺平。",
             "requirements": {
                 "society": 1,
                 "heart": 1,
@@ -2817,20 +2817,20 @@
         },
         {
             "id": "followeraction_charmsuccess",
-            "label": "真挚的演讲，亲切的谈话",
+            "label": "真摯的演講，親切的談話",
             "actionId": "talk",
             "slots": [
                 {
                     "id": "Reputation",
-                    "label": "声名",
+                    "label": "聲名",
                     "required": {
                         "reputation": 1
                     },
                     "greedy": true
                 }
             ],
-            "startdescription": "地上社会的规范并不适用于我们。但也许我们不会对人强调这一点。也许我们要靠魅力和良好的心态对人。我已不吝将各种高雅的陈词滥调套给我们组织的崇高准则。",
-            "description": "乐观是制胜的调料。",
+            "startdescription": "地上社會的規範並不適用於我們。但也許我們不會對人強調這一點。也許我們要靠魅力和良好的心態對人。我已不吝將各種高雅的陳詞濫調套給我們組織的崇高準則。",
+            "description": "樂觀是制勝的調料。",
             "effects": {
                 "reputation": -1
             },
@@ -2838,20 +2838,20 @@
         },
         {
             "id": "followeraction_charmfailure",
-            "label": "真挚的演讲，亲切的谈话",
+            "label": "真摯的演講，親切的談話",
             "actionId": "talk",
             "slots": [
                 {
                     "id": "Reputation",
-                    "label": "声名",
+                    "label": "聲名",
                     "required": {
                         "reputation": 1
                     },
                     "greedy": true
                 }
             ],
-            "startdescription": "地上社会的规范并不适用于我们。但也许我们不会对人强调这一点。也许我们要靠魅力和良好的心态对人。我已不吝将各种高雅的陈词滥调套给我们组织的崇高准则。",
-            "description": "没人理解我们，或者说，人们已太过理解我们。",
+            "startdescription": "地上社會的規範並不適用於我們。但也許我們不會對人強調這一點。也許我們要靠魅力和良好的心態對人。我已不吝將各種高雅的陳詞濫調套給我們組織的崇高準則。",
+            "description": "沒人理解我們，或者說，人們已太過理解我們。",
             "effects": {
                 "rumour": 1
             },
@@ -2859,9 +2859,9 @@
         },
         {
             "id": "followeraction_auguryhighlantern",
-            "label": "教团事务：求天问卜",
+            "label": "教團事務：求天問卜",
             "actionId": "talk",
-            "startdescription": "我麾下的先见者能够判断法力在何时何地可以为我们所用。存在些微风险。",
+            "startdescription": "我麾下的先見者能夠判斷法力在何時何地可以為我們所用。存在些微風險。",
             "description": ".",
             "requirements": {
                 "society": 1,
@@ -2881,9 +2881,9 @@
         },
         {
             "id": "followeraction_augurymidlantern",
-            "label": "教团事务：求天问卜",
+            "label": "教團事務：求天問卜",
             "actionId": "talk",
-            "startdescription": "我的门徒大概能判断法力在何时何地可以为我们所用：不过凡涉及漫宿的事情都存在危险。",
+            "startdescription": "我的門徒大概能判斷法力在何時何地可以為我們所用：不過凡涉及漫宿的事情都存在危險。",
             "requirements": {
                 "society": 1,
                 "lantern": 5,
@@ -2902,9 +2902,9 @@
         },
         {
             "id": "followeraction_augurylowlantern",
-            "label": "教团事务：求天问卜",
+            "label": "教團事務：求天問卜",
             "actionId": "talk",
-            "startdescription": "我的信徒也许能判断法力在何时何地可以为我们所用：不过凡涉及漫宿的事情都存在危险。",
+            "startdescription": "我的信徒也許能判斷法力在何時何地可以為我們所用：不過凡涉及漫宿的事情都存在危險。",
             "requirements": {
                 "society": 1,
                 "lantern": 1,
@@ -2925,8 +2925,8 @@
             "id": "followeraction_augurysuccess",
             "label": "在世界的表皮之下",
             "actionId": "talk",
-            "startdescription": "经由数时辰的研修与沉思……",
-            "description": "我的追随者找到了又一种能让我们的事业与众司辰那更伟大的事业相调和的方法。",
+            "startdescription": "經由數時辰的研修與沉思……",
+            "description": "我的追隨者找到了又一種能讓我們的事業與眾司辰那更偉大的事業相調和的方法。",
             "effects": {
                 "erudition": 1
             },
@@ -2939,8 +2939,8 @@
             "id": "followeraction_auguryfailure",
             "label": "在世界的表皮之下",
             "actionId": "talk",
-            "startdescription": "经由数时辰的研修与沉思……",
-            "description": "我的追随者犯下了一个危险的错误。此人的神智未受损伤，但漫宿之光已触到了此处的世界。",
+            "startdescription": "經由數時辰的研修與沉思……",
+            "description": "我的追隨者犯下了一個危險的錯誤。此人的神智未受損傷，但漫宿之光已觸到了此處的世界。",
             "effects": {
                 "fascination": 1
             },
@@ -2956,8 +2956,8 @@
             "id": "followeraction_auguryfailure_losefollower",
             "label": "在世界的表皮之下",
             "actionId": "talk",
-            "startdescription": "经由数时辰的研修与沉思……",
-            "description": "我的追随者犯下了一个危险的错误。漫宿之光已触到了此处的世界。他精神上的防线已经崩溃，化为一团混沌，我们必须把他控制起来免得他进一步伤到自己。他的神智会随时间恢复，但他仍然伤得很重。[通过<b>谈话</b>治疗倒下的追随者。]",
+            "startdescription": "經由數時辰的研修與沉思……",
+            "description": "我的追隨者犯下了一個危險的錯誤。漫宿之光已觸到了此處的世界。他精神上的防線已經崩潰，化為一團混沌，我們必須把他控制起來免得他進一步傷到自己。他的神智會隨時間恢復，但他仍然傷得很重。[通過<b>談話</b>治療倒下的追隨者。]",
             "effects": {
                 "fascination": 1
             },
@@ -2979,9 +2979,9 @@
         },
         {
             "id": "followeraction_hoodwinkhighmoth",
-            "label": "教团事务：下套",
+            "label": "教團事務：下套",
             "actionId": "talk",
-            "startdescription": "我麾下的易皮者甚是狡诈，帮傻瓜摆脱钱财易如在果园摘梨子。（虽说梨园偶尔也有危险。好比说黄蜂。）",
+            "startdescription": "我麾下的易皮者甚是狡詐，幫傻瓜擺脫錢財易如在果園摘梨子。（雖說梨園偶爾也有危險。好比說黃蜂。）",
             "description": ".",
             "requirements": {
                 "society": 1,
@@ -3001,9 +3001,9 @@
         },
         {
             "id": "followeraction_hoodwinkmidmoth",
-            "label": "教团事务：下套",
+            "label": "教團事務：下套",
             "actionId": "talk",
-            "startdescription": "我的门徒大概能利用他的才能帮傻瓜摆脱一些钱财。",
+            "startdescription": "我的門徒大概能利用他的才能幫傻瓜擺脫一些錢財。",
             "requirements": {
                 "society": 1,
                 "moth": 5,
@@ -3022,9 +3022,9 @@
         },
         {
             "id": "followeraction_hoodwinklowmoth",
-            "label": "教团事务：下套",
+            "label": "教團事務：下套",
             "actionId": "talk",
-            "startdescription": "我的信徒或许能帮傻瓜摆脱一些钱财……如果他走运的话。",
+            "startdescription": "我的信徒或許能幫傻瓜擺脫一些錢財……如果他走運的話。",
             "requirements": {
                 "society": 1,
                 "moth": 1,
@@ -3043,10 +3043,10 @@
         },
         {
             "id": "followeraction_hoodwinksuccess",
-            "label": "欺诈与诳骗",
+            "label": "欺詐與誑騙",
             "actionId": "talk",
-            "startdescription": "我的追随者正在实施一场有利可图的骗局。",
-            "description": "骗局成功了！我们的收获如下。",
+            "startdescription": "我的追隨者正在實施一場有利可圖的騙局。",
+            "description": "騙局成功了！我們的收穫如下。",
             "effects": {
                 "notoriety": 1,
                 "funds": 1
@@ -3058,10 +3058,10 @@
         },
         {
             "id": "followeraction_hoodwinkfailure",
-            "label": "欺诈与诳骗",
+            "label": "欺詐與誑騙",
             "actionId": "talk",
-            "startdescription": "我的追随者正在实施一场有利可图的骗局。",
-            "description": "我的追随者空手而归。他的计策败露了。",
+            "startdescription": "我的追隨者正在實施一場有利可圖的騙局。",
+            "description": "我的追隨者空手而歸。他的計策敗露了。",
             "effects": {
                 "notoriety": 1
             },
@@ -3075,10 +3075,10 @@
         },
         {
             "id": "followeraction_hoodwinkfailure_losefollower",
-            "label": "欺诈与诳骗",
+            "label": "欺詐與誑騙",
             "actionId": "talk",
-            "startdescription": "我的追随者正在实施一场有利可图的骗局。",
-            "description": "我开始担心我的追随者是不是自导自演了自己的人间蒸发。然而看样子他的骗局是被识破了。受害者怒不可遏，我的追随者勉强逃出一条命来。[通过<b>谈话</b>治疗倒下的追随者。]",
+            "startdescription": "我的追隨者正在實施一場有利可圖的騙局。",
+            "description": "我開始擔心我的追隨者是不是自導自演了自己的人間蒸發。然而看樣子他的騙局是被識破了。受害者怒不可遏，我的追隨者勉強逃出一條命來。[通過<b>談話</b>治療倒下的追隨者。]",
             "mutations": [
                 {
                     "filterOnAspectId": "mortal",

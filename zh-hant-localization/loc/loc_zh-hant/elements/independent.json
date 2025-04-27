@@ -2,7 +2,7 @@
     "elements": [
         {
             "id": "generic_r",
-            "label": "捣乱分子",
+            "label": "搗亂分子",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -22,14 +22,14 @@
         {
             "id": "auclair_r",
             "icon": "auclair_r",
-            "label": "捣乱分子奥克莱尔",
+            "label": "搗亂分子奧克萊爾",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "奥克莱尔爱下象棋，现在比以往更甚。黑与白，错综迷离。",
+            "description": "奧克萊爾愛下象棋，現在比以往更甚。黑與白，錯綜迷離。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "auclair_r_c",
@@ -42,14 +42,14 @@
         {
             "id": "cat_r",
             "icon": "cat_r",
-            "label": "捣乱分子卡特·卡罗",
+            "label": "搗亂分子卡特·卡羅",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "她叫自己“卡特·卡罗”。她以前是算命师。现在似乎没人弄得明白她是什么。",
+            "description": "她叫自己“卡特·卡羅”。她以前是算命師。現在似乎沒人弄得明白她是什麼。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "cat_r_c",
@@ -62,14 +62,14 @@
         {
             "id": "clifton_r",
             "icon": "clifton_r",
-            "label": "捣乱分子“教皇”克利夫顿",
+            "label": "搗亂分子“教皇”克利夫頓",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "克利夫顿喜欢别人称他为“教皇陛下”。当有人不这么称呼时，他说不定就会大闹一场。",
+            "description": "克利夫頓喜歡別人稱他為“教皇陛下”。當有人不這麼稱呼時，他說不定就會大鬧一場。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "clifton_r_c",
@@ -82,14 +82,14 @@
         {
             "id": "clovette_r",
             "icon": "clovette_r",
-            "label": "捣乱分子克罗薇特",
+            "label": "搗亂分子克羅薇特",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "即便人知道了克罗薇特的所作所为，也很难去讨厌她。",
+            "description": "即便人知道了克羅薇特的所作所為，也很難去討厭她。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "clovette_r_c",
@@ -102,14 +102,14 @@
         {
             "id": "dorothy_r",
             "icon": "dorothy_r",
-            "label": "捣乱分子多萝西",
+            "label": "搗亂分子多蘿西",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "多萝西不会停歇，永远不会停歇。她已发誓如此。",
+            "description": "多蘿西不會停歇，永遠不會停歇。她已發誓如此。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "dorothy_r_c",
@@ -122,14 +122,14 @@
         {
             "id": "douglas_r",
             "icon": "defaulthunter",
-            "label": "捣乱分子道格拉斯",
+            "label": "搗亂分子道格拉斯",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "道格拉斯已忍无可忍。该去看看他在大惊小怪些什么了。",
+            "description": "道格拉斯已忍無可忍。該去看看他在大驚小怪些什麼了。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "douglas_r_c",
@@ -142,14 +142,14 @@
         {
             "id": "elridge_r",
             "icon": "elridge_r",
-            "label": "捣乱分子埃尔里奇",
+            "label": "搗亂分子埃爾里奇",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "埃尔里奇的鞋上总溅着血迹。",
+            "description": "埃爾里奇的鞋上總濺著血跡。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "elridge_r_c",
@@ -161,14 +161,14 @@
         {
             "id": "enid_r",
             "icon": "enid_r",
-            "label": "捣乱分子伊妮德",
+            "label": "搗亂分子伊妮德",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "伊妮德总能提前发现敌人来袭。次次如此。",
+            "description": "伊妮德總能提前發現敵人來襲。次次如此。",
             "xtriggers": {
                 "rival_promotion": "enid_r_c",
                 "killmortal": "corpse",
@@ -180,14 +180,14 @@
         {
             "id": "laidlaw_r",
             "icon": "laidlaw_r",
-            "label": "捣乱分子莱德劳",
+            "label": "搗亂分子萊德勞",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "莱德劳的计策如蕨叶之影般错综复杂。",
+            "description": "萊德勞的計策如蕨葉之影般錯綜複雜。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "laidlaw_r_c",
@@ -200,14 +200,14 @@
         {
             "id": "leo_r",
             "icon": "leo_r",
-            "label": "捣乱分子里奥",
+            "label": "搗亂分子裡奧",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "里奥已选定了他的事业，他将采取一切必要措施使它存续。",
+            "description": "里奧已選定了他的事業，他將採取一切必要措施使它存續。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "leo_r_c",
@@ -220,14 +220,14 @@
         {
             "id": "neville_r",
             "icon": "neville_r",
-            "label": "捣乱分子内维尔",
+            "label": "搗亂分子內維爾",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "内维尔知道他这么做不能久长。但只要他还能，上神保佑，他就会打开出现在面前的一切门扉。",
+            "description": "內維爾知道他這麼做不能久長。但只要他還能，上神保佑，他就會打開出現在面前的一切門扉。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "neville_r_c",
@@ -240,14 +240,14 @@
         {
             "id": "porter_r",
             "icon": "porter_r",
-            "label": "捣乱分子波特",
+            "label": "搗亂分子波特",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "波特已开始收集名字。",
+            "description": "波特已開始收集名字。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "porter_r_c",
@@ -260,14 +260,14 @@
         {
             "id": "renira_r",
             "icon": "renira_r",
-            "label": "捣乱分子芮妮拉",
+            "label": "搗亂分子芮妮拉",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "芮妮拉喜欢将别人对她的爱慕转为崇拜。",
+            "description": "芮妮拉喜歡將別人對她的愛慕轉為崇拜。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "renira_r_c",
@@ -280,14 +280,14 @@
         {
             "id": "rose_r",
             "icon": "rose_r",
-            "label": "捣乱分子萝丝",
+            "label": "搗亂分子蘿絲",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "萝丝早已停止畏惧她的敌人。",
+            "description": "蘿絲早已停止畏懼她的敵人。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "rose_r_c",
@@ -300,14 +300,14 @@
         {
             "id": "saliba_r",
             "icon": "saliba_r",
-            "label": "捣乱分子萨利巴",
+            "label": "搗亂分子薩利巴",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "萨利巴不能忍受无聊。",
+            "description": "薩利巴不能忍受無聊。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "saliba_r_c",
@@ -320,14 +320,14 @@
         {
             "id": "slee_r",
             "icon": "slee_r",
-            "label": "捣乱分子思雷",
+            "label": "搗亂分子思雷",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "思雷总巴望弄到更多资源好钻研他的理论。",
+            "description": "思雷總巴望弄到更多資源好鑽研他的理論。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "slee_r_c",
@@ -340,14 +340,14 @@
         {
             "id": "sylvia_r",
             "icon": "sylvia_r",
-            "label": "捣乱分子西尔维娅",
+            "label": "搗亂分子西爾維婭",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "西尔维娅的日程安排不清不楚。人们怀疑连她自己也搞不清楚。",
+            "description": "西爾維婭的日程安排不清不楚。人們懷疑連她自己也搞不清楚。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "sylvia_r_c",
@@ -360,14 +360,14 @@
         {
             "id": "tristan_r",
             "icon": "tristan_r",
-            "label": "捣乱分子崔斯坦",
+            "label": "搗亂分子崔斯坦",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "崔斯坦正在铸造一个小小的王国。有必要用火时，他就会用火。",
+            "description": "崔斯坦正在鑄造一個小小的王國。有必要用火時，他就會用火。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "tristan_r_c",
@@ -380,14 +380,14 @@
         {
             "id": "valciane_r",
             "icon": "valciane_r",
-            "label": "捣乱分子万查妮",
+            "label": "搗亂分子萬查妮",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "万查妮用一个抄起瓶子就砸的小青年的劲头对付她的对头。",
+            "description": "萬查妮用一個抄起瓶子就砸的小青年的勁頭對付她的對頭。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "valciane_r_c",
@@ -400,14 +400,14 @@
         {
             "id": "victor_r",
             "icon": "victor_r",
-            "label": "捣乱分子维克多",
+            "label": "搗亂分子維克多",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "维克多已准备好迎接将可能发生的一切了，他的所有刀子都锋利如新兵。",
+            "description": "維克多已準備好迎接將可能發生的一切了，他的所有刀子都鋒利如新兵。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "victor_r_c",
@@ -420,14 +420,14 @@
         {
             "id": "violet_r",
             "icon": "violet_r",
-            "label": "捣乱分子维奥莱特",
+            "label": "搗亂分子維奧萊特",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "维奥莱特找到了新的爱好。",
+            "description": "維奧萊特找到了新的愛好。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "violet_r_c",
@@ -440,14 +440,14 @@
         {
             "id": "ysabet_r",
             "icon": "ysabet_r",
-            "label": "捣乱分子伊莎贝特",
+            "label": "搗亂分子伊莎貝特",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "伊莎贝特在没人能看到她的地方等待着。",
+            "description": "伊莎貝特在沒人能看到她的地方等待著。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "ysabet_r_c",
@@ -459,7 +459,7 @@
         },
         {
             "id": "generic_r_c",
-            "label": "对手",
+            "label": "對手",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -480,7 +480,7 @@
         {
             "id": "auclair_r_c",
             "icon": "auclair_r",
-            "label": "对手奥克莱尔",
+            "label": "對手奧克萊爾",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -488,7 +488,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "奥克莱尔爱下象棋，现在比以往更甚。黑与白，错综迷离。",
+            "description": "奧克萊爾愛下象棋，現在比以往更甚。黑與白，錯綜迷離。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "auclair_r_d",
@@ -501,7 +501,7 @@
         {
             "id": "cat_r_c",
             "icon": "cat_r",
-            "label": "对手卡特·卡罗",
+            "label": "對手卡特·卡羅",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -509,7 +509,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "她叫自己“卡特·卡罗”。她以前是算命师。现在似乎没人弄得明白她是什么。",
+            "description": "她叫自己“卡特·卡羅”。她以前是算命師。現在似乎沒人弄得明白她是什麼。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "cat_r_d",
@@ -522,7 +522,7 @@
         {
             "id": "clifton_r_c",
             "icon": "clifton_r",
-            "label": "对手“教皇”克里夫顿",
+            "label": "對手“教皇”克里夫頓",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -530,7 +530,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "克利夫顿喜欢别人称他为“教皇陛下”。当有人不这么称呼时，他说不定就会大闹一场。",
+            "description": "克利夫頓喜歡別人稱他為“教皇陛下”。當有人不這麼稱呼時，他說不定就會大鬧一場。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "clifton_r_d",
@@ -543,7 +543,7 @@
         {
             "id": "clovette_r_c",
             "icon": "clovette_r",
-            "label": "对手克罗薇特",
+            "label": "對手克羅薇特",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -551,7 +551,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "即便人知道了克罗薇特的所作所为，也很难去讨厌她。",
+            "description": "即便人知道了克羅薇特的所作所為，也很難去討厭她。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "clovette_r_d",
@@ -564,7 +564,7 @@
         {
             "id": "connie_r_c",
             "icon": "connie_r",
-            "label": "叛党康妮",
+            "label": "叛黨康妮",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -572,7 +572,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "康妮……康妮正在重新考量情况。",
+            "description": "康妮……康妮正在重新考量情況。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "connie_r_d",
@@ -585,7 +585,7 @@
         {
             "id": "dorothy_r_c",
             "icon": "dorothy_r",
-            "label": "对手多萝西",
+            "label": "對手多蘿西",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -593,7 +593,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "多萝西不会停歇，永远不会停歇。她已发誓如此。",
+            "description": "多蘿西不會停歇，永遠不會停歇。她已發誓如此。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "dorothy_r_d",
@@ -606,7 +606,7 @@
         {
             "id": "douglas_r_c",
             "icon": "douglas_r",
-            "label": "对手道格拉斯",
+            "label": "對手道格拉斯",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -614,7 +614,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "道格拉斯已忍无可忍。该去看看他在大惊小怪些什么了。",
+            "description": "道格拉斯已忍無可忍。該去看看他在大驚小怪些什麼了。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "douglas_r_d",
@@ -627,7 +627,7 @@
         {
             "id": "elridge_r_c",
             "icon": "elridge_r",
-            "label": "对手埃尔里奇",
+            "label": "對手埃爾里奇",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -635,7 +635,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "埃尔里奇的鞋上总溅着血迹。",
+            "description": "埃爾里奇的鞋上總濺著血跡。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "elridge_r_d",
@@ -647,7 +647,7 @@
         {
             "id": "enid_r_c",
             "icon": "enid_r",
-            "label": "对手伊妮德",
+            "label": "對手伊妮德",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -655,7 +655,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "伊妮德总能提前发现敌人来袭。次次如此。",
+            "description": "伊妮德總能提前發現敵人來襲。次次如此。",
             "xtriggers": {
                 "rival_promotion": "enid_r_d",
                 "killmortal": "corpse",
@@ -667,7 +667,7 @@
         {
             "id": "laidlaw_r_c",
             "icon": "laidlaw_r",
-            "label": "对手莱德劳",
+            "label": "對手萊德勞",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -675,7 +675,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "莱德劳的计策如蕨叶之影般错综复杂。",
+            "description": "萊德勞的計策如蕨葉之影般錯綜複雜。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "laidlaw_r_d",
@@ -688,7 +688,7 @@
         {
             "id": "leo_r_c",
             "icon": "leo_r",
-            "label": "对手里奥",
+            "label": "對手裡奧",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -696,7 +696,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "里奥已选定了他的事业，他将采取一切必要措施使它存续。",
+            "description": "里奧已選定了他的事業，他將採取一切必要措施使它存續。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "leo_r_d",
@@ -709,7 +709,7 @@
         {
             "id": "natalia_r_c",
             "icon": "natalia_r",
-            "label": "叛党纳塔丽娅",
+            "label": "叛黨納塔麗婭",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -717,7 +717,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "纳塔丽娅已经知道了深藏已久的真相。于是她调整了她的日程安排。",
+            "description": "納塔麗婭已經知道了深藏已久的真相。於是她調整了她的日程安排。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "natalia_r_d",
@@ -730,7 +730,7 @@
         {
             "id": "neville_r_c",
             "icon": "neville_r",
-            "label": "对手内维尔",
+            "label": "對手內維爾",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -738,7 +738,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "内维尔知道他这么做不能久长。但只要他还能，上神保佑，他就会打开出现在面前的一切门扉。",
+            "description": "內維爾知道他這麼做不能久長。但只要他還能，上神保佑，他就會打開出現在面前的一切門扉。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "neville_r_d",
@@ -751,7 +751,7 @@
         {
             "id": "porter_r_c",
             "icon": "porter_r",
-            "label": "对手波特",
+            "label": "對手波特",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -759,7 +759,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "波特已开始收集名字。",
+            "description": "波特已開始收集名字。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "porter_r_d",
@@ -772,7 +772,7 @@
         {
             "id": "renira_r_c",
             "icon": "renira_r",
-            "label": "对手芮妮拉",
+            "label": "對手芮妮拉",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -780,7 +780,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "芮妮拉喜欢将别人对她的爱慕转为崇拜。",
+            "description": "芮妮拉喜歡將別人對她的愛慕轉為崇拜。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "renira_r_d",
@@ -793,7 +793,7 @@
         {
             "id": "rose_r_c",
             "icon": "rose_r",
-            "label": "对手萝丝",
+            "label": "對手蘿絲",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -801,7 +801,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "萝丝早已停止畏惧她的敌人。",
+            "description": "蘿絲早已停止畏懼她的敵人。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "rose_r_d",
@@ -814,7 +814,7 @@
         {
             "id": "saliba_r_c",
             "icon": "saliba_r",
-            "label": "对手萨利巴",
+            "label": "對手薩利巴",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -822,7 +822,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "萨利巴不能忍受无聊。",
+            "description": "薩利巴不能忍受無聊。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "saliba_r_d",
@@ -835,7 +835,7 @@
         {
             "id": "slee_r_c",
             "icon": "slee_r",
-            "label": "对手思雷",
+            "label": "對手思雷",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -843,7 +843,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "思雷总巴望弄到更多资源好钻研他的理论。",
+            "description": "思雷總巴望弄到更多資源好鑽研他的理論。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "slee_r_d",
@@ -856,7 +856,7 @@
         {
             "id": "spencer_r_c",
             "icon": "spencer_r",
-            "label": "叛党斯宾塞",
+            "label": "叛黨斯賓塞",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -864,7 +864,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "斯宾塞已在各种可能性之间摇摆了许久……如今，他做出了选择。",
+            "description": "斯賓塞已在各種可能性之間搖擺了許久……如今，他做出了選擇。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "spencer_r_d",
@@ -877,7 +877,7 @@
         {
             "id": "sylvia_r_c",
             "icon": "sylvia_r",
-            "label": "对手西尔维亚",
+            "label": "對手西爾維亞",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -885,7 +885,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "西尔维娅的日程安排不清不楚。人们怀疑连她自己也搞不清楚。",
+            "description": "西爾維婭的日程安排不清不楚。人們懷疑連她自己也搞不清楚。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "sylvia_r_d",
@@ -898,7 +898,7 @@
         {
             "id": "tristan_r_c",
             "icon": "tristan_r",
-            "label": "对手崔斯坦",
+            "label": "對手崔斯坦",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -906,7 +906,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "崔斯坦正在铸造一个小小的王国。有必要用火时，他就会用火。",
+            "description": "崔斯坦正在鑄造一個小小的王國。有必要用火時，他就會用火。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "tristan_r_d",
@@ -919,7 +919,7 @@
         {
             "id": "valciane_r_c",
             "icon": "valciane_r",
-            "label": "对手万查妮",
+            "label": "對手萬查妮",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -927,7 +927,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "万查妮用一个抄起瓶子就砸的小青年的劲头对付她的对头。",
+            "description": "萬查妮用一個抄起瓶子就砸的小青年的勁頭對付她的對頭。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "valciane_r_d",
@@ -940,7 +940,7 @@
         {
             "id": "victor_r_c",
             "icon": "victor_r",
-            "label": "对手维克多",
+            "label": "對手維克多",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -948,7 +948,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "维克多已准备好迎接将可能发生的一切了，他的所有刀子都锋利如新兵。",
+            "description": "維克多已準備好迎接將可能發生的一切了，他的所有刀子都鋒利如新兵。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "victor_r_d",
@@ -961,7 +961,7 @@
         {
             "id": "violet_r_c",
             "icon": "violet_r",
-            "label": "对手维奥莱特",
+            "label": "對手維奧萊特",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -969,7 +969,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "维奥莱特找到了新的爱好。",
+            "description": "維奧萊特找到了新的愛好。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "violet_r_d",
@@ -982,7 +982,7 @@
         {
             "id": "ysabet_r_c",
             "icon": "ysabet_r",
-            "label": "对手伊莎贝特",
+            "label": "對手伊莎貝特",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -990,7 +990,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "伊莎贝特在没人能看到她的地方等待着。",
+            "description": "伊莎貝特在沒人能看到她的地方等待著。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "ysabet_r_d",
@@ -1003,7 +1003,7 @@
         {
             "id": "zachary_r_c",
             "icon": "zachary_r",
-            "label": "叛党扎迦利",
+            "label": "叛黨扎迦利",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1011,7 +1011,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "扎迦利总是遵循自己的理性，不论它引向何处；如今，它将他引出防剿局，带进了严寒的黎明。",
+            "description": "扎迦利總是遵循自己的理性，不論它引向何處；如今，它將他引出防剿局，帶進了嚴寒的黎明。",
             "animFrames": 1,
             "xtriggers": {
                 "rival_promotion": "zachary_r_d",
@@ -1023,7 +1023,7 @@
         },
         {
             "id": "generic_r_d",
-            "label": "形成途中的长生者",
+            "label": "形成途中的長生者",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1043,7 +1043,7 @@
         {
             "id": "auclair_r_d",
             "icon": "auclair_r",
-            "label": "形成途中的长生者奥克莱尔",
+            "label": "形成途中的長生者奧克萊爾",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1051,7 +1051,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "奥克莱尔爱下象棋，现在比以往更甚。黑与白，错综迷离。",
+            "description": "奧克萊爾愛下象棋，現在比以往更甚。黑與白，錯綜迷離。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1063,7 +1063,7 @@
         {
             "id": "cat_r_d",
             "icon": "cat_r",
-            "label": "形成途中的长生者卡特·卡罗",
+            "label": "形成途中的長生者卡特·卡羅",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1071,7 +1071,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "她叫自己“卡特·卡罗”。她以前是算命师。现在似乎没人弄得明白她是什么。",
+            "description": "她叫自己“卡特·卡羅”。她以前是算命師。現在似乎沒人弄得明白她是什麼。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1083,7 +1083,7 @@
         {
             "id": "clifton_r_d",
             "icon": "clifton_r",
-            "label": "形成途中的长生者“教皇”克里夫顿",
+            "label": "形成途中的長生者“教皇”克里夫頓",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1091,7 +1091,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "克利夫顿喜欢别人称他为“教皇陛下”。当有人不这么称呼时，他说不定就会大闹一场。",
+            "description": "克利夫頓喜歡別人稱他為“教皇陛下”。當有人不這麼稱呼時，他說不定就會大鬧一場。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1103,7 +1103,7 @@
         {
             "id": "clovette_r_d",
             "icon": "clovette_r",
-            "label": "形成途中的长生者克罗薇特",
+            "label": "形成途中的長生者克羅薇特",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1111,7 +1111,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "即便人知道了克罗薇特的所作所为，也很难去讨厌她。",
+            "description": "即便人知道了克羅薇特的所作所為，也很難去討厭她。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1123,7 +1123,7 @@
         {
             "id": "connie_r_d",
             "icon": "connie_r",
-            "label": "形成途中的长生者康妮",
+            "label": "形成途中的長生者康妮",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1131,7 +1131,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "康妮从来不能忍住不接受挑战。",
+            "description": "康妮從來不能忍住不接受挑戰。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1143,7 +1143,7 @@
         {
             "id": "dorothy_r_d",
             "icon": "dorothy_r",
-            "label": "形成途中的长生者多萝西",
+            "label": "形成途中的長生者多蘿西",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1151,7 +1151,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "多萝西不会停歇，永远不会停歇。她已发誓如此。",
+            "description": "多蘿西不會停歇，永遠不會停歇。她已發誓如此。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1163,7 +1163,7 @@
         {
             "id": "douglas_r_d",
             "icon": "douglas_r",
-            "label": "形成途中的长生者道格拉斯",
+            "label": "形成途中的長生者道格拉斯",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1171,7 +1171,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "道格拉斯寻见了火焰。",
+            "description": "道格拉斯尋見了火焰。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1183,7 +1183,7 @@
         {
             "id": "elridge_r_d",
             "icon": "elridge_r",
-            "label": "形成途中的长生者埃尔里奇",
+            "label": "形成途中的長生者埃爾里奇",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1191,7 +1191,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "埃尔里奇的鞋上总溅着血迹。",
+            "description": "埃爾里奇的鞋上總濺著血跡。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1202,7 +1202,7 @@
         {
             "id": "enid_r_d",
             "icon": "enid_r",
-            "label": "形成途中的长生者伊妮德",
+            "label": "形成途中的長生者伊妮德",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1210,7 +1210,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "伊妮德总能提前发现敌人来袭。次次如此。",
+            "description": "伊妮德總能提前發現敵人來襲。次次如此。",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1221,7 +1221,7 @@
         {
             "id": "laidlaw_r_d",
             "icon": "laidlaw_r",
-            "label": "形成途中的长生者莱德劳",
+            "label": "形成途中的長生者萊德勞",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1229,7 +1229,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "莱德劳的计策如蕨叶之影般错综复杂。",
+            "description": "萊德勞的計策如蕨葉之影般錯綜複雜。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1241,7 +1241,7 @@
         {
             "id": "leo_r_d",
             "icon": "leo_r",
-            "label": "形成途中的长生者里奥",
+            "label": "形成途中的長生者里奧",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1249,7 +1249,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "里奥已选定了他的事业，他将采取一切必要措施使它存续。",
+            "description": "里奧已選定了他的事業，他將採取一切必要措施使它存續。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1261,7 +1261,7 @@
         {
             "id": "natalia_r_d",
             "icon": "natalia_r",
-            "label": "形成途中的长生者纳塔丽娅",
+            "label": "形成途中的長生者納塔麗婭",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1269,7 +1269,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "纳塔丽娅已经知道了如此之多，付出了如此之大的代价。如今她不会收手。",
+            "description": "納塔麗婭已經知道了如此之多，付出了如此之大的代價。如今她不會收手。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1281,7 +1281,7 @@
         {
             "id": "neville_r_d",
             "icon": "neville_r",
-            "label": "形成途中的长生者内维尔",
+            "label": "形成途中的長生者內維爾",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1289,7 +1289,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "内维尔知道他这么做不能久长。但只要他还能，上神保佑，他就会打开出现在面前的一切门扉。",
+            "description": "內維爾知道他這麼做不能久長。但只要他還能，上神保佑，他就會打開出現在面前的一切門扉。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1301,7 +1301,7 @@
         {
             "id": "porter_r_d",
             "icon": "porter_r",
-            "label": "形成途中的长生者波特",
+            "label": "形成途中的長生者波特",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1309,7 +1309,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "波特已开始收集名字。",
+            "description": "波特已開始收集名字。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1321,7 +1321,7 @@
         {
             "id": "renira_r_d",
             "icon": "renira_r",
-            "label": "形成途中的长生者芮妮拉",
+            "label": "形成途中的長生者芮妮拉",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1329,7 +1329,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "芮妮拉喜欢将别人对她的爱慕转为崇拜。",
+            "description": "芮妮拉喜歡將別人對她的愛慕轉為崇拜。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1341,7 +1341,7 @@
         {
             "id": "rose_r_d",
             "icon": "rose_r",
-            "label": "形成途中的长生者萝丝",
+            "label": "形成途中的長生者蘿絲",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1349,7 +1349,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "萝丝早已停止畏惧她的敌人。",
+            "description": "蘿絲早已停止畏懼她的敵人。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1361,7 +1361,7 @@
         {
             "id": "saliba_r_d",
             "icon": "saliba_r",
-            "label": "形成途中的长生者萨利巴",
+            "label": "形成途中的長生者薩利巴",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1369,7 +1369,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "萨利巴不能忍受无聊。",
+            "description": "薩利巴不能忍受無聊。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1381,7 +1381,7 @@
         {
             "id": "slee_r_d",
             "icon": "slee_r",
-            "label": "形成途中的长生者思雷",
+            "label": "形成途中的長生者思雷",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1389,7 +1389,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "思雷总巴望弄到更多资源好钻研他的理论。",
+            "description": "思雷總巴望弄到更多資源好鑽研他的理論。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1401,7 +1401,7 @@
         {
             "id": "spencer_r_d",
             "icon": "spencer_r",
-            "label": "形成途中的长生者斯宾塞",
+            "label": "形成途中的長生者斯賓塞",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1409,7 +1409,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "斯宾塞不会再允许任何事物存于他的明察之外。如今他已前进到最后一个门关。",
+            "description": "斯賓塞不會再允許任何事物存於他的明察之外。如今他已前進到最後一個門關。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1421,7 +1421,7 @@
         {
             "id": "sylvia_r_d",
             "icon": "sylvia_r",
-            "label": "形成途中的长生者西尔维亚",
+            "label": "形成途中的長生者西爾維亞",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1429,7 +1429,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "西尔维娅的日程安排不清不楚。人们怀疑连她自己也搞不清楚。",
+            "description": "西爾維婭的日程安排不清不楚。人們懷疑連她自己也搞不清楚。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1441,7 +1441,7 @@
         {
             "id": "tristan_r_d",
             "icon": "tristan_r",
-            "label": "形成途中的长生者崔斯坦",
+            "label": "形成途中的長生者崔斯坦",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1449,7 +1449,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "崔斯坦正在铸造一个小小的王国。有必要用火时，他就会用火。",
+            "description": "崔斯坦正在鑄造一個小小的王國。有必要用火時，他就會用火。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1461,7 +1461,7 @@
         {
             "id": "valciane_r_d",
             "icon": "valciane_r",
-            "label": "形成途中的长生者万查妮",
+            "label": "形成途中的長生者萬查妮",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1469,7 +1469,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "万查妮用一个抄起瓶子就砸的小青年的劲头对付她的对头。",
+            "description": "萬查妮用一個抄起瓶子就砸的小青年的勁頭對付她的對頭。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1481,7 +1481,7 @@
         {
             "id": "victor_r_d",
             "icon": "victor_r",
-            "label": "形成途中的长生者维克多",
+            "label": "形成途中的長生者維克多",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1489,7 +1489,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "维克多已准备好迎接将可能发生的一切了，他的所有刀子都锋利如新兵。",
+            "description": "維克多已準備好迎接將可能發生的一切了，他的所有刀子都鋒利如新兵。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1501,7 +1501,7 @@
         {
             "id": "violet_r_d",
             "icon": "violet_r",
-            "label": "形成途中的长生者维奥莱特",
+            "label": "形成途中的長生者維奧萊特",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1509,7 +1509,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "维奥莱特找到了新的爱好。",
+            "description": "維奧萊特找到了新的愛好。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1521,7 +1521,7 @@
         {
             "id": "ysabet_r_d",
             "icon": "ysabet_r",
-            "label": "形成途中的长生者伊莎贝特",
+            "label": "形成途中的長生者伊莎貝特",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1529,7 +1529,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "伊莎贝特在没人能看到她的地方等待着。",
+            "description": "伊莎貝特在沒人能看到她的地方等待著。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1541,7 +1541,7 @@
         {
             "id": "zachary_r_d",
             "icon": "zachary_r",
-            "label": "形成途中的长生者扎迦利",
+            "label": "形成途中的長生者扎迦利",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1549,7 +1549,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "扎迦利在一步步接近自己无可避免的终局。",
+            "description": "扎迦利在一步步接近自己無可避免的終局。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",

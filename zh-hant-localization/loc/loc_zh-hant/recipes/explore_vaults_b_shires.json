@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "explore_vaultshires1_setup",
-            "label": "探险开始：格拉德温湖",
+            "label": "探險開始：格拉德溫湖",
             "actionId": "explore",
             "requirements": {
                 "funds": 1,
@@ -12,7 +12,7 @@
             "effects": {
                 "guardian_serpent": 1
             },
-            "startdescription": "在湖面的下方，或在崖壁的的凹坑里，或许还有些遗物等待着我们。[探险时，突破一个阻碍需消耗至少一份资金；阻碍由追随者负责突破。资金或追随者耗尽时，探险将终止。]",
+            "startdescription": "在湖面的下方，或在崖壁的的凹坑裡，或許還有些遺物等待著我們。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
             "description": ".",
             "warmup": 30,
             "craftable": true,
@@ -25,7 +25,7 @@
         },
         {
             "id": "explore_vaultshires2_setup",
-            "label": "探险开始：洛克伍德沼地",
+            "label": "探險開始：洛克伍德沼地",
             "actionId": "explore",
             "requirements": {
                 "funds": 1,
@@ -36,7 +36,7 @@
                 "peril_treacherousground": 1,
                 "guardian_watchers": 1
             },
-            "startdescription": "我们来到泥泞的沼地。在这里的某个地点，我们确信，有一座残存着珍贵余料的神殿。如果当地人想要杀死我们的话，我们大概正中他们的下怀。[探险时，突破一个阻碍需消耗至少一份资金；阻碍由追随者负责突破。资金或追随者耗尽时，探险将终止。]",
+            "startdescription": "我們來到泥濘的沼地。在這裡的某個地點，我們確信，有一座殘存著珍貴余料的神殿。如果當地人想要殺死我們的話，我們大概正中他們的下懷。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
             "description": ".",
             "warmup": 30,
             "craftable": true,
@@ -49,7 +49,7 @@
         },
         {
             "id": "explore_vaultshires3_setup",
-            "label": "探险开始：克罗基斯山丘",
+            "label": "探險開始：克羅基斯山丘",
             "actionId": "explore",
             "requirements": {
                 "funds": 1,
@@ -59,7 +59,7 @@
             "effects": {
                 "seal_wardeddoor": 1
             },
-            "startdescription": "先于我们的来者已经找到了斜坡里的门。门虽可能尚在此处，却被石块和咒语一起封得严严实实。[探险时，突破一个阻碍需消耗至少一份资金；阻碍由追随者负责突破。资金或追随者耗尽时，探险将终止。]",
+            "startdescription": "先於我們的來者已經找到了斜坡裡的門。門雖可能尚在此處，卻被石塊和咒語一起封得嚴嚴實實。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
             "description": ".",
             "warmup": 30,
             "craftable": true,
@@ -72,7 +72,7 @@
         },
         {
             "id": "explore_vaultshires4_setup",
-            "label": "探险开始：凯格琳的财宝",
+            "label": "探險開始：凱格琳的財寶",
             "actionId": "explore",
             "requirements": {
                 "funds": 1,
@@ -83,7 +83,7 @@
                 "peril_treacherousground": 1,
                 "guardian_dead": 1
             },
-            "startdescription": "我们为深入地底做好准备。我们携带了绳索，工具，照明：用来武装自己，准备对付接下来遇到的任何会动的东西。[探险时，突破一个阻碍需消耗至少一份资金；阻碍由追随者负责突破。资金或追随者耗尽时，探险将终止。]",
+            "startdescription": "我們為深入地底做好準備。我們攜帶了繩索，工具，照明：用來武裝自己，準備對付接下來遇到的任何會動的東西。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
             "description": ".",
             "warmup": 30,
             "craftable": true,
@@ -96,7 +96,7 @@
         },
         {
             "id": "explore_vaultshires5_setup",
-            "label": "探险开始：高威尔旅馆",
+            "label": "探險開始：高威爾旅館",
             "actionId": "explore",
             "requirements": {
                 "funds": 1,
@@ -107,7 +107,7 @@
                 "seal_wardeddoor": 1,
                 "guardian_watchers": 1
             },
-            "startdescription": "我们可以轻易地订到旅馆的客房，但这里的本地人却绝非善类——如果让他们推测出我们的所图。而且如果藏书室还在此处，它应该隐蔽得很好。[探险时，突破一个阻碍需消耗至少一份资金；阻碍由追随者负责突破。资金或追随者耗尽时，探险将终止。]",
+            "startdescription": "我們可以輕易地訂到旅館的客房，但這裡的本地人卻絕非善類——如果讓他們推測出我們的所圖。而且如果藏書室還在此處，它應該隱蔽得很好。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
             "description": ".",
             "warmup": 30,
             "craftable": true,
@@ -120,7 +120,7 @@
         },
         {
             "id": "explore_vaultshiresdefault_setup",
-            "label": "探险开始：凯尔伊苏姆",
+            "label": "探險開始：凱爾伊蘇姆",
             "actionId": "explore",
             "requirements": {
                 "funds": 1,
@@ -132,7 +132,7 @@
                 "guardian_watchers": 1,
                 "curse_visions": 1
             },
-            "startdescription": "沿着街道潜入一幢光鲜不再的大宅。我们蹑手蹑脚围住大宅的后园。围绕住在这里的女人流传着各种诡异的故事。她可能是一名学徒，一位收藏家，抑或名为<i>恩浦萨</i>的罕见存在。我们必须保持警觉。[探险时，突破一个阻碍需消耗至少一份资金；阻碍由追随者负责突破。资金或追随者耗尽时，探险将终止。]",
+            "startdescription": "沿著街道潛入一幢光鮮不再的大宅。我們躡手躡腳圍住大宅的後園。圍繞住在這裡的女人流傳著各種詭異的故事。她可能是一名學徒，一位收藏家，抑或名為<i>恩浦薩</i>的罕見存在。我們必須保持警覺。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
             "description": ".",
             "warmup": 30,
             "craftable": true,
@@ -145,7 +145,7 @@
         },
         {
             "id": "explorevaultshires1_success",
-            "label": "礼拜堂的最深处",
+            "label": "禮拜堂的最深處",
             "actionId": "explore",
             "requirements": {
                 "vaultshires1": 1
@@ -163,14 +163,14 @@
                 "defaultcard": "compensationb",
                 "resetonexhaustion": false
             },
-            "startdescription": "水面下存在遗迹——刚好没于其下，在涉水可及的深度。这些年湖面微有上涨，却并不能拦住我们。",
-            "description": "礼拜堂的地窖已被淹没，浑浊的水中沉浮着古尸的碎块，不过我们总算带上来一个蜡封的宝箱。是十八世纪的？总之不会在那之前。让我们看看里面装着什么。",
+            "startdescription": "水面下存在遺跡——剛好沒於其下，在涉水可及的深度。這些年湖面微有上漲，卻並不能攔住我們。",
+            "description": "禮拜堂的地窖已被淹沒，渾濁的水中沉浮著古屍的碎塊，不過我們總算帶上來一個蠟封的寶箱。是十八世紀的？總之不會在那之前。讓我們看看裡面裝著什麼。",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "explorevaultshires2_success",
-            "label": "环杉神殿",
+            "label": "環杉神殿",
             "actionId": "explore",
             "requirements": {
                 "vaultshires2": 1
@@ -189,14 +189,14 @@
                 "defaultcard": "compensationb",
                 "resetonexhaustion": false
             },
-            "startdescription": "在一块平坦，高出沼泽水面几寸的岩石之上，是一张红豆杉木雕成的王座，上面布满了菌菇和锈渍斑斑的铜饰。这里就是我们要找的神殿。",
-            "description": "岩石上是苹果绿色的颜料绘制的祭祀圈。调查神殿时，祭品留下的遗骨在我们脚下咯吱作响。王座上的一个小洞里躺着一个涂了油的宝物包。",
+            "startdescription": "在一塊平坦，高出沼澤水面幾寸的岩石之上，是一張紅豆杉木雕成的王座，上面布滿了菌菇和鏽漬斑斑的銅飾。這裡就是我們要找的神殿。",
+            "description": "岩石上是蘋果綠色的顏料繪製的祭祀圈。調查神殿時，祭品留下的遺骨在我們腳下咯吱作響。王座上的一個小洞裡躺著一個塗了油的寶物包。",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "explorevaultshires3_success",
-            "label": "战士的结末",
+            "label": "戰士的結末",
             "actionId": "explore",
             "requirements": {
                 "vaultshires3": 1
@@ -217,8 +217,8 @@
                 "defaultcard": "compensationb",
                 "resetonexhaustion": false
             },
-            "startdescription": "这个地方算是可以容人站直了，但空气污浊，我们的灯火也燃得黯淡。这里，身兼战士的国王踞于墓石之上，他的骨骸已碎，再不能够行走。他脸上的两个骷髅眼眶各镶着一圈青铜。",
-            "description": "有人先我们来过——其法力还残留在此处，这无疑是他们举行祭典所用的法力。他们拿走了战士国王的一部分陪葬宝物，又留下了些自己的东西。",
+            "startdescription": "這個地方算是可以容人站直了，但空氣汙濁，我們的燈火也燃得黯淡。這裡，身兼戰士的國王踞於墓石之上，他的骨骸已碎，再不能夠行走。他臉上的兩個骷髏眼眶各鑲著一圈青銅。",
+            "description": "有人先我們來過——其法力還殘留在此處，這無疑是他們舉行祭典所用的法力。他們拿走了戰士國王的一部分陪葬寶物，又留下了些自己的東西。",
             "warmup": 30,
             "craftable": false,
             "alt": [
@@ -230,7 +230,7 @@
         },
         {
             "id": "explorevaultshires4_success",
-            "label": "昔日贵妇",
+            "label": "昔日貴婦",
             "actionId": "explore",
             "requirements": {
                 "vaultshires4": 1
@@ -248,8 +248,8 @@
                 "defaultcard": "compensationb",
                 "resetonexhaustion": false
             },
-            "startdescription": "空气味道陈腐，尘土从头顶的岩石飘洒而下，令人见之不安，然而躺卧其间的死者依旧一动不动。房中可见白垩绘成的图案和古老的污渍，看上去我们在这将大有收获。",
-            "description": "一座镶铅边的石棺内躺着一具女人的骨骸。她不是被人葬在这儿的——倒像是自己爬进来赴死的……她头骨的形状有些不对劲，下颚像兽一样向前凸出。腐烂的碎亚麻布条裹在她的骨殖上。她攫紧的两手放在胸骨前，仅存的手骨间散落着各色宝物。",
+            "startdescription": "空氣味道陳腐，塵土從頭頂的岩石飄灑而下，令人見之不安，然而躺臥其間的死者依舊一動不動。房中可見白堊繪成的圖案和古老的汙漬，看上去我們在這將大有收穫。",
+            "description": "一座鑲鉛邊的石棺內躺著一具女人的骨骸。她不是被人葬在這兒的——倒像是自己爬進來赴死的……她頭骨的形狀有些不對勁，下顎像獸一樣向前凸出。腐爛的碎亞麻布條裹在她的骨殖上。她攫緊的兩手放在胸骨前，僅存的手骨間散落著各色寶物。",
             "warmup": 30,
             "craftable": false,
             "alt": [
@@ -261,7 +261,7 @@
         },
         {
             "id": "explorevaultshires5_success",
-            "label": "白色藏书室",
+            "label": "白色藏書室",
             "actionId": "explore",
             "requirements": {
                 "vaultshires5": 1
@@ -281,14 +281,14 @@
                 "defaultcard": "compensationb",
                 "resetonexhaustion": false
             },
-            "startdescription": "房间洁白而安静。椅子由灰白的木材制成；而桌子则用白色的大理石装点。低沉的海风吹过面海并令人不适的窗扉。冬天，这寒冷一定难以忍受。一个涂白的玻璃箱子里装着一排书，书却被铜丝卷怪怪模怪样地缠绕了起来。",
-            "description": "有些书是来自异国的十八世纪春宫图。其他的，则是植物学家的手记。可是，有些书则对我们研究有所帮助。一张发黄的纸条卡在一本书的书脊上，写道“来找我。——JC。”",
+            "startdescription": "房間潔白而安靜。椅子由灰白的木材製成；而桌子則用白色的大理石裝點。低沉的海風吹過面海並令人不適的窗扉。冬天，這寒冷一定難以忍受。一個塗白的玻璃箱子裡裝著一排書，書卻被銅絲卷怪怪模怪樣地纏繞了起來。",
+            "description": "有些書是來自異國的十八世紀春宮圖。其他的，則是植物學家的手記。可是，有些書則對我們研究有所幫助。一張發黃的紙條卡在一本書的書脊上，寫道“來找我。——JC。”",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "explorevaultshiresdefault_success",
-            "label": "最后一个房间",
+            "label": "最後一個房間",
             "actionId": "explore",
             "requirements": {
                 "vaultshiresdefault": 1
@@ -299,8 +299,8 @@
             "deckeffect": {
                 "vaultrewardsb": 3
             },
-            "startdescription": "再没有什么能阻挡我们的道路。我们先搜地下室，然后再搜上层房间。我们可不想被困住。",
-            "description": "在最顶层是祭奉裂分之阳的祭坛——他或是众位司辰之一。让我们把摆在上面的物品扫进一个毛毡口袋，然后赶紧逃入小巷，溜之大吉吧。",
+            "startdescription": "再沒有什麼能阻擋我們的道路。我們先搜地下室，然後再搜上層房間。我們可不想被困住。",
+            "description": "在最頂層是祭奉裂分之陽的祭壇——他或是眾位司辰之一。讓我們把擺在上面的物品掃進一個毛氈口袋，然後趕緊逃入小巷，溜之大吉吧。",
             "warmup": 30,
             "craftable": false,
             "linked": [

@@ -4,7 +4,7 @@
             "id": "scout.first",
             "actionid": "scout",
             "label": "勘察",
-            "startdescription": "外面是一片寒冷的旧世界，但我知晓些许窍门。",
+            "startdescription": "外面是一片寒冷的舊世界，但我知曉些許竅門。",
             "effects": {
                 "fragmentedge.exile": 1
             },
@@ -20,8 +20,8 @@
         {
             "id": "scout.turmoil",
             "actionid": "scout",
-            "label": "动乱中的城市",
-            "startdescription": "我该离开此地——尽快动身。",
+            "label": "動亂中的城市",
+            "startdescription": "我該離開此地——盡快動身。",
             "requirements": {
                 "turmoil": 1
             },
@@ -31,8 +31,8 @@
         {
             "id": "scout.aachen",
             "actionid": "scout",
-            "label": "勘察亚琛",
-            "startdescription": "走遍城市，寻找机会。[有时会产生一个痕迹。]",
+            "label": "勘察亞琛",
+            "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {
                 "tracerisk": 1
@@ -61,14 +61,14 @@
         },
         {
             "id": "scout.alexandria",
-            "startdescription": "走遍城市，寻找机会。[有时会产生一个痕迹。]",
+            "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {
                 "tracerisk": 1
             },
             "craftable": true,
             "actionid": "scout",
-            "label": "勘察亚历山大港",
+            "label": "勘察亞歷山大港",
             "requirements": {
                 "domicile.alexandria": 1
             },
@@ -101,8 +101,8 @@
         {
             "id": "scout.algiers",
             "actionid": "scout",
-            "label": "勘察阿尔及尔",
-            "startdescription": "走遍城市，寻找机会。[有时会产生一个痕迹。]",
+            "label": "勘察阿爾及爾",
+            "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {
                 "tracerisk": 1
@@ -140,7 +140,7 @@
             "id": "scout.amsterdam",
             "actionid": "scout",
             "label": "勘察阿姆斯特丹",
-            "startdescription": "走遍城市，寻找机会。[有时会产生一个痕迹。]",
+            "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {
                 "tracerisk": 1
@@ -173,8 +173,8 @@
         {
             "id": "scout.avignon",
             "actionid": "scout",
-            "label": "勘察阿维尼翁",
-            "startdescription": "走遍城市，寻找机会。[有时会产生一个痕迹。]",
+            "label": "勘察阿維尼翁",
+            "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {
                 "tracerisk": 1
@@ -205,11 +205,11 @@
         {
             "id": "scout.baghdad",
             "actionid": "scout",
-            "label": "勘察巴格达",
+            "label": "勘察巴格達",
             "requirements": {
                 "domicile.baghdad": 1
             },
-            "startdescription": "走遍城市，寻找机会。[有时会产生一个痕迹。]",
+            "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {
                 "tracerisk": 1
@@ -238,8 +238,8 @@
         {
             "id": "scout.budapest",
             "actionid": "scout",
-            "label": "勘察布达佩斯",
-            "startdescription": "走遍城市，寻找机会。[有时会产生一个痕迹。]",
+            "label": "勘察布達佩斯",
+            "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {
                 "tracerisk": 1
@@ -271,8 +271,8 @@
         {
             "id": "scout.candia",
             "actionid": "scout",
-            "label": "勘察甘地亚-伊拉克利翁",
-            "startdescription": "走遍城市，寻找机会。[有时会产生一个痕迹。]",
+            "label": "勘察甘地亞-伊拉克利翁",
+            "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {
                 "tracerisk": 1
@@ -307,8 +307,8 @@
         {
             "id": "scout.cluj",
             "actionid": "scout",
-            "label": "勘察克卢日-纳波卡",
-            "startdescription": "走遍城市，寻找机会。[有时会产生一个痕迹。]",
+            "label": "勘察克盧日-納波卡",
+            "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {
                 "tracerisk": 1
@@ -341,8 +341,8 @@
         {
             "id": "scout.granada",
             "actionid": "scout",
-            "label": "勘察格拉纳达",
-            "startdescription": "走遍城市，寻找机会。[有时会产生一个痕迹。]",
+            "label": "勘察格拉納達",
+            "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {
                 "tracerisk": 1
@@ -377,8 +377,8 @@
         {
             "id": "scout.istanbul",
             "actionid": "scout",
-            "label": "勘察伊斯坦布尔",
-            "startdescription": "走遍城市，寻找机会。[有时会产生一个痕迹。]",
+            "label": "勘察伊斯坦布爾",
+            "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {
                 "tracerisk": 1
@@ -415,8 +415,8 @@
         {
             "id": "scout.kaunas",
             "actionid": "scout",
-            "label": "勘察考纳斯",
-            "startdescription": "走遍城市，寻找机会。[有时会产生一个痕迹。]",
+            "label": "勘察考納斯",
+            "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {
                 "tracerisk": 1
@@ -451,8 +451,8 @@
         {
             "id": "scout.kiev",
             "actionid": "scout",
-            "label": "勘察基辅",
-            "startdescription": "走遍城市，寻找机会。[有时会产生一个痕迹。]",
+            "label": "勘察基輔",
+            "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {
                 "tracerisk": 1
@@ -486,7 +486,7 @@
             "id": "scout.krakow",
             "actionid": "scout",
             "label": "勘察克拉科夫",
-            "startdescription": "走遍城市，寻找机会。[有时会产生一个痕迹。]",
+            "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {
                 "tracerisk": 1
@@ -518,8 +518,8 @@
         {
             "id": "scout.leningrad",
             "actionid": "scout",
-            "label": "勘察列宁格勒",
-            "startdescription": "走遍城市，寻找机会。[有时会产生一个痕迹。]",
+            "label": "勘察列寧格勒",
+            "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {
                 "tracerisk": 1
@@ -550,8 +550,8 @@
         {
             "id": "scout.london",
             "actionid": "scout",
-            "label": "勘察伦敦",
-            "startdescription": "走遍城市，寻找机会。[有时会产生一个痕迹。]",
+            "label": "勘察倫敦",
+            "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {
                 "tracerisk": 1
@@ -582,8 +582,8 @@
         {
             "id": "scout.marrakech",
             "actionid": "scout",
-            "label": "勘察马拉喀什",
-            "startdescription": "走遍城市，寻找机会。[有时会产生一个痕迹。]",
+            "label": "勘察馬拉喀什",
+            "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {
                 "tracerisk": 1
@@ -620,8 +620,8 @@
         {
             "id": "scout.meshad",
             "actionid": "scout",
-            "label": "勘察马什哈德",
-            "startdescription": "走遍城市，寻找机会。[有时会产生一个痕迹。]",
+            "label": "勘察馬什哈德",
+            "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {
                 "tracerisk": 1
@@ -658,7 +658,7 @@
             "id": "scout.munich",
             "actionid": "scout",
             "label": "勘察慕尼黑",
-            "startdescription": "走遍城市，寻找机会。[有时会产生一个痕迹。]",
+            "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {
                 "tracerisk": 1
@@ -689,8 +689,8 @@
         {
             "id": "scout.nizhny",
             "actionid": "scout",
-            "label": "勘察下诺夫哥罗德",
-            "startdescription": "走遍城市，寻找机会。[有时会产生一个痕迹。]",
+            "label": "勘察下諾夫哥羅德",
+            "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {
                 "tracerisk": 1
@@ -722,7 +722,7 @@
             "id": "scout.paris",
             "actionid": "scout",
             "label": "勘察巴黎",
-            "startdescription": "走遍城市，寻找机会。[有时会产生一个痕迹。]",
+            "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {
                 "tracerisk": 1
@@ -756,7 +756,7 @@
             "id": "scout.prague",
             "actionid": "scout",
             "label": "勘察布拉格",
-            "startdescription": "走遍城市，寻找机会。[有时会产生一个痕迹。]",
+            "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {
                 "tracerisk": 1
@@ -788,8 +788,8 @@
         {
             "id": "scout.rostock",
             "actionid": "scout",
-            "label": "勘察罗斯托克",
-            "startdescription": "走遍城市，寻找机会。[有时会产生一个痕迹。]",
+            "label": "勘察羅斯托克",
+            "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {
                 "tracerisk": 1
@@ -823,8 +823,8 @@
         {
             "id": "scout.samarkand",
             "actionid": "scout",
-            "label": "勘察撒马尔罕",
-            "startdescription": "走遍城市，寻找机会。[有时会产生一个痕迹。]",
+            "label": "勘察撒馬爾罕",
+            "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {
                 "tracerisk": 1
@@ -858,7 +858,7 @@
             "id": "scout.stalingrad",
             "actionid": "scout",
             "label": "勘察斯大林格勒",
-            "startdescription": "走遍城市，寻找机会。[有时会产生一个痕迹。]",
+            "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {
                 "tracerisk": 1
@@ -891,7 +891,7 @@
             "id": "scout.strasbourg",
             "actionid": "scout",
             "label": "勘察斯特拉斯堡",
-            "startdescription": "走遍城市，寻找机会。[有时会产生一个痕迹。]",
+            "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {
                 "tracerisk": 1
@@ -922,8 +922,8 @@
         {
             "id": "scout.sverdlovsk",
             "actionid": "scout",
-            "label": "勘察斯维尔德洛夫斯克",
-            "startdescription": "走遍城市，寻找机会。[有时会产生一个痕迹。]",
+            "label": "勘察斯維爾德洛夫斯克",
+            "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {
                 "tracerisk": 1
@@ -954,7 +954,7 @@
             "id": "scout.tiflis",
             "actionid": "scout",
             "label": "勘察梯弗利斯",
-            "startdescription": "走遍城市，寻找机会。[有时会产生一个痕迹。]",
+            "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {
                 "tracerisk": 1
@@ -986,7 +986,7 @@
             "id": "scout.tirana",
             "actionid": "scout",
             "label": "勘察地拉那",
-            "startdescription": "走遍城市，寻找机会。[有时会产生一个痕迹。]",
+            "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {
                 "tracerisk": 1
@@ -1018,7 +1018,7 @@
             "id": "scout.tripoli",
             "actionid": "scout",
             "label": "勘察西的黎波里",
-            "startdescription": "走遍城市，寻找机会。[有时会产生一个痕迹。]",
+            "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {
                 "tracerisk": 1
@@ -1053,8 +1053,8 @@
         {
             "id": "scout.valletta",
             "actionid": "scout",
-            "label": "勘察瓦莱塔",
-            "startdescription": "走遍城市，寻找机会。[有时会产生一个痕迹。]",
+            "label": "勘察瓦萊塔",
+            "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {
                 "tracerisk": 1
@@ -1087,7 +1087,7 @@
             "id": "scout.venice",
             "actionid": "scout",
             "label": "勘察威尼斯",
-            "startdescription": "走遍城市，寻找机会。[有时会产生一个痕迹。]",
+            "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {
                 "tracerisk": 1
@@ -1120,8 +1120,8 @@
         {
             "id": "scout.vienna",
             "actionid": "scout",
-            "label": "勘察维也纳",
-            "startdescription": "走遍城市，寻找机会。[有时会产生一个痕迹。]",
+            "label": "勘察維也納",
+            "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {
                 "tracerisk": 1
@@ -1152,8 +1152,8 @@
         {
             "id": "scout.end.foe.defeated",
             "actionid": "scout",
-            "label": "休憩与等待",
-            "startdescription": "@#domicile.bornholm|当地人并不知道究竟发生了什么，但他们知道那已经结束了。一个画家一直缠着我，要我坐下来当肖像画的模特儿。也许，在不久的将来，我会的。\n#domicile.cheko|每一天的日出都来得比前一日更早。风也变得更加温柔。春天快要来了。\n#domicile.ghardaia|在缓缓爬过天空的太阳底下，高原沙漠在模糊的沉默中震颤。当地人仍礼貌地同我保持距离，但在我经过时他们会点头致意。\n#domicile.messana|时光荏苒，阴影蔓生。现在，村民们有时会向我敬礼，给我递送食物作为小礼物。\n#domicile.morbihan|修道士们收拾好了战斗的残局，并允许我在阳光斜照的长厅里同他们一起进餐。\n#domicile.paro|每天早晨我都爬上台阶，跨过摇摇欲坠的桥去看日出。当我经过时，僧侣们朝我投来微笑。\n#domicile.slettnes|灰暗的海水每天早晨都冲击着岩礁，又整夜整夜地对我发出低吼。失眠的夜里，我在聆听。@",
+            "label": "休憩與等待",
+            "startdescription": "@#domicile.bornholm|當地人並不知道究竟發生了什麼，但他們知道那已經結束了。一個畫家一直纏著我，要我坐下來當肖像畫的模特兒。也許，在不久的將來，我會的。\n#domicile.cheko|每一天的日出都來得比前一日更早。風也變得更加溫柔。春天快要來了。\n#domicile.ghardaia|在緩緩爬過天空的太陽底下，高原沙漠在模糊的沉默中震顫。當地人仍禮貌地同我保持距離，但在我經過時他們會點頭致意。\n#domicile.messana|時光荏苒，陰影蔓生。現在，村民們有時會向我敬禮，給我遞送食物作為小禮物。\n#domicile.morbihan|修道士們收拾好了戰鬥的殘局，並允許我在陽光斜照的長廳裡同他們一起進餐。\n#domicile.paro|每天早晨我都爬上台階，跨過搖搖欲墜的橋去看日出。當我經過時，僧侶們朝我投來微笑。\n#domicile.slettnes|灰暗的海水每天早晨都衝擊著岩礁，又整夜整夜地對我發出低吼。失眠的夜裡，我在聆聽。@",
             "warmup": 30,
             "craftable": true,
             "requirements": {
@@ -1170,8 +1170,8 @@
         {
             "id": "scout.bornholm",
             "actionid": "scout",
-            "label": "勘察日光岛",
-            "startdescription": "走遍岛屿，寻找机会。[有时会产生一个痕迹。]",
+            "label": "勘察日光島",
+            "startdescription": "走遍島嶼，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "craftable": true,
             "requirements": {
@@ -1191,8 +1191,8 @@
         {
             "id": "scout.slettnes",
             "actionid": "scout",
-            "label": "勘察雾火岬角",
-            "startdescription": "踱步海岸，寻找机会。[有时会产生一个痕迹。]",
+            "label": "勘察霧火岬角",
+            "startdescription": "踱步海岸，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "craftable": true,
             "requirements": {
@@ -1214,8 +1214,8 @@
         {
             "id": "scout.cheko",
             "actionid": "scout",
-            "label": "勘察月伤湖 ",
-            "startdescription": "漫步群林，寻找机会。[有时会产生一个痕迹。]",
+            "label": "勘察月傷湖 ",
+            "startdescription": "漫步群林，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "craftable": true,
             "requirements": {
@@ -1238,7 +1238,7 @@
             "id": "scout.paro",
             "actionid": "scout",
             "label": "勘察虎穴寺",
-            "startdescription": "踏遍高山和寺院，寻找机会。[有时会产生一个痕迹。]",
+            "startdescription": "踏遍高山和寺院，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 60,
             "craftable": true,
             "requirements": {
@@ -1260,8 +1260,8 @@
         {
             "id": "scout.messana",
             "actionid": "scout",
-            "label": "勘察镰隐寺",
-            "startdescription": "漫步群山，寻找机会。[有时会产生一个痕迹。]",
+            "label": "勘察鐮隱寺",
+            "startdescription": "漫步群山，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 60,
             "craftable": true,
             "requirements": {
@@ -1284,7 +1284,7 @@
             "id": "scout.ghardaia",
             "actionid": "scout",
             "label": "勘察五城",
-            "startdescription": "漫行于村庄与高原，寻找机会。[有时会产生一个痕迹。]",
+            "startdescription": "漫行於村莊與高原，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 60,
             "craftable": true,
             "requirements": {
@@ -1305,8 +1305,8 @@
         {
             "id": "scout.morbihan",
             "actionid": "scout",
-            "label": "勘察船长修道院",
-            "startdescription": "漫游岛屿，寻找机会。[有时会产生一个痕迹。]",
+            "label": "勘察船長修道院",
+            "startdescription": "漫遊島嶼，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 60,
             "craftable": true,
             "requirements": {
@@ -1329,8 +1329,8 @@
             "id": "scout.wilderness",
             "actionid": "scout",
             "label": "勘察",
-            "startdescription": "我身处何方？",
-            "description": "@#op.cold|深陷雪中。#op.heat|燥热的风中。#op.sea|漆黑的海边。#|谁知道呢？@",
+            "startdescription": "我身處何方？",
+            "description": "@#op.cold|深陷雪中。#op.heat|燥熱的風中。#op.sea|漆黑的海邊。#|誰知道呢？@",
             "warmup": 60,
             "craftable": true,
             "requirements": {

@@ -2,8 +2,8 @@
     "decks": [
         {
             "id": "locationscapital",
-            "label": "位于首都的隐藏地点",
-            "description": "近在咫尺的某处。",
+            "label": "位於首都的隱藏地點",
+            "description": "近在咫尺的某處。",
             "spec": [
                 "vaultcapital1",
                 "vaultcapital2",
@@ -16,8 +16,8 @@
         },
         {
             "id": "vaultsshires",
-            "label": "位于各郡的隐藏地点",
-            "description": "或许是个在偏远乡下待一天的机会。",
+            "label": "位於各郡的隱藏地點",
+            "description": "或許是個在偏遠鄉下待一天的機會。",
             "spec": [
                 "vaultshires1",
                 "vaultshires2",
@@ -30,8 +30,8 @@
         },
         {
             "id": "vaultscontinent",
-            "label": "位于大陆的隐藏地点",
-            "description": "狭海彼岸的广阔大陆。",
+            "label": "位於大陸的隱藏地點",
+            "description": "狹海彼岸的廣闊大陸。",
             "spec": [
                 "vaultcontinent1",
                 "vaultcontinent2",
@@ -45,8 +45,8 @@
         },
         {
             "id": "vaultslandbeyondforest",
-            "label": "位于森林尽头之地的隐秘地点",
-            "description": "山峦连绵的土地上布满了各种可能。",
+            "label": "位於森林盡頭之地的隱秘地點",
+            "description": "山巒連綿的土地上布滿了各種可能。",
             "spec": [
                 "vaultlandbeyondforest1",
                 "vaultlandbeyondforest2",
@@ -59,8 +59,8 @@
         },
         {
             "id": "vaultsrendingmountains",
-            "label": "位于撕身山脉的隐藏地点",
-            "description": "偏远而危险的宝库与神庙。",
+            "label": "位於撕身山脈的隱藏地點",
+            "description": "偏遠而危險的寶庫與神廟。",
             "spec": [
                 "vaultrendingmountains1",
                 "vaultrendingmountains2",
@@ -72,8 +72,8 @@
         },
         {
             "id": "vaultsloneandlevelsands",
-            "label": "荒寂而平阔的沙地的隐藏地点",
-            "description": "这里埋藏着古老的宝藏，能者据之。",
+            "label": "荒寂而平闊的沙地的隱藏地點",
+            "description": "這裡埋藏著古老的寶藏，能者據之。",
             "spec": [
                 "vaultloneandlevelsands1",
                 "vaultloneandlevelsands2",
@@ -85,8 +85,8 @@
         },
         {
             "id": "vaultseveningisles",
-            "label": "位于薄暮群屿的隐藏地点",
-            "description": "午港范围内某处未标记的小岛。",
+            "label": "位於薄暮群嶼的隱藏地點",
+            "description": "午港範圍內某處未標記的小島。",
             "spec": [
                 "vaulteveningisles1",
                 "vaulteveningisles2",

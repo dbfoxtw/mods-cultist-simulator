@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "ascensionpower_upgradetoobsession",
-            "label": "燃烧之钥",
+            "label": "燃燒之鑰",
             "actionId": "work",
             "requirements": {
                 "ascensionpowerb": 1,
@@ -13,8 +13,8 @@
                 "ascensionpowerb": -1,
                 "ascensionpowerc": 1
             },
-            "startdescription": "这道仪式是钥匙，令白日铸炉进入我的身体。我将永久地转变。",
-            "description": "仪式完成了。我身上出现了铸炉的印记。第一个印记是我说过的话，第二个印记是我做过的事。如果我检查自己的身体，还会发现第三个印记。我精神振奋，焕发出新的需求。",
+            "startdescription": "這道儀式是鑰匙，令白日鑄爐進入我的身體。我將永久地轉變。",
+            "description": "儀式完成了。我身上出現了鑄爐的印記。第一個印記是我說過的話，第二個印記是我做過的事。如果我檢查自己的身體，還會發現第三個印記。我精神振奮，煥發出新的需求。",
             "warmup": 60,
             "craftable": true,
             "burnimage": "flammarion"
@@ -22,7 +22,7 @@
         {
             "comments": "male and female flavour; //TODO implement more elegantly",
             "id": "ascensionsensation_upgradetoobsessionm",
-            "label": "叹息之钥",
+            "label": "嘆息之鑰",
             "actionId": "work",
             "requirements": {
                 "ascensionsensationbm": 1,
@@ -33,8 +33,8 @@
                 "ascensionsensationbm": -1,
                 "ascensionsensationc": 1
             },
-            "startdescription": "这道仪式是钥匙，令赤杯进入我的身体。我将永久地转变。",
-            "description": "仪式完成了。我身上出现了赤杯的印记。第一个印记是我说过的话，第二个印记是我做过的事。如果我检查自己的身体，还会发现第三个印记。我战栗不已，焕发出新的食欲。",
+            "startdescription": "這道儀式是鑰匙，令赤杯進入我的身體。我將永久地轉變。",
+            "description": "儀式完成了。我身上出現了赤杯的印記。第一個印記是我說過的話，第二個印記是我做過的事。如果我檢查自己的身體，還會發現第三個印記。我戰慄不已，煥發出新的食慾。",
             "warmup": 60,
             "craftable": true,
             "burnimage": "flammarion"
@@ -42,7 +42,7 @@
         {
             "comments": "male and female flavour; //TODO implement more elegantly",
             "id": "ascensionsensation_upgradetoobsessionf",
-            "label": "叹息之钥",
+            "label": "嘆息之鑰",
             "actionId": "work",
             "requirements": {
                 "ascensionsensationbf": 1,
@@ -53,8 +53,8 @@
                 "ascensionsensationbf": -1,
                 "ascensionsensationc": 1
             },
-            "startdescription": "这道仪式是钥匙，令赤杯进入我的身体。我将永久地转变。",
-            "description": "仪式完成了。我身上出现了赤杯的印记。第一个印记是我说过的话，第二个印记是我做过的事。如果我检查自己的身体，还会发现第三个印记。我战栗不已，焕发出新的食欲。",
+            "startdescription": "這道儀式是鑰匙，令赤杯進入我的身體。我將永久地轉變。",
+            "description": "儀式完成了。我身上出現了赤杯的印記。第一個印記是我說過的話，第二個印記是我做過的事。如果我檢查自己的身體，還會發現第三個印記。我戰慄不已，煥發出新的食慾。",
             "warmup": 60,
             "craftable": true,
             "burnimage": "flammarion"
@@ -70,8 +70,8 @@
                 "ascensionsensationbm": -1,
                 "ascensionsensationbf": 1
             },
-            "startdescription": "我已经在梦境中来到了我所能抵达的最远处。我必须要开始施行“功业”了。但有可能，我在思考我何所欲时，想到的不是男人……",
-            "description": "口味会改，需求会变，想法会改弦易辙。",
+            "startdescription": "我已經在夢境中來到了我所能抵達的最遠處。我必須要開始施行“功業”了。但有可能，我在思考我何所欲時，想到的不是男人……",
+            "description": "口味會改，需求會變，想法會改弦易轍。",
             "warmup": 3,
             "craftable": true
         },
@@ -86,14 +86,14 @@
                 "ascensionsensationbf": -1,
                 "ascensionsensationbm": 1
             },
-            "startdescription": "我已经在梦境中来到了我所能抵达的最远处。我必须要开始施行“功业”了。但有可能，但有可能，我在思考我何所欲时，想到的不是女人……",
-            "description": "口味会改，需求会变，想法会改弦易辙。",
+            "startdescription": "我已經在夢境中來到了我所能抵達的最遠處。我必須要開始施行“功業”了。但有可能，但有可能，我在思考我何所欲時，想到的不是女人……",
+            "description": "口味會改，需求會變，想法會改弦易轍。",
             "warmup": 3,
             "craftable": true
         },
         {
             "id": "ascensionenlightenment_upgradetoobsession",
-            "label": "致盲之钥",
+            "label": "致盲之鑰",
             "actionId": "work",
             "requirements": {
                 "ascensionenlightenmentb": 1,
@@ -104,15 +104,15 @@
                 "ascensionenlightenmentb": -1,
                 "ascensionenlightenmentc": 1
             },
-            "startdescription": "这道仪式是钥匙，令守夜人的凝视进入我的身体。我将永久地转变。",
-            "description": "仪式完成了。我身上出现了守夜人的印记。第一个印记是我说过的话，第二个印记是我做过的事。如果我检查自己的身体，还会发现第三个印记。我会发现第三个印记。我的饥饿现在变得更加精纯。",
+            "startdescription": "這道儀式是鑰匙，令守夜人的凝視進入我的身體。我將永久地轉變。",
+            "description": "儀式完成了。我身上出現了守夜人的印記。第一個印記是我說過的話，第二個印記是我做過的事。如果我檢查自己的身體，還會發現第三個印記。我會發現第三個印記。我的飢餓現在變得更加精純。",
             "warmup": 60,
             "craftable": true,
             "burnimage": "flammarion"
         },
         {
             "id": "majorforgevictory",
-            "label": "黎明将至",
+            "label": "黎明將至",
             "actionId": "work",
             "requirements": {
                 "ritual": 1,
@@ -129,7 +129,7 @@
             "id": "minorforgevictory_trigger",
             "actionId": "work",
             "label": "烈火焚心",
-            "startdescription": "我已投身火焰无数次。我身上块块厚硬的甲皮互相摩擦着。我于此呼唤铸炉的高热，焚毁从前之我。我将在通过三尖之门时死去，但死亡并不是终结。我将获得永生：成为长生者，得到铸炉的宠爱。[用于此仪式的追随者会被吃掉。如果你在意失去某名追随者，请谨慎选择。]",
+            "startdescription": "我已投身火焰無數次。我身上塊塊厚硬的甲皮互相摩擦著。我於此呼喚鑄爐的高熱，焚毀從前之我。我將在通過三尖之門時死去，但死亡並不是終結。我將獲得永生：成為長生者，得到鑄爐的寵愛。[用於此儀式的追隨者會被吃掉。如果你在意失去某名追隨者，請謹慎選擇。]",
             "requirements": {
                 "ritual": 1,
                 "ascensionpowerf": 1,
@@ -158,7 +158,7 @@
             "slots": [
                 {
                     "id": "beloved",
-                    "label": "爱人",
+                    "label": "愛人",
                     "required": {
                         "romanticinterest": 1
                     },
@@ -206,7 +206,7 @@
         },
         {
             "id": "majorgrailvictory",
-            "label": "筵宴将至",
+            "label": "筵宴將至",
             "actionId": "work",
             "requirements": {
                 "ritual": 1,
@@ -215,13 +215,13 @@
             },
             "effects": {},
             "startdescription": "[This text is available when advanced legacies arrive.]",
-            "description": "筵宴开幕。Remember that the ending text will contain the payload.",
+            "description": "筵宴開幕。Remember that the ending text will contain the payload.",
             "warmup": 60,
             "craftable": false
         },
         {
             "id": "minorgrailvictory_withromanticsacrifice",
-            "label": "铭诸心腑之宴",
+            "label": "銘諸心腑之宴",
             "actionId": "work",
             "requirements": {
                 "ritual": 1,
@@ -229,7 +229,7 @@
                 "romanticinterest": 1,
                 "grail": 27
             },
-            "startdescription": "我因摄入他人的生命而胀大。我身体的接缝开始破裂。现在我向赤杯祈求——她是群山之母、进食之神、起源之神。献上爱我之人，或许也是我爱之人，如赤杯爱轰雷之皮直至他绝命。以此为牺牲，祷文施行得更加容易且可怖。具她之名，我将诞下我自己。三尖之门开启了。我将获得永生：成为长生者，得到赤杯的宠爱，而爱我之人将为我至死铭记。",
+            "startdescription": "我因攝入他人的生命而脹大。我身體的接縫開始破裂。現在我向赤杯祈求——她是群山之母、進食之神、起源之神。獻上愛我之人，或許也是我愛之人，如赤杯愛轟雷之皮直至他絕命。以此為犧牲，禱文施行得更加容易且可怖。具她之名，我將誕下我自己。三尖之門開啟了。我將獲得永生：成為長生者，得到赤杯的寵愛，而愛我之人將為我至死銘記。",
             "description": ".",
             "warmup": 60,
             "craftable": true,
@@ -239,8 +239,8 @@
         {
             "id": "minorgrailvictory_trigger",
             "actionId": "work",
-            "label": "真正生诞之宴",
-            "startdescription": "我因摄入他人的生命而胀大。我身体的接缝开始破裂。现在我向赤杯祈求——她是群山之母、进食之神、起源之神。具她之名，我将诞下我自己。三尖之门开启了。我将获得永生：成为长生者，得到赤杯的宠爱。[用于此仪式的追随者会被吃掉。如果你在意失去某名追随者，请谨慎选择。]",
+            "label": "真正生誕之宴",
+            "startdescription": "我因攝入他人的生命而脹大。我身體的接縫開始破裂。現在我向赤杯祈求——她是群山之母、進食之神、起源之神。具她之名，我將誕下我自己。三尖之門開啟了。我將獲得永生：成為長生者，得到赤杯的寵愛。[用於此儀式的追隨者會被吃掉。如果你在意失去某名追隨者，請謹慎選擇。]",
             "requirements": {
                 "ritual": 1,
                 "ascensionsensationf": 1,
@@ -263,7 +263,7 @@
         },
         {
             "id": "minorgrailvictory_overture",
-            "label": "真正生诞之宴",
+            "label": "真正生誕之宴",
             "actionId": "work",
             "description": ".",
             "warmup": 60,
@@ -271,7 +271,7 @@
             "slots": [
                 {
                     "id": "beloved",
-                    "label": "爱人",
+                    "label": "愛人",
                     "required": {
                         "romanticinterest": 1
                     },
@@ -299,7 +299,7 @@
         },
         {
             "id": "minorgrailvictory",
-            "label": "真正生诞之宴",
+            "label": "真正生誕之宴",
             "requirements": {
                 "ascensionsensationf": 1
             },
@@ -312,13 +312,13 @@
                 "summoned": 1,
                 "ascensionsensationf": 1
             },
-            "label": "真正生诞之宴",
+            "label": "真正生誕之宴",
             "ending": "minorgrailvictorywithrisen",
             "actionId": "work"
         },
         {
             "id": "majorlanternvictory",
-            "label": "灯",
+            "label": "燈",
             "actionId": "work",
             "requirements": {
                 "ritual": 1,
@@ -327,24 +327,24 @@
             },
             "effects": {},
             "startdescription": "[This text is available when advanced legacies arrive.]",
-            "description": "我正在接近辉光。Remember that the ending text will contain the payload.",
+            "description": "我正在接近輝光。Remember that the ending text will contain the payload.",
             "warmup": 60,
             "craftable": false
         },
         {
             "id": "belovedfarewell",
-            "label": "临行抉择",
+            "label": "臨行抉擇",
             "actionId": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "summoned": -1
             },
-            "startdescription": "最后的道别。他将留下，而我将飞升。",
+            "startdescription": "最後的道別。他將留下，而我將飛升。",
             "slots": [
                 {
                     "id": "decision",
-                    "label": "决断",
-                    "description": "[用激情打断飞升……和你的爱人共度凡人的一生。如要继续，则什么也不做。]",
+                    "label": "決斷",
+                    "description": "[用激情打斷飛升……和你的愛人共度凡人的一生。如要繼續，則什麼也不做。]",
                     "required": {
                         "passion": 1
                     }
@@ -444,14 +444,14 @@
         },
         {
             "id": "auclairvictory",
-            "label": "爱？",
+            "label": "愛？",
             "actionId": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqauclair": 1
             },
-            "startdescription": "我听过一个故事：天平一端为一颗心脏，另一端为一片羽毛。这就是我此刻的选择，虽然羽毛通往永恒。[此选择可中止飞升，让你和爱人奥克莱尔共度凡人的一生。]",
+            "startdescription": "我聽過一個故事：天平一端為一顆心臟，另一端為一片羽毛。這就是我此刻的選擇，雖然羽毛通往永恆。[此選擇可中止飛升，讓你和愛人奧克萊爾共度凡人的一生。]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -460,14 +460,14 @@
         },
         {
             "id": "catvictory",
-            "label": "爱？",
+            "label": "愛？",
             "actionId": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqcat": 1
             },
-            "startdescription": "我听过一个故事：天平一端为一颗心脏，另一端为一片羽毛。这就是我此刻的选择，虽然羽毛通往永恒。[此选择可中止飞升，让你和爱人卡特·卡罗共度凡人的一生。]",
+            "startdescription": "我聽過一個故事：天平一端為一顆心臟，另一端為一片羽毛。這就是我此刻的選擇，雖然羽毛通往永恆。[此選擇可中止飛升，讓你和愛人卡特·卡羅共度凡人的一生。]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -476,14 +476,14 @@
         },
         {
             "id": "clovettevictory",
-            "label": "爱？",
+            "label": "愛？",
             "actionId": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqclovette": 1
             },
-            "startdescription": "我听过一个故事：天平一端为一颗心脏，另一端为一片羽毛。这就是我此刻的选择，虽然羽毛通往永恒。[此选择可中止飞升，让你和爱人克罗薇特共度凡人的一生。]",
+            "startdescription": "我聽過一個故事：天平一端為一顆心臟，另一端為一片羽毛。這就是我此刻的選擇，雖然羽毛通往永恆。[此選擇可中止飛升，讓你和愛人克羅薇特共度凡人的一生。]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -492,14 +492,14 @@
         },
         {
             "id": "cliftonvictory",
-            "label": "爱？",
+            "label": "愛？",
             "actionId": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqclifton": 1
             },
-            "startdescription": "我听过一个故事：天平一端为一颗心脏，另一端为一片羽毛。这就是我此刻的选择，虽然羽毛通往永恒。[此选择可中止飞升，让你和爱人克利夫顿共度凡人的一生。]",
+            "startdescription": "我聽過一個故事：天平一端為一顆心臟，另一端為一片羽毛。這就是我此刻的選擇，雖然羽毛通往永恆。[此選擇可中止飛升，讓你和愛人克利夫頓共度凡人的一生。]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -508,14 +508,14 @@
         },
         {
             "id": "dorothyvictory",
-            "label": "爱？",
+            "label": "愛？",
             "actionId": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqdorothy": 1
             },
-            "startdescription": "我听过一个故事：天平一端为一颗心脏，另一端为一片羽毛。这就是我此刻的选择，虽然羽毛通往永恒。[此选择可中止飞升，让你和爱人多萝西共度凡人的一生。]",
+            "startdescription": "我聽過一個故事：天平一端為一顆心臟，另一端為一片羽毛。這就是我此刻的選擇，雖然羽毛通往永恆。[此選擇可中止飛升，讓你和愛人多蘿西共度凡人的一生。]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -524,14 +524,14 @@
         },
         {
             "id": "elridgevictory",
-            "label": "爱？",
+            "label": "愛？",
             "actionId": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqelridge": 1
             },
-            "startdescription": "我听过一个故事：天平一端为一颗心脏，另一端为一片羽毛。这就是我此刻的选择，虽然羽毛通往永恒。[此选择可中止飞升，让你和爱人埃尔里奇共度凡人的一生。]",
+            "startdescription": "我聽過一個故事：天平一端為一顆心臟，另一端為一片羽毛。這就是我此刻的選擇，雖然羽毛通往永恆。[此選擇可中止飛升，讓你和愛人埃爾里奇共度凡人的一生。]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -540,14 +540,14 @@
         },
         {
             "id": "enidvictory",
-            "label": "爱？",
+            "label": "愛？",
             "actionId": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqenid": 1
             },
-            "startdescription": "我听过一个故事：天平一端为一颗心脏，另一端为一片羽毛。这就是我此刻的选择，虽然羽毛通往永恒。[此选择可中止飞升，让你和爱人伊妮德共度凡人的一生。]",
+            "startdescription": "我聽過一個故事：天平一端為一顆心臟，另一端為一片羽毛。這就是我此刻的選擇，雖然羽毛通往永恆。[此選擇可中止飛升，讓你和愛人伊妮德共度凡人的一生。]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -556,14 +556,14 @@
         },
         {
             "id": "laidlawvictory",
-            "label": "爱？",
+            "label": "愛？",
             "actionId": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqlaidlaw": 1
             },
-            "startdescription": "我听过一个故事：天平一端为一颗心脏，另一端为一片羽毛。这就是我此刻的选择，虽然羽毛通往永恒。[此选择可中止飞升，让你和爱人莱德劳共度凡人的一生。]",
+            "startdescription": "我聽過一個故事：天平一端為一顆心臟，另一端為一片羽毛。這就是我此刻的選擇，雖然羽毛通往永恆。[此選擇可中止飛升，讓你和愛人萊德勞共度凡人的一生。]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -572,14 +572,14 @@
         },
         {
             "id": "leovictory",
-            "label": "爱？",
+            "label": "愛？",
             "actionId": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqleo": 1
             },
-            "startdescription": "我听过一个故事：天平一端为一颗心脏，另一端为一片羽毛。这就是我此刻的选择，虽然羽毛通往永恒。[此选择可中止飞升，让你和爱人里奥共度凡人的一生。]",
+            "startdescription": "我聽過一個故事：天平一端為一顆心臟，另一端為一片羽毛。這就是我此刻的選擇，雖然羽毛通往永恆。[此選擇可中止飛升，讓你和愛人里奧共度凡人的一生。]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -588,14 +588,14 @@
         },
         {
             "id": "nevillevictory",
-            "label": "爱？",
+            "label": "愛？",
             "actionId": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqneville": 1
             },
-            "startdescription": "我听过一个故事：天平一端为一颗心脏，另一端为一片羽毛。这就是我此刻的选择，虽然羽毛通往永恒。[此选择可中止飞升，让你和爱人内维尔共度凡人的一生。]",
+            "startdescription": "我聽過一個故事：天平一端為一顆心臟，另一端為一片羽毛。這就是我此刻的選擇，雖然羽毛通往永恆。[此選擇可中止飛升，讓你和愛人內維爾共度凡人的一生。]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -604,14 +604,14 @@
         },
         {
             "id": "portervictory",
-            "label": "爱？",
+            "label": "愛？",
             "actionId": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqporter": 1
             },
-            "startdescription": "我听过一个故事：天平一端为一颗心脏，另一端为一片羽毛。这就是我此刻的选择，虽然羽毛通往永恒。[此选择可中止飞升，让你和爱人波特共度凡人的一生。]",
+            "startdescription": "我聽過一個故事：天平一端為一顆心臟，另一端為一片羽毛。這就是我此刻的選擇，雖然羽毛通往永恆。[此選擇可中止飛升，讓你和愛人波特共度凡人的一生。]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -620,14 +620,14 @@
         },
         {
             "id": "reniravictory",
-            "label": "爱？",
+            "label": "愛？",
             "actionId": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqrenira": 1
             },
-            "startdescription": "我听过一个故事：天平一端为一颗心脏，另一端为一片羽毛。这就是我此刻的选择，虽然羽毛通往永恒。[此选择可中止飞升，让你和爱人芮妮拉共度凡人的一生。]",
+            "startdescription": "我聽過一個故事：天平一端為一顆心臟，另一端為一片羽毛。這就是我此刻的選擇，雖然羽毛通往永恆。[此選擇可中止飛升，讓你和愛人芮妮拉共度凡人的一生。]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -636,14 +636,14 @@
         },
         {
             "id": "rosevictory",
-            "label": "爱？",
+            "label": "愛？",
             "actionId": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqrose": 1
             },
-            "startdescription": "我听过一个故事：天平一端为一颗心脏，另一端为一片羽毛。这就是我此刻的选择，虽然羽毛通往永恒。[此选择可中止飞升，让你和爱人萝丝共度凡人的一生。]",
+            "startdescription": "我聽過一個故事：天平一端為一顆心臟，另一端為一片羽毛。這就是我此刻的選擇，雖然羽毛通往永恆。[此選擇可中止飛升，讓你和愛人蘿絲共度凡人的一生。]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -652,14 +652,14 @@
         },
         {
             "id": "salibavictory",
-            "label": "爱？",
+            "label": "愛？",
             "actionId": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqsaliba": 1
             },
-            "startdescription": "我听过一个故事：天平一端为一颗心脏，另一端为一片羽毛。这就是我此刻的选择，虽然羽毛通往永恒。[此选择可中止飞升，让你和爱人萨利巴共度凡人的一生。]",
+            "startdescription": "我聽過一個故事：天平一端為一顆心臟，另一端為一片羽毛。這就是我此刻的選擇，雖然羽毛通往永恆。[此選擇可中止飛升，讓你和愛人薩利巴共度凡人的一生。]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -668,14 +668,14 @@
         },
         {
             "id": "sleevictory",
-            "label": "爱？",
+            "label": "愛？",
             "actionId": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqslee": 1
             },
-            "startdescription": "我听过一个故事：天平一端为一颗心脏，另一端为一片羽毛。这就是我此刻的选择，虽然羽毛通往永恒。[此选择可中止飞升，让你和爱人思雷共度凡人的一生。]",
+            "startdescription": "我聽過一個故事：天平一端為一顆心臟，另一端為一片羽毛。這就是我此刻的選擇，雖然羽毛通往永恆。[此選擇可中止飛升，讓你和愛人思雷共度凡人的一生。]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -684,14 +684,14 @@
         },
         {
             "id": "sylviavictory",
-            "label": "爱？",
+            "label": "愛？",
             "actionId": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqsylvia": 1
             },
-            "startdescription": "我听过一个故事：天平一端为一颗心脏，另一端为一片羽毛。这就是我此刻的选择，虽然羽毛通往永恒。[此选择可中止飞升，让你和爱人西尔维娅共度凡人的一生。]",
+            "startdescription": "我聽過一個故事：天平一端為一顆心臟，另一端為一片羽毛。這就是我此刻的選擇，雖然羽毛通往永恆。[此選擇可中止飛升，讓你和愛人西爾維婭共度凡人的一生。]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -700,14 +700,14 @@
         },
         {
             "id": "tristanvictory",
-            "label": "爱？",
+            "label": "愛？",
             "actionId": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqtristan": 1
             },
-            "startdescription": "我听过一个故事：天平一端为一颗心脏，另一端为一片羽毛。这就是我此刻的选择，虽然羽毛通往永恒。[此选择可中止飞升，让你和爱人崔斯坦共度凡人的一生。]",
+            "startdescription": "我聽過一個故事：天平一端為一顆心臟，另一端為一片羽毛。這就是我此刻的選擇，雖然羽毛通往永恆。[此選擇可中止飛升，讓你和愛人崔斯坦共度凡人的一生。]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -716,14 +716,14 @@
         },
         {
             "id": "valcianevictory",
-            "label": "爱？",
+            "label": "愛？",
             "actionId": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqvalciane": 1
             },
-            "startdescription": "我听过一个故事：天平一端为一颗心脏，另一端为一片羽毛。这就是我此刻的选择，虽然羽毛通往永恒。[此选择可中止飞升，让你和爱人万查妮共度凡人的一生。]",
+            "startdescription": "我聽過一個故事：天平一端為一顆心臟，另一端為一片羽毛。這就是我此刻的選擇，雖然羽毛通往永恆。[此選擇可中止飛升，讓你和愛人萬查妮共度凡人的一生。]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -732,14 +732,14 @@
         },
         {
             "id": "victorvictory",
-            "label": "爱？",
+            "label": "愛？",
             "actionId": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqvictor": 1
             },
-            "startdescription": "我听过一个故事：天平一端为一颗心脏，另一端为一片羽毛。这就是我此刻的选择，虽然羽毛通往永恒。[此选择可中止飞升，让你和爱人维克多共度凡人的一生。]",
+            "startdescription": "我聽過一個故事：天平一端為一顆心臟，另一端為一片羽毛。這就是我此刻的選擇，雖然羽毛通往永恆。[此選擇可中止飛升，讓你和愛人維克多共度凡人的一生。]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -748,14 +748,14 @@
         },
         {
             "id": "violetvictory",
-            "label": "爱？",
+            "label": "愛？",
             "actionId": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqviolet": 1
             },
-            "startdescription": "我听过一个故事：天平一端为一颗心脏，另一端为一片羽毛。这就是我此刻的选择，虽然羽毛通往永恒。[此选择可中止飞升，让你和爱人维奥莱特共度凡人的一生。]",
+            "startdescription": "我聽過一個故事：天平一端為一顆心臟，另一端為一片羽毛。這就是我此刻的選擇，雖然羽毛通往永恆。[此選擇可中止飛升，讓你和愛人維奧萊特共度凡人的一生。]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -764,14 +764,14 @@
         },
         {
             "id": "ysabetvictory",
-            "label": "爱？",
+            "label": "愛？",
             "actionId": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqysabet": 1
             },
-            "startdescription": "我听过一个故事：天平一端为一颗心脏，另一端为一片羽毛。这就是我此刻的选择，虽然羽毛通往永恒。[此选择可中止飞升，让你和爱人伊莎贝特共度凡人的一生。]",
+            "startdescription": "我聽過一個故事：天平一端為一顆心臟，另一端為一片羽毛。這就是我此刻的選擇，雖然羽毛通往永恆。[此選擇可中止飛升，讓你和愛人伊莎貝特共度凡人的一生。]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -781,7 +781,7 @@
         {
             "id": "imnotinlove",
             "label": "奉上",
-            "startdescription": "或许他爱着我。或许我爱着他。或许这些都不重要。",
+            "startdescription": "或許他愛著我。或許我愛著他。或許這些都不重要。",
             "actionId": "work",
             "craftable": false,
         },
@@ -789,7 +789,7 @@
             "id": "minorlanternvictory_trigger",
             "actionId": "work",
             "label": "神掠",
-            "startdescription": "肉体所剩无几。我将穿过三尖门，一去不回。守夜人在等我。跟随他的足迹，我会找到来自辉光之光。认知辉光令我的灵魂无法承受，我的灵魂将会洞开。我不会得到永生：我将进入比永生更高的境界。[用于此仪式的追随者会被吃掉。如果你在意失去某名追随者，请谨慎选择。]",
+            "startdescription": "肉體所剩無幾。我將穿過三尖門，一去不回。守夜人在等我。跟隨他的足跡，我會找到來自輝光之光。認知輝光令我的靈魂無法承受，我的靈魂將會洞開。我不會得到永生：我將進入比永生更高的境界。[用於此儀式的追隨者會被吃掉。如果你在意失去某名追隨者，請謹慎選擇。]",
             "requirements": {
                 "ritual": 1,
                 "ascensionenlightenmentf": 1,
@@ -819,7 +819,7 @@
             "slots": [
                 {
                     "id": "beloved",
-                    "label": "爱人",
+                    "label": "愛人",
                     "required": {
                         "romanticinterest": 1
                     },
@@ -870,13 +870,13 @@
             "requirements": {
                 "seasonambitions": 1
             },
-            "label": "异质的追求？",
+            "label": "異質的追求？",
             "actionId": "craving",
             "slots": [
                 {
                     "id": "Obsessions",
-                    "label": "痴迷之念",
-                    "description": "更深层的渴望",
+                    "label": "痴謎之念",
+                    "description": "更深層的渴望",
                     "required": {
                         "enlightenmentmarks": 3,
                         "powermarks": 3,
@@ -890,7 +890,7 @@
                     "greedy": true
                 }
             ],
-            "startdescription": "什么样的饥渴在驱使着我们？",
+            "startdescription": "什麼樣的飢渴在驅使著我們？",
             "description": "",
             "effects": {},
             "warmup": 10,
@@ -983,7 +983,7 @@
         },
         {
             "id": "L_independent",
-            "label": "竞争对手！",
+            "label": "競爭對手！",
             "requirements": {
                 "independent": 1
             },
@@ -1000,13 +1000,13 @@
         },
         {
             "id": "L_independent_router",
-            "label": "竞争对手！",
+            "label": "競爭對手！",
             "actionId": "ambition",
             "requirements": {
                 "independent": 1
             },
             "comments": "That requirement is strictly unnecessary, but leaving it here just in case we move recipe connections again - it's an important filter",
-            "startdescription": "又一个先于我飞升的人。[无派的密教徒会试图独占司辰的关注。他说不定还有其他的计策，不论你喜不喜欢。]",
+            "startdescription": "又一個先於我飛升的人。[無派的密教徒會試圖獨占司辰的關注。他說不定還有其他的計策，不論你喜不喜歡。]",
             "alt": [
                 {
                     "id": "scheme_murderhunter",
@@ -1053,8 +1053,8 @@
             "extantreqs": {
                 "long.enemy": -1
             },
-            "label": "功成名就的竞争者",
-            "startdescription": "我对手的成就使我黯然失色。现在其人将飞升，在太阳之居屋享有一席；而仍然留在人世的我只能空自懊恼。",
+            "label": "功成名就的競爭者",
+            "startdescription": "我對手的成就使我黯然失色。現在其人將飛升，在太陽之居屋享有一席；而仍然留在人世的我只能空自懊惱。",
             "ending": "rivalascension",
             "signalEndingFlavour": "Melancholy",
             "warmup": 60
@@ -1068,21 +1068,21 @@
             "extantreqs": {
                 "long.enemy": 1
             },
-            "label": "敌人过多",
-            "startdescription": "一个不死的敌人已是致死的威胁。两个不死的敌人更是令人无从招架。我们的大功业流产了。",
+            "label": "敵人過多",
+            "startdescription": "一個不死的敵人已是致死的威脅。兩個不死的敵人更是令人無從招架。我們的大功業流產了。",
             "ending": "rivalascension",
             "signalEndingFlavour": "Melancholy",
             "warmup": 60
         },
         {
             "id": "L_rebellion_activate",
-            "label": "叛变！",
+            "label": "叛變！",
             "actionId": "ambition",
             "requirements": {
                 "resentment": 3
             },
-            "startdescription": "我是做得太过，还是不足？不论如何，我已使某人难耐怒火。",
-            "description": "一个盟友背弃了我。此人也许不会与我为敌——现在还不会——还谈不上为敌——但他不会再替我办事。",
+            "startdescription": "我是做得太過，還是不足？不論如何，我已使某人難耐怒火。",
+            "description": "一個盟友背棄了我。此人也許不會與我為敵——現在還不會——還談不上為敵——但他不會再替我辦事。",
             "aspects": {
                 "rebellion": 1
             },
@@ -1090,13 +1090,13 @@
         },
         {
             "id": "L_rebellion_noactivation",
-            "label": "不满",
+            "label": "不滿",
             "actionId": "ambition",
             "requirements": {
                 "resentment": 3
             },
-            "startdescription": "我时做得太过，还是不足？不论如何，我已激起了某盟友的怒火。",
-            "description": "此人独自生了一阵闷气。他现将归队。",
+            "startdescription": "我時做得太過，還是不足？不論如何，我已激起了某盟友的怒火。",
+            "description": "此人獨自生了一陣悶氣。他現將歸隊。",
             "mutations": [
                 {
                     "filterOnAspectId": "follower",
@@ -1110,18 +1110,18 @@
         {
             "id": "ending.minorcrownedgrowthvictory",
             "actionId": "ambition",
-            "label": "去侵染和成为",
+            "label": "去侵染和成為",
             "requirements": {
                 "ghoul.hunger": 7
             },
-            "startdescription": "我的食欲已成为超越我本身的一种东西，但并未出离我本身之外。我的腹腔中孳殖满了硕果。太迟了。",
+            "startdescription": "我的食慾已成為超越我本身的一種東西，但並未出離我本身之外。我的腹腔中孳殖滿了碩果。太遲了。",
             "ending": "minorcrownedgrowthvictory",
             "signalEndingFlavour": "Vile",
             "warmup": 30
         },
         {
             "id": "ascensionnotyet",
-            "label": "凡人的懊恼",
+            "label": "凡人的懊惱",
             "actionId": "craving",
             "requirements": {
                 "enlightenmentmarks": -1,
@@ -1131,19 +1131,19 @@
             "slots": [
                 {
                     "id": "Temptations",
-                    "label": "诱惑",
-                    "description": "火待浇油",
+                    "label": "誘惑",
+                    "description": "火待澆油",
                     "required": {
                         "desire": 1
                     },
                     "greedy": true
                 }
             ],
-            "startdescription": "什么样的饥渴在驱使着我？",
+            "startdescription": "什麼樣的飢渴在驅使著我？",
             "effects": {
                 "restlessness": 1
             },
-            "description": "迄今为止，我的需求与欲望与其他凡人并无不同。然是，是什么使我坐立不安？",
+            "description": "迄今為止，我的需求與欲望與其他凡人並無不同。然是，是什麼使我坐立不安？",
             "alt": [
                 {
                     "id": "ascensionhintpower2",
@@ -1182,13 +1182,13 @@
         },
         {
             "id": "ascensionhintpower2",
-            "label": "铸炉的咆哮",
+            "label": "鑄爐的咆哮",
             "actionId": "craving",
             "requirements": {
                 "ascensionpowerb": 1
             },
-            "startdescription": "现在我总觉得周身不够温暖。",
-            "description": "我曾梦见白日铸炉，我向往她火焰的高热。差不多是时候施行“功业”，开始转变了——但我必须拥有足够的<b>铸</b>相。在<b>探索</b>中可能能找到更多。",
+            "startdescription": "現在我總覺得周身不夠溫暖。",
+            "description": "我曾夢見白日鑄爐，我嚮往她火焰的高熱。差不多是時候施行“功業”，開始轉變了——但我必須擁有足夠的<b>鑄</b>相。在<b>探索</b>中可能能找到更多。",
             "effects": {
                 "restlessness": 1
             },
@@ -1201,8 +1201,8 @@
             "requirements": {
                 "ascensionenlightenmentb": 1
             },
-            "startdescription": "即便在醒时，我也开始看见新的颜色。",
-            "description": "好奇心开始成为我的生理需求。我的双眼将会成为门关。差不多是时候施行“功业”，开始转变了——但我必须拥有足够的<b>灯</b>相。在<b>探索</b>中可能能找到更多。",
+            "startdescription": "即便在醒時，我也開始看見新的顏色。",
+            "description": "好奇心開始成為我的生理需求。我的雙眼將會成為門關。差不多是時候施行“功業”，開始轉變了——但我必須擁有足夠的<b>燈</b>相。在<b>探索</b>中可能能找到更多。",
             "effects": {
                 "restlessness": 1
             },
@@ -1210,13 +1210,13 @@
         },
         {
             "id": "ascensionhintsensation2m",
-            "label": "圣杯的触摸",
+            "label": "聖杯的觸摸",
             "actionId": "craving",
             "requirements": {
                 "ascensionsensationbm": 1
             },
-            "startdescription": "我的欲望正在起变化。",
-            "description": "赤杯美妙的浪潮在我体内涌动。差不多是时候施行“功业”，开始转变了——但我必须拥有足够的<b>杯</b>相。在<b>探索</b>中可能能找到更多。",
+            "startdescription": "我的欲望正在起變化。",
+            "description": "赤杯美妙的浪潮在我體內湧動。差不多是時候施行“功業”，開始轉變了——但我必須擁有足夠的<b>杯</b>相。在<b>探索</b>中可能能找到更多。",
             "effects": {
                 "restlessness": 1
             },
@@ -1224,13 +1224,13 @@
         },
         {
             "id": "ascensionhintsensation2f",
-            "label": "圣杯的触摸",
+            "label": "聖杯的觸摸",
             "actionId": "craving",
             "requirements": {
                 "ascensionsensationbf": 1
             },
-            "startdescription": "我的欲望正在起变化。",
-            "description": "赤杯用她美妙的手指触碰了我。差不多是时候施行“功业”，开始转变了——但我必须要有足够的<b>杯</b>相。在<b>探索</b>中可能能找到更多。",
+            "startdescription": "我的欲望正在起變化。",
+            "description": "赤杯用她美妙的手指觸碰了我。差不多是時候施行“功業”，開始轉變了——但我必須要有足夠的<b>杯</b>相。在<b>探索</b>中可能能找到更多。",
             "effects": {
                 "restlessness": 1
             },
@@ -1238,13 +1238,13 @@
         },
         {
             "id": "ascensionhintpower1",
-            "label": "铸炉的火光",
+            "label": "鑄爐的火光",
             "actionId": "craving",
             "requirements": {
                 "ascensionpowera": 1
             },
-            "startdescription": "我心中燃烧着渴求——渴求无形之术所能带来的力量。",
-            "description": "白日铸炉在我的梦中等候着。如果我学到<b>铸</b>之密传并梦到这份诱惑，我会向目标更进一步。这样的需求侵蚀着我。",
+            "startdescription": "我心中燃燒著渴求——渴求無形之術所能帶來的力量。",
+            "description": "白日鑄爐在我的夢中等候著。如果我學到<b>鑄</b>之密傳並夢到這份誘惑，我會向目標更進一步。這樣的需求侵蝕著我。",
             "effects": {
                 "restlessness": 1
             },
@@ -1252,13 +1252,13 @@
         },
         {
             "id": "ascensionhintenlightenment1",
-            "label": "守夜人的足迹",
+            "label": "守夜人的足跡",
             "actionId": "craving",
             "requirements": {
                 "ascensionenlightenmenta": 1
             },
-            "startdescription": "我脑中燃烧着渴求——渴求无形之术所能带来的知识。",
-            "description": "守夜人——即瞳中扉——在我的梦中等候着。如果我学到<b>灯</b>之密传，并以此诱惑入梦，我会向目标更进一步。这样的需求侵蚀着我。",
+            "startdescription": "我腦中燃燒著渴求——渴求無形之術所能帶來的知識。",
+            "description": "守夜人——即瞳中扉——在我的夢中等候著。如果我學到<b>燈</b>之密傳，並以此誘惑入夢，我會向目標更進一步。這樣的需求侵蝕著我。",
             "effects": {
                 "restlessness": 1
             },
@@ -1266,13 +1266,13 @@
         },
         {
             "id": "ascensionhintsensation1",
-            "label": "圣杯的私语",
+            "label": "聖杯的私語",
             "actionId": "craving",
             "requirements": {
                 "ascensionsensationa": 1
             },
-            "startdescription": "我身上缠绕着渴求——渴求无形之术所能带来的欢愉。",
-            "description": "红杯——沉溺与吞噬之杯——在我的梦中等候着。如果我学到<b>杯</b>之密传，并以此诱惑入梦，我会向目标更进一步。这样的需求侵蚀着我。",
+            "startdescription": "我身上纏繞著渴求——渴求無形之術所能帶來的歡愉。",
+            "description": "紅杯——沉溺與吞噬之杯——在我的夢中等候著。如果我學到<b>杯</b>之密傳，並以此誘惑入夢，我會向目標更進一步。這樣的需求侵蝕著我。",
             "effects": {
                 "restlessness": 1
             },
@@ -1280,7 +1280,7 @@
         },
         {
             "id": "ascensioncravingpower",
-            "label": "塑形的高热",
+            "label": "塑形的高熱",
             "actionId": "craving",
             "requirements": {
                 "powermarks": 1
@@ -1289,14 +1289,14 @@
                 {
                     "id": "Fuels",
                     "label": "燃料",
-                    "description": "火待浇油",
+                    "description": "火待澆油",
                     "required": {
                         "funds": 1
                     },
                     "greedy": true
                 }
             ],
-            "startdescription": "我需要更炽烈的火。现今燃料稀缺而又昂贵。如果买不起燃料，我便会被寒冷所压倒。",
+            "startdescription": "我需要更熾烈的火。現今燃料稀缺而又昂貴。如果買不起燃料，我便會被寒冷所壓倒。",
             "linked": [
                 {
                     "id": "ascensionsuccesscravingpower_descend",
@@ -1311,7 +1311,7 @@
         },
         {
             "id": "ascensionsuccesscravingpower_descend",
-            "label": "转变的余灰",
+            "label": "轉變的餘灰",
             "actionId": "craving",
             "requirements": {
                 "funds": -1
@@ -1320,7 +1320,7 @@
                 {
                     "id": "Pain",
                     "label": "痛楚",
-                    "description": "需求侵蚀着我",
+                    "description": "需求侵蝕著我",
                     "required": {
                         "health": 1,
                         "vitality": 1
@@ -1328,8 +1328,8 @@
                     "greedy": true
                 }
             ],
-            "startdescription": "我在颤抖。一旦离开火，我的肉体将变得瘦削而虚弱。",
-            "description": "我的力气减弱，我的血液更凉了。我认为我身上一部分伤疤甚至正在平愈。我被削弱了。",
+            "startdescription": "我在顫抖。一旦離開火，我的肉體將變得瘦削而虛弱。",
+            "description": "我的力氣減弱，我的血液更涼了。我認為我身上一部分傷疤甚至正在平愈。我被削弱了。",
             "aspects": {
                 "descend": 1,
                 "damagehealth": 1
@@ -1341,10 +1341,10 @@
         },
         {
             "id": "ascensioncravingpower_ascend",
-            "label": "另一道印记",
+            "label": "另一道印記",
             "actionId": "craving",
             "startdescription": "",
-            "description": "火焰渴求我，如我渴求它。火焰的触碰带来的绝不仅是疼痛。我拥有了另一道印记。",
+            "description": "火焰渴求我，如我渴求它。火焰的觸碰帶來的絕不僅是疼痛。我擁有了另一道印記。",
             "effects": {
                 "vitality": 2,
                 "funds": -1
@@ -1355,7 +1355,7 @@
         },
         {
             "id": "ascensioncravingsensation",
-            "label": "赤红的需求",
+            "label": "赤紅的需求",
             "actionId": "craving",
             "requirements": {
                 "sensationmarks": 1
@@ -1364,7 +1364,7 @@
                 {
                     "id": "Sustenance",
                     "label": "食料",
-                    "description": "新死的人、活着的人，都可以。",
+                    "description": "新死的人、活著的人，都可以。",
                     "required": {
                         "corpse": 1,
                         "lunatic": -1,
@@ -1373,7 +1373,7 @@
                     "greedy": true
                 }
             ],
-            "startdescription": "渴求鲜血？要是真那么简单就好了。我会更彻底地将他吮吸至尽。",
+            "startdescription": "渴求鮮血？要是真那麼簡單就好了。我會更徹底地將他吮吸至盡。",
             "linked": [
                 {
                     "id": "ascensionsuccesscravingsensation_descend",
@@ -1388,7 +1388,7 @@
         },
         {
             "id": "ascensionsuccesscravingsensation_descend",
-            "label": "内侧的沙漠",
+            "label": "內側的沙漠",
             "actionId": "craving",
             "requirements": {
                 "corpse": -1,
@@ -1399,7 +1399,7 @@
                 {
                     "id": "Pain",
                     "label": "痛楚",
-                    "description": "需求侵蚀着我",
+                    "description": "需求侵蝕著我",
                     "required": {
                         "passion": 1,
                         "glimmering": 1
@@ -1407,8 +1407,8 @@
                     "greedy": true
                 }
             ],
-            "startdescription": "若离了别人的生命，我的生命将消耗自身。",
-            "description": "我的体液稀薄，肉体干枯；我的转变褪去，激情随之黯淡。我离追求中的自己渐行渐远。",
+            "startdescription": "若離了別人的生命，我的生命將消耗自身。",
+            "description": "我的體液稀薄，肉體乾枯；我的轉變褪去，激情隨之黯淡。我離追求中的自己漸行漸遠。",
             "aspects": {
                 "descend": 1,
                 "fatiguing": 1
@@ -1420,7 +1420,7 @@
         },
         {
             "id": "ascensioncravingsensation_ascend",
-            "label": "另一道印记",
+            "label": "另一道印記",
             "actionId": "craving",
             "effects": {
                 "glimmering": 2,
@@ -1429,14 +1429,14 @@
                 "prisoner": -1
             },
             "startdescription": "",
-            "description": "完成后，我的满足感会如海中月影般深沉。另一道印记在我体内萌发。",
+            "description": "完成後，我的滿足感會如海中月影般深沉。另一道印記在我體內萌發。",
             "aspects": {
                 "ascend": 1
             }
         },
         {
             "id": "ascensioncravingenlightenment",
-            "label": "对光的好奇心",
+            "label": "對光的好奇心",
             "actionId": "craving",
             "requirements": {
                 "enlightenmentmarks": 1
@@ -1444,15 +1444,15 @@
             "slots": [
                 {
                     "id": "Conversation",
-                    "label": "谈话",
-                    "description": "鲜活头脑的最后遗言。",
+                    "label": "談話",
+                    "description": "鮮活頭腦的最後遺言。",
                     "required": {
                         "prisoner": 1
                     },
                     "greedy": true
                 }
             ],
-            "startdescription": "与鲜活的头脑在安静的房间中独处一段时光。我需要的只是这些。",
+            "startdescription": "與鮮活的頭腦在安靜的房間中獨處一段時光。我需要的只是這些。",
             "linked": [
                 {
                     "id": "ascensionsuccesscravingenlightenment_descend",
@@ -1467,7 +1467,7 @@
         },
         {
             "id": "ascensionsuccesscravingenlightenment_descend",
-            "label": "内侧的沙漠",
+            "label": "內側的沙漠",
             "actionId": "craving",
             "requirements": {
                 "prisoner": -1
@@ -1476,7 +1476,7 @@
                 {
                     "id": "Pain",
                     "label": "痛楚",
-                    "description": "需求侵蚀着我",
+                    "description": "需求侵蝕著我",
                     "required": {
                         "reason": 1,
                         "erudition": 1
@@ -1484,8 +1484,8 @@
                     "greedy": true
                 }
             ],
-            "startdescription": "如果我不能从鲜活的头脑中摄食思想，我的需求会反噬自身。",
-            "description": "漫宿之光在我体内黯淡下来。我已不如原先的我。我需要交谈。我需要那些特定的交谈。",
+            "startdescription": "如果我不能從鮮活的頭腦中攝食思想，我的需求會反噬自身。",
+            "description": "漫宿之光在我體內黯淡下來。我已不如原先的我。我需要交談。我需要那些特定的交談。",
             "aspects": {
                 "descend": 1,
                 "fatiguing": 1
@@ -1497,21 +1497,21 @@
         },
         {
             "id": "ascensioncravingenlightenment_ascend",
-            "label": "另一道印记",
+            "label": "另一道印記",
             "actionId": "craving",
             "effects": {
                 "erudition": 2,
                 "prisoner": -1
             },
             "startdescription": "",
-            "description": "我饮下了此人头脑中的光。它令我战栗而充盈。我体内的印记更亮了一层。",
+            "description": "我飲下了此人頭腦中的光。它令我戰慄而充盈。我體內的印記更亮了一層。",
             "aspects": {
                 "ascend": 1
             }
         },
         {
             "id": "ascensioncravingremembrance",
-            "label": "在黑暗泥土中生长的饥渴",
+            "label": "在黑暗泥土中生長的飢渴",
             "actionId": "craving",
             "requirements": {
                 "remembrancemarks": 2,
@@ -1525,12 +1525,12 @@
                     "additive": true
                 }
             ],
-            "startdescription": "那种味道——那种特定的味道——那种既不清新也不腐臭的味道——又来烦扰我的口腔了。我的舌头将肿胀，我的嘴唇将变黑。灵药已在我体内种下孢子，且只有死人肉才能使它们平息。",
+            "startdescription": "那種味道——那種特定的味道——那種既不清新也不腐臭的味道——又來煩擾我的口腔了。我的舌頭將腫脹，我的嘴唇將變黑。靈藥已在我體內種下孢子，且只有死人肉才能使它們平息。",
             "warmup": 30
         },
         {
             "id": "ascensioncravingremembrancenegative",
-            "label": "在黑暗泥土中生长的饥渴",
+            "label": "在黑暗泥土中生長的飢渴",
             "actionId": "craving",
             "requirements": {
                 "remembrancemarks": 2
@@ -1543,13 +1543,13 @@
                     "additive": false
                 }
             ],
-            "startdescription": "那种味道——那种特定的味道——那种既不清新也不腐臭的味道——又来烦扰我的口腔了。我的舌头将肿胀，我的嘴唇将变黑。灵药已在我体内种下孢子，且只有死人肉才能使它们平息。",
+            "startdescription": "那種味道——那種特定的味道——那種既不清新也不腐臭的味道——又來煩擾我的口腔了。我的舌頭將腫脹，我的嘴唇將變黑。靈藥已在我體內種下孢子，且只有死人肉才能使它們平息。",
             "comments": "This is a safety measure for players who managed to allow their hunger to go negative with an old save.",
             "warmup": 30
         },
         {
             "id": "ascensioncravingchange_tryascendfroma",
-            "label": "诱向蜕变",
+            "label": "誘向蛻變",
             "actionId": "craving",
             "requirements": {
                 "ascensionchangea": 1
@@ -1557,8 +1557,8 @@
             "slots": [
                 {
                     "id": "Lesson",
-                    "label": "学成",
-                    "description": "抛却成就变化",
+                    "label": "學成",
+                    "description": "拋卻成就變化",
                     "required": {
                         "ascensionlessonhearta": 1,
                         "ascensionlessonmotha": 1
@@ -1566,7 +1566,7 @@
                     "greedy": true
                 }
             ],
-            "startdescription": "我向往成为其他的存在，但是在找到必不可少的见证人前，我学会我需要学的了吗？",
+            "startdescription": "我嚮往成為其他的存在，但是在找到必不可少的見證人前，我學會我需要學的了嗎？",
             "linked": [
                 {
                     "id": "ascensioncravingchange_heartlessonascendfroma",
@@ -1585,12 +1585,12 @@
         },
         {
             "id": "ascensioncravingchange_heartlessonascendfroma",
-            "label": "抛却服饰",
+            "label": "拋卻服飾",
             "actionId": "craving",
             "requirements": {
                 "ascensionlessonhearta": 1
             },
-            "description": "当我放弃我做过的选择，当树影间漏下的月光在我表面游走时，我像树叶般发出光来。",
+            "description": "當我放棄我做過的選擇，當樹影間漏下的月光在我表面遊走時，我像樹葉般發出光來。",
             "aspects": {
                 "ascend": 1
             },
@@ -1609,12 +1609,12 @@
         },
         {
             "id": "ascensioncravingchange_mothlessonascendfroma",
-            "label": "抛却服饰",
+            "label": "拋卻服飾",
             "actionId": "craving",
             "requirements": {
                 "ascensionlessonmotha": 1
             },
-            "description": "我剥去我的外皮，使自己成长。月亮已来到此处，而我已在它眼中——",
+            "description": "我剝去我的外皮，使自己成長。月亮已來到此處，而我已在它眼中——",
             "aspects": {
                 "ascend": 1
             },
@@ -1633,7 +1633,7 @@
         },
         {
             "id": "ascensioncravingchange_tryascendfromb",
-            "label": "迎来第二次蜕变",
+            "label": "迎來第二次蛻變",
             "actionId": "craving",
             "requirements": {
                 "ascensionchangeb": 1
@@ -1641,8 +1641,8 @@
             "slots": [
                 {
                     "id": "Lesson",
-                    "label": "学成",
-                    "description": "抛却成就变化",
+                    "label": "學成",
+                    "description": "拋卻成就變化",
                     "required": {
                         "ascensionlessonheartb": 1,
                         "ascensionlessonmothb": 1
@@ -1650,7 +1650,7 @@
                     "greedy": true
                 }
             ],
-            "startdescription": "包裹我的皮肤会越来越容不下我，我应该开始将其丢弃。我需要派遣我的一部分去学习丢弃的方法。",
+            "startdescription": "包裹我的皮膚會越來越容不下我，我應該開始將其丟棄。我需要派遣我的一部分去學習丟棄的方法。",
             "linked": [
                 {
                     "id": "ascensioncravingchange_heartlessonascendfromb",
@@ -1669,12 +1669,12 @@
         },
         {
             "id": "ascensioncravingchange_heartlessonascendfromb",
-            "label": "抛却覆皮",
+            "label": "拋卻覆皮",
             "actionId": "craving",
             "requirements": {
                 "ascensionlessonheartb": 1
             },
-            "description": "我最外层的皮肤分崩瓦解，我也一样。",
+            "description": "我最外層的皮膚分崩瓦解，我也一樣。",
             "aspects": {
                 "ascend": 1
             },
@@ -1693,12 +1693,12 @@
         },
         {
             "id": "ascensioncravingchange_mothlessonascendfromb",
-            "label": "抛却覆皮",
+            "label": "拋卻覆皮",
             "actionId": "craving",
             "requirements": {
                 "ascensionlessonmothb": 1
             },
-            "description": "我们都由层构成\n但我的层数有欠",
+            "description": "我們都由層構成\n但我的層數有欠",
             "aspects": {
                 "ascend": 1
             },
@@ -1717,7 +1717,7 @@
         },
         {
             "id": "ascensioncravingchange_tryascendfromc",
-            "label": "迎来第三次蜕变",
+            "label": "迎來第三次蛻變",
             "actionId": "craving",
             "requirements": {
                 "ascensionchangec": 1
@@ -1725,8 +1725,8 @@
             "slots": [
                 {
                     "id": "Lesson",
-                    "label": "学成",
-                    "description": "抛却成就变化",
+                    "label": "學成",
+                    "description": "拋卻成就變化",
                     "required": {
                         "ascensionlessonheartc": 1,
                         "ascensionlessonmothc": 1
@@ -1734,7 +1734,7 @@
                     "greedy": true
                 }
             ],
-            "startdescription": "先揭露，再掩盖，再揭露。要想继续，我须得学习如何掩藏。",
+            "startdescription": "先揭露，再掩蓋，再揭露。要想繼續，我須得學習如何掩藏。",
             "linked": [
                 {
                     "id": "ascensioncravingchange_heartlessonascendfromc",
@@ -1753,12 +1753,12 @@
         },
         {
             "id": "ascensioncravingchange_heartlessonascendfromc",
-            "label": "抛却足音",
+            "label": "拋卻足音",
             "actionId": "craving",
             "requirements": {
                 "ascensionlessonheartc": 1
             },
-            "description": "没有脚步声可跟踪，谁会知道我们的去向？我急不可待地要出发。",
+            "description": "沒有腳步聲可跟蹤，誰會知道我們的去向？我急不可待地要出發。",
             "aspects": {
                 "ascend": 1
             },
@@ -1777,12 +1777,12 @@
         },
         {
             "id": "ascensioncravingchange_mothlessonascendfromc",
-            "label": "抛却足音",
+            "label": "拋卻足音",
             "actionId": "craving",
             "requirements": {
                 "ascensionlessonmothc": 1
             },
-            "description": "鼹鼠给出的最古早的教训：音乐之间即无声",
+            "description": "鼴鼠給出的最古早的教訓：音樂之間即無聲",
             "comments": "lack of full stop intentional",
             "aspects": {
                 "ascend": 1
@@ -1802,7 +1802,7 @@
         },
         {
             "id": "ascensioncravingchange_tryascendfromd",
-            "label": "迎来第四次蜕变",
+            "label": "迎來第四次蛻變",
             "actionId": "craving",
             "requirements": {
                 "ascensionchanged": 1
@@ -1810,8 +1810,8 @@
             "slots": [
                 {
                     "id": "Lesson",
-                    "label": "学成",
-                    "description": "抛却成就变化",
+                    "label": "學成",
+                    "description": "拋卻成就變化",
                     "required": {
                         "ascensionlessonheartd": 1,
                         "ascensionlessonmothd": 1
@@ -1819,7 +1819,7 @@
                     "greedy": true
                 }
             ],
-            "startdescription": "为了下一次蜕变，我须得软化我自己，以接纳助我蜕变的中介物。",
+            "startdescription": "為了下一次蛻變，我須得軟化我自己，以接納助我蛻變的中介物。",
             "linked": [
                 {
                     "id": "ascensioncravingchange_heartlessonascendfromd",
@@ -1838,12 +1838,12 @@
         },
         {
             "id": "ascensioncravingchange_heartlessonascendfromd",
-            "label": "抛却颜色",
+            "label": "拋卻顏色",
             "actionId": "craving",
             "requirements": {
                 "ascensionlessonheartd": 1
             },
-            "description": "我新暴露出的惨白色的肉饱含着融解出的汁液。",
+            "description": "我新暴露出的慘白色的肉飽含著融解出的汁液。",
             "aspects": {
                 "ascend": 1
             },
@@ -1862,12 +1862,12 @@
         },
         {
             "id": "ascensioncravingchange_mothlessonascendfromd",
-            "label": "抛却颜色",
+            "label": "拋卻顏色",
             "actionId": "craving",
             "requirements": {
                 "ascensionlessonmothd": 1
             },
-            "description": "当我钻进最后的皮肤，整个此刻我都将融解，化为斑斑点点。很快了，点点斑斑。",
+            "description": "當我鑽進最後的皮膚，整個此刻我都將融解，化為斑斑點點。很快了，點點斑斑。",
             "aspects": {
                 "ascend": 1
             },
@@ -1886,7 +1886,7 @@
         },
         {
             "id": "ascensioncravingchange_tryascendfrome",
-            "label": "迎来第五次蜕变",
+            "label": "迎來第五次蛻變",
             "actionId": "craving",
             "requirements": {
                 "ascensionchangee": 1
@@ -1894,8 +1894,8 @@
             "slots": [
                 {
                     "id": "Lesson",
-                    "label": "学成",
-                    "description": "抛却成就变化",
+                    "label": "學成",
+                    "description": "拋卻成就變化",
                     "required": {
                         "ascensionlessonhearte": 1,
                         "ascensionlessonmothe": 1
@@ -1903,7 +1903,7 @@
                     "greedy": true
                 }
             ],
-            "startdescription": "我将要穿过的门扉从不对醒时的，或阖上的眼睛显现。我须得把双眼让与知晓门路之人，才能得见门扉。",
+            "startdescription": "我將要穿過的門扉從不對醒時的，或闔上的眼睛顯現。我須得把雙眼讓與知曉門路之人，才能得見門扉。",
             "linked": [
                 {
                     "id": "ascensioncravingchange_heartlessonascendfrome",
@@ -1922,12 +1922,12 @@
         },
         {
             "id": "ascensioncravingchange_heartlessonascendfrome",
-            "label": "抛却视力",
+            "label": "拋卻視力",
             "actionId": "craving",
             "requirements": {
                 "ascensionlessonhearte": 1
             },
-            "description": "有时，经受此蜕变之人的黄水晶色的双眼会被误认为接近“神侵”者受沐光明的双眼。不过绝对骗不过多长时间。",
+            "description": "有時，經受此蛻變之人的黃水晶色的雙眼會被誤認為接近“神侵”者受沐光明的雙眼。不過絕對騙不過多長時間。",
             "aspects": {
                 "ascend": 1
             },
@@ -1946,12 +1946,12 @@
         },
         {
             "id": "ascensioncravingchange_mothlessonascendfrome",
-            "label": "抛却视力",
+            "label": "拋卻視力",
             "actionId": "craving",
             "requirements": {
                 "ascensionlessonmothe": 1
             },
-            "description": "现在我进入了我最终的皮肤。",
+            "description": "現在我進入了我最終的皮膚。",
             "aspects": {
                 "ascend": 1
             },
@@ -1971,15 +1971,15 @@
         {
             "id": "ascensioncravingchange_tryascendfromg",
             "actionId": "craving",
-            "label": "内侧的搏动",
+            "label": "內側的搏動",
             "requirements": {
                 "ascensionchangeg": 1
             },
             "slots": [
                 {
                     "id": "Lesson",
-                    "label": "学成",
-                    "description": "抛却成就变化",
+                    "label": "學成",
+                    "description": "拋卻成就變化",
                     "required": {
                         "ascensionlessonheartf": 1,
                         "ascensionlessonmothf": 1
@@ -1987,21 +1987,21 @@
                     "greedy": true
                 }
             ],
-            "startdescription": "我必须赶紧入梦，在我的灵魂爆裂之前。",
+            "startdescription": "我必須趕緊入夢，在我的靈魂爆裂之前。",
             "warmup": 10
         },
         {
             "id": "ascensioncravingchange_tryascendfromf",
             "actionId": "craving",
-            "label": "迎来第六次转变",
+            "label": "迎來第六次轉變",
             "requirements": {
                 "ascensionchangef": 1
             },
             "slots": [
                 {
                     "id": "Lesson",
-                    "label": "学成",
-                    "description": "抛却成就变化",
+                    "label": "學成",
+                    "description": "拋卻成就變化",
                     "required": {
                         "ascensionlessonheartf": 1,
                         "ascensionlessonmothf": 1
@@ -2009,7 +2009,7 @@
                     "greedy": true
                 }
             ],
-            "startdescription": "骨头总被留到最后。等我学会它们的转变之法，我便已准备就绪。",
+            "startdescription": "骨頭總被留到最後。等我學會它們的轉變之法，我便已準備就緒。",
             "linked": [
                 {
                     "id": "ascensioncravingchange_heartlessonascendfromf",
@@ -2028,12 +2028,12 @@
         },
         {
             "id": "ascensioncravingchange_heartlessonascendfromf",
-            "label": "抛却骨骼",
+            "label": "拋卻骨骼",
             "actionId": "craving",
             "requirements": {
                 "ascensionlessonheartf": 1
             },
-            "description": "现在日已东升，阴影为之驱散，是时候记起了；我会如我所学，用我的骨骼记起。我可说已准备就绪。",
+            "description": "現在日已東升，陰影為之驅散，是時候記起了；我會如我所學，用我的骨骼記起。我可說已準備就緒。",
             "aspects": {
                 "ascend": 1
             },
@@ -2052,12 +2052,12 @@
         },
         {
             "id": "ascensioncravingchange_mothlessonascendfromf",
-            "label": "抛却骨骼",
+            "label": "拋卻骨骼",
             "actionId": "craving",
             "requirements": {
                 "ascensionlessonmothf": 1
             },
-            "description": "现在日已西沉，阴影蔓延如黑油，我的骨骼知道最终注定发生什么。终结近在眼前。",
+            "description": "現在日已西沉，陰影蔓延如黑油，我的骨骼知道最終注定發生什麼。終結近在眼前。",
             "aspects": {
                 "ascend": 1
             },
@@ -2076,9 +2076,9 @@
         },
         {
             "id": "ascensioncravingchange_noascension",
-            "label": "一样的我",
+            "label": "一樣的我",
             "actionId": "craving",
-            "description": "我在转变之路上不再是孤身一人。我须得在以隐秘<b>形态</b>移动时找到我要学的东西。",
+            "description": "我在轉變之路上不再是孤身一人。我須得在以隱秘<b>形態</b>移動時找到我要學的東西。",
             "effects": {
                 "restlessness": 1
             },

@@ -3,8 +3,8 @@
         {
             "id": "rkx.spawn.escort",
             "actionid": "rkx",
-            "label": "并非孤身",
-            "startdescription": "祸不单行。[你的大敌总是会找来帮手对付你……除非你是在地图之疆面对他。]",
+            "label": "並非孤身",
+            "startdescription": "禍不單行。[你的大敵總是會找來幫手對付你……除非你是在地圖之疆面對他。]",
             "extantreqs": {
                 "rkx.foe": 1,
                 "rkx.underlings.blocker": -1
@@ -23,8 +23,8 @@
         {
             "id": "rkx.first",
             "actionid": "rkx",
-            "label": "如影随形",
-            "startdescription": "这人认得我的脸，我也认得他的。",
+            "label": "如影隨形",
+            "startdescription": "這人認得我的臉，我也認得他的。",
             "effects": {
                 "rkx.enforcer": 1,
                 "rkx.event.aggressive": 1
@@ -40,7 +40,7 @@
             "id": "rkx.arrive.ahead",
             "actionid": "rkx",
             "label": "清算人先至",
-            "startdescription": "清算人猜到我可能会来这里。他们在这座城市已经布好了探子。",
+            "startdescription": "清算人猜到我可能會來這裡。他們在這座城市已經布好了探子。",
             "requirements": {
                 "rkx.infected": 1
             },
@@ -60,8 +60,8 @@
         {
             "id": "rkx.arrive.traces",
             "actionid": "rkx",
-            "label": "太多痕迹",
-            "startdescription": "我留下了太多的痕迹。清算人跟着我到了这里。[如果你在场上有不止一个痕迹，通常就会吸引到清算人。]",
+            "label": "太多痕跡",
+            "startdescription": "我留下了太多的痕跡。清算人跟著我到了這裡。[如果你在場上有不止一個痕跡，通常就會吸引到清算人。]",
             "extantreqs": {
                 "trace": 2
             },
@@ -79,7 +79,7 @@
             "id": "rkx.arrive.trace",
             "actionid": "rkx",
             "label": "百密一疏",
-            "startdescription": "我很小心……但还不够小心。[即使场上只有一个痕迹，有时也会引来清算人。]",
+            "startdescription": "我很小心……但還不夠小心。[即使場上只有一個痕跡，有時也會引來清算人。]",
             "extantreqs": {
                 "trace": 1
             },
@@ -97,7 +97,7 @@
             "id": "rkx.arrive.no.trace",
             "actionid": "rkx",
             "label": "清算人已至！",
-            "startdescription": "追兵已至。我一直都很谨慎。这一定是因为运气太差了。[即使没有痕迹，清算人偶尔也会搜索某座城市。]",
+            "startdescription": "追兵已至。我一直都很謹慎。這一定是因為運氣太差了。[即使沒有痕跡，清算人偶爾也會搜索某座城市。]",
             "extantreqs": {
                 "trace": -1
             },
@@ -115,7 +115,7 @@
             "id": "rkx.selector",
             "actionid": "rkx",
             "label": "搜索",
-            "startdescription": "@#rkx.underboss|我知道这些迹象。一位清算人小头目进入了城市。我的大敌不会太远了。\n#rkx.enforcer|我在人群中看到了一张熟悉的面孔——太熟悉了。\n#rkx.operative|我已学会听从自己的直觉，而直觉告诉我，有人在与我作对。\n#|我的后颈有刺痛的感觉。有人在找我。@  [场上的痕迹越多，你的追兵就能越快地发现你。]",
+            "startdescription": "@#rkx.underboss|我知道這些跡象。一位清算人小頭目進入了城市。我的大敵不會太遠了。\n#rkx.enforcer|我在人群中看到了一張熟悉的面孔——太熟悉了。\n#rkx.operative|我已學會聽從自己的直覺，而直覺告訴我，有人在與我作對。\n#|我的後頸有刺痛的感覺。有人在找我。@  [場上的痕跡越多，你的追兵就能越快地發現你。]",
             "deckeffects": {
                 "rkx.events": 1
             },
@@ -187,8 +187,8 @@
         {
             "id": "rkx.underboss.slain",
             "actionid": "rkx",
-            "label": "死于伤口",
-            "startdescription": "这个小头目完蛋了。",
+            "label": "死於傷口",
+            "startdescription": "這個小頭目完蛋了。",
             "requirements": {
                 "rkx.underboss": 1
             },
@@ -202,8 +202,8 @@
         {
             "id": "rkx.reckoner.slain",
             "actionid": "rkx",
-            "label": "死于伤口",
-            "startdescription": "这个清算人完蛋了。",
+            "label": "死於傷口",
+            "startdescription": "這個清算人完蛋了。",
             "requirements": {
                 "rkx.underboss": -1,
                 "rkx.rank": 1
@@ -219,7 +219,7 @@
             "id": "rkx.escort.attack",
             "actionid": "rkx.escort",
             "label": "片刻喘息",
-            "startdescription": "我那大敌的走狗不久将对我发动另一次攻击——",
+            "startdescription": "我那大敵的走狗不久將對我發動另一次攻擊——",
             "requirements": {
                 "rkx.enforcer": 1
             },
@@ -242,8 +242,8 @@
         {
             "id": "rkx.underboss.aggressive.obscured",
             "actionid": "rkx",
-            "label": "搜查阴影",
-            "startdescription": "一位清算人小头目正在找我。他暂时还发现不了我。但我藏身的帷幕也维持不了多久了。",
+            "label": "搜查陰影",
+            "startdescription": "一位清算人小頭目正在找我。他暫時還發現不了我。但我藏身的帷幕也維持不了多久了。",
             "requirements": {
                 "rkx.underboss": 1,
                 "rkx.event.aggressive": 1
@@ -257,7 +257,7 @@
             "slots": [
                 {
                     "id": "obscurity",
-                    "label": "隐秘",
+                    "label": "隱秘",
                     "required": {
                         "obscurity": 1
                     },
@@ -274,8 +274,8 @@
         {
             "id": "rkx.enforcer.aggressive.obscured",
             "actionid": "rkx",
-            "label": "搜查阴影",
-            "startdescription": "一位清算人刺客正在搜查这座城市。他暂时还发现不了我。但我藏身的帷幕也维持不了多久了。",
+            "label": "搜查陰影",
+            "startdescription": "一位清算人刺客正在搜查這座城市。他暫時還發現不了我。但我藏身的帷幕也維持不了多久了。",
             "requirements": {
                 "rkx.enforcer": 1,
                 "rkx.event.aggressive": 1
@@ -286,7 +286,7 @@
             "slots": [
                 {
                     "id": "obscurity",
-                    "label": "隐秘",
+                    "label": "隱秘",
                     "required": {
                         "obscurity": 1
                     },
@@ -306,8 +306,8 @@
         {
             "id": "rkx.operative.aggressive.obscured",
             "actionid": "rkx",
-            "label": "搜查阴影",
-            "startdescription": "一位清算人特工在此行动。他暂时还发现不了我。但我藏身的帷幕也维持不了多久了。",
+            "label": "搜查陰影",
+            "startdescription": "一位清算人特工在此行動。他暫時還發現不了我。但我藏身的帷幕也維持不了多久了。",
             "requirements": {
                 "rkx.operative": 1,
                 "rkx.event.aggressive": 1
@@ -318,7 +318,7 @@
             "slots": [
                 {
                     "id": "obscurity",
-                    "label": "隐秘",
+                    "label": "隱秘",
                     "required": {
                         "obscurity": 1
                     },
@@ -338,8 +338,8 @@
         {
             "id": "rkx.underboss.aggressive.violent",
             "actionid": "rkx",
-            "label": "一场袭击！",
-            "startdescription": "小头目开始直接攻击我！[清算人的直接攻击如果成功则会造成伤口。除非你提供一张卡牌来保护自己，否则他的袭击通常会成功。你也可以用十年来贿赂此人，但小头目们都贪得无厌。]",
+            "label": "一場襲擊！",
+            "startdescription": "小頭目開始直接攻擊我！[清算人的直接攻擊如果成功則會造成傷口。除非你提供一張卡牌來保護自己，否則他的襲擊通常會成功。你也可以用十年來賄賂此人，但小頭目們都貪得無厭。]",
             "requirements": {
                 "rkx.underboss": 1,
                 "rkx.event.aggressive": 1
@@ -347,7 +347,7 @@
             "slots": [
                 {
                     "id": "defence",
-                    "label": "防御",
+                    "label": "防禦",
                     "required": {
                         "lore": 1,
                         "weapon": 1,
@@ -386,8 +386,8 @@
         {
             "id": "rkx.underboss.aggressive.cunning",
             "actionid": "rkx",
-            "label": "盗窃或破坏",
-            "startdescription": "小头目在觊觎我的资产。[通过激进分子、黑社会、掌权者或者官方的人脉，你可以抢占先机。否则你的一项随机资产将被破坏。你也可以用十年来贿赂此人，但小头目们都贪得无厌。]",
+            "label": "盜竊或破壞",
+            "startdescription": "小頭目在覬覦我的資產。[通過激進分子、黑社會、掌權者或者官方的人脈，你可以搶占先機。否則你的一項隨機資產將被破壞。你也可以用十年來賄賂此人，但小頭目們都貪得無厭。]",
             "requirements": {
                 "rkx.underboss": 1,
                 "rkx.event.aggressive": 1
@@ -395,8 +395,8 @@
             "slots": [
                 {
                     "id": "defence",
-                    "label": "防御",
-                    "description": "使用一张激进分子、黑社会、掌权者或者官方的人脉。否则你的一项随机资产将被破坏。",
+                    "label": "防禦",
+                    "description": "使用一張激進分子、黑社會、掌權者或者官方的人脈。否則你的一項隨機資產將被破壞。",
                     "required": {
                         "connection.ruler": 1,
                         "connection.underworld": 1,
@@ -431,7 +431,7 @@
             "id": "rkx.underboss.aggressive.cunning.defended",
             "actionid": "rkx",
             "label": "用得上的朋友",
-            "startdescription": "我找了人来帮忙。那位小头目会收到一个棘手的惊喜。",
+            "startdescription": "我找了人來幫忙。那位小頭目會收到一個棘手的驚喜。",
             "requirements": {
                 "connection": 1
             },
@@ -454,11 +454,11 @@
             "id": "rkx.underboss.aggressive.cunning.undefended",
             "actionid": "rkx",
             "label": "重挫",
-            "startdescription": "@#connection|小头目离间了我和我的盟友。\n#portable|东西丢了！一定是小头目或他的爪牙闯了进来。\n#space|我有一处房产被神秘地烧毁了。\n#|小头目试图夺走我的资产。@",
+            "startdescription": "@#connection|小頭目離間了我和我的盟友。\n#portable|東西丟了！一定是小頭目或他的爪牙闖了進來。\n#space|我有一處房產被神秘地燒毀了。\n#|小頭目試圖奪走我的資產。@",
             "slots": [
                 {
                     "id": "asset",
-                    "label": "目标",
+                    "label": "目標",
                     "required": {
                         "asset": 1
                     },
@@ -484,7 +484,7 @@
             "id": "rkx.underboss.reinforcements",
             "actionid": "rkx",
             "label": "增援！",
-            "startdescription": "一位清算人小头目握有我在这里的证据，但他还没有对我采取行动。这只能说明，他已经派人去通知他的上级了……我的大敌。[当场上有五个痕迹时，大敌有可能会出现。]",
+            "startdescription": "一位清算人小頭目握有我在這裡的證據，但他還沒有對我採取行動。這只能說明，他已經派人去通知他的上級了……我的大敵。[當場上有五個痕跡時，大敵有可能會出現。]",
             "requirements": {
                 "rkx.underboss": 1,
                 "rkx.event.passive": 1
@@ -509,8 +509,8 @@
         {
             "id": "rkx.underboss.search",
             "actionid": "rkx",
-            "label": "扩大搜索……",
-            "startdescription": "一位清算人小头目正在收集关于我的行踪和我本人的情报。",
+            "label": "擴大搜索……",
+            "startdescription": "一位清算人小頭目正在收集關於我的行蹤和我本人的情報。",
             "requirements": {
                 "rkx.underboss": 1,
                 "rkx.event.passive": 1
@@ -531,8 +531,8 @@
         {
             "id": "rkx.enforcer.aggressive",
             "actionid": "rkx",
-            "label": "一场袭击！",
-            "startdescription": "刺客正在向我进攻！[如果清算人的直接攻击成功则会造成伤口。除非你提供一张卡牌来保护自己，否则他的袭击大概率会成功。你也可以用十年来贿赂此人，但他可能会贪得无厌。]",
+            "label": "一場襲擊！",
+            "startdescription": "刺客正在向我進攻！[如果清算人的直接攻擊成功則會造成傷口。除非你提供一張卡牌來保護自己，否則他的襲擊大概率會成功。你也可以用十年來賄賂此人，但他可能會貪得無厭。]",
             "requirements": {
                 "rkx.enforcer": 1,
                 "rkx.event.aggressive": 1
@@ -540,7 +540,7 @@
             "slots": [
                 {
                     "id": "defence",
-                    "label": "防御",
+                    "label": "防禦",
                     "required": {
                         "lore": 1,
                         "weapon": 1,
@@ -584,7 +584,7 @@
             "id": "rkx.enforcer.reinforcements",
             "actionid": "rkx",
             "label": "增援！",
-            "startdescription": "一位清算人刺客握有我在此地的证据，但他还没有对我采取行动。这只能说明，他已经派人去通知他的上级了……[当场上有三个痕迹时，小头目就有可能出现。]",
+            "startdescription": "一位清算人刺客握有我在此地的證據，但他還沒有對我採取行動。這只能說明，他已經派人去通知他的上級了……[當場上有三個痕跡時，小頭目就有可能出現。]",
             "requirements": {
                 "rkx.enforcer": 1,
                 "rkx.event.passive": 1
@@ -608,8 +608,8 @@
         {
             "id": "rkx.enforcer.search",
             "actionid": "rkx",
-            "label": "扩大搜索……",
-            "startdescription": "一位清算人刺客正在搜集更多线索。他可能很快就会召来增援。",
+            "label": "擴大搜索……",
+            "startdescription": "一位清算人刺客正在搜集更多線索。他可能很快就會召來增援。",
             "requirements": {
                 "rkx.enforcer": 1,
                 "rkx.event.passive": 1
@@ -630,13 +630,13 @@
         {
             "id": "rkx.operative.aggressive",
             "actionid": "rkx",
-            "label": "盗窃或破坏",
-            "startdescription": "清算人特工在觊觎我的资产。[通过激进分子、黑社会、掌权者或者官方的人脉，你可以抢占先机。否则你的一项随机资产将被破坏。你也可以用十年来贿赂此人，但他可能会贪得无厌。]",
+            "label": "盜竊或破壞",
+            "startdescription": "清算人特工在覬覦我的資產。[通過激進分子、黑社會、掌權者或者官方的人脈，你可以搶占先機。否則你的一項隨機資產將被破壞。你也可以用十年來賄賂此人，但他可能會貪得無厭。]",
             "slots": [
                 {
                     "id": "defence",
-                    "label": "防御",
-                    "description": "使用一张激进分子、黑社会、掌权者或者官方的人脉。否则你的一项随机资产将被破坏。",
+                    "label": "防禦",
+                    "description": "使用一張激進分子、黑社會、掌權者或者官方的人脈。否則你的一項隨機資產將被破壞。",
                     "required": {
                         "connection.ruler": 1,
                         "connection.underworld": 1,
@@ -679,7 +679,7 @@
             "id": "rkx.operative.aggressive.defended",
             "actionid": "rkx",
             "label": "用得上的朋友",
-            "startdescription": "我找了人来帮忙。那位特工会收到一个棘手的惊喜。",
+            "startdescription": "我找了人來幫忙。那位特工會收到一個棘手的驚喜。",
             "requirements": {
                 "connection": 1
             },
@@ -702,11 +702,11 @@
             "id": "rkx.operative.aggressive.undefended",
             "actionid": "rkx",
             "label": "重挫",
-            "startdescription": "@#connection|清算人特工离间了我和我的盟友。\n#space|我有一处房产被神秘地烧毁了。\n#portable|东西丢了！一定是那特工或他的爪牙闯了进来。\n#|那特工试图夺走我的资产。@",
+            "startdescription": "@#connection|清算人特工離間了我和我的盟友。\n#space|我有一處房產被神秘地燒毀了。\n#portable|東西丟了！一定是那特工或他的爪牙闖了進來。\n#|那特工試圖奪走我的資產。@",
             "slots": [
                 {
                     "id": "asset",
-                    "label": "目标",
+                    "label": "目標",
                     "required": {
                         "asset": 1
                     },
@@ -732,7 +732,7 @@
             "id": "rkx.operative.reinforcements",
             "actionid": "rkx",
             "label": "增援！",
-            "startdescription": "一位清算人特工握有我在此地的证据，但他没有对我采取行动。这只能说明，他已经派人去通知他的上级了……[当场上有三个痕迹时，小头目就有可能出现。]",
+            "startdescription": "一位清算人特工握有我在此地的證據，但他沒有對我採取行動。這只能說明，他已經派人去通知他的上級了……[當場上有三個痕跡時，小頭目就有可能出現。]",
             "requirements": {
                 "rkx.operative": 1,
                 "rkx.event.passive": 1
@@ -756,8 +756,8 @@
         {
             "id": "rkx.operative.search",
             "actionid": "rkx",
-            "label": "扩大搜索……",
-            "startdescription": "一位清算人特工正在搜集更多线索。他可能很快就会召来增援。",
+            "label": "擴大搜索……",
+            "startdescription": "一位清算人特工正在搜集更多線索。他可能很快就會召來增援。",
             "requirements": {
                 "rkx.operative": 1,
                 "rkx.event.passive": 1
@@ -779,7 +779,7 @@
             "id": "rkx.scouts.aggressive.reinforcements",
             "actionid": "rkx",
             "label": "增援！",
-            "startdescription": "清算人握有我在此地的证据。他们正呼叫增援好把我找出来。",
+            "startdescription": "清算人握有我在此地的證據。他們正呼叫增援好把我找出來。",
             "requirements": {
                 "rkx.event.aggressive": 1,
                 "rkx.rank": -1
@@ -800,8 +800,8 @@
         {
             "id": "rkx.scouts.aggressive.search",
             "actionid": "rkx",
-            "label": "扩大搜索……",
-            "startdescription": "清算人线人正在搜集更多线索。他可能很快就会召来增援。",
+            "label": "擴大搜索……",
+            "startdescription": "清算人線人正在搜集更多線索。他可能很快就會召來增援。",
             "requirements": {
                 "rkx.event.aggressive": 1,
                 "rkx.rank": -1
@@ -822,8 +822,8 @@
         {
             "id": "rkx.scouts.passive.hesitate",
             "actionid": "rkx",
-            "label": "踌躇不前",
-            "startdescription": "我的那些追兵，有的小心谨慎，有的胆小怕事，有的对证据将信将疑，不过他们到现在还没有采取任何行动。",
+            "label": "躊躇不前",
+            "startdescription": "我的那些追兵，有的小心謹慎，有的膽小怕事，有的對證據將信將疑，不過他們到現在還沒有採取任何行動。",
             "requirements": {
                 "rkx.event.passive": 1,
                 "rkx.rank": -1
@@ -841,8 +841,8 @@
         {
             "id": "rkx.scouts.passive.leave",
             "actionid": "rkx",
-            "label": "未被发现！",
-            "startdescription": "追兵们确信我不在这里。当然，他们可能还会回来。",
+            "label": "未被發現！",
+            "startdescription": "追兵們確信我不在這裡。當然，他們可能還會回來。",
             "requirements": {
                 "rkx.event.passive": 1,
                 "rkx.rank": -1
@@ -861,7 +861,7 @@
         {
             "id": "rkx.underling.distracted",
             "actionid": "rkx",
-            "label": "成功转移注意力！",
+            "label": "成功轉移注意力！",
             "startdescription": "……",
             "requirements": {
                 "distraction": 1
@@ -875,8 +875,8 @@
         {
             "id": "rkx.underling.attack.success",
             "actionid": "rkx",
-            "label": "我受伤了！",
-            "startdescription": "我的敌人打伤了我！我没法永远都保持警惕。",
+            "label": "我受傷了！",
+            "startdescription": "我的敵人打傷了我！我沒法永遠都保持警惕。",
             "aspects": {
                 "fatiguing": 1
             },
@@ -909,8 +909,8 @@
         {
             "id": "spit.underling.attack.success",
             "actionid": "spit.underling.attack",
-            "label": "我受伤了！",
-            "startdescription": "我需要时间和安全的环境来疗伤。",
+            "label": "我受傷了！",
+            "startdescription": "我需要時間和安全的環境來療傷。",
             "aspects": {
                 "fatiguing": 1
             },
@@ -923,7 +923,7 @@
             "id": "rkx.underling.attack.failure",
             "actionid": "rkx",
             "label": "追兵受阻",
-            "startdescription": "@#lore|我用我的技巧阻挡了追兵。\n#weapon|我用武器阻挡了追兵。\n#associate|一位朋友保护了我。\n#op.cold|雪落如夜幕。追兵在我身后的积雪中挣扎。\n#op.heat|我勾着追兵在正午的烈阳下兜圈子，直到他们因炎热而步伐蹒跚。\n#op.sea|我在港口的喧闹中甩掉了追兵。\n#op.faith|清算人习惯慎重地对待圣地。而我已趁机溜走。\n#op.cats|上校——保护我那大敌的司辰——一直不喜欢猫。在我的敌人中，对猫警惕已经成为一种强大的迷信。追兵还在犹豫，而我已趁机溜走。\n#op.height|我藏在人迹罕至的高处，把追兵甩在身后。\n#op.horned|清算人对司辰抱有惧意。这里的阴影因双角利斧而变得锋利。追兵还在犹豫，而我已趁机溜走。\n#op.wolf|众人皆畏裂分之狼，但狼的气息已触及此地。追兵不敢踏入他的阴影，而我已趁机溜走。\n#op.flowermaker|制花人的气息让此处香气浓郁。追兵被这里的空气搞得晕头转向，而我已趁机溜走。\n#ligeian|一种贪婪在此蠕动——一种让清算人极其恐惧的贪婪。\n#|……我很走运。[有时清算人的攻击也会失败。]@",
+            "startdescription": "@#lore|我用我的技巧阻擋了追兵。\n#weapon|我用武器阻擋了追兵。\n#associate|一位朋友保護了我。\n#op.cold|雪落如夜幕。追兵在我身後的積雪中掙扎。\n#op.heat|我勾著追兵在正午的烈陽下兜圈子，直到他們因炎熱而步伐蹣跚。\n#op.sea|我在港口的喧鬧中甩掉了追兵。\n#op.faith|清算人習慣慎重地對待聖地。而我已趁機溜走。\n#op.cats|上校——保護我那大敵的司辰——一直不喜歡貓。在我的敵人中，對貓警惕已經成為一種強大的迷信。追兵還在猶豫，而我已趁機溜走。\n#op.height|我藏在人跡罕至的高處，把追兵甩在身後。\n#op.horned|清算人對司辰抱有懼意。這裡的陰影因雙角利斧而變得鋒利。追兵還在猶豫，而我已趁機溜走。\n#op.wolf|眾人皆畏裂分之狼，但狼的氣息已觸及此地。追兵不敢踏入他的陰影，而我已趁機溜走。\n#op.flowermaker|制花人的氣息讓此處香氣濃郁。追兵被這裡的空氣搞得暈頭轉向，而我已趁機溜走。\n#ligeian|一種貪婪在此蠕動——一種讓清算人極其恐懼的貪婪。\n#|……我很走運。[有時清算人的攻擊也會失敗。]@",
             "alt": [
                 {
                     "id": "spit.underling.attack.failure.lore",
@@ -972,8 +972,8 @@
             "requirements": {
                 "lore": 1
             },
-            "label": "动静不小",
-            "startdescription": "我击退了袭击者，但引来了更多的注意。",
+            "label": "動靜不小",
+            "startdescription": "我擊退了襲擊者，但引來了更多的注意。",
             "aspects": {
                 "fatiguing": 1
             },
@@ -988,8 +988,8 @@
             "requirements": {
                 "weapon": 1
             },
-            "label": "动静不小",
-            "startdescription": "我击退了袭击者，但引来了更多的注意。",
+            "label": "動靜不小",
+            "startdescription": "我擊退了襲擊者，但引來了更多的注意。",
             "aspects": {
                 "fatiguing": 1
             },
@@ -1004,8 +1004,8 @@
             "requirements": {
                 "associate": 1
             },
-            "label": "患难之交",
-            "startdescription": "我的同伴保护了我！这是他的好意，但现在清算人暴徒有了更多可以追踪到我的线索。",
+            "label": "患難之交",
+            "startdescription": "我的同伴保護了我！這是他的好意，但現在清算人暴徒有了更多可以追蹤到我的線索。",
             "aspects": {
                 "fatiguing": 1
             },
@@ -1017,8 +1017,8 @@
         {
             "id": "rkx.lookfurtherafield",
             "actionid": "rkx",
-            "label": "清算人正在侦察更远的地方",
-            "startdescription": "如果我的追兵在这里找不到我，他们就可能会去其他城市，特别是那些我感兴趣的城市。[清算人有时会比你先到达目的地。如果你把资金汇到那里，这种情况就更可能发生。]",
+            "label": "清算人正在偵察更遠的地方",
+            "startdescription": "如果我的追兵在這裡找不到我，他們就可能會去其他城市，特別是那些我感興趣的城市。[清算人有時會比你先到達目的地。如果你把資金匯到那裡，這種情況就更可能發生。]",
             "requirements": {
                 "rkx.event.passive": 1,
                 "rkx.rank": 1
@@ -1029,7 +1029,7 @@
             "slots": [
                 {
                     "id": "destination",
-                    "label": "一点指引？",
+                    "label": "一點指引？",
                     "required": {
                         "destination": 1
                     },
@@ -1057,8 +1057,8 @@
         {
             "id": "rkx.infect.becauseprep",
             "actionid": "rkx",
-            "label": "追踪汇款去向",
-            "startdescription": "我的追兵跟到了线索——我汇款的去向。",
+            "label": "追蹤匯款去向",
+            "startdescription": "我的追兵跟到了線索——我匯款的去向。",
             "requirements": {
                 "destination": 1,
                 "cash.sent": 1
@@ -1080,8 +1080,8 @@
         {
             "id": "rkx.infect.noprep",
             "actionid": "rkx",
-            "label": "假线索？",
-            "startdescription": "我的追兵把注意力转移到了别处——为什么？",
+            "label": "假線索？",
+            "startdescription": "我的追兵把注意力轉移到了別處——為什麼？",
             "requirements": {
                 "destination": 1,
                 "cash.sent": -1
@@ -1103,8 +1103,8 @@
         {
             "id": "rkx.notfollowinglead",
             "actionid": "rkx",
-            "label": "清算人坚信不疑",
-            "startdescription": "我的追兵确信我还在这里。",
+            "label": "清算人堅信不疑",
+            "startdescription": "我的追兵確信我還在這裡。",
             "alt": [
                 {
                     "id": "spit.uninfected.destination",
@@ -1127,8 +1127,8 @@
         {
             "id": "rkx.infect.demote",
             "actionid": "rkx",
-            "label": "清算人正在离开",
-            "startdescription": "现在城里的清算人已经不多了。",
+            "label": "清算人正在離開",
+            "startdescription": "現在城裡的清算人已經不多了。",
             "aspects": {
                 "rkx.demote": 1
             },
@@ -1158,8 +1158,8 @@
         {
             "id": "spit.infected.destination",
             "actionid": "spit.infected.destination",
-            "label": "前有危险",
-            "startdescription": "如果我去那里，也许会发现追兵已经在等我了。",
+            "label": "前有危險",
+            "startdescription": "如果我去那裡，也許會發現追兵已經在等我了。",
             "requirements": {
                 "rkx.infected": 1
             },
@@ -1168,15 +1168,15 @@
         {
             "id": "spit.uninfected.destination",
             "actionid": "spit.uninfected.destination",
-            "label": "固执不变",
-            "startdescription": "我的追兵确信我还在这里。他们决定不去那个地方。",
+            "label": "固執不變",
+            "startdescription": "我的追兵確信我還在這裡。他們決定不去那個地方。",
             "warmup": 2
         },
         {
             "id": "spit.underling.wounded",
             "actionid": "spit.underling.wounded",
-            "label": "血迹",
-            "startdescription": "一个追兵受伤了！",
+            "label": "血跡",
+            "startdescription": "一個追兵受傷了！",
             "effects": {
                 "wound.underling": 1
             },
@@ -1190,8 +1190,8 @@
         {
             "id": "rkx.underling.bribe.greedy",
             "actionid": "rkx",
-            "label": "更高的要价",
-            "startdescription": "'@#rkx.underboss|“严肃点。”\n#rkx.enforcer|“两倍。”\n#rkx.operative|“继续……”\n#|“继续……”@ [再增加十年，你就能贿赂成功。要是拒绝，已给出的十年会被消耗，你的追兵会继续找你的麻烦。']",
+            "label": "更高的要價",
+            "startdescription": "'@#rkx.underboss|“嚴肅點。”\n#rkx.enforcer|“兩倍。”\n#rkx.operative|“繼續……”\n#|“繼續……”@ [再增加十年，你就能賄賂成功。要是拒絕，已給出的十年會被消耗，你的追兵會繼續找你的麻煩。']",
             "requirements": {
                 "decade.stolen": 1
             },
@@ -1199,7 +1199,7 @@
                 {
                     "id": "more",
                     "label": "更多",
-                    "description": "要么加倍，要么走开。",
+                    "description": "要麼加倍，要麼走開。",
                     "required": {
                         "decade.stolen": 1
                     }
@@ -1221,8 +1221,8 @@
         {
             "id": "rkx.underling.bribe.success",
             "actionid": "rkx",
-            "label": "贿赂成功",
-            "startdescription": "'@#rkx.underboss|“你知道，我一直都很欣赏你。如果老头子出了什么事……记得联系我。”\n#rkx.enforcer|“成交。就当这件事从没发生过。”\n#rkx.operative|“你人不赖。老头子最后追上你的时候……我会倒杯酒来纪念你的。”\n#|“幸好你从没来过这儿，对吧？”@",
+            "label": "賄賂成功",
+            "startdescription": "'@#rkx.underboss|“你知道，我一直都很欣賞你。如果老頭子出了什麼事……記得聯繫我。”\n#rkx.enforcer|“成交。就當這件事從沒發生過。”\n#rkx.operative|“你人不賴。老頭子最後追上你的時候……我會倒杯酒來紀念你的。”\n#|“幸好你從沒來過這兒，對吧？”@",
             "requirements": {
                 "decade.stolen": 1
             },
@@ -1240,8 +1240,8 @@
         {
             "id": "rkx.bossondeck.attack",
             "actionid": "rkx",
-            "label": "为时已晚",
-            "startdescription": "大敌在此，没有哪个清算人下属敢对我视而不见。",
+            "label": "為時已晚",
+            "startdescription": "大敵在此，沒有哪個清算人下屬敢對我視而不見。",
             "requirements": {
                 "decade.stolen": 1
             },
@@ -1264,8 +1264,8 @@
         {
             "id": "rkx.bossondeck.underboss.cunning",
             "actionid": "rkx",
-            "label": "为时已晚",
-            "startdescription": "大敌在此，没有哪个清算人下属敢对我视而不见。",
+            "label": "為時已晚",
+            "startdescription": "大敵在此，沒有哪個清算人下屬敢對我視而不見。",
             "requirements": {
                 "decade.stolen": 1
             },
@@ -1284,8 +1284,8 @@
         {
             "id": "rkx.bossondeck.operative",
             "actionid": "rkx",
-            "label": "为时已晚",
-            "startdescription": "大敌在此，没有哪个清算人下属敢对我视而不见。",
+            "label": "為時已晚",
+            "startdescription": "大敵在此，沒有哪個清算人下屬敢對我視而不見。",
             "requirements": {
                 "decade.stolen": 1
             },
@@ -1304,8 +1304,8 @@
         {
             "id": "rkx.reset",
             "actionid": "rkx",
-            "label": "接下来呢？",
-            "startdescription": "接下来呢？",
+            "label": "接下來呢？",
+            "startdescription": "接下來呢？",
             "effects": {
                 "rkx.event": -1
             },

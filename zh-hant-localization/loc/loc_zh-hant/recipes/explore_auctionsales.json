@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "auctionentry6",
-            "label": "售卖价值极高之物",
+            "label": "售賣價值極高之物",
             "actionId": "explore",
             "requirements": {
                 "locationauctionhouse": 1,
@@ -21,13 +21,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "奥里弗拉姆拍卖行的顾客中极少有修习无形之术的人。但即使外行人也能认出这是件非同寻常的器物。[请谨慎，售出后无法回购。]",
+            "startdescription": "奧里弗拉姆拍賣行的顧客中極少有修習無形之術的人。但即使外行人也能認出這是件非同尋常的器物。[請謹慎，售出後無法回購。]",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "auctionentry5",
-            "label": "售卖价值稀有之物",
+            "label": "售賣價值稀有之物",
             "actionId": "explore",
             "requirements": {
                 "locationauctionhouse": 1,
@@ -46,13 +46,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "奥里弗拉姆拍卖行的顾客中极少有修习无形之术的人。他们会把存有法力的工具当成纪念品或奇珍买回家去，却不能意识到它们真正的价值。但这件东西显然是稀有品。[请谨慎，售出后无法回购。]",
+            "startdescription": "奧里弗拉姆拍賣行的顧客中極少有修習無形之術的人。他們會把存有法力的工具當成紀念品或奇珍買回家去，卻不能意識到它們真正的價值。但這件東西顯然是稀有品。[請謹慎，售出後無法回購。]",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "auctionentry4",
-            "label": "售卖价值名贵之物",
+            "label": "售賣價值名貴之物",
             "actionId": "explore",
             "requirements": {
                 "locationauctionhouse": 1,
@@ -71,13 +71,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "奥里弗拉姆拍卖行的顾客中极少有修习无形之术的人。他们会把存有法力的工具当成纪念品或奇珍买回家去，却不能意识到它们真正的价值。但这件东西会引起他们注意。[请谨慎，售出后无法回购。]",
+            "startdescription": "奧里弗拉姆拍賣行的顧客中極少有修習無形之術的人。他們會把存有法力的工具當成紀念品或奇珍買回家去，卻不能意識到它們真正的價值。但這件東西會引起他們注意。[請謹慎，售出後無法回購。]",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "auctionentry3",
-            "label": "售卖价值非常之物",
+            "label": "售賣價值非常之物",
             "actionId": "explore",
             "requirements": {
                 "locationauctionhouse": 1,
@@ -96,13 +96,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "这件不同寻常的物件肯定能换来资金。[请谨慎，售出后无法回购。]",
+            "startdescription": "這件不同尋常的物件肯定能換來資金。[請謹慎，售出後無法回購。]",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "auctionentry2",
-            "label": "售卖价值寻常之物",
+            "label": "售賣價值尋常之物",
             "actionId": "explore",
             "requirements": {
                 "locationauctionhouse": 1,
@@ -121,13 +121,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "这件珍奇的物件能换来资金。[请谨慎，售出后无法回购。]",
+            "startdescription": "這件珍奇的物件能換來資金。[請謹慎，售出後無法回購。]",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "auctionentry1",
-            "label": "售卖价值较低之物",
+            "label": "售賣價值較低之物",
             "actionId": "explore",
             "requirements": {
                 "locationauctionhouse": 1,
@@ -150,15 +150,15 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "这件怪异的物件大概值些钱，不过也很难讲。",
+            "startdescription": "這件怪異的物件大概值些錢，不過也很難講。",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "auctionsell_worthless",
-            "label": "拍卖：鲜少有人问津",
+            "label": "拍賣：鮮少有人問津",
             "actionId": "explore",
-            "startdescription": "反响寥寥。拍卖师木槌落定。我的物件卖掉了，但价格极廉，不值一提。",
+            "startdescription": "反響寥寥。拍賣師木槌落定。我的物件賣掉了，但價格極廉，不值一提。",
             "linked": [
                 {
                     "id": "auctioncleanup",
@@ -173,9 +173,9 @@
         },
         {
             "id": "auctionsell_increasepetty",
-            "label": "拍卖：观者悄声议论",
+            "label": "拍賣：觀者悄聲議論",
             "actionId": "explore",
-            "startdescription": "不论出于什么难以意料的原因，我的物件勾起了出价人的兴趣。",
+            "startdescription": "不論出於什麼難以意料的原因，我的物件勾起了出價人的興趣。",
             "linked": [
                 {
                     "id": "auctioncleanup",
@@ -189,9 +189,9 @@
         },
         {
             "id": "auctionsell_increaseminor",
-            "label": "拍卖：踊跃出价",
+            "label": "拍賣：踴躍出價",
             "actionId": "explore",
-            "startdescription": "立时有观众站了起来。激情高涨。",
+            "startdescription": "立時有觀眾站了起來。激情高漲。",
             "linked": [
                 {
                     "id": "auctioncleanup",
@@ -205,9 +205,9 @@
         },
         {
             "id": "auctionsell_increasemajor",
-            "label": "拍卖：兴奋的喊声",
+            "label": "拍賣：興奮的喊聲",
             "actionId": "explore",
-            "startdescription": "拍卖师不得不提高他的声音来盖过喧闹的人群。",
+            "startdescription": "拍賣師不得不提高他的聲音來蓋過喧鬧的人群。",
             "linked": [
                 {
                     "id": "auctioncleanup",
@@ -221,9 +221,9 @@
         },
         {
             "id": "auctionsell_increasegrand",
-            "label": "拍卖：出价人的决斗",
+            "label": "拍賣：出價人的決鬥",
             "actionId": "explore",
-            "startdescription": "两位富有的收藏家将目光锁定在拍卖师上，用最轻微的点头表达着他们的意图。除了拍卖师严肃的声音外，房间里鸦雀无声。",
+            "startdescription": "兩位富有的收藏家將目光鎖定在拍賣師上，用最輕微的點頭表達著他們的意圖。除了拍賣師嚴肅的聲音外，房間裡鴉雀無聲。",
             "effects": {
                 "funds": 8
             },
@@ -237,9 +237,9 @@
         },
         {
             "id": "auctioncleanup",
-            "label": "拍卖结束",
+            "label": "拍賣結束",
             "actionId": "explore",
-            "description": "拍卖师木槌落定。我的物品已经售出。",
+            "description": "拍賣師木槌落定。我的物品已經售出。",
             "effects": {
                 "auctionable": -99
             },

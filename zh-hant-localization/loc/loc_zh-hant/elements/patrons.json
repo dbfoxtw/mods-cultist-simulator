@@ -8,7 +8,7 @@
                 "tutor": 1,
                 "patron": 1
             },
-            "description": "伊本·阿迪姆博士，人称阿勒颇人，对被忽视的历史有兴趣。他向你提出了委托。",
+            "description": "伊本·阿迪姆博士，人稱阿勒頗人，對被忽視的歷史有興趣。他向你提出了委託。",
             "unique": true,
             "xtriggers": {
                 "commissionfulfilled": "aladimaway",
@@ -18,7 +18,7 @@
             "slots": [
                 {
                     "id": "Commission",
-                    "label": "委托",
+                    "label": "委託",
                     "actionId": "talk",
                     "required": {
                         "commission": 1
@@ -42,7 +42,7 @@
                 "tutor": 1,
                 "patron": 1
             },
-            "description": "伊本·阿迪姆博士，人称阿勒颇人，对被忽视的历史有兴趣。他正需要有人协助。",
+            "description": "伊本·阿迪姆博士，人稱阿勒頗人，對被忽視的歷史有興趣。他正需要有人協助。",
             "unique": true,
             "xtriggers": {
                 "commissiongiven": "aladim",
@@ -52,14 +52,14 @@
         },
         {
             "id": "bechet",
-            "label": "贝谢女士",
+            "label": "貝謝女士",
             "aspects": {
                 "mortal": 1,
                 "patron": 1,
                 "tutor": 1,
                 "tutorgreek": 1
             },
-            "description": "奥兰普·贝谢女士是《凯尔伊苏姆评论报》的编辑；该报刊登的是那些对其他文学杂志来说过于阴森或惊悚的题材。她向你提出了委托。",
+            "description": "奧蘭普·貝謝女士是《凱爾伊蘇姆評論報》的編輯；該報刊登的是那些對其他文學雜誌來說過於陰森或驚悚的題材。她向你提出了委託。",
             "unique": true,
             "xtriggers": {
                 "commissionfulfilled": "bechetaway",
@@ -69,7 +69,7 @@
             "slots": [
                 {
                     "id": "Commission",
-                    "label": "委托",
+                    "label": "委託",
                     "actionId": "talk",
                     "required": {
                         "commission": 1
@@ -87,14 +87,14 @@
         },
         {
             "id": "bechetready",
-            "label": "贝谢女士",
+            "label": "貝謝女士",
             "aspects": {
                 "mortal": 1,
                 "patron": 1,
                 "tutor": 1,
                 "tutorgreek": 1
             },
-            "description": "奥兰普·贝谢女士是《凯尔伊苏姆评论报》的编辑；该报刊登的是那些对其他文学杂志来说过于阴森或惊悚的题材。她正需要有人协助。",
+            "description": "奧蘭普·貝謝女士是《凱爾伊蘇姆評論報》的編輯；該報刊登的是那些對其他文學雜誌來說過於陰森或驚悚的題材。她正需要有人協助。",
             "unique": true,
             "xtriggers": {
                 "commissiongiven": "bechet",
@@ -104,14 +104,14 @@
         },
         {
             "id": "jannings",
-            "label": "雅宁斯伯爵",
+            "label": "雅寧斯伯爵",
             "aspects": {
                 "mortal": 1,
                 "patron": 1,
                 "tutor": 1,
                 "tutorlatin": 1
             },
-            "description": "戈特洛布·雅宁斯伯爵是大陆上一个医师和决斗者协会的代表。他向你提出了委托。",
+            "description": "戈特洛布·雅寧斯伯爵是大陸上一個醫師和決鬥者協會的代表。他向你提出了委託。",
             "unique": true,
             "xtriggers": {
                 "commissionfulfilled": "janningsaway",
@@ -121,7 +121,7 @@
             "slots": [
                 {
                     "id": "Commission",
-                    "label": "委托",
+                    "label": "委託",
                     "actionId": "talk",
                     "required": {
                         "commission": 1
@@ -139,14 +139,14 @@
         },
         {
             "id": "janningsready",
-            "label": "雅宁斯伯爵",
+            "label": "雅寧斯伯爵",
             "aspects": {
                 "mortal": 1,
                 "patron": 1,
                 "tutor": 1,
                 "tutorlatin": 1
             },
-            "description": "戈特洛布·雅宁斯伯爵是大陆上一个医师和决斗者协会的代表。他正需要有人协助。",
+            "description": "戈特洛布·雅寧斯伯爵是大陸上一個醫師和決鬥者協會的代表。他正需要有人協助。",
             "unique": true,
             "xtriggers": {
                 "commissiongiven": "jannings",
@@ -156,12 +156,12 @@
         },
         {
             "id": "poppyready",
-            "label": "波比·拉舍莱斯",
+            "label": "波比·拉舍萊斯",
             "aspects": {
                 "mortal": 1,
                 "patron": 1
             },
-            "description": "一个和蔼可亲的富有女人。她想要和你谈谈。",
+            "description": "一個和藹可親的富有女人。她想要和你談談。",
             "unique": true,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -170,12 +170,12 @@
         },
         {
             "id": "poppy",
-            "label": "波比·拉舍莱斯",
+            "label": "波比·拉舍萊斯",
             "aspects": {
                 "mortal": 1,
                 "patron": 1
             },
-            "description": "一个和蔼可亲的富有女人。",
+            "description": "一個和藹可親的富有女人。",
             "unique": true,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -184,12 +184,12 @@
         },
         {
             "id": "poppycommissionready",
-            "label": "波比·拉舍莱斯",
+            "label": "波比·拉舍萊斯",
             "aspects": {
                 "mortal": 1,
                 "patron": 1
             },
-            "description": "一个和蔼可亲的富有女人。她想要你的帮助。",
+            "description": "一個和藹可親的富有女人。她想要你的幫助。",
             "unique": true,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -200,12 +200,12 @@
         },
         {
             "id": "poppycommission",
-            "label": "波比·拉舍莱斯",
+            "label": "波比·拉舍萊斯",
             "aspects": {
                 "mortal": 1,
                 "patron": 1
             },
-            "description": "一个和蔼可亲的富有女人。她向你提出了委托。",
+            "description": "一個和藹可親的富有女人。她向你提出了委託。",
             "unique": true,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -215,7 +215,7 @@
             "slots": [
                 {
                     "id": "Commission",
-                    "label": "委托",
+                    "label": "委託",
                     "actionId": "talk",
                     "required": {
                         "commission": 1
@@ -235,39 +235,39 @@
         {
             "id": "aladimaway",
             "label": "伊本·阿迪姆博士",
-            "description": "伊本·阿迪姆博士，人称阿勒颇人，对被忽视的历史有兴趣。眼下联系不上他，但他很快便会回来。",
+            "description": "伊本·阿迪姆博士，人稱阿勒頗人，對被忽視的歷史有興趣。眼下聯繫不上他，但他很快便會回來。",
             "lifetime": 120,
             "decayTo": "aladimready",
             "icon": "aladim"
         },
         {
             "id": "bechetaway",
-            "label": "贝谢女士",
-            "description": "奥兰普·贝谢女士是《凯尔伊苏姆评论报》的编辑；该报刊登的是那些对其他文学杂志来说过于阴森或惊悚的题材。眼下她正忙着出版的准备工作，但很快便会回来。",
+            "label": "貝謝女士",
+            "description": "奧蘭普·貝謝女士是《凱爾伊蘇姆評論報》的編輯；該報刊登的是那些對其他文學雜誌來說過於陰森或驚悚的題材。眼下她正忙著出版的準備工作，但很快便會回來。",
             "lifetime": 120,
             "decayTo": "bechetready",
             "icon": "bechet"
         },
         {
             "id": "janningsaway",
-            "label": "雅宁斯伯爵",
+            "label": "雅寧斯伯爵",
             "lifetime": 120,
-            "description": "戈特洛布·雅宁斯伯爵是大陆上一个医师和决斗者协会的代表。眼下他出国去了，但很快便会回来。",
+            "description": "戈特洛布·雅寧斯伯爵是大陸上一個醫師和決鬥者協會的代表。眼下他出國去了，但很快便會回來。",
             "decayTo": "janningsready",
             "icon": "jannings"
         },
         {
             "id": "poppyaway",
-            "label": "波比·拉舍莱斯",
-            "description": "一个和蔼可亲的富有女人。她现在不接见访客。",
+            "label": "波比·拉舍萊斯",
+            "description": "一個和藹可親的富有女人。她現在不接見訪客。",
             "lifetime": 120,
             "decayTo": "poppycommissionready",
             "icon": "poppy"
         },
         {
             "id": "benefactorm",
-            "label": "提摩西·曼迪勋爵",
-            "description": "一位举止优雅的绅士，有着忧伤的眼神和后退的发际线，时不时发出阵阵友善、粗嘎、神经质的笑声。他不会再碰烈酒了。",
+            "label": "提摩西·曼迪勳爵",
+            "description": "一位舉止優雅的紳士，有著憂傷的眼神和後退的髮際線，時不時發出陣陣友善、粗嘎、神經質的笑聲。他不會再碰烈酒了。",
             "animFrames": 1,
             "uniquenessgroup": "uqbenefactorm",
             "aspects": {
@@ -286,7 +286,7 @@
                 {
                     "id": "funds",
                     "actionId": "work",
-                    "label": "妆扮",
+                    "label": "妝扮",
                     "required": {
                         "funds": 1
                     }
@@ -303,8 +303,8 @@
         },
         {
             "id": "benefactorf",
-            "label": "第四代斯坦福女侯爵尼科尔",
-            "description": "一位谨慎，聪慧的女性，有着窄间距的双目和以她的岁数来说极好的肌肤。她已经亲自打理财务多年，并义不容辞地向慈善事业捐款。",
+            "label": "第四代斯坦福女侯爵尼科爾",
+            "description": "一位謹慎，聰慧的女性，有著窄間距的雙目和以她的歲數來說極好的肌膚。她已經親自打理財務多年，並義不容辭地向慈善事業捐款。",
             "animFrames": 1,
             "uniquenessgroup": "uqbenefactorf",
             "aspects": {
@@ -323,7 +323,7 @@
                 {
                     "id": "funds",
                     "actionId": "work",
-                    "label": "妆扮",
+                    "label": "妝扮",
                     "required": {
                         "funds": 1
                     }
@@ -340,8 +340,8 @@
         },
         {
             "id": "benefactorm_rejectedplayer",
-            "label": "提摩西·曼迪勋爵",
-            "description": "提摩西勋爵不再给我递小纸条了。",
+            "label": "提摩西·曼迪勳爵",
+            "description": "提摩西勳爵不再給我遞小紙條了。",
             "uniquenessgroup": "uqbenefactorm",
             "aspects": {
                 "mortal": 1
@@ -353,8 +353,8 @@
         },
         {
             "id": "benefactorf_rejectedplayer",
-            "label": "第四代斯坦福女侯爵尼科尔",
-            "description": "听说最尊贵的斯坦福女侯爵已宣布她不太明自己看上我哪一点了。",
+            "label": "第四代斯坦福女侯爵尼科爾",
+            "description": "聽說最尊貴的斯坦福女侯爵已宣布她不太明自己看上我哪一點了。",
             "uniquenessgroup": "uqbenefactorf",
             "aspects": {
                 "mortal": 1
@@ -366,8 +366,8 @@
         },
         {
             "id": "benefactorm_proposedtoplayer",
-            "label": "提摩西·曼迪勋爵",
-            "description": "在一瞬激情的推动下，提摩西勋爵提出结婚。如果我能抓住机会同意，如果我能抓住机会接受，我的人生将会改变……并失去其他的前路。[请在勋爵的热情消退前和他谈话，否则他会觉得自己被甩了。]",
+            "label": "提摩西·曼迪勳爵",
+            "description": "在一瞬激情的推動下，提摩西勳爵提出結婚。如果我能抓住機會同意，如果我能抓住機會接受，我的人生將會改變……並失去其他的前路。[請在勳爵的熱情消退前和他談話，否則他會覺得自己被甩了。]",
             "uniquenessgroup": "uqbenefactorm",
             "aspects": {
                 "mortal": 1,
@@ -382,8 +382,8 @@
         },
         {
             "id": "benefactorf_proposedtoplayer",
-            "label": "第四代斯坦福女侯爵尼科尔",
-            "description": "在一瞬激情的推动下，最尊贵的尼科尔女爵提出结婚。如果我能抓住机会接受，我的人生将会改变……并失去其他的前路。[请在女侯爵的热情消退前和她谈话，否则她会觉得自己被甩了。]",
+            "label": "第四代斯坦福女侯爵尼科爾",
+            "description": "在一瞬激情的推動下，最尊貴的尼科爾女爵提出結婚。如果我能抓住機會接受，我的人生將會改變……並失去其他的前路。[請在女侯爵的熱情消退前和她談話，否則她會覺得自己被甩了。]",
             "uniquenessgroup": "uqbenefactorf",
             "aspects": {
                 "mortal": 1,
@@ -399,12 +399,12 @@
         {
             "id": "benefactorwill",
             "label": "故人留下的文件",
-            "description": "某个爱我的人死了。或许他在遗嘱里给我留了东西。我该找个律师谈谈。[若想推进此事，你需要采取行动……不过会有小几率让人怀疑到你头上。]",
+            "description": "某個愛我的人死了。或許他在遺囑裡給我留了東西。我該找個律師談談。[若想推進此事，你需要採取行動……不過會有小几率讓人懷疑到你頭上。]",
             "slots": [
                 {
                     "id": "lawyerfees",
                     "actionId": "study",
-                    "label": "律师费",
+                    "label": "律師費",
                     "consumes": true,
                     "required": {
                         "funds": 1
@@ -418,8 +418,8 @@
         },
         {
             "id": "sulochana",
-            "label": "苏洛恰那·阿摩伐舍",
-            "description": "蜕衣俱乐部的所有者，言语简练，精力充沛，目光炯炯，从不眨眼。",
+            "label": "蘇洛恰那·阿摩伐舍",
+            "description": "蛻衣俱樂部的所有者，言語簡練，精力充沛，目光炯炯，從不眨眼。",
             "animFrames": 1,
             "unique": true,
             "aspects": {
@@ -431,7 +431,7 @@
         {
             "id": "echidna.enroute",
             "label": "E夫人正在途中",
-            "description": "E夫人，苏洛恰那的“姐妹”，有着与外表不相称的“怪物之母”之称。她的老巢在哪里不清楚，但肯定不在海的这一边。她得花些时间才能抵达此处。",
+            "description": "E夫人，蘇洛恰那的“姐妹”，有著與外表不相稱的“怪物之母”之稱。她的老巢在哪裡不清楚，但肯定不在海的這一邊。她得花些時間才能抵達此處。",
             "unique": true,
             "lifetime": 180,
             "decayTo": "echidna"
@@ -439,7 +439,7 @@
         {
             "id": "echidna",
             "label": "E夫人",
-            "description": "一位自封“怪物之母”的，活泼、矮胖的女性，身着一身灰绿色、松垮垮的奥地利农妇裙。",
+            "description": "一位自封“怪物之母”的，活潑、矮胖的女性，身著一身灰綠色、鬆垮垮的奧地利農婦裙。",
             "aspects": {
                 "patron": 1
             },
@@ -448,16 +448,16 @@
         },
         {
             "id": "marinette.enroute",
-            "label": "操线仙娥正在途中",
-            "description": "苏洛恰那的“姐妹”，对她人们通常不称名字，只称“操线仙娥”。她很快便会抵达，在黑夜中。",
+            "label": "操線仙娥正在途中",
+            "description": "蘇洛恰那的“姐妹”，對她人們通常不稱名字，只稱“操線仙娥”。她很快便會抵達，在黑夜中。",
             "unique": true,
             "lifetime": 180,
             "decayTo": "marinette"
         },
         {
             "id": "marinette",
-            "label": "“操线仙娥”玛丽内特",
-            "description": "它散发着腐败血液的恶臭，每一说话下颚骨便咔嚓作响。蜷缩在这层衣服和骨骸下的也许是个女人，又也许是某种操线木偶。",
+            "label": "“操線仙娥”瑪麗內特",
+            "description": "它散發著腐敗血液的惡臭，每一說話下顎骨便喀嚓作響。蜷縮在這層衣服和骨骸下的也許是個女人，又也許是某種操線木偶。",
             "aspects": {
                 "patron": 1
             },
@@ -466,8 +466,8 @@
         },
         {
             "id": "kleidouchos.enroute",
-            "label": "施鲁塞尔女士正在途中",
-            "description": "特蕾莎·加尔米耶的“笔友”，苏洛恰那的“姐妹”，白日之钥的持有者，正从维也纳前来。也许我应该在车站见见她。",
+            "label": "施魯塞爾女士正在途中",
+            "description": "特蕾莎·加爾米耶的“筆友”，蘇洛恰那的“姐妹”，白日之鑰的持有者，正從維也納前來。也許我應該在車站見見她。",
             "aspects": {
                 "patron": 1
             },
@@ -476,24 +476,24 @@
         },
         {
             "id": "kleidouchos",
-            "label": "施鲁塞尔女士",
-            "description": "一个精神矍铄，魄力十足的女人，衣着黑白分明，脸上满布皱纹。没人见过她眨眼。一只小小的黑毛狗崽从她裙底探出头来。",
+            "label": "施魯塞爾女士",
+            "description": "一個精神矍鑠，魄力十足的女人，衣著黑白分明，臉上滿布皺紋。沒人見過她眨眼。一隻小小的黑毛狗崽從她裙底探出頭來。",
             "aspects": {
                 "patron": 1
             }
         },
         {
             "id": "naenia",
-            "label": "“挽歌儿小姐”",
-            "description": "一幅画作，画中肤色深暗的女人拥有雪色的双眸和剪得很短的骨白色头发，站在一个长满白花藤的小型大理石墓前。署名为“乔纳斯·B·蒙克，作于1811年。”",
+            "label": "“輓歌兒小姐”",
+            "description": "一幅畫作，畫中膚色深暗的女人擁有雪色的雙眸和剪得很短的骨白色頭髮，站在一個長滿白花藤的小型大理石墓前。署名為“喬納斯·B·蒙克，作於1811年。”",
             "aspects": {
                 "patron": 1
             },
             "slots": [
                 {
                     "id": "subject",
-                    "label": "回忆",
-                    "description": "挽歌儿小姐从不对我开口——她不过是一幅画——但过后我总能记得她说过什么。",
+                    "label": "回憶",
+                    "description": "輓歌兒小姐從不對我開口——她不過是一幅畫——但過後我總能記得她說過什麼。",
                     "actionId": "talk",
                     "required": {
                         "memory": 1,

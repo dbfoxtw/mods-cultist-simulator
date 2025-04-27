@@ -6,7 +6,7 @@
             "aspects": {
                 "reputation": 1
             },
-            "description": "离奇之感残留不去。[“秘氛”可能引起猎人注意。猎人没法用它立案调查你，但这会促使他们更努力地寻找证据。]",
+            "description": "離奇之感殘留不去。[“秘氛”可能引起獵人注意。獵人沒法用它立案調查你，但這會促使他們更努力地尋找證據。]",
             "lifetime": 300
         },
         {
@@ -15,7 +15,7 @@
             "aspects": {
                 "reputation": 2
             },
-            "description": "有些行为会长久留存于人们的记忆中。[“邪名”可能使猎人立案调查你。]",
+            "description": "有些行為會長久留存於人們的記憶中。[“邪名”可能使獵人立案調查你。]",
             "lifetime": 300,
             "xtriggers": {
                 "scandalous": "notoriety"
@@ -26,8 +26,8 @@
             "aspects": {
                 "evidencelevel": 1
             },
-            "label": "不确凿证据",
-            "description": "一名猎人发现了我的罪证——或许为真实，或许为臆造。[拥有密教活动“证据”的猎人会变得更加危险。证据在制作它的猎人死后仍继续存在。]",
+            "label": "不確鑿證據",
+            "description": "一名獵人發現了我的罪證——或許為真實，或許為臆造。[擁有密教活動“證據”的獵人會變得更加危險。證據在製作它的獵人死後仍繼續存在。]",
             "xtriggers": {
                 "investigatingsuccess": "evidenceb",
                 "investigatingsetback": "notoriety"
@@ -39,8 +39,8 @@
             "aspects": {
                 "evidencelevel": 2
             },
-            "label": "确凿证据",
-            "description": "“大地啊，开裂吧！哦，不，它不会收容我的。”[掌握密教活动“确凿证据”后，防剿局会以之给你定罪。证据在制作它的猎人死后仍继续存在。]",
+            "label": "確鑿證據",
+            "description": "“大地啊，開裂吧！哦，不，它不會收容我的。”[掌握密教活動“確鑿證據”後，防剿局會以之給你定罪。證據在製作它的獵人死後仍繼續存在。]",
             "xtriggers": {
                 "investigatingsetback": "evidence"
             },

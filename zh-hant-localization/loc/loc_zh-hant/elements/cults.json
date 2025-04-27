@@ -2,7 +2,7 @@
     "elements": [
         {
             "id": "cultedge_1",
-            "label": "闪刃教会",
+            "label": "閃刃教會",
             "aspects": {
                 "society": 1,
                 "venerationedge": 1
@@ -10,7 +10,7 @@
             "slots": [
                 {
                     "id": "Associate",
-                    "label": "对谁",
+                    "label": "對誰",
                     "actionId": "talk",
                     "required": {
                         "mortal": 1
@@ -20,35 +20,35 @@
                         "hireling": 1,
                         "prisoner": 1
                     },
-                    "description": "一名新信众，或坚定的门徒。"
+                    "description": "一名新信眾，或堅定的門徒。"
                 },
                 {
                     "id": "Ceremony",
-                    "label": "典仪",
+                    "label": "典儀",
                     "actionId": "talk",
                     "required": {
                         "lore": 1
                     },
-                    "description": "如要发展新的信众，我只消示现些小小的奥秘，而其中更加究竟的东西，则只能展现给立下更深誓约的人们。"
+                    "description": "如要發展新的信眾，我只消示現些小小的奧秘，而其中更加究竟的東西，則只能展現給立下更深誓約的人們。"
                 },
                 {
                     "id": "Trappings",
-                    "label": "礼器",
+                    "label": "禮器",
                     "actionId": "talk",
                     "required": {
                         "tool": 1,
                         "ingredient": 1,
                         "influence": 1
                     },
-                    "description": "用于制造仪式感。消耗<b>原料</b>和<b>影响</b>；使用，但不消耗<b>工具</b>。"
+                    "description": "用於製造儀式感。消耗<b>原料</b>和<b>影響</b>；使用，但不消耗<b>工具</b>。"
                 }
             ],
-            "description": "密教社团，追奉抗争与征服之司辰。[将<b>教派</b>放入<b>谈话</b>中可以招募，擢升追随者并外派他们执行任务，收集资源。信徒可以擢升为门徒；而少数天赋异禀的门徒还可以进一步擢升为暗杀者。]",
+            "description": "密教社團，追奉抗爭與征服之司辰。[將<b>教派</b>放入<b>談話</b>中可以招募，擢升追隨者並外派他們執行任務，收集資源。信徒可以擢升為門徒；而少數天賦異稟的門徒還可以進一步擢升為暗殺者。]",
             "unique": true
         },
         {
             "id": "cultforge_1",
-            "label": "不屈教团",
+            "label": "不屈教團",
             "aspects": {
                 "society": 1,
                 "venerationforge": 1
@@ -56,7 +56,7 @@
             "slots": [
                 {
                     "id": "Associate",
-                    "label": "对谁",
+                    "label": "對誰",
                     "actionId": "talk",
                     "required": {
                         "mortal": 1
@@ -66,35 +66,35 @@
                         "hireling": 1,
                         "prisoner": 1
                     },
-                    "description": "一名新信众，或坚定的门徒。"
+                    "description": "一名新信眾，或堅定的門徒。"
                 },
                 {
                     "id": "Ceremony",
-                    "label": "典仪",
+                    "label": "典儀",
                     "actionId": "talk",
                     "required": {
                         "lore": 1
                     },
-                    "description": "如要发展新的信众，我只消示现些小小的奥秘，而其中更加究竟的东西，则只能展现给立下更深誓约的人们。"
+                    "description": "如要發展新的信眾，我只消示現些小小的奧秘，而其中更加究竟的東西，則只能展現給立下更深誓約的人們。"
                 },
                 {
                     "id": "Trappings",
-                    "label": "礼器",
+                    "label": "禮器",
                     "actionId": "talk",
                     "required": {
                         "tool": 1,
                         "ingredient": 1,
                         "influence": 1
                     },
-                    "description": "用于制造仪式感。消耗<b>原料</b>和<b>影响</b>；使用，但不消耗<b>工具</b>。"
+                    "description": "用於製造儀式感。消耗<b>原料</b>和<b>影響</b>；使用，但不消耗<b>工具</b>。"
                 }
             ],
-            "description": "密教社团，追奉改变与再造之火。[将<b>教派</b>放入<b>谈话</b>中可以招募，擢升追随者并外派他们执行任务，收集资源。信徒可以擢升为门徒；而少数天赋异禀的门徒还可以进一步擢升为重塑者。]",
+            "description": "密教社團，追奉改變與再造之火。[將<b>教派</b>放入<b>談話</b>中可以招募，擢升追隨者並外派他們執行任務，收集資源。信徒可以擢升為門徒；而少數天賦異稟的門徒還可以進一步擢升為重塑者。]",
             "unique": true
         },
         {
             "id": "cultgrail_1",
-            "label": "血杯教团",
+            "label": "血杯教團",
             "aspects": {
                 "society": 1,
                 "venerationgrail": 1
@@ -102,7 +102,7 @@
             "slots": [
                 {
                     "id": "Associate",
-                    "label": "对谁",
+                    "label": "對誰",
                     "actionId": "talk",
                     "required": {
                         "mortal": 1
@@ -112,35 +112,35 @@
                         "hireling": 1,
                         "prisoner": 1
                     },
-                    "description": "一名新信众，或坚定的门徒。"
+                    "description": "一名新信眾，或堅定的門徒。"
                 },
                 {
                     "id": "Ceremony",
-                    "label": "典仪",
+                    "label": "典儀",
                     "actionId": "talk",
                     "required": {
                         "lore": 1
                     },
-                    "description": "如要发展新的信众，我只消示现些小小的奥秘，而其中更加究竟的东西，则只能展现给立下更深誓约的人们。"
+                    "description": "如要發展新的信眾，我只消示現些小小的奧秘，而其中更加究竟的東西，則只能展現給立下更深誓約的人們。"
                 },
                 {
                     "id": "Trappings",
-                    "label": "礼器",
+                    "label": "禮器",
                     "actionId": "talk",
                     "required": {
                         "tool": 1,
                         "ingredient": 1,
                         "influence": 1
                     },
-                    "description": "用于制造仪式感。消耗<b>原料</b>和<b>影响</b>；使用，但不消耗<b>工具</b>。"
+                    "description": "用於製造儀式感。消耗<b>原料</b>和<b>影響</b>；使用，但不消耗<b>工具</b>。"
                 }
             ],
-            "description": "密教社团，追奉生育、鲜血与食欲之奥秘。[将<b>教派</b>放入<b>谈话</b>中可以招募，擢升追随者并外派他们执行任务，收集资源。信徒可以擢升为门徒；而少数天赋异禀的门徒还可以进一步擢升为纵情者。]",
+            "description": "密教社團，追奉生育、鮮血與食慾之奧秘。[將<b>教派</b>放入<b>談話</b>中可以招募，擢升追隨者並外派他們執行任務，收集資源。信徒可以擢升為門徒；而少數天賦異稟的門徒還可以進一步擢升為縱情者。]",
             "unique": true
         },
         {
             "id": "cultheart_1",
-            "label": "不休圣堂",
+            "label": "不休聖堂",
             "aspects": {
                 "society": 1,
                 "venerationheart": 1
@@ -148,7 +148,7 @@
             "slots": [
                 {
                     "id": "Associate",
-                    "label": "对谁",
+                    "label": "對誰",
                     "actionId": "talk",
                     "required": {
                         "mortal": 1
@@ -158,35 +158,35 @@
                         "hireling": 1,
                         "prisoner": 1
                     },
-                    "description": "一名新信众，或坚定的门徒。"
+                    "description": "一名新信眾，或堅定的門徒。"
                 },
                 {
                     "id": "Ceremony",
-                    "label": "典仪",
+                    "label": "典儀",
                     "actionId": "talk",
                     "required": {
                         "lore": 1
                     },
-                    "description": "如要发展新的信众，我只消示现些小小的奥秘，而其中更加究竟的东西，则只能展现给立下更深誓约的人们。"
+                    "description": "如要發展新的信眾，我只消示現些小小的奧秘，而其中更加究竟的東西，則只能展現給立下更深誓約的人們。"
                 },
                 {
                     "id": "Trappings",
-                    "label": "礼器",
+                    "label": "禮器",
                     "actionId": "talk",
                     "required": {
                         "tool": 1,
                         "ingredient": 1,
                         "influence": 1
                     },
-                    "description": "用于制造仪式感。消耗<b>原料</b>和<b>影响</b>；使用，但不消耗<b>工具</b>。"
+                    "description": "用於製造儀式感。消耗<b>原料</b>和<b>影響</b>；使用，但不消耗<b>工具</b>。"
                 }
             ],
-            "description": "密教社团，追奉永无止息的鼓点。[将<b>教派</b>放入<b>谈话</b>中可以招募，擢升追随者并外派他们执行任务，收集资源。信徒可以擢升为门徒；而少数天赋异禀的门徒还可以进一步擢升为蛊舞者。]",
+            "description": "密教社團，追奉永無止息的鼓點。[將<b>教派</b>放入<b>談話</b>中可以招募，擢升追隨者並外派他們執行任務，收集資源。信徒可以擢升為門徒；而少數天賦異稟的門徒還可以進一步擢升為蠱舞者。]",
             "unique": true
         },
         {
             "id": "cultknock_1",
-            "label": "神圣伤口会",
+            "label": "神聖傷口會",
             "aspects": {
                 "society": 1,
                 "venerationknock": 1
@@ -194,7 +194,7 @@
             "slots": [
                 {
                     "id": "Associate",
-                    "label": "对谁",
+                    "label": "對誰",
                     "actionId": "talk",
                     "required": {
                         "mortal": 1
@@ -204,35 +204,35 @@
                         "hireling": 1,
                         "prisoner": 1
                     },
-                    "description": "一名新信众，或坚定的门徒。"
+                    "description": "一名新信眾，或堅定的門徒。"
                 },
                 {
                     "id": "Ceremony",
-                    "label": "典仪",
+                    "label": "典儀",
                     "actionId": "talk",
                     "required": {
                         "lore": 1
                     },
-                    "description": "如要发展新的信众，我只消示现些小小的奥秘，而其中更加究竟的东西，则只能展现给立下更深誓约的人们。"
+                    "description": "如要發展新的信眾，我只消示現些小小的奧秘，而其中更加究竟的東西，則只能展現給立下更深誓約的人們。"
                 },
                 {
                     "id": "Trappings",
-                    "label": "礼器",
+                    "label": "禮器",
                     "actionId": "talk",
                     "required": {
                         "tool": 1,
                         "ingredient": 1,
                         "influence": 1
                     },
-                    "description": "用于制造仪式感。消耗<b>原料</b>和<b>影响</b>；使用，但不消耗<b>工具</b>。"
+                    "description": "用於製造儀式感。消耗<b>原料</b>和<b>影響</b>；使用，但不消耗<b>工具</b>。"
                 }
             ],
-            "description": "密教社团，追奉洞开门扉的司辰。[将<b>教派</b>放入<b>谈话</b>中可以招募，擢升追随者并外派他们执行任务，收集资源。信徒可以擢升为门徒；而少数天赋异禀的门徒还可以进一步擢升为钥匙。]",
+            "description": "密教社團，追奉洞開門扉的司辰。[將<b>教派</b>放入<b>談話</b>中可以招募，擢升追隨者並外派他們執行任務，收集資源。信徒可以擢升為門徒；而少數天賦異稟的門徒還可以進一步擢升為鑰匙。]",
             "unique": true
         },
         {
             "id": "cultlantern_1",
-            "label": "辉光之镜",
+            "label": "輝光之鏡",
             "aspects": {
                 "society": 1,
                 "venerationlantern": 1
@@ -240,7 +240,7 @@
             "slots": [
                 {
                     "id": "Associate",
-                    "label": "对谁",
+                    "label": "對誰",
                     "actionId": "talk",
                     "required": {
                         "mortal": 1
@@ -250,35 +250,35 @@
                         "hireling": 1,
                         "prisoner": 1
                     },
-                    "description": "一名新信众，或坚定的门徒。"
+                    "description": "一名新信眾，或堅定的門徒。"
                 },
                 {
                     "id": "Ceremony",
-                    "label": "典仪",
+                    "label": "典儀",
                     "actionId": "talk",
                     "required": {
                         "lore": 1
                     },
-                    "description": "如要发展新的信众，我只消示现些小小的奥秘，而其中更加究竟的东西，则只能展现给立下更深誓约的人们。"
+                    "description": "如要發展新的信眾，我只消示現些小小的奧秘，而其中更加究竟的東西，則只能展現給立下更深誓約的人們。"
                 },
                 {
                     "id": "Trappings",
-                    "label": "礼器",
+                    "label": "禮器",
                     "actionId": "talk",
                     "required": {
                         "tool": 1,
                         "ingredient": 1,
                         "influence": 1
                     },
-                    "description": "用于制造仪式感。消耗<b>原料</b>和<b>影响</b>；使用，但不消耗<b>工具</b>。"
+                    "description": "用於製造儀式感。消耗<b>原料</b>和<b>影響</b>；使用，但不消耗<b>工具</b>。"
                 }
             ],
-            "description": "密教社团，追求解明泄露自更猛烈处的光芒。[将<b>教派</b>放入<b>谈话</b>中可以招募，擢升追随者并外派他们执行任务，收集资源。信徒可以擢升为门徒；而少数天赋异禀的门徒还可以进一步擢升为先见者。]",
+            "description": "密教社團，追求解明洩露自更猛烈處的光芒。[將<b>教派</b>放入<b>談話</b>中可以招募，擢升追隨者並外派他們執行任務，收集資源。信徒可以擢升為門徒；而少數天賦異稟的門徒還可以進一步擢升為先見者。]",
             "unique": true
         },
         {
             "id": "cultmoth_1",
-            "label": "荒林俱乐部",
+            "label": "荒林俱樂部",
             "aspects": {
                 "society": 1,
                 "venerationmoth": 1
@@ -286,7 +286,7 @@
             "slots": [
                 {
                     "id": "Associate",
-                    "label": "对谁",
+                    "label": "對誰",
                     "actionId": "talk",
                     "required": {
                         "mortal": 1
@@ -296,35 +296,35 @@
                         "hireling": 1,
                         "prisoner": 1
                     },
-                    "description": "一名新信众，或坚定的门徒。"
+                    "description": "一名新信眾，或堅定的門徒。"
                 },
                 {
                     "id": "Ceremony",
-                    "label": "典仪",
+                    "label": "典儀",
                     "actionId": "talk",
                     "required": {
                         "lore": 1
                     },
-                    "description": "如要发展新的信众，我只消示现些小小的奥秘，而其中更加究竟的东西，则只能展现给立下更深誓约的人们。"
+                    "description": "如要發展新的信眾，我只消示現些小小的奧秘，而其中更加究竟的東西，則只能展現給立下更深誓約的人們。"
                 },
                 {
                     "id": "Trappings",
-                    "label": "礼器",
+                    "label": "禮器",
                     "actionId": "talk",
                     "required": {
                         "tool": 1,
                         "ingredient": 1,
                         "influence": 1
                     },
-                    "description": "用于制造仪式感。消耗<b>原料</b>和<b>影响</b>；使用，但不消耗<b>工具</b>。"
+                    "description": "用於製造儀式感。消耗<b>原料</b>和<b>影響</b>；使用，但不消耗<b>工具</b>。"
                 }
             ],
-            "description": "密教社团，追奉混沌，还有变幻莫测的司辰。[将<b>教派</b>放入<b>谈话</b>中可以招募，擢升追随者并外派他们执行任务，收集资源。信徒可以擢升为门徒；而少数天赋异禀的门徒还可以进一步擢升为易皮者。]",
+            "description": "密教社團，追奉混沌，還有變幻莫測的司辰。[將<b>教派</b>放入<b>談話</b>中可以招募，擢升追隨者並外派他們執行任務，收集資源。信徒可以擢升為門徒；而少數天賦異稟的門徒還可以進一步擢升為易皮者。]",
             "unique": true
         },
         {
             "id": "cultsecrethistories_1",
-            "label": "圣许德拉会",
+            "label": "聖許德拉會",
             "aspects": {
                 "society": 1,
                 "venerationedge": 1,
@@ -339,7 +339,7 @@
             "slots": [
                 {
                     "id": "Associate",
-                    "label": "对谁",
+                    "label": "對誰",
                     "actionId": "talk",
                     "required": {
                         "mortal": 1
@@ -349,35 +349,35 @@
                         "hireling": 1,
                         "prisoner": 1
                     },
-                    "description": "一名新信众，或坚定的门徒。"
+                    "description": "一名新信眾，或堅定的門徒。"
                 },
                 {
                     "id": "Ceremony",
-                    "label": "典仪",
+                    "label": "典儀",
                     "actionId": "talk",
                     "required": {
                         "lore": 1
                     },
-                    "description": "想要触及更高阶的奥秘，必须立下更深刻的誓约。"
+                    "description": "想要觸及更高階的奧秘，必須立下更深刻的誓約。"
                 },
                 {
                     "id": "Trappings",
-                    "label": "礼器",
+                    "label": "禮器",
                     "actionId": "talk",
                     "required": {
                         "tool": 1,
                         "ingredient": 1,
                         "influence": 1
                     },
-                    "description": "用于制造仪式感。消耗<b>原料</b>和<b>影响</b>；使用，但不消耗<b>工具</b>。"
+                    "description": "用於製造儀式感。消耗<b>原料</b>和<b>影響</b>；使用，但不消耗<b>工具</b>。"
                 }
             ],
-            "description": "密教社团，追求研究五大历史，及其数以千计、亦虚亦实的分支。[“圣许德拉”与其他教派不同，任何性相都可用于擢升信徒，但不存在使徒一阶。]",
+            "description": "密教社團，追求研究五大歷史，及其數以千計、亦虛亦實的分支。[“聖許德拉”與其他教派不同，任何性相都可用於擢升信徒，但不存在使徒一階。]",
             "unique": true
         },
         {
             "id": "cultwinter_1",
-            "label": "静默之子",
+            "label": "靜默之子",
             "aspects": {
                 "society": 1,
                 "venerationwinter": 1
@@ -385,7 +385,7 @@
             "slots": [
                 {
                     "id": "Associate",
-                    "label": "对谁",
+                    "label": "對誰",
                     "actionId": "talk",
                     "required": {
                         "mortal": 1
@@ -395,35 +395,35 @@
                         "hireling": 1,
                         "prisoner": 1
                     },
-                    "description": "一名新信众，或坚定的门徒。"
+                    "description": "一名新信眾，或堅定的門徒。"
                 },
                 {
                     "id": "Ceremony",
-                    "label": "典仪",
+                    "label": "典儀",
                     "actionId": "talk",
                     "required": {
                         "lore": 1
                     },
-                    "description": "如要发展新的信众，我只消示现些小小的奥秘，而其中更加究竟的东西，则只能展现给立下更深誓约的人们。"
+                    "description": "如要發展新的信眾，我只消示現些小小的奧秘，而其中更加究竟的東西，則只能展現給立下更深誓約的人們。"
                 },
                 {
                     "id": "Trappings",
-                    "label": "礼器",
+                    "label": "禮器",
                     "actionId": "talk",
                     "required": {
                         "tool": 1,
                         "ingredient": 1,
                         "influence": 1
                     },
-                    "description": "用于制造仪式感。消耗<b>原料</b>和<b>影响</b>；使用，但不消耗<b>工具</b>。"
+                    "description": "用於製造儀式感。消耗<b>原料</b>和<b>影響</b>；使用，但不消耗<b>工具</b>。"
                 }
             ],
-            "description": "密教社团，追奉将临的静默与终结万物的严寒。[将<b>教派</b>放入<b>谈话</b>中可以招募，擢升追随者并外派他们执行任务，收集资源。信徒可以擢升为门徒；而少数天赋异禀的门徒还可以进一步擢升，达到致命的静默之境。]",
+            "description": "密教社團，追奉將臨的靜默與終結萬物的嚴寒。[將<b>教派</b>放入<b>談話</b>中可以招募，擢升追隨者並外派他們執行任務，收集資源。信徒可以擢升為門徒；而少數天賦異稟的門徒還可以進一步擢升，達到致命的靜默之境。]",
             "unique": true
         },
         {
             "id": "cultwinter_2",
-            "label": "白鸽之塔",
+            "label": "白鴿之塔",
             "aspects": {
                 "society": 1,
                 "venerationwinter": 1
@@ -431,7 +431,7 @@
             "slots": [
                 {
                     "id": "Associate",
-                    "label": "对谁",
+                    "label": "對誰",
                     "actionId": "talk",
                     "required": {
                         "mortal": 1
@@ -441,30 +441,30 @@
                         "hireling": 1,
                         "prisoner": 1
                     },
-                    "description": "一名新信众，或坚定的门徒。"
+                    "description": "一名新信眾，或堅定的門徒。"
                 },
                 {
                     "id": "Ceremony",
-                    "label": "典仪",
+                    "label": "典儀",
                     "actionId": "talk",
                     "required": {
                         "lore": 1
                     },
-                    "description": "如要发展新的信众，我只消示现些小小的奥秘，而其中更加究竟的东西，则只能展现给立下更深誓约的人们。"
+                    "description": "如要發展新的信眾，我只消示現些小小的奧秘，而其中更加究竟的東西，則只能展現給立下更深誓約的人們。"
                 },
                 {
                     "id": "Trappings",
-                    "label": "礼器",
+                    "label": "禮器",
                     "actionId": "talk",
                     "required": {
                         "tool": 1,
                         "ingredient": 1,
                         "influence": 1
                     },
-                    "description": "用于制造仪式感。消耗<b>原料</b>和<b>影响</b>；使用，但不消耗<b>工具</b>。"
+                    "description": "用於製造儀式感。消耗<b>原料</b>和<b>影響</b>；使用，但不消耗<b>工具</b>。"
                 }
             ],
-            "description": "密教社团，追奉一切业已失去的与或将复还的事物。[将<b>教派</b>放入<b>谈话</b>中可以招募，擢升追随者并外派他们执行任务，收集资源。信徒可以擢升为门徒；而少数天赋异禀的门徒还可以进一步擢升，达到致命的静默之境。]",
+            "description": "密教社團，追奉一切業已失去的與或將復還的事物。[將<b>教派</b>放入<b>談話</b>中可以招募，擢升追隨者並外派他們執行任務，收集資源。信徒可以擢升為門徒；而少數天賦異稟的門徒還可以進一步擢升，達到致命的靜默之境。]",
             "unique": true,
             "icon": "cultwinter_1"
         }

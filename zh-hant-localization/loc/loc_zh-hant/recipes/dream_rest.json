@@ -3,8 +3,8 @@
         {
             "id": "dream.poison.fascination.longlesson.trap",
             "actionId": "dream",
-            "label": "一个永远警醒的敌人",
-            "startdescription": "我们的敌人从我梦中学习到了一些东西。",
+            "label": "一個永遠警醒的敵人",
+            "startdescription": "我們的敵人從我夢中學習到了一些東西。",
             "requirements": {
                 "poison.fascination.longlesson": 1,
                 "fascination": 1
@@ -50,8 +50,8 @@
                     "chance": 30
                 }
             ],
-            "startdescription": "若是走运，我醒来时将精神焕发。[有时能产生“安逸”。通常什么效果也没有。偶尔会导致“恐惧”或“入迷”。]",
-            "description": "有时候，我梦见一个高个子的女人，穿着沙黄色的外套，站在我的床脚，微笑着看着我入眠。在梦里，她如鸟一般迅捷地转动着她的头，而她的手指弯曲好似鹰的脚爪。我不认为我昨晚梦见她了。否则，我不可能睡得那么香。",
+            "startdescription": "若是走運，我醒來時將精神煥發。[有時能產生“安逸”。通常什麼效果也沒有。偶爾會導致“恐懼”或“入迷”。]",
+            "description": "有時候，我夢見一個高個子的女人，穿著沙黃色的外套，站在我的床腳，微笑著看著我入眠。在夢裡，她如鳥一般迅捷地轉動著她的頭，而她的手指彎曲好似鷹的腳爪。我不認為我昨晚夢見她了。否則，我不可能睡得那麼香。",
             "warmup": 60,
             "craftable": true
         },
@@ -62,7 +62,7 @@
             "effects": {
                 "contentment": 1
             },
-            "description": "睡眠是一片宽广而黑暗的海域。但有的时候，当我们抵达那遥远的彼岸，灯光会在那处亮着。",
+            "description": "睡眠是一片寬廣而黑暗的海域。但有的時候，當我們抵達那遙遠的彼岸，燈光會在那處亮著。",
             "craftable": false
         },
         {
@@ -72,7 +72,7 @@
             "effects": {
                 "dread": 1
             },
-            "description": "早在瑞穆什与纳拉姆辛的时代，在两河流域中流传着一个吞噬了其他母亲的孩子，嗥叫着的女人的故事。昨晚，我的梦里传来了一声嗥叫。",
+            "description": "早在瑞穆什與納拉姆辛的時代，在兩河流域中流傳著一個吞噬了其他母親的孩子，嗥叫著的女人的故事。昨晚，我的夢裡傳來了一聲嗥叫。",
             "craftable": false
         },
         {
@@ -82,12 +82,12 @@
             "effects": {
                 "fascination": 1
             },
-            "description": "想象一个装满镜子的盒子。每面镜子透出了更甜美的光。现在，想象在那第七面镜子里，只有一个普通的黎明，一张普通的床，普通一日的平淡开端。想象着这种情景，并渴求光明。",
+            "description": "想像一個裝滿鏡子的盒子。每面鏡子透出了更甜美的光。現在，想像在那第七面鏡子裡，只有一個普通的黎明，一張普通的床，普通一日的平淡開端。想像著這種情景，並渴求光明。",
             "craftable": false
         },
         {
             "id": "recoverhunger",
-            "label": "恢复我的力量",
+            "label": "恢復我的力量",
             "actionId": "dream",
             "requirements": {
                 "funds": 1,
@@ -99,14 +99,14 @@
             "aspects": {
                 "restorehealth": 1
             },
-            "startdescription": "我已经有阵子没吃东西了。我应该吃得小心些。",
-            "description": "我又充满了力量。在我视野边角处涡卷的黑暗消失了。",
+            "startdescription": "我已經有陣子沒吃東西了。我應該吃得小心些。",
+            "description": "我又充滿了力量。在我視野邊角處渦卷的黑暗消失了。",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "recoverfatigue",
-            "label": "小憩以除去疲惫",
+            "label": "小憩以除去疲憊",
             "actionId": "dream",
             "requirements": {
                 "fatigue": 1
@@ -114,17 +114,17 @@
             "aspects": {
                 "restorehealth": 1
             },
-            "startdescription": "我只是需要一点时间来恢复精力。",
-            "description": "我重又精神抖擞。",
+            "startdescription": "我只是需要一點時間來恢復精力。",
+            "description": "我重又精神抖擻。",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "recover.apostlegrail.pillar2",
             "actionId": "dream",
-            "label": "最终的梦境",
-            "startdescription": "我进食了一小瓶鲜血，躺下，闭眼。明天，我会变得更强壮。",
-            "description": "我现在好多了——还不止——我现在豪奢丰盛。我眼睛的巩膜，我手腕的血管涌动着玉液琼浆。当谢肉祭来临，我会成为压轴大菜，让赐我们愉悦者彰显胃口，扮演赤杯。",
+            "label": "最終的夢境",
+            "startdescription": "我進食了一小瓶鮮血，躺下，閉眼。明天，我會變得更強壯。",
+            "description": "我現在好多了——還不止——我現在豪奢豐盛。我眼睛的鞏膜，我手腕的血管湧動著玉液瓊漿。當謝肉祭來臨，我會成為壓軸大菜，讓賜我們愉悅者彰顯胃口，扮演赤杯。",
             "requirements": {
                 "apostlegrail.pillarfuel": 1,
                 "apostlegrail.pillar2.dormant": 1
@@ -140,7 +140,7 @@
         },
         {
             "id": "recoverillhealthfunds",
-            "label": "治疗",
+            "label": "治療",
             "actionId": "dream",
             "requirements": {
                 "funds": 1,
@@ -152,14 +152,14 @@
             "aspects": {
                 "restorehealth": 1
             },
-            "startdescription": "这药又黑又苦，跟焦油似的。这很容易让我怀疑自己是不是被人下毒了。",
-            "description": "病房渐渐变得狭小和陈旧。起床的时候到了。",
+            "startdescription": "這藥又黑又苦，跟焦油似的。這很容易讓我懷疑自己是不是被人下毒了。",
+            "description": "病房漸漸變得狹小和陳舊。起床的時候到了。",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "recoverillhealthfundsvitality",
-            "label": "治疗",
+            "label": "治療",
             "actionId": "dream",
             "requirements": {
                 "vitality": 1,
@@ -171,14 +171,14 @@
             "aspects": {
                 "restorehealth": 1
             },
-            "startdescription": "现在我需要的仅仅是时间。",
-            "description": "病房渐渐变得狭小和陈旧。起床的时候到了。",
+            "startdescription": "現在我需要的僅僅是時間。",
+            "description": "病房漸漸變得狹小和陳舊。起床的時候到了。",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "reducedread",
-            "label": "清空我的思绪",
+            "label": "清空我的思緒",
             "actionId": "dream",
             "requirements": {
                 "contentment": 1,
@@ -189,8 +189,8 @@
                 "dread": -1,
                 "fleeting": 1
             },
-            "startdescription": "我记得我以前并非如此。",
-            "description": "日转，风吹。我的手记就是这个迷宫里的线索。",
+            "startdescription": "我記得我以前並非如此。",
+            "description": "日轉，風吹。我的手記就是這個迷宮裡的線索。",
             "warmup": 60,
             "craftable": true
         },
@@ -208,7 +208,7 @@
                 "fleeting": 1
             },
             "startdescription": ".",
-            "description": "空气仿佛凝固了。我又回到了家里，拖着这具流浪汉般的身躯。可能，比流浪汉还是好一点吧。",
+            "description": "空氣彷彿凝固了。我又回到了家裡，拖著這具流浪漢般的身軀。可能，比流浪漢還是好一點吧。",
             "warmup": 60,
             "craftable": true
         },
@@ -225,13 +225,13 @@
                 "fascination": -1
             },
             "startdescription": ".",
-            "description": "空气仿佛凝固了。我又回到了家里，拖着这具流浪汉般的身躯。可能，比流浪汉还是好一点吧。",
+            "description": "空氣彷彿凝固了。我又回到了家裡，拖著這具流浪漢般的身軀。可能，比流浪漢還是好一點吧。",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "dreamfunds",
-            "label": "购买一剂鸦片酊",
+            "label": "購買一劑鴉片酊",
             "actionId": "dream",
             "requirements": {
                 "funds": 1
@@ -240,8 +240,8 @@
                 "contentment": 1,
                 "funds": -1
             },
-            "startdescription": "在面临特别重大的危机时，我可以拜访一个口风严实的药剂师，买一剂鸦片酊来维持我香甜的梦境。但是这只能适用于面临重大危机的情况。[这是一种昂贵而高风险的获取安逸的途径。这可能会导致生病或绝望。]",
-            "description": "噢，我得到了深深的平静。但我不应该再这样做了。",
+            "startdescription": "在面臨特別重大的危機時，我可以拜訪一個口風嚴實的藥劑師，買一劑鴉片酊來維持我香甜的夢境。但是這只能適用於面臨重大危機的情況。[這是一種昂貴而高風險的獲取安逸的途徑。這可能會導致生病或絕望。]",
+            "description": "噢，我得到了深深的平靜。但我不應該再這樣做了。",
             "warmup": 30,
             "craftable": true,
             "alt": [
@@ -265,8 +265,8 @@
         {
             "id": "dream.decrepitude",
             "actionId": "dream",
-            "label": "孤注一掷的举措",
-            "startdescription": "我的灵魂像沼泽鬼火一样在我衰弱的肉体中作祟。我的心脏迟慢，终有一天要休止。若我进食一些异质之物，也许能恢复我失去的气力。不过可能性不大。",
+            "label": "孤注一擲的舉措",
+            "startdescription": "我的靈魂像沼澤鬼火一樣在我衰弱的肉體中作祟。我的心臟遲慢，終有一天要休止。若我進食一些異質之物，也許能恢復我失去的氣力。不過可能性不大。",
             "requirements": {
                 "decrepitude": 1,
                 "ingredient": 1
@@ -286,8 +286,8 @@
             "id": "dream.decrepitude.ingredientheartf",
             "actionId": "dream",
             "label": "雅努略的鼓舞",
-            "startdescription": "闻到瓶中血微弱的锈蚀气味，我的心脏猛跳，疼痛如急刺天空的朝日。",
-            "description": "圣雅努略已打开了岁月之门与痛苦之门，疼痛与历史穿过这一双门扉逃离。",
+            "startdescription": "聞到瓶中血微弱的鏽蝕氣味，我的心臟猛跳，疼痛如急刺天空的朝日。",
+            "description": "聖雅努略已打開了歲月之門與痛苦之門，疼痛與歷史穿過這一雙門扉逃離。",
             "requirements": {
                 "ingredientheartf": 1,
                 "decrepitude": 1
@@ -305,8 +305,8 @@
         {
             "id": "dream.decrepitude.failure",
             "actionId": "dream",
-            "label": "确是最奇怪的味道",
-            "startdescription": "我的心脏继续苟延残喘。我没得到任何益处——除了应该称得上是得来不易的知识。",
+            "label": "確是最奇怪的味道",
+            "startdescription": "我的心臟繼續苟延殘喘。我沒得到任何益處——除了應該稱得上是得來不易的知識。",
             "effects": {
                 "ingredient": -1,
                 "erudition": 1

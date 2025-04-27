@@ -2,13 +2,13 @@
     "elements": [
         {
             "id": "auclair_a",
-            "label": "熟人奥克莱尔",
+            "label": "熟人奧克萊爾",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustenlightenment": 1
             },
-            "description": "奥克莱尔有着学者的面孔和病态的气质。[你或可以招募这位熟人作你的追随者。]",
+            "description": "奧克萊爾有著學者的面孔和病態的氣質。[你或可以招募這位熟人作你的追隨者。]",
             "animFrames": 1,
             "xtriggers": {
                 "recruiting": "auclair_b",
@@ -20,7 +20,7 @@
         },
         {
             "id": "auclair_b",
-            "label": "信徒奥克莱尔",
+            "label": "信徒奧克萊爾",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -28,7 +28,7 @@
                 "follower_lustenlightenment": 1
             },
             "animFrames": 1,
-            "description": "奥克莱尔沉静，做事细致而又冷酷。",
+            "description": "奧克萊爾沉靜，做事細緻而又冷酷。",
             "xtriggers": {
                 "promotiontodisciple": "auclair_c",
                 "killmortal": "corpse",
@@ -40,7 +40,7 @@
         },
         {
             "id": "auclair_c",
-            "label": "门徒奥克莱尔",
+            "label": "門徒奧克萊爾",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -49,7 +49,7 @@
                 "winter": 5,
                 "follower_lustenlightenment": 1
             },
-            "description": "奥克莱尔不怎么说话。她对自己的言语斟词酌句。她连动作也是能简则简，生怕浪费气力。还有，人们从没见她眨过眼。",
+            "description": "奧克萊爾不怎麼說話。她對自己的言語斟詞酌句。她連動作也是能簡則簡，生怕浪費氣力。還有，人們從沒見她眨過眼。",
             "animFrames": 1,
             "xtriggers": {
                 "promotionto_d_winter": "auclair_d",
@@ -62,7 +62,7 @@
         },
         {
             "id": "auclair_d",
-            "label": "一个沉默，憔悴的女人",
+            "label": "一個沉默，憔悴的女人",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -71,7 +71,7 @@
                 "winter": 10,
                 "follower_lustenlightenment": 1
             },
-            "description": "空气凝霜，烛火奄奄，街上的人声静了下来。有谁在这里。",
+            "description": "空氣凝霜，燭火奄奄，街上的人聲靜了下來。有誰在這裡。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -83,13 +83,13 @@
         },
         {
             "id": "cat_a",
-            "label": "熟人卡特·卡罗",
+            "label": "熟人卡特·卡羅",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustenlightenment": 1
             },
-            "description": "“卡特·卡罗”，她这样称呼自己，她平时是一个剧场灵媒兼算命师。但她可能还有更深层次的天赋。[你或可以招募这位熟人作你的追随者。]",
+            "description": "“卡特·卡羅”，她這樣稱呼自己，她平時是一個劇場靈媒兼算命師。但她可能還有更深層次的天賦。[你或可以招募這位熟人作你的追隨者。]",
             "animFrames": 1,
             "xtriggers": {
                 "recruiting": "cat_b",
@@ -101,7 +101,7 @@
         },
         {
             "id": "cat_b",
-            "label": "信徒卡特·卡罗",
+            "label": "信徒卡特·卡羅",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -109,7 +109,7 @@
                 "follower_lustenlightenment": 1
             },
             "animFrames": 1,
-            "description": "一个目光炯炯，精神警觉的女人，她能完美地回忆她的梦境。",
+            "description": "一個目光炯炯，精神警覺的女人，她能完美地回憶她的夢境。",
             "xtriggers": {
                 "promotiontodisciple": "cat_c",
                 "killmortal": "corpse",
@@ -121,7 +121,7 @@
         },
         {
             "id": "cat_c",
-            "label": "门徒卡特·卡罗",
+            "label": "門徒卡特·卡羅",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -130,7 +130,7 @@
                 "lantern": 5,
                 "follower_lustenlightenment": 1
             },
-            "description": "她有时仍在剧院表演。“卡特·卡罗，”海报上写着，“能找到通路。卡特·卡罗知道如何到达。”",
+            "description": "她有時仍在劇院表演。“卡特·卡羅，”海報上寫著，“能找到通路。卡特·卡羅知道如何到達。”",
             "animFrames": 1,
             "xtriggers": {
                 "promotionto_d_lantern": "cat_d",
@@ -143,7 +143,7 @@
         },
         {
             "id": "cat_d",
-            "label": "先见者卡特·卡罗",
+            "label": "先見者卡特·卡羅",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -152,7 +152,7 @@
                 "lantern": 10,
                 "follower_lustenlightenment": 1
             },
-            "description": "考古学家在墓穴中发现了宝藏。农民从地里收割庄稼。卡特·卡罗在梦中发现了什么呢？",
+            "description": "考古學家在墓穴中發現了寶藏。農民從地裡收割莊稼。卡特·卡羅在夢中發現了什麼呢？",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -164,13 +164,13 @@
         },
         {
             "id": "clifton_a",
-            "label": "熟人“教皇”克利夫顿",
+            "label": "熟人“教皇”克利夫頓",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustenlightenment": 1
             },
-            "description": "一个散发着神秘主义者气息，留着一把没修剪过的胡须的声音粗旷的非正统天主教徒。[你或可以招募这位熟人作你的追随者。]",
+            "description": "一個散發著神秘主義者氣息，留著一把沒修剪過的鬍鬚的聲音粗獷的非正統天主教徒。[你或可以招募這位熟人作你的追隨者。]",
             "animFrames": 1,
             "xtriggers": {
                 "recruiting": "clifton_b",
@@ -181,7 +181,7 @@
         },
         {
             "id": "clifton_b",
-            "label": "信徒“教皇”克利夫顿",
+            "label": "信徒“教皇”克利夫頓",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -189,7 +189,7 @@
                 "follower_lustenlightenment": 1
             },
             "animFrames": 1,
-            "description": "克利夫顿最近正在即兴创作富有太阳隐喻的新祷告词。他仍然像个士兵一样大叫，像个水手一样酗酒。",
+            "description": "克利夫頓最近正在即興創作富有太陽隱喻的新禱告詞。他仍然像個士兵一樣大叫，像個水手一樣酗酒。",
             "xtriggers": {
                 "promotiontodisciple": "clifton_c",
                 "killmortal": "corpse",
@@ -201,7 +201,7 @@
         },
         {
             "id": "clifton_c",
-            "label": "门徒“教皇”克利夫顿",
+            "label": "門徒“教皇”克利夫頓",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -210,7 +210,7 @@
                 "lantern": 5,
                 "follower_lustenlightenment": 1
             },
-            "description": "克利夫顿的祀奉变得越来越复杂。他的眼睛瞪得越来越大，闪闪发光。他的嗓音更响亮了。",
+            "description": "克利夫頓的祀奉變得越來越複雜。他的眼睛瞪得越來越大，閃閃發光。他的嗓音更響亮了。",
             "animFrames": 1,
             "xtriggers": {
                 "promotionto_d_lantern": "clifton_d",
@@ -223,7 +223,7 @@
         },
         {
             "id": "clifton_d",
-            "label": "先见者克利夫顿",
+            "label": "先見者克利夫頓",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -232,7 +232,7 @@
                 "lantern": 10,
                 "follower_lustenlightenment": 1
             },
-            "description": "克利夫顿仍在念诵他的祷告词，但这些话如旧镜子般变得怪异了。他每日清晨都要早起迎接黎明。他会直视它的面庞，而后准确地告诉别人他的所见。",
+            "description": "克利夫頓仍在念誦他的禱告詞，但這些話如舊鏡子般變得怪異了。他每日清晨都要早起迎接黎明。他會直視它的面龐，而後準確地告訴別人他的所見。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -244,13 +244,13 @@
         },
         {
             "id": "clovette_a",
-            "label": "熟人克罗薇特",
+            "label": "熟人克羅薇特",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustchange": 1
             },
-            "description": "克罗薇特的快乐是那种容不下不快乐的快乐。[你或可以招募这位熟人作你的追随者。]",
+            "description": "克羅薇特的快樂是那種容不下不快樂的快樂。[你或可以招募這位熟人作你的追隨者。]",
             "animFrames": 1,
             "xtriggers": {
                 "recruiting": "clovette_b",
@@ -261,7 +261,7 @@
         },
         {
             "id": "clovette_b",
-            "label": "信徒克罗薇特",
+            "label": "信徒克羅薇特",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -269,7 +269,7 @@
                 "follower_lustchange": 1
             },
             "animFrames": 1,
-            "description": "克罗薇特那坚决的快乐已接近狂热。",
+            "description": "克羅薇特那堅決的快樂已接近狂熱。",
             "xtriggers": {
                 "promotiontodisciple": "clovette_c",
                 "killmortal": "corpse",
@@ -281,7 +281,7 @@
         },
         {
             "id": "clovette_c",
-            "label": "门徒克罗薇特",
+            "label": "門徒克羅薇特",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -290,7 +290,7 @@
                 "heart": 5,
                 "follower_lustchange": 1
             },
-            "description": "克罗薇特的乐观令人生畏。她像挥舞一把锤子一样挥舞她的欢乐。",
+            "description": "克羅薇特的樂觀令人生畏。她像揮舞一把錘子一樣揮舞她的歡樂。",
             "animFrames": 1,
             "xtriggers": {
                 "promotionto_d_heart": "clovette_d",
@@ -303,7 +303,7 @@
         },
         {
             "id": "clovette_d",
-            "label": "蛊舞者克罗薇特",
+            "label": "蠱舞者克羅薇特",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -312,7 +312,7 @@
                 "heart": 10,
                 "follower_lustchange": 1
             },
-            "description": "克罗薇特总是兴致高昂。她爱笑。她的微笑像月牙的尖角。",
+            "description": "克羅薇特總是興致高昂。她愛笑。她的微笑像月牙的尖角。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -324,7 +324,7 @@
         },
         {
             "id": "connie_c",
-            "label": "门徒康妮",
+            "label": "門徒康妮",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -333,7 +333,7 @@
                 "edge": 5,
                 "grail": 4
             },
-            "description": "康妮找到了最后一条令她无法忍住不尝试的弃小搏大之道……又或者她只是在享受人生。",
+            "description": "康妮找到了最後一條令她無法忍住不嘗試的棄小搏大之道……又或者她只是在享受人生。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -356,7 +356,7 @@
                 "edge": 10,
                 "grail": 7
             },
-            "description": "侍奉不合康妮的天性。总有一天她会晋升，如河水涨升。但现下她为了征服而俯首。",
+            "description": "侍奉不合康妮的天性。總有一天她會晉升，如河水漲升。但現下她為了征服而俯首。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -369,13 +369,13 @@
         },
         {
             "id": "dorothy_a",
-            "label": "熟人多萝西",
+            "label": "熟人多蘿西",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustchange": 1
             },
-            "description": "多萝西是个热心的人，有着涉猎广泛的读书习惯。她为我所暗示的世界表皮下的形状而着迷。[你或可以招募这位熟人作你的追随者。]",
+            "description": "多蘿西是個熱心的人，有著涉獵廣泛的讀書習慣。她為我所暗示的世界表皮下的形狀而著迷。[你或可以招募這位熟人作你的追隨者。]",
             "animFrames": 1,
             "xtriggers": {
                 "recruiting": "dorothy_b",
@@ -386,7 +386,7 @@
         },
         {
             "id": "dorothy_b",
-            "label": "信徒多萝西",
+            "label": "信徒多蘿西",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -394,7 +394,7 @@
                 "follower_lustchange": 1
             },
             "animFrames": 1,
-            "description": "多萝西是个热心的人，而我已让她的热心为我们所用。",
+            "description": "多蘿西是個熱心的人，而我已讓她的熱心為我們所用。",
             "xtriggers": {
                 "promotiontodisciple": "dorothy_c",
                 "killmortal": "corpse",
@@ -406,7 +406,7 @@
         },
         {
             "id": "dorothy_c",
-            "label": "门徒多萝西",
+            "label": "門徒多蘿西",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -415,7 +415,7 @@
                 "heart": 5,
                 "follower_lustchange": 1
             },
-            "description": "多萝西的热心已变为走火入魔。她不会停歇；看她现在多爱跳舞啊。",
+            "description": "多蘿西的熱心已變為走火入魔。她不會停歇；看她現在多愛跳舞啊。",
             "animFrames": 1,
             "xtriggers": {
                 "promotionto_d_heart": "dorothy_d",
@@ -428,7 +428,7 @@
         },
         {
             "id": "dorothy_d",
-            "label": "蛊舞者多萝西",
+            "label": "蠱舞者多蘿西",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -437,7 +437,7 @@
                 "heart": 10,
                 "follower_lustchange": 1
             },
-            "description": "多萝西走动时，我们能听见鼓声。多萝西说话时，我们能看见舞蹈。她的决心是她的盾牌和武器。",
+            "description": "多蘿西走動時，我們能聽見鼓聲。多蘿西說話時，我們能看見舞蹈。她的決心是她的盾牌和武器。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -456,7 +456,7 @@
                 "forge": 2
             },
             "animFrames": 1,
-            "description": "道格拉斯把武力交换成了铸力。",
+            "description": "道格拉斯把武力交換成了鑄力。",
             "xtriggers": {
                 "promotiontodisciple": "douglas_c",
                 "killmortal": "corpse",
@@ -469,7 +469,7 @@
         },
         {
             "id": "douglas_c",
-            "label": "门徒道格拉斯",
+            "label": "門徒道格拉斯",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -477,7 +477,7 @@
                 "potential": 1,
                 "forge": 5
             },
-            "description": "道格拉斯不喜欢锤子。这让他想起一起事故。但他会使用必用的器具。",
+            "description": "道格拉斯不喜歡錘子。這讓他想起一起事故。但他會使用必用的器具。",
             "animFrames": 1,
             "xtriggers": {
                 "promotionto_d_forge": "douglas_d",
@@ -499,7 +499,7 @@
                 "exalted": 1,
                 "forge": 10
             },
-            "description": "道格拉斯改变甚大。他的眼睛发光如雾中铁匠铺的窗洞。他的嗓音像煤块哗啦哗啦滚下输煤管的声音。他的手臂很长。",
+            "description": "道格拉斯改變甚大。他的眼睛發光如霧中鐵匠鋪的窗洞。他的嗓音像煤塊嘩啦嘩啦滾下輸煤管的聲音。他的手臂很長。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -512,13 +512,13 @@
         },
         {
             "id": "elridge_a",
-            "label": "熟人埃尔里奇",
+            "label": "熟人埃爾里奇",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustpower": 1
             },
-            "description": "一个拥有不雅习惯的优雅男人。[你或可以招募这位熟人作你的追随者。]",
+            "description": "一個擁有不雅習慣的優雅男人。[你或可以招募這位熟人作你的追隨者。]",
             "animFrames": 1,
             "xtriggers": {
                 "recruiting": "elridge_b",
@@ -529,7 +529,7 @@
         },
         {
             "id": "elridge_b",
-            "label": "信徒埃尔里奇",
+            "label": "信徒埃爾里奇",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -537,7 +537,7 @@
                 "follower_lustpower": 1
             },
             "animFrames": 1,
-            "description": "埃尔里奇已基本能管住自己在谈话中不用刀剔牙了。但他还不能把刀一直放在靴子里不拔出来。",
+            "description": "埃爾里奇已基本能管住自己在談話中不用刀剔牙了。但他還不能把刀一直放在靴子裡不拔出來。",
             "xtriggers": {
                 "promotiontodisciple": "elridge_c",
                 "killmortal": "corpse",
@@ -549,7 +549,7 @@
         },
         {
             "id": "elridge_c",
-            "label": "门徒埃尔里奇",
+            "label": "門徒埃爾里奇",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -558,7 +558,7 @@
                 "edge": 5,
                 "follower_lustpower": 1
             },
-            "description": "埃尔里奇正在耐心等待再次捅人刀子的时机。",
+            "description": "埃爾里奇正在耐心等待再次捅人刀子的時機。",
             "animFrames": 1,
             "xtriggers": {
                 "promotionto_d_edge": "elridge_d",
@@ -571,7 +571,7 @@
         },
         {
             "id": "elridge_d",
-            "label": "暗杀者埃尔里奇",
+            "label": "暗殺者埃爾里奇",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -580,7 +580,7 @@
                 "edge": 10,
                 "follower_lustpower": 1
             },
-            "description": "埃尔里奇从没被人看到过身沾血迹。一滴也没有。",
+            "description": "埃爾里奇從沒被人看到過身沾血跡。一滴也沒有。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -598,7 +598,7 @@
                 "acquaintance": 1,
                 "follower_lustenlightenment": 1
             },
-            "description": "伊妮德说话轻声细语，有时她的目光不聚焦到任何有形的事物上。大概你们俩进入了同样的梦境吧。[你或可以招募这位熟人作你的追随者。]",
+            "description": "伊妮德說話輕聲細語，有時她的目光不聚焦到任何有形的事物上。大概你們倆進入了同樣的夢境吧。[你或可以招募這位熟人作你的追隨者。]",
             "animFrames": 1,
             "xtriggers": {
                 "recruiting": "enid_b",
@@ -617,7 +617,7 @@
                 "follower_lustenlightenment": 1
             },
             "animFrames": 1,
-            "description": "伊妮德说话轻声细语，有时她的目光不聚焦到任何有形的事物上。她能看见他人不视之物。",
+            "description": "伊妮德說話輕聲細語，有時她的目光不聚焦到任何有形的事物上。她能看見他人不視之物。",
             "xtriggers": {
                 "promotiontodisciple": "enid_c",
                 "killmortal": "corpse",
@@ -629,7 +629,7 @@
         },
         {
             "id": "enid_c",
-            "label": "门徒伊妮德",
+            "label": "門徒伊妮德",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -638,7 +638,7 @@
                 "knock": 5,
                 "follower_lustenlightenment": 1
             },
-            "description": "伊妮德能看见他人无视之物，这给她带来很多麻烦，但非常有用。",
+            "description": "伊妮德能看見他人無視之物，這給她帶來很多麻煩，但非常有用。",
             "animFrames": 1,
             "xtriggers": {
                 "promotionto_d_knock": "enid_d",
@@ -651,7 +651,7 @@
         },
         {
             "id": "enid_d",
-            "label": "钥匙伊妮德",
+            "label": "鑰匙伊妮德",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -660,7 +660,7 @@
                 "knock": 10,
                 "follower_lustenlightenment": 1
             },
-            "description": "伊妮德能看到事物之间的间隙，她所学的技艺允许她有时将指尖置入那间隙中。",
+            "description": "伊妮德能看到事物之間的間隙，她所學的技藝允許她有時將指尖置入那間隙中。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -672,13 +672,13 @@
         },
         {
             "id": "laidlaw_a",
-            "label": "熟人莱德劳",
+            "label": "熟人萊德勞",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustpower": 1
             },
-            "description": "莱德劳是一名补锅匠兼机修工，身负不可思议的绝活。[你或可以招募这位熟人作你的追随者。]",
+            "description": "萊德勞是一名補鍋匠兼機修工，身負不可思議的絕活。[你或可以招募這位熟人作你的追隨者。]",
             "animFrames": 1,
             "xtriggers": {
                 "recruiting": "laidlaw_b",
@@ -689,7 +689,7 @@
         },
         {
             "id": "laidlaw_b",
-            "label": "信徒莱德劳",
+            "label": "信徒萊德勞",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -697,7 +697,7 @@
                 "follower_lustpower": 1
             },
             "animFrames": 1,
-            "description": "莱德劳已经开始明白手再巧也有极限，而牺牲能带来力量。",
+            "description": "萊德勞已經開始明白手再巧也有極限，而犧牲能帶來力量。",
             "xtriggers": {
                 "promotiontodisciple": "laidlaw_c",
                 "killmortal": "corpse",
@@ -709,7 +709,7 @@
         },
         {
             "id": "laidlaw_c",
-            "label": "门徒莱德劳",
+            "label": "門徒萊德勞",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -718,7 +718,7 @@
                 "forge": 5,
                 "follower_lustpower": 1
             },
-            "description": "莱德劳已学会了更巧妙地使用火与铜，蜡与酸。",
+            "description": "萊德勞已學會了更巧妙地使用火與銅，蠟與酸。",
             "animFrames": 1,
             "xtriggers": {
                 "promotionto_d_forge": "laidlaw_d",
@@ -731,7 +731,7 @@
         },
         {
             "id": "laidlaw_d",
-            "label": "重塑者莱德劳",
+            "label": "重塑者萊德勞",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -740,7 +740,7 @@
                 "forge": 10,
                 "follower_lustpower": 1
             },
-            "description": "莱德劳能将破损之物塑造成必需之物。",
+            "description": "萊德勞能將破損之物塑造成必需之物。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -752,13 +752,13 @@
         },
         {
             "id": "leo_a",
-            "label": "熟人里奥",
+            "label": "熟人里奧",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustchange": 1
             },
-            "description": "里奥是个真诚的人，有着对密教的兴趣。他对你所暗示的无形之术很在意。[你或可以招募这位熟人作你的追随者。]",
+            "description": "里奧是個真誠的人，有著對密教的興趣。他對你所暗示的無形之術很在意。[你或可以招募這位熟人作你的追隨者。]",
             "animFrames": 1,
             "xtriggers": {
                 "recruiting": "leo_b",
@@ -769,7 +769,7 @@
         },
         {
             "id": "leo_b",
-            "label": "信徒里奥",
+            "label": "信徒里奧",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -777,7 +777,7 @@
                 "follower_lustchange": 1
             },
             "animFrames": 1,
-            "description": "里奥是个真诚的人，但他也准备好去做必要之事。",
+            "description": "里奧是個真誠的人，但他也準備好去做必要之事。",
             "xtriggers": {
                 "promotiontodisciple": "leo_c",
                 "killmortal": "corpse",
@@ -789,7 +789,7 @@
         },
         {
             "id": "leo_c",
-            "label": "门徒里奥",
+            "label": "門徒里奧",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -798,7 +798,7 @@
                 "heart": 5,
                 "follower_lustchange": 1
             },
-            "description": "里奥仍然渴盼使美丽的、有价值的事物存续。但他也明白为了保护理想，人有时必须去做不光彩的事情。",
+            "description": "里奧仍然渴盼使美麗的、有價值的事物存續。但他也明白為了保護理想，人有時必須去做不光彩的事情。",
             "animFrames": 1,
             "xtriggers": {
                 "promotionto_d_heart": "leo_d",
@@ -811,7 +811,7 @@
         },
         {
             "id": "leo_d",
-            "label": "蛊舞者里奥",
+            "label": "蠱舞者里奧",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -820,7 +820,7 @@
                 "heart": 10,
                 "follower_lustchange": 1
             },
-            "description": "里奥会不惜一切代价保持存续。他不会停歇。",
+            "description": "里奧會不惜一切代價保持存續。他不會停歇。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -832,7 +832,7 @@
         },
         {
             "id": "natalia_c",
-            "label": "门徒纳塔丽娅",
+            "label": "門徒納塔麗婭",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -841,7 +841,7 @@
                 "lantern": 5,
                 "forge": 4
             },
-            "description": "纳塔丽娅从不不加质疑地追从他人——但现下她追从于我。",
+            "description": "納塔麗婭從不不加質疑地追從他人——但現下她追從於我。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -855,7 +855,7 @@
         },
         {
             "id": "natalia_d",
-            "label": "智者纳塔丽娅",
+            "label": "智者納塔麗婭",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -864,7 +864,7 @@
                 "lantern": 10,
                 "forge": 7
             },
-            "description": "纳塔丽娅踏上了她能找到的最光明的路途。",
+            "description": "納塔麗婭踏上了她能找到的最光明的路途。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -877,13 +877,13 @@
         },
         {
             "id": "neville_a",
-            "label": "熟人内维尔",
+            "label": "熟人內維爾",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustenlightenment": 1
             },
-            "description": "内维尔是一个在开口之前犹犹豫豫，容易退缩的人。他会在他认为你在开玩笑的时候配合着笑。[你或可以招募这位熟人作你的追随者。]",
+            "description": "內維爾是一個在開口之前猶猶豫豫，容易退縮的人。他會在他認為你在開玩笑的時候配合著笑。[你或可以招募這位熟人作你的追隨者。]",
             "animFrames": 1,
             "xtriggers": {
                 "recruiting": "neville_b",
@@ -894,7 +894,7 @@
         },
         {
             "id": "neville_b",
-            "label": "信徒内维尔",
+            "label": "信徒內維爾",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -902,7 +902,7 @@
                 "follower_lustenlightenment": 1
             },
             "animFrames": 1,
-            "description": "内维尔是一个在开口之前犹犹豫豫，容易退缩的人。他能够敏感地体察到更深层的问题。",
+            "description": "內維爾是一個在開口之前猶猶豫豫，容易退縮的人。他能夠敏感地體察到更深層的問題。",
             "xtriggers": {
                 "promotiontodisciple": "neville_c",
                 "killmortal": "corpse",
@@ -914,7 +914,7 @@
         },
         {
             "id": "neville_c",
-            "label": "门徒内维尔",
+            "label": "門徒內維爾",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -923,7 +923,7 @@
                 "knock": 5,
                 "follower_lustenlightenment": 1
             },
-            "description": "内维尔的目光变得鬼鬼祟祟，他的声音也时不时听起来尖锐刺耳。他现在毫无保留地地吐露他的梦想。",
+            "description": "內維爾的目光變得鬼鬼祟祟，他的聲音也時不時聽起來尖銳刺耳。他現在毫無保留地地吐露他的夢想。",
             "animFrames": 1,
             "xtriggers": {
                 "promotionto_d_knock": "neville_d",
@@ -936,7 +936,7 @@
         },
         {
             "id": "neville_d",
-            "label": "钥匙内维尔",
+            "label": "鑰匙內維爾",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -945,7 +945,7 @@
                 "knock": 10,
                 "follower_lustenlightenment": 1
             },
-            "description": "在梦中，内维尔看见那些能打开世界与其道路的破绽。",
+            "description": "在夢中，內維爾看見那些能打開世界與其道路的破綻。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -963,7 +963,7 @@
                 "acquaintance": 1,
                 "follower_lustchange": 1
             },
-            "description": "在卷入诉讼案件前，波特曾是一名理发师。[你或可以招募这位熟人作你的追随者。]",
+            "description": "在捲入訴訟案件前，波特曾是一名理髮師。[你或可以招募這位熟人作你的追隨者。]",
             "animFrames": 1,
             "xtriggers": {
                 "recruiting": "porter_b",
@@ -982,7 +982,7 @@
                 "follower_lustchange": 1
             },
             "animFrames": 1,
-            "description": "波特为他朋友们的利益一刻不停地挥舞着剃刀和剪子。",
+            "description": "波特為他朋友們的利益一刻不停地揮舞著剃刀和剪子。",
             "xtriggers": {
                 "promotiontodisciple": "porter_c",
                 "killmortal": "corpse",
@@ -994,7 +994,7 @@
         },
         {
             "id": "porter_c",
-            "label": "门徒波特",
+            "label": "門徒波特",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1003,7 +1003,7 @@
                 "moth": 5,
                 "follower_lustchange": 1
             },
-            "description": "波特一直保持低调无闻，直到他做好出手的准备。",
+            "description": "波特一直保持低調無聞，直到他做好出手的準備。",
             "animFrames": 1,
             "xtriggers": {
                 "promotionto_d_moth": "porter_d",
@@ -1025,7 +1025,7 @@
                 "moth": 10,
                 "follower_lustchange": 1
             },
-            "description": "波特像蜘蛛一样，总是藏在最意想不到的地方。",
+            "description": "波特像蜘蛛一樣，總是藏在最意想不到的地方。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1043,7 +1043,7 @@
                 "acquaintance": 1,
                 "follower_lustsensation": 1
             },
-            "description": "芮妮拉在三个不相邻的辖区里被判三次无罪释放。她很可能永远不会因为任何事获罪。[你或可以招募这位熟人作你的追随者。]",
+            "description": "芮妮拉在三個不相鄰的轄區裡被判三次無罪釋放。她很可能永遠不會因為任何事獲罪。[你或可以招募這位熟人作你的追隨者。]",
             "animFrames": 1,
             "xtriggers": {
                 "recruiting": "renira_b",
@@ -1062,7 +1062,7 @@
                 "follower_lustsensation": 1
             },
             "animFrames": 1,
-            "description": "尽管她的野心已经壮大，芮妮拉仍然在追寻食欲时保持谨慎。",
+            "description": "儘管她的野心已經壯大，芮妮拉仍然在追尋食慾時保持謹慎。",
             "xtriggers": {
                 "promotiontodisciple": "renira_c",
                 "killmortal": "corpse",
@@ -1074,7 +1074,7 @@
         },
         {
             "id": "renira_c",
-            "label": "门徒芮妮拉",
+            "label": "門徒芮妮拉",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1083,7 +1083,7 @@
                 "grail": 5,
                 "follower_lustsensation": 1
             },
-            "description": "无论去哪，芮妮拉都能引人爱慕。她只会将注意力放在那些值得报以爱慕的人身上。",
+            "description": "無論去哪，芮妮拉都能引人愛慕。她只會將注意力放在那些值得報以愛慕的人身上。",
             "animFrames": 1,
             "xtriggers": {
                 "promotionto_d_grail": "renira_d",
@@ -1096,7 +1096,7 @@
         },
         {
             "id": "renira_d",
-            "label": "纵情者芮妮拉",
+            "label": "縱情者芮妮拉",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1105,7 +1105,7 @@
                 "grail": 10,
                 "follower_lustsensation": 1
             },
-            "description": "芮妮拉几乎每天都会收到来自爱慕者的礼物。有些礼物是花，有些是情诗。有时候她收到的是珠宝，又有时候是紧紧包裹在血迹斑斑的绉纸里的充满绝望的礼物。",
+            "description": "芮妮拉幾乎每天都會收到來自愛慕者的禮物。有些禮物是花，有些是情詩。有時候她收到的是珠寶，又有時候是緊緊包裹在血跡斑斑的縐紙裡的充滿絕望的禮物。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1117,13 +1117,13 @@
         },
         {
             "id": "rose_a",
-            "label": "熟人萝丝",
+            "label": "熟人蘿絲",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustsensation": 1
             },
-            "description": "萝丝是个狡黠的姑娘，她认为你是个不同寻常的角色。[你或可以招募这位熟人作你的追随者。]",
+            "description": "蘿絲是個狡黠的姑娘，她認為你是個不同尋常的角色。[你或可以招募這位熟人作你的追隨者。]",
             "animFrames": 1,
             "xtriggers": {
                 "recruiting": "rose_b",
@@ -1134,7 +1134,7 @@
         },
         {
             "id": "rose_b",
-            "label": "信徒萝丝",
+            "label": "信徒蘿絲",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1142,7 +1142,7 @@
                 "follower_lustsensation": 1
             },
             "animFrames": 1,
-            "description": "萝丝是个狡黠的姑娘，但她忠诚。",
+            "description": "蘿絲是個狡黠的姑娘，但她忠誠。",
             "xtriggers": {
                 "promotiontodisciple": "rose_c",
                 "killmortal": "corpse",
@@ -1154,7 +1154,7 @@
         },
         {
             "id": "rose_c",
-            "label": "门徒萝丝",
+            "label": "門徒蘿絲",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1163,7 +1163,7 @@
                 "edge": 5,
                 "follower_lustsensation": 1
             },
-            "description": "萝丝将她的狡猾磨砺到了极点。",
+            "description": "蘿絲將她的狡猾磨礪到了極點。",
             "animFrames": 1,
             "xtriggers": {
                 "promotionto_d_edge": "rose_d",
@@ -1176,7 +1176,7 @@
         },
         {
             "id": "rose_d",
-            "label": "暗杀者萝丝",
+            "label": "暗殺者蘿絲",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1185,7 +1185,7 @@
                 "edge": 10,
                 "follower_lustsensation": 1
             },
-            "description": "在萝丝与目标人物见面的前一晚，后者会收到一个附带一支黄玫瑰的包裹。",
+            "description": "在蘿絲與目標人物見面的前一晚，後者會收到一個附帶一支黃玫瑰的包裹。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1197,13 +1197,13 @@
         },
         {
             "id": "saliba_a",
-            "label": "熟人萨利巴",
+            "label": "熟人薩利巴",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustsensation": 1
             },
-            "description": "萨利巴是一个有着惊人胃口的人。他早就过了通过满足欲望获得欢愉的阶段。但他学到了很多。[你或可以招募这位熟人作你的追随者。]",
+            "description": "薩利巴是一個有著驚人胃口的人。他早就過了通過滿足欲望獲得歡愉的階段。但他學到了很多。[你或可以招募這位熟人作你的追隨者。]",
             "animFrames": 1,
             "xtriggers": {
                 "recruiting": "saliba_b",
@@ -1214,7 +1214,7 @@
         },
         {
             "id": "saliba_b",
-            "label": "信徒萨利巴",
+            "label": "信徒薩利巴",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1222,7 +1222,7 @@
                 "follower_lustsensation": 1
             },
             "animFrames": 1,
-            "description": "萨利巴了解鲜血，但尚未了解生育。",
+            "description": "薩利巴了解鮮血，但尚未了解生育。",
             "xtriggers": {
                 "promotiontodisciple": "saliba_c",
                 "killmortal": "corpse",
@@ -1234,7 +1234,7 @@
         },
         {
             "id": "saliba_c",
-            "label": "门徒萨利巴",
+            "label": "門徒薩利巴",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1243,7 +1243,7 @@
                 "grail": 5,
                 "follower_lustsensation": 1
             },
-            "description": "萨利巴在一间没有窗户的房间中享受欢愉。他的伙伴会一次又一次地回来找他，即便每一次后他们都比原先减损了一点。",
+            "description": "薩利巴在一間沒有窗戶的房間中享受歡愉。他的伙伴會一次又一次地回來找他，即便每一次後他們都比原先減損了一點。",
             "animFrames": 1,
             "xtriggers": {
                 "promotionto_d_grail": "saliba_d",
@@ -1256,7 +1256,7 @@
         },
         {
             "id": "saliba_d",
-            "label": "纵情者萨利巴",
+            "label": "縱情者薩利巴",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1265,7 +1265,7 @@
                 "grail": 10,
                 "follower_lustsensation": 1
             },
-            "description": "萨利巴的魅力如大锤抡下般猛烈。想抗拒他的欲望是极度困难的。",
+            "description": "薩利巴的魅力如大錘掄下般猛烈。想抗拒他的欲望是極度困難的。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1283,7 +1283,7 @@
                 "acquaintance": 1,
                 "follower_lustenlightenment": 1
             },
-            "description": "克雷格·思雷，天文学者兼先锋派诗人，因自己健康不济而对怪力乱神产生了兴趣。[你或可以招募这位熟人作你的追随者。]",
+            "description": "克雷格·思雷，天文學者兼先鋒派詩人，因自己健康不濟而對怪力亂神產生了興趣。[你或可以招募這位熟人作你的追隨者。]",
             "animFrames": 1,
             "xtriggers": {
                 "recruiting": "slee_b",
@@ -1302,7 +1302,7 @@
                 "follower_lustenlightenment": 1
             },
             "animFrames": 1,
-            "description": "思雷向所有愿意听的人热心讲述他的理论：群星恍若小小的创口，而太阳恍若辉煌的血流。他的诗比以往更古怪了。",
+            "description": "思雷向所有願意聽的人熱心講述他的理論：群星恍若小小的創口，而太陽恍若輝煌的血流。他的詩比以往更古怪了。",
             "xtriggers": {
                 "promotiontodisciple": "slee_c",
                 "killmortal": "corpse",
@@ -1314,7 +1314,7 @@
         },
         {
             "id": "slee_c",
-            "label": "门徒思雷",
+            "label": "門徒思雷",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1323,7 +1323,7 @@
                 "lantern": 5,
                 "follower_lustenlightenment": 1
             },
-            "description": "思雷的头痛愈发严重，他的理论却一天天地实用起来。他的诗也越写越好了。",
+            "description": "思雷的頭痛愈發嚴重，他的理論卻一天天地實用起來。他的詩也越寫越好了。",
             "animFrames": 1,
             "xtriggers": {
                 "promotionto_d_lantern": "slee_d",
@@ -1336,7 +1336,7 @@
         },
         {
             "id": "slee_d",
-            "label": "先见者思雷",
+            "label": "先見者思雷",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1345,7 +1345,7 @@
                 "lantern": 10,
                 "follower_lustenlightenment": 1
             },
-            "description": "思雷仅用数学和诗歌的语言讲话。两者皆引人入胜：其间的差异变得越来越难分辨。",
+            "description": "思雷僅用數學和詩歌的語言講話。兩者皆引人入勝：其間的差異變得越來越難分辨。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1357,7 +1357,7 @@
         },
         {
             "id": "spencer_c",
-            "label": "门徒斯宾塞",
+            "label": "門徒斯賓塞",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1366,7 +1366,7 @@
                 "knock": 5,
                 "moth": 4
             },
-            "description": "斯宾塞颈戴一个小小的圣亚割妮徽记，贴在他心口的伤疤上。",
+            "description": "斯賓塞頸戴一個小小的聖亞割妮徽記，貼在他心口的傷疤上。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1380,7 +1380,7 @@
         },
         {
             "id": "spencer_d",
-            "label": "先见者斯宾塞",
+            "label": "先見者斯賓塞",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1389,7 +1389,7 @@
                 "knock": 10,
                 "moth": 7
             },
-            "description": "有人延<b>道路</b>而行，而有人则是他人的<b>道路</b>。斯宾塞不再对我们说他做出了决定：相反地，他称决定做出了他。",
+            "description": "有人延<b>道路</b>而行，而有人則是他人的<b>道路</b>。斯賓塞不再對我們說他做出了決定：相反地，他稱決定做出了他。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1402,13 +1402,13 @@
         },
         {
             "id": "sylvia_a",
-            "label": "熟人西尔维娅",
+            "label": "熟人西爾維婭",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustchange": 1
             },
-            "description": "西尔维娅九岁那年在树林里失去了一只眼睛。每年圣烛节，她都会回到那个她埋葬眼睛的地方。[你或可以招募这位熟人作你的追随者。]",
+            "description": "西爾維婭九歲那年在樹林裡失去了一隻眼睛。每年聖燭節，她都會回到那個她埋葬眼睛的地方。[你或可以招募這位熟人作你的追隨者。]",
             "animFrames": 1,
             "xtriggers": {
                 "recruiting": "sylvia_b",
@@ -1419,7 +1419,7 @@
         },
         {
             "id": "sylvia_b",
-            "label": "信徒西尔维娅",
+            "label": "信徒西爾維婭",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1427,7 +1427,7 @@
                 "follower_lustchange": 1
             },
             "animFrames": 1,
-            "description": "西尔维娅在屋脊、枯潮的河流、爱尔兰威士忌以及变魔术上有很深的造诣。",
+            "description": "西爾維婭在屋脊、枯潮的河流、愛爾蘭威士忌以及變魔術上有很深的造詣。",
             "xtriggers": {
                 "promotiontodisciple": "sylvia_c",
                 "killmortal": "corpse",
@@ -1439,7 +1439,7 @@
         },
         {
             "id": "sylvia_c",
-            "label": "门徒西尔维娅",
+            "label": "門徒西爾維婭",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1448,7 +1448,7 @@
                 "moth": 5,
                 "follower_lustchange": 1
             },
-            "description": "西尔维娅最爱用的策略是微笑并闭上单眼。值得注意的是，与她交谈的人时常会将自己内心的所想脱口而出。",
+            "description": "西爾維婭最愛用的策略是微笑並閉上單眼。值得注意的是，與她交談的人時常會將自己內心的所想脫口而出。",
             "animFrames": 1,
             "xtriggers": {
                 "promotionto_d_moth": "sylvia_d",
@@ -1461,7 +1461,7 @@
         },
         {
             "id": "sylvia_d",
-            "label": "易皮者西尔维娅",
+            "label": "易皮者西爾維婭",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1470,7 +1470,7 @@
                 "moth": 10,
                 "follower_lustchange": 1
             },
-            "description": "西尔维娅已经学会迅速从某处离去，甚至快到可称还未进入既已离去。有时，她会将枯叶留在在窗台之下，有时她会在将名字写在不会被人找见的地方。",
+            "description": "西爾維婭已經學會迅速從某處離去，甚至快到可稱還未進入既已離去。有時，她會將枯葉留在在窗台之下，有時她會在將名字寫在不會被人找見的地方。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1488,7 +1488,7 @@
                 "acquaintance": 1,
                 "follower_lustpower": 1
             },
-            "description": "崔斯坦讨厌干扰。崔斯坦有事必成。[你或可以招募这位熟人作你的追随者。]",
+            "description": "崔斯坦討厭干擾。崔斯坦有事必成。[你或可以招募這位熟人作你的追隨者。]",
             "animFrames": 1,
             "xtriggers": {
                 "recruiting": "tristan_b",
@@ -1507,7 +1507,7 @@
                 "follower_lustpower": 1
             },
             "animFrames": 1,
-            "description": "崔斯坦讨厌干扰。崔斯坦有事必成。",
+            "description": "崔斯坦討厭干擾。崔斯坦有事必成。",
             "xtriggers": {
                 "promotiontodisciple": "tristan_c",
                 "killmortal": "corpse",
@@ -1519,7 +1519,7 @@
         },
         {
             "id": "tristan_c",
-            "label": "门徒崔斯坦",
+            "label": "門徒崔斯坦",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1528,7 +1528,7 @@
                 "forge": 5,
                 "follower_lustpower": 1
             },
-            "description": "崔斯坦会去做那些不得不为之事。要想创造，有时必先摧毁。",
+            "description": "崔斯坦會去做那些不得不為之事。要想創造，有時必先摧毀。",
             "animFrames": 1,
             "xtriggers": {
                 "promotionto_d_forge": "tristan_d",
@@ -1550,7 +1550,7 @@
                 "forge": 10,
                 "follower_lustpower": 1
             },
-            "description": "换一个时代，崔斯坦可能会是个铁匠。换一场人生，他可能是个炸弹制造师。",
+            "description": "換一個時代，崔斯坦可能會是個鐵匠。換一場人生，他可能是個炸彈製造師。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1562,13 +1562,13 @@
         },
         {
             "id": "valciane_a",
-            "label": "熟人万查妮",
+            "label": "熟人萬查妮",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustpower": 1
             },
-            "description": "万查妮已经经营了她的事业近二十年。她从未招过助手。她的双手十分有力。[你或可以招募这位熟人作你的追随者。]",
+            "description": "萬查妮已經經營了她的事業近二十年。她從未招過助手。她的雙手十分有力。[你或可以招募這位熟人作你的追隨者。]",
             "animFrames": 1,
             "xtriggers": {
                 "recruiting": "valciane_b",
@@ -1579,7 +1579,7 @@
         },
         {
             "id": "valciane_b",
-            "label": "信徒万查妮",
+            "label": "信徒萬查妮",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1587,7 +1587,7 @@
                 "follower_lustpower": 1
             },
             "animFrames": 1,
-            "description": "万查妮具有无穷无尽的匠心，她的握力甚至比铁匠的更强。",
+            "description": "萬查妮具有無窮無盡的匠心，她的握力甚至比鐵匠的更強。",
             "xtriggers": {
                 "promotiontodisciple": "valciane_c",
                 "killmortal": "corpse",
@@ -1599,7 +1599,7 @@
         },
         {
             "id": "valciane_c",
-            "label": "门徒万查妮",
+            "label": "門徒萬查妮",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1608,7 +1608,7 @@
                 "forge": 5,
                 "follower_lustpower": 1
             },
-            "description": "万查妮并不是机器。我们有理由相信这一点，因为人们时不时会发现她犯下人为的错误。",
+            "description": "萬查妮並不是機器。我們有理由相信這一點，因為人們時不時會發現她犯下人為的錯誤。",
             "animFrames": 1,
             "xtriggers": {
                 "promotionto_d_forge": "valciane_d",
@@ -1621,7 +1621,7 @@
         },
         {
             "id": "valciane_d",
-            "label": "重塑者万查妮",
+            "label": "重塑者萬查妮",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1630,7 +1630,7 @@
                 "forge": 10,
                 "follower_lustpower": 1
             },
-            "description": "万查妮已经开始不用工具做活了。“它们碍我的事”，她如是说。",
+            "description": "萬查妮已經開始不用工具做活了。“它們礙我的事”，她如是說。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1642,13 +1642,13 @@
         },
         {
             "id": "victor_a",
-            "label": "熟人维克多",
+            "label": "熟人維克多",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustsensation": 1
             },
-            "description": "维克多是个狡黠的小伙子，他一下子就能认出稀有的机遇。[你或可以招募这位熟人作你的追随者。]",
+            "description": "維克多是個狡黠的小伙子，他一下子就能認出稀有的機遇。[你或可以招募這位熟人作你的追隨者。]",
             "animFrames": 1,
             "xtriggers": {
                 "recruiting": "victor_b",
@@ -1659,7 +1659,7 @@
         },
         {
             "id": "victor_b",
-            "label": "信徒维克多",
+            "label": "信徒維克多",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1667,7 +1667,7 @@
                 "follower_lustsensation": 1
             },
             "animFrames": 1,
-            "description": "维克多是个狡黠的小伙子，但他忠诚。",
+            "description": "維克多是個狡黠的小伙子，但他忠誠。",
             "xtriggers": {
                 "promotiontodisciple": "victor_c",
                 "killmortal": "corpse",
@@ -1679,7 +1679,7 @@
         },
         {
             "id": "victor_c",
-            "label": "门徒维克多",
+            "label": "門徒維克多",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1688,7 +1688,7 @@
                 "edge": 5,
                 "follower_lustsensation": 1
             },
-            "description": "维克多将他的狡猾磨砺到了极点。",
+            "description": "維克多將他的狡猾磨礪到了極點。",
             "animFrames": 1,
             "xtriggers": {
                 "promotionto_d_edge": "victor_d",
@@ -1701,7 +1701,7 @@
         },
         {
             "id": "victor_d",
-            "label": "暗杀者维克多",
+            "label": "暗殺者維克多",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1710,7 +1710,7 @@
                 "edge": 10,
                 "follower_lustsensation": 1
             },
-            "description": "维克多喜欢和他的目标先混熟，这样他就能在最后一刻前私下向他们致歉了。",
+            "description": "維克多喜歡和他的目標先混熟，這樣他就能在最後一刻前私下向他們致歉了。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1722,13 +1722,13 @@
         },
         {
             "id": "violet_a",
-            "label": "熟人维奥莱特",
+            "label": "熟人維奧萊特",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustsensation": 1
             },
-            "description": "维奥莱特总是不遗余力地贡献出自己的时间，去缓解垂死之人的痛苦。[你或可以招募这位熟人作你的追随者。]",
+            "description": "維奧萊特總是不遺餘力地貢獻出自己的時間，去緩解垂死之人的痛苦。[你或可以招募這位熟人作你的追隨者。]",
             "animFrames": 1,
             "xtriggers": {
                 "recruiting": "violet_b",
@@ -1739,7 +1739,7 @@
         },
         {
             "id": "violet_b",
-            "label": "信徒维奥莱特",
+            "label": "信徒維奧萊特",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1747,7 +1747,7 @@
                 "follower_lustsensation": 1
             },
             "animFrames": 1,
-            "description": "维奥莱特喜欢画画。她很有天赋，尽管她一直非常谦逊。她的画中从来不会出现人类的形象。世上的人已经够多了。",
+            "description": "維奧萊特喜歡畫畫。她很有天賦，儘管她一直非常謙遜。她的畫中從來不會出現人類的形象。世上的人已經夠多了。",
             "xtriggers": {
                 "promotiontodisciple": "violet_c",
                 "killmortal": "corpse",
@@ -1759,7 +1759,7 @@
         },
         {
             "id": "violet_c",
-            "label": "门徒维奥莱特",
+            "label": "門徒維奧萊特",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1768,7 +1768,7 @@
                 "winter": 5,
                 "follower_lustsensation": 1
             },
-            "description": "维奥莱特总是很小心。",
+            "description": "維奧萊特總是很小心。",
             "animFrames": 1,
             "xtriggers": {
                 "promotionto_d_winter": "violet_d",
@@ -1790,7 +1790,7 @@
                 "winter": 10,
                 "follower_lustsensation": 1
             },
-            "description": "现在去睡吧。什么都不要担心。",
+            "description": "現在去睡吧。什麼都不要擔心。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1802,13 +1802,13 @@
         },
         {
             "id": "ysabet_a",
-            "label": "熟人伊莎贝特",
+            "label": "熟人伊莎貝特",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustchange": 1
             },
-            "description": "伊莎贝特总在月光下感到最自在。她拥有绝佳的夜间视力。而在日光下的她经常被人忽视。[你或可以招募这位熟人作你的追随者。]",
+            "description": "伊莎貝特總在月光下感到最自在。她擁有絕佳的夜間視力。而在日光下的她經常被人忽視。[你或可以招募這位熟人作你的追隨者。]",
             "animFrames": 1,
             "xtriggers": {
                 "recruiting": "ysabet_b",
@@ -1819,7 +1819,7 @@
         },
         {
             "id": "ysabet_b",
-            "label": "信徒伊莎贝特",
+            "label": "信徒伊莎貝特",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1827,7 +1827,7 @@
                 "follower_lustchange": 1
             },
             "animFrames": 1,
-            "description": "伊莎贝特的睡眠断断续续。她会在黄昏醒来，去做一个名叫伊莎贝特之人该做的事。",
+            "description": "伊莎貝特的睡眠斷斷續續。她會在黃昏醒來，去做一個名叫伊莎貝特之人該做的事。",
             "xtriggers": {
                 "promotiontodisciple": "ysabet_c",
                 "killmortal": "corpse",
@@ -1839,7 +1839,7 @@
         },
         {
             "id": "ysabet_c",
-            "label": "门徒伊莎贝特",
+            "label": "門徒伊莎貝特",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1848,7 +1848,7 @@
                 "moth": 5,
                 "follower_lustchange": 1
             },
-            "description": "伊莎贝特刚才就在此处，就在片刻前。就是此处。几乎是确定的。",
+            "description": "伊莎貝特剛才就在此處，就在片刻前。就是此處。幾乎是確定的。",
             "animFrames": 1,
             "xtriggers": {
                 "promotionto_d_moth": "ysabet_d",
@@ -1861,7 +1861,7 @@
         },
         {
             "id": "ysabet_d",
-            "label": "易皮者伊莎贝特",
+            "label": "易皮者伊莎貝特",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1870,7 +1870,7 @@
                 "moth": 10,
                 "follower_lustchange": 1
             },
-            "description": "如今伊莎贝特绝不说谎。她也不需要。",
+            "description": "如今伊莎貝特絕不說謊。她也不需要。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1882,7 +1882,7 @@
         },
         {
             "id": "zachary_c",
-            "label": "门徒扎迦利",
+            "label": "門徒扎迦利",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1891,7 +1891,7 @@
                 "winter": 5,
                 "lantern": 4
             },
-            "description": "扎迦利的推理同往常一样确凿无疑，但现在，其论调变得更冷冽了。",
+            "description": "扎迦利的推理同往常一樣確鑿無疑，但現在，其論調變得更冷冽了。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1905,7 +1905,7 @@
         },
         {
             "id": "zachary_d",
-            "label": "终局之人扎迦利",
+            "label": "終局之人扎迦利",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1914,7 +1914,7 @@
                 "winter": 10,
                 "lantern": 7
             },
-            "description": "扎迦利已选定了自己的结尾。",
+            "description": "扎迦利已選定了自己的結尾。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1927,7 +1927,7 @@
         },
         {
             "id": "auclair_p",
-            "label": "囚犯奥克莱尔",
+            "label": "囚犯奧克萊爾",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -1935,7 +1935,7 @@
                 "grail": 3,
                 "heart": 3
             },
-            "description": "奥克莱尔不说话也不吃东西。",
+            "description": "奧克萊爾不說話也不吃東西。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1947,7 +1947,7 @@
         },
         {
             "id": "cat_p",
-            "label": "囚犯卡特·卡罗",
+            "label": "囚犯卡特·卡羅",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -1955,7 +1955,7 @@
                 "grail": 3,
                 "heart": 3
             },
-            "description": "曾称呼自己为“卡特·卡罗”的那个女人抓住一切时间睡觉。",
+            "description": "曾稱呼自己為“卡特·卡羅”的那個女人抓住一切時間睡覺。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1967,7 +1967,7 @@
         },
         {
             "id": "clifton_p",
-            "label": "囚犯“教皇”克利夫顿",
+            "label": "囚犯“教皇”克利夫頓",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -1975,7 +1975,7 @@
                 "grail": 3,
                 "heart": 3
             },
-            "description": "克利夫顿怒吼着，诅咒着，但铁窗仍然存在，墙壁也依然很厚。",
+            "description": "克利夫頓怒吼著，詛咒著，但鐵窗仍然存在，牆壁也依然很厚。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -1987,7 +1987,7 @@
         },
         {
             "id": "clovette_p",
-            "label": "囚犯克罗薇特",
+            "label": "囚犯克羅薇特",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -1995,7 +1995,7 @@
                 "grail": 3,
                 "heart": 5
             },
-            "description": "克罗薇特在等待事情转圜。",
+            "description": "克羅薇特在等待事情轉圜。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -2007,7 +2007,7 @@
         },
         {
             "id": "dorothy_p",
-            "label": "囚犯多萝西",
+            "label": "囚犯多蘿西",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -2015,7 +2015,7 @@
                 "grail": 3,
                 "heart": 5
             },
-            "description": "多萝西没完没了的劝说消磨人的神经。",
+            "description": "多蘿西沒完沒了的勸說消磨人的神經。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -2036,7 +2036,7 @@
                 "heart": 3,
                 "forge": 5
             },
-            "description": "道格拉斯伤心地摇着头。“从未想过我会反落到铁窗的另一面，我本该听我老娘的话的。”",
+            "description": "道格拉斯傷心地搖著頭。“從未想過我會反落到鐵窗的另一面，我本該聽我老娘的話的。”",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -2058,7 +2058,7 @@
                 "heart": 3,
                 "knock": 5
             },
-            "description": "伊妮德再不说话。",
+            "description": "伊妮德再不說話。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -2070,7 +2070,7 @@
         },
         {
             "id": "elridge_p",
-            "label": "囚犯埃尔里奇",
+            "label": "囚犯埃爾里奇",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -2079,7 +2079,7 @@
                 "heart": 3,
                 "edge": 5
             },
-            "description": "我们不给埃尔里奇用勺子或盘子。给他根尖利点的蔬菜都可能是不明智的……",
+            "description": "我們不給埃爾里奇用勺子或盤子。給他根尖利點的蔬菜都可能是不明智的……",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -2091,7 +2091,7 @@
         },
         {
             "id": "laidlaw_p",
-            "label": "囚犯莱德劳",
+            "label": "囚犯萊德勞",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -2100,7 +2100,7 @@
                 "heart": 3,
                 "forge": 5
             },
-            "description": "莱德劳的门是闩上的而不是锁上的。我们知道上锁没用。",
+            "description": "萊德勞的門是閂上的而不是鎖上的。我們知道上鎖沒用。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -2112,7 +2112,7 @@
         },
         {
             "id": "leo_p",
-            "label": "囚犯里奥",
+            "label": "囚犯里奧",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -2120,7 +2120,7 @@
                 "grail": 3,
                 "heart": 5
             },
-            "description": "里奥不明白他做错了什么。",
+            "description": "里奧不明白他做錯了什麼。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -2132,7 +2132,7 @@
         },
         {
             "id": "neville_p",
-            "label": "囚犯内维尔",
+            "label": "囚犯內維爾",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -2141,7 +2141,7 @@
                 "heart": 3,
                 "knock": 5
             },
-            "description": "内维尔在流泪。",
+            "description": "內維爾在流淚。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -2162,7 +2162,7 @@
                 "heart": 3,
                 "moth": 5
             },
-            "description": "波特纹丝不动地等待着，静止如一条蜥蜴。",
+            "description": "波特紋絲不動地等待著，靜止如一條蜥蜴。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -2182,7 +2182,7 @@
                 "grail": 5,
                 "heart": 3
             },
-            "description": "芮妮拉总有办法消磨时间。",
+            "description": "芮妮拉總有辦法消磨時間。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -2194,7 +2194,7 @@
         },
         {
             "id": "rose_p",
-            "label": "囚犯萝丝",
+            "label": "囚犯蘿絲",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -2203,7 +2203,7 @@
                 "heart": 3,
                 "edge": 5
             },
-            "description": "萝丝还没有放弃。我怀疑她偷藏了餐具。",
+            "description": "蘿絲還沒有放棄。我懷疑她偷藏了餐具。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -2223,7 +2223,7 @@
                 "grail": 3,
                 "heart": 3
             },
-            "description": "思雷着了魔似地在墙上写诗。如果我们不提供墨水，他就用他能弄到的液体书写。",
+            "description": "思雷著了魔似地在牆上寫詩。如果我們不提供墨水，他就用他能弄到的液體書寫。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -2244,7 +2244,7 @@
                 "heart": 3,
                 "forge": 5
             },
-            "description": "崔斯坦会尽力利用他所处的形势。",
+            "description": "崔斯坦會盡力利用他所處的形勢。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -2256,7 +2256,7 @@
         },
         {
             "id": "saliba_p",
-            "label": "囚犯萨利巴",
+            "label": "囚犯薩利巴",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -2264,7 +2264,7 @@
                 "grail": 5,
                 "heart": 3
             },
-            "description": "萨利巴的愤怒如地下的岩浆。",
+            "description": "薩利巴的憤怒如地下的岩漿。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -2276,7 +2276,7 @@
         },
         {
             "id": "sylvia_p",
-            "label": "囚犯西尔维娅",
+            "label": "囚犯西爾維婭",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -2285,7 +2285,7 @@
                 "heart": 3,
                 "moth": 5
             },
-            "description": "我们每一小时都会监看一下西尔维娅，以防万一。",
+            "description": "我們每一小時都會監看一下西爾維婭，以防萬一。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -2297,7 +2297,7 @@
         },
         {
             "id": "valciane_p",
-            "label": "囚犯万查妮",
+            "label": "囚犯萬查妮",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -2306,7 +2306,7 @@
                 "heart": 3,
                 "forge": 5
             },
-            "description": "非常重要的一点，永远不要进入万查妮手能够到的范围。",
+            "description": "非常重要的一點，永遠不要進入萬查妮手能夠到的範圍。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -2318,7 +2318,7 @@
         },
         {
             "id": "victor_p",
-            "label": "囚犯维克多",
+            "label": "囚犯維克多",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -2327,7 +2327,7 @@
                 "heart": 3,
                 "edge": 5
             },
-            "description": "维克多的眼睛溢满了愤怒。",
+            "description": "維克多的眼睛溢滿了憤怒。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -2339,7 +2339,7 @@
         },
         {
             "id": "violet_p",
-            "label": "囚犯维奥莱特",
+            "label": "囚犯維奧萊特",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -2348,7 +2348,7 @@
                 "heart": 3,
                 "winter": 5
             },
-            "description": "维奥莱特坚称她没事。看来她没事。",
+            "description": "維奧萊特堅稱她沒事。看來她沒事。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -2360,7 +2360,7 @@
         },
         {
             "id": "ysabet_p",
-            "label": "囚犯伊莎贝特",
+            "label": "囚犯伊莎貝特",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -2369,7 +2369,7 @@
                 "heart": 3,
                 "moth": 5
             },
-            "description": "若说伊莎贝特是在哭泣，她也只是用她那干涸的双眼在哭。",
+            "description": "若說伊莎貝特是在哭泣，她也只是用她那乾涸的雙眼在哭。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -2386,7 +2386,7 @@
                 "mortal": 1,
                 "acquaintance": 1
             },
-            "description": "可塑之才，但大概永远发挥不了什么价值。[你也许可以招募这位熟人来作为追随者。]",
+            "description": "可塑之才，但大概永遠發揮不了什麼價值。[你也許可以招募這位熟人來作為追隨者。]",
             "animFrames": 1,
             "comments": "legacy element to keep saves valid",
             "xtriggers": {
@@ -2404,7 +2404,7 @@
                 "acquaintance": 1
             },
             "animFrames": 1,
-            "description": "可塑之才，但大概永远发挥不了什么价值。[你也许可以招募这位熟人来作为追随者。]",
+            "description": "可塑之才，但大概永遠發揮不了什麼價值。[你也許可以招募這位熟人來作為追隨者。]",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2420,7 +2420,7 @@
                 "acquaintance": 1
             },
             "animFrames": 1,
-            "description": "可塑之才，但大概永远发挥不了什么价值。[你也许可以招募这位熟人来作为追随者。]",
+            "description": "可塑之才，但大概永遠發揮不了什麼價值。[你也許可以招募這位熟人來作為追隨者。]",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2436,7 +2436,7 @@
                 "acquaintance": 1
             },
             "animFrames": 1,
-            "description": "可塑之才，但大概永远发挥不了什么价值。[你也许可以招募这位熟人来作为追随者。]",
+            "description": "可塑之才，但大概永遠發揮不了什麼價值。[你也許可以招募這位熟人來作為追隨者。]",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2452,7 +2452,7 @@
                 "acquaintance": 1
             },
             "animFrames": 1,
-            "description": "可塑之才，但大概永远发挥不了什么价值。[你也许可以招募这位熟人来作为追随者。]",
+            "description": "可塑之才，但大概永遠發揮不了什麼價值。[你也許可以招募這位熟人來作為追隨者。]",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2468,7 +2468,7 @@
                 "acquaintance": 1
             },
             "animFrames": 1,
-            "description": "可塑之才，但大概永远发挥不了什么价值。[你也许可以招募这位熟人来作为追随者。]",
+            "description": "可塑之才，但大概永遠發揮不了什麼價值。[你也許可以招募這位熟人來作為追隨者。]",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2484,7 +2484,7 @@
                 "acquaintance": 1
             },
             "animFrames": 1,
-            "description": "可塑之才，但大概永远发挥不了什么价值。[你也许可以招募这位熟人来作为追随者。]",
+            "description": "可塑之才，但大概永遠發揮不了什麼價值。[你也許可以招募這位熟人來作為追隨者。]",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2500,7 +2500,7 @@
                 "acquaintance": 1
             },
             "animFrames": 1,
-            "description": "可塑之才，但大概永远发挥不了什么价值。[你也许可以招募这位熟人来作为追随者。]",
+            "description": "可塑之才，但大概永遠發揮不了什麼價值。[你也許可以招募這位熟人來作為追隨者。]",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2517,7 +2517,7 @@
                 "acquaintance": 1
             },
             "animFrames": 1,
-            "description": "可塑之才，但大概永远发挥不了什么价值。[你也许可以招募这位熟人来作为追随者。]",
+            "description": "可塑之才，但大概永遠發揮不了什麼價值。[你也許可以招募這位熟人來作為追隨者。]",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2534,7 +2534,7 @@
                 "edge": 1
             },
             "animFrames": 1,
-            "description": "忠诚，但是缺乏主动。",
+            "description": "忠誠，但是缺乏主動。",
             "comments": "This is a legacy element to support older saves.",
             "xtriggers": {
                 "killmortal": "corpse",
@@ -2553,7 +2553,7 @@
                 "edge": 1
             },
             "animFrames": 1,
-            "description": "忠诚，但是缺乏主动。",
+            "description": "忠誠，但是缺乏主動。",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2571,7 +2571,7 @@
                 "edge": 1
             },
             "animFrames": 1,
-            "description": "忠诚，但是缺乏主动。",
+            "description": "忠誠，但是缺乏主動。",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2589,7 +2589,7 @@
                 "edge": 1
             },
             "animFrames": 1,
-            "description": "忠诚，但是缺乏主动。",
+            "description": "忠誠，但是缺乏主動。",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2607,7 +2607,7 @@
                 "edge": 1
             },
             "animFrames": 1,
-            "description": "忠诚，但是缺乏主动。",
+            "description": "忠誠，但是缺乏主動。",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2625,7 +2625,7 @@
                 "edge": 1
             },
             "animFrames": 1,
-            "description": "忠诚，但是缺乏主动。",
+            "description": "忠誠，但是缺乏主動。",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2643,7 +2643,7 @@
                 "edge": 1
             },
             "animFrames": 1,
-            "description": "忠诚，但是缺乏主动。",
+            "description": "忠誠，但是缺乏主動。",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2661,7 +2661,7 @@
                 "edge": 1
             },
             "animFrames": 1,
-            "description": "忠诚，但是缺乏主动。",
+            "description": "忠誠，但是缺乏主動。",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2679,7 +2679,7 @@
                 "edge": 1
             },
             "animFrames": 1,
-            "description": "忠诚，但是缺乏主动。",
+            "description": "忠誠，但是缺乏主動。",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2690,7 +2690,7 @@
         },
         {
             "id": "generic_c_edge",
-            "label": "强壮的门徒",
+            "label": "強壯的門徒",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -2698,7 +2698,7 @@
                 "edge": 2
             },
             "animFrames": 1,
-            "description": "忠诚且肌肉发达。",
+            "description": "忠誠且肌肉發達。",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2708,7 +2708,7 @@
         },
         {
             "id": "generic_c_forge",
-            "label": "务实的门徒",
+            "label": "務實的門徒",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -2717,7 +2717,7 @@
                 "forge": 2
             },
             "animFrames": 1,
-            "description": "忠诚且技艺高超。",
+            "description": "忠誠且技藝高超。",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2727,7 +2727,7 @@
         },
         {
             "id": "generic_c_grail",
-            "label": "急切的门徒",
+            "label": "急切的門徒",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -2736,7 +2736,7 @@
                 "grail": 2
             },
             "animFrames": 1,
-            "description": "忠诚却贪婪无餍。",
+            "description": "忠誠卻貪婪無饜。",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2746,7 +2746,7 @@
         },
         {
             "id": "generic_c_heart",
-            "label": "活泼的门徒",
+            "label": "活潑的門徒",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -2755,7 +2755,7 @@
                 "heart": 2
             },
             "animFrames": 1,
-            "description": "忠诚且歌不离口。",
+            "description": "忠誠且歌不離口。",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2765,7 +2765,7 @@
         },
         {
             "id": "generic_c_knock",
-            "label": "手巧的门徒",
+            "label": "手巧的門徒",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -2774,7 +2774,7 @@
                 "knock": 2
             },
             "animFrames": 1,
-            "description": "忠诚且擅长开锁。",
+            "description": "忠誠且擅長開鎖。",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2784,7 +2784,7 @@
         },
         {
             "id": "generic_c_lantern",
-            "label": "机敏的门徒",
+            "label": "機敏的門徒",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -2793,7 +2793,7 @@
                 "lantern": 2
             },
             "animFrames": 1,
-            "description": "忠诚且眼尖目明。",
+            "description": "忠誠且眼尖目明。",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2803,7 +2803,7 @@
         },
         {
             "id": "generic_c_moth",
-            "label": "古怪的门徒",
+            "label": "古怪的門徒",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -2812,7 +2812,7 @@
                 "moth": 2
             },
             "animFrames": 1,
-            "description": "忠诚却又异乎寻常；即使在我们中也算是个怪人。",
+            "description": "忠誠卻又異乎尋常；即使在我們中也算是個怪人。",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2824,7 +2824,7 @@
         },
         {
             "id": "generic_c_winter",
-            "label": "静默的门徒",
+            "label": "靜默的門徒",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -2833,7 +2833,7 @@
                 "winter": 2
             },
             "animFrames": 1,
-            "description": "忠诚且静如落雪。",
+            "description": "忠誠且靜如落雪。",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2843,7 +2843,7 @@
         },
         {
             "id": "generic_p",
-            "label": "遭背叛的追随者",
+            "label": "遭背叛的追隨者",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -2851,7 +2851,7 @@
                 "grail": 3,
                 "heart": 3
             },
-            "description": "此人疲弱地控诉着自己的命运。",
+            "description": "此人疲弱地控訴著自己的命運。",
             "animFrames": 1,
             "xtriggers": {
                 "killmortal": "corpse",

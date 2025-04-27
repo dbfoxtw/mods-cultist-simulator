@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "explore_vaultcontinent1_setup",
-            "label": "探险开始：拉维林城堡",
+            "label": "探險開始：拉維林城堡",
             "actionId": "explore",
             "requirements": {
                 "funds": 1,
@@ -13,7 +13,7 @@
                 "seal_hiddendoor": 1,
                 "curse_dread": 1
             },
-            "startdescription": "拉维林伯爵的城堡偏远而破败，早已经历过掠夺。然而我们找到证据，那里尚未被洗劫一空。那里也许有个秘密房间。与此相对，那里也许存在着诅咒。[探险时，突破一个阻碍需消耗至少一份资金；阻碍由追随者负责突破。资金或追随者耗尽时，探险将终止。]",
+            "startdescription": "拉維林伯爵的城堡偏遠而破敗，早已經歷過掠奪。然而我們找到證據，那裡尚未被洗劫一空。那裡也許有個秘密房間。與此相對，那裡也許存在著詛咒。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
             "description": ".",
             "warmup": 10,
             "craftable": true,
@@ -26,7 +26,7 @@
         },
         {
             "id": "explore_vaultcontinent2_setup",
-            "label": "探险开始：费米尔修道院",
+            "label": "探險開始：費米爾修道院",
             "actionId": "explore",
             "requirements": {
                 "funds": 1,
@@ -37,7 +37,7 @@
                 "peril_forest": 1,
                 "guardian_monks": 1
             },
-            "startdescription": "费米尔修道院，深藏于森林之中，宛如被塞入绿色外袍中偷运的珠宝盒。纵使我们设法穿越了森林，我们仍然得面对僧众。[探险时，突破一个阻碍需消耗至少一份资金；阻碍由追随者负责突破。资金或追随者耗尽时，探险将终止。]",
+            "startdescription": "費米爾修道院，深藏於森林之中，宛如被塞入綠色外袍中偷運的珠寶盒。縱使我們設法穿越了森林，我們仍然得面對僧眾。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
             "description": ".",
             "warmup": 10,
             "craftable": true,
@@ -50,7 +50,7 @@
         },
         {
             "id": "explore_vaultcontinent3_setup",
-            "label": "探险开始：俄耳托斯树林",
+            "label": "探險開始：俄耳托斯樹林",
             "actionId": "explore",
             "requirements": {
                 "funds": 1,
@@ -61,7 +61,7 @@
                 "peril_forest": 1,
                 "guardian_watchers": 1
             },
-            "startdescription": "在黑暗的俄耳托斯树林的中心，我们也许能找到那棵戴面具的乌鸦与它的党徒用以会面的树木。但树林本身就是险境，居住其中的食人部落则是另外个危险因素。[探险时，突破一个阻碍需消耗至少一份资金；阻碍由追随者负责突破。资金或追随者耗尽时，探险将终止。]",
+            "startdescription": "在黑暗的俄耳托斯樹林的中心，我們也許能找到那棵戴面具的烏鴉與它的黨徒用以會面的樹木。但樹林本身就是險境，居住其中的食人部落則是另外個危險因素。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
             "description": ".",
             "warmup": 10,
             "craftable": true,
@@ -74,7 +74,7 @@
         },
         {
             "id": "explore_vaultcontinent4_setup",
-            "label": "探险开始：范德沙夫收藏馆",
+            "label": "探險開始：范德沙夫收藏館",
             "actionId": "explore",
             "requirements": {
                 "funds": 1,
@@ -85,7 +85,7 @@
                 "seal_wardeddoor": 1,
                 "curse_visions": 1
             },
-            "startdescription": "通往范德沙夫收藏馆墙绘厅的门上着锁和门闩。这幢建筑据说有“花影作祟”。[探险时，突破一个阻碍需消耗至少一份资金；阻碍由追随者负责突破。资金或追随者耗尽时，探险将终止。]",
+            "startdescription": "通往范德沙夫收藏館牆繪廳的門上著鎖和門閂。這幢建築據說有“花影作祟”。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
             "description": ".",
             "warmup": 10,
             "craftable": true,
@@ -98,7 +98,7 @@
         },
         {
             "id": "explore_vaultcontinent5_setup",
-            "label": "探险开始：福曼的家宅",
+            "label": "探險開始：福曼的家宅",
             "actionId": "explore",
             "requirements": {
                 "funds": 1,
@@ -109,7 +109,7 @@
                 "guardian_dead": 1,
                 "curse_dread": 1
             },
-            "startdescription": "毫无疑问，昏暗的宅邸闹鬼了。最后一名到访者看见了死者，并在它们用那锐利的双手触碰到他之前逃走了。再前一位到访者声称她什么也没看到，但在那天的整一年后，她便死于绝望。[探险时，突破一个阻碍需消耗至少一份资金；阻碍由追随者负责突破。资金或追随者耗尽时，探险将终止。]",
+            "startdescription": "毫無疑問，昏暗的宅邸鬧鬼了。最後一名到訪者看見了死者，並在它們用那銳利的雙手觸碰到他之前逃走了。再前一位到訪者聲稱她什麼也沒看到，但在那天的整一年後，她便死於絕望。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
             "description": ".",
             "warmup": 30,
             "craftable": true,
@@ -122,7 +122,7 @@
         },
         {
             "id": "explore_vaultcontinent6_setup",
-            "label": "探险开始:钥匙猎人的阁楼",
+            "label": "探險開始:鑰匙獵人的閣樓",
             "actionId": "explore",
             "requirements": {
                 "funds": 1,
@@ -133,7 +133,7 @@
                 "guardian_serpent": 1,
                 "seal_hiddendoor": 1
             },
-            "startdescription": "曾经在维也纳，我们听说钥匙猎人已经多天未出现在人们的视线里。一个当地的醉汉坚称一条大毒蛇潜进房子把他给吞了。可以肯定的是，房子被木板围住，周围毫无亮光，有一种爬虫屋的味道。[探险时，突破一个阻碍需消耗至少一份资金；阻碍由追随者负责突破。资金或追随者耗尽时，探险将终止。]",
+            "startdescription": "曾經在維也納，我們聽說鑰匙獵人已經多天未出現在人們的視線裡。一個當地的醉漢堅稱一條大毒蛇潛進房子把他給吞了。可以肯定的是，房子被木板圍住，周圍毫無亮光，有一種爬蟲屋的味道。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
             "description": ".",
             "warmup": 30,
             "craftable": true,
@@ -146,7 +146,7 @@
         },
         {
             "id": "explore_vaultcontinentdefault_setup",
-            "label": "探险开始：一望无际的巨石阵",
+            "label": "探險開始：一望無際的巨石陣",
             "actionId": "explore",
             "requirements": {
                 "funds": 1,
@@ -158,7 +158,7 @@
                 "seal_hiddendoor": 1,
                 "guardian_watchers": 1
             },
-            "startdescription": "前来拜访石岗的寻宝者必须穿越隐藏着石岗的森林；和崇敬石岗的本地人格斗；最后即使发现了暗门，仍需为挖掘做好准备。[探险时，突破一个阻碍需消耗至少一份资金；阻碍由追随者负责突破。资金或追随者耗尽时，探险将终止。]",
+            "startdescription": "前來拜訪石崗的尋寶者必須穿越隱藏著石崗的森林；和崇敬石崗的本地人格鬥；最後即使發現了暗門，仍需為挖掘做好準備。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
             "description": ".",
             "warmup": 10,
             "craftable": true,
@@ -171,7 +171,7 @@
         },
         {
             "id": "explorevaultcontinent1_success",
-            "label": "童年的终结",
+            "label": "童年的終結",
             "actionId": "explore",
             "requirements": {
                 "vaultcontinent1": 1
@@ -191,14 +191,14 @@
                 "defaultcard": "compensationc",
                 "resetonexhaustion": false
             },
-            "startdescription": "在一幅破败的描绘着狼群猎杀人类的挂毯背后，是一堵镶板墙。在镶板墙之中，隐藏着一扇门。弹簧失踪已久，毫不让人意外。我们不得不用锤子砸门而入。",
-            "description": "拉维林伯爵最后的宝藏位于此处，在一个空气出乎意料地流通的房间里。高处的天窗早已破损，地板被树叶和碎片所掩埋，但这个地方曾被布置成育婴室。这里有一个摇篮，里面放着仔犬的骨骸。",
+            "startdescription": "在一幅破敗的描繪著狼群獵殺人類的掛毯背後，是一堵鑲板牆。在鑲板牆之中，隱藏著一扇門。彈簧失蹤已久，毫不讓人意外。我們不得不用錘子砸門而入。",
+            "description": "拉維林伯爵最後的寶藏位於此處，在一個空氣出乎意料地流通的房間裡。高處的天窗早已破損，地板被樹葉和碎片所掩埋，但這個地方曾被布置成育嬰室。這裡有一個搖籃，裡面放著仔犬的骨骸。",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "explorevaultcontinent2_success",
-            "label": "枝干之下",
+            "label": "枝幹之下",
             "actionId": "explore",
             "requirements": {
                 "vaultcontinent2": 1
@@ -219,14 +219,14 @@
                 "defaultcard": "compensationc",
                 "resetonexhaustion": false
             },
-            "startdescription": "我们摆脱了僧侣和他们的不幸。在他们的礼拜堂的庭院中，一棵巨大的红豆杉矗立在花岗岩祭坛旁生长着，宛如石棺盖。里面有什么？",
-            "description": "祭坛内部装满了损毁的杯子，每只都涂成了红色，每只都绘有丑恶的涂鸦，或者其他污秽的图案。这些僧侣必定进行过令人憎恶的庞大祭典，保留了残余部分作为战利品。而别的宝藏被埋藏在杯子的尸身里。",
+            "startdescription": "我們擺脫了僧侶和他們的不幸。在他們的禮拜堂的庭院中，一棵巨大的紅豆杉矗立在花崗岩祭壇旁生長著，宛如石棺蓋。裡面有什麼？",
+            "description": "祭壇內部裝滿了損毀的杯子，每隻都塗成了紅色，每隻都繪有醜惡的塗鴉，或者其他汙穢的圖案。這些僧侶必定進行過令人憎惡的龐大祭典，保留了殘餘部分作為戰利品。而別的寶藏被埋藏在杯子的屍身裡。",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "explorevaultcontinent3_success",
-            "label": "群鸦的回忆",
+            "label": "群鴉的回憶",
             "actionId": "explore",
             "requirements": {
                 "vaultcontinent3": 1
@@ -245,14 +245,14 @@
                 "defaultcard": "compensationc",
                 "resetonexhaustion": false
             },
-            "startdescription": "这是面具乌鸦曾栖息的大橡树。它被闪电纵向劈开，焦黑腐烂。其上爬满了手指长度的蠕虫。在死亡的树根堆中有什么东西微微闪光。",
-            "description": "树根盘绕着一个孩子大小的铅蛋。也许它曾被镀上另一种金属，但风吹雨打已经抹消了所有涂抹的痕迹。一番努力后，蛋一分为二，显露出内部。",
+            "startdescription": "這是面具烏鴉曾棲息的大橡樹。它被閃電縱向劈開，焦黑腐爛。其上爬滿了手指長度的蠕蟲。在死亡的樹根堆中有什麼東西微微閃光。",
+            "description": "樹根盤繞著一個孩子大小的鉛蛋。也許它曾被鍍上另一種金屬，但風吹雨打已經抹消了所有塗抹的痕跡。一番努力後，蛋一分為二，顯露出內部。",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "explorevaultcontinent4_success",
-            "label": "墙绘厅内",
+            "label": "牆繪廳內",
             "actionId": "explore",
             "requirements": {
                 "vaultcontinent4": 1
@@ -274,8 +274,8 @@
                 "defaultcard": "compensationc",
                 "resetonexhaustion": false
             },
-            "startdescription": "厅堂的墙上绘有取自所有主要历史的场景：蠕虫攻陷维也纳，受控之火的君王焚烧绳结姐妹会的殉道战士，亚历山大会晤无影之王。一面墙上靠着一个架子，上面堆满垃圾和新奇之物。",
-            "description": "一本关于压花标本的书籍，散发着异香；三位上了年纪的贝德克尔家族成员；被涂成黑白两色的蝴蝶藏品；最后是真正的宝藏：装在玻璃盒中的罕物和装在景泰蓝保险箱中的稀有书籍。",
+            "startdescription": "廳堂的牆上繪有取自所有主要歷史的場景：蠕蟲攻陷維也納，受控之火的君王焚燒繩結姐妹會的殉道戰士，亞歷山大會晤無影之王。一面牆上靠著一個架子，上面堆滿垃圾和新奇之物。",
+            "description": "一本關於壓花標本的書籍，散發著異香；三位上了年紀的貝德克爾家族成員；被塗成黑白兩色的蝴蝶藏品；最後是真正的寶藏：裝在玻璃盒中的罕物和裝在景泰藍保險箱中的稀有書籍。",
             "warmup": 30,
             "craftable": false
         },
@@ -300,14 +300,14 @@
                 "defaultcard": "compensationc",
                 "resetonexhaustion": false
             },
-            "startdescription": "远望着破旧温室的阴冷玻璃的房间里，淡黄色的扭曲形状犹如蛆虫躺靠在木板上。这些是福曼通过他研究过的生物，用那些可怜栖息灵魂制作的石膏模型。在其中的一些模型中，可以看到在相关表面有很大的进入通道。其他模型的话，我们可以假设能通过耳朵或嘴或身体其他部位进入这些生物。",
-            "description": "房间空荡荡的。但在最后，我们偶然打破其中的一个模型，并在什么东西泛黄的肚肠里发现了福曼的宝贝藏书。",
+            "startdescription": "遠望著破舊溫室的陰冷玻璃的房間裡，淡黃色的扭曲形狀猶如蛆蟲躺靠在木板上。這些是福曼通過他研究過的生物，用那些可憐棲息靈魂製作的石膏模型。在其中的一些模型中，可以看到在相關表面有很大的進入通道。其他模型的話，我們可以假設能通過耳朵或嘴或身體其他部位進入這些生物。",
+            "description": "房間空蕩蕩的。但在最後，我們偶然打破其中的一個模型，並在什麼東西泛黃的肚腸裡發現了福曼的寶貝藏書。",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "explorevaultcontinent6_success",
-            "label": "拨开灰烬",
+            "label": "撥開灰燼",
             "actionId": "explore",
             "requirements": {
                 "vaultcontinent6": 1
@@ -326,14 +326,14 @@
                 "defaultcard": "compensationc",
                 "resetonexhaustion": false
             },
-            "startdescription": "房间散发着蛇臭和烧纸的气味。某人彻底破坏了所有他能够找到的记录。他甚至将墙壁清洗干净。冰冷的灰烬堆积在壁炉里。没有留下一丝关于租借这里的可怜人的痕迹。",
-            "description": "被火烧弯的纸张一角在火焰中幸存了下来。上面颤抖的字迹写道：“K女士。绿色石髓。三瓣。春叶映于火——”但出乎意料的是，在火焰旁一个手提箱里面，有一小堆书幸存了下来。那位摧毁了钥匙猎人的手记的人，也觉得没必要烧掉这些书籍。",
+            "startdescription": "房間散發著蛇臭和燒紙的氣味。某人徹底破壞了所有他能夠找到的紀錄。他甚至將牆壁清洗乾淨。冰冷的灰燼堆積在壁爐裡。沒有留下一絲關於租借這裡的可憐人的痕跡。",
+            "description": "被火燒彎的紙張一角在火焰中倖存了下來。上面顫抖的字跡寫道：“K女士。綠色石髓。三瓣。春葉映於火——”但出乎意料的是，在火焰旁一個手提箱裡面，有一小堆書倖存了下來。那位摧毀了鑰匙獵人的手記的人，也覺得沒必要燒掉這些書籍。",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "explorevaultcontinentdefault_success",
-            "label": "石块之下",
+            "label": "石塊之下",
             "actionId": "explore",
             "requirements": {
                 "vaultcontinentdefault": 1
@@ -344,8 +344,8 @@
             "deckeffect": {
                 "vaultrewardsc": 3
             },
-            "startdescription": "月光将草地漂染成冬天的颜色。环顾四周，石岗隐约可见。在草地下面的古墓中，有一块石头会像陷门一样升降。我们必须紧紧背靠着它。",
-            "description": "岁月让古墓里的空间坍塌了一半。肥胖的白色蜘蛛从我们的提灯边缘缓缓爬出，缓慢得近乎傲慢。画像砖开裂，碎屑不断落下。但这里仍然有着用以供奉的孔洞，装着宝藏。",
+            "startdescription": "月光將草地漂染成冬天的顏色。環顧四周，石崗隱約可見。在草地下面的古墓中，有一塊石頭會像陷門一樣升降。我們必須緊緊背靠著它。",
+            "description": "歲月讓古墓裡的空間坍塌了一半。肥胖的白色蜘蛛從我們的提燈邊緣緩緩爬出，緩慢得近乎傲慢。畫像磚開裂，碎屑不斷落下。但這裡仍然有著用以供奉的孔洞，裝著寶藏。",
             "warmup": 30,
             "craftable": false,
             "linked": [

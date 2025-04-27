@@ -3,8 +3,8 @@
         {
             "id": "explorevaultseal_hiddendoor_encounter",
             "actionId": "explore",
-            "label": "暗门",
-            "startdescription": "这里肯定有一扇门，但若是没有<b>灯</b>或<b>启</b>，我们就无法打开它。",
+            "label": "暗門",
+            "startdescription": "這裡肯定有一扇門，但若是沒有<b>燈</b>或<b>啟</b>，我們就無法打開它。",
             "requirements": {
                 "seal_hiddendoor": 1
             },
@@ -12,7 +12,7 @@
                 {
                     "id": "Assistance",
                     "label": "助力",
-                    "description": "资金对探险来说必不可少。追随者则会助我突破阻碍。",
+                    "description": "資金對探險來說必不可少。追隨者則會助我突破阻礙。",
                     "required": {
                         "follower": 1,
                         "funds": 1
@@ -60,8 +60,8 @@
             "requirements": {
                 "lantern": 10
             },
-            "label": "我们拜请守夜人，照明驱暗之神",
-            "startdescription": "我们谅必能够发现暗门。",
+            "label": "我們拜請守夜人，照明驅暗之神",
+            "startdescription": "我們諒必能夠發現暗門。",
             "description": ".",
             "linked": [
                 {
@@ -80,8 +80,8 @@
             "requirements": {
                 "lantern": 5
             },
-            "label": "我们拜请守夜人，指引前路之神",
-            "startdescription": "我们的五感变得敏锐。我们应该能够找到暗门。",
+            "label": "我們拜請守夜人，指引前路之神",
+            "startdescription": "我們的五感變得敏銳。我們應該能夠找到暗門。",
             "description": ".",
             "linked": [
                 {
@@ -100,8 +100,8 @@
             "requirements": {
                 "lantern": 1
             },
-            "label": "我们拜请守夜人，无怜悯心之神",
-            "startdescription": "我们携带着光，或许能够找到暗门。这可要费一番功夫。",
+            "label": "我們拜請守夜人，無憐憫心之神",
+            "startdescription": "我們攜帶著光，或許能夠找到暗門。這可要費一番功夫。",
             "description": ".",
             "linked": [
                 {
@@ -120,8 +120,8 @@
             "requirements": {
                 "knock": 10
             },
-            "label": "我们拜请拾滩鸦，明晓失物之神",
-            "startdescription": "我们拥有强大的洞开之力，谅必能够发现暗门。",
+            "label": "我們拜請拾灘鴉，明曉失物之神",
+            "startdescription": "我們擁有強大的洞開之力，諒必能夠發現暗門。",
             "description": ".",
             "linked": [
                 {
@@ -140,8 +140,8 @@
             "requirements": {
                 "knock": 5
             },
-            "label": "我们拜请拾滩鸦，开启大地之神",
-            "startdescription": "我们擅长寻找隐藏道路，大概能发现暗门。",
+            "label": "我們拜請拾灘鴉，開啟大地之神",
+            "startdescription": "我們擅長尋找隱藏道路，大概能發現暗門。",
             "description": ".",
             "linked": [
                 {
@@ -160,8 +160,8 @@
             "requirements": {
                 "knock": 1
             },
-            "label": "我们拜请拾滩鸦，辖无主之物之神",
-            "startdescription": "我们对“开启”一事还有些能耐，或许能够找到暗门。这可要费一番功夫。",
+            "label": "我們拜請拾灘鴉，轄無主之物之神",
+            "startdescription": "我們對“開啟”一事還有些能耐，或許能夠找到暗門。這可要費一番功夫。",
             "description": ".",
             "linked": [
                 {
@@ -177,8 +177,8 @@
         {
             "id": "explorevaultseal_hiddendoor_success",
             "actionId": "explore",
-            "label": "道路：穿过暗门",
-            "startdescription": "石头上有着细微的痕迹，是受到外力重压后留下的。我们终于发现了暗门！伴随着尖利的摩擦声、地面的震动与弥漫的尘土，暗门终于向我们敞开。",
+            "label": "道路：穿過暗門",
+            "startdescription": "石頭上有著細微的痕跡，是受到外力重壓後留下的。我們終於發現了暗門！伴隨著尖利的摩擦聲、地面的震動與瀰漫的塵土，暗門終於向我們敞開。",
             "description": ".",
             "effects": {
                 "seal_hiddendoor": -1
@@ -195,8 +195,8 @@
         {
             "id": "explorevaultseal_hiddendoor_failure",
             "actionId": "explore",
-            "label": "毫无成果的探索",
-            "startdescription": "它在哪儿？我们应该用上更多的<b>启</b>或<b>灯</b>。",
+            "label": "毫無成果的探索",
+            "startdescription": "它在哪兒？我們應該用上更多的<b>啟</b>或<b>燈</b>。",
             "description": ".",
             "craftable": false,
             "linked": [
@@ -210,8 +210,8 @@
         {
             "id": "explorevaultseal_wardeddoor_encounter",
             "actionId": "explore",
-            "label": "上锁的门",
-            "startdescription": "这扇门已经坚守了很长时间了。除非我们带来了<b>铸</b>或<b>启</b>，它同样也会阻挡我们很久。",
+            "label": "上鎖的門",
+            "startdescription": "這扇門已經堅守了很長時間了。除非我們帶來了<b>鑄</b>或<b>啟</b>，它同樣也會阻擋我們很久。",
             "requirements": {
                 "seal_wardeddoor": 1
             },
@@ -219,7 +219,7 @@
                 {
                     "id": "Assistance",
                     "label": "助力",
-                    "description": "资金对探险来说必不可少。追随者则会助我突破阻碍。",
+                    "description": "資金對探險來說必不可少。追隨者則會助我突破阻礙。",
                     "required": {
                         "follower": 1,
                         "funds": 1
@@ -267,8 +267,8 @@
             "requirements": {
                 "forge": 10
             },
-            "label": "我们拜请白日铸炉，终结所有夜晚之神",
-            "startdescription": "我们谅必能够打碎这扇上锁的门。",
+            "label": "我們拜請白日鑄爐，終結所有夜晚之神",
+            "startdescription": "我們諒必能夠打碎這扇上鎖的門。",
             "description": ".",
             "linked": [
                 {
@@ -287,8 +287,8 @@
             "requirements": {
                 "forge": 5
             },
-            "label": "我们拜请白日铸炉，终结不变之神",
-            "startdescription": "我们准备了工具，应该能够打穿这扇上锁的门。",
+            "label": "我們拜請白日鑄爐，終結不變之神",
+            "startdescription": "我們準備了工具，應該能夠打穿這扇上鎖的門。",
             "description": ".",
             "linked": [
                 {
@@ -307,8 +307,8 @@
             "requirements": {
                 "forge": 1
             },
-            "label": "我们拜请白日铸炉，以火再造之神",
-            "startdescription": "我们准备好了铸炉之火，或许能够打穿这扇上锁的门。这可要费一番功夫。",
+            "label": "我們拜請白日鑄爐，以火再造之神",
+            "startdescription": "我們準備好了鑄爐之火，或許能夠打穿這扇上鎖的門。這可要費一番功夫。",
             "description": ".",
             "linked": [
                 {
@@ -327,8 +327,8 @@
             "requirements": {
                 "knock": 10
             },
-            "label": "我们拜请双角斧，待于门关之神。",
-            "startdescription": "我们拥有强大的洞开之力，谅必能够能打碎这扇上锁的门。",
+            "label": "我們拜請雙角斧，待於門關之神。",
+            "startdescription": "我們擁有強大的洞開之力，諒必能夠能打碎這扇上鎖的門。",
             "description": ".",
             "linked": [
                 {
@@ -347,8 +347,8 @@
             "requirements": {
                 "knock": 5
             },
-            "label": "我们拜请双角斧，因时允行之神",
-            "startdescription": "我们擅长打通上锁的密道，大概能打穿这扇上锁的门。",
+            "label": "我們拜請雙角斧，因時允行之神",
+            "startdescription": "我們擅長打通上鎖的密道，大概能打穿這扇上鎖的門。",
             "description": ".",
             "linked": [
                 {
@@ -367,8 +367,8 @@
             "requirements": {
                 "knock": 1
             },
-            "label": "我们拜请双角斧，两面双刃之神",
-            "startdescription": "我们对“开启”一事还有些能耐，或许能够打穿这扇上锁的门。这可要费一番功夫。",
+            "label": "我們拜請雙角斧，兩面雙刃之神",
+            "startdescription": "我們對“開啟”一事還有些能耐，或許能夠打穿這扇上鎖的門。這可要費一番功夫。",
             "description": ".",
             "linked": [
                 {
@@ -384,8 +384,8 @@
         {
             "id": "explorevaultseal_wardeddoor_success",
             "actionId": "explore",
-            "label": "门扉之死",
-            "startdescription": "所有的门扉都应开启，正如所有的生命都应终结。这扇门今天将面临它的终结。",
+            "label": "門扉之死",
+            "startdescription": "所有的門扉都應開啟，正如所有的生命都應終結。這扇門今天將面臨它的終結。",
             "description": ".",
             "effects": {
                 "seal_wardeddoor": -1
@@ -402,8 +402,8 @@
         {
             "id": "explorevaultseal_wardeddoor_failure",
             "actionId": "explore",
-            "label": "门扉的作用",
-            "startdescription": "门扉有两个作用：开启，或保持关闭。今天，这扇门仍忠实地发挥着它的第二种作用。",
+            "label": "門扉的作用",
+            "startdescription": "門扉有兩個作用：開啟，或保持關閉。今天，這扇門仍忠實地發揮著它的第二種作用。",
             "description": ".",
             "craftable": false,
             "linked": [

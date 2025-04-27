@@ -3,8 +3,8 @@
         {
             "id": "explorevaultcurse_dread_encounter",
             "actionId": "explore",
-            "label": "涸魂诅咒",
-            "startdescription": "前方的宝藏被涸魂诅咒保护着。若是没有<b>灯</b>或者<b>心</b>，这诅咒会跟着我们回去，吸干我们的魂。",
+            "label": "涸魂詛咒",
+            "startdescription": "前方的寶藏被涸魂詛咒保護著。若是沒有<b>燈</b>或者<b>心</b>，這詛咒會跟著我們回去，吸乾我們的魂。",
             "requirements": {
                 "curse_dread": 1
             },
@@ -12,7 +12,7 @@
                 {
                     "id": "Assistance",
                     "label": "助力",
-                    "description": "资金对探险来说必不可少。追随者则会助我突破阻碍。",
+                    "description": "資金對探險來說必不可少。追隨者則會助我突破阻礙。",
                     "required": {
                         "follower": 1,
                         "funds": 1
@@ -60,8 +60,8 @@
             "requirements": {
                 "heart": 10
             },
-            "label": "我们拜请环杉，焕发新生之神",
-            "startdescription": "我们的<b>心</b>非常强大，谅必足以抵御这一诅咒。",
+            "label": "我們拜請環杉，煥發新生之神",
+            "startdescription": "我們的<b>心</b>非常強大，諒必足以抵禦這一詛咒。",
             "description": ".",
             "linked": [
                 {
@@ -80,8 +80,8 @@
             "requirements": {
                 "heart": 5
             },
-            "label": "我们拜请环杉，缠绕裹覆之神",
-            "startdescription": "我们的<b>心</b>相足够强大，能够平息这一诅咒……大概能吧。",
+            "label": "我們拜請環杉，纏繞裹覆之神",
+            "startdescription": "我們的<b>心</b>相足夠強大，能夠平息這一詛咒……大概能吧。",
             "description": ".",
             "linked": [
                 {
@@ -100,8 +100,8 @@
             "requirements": {
                 "heart": 1
             },
-            "label": "我们拜请环杉，甘美多汁之神",
-            "startdescription": "或许环杉，古老而丰饶的司辰，能够用她的神力帮我们抵御诅咒。又或许不能。",
+            "label": "我們拜請環杉，甘美多汁之神",
+            "startdescription": "或許環杉，古老而豐饒的司辰，能夠用她的神力幫我們抵禦詛咒。又或許不能。",
             "description": ".",
             "linked": [
                 {
@@ -120,8 +120,8 @@
             "requirements": {
                 "lantern": 10
             },
-            "label": "我们拜请上校，不容违抗之神",
-            "startdescription": "上校是位凶猛，却通晓“光”的司辰，他曾经从比这严酷得多的境遇下生还。他的神力谅必能够保护我们。",
+            "label": "我們拜請上校，不容違抗之神",
+            "startdescription": "上校是位兇猛，卻通曉“光”的司辰，他曾經從比這嚴酷得多的境遇下生還。他的神力諒必能夠保護我們。",
             "description": ".",
             "linked": [
                 {
@@ -140,8 +140,8 @@
             "requirements": {
                 "lantern": 5
             },
-            "label": "我们拜请上校，身负伤疤之神",
-            "startdescription": "上校是位身负伤疤，却通晓“光”的司辰，他曾经从比这严酷得多的境遇下生还。他的神力应该能够保护我们。",
+            "label": "我們拜請上校，身負傷疤之神",
+            "startdescription": "上校是位身負傷疤，卻通曉“光”的司辰，他曾經從比這嚴酷得多的境遇下生還。他的神力應該能夠保護我們。",
             "description": ".",
             "linked": [
                 {
@@ -160,8 +160,8 @@
             "requirements": {
                 "lantern": 1
             },
-            "label": "我们拜请上校，目盲之神",
-            "startdescription": "上校是位通晓“光”的司辰，但他还记得光吗？他的神力目前或许能够保护我们。",
+            "label": "我們拜請上校，目盲之神",
+            "startdescription": "上校是位通曉“光”的司辰，但他還記得光嗎？他的神力目前或許能夠保護我們。",
             "description": ".",
             "linked": [
                 {
@@ -177,8 +177,8 @@
         {
             "id": "explorevaultcurse_dread_success",
             "actionId": "explore",
-            "label": "诅咒褪去",
-            "startdescription": "我们的力量比诅咒之力要强得多。这诅咒别想缠上我们。",
+            "label": "詛咒褪去",
+            "startdescription": "我們的力量比詛咒之力要強得多。這詛咒別想纏上我們。",
             "description": ".",
             "effects": {
                 "curse_dread": -1
@@ -195,8 +195,8 @@
         {
             "id": "explorevaultcurse_dread_failure",
             "actionId": "explore",
-            "label": "诅咒附身",
-            "startdescription": "擅闯这样的地方是要付出代价的。不久之后，这个诅咒便会勒住我们。",
+            "label": "詛咒附身",
+            "startdescription": "擅闖這樣的地方是要付出代價的。不久之後，這個詛咒便會勒住我們。",
             "description": ".",
             "effects": {
                 "curse_dread": -1
@@ -220,8 +220,8 @@
         {
             "id": "explorevaultcurse_visions_encounter",
             "actionId": "explore",
-            "label": "第五目诅咒",
-            "startdescription": "前方的宝藏被第五目诅咒保护着。若是没有<b>冬</b>或者<b>心</b>，这诅咒会跟着我们回去，并开启灵魂之眼。",
+            "label": "第五目詛咒",
+            "startdescription": "前方的寶藏被第五目詛咒保護著。若是沒有<b>冬</b>或者<b>心</b>，這詛咒會跟著我們回去，並開啟靈魂之眼。",
             "requirements": {
                 "curse_visions": 1
             },
@@ -229,7 +229,7 @@
                 {
                     "id": "Assistance",
                     "label": "助力",
-                    "description": "资金对探险来说必不可少。追随者则会助我突破阻碍。",
+                    "description": "資金對探險來說必不可少。追隨者則會助我突破阻礙。",
                     "required": {
                         "follower": 1,
                         "funds": 1
@@ -277,8 +277,8 @@
             "requirements": {
                 "heart": 10
             },
-            "label": "我们拜请环杉，焕发新生之神",
-            "startdescription": "我们的<b>心</b>非常强大，谅必足以抵御这一诅咒。",
+            "label": "我們拜請環杉，煥發新生之神",
+            "startdescription": "我們的<b>心</b>非常強大，諒必足以抵禦這一詛咒。",
             "description": ".",
             "linked": [
                 {
@@ -297,8 +297,8 @@
             "requirements": {
                 "heart": 5
             },
-            "label": "我们拜请环杉，缠绕裹覆之神",
-            "startdescription": "我们的<b>心</b>相足够强大，能够平息这一诅咒……大概能吧。",
+            "label": "我們拜請環杉，纏繞裹覆之神",
+            "startdescription": "我們的<b>心</b>相足夠強大，能夠平息這一詛咒……大概能吧。",
             "description": ".",
             "linked": [
                 {
@@ -317,8 +317,8 @@
             "requirements": {
                 "heart": 1
             },
-            "label": "我们拜请环杉，甘美多汁之神",
-            "startdescription": "或许环杉，古老而丰饶的司辰，能够用她的神力帮我们抵御诅咒。又或许不能。",
+            "label": "我們拜請環杉，甘美多汁之神",
+            "startdescription": "或許環杉，古老而豐饒的司辰，能夠用她的神力幫我們抵禦詛咒。又或許不能。",
             "description": ".",
             "linked": [
                 {
@@ -337,8 +337,8 @@
             "requirements": {
                 "winter": 10
             },
-            "label": "我们拜请悼歌诗人，被剥夺至夺无可夺之神",
-            "startdescription": "悼歌诗人知晓已经失落之物。他的神力谅必能够保护我们。",
+            "label": "我們拜請悼歌詩人，被剝奪至奪無可奪之神",
+            "startdescription": "悼歌詩人知曉已經失落之物。他的神力諒必能夠保護我們。",
             "description": ".",
             "linked": [
                 {
@@ -357,8 +357,8 @@
             "requirements": {
                 "winter": 5
             },
-            "label": "我们拜请悼歌诗人，不受欺骗之神",
-            "startdescription": "悼歌诗人能分开真实与存于回忆者。他的神力应该能够保护我们。",
+            "label": "我們拜請悼歌詩人，不受欺騙之神",
+            "startdescription": "悼歌詩人能分開真實與存於回憶者。他的神力應該能夠保護我們。",
             "description": ".",
             "linked": [
                 {
@@ -377,8 +377,8 @@
             "requirements": {
                 "winter": 1
             },
-            "label": "我们拜请悼歌诗人，一一唤亡者以姓名之神",
-            "startdescription": "悼歌诗人的嘲讽与哀伤或许能平息这些幻象。谁知道呢？",
+            "label": "我們拜請悼歌詩人，一一喚亡者以姓名之神",
+            "startdescription": "悼歌詩人的嘲諷與哀傷或許能平息這些幻象。誰知道呢？",
             "description": ".",
             "linked": [
                 {
@@ -394,8 +394,8 @@
         {
             "id": "explorevaultcurse_visions_success",
             "actionId": "explore",
-            "label": "诅咒褪去",
-            "startdescription": "我们的力量比诅咒之力要强得多。这诅咒别想缠上我们。",
+            "label": "詛咒褪去",
+            "startdescription": "我們的力量比詛咒之力要強得多。這詛咒別想纏上我們。",
             "description": ".",
             "effects": {
                 "curse_visions": -1
@@ -412,8 +412,8 @@
         {
             "id": "explorevaultcurse_visions_failure",
             "actionId": "explore",
-            "label": "诅咒附身",
-            "startdescription": "擅闯这样的地方是要付出代价的。不久之后，这个诅咒便会勒住我们。",
+            "label": "詛咒附身",
+            "startdescription": "擅闖這樣的地方是要付出代價的。不久之後，這個詛咒便會勒住我們。",
             "description": ".",
             "effects": {
                 "curse_visions": -1
@@ -437,8 +437,8 @@
         {
             "id": "explorevaultcurse_affliction_encounter",
             "actionId": "explore",
-            "label": "迟息诅咒",
-            "startdescription": "前方的宝藏被迟息诅咒保护着。若是没有<b>杯</b>或者<b>心</b>，这诅咒会跟着我们回去，并且在我们的肺里播种孢子。",
+            "label": "遲息詛咒",
+            "startdescription": "前方的寶藏被遲息詛咒保護著。若是沒有<b>杯</b>或者<b>心</b>，這詛咒會跟著我們回去，並且在我們的肺裡播種孢子。",
             "requirements": {
                 "curse_affliction": 1
             },
@@ -446,7 +446,7 @@
                 {
                     "id": "Assistance",
                     "label": "助力",
-                    "description": "资金对探险来说必不可少。追随者则会助我突破阻碍。",
+                    "description": "資金對探險來說必不可少。追隨者則會助我突破阻礙。",
                     "required": {
                         "follower": 1,
                         "funds": 1
@@ -494,8 +494,8 @@
             "requirements": {
                 "heart": 10
             },
-            "label": "我们拜请环杉，焕发新生之神",
-            "startdescription": "我们的<b>心</b>非常强大，谅必能够抵御这一诅咒。",
+            "label": "我們拜請環杉，煥發新生之神",
+            "startdescription": "我們的<b>心</b>非常強大，諒必能夠抵禦這一詛咒。",
             "description": ".",
             "linked": [
                 {
@@ -514,8 +514,8 @@
             "requirements": {
                 "heart": 5
             },
-            "label": "我们拜请环杉，缠绕裹覆之神",
-            "startdescription": "我们的<b>心</b>相足够强大，能够平息这一诅咒……大概能吧。",
+            "label": "我們拜請環杉，纏繞裹覆之神",
+            "startdescription": "我們的<b>心</b>相足夠強大，能夠平息這一詛咒……大概能吧。",
             "description": ".",
             "linked": [
                 {
@@ -534,8 +534,8 @@
             "requirements": {
                 "heart": 1
             },
-            "label": "我们拜请环杉，甘美多汁之神",
-            "startdescription": "或许环杉，古老而丰饶的司辰，能够用她的神力帮我们抵御诅咒。又或许不能。",
+            "label": "我們拜請環杉，甘美多汁之神",
+            "startdescription": "或許環杉，古老而豐饒的司辰，能夠用她的神力幫我們抵禦詛咒。又或許不能。",
             "description": ".",
             "linked": [
                 {
@@ -554,8 +554,8 @@
             "requirements": {
                 "grail": 10
             },
-            "label": "我们拜请赤杯，给与生命之神",
-            "startdescription": "赤杯的活力谅必足以保护我们免于诅咒的伤害。",
+            "label": "我們拜請赤杯，給與生命之神",
+            "startdescription": "赤杯的活力諒必足以保護我們免於詛咒的傷害。",
             "description": ".",
             "linked": [
                 {
@@ -574,8 +574,8 @@
             "requirements": {
                 "grail": 5
             },
-            "label": "我们拜请赤杯，夺取生命之神",
-            "startdescription": "赤杯的饥饿应该能够保护我们免于诅咒的伤害。",
+            "label": "我們拜請赤杯，奪取生命之神",
+            "startdescription": "赤杯的飢餓應該能夠保護我們免於詛咒的傷害。",
             "description": ".",
             "linked": [
                 {
@@ -594,8 +594,8 @@
             "requirements": {
                 "grail": 1
             },
-            "label": "我们拜请赤杯，永无餍足之神",
-            "startdescription": "赤杯或许能保护我们免于诅咒的伤害。它是一位喜新厌旧的司辰。",
+            "label": "我們拜請赤杯，永無饜足之神",
+            "startdescription": "赤杯或許能保護我們免於詛咒的傷害。它是一位喜新厭舊的司辰。",
             "description": ".",
             "linked": [
                 {
@@ -611,8 +611,8 @@
         {
             "id": "explorevaultcurse_affliction_success",
             "actionId": "explore",
-            "label": "诅咒褪去",
-            "startdescription": "我们的力量比诅咒之力要强得多。这诅咒别想缠上我们。",
+            "label": "詛咒褪去",
+            "startdescription": "我們的力量比詛咒之力要強得多。這詛咒別想纏上我們。",
             "description": ".",
             "effects": {
                 "curse_affliction": -1
@@ -629,8 +629,8 @@
         {
             "id": "explorevaultcurse_affliction_failure",
             "actionId": "explore",
-            "label": "诅咒附身",
-            "startdescription": "擅闯这样的地方是要付出代价的。不久之后，这个诅咒便会勒住我们。",
+            "label": "詛咒附身",
+            "startdescription": "擅闖這樣的地方是要付出代價的。不久之後，這個詛咒便會勒住我們。",
             "description": ".",
             "effects": {
                 "curse_affliction": -1
@@ -654,8 +654,8 @@
         {
             "id": "explorevaultcurse_nowhere_encounter",
             "actionId": "explore",
-            "label": "虚源诅咒",
-            "startdescription": "有一个世界的表皮因高烧而泛黄的地方。在那里，<b>灯</b>或者<b>蛾</b>或许能够保护我们。除它二者再无可能。",
+            "label": "虛源詛咒",
+            "startdescription": "有一個世界的表皮因高燒而泛黃的地方。在那裡，<b>燈</b>或者<b>蛾</b>或許能夠保護我們。除它二者再無可能。",
             "requirements": {
                 "curse_nowhere": 1
             },
@@ -663,7 +663,7 @@
                 {
                     "id": "Assistance",
                     "label": "助力",
-                    "description": "资金对探险来说必不可少。追随者则会助我突破阻碍。",
+                    "description": "資金對探險來說必不可少。追隨者則會助我突破阻礙。",
                     "required": {
                         "follower": 1,
                         "funds": 1
@@ -711,8 +711,8 @@
             "requirements": {
                 "moth": 10
             },
-            "label": "我们拜请笑鸫，永不疲惫之神",
-            "startdescription": "我们的<b>蛾</b>非常强大，谅必足以抵御这一诅咒。",
+            "label": "我們拜請笑鶇，永不疲憊之神",
+            "startdescription": "我們的<b>蛾</b>非常強大，諒必足以抵禦這一詛咒。",
             "description": ".",
             "linked": [
                 {
@@ -731,8 +731,8 @@
             "requirements": {
                 "moth": 5
             },
-            "label": "我们拜请笑鸫，永不停步之神",
-            "startdescription": "在我们的请求下，名为笑鸫的司辰或许会替我们带走这一诅咒。我们大概能安然无恙。",
+            "label": "我們拜請笑鶇，永不停步之神",
+            "startdescription": "在我們的請求下，名為笑鶇的司辰或許會替我們帶走這一詛咒。我們大概能安然無恙。",
             "description": ".",
             "linked": [
                 {
@@ -751,8 +751,8 @@
             "requirements": {
                 "moth": 1
             },
-            "label": "我们拜请笑鸫，向愿者与不愿者叙说之神",
-            "startdescription": "笑鸫是<b>蛾</b>之神灵，且不可靠。她或许能够保护我们。",
+            "label": "我們拜請笑鶇，向願者與不願者敘說之神",
+            "startdescription": "笑鶇是<b>蛾</b>之神靈，且不可靠。她或許能夠保護我們。",
             "description": ".",
             "linked": [
                 {
@@ -771,8 +771,8 @@
             "requirements": {
                 "lantern": 10
             },
-            "label": "我们拜请残阳，仍在燃烧之神",
-            "startdescription": "残阳借给我们了来自<b>灯</b>的光，谅必能够终结这里的诅咒。",
+            "label": "我們拜請殘陽，仍在燃燒之神",
+            "startdescription": "殘陽借給我們了來自<b>燈</b>的光，諒必能夠終結這裡的詛咒。",
             "description": ".",
             "linked": [
                 {
@@ -791,8 +791,8 @@
             "requirements": {
                 "lantern": 5
             },
-            "label": "我们拜请残阳，不类前身之神",
-            "startdescription": "残阳，那位厌倦且冷冽的神灵，可以将<b>灯</b>借给我们。这能够驱散诅咒……大概能吧。",
+            "label": "我們拜請殘陽，不類前身之神",
+            "startdescription": "殘陽，那位厭倦且冷冽的神靈，可以將<b>燈</b>借給我們。這能夠驅散詛咒……大概能吧。",
             "description": ".",
             "linked": [
                 {
@@ -811,8 +811,8 @@
             "requirements": {
                 "lantern": 1
             },
-            "label": "我们拜请残阳，遥不可及之神",
-            "startdescription": "我们需要<b>灯</b>来终结诅咒，但残阳只能借予我们一点点。",
+            "label": "我們拜請殘陽，遙不可及之神",
+            "startdescription": "我們需要<b>燈</b>來終結詛咒，但殘陽只能借予我們一點點。",
             "description": ".",
             "linked": [
                 {
@@ -828,8 +828,8 @@
         {
             "id": "explorevaultcurse_nowhere_success",
             "actionId": "explore",
-            "label": "诅咒褪去",
-            "startdescription": "我们的力量比诅咒之力要强得多。这诅咒别想缠上我们。",
+            "label": "詛咒褪去",
+            "startdescription": "我們的力量比詛咒之力要強得多。這詛咒別想纏上我們。",
             "description": ".",
             "effects": {
                 "curse_nowhere": -1
@@ -846,8 +846,8 @@
         {
             "id": "explorevaultcurse_nowhere_failure",
             "actionId": "explore",
-            "label": "诅咒附身",
-            "startdescription": "擅闯这样的地方当然是要付出代价的。不久的将来，我们会被这诅咒缠上。",
+            "label": "詛咒附身",
+            "startdescription": "擅闖這樣的地方當然是要付出代價的。不久的將來，我們會被這詛咒纏上。",
             "description": ".",
             "effects": {
                 "curse_nowhere": -1

@@ -16,7 +16,7 @@
         },
         {
             "id": "needs",
-            "label": "时间流逝",
+            "label": "時間流逝",
             "actionId": "time",
             "requirements": {},
             "alt": [
@@ -66,18 +66,18 @@
                     "additional": true
                 }
             ],
-            "startdescription": "时间，随着日晷之影流逝着。我需要资金来维系生活，否则我会生病。",
+            "startdescription": "時間，隨著日晷之影流逝著。我需要資金來維繫生活，否則我會生病。",
             "description": ".",
             "warmup": 60,
             "slots": [
                 {
                     "id": "Expenses",
-                    "label": "开销",
+                    "label": "開銷",
                     "required": {
                         "funds": 1
                     },
                     "greedy": true,
-                    "description": "我得付商店老板的帐。不交钱就会挨饿。"
+                    "description": "我得付商店老闆的帳。不交錢就會挨餓。"
                 }
             ],
             "linked": [
@@ -105,10 +105,10 @@
         },
         {
             "id": "presickness",
-            "label": "欢乐的代价",
+            "label": "歡樂的代價",
             "actionId": "illhealth",
             "comments": "to lead into actual sickness from opium abuse, which requires Season Of",
-            "startdescription": "我的呼吸费力，我的思绪混乱。也许我不该那样放纵自己沉溺于抚慰伤痛的行为。",
+            "startdescription": "我的呼吸費力，我的思緒混亂。也許我不該那樣放縱自己沉溺於撫慰傷痛的行為。",
             "effects": {
                 "seasonsickness": 1
             },
@@ -123,8 +123,8 @@
             "id": "sickness",
             "label": "生病",
             "actionId": "illhealth",
-            "startdescription": "我体况不佳！",
-            "description": "这场疾病损害了我的健康。我需要休息才能完全恢复。[用“资金”或“活力”治愈“病痛”。]",
+            "startdescription": "我體況不佳！",
+            "description": "這場疾病損害了我的健康。我需要休息才能完全恢復。[用“資金”或“活力”治癒“病痛”。]",
             "requirements": {
                 "seasonsickness": 1
             },
@@ -176,7 +176,7 @@
                 "health": -1,
                 "fatigue": -1
             },
-            "startdescription": "我体况不佳！[如果被疾病耗尽“健康”，你会死掉……除非你有特殊防护。]",
+            "startdescription": "我體況不佳！[如果被疾病耗盡“健康”，你會死掉……除非你有特殊防護。]",
             "comments": "need this here so we can have a warning if there's no health; then we link to the stay of execution attempt so we can have a new slot.",
             "signalEndingFlavour": "Melancholy",
             "linked": [
@@ -189,18 +189,18 @@
         {
             "id": "sickness.nohealthavailable.tryforstayofexecution",
             "actionId": "illhealth",
-            "label": "命悬一线",
+            "label": "命懸一線",
             "slots": [
                 {
                     "id": "sicknessprotection",
-                    "label": "防护",
+                    "label": "防護",
                     "required": {
                         "sicknessprotection": 1
                     },
                     "greedy": true
                 }
             ],
-            "startdescription": "这场疾病快要置我于死地，除非我事先预备了不同寻常的健康防护措施……",
+            "startdescription": "這場疾病快要置我於死地，除非我事先預備了不同尋常的健康防護措施……",
             "requirements": {
                 "health": -1,
                 "fatigue": -1
@@ -212,11 +212,11 @@
                 {
                     "id": "protectedagainstsickness",
                     "actionId": "sickness",
-                    "label": "死里逃生",
+                    "label": "死裡逃生",
                     "requirements": {
                         "sicknessprotection": 1
                     },
-                    "startdescription": "肉身有其极限，我的肉身就要失灵了：但我曾身获致死庇佑之印记，此印今天不会失灵。[你的“延迟行刑”已使你免遭病痛的摧残。]",
+                    "startdescription": "肉身有其極限，我的肉身就要失靈了：但我曾身獲致死庇佑之印記，此印今天不會失靈。[你的“延遲行刑”已使你免遭病痛的摧殘。]",
                     "effects": {
                         "sicknessprotection": -1,
                         "influenceheart": 1
@@ -226,8 +226,8 @@
                     "id": "mareendingsickness",
                     "chance": 100,
                     "actionId": "sickness",
-                    "label": "我心中的牝马",
-                    "startdescription": "<b>她来了</b>",
+                    "label": "我心中的牝馬",
+                    "startdescription": "<b>她來了</b>",
                     "description": "——",
                     "extantreqs": {
                         "lockscar": 3,
@@ -271,29 +271,29 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "疾病来向我索命了。要是我能活下来，我一定会品尝我们愉悦者的鲜血，而且会迫不及待那样做。[如果被疾病耗尽健康和醇味之血，你会死亡。]",
-            "description": "我缩成一团，脸色苍白。疲倦噎住我的喉咙。我必须确定我没有白白死掉，而是为了实现某种目的。",
+            "startdescription": "疾病來向我索命了。要是我能活下來，我一定會品嘗我們愉悅者的鮮血，而且會迫不及待那樣做。[如果被疾病耗盡健康和醇味之血，你會死亡。]",
+            "description": "我縮成一團，臉色蒼白。疲倦噎住我的喉嚨。我必須確定我沒有白白死掉，而是為了實現某種目的。",
             "warmup": 60
         },
         {
             "id": "savorousbloodrespite",
             "actionId": "illhealth",
-            "label": "缓解",
+            "label": "緩解",
             "requirements": {
                 "apostlegrail.pillar2": 1
             },
-            "startdescription": "愉悦者的鲜血温暖了我。它让我的双颊绽放红花，将美酒倾倒入我的心脏；它以赤杯教给轰雷之皮的节拍拨动我的琴弦。我决定了，我要再活久一点。",
+            "startdescription": "愉悅者的鮮血溫暖了我。它讓我的雙頰綻放紅花，將美酒傾倒入我的心臟；它以赤杯教給轟雷之皮的節拍撥動我的琴弦。我決定了，我要再活久一點。",
             "warmup": 10
         },
         {
             "id": "deathofthewoundedfollower",
             "actionId": "time",
-            "label": "我的追随者快死了！",
+            "label": "我的追隨者快死了！",
             "requirements": {
                 "follower_wound": 1
             },
-            "startdescription": "伤口致命，此人已无药可救。",
-            "description": "也许此人的精魂在居屋游荡。也许它迷失在林地，沉到更低的地方。而他的凡人躯壳将留在此处。",
+            "startdescription": "傷口致命，此人已無藥可救。",
+            "description": "也許此人的精魂在居屋遊蕩。也許它迷失在林地，沉到更低的地方。而他的凡人軀殼將留在此處。",
             "aspects": {
                 "killmortal": 1
             },
@@ -303,7 +303,7 @@
         },
         {
             "id": "rosenext",
-            "label": "幽会与插曲",
+            "label": "幽會與插曲",
             "actionId": "rose",
             "requirements": {
                 "seasonardours": 1
@@ -311,8 +311,8 @@
             "slots": [
                 {
                     "id": "Who?",
-                    "label": "是谁？",
-                    "description": "手与手相牵，目与目相对。.",
+                    "label": "是誰？",
+                    "description": "手與手相牽，目與目相對。.",
                     "required": {
                         "romanticinterest": 1
                     },
@@ -322,7 +322,7 @@
                     "greedy": true
                 }
             ],
-            "startdescription": "如果我有位特别的朋友，那现在就是我俩再续前缘的时机。",
+            "startdescription": "如果我有位特別的朋友，那現在就是我倆再續前緣的時機。",
             "description": ".",
             "linked": [
                 {
@@ -351,8 +351,8 @@
                 "contentment": 1
             },
             "comments": "currently unused",
-            "startdescription": "这天清晨，我的脚步特别轻快，好像装了弹簧一样。我也不知道为什么。",
-            "description": "有些日子就是比平日更好。有时候，天空不再像张肮脏的被单。有时候，河里的流水更加清澈。",
+            "startdescription": "這天清晨，我的腳步特別輕快，好像裝了彈簧一樣。我也不知道為什麼。",
+            "description": "有些日子就是比平日更好。有時候，天空不再像張骯髒的被單。有時候，河裡的流水更加清澈。",
             "warmup": 30,
             "craftable": false
         },
@@ -388,7 +388,7 @@
         },
         {
             "id": "starvation",
-            "label": "挨饿",
+            "label": "挨餓",
             "actionId": "illhealth",
             "requirements": {
                 "funds": -1
@@ -401,8 +401,8 @@
                 {
                     "id": "mareendingstarvation",
                     "actionId": "illhealth",
-                    "label": "我心中的牝马",
-                    "startdescription": "<b>她来了</b>",
+                    "label": "我心中的牝馬",
+                    "startdescription": "<b>她來了</b>",
                     "description": "——",
                     "extantreqs": {
                         "lockscar": 3,
@@ -417,12 +417,12 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "没有钱，我很快会挨饿。[如果被疾病耗尽健康，你会死亡。]",
+            "startdescription": "沒有錢，我很快會挨餓。[如果被疾病耗盡健康，你會死亡。]",
             "warmup": 60,
             "slots": [
                 {
                     "id": "starvation",
-                    "label": "挨饿",
+                    "label": "挨餓",
                     "required": {
                         "health": 1
                     },

@@ -2,58 +2,58 @@
     "elements": [
 			{
 				"id": "credits.designwritingcoding",
-				"label": "设计、文案、编程"
+				"label": "設計、文案、編程"
 			},
 			{
 				"id": "credits.productionmarketingbiz",
-				"label": "产品、营销、商务"
+				"label": "產品、營銷、商務"
 
 			},
 			{
 				"id": "credits.ui",
-				"label": "UI设计与编程"
+				"label": "UI設計與編程"
 			},
 			{
 				"id": "credits.art",
-				"label": "美术"
+				"label": "美術"
 			},
 			{
 				"id": "credits.music",
-				"label": "音乐"
+				"label": "音樂"
 			},
 			{
 				"id": "credits.audio",
-				"label": "音频"
+				"label": "音頻"
 			},
 			{
 				"id": "credits.moarwrite",
-				"label": "辅助文案"
+				"label": "輔助文案"
 			},
 			{
 				"id": "credits.moarcode",
-				"label": "辅助编程"
+				"label": "輔助編程"
 			},
 			{
 				"id": "credits.moardesign",
-				"label": "辅助设计"
+				"label": "輔助設計"
 			},
 			{
 				"id": "credits.marketing",
-				"label": "营销与公关"
+				"label": "營銷與公關"
 			},
 			{
 				"id": "credits.loc.zh-hans.",
-				"label": "简体中文本地化",
-				"description": "\nProject Gutenberg | indienova, Bamboo0o0, Dandirion, Erudito93, Ericcil, Fish Wu, Girafe, Lotus, Menschmaschine, Nitrome, <font=NotoSansCJKsc-Regular>N某</font>, Oval_plus, craft, laolaoruqin, railhead, wizardo, <font=NotoSansCJKsc-Regular>阿橘倒地不起, 百影虱子, 可里, 懒猫咪, 骡子·mule, 墨染胧月夜, 沙拉, 一只小雨</font>. EXILE: <font=NotoSansCJKsc-Regular>黑叶残荷, 白前Cynanchum, 夜雨, 狂犬, Dominic Fowler, IvyLili, Corey SK, Cora Reynolds, 京极明, Tomatiel西红柿精, 清客, 安定斯基</font>"
+				"label": "簡體中文本地化",
+				"description": "\nProject Gutenberg | indienova, Bamboo0o0, Dandirion, Erudito93, Ericcil, Fish Wu, Girafe, Lotus, Menschmaschine, Nitrome, <font=NotoSansCJKsc-Regular>N某</font>, Oval_plus, craft, laolaoruqin, railhead, wizardo, <font=NotoSansCJKsc-Regular>阿橘倒地不起, 百影蝨子, 可裡, 懶貓咪, 騾子·mule, 墨染朧月夜, 沙拉, 一隻小雨</font>. EXILE: <font=NotoSansCJKsc-Regular>黑葉殘荷, 白前Cynanchum, 夜雨, 狂犬, Dominic Fowler, IvyLili, Corey SK, Cora Reynolds, 京極明, Tomatiel西紅柿精, 清客, 安定斯基</font>"
 			},
 			{
 				"id": "credits.loc.ru",
-				"label": "俄语本地化"
+				"label": "俄語本地化"
 			},
 			{
 				"id": "credits.special",
-				"label": "特别鸣谢",
-				"description": "Sonja & PK; Matt Hosty; Haley Uyrus, Norman Chalk, Jasper R, Thomas Wade, Michael Guan, Darren Liao, Eve Kimbrough, Joel Bridge, drgatos,  Erin Dalton, So La, Sean Shannon, Jakob Hajdus, Zachary Dearing, Indijohnson, Haoran Sun, Tobia Ronco, Olaf Stachowski, Aiuigi Sarig, Kamil Kozlowski, aljawn, Isyander, nsk, Marcel Möhring, IvyLili... 还有每一位反馈意见和bug的玩家。谢谢你们。."
+				"label": "特別鳴謝",
+				"description": "Sonja & PK; Matt Hosty; Haley Uyrus, Norman Chalk, Jasper R, Thomas Wade, Michael Guan, Darren Liao, Eve Kimbrough, Joel Bridge, drgatos,  Erin Dalton, So La, Sean Shannon, Jakob Hajdus, Zachary Dearing, Indijohnson, Haoran Sun, Tobia Ronco, Olaf Stachowski, Aiuigi Sarig, Kamil Kozlowski, aljawn, Isyander, nsk, Marcel Möhring, IvyLili... 還有每一位反饋意見和bug的玩家。謝謝你們。."
 			}
 		]
 

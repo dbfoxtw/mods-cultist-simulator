@@ -2,7 +2,7 @@
     "elements": [
         {
             "id": "hunger",
-            "label": "饥饿",
+            "label": "飢餓",
             "aspects": {
                 "illhealth": 1,
                 "grail": 2,
@@ -13,13 +13,13 @@
                     "id": "nourishment",
                     "label": "食物",
                     "actionId": "dream",
-                    "description": "为了恢复，我必须吃点东西。",
+                    "description": "為了恢復，我必須吃點東西。",
                     "required": {
                         "funds": 1
                     }
                 }
             ],
-            "description": "要想恢复，我需要休息和有营养的食物。但是，当我涎水直淌，视线游离之际，我看见了那个赤色的杯子；它时不时便会同我讲话。[在“饥饿”消失前将其入梦可恢复“健康”。]",
+            "description": "要想恢復，我需要休息和有營養的食物。但是，當我涎水直淌，視線游離之際，我看見了那個赤色的杯子；它時不時便會同我講話。[在“飢餓”消失前將其入夢可恢復“健康”。]",
             "xtriggers": {
                 "restorehealth": "health",
                 "scar_ability": "scar_heart"
@@ -47,7 +47,7 @@
                 "society": "fatigue",
                 "scar_ability": "scar_heart"
             },
-            "description": "属于我的这具身体。世间存在各种各样的身体，但这一具是属于我的。我的头脑需要它，正如菌菇需要泥土。[你可以用足量的活力获得更多健康。]"
+            "description": "屬於我的這具身體。世間存在各種各樣的身體，但這一具是屬於我的。我的頭腦需要它，正如菌菇需要泥土。[你可以用足量的活力獲得更多健康。]"
         },
         {
             "id": "vitality",
@@ -57,7 +57,7 @@
                     "id": "morevitality",
                     "label": "更多活力",
                     "actionId": "study",
-                    "description": "如果拥有足够多的活力——或时而加上一些更异质的东西——我能增进自己的健康。",
+                    "description": "如果擁有足夠多的活力——或時而加上一些更異質的東西——我能增進自己的健康。",
                     "required": {
                         "vitality": 1,
                         "influenceheart": 1
@@ -69,7 +69,7 @@
                 "heart": 1,
                 "influence": 1
             },
-            "description": "锻炼，或者其他更少见的东西，令我精神振奋。[与另一张“活力”一同使用可提升技能。如果不使用，将会在三分钟后消失。]",
+            "description": "鍛鍊，或者其他更少見的東西，令我精神振奮。[與另一張“活力”一同使用可提升技能。如果不使用，將會在三分鐘後消失。]",
             "xtriggers": {
                 "upgradeinfluence": "influenceheartc"
             },
@@ -77,13 +77,13 @@
         },
         {
             "id": "vitalityplus",
-            "label": "活力：学有所成",
+            "label": "活力：學有所成",
             "aspects": {
                 "advancement": 1,
                 "heart": 2,
                 "influence": 1
             },
-            "description": "我已经准备好改变了。[与“力量”技能一同使用可升级该技能并获得“健康”。五分钟后将会退化回“活力”。]",
+            "description": "我已經準備好改變了。[與“力量”技能一同使用可升級該技能並獲得“健康”。五分鐘後將會退化回“活力”。]",
             "xtriggers": {
                 "upgradeinfluence": "influenceheartc"
             },
@@ -92,7 +92,7 @@
         },
         {
             "id": "restlessness",
-            "label": "躁动",
+            "label": "躁動",
             "aspects": {
                 "influence": 1,
                 "forge": 2,
@@ -102,19 +102,19 @@
                 "moth": 2,
                 "memory": 1
             },
-            "description": "我为一种躁动的向往所俘。我似乎产生了某种……<i>企图</i>。究竟是何企图？",
+            "description": "我為一種躁動的嚮往所俘。我似乎產生了某種……<i>企圖</i>。究竟是何企圖？",
             "lifetime": 60,
             "decayTo": "dread"
         },
         {
             "id": "bloodshed",
             "label": "流血",
-            "description": "血溅当场。",
+            "description": "血濺當場。",
             "lifetime": 1
         },
         {
             "id": "injury",
-            "label": "伤口",
+            "label": "傷口",
             "aspects": {
                 "illhealth": 1,
                 "knock": 2,
@@ -123,9 +123,9 @@
             "slots": [
                 {
                     "id": "medicines",
-                    "label": "用药，或者…",
+                    "label": "用藥，或者…",
                     "actionId": "dream",
-                    "description": "我可以花钱请医生…",
+                    "description": "我可以花錢請醫生…",
                     "required": {
                         "funds": 1
                     }
@@ -133,14 +133,14 @@
                 {
                     "id": "vitality",
                     "label": "…活力",
-                    "description": "…可是我或许只要稍微休息一下就能恢复。",
+                    "description": "…可是我或許只要稍微休息一下就能恢復。",
                     "required": {
                         "vitality": 1
                     },
                     "actionId": "dream"
                 }
             ],
-            "description": "要想恢复，我需要休息和有营养的食物。不过蚁母在和善地看着人的伤口。[在“伤口”消失前将其入梦也可恢复“健康”。]",
+            "description": "要想恢復，我需要休息和有營養的食物。不過蟻母在和善地看著人的傷口。[在“傷口”消失前將其入夢也可恢復“健康”。]",
             "xtriggers": {
                 "restorehealth": "health",
                 "scar_ability": "scar_heart"
@@ -150,8 +150,8 @@
         },
         {
             "id": "disillusionment",
-            "label": "激情（破灭）",
-            "description": "我已经悖离了我自己的准则和偏好。[此卡不可使用，将于六十秒后复原。]",
+            "label": "激情（破滅）",
+            "description": "我已經悖離了我自己的準則和偏好。[此卡不可使用，將於六十秒後復原。]",
             "lifetime": 60,
             "decayTo": "passion",
             "icon": "passion",
@@ -165,7 +165,7 @@
         {
             "id": "passionexhausted",
             "label": "激情（枯竭）",
-            "description": "激情之火衰弱不振。[此卡不可使用，将于六十秒后复原。]",
+            "description": "激情之火衰弱不振。[此卡不可使用，將於六十秒後復原。]",
             "lifetime": 60,
             "decayTo": "passion",
             "icon": "passion",
@@ -178,12 +178,12 @@
         },
         {
             "id": "fatigue",
-            "label": "健康（疲劳）",
+            "label": "健康（疲勞）",
             "aspects": {
                 "illhealth": 1,
                 "heart": 1
             },
-            "description": "此卡不可使用，将会在六十秒后复原。我能通过入梦令其更快恢复。",
+            "description": "此卡不可使用，將會在六十秒後復原。我能通過入夢令其更快恢復。",
             "xtriggers": {
                 "restorehealth": "health",
                 "damagehealth": "injury",
@@ -211,9 +211,9 @@
             "slots": [
                 {
                     "id": "medicine",
-                    "label": "用药，或者…",
+                    "label": "用藥，或者…",
                     "actionId": "dream",
-                    "description": "我可以花钱请医生…",
+                    "description": "我可以花錢請醫生…",
                     "required": {
                         "funds": 1
                     }
@@ -222,13 +222,13 @@
                     "id": "vitality",
                     "label": "…活力",
                     "actionId": "dream",
-                    "description": "…可是我或许只要稍微休息一下就能恢复。",
+                    "description": "…可是我或許只要稍微休息一下就能恢復。",
                     "required": {
                         "vitality": 1
                     }
                 }
             ],
-            "description": "疾病令我虚弱。要想恢复，我需要休息和有营养的食物。[在“病痛”退化前将其入梦也可恢复“健康”。]",
+            "description": "疾病令我虛弱。要想恢復，我需要休息和有營養的食物。[在“病痛”退化前將其入夢也可恢復“健康”。]",
             "lifetime": 180,
             "decayTo": "decrepitude"
         },
@@ -241,7 +241,7 @@
                 "ability": 1
             },
             "animFrames": 1,
-            "description": "“在完全现实的情况下，有机体不可能长久地存活下去。”——雪莉·杰克逊\n\n        [博闻能够用于研究并凭之提升理性。]",
+            "description": "“在完全現實的情況下，有機體不可能長久地存活下去。”——雪莉·傑克遜\n\n        [博聞能夠用於研究並憑之提升理性。]",
             "xtriggers": {
                 "damagereason": "dread",
                 "fatiguing": "concentration",
@@ -256,7 +256,7 @@
         {
             "id": "concentration",
             "label": "理性[黯淡]",
-            "description": "我的头脑疲累。[此卡不可使用，将于六十秒后复原。]",
+            "description": "我的頭腦疲累。[此卡不可使用，將於六十秒後復原。]",
             "lifetime": 60,
             "decayTo": "reason",
             "icon": "reason",
@@ -269,13 +269,13 @@
         },
         {
             "id": "erudition",
-            "label": "博闻",
+            "label": "博聞",
             "slots": [
                 {
                     "id": "moreerudition",
-                    "label": "更多博闻",
+                    "label": "更多博聞",
                     "actionId": "study",
-                    "description": "如果拥有足够多的博闻——或时而加上一些更异质的东西——我能增进自己的理性。",
+                    "description": "如果擁有足夠多的博聞——或時而加上一些更異質的東西——我能增進自己的理性。",
                     "required": {
                         "erudition": 1,
                         "influencelantern": 1
@@ -287,7 +287,7 @@
                 "lantern": 1,
                 "influence": 1
             },
-            "description": "我如饥似渴地吸收着知识，仿佛影子吸收光线。也许我离提升不远了。[研究“博闻”能获得更多“理性”。如果不使用，将会在三分钟后消失。]",
+            "description": "我如饑似渴地吸收著知識，彷彿影子吸收光線。也許我離提升不遠了。[研究“博聞”能獲得更多“理性”。如果不使用，將會在三分鐘後消失。]",
             "lifetime": 180,
             "xtriggers": {
                 "upgradeinfluence": "influencelanternc"
@@ -295,13 +295,13 @@
         },
         {
             "id": "eruditionplus",
-            "label": "博闻：学有所成",
+            "label": "博聞：學有所成",
             "aspects": {
                 "advancement": 1,
                 "lantern": 2,
                 "influence": 1
             },
-            "description": "我已经准备好改变了。[与“学识”技能一起使用可提升该技能并获得“理性”。五分钟后会退化回“博闻”。]",
+            "description": "我已經準備好改變了。[與“學識”技能一起使用可提升該技能並獲得“理性”。五分鐘後會退化回“博聞”。]",
             "lifetime": 300,
             "xtriggers": {
                 "upgradeinfluence": "influencelanternc"
@@ -310,7 +310,7 @@
         },
         {
             "id": "dread",
-            "label": "恐惧",
+            "label": "恐懼",
             "aspects": {
                 "edge": 2,
                 "inducesdespair": 1,
@@ -321,17 +321,17 @@
             "slots": [
                 {
                     "id": "reminders",
-                    "label": "忆起",
+                    "label": "憶起",
                     "actionId": "dream",
                     "required": {
                         "contentment": 1
                     },
-                    "description": "我需要一点点平静，或者一刻的快乐。[过多的恐惧会摧毁你。安逸能治愈恐惧。]"
+                    "description": "我需要一點點平靜，或者一刻的快樂。[過多的恐懼會摧毀你。安逸能治癒恐懼。]"
                 },
                 {
                     "id": "with",
                     "label": "加上",
-                    "description": "或许我可以使用恐惧来增强一个危险的影响。",
+                    "description": "或許我可以使用恐懼來增強一個危險的影響。",
                     "required": {
                         "influenceedge": 1,
                         "influencewinter": 1
@@ -340,8 +340,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "知识",
-                    "description": "我必须理解正在起效的影响才能强化或拗转之。[你需要有相关“密传”的坚实基础。]",
+                    "label": "知識",
+                    "description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]",
                     "required": {
                         "fragmentedgec": 1,
                         "fragmentedged": 1,
@@ -352,7 +352,7 @@
                     "actionId": "study"
                 }
             ],
-            "description": "我已经见得太多了。不知名的恐惧正在用利齿啃噬着我的希望；一种关于存在本身的的恐惧。",
+            "description": "我已經見得太多了。不知名的恐懼正在用利齒啃噬著我的希望；一種關於存在本身的的恐懼。",
             "lifetime": 180,
             "xtriggers": {
                 "upgradeinfluence": "influenceedgec",
@@ -368,7 +368,7 @@
                 "ability": 1
             },
             "animFrames": 1,
-            "description": "“迟钝的头脑既缺乏直觉，也不通逻辑。”——布莱士·帕斯卡\n\n        [如果你拥有足量的“灵感”，你可以通过<b>研究</b>获得更多“激情”。]",
+            "description": "“遲鈍的頭腦既缺乏直覺，也不通邏輯。”——布萊士·帕斯卡\n\n        [如果你擁有足量的“靈感”，你可以通過<b>研究</b>獲得更多“激情”。]",
             "xtriggers": {
                 "damagepassion": "fascination",
                 "plead": "disillusionment",
@@ -383,7 +383,7 @@
         {
             "id": "decrepitude",
             "label": "衰老",
-            "description": "有些伤口永远不会完全愈合。[没能及时处理的伤口和饥饿会转变为衰老，且永远不会恢复为健康。衰老在你死亡之前会一直存在。]",
+            "description": "有些傷口永遠不會完全癒合。[沒能及時處理的傷口和飢餓會轉變為衰老，且永遠不會恢復為健康。衰老在你死亡之前會一直存在。]",
             "aspects": {
                 "ability": 1,
                 "winter": 1,
@@ -409,13 +409,13 @@
         },
         {
             "id": "glimmering",
-            "label": "灵感",
+            "label": "靈感",
             "slots": [
                 {
                     "id": "moreglimmering",
-                    "label": "更多灵感",
+                    "label": "更多靈感",
                     "actionId": "study",
-                    "description": "如果拥有足够多的博闻——或时而加上一些更异质的东西——我能增进自己的激情。",
+                    "description": "如果擁有足夠多的博聞——或時而加上一些更異質的東西——我能增進自己的激情。",
                     "required": {
                         "glimmering": 1,
                         "influencemoth": 1
@@ -427,7 +427,7 @@
                 "moth": 1,
                 "influence": 1
             },
-            "description": "我的情绪比平常更为高昂。有些事物我永远也不会理解，因而永远都那么珍贵，而如今我离它们更近了一点。[在研究中使用“灵感”可获得“激情”。如果不使用，将会在三分钟后消失。]",
+            "description": "我的情緒比平常更為高昂。有些事物我永遠也不會理解，因而永遠都那麼珍貴，而如今我離它們更近了一點。[在研究中使用“靈感”可獲得“激情”。如果不使用，將會在三分鐘後消失。]",
             "lifetime": 180,
             "xtriggers": {
                 "upgradeinfluence": "influencemothc"
@@ -435,13 +435,13 @@
         },
         {
             "id": "glimmeringplus",
-            "label": "灵感：学有所成",
+            "label": "靈感：學有所成",
             "aspects": {
                 "advancement": 1,
                 "moth": 2,
                 "influence": 1
             },
-            "description": "我已经准备好改变了。[与“想象”技能一起使用可升级该技能并获得“激情”。五分钟后将退化回“灵感”。]",
+            "description": "我已經準備好改變了。[與“想像”技能一起使用可升級該技能並獲得“激情”。五分鐘後將退化回“靈感”。]",
             "lifetime": 300,
             "xtriggers": {
                 "upgradeinfluence": "influencemothc"
@@ -460,18 +460,18 @@
             "slots": [
                 {
                     "id": "reminders",
-                    "label": "忆起",
+                    "label": "憶起",
                     "required": {
                         "dread": 1,
                         "fleeting": 1
                     },
                     "actionId": "dream",
-                    "description": "灰色的现实会使我的灵魂稳定。"
+                    "description": "灰色的現實會使我的靈魂穩定。"
                 },
                 {
                     "id": "with",
                     "label": "加上",
-                    "description": "我或许可以使用入迷来增强一个诱人的影响。",
+                    "description": "我或許可以使用入迷來增強一個誘人的影響。",
                     "required": {
                         "influencemoth": 1,
                         "influencelantern": 1
@@ -480,8 +480,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "知识",
-                    "description": "我必须理解正在起效的影响才能强化或拗转之。[你需要有相关“密传”的坚实基础。]",
+                    "label": "知識",
+                    "description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]",
                     "required": {
                         "fragmentmothc": 1,
                         "fragmentmothd": 1,
@@ -492,7 +492,7 @@
                     "actionId": "study"
                 }
             ],
-            "description": "光透过<b>裂缝漏入</b>。我的头脑比<b>任何时候</b>都<b>更清晰</b>。<b>我升得越高，见得越多。</b>",
+            "description": "光透過<b>裂縫漏入</b>。我的頭腦比<b>任何時候</b>都<b>更清晰</b>。<b>我升得越高，見得越多。</b>",
             "lifetime": 180,
             "xtriggers": {
                 "upgradeinfluence": "influencemothc"
@@ -500,68 +500,68 @@
         },
         {
             "id": "scholarlatin",
-            "label": "学问：拉丁语",
+            "label": "學問：拉丁語",
             "aspects": {
                 "language": 1
             },
             "slots": [
                 {
                     "id": "Text",
-                    "label": "未翻译文献",
+                    "label": "未翻譯文獻",
                     "required": {
                         "textlatin": 1
                     },
                     "actionId": "study"
                 }
             ],
-            "description": "一门死去的语言：如金刚石般失去生机。[部分书籍需翻译后方可阅读。]",
+            "description": "一門死去的語言：如金剛石般失去生機。[部分書籍需翻譯後方可閱讀。]",
             "unique": true
         },
         {
             "id": "scholarfucine",
-            "label": "学问：富奇诺语",
+            "label": "學問：富奇諾語",
             "aspects": {
                 "language": 1
             },
             "slots": [
                 {
                     "id": "Text",
-                    "label": "未翻译文献",
+                    "label": "未翻譯文獻",
                     "required": {
                         "textfucine": 1
                     },
                     "actionId": "study"
                 }
             ],
-            "description": "已经消失的富奇诺湖东侧曾有过一些住户。贺拉斯曾警告说，那里是女巫之地。而这便是他们所使用的语言。有些人将之称作“干涸之语”，另一些人则称其为“女巫之语”。[部分书籍需翻译后方可阅读。]",
+            "description": "已經消失的富奇諾湖東側曾有過一些住戶。賀拉斯曾警告說，那裡是女巫之地。而這便是他們所使用的語言。有些人將之稱作“乾涸之語”，另一些人則稱其為“女巫之語”。[部分書籍需翻譯後方可閱讀。]",
             "unique": true
         },
         {
             "id": "scholargreek",
-            "label": "学问：希腊语",
+            "label": "學問：希臘語",
             "aspects": {
                 "language": 1
             },
             "slots": [
                 {
                     "id": "Text",
-                    "label": "未翻译文献",
+                    "label": "未翻譯文獻",
                     "required": {
                         "textgreek": 1
                     },
                     "actionId": "study"
                 }
             ],
-            "description": "毫无疑问你对从早期到拜占庭时期的每一种希腊语都十分精通。但是，能拥有那些参考书籍总归是件好事。[部分书籍需翻译后方可阅读。]",
+            "description": "毫無疑問你對從早期到拜占庭時期的每一種希臘語都十分精通。但是，能擁有那些參考書籍總歸是件好事。[部分書籍需翻譯後方可閱讀。]",
             "unique": true
         },
         {
             "id": "scholarphrygian",
-            "label": "学问：弗里吉亚语",
+            "label": "學問：弗里吉亞語",
             "slots": [
                 {
                     "id": "Text",
-                    "label": "未翻译文献",
+                    "label": "未翻譯文獻",
                     "required": {
                         "textphrygian": 1
                     },
@@ -571,16 +571,16 @@
             "aspects": {
                 "language": 1
             },
-            "description": "弗里吉亚人崇拜的“伟大母亲”就是我们所称的圣杯。他们的土地曾见证过绳结姐妹会诞生，而这门语言便是轰雷之皮飞升时用于恳求的语言。[部分书籍需翻译后方可阅读。]",
+            "description": "弗里吉亞人崇拜的“偉大母親”就是我們所稱的聖杯。他們的土地曾見證過繩結姐妹會誕生，而這門語言便是轟雷之皮飛升時用於懇求的語言。[部分書籍需翻譯後方可閱讀。]",
             "unique": true
         },
         {
             "id": "scholararamaic",
-            "label": "学问：亚兰语",
+            "label": "學問：亞蘭語",
             "slots": [
                 {
                     "id": "Text",
-                    "label": "未翻译文献",
+                    "label": "未翻譯文獻",
                     "required": {
                         "textaramaic": 1
                     },
@@ -590,16 +590,16 @@
             "aspects": {
                 "language": 1
             },
-            "description": "亚兰与她这三千多年以来所养育的众多孩子所使用的语言。[部分书籍需翻译后方可阅读。]",
+            "description": "亞蘭與她這三千多年以來所養育的眾多孩子所使用的語言。[部分書籍需翻譯後方可閱讀。]",
             "unique": true
         },
         {
             "id": "scholarmandaic",
-            "label": "学问：渊深曼达安语",
+            "label": "學問：淵深曼達安語",
             "slots": [
                 {
                     "id": "Text",
-                    "label": "未翻译文献",
+                    "label": "未翻譯文獻",
                     "required": {
                         "textmandaic": 1
                     },
@@ -609,16 +609,16 @@
             "aspects": {
                 "language": 1
             },
-            "description": "深远的沙漠深处引藏最深的关于最隐秘仪式的手迹。据说，它是蚁母其人与生俱来的语言。[部分书籍需翻译后方可阅读。]",
+            "description": "深遠的沙漠深處引藏最深的關於最隱秘儀式的手跡。據說，它是蟻母其人與生俱來的語言。[部分書籍需翻譯後方可閱讀。]",
             "unique": true
         },
         {
             "id": "scholarsanskrit",
-            "label": "学问：梵语",
+            "label": "學問：梵語",
             "slots": [
                 {
                     "id": "Text",
-                    "label": "未翻译文献",
+                    "label": "未翻譯文獻",
                     "required": {
                         "textsanskrit": 1
                     },
@@ -628,16 +628,16 @@
             "aspects": {
                 "language": 1
             },
-            "description": "次大陆的神圣语言。通向四千年的诗歌、典仪和奥秘的大门如今对你敞开，只要你能从它如同莲花般卷曲的词汇中挣出一条路。[部分书籍需翻译后方可阅读。]",
+            "description": "次大陸的神聖語言。通向四千年的詩歌、典儀和奧秘的大門如今對你敞開，只要你能從它如同蓮花般捲曲的詞彙中掙出一條路。[部分書籍需翻譯後方可閱讀。]",
             "unique": true
         },
         {
             "id": "scholarvak",
-            "label": "学问：伐诃语",
+            "label": "學問：伐訶語",
             "slots": [
                 {
                     "id": "Text",
-                    "label": "未翻译文献",
+                    "label": "未翻譯文獻",
                     "required": {
                         "textvak": 1
                     },
@@ -647,13 +647,13 @@
             "aspects": {
                 "language": 1
             },
-            "description": "这是早于诸神自血中诞生，更早于猿人直立行走前，就能在太阳居屋里听到的语言。[部分书籍需翻译后方可阅读。]",
+            "description": "這是早於諸神自血中誕生，更早於猿人直立行走前，就能在太陽居屋裡聽到的語言。[部分書籍需翻譯後方可閱讀。]",
             "unique": true
         },
         {
             "id": "fleeting",
-            "label": "一瞬追忆",
-            "description": "回首某个瞬间。下个瞬间即告消逝。",
+            "label": "一瞬追憶",
+            "description": "回首某個瞬間。下個瞬間即告消逝。",
             "aspects": {
                 "secrethistories": 2,
                 "moth": 2,
@@ -664,7 +664,7 @@
                 {
                     "id": "with",
                     "label": "加上",
-                    "description": "我或许能从我的回忆中寻找一些东西来增强一个短暂的影响。",
+                    "description": "我或許能從我的回憶中尋找一些東西來增強一個短暫的影響。",
                     "required": {
                         "influencemoth": 1,
                         "influencelantern": 1
@@ -673,8 +673,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "知识",
-                    "description": "我必须理解正在起效的影响才能强化或拗转之。[你需要有相关“密传”的坚实基础。]",
+                    "label": "知識",
+                    "description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]",
                     "required": {
                         "fragmentmothc": 1,
                         "fragmentmothd": 1,
@@ -698,12 +698,12 @@
                 "heart": 2,
                 "influence": 1
             },
-            "description": "我很开心，大概吧。[安逸可以抵御恐惧，但安逸难以久存。]",
+            "description": "我很開心，大概吧。[安逸可以抵禦恐懼，但安逸難以久存。]",
             "slots": [
                 {
                     "id": "with",
                     "label": "加上",
-                    "description": "我或许能使用安逸来增强正面影响。",
+                    "description": "我或許能使用安逸來增強正面影響。",
                     "required": {
                         "influencelantern": 1,
                         "influenceheart": 1,
@@ -714,8 +714,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "知识",
-                    "description": "我必须理解正在起效的影响才能强化或拗转之。[你需要有相关“密传”的坚实基础。]",
+                    "label": "知識",
+                    "description": "我必須理解正在起效的影響才能強化或拗轉之。[你需要有相關“密傳”的堅實基礎。]",
                     "required": {
                         "fragmentheartc": 1,
                         "fragmentheartd": 1,
@@ -733,8 +733,8 @@
         },
         {
             "id": "scar_edge",
-            "label": "伤疤：残暴的经历",
-            "description": "<b>浮士德</b>：我以为地狱只是个传说。<b>梅菲斯托费勒斯<b>：嗳，尽管这么想吧，经历会改变你的看法。[你已为力量做出了永久的牺牲。]",
+            "label": "傷疤：殘暴的經歷",
+            "description": "<b>浮士德</b>：我以為地獄只是個傳說。<b>梅菲斯托費勒斯<b>：噯，儘管這麼想吧，經歷會改變你的看法。[你已為力量做出了永久的犧牲。]",
             "aspects": {
                 "tool": 1,
                 "edge": 4,
@@ -743,8 +743,8 @@
         },
         {
             "id": "scar_knock",
-            "label": "伤疤：半愈的瘘管",
-            "description": "并非所有门洞都是创口，但所有创口都是门洞。[你已为力量做出了永久的牺牲。]",
+            "label": "傷疤：半愈的瘺管",
+            "description": "並非所有門洞都是創口，但所有創口都是門洞。[你已為力量做出了永久的犧牲。]",
             "aspects": {
                 "tool": 1,
                 "knock": 4,
@@ -753,8 +753,8 @@
         },
         {
             "id": "scar_winter",
-            "label": "伤疤：旧伤",
-            "description": "又朝日落走近了些，看到了夜空中的第一颗星。[你已为力量做出了永久的牺牲。]",
+            "label": "傷疤：舊傷",
+            "description": "又朝日落走近了些，看到了夜空中的第一顆星。[你已為力量做出了永久的犧牲。]",
             "aspects": {
                 "tool": 1,
                 "winter": 4,
@@ -763,8 +763,8 @@
         },
         {
             "id": "scar_heart",
-            "label": "伤疤：浪游之心",
-            "description": "我拥有如此之多的生命，很难停止不动。我坐下休息时，关节痛如火烧。我知道我一旦止息，或许便是永远。[你已为力量做出了永久的牺牲。小心：此卡不像“健康”，无法缓解生病和饥饿。]",
+            "label": "傷疤：浪遊之心",
+            "description": "我擁有如此之多的生命，很難停止不動。我坐下休息時，關節痛如火燒。我知道我一旦止息，或許便是永遠。[你已為力量做出了永久的犧牲。小心：此卡不像“健康”，無法緩解生病和飢餓。]",
             "aspects": {
                 "tool": 1,
                 "heart": 4,
@@ -778,16 +778,16 @@
         },
         {
             "id": "scar_heart_fatigued",
-            "label": "伤疤：浪游之心（耗竭）",
-            "description": "我的动脉在呻吟，我的血管在燃烧。我无法再逼迫自己前进了。[请等待。]",
+            "label": "傷疤：浪遊之心（耗竭）",
+            "description": "我的動脈在呻吟，我的血管在燃燒。我無法再逼迫自己前進了。[請等待。]",
             "decayTo": "scar_heart",
             "lifetime": 60,
             "resaturate": true
         },
         {
             "id": "scar_moth",
-            "label": "伤疤：百变之相",
-            "description": "我换上过无数副假面孔。每一副假面孔都让我更难回想起自己的本来面目。即便在情绪高扬时，我面上的筋骨依然柔软可塑。[你已为力量做出了永久的牺牲。]",
+            "label": "傷疤：百變之相",
+            "description": "我換上過無數副假面孔。每一副假面孔都讓我更難回想起自己的本來面目。即便在情緒高揚時，我面上的筋骨依然柔軟可塑。[你已為力量做出了永久的犧牲。]",
             "aspects": {
                 "tool": 1,
                 "moth": 4,
@@ -801,16 +801,16 @@
         },
         {
             "id": "scar_moth_fatigued",
-            "label": "伤疤：百变之相（耗竭）",
-            "description": "我每换上一副表情，五官就像水一样起涟漪。如果我不加小心，我将彻底溶解。[请等待。]",
+            "label": "傷疤：百變之相（耗竭）",
+            "description": "我每換上一副表情，五官就像水一樣起漣漪。如果我不加小心，我將徹底溶解。[請等待。]",
             "decayTo": "scar_moth",
             "lifetime": 60,
             "resaturate": true
         },
         {
             "id": "scar_lantern",
-            "label": "伤疤：半隐半现",
-            "description": "现在我有时会露出皮肤下的美貌。当我转向合适的角度——当我的衣服滑落一旁——当遇上锐利的眼光——我的形状被完美地揭示无余。[你已为力量做出了永久的牺牲。]",
+            "label": "傷疤：半隱半現",
+            "description": "現在我有時會露出皮膚下的美貌。當我轉向合適的角度——當我的衣服滑落一旁——當遇上銳利的眼光——我的形狀被完美地揭示無餘。[你已為力量做出了永久的犧牲。]",
             "aspects": {
                 "tool": 1,
                 "lantern": 4,

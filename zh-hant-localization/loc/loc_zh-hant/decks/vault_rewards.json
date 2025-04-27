@@ -2,7 +2,7 @@
     "decks": [
         {
             "id": "vaultrewardsa",
-            "label": "探索首都的回报",
+            "label": "探索首都的回報",
             "description": "",
             "spec": [
                 "wainscothistories",
@@ -39,7 +39,7 @@
         },
         {
             "id": "vaultrewardsb",
-            "label": "探索各郡的回报",
+            "label": "探索各郡的回報",
             "description": "",
             "spec": [
                 "orchidtransfigurations3latin",
@@ -76,7 +76,7 @@
         },
         {
             "id": "vaultrewardsc",
-            "label": "探索大陆的回报",
+            "label": "探索大陸的回報",
             "description": "",
             "spec": [
                 "ingredientwinterb",
@@ -130,7 +130,7 @@
         },
         {
             "id": "vaultrewardsd",
-            "label": "探索森林尽头之地的回报",
+            "label": "探索森林盡頭之地的回報",
             "description": "",
             "spec": [
                 "accountkanishkspidersdooraramaic",
@@ -177,7 +177,7 @@
         },
         {
             "id": "vaultrewardse",
-            "label": "探索撕身山脉的回报",
+            "label": "探索撕身山脈的回報",
             "description": "",
             "spec": [
                 "toolforged",
@@ -208,7 +208,7 @@
         },
         {
             "id": "vaultrewardsf",
-            "label": "探索荒寂而平阔的沙地的回报",
+            "label": "探索荒寂而平闊的沙地的回報",
             "description": "",
             "spec": [
                 "toollanternd",
@@ -249,7 +249,7 @@
         },
         {
             "id": "vaultrewardsg",
-            "label": "探索薄暮群屿的回报",
+            "label": "探索薄暮群嶼的回報",
             "description": "",
             "spec": [
                 "manualdeparturevak",

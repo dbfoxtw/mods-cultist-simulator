@@ -2,9 +2,9 @@
     "legacies": [
         {
             "id": "ghoul",
-            "label": "食尸鬼",
-            "description": "人人皆知：我能与死者交谈。人们曾称呼我为先知，也有人称我为食尸鬼。我没什么理由去破除他们的臆想。",
-            "startdescription": "今夜，剧院人满为患、密不透风。我已经用等待吊足了他们的胃口。",
+            "label": "食屍鬼",
+            "description": "人人皆知：我能與死者交談。人們曾稱呼我為先知，也有人稱我為食屍鬼。我沒什麼理由去破除他們的臆想。",
+            "startdescription": "今夜，劇院人滿為患、密不透風。我已經用等待吊足了他們的胃口。",
             "effects": {
                 "ghouljob.first": 1,
                 "memory.shameful": 1,

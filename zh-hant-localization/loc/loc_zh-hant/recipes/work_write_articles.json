@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "writeedgec",
-            "label": "撰写一篇有关践行<b>刃</b>以及主宰<b>刃</b>的司辰的泛述论文",
+            "label": "撰寫一篇有關踐行<b>刃</b>以及主宰<b>刃</b>的司辰的泛述論文",
             "actionId": "work",
             "requirements": {
                 "commissionarticleedgec": 1,
@@ -13,14 +13,14 @@
             "effects": {
                 "articleedgec": 1
             },
-            "startdescription": "或许能够用于委托。",
-            "description": "我已完成了这份文稿。",
+            "startdescription": "或許能夠用於委託。",
+            "description": "我已完成了這份文稿。",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writeforgec",
-            "label": "撰写一篇关于铸之准则的密传的泛述论文",
+            "label": "撰寫一篇關於鑄之準則的密傳的泛述論文",
             "actionId": "work",
             "requirements": {
                 "commissionarticleforgec": 1,
@@ -31,14 +31,14 @@
             "effects": {
                 "articleforgec": 1
             },
-            "startdescription": "或许能够用于委托。",
-            "description": "我已完成了这份文稿。",
+            "startdescription": "或許能夠用於委託。",
+            "description": "我已完成了這份文稿。",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writegrailc",
-            "label": "撰写一篇关于赤杯之密传的泛述论文",
+            "label": "撰寫一篇關於赤杯之密傳的泛述論文",
             "actionId": "work",
             "requirements": {
                 "commissionarticlegrailc": 1,
@@ -50,14 +50,14 @@
             "effects": {
                 "articlegrailc": 1
             },
-            "startdescription": "或许能够用于委托。",
-            "description": "我已完成了这份文稿。",
+            "startdescription": "或許能夠用於委託。",
+            "description": "我已完成了這份文稿。",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writeheartc",
-            "label": "撰写一篇关于心之密传的泛述论文",
+            "label": "撰寫一篇關於心之密傳的泛述論文",
             "actionId": "work",
             "requirements": {
                 "commissionarticleheartc": 1,
@@ -69,14 +69,14 @@
             "effects": {
                 "articleheartc": 1
             },
-            "startdescription": "或许能够用于委托。",
-            "description": "我已完成了这份文稿。",
+            "startdescription": "或許能夠用於委託。",
+            "description": "我已完成了這份文稿。",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writeknockc",
-            "label": "撰写一篇关于启之密传的泛述论文",
+            "label": "撰寫一篇關於啟之密傳的泛述論文",
             "actionId": "work",
             "requirements": {
                 "commissionarticleknockc": 1,
@@ -87,14 +87,14 @@
             "effects": {
                 "articleknockc": 1
             },
-            "startdescription": "或许能够用于委托。",
-            "description": "我已完成了这份文稿。",
+            "startdescription": "或許能夠用於委託。",
+            "description": "我已完成了這份文稿。",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writelanternc",
-            "label": "撰写一篇关于灯之密传的泛述论文",
+            "label": "撰寫一篇關於燈之密傳的泛述論文",
             "actionId": "work",
             "requirements": {
                 "commissionarticlelanternc": 1,
@@ -105,14 +105,14 @@
             "effects": {
                 "articlelanternc": 1
             },
-            "startdescription": "或许能够用于委托。",
-            "description": "我已完成了这份文稿。",
+            "startdescription": "或許能夠用於委託。",
+            "description": "我已完成了這份文稿。",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writemothc",
-            "label": "撰写一篇关蛾之密传的泛述论文",
+            "label": "撰寫一篇關蛾之密傳的泛述論文",
             "actionId": "work",
             "requirements": {
                 "commissionarticlemothc": 1,
@@ -124,14 +124,14 @@
             "effects": {
                 "articlemothc": 1
             },
-            "startdescription": "或许能够用于委托。",
-            "description": "我已完成了这份文稿。",
+            "startdescription": "或許能夠用於委託。",
+            "description": "我已完成了這份文稿。",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writesecrethistoriesc",
-            "label": "撰写一篇关于秘史的泛述论文",
+            "label": "撰寫一篇關於秘史的泛述論文",
             "actionId": "work",
             "requirements": {
                 "commissionarticlesecrethistoriesc": 1,
@@ -142,14 +142,14 @@
             "effects": {
                 "articlesecrethistoriesc": 1
             },
-            "startdescription": "或许能够用于委托。",
-            "description": "我已完成了这份文稿。",
+            "startdescription": "或許能夠用於委託。",
+            "description": "我已完成了這份文稿。",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writewinterc",
-            "label": "撰写一篇关于纯白密传的泛述论文",
+            "label": "撰寫一篇關於純白密傳的泛述論文",
             "actionId": "work",
             "requirements": {
                 "commissionarticlewinterc": 1,
@@ -160,14 +160,14 @@
             "effects": {
                 "articlewinterc": 1
             },
-            "startdescription": "或许能够用于委托。",
-            "description": "我已完成了这份文稿。",
+            "startdescription": "或許能夠用於委託。",
+            "description": "我已完成了這份文稿。",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writeedgeb",
-            "label": "撰写一篇关于刃的实践的详尽论文",
+            "label": "撰寫一篇關於刃的實踐的詳盡論文",
             "actionId": "work",
             "requirements": {
                 "commissionarticleedgeb": 1,
@@ -178,14 +178,14 @@
             "effects": {
                 "articleedgeb": 1
             },
-            "startdescription": "或许能够用于委托。",
-            "description": "我已完成了这份文稿。",
+            "startdescription": "或許能夠用於委託。",
+            "description": "我已完成了這份文稿。",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writeforgeb",
-            "label": "撰写一篇关于铸之准则的详尽论文",
+            "label": "撰寫一篇關於鑄之準則的詳盡論文",
             "actionId": "work",
             "requirements": {
                 "commissionarticleforgeb": 1,
@@ -196,14 +196,14 @@
             "effects": {
                 "articleforgeb": 1
             },
-            "startdescription": "或许能够用于委托。",
-            "description": "我已完成了这份文稿。",
+            "startdescription": "或許能夠用於委託。",
+            "description": "我已完成了這份文稿。",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writegrailb",
-            "label": "撰写一篇关于赤杯仪式的详尽论文",
+            "label": "撰寫一篇關於赤杯儀式的詳盡論文",
             "actionId": "work",
             "requirements": {
                 "commissionarticlegrailb": 1,
@@ -214,14 +214,14 @@
             "effects": {
                 "articlegrailb": 1
             },
-            "startdescription": "或许能够用于委托。",
-            "description": "我已完成了这份文稿。",
+            "startdescription": "或許能夠用於委託。",
+            "description": "我已完成了這份文稿。",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writeheartb",
-            "label": "撰写一篇关于心之密传的详尽论文",
+            "label": "撰寫一篇關於心之密傳的詳盡論文",
             "actionId": "work",
             "requirements": {
                 "commissionarticleheartb": 1,
@@ -232,14 +232,14 @@
             "effects": {
                 "articleheartb": 1
             },
-            "startdescription": "或许能够用于委托。",
-            "description": "我已完成了这份文稿。",
+            "startdescription": "或許能夠用於委託。",
+            "description": "我已完成了這份文稿。",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writeknockb",
-            "label": "撰写一篇关于启之洞开仪式的详尽论文",
+            "label": "撰寫一篇關於啟之洞開儀式的詳盡論文",
             "actionId": "work",
             "requirements": {
                 "commissionarticleknockb": 1,
@@ -250,14 +250,14 @@
             "effects": {
                 "articleknockb": 1
             },
-            "startdescription": "或许能够用于委托。",
-            "description": "我已完成了这份文稿。",
+            "startdescription": "或許能夠用於委託。",
+            "description": "我已完成了這份文稿。",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writelanternb",
-            "label": "撰写一篇关于灯的详尽论文",
+            "label": "撰寫一篇關於燈的詳盡論文",
             "actionId": "work",
             "requirements": {
                 "commissionarticlelanternb": 1,
@@ -268,14 +268,14 @@
             "effects": {
                 "articlelanternb": 1
             },
-            "startdescription": "或许能够用于委托。",
-            "description": "我已完成了这份文稿。",
+            "startdescription": "或許能夠用於委託。",
+            "description": "我已完成了這份文稿。",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writemothb",
-            "label": "撰写一篇关于蛾的详尽论文",
+            "label": "撰寫一篇關於蛾的詳盡論文",
             "actionId": "work",
             "requirements": {
                 "commissionarticlemothb": 1,
@@ -286,14 +286,14 @@
             "effects": {
                 "articlemothb": 1
             },
-            "startdescription": "或许能够用于委托。",
-            "description": "我已完成了这份文稿。",
+            "startdescription": "或許能夠用於委託。",
+            "description": "我已完成了這份文稿。",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writesecrethistoriesb",
-            "label": "撰写一篇关于秘史的详尽论文",
+            "label": "撰寫一篇關於秘史的詳盡論文",
             "actionId": "work",
             "requirements": {
                 "commissionarticlesecrethistoriesb": 1,
@@ -304,14 +304,14 @@
             "effects": {
                 "articlesecrethistoriesb": 1
             },
-            "startdescription": "或许能够用于委托。",
-            "description": "我已完成了这份文稿。",
+            "startdescription": "或許能夠用於委託。",
+            "description": "我已完成了這份文稿。",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writewinterb",
-            "label": "撰写一篇关于纯白密传的详尽论文",
+            "label": "撰寫一篇關於純白密傳的詳盡論文",
             "actionId": "work",
             "requirements": {
                 "commissionarticlewinterb": 1,
@@ -322,14 +322,14 @@
             "effects": {
                 "articlewinterb": 1
             },
-            "startdescription": "或许能够用于委托。",
-            "description": "我已完成了这份文稿。",
+            "startdescription": "或許能夠用於委託。",
+            "description": "我已完成了這份文稿。",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writeedgea",
-            "label": "撰写一篇关于刃之准则的简要论文",
+            "label": "撰寫一篇關於刃之準則的簡要論文",
             "actionId": "work",
             "requirements": {
                 "commissionarticleedge": 1,
@@ -340,14 +340,14 @@
             "effects": {
                 "articleedgea": 1
             },
-            "startdescription": "或许能够用于委托。",
-            "description": "我已完成了这份文稿。",
+            "startdescription": "或許能夠用於委託。",
+            "description": "我已完成了這份文稿。",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writeforgea",
-            "label": "撰写一篇关于铸之准则的简要论文",
+            "label": "撰寫一篇關於鑄之準則的簡要論文",
             "actionId": "work",
             "requirements": {
                 "commissionarticleforge": 1,
@@ -358,14 +358,14 @@
             "effects": {
                 "articleforgea": 1
             },
-            "startdescription": "或许能够用于委托。",
-            "description": "我已完成了这份文稿。",
+            "startdescription": "或許能夠用於委託。",
+            "description": "我已完成了這份文稿。",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writegraila",
-            "label": "撰写一篇关于赤杯之密传的简要论文",
+            "label": "撰寫一篇關於赤杯之密傳的簡要論文",
             "actionId": "work",
             "requirements": {
                 "commissionarticlegrail": 1,
@@ -376,14 +376,14 @@
             "effects": {
                 "articlegraila": 1
             },
-            "startdescription": "或许能够用于委托。",
-            "description": "我已完成了这份文稿。",
+            "startdescription": "或許能夠用於委託。",
+            "description": "我已完成了這份文稿。",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writehearta",
-            "label": "撰写一篇关于心之密传的简要论文",
+            "label": "撰寫一篇關於心之密傳的簡要論文",
             "actionId": "work",
             "requirements": {
                 "commissionarticleheart": 1,
@@ -394,14 +394,14 @@
             "effects": {
                 "articlehearta": 1
             },
-            "startdescription": "或许能够用于委托。",
-            "description": "我已完成了这份文稿。",
+            "startdescription": "或許能夠用於委託。",
+            "description": "我已完成了這份文稿。",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writeknocka",
-            "label": "撰写一篇关于启之准则与洞开仪式的简要论文",
+            "label": "撰寫一篇關於啟之準則與洞開儀式的簡要論文",
             "actionId": "work",
             "requirements": {
                 "commissionarticleknock": 1,
@@ -412,14 +412,14 @@
             "effects": {
                 "articleknocka": 1
             },
-            "startdescription": "或许能够用于委托。",
-            "description": "我已完成了这份文稿。",
+            "startdescription": "或許能夠用於委託。",
+            "description": "我已完成了這份文稿。",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writelanterna",
-            "label": "撰写一篇关于灯之密传的简要论文",
+            "label": "撰寫一篇關於燈之密傳的簡要論文",
             "actionId": "work",
             "requirements": {
                 "commissionarticlelantern": 1,
@@ -430,14 +430,14 @@
             "effects": {
                 "articlelanterna": 1
             },
-            "startdescription": "或许能够用于委托。",
-            "description": "我已完成了这份文稿。",
+            "startdescription": "或許能夠用於委託。",
+            "description": "我已完成了這份文稿。",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writemotha",
-            "label": "撰写一篇关于蛾的简要论文",
+            "label": "撰寫一篇關於蛾的簡要論文",
             "actionId": "work",
             "requirements": {
                 "commissionarticlemoth": 1,
@@ -448,14 +448,14 @@
             "effects": {
                 "articlemotha": 1
             },
-            "startdescription": "或许能够用于委托。",
-            "description": "我已完成了这份文稿。",
+            "startdescription": "或許能夠用於委託。",
+            "description": "我已完成了這份文稿。",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writesecrethistoriesa",
-            "label": "撰写一篇关于秘史的简要论文",
+            "label": "撰寫一篇關於秘史的簡要論文",
             "actionId": "work",
             "requirements": {
                 "commissionarticlesecrethistories": 1,
@@ -466,14 +466,14 @@
             "effects": {
                 "articlesecrethistoriesa": 1
             },
-            "startdescription": "或许能够用于委托。",
-            "description": "我已完成了这份文稿。",
+            "startdescription": "或許能夠用於委託。",
+            "description": "我已完成了這份文稿。",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writewintera",
-            "label": "撰写一篇关于纯白密传的简要论文",
+            "label": "撰寫一篇關於純白密傳的簡要論文",
             "actionId": "work",
             "requirements": {
                 "commissionarticlewinter": 1,
@@ -484,8 +484,8 @@
             "effects": {
                 "articlewintera": 1
             },
-            "startdescription": "或许能够用于委托。",
-            "description": "我已完成了这份文稿。",
+            "startdescription": "或許能夠用於委託。",
+            "description": "我已完成了這份文稿。",
             "warmup": 60,
             "craftable": true
         }

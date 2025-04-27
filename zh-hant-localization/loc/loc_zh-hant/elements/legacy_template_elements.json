@@ -3,7 +3,7 @@
         {
             "id": "legacytemplatejob",
             "label": "督察警",
-            "description": "我是首都警察局的高层职员。",
+            "description": "我是首都警察局的高層職員。",
             "aspects": {
                 "job": 1
             },

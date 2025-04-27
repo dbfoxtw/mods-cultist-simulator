@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "workbytjobstart",
-            "label": "非常适合从事出于兴趣的工作的一天",
+            "label": "非常適合從事出於興趣的工作的一天",
             "actionId": "work",
             "requirements": {
                 "legacybytjob": 1
@@ -19,14 +19,14 @@
                     "additional": true
                 }
             ],
-            "startdescription": "今天我或许能完成什么。",
-            "description": "一切都很顺利。尽管爸爸的身体没能好转。[解锁<b>探索</b>。]",
+            "startdescription": "今天我或許能完成什麼。",
+            "description": "一切都很順利。儘管爸爸的身體沒能好轉。[解鎖<b>探索</b>。]",
             "warmup": 10,
             "craftable": true
         },
         {
             "id": "workbytjob",
-            "label": "非常适合从事出于兴趣的工作的一天",
+            "label": "非常適合從事出於興趣的工作的一天",
             "actionId": "work",
             "requirements": {
                 "legacybytjobmatured": 1
@@ -40,16 +40,16 @@
                     "chance": 30
                 }
             ],
-            "startdescription": "今天我或许能完成什么。",
-            "description": "一切都很顺利。尽管爸爸的身体还是没能好转。",
+            "startdescription": "今天我或許能完成什麼。",
+            "description": "一切都很順利。儘管爸爸的身體還是沒能好轉。",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "workbytjobend",
-            "label": "天边的云",
+            "label": "天邊的雲",
             "actionId": "work",
-            "startdescription": "爸爸召唤了我！我要立刻赶到他的床边。家庭事务暂且全部推后——",
+            "startdescription": "爸爸召喚了我！我要立刻趕到他的床邊。家庭事務暫且全部推後——",
             "craftable": false,
             "effects": {
                 "legacybytjobmatured": -1,
@@ -78,17 +78,17 @@
                 "health": 2,
                 "funds": 20
             },
-            "startdescription": "爸爸去世了！没人告诉我事情到底是如何发生的。但遗产现在混乱不清。我能分到多少全看遗嘱如何认定。只能指望在我账单到期前能有个结果了。",
-            "description": "遗嘱相关事宜已处理完毕……但爸爸的生意已被蛀虫般的债务吃干抹净。似乎没人知道他到底把钱花到什么地方去了。不过据说，律师要给我寄来一些文书。",
+            "startdescription": "爸爸去世了！沒人告訴我事情到底是如何發生的。但遺產現在混亂不清。我能分到多少全看遺囑如何認定。只能指望在我賬單到期前能有個結果了。",
+            "description": "遺囑相關事宜已處理完畢……但爸爸的生意已被蛀蟲般的債務吃乾抹淨。似乎沒人知道他到底把錢花到什麼地方去了。不過據說，律師要給我寄來一些文書。",
             "warmup": 60,
             "craftable": false
         },
         {
             "id": "bytopenexplore",
-            "label": "无限可能的世界",
+            "label": "無限可能的世界",
             "actionId": "explore",
-            "startdescription": "一些有意思的人把我带到了一些有意思的地方。",
-            "description": "如果我需要一些关于如何花钱的建议，这些有意思的地方的有意思的人一定可以帮到我！",
+            "startdescription": "一些有意思的人把我帶到了一些有意思的地方。",
+            "description": "如果我需要一些關於如何花錢的建議，這些有意思的地方的有意思的人一定可以幫到我！",
             "warmup": 10,
             "effects": {
                 "locationauctionhouse": 1,
@@ -98,9 +98,9 @@
         },
         {
             "id": "bytopenstudy",
-            "label": "令人疑惑的文书",
+            "label": "令人疑惑的文書",
             "actionId": "study",
-            "startdescription": "我要接收爸爸遗物里的一些文书，这些文书或许能给我一些启示，关于他把钱都花到哪个该死的地方去了。",
+            "startdescription": "我要接收爸爸遺物裡的一些文書，這些文書或許能給我一些啟示，關於他把錢都花到哪個該死的地方去了。",
             "alt": [
                 {
                     "id": "bytopendream",
@@ -108,7 +108,7 @@
                     "additional": true
                 }
             ],
-            "description": "我已经收到了这份文书。可怜的爸爸。一页一页又一页潦草的手书，望眼欲穿地写道一座无形的房屋，睡梦的颜色和世界背后的无形诸神……但你知道吗，我读得越多，它就越发地……怎么说呢，不“合理”。完全不合理。但又自成一体。这便是爸爸的日记。",
+            "description": "我已經收到了這份文書。可憐的爸爸。一頁一頁又一頁潦草的手書，望眼欲穿地寫道一座無形的房屋，睡夢的顏色和世界背後的無形諸神……但你知道嗎，我讀得越多，它就越發地……怎麼說呢，不“合理”。完全不合理。但又自成一體。這便是爸爸的日記。",
             "effects": {
                 "legacydiarylastcharacter": 1,
                 "LEVER_LastBook": 1
@@ -118,7 +118,7 @@
         },
         {
             "id": "bytstudydiary",
-            "label": "研究令人不安的日记",
+            "label": "研究令人不安的日記",
             "actionId": "study",
             "requirements": {
                 "legacydiarylastcharacter": 1
@@ -135,14 +135,14 @@
                 "reason": 1,
                 "fragmentgrail": 1
             },
-            "startdescription": "爸爸的日记，记录了一长痴迷的念头。但是也许能解释最近发生的事情？",
-            "description": "#PREVIOUSCHARACTERNAME#的名字不断出现在日记中。他是“不可能的交点”，“未来之泉”……“割眼之人”。而且，在最后一页，留下了一个通信地址，还有一个名字。",
+            "startdescription": "爸爸的日記，記錄了一長痴迷的念頭。但是也許能解釋最近發生的事情？",
+            "description": "#PREVIOUSCHARACTERNAME#的名字不斷出現在日記中。他是“不可能的交點”，“未來之泉”……“割眼之人”。而且，在最後一頁，留下了一個通信地址，還有一個名字。",
             "warmup": 10,
             "craftable": true
         },
         {
             "id": "bytopendream",
-            "label": "无墙的居屋",
+            "label": "無牆的居屋",
             "actionId": "dream",
             "alt": [
                 {
@@ -151,8 +151,8 @@
                     "additional": true
                 }
             ],
-            "startdescription": "梦境开始了。爸爸谈到过它们，他说在更早的时候他的爸爸也有过这样的问题。有些东西存在于我们血缘之中；一种能消灭灵魂的刺骨哀愁。",
-            "description": "我梦到一束收缩的光，一束洒落在雪上却并未将其融化的阳光。当我醒来，房间总是冷的。",
+            "startdescription": "夢境開始了。爸爸談到過它們，他說在更早的時候他的爸爸也有過這樣的問題。有些東西存在於我們血緣之中；一種能消滅靈魂的刺骨哀愁。",
+            "description": "我夢到一束收縮的光，一束灑落在雪上卻並未將其融化的陽光。當我醒來，房間總是冷的。",
             "warmup": 30,
             "effects": {
                 "passion": 1,
@@ -162,10 +162,10 @@
         },
         {
             "id": "bytopentalk",
-            "label": "招徕一名陌生人",
+            "label": "招徠一名陌生人",
             "actionId": "talk",
-            "startdescription": "我已经联系了那位在令人费解的文件中提及的人。我没理由相信他能对我明白之前所发生的事情的本质有所帮助。但是也许他能在即将到来的事上有所帮助。",
-            "description": "我的新熟人对爸爸的事很了解。他知道他要死了。他还想在死前品味未知的、被健康社会所不容的欢愉。我的新朋友建议我完成他刚刚开始的任务——而如果我这么做了，我可能可以将自己从那困扰我家庭的绝望中拯救出来。",
+            "startdescription": "我已經聯繫了那位在令人費解的文件中提及的人。我沒理由相信他能對我明白之前所發生的事情的本質有所幫助。但是也許他能在即將到來的事上有所幫助。",
+            "description": "我的新熟人對爸爸的事很了解。他知道他要死了。他還想在死前品味未知的、被健康社會所不容的歡愉。我的新朋友建議我完成他剛剛開始的任務——而如果我這麼做了，我可能可以將自己從那困擾我家庭的絕望中拯救出來。",
             "effects": {
                 "poppyready": 1,
                 "ascensionsensationa": 1

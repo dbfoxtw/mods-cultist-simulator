@@ -2,8 +2,8 @@
     "elements": [
         {
             "id": "corpse",
-            "label": "人类尸体",
-            "description": "里面的魂灵已去。到某个时点，它散发的臭气会重到让你不得不把它处理掉，但现在还不至于。它有可能引来注意；也可用来打动那些可打动之人。[即便在“尸体”消失后，“邪名”也依然会留存。]",
+            "label": "人類屍體",
+            "description": "裡面的魂靈已去。到某個時點，它散發的臭氣會重到讓你不得不把它處理掉，但現在還不至於。它有可能引來注意；也可用來打動那些可打動之人。[即便在“屍體”消失後，“邪名”也依然會留存。]",
             "aspects": {
                 "winter": 3,
                 "grail": 3,
@@ -20,52 +20,52 @@
         },
         {
         "id": "corpse.calcin",
-        "label": "人类尸体",
-        "description": "里面的魂灵已去。",
+        "label": "人類屍體",
+        "description": "裡面的魂靈已去。",
         },
         {
             "id": "corpse.furious",
-            "label": "带疤骨片",
+            "label": "帶疤骨片",
             "aspects": {
                 "remnant": 1
             },
             "xtriggers": {
                 "alzabo": "memory.furious"
             },
-            "description": "碎骨内含一位更古老的司辰的回忆。"
+            "description": "碎骨內含一位更古老的司辰的回憶。"
         },
         {
             "id": "corpse.luxurious",
-            "label": "韧皮残片",
+            "label": "韌皮殘片",
             "aspects": {
                 "remnant": 1
             },
             "xtriggers": {
                 "alzabo": "memory.luxurious"
             },
-            "description": "感官回忆和向往，绳结的秘密，存于旧自我的一块不被看好的碎片中。"
+            "description": "感官回憶和嚮往，繩結的秘密，存於舊自我的一塊不被看好的碎片中。"
         },
         {
             "id": "corpse.liminal",
-            "label": "长生碎片",
+            "label": "長生碎片",
             "aspects": {
                 "remnant": 1
             },
             "xtriggers": {
                 "alzabo": "memory.liminal"
             },
-            "description": "残量极少，但其味道——这份出人意料的味道——"
+            "description": "殘量極少，但其味道——這份出人意料的味道——"
         },
         {
             "id": "corpse.horizon",
-            "label": "无影断片",
+            "label": "無影斷片",
             "aspects": {
                 "remnant": 1
             },
             "xtriggers": {
                 "alzabo": "memory.horizon"
             },
-            "description": "众王究竟是否知晓真正的辉光？"
+            "description": "眾王究竟是否知曉真正的輝光？"
         },
         {
             "id": "corpse.splendid",
@@ -76,7 +76,7 @@
             "xtriggers": {
                 "alzabo": "memory.splendid"
             },
-            "description": "她知道太阳原先的模样吗？"
+            "description": "她知道太陽原先的模樣嗎？"
         }
     ]
 }

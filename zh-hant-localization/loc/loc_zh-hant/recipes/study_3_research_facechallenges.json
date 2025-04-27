@@ -4,7 +4,7 @@
             "id": "studyresearch.entrypoint",
             "actionId": "study",
             "label": "踏入黑夜",
-            "startdescription": "智慧是一个国度，此为它的地图。[解开两个“密传”片段上所有挑战，完成研究任务。失败的话可重试。]",
+            "startdescription": "智慧是一個國度，此為它的地圖。[解開兩個“密傳”片段上所有挑戰，完成研究任務。失敗的話可重試。]",
             "description": ".",
             "requirements": {
                 "lore": 2
@@ -23,7 +23,7 @@
             "id": "studyresearch.attemptsolve",
             "actionId": "study",
             "label": "踏入黑夜",
-            "startdescription": "智慧是一个国度，此为它的地图。[解开两个“密传”片段上所有挑战，完成研究任务。失败的话可重试。]",
+            "startdescription": "智慧是一個國度，此為它的地圖。[解開兩個“密傳”片段上所有挑戰，完成研究任務。失敗的話可重試。]",
             "linked": [
                 {
                     "id": "studyresearch.nochallengesremaining"
@@ -54,11 +54,11 @@
         {
             "id": "studyresearch.attemptsolve.challenge.knowledge",
             "actionId": "study",
-            "label": "挑战：知识",
+            "label": "挑戰：知識",
             "requirements": {
                 "challenge.knowledge": 1
             },
-            "startdescription": "这是一方缺失拼片的拼图。也许我会在学海的偏远之隅找到这些片段。[投入“博闻”，或使用藏书室。]",
+            "startdescription": "這是一方缺失拼片的拼圖。也許我會在學海的偏遠之隅找到這些片段。[投入“博聞”，或使用藏書室。]",
             "slots": [
                 {
                     "id": "solvechallenge",
@@ -84,7 +84,7 @@
             "id": "studyresearch.failed.challenge.knowledge",
             "actionId": "study",
             "label": "行不通！",
-            "startdescription": "我的研究暂时遇到阻碍。",
+            "startdescription": "我的研究暫時遇到阻礙。",
             "requirements": {
                 "erudition": -1,
                 "library": -1
@@ -94,8 +94,8 @@
         {
             "id": "studyresearch.solved.challenge.knowledge",
             "actionId": "study",
-            "label": "原来如此——！",
-            "startdescription": "——答案如此，对吧？[你破解了一关知识挑战。]",
+            "label": "原來如此——！",
+            "startdescription": "——答案如此，對吧？[你破解了一關知識挑戰。]",
             "mutations": [
                 {
                     "filter": "lore",
@@ -117,11 +117,11 @@
         {
             "id": "studyresearch.attemptsolve.challenge.intuition",
             "actionId": "study",
-            "label": "挑战：直觉",
+            "label": "挑戰：直覺",
             "requirements": {
                 "challenge.intuition": 1
             },
-            "startdescription": "这是一方缺失拼片的拼图。也许我会在学海的偏远之隅找到这些片段。[投入“灵感”，或使用圣所。]",
+            "startdescription": "這是一方缺失拼片的拼圖。也許我會在學海的偏遠之隅找到這些片段。[投入“靈感”，或使用聖所。]",
             "slots": [
                 {
                     "id": "solvechallenge",
@@ -147,7 +147,7 @@
             "id": "studyresearch.failed.challenge.intuition",
             "actionId": "study",
             "label": "行不通！",
-            "startdescription": "我的研究暂时遇到阻碍。",
+            "startdescription": "我的研究暫時遇到阻礙。",
             "requirements": {
                 "glimmering": -1,
                 "sanctuary": -1
@@ -157,8 +157,8 @@
         {
             "id": "studyresearch.solved.challenge.intuition",
             "actionId": "study",
-            "label": "原来如此——！",
-            "startdescription": "——答案如此，对吧？[你破解了一关直觉挑战。]",
+            "label": "原來如此——！",
+            "startdescription": "——答案如此，對吧？[你破解了一關直覺挑戰。]",
             "mutations": [
                 {
                     "filter": "lore",
@@ -180,11 +180,11 @@
         {
             "id": "studyresearch.attemptsolve.challenge.grim",
             "actionId": "study",
-            "label": "挑战：严酷的教训",
+            "label": "挑戰：嚴酷的教訓",
             "requirements": {
                 "challenge.grim": 1
             },
-            "startdescription": "这是一方缺失拼片的拼图。也许我会在学海的偏远之隅找到这些片段。[投入“恐惧”，或使用暗穴，或使用技能“无声的厚重”。“恐惧”可能越增越多。]",
+            "startdescription": "這是一方缺失拼片的拼圖。也許我會在學海的偏遠之隅找到這些片段。[投入“恐懼”，或使用暗穴，或使用技能“無聲的厚重”。“恐懼”可能越增越多。]",
             "slots": [
                 {
                     "id": "solvechallenge",
@@ -211,7 +211,7 @@
             "id": "studyresearch.failed.challenge.grim",
             "actionId": "study",
             "label": "行不通！",
-            "startdescription": "我的研究暂时遇到阻碍。",
+            "startdescription": "我的研究暫時遇到阻礙。",
             "requirements": {
                 "dread": -1,
                 "pit": -1,
@@ -222,8 +222,8 @@
         {
             "id": "studyresearch.solved.challenge.grim",
             "actionId": "study",
-            "label": "原来如此——！",
-            "startdescription": "——答案如此，对吧？[你破解了一关严酷挑战。]",
+            "label": "原來如此——！",
+            "startdescription": "——答案如此，對吧？[你破解了一關嚴酷挑戰。]",
             "mutations": [
                 {
                     "filter": "lore",
@@ -249,11 +249,11 @@
         {
             "id": "studyresearch.attemptsolve.challenge.obsessive",
             "actionId": "study",
-            "label": "挑战：走火入魔的研究",
+            "label": "挑戰：走火入魔的研究",
             "requirements": {
                 "challenge.obsessive": 1
             },
-            "startdescription": "这是一方缺失拼片的拼图。也许我会在学海的偏远之隅找到这些片段。[交出你的“理性”，理性可能永久受损；或使用藏书室；或使用技能“永无止尽”。]",
+            "startdescription": "這是一方缺失拼片的拼圖。也許我會在學海的偏遠之隅找到這些片段。[交出你的“理性”，理性可能永久受損；或使用藏書室；或使用技能“永無止盡”。]",
             "slots": [
                 {
                     "id": "solvechallenge",
@@ -280,7 +280,7 @@
             "id": "studyresearch.failed.challenge.obsessive",
             "actionId": "study",
             "label": "行不通！",
-            "startdescription": "我的研究暂时遇到阻碍。",
+            "startdescription": "我的研究暫時遇到阻礙。",
             "requirements": {
                 "reason": -1,
                 "library": -1,
@@ -291,8 +291,8 @@
         {
             "id": "studyresearch.solved.challenge.obsessive",
             "actionId": "study",
-            "label": "原来如此——！",
-            "startdescription": "——答案如此，对吧？[你破解了一关走火入魔挑战。]",
+            "label": "原來如此——！",
+            "startdescription": "——答案如此，對吧？[你破解了一關走火入魔挑戰。]",
             "aspects": {
                 "fatiguing": 1
             },
@@ -318,8 +318,8 @@
         {
             "id": "studyresearch.damagereason",
             "actionId": "study",
-            "label": "走火入魔带来的重负",
-            "startdescription": "我将我的思绪像磨刀一样磨得锋锐。现在这把刀的刀尖折断了。[“理性”已永久受损。]",
+            "label": "走火入魔帶來的重負",
+            "startdescription": "我將我的思緒像磨刀一樣磨得鋒銳。現在這把刀的刀尖折斷了。[“理性”已永久受損。]",
             "requirements": {
                 "concentration": 1
             },
@@ -337,11 +337,11 @@
         {
             "id": "studyresearch.attemptsolve.challenge.paradox",
             "actionId": "study",
-            "label": "挑战：矛盾的解法",
+            "label": "挑戰：矛盾的解法",
             "requirements": {
                 "challenge.paradox": 1
             },
-            "startdescription": "这是一方缺失拼片的拼图。也许我会在学海的偏远之隅找到这些片段。[交出“激情”，激情可能永久受损；或使用圣所；或使用技能“洞开的灵魂”。]",
+            "startdescription": "這是一方缺失拼片的拼圖。也許我會在學海的偏遠之隅找到這些片段。[交出“激情”，激情可能永久受損；或使用聖所；或使用技能“洞開的靈魂”。]",
             "slots": [
                 {
                     "id": "solvechallenge",
@@ -368,7 +368,7 @@
             "id": "studyresearch.failed.challenge.paradox",
             "actionId": "study",
             "label": "行不通！",
-            "startdescription": "我的研究暂时遇到阻碍。",
+            "startdescription": "我的研究暫時遇到阻礙。",
             "requirements": {
                 "passion": -1,
                 "sanctuary": -1,
@@ -379,8 +379,8 @@
         {
             "id": "studyresearch.solved.challenge.paradox",
             "actionId": "study",
-            "label": "原来如此——！",
-            "startdescription": "——答案如此，对吧？[你破解了一关矛盾挑战。]",
+            "label": "原來如此——！",
+            "startdescription": "——答案如此，對吧？[你破解了一關矛盾挑戰。]",
             "aspects": {
                 "fatiguing": 1
             },
@@ -406,8 +406,8 @@
         {
             "id": "studyresearch.damagepassion",
             "actionId": "study",
-            "label": "迷宫的心脏",
-            "startdescription": "我追随我的激情穿过迷宫，现在位于它的心脏。迷宫的心脏是一个漆黑、空洞的地方，被烧毁得像焦木一样。[“激情”已永久受损。]",
+            "label": "迷宮的心臟",
+            "startdescription": "我追隨我的激情穿過迷宮，現在位於它的心臟。迷宮的心臟是一個漆黑、空洞的地方，被燒毀得像焦木一樣。[“激情”已永久受損。]",
             "requirements": {
                 "passionexhausted": 1
             },
@@ -425,11 +425,11 @@
         {
             "id": "studyresearch.attemptsolve.challenge.illumination",
             "actionId": "study",
-            "label": "挑战：光照",
+            "label": "挑戰：光照",
             "requirements": {
                 "challenge.illumination": 1
             },
-            "startdescription": "这是一方缺失拼片的拼图。也许我会在学海的偏远之隅找到这些片段。[投入“入迷”，入迷可能越生越多；或使用藏书室；或应用技能“高深的思维”。]",
+            "startdescription": "這是一方缺失拼片的拼圖。也許我會在學海的偏遠之隅找到這些片段。[投入“入迷”，入迷可能越生越多；或使用藏書室；或應用技能“高深的思維”。]",
             "slots": [
                 {
                     "id": "solvechallenge",
@@ -456,7 +456,7 @@
             "id": "studyresearch.failed.challenge.illumination",
             "actionId": "study",
             "label": "行不通！",
-            "startdescription": "我的研究暂时遇到阻碍。",
+            "startdescription": "我的研究暫時遇到阻礙。",
             "requirements": {
                 "fascination": -1,
                 "library": -1,
@@ -467,8 +467,8 @@
         {
             "id": "studyresearch.solved.challenge.illumination",
             "actionId": "study",
-            "label": "原来如此——！",
-            "startdescription": "——答案如此，对吧？[你破解了一关光照挑战。]",
+            "label": "原來如此——！",
+            "startdescription": "——答案如此，對吧？[你破解了一關光照挑戰。]",
             "mutations": [
                 {
                     "filter": "lore",
@@ -494,11 +494,11 @@
         {
             "id": "studyresearch.attemptsolve.challenge.practical",
             "actionId": "study",
-            "label": "挑战：应用试验",
+            "label": "挑戰：應用試驗",
             "requirements": {
                 "challenge.practical": 1
             },
-            "startdescription": "这是一方缺失拼片的拼图。也许我会在学海的偏远之隅找到这些片段。[用你的“健康”冒险，或使用一名囚犯。]",
+            "startdescription": "這是一方缺失拼片的拼圖。也許我會在學海的偏遠之隅找到這些片段。[用你的“健康”冒險，或使用一名囚犯。]",
             "slots": [
                 {
                     "id": "solvechallenge",
@@ -524,7 +524,7 @@
             "id": "studyresearch.failed.challenge.practical",
             "actionId": "study",
             "label": "行不通！",
-            "startdescription": "我的研究暂时遇到阻碍。",
+            "startdescription": "我的研究暫時遇到阻礙。",
             "requirements": {
                 "health": -1,
                 "prisoner": -1
@@ -534,8 +534,8 @@
         {
             "id": "studyresearch.solved.challenge.practical",
             "actionId": "study",
-            "label": "原来如此——！",
-            "startdescription": "——答案如此，对吧？[你破解了一关应用挑战。]",
+            "label": "原來如此——！",
+            "startdescription": "——答案如此，對吧？[你破解了一關應用挑戰。]",
             "aspects": {
                 "fatiguing": 1
             },
@@ -561,8 +561,8 @@
         {
             "id": "studyresearch.damagehealth",
             "actionId": "study",
-            "label": "损害",
-            "startdescription": "疼痛予人教诲，他们如是说，尤其在他们自己不疼的时候。[“健康”受到伤害。]",
+            "label": "損害",
+            "startdescription": "疼痛予人教誨，他們如是說，尤其在他們自己不疼的時候。[“健康”受到傷害。]",
             "requirements": {
                 "fatigue": 1
             },
@@ -580,8 +580,8 @@
         {
             "id": "studyresearch.nochallengesremaining",
             "actionId": "study",
-            "label": "瞠目于光中",
-            "startdescription": "我——我现在明白了！",
+            "label": "瞠目於光中",
+            "startdescription": "我——我現在明白了！",
             "description": "",
             "warmup": 30,
             "requirements": {
@@ -705,7 +705,7 @@
             "requirements": {
                 "lore": 2
             },
-            "startdescription": "这个研究项目富有潜力。当研究需求浮现时，我须得将其满足，获得洞见。若得到三个洞见则成功，否则失败。",
+            "startdescription": "這個研究項目富有潛力。當研究需求浮現時，我須得將其滿足，獲得洞見。若得到三個洞見則成功，否則失敗。",
             "description": ".",
             "warmup": 30,
             "linked": [
@@ -748,8 +748,8 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "路途被困惑笼罩。我须得投入更多的理性。",
-            "description": "我得用理性促进研究的进行。",
+            "startdescription": "路途被困惑籠罩。我須得投入更多的理性。",
+            "description": "我得用理性促進研究的進行。",
             "warmup": 30,
             "craftable": false,
             "linked": [
@@ -761,7 +761,7 @@
         },
         {
             "id": "studyresearchreasonsuccess",
-            "label": "智力之光迸发！",
+            "label": "智力之光迸發！",
             "actionId": "study",
             "requirements": {
                 "reason": 1
@@ -770,7 +770,7 @@
                 "insight": 1
             },
             "craftable": false,
-            "startdescription": "这件事更占据了我的注意。但是我的努力正在获得回报。[获得“洞查”。]",
+            "startdescription": "這件事更占據了我的注意。但是我的努力正在獲得回報。[獲得“洞查”。]",
             "linked": [
                 {
                     "id": "studyresearchtick",
@@ -783,7 +783,7 @@
         },
         {
             "id": "studyresearchneedserudition",
-            "label": "谜题的拼片",
+            "label": "謎題的拼片",
             "actionId": "study",
             "requirements": {},
             "effects": {},
@@ -803,8 +803,8 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "我的研究需要<b>博闻</b>。",
-            "description": "我的研究需要<b>博闻</b>。",
+            "startdescription": "我的研究需要<b>博聞</b>。",
+            "description": "我的研究需要<b>博聞</b>。",
             "warmup": 30,
             "craftable": false,
             "linked": [
@@ -816,7 +816,7 @@
         },
         {
             "id": "studyresearcheruditionsuccess",
-            "label": "拼在这里正合适！",
+            "label": "拼在這裡正合適！",
             "actionId": "study",
             "requirements": {
                 "erudition": 1
@@ -825,7 +825,7 @@
                 "insight": 1
             },
             "craftable": false,
-            "startdescription": "知识生出知识。[获得“洞见”。]",
+            "startdescription": "知識生出知識。[獲得“洞見”。]",
             "linked": [
                 {
                     "id": "studyresearchtick",
@@ -835,7 +835,7 @@
         },
         {
             "id": "studyresearchneedsglimmering",
-            "label": "直觉之门",
+            "label": "直覺之門",
             "actionId": "study",
             "requirements": {},
             "effects": {},
@@ -855,7 +855,7 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "我的研究需要灵感。",
+            "startdescription": "我的研究需要靈感。",
             "description": ".",
             "warmup": 30,
             "craftable": false,
@@ -868,7 +868,7 @@
         },
         {
             "id": "studyresearchglimmeringsuccess",
-            "label": "直觉之门打开！",
+            "label": "直覺之門打開！",
             "actionId": "study",
             "requirements": {
                 "glimmering": 1
@@ -876,7 +876,7 @@
             "effects": {
                 "insight": 1
             },
-            "startdescription": "有的时候，人会在意想不到的地方获得洞见。[获得“洞见”。]",
+            "startdescription": "有的時候，人會在意想不到的地方獲得洞見。[獲得“洞見”。]",
             "craftable": false,
             "linked": [
                 {
@@ -924,7 +924,7 @@
         },
         {
             "id": "studyresearchmaxinsight",
-            "label": "研究完成，获得通彻的洞见",
+            "label": "研究完成，獲得通徹的洞見",
             "alt": [
                 {
                     "id": "studyresearchsuccess",
@@ -943,7 +943,7 @@
         },
         {
             "id": "studyresearchmoderateinsight",
-            "label": "研究完成，获得局部的洞见",
+            "label": "研究完成，獲得局部的洞見",
             "alt": [
                 {
                     "id": "studyresearchsuccess",
@@ -965,7 +965,7 @@
         },
         {
             "id": "studyresearchminimalinsight",
-            "label": "研究完成，获得零星的洞见",
+            "label": "研究完成，獲得零星的洞見",
             "actionId": "study",
             "requirements": {},
             "alt": [
@@ -995,7 +995,7 @@
                 "insight": -100
             },
             "startdescription": ".",
-            "description": "我学到了新东西。",
+            "description": "我學到了新東西。",
             "warmup": 0,
             "craftable": false,
             "linked": [

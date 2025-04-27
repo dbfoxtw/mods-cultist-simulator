@@ -2,14 +2,14 @@
     "elements": [
         {
             "id": "investigator1",
-            "label": "韦克菲尔德督察",
+            "label": "韋克菲爾德督察",
             "aspects": {
                 "hunter": 1,
                 "mortal": 1,
                 "meticulous": 1,
                 "grim": 1
             },
-            "description": "扎迦利·韦克菲尔德（意为醒时之境）：一名悒悒不乐却又冷酷无情的督察警官。他最近被借调到了防剿局。",
+            "description": "扎迦利·韋克菲爾德（意為醒時之境）：一名悒悒不樂卻又冷酷無情的督察警官。他最近被借調到了防剿局。",
             "unique": true,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -21,14 +21,14 @@
         },
         {
             "id": "investigator2",
-            "label": "斯宾塞·霍布森",
+            "label": "斯賓塞·霍布森",
             "aspects": {
                 "hunter": 1,
                 "mortal": 1,
                 "mystic": 1,
                 "erratic": 1
             },
-            "description": "霍布森当过记者，私家侦探和——时间极短的——教士。现在他是防剿局的一名干员。",
+            "description": "霍布森當過記者，私家偵探和——時間極短的——教士。現在他是防剿局的一名幹員。",
             "unique": true,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -47,7 +47,7 @@
                 "tenacious": 1,
                 "mystic": 1
             },
-            "description": "女继承人，女性参政论者兼冒险家。她最近把她那堂吉诃德式的热忱和大笔财富投入到为防剿局办事中。",
+            "description": "女繼承人，女性參政論者兼冒險家。她最近把她那堂吉訶德式的熱忱和大筆財富投入到為防剿局辦事中。",
             "unique": true,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -59,14 +59,14 @@
         },
         {
             "id": "investigator4",
-            "label": "纳塔丽娅·龙博士",
+            "label": "納塔麗婭·龍博士",
             "aspects": {
                 "hunter": 1,
                 "mortal": 1,
                 "idealist": 1,
                 "meticulous": 1
             },
-            "description": "她在分析多重历史时遭到嘲笑，被排挤出了学术界，这却让她变得更加坚定。她现在在和防剿局协作。",
+            "description": "她在分析多重歷史時遭到嘲笑，被排擠出了學術界，這卻讓她變得更加堅定。她現在在和防剿局協作。",
             "unique": true,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -78,12 +78,12 @@
         },
         {
             "id": "defaulthunter",
-            "label": "讨人嫌的警探",
+            "label": "討人嫌的警探",
             "aspects": {
                 "hunter": 1,
                 "mortal": 1
             },
-            "description": "这位绅士更愿意独自跟他的烟斗和《伦敦新闻画报》待在一起，但是不行，<i>显然</i>哪里冒出来了些讨厌鬼需要人像逮疯狗一样去逮他们，而且<i>显然</i>其他人都没功夫去做。",
+            "description": "這位紳士更願意獨自跟他的煙斗和《倫敦新聞畫報》待在一起，但是不行，<i>顯然</i>哪裡冒出來了些討厭鬼需要人像逮瘋狗一樣去逮他們，而且<i>顯然</i>其他人都沒功夫去做。",
             "xtriggers": {
                 "killmortal": "corpse",
                 "killhunter": "corpse",
@@ -94,7 +94,7 @@
         },
         {
             "id": "investigator1prisoner",
-            "label": "韦克菲尔德督察：俘获！",
+            "label": "韋克菲爾德督察：俘獲！",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -103,7 +103,7 @@
                 "heart": 3,
                 "winter": 4
             },
-            "description": "扎迦利·韦克菲尔德：一名悒悒不乐却又冷酷无情的督察警官。让我们确保他死在牢中。",
+            "description": "扎迦利·韋克菲爾德：一名悒悒不樂卻又冷酷無情的督察警官。讓我們確保他死在牢中。",
             "unique": true,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -115,7 +115,7 @@
         },
         {
             "id": "investigator2prisoner",
-            "label": "斯宾塞·霍布森：俘获！",
+            "label": "斯賓塞·霍布森：俘獲！",
             "aspects": {
                 "prisoner": 1,
                 "mortal": 1,
@@ -124,7 +124,7 @@
                 "heart": 3,
                 "knock": 3
             },
-            "description": "霍布森当过记者，私家侦探和——时间极短的——教士。让我们确保他死在牢中。",
+            "description": "霍布森當過記者，私家偵探和——時間極短的——教士。讓我們確保他死在牢中。",
             "unique": true,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -136,7 +136,7 @@
         },
         {
             "id": "investigator3prisoner",
-            "label": "康妮·李：俘获！",
+            "label": "康妮·李：俘獲！",
             "aspects": {
                 "prisoner": 1,
                 "mortal": 1,
@@ -145,7 +145,7 @@
                 "heart": 3,
                 "edge": 3
             },
-            "description": "女继承人，女性参政论者兼冒险家。让我们确保她死在牢中。",
+            "description": "女繼承人，女性參政論者兼冒險家。讓我們確保她死在牢中。",
             "unique": true,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -157,7 +157,7 @@
         },
         {
             "id": "investigator4prisoner",
-            "label": "纳塔丽娅·龙博士：俘获！",
+            "label": "納塔麗婭·龍博士：俘獲！",
             "aspects": {
                 "prisoner": 1,
                 "mortal": 1,
@@ -165,7 +165,7 @@
                 "grail": 3,
                 "heart": 3
             },
-            "description": "她在分析多重历史时遭到嘲笑，被排挤出了学术界，这却让她变得更加坚定。让我们确保她死在牢中。",
+            "description": "她在分析多重歷史時遭到嘲笑，被排擠出了學術界，這卻讓她變得更加堅定。讓我們確保她死在牢中。",
             "unique": true,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -177,7 +177,7 @@
         },
         {
             "id": "defaulthunterprisoner",
-            "label": "讨人嫌的警探：俘获！",
+            "label": "討人嫌的警探：俘獲！",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -185,7 +185,7 @@
                 "grail": 3,
                 "heart": 3
             },
-            "description": "这位绅士更愿意独自跟他的烟斗和《伦敦新闻画报》待在一起，不过如今他给关进了某个倒霉的地洞里。",
+            "description": "這位紳士更願意獨自跟他的煙斗和《倫敦新聞畫報》待在一起，不過如今他給關進了某個倒霉的地洞裡。",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "douglas_r",

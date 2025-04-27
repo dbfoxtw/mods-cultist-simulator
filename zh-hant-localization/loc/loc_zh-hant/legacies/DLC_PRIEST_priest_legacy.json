@@ -3,8 +3,8 @@
         {
             "id": "priest",
             "label": "教士",
-            "description": "在幻象中，我看到了圣亚割妮。我已经吸取教训，不去谈及她所采用的形象。",
-            "startdescription": "我受命负责一个新教区的灵性健康——我们过去称这项职责为“心灵关怀”。",
+            "description": "在幻象中，我看到了聖亞割妮。我已經吸取教訓，不去談及她所採用的形象。",
+            "startdescription": "我受命負責一個新教區的靈性健康——我們過去稱這項職責為“心靈關懷”。",
             "effects": {
                 "passion": 1,
                 "priestjob": 1,

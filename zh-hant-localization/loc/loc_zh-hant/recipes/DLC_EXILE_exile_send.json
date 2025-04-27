@@ -4,7 +4,7 @@
             "id": "send.first",
             "actionid": "send",
             "label": "交流",
-            "startdescription": "我有足够的理由不去联系我的故人，但世事无常。",
+            "startdescription": "我有足夠的理由不去聯繫我的故人，但世事無常。",
             "effects": {
                 "temptation.obscurity": 1
             },
@@ -14,14 +14,14 @@
         {
             "id": "send.op.echidna",
             "actionid": "send",
-            "label": "柴玛的追踪",
-            "startdescription": "一听到厄客德娜现身的传言……",
-            "description": "出于某些原因，柴玛不能出发。",
+            "label": "柴瑪的追蹤",
+            "startdescription": "一聽到厄客德娜現身的傳言……",
+            "description": "出於某些原因，柴瑪不能出發。",
             "slots": [
                 {
                     "id": "chaima",
-                    "label": "柴玛",
-                    "description": "柴玛在沙漠的边缘地带有事要做。",
+                    "label": "柴瑪",
+                    "description": "柴瑪在沙漠的邊緣地帶有事要做。",
                     "required": {
                         "ally.huntress": 1
                     },
@@ -49,9 +49,9 @@
         {
             "id": "send.op.echidna.2",
             "actionid": "send",
-            "label": "柴玛的猎物",
-            "startdescription": "一听到厄客德娜现身的传言，柴玛便消失在了沙漠中，只留下了一张字条，简洁明了，正是她的风格：“在狩猎。不是狩猎丽姬亚。”",
-            "description": "柴玛回来了，拖着一个用绳子捆住的男人。那人眼窝凹陷、相貌非凡，非人的肌肉在他的表皮之下起伏鼓动。“找到了。”柴玛对我说。",
+            "label": "柴瑪的獵物",
+            "startdescription": "一聽到厄客德娜現身的傳言，柴瑪便消失在了沙漠中，只留下了一張字條，簡潔明瞭，正是她的風格：“在狩獵。不是狩獵麗姬亞。”",
+            "description": "柴瑪回來了，拖著一個用繩子捆住的男人。那人眼窩凹陷、相貌非凡，非人的肌肉在他的表皮之下起伏鼓動。“找到了。”柴瑪對我說。",
             "requirements": {
                 "ally.huntress": 1
             },
@@ -63,14 +63,14 @@
         {
             "id": "send.op.morgen",
             "actionid": "send",
-            "label": "和平旦夫人会面？",
-            "startdescription": "平旦夫人是一个所谓的丽姬亚，也就是说，她是做得出吃人这种事情来的。但是我听说她认识丝毧那位无名的具名者，“败者能在那位具名者的迷雾中寻得慰藉。”那可能正是我需要的。",
-            "description": "什么也没有。我在码头边白等了一场，只有海风吹打着我。",
+            "label": "和平旦夫人會面？",
+            "startdescription": "平旦夫人是一個所謂的麗姬亞，也就是說，她是做得出吃人這種事情來的。但是我聽說她認識絲毧那位無名的具名者，“敗者能在那位具名者的迷霧中尋得慰藉。”那可能正是我需要的。",
+            "description": "什麼也沒有。我在碼頭邊白等了一場，只有海風吹打著我。",
             "slots": [
                 {
                     "id": "gift",
-                    "label": "一份礼物",
-                    "description": "能激发平旦夫人兴趣的东西"
+                    "label": "一份禮物",
+                    "description": "能激發平旦夫人興趣的東西"
                 }
             ],
             "alt": [
@@ -91,7 +91,7 @@
             "id": "send.op.morgen.pentiment",
             "actionid": "send",
             "label": "平旦夫人！",
-            "startdescription": "平旦夫人笑着从舷梯上走下来。她的笑声像鸟儿的歌声，她的眼睛也像鸟儿的眼睛——一对闪闪发光的黑色珠子。“有意思，”她柔和地说，“还有吗？”",
+            "startdescription": "平旦夫人笑著從舷梯上走下來。她的笑聲像鳥兒的歌聲，她的眼睛也像鳥兒的眼睛——一對閃閃發光的黑色珠子。“有意思，”她柔和地說，“還有嗎？”",
             "requirements": {
                 "pentiment": 1
             },
@@ -111,12 +111,12 @@
             "requirements": {
                 "pentiment": 1
             },
-            "label": "将第二件覆画残迹献给平旦夫人",
-            "startdescription": "“不错的开头，我猜你想让我替你说情。不过要说服我，你可得多下点功夫。你还拿得出什么？”",
+            "label": "將第二件覆畫殘跡獻給平旦夫人",
+            "startdescription": "“不錯的開頭，我猜你想讓我替你說情。不過要說服我，你可得多下點功夫。你還拿得出什麼？”",
             "slots": [
                 {
                     "id": "pentiment",
-                    "label": "覆画残迹",
+                    "label": "覆畫殘跡",
                     "required": {
                         "pentiment": 1
                     }
@@ -138,12 +138,12 @@
             "requirements": {
                 "pentiment": 2
             },
-            "label": "将第三件覆画残迹献给平旦夫人",
-            "startdescription": "“很好。继续。我亲爱的无名者可是相当贪婪的。”",
+            "label": "將第三件覆畫殘跡獻給平旦夫人",
+            "startdescription": "“很好。繼續。我親愛的無名者可是相當貪婪的。”",
             "slots": [
                 {
                     "id": "pentiment",
-                    "label": "覆画残迹",
+                    "label": "覆畫殘跡",
                     "required": {
                         "pentiment": 1
                     }
@@ -165,12 +165,12 @@
             "requirements": {
                 "pentiment": 3
             },
-            "label": "将第四件覆画残迹献给平旦夫人",
-            "startdescription": "“很好，很好。还有吗？靠近点。让我看看你。”",
+            "label": "將第四件覆畫殘跡獻給平旦夫人",
+            "startdescription": "“很好，很好。還有嗎？靠近點。讓我看看你。”",
             "slots": [
                 {
                     "id": "pentiment",
-                    "label": "覆画残迹",
+                    "label": "覆畫殘跡",
                     "required": {
                         "pentiment": 1
                     }
@@ -192,12 +192,12 @@
             "requirements": {
                 "pentiment": 4
             },
-            "label": "将第五件覆画残迹献给平旦夫人",
-            "startdescription": "“我想我闻到了什么罕见的东西。大地之血，对吧？看在你血脉的份上，我想我可以安排一趟<i>旅程</i>。那里有人会很高兴见到你的。但代价更高。需要七个。”",
+            "label": "將第五件覆畫殘跡獻給平旦夫人",
+            "startdescription": "“我想我聞到了什麼罕見的東西。大地之血，對吧？看在你血脈的份上，我想我可以安排一趟<i>旅程</i>。那裡有人會很高興見到你的。但代價更高。需要七個。”",
             "slots": [
                 {
                     "id": "pentiment",
-                    "label": "覆画残迹",
+                    "label": "覆畫殘跡",
                     "required": {
                         "pentiment": 1
                     }
@@ -219,12 +219,12 @@
             "requirements": {
                 "pentiment": 5
             },
-            "label": "将第六件覆画残迹献给平旦夫人",
-            "startdescription": "“<i>Allez</i>（加油），我的朋友。我们一起就能做到，就快成功了。”",
+            "label": "將第六件覆畫殘跡獻給平旦夫人",
+            "startdescription": "“<i>Allez</i>（加油），我的朋友。我們一起就能做到，就快成功了。”",
             "slots": [
                 {
                     "id": "pentiment",
-                    "label": "覆画残迹",
+                    "label": "覆畫殘跡",
                     "required": {
                         "pentiment": 1
                     }
@@ -246,12 +246,12 @@
             "requirements": {
                 "pentiment": 6
             },
-            "label": "将第七件覆画残迹献给平旦夫人",
-            "startdescription": "平旦夫人夸张地吸了一口气。“真不少——！那位无名者谅必会欣喜若狂！再来一个——再多一个，我就会转动我的钥匙，只为你一人。”",
+            "label": "將第七件覆畫殘跡獻給平旦夫人",
+            "startdescription": "平旦夫人誇張地吸了一口氣。“真不少——！那位無名者諒必會欣喜若狂！再來一個——再多一個，我就會轉動我的鑰匙，只為你一人。”",
             "slots": [
                 {
                     "id": "pentiment",
-                    "label": "覆画残迹",
+                    "label": "覆畫殘跡",
                     "required": {
                         "pentiment": 1
                     }
@@ -273,16 +273,16 @@
                 "pentiment": 7
             },
             "actionid": "send",
-            "label": "顶点之门",
-            "startdescription": "平旦夫人举起一颗宝石，漆黑而泛光，一如她的眸子。“<i>Bon voyage.</i>（一路平安）”",
+            "label": "頂點之門",
+            "startdescription": "平旦夫人舉起一顆寶石，漆黑而泛光，一如她的眸子。“<i>Bon voyage.</i>（一路平安）”",
             "warmup": 30,
             "ending": "victoryvelvet"
         },
         {
             "id": "send.op.morgen.pentiment.break",
             "actionid": "send",
-            "label": "不够",
-            "startdescription": "“没了？”",
+            "label": "不夠",
+            "startdescription": "“沒了？”",
             "linked": [
                 {
                     "id": "send.op.morgen.pentiment.break.nothing"
@@ -295,8 +295,8 @@
         {
             "id": "send.op.morgen.pentiment.break.nothing",
             "actionid": "send",
-            "label": "不够",
-            "startdescription": "“我希望你不是来浪费我的时间的。我已经说过了。”",
+            "label": "不夠",
+            "startdescription": "“我希望你不是來浪費我的時間的。我已經說過了。”",
             "extantreqs": {
                 "curio.morgen": 1
             }
@@ -304,8 +304,8 @@
         {
             "id": "send.op.morgen.pentiment.break.flute",
             "actionid": "send",
-            "label": "不够",
-            "startdescription": "平旦夫人淡白而美丽的额头浮现出了一丝皱纹。“还不够。我们能做得更好，<i>hein</i>（对吧）？拿着这个。等你再到海边的时候，用这个呼唤我，我就会来。不过只有一次。我不喜欢浪费时间。到时再见。”",
+            "label": "不夠",
+            "startdescription": "平旦夫人淡白而美麗的額頭浮現出了一絲皺紋。“還不夠。我們能做得更好，<i>hein</i>（對吧）？拿著這個。等你再到海邊的時候，用這個呼喚我，我就會來。不過只有一次。我不喜歡浪費時間。到時再見。”",
             "effects": {
                 "curio.morgen": 1
             }
@@ -313,14 +313,14 @@
         {
             "id": "send.op.medusa",
             "actionid": "send",
-            "label": "寻找不得见之物",
-            "startdescription": "关于丽姬亚俱乐部的美杜莎，有一次“褪皮”对我说：“她可能是她这类当中还活着的最年迈的一位，不过她已经死了。”“褪皮”说话就是这样的。但现在，在雕像的盲眼下，在布达佩斯雨中隐约可见的街道上，我还记得他说的另一件事，那就是美杜莎的谜语——“何物不得见？”我的皮肤传来一阵刺痛。",
-            "description": "什么都没有。雨水浸穿了我的大衣，顺着我的脖子向后背淌下。她还在此处，如果她还在的话。",
+            "label": "尋找不得見之物",
+            "startdescription": "關於麗姬亞俱樂部的美杜莎，有一次“褪皮”對我說：“她可能是她這類當中還活著的最年邁的一位，不過她已經死了。”“褪皮”說話就是這樣的。但現在，在雕像的盲眼下，在布達佩斯雨中隱約可見的街道上，我還記得他說的另一件事，那就是美杜莎的謎語——“何物不得見？”我的皮膚傳來一陣刺痛。",
+            "description": "什麼都沒有。雨水浸穿了我的大衣，順著我的脖子向後背淌下。她還在此處，如果她還在的話。",
             "slots": [
                 {
                     "id": "medusa",
-                    "label": "美杜莎的谜语",
-                    "description": "“何物不得见？”",
+                    "label": "美杜莎的謎語",
+                    "description": "“何物不得見？”",
                     "required": {
                         "moth": 1
                     },
@@ -352,7 +352,7 @@
             "id": "send.op.medusa.pentiment",
             "actionid": "send",
             "label": "偶遇",
-            "startdescription": "我找到了美杜莎那谜语的答案……我想她也找到我了。当然我从来没有看见过她，但是我在黑夜里用去了一个小时，现在我的心脏上带着一道无法愈合的伤口。\n\n这就是自找麻烦的后果。（如果我真的遇到了一个丽姬亚成员，她为什么会放过我？我满怀疑问。）",
+            "startdescription": "我找到了美杜莎那謎語的答案……我想她也找到我了。當然我從來沒有看見過她，但是我在黑夜裡用去了一個小時，現在我的心臟上帶著一道無法癒合的傷口。\n\n這就是自找麻煩的後果。（如果我真的遇到了一個麗姬亞成員，她為什麼會放過我？我滿懷疑問。）",
             "requirements": {
                 "moth": 1
             },
@@ -366,15 +366,15 @@
         {
             "id": "send.ligeian",
             "actionid": "send",
-            "label": "寻找丽姬亚成员",
+            "label": "尋找麗姬亞成員",
             "requirements": {
                 "ligeian": 1
             },
-            "startdescription": "和我一样，丽姬亚社的成员也是罪犯和逃亡者。与我不同的是，她们被永恒的诅咒纠缠，因为她们吞食了自己新诞下的血肉。尽管如此，我们或许还是能达成一些共识。",
+            "startdescription": "和我一樣，麗姬亞社的成員也是罪犯和逃亡者。與我不同的是，她們被永恆的詛咒糾纏，因為她們吞食了自己新誕下的血肉。儘管如此，我們或許還是能達成一些共識。",
             "slots": [
                 {
                     "id": "gift",
-                    "label": "一份礼物",
+                    "label": "一份禮物",
                     "required": {
                         "remnant": 1,
                         "decade.stolen": 1,
@@ -406,14 +406,14 @@
         {
             "id": "send.ligeian.risk",
             "actionid": "send",
-            "label": "长勺互哺之时",
+            "label": "長勺互哺之時",
             "requirements": {
                 "remnant": -1,
                 "decade.stolen": -1,
                 "ally": -1,
                 "associate": -1
             },
-            "startdescription": "如果我空着手去找一位丽姬亚，那我最好祈祷她心情不错。[丽姬亚有些时候心情不错，但并非总是如此。]",
+            "startdescription": "如果我空著手去找一位麗姬亞，那我最好祈禱她心情不錯。[麗姬亞有些時候心情不錯，但並非總是如此。]",
             "linked": [
                 {
                     "id": "send.ligeian.reward",
@@ -427,13 +427,13 @@
         {
             "id": "send.ligeian.reward",
             "actionid": "send",
-            "label": "“<b>丽姬亚永记不忘</b>”",
-            "startdescription": "@#op.echidna|“亲爱的，坐。我们聊聊。”\n#op.kleidouchos|“今天，我没有吃掉你。你想要什么？快说。”\n#op.marinette|“<sprite name=secrethistories>？”\n#op.sulochana|苏洛恰那深吸了一口丁香味的烟。“我愿意纵容你一回，”她轻声地说，“接着说。”@\n[放入一张大敌未知的弱点来详细了解它。否则，丽姬亚会给你一份礼物，或者吃掉一个清算人而不留下任何痕迹——尽管她不会注意到线人，也不会去追杀大敌。]",
+            "label": "“<b>麗姬亞永記不忘</b>”",
+            "startdescription": "@#op.echidna|“親愛的，坐。我們聊聊。”\n#op.kleidouchos|“今天，我沒有吃掉你。你想要什麼？快說。”\n#op.marinette|“<sprite name=secrethistories>？”\n#op.sulochana|蘇洛恰那深吸了一口丁香味的煙。“我願意縱容你一回，”她輕聲地說，“接著說。”@\n[放入一張大敵未知的弱點來詳細了解它。否則，麗姬亞會給你一份禮物，或者吃掉一個清算人而不留下任何痕跡——儘管她不會注意到線人，也不會去追殺大敵。]",
             "slots": [
                 {
                     "id": "advice",
-                    "label": "建议",
-                    "description": "丽姬亚消息灵通，而且她们十分古老。",
+                    "label": "建議",
+                    "description": "麗姬亞消息靈通，而且她們十分古老。",
                     "required": {
                         "weakness.foe.unknown": 1
                     },
@@ -467,8 +467,8 @@
         {
             "id": "send.ligeian.revelation",
             "actionid": "send",
-            "label": "情报",
-            "startdescription": "@#op.echidna|“我当然知道他。我也认识你母亲，我对她曾寄予厚望……”\n#op.kleidouchos|“嗯……我知道你的大敌。”\n#op.marinette|“<sprite name=lantern>。”\n#op.sulochana|“哦，是的。他在战前就经常到这儿来。”@",
+            "label": "情報",
+            "startdescription": "@#op.echidna|“我當然知道他。我也認識你母親，我對她曾寄予厚望……”\n#op.kleidouchos|“嗯……我知道你的大敵。”\n#op.marinette|“<sprite name=lantern>。”\n#op.sulochana|“哦，是的。他在戰前就經常到這兒來。”@",
             "requirements": {
                 "weakness.foe.unknown": 1
             },
@@ -483,7 +483,7 @@
             "id": "send.ligeian.ravage",
             "actionid": "send",
             "label": "一口吞噬",
-            "startdescription": "@#op.echidna|“宝宝，有哪个美味的家伙给你添麻烦了？让E阿姨来解决吧。”\n#op.kleidouchos|“我已经向你那个清算人朋友提出了我的反对意见。”\n#op.marinette|“<sprite name=edge>，<sprite name=edge>，<sprite name=edge>...<sprite name=grail>。”\n#op.sulochana|“他真傻。好吧，他不会再这样做了。”@",
+            "startdescription": "@#op.echidna|“寶寶，有哪個美味的傢伙給你添麻煩了？讓E阿姨來解決吧。”\n#op.kleidouchos|“我已經向你那個清算人朋友提出了我的反對意見。”\n#op.marinette|“<sprite name=edge>，<sprite name=edge>，<sprite name=edge>...<sprite name=grail>。”\n#op.sulochana|“他真傻。好吧，他不會再這樣做了。”@",
             "extantreqs": {
                 "rkx.rank": 1
             },
@@ -498,8 +498,8 @@
         {
             "id": "send.ligeian.echidna.reward",
             "actionid": "send",
-            "label": "厄客德娜的礼物",
-            "startdescription": "“给你，亲爱的。这是从一个本不该改变主意的人那里得来的。”",
+            "label": "厄客德娜的禮物",
+            "startdescription": "“給你，親愛的。這是從一個本不該改變主意的人那裡得來的。”",
             "requirements": {
                 "op.echidna": 1,
                 "weakness.foe.unknown": -1
@@ -513,8 +513,8 @@
         {
             "id": "send.ligeian.kleidouchos.reward",
             "actionid": "send",
-            "label": "克勒杜赫斯的礼物",
-            "startdescription": "“我再也用不着这个了。你可能用得上。不要把它喝掉。”",
+            "label": "克勒杜赫斯的禮物",
+            "startdescription": "“我再也用不著這個了。你可能用得上。不要把它喝掉。”",
             "requirements": {
                 "op.kleidouchos": 1,
                 "weakness.foe.unknown": -1
@@ -527,7 +527,7 @@
         {
             "id": "send.ligeian.marinette.reward",
             "actionid": "send",
-            "label": "玛丽内特的礼物",
+            "label": "瑪麗內特的禮物",
             "startdescription": "<sprite name=mortal>。",
             "requirements": {
                 "op.marinette": 1,
@@ -542,8 +542,8 @@
         {
             "id": "send.ligeian.sulochana.reward",
             "actionid": "send",
-            "label": "苏洛恰那的礼物",
-            "startdescription": "“我来为你介绍几个人。你绝对想不到我的俱乐部里都有谁会来。”",
+            "label": "蘇洛恰那的禮物",
+            "startdescription": "“我來為你介紹幾個人。你絕對想不到我的俱樂部裡都有誰會來。”",
             "requirements": {
                 "op.sulochana": 1,
                 "weakness.foe.unknown": -1
@@ -558,9 +558,9 @@
         {
             "id": "send.ligeian.displeased",
             "actionid": "send",
-            "label": "丽姬亚被激怒",
-            "startdescription": "我陷入了一场满是牙齿和皱缩皮肤的噩梦！我正在努力摆脱—— ",
-            "description": "我已回到安全的街道上，但我没能毫发无损地逃离。当我踉踉跄跄地走过时，路人都转头看着我。",
+            "label": "麗姬亞被激怒",
+            "startdescription": "我陷入了一場滿是牙齒和皺縮皮膚的噩夢！我正在努力擺脫—— ",
+            "description": "我已回到安全的街道上，但我沒能毫髮無損地逃離。當我踉踉蹌蹌地走過時，路人都轉頭看著我。",
             "effects": {
                 "wound.exile.unstanchable": 1,
                 "trace": 1,
@@ -571,8 +571,8 @@
         {
             "id": "send.defiance.ascend.colonel",
             "actionid": "send",
-            "label": "不息的敌意",
-            "startdescription": "上校向我的决心和技巧致敬。他会在他的敌人狮子匠面前为我作保。",
+            "label": "不息的敵意",
+            "startdescription": "上校向我的決心和技巧致敬。他會在他的敵人獅子匠面前為我作保。",
             "requirements": {
                 "defiancemarks": 7,
                 "defiance.consecration.colonel": 1
@@ -588,8 +588,8 @@
         {
             "id": "send.defiance.ascend.lionsmith",
             "actionid": "send",
-            "label": "不息的敌意",
-            "startdescription": "狮子匠向我的勇气和力量致敬。他将在他的敌人上校面前为我作保。",
+            "label": "不息的敵意",
+            "startdescription": "獅子匠向我的勇氣和力量致敬。他將在他的敵人上校面前為我作保。",
             "requirements": {
                 "defiancemarks": 7,
                 "defiance.consecration.lionsmith": 1
@@ -605,8 +605,8 @@
         {
             "id": "send.defiance.ascend.wolf",
             "actionid": "send",
-            "label": "不息的敌意",
-            "startdescription": "裂分之狼把我标记为它的所有物。我的脖子因它臭不可闻的气息而发烫。",
+            "label": "不息的敵意",
+            "startdescription": "裂分之狼把我標記為它的所有物。我的脖子因它臭不可聞的氣息而發燙。",
             "requirements": {
                 "defiancemarks": 7
             },
@@ -621,8 +621,8 @@
         {
             "id": "send.defiance.ascend.morewounds.hint",
             "actionid": "send",
-            "label": "不息的敌意？",
-            "startdescription": "还有另一种方式来结束这一切……那就是，使此战永不结束。现在，我的大敌和我被锁在了角争之中，就像时钟里一对啮合的齿轮。而我只需要转动钥匙。[我可以拜请一位<b>刃</b>之司辰将我与大敌的决斗升华到永恒的境界——但前提是我必须给他造成六处重伤，使战斗陷入僵局。]",
+            "label": "不息的敵意？",
+            "startdescription": "還有另一種方式來結束這一切……那就是，使此戰永不結束。現在，我的大敵和我被鎖在了角爭之中，就像時鐘裡一對嚙合的齒輪。而我只需要轉動鑰匙。[我可以拜請一位<b>刃</b>之司辰將我與大敵的決鬥升華到永恆的境界——但前提是我必須給他造成六處重傷，使戰鬥陷入僵局。]",
             "requirements": {
                 "defiancemarks": 7
             },
@@ -635,8 +635,8 @@
         {
             "id": "send.defiance.ascend.moremarks.hint",
             "actionid": "send",
-            "label": "不息的敌意？",
-            "startdescription": "也许有另一种方式来结束这一切……那就是，使此战永不结束。[如果你拥有七级反抗，而且你的大敌正在场上，那么另一种形式的胜利会变为可能。]",
+            "label": "不息的敵意？",
+            "startdescription": "也許有另一種方式來結束這一切……那就是，使此戰永不結束。[如果你擁有七級反抗，而且你的大敵正在場上，那麼另一種形式的勝利會變為可能。]",
             "requirements": {
                 "defiancemarks": 2
             },
@@ -649,8 +649,8 @@
         {
             "id": "send.defiance.lureexists.hint",
             "actionid": "send",
-            "label": "反抗的召唤：已经发出",
-            "startdescription": "我的大敌已经知道我身处何方了。",
+            "label": "反抗的召喚：已經發出",
+            "startdescription": "我的大敵已經知道我身處何方了。",
             "requirements": {
                 "temptation.defiance": 1,
                 "lure.foe": 1,
@@ -666,8 +666,8 @@
         {
             "id": "send.defiance.weaponalreadysent.hint",
             "actionid": "send",
-            "label": "反抗的礼物：已经送出",
-            "startdescription": "我已给我的大敌送去了武器。",
+            "label": "反抗的禮物：已經送出",
+            "startdescription": "我已給我的大敵送去了武器。",
             "requirements": {
                 "temptation.defiance": 1,
                 "weapon": 1,
@@ -683,8 +683,8 @@
         {
             "id": "send.defiance.weaponprofane.hint",
             "actionid": "send",
-            "label": "反抗的礼物：还不够",
-            "startdescription": "俗世的武器并无作用。",
+            "label": "反抗的禮物：還不夠",
+            "startdescription": "俗世的武器並無作用。",
             "requirements": {
                 "temptation.defiance": 1,
                 "uq.weapon.profane": 1
@@ -699,8 +699,8 @@
         {
             "id": "send.defiance.marks.hint.7",
             "actionid": "send",
-            "label": "角争",
-            "startdescription": "如果我能在与大敌的决战中造成僵局，那么角争之心便有可能将我接纳。到了那时，我将永远不会为和平所苦。",
+            "label": "角爭",
+            "startdescription": "如果我能在與大敵的決戰中造成僵局，那麼角爭之心便有可能將我接納。到了那時，我將永遠不會為和平所苦。",
             "requirements": {
                 "defiancemarks": 7
             },
@@ -710,8 +710,8 @@
         {
             "id": "send.defiance.marks.hint.6",
             "actionid": "send",
-            "label": "角争",
-            "startdescription": "我已经成为了角争的中心。当我经过时，夫妻们有时会吵架，而狗会转身咬主人，火焰将熊熊燃烧，或是彻底熄灭。",
+            "label": "角爭",
+            "startdescription": "我已經成為了角爭的中心。當我經過時，夫妻們有時會吵架，而狗會轉身咬主人，火焰將熊熊燃燒，或是徹底熄滅。",
             "requirements": {
                 "defiancemarks": 6
             },
@@ -721,8 +721,8 @@
         {
             "id": "send.defiance.marks.hint.5",
             "actionid": "send",
-            "label": "角争",
-            "startdescription": "我今天早上醒来，发现有人在镜子上写着“爱即战争”。也许是我写的。如果真是我写的，那会让我安心得多。",
+            "label": "角爭",
+            "startdescription": "我今天早上醒來，發現有人在鏡子上寫著“愛即戰爭”。也許是我寫的。如果真是我寫的，那會讓我安心得多。",
             "requirements": {
                 "defiancemarks": 5
             },
@@ -732,8 +732,8 @@
         {
             "id": "send.defiance.marks.hint.4",
             "actionid": "send",
-            "label": "角争",
-            "startdescription": "我还记得，我曾经认为自己与角争毫无干系，但实际上并非如此。每位司辰，每个凡人，每粒尘埃，都在永恒的斗争中扮演着自己的角色。不过，跨越欧洲大陆，与一个半永生的对手进行一场不断的战斗——这表明我在角争中戏份不低，不仅仅是一个跑龙套的角色。",
+            "label": "角爭",
+            "startdescription": "我還記得，我曾經認為自己與角爭毫無干係，但實際上並非如此。每位司辰，每個凡人，每粒塵埃，都在永恆的鬥爭中扮演著自己的角色。不過，跨越歐洲大陸，與一個半永生的對手進行一場不斷的戰鬥——這表明我在角爭中戲份不低，不僅僅是一個跑龍套的角色。",
             "requirements": {
                 "defiancemarks": 4
             },
@@ -743,8 +743,8 @@
         {
             "id": "send.defiance.marks.hint.3",
             "actionid": "send",
-            "label": "角争",
-            "startdescription": "我开始注意到这世界上角争的形式——树木与狂风的纷争，火焰与烟雾的纷争，河流与土地的纷争。人群就是动机的不断碰撞，如此美丽。",
+            "label": "角爭",
+            "startdescription": "我開始注意到這世界上角爭的形式——樹木與狂風的紛爭，火焰與煙霧的紛爭，河流與土地的紛爭。人群就是動機的不斷碰撞，如此美麗。",
             "requirements": {
                 "defiancemarks": 3
             },
@@ -754,8 +754,8 @@
         {
             "id": "send.defiance.marks.hint.2",
             "actionid": "send",
-            "label": "角争",
-            "startdescription": "最近我做了一连串有关刀子的梦。这可能意味着一位<b>刃</b>之司辰已经注意到我了。",
+            "label": "角爭",
+            "startdescription": "最近我做了一連串有關刀子的夢。這可能意味著一位<b>刃</b>之司辰已經注意到我了。",
             "requirements": {
                 "defiancemarks": 2
             },
@@ -765,8 +765,8 @@
         {
             "id": "send.defiance.marks.hint.1",
             "actionid": "send",
-            "label": "角争",
-            "startdescription": "角争，是一个学徒们用来表示<b>刃</b>之司辰及其永无止境之争斗的拗口词语。像大多数清算人一样，我一直都远离这一切。",
+            "label": "角爭",
+            "startdescription": "角爭，是一個學徒們用來表示<b>刃</b>之司辰及其永無止境之爭鬥的拗口詞語。像大多數清算人一樣，我一直都遠離這一切。",
             "requirements": {
                 "defiancemarks": 1
             },
@@ -776,9 +776,9 @@
         {
             "id": "send.defiance.summons",
             "actionid": "send",
-            "label": "发出反抗的召唤",
-            "startdescription": "我写在信封上的字迹清晰而坚定。我的手毫不颤抖。[这将消除所有“隐秘”。]",
-            "description": "我的大敌很快就要来了。也许他已经来了。[你的反抗现在更加激烈了。]",
+            "label": "發出反抗的召喚",
+            "startdescription": "我寫在信封上的字跡清晰而堅定。我的手毫不顫抖。[這將消除所有“隱秘”。]",
+            "description": "我的大敵很快就要來了。也許他已經來了。[你的反抗現在更加激烈了。]",
             "requirements": {
                 "temptation.defiance": 1,
                 "domicile": 1,
@@ -822,9 +822,9 @@
         {
             "id": "send.defiance.summons.again",
             "actionid": "send",
-            "label": "再次发出反抗的召唤",
-            "startdescription": "让他来吧。让他看看自己能不能称心如意。[这将消除所有“隐秘”。]",
-            "description": "我的大敌很快就要来了。也许他已经来了。",
+            "label": "再次發出反抗的召喚",
+            "startdescription": "讓他來吧。讓他看看自己能不能稱心如意。[這將消除所有“隱秘”。]",
+            "description": "我的大敵很快就要來了。也許他已經來了。",
             "requirements": {
                 "temptation.defiance": 1,
                 "domicile": 1,
@@ -856,9 +856,9 @@
         {
             "id": "send.defiance.gift",
             "actionid": "send",
-            "label": "送出反抗的礼物",
-            "startdescription": "我要给我的大敌送一件强大的武器。因为这<i>真的</i>能激怒他。",
-            "description": "也许他会自己打开包裹，也许他会认为这是一个陷阱，让别人去做。不管怎样，只要想象一下他到时候的表情，我就很难不笑出来。[你的反抗现在更加激烈了。]",
+            "label": "送出反抗的禮物",
+            "startdescription": "我要給我的大敵送一件強大的武器。因為這<i>真的</i>能激怒他。",
+            "description": "也許他會自己打開包裹，也許他會認為這是一個陷阱，讓別人去做。不管怎樣，只要想像一下他到時候的表情，我就很難不笑出來。[你的反抗現在更加激烈了。]",
             "requirements": {
                 "temptation.defiance": 1,
                 "weapon": 1,
@@ -887,8 +887,8 @@
         {
             "id": "send.ahead.cash.hint",
             "actionid": "send",
-            "label": "提前汇钱？",
-            "startdescription": "我可能需要尽快离开。我可以提前把钱汇到一个可能去的目的地。当然，如果我不去那里，汇去的钱就会丢失。",
+            "label": "提前匯錢？",
+            "startdescription": "我可能需要盡快離開。我可以提前把錢匯到一個可能去的目的地。當然，如果我不去那裡，匯去的錢就會丟失。",
             "requirements": {
                 "cash": 1,
                 "destination": -1
@@ -899,9 +899,9 @@
         {
             "id": "send.ahead.cash",
             "actionid": "send",
-            "label": "提前汇钱",
-            "startdescription": "我可能需要尽快离开。我可以提前把钱汇到一个可能去的目的地。当然，如果我不去那里，汇去的钱就会丢失。",
-            "description": "完成了。如果我需要继续逃，这也许能让我在那里落脚时方便些。",
+            "label": "提前匯錢",
+            "startdescription": "我可能需要盡快離開。我可以提前把錢匯到一個可能去的目的地。當然，如果我不去那裡，匯去的錢就會丟失。",
+            "description": "完成了。如果我需要繼續逃，這也許能讓我在那裡落腳時方便些。",
             "requirements": {
                 "cash": 1,
                 "destination": 1
@@ -923,8 +923,8 @@
         {
             "id": "send.getsentahead.cash.hint",
             "actionid": "send",
-            "label": "利用我先前的准备？",
-            "startdescription": "我一到此地，就可以取回事先汇来的现金。",
+            "label": "利用我先前的準備？",
+            "startdescription": "我一到此地，就可以取回事先匯來的現金。",
             "requirements": {
                 "domicile": -1,
                 "cash.sent": 1
@@ -935,8 +935,8 @@
         {
             "id": "send.getsentahead.cash",
             "actionid": "send",
-            "label": "利用我先前的准备",
-            "startdescription": "我应该去取回我事先汇来的现金。",
+            "label": "利用我先前的準備",
+            "startdescription": "我應該去取回我事先匯來的現金。",
             "requirements": {
                 "domicile": 1,
                 "cash.sent": 1
@@ -953,7 +953,7 @@
             "id": "send.getsentahead.cash.loop",
             "actionid": "send",
             "label": "成了！",
-            "startdescription": "我已经提前汇款。等我到达那里就可以取回。",
+            "startdescription": "我已經提前匯款。等我到達那裡就可以取回。",
             "requirements": {
                 "cash.sent": 1
             },
@@ -977,8 +977,8 @@
         {
             "id": "send.victory.hint",
             "actionid": "send",
-            "label": "隐秘带来安全？",
-            "startdescription": "[如果你拥有七张“隐秘”，你就可以发信嘲讽你的清算人大敌，而后彻底销声匿迹。]",
+            "label": "隱秘帶來安全？",
+            "startdescription": "[如果你擁有七張“隱秘”，你就可以發信嘲諷你的清算人大敵，而後徹底銷聲匿跡。]",
             "requirements": {
                 "temptation.obscurity": 1
             },
@@ -988,8 +988,8 @@
         {
             "id": "send.victory.obscurity.c.begin",
             "actionid": "send",
-            "label": "难得的快乐生活……",
-            "startdescription": "我拥有了所需的一切吗？[如果你在销声匿迹时拥有的资产可以提供至少30级的舒适，你将获得更大的胜利。]",
+            "label": "難得的快樂生活……",
+            "startdescription": "我擁有了所需的一切嗎？[如果你在銷聲匿跡時擁有的資產可以提供至少30級的舒適，你將獲得更大的勝利。]",
             "requirements": {
                 "temptation.obscurity": 1,
                 "obscurity": 7
@@ -1024,8 +1024,8 @@
         {
             "id": "send.victory.obscurity.b.begin",
             "actionid": "send",
-            "label": "平静舒适的生活",
-            "startdescription": "我拥有了所需的一切吗？[如果你在销声匿迹时拥有的资产可以提供至少30级的舒适，你将获得更大的胜利。]",
+            "label": "平靜舒適的生活",
+            "startdescription": "我擁有了所需的一切嗎？[如果你在銷聲匿跡時擁有的資產可以提供至少30級的舒適，你將獲得更大的勝利。]",
             "requirements": {
                 "temptation.obscurity": 1,
                 "obscurity": 7
@@ -1060,8 +1060,8 @@
         {
             "id": "send.victory.obscurity.a.begin",
             "actionid": "send",
-            "label": "忘却的生活",
-            "startdescription": "我会安然无恙。这对我来说足够了吗？[如果你在销声匿迹时拥有的资产可以提供至少20级的舒适，你将获得更大的胜利。]",
+            "label": "忘卻的生活",
+            "startdescription": "我會安然無恙。這對我來說足夠了嗎？[如果你在銷聲匿跡時擁有的資產可以提供至少20級的舒適，你將獲得更大的勝利。]",
             "requirements": {
                 "temptation.obscurity": 1,
                 "obscurity": 7
@@ -1093,7 +1093,7 @@
         {
             "id": "send.victory.obscurity.c",
             "actionid": "send",
-            "label": "<b>喜悦</b>",
+            "label": "<b>喜悅</b>",
             "extantreqs": {
                 "comfort": 30
             },
@@ -1102,7 +1102,7 @@
         {
             "id": "send.victory.obscurity.b",
             "actionid": "send",
-            "label": "<b>舒适</b>",
+            "label": "<b>舒適</b>",
             "extantreqs": {
                 "comfort": 20
             },
@@ -1111,13 +1111,13 @@
         {
             "id": "send.victory.obscurity.a",
             "actionid": "send",
-            "label": "<b>宁静</b>",
+            "label": "<b>寧靜</b>",
             "ending": "obscurityvictorya"
         },
         {
             "id": "send.victory.obscurity.c.foeslain",
             "actionid": "send",
-            "label": "<b>喜悦</b>",
+            "label": "<b>喜悅</b>",
             "extantreqs": {
                 "comfort": 30,
                 "rkx.foe.defeated": 1
@@ -1127,7 +1127,7 @@
         {
             "id": "send.victory.obscurity.b.foeslain",
             "actionid": "send",
-            "label": "<b>舒适</b>",
+            "label": "<b>舒適</b>",
             "extantreqs": {
                 "comfort": 20,
                 "rkx.foe.defeated": 1
@@ -1137,7 +1137,7 @@
         {
             "id": "send.victory.obscurity.a.foeslain",
             "actionid": "send",
-            "label": "<b>宁静</b>",
+            "label": "<b>寧靜</b>",
             "extantreqs": {
                 "rkx.foe.defeated": 1
             },
@@ -1149,12 +1149,12 @@
             "requirements": {
                 "contact.labhite.fallen": 1
             },
-            "label": "决定坠落的狻猊的命运",
-            "startdescription": "即便那狻猊没有被厄客德娜腐化，柴玛也会以上校的名义杀掉他。而现在他不仅是一个怪物，还是一个腐化的怪物。但纳维尔此时提议仁慈一些。“虚伪的完美，”他郑重地说，“是灵魂中最严重的疾病。放他去沙漠里流亡吧，他自己会再度寻见太阳。”\n\n柴玛不为所动。但她尊重你和她的父亲——如果你坚持的话，她可以放手不管。",
+            "label": "決定墜落的狻猊的命運",
+            "startdescription": "即便那狻猊沒有被厄客德娜腐化，柴瑪也會以上校的名義殺掉他。而現在他不僅是一個怪物，還是一個腐化的怪物。但納維爾此時提議仁慈一些。“虛偽的完美，”他鄭重地說，“是靈魂中最嚴重的疾病。放他去沙漠裡流亡吧，他自己會再度尋見太陽。”\n\n柴瑪不為所動。但她尊重你和她的父親——如果你堅持的話，她可以放手不管。",
             "slots": [
                 {
                     "id": "decision",
-                    "label": "决断",
+                    "label": "決斷",
                     "required": {
                         "temptation.defiance": 1,
                         "temptation.obscurity": 1,
@@ -1163,7 +1163,7 @@
                     }
                 }
             ],
-            "description": "坠落的狻猊还能在笼子里苟活一段时间。",
+            "description": "墜落的狻猊還能在籠子裡苟活一段時間。",
             "warmup": 30,
             "alt": [
                 {
@@ -1178,9 +1178,9 @@
         {
             "id": "send.labhite.fallen.merciless",
             "actionid": "send",
-            "label": "无情",
-            "startdescription": "“他背叛了狮子匠的意志。让他去死。”",
-            "description": "柴玛前去了断了狻猊。向上校献上祭品后，她给了你一小罐金粉。“纪念品”，她说。",
+            "label": "無情",
+            "startdescription": "“他背叛了獅子匠的意志。讓他去死。”",
+            "description": "柴瑪前去了斷了狻猊。向上校獻上祭品後，她給了你一小罐金粉。“紀念品”，她說。",
             "requirements": {
                 "choice.merciless": 1
             },
@@ -1194,8 +1194,8 @@
             "id": "send.labhite.fallen.merciful",
             "actionid": "send",
             "label": "仁慈",
-            "startdescription": "如今他是违背了狮子匠的旨意之物。谁知道他还会成为什么样的人呢？",
-            "description": "柴玛耸耸肩，转过身去。纳维尔陪你走到沙漠的边缘。狻猊仍然一言不发，只是从地上捡起一块扁平的石头，亲吻之后递给了你。然后他跑进沙丘，不再回头。",
+            "startdescription": "如今他是違背了獅子匠的旨意之物。誰知道他還會成為什麼樣的人呢？",
+            "description": "柴瑪聳聳肩，轉過身去。納維爾陪你走到沙漠的邊緣。狻猊仍然一言不發，只是從地上撿起一塊扁平的石頭，親吻之後遞給了你。然後他跑進沙丘，不再回頭。",
             "requirements": {
                 "choice.merciful": 1
             },
@@ -1208,9 +1208,9 @@
         {
             "id": "send.retainer.chat",
             "actionid": "send",
-            "label": "课程",
-            "startdescription": "“我可以谈谈她吗？”",
-            "description": "老人谈起了她的美貌，她的智慧和她的<i>巴拉卡</i>。但是我开始意识到他已经几乎记不清她了，对他来说，她只是一个理想或一段故事。我向外俯视着城市中闪烁的灯火，思绪逐渐飘远；我回忆起我的大敌曾如何教我下棋、出千和杀人，然后我开始琢磨，自己能教<i>他</i>点什么。",
+            "label": "課程",
+            "startdescription": "“我可以談談她嗎？”",
+            "description": "老人談起了她的美貌，她的智慧和她的<i>巴拉卡</i>。但是我開始意識到他已經幾乎記不清她了，對他來說，她只是一個理想或一段故事。我向外俯視著城市中閃爍的燈火，思緒逐漸飄遠；我回憶起我的大敵曾如何教我下棋、出千和殺人，然後我開始琢磨，自己能教<i>他</i>點什麼。",
             "requirements": {
                 "contact.retainer": 1,
                 "associate": 1
@@ -1228,9 +1228,9 @@
         {
             "id": "send.mortal.intro",
             "actionid": "send",
-            "label": "安排初次会面",
-            "startdescription": "@#contact.barber|与祖尔菲亚的会面；她现在以“理发师”这个身份为人所知。\n#contact.delver|与欧索丽娜的会面；她被称作“<i>la Scavatrice</i>”，用我的语言来说就是“深掘者”。\n#contact.fivegoer|与“魅裔”瓦西尔的会面。\n#contact.ghoul|与面包师多明卡斯的会面。\n#contact.huntress|与拉拉·柴玛的会面；有些人管她叫“捕兽夹子”。\n#contact.smuggler|与走私商人M·乔吉奥的会面。\n#contact.visionary|与画家米蕾娅的会面。\n#contact.vivisectionist|与外科医生、决斗家和活体解剖家雅宁斯伯爵的会面。\n#contact.retainer|“你母亲是安泰俄斯的门徒。少有女人如此，但她的“<i>巴拉卡</i>”——也就是，她的光——是如此耀眼。起初，你父亲希望买走她的光。但是他爱上了她……而她开始认出他的本来面目。这就是为什么，当你快要出生的时候，她从他的手中逃脱，而他却追逐着她。”\n#|一场介绍——@",
-            "description": "@#contact.barber|祖尔菲亚急切地盯着我。“我要你去一趟林地，”她坚持道，“你会在异结翼底下找到可以喝的东西。把它带来给我。”\n#contact.delver|欧索丽娜用一个结结实实的拥抱欢迎我，并听我诉说了自己的麻烦。“我当然会帮忙，”她坚持说道，“可是以我现在的情况，要穿过咸水湖太困难了——我吃了太多大海的产物。但达里欧宫的地下室里还有些东西，或许会对我有些益处。那座宅子闹鬼，不过我觉得这对我们来说算不了什么。”\n#contact.fivegoer|瓦西尔热情地握了我的手——正是我所熟悉的、他那毫无骨感但却无法抗拒的握法。“我当然欠你人情”，他告诉我，“但我欠别人更多。我的曾祖母就在这个城市里，一群冷血的家伙抓住了她。如果咱们能解决这个问题，我就可以无牵无挂地和你一起出发了。”\n#contact.ghoul|多明卡斯用加了香料的蜂蜜蛋糕和格瓦斯招待我，并以亲切的语气向我谈起了一位对手，多明卡斯需要的一种“调味料”就在那个人的手里。他希望小小地麻烦我一下，去帮助他得到它，然后，他自然就能腾出手来回报我了。\n#contact.huntress|拉拉·柴玛受人委托要杀死“欢宴兽”。它住在亚琛的下水道里，时不时钻出来捕食酒鬼和士兵。法国军队当然不相信这种事，但古梅尔人军团里有个中士，他嗅出了狮子匠造物的气息。\n#contact.smuggler|乔吉奥有个提议。在塔拉斯克城堡有许多财宝等着我们去拿。当然，那儿“也可能”有怪物，但是他指出，说到底即便真的没有怪物，人们也总会自己造出怪物来的。然后他开始以欧洲近代历史为例子来说明这一点，不过幸好这时候酒已经上桌了。\n#contact.visionary|米蕾娅哭了起来。“上帝派你来救我了，”她喘着气说，“我做了一件事——一件事——”然后她就彻底崩溃了。我好不容易才从她的话中分辨出来，她在为画作取材的时候偷看了崇拜轰雷之皮的教团进行的仪式。现在那些人发现了此事，并要来追杀她了。\n#contact.vivisectionist|雅宁斯伯爵并拢脚跟向我鞠躬。“我对你的麻烦已有耳闻，”他告诉我，“与你同行会很有趣。但首先，请让我邀请你参加一场稍有竞争性的社交活动。不，别推辞，你可一定得来。”\n#contact.retainer|“她宁愿结束自己的生命——并且带着你一起去死——也不愿让他抚养你长大。但是在安泰俄斯神庙中，当他们得知你的父亲是一位大地之子后，他们说服她把你生下来——在圣所里，在碎剑的标志下。来，我带你去见她。”\n#|——现在你知道了。@",
+            "label": "安排初次會面",
+            "startdescription": "@#contact.barber|與祖爾菲亞的會面；她現在以“理髮師”這個身份為人所知。\n#contact.delver|與歐索麗娜的會面；她被稱作“<i>la Scavatrice</i>”，用我的語言來說就是“深掘者”。\n#contact.fivegoer|與“魅裔”瓦西爾的會面。\n#contact.ghoul|與麵包師多明卡斯的會面。\n#contact.huntress|與拉拉·柴瑪的會面；有些人管她叫“捕獸夾子”。\n#contact.smuggler|與走私商人M·喬吉奧的會面。\n#contact.visionary|與畫家米蕾婭的會面。\n#contact.vivisectionist|與外科醫生、決鬥家和活體解剖家雅寧斯伯爵的會面。\n#contact.retainer|“你母親是安泰俄斯的門徒。少有女人如此，但她的“<i>巴拉卡</i>”——也就是，她的光——是如此耀眼。起初，你父親希望買走她的光。但是他愛上了她……而她開始認出他的本來面目。這就是為什麼，當你快要出生的時候，她從他的手中逃脫，而他卻追逐著她。”\n#|一場介紹——@",
+            "description": "@#contact.barber|祖爾菲亞急切地盯著我。“我要你去一趟林地，”她堅持道，“你會在異結翼底下找到可以喝的東西。把它帶來給我。”\n#contact.delver|歐索麗娜用一個結結實實的擁抱歡迎我，並聽我訴說了自己的麻煩。“我當然會幫忙，”她堅持說道，“可是以我現在的情況，要穿過鹹水湖太困難了——我吃了太多大海的產物。但達里歐宮的地下室裡還有些東西，或許會對我有些益處。那座宅子鬧鬼，不過我覺得這對我們來說算不了什麼。”\n#contact.fivegoer|瓦西爾熱情地握了我的手——正是我所熟悉的、他那毫無骨感但卻無法抗拒的握法。“我當然欠你人情”，他告訴我，“但我欠別人更多。我的曾祖母就在這個城市裡，一群冷血的傢伙抓住了她。如果咱們能解決這個問題，我就可以無牽無掛地和你一起出發了。”\n#contact.ghoul|多明卡斯用加了香料的蜂蜜蛋糕和格瓦斯招待我，並以親切的語氣向我談起了一位對手，多明卡斯需要的一種“調味料”就在那個人的手裡。他希望小小地麻煩我一下，去幫助他得到它，然後，他自然就能騰出手來回報我了。\n#contact.huntress|拉拉·柴瑪受人委託要殺死“歡宴獸”。它住在亞琛的下水道裡，時不時鑽出來捕食酒鬼和士兵。法國軍隊當然不相信這種事，但古梅爾人軍團裡有個中士，他嗅出了獅子匠造物的氣息。\n#contact.smuggler|喬吉奧有個提議。在塔拉斯克城堡有許多財寶等著我們去拿。當然，那兒“也可能”有怪物，但是他指出，說到底即便真的沒有怪物，人們也總會自己造出怪物來的。然後他開始以歐洲近代歷史為例子來說明這一點，不過幸好這時候酒已經上桌了。\n#contact.visionary|米蕾婭哭了起來。“上帝派你來救我了，”她喘著氣說，“我做了一件事——一件事——”然後她就徹底崩潰了。我好不容易才從她的話中分辨出來，她在為畫作取材的時候偷看了崇拜轟雷之皮的教團進行的儀式。現在那些人發現了此事，並要來追殺她了。\n#contact.vivisectionist|雅寧斯伯爵併攏腳跟向我鞠躬。“我對你的麻煩已有耳聞，”他告訴我，“與你同行會很有趣。但首先，請讓我邀請你參加一場稍有競爭性的社交活動。不，別推辭，你可一定得來。”\n#contact.retainer|“她寧願結束自己的生命——並且帶著你一起去死——也不願讓他撫養你長大。但是在安泰俄斯神廟中，當他們得知你的父親是一位大地之子後，他們說服她把你生下來——在聖所裡，在碎劍的標誌下。來，我帶你去見她。”\n#|——現在你知道了。@",
             "requirements": {
                 "mortal": 1,
                 "associate": -1,
@@ -1253,9 +1253,9 @@
         {
             "id": "send.barber.upgrade",
             "actionid": "send",
-            "label": "祖尔菲亚敲着手指踱来踱去",
-            "startdescription": "“它在哪里？它在哪里？？”",
-            "description": "“一堵墙有很多石头；但你可别忘了，我们俩都是血肉之身。”",
+            "label": "祖爾菲亞敲著手指踱來踱去",
+            "startdescription": "“它在哪裡？它在哪裡？？”",
+            "description": "“一堵牆有很多石頭；但你可別忘了，我們倆都是血肉之身。”",
             "requirements": {
                 "contact.barber": 1,
                 "associate": 1,
@@ -1264,7 +1264,7 @@
             "slots": [
                 {
                     "id": "done",
-                    "label": "粘胶",
+                    "label": "黏膠",
                     "required": {
                         "vault.barber.completed": 1
                     },
@@ -1282,9 +1282,9 @@
         {
             "id": "send.delver.upgrade",
             "actionid": "send",
-            "label": "欧索丽娜已经点亮了她工作室的灯——油灯，不是电灯。",
-            "startdescription": "“我很感谢你为我费心。”",
-            "description": "欧索丽娜耸了耸肩。“就算现在不去，也总是要去的。”",
+            "label": "歐索麗娜已經點亮了她工作室的燈——油燈，不是電燈。",
+            "startdescription": "“我很感謝你為我費心。”",
+            "description": "歐索麗娜聳了聳肩。“就算現在不去，也總是要去的。”",
             "requirements": {
                 "contact.delver": 1,
                 "associate": 1,
@@ -1293,7 +1293,7 @@
             "slots": [
                 {
                     "id": "done",
-                    "label": "红色之物",
+                    "label": "紅色之物",
                     "required": {
                         "vault.delver.completed": 1
                     },
@@ -1311,9 +1311,9 @@
         {
             "id": "send.fivegoer.upgrade",
             "actionid": "send",
-            "label": "瓦西尔满怀期待，语气柔和",
-            "startdescription": "”那么，现在如何了？”",
-            "description": "“我想那位吓人的老太太还可以再等一阵子。”",
+            "label": "瓦西爾滿懷期待，語氣柔和",
+            "startdescription": "“那麼，現在如何了？”",
+            "description": "“我想那位嚇人的老太太還可以再等一陣子。”",
             "requirements": {
                 "contact.fivegoer": 1,
                 "associate": 1,
@@ -1340,9 +1340,9 @@
         {
             "id": "send.ghoul.upgrade",
             "actionid": "send",
-            "label": "多明卡斯面带亲切而耐心的微笑",
-            "startdescription": "“我的蜂蜜蛋糕还远远没有发挥出它的全部潜力。”",
-            "description": "“你知道，时间不够了。对我们俩都是。”",
+            "label": "多明卡斯面帶親切而耐心的微笑",
+            "startdescription": "“我的蜂蜜蛋糕還遠遠沒有發揮出它的全部潛力。”",
+            "description": "“你知道，時間不夠了。對我們倆都是。”",
             "requirements": {
                 "contact.ghoul": 1,
                 "associate": 1,
@@ -1351,7 +1351,7 @@
             "slots": [
                 {
                     "id": "done",
-                    "label": "调味料",
+                    "label": "調味料",
                     "required": {
                         "vault.ghoul.completed": 1
                     },
@@ -1369,9 +1369,9 @@
         {
             "id": "send.huntress.upgrade",
             "actionid": "send",
-            "label": "柴玛急着要完成她的合约",
-            "startdescription": "“我那位古梅尔人朋友越来越焦急了。我想他对我的能力缺乏信心。”",
-            "description": "“我们没有多少时间了。”",
+            "label": "柴瑪急著要完成她的合約",
+            "startdescription": "“我那位古梅爾人朋友越來越焦急了。我想他對我的能力缺乏信心。”",
+            "description": "“我們沒有多少時間了。”",
             "requirements": {
                 "contact.huntress": 1,
                 "associate": 1,
@@ -1380,7 +1380,7 @@
             "slots": [
                 {
                     "id": "done",
-                    "label": "猛兽残骸",
+                    "label": "猛獸殘骸",
                     "required": {
                         "vault.huntress.completed": 1
                     },
@@ -1398,9 +1398,9 @@
         {
             "id": "send.smuggler.upgrade",
             "actionid": "send",
-            "label": "乔吉奥希望做完这笔生意",
-            "startdescription": "好了吗？",
-            "description": "“我想情况可能会变得更糟。”",
+            "label": "喬吉奧希望做完這筆生意",
+            "startdescription": "好了嗎？",
+            "description": "“我想情況可能會變得更糟。”",
             "requirements": {
                 "contact.smuggler": 1,
                 "associate": 1,
@@ -1409,7 +1409,7 @@
             "slots": [
                 {
                     "id": "done",
-                    "label": "遗骸",
+                    "label": "遺骸",
                     "required": {
                         "vault.smuggler.completed": 1
                     },
@@ -1427,9 +1427,9 @@
         {
             "id": "send.visionary.upgrade",
             "actionid": "send",
-            "label": "米蕾娅像水一样颤抖",
-            "startdescription": "“他们还在那儿吗？”",
-            "description": "“请快点。求你了。”",
+            "label": "米蕾婭像水一樣顫抖",
+            "startdescription": "“他們還在那兒嗎？”",
+            "description": "“請快點。求你了。”",
             "requirements": {
                 "contact.visionary": 1,
                 "associate": 1,
@@ -1438,7 +1438,7 @@
             "slots": [
                 {
                     "id": "done",
-                    "label": "兽皮",
+                    "label": "獸皮",
                     "required": {
                         "vault.visionary.completed": 1
                     },
@@ -1456,9 +1456,9 @@
         {
             "id": "send.vivisectionist.upgrade",
             "actionid": "send",
-            "label": "雅宁斯简略地问候了我",
-            "startdescription": "“怎么？”",
-            "description": "“我相信你很快就能抽出时间。”",
+            "label": "雅寧斯簡略地問候了我",
+            "startdescription": "“怎麼？”",
+            "description": "“我相信你很快就能抽出時間。”",
             "requirements": {
                 "contact.vivisectionist": 1,
                 "associate": 1,
@@ -1467,7 +1467,7 @@
             "slots": [
                 {
                     "id": "done",
-                    "label": "决斗伤疤",
+                    "label": "決鬥傷疤",
                     "required": {
                         "vault.vivisectionist.completed": 1
                     },
@@ -1489,8 +1489,8 @@
             "requirements": {
                 "vault.completed": 1
             },
-            "startdescription": "我们握了握手。[你的伙伴现在是你的盟友了。当你离开这个城市时，他会跟着你……除非你要去地图之疆进行最后的决战。]",
-            "description": "@#ally.barber|“母亲刺穿，”祖尔菲亚一边扯着指甲，一边以平和的语气说道，“女巫索求，巫女融解。”\n#ally.delver|“<i>狼嘴里头有好运！</i>当然，不是字面上的意思。”\n#ally.fivegoer|我们把衾下魅安置在里屋；那儿传出了一声撞击的闷响。瓦西尔翻了翻眼睛：“家人嘛，你懂的。给我半个小时跟她好好道别，她会没事的。”\n#ally.ghoul|“偷来四剂调味料，我就偷了一整年。”多明卡斯热情地说。他用胳膊肘戳了戳我。\n#ally.huntress|“我期待着和你一起打猎。”\n#ally.smuggler|“我可欠了你一个大人情。”\n#ally.visionary|“太谢谢你了。我会尽我所能报答你。可是恐怕我不会用枪。”\n#ally.vivisectionist|“看来我们确实使你变得与众不同了。不过，很好。是的，很好。”\n#|——@",
+            "startdescription": "我們握了握手。[你的伙伴現在是你的盟友了。當你離開這個城市時，他會跟著你……除非你要去地圖之疆進行最後的決戰。]",
+            "description": "@#ally.barber|“母親刺穿，”祖爾菲亞一邊扯著指甲，一邊以平和的語氣說道，“女巫索求，巫女融解。”\n#ally.delver|“<i>狼嘴裡頭有好運！</i>當然，不是字面上的意思。”\n#ally.fivegoer|我們把衾下魅安置在裡屋；那兒傳出了一聲撞擊的悶響。瓦西爾翻了翻眼睛：“家人嘛，你懂的。給我半個小時跟她好好道別，她會沒事的。”\n#ally.ghoul|“偷來四劑調味料，我就偷了一整年。”多明卡斯熱情地說。他用胳膊肘戳了戳我。\n#ally.huntress|“我期待著和你一起打獵。”\n#ally.smuggler|“我可欠了你一個大人情。”\n#ally.visionary|“太謝謝你了。我會盡我所能報答你。可是恐怕我不會用槍。”\n#ally.vivisectionist|“看來我們確實使你變得與眾不同了。不過，很好。是的，很好。”\n#|——@",
             "aspects": {
                 "recruiting": 1
             },
@@ -1510,9 +1510,9 @@
         {
             "id": "send.ally.upgrade",
             "actionid": "send",
-            "label": "潜能显现",
-            "startdescription": "我可以和我的盟友谈谈他学到了什么。[这将使你的盟友性相提升一级。]",
-            "description": "@#ally.barber|“喀嚓。喀嚓。喀嚓。”\n#ally.delver|“我感觉自己开始恢复过去的力量了。”\n#ally.fivegoer|“啊。<i>更灵活了。</i>”\n#ally.ghoul|“经验是最好的香料。直到现在我才真正相信这一点。”\n#ally.huntress|“这还不坏，对吧？”\n#ally.smuggler|“我累了。我想我可能会一直很累……”\n#ally.visionary|“我把写生簿放哪儿了？”\n#ally.vivisectionist|“不错。很好。”\n#|——@",
+            "label": "潛能顯現",
+            "startdescription": "我可以和我的盟友談談他學到了什麼。[這將使你的盟友性相提升一級。]",
+            "description": "@#ally.barber|“喀嚓。喀嚓。喀嚓。”\n#ally.delver|“我感覺自己開始恢復過去的力量了。”\n#ally.fivegoer|“啊。<i>更靈活了。</i>”\n#ally.ghoul|“經驗是最好的香料。直到現在我才真正相信這一點。”\n#ally.huntress|“這還不壞，對吧？”\n#ally.smuggler|“我累了。我想我可能會一直很累……”\n#ally.visionary|“我把寫生簿放哪兒了？”\n#ally.vivisectionist|“不錯。很好。”\n#|——@",
             "requirements": {
                 "mortal": 1,
                 "ally": 1,
@@ -1527,8 +1527,8 @@
         {
             "id": "send.ally.upgrade.hint",
             "actionid": "send",
-            "label": "潜力？",
-            "startdescription": "我的盟友和我一起旅行是有原因的，其中之一就是对新体验的渴望。 [当一个盟友有了三点经验值时，你可以让他的能力升级。]",
+            "label": "潛力？",
+            "startdescription": "我的盟友和我一起旅行是有原因的，其中之一就是對新體驗的渴望。 [當一個盟友有了三點經驗值時，你可以讓他的能力升級。]",
             "requirements": {
                 "mortal": 1,
                 "ally": 1
@@ -1539,8 +1539,8 @@
         {
             "id": "send.investigate.end",
             "actionid": "send",
-            "label": "无法继续前行",
-            "startdescription": "你可以说这里就是世界的边缘。",
+            "label": "無法繼續前行",
+            "startdescription": "你可以說這裡就是世界的邊緣。",
             "requirements": {
                 "end": 1,
                 "domicile": 1
@@ -1551,14 +1551,14 @@
         {
             "id": "send.investigate.description",
             "actionid": "send",
-            "label": "继续前行？",
-            "description": "@#city.aachen|来自亚琛的消息找上了我。马拉喀什的一位老熟人正在那边打猎，想让我帮个忙。\n#city.alexandria|在反抗英国的起义爆发之前，我被邀请去亚历山大港隐形的塞拉皮雍。走运的话，那份邀请依然有效。\n#city.algiers|我那位搞走私的熟人，M·乔吉奥在阿尔及尔有人脉。他们可以悄悄把我弄进去。\n#city.amsterdam|多年来，我为阿姆斯特丹的斯特根加兄弟找了不少好东西。他们也许会为我提供庇护。\n#city.avignon|我那位搞走私的熟人，阿维尼翁的M·乔吉奥，提出要和我做一笔生意。\n#city.baghdad|珀西·斯泰尔斯仍在巴格达，在戒严中的伊拉克为英国政府卖命。他兴许仍会愿意见我。\n#city.budapest|我听说我的老朋友莉莉把她的黑市生意搬到了布达佩斯。\n#city.candia|我离开克里特岛已经有很长一段时间了，但我又梦见了它，梦见了山楂树的香味……\n#city.cluj|自从匈牙利放弃克卢日以来，我的老朋友莉莉在这座城市的生意就不好做了，但我依然可以凭借她的名号打通门路。\n#city.granada|我和格拉纳达的一个画廊老板打过交道。去年她邀请我去她那里住上一阵子。\n#city.istanbul|我的老战友凯拉·凯末尔与伊斯坦布尔的黑社会残党有联系。也许他的名号能为我打通门路。\n#city.kaunas|面包师多明卡斯最近混得不错，和考纳斯铁狼的高层攀上了交情。我们的关系一直都不太过得去，但是他欠我人情，我也不能太挑剔。\n#city.kiev|我听说丽姬亚中最饥渴的人在基辅。我的追兵在那里得处处小心——不过我也一样。\n#city.krakow|多年来，克拉科夫的伊兹乔克·阿什拉格一直靠我来获得罕见的密教文献。他是个好客的人。\n#city.leningrad|在俄罗斯出售岁月的“雅典人”是清算人暴徒的死敌。但我曾和其中一个叫苏斯金的人喝得酩酊大醉。希望他还记得我。\n#city.london|伦敦的奥塔维奥·伯顿说他需要我的帮助。他是个恶棍，但我们算老相识了。\n#city.marrakech|一个叫纳维尔的隐士不知怎么发现了我。他的留言只写着“来马拉喀什，以辉光之名”。\n#city.meshad|在马什哈德有一位年迈的诗人，她一直是我最喜欢的主顾之一。她一定会款待我的。\n#city.munich|慕尼黑的戈特洛布·雅宁斯伯爵向我发出过一份长期有效的邀请，去他所支持的决斗者协会参加集会。\n#city.nizhny|“雅典人”苏斯金一直在下诺夫哥罗德经营进出口业务，但在苏联统治下生意不佳。他在那里的人谅必会因我的帮助而高兴。\n#city.paris|沼泽区以前是“艾德琳姑姑”的地盘。她已经搬走了，但她在巴黎还有人，他们会为我提供庇护的。\n#city.prague|布拉格那个自称“艾德琳姑姑”的老流氓可能用得上我的帮助。\n#city.rostock|我的联络人雅宁斯伯爵在罗斯托克有一所房子可以供我使用。\n#city.samarkand|我曾经在撒马尔罕给一个扎吉德派的术士提供过违禁材料。也许他还记得我。\n#city.stalingrad|被称为“食鸟者”的有罪学徒已经彻底违反了凡人和漫宿的法律。我听说理发师祖尔菲亚在斯大林格勒加入了他们。食鸟者可不是好人，但我一直很喜欢祖尔菲亚。\n#city.strasbourg|孚日山脉的“丘陵之子”有时会化作人形行走在斯特拉斯堡的街道上。我以前和他们打过交道。他们和任何人一样知道如何保持低调：也许他们能帮上忙。\n#city.sverdlovsk|在斯维尔德洛夫斯克，理发师祖尔菲亚过去曾用珠宝向我购买岁月。后来她变得很奇怪，并且搬到了另一个城市。但在内战之前，她向我介绍了她的一些联系人。\n#city.tiflis|“魅裔”瓦西尔很久以前在梯弗利斯躲避清算人。尽管他可能不欢迎我的来访，但是他欠我人情。\n#city.tirana|在这一切变糟之前，我正与索古总统在地拉那的一个手下商议关于岁月的生意。我还有她的地址。\n#city.tripoli|我在的黎波里没有熟人。我压根不记得这里，但是很久之前，在的黎波里还属于奥斯曼的时候，我出生于此。\n#city.valletta|我的老战友凯拉·凯末尔流亡于瓦莱塔。这是很久之前的事了，但我确实在大战中救过他的命……\n#city.venice|我在威尼斯认识一个叫欧索丽娜的女人。她并不总是一个女人。但是她在那里住了很长时间。\n#city.vienna|它一度是“白城”，现在却被称作“红色维也纳”。这里有一位丽姬亚，蠕虫大战留下的伤疤对那些知晓此事的人来说仍然可见。但我想在死前再看一眼这个老地方。\n#wilderness|在这个区域没有获得任何其他援助的希望，公路和铁路也受到十分密切的监视。我唯一的机会就是快速通过。\n#end.bornholm|波罗的海有一个崎岖的小岛，很少有船经过。我在那儿和一个几乎记不起名字的人一起度过了一个夏天。也许我的大敌不会去那里找我，如果他去了，那就是时候奋起反抗了。\n#end.cheko|沙皇时代我曾在泰加林狩猎，那里的深处有一个虎口形状的湖。也许我的大敌不会去那里找我，如果他去了，那就是时候奋起反抗了。\n#end.ghardaia|在沙漠深处有一组戒备森严的村庄群。几年前柴玛给我标出了这条路线。也许我的大敌不会去那里找我，如果他去了，那就是时候奋起反抗了。\n#end.messana|在一个奇怪小村庄上面的山上有一个隐居处，米蕾娅曾经在那里度过一个夏天。我想这是一个很好的藏身之处，于是我让她标出了一条去那里的路线。也许我的大敌不会去那里找我，如果他去了，那就是时候奋起反抗了。\n#end.morbihan|莫尔比昂湾有个很特别的修道院，从陆上往西走就可以到达，而且不用横跨大海。也许我的大敌不会去那里找我，如果他去了，那就是时候奋起反抗了。\n#end.paro|在俄罗斯那边的高山中有一座寺院。我年轻的时候去过。也许我的大敌不会去那里找我，如果他去了，那就是时候奋起反抗了。\n#end.slettnes|在欧洲的尽头有一座灯塔，在那里我第一次触摸到了那位无名的具名者的衣摆。也许我的大敌不会去那里找我，如果他去了，那就是时候奋起反抗了。\n#|何处？@"
+            "label": "繼續前行？",
+            "description": "@#city.aachen|來自亞琛的消息找上了我。馬拉喀什的一位老熟人正在那邊打獵，想讓我幫個忙。\n#city.alexandria|在反抗英國的起義爆發之前，我被邀請去亞歷山大港隱形的塞拉皮雍。走運的話，那份邀請依然有效。\n#city.algiers|我那位搞走私的熟人，M·喬吉奧在阿爾及爾有人脈。他們可以悄悄把我弄進去。\n#city.amsterdam|多年來，我為阿姆斯特丹的斯特根加兄弟找了不少好東西。他們也許會為我提供庇護。\n#city.avignon|我那位搞走私的熟人，阿維尼翁的M·喬吉奧，提出要和我做一筆生意。\n#city.baghdad|珀西·斯泰爾斯仍在巴格達，在戒嚴中的伊拉克為英國政府賣命。他興許仍會願意見我。\n#city.budapest|我聽說我的老朋友莉莉把她的黑市生意搬到了布達佩斯。\n#city.candia|我離開克里特島已經有很長一段時間了，但我又夢見了它，夢見了山楂樹的香味……\n#city.cluj|自從匈牙利放棄克盧日以來，我的老朋友莉莉在這座城市的生意就不好做了，但我依然可以憑藉她的名號打通門路。\n#city.granada|我和格拉納達的一個畫廊老闆打過交道。去年她邀請我去她那裡住上一陣子。\n#city.istanbul|我的老戰友凱拉·凱末爾與伊斯坦布爾的黑社會殘黨有聯繫。也許他的名號能為我打通門路。\n#city.kaunas|麵包師多明卡斯最近混得不錯，和考納斯鐵狼的高層攀上了交情。我們的關係一直都不太過得去，但是他欠我人情，我也不能太挑剔。\n#city.kiev|我聽說麗姬亞中最飢渴的人在基輔。我的追兵在那裡得處處小心——不過我也一樣。\n#city.krakow|多年來，克拉科夫的伊茲喬克·阿什拉格一直靠我來獲得罕見的密教文獻。他是個好客的人。\n#city.leningrad|在俄羅斯出售歲月的“雅典人”是清算人暴徒的死敵。但我曾和其中一個叫蘇斯金的人喝得酩酊大醉。希望他還記得我。\n#city.london|倫敦的奧塔維奧·伯頓說他需要我的幫助。他是個惡棍，但我們算老相識了。\n#city.marrakech|一個叫納維爾的隱士不知怎麼發現了我。他的留言隻寫著“來馬拉喀什，以輝光之名”。\n#city.meshad|在馬什哈德有一位年邁的詩人，她一直是我最喜歡的主顧之一。她一定會款待我的。\n#city.munich|慕尼黑的戈特洛布·雅寧斯伯爵向我發出過一份長期有效的邀請，去他所支持的決鬥者協會參加集會。\n#city.nizhny|“雅典人”蘇斯金一直在下諾夫哥羅德經營進出口業務，但在蘇聯統治下生意不佳。他在那裡的人諒必會因我的幫助而高興。\n#city.paris|沼澤區以前是“艾德琳姑姑”的地盤。她已經搬走了，但她在巴黎還有人，他們會為我提供庇護的。\n#city.prague|布拉格那個自稱“艾德琳姑姑”的老流氓可能用得上我的幫助。\n#city.rostock|我的聯絡人雅寧斯伯爵在羅斯托克有一所房子可以供我使用。\n#city.samarkand|我曾經在撒馬爾罕給一個扎吉德派的術士提供過違禁材料。也許他還記得我。\n#city.stalingrad|被稱為“食鳥者”的有罪學徒已經徹底違反了凡人和漫宿的法律。我聽說理髮師祖爾菲亞在斯大林格勒加入了他們。食鳥者可不是好人，但我一直很喜歡祖爾菲亞。\n#city.strasbourg|孚日山脈的“丘陵之子”有時會化作人形行走在斯特拉斯堡的街道上。我以前和他們打過交道。他們和任何人一樣知道如何保持低調：也許他們能幫上忙。\n#city.sverdlovsk|在斯維爾德洛夫斯克，理髮師祖爾菲亞過去曾用珠寶向我購買歲月。後來她變得很奇怪，並且搬到了另一個城市。但在內戰之前，她向我介紹了她的一些聯繫人。\n#city.tiflis|“魅裔”瓦西爾很久以前在梯弗利斯躲避清算人。儘管他可能不歡迎我的來訪，但是他欠我人情。\n#city.tirana|在這一切變糟之前，我正與索古總統在地拉那的一個手下商議關於歲月的生意。我還有她的地址。\n#city.tripoli|我在的黎波里沒有熟人。我壓根不記得這裡，但是很久之前，在的黎波里還屬於奧斯曼的時候，我出生於此。\n#city.valletta|我的老戰友凱拉·凱末爾流亡於瓦萊塔。這是很久之前的事了，但我確實在大戰中救過他的命……\n#city.venice|我在威尼斯認識一個叫歐索麗娜的女人。她並不總是一個女人。但是她在那裡住了很長時間。\n#city.vienna|它一度是“白城”，現在卻被稱作“紅色維也納”。這裡有一位麗姬亞，蠕蟲大戰留下的傷疤對那些知曉此事的人來說仍然可見。但我想在死前再看一眼這個老地方。\n#wilderness|在這個區域沒有獲得任何其他援助的希望，公路和鐵路也受到十分密切的監視。我唯一的機會就是快速通過。\n#end.bornholm|波羅的海有一個崎嶇的小島，很少有船經過。我在那兒和一個幾乎記不起名字的人一起度過了一個夏天。也許我的大敵不會去那裡找我，如果他去了，那就是時候奮起反抗了。\n#end.cheko|沙皇時代我曾在泰加林狩獵，那裡的深處有一個虎口形狀的湖。也許我的大敵不會去那裡找我，如果他去了，那就是時候奮起反抗了。\n#end.ghardaia|在沙漠深處有一組戒備森嚴的村莊群。幾年前柴瑪給我標出了這條路線。也許我的大敵不會去那裡找我，如果他去了，那就是時候奮起反抗了。\n#end.messana|在一個奇怪小村莊上面的山上有一個隱居處，米蕾婭曾經在那裡度過一個夏天。我想這是一個很好的藏身之處，於是我讓她標出了一條去那裡的路線。也許我的大敵不會去那裡找我，如果他去了，那就是時候奮起反抗了。\n#end.morbihan|莫爾比昂灣有個很特別的修道院，從陸上往西走就可以到達，而且不用橫跨大海。也許我的大敵不會去那裡找我，如果他去了，那就是時候奮起反抗了。\n#end.paro|在俄羅斯那邊的高山中有一座寺院。我年輕的時候去過。也許我的大敵不會去那裡找我，如果他去了，那就是時候奮起反抗了。\n#end.slettnes|在歐洲的盡頭有一座燈塔，在那裡我第一次觸摸到了那位無名的具名者的衣襬。也許我的大敵不會去那裡找我，如果他去了，那就是時候奮起反抗了。\n#|何處？@"
         },
         {
             "id": "send.investigate.aachen",
             "actionid": "send",
-            "label": "从亚琛发出密信",
-            "startdescription": "如果我要逃，就应该往有老朋友的地方逃——或者至少是有老熟人的地方。[此举会为你找到逃亡的目的地——但是有很小的造成痕迹的风险。更糟的是，清算人可能在你之前就到那里了。]",
+            "label": "從亞琛發出密信",
+            "startdescription": "如果我要逃，就應該往有老朋友的地方逃——或者至少是有老熟人的地方。[此舉會為你找到逃亡的目的地——但是有很小的造成痕跡的風險。更糟的是，清算人可能在你之前就到那裡了。]",
             "warmup": 30,
             "aspects": {
                 "minortracerisk": 1
@@ -1587,14 +1587,14 @@
         },
         {
             "id": "send.investigate.alexandria",
-            "startdescription": "如果我要逃，就应该往有老朋友的地方逃——或者至少是有老熟人的地方。[此举会为你找到逃亡的目的地——但是有很小的造成痕迹的风险。更糟的是，清算人可能在你之前就到那里了。]",
+            "startdescription": "如果我要逃，就應該往有老朋友的地方逃——或者至少是有老熟人的地方。[此舉會為你找到逃亡的目的地——但是有很小的造成痕跡的風險。更糟的是，清算人可能在你之前就到那裡了。]",
             "warmup": 30,
             "aspects": {
                 "minortracerisk": 1
             },
             "craftable": true,
             "actionid": "send",
-            "label": "从亚历山大港发出密信",
+            "label": "從亞歷山大港發出密信",
             "requirements": {
                 "temptation.defiance": -1,
                 "domicile.alexandria": 1
@@ -1619,8 +1619,8 @@
         {
             "id": "send.investigate.algiers",
             "actionid": "send",
-            "label": "从阿尔及尔发出密信",
-            "startdescription": "如果我要逃，就应该往有老朋友的地方逃——或者至少是有老熟人的地方。[此举会为你找到逃亡的目的地——但是有很小的造成痕迹的风险。更糟的是，清算人可能在你之前就到那里了。]",
+            "label": "從阿爾及爾發出密信",
+            "startdescription": "如果我要逃，就應該往有老朋友的地方逃——或者至少是有老熟人的地方。[此舉會為你找到逃亡的目的地——但是有很小的造成痕跡的風險。更糟的是，清算人可能在你之前就到那裡了。]",
             "warmup": 30,
             "aspects": {
                 "minortracerisk": 1
@@ -1651,8 +1651,8 @@
         {
             "id": "send.investigate.amsterdam",
             "actionid": "send",
-            "label": "从阿姆斯特丹发出密信",
-            "startdescription": "如果我要逃，就应该往有老朋友的地方逃——或者至少是有老熟人的地方。[此举会为你找到逃亡的目的地——但是有很小的造成痕迹的风险。更糟的是，清算人可能在你之前就到那里了。]",
+            "label": "從阿姆斯特丹發出密信",
+            "startdescription": "如果我要逃，就應該往有老朋友的地方逃——或者至少是有老熟人的地方。[此舉會為你找到逃亡的目的地——但是有很小的造成痕跡的風險。更糟的是，清算人可能在你之前就到那裡了。]",
             "warmup": 30,
             "aspects": {
                 "minortracerisk": 1
@@ -1682,8 +1682,8 @@
         {
             "id": "send.investigate.avignon",
             "actionid": "send",
-            "label": "从阿维尼翁发出密信",
-            "startdescription": "如果我要逃，就应该往有老朋友的地方逃——或者至少是有老熟人的地方。[此举会为你找到逃亡的目的地——但是有很小的造成痕迹的风险。更糟的是，清算人可能在你之前就到那里了。]",
+            "label": "從阿維尼翁發出密信",
+            "startdescription": "如果我要逃，就應該往有老朋友的地方逃——或者至少是有老熟人的地方。[此舉會為你找到逃亡的目的地——但是有很小的造成痕跡的風險。更糟的是，清算人可能在你之前就到那裡了。]",
             "warmup": 30,
             "aspects": {
                 "minortracerisk": 1
@@ -1713,12 +1713,12 @@
         {
             "id": "send.investigate.baghdad",
             "actionid": "send",
-            "label": "从巴格达发出密信",
+            "label": "從巴格達發出密信",
             "requirements": {
                 "temptation.defiance": -1,
                 "domicile.baghdad": 1
             },
-            "startdescription": "如果我要逃，就应该往有老朋友的地方逃——或者至少是有老熟人的地方。[此举会为你找到逃亡的目的地——但是有很小的造成痕迹的风险。更糟的是，清算人可能在你之前就到那里了。]",
+            "startdescription": "如果我要逃，就應該往有老朋友的地方逃——或者至少是有老熟人的地方。[此舉會為你找到逃亡的目的地——但是有很小的造成痕跡的風險。更糟的是，清算人可能在你之前就到那裡了。]",
             "warmup": 30,
             "aspects": {
                 "minortracerisk": 1
@@ -1745,8 +1745,8 @@
         {
             "id": "send.investigate.budapest",
             "actionid": "send",
-            "label": "从布达佩斯发出密信",
-            "startdescription": "如果我要逃，就应该往有老朋友的地方逃——或者至少是有老熟人的地方。[此举会为你找到逃亡的目的地——但是有很小的造成痕迹的风险。更糟的是，清算人可能在你之前就到那里了。]",
+            "label": "從布達佩斯發出密信",
+            "startdescription": "如果我要逃，就應該往有老朋友的地方逃——或者至少是有老熟人的地方。[此舉會為你找到逃亡的目的地——但是有很小的造成痕跡的風險。更糟的是，清算人可能在你之前就到那裡了。]",
             "warmup": 30,
             "aspects": {
                 "minortracerisk": 1
@@ -1776,8 +1776,8 @@
         {
             "id": "send.investigate.candia",
             "actionid": "send",
-            "label": "从甘地亚-伊拉克利翁发出密信",
-            "startdescription": "如果我要逃，就应该往有老朋友的地方逃——或者至少是有老熟人的地方。[此举会为你找到逃亡的目的地——但是有很小的风险造成痕迹。更糟的是，清算人可能在你之前就到那里了。]",
+            "label": "從甘地亞-伊拉克利翁發出密信",
+            "startdescription": "如果我要逃，就應該往有老朋友的地方逃——或者至少是有老熟人的地方。[此舉會為你找到逃亡的目的地——但是有很小的風險造成痕跡。更糟的是，清算人可能在你之前就到那裡了。]",
             "warmup": 60,
             "aspects": {
                 "minortracerisk": 1
@@ -1807,8 +1807,8 @@
         {
             "id": "send.investigate.cluj",
             "actionid": "send",
-            "label": "从克卢日-纳波卡发出密信",
-            "startdescription": "如果我要逃，就应该往有老朋友的地方逃——或者至少是有老熟人的地方。[此举会为你找到逃亡的目的地——但是有很小的风险造成痕迹。更糟的是，清算人可能在你之前就到那里了。]",
+            "label": "從克盧日-納波卡發出密信",
+            "startdescription": "如果我要逃，就應該往有老朋友的地方逃——或者至少是有老熟人的地方。[此舉會為你找到逃亡的目的地——但是有很小的風險造成痕跡。更糟的是，清算人可能在你之前就到那裡了。]",
             "warmup": 30,
             "craftable": true,
             "requirements": {
@@ -1835,8 +1835,8 @@
         {
             "id": "send.investigate.granada",
             "actionid": "send",
-            "label": "从格拉纳达发出密信",
-            "startdescription": "如果我要逃，就应该往有老朋友的地方逃——或者至少是有老熟人的地方。[此举会为你找到逃亡的目的地——但是有很小的造成痕迹的风险。更糟的是，清算人可能在你之前就到那里了。]",
+            "label": "從格拉納達發出密信",
+            "startdescription": "如果我要逃，就應該往有老朋友的地方逃——或者至少是有老熟人的地方。[此舉會為你找到逃亡的目的地——但是有很小的造成痕跡的風險。更糟的是，清算人可能在你之前就到那裡了。]",
             "warmup": 30,
             "aspects": {
                 "minortracerisk": 1
@@ -1866,8 +1866,8 @@
         {
             "id": "send.investigate.istanbul",
             "actionid": "send",
-            "label": "从伊斯坦布尔发出密信",
-            "startdescription": "如果我要逃，就应该往有老朋友的地方逃——或者至少是有老熟人的地方。[此举会为你找到逃亡的目的地——但是有很小的造成痕迹的风险。更糟的是，清算人可能在你之前就到那里了。]",
+            "label": "從伊斯坦布爾發出密信",
+            "startdescription": "如果我要逃，就應該往有老朋友的地方逃——或者至少是有老熟人的地方。[此舉會為你找到逃亡的目的地——但是有很小的造成痕跡的風險。更糟的是，清算人可能在你之前就到那裡了。]",
             "warmup": 30,
             "aspects": {
                 "minortracerisk": 1
@@ -1897,8 +1897,8 @@
         {
             "id": "send.investigate.kaunas",
             "actionid": "send",
-            "label": "从考纳斯发出密信",
-            "startdescription": "如果我要逃，就应该往有老朋友的地方逃——或者至少是有老熟人的地方。[此举会为你找到逃亡的目的地——但是有很小的造成痕迹的风险。更糟的是，清算人可能在你之前就到那里了。]",
+            "label": "從考納斯發出密信",
+            "startdescription": "如果我要逃，就應該往有老朋友的地方逃——或者至少是有老熟人的地方。[此舉會為你找到逃亡的目的地——但是有很小的造成痕跡的風險。更糟的是，清算人可能在你之前就到那裡了。]",
             "warmup": 30,
             "aspects": {
                 "minortracerisk": 1
@@ -1929,8 +1929,8 @@
         {
             "id": "send.investigate.kiev",
             "actionid": "send",
-            "label": "从基辅发出密信",
-            "startdescription": "如果我要逃，就应该往有老朋友的地方逃——或者至少是有老熟人的地方。[此举会为你找到逃亡的目的地——但是有很小的造成痕迹的风险。更糟的是，清算人可能在你之前就到那里了。]",
+            "label": "從基輔發出密信",
+            "startdescription": "如果我要逃，就應該往有老朋友的地方逃——或者至少是有老熟人的地方。[此舉會為你找到逃亡的目的地——但是有很小的造成痕跡的風險。更糟的是，清算人可能在你之前就到那裡了。]",
             "warmup": 30,
             "aspects": {
                 "minortracerisk": 1
@@ -1960,8 +1960,8 @@
         {
             "id": "send.investigate.krakow",
             "actionid": "send",
-            "label": "从克拉科夫发出密信",
-            "startdescription": "如果我要逃，就应该往有老朋友的地方逃——或者至少是有老熟人的地方。[此举会为你找到逃亡的目的地——但是有很小的造成痕迹的风险。更糟的是，清算人可能在你之前就到那里了。]",
+            "label": "從克拉科夫發出密信",
+            "startdescription": "如果我要逃，就應該往有老朋友的地方逃——或者至少是有老熟人的地方。[此舉會為你找到逃亡的目的地——但是有很小的造成痕跡的風險。更糟的是，清算人可能在你之前就到那裡了。]",
             "warmup": 30,
             "aspects": {
                 "minortracerisk": 1
@@ -1991,8 +1991,8 @@
         {
             "id": "send.investigate.leningrad",
             "actionid": "send",
-            "label": "从列宁格勒发出密信",
-            "startdescription": "如果我要逃，就应该往有老朋友的地方逃——或者至少是有老熟人的地方。[此举会为你找到逃亡的目的地——但是有很小的造成痕迹的风险。更糟的是，清算人可能在你之前就到那里了。]",
+            "label": "從列寧格勒發出密信",
+            "startdescription": "如果我要逃，就應該往有老朋友的地方逃——或者至少是有老熟人的地方。[此舉會為你找到逃亡的目的地——但是有很小的造成痕跡的風險。更糟的是，清算人可能在你之前就到那裡了。]",
             "warmup": 30,
             "aspects": {
                 "minortracerisk": 1
@@ -2022,8 +2022,8 @@
         {
             "id": "send.investigate.london",
             "actionid": "send",
-            "label": "从伦敦发出密信",
-            "startdescription": "如果我要逃，就应该往有老朋友的地方逃——或者至少是有老熟人的地方。[此举会为你找到逃亡的目的地——但是有很小的造成痕迹的风险。更糟的是，清算人可能在你之前就到那里了。]",
+            "label": "從倫敦發出密信",
+            "startdescription": "如果我要逃，就應該往有老朋友的地方逃——或者至少是有老熟人的地方。[此舉會為你找到逃亡的目的地——但是有很小的造成痕跡的風險。更糟的是，清算人可能在你之前就到那裡了。]",
             "warmup": 30,
             "aspects": {
                 "minortracerisk": 1
@@ -2053,8 +2053,8 @@
         {
             "id": "send.investigate.marrakech",
             "actionid": "send",
-            "label": "从马拉喀什发出密信",
-            "startdescription": "如果我要逃，就应该往有老朋友的地方逃——或者至少是有老熟人的地方。[此举会为你找到逃亡的目的地——但是有很小的造成痕迹的风险。更糟的是，清算人可能在你之前就到那里了。]",
+            "label": "從馬拉喀什發出密信",
+            "startdescription": "如果我要逃，就應該往有老朋友的地方逃——或者至少是有老熟人的地方。[此舉會為你找到逃亡的目的地——但是有很小的造成痕跡的風險。更糟的是，清算人可能在你之前就到那裡了。]",
             "warmup": 30,
             "aspects": {
                 "minortracerisk": 1
@@ -2084,8 +2084,8 @@
         {
             "id": "send.investigate.meshad",
             "actionid": "send",
-            "label": "从马什哈德发出密信",
-            "startdescription": "如果我要逃，就应该往有老朋友的地方逃——或者至少是有老熟人的地方。[此举会为你找到逃亡的目的地——但是有很小的风险造成痕迹。更糟的是，清算人可能在你之前就到那里了。而且你与其他潜在目的地之间的距离十分遥远，旅行会花费更长时间。]",
+            "label": "從馬什哈德發出密信",
+            "startdescription": "如果我要逃，就應該往有老朋友的地方逃——或者至少是有老熟人的地方。[此舉會為你找到逃亡的目的地——但是有很小的風險造成痕跡。更糟的是，清算人可能在你之前就到那裡了。而且你與其他潛在目的地之間的距離十分遙遠，旅行會花費更長時間。]",
             "warmup": 60,
             "aspects": {
                 "minortracerisk": 1
@@ -2115,8 +2115,8 @@
         {
             "id": "send.investigate.munich",
             "actionid": "send",
-            "label": "从慕尼黑发出密信",
-            "startdescription": "如果我要逃，就应该往有老朋友的地方逃——或者至少是有老熟人的地方。[此举会为你找到逃亡的目的地——但是有很小的造成痕迹的风险。更糟的是，清算人可能在你之前就到那里了。]",
+            "label": "從慕尼黑發出密信",
+            "startdescription": "如果我要逃，就應該往有老朋友的地方逃——或者至少是有老熟人的地方。[此舉會為你找到逃亡的目的地——但是有很小的造成痕跡的風險。更糟的是，清算人可能在你之前就到那裡了。]",
             "warmup": 30,
             "aspects": {
                 "minortracerisk": 1
@@ -2146,8 +2146,8 @@
         {
             "id": "send.investigate.nizhny",
             "actionid": "send",
-            "label": "从下诺夫哥罗德发出密信",
-            "startdescription": "如果我要逃，就应该往有老朋友的地方逃——或者至少是有老熟人的地方。[此举会为你找到逃亡的目的地——但是有很小的风险造成痕迹。更糟的是，清算人可能在你之前就到那里了。而且你与其他潜在目的地之间的距离十分遥远，旅行会花费更长时间。]",
+            "label": "從下諾夫哥羅德發出密信",
+            "startdescription": "如果我要逃，就應該往有老朋友的地方逃——或者至少是有老熟人的地方。[此舉會為你找到逃亡的目的地——但是有很小的風險造成痕跡。更糟的是，清算人可能在你之前就到那裡了。而且你與其他潛在目的地之間的距離十分遙遠，旅行會花費更長時間。]",
             "warmup": 60,
             "aspects": {
                 "minortracerisk": 1
@@ -2177,8 +2177,8 @@
         {
             "id": "send.investigate.paris",
             "actionid": "send",
-            "label": "从巴黎发出密信",
-            "startdescription": "如果我要逃，就应该往有老朋友的地方逃——或者至少是有老熟人的地方。[此举会为你找到逃亡的目的地——但是有很小的造成痕迹的风险。更糟的是，清算人可能在你之前就到那里了。]",
+            "label": "從巴黎發出密信",
+            "startdescription": "如果我要逃，就應該往有老朋友的地方逃——或者至少是有老熟人的地方。[此舉會為你找到逃亡的目的地——但是有很小的造成痕跡的風險。更糟的是，清算人可能在你之前就到那裡了。]",
             "warmup": 30,
             "aspects": {
                 "minortracerisk": 1
@@ -2208,8 +2208,8 @@
         {
             "id": "send.investigate.prague",
             "actionid": "send",
-            "label": "从布拉格发出密信",
-            "startdescription": "如果我要逃，就应该往有老朋友的地方逃——或者至少是有老熟人的地方。[此举会为你找到逃亡的目的地——但是有很小的造成痕迹的风险。更糟的是，清算人可能在你之前就到那里了。]",
+            "label": "從布拉格發出密信",
+            "startdescription": "如果我要逃，就應該往有老朋友的地方逃——或者至少是有老熟人的地方。[此舉會為你找到逃亡的目的地——但是有很小的造成痕跡的風險。更糟的是，清算人可能在你之前就到那裡了。]",
             "warmup": 30,
             "aspects": {
                 "minortracerisk": 1
@@ -2239,8 +2239,8 @@
         {
             "id": "send.investigate.rostock",
             "actionid": "send",
-            "label": "从罗斯托克发出密信",
-            "startdescription": "如果我要逃，就应该往有老朋友的地方逃——或者至少是有老熟人的地方。[此举会为你找到逃亡的目的地——但是有很小的造成痕迹的风险。更糟的是，清算人可能在你之前就到那里了。]",
+            "label": "從羅斯托克發出密信",
+            "startdescription": "如果我要逃，就應該往有老朋友的地方逃——或者至少是有老熟人的地方。[此舉會為你找到逃亡的目的地——但是有很小的造成痕跡的風險。更糟的是，清算人可能在你之前就到那裡了。]",
             "warmup": 30,
             "aspects": {
                 "minortracerisk": 1
@@ -2270,8 +2270,8 @@
         {
             "id": "send.investigate.samarkand",
             "actionid": "send",
-            "label": "从撒马尔罕发出密信",
-            "startdescription": "如果我要逃，就应该往有老朋友的地方逃——或者至少是有老熟人的地方。[此举会为你找到逃亡的目的地——但是有很小的造成痕迹的风险。更糟的是，清算人可能在你之前就到那里了。]",
+            "label": "從撒馬爾罕發出密信",
+            "startdescription": "如果我要逃，就應該往有老朋友的地方逃——或者至少是有老熟人的地方。[此舉會為你找到逃亡的目的地——但是有很小的造成痕跡的風險。更糟的是，清算人可能在你之前就到那裡了。]",
             "warmup": 30,
             "aspects": {
                 "minortracerisk": 1
@@ -2301,8 +2301,8 @@
         {
             "id": "send.investigate.strasbourg",
             "actionid": "send",
-            "label": "从斯特拉斯堡发出密信",
-            "startdescription": "如果我要逃，就应该往有老朋友的地方逃——或者至少是有老熟人的地方。[此举会为你找到逃亡的目的地——但是有很小的造成痕迹的风险。更糟的是，清算人可能在你之前就到那里了。]",
+            "label": "從斯特拉斯堡發出密信",
+            "startdescription": "如果我要逃，就應該往有老朋友的地方逃——或者至少是有老熟人的地方。[此舉會為你找到逃亡的目的地——但是有很小的造成痕跡的風險。更糟的是，清算人可能在你之前就到那裡了。]",
             "warmup": 30,
             "aspects": {
                 "minortracerisk": 1
@@ -2332,8 +2332,8 @@
         {
             "id": "send.investigate.stalingrad",
             "actionid": "send",
-            "label": "从斯大林格勒发出密信",
-            "startdescription": "如果我要逃，就应该往有老朋友的地方逃——或者至少是有老熟人的地方。[此举会为你找到逃亡的目的地——但是有很小的风险造成痕迹。更糟的是，清算人可能在你之前就到那里了。而且你与其他潜在目的地之间的距离十分遥远，旅行会花费更长时间。]",
+            "label": "從斯大林格勒發出密信",
+            "startdescription": "如果我要逃，就應該往有老朋友的地方逃——或者至少是有老熟人的地方。[此舉會為你找到逃亡的目的地——但是有很小的風險造成痕跡。更糟的是，清算人可能在你之前就到那裡了。而且你與其他潛在目的地之間的距離十分遙遠，旅行會花費更長時間。]",
             "warmup": 60,
             "aspects": {
                 "minortracerisk": 1
@@ -2363,8 +2363,8 @@
         {
             "id": "send.investigate.sverdlovsk",
             "actionid": "send",
-            "label": "从斯维尔德洛夫斯克发出密信",
-            "startdescription": "如果我要逃，就应该往有老朋友的地方逃——或者至少是有老熟人的地方。[此举会为你找到逃亡的目的地——但是有很小的风险造成痕迹。更糟的是，清算人可能在你之前就到那里了。而且你与其他潜在目的地之间的距离十分遥远，旅行会花费更长时间。]",
+            "label": "從斯維爾德洛夫斯克發出密信",
+            "startdescription": "如果我要逃，就應該往有老朋友的地方逃——或者至少是有老熟人的地方。[此舉會為你找到逃亡的目的地——但是有很小的風險造成痕跡。更糟的是，清算人可能在你之前就到那裡了。而且你與其他潛在目的地之間的距離十分遙遠，旅行會花費更長時間。]",
             "warmup": 60,
             "aspects": {
                 "minortracerisk": 1
@@ -2395,8 +2395,8 @@
         {
             "id": "send.investigate.tiflis",
             "actionid": "send",
-            "label": "从梯弗利斯发出密信",
-            "startdescription": "如果我要逃，就应该往有老朋友的地方逃——或者至少是有老熟人的地方。[此举会为你找到逃亡的目的地——但是有很小的造成痕迹的风险。更糟的是，清算人可能在你之前就到那里了。]",
+            "label": "從梯弗利斯發出密信",
+            "startdescription": "如果我要逃，就應該往有老朋友的地方逃——或者至少是有老熟人的地方。[此舉會為你找到逃亡的目的地——但是有很小的造成痕跡的風險。更糟的是，清算人可能在你之前就到那裡了。]",
             "warmup": 30,
             "aspects": {
                 "minortracerisk": 1
@@ -2426,8 +2426,8 @@
         {
             "id": "send.investigate.tirana",
             "actionid": "send",
-            "label": "从地拉那发出密信",
-            "startdescription": "如果我要逃，就应该往有老朋友的地方逃——或者至少是有老熟人的地方。[此举会为你找到逃亡的目的地——但是有很小的造成痕迹的风险。更糟的是，清算人可能在你之前就到那里了。]",
+            "label": "從地拉那發出密信",
+            "startdescription": "如果我要逃，就應該往有老朋友的地方逃——或者至少是有老熟人的地方。[此舉會為你找到逃亡的目的地——但是有很小的造成痕跡的風險。更糟的是，清算人可能在你之前就到那裡了。]",
             "warmup": 30,
             "aspects": {
                 "minortracerisk": 1
@@ -2457,8 +2457,8 @@
         {
             "id": "send.investigate.tripoli",
             "actionid": "send",
-            "label": "从西的黎波里发出密信",
-            "startdescription": "如果我要逃，就应该往有老朋友的地方逃——或者至少是有老熟人的地方。[此举会为你找到逃亡的目的地——但是有很小的造成痕迹的风险。更糟的是，清算人可能在你之前就到那里了。]",
+            "label": "從西的黎波里發出密信",
+            "startdescription": "如果我要逃，就應該往有老朋友的地方逃——或者至少是有老熟人的地方。[此舉會為你找到逃亡的目的地——但是有很小的造成痕跡的風險。更糟的是，清算人可能在你之前就到那裡了。]",
             "warmup": 30,
             "aspects": {
                 "minortracerisk": 1
@@ -2488,8 +2488,8 @@
         {
             "id": "send.investigate.valletta",
             "actionid": "send",
-            "label": "从瓦莱塔发出密信",
-            "startdescription": "如果我要逃，就应该往有老朋友的地方逃——或者至少是有老熟人的地方。[此举会为你找到逃亡的目的地——但是有很小的风险造成痕迹。更糟的是，清算人可能在你之前就到那里了。而且你与其他潜在目的地之间的距离十分遥远，旅行会花费更长时间。]",
+            "label": "從瓦萊塔發出密信",
+            "startdescription": "如果我要逃，就應該往有老朋友的地方逃——或者至少是有老熟人的地方。[此舉會為你找到逃亡的目的地——但是有很小的風險造成痕跡。更糟的是，清算人可能在你之前就到那裡了。而且你與其他潛在目的地之間的距離十分遙遠，旅行會花費更長時間。]",
             "warmup": 60,
             "aspects": {
                 "minortracerisk": 1
@@ -2519,8 +2519,8 @@
         {
             "id": "send.investigate.venice",
             "actionid": "send",
-            "label": "从威尼斯发出密信",
-            "startdescription": "如果我要逃，就应该往有老朋友的地方逃——或者至少是有老熟人的地方。[此举会为你找到逃亡的目的地——但是有很小的造成痕迹的风险。更糟的是，清算人可能在你之前就到那里了。]",
+            "label": "從威尼斯發出密信",
+            "startdescription": "如果我要逃，就應該往有老朋友的地方逃——或者至少是有老熟人的地方。[此舉會為你找到逃亡的目的地——但是有很小的造成痕跡的風險。更糟的是，清算人可能在你之前就到那裡了。]",
             "warmup": 30,
             "aspects": {
                 "minortracerisk": 1
@@ -2550,8 +2550,8 @@
         {
             "id": "send.investigate.vienna",
             "actionid": "send",
-            "label": "从维也纳发出密信",
-            "startdescription": "如果我要逃，就应该往有老朋友的地方逃——或者至少是有老熟人的地方。[此举会为你找到逃亡的目的地——但是有很小的造成痕迹的风险。更糟的是，清算人可能在你之前就到那里了。]",
+            "label": "從維也納發出密信",
+            "startdescription": "如果我要逃，就應該往有老朋友的地方逃——或者至少是有老熟人的地方。[此舉會為你找到逃亡的目的地——但是有很小的造成痕跡的風險。更糟的是，清算人可能在你之前就到那裡了。]",
             "warmup": 30,
             "aspects": {
                 "minortracerisk": 1
@@ -2581,8 +2581,8 @@
         {
             "id": "send.investigate.aachen.turmoil",
             "actionid": "send",
-            "label": "从亚琛匆匆发出消息",
-            "startdescription": "我需要找个更安全的地方。[当城市处于这种状态时，在不被发现的状态下与人联系会更加困难。出现痕迹的风险很高。]",
+            "label": "從亞琛匆匆發出消息",
+            "startdescription": "我需要找個更安全的地方。[當城市處於這種狀態時，在不被發現的狀態下與人聯繫會更加困難。出現痕跡的風險很高。]",
             "warmup": 30,
             "aspects": {
                 "majortracerisk": 1
@@ -2612,8 +2612,8 @@
         {
             "id": "send.investigate.algiers.turmoil",
             "actionid": "send",
-            "label": "从阿尔及尔匆匆发出消息",
-            "startdescription": "我需要找个更安全的地方。[当城市处于这种状态时，在不被发现的状态下与人联系会更加困难。出现痕迹的风险很高。]",
+            "label": "從阿爾及爾匆匆發出消息",
+            "startdescription": "我需要找個更安全的地方。[當城市處於這種狀態時，在不被發現的狀態下與人聯繫會更加困難。出現痕跡的風險很高。]",
             "warmup": 30,
             "aspects": {
                 "majortracerisk": 1
@@ -2644,8 +2644,8 @@
         {
             "id": "send.investigate.baghdad.turmoil",
             "actionid": "send",
-            "label": "从巴格达匆匆发出消息",
-            "startdescription": "我需要找个更安全的地方。[当城市处于这种状态时，在不被发现的状态下与人联系会更加困难。出现痕迹的风险很高。]",
+            "label": "從巴格達匆匆發出消息",
+            "startdescription": "我需要找個更安全的地方。[當城市處於這種狀態時，在不被發現的狀態下與人聯繫會更加困難。出現痕跡的風險很高。]",
             "warmup": 30,
             "aspects": {
                 "majortracerisk": 1
@@ -2676,8 +2676,8 @@
         {
             "id": "send.investigate.istanbul.turmoil",
             "actionid": "send",
-            "label": "从伊斯坦布尔匆匆发出消息",
-            "startdescription": "我需要找个更安全的地方。[当城市处于这种状态时，在不被发现的状态下与人联系会更加困难。出现痕迹的风险很高。]",
+            "label": "從伊斯坦布爾匆匆發出消息",
+            "startdescription": "我需要找個更安全的地方。[當城市處於這種狀態時，在不被發現的狀態下與人聯繫會更加困難。出現痕跡的風險很高。]",
             "warmup": 30,
             "aspects": {
                 "majortracerisk": 1
@@ -2707,8 +2707,8 @@
         {
             "id": "send.investigate.kiev.turmoil",
             "actionid": "send",
-            "label": "从基辅匆匆发出消息",
-            "startdescription": "我需要找个更安全的地方。[当城市处于这种状态时，在不被发现的状态下与人联系会更加困难。出现痕迹的风险很高。]",
+            "label": "從基輔匆匆發出消息",
+            "startdescription": "我需要找個更安全的地方。[當城市處於這種狀態時，在不被發現的狀態下與人聯繫會更加困難。出現痕跡的風險很高。]",
             "warmup": 30,
             "aspects": {
                 "majortracerisk": 1
@@ -2738,8 +2738,8 @@
         {
             "id": "send.investigate.leningrad.turmoil",
             "actionid": "send",
-            "label": "从列宁格勒匆匆发出消息",
-            "startdescription": "我需要找个更安全的地方。[当城市处于这种状态时，在不被发现的状态下与人联系会更加困难。出现痕迹的风险很高。]",
+            "label": "從列寧格勒匆匆發出消息",
+            "startdescription": "我需要找個更安全的地方。[當城市處於這種狀態時，在不被發現的狀態下與人聯繫會更加困難。出現痕跡的風險很高。]",
             "warmup": 30,
             "aspects": {
                 "majortracerisk": 1
@@ -2769,8 +2769,8 @@
         {
             "id": "send.investigate.london.turmoil",
             "actionid": "send",
-            "label": "从伦敦匆匆发出消息",
-            "startdescription": "我需要找个更安全的地方。[当城市处于这种状态时，在不被发现的状态下与人联系会更加困难。出现痕迹的风险很高。]",
+            "label": "從倫敦匆匆發出消息",
+            "startdescription": "我需要找個更安全的地方。[當城市處於這種狀態時，在不被發現的狀態下與人聯繫會更加困難。出現痕跡的風險很高。]",
             "warmup": 30,
             "aspects": {
                 "majortracerisk": 1
@@ -2800,8 +2800,8 @@
         {
             "id": "send.investigate.munich.turmoil",
             "actionid": "send",
-            "label": "从慕尼黑匆匆发出消息",
-            "startdescription": "我需要找个更安全的地方。[当城市处于这种状态时，在不被发现的状态下与人联系会更加困难。出现痕迹的风险很高。]",
+            "label": "從慕尼黑匆匆發出消息",
+            "startdescription": "我需要找個更安全的地方。[當城市處於這種狀態時，在不被發現的狀態下與人聯繫會更加困難。出現痕跡的風險很高。]",
             "warmup": 30,
             "aspects": {
                 "majortracerisk": 1
@@ -2831,8 +2831,8 @@
         {
             "id": "send.investigate.nizhny.turmoil",
             "actionid": "send",
-            "label": "从下诺夫哥罗德匆匆发出消息",
-            "startdescription": "我需要找个更安全的地方。[当城市处于这种状态时，在不被发现的状态下与人联系会更加困难。出现痕迹的风险很高。]",
+            "label": "從下諾夫哥羅德匆匆發出消息",
+            "startdescription": "我需要找個更安全的地方。[當城市處於這種狀態時，在不被發現的狀態下與人聯繫會更加困難。出現痕跡的風險很高。]",
             "warmup": 30,
             "aspects": {
                 "majortracerisk": 1
@@ -2862,8 +2862,8 @@
         {
             "id": "send.investigate.samarkand.turmoil",
             "actionid": "send",
-            "label": "从撒马尔罕匆匆发出消息",
-            "startdescription": "我需要找个更安全的地方。[当城市处于这种状态时，在不被发现的状态下与人联系会更加困难。出现痕迹的风险很高。]",
+            "label": "從撒馬爾罕匆匆發出消息",
+            "startdescription": "我需要找個更安全的地方。[當城市處於這種狀態時，在不被發現的狀態下與人聯繫會更加困難。出現痕跡的風險很高。]",
             "warmup": 30,
             "aspects": {
                 "majortracerisk": 1
@@ -2893,8 +2893,8 @@
         {
             "id": "send.investigate.stalingrad.turmoil",
             "actionid": "send",
-            "label": "从斯大林格勒匆匆发出消息",
-            "startdescription": "我需要找个更安全的地方。[当城市处于这种状态时，在不被发现的状态下与人联系会更加困难。出现痕迹的风险很高。]",
+            "label": "從斯大林格勒匆匆發出消息",
+            "startdescription": "我需要找個更安全的地方。[當城市處於這種狀態時，在不被發現的狀態下與人聯繫會更加困難。出現痕跡的風險很高。]",
             "warmup": 30,
             "aspects": {
                 "majortracerisk": 1
@@ -2924,8 +2924,8 @@
         {
             "id": "send.investigate.sverdlovsk.turmoil",
             "actionid": "send",
-            "label": "从斯维尔德洛夫斯克匆匆发出消息",
-            "startdescription": "我需要找个更安全的地方。[当城市处于这种状态时，在不被发现的状态下与人联系会更加困难。出现痕迹的风险很高。]",
+            "label": "從斯維爾德洛夫斯克匆匆發出消息",
+            "startdescription": "我需要找個更安全的地方。[當城市處於這種狀態時，在不被發現的狀態下與人聯繫會更加困難。出現痕跡的風險很高。]",
             "warmup": 30,
             "aspects": {
                 "majortracerisk": 1
@@ -2956,8 +2956,8 @@
         {
             "id": "send.investigate.tiflis.turmoil",
             "actionid": "send",
-            "label": "从梯弗利斯匆匆发出消息",
-            "startdescription": "我需要找个更安全的地方。[当城市处于这种状态时，在不被发现的状态下与人联系会更加困难。出现痕迹的风险很高。]",
+            "label": "從梯弗利斯匆匆發出消息",
+            "startdescription": "我需要找個更安全的地方。[當城市處於這種狀態時，在不被發現的狀態下與人聯繫會更加困難。出現痕跡的風險很高。]",
             "warmup": 30,
             "aspects": {
                 "majortracerisk": 1
@@ -2986,14 +2986,14 @@
         },
         {
             "id": "send.investigate.wilderness",
-            "startdescription": "如果我要逃，就应该往有老朋友的地方逃——或者至少是有老熟人的地方。[荒野充满危险。你每次这样做都将产生一道伤口。]",
+            "startdescription": "如果我要逃，就應該往有老朋友的地方逃——或者至少是有老熟人的地方。[荒野充滿危險。你每次這樣做都將產生一道傷口。]",
             "warmup": 30,
             "aspects": {
                 "tracerisk": 1
             },
             "craftable": true,
             "actionid": "send",
-            "label": "尝试与某处的某人联系",
+            "label": "嘗試與某處的某人聯繫",
             "requirements": {
                 "domicile.wilderness": 1
             },

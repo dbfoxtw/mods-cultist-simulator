@@ -2,19 +2,19 @@
     "elements": [
         {
             "id": "uqedgelore.exile",
-            "label": "流亡者：<b>刃</b>之密传",
+            "label": "流亡者：<b>刃</b>之密傳",
             "isAspect": true,
             "isHidden": true
         },
         {
             "id": "uqedgelore.colonel",
-            "label": "上校：<b>刃</b>之密传",
+            "label": "上校：<b>刃</b>之密傳",
             "isAspect": true,
             "isHidden": true
         },
         {
             "id": "uqedgelore.lionsmith",
-            "label": "狮子匠：<b>刃</b>之密传",
+            "label": "獅子匠：<b>刃</b>之密傳",
             "isAspect": true,
             "isHidden": true
         },
@@ -25,7 +25,7 @@
                 "edge": 2,
                 "lore": 1
             },
-            "description": "我并非无形之术的学徒，但在我的职业生涯中，我曾经不得不杀死过几个这样的人。人就是要边干边学。",
+            "description": "我並非無形之術的學徒，但在我的職業生涯中，我曾經不得不殺死過幾個這樣的人。人就是要邊幹邊學。",
             "xtriggers": {
                 "epiphany": "fragmentedgeb.exile",
                 "fatiguing": "fragmentedge.exile.exhausted",
@@ -49,12 +49,12 @@
         },
         {
             "id": "fragmentedgeb.exile",
-            "label": "比德的教诲",
+            "label": "比德的教誨",
             "aspects": {
                 "edge": 4,
                 "lore": 1
             },
-            "description": "比德说过：“血可再生。时无再还。”比德知道自己是什么。",
+            "description": "比德說過：“血可再生。時無再還。”比德知道自己是什麼。",
             "xtriggers": {
                 "epiphany": "fragmentedgec.exile",
                 "depiphany": "fragmentedge.exile",
@@ -79,12 +79,12 @@
         },
         {
             "id": "fragmentedgec.exile",
-            "label": "林鸮行动",
+            "label": "林鴞行動",
             "aspects": {
                 "edge": 6,
                 "lore": 1
             },
-            "description": "“在勇士倒下的地方，多翼林鸮聚集在一起，纪念他们的肉身。在英雄倒下的地方，多翼者聚集在一起，把他们的灵魂引领到司辰面前。”我不想倒下，所以我学会了林鸮保护自己的方法。",
+            "description": "“在勇士倒下的地方，多翼林鴞聚集在一起，紀念他們的肉身。在英雄倒下的地方，多翼者聚集在一起，把他們的靈魂引領到司辰面前。”我不想倒下，所以我學會了林鴞保護自己的方法。",
             "xtriggers": {
                 "epiphany": "fragmentedged.exile",
                 "depiphany": "fragmentedgeb.exile",
@@ -114,7 +114,7 @@
                 "edge": 8,
                 "lore": 1
             },
-            "description": "“裂分之狼具三性：毁灭性，毁灭性，以及，毁灭性。” 学习司辰的技艺不代表你必须喜爱它。",
+            "description": "“裂分之狼具三性：毀滅性，毀滅性，以及，毀滅性。” 學習司辰的技藝不代表你必須喜愛它。",
             "xtriggers": {
                 "epiphany": "fragmentedgee.exile",
                 "depiphany": "fragmentedgec.exile",
@@ -139,12 +139,12 @@
         },
         {
             "id": "fragmentedgee.exile",
-            "label": "朱砂之构",
+            "label": "硃砂之構",
             "aspects": {
                 "edge": 10,
                 "lore": 1
             },
-            "description": "七七四十九种毁灭之术。",
+            "description": "七七四十九種毀滅之術。",
             "xtriggers": {
                 "epiphany": "fragmentedgef.exile",
                 "depiphany": "fragmentedged.exile",
@@ -169,12 +169,12 @@
         },
         {
             "id": "fragmentedgef.exile",
-            "label": "谋杀连珠",
+            "label": "謀殺連珠",
             "aspects": {
                 "edge": 12,
                 "lore": 1
             },
-            "description": "此为确保终结的技艺。",
+            "description": "此為確保終結的技藝。",
             "xtriggers": {
                 "epiphany": "fragmentedgeg.exile",
                 "depiphany": "fragmentedgee.exile",
@@ -204,7 +204,7 @@
                 "edge": 14,
                 "lore": 1
             },
-            "description": "上校和狮子匠是肉源之神，但是裂分之狼是血源之神。狡诈、力气与痛苦乃胜利的三大根基，下文即其秘密教义……",
+            "description": "上校和獅子匠是肉源之神，但是裂分之狼是血源之神。狡詐、力氣與痛苦乃勝利的三大根基，下文即其秘密教義……",
             "xtriggers": {
                 "fatiguing": "fragmentedgeg.exile.exhausted",
                 "epiphany.colonel": "fragmentedgeg.colonel",
@@ -235,7 +235,7 @@
         {
             "id": "fragmentedge.exile.exhausted",
             "label": "刀子的秘密（枯竭）",
-            "description": "[我需要时间恢复，才能再次使用它。每一次升级都可以使它恢复得更快。]",
+            "description": "[我需要時間恢復，才能再次使用它。每一次升級都可以使它恢復得更快。]",
             "aspects": {
                 "exhausted": 1
             },
@@ -247,8 +247,8 @@
         },
         {
             "id": "fragmentedgeb.exile.exhausted",
-            "label": "比德的教诲（枯竭）",
-            "description": "[我需要时间恢复，才能再次使用它。每一次升级都可以使它恢复得更快。]",
+            "label": "比德的教誨（枯竭）",
+            "description": "[我需要時間恢復，才能再次使用它。每一次升級都可以使它恢復得更快。]",
             "aspects": {
                 "exhausted": 1
             },
@@ -260,8 +260,8 @@
         },
         {
             "id": "fragmentedgec.exile.exhausted",
-            "label": "林鸮行动（枯竭）",
-            "description": "[我需要时间恢复，才能再次使用它。每一次升级都可以使它恢复得更快。]",
+            "label": "林鴞行動（枯竭）",
+            "description": "[我需要時間恢復，才能再次使用它。每一次升級都可以使它恢復得更快。]",
             "aspects": {
                 "exhausted": 1
             },
@@ -274,7 +274,7 @@
         {
             "id": "fragmentedged.exile.exhausted",
             "label": "狼的具名者（枯竭）",
-            "description": "[我需要时间恢复，才能再次使用它。每一次升级都可以使它恢复得更快。]",
+            "description": "[我需要時間恢復，才能再次使用它。每一次升級都可以使它恢復得更快。]",
             "aspects": {
                 "exhausted": 1
             },
@@ -286,8 +286,8 @@
         },
         {
             "id": "fragmentedgee.exile.exhausted",
-            "label": "朱砂之构（枯竭）",
-            "description": "[我需要时间恢复，才能再次使用它。每一次升级都可以使它恢复得更快。]",
+            "label": "硃砂之構（枯竭）",
+            "description": "[我需要時間恢復，才能再次使用它。每一次升級都可以使它恢復得更快。]",
             "aspects": {
                 "exhausted": 1
             },
@@ -299,8 +299,8 @@
         },
         {
             "id": "fragmentedgef.exile.exhausted",
-            "label": "谋杀连珠（枯竭）",
-            "description": "[我需要时间恢复，才能再次使用它。每一次升级都可以使它恢复得更快。]",
+            "label": "謀殺連珠（枯竭）",
+            "description": "[我需要時間恢復，才能再次使用它。每一次升級都可以使它恢復得更快。]",
             "aspects": {
                 "exhausted": 1
             },
@@ -313,7 +313,7 @@
         {
             "id": "fragmentedgeg.exile.exhausted",
             "label": "武力之秘（枯竭）",
-            "description": "[我需要时间恢复，才能再次使用它。每一次升级都可以使它恢复得更快。]",
+            "description": "[我需要時間恢復，才能再次使用它。每一次升級都可以使它恢復得更快。]",
             "aspects": {
                 "exhausted": 1
             },
@@ -325,14 +325,14 @@
         },
         {
             "id": "fragmentedgeb.colonel",
-            "label": "千夫长的教诲",
+            "label": "千夫長的教誨",
             "aspects": {
                 "edge": 4,
                 "lantern": 2,
                 "winter": 2,
                 "lore": 1
             },
-            "description": "“千夫长在悠久的过去中学到了有关于鲜血和伤口的刻骨故事。刀剑嘶鸣声，正大声诉说着这个故事。” 它比听起来更实用。",
+            "description": "“千夫長在悠久的過去中學到了有關於鮮血和傷口的刻骨故事。刀劍嘶鳴聲，正大聲訴說著這個故事。” 它比聽起來更實用。",
             "xtriggers": {
                 "epiphany": "fragmentedgec.colonel",
                 "epiphany.colonel": "fragmentedgec.colonel",
@@ -354,14 +354,14 @@
         },
         {
             "id": "fragmentedgec.colonel",
-            "label": "持盾蛇卫行动",
+            "label": "持盾蛇衛行動",
             "aspects": {
                 "edge": 6,
                 "lantern": 3,
                 "winter": 3,
                 "lore": 1
             },
-            "description": "一套严格的训练：将皮肤武装起来，使每一根手指都化作致命的矛尖。",
+            "description": "一套嚴格的訓練：將皮膚武裝起來，使每一根手指都化作致命的矛尖。",
             "xtriggers": {
                 "epiphany": "fragmentedged.colonel",
                 "epiphany.colonel": "fragmentedged.colonel",
@@ -391,7 +391,7 @@
                 "winter": 4,
                 "lore": 1
             },
-            "description": "上校在不同的时代有着不同的形象。他目盲；他耳聋；他不受创伤；他不容违抗。他的具名者皆如极年迈之人一般狡诈。",
+            "description": "上校在不同的時代有著不同的形象。他目盲；他耳聾；他不受創傷；他不容違抗。他的具名者皆如極年邁之人一般狡詐。",
             "xtriggers": {
                 "epiphany": "fragmentedgee.colonel",
                 "epiphany.colonel": "fragmentedgee.colonel",
@@ -414,14 +414,14 @@
         },
         {
             "id": "fragmentedgee.colonel",
-            "label": "钢铁之构",
+            "label": "鋼鐵之構",
             "aspects": {
                 "edge": 10,
                 "lantern": 5,
                 "winter": 5,
                 "lore": 1
             },
-            "description": "七七四十九种裂肉之技。",
+            "description": "七七四十九種裂肉之技。",
             "xtriggers": {
                 "epiphany": "fragmentedgef.colonel",
                 "epiphany.colonel": "fragmentedgef.colonel",
@@ -444,14 +444,14 @@
         },
         {
             "id": "fragmentedgef.colonel",
-            "label": "铁銎之规",
+            "label": "鐵銎之規",
             "aspects": {
                 "edge": 12,
                 "lantern": 6,
                 "winter": 6,
                 "lore": 1
             },
-            "description": "如果我要成为一柄利器，我就必须知晓自己的灵魂在何处被其经历强化，以及我的极限在何时会变得至关重要。",
+            "description": "如果我要成為一柄利器，我就必須知曉自己的靈魂在何處被其經歷強化，以及我的極限在何時會變得至關重要。",
             "xtriggers": {
                 "epiphany": "fragmentedgeg.colonel",
                 "epiphany.colonel": "fragmentedgeg.colonel",
@@ -474,14 +474,14 @@
         },
         {
             "id": "fragmentedgeg.colonel",
-            "label": "伤疤之秘",
+            "label": "傷疤之秘",
             "aspects": {
                 "edge": 14,
                 "lantern": 7,
                 "winter": 7,
                 "lore": 1
             },
-            "description": "狡诈乃胜利的根基。经验乃狡诈的根基。没有痛苦就没有经验，而伤疤是痛苦的外在表现。",
+            "description": "狡詐乃勝利的根基。經驗乃狡詐的根基。沒有痛苦就沒有經驗，而傷疤是痛苦的外在表現。",
             "xtriggers": {
                 "epiphany": [
                     {
@@ -514,8 +514,8 @@
         },
         {
             "id": "fragmentedgeb.colonel.exhausted",
-            "label": "千夫长的教诲（枯竭）",
-            "description": "[我需要时间恢复，才能再次使用它。每一次升级都可以使它恢复得更快。]",
+            "label": "千夫長的教誨（枯竭）",
+            "description": "[我需要時間恢復，才能再次使用它。每一次升級都可以使它恢復得更快。]",
             "aspects": {
                 "exhausted": 1
             },
@@ -527,8 +527,8 @@
         },
         {
             "id": "fragmentedgec.colonel.exhausted",
-            "label": "持盾蛇卫行动（枯竭）",
-            "description": "[我需要时间恢复，才能再次使用它。每一次升级都可以使它恢复得更快。]",
+            "label": "持盾蛇衛行動（枯竭）",
+            "description": "[我需要時間恢復，才能再次使用它。每一次升級都可以使它恢復得更快。]",
             "aspects": {
                 "exhausted": 1
             },
@@ -541,7 +541,7 @@
         {
             "id": "fragmentedged.colonel.exhausted",
             "label": "上校的具名者（枯竭）",
-            "description": "[我需要时间恢复，才能再次使用它。每一次升级都可以使它恢复得更快。]",
+            "description": "[我需要時間恢復，才能再次使用它。每一次升級都可以使它恢復得更快。]",
             "aspects": {
                 "exhausted": 1
             },
@@ -553,8 +553,8 @@
         },
         {
             "id": "fragmentedgee.colonel.exhausted",
-            "label": "钢铁之构（枯竭）",
-            "description": "[我需要时间恢复，才能再次使用它。每一次升级都可以使它恢复得更快。]",
+            "label": "鋼鐵之構（枯竭）",
+            "description": "[我需要時間恢復，才能再次使用它。每一次升級都可以使它恢復得更快。]",
             "aspects": {
                 "exhausted": 1
             },
@@ -566,8 +566,8 @@
         },
         {
             "id": "fragmentedgef.colonel.exhausted",
-            "label": "铁銎之规（枯竭）",
-            "description": "[我需要时间恢复，才能再次使用它。每一次升级都可以使它恢复得更快。]",
+            "label": "鐵銎之規（枯竭）",
+            "description": "[我需要時間恢復，才能再次使用它。每一次升級都可以使它恢復得更快。]",
             "aspects": {
                 "exhausted": 1
             },
@@ -579,8 +579,8 @@
         },
         {
             "id": "fragmentedgeg.colonel.exhausted",
-            "label": "伤疤之秘（枯竭）",
-            "description": "[我需要时间恢复，才能再次使用它。每一次升级都可以使它恢复得更快。]",
+            "label": "傷疤之秘（枯竭）",
+            "description": "[我需要時間恢復，才能再次使用它。每一次升級都可以使它恢復得更快。]",
             "aspects": {
                 "exhausted": 1
             },
@@ -592,14 +592,14 @@
         },
         {
             "id": "fragmentedgeb.lionsmith",
-            "label": "沙普尔的教诲",
+            "label": "沙普爾的教誨",
             "aspects": {
                 "edge": 4,
                 "forge": 2,
                 "heart": 2,
                 "lore": 1
             },
-            "description": "“这是伟大者之子在折断其刀刃时得到的教诲。即使是现在，它也像波斯阳光下的金属碎片一样闪闪发光。”它比听起来更实用。",
+            "description": "“這是偉大者之子在折斷其刀刃時得到的教誨。即使是現在，它也像波斯陽光下的金屬碎片一樣閃閃發光。”它比聽起來更實用。",
             "xtriggers": {
                 "epiphany": "fragmentedgec.lionsmith",
                 "epiphany.lionsmith": "fragmentedgec.lionsmith",
@@ -621,14 +621,14 @@
         },
         {
             "id": "fragmentedgec.lionsmith",
-            "label": "狻猊行动",
+            "label": "狻猊行動",
             "aspects": {
                 "edge": 6,
                 "forge": 3,
                 "heart": 3,
                 "lore": 1
             },
-            "description": "一系列需要为之献身、为之惊骇的神秘活动。",
+            "description": "一系列需要為之獻身、為之驚駭的神秘活動。",
             "xtriggers": {
                 "epiphany": "fragmentedged.lionsmith",
                 "epiphany.lionsmith": "fragmentedged.lionsmith",
@@ -651,14 +651,14 @@
         },
         {
             "id": "fragmentedged.lionsmith",
-            "label": "狮子匠的具名者",
+            "label": "獅子匠的具名者",
             "aspects": {
                 "edge": 8,
                 "forge": 4,
                 "heart": 4,
                 "lore": 1
             },
-            "description": "狮子匠，按司辰的标准来看尚显青涩，而按战争的标准来看相当老成。他的具名者皆是刚被招募的新成员，其吟诵有一种野蛮的力量。",
+            "description": "獅子匠，按司辰的標準來看尚顯青澀，而按戰爭的標準來看相當老成。他的具名者皆是剛被招募的新成員，其吟誦有一種野蠻的力量。",
             "xtriggers": {
                 "epiphany": "fragmentedgee.lionsmith",
                 "epiphany.lionsmith": "fragmentedgee.lionsmith",
@@ -681,14 +681,14 @@
         },
         {
             "id": "fragmentedgee.lionsmith",
-            "label": "青铜之构",
+            "label": "青銅之構",
             "aspects": {
                 "edge": 10,
                 "forge": 5,
                 "heart": 5,
                 "lore": 1
             },
-            "description": "七七四十九种碎骨之法。",
+            "description": "七七四十九種碎骨之法。",
             "xtriggers": {
                 "epiphany": "fragmentedgef.lionsmith",
                 "epiphany.lionsmith": "fragmentedgef.lionsmith",
@@ -718,7 +718,7 @@
                 "heart": 6,
                 "lore": 1
             },
-            "description": "我是一柄利器，注定先被摧毁、后被重铸，直至锋锐无瑕。我以筋骨与人争辩，终将立于不败之地。",
+            "description": "我是一柄利器，注定先被摧毀、後被重鑄，直至鋒銳無瑕。我以筋骨與人爭辯，終將立於不敗之地。",
             "xtriggers": {
                 "epiphany": "fragmentedgeg.lionsmith",
                 "epiphany.lionsmith": "fragmentedgeg.lionsmith",
@@ -748,7 +748,7 @@
                 "heart": 7,
                 "lore": 1
             },
-            "description": "每次重生都伴随更强的力量。被毁之物可被重铸。未毁之物必被重铸。",
+            "description": "每次重生都伴隨更強的力量。被毀之物可被重鑄。未毀之物必被重鑄。",
             "xtriggers": {
                 "epiphany": [
                     {
@@ -781,8 +781,8 @@
         },
         {
             "id": "fragmentedgeb.lionsmith.exhausted",
-            "label": "沙普尔的教诲（枯竭）",
-            "description": "[我需要时间恢复，才能再次使用它。每一次升级都可以使它恢复得更快。]",
+            "label": "沙普爾的教誨（枯竭）",
+            "description": "[我需要時間恢復，才能再次使用它。每一次升級都可以使它恢復得更快。]",
             "aspects": {
                 "exhausted": 1
             },
@@ -794,8 +794,8 @@
         },
         {
             "id": "fragmentedgec.lionsmith.exhausted",
-            "label": "狻猊行动（枯竭）",
-            "description": "[我需要时间恢复，才能再次使用它。每一次升级都可以使它恢复得更快。]",
+            "label": "狻猊行動（枯竭）",
+            "description": "[我需要時間恢復，才能再次使用它。每一次升級都可以使它恢復得更快。]",
             "aspects": {
                 "exhausted": 1
             },
@@ -807,8 +807,8 @@
         },
         {
             "id": "fragmentedged.lionsmith.exhausted",
-            "label": "狮子匠的具名者（枯竭）",
-            "description": "[我需要时间恢复，才能再次使用它。每一次升级都可以使它恢复得更快。]",
+            "label": "獅子匠的具名者（枯竭）",
+            "description": "[我需要時間恢復，才能再次使用它。每一次升級都可以使它恢復得更快。]",
             "aspects": {
                 "exhausted": 1
             },
@@ -820,8 +820,8 @@
         },
         {
             "id": "fragmentedgee.lionsmith.exhausted",
-            "label": "青铜之构（枯竭）",
-            "description": "[我需要时间恢复，才能再次使用它。每一次升级都可以使它恢复得更快。]",
+            "label": "青銅之構（枯竭）",
+            "description": "[我需要時間恢復，才能再次使用它。每一次升級都可以使它恢復得更快。]",
             "aspects": {
                 "exhausted": 1
             },
@@ -834,7 +834,7 @@
         {
             "id": "fragmentedgef.lionsmith.exhausted",
             "label": "斧柄既成（枯竭）",
-            "description": "[我需要时间恢复，才能再次使用它。每一次升级都可以使它恢复得更快。]",
+            "description": "[我需要時間恢復，才能再次使用它。每一次升級都可以使它恢復得更快。]",
             "aspects": {
                 "exhausted": 1
             },
@@ -847,7 +847,7 @@
         {
             "id": "fragmentedgeg.lionsmith.exhausted",
             "label": "破碎之秘（枯竭）",
-            "description": "[我需要时间恢复，才能再次使用它。每一次升级都可以使它恢复得更快。]",
+            "description": "[我需要時間恢復，才能再次使用它。每一次升級都可以使它恢復得更快。]",
             "aspects": {
                 "exhausted": 1
             },

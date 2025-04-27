@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "expeditionascensionheartb",
-            "label": "蛇的具名者，孪生女的具名者",
+            "label": "蛇的具名者，孿生女的具名者",
             "actionId": "explore",
             "requirements": {
                 "sendingheartb": 1
@@ -12,11 +12,11 @@
                 "ascensionlessonheartb": 1,
                 "sending": -1
             },
-            "description": "蛇的具名者：蛇形的我找到了那个旧梦，名为剧痛老母的蚁母之具名者与她孪生儿中的女儿达哈曾于此见面。她们的协谈早已结束，我却仍能从中学到教训。"
+            "description": "蛇的具名者：蛇形的我找到了那個舊夢，名為劇痛老母的蟻母之具名者與她孿生兒中的女兒達哈曾於此見面。她們的協談早已結束，我卻仍能從中學到教訓。"
         },
         {
             "id": "expeditionascensionheartc",
-            "label": "丝毧的具名者",
+            "label": "絲毧的具名者",
             "actionId": "explore",
             "requirements": {
                 "sendingheartc": 1
@@ -26,7 +26,7 @@
                 "ascensionlessonheartc": 1,
                 "sending": -1
             },
-            "description": "血会引得人称老成仔猫的生物离开居屋的根基，在巨石阵夜下起舞。猫形的我会在那里与它同舞，直到它教会我所有舞步声的终结。"
+            "description": "血會引得人稱老成仔貓的生物離開居屋的根基，在巨石陣夜下起舞。貓形的我會在那裡與它同舞，直到它教會我所有舞步聲的終結。"
         },
         {
             "id": "expeditionascensionheartd",
@@ -36,16 +36,16 @@
                 "sendingheartd": 1
             },
             "warmup": 30,
-            "startdescription": "抛却颜色",
+            "startdescription": "拋卻顏色",
             "effects": {
                 "ascensionlessonheartd": 1,
                 "sending": -1
             },
-            "description": "狐形的我将轻步踏入百合丛更深处。伈佊——制花人的具名者，等候在溪边，依然是躯体渴求赠礼，头戴苇草王冠。他将于此解放我体内还未见过天光的地方。"
+            "description": "狐形的我將輕步踏入百合叢更深處。伈佊——制花人的具名者，等候在溪邊，依然是軀體渴求贈禮，頭戴葦草王冠。他將於此解放我體內還未見過天光的地方。"
         },
         {
             "id": "expeditionascensionhearte",
-            "label": "与浪游旅人共舞",
+            "label": "與浪遊旅人共舞",
             "actionId": "explore",
             "requirements": {
                 "sendinghearte": 1
@@ -55,11 +55,11 @@
                 "ascensionlessonhearte": 1,
                 "sending": -1
             },
-            "description": "抛却视力：一开始，老妇人只是沙海上的一粒尘土，但雕形的我准确无误地追逐着这粒尘土，飞落到她的手臂上接受她的抚摸。我不太能直视她的眼睛。她搔我的下巴，然后将我抛出，自己也化为鸟形。我们越升越高，我的视野随之渐次单调，最终唯余一片金黄。"
+            "description": "拋卻視力：一開始，老婦人只是沙海上的一粒塵土，但雕形的我準確無誤地追逐著這粒塵土，飛落到她的手臂上接受她的撫摸。我不太能直視她的眼睛。她搔我的下巴，然後將我拋出，自己也化為鳥形。我們越升越高，我的視野隨之漸次單調，最終唯餘一片金黃。"
         },
         {
             "id": "expeditionascensionheartf",
-            "label": "悼歌诗人的具名者",
+            "label": "悼歌詩人的具名者",
             "actionId": "explore",
             "requirements": {
                 "sendingheartf": 1
@@ -69,7 +69,7 @@
                 "ascensionlessonheartf": 1,
                 "sending": -1
             },
-            "description": "抛却骨骼：在图森特路公墓，有一座当地人时常打扫的白色大理石墓。罗吉耶女士每三夜来此睡一夜，好让挽歌儿小姐——悼歌诗人的具名者中最温和的一位——走入她的梦中。鸟形的我将栖于墓碑顶上，直到挽歌儿小姐近至与我呼吸相及的距离。"
+            "description": "拋卻骨骼：在圖森特路公墓，有一座當地人時常打掃的白色大理石墓。羅吉耶女士每三夜來此睡一夜，好讓輓歌兒小姐——悼歌詩人的具名者中最溫和的一位——走入她的夢中。鳥形的我將棲於墓碑頂上，直到輓歌兒小姐近至與我呼吸相及的距離。"
         }
     ]
 }

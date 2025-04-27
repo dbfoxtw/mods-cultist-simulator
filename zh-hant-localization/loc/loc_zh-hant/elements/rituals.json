@@ -2,19 +2,19 @@
     "elements": [
         {
             "id": "ritetoolconsumeingredient",
-            "label": "海飨仪式",
+            "label": "海饗儀式",
             "aspects": {
                 "ritual": 1
             },
             "slots": [
                 {
                     "id": "Invocation",
-                    "label": "祷文",
+                    "label": "禱文",
                     "actionId": "work",
                     "required": {
                         "lore": 1
                     },
-                    "description": "祝辞为何？"
+                    "description": "祝辭為何？"
                 },
                 {
                     "id": "Instrument",
@@ -23,7 +23,7 @@
                     "required": {
                         "tool": 1
                     },
-                    "description": "器具为何？"
+                    "description": "器具為何？"
                 },
                 {
                     "id": "Offering",
@@ -33,7 +33,7 @@
                         "ingredient": 1
                     },
                     "consumes": true,
-                    "description": "我们将放弃何物？"
+                    "description": "我們將放棄何物？"
                 },
                 {
                     "id": "Desire",
@@ -42,27 +42,27 @@
                     "required": {
                         "desire": 6
                     },
-                    "description": "我可变为何物？[该栏仅在飞升最终阶段可用。如果你已达成第六印记，将你的飞升卡置于此处可完成“大功业”。]"
+                    "description": "我可變為何物？[該欄僅在飛升最終階段可用。如果你已達成第六印記，將你的飛升卡置於此處可完成“大功業”。]"
                 }
             ],
-            "description": "此仪式将召唤双生巫女以弥合现实与可能间的裂隙。学徒将把祭品倾倒进，或扔进水体：水体最好是，但并不非得是，海洋。",
+            "description": "此儀式將召喚雙生巫女以彌合現實與可能間的裂隙。學徒將把祭品傾倒進，或扔進水體：水體最好是，但並不非得是，海洋。",
             "unique": true
         },
         {
             "id": "ritetoolconsumeinfluence",
-            "label": "地图之疆仪式",
+            "label": "地圖之疆儀式",
             "aspects": {
                 "ritual": 1
             },
             "slots": [
                 {
                     "id": "Invocation",
-                    "label": "祷文",
+                    "label": "禱文",
                     "actionId": "work",
                     "required": {
                         "lore": 1
                     },
-                    "description": "祝辞为何？"
+                    "description": "祝辭為何？"
                 },
                 {
                     "id": "Offering",
@@ -71,7 +71,7 @@
                     "required": {
                         "influence": 1
                     },
-                    "description": "纳受何种影响？",
+                    "description": "納受何種影響？",
                     "consumes": true
                 },
                 {
@@ -81,7 +81,7 @@
                     "required": {
                         "tool": 1
                     },
-                    "description": "器具为何？"
+                    "description": "器具為何？"
                 },
                 {
                     "id": "Desire",
@@ -90,15 +90,15 @@
                     "required": {
                         "desire": 6
                     },
-                    "description": "我可变为何物？[该栏仅在飞升最终阶段可用。如果你已达成第六印记，将你的飞升卡置于此处可完成“大功业”。]"
+                    "description": "我可變為何物？[該欄僅在飛升最終階段可用。如果你已達成第六印記，將你的飛升卡置於此處可完成“大功業”。]"
                 }
             ],
-            "description": "浪游旅人是唯一一位从未进过漫宿的司辰。此仪式必须在正确的地点，正确的时间进行，浪游旅人会去将这份正确占为己有。",
+            "description": "浪遊旅人是唯一一位從未進過漫宿的司辰。此儀式必須在正確的地點，正確的時間進行，浪遊旅人會去將這份正確占為己有。",
             "unique": true
         },
         {
             "id": "ritetoolconsumefollower",
-            "label": "魂之埚仪式",
+            "label": "魂之堝儀式",
             "comments": "endgame rite",
             "aspects": {
                 "ritual": 1
@@ -106,12 +106,12 @@
             "slots": [
                 {
                     "id": "Invocation",
-                    "label": "祷文",
+                    "label": "禱文",
                     "actionId": "work",
                     "required": {
                         "lore": 1
                     },
-                    "description": "祝辞为何？"
+                    "description": "祝辭為何？"
                 },
                 {
                     "id": "Victim",
@@ -122,7 +122,7 @@
                         "prisoner": 1
                     },
                     "consumes": true,
-                    "description": "流血须为自愿。"
+                    "description": "流血須為自願。"
                 },
                 {
                     "id": "Instrument",
@@ -140,15 +140,15 @@
                     "required": {
                         "desire": 6
                     },
-                    "description": "我可变为何物？[该栏仅在飞升最终阶段可用。如果你已达成第六印记，将你的飞升卡置于此处可完成“大功业”。]"
+                    "description": "我可變為何物？[該欄僅在飛升最終階段可用。如果你已達成第六印記，將你的飛升卡置於此處可完成“大功業”。]"
                 }
             ],
-            "description": "此仪式需用存有法力的器具将鲜血点燃：火焰是世界表皮上的破损。执行此仪式的助手极少能全身而退。",
+            "description": "此儀式需用存有法力的器具將鮮血點燃：火焰是世界表皮上的破損。執行此儀式的助手極少能全身而退。",
             "unique": true
         },
         {
             "id": "ritetoolfollowerconsumelore",
-            "label": "守夜人之怆仪式",
+            "label": "守夜人之愴儀式",
             "comments": "endgame rite",
             "aspects": {
                 "ritual": 1
@@ -156,13 +156,13 @@
             "slots": [
                 {
                     "id": "Sacrifice",
-                    "label": "祭献",
+                    "label": "祭獻",
                     "actionId": "work",
                     "required": {
                         "lore": 1
                     },
                     "consumes": true,
-                    "description": "我们将忘却何物？"
+                    "description": "我們將忘卻何物？"
                 },
                 {
                     "id": "Assistant",
@@ -172,7 +172,7 @@
                         "follower": 1,
                         "prisoner": 1
                     },
-                    "description": "何人念颂祝辞？"
+                    "description": "何人念頌祝辭？"
                 },
                 {
                     "id": "Instrument",
@@ -181,7 +181,7 @@
                     "required": {
                         "tool": 1
                     },
-                    "description": "器具为何？"
+                    "description": "器具為何？"
                 },
                 {
                     "id": "Desire",
@@ -190,27 +190,27 @@
                     "required": {
                         "desire": 6
                     },
-                    "description": "我可变为何物？[该栏仅在飞升最终阶段可用。如果你已达成第六印记，将你的飞升卡置于此处可完成“大功业”。]"
+                    "description": "我可變為何物？[該欄僅在飛升最終階段可用。如果你已達成第六印記，將你的飛升卡置於此處可完成“大功業”。]"
                 }
             ],
-            "description": "此仪式将唤起守夜人所失去的事物，他常行走于无墙的居屋。（光在其前，影在其后。绝不能让他看到你。）用存有法力的器具召唤他取走祭品：存在于你思维根源的珍贵的知识。必须有助手为你吟诵稳固神智的话语，所以请选择一个信赖的人。",
+            "description": "此儀式將喚起守夜人所失去的事物，他常行走於無牆的居屋。（光在其前，影在其後。絕不能讓他看到你。）用存有法力的器具召喚他取走祭品：存在於你思維根源的珍貴的知識。必須有助手為你吟誦穩固神智的話語，所以請選擇一個信賴的人。",
             "unique": true
         },
         {
             "id": "ritefollowerconsumetool",
-            "label": "抗逆仪式",
+            "label": "抗逆儀式",
             "aspects": {
                 "ritual": 1
             },
             "slots": [
                 {
                     "id": "Invocation",
-                    "label": "祷文",
+                    "label": "禱文",
                     "actionId": "work",
                     "required": {
                         "lore": 1
                     },
-                    "description": "祝辞为何？"
+                    "description": "祝辭為何？"
                 },
                 {
                     "id": "Assistant",
@@ -220,7 +220,7 @@
                         "follower": 1,
                         "prisoner": 1
                     },
-                    "description": "何人念颂祝辞？"
+                    "description": "何人念頌祝辭？"
                 },
                 {
                     "id": "Offering",
@@ -230,7 +230,7 @@
                         "tool": 1
                     },
                     "consumes": true,
-                    "description": "我们将放弃何物？"
+                    "description": "我們將放棄何物？"
                 },
                 {
                     "id": "Desire",
@@ -239,27 +239,27 @@
                     "required": {
                         "desire": 6
                     },
-                    "description": "我可变为何物？[该栏仅在飞升最终阶段可用。如果你已达成第六印记，将你的飞升卡置于此处可完成“大功业”。]"
+                    "description": "我可變為何物？[該欄僅在飛升最終階段可用。如果你已達成第六印記，將你的飛升卡置於此處可完成“大功業”。]"
                 }
             ],
-            "description": "此仪式将贯彻白日铸炉的一项教导：工匠只有摧毁他最珍视的工具后，方能达成至高成就。狮子匠正是因此在上校面前砸碎了自己的剑。所以我的助手也必须摧毁一件器具。",
+            "description": "此儀式將貫徹白日鑄爐的一項教導：工匠只有摧毀他最珍視的工具後，方能達成至高成就。獅子匠正是因此在上校面前砸碎了自己的劍。所以我的助手也必須摧毀一件器具。",
             "unique": true
         },
         {
             "id": "ritefollowerconsumeingredient",
-            "label": "仁母仪式",
+            "label": "仁母儀式",
             "aspects": {
                 "ritual": 1
             },
             "slots": [
                 {
                     "id": "Invocation",
-                    "label": "祷文",
+                    "label": "禱文",
                     "actionId": "work",
                     "required": {
                         "lore": 1
                     },
-                    "description": "祝辞为何？"
+                    "description": "祝辭為何？"
                 },
                 {
                     "id": "Assistant",
@@ -269,7 +269,7 @@
                         "follower": 1,
                         "prisoner": 1
                     },
-                    "description": "何人念颂祝辞？"
+                    "description": "何人念頌祝辭？"
                 },
                 {
                     "id": "Offering",
@@ -278,7 +278,7 @@
                     "required": {
                         "ingredient": 1
                     },
-                    "description": "献上何物？",
+                    "description": "獻上何物？",
                     "consumes": true
                 },
                 {
@@ -288,36 +288,36 @@
                     "required": {
                         "desire": 6
                     },
-                    "description": "我可变为何物？[该栏仅在飞升最终阶段可用。如果你已达成第六印记，将你的飞升卡置于此处可完成“大功业”。]"
+                    "description": "我可變為何物？[該欄僅在飛升最終階段可用。如果你已達成第六印記，將你的飛升卡置於此處可完成“大功業”。]"
                 }
             ],
-            "description": "助手是献给蚁母的祭品。不过蚁母对治疗和下毒同等了解，且她将宽仁待我，接受次一级的祭品作为替代。通常是这样。这一经验并不能给助手带来宽慰。",
+            "description": "助手是獻給蟻母的祭品。不過蟻母對治療和下毒同等了解，且她將寬仁待我，接受次一級的祭品作為替代。通常是這樣。這一經驗並不能給助手帶來寬慰。",
             "unique": true
         },
         {
             "id": "riteinfluenceconsumeingredient",
-            "label": "鸦餍仪式",
+            "label": "鴉饜儀式",
             "aspects": {
                 "ritual": 1
             },
             "slots": [
                 {
                     "id": "Invocation",
-                    "label": "祷文",
+                    "label": "禱文",
                     "actionId": "work",
                     "required": {
                         "lore": 1
                     },
-                    "description": "祝辞为何？"
+                    "description": "祝辭為何？"
                 },
                 {
                     "id": "Influence",
-                    "label": "影响",
+                    "label": "影響",
                     "actionId": "work",
                     "required": {
                         "influence": 1
                     },
-                    "description": "呈上何种法力？"
+                    "description": "呈上何種法力？"
                 },
                 {
                     "id": "Offering",
@@ -326,7 +326,7 @@
                     "required": {
                         "ingredient": 1
                     },
-                    "description": "献上何物？",
+                    "description": "獻上何物？",
                     "consumes": true
                 },
                 {
@@ -336,27 +336,27 @@
                     "required": {
                         "desire": 6
                     },
-                    "description": "我可变为何物？[该栏仅在飞升最终阶段可用。如果你已达成第六印记，将你的飞升卡置于此处可完成“大功业”。]"
+                    "description": "我可變為何物？[該欄僅在飛升最終階段可用。如果你已達成第六印記，將你的飛升卡置於此處可完成“大功業”。]"
                 }
             ],
-            "description": "此仪式将于日出或月出时分召唤拾滩鸦。拾滩鸦将接受祭品，并还之以大地的赠礼。",
+            "description": "此儀式將於日出或月出時分召喚拾灘鴉。拾灘鴉將接受祭品，並還之以大地的贈禮。",
             "unique": true
         },
         {
             "id": "ritefollowerconsumeinfluence",
-            "label": "日落仪式",
+            "label": "日落儀式",
             "aspects": {
                 "ritual": 1
             },
             "slots": [
                 {
                     "id": "Invocation",
-                    "label": "祷文",
+                    "label": "禱文",
                     "actionId": "work",
                     "required": {
                         "lore": 1
                     },
-                    "description": "祝辞为何？"
+                    "description": "祝辭為何？"
                 },
                 {
                     "id": "Assistant",
@@ -366,7 +366,7 @@
                         "follower": 1,
                         "prisoner": 1
                     },
-                    "description": "何人念颂祝辞？"
+                    "description": "何人念頌祝辭？"
                 },
                 {
                     "id": "Offering",
@@ -376,7 +376,7 @@
                         "influence": 1
                     },
                     "consumes": true,
-                    "description": "消耗何种影响？"
+                    "description": "消耗何種影響？"
                 },
                 {
                     "id": "Desire",
@@ -385,27 +385,27 @@
                     "required": {
                         "desire": 6
                     },
-                    "description": "我可变为何物？[该栏仅在飞升最终阶段可用。如果你已达成第六印记，将你的飞升卡置于此处可完成“大功业”。]"
+                    "description": "我可變為何物？[該欄僅在飛升最終階段可用。如果你已達成第六印記，將你的飛升卡置於此處可完成“大功業”。]"
                 }
             ],
-            "description": "助手须以真实情感啼哭，洒泪于存留影响之处。如果一切顺利，残阳会耗尽这份影响，告知一种结尾，并提供帮助。",
+            "description": "助手須以真實情感啼哭，灑淚於存留影響之處。如果一切順利，殘陽會耗盡這份影響，告知一種結尾，並提供幫助。",
             "unique": true
         },
         {
             "id": "riteinfluenceconsumefollower",
-            "label": "裂兽仪式",
+            "label": "裂獸儀式",
             "aspects": {
                 "ritual": 1
             },
             "slots": [
                 {
                     "id": "Invocation",
-                    "label": "祷文",
+                    "label": "禱文",
                     "actionId": "work",
                     "required": {
                         "lore": 1
                     },
-                    "description": "祝辞为何？"
+                    "description": "祝辭為何？"
                 },
                 {
                     "id": "Victim",
@@ -420,12 +420,12 @@
                 },
                 {
                     "id": "Influence",
-                    "label": "影响",
+                    "label": "影響",
                     "actionId": "work",
                     "required": {
                         "influence": 1
                     },
-                    "description": "呈上何种法力？"
+                    "description": "呈上何種法力？"
                 },
                 {
                     "id": "Desire",
@@ -434,27 +434,27 @@
                     "required": {
                         "desire": 6
                     },
-                    "description": "我可变为何物？[该栏仅在飞升最终阶段可用。如果你已达成第六印记，将你的飞升卡置于此处可完成“大功业”。]"
+                    "description": "我可變為何物？[該欄僅在飛升最終階段可用。如果你已達成第六印記，將你的飛升卡置於此處可完成“大功業”。]"
                 }
             ],
-            "description": "助手的名字在法力显现之地，或之时，被从他头上夺去；而他也被裂为九份。他曾像畜类一样遭到追猎，但现在时移势迁。",
+            "description": "助手的名字在法力顯現之地，或之時，被從他頭上奪去；而他也被裂為九份。他曾像畜類一樣遭到追獵，但現在時移勢遷。",
             "unique": true
         },
         {
             "id": "riteconsumetoolingredientfollowerinfluence",
-            "label": "置闰仪式",
+            "label": "置閏儀式",
             "aspects": {
                 "ritual": 1
             },
             "slots": [
                 {
                     "id": "Sacrifice",
-                    "label": "祭献",
+                    "label": "祭獻",
                     "actionId": "work",
                     "required": {
                         "lore": 1
                     },
-                    "description": "将失而不还。",
+                    "description": "將失而不還。",
                     "consumes": true
                 },
                 {
@@ -466,17 +466,17 @@
                         "prisoner": 1,
                         "summoned": 1
                     },
-                    "description": "将失而不还。",
+                    "description": "將失而不還。",
                     "consumes": true
                 },
                 {
                     "id": "Surrender",
-                    "label": "抛却",
+                    "label": "拋卻",
                     "actionId": "work",
                     "required": {
                         "tool": 1
                     },
-                    "description": "将失而不还。",
+                    "description": "將失而不還。",
                     "consumes": true
                 },
                 {
@@ -486,7 +486,7 @@
                     "required": {
                         "influence": 1
                     },
-                    "description": "将失而不还。",
+                    "description": "將失而不還。",
                     "consumes": true
                 },
                 {
@@ -496,7 +496,7 @@
                     "required": {
                         "ingredient": 1
                     },
-                    "description": "将失而不还。",
+                    "description": "將失而不還。",
                     "consumes": true
                 },
                 {
@@ -507,10 +507,10 @@
                         "desire": 6,
                         "promise": 1
                     },
-                    "description": "我可变为何物？[该栏仅在飞升最终阶段可用。如果你已达成第六印记，将你的飞升卡置于此处可完成“大功业”。]"
+                    "description": "我可變為何物？[該欄僅在飛升最終階段可用。如果你已達成第六印記，將你的飛升卡置於此處可完成“大功業”。]"
                 }
             ],
-            "description": "此仪式将复现太阳乖蹇的命运。愚蠢的学徒会在迫不得已时使用此仪式。",
+            "description": "此儀式將復現太陽乖蹇的命運。愚蠢的學徒會在迫不得已時使用此儀式。",
             "unique": true
         }
     ]

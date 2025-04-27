@@ -15,10 +15,10 @@
         {
             "id": "use",
             "label": "使用",
-            "description": "利用某些东西。[回应机会，经营事业，或将岁月转换为现金。]",
+            "description": "利用某些東西。[回應機會，經營事業，或將歲月轉換為現金。]",
             "slot": {
                 "id": "plan",
-                "label": "计划",
+                "label": "計劃",
                 "required": {
                     "connection": 1,
                     "op": 1,
@@ -32,11 +32,11 @@
         {
             "id": "travel",
             "label": "旅行",
-            "description": "一些旅行是为了拓宽人的眼界：另一些则是为了延长人的生命。",
+            "description": "一些旅行是為了拓寬人的眼界：另一些則是為了延長人的生命。",
             "slot": {
                 "id": "direction",
                 "label": "目的地",
-                "description": "路途，或其终点?",
+                "description": "路途，或其終點?",
                 "required": {
                     "destination": 1,
                     "location": 1,
@@ -50,7 +50,7 @@
         {
             "id": "send",
             "label": "交流",
-            "description": "送出消息、金钱和其它。小心行事。",
+            "description": "送出消息、金錢和其它。小心行事。",
             "slot": {
                 "id": "send",
                 "label": "交流",
@@ -68,11 +68,11 @@
         },
         {
             "id": "relinquish",
-            "label": "出让",
-            "description": "出售；丢弃；消灭；抛却。",
+            "label": "出讓",
+            "description": "出售；丟棄；消滅；拋卻。",
             "slot": {
                 "id": "relinquish",
-                "label": "出让",
+                "label": "出讓",
                 "required": {
                     "asset": 1,
                     "lifespan.stolen": 1,
@@ -84,11 +84,11 @@
         },
         {
             "id": "time.exile",
-            "label": "时间",
-            "description": "最后的敌人？",
+            "label": "時間",
+            "description": "最後的敵人？",
             "slot": {
                 "id": "time",
-                "label": "时间"
+                "label": "時間"
             }
         }
     ]

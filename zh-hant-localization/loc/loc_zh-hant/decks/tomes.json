@@ -2,7 +2,7 @@
     "decks": [
         {
             "id": "oneoffrewards",
-            "label": "有用的残篇",
+            "label": "有用的殘篇",
             "description": "值得注意之物。",
             "spec": [
                 "fragmentedgeb",
@@ -18,8 +18,8 @@
         },
         {
             "id": "commontomes",
-            "label": "市面出售的书籍",
-            "description": "说不定能买到些教授无形之术的书籍。",
+            "label": "市面出售的書籍",
+            "description": "說不定能買到些教授無形之術的書籍。",
             "spec": [
                 "dehoris1latin",
                 "travellingatnight1",
@@ -56,8 +56,8 @@
         },
         {
             "id": "auctionedcommontomes",
-            "label": "私人收藏的书籍",
-            "description": "说不定能找到一批精挑细选过的书籍。",
+            "label": "私人收藏的書籍",
+            "description": "說不定能找到一批精挑細選過的書籍。",
             "spec": [
                 "dehoris1latin",
                 "travellingatnight1",

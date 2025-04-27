@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "workdetectivejob_start",
-            "label": "在车站",
+            "label": "在車站",
             "actionId": "work",
             "requirements": {
                 "legacydetectivejob": 1
@@ -28,8 +28,8 @@
                     "additional": true
                 }
             ],
-            "startdescription": "我又一次被借调到了防剿局，一个关注“密教”犯罪案件的政府部门。它的声名可不怎么样。",
-            "description": "防剿局已经确定了一名棘手犯人的身份，并派我去调查。当我看见这人的姓名时，我不由自主地收住了呼吸。我记得另一桩案子，记得太清楚了……",
+            "startdescription": "我又一次被借調到了防剿局，一個關注“密教”犯罪案件的政府部門。它的聲名可不怎麼樣。",
+            "description": "防剿局已經確定了一名棘手犯人的身份，並派我去調查。當我看見這人的姓名時，我不由自主地收住了呼吸。我記得另一樁案子，記得太清楚了……",
             "warmup": 10,
             "craftable": true,
             "linked": [
@@ -41,10 +41,10 @@
         },
         {
             "id": "detectiveopendream",
-            "label": "睡梦中……",
+            "label": "睡夢中……",
             "actionId": "dream",
-            "startdescription": "防剿局出版了介绍梦境之危险的备忘录。每周都会新增一种危险。",
-            "description": "“上报有关月光的梦境。上报有关一座困于永夜的森林的梦境。拉开窗帘确保能够被阳光唤醒。睡前不要剪头发。绝不要在开裂的镜子前睡着。”",
+            "startdescription": "防剿局出版了介紹夢境之危險的備忘錄。每週都會新增一種危險。",
+            "description": "“上報有關月光的夢境。上報有關一座困於永夜的森林的夢境。拉開窗簾確保能夠被陽光喚醒。睡前不要剪頭髮。絕不要在開裂的鏡子前睡著。”",
             "effects": {
                 "passion": 1
             },
@@ -53,25 +53,25 @@
         },
         {
             "id": "workdetectivejob_matured_investigate_hint",
-            "label": "继续推进调查？",
+            "label": "繼續推進調查？",
             "actionId": "work",
             "requirements": {
                 "legacydetectivejob_matured": 1,
                 "suspicious": 1
             },
-            "startdescription": "如果我运用理性，或许能够进一步了解目标。",
+            "startdescription": "如果我運用理性，或許能夠進一步了解目標。",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "workdetectivejob_matured_pursuepromotion",
-            "label": "某种晋升",
+            "label": "某種晉升",
             "actionId": "work",
             "requirements": {
                 "legacydetectivejob_matured": 1,
                 "favour": 1
             },
-            "startdescription": "我赢得了当局的青睐。我可以用它来给自己升职，在防剿局的体制内谋得一席之地。[这样的结局可称得上是一次微小的胜利。]",
+            "startdescription": "我贏得了當局的青睞。我可以用它來給自己升職，在防剿局的體制內謀得一席之地。[這樣的結局可稱得上是一次微小的勝利。]",
             "description": "Ending finish.",
             "warmup": 60,
             "ending": "workvictoryb",
@@ -80,7 +80,7 @@
         },
         {
             "id": "workdetectivejob_matured_investigate",
-            "label": "继续推进调查",
+            "label": "繼續推進調查",
             "actionId": "work",
             "requirements": {
                 "legacydetectivejob_matured": 1,
@@ -109,8 +109,8 @@
             "effects": {
                 "funds": 2
             },
-            "startdescription": "调查一个目标。投入的理性越多，成功的几率就越大。",
-            "description": "我的调查毫无进展。",
+            "startdescription": "調查一個目標。投入的理性越多，成功的機率就越大。",
+            "description": "我的調查毫無進展。",
             "warmup": 60,
             "aspects": {
                 "employment": 1,
@@ -120,7 +120,7 @@
         },
         {
             "id": "workdetectivejob_matured_investigate_threereason_success",
-            "label": "取得进展！",
+            "label": "取得進展！",
             "actionId": "work",
             "alt": [
                 {
@@ -146,7 +146,7 @@
         },
         {
             "id": "workdetectivejob_matured_investigate_tworeason_success",
-            "label": "取得进展！",
+            "label": "取得進展！",
             "actionId": "work",
             "alt": [
                 {
@@ -172,7 +172,7 @@
         },
         {
             "id": "workdetectivejob_matured_investigate_onereason_success",
-            "label": "取得进展！",
+            "label": "取得進展！",
             "actionId": "work",
             "alt": [
                 {
@@ -198,7 +198,7 @@
         },
         {
             "id": "workdetectivejob_matured_investigate_successresults",
-            "label": "取得进展！",
+            "label": "取得進展！",
             "actionId": "work",
             "effects": {
                 "funds": 3,
@@ -210,12 +210,12 @@
                 "investigatingsuccess": 1,
                 "dreadful": 1
             },
-            "description": "关门时持续不断的咔哒声，车站墙壁上的潮湿污渍，鞋油的气味和忙得没时间洗澡的我。这些东西加到一起，诞生出了如水晶般清明的真相。我已取得进展，还赚到了些加班费。",
+            "description": "關門時持續不斷的喀噠聲，車站牆壁上的潮濕汙漬，鞋油的氣味和忙得沒時間洗澡的我。這些東西加到一起，誕生出了如水晶般清明的真相。我已取得進展，還賺到了些加班費。",
             "craftable": false
         },
         {
             "id": "workdetectivejob_matured_attemptsolvecase",
-            "label": "解决案件",
+            "label": "解決案件",
             "actionId": "work",
             "requirements": {
                 "myevidenceb": 1
@@ -230,8 +230,8 @@
                     "greedy": true
                 }
             ],
-            "startdescription": "我已将收集到的证据上交给防剿局局长助理……",
-            "description": "我已经向防剿局提供了充足的证据来实施追捕……但是已经没有需要再逮捕的犯人了。",
+            "startdescription": "我已將收集到的證據上交給防剿局局長助理……",
+            "description": "我已經向防剿局提供了充足的證據來實施追捕……但是已經沒有需要再逮捕的犯人了。",
             "alt": [
                 {
                     "id": "workdetectivejob_matured_solvecase_withbackup",
@@ -255,7 +255,7 @@
         },
         {
             "id": "workdetectivejob_matured_solvecase_withbackup",
-            "label": "解决案件",
+            "label": "解決案件",
             "actionId": "work",
             "requirements": {
                 "myevidenceb": 1,
@@ -264,8 +264,8 @@
             "extantreqs": {
                 "desire": -1
             },
-            "startdescription": "我已经将收集到的证据上交给了防剿局助理局长。此时此刻，我能想象到那个画面，一群面目严峻、衣着朴素的男子正冲撞着我的猎物的大门。",
-            "description": "防剿局在秘密法庭进行了审判，并且毫无仁慈可言。我的猎物从此消失，而我则赢得了晋升。",
+            "startdescription": "我已經將收集到的證據上交給了防剿局助理局長。此時此刻，我能想像到那個畫面，一群面目嚴峻、衣著樸素的男子正衝撞著我的獵物的大門。",
+            "description": "防剿局在秘密法庭進行了審判，並且毫無仁慈可言。我的獵物從此消失，而我則贏得了晉升。",
             "effects": {
                 "funds": 7,
                 "favour": 1,
@@ -289,14 +289,14 @@
         },
         {
             "id": "workdetectivejob_matured_solvecase",
-            "label": "解决案件",
+            "label": "解決案件",
             "actionId": "work",
             "requirements": {
                 "myevidenceb": 1,
                 "independent": 1
             },
-            "startdescription": "我已经将收集到的证据上交给了防剿局助理局长。此时此刻，我能想象到那个画面，一群面目严峻、衣着朴素的男子正冲撞着我的猎物的大门。",
-            "description": "防剿局在秘密法庭进行了审判，并且毫无仁慈可言。我的猎物从此消失，而我则赢得了晋升。",
+            "startdescription": "我已經將收集到的證據上交給了防剿局助理局長。此時此刻，我能想像到那個畫面，一群面目嚴峻、衣著樸素的男子正衝撞著我的獵物的大門。",
+            "description": "防剿局在秘密法庭進行了審判，並且毫無仁慈可言。我的獵物從此消失，而我則贏得了晉升。",
             "effects": {
                 "funds": 7,
                 "favour": 1,
@@ -319,10 +319,10 @@
         },
         {
             "id": "workdetectivejob_newrival",
-            "label": "又一个邪魔外道？",
+            "label": "又一個邪魔外道？",
             "actionId": "newrival",
-            "startdescription": "何时才能结束？我们何时才能称我们的法律、城市、世界为“安全”？",
-            "description": "这里有有关于此人的——令人不安的——报告。",
+            "startdescription": "何時才能結束？我們何時才能稱我們的法律、城市、世界為“安全”？",
+            "description": "這裡有有關於此人的——令人不安的——報告。",
             "deckeffect": {
                 "acquaintances": 1
             },
@@ -336,7 +336,7 @@
         },
         {
             "id": "workdetectivejob_newrival_recruit",
-            "label": "又一个邪魔外道？",
+            "label": "又一個邪魔外道？",
             "actionId": "newrival",
             "startdescription": ".",
             "description": ".",
@@ -405,14 +405,14 @@
         },
         {
             "id": "workdetectivejob_matured_plead",
-            "label": "恳求复职！",
+            "label": "懇求復職！",
             "actionId": "work",
             "requirements": {
                 "legacydetectivejob_suspended": 1,
                 "passion": 1
             },
-            "startdescription": "为什么他们就不明白呢？",
-            "description": "我官复原职……至少现下如此。",
+            "startdescription": "為什麼他們就不明白呢？",
+            "description": "我官復原職……至少現下如此。",
             "aspects": {
                 "plead": 1
             },
@@ -426,13 +426,13 @@
             "effects": {
                 "legacydetectivejob_matured": -1
             },
-            "startdescription": "我失业了",
+            "startdescription": "我失業了",
             "description": "",
             "craftable": false
         },
         {
             "id": "legacydetectiveplotitem_tempt",
-            "label": "书页的气味",
+            "label": "書頁的氣味",
             "actionId": "craving",
             "requirements": {
                 "detectivetemptation": 1
@@ -446,20 +446,20 @@
         },
         {
             "id": "legacydetectiveplotitem_tempt_addslot",
-            "label": "书页的气味",
+            "label": "書頁的氣味",
             "actionId": "craving",
             "slots": [
                 {
                     "id": "resist",
                     "label": "抵抗",
-                    "description": "你难以抗拒重读文件的诱惑。你需要投入理性来加强抵抗。",
+                    "description": "你難以抗拒重讀文件的誘惑。你需要投入理性來加強抵抗。",
                     "required": {
                         "reason": 1
                     }
                 }
             ],
-            "startdescription": "我无法忘记自己在#PREVIOUSCHARACTERNAME#的档案里所看到的东西。[你难以抗拒重读文件的诱惑。你需要投入“理性”加强抵抗。]",
-            "description": "这一页接一页的文字翻动起来让人欲罢不能，好似在给水果去皮，或是在拆封一份神秘的礼物。最后，我的双手沾满墨水，我的大脑恍如沸腾。我开启了什么样的新世界？",
+            "startdescription": "我無法忘記自己在#PREVIOUSCHARACTERNAME#的檔案裡所看到的東西。[你難以抗拒重讀文件的誘惑。你需要投入“理性”加強抵抗。]",
+            "description": "這一頁接一頁的文字翻動起來讓人欲罷不能，好似在給水果去皮，或是在拆封一份神秘的禮物。最後，我的雙手沾滿墨水，我的大腦恍如沸騰。我開啟了什麼樣的新世界？",
             "effects": {
                 "legacydetective_plotitem": -1,
                 "LEVER_LastDesire": 1,
@@ -482,16 +482,16 @@
         },
         {
             "id": "legacydetectiveplotitem_tempt_resist",
-            "label": "书页的气味",
+            "label": "書頁的氣味",
             "requirements": {
                 "reason": 1
             },
             "actionId": "craving",
-            "startdescription": "我尊崇律条。我除尊崇律条外别无他想。我坚持了如此长时间不是为了这么轻易地放弃。",
+            "startdescription": "我尊崇律條。我除尊崇律條外別無他想。我堅持了如此長時間不是為了這麼輕易地放棄。",
             "aspects": {
                 "fatiguing": 1
             },
-            "description": "这阵诱惑过去了，至少现下如此。"
+            "description": "這陣誘惑過去了，至少現下如此。"
         },
         {
             "id": "detectiveopenstudy",
@@ -509,8 +509,8 @@
                 }
             ],
             "actionId": "study",
-            "startdescription": "我时不时会花点时间提升自己。",
-            "description": "毫无疑问，在那里我能够找到学习的材料。",
+            "startdescription": "我時不時會花點時間提升自己。",
+            "description": "毫無疑問，在那裡我能夠找到學習的材料。",
             "effects": {
                 "reason": 1
             },
@@ -521,8 +521,8 @@
             "id": "detectiveopenexplore",
             "label": "探索中……",
             "actionId": "explore",
-            "startdescription": "我办公室的墙上挂着一张地图，上面满是黑色大头钉与密如蛛网的注释。",
-            "description": "我对这座城市十分了解，但要做到完全了解或许需要花费一生时间。",
+            "startdescription": "我辦公室的牆上掛著一張地圖，上面滿是黑色大頭釘與密如蛛網的注釋。",
+            "description": "我對這座城市十分了解，但要做到完全了解或許需要花費一生時間。",
             "warmup": 10,
             "deckeffect": {
                 "citysecrets": 2
@@ -538,9 +538,9 @@
         },
         {
             "id": "detectiveopentalk",
-            "label": "交谈中……",
+            "label": "交談中……",
             "actionId": "talk",
-            "startdescription": "我可能会建立一段友谊，也可能会从此结束与某人的关系。",
+            "startdescription": "我可能會建立一段友誼，也可能會從此結束與某人的關係。",
             "description": "",
             "effects": {},
             "warmup": 30,
@@ -548,7 +548,7 @@
         },
         {
             "id": "detectivestudy_plotitem",
-            "label": "我不该打开这文件",
+            "label": "我不該打開這文件",
             "actionId": "study",
             "requirements": {
                 "detectivetemptation": 1
@@ -566,15 +566,15 @@
                 "LEVER_LastDesire": 1,
                 "dread": 1
             },
-            "startdescription": "我不可以再读它。我花了好几周的时间让自己忘掉那些数字，忘掉那些指示，忘掉那些——上帝啊救救我——该死的素描。",
-            "description": "这一页接一页的文字翻动起来让人欲罢不能，好似在给水果去皮，或是在拆封一份神秘的礼物。最后，我的双手沾满墨水，我的大脑恍如沸腾。我开启了什么样的新世界？",
+            "startdescription": "我不可以再讀它。我花了好幾週的時間讓自己忘掉那些數字，忘掉那些指示，忘掉那些——上帝啊救救我——該死的素描。",
+            "description": "這一頁接一頁的文字翻動起來讓人欲罷不能，好似在給水果去皮，或是在拆封一份神秘的禮物。最後，我的雙手沾滿墨水，我的大腦恍如沸騰。我開啟了什麼樣的新世界？",
             "warmup": 60,
             "craftable": true,
             "maxexecutions": 1
         },
         {
             "id": "detectivestudy_plotitem_afterfirsttime",
-            "label": "我不该打开这文件",
+            "label": "我不該打開這文件",
             "actionId": "study",
             "requirements": {
                 "detectivetemptation": 1
@@ -591,15 +591,15 @@
                 "fascination": 1,
                 "dread": 1
             },
-            "startdescription": "我不可以再读它。我花了好几周的时间让自己忘掉那些数字，忘掉那些指示，忘掉那些——上帝啊救救我——该死的素描。",
-            "description": "翻阅这些书页令人感到轻松自在，就像在给水果去皮，或是拆封一份神秘礼物。最后，我的双手沾满墨水，我的大脑恍如沸腾。我做了什么？",
+            "startdescription": "我不可以再讀它。我花了好幾週的時間讓自己忘掉那些數字，忘掉那些指示，忘掉那些——上帝啊救救我——該死的素描。",
+            "description": "翻閱這些書頁令人感到輕鬆自在，就像在給水果去皮，或是拆封一份神秘禮物。最後，我的雙手沾滿墨水，我的大腦恍如沸騰。我做了什麼？",
             "warmup": 60,
             "craftable": true,
             "maxexecutions": 1
         },
         {
             "id": "detectivework_plotitem",
-            "label": "烧毁文件",
+            "label": "燒毀文件",
             "actionId": "work",
             "requirements": {
                 "detectivetemptation": 1,
@@ -611,8 +611,8 @@
                 "restlessness": 1,
                 "contentment": 1
             },
-            "startdescription": "这是证据，而我们不应烧毁证据。但或许这样做才是最好的结局。",
-            "description": "书页一张张变黑、翘曲、皱缩，如紧握成拳的手。我打开办公室的窗户，让这浓烟消散，不留痕迹。我到底做了什么？",
+            "startdescription": "這是證據，而我們不應燒毀證據。但或許這樣做才是最好的結局。",
+            "description": "書頁一張張變黑、翹曲、皺縮，如緊握成拳的手。我打開辦公室的窗戶，讓這濃煙消散，不留痕跡。我到底做了什麼？",
             "warmup": 30,
             "craftable": true
         }

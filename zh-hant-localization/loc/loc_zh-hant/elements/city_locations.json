@@ -2,14 +2,14 @@
     "elements": [
         {
             "id": "locationbookdealer",
-            "label": "莫兰书店",
+            "label": "莫蘭書店",
             "aspects": {
                 "location": 1
             },
             "slots": [
                 {
                     "id": "Cost",
-                    "label": "消费",
+                    "label": "消費",
                     "required": {
                         "funds": 1
                     },
@@ -17,7 +17,7 @@
                     "actionId": "explore"
                 }
             ],
-            "description": "一座光线昏暗的经营场所，属莫兰小姐所有；她买卖稀有，且有时会带来危险的书籍。",
+            "description": "一座光線昏暗的經營場所，屬莫蘭小姐所有；她買賣稀有，且有時會帶來危險的書籍。",
             "unique": true,
             "xtriggers": {
                 "exhaustlocation": "locationbookdealer_exhausted"
@@ -25,8 +25,8 @@
         },
         {
             "id": "locationbookdealer_exhausted",
-            "label": "莫兰书店[关张]",
-            "description": "这里是书商莫兰的旧址，如今我必须去别的地方寻找知识了。",
+            "label": "莫蘭書店[關張]",
+            "description": "這裡是書商莫蘭的舊址，如今我必須去別的地方尋找知識了。",
             "aspects": {
                 "location": 1,
                 "hq.potential": 1
@@ -34,7 +34,7 @@
             "slots": [
                 {
                     "id": "Old HQ",
-                    "description": "将旧总部放入此处将其废弃，并搬迁至新总部。一旦实施则不可撤回。",
+                    "description": "將舊總部放入此處將其廢棄，並搬遷至新總部。一旦實施則不可撤回。",
                     "actionId": "explore",
                     "required": {
                         "hq": 1
@@ -48,16 +48,16 @@
         },
         {
             "id": "locationauctionhouse",
-            "label": "奥里弗拉姆拍卖行",
+            "label": "奧里弗拉姆拍賣行",
             "aspects": {
                 "location": 1
             },
-            "description": "奥里弗拉姆专卖古玩，香水，生物标本和稀有文献。自被一场无法解释的大火烧毁后，如今，它于局促的新址展开业务。[你可以去拍卖行买卖物品。]",
+            "description": "奧里弗拉姆專賣古玩，香水，生物標本和稀有文獻。自被一場無法解釋的大火燒毀後，如今，它於侷促的新址展開業務。[你可以去拍賣行買賣物品。]",
             "slots": [
                 {
                     "id": "Sell",
-                    "label": "售卖",
-                    "description": "把物品放在此处拍卖。",
+                    "label": "售賣",
+                    "description": "把物品放在此處拍賣。",
                     "required": {
                         "auctionable": 1
                     },
@@ -68,8 +68,8 @@
         },
         {
             "id": "locationcabaretclosed",
-            "label": "蜕衣俱乐部[关张]",
-            "description": "一家据传与密教有关的夜总会。只在每周特定的夜晚开放；不久即将重新开业。",
+            "label": "蛻衣俱樂部[關張]",
+            "description": "一家據傳與密教有關的夜總會。只在每週特定的夜晚開放；不久即將重新開業。",
             "unique": true,
             "lifetime": 30,
             "decayTo": "locationcabaret",
@@ -78,18 +78,18 @@
         },
         {
             "id": "locationcabaret",
-            "label": "蜕衣俱乐部",
+            "label": "蛻衣俱樂部",
             "aspects": {
                 "location": 1,
                 "moth": 1,
                 "grail": 1,
                 "heart": 1
             },
-            "description": "一家据传与密教有关的夜总会。",
+            "description": "一家據傳與密教有關的夜總會。",
             "slots": [
                 {
                     "id": "Entry",
-                    "label": "入会",
+                    "label": "入會",
                     "actionId": "explore",
                     "required": {
                         "funds": 1,
@@ -105,13 +105,13 @@
         },
         {
             "id": "hq.abandoned",
-            "label": "废弃的总部",
+            "label": "廢棄的總部",
             "description": "Forget it, J.N.",
             "lifetime": 1
         },
         {
             "id": "generichq",
-            "label": "总部？",
+            "label": "總部？",
             "aspects": {
                 "hq": 1
             },
@@ -120,17 +120,17 @@
         },
         {
             "id": "hq.temporary",
-            "label": "临时总部",
+            "label": "臨時總部",
             "aspects": {
                 "hq": 1,
                 "location": 1
             },
-            "description": "我们办的是私人事务。我们可以搬去更隐秘的地方。",
+            "description": "我們辦的是私人事務。我們可以搬去更隱秘的地方。",
             "slots": [
                 {
                     "id": "Cupboard",
-                    "label": "橱柜",
-                    "description": "将追随者置入此处，将其永久转变成囚犯。",
+                    "label": "櫥櫃",
+                    "description": "將追隨者置入此處，將其永久轉變成囚犯。",
                     "actionId": "talk",
                     "required": {
                         "follower": 1
@@ -148,17 +148,17 @@
         },
         {
             "id": "hq.townhouse",
-            "label": "奢华大宅",
+            "label": "奢華大宅",
             "aspects": {
                 "hq": 1,
                 "location": 1,
                 "library": 1
             },
-            "description": "我们总是先拉严窗帘，再把地毯卷起来，在地板上用粉笔写写画画。",
+            "description": "我們總是先拉嚴窗簾，再把地毯捲起來，在地板上用粉筆寫寫畫畫。",
             "slots": [
                 {
                     "id": "Attic",
-                    "description": "将追随者置入此处，将其永久转变成囚犯。",
+                    "description": "將追隨者置入此處，將其永久轉變成囚犯。",
                     "actionId": "talk",
                     "required": {
                         "follower": 1
@@ -169,8 +169,8 @@
                 },
                 {
                     "id": "funds",
-                    "label": "资金",
-                    "description": "将资金放入此处，引发杯之影响。",
+                    "label": "資金",
+                    "description": "將資金放入此處，引發杯之影響。",
                     "actionId": "explore",
                     "required": {
                         "funds": 1
@@ -184,17 +184,17 @@
         },
         {
             "id": "hq.church",
-            "label": "非正统教会",
+            "label": "非正統教會",
             "aspects": {
                 "hq": 1,
                 "location": 1,
                 "sanctuary": 1
             },
-            "description": "即便在礼拜日清晨，礼拜程序里也会出些怪事，但大部分外人注意不到。我们不邀外人参加在更冷冽的时段举办的典礼。",
+            "description": "即便在禮拜日清晨，禮拜程序裡也會出些怪事，但大部分外人注意不到。我們不邀外人參加在更冷冽的時段舉辦的典禮。",
             "slots": [
                 {
                     "id": "Vestry",
-                    "description": "被锁在此处的追随者将永久转变为囚犯。",
+                    "description": "被鎖在此處的追隨者將永久轉變為囚犯。",
                     "actionId": "talk",
                     "required": {
                         "follower": 1
@@ -205,8 +205,8 @@
                 },
                 {
                     "id": "funds",
-                    "label": "资金",
-                    "description": "将资金放入此处，引发启之影响。",
+                    "label": "資金",
+                    "description": "將資金放入此處，引發啟之影響。",
                     "actionId": "explore",
                     "required": {
                         "funds": 1
@@ -220,18 +220,18 @@
         },
         {
             "id": "hq.mithraeum",
-            "label": "烛光摇曳的密特拉寺",
+            "label": "燭光搖曳的密特拉寺",
             "aspects": {
                 "hq": 1,
                 "location": 1,
                 "sanctuary": 1,
                 "secret": 1
             },
-            "description": "新晋之人在此处赞美奥秘已近两千年。赞词改变，神明更迭，然而最终，不变的是血的存在。",
+            "description": "新晉之人在此處讚美奧秘已近兩千年。讚詞改變，神明更迭，然而最終，不變的是血的存在。",
             "slots": [
                 {
                     "id": "Chains",
-                    "description": "将追随者置入此处，将其永久转变成囚犯。",
+                    "description": "將追隨者置入此處，將其永久轉變成囚犯。",
                     "actionId": "talk",
                     "required": {
                         "follower": 1
@@ -242,8 +242,8 @@
                 },
                 {
                     "id": "funds",
-                    "label": "资金",
-                    "description": "将资金放入此处，引发灯之影响。",
+                    "label": "資金",
+                    "description": "將資金放入此處，引發燈之影響。",
                     "actionId": "explore",
                     "required": {
                         "funds": 1
@@ -257,18 +257,18 @@
         },
         {
             "id": "hq.hospital",
-            "label": "蓝紫大屋",
+            "label": "藍紫大屋",
             "aspects": {
                 "hq": 1,
                 "location": 1,
                 "pit": 1,
                 "secret": 1
             },
-            "description": "我们将墙壁漆成同蓝紫色厅堂的浓重颜色。我们打扫了蛛网并给所有窗户安装上不惹眼的百叶窗。我们还换掉了所有的锁头。",
+            "description": "我們將牆壁漆成同藍紫色廳堂的濃重顏色。我們打掃了蛛網並給所有窗戶安裝上不惹眼的百葉窗。我們還換掉了所有的鎖頭。",
             "slots": [
                 {
                     "id": "Cell",
-                    "description": "将追随者置入此处，将其永久转变成囚犯。",
+                    "description": "將追隨者置入此處，將其永久轉變成囚犯。",
                     "actionId": "talk",
                     "required": {
                         "follower": 1
@@ -279,8 +279,8 @@
                 },
                 {
                     "id": "funds",
-                    "label": "资金",
-                    "description": "将资金放入此处，引发启之影响。",
+                    "label": "資金",
+                    "description": "將資金放入此處，引發啟之影響。",
                     "actionId": "explore",
                     "required": {
                         "funds": 1
@@ -294,17 +294,17 @@
         },
         {
             "id": "hq.bookshop",
-            "label": "书店后头的房间",
+            "label": "書店後頭的房間",
             "aspects": {
                 "hq": 1,
                 "location": 1,
                 "library": 1
             },
-            "description": "莫兰小姐存货里的次要品目尚在。随着时间经过，有陌生人带着书误闯进来售卖，有时候我们会满足他们。",
+            "description": "莫蘭小姐存貨裡的次要品目尚在。隨著時間經過，有陌生人帶著書誤闖進來售賣，有時候我們會滿足他們。",
             "slots": [
                 {
                     "id": "Cellar",
-                    "description": "将追随者置入此处，将其永久转变成囚犯。",
+                    "description": "將追隨者置入此處，將其永久轉變成囚犯。",
                     "actionId": "talk",
                     "required": {
                         "follower": 1
@@ -315,8 +315,8 @@
                 },
                 {
                     "id": "funds",
-                    "label": "资金",
-                    "description": "将资金放入此处，引发心之影响。",
+                    "label": "資金",
+                    "description": "將資金放入此處，引發心之影響。",
                     "actionId": "explore",
                     "required": {
                         "funds": 1
@@ -330,18 +330,18 @@
         },
         {
             "id": "hq.warehouse",
-            "label": "昏暗的仓库",
+            "label": "昏暗的倉庫",
             "aspects": {
                 "hq": 1,
                 "location": 1,
                 "pit": 1,
                 "secret": 1
             },
-            "description": "椽子上爬过成排的老鼠。它们散发出的气味几乎淹没在河水的臭气中。这里离人们愿意去的任何地方都相距甚远。此类情况，在某种意义上，全都是优势。",
+            "description": "椽子上爬過成排的老鼠。它們散發出的氣味幾乎淹沒在河水的臭氣中。這裡離人們願意去的任何地方都相距甚遠。此類情況，在某種意義上，全都是優勢。",
             "slots": [
                 {
                     "id": "Shed",
-                    "description": "将追随者置入此处，将其永久转变成囚犯。",
+                    "description": "將追隨者置入此處，將其永久轉變成囚犯。",
                     "actionId": "talk",
                     "required": {
                         "follower": 1
@@ -352,8 +352,8 @@
                 },
                 {
                     "id": "funds",
-                    "label": "资金",
-                    "description": "将资金放入此处，引发铸之影响。",
+                    "label": "資金",
+                    "description": "將資金放入此處，引發鑄之影響。",
                     "actionId": "explore",
                     "required": {
                         "funds": 1
@@ -367,16 +367,16 @@
         },
         {
             "id": "hq.church.potential",
-            "label": "无人主持的教会",
+            "label": "無人主持的教會",
             "aspects": {
                 "location": 1,
                 "hq.potential": 1
             },
-            "description": "一天晚上，祭司消失了，走得十分突然，还带去了他的亲信和教堂最珍贵的宝物。人们普遍猜测他去了更好的地方：一个靠近粼粼海波的阳光明媚之地。我们可以招揽他身后群羊无首的信众，把此处作为我们的活动基地。",
+            "description": "一天晚上，祭司消失了，走得十分突然，還帶去了他的親信和教堂最珍貴的寶物。人們普遍猜測他去了更好的地方：一個靠近粼粼海波的陽光明媚之地。我們可以招攬他身後群羊無首的信眾，把此處作為我們的活動基地。",
             "slots": [
                 {
                     "id": "Old HQ",
-                    "description": "将旧总部放入此处将其废弃，并搬迁至新总部。一旦实施则不可撤回。",
+                    "description": "將舊總部放入此處將其廢棄，並搬遷至新總部。一旦實施則不可撤回。",
                     "actionId": "explore",
                     "required": {
                         "hq": 1
@@ -391,16 +391,16 @@
         },
         {
             "id": "hq.mithraeum.potential",
-            "label": "空荡荡的密特拉寺",
+            "label": "空蕩蕩的密特拉寺",
             "aspects": {
                 "location": 1,
                 "hq.potential": 1
             },
-            "description": "此处原为敬拜之地。我们可以让它重回旧用。",
+            "description": "此處原為敬拜之地。我們可以讓它重回舊用。",
             "slots": [
                 {
                     "id": "Old HQ",
-                    "description": "将旧总部放入此处将其废弃，并搬迁至新总部。一旦实施则不可撤回。",
+                    "description": "將舊總部放入此處將其廢棄，並搬遷至新總部。一旦實施則不可撤回。",
                     "actionId": "explore",
                     "required": {
                         "hq": 1
@@ -415,16 +415,16 @@
         },
         {
             "id": "hq.hospital.potential",
-            "label": "空荡荡的医院",
+            "label": "空蕩蕩的醫院",
             "aspects": {
                 "location": 1,
                 "hq.potential": 1
             },
-            "description": "幽灵——邻居们说——仍在楼内余音回荡的厅堂里走动。如果我们占据此地，当然了，它们会离去，又或者我们可以令之为我所用。",
+            "description": "幽靈——鄰居們說——仍在樓內餘音迴盪的廳堂裡走動。如果我們占據此地，當然了，它們會離去，又或者我們可以令之為我所用。",
             "slots": [
                 {
                     "id": "Old HQ",
-                    "description": "将旧总部放入此处将其废弃，并搬迁至新总部。一旦实施则不可撤回。",
+                    "description": "將舊總部放入此處將其廢棄，並搬遷至新總部。一旦實施則不可撤回。",
                     "actionId": "explore",
                     "required": {
                         "hq": 1
@@ -439,16 +439,16 @@
         },
         {
             "id": "hq.warehouse.potential",
-            "label": "废弃的仓库",
+            "label": "廢棄的倉庫",
             "aspects": {
                 "location": 1,
                 "hq.potential": 1
             },
-            "description": "腐臭河流旁的一具腐臭空壳。谁会追我们追到这儿来？",
+            "description": "腐臭河流旁的一具腐臭空殼。誰會追我們追到這兒來？",
             "slots": [
                 {
                     "id": "Old HQ",
-                    "description": "将旧总部放入此处将其废弃，并搬迁至新总部。一旦实施则不可撤回。",
+                    "description": "將舊總部放入此處將其廢棄，並搬遷至新總部。一旦實施則不可撤回。",
                     "actionId": "explore",
                     "required": {
                         "hq": 1
@@ -463,21 +463,21 @@
         },
         {
             "id": "locationstreetsstrange",
-            "label": "在月光下呈现异象的街巷",
+            "label": "在月光下呈現異象的街巷",
             "aspects": {
                 "location": 1
             },
-            "description": "有时，月亮的光辉是开启其他空间的钥匙。我发现一处地点，在那么一两个晚上，街巷会以离奇的方式扭曲。如果我走去那里，或许我能洞见真知，又或许我会沾染上疯狂。",
+            "description": "有時，月亮的光輝是開啟其他空間的鑰匙。我發現一處地點，在那麼一兩個晚上，街巷會以離奇的方式扭曲。如果我走去那裡，或許我能洞見真知，又或許我會沾染上瘋狂。",
             "lifetime": 120
         },
         {
             "id": "location.gallery",
-            "label": "蒙特梅伦齐—麦克唐纳画廊",
+            "label": "蒙特梅倫齊—麥克唐納畫廊",
             "comments": "currently just used for early Ghoul flavour, but we could do more.",
             "aspects": {
                 "location": 1
             },
-            "description": "阿利斯泰尔·蒙特梅伦齐，是蒙特梅伦齐家族第三位也是最后一位地图测绘师。他那位神秘的赞助人蒂莫西·麦克唐纳收藏了这些尺寸不大但引人注目的杂项藏品。在他们那次失败的极地冒险后，这些藏品最后面向公众开放，在安静的公园旁边一栋其貌不扬的灰色建筑中展出，展出条件是：禁止拍照，且藏品不能暴露在日光之下。"
+            "description": "阿利斯泰爾·蒙特梅倫齊，是蒙特梅倫齊家族第三位也是最後一位地圖測繪師。他那位神秘的贊助人蒂莫西·麥克唐納收藏了這些尺寸不大但引人注目的雜項藏品。在他們那次失敗的極地冒險後，這些藏品最後面向公眾開放，在安靜的公園旁邊一棟其貌不揚的灰色建築中展出，展出條件是：禁止拍照，且藏品不能暴露在日光之下。"
         },
         {
             "id": "location.cemetery",
@@ -485,8 +485,8 @@
             "slots": [
                 {
                     "id": "muscle",
-                    "label": "劳力",
-                    "description": "我可以雇一名帮手，又或自己亲手去挖。",
+                    "label": "勞力",
+                    "description": "我可以雇一名幫手，又或自己親手去挖。",
                     "actionId": "explore",
                     "required": {
                         "health": 1,
@@ -494,7 +494,7 @@
                     }
                 }
             ],
-            "description": "在醒时的世界，和在梦中一样，死者通常位于下方。",
+            "description": "在醒時的世界，和在夢中一樣，死者通常位於下方。",
             "aspects": {
                 "location": 1
             },
@@ -503,13 +503,13 @@
         },
         {
             "id": "location.cemetery.closing",
-            "label": "看守严密的公墓",
-            "description": "当局注意到了此地发生的异常举动。他们派来了一名守卫。访问此地将耗费更长的时间，而且很快会变得完全不可能。",
+            "label": "看守嚴密的公墓",
+            "description": "當局注意到了此地發生的異常舉動。他們派來了一名守衛。訪問此地將耗費更長的時間，而且很快會變得完全不可能。",
             "slots": [
                 {
                     "id": "muscle",
-                    "label": "劳力",
-                    "description": "我可以雇一名帮手，又或自己亲手去挖。",
+                    "label": "勞力",
+                    "description": "我可以雇一名幫手，又或自己親手去挖。",
                     "actionId": "explore",
                     "required": {
                         "health": 1,

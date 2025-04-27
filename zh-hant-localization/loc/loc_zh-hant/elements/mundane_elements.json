@@ -2,8 +2,8 @@
     "elements": [
         {
             "id": "rumour",
-            "label": "古怪的传闻",
-            "description": "这或许能让我找到所需的人，或者这意味着某种完全不同的东西。[跟随传闻的指引，继续探索。]",
+            "label": "古怪的傳聞",
+            "description": "這或許能讓我找到所需的人，或者這意味著某種完全不同的東西。[跟隨傳聞的指引，繼續探索。]",
             "aspects": {
                 "ingredient": 1,
                 "secrethistories": 1,
@@ -13,8 +13,8 @@
         },
         {
             "id": "favour",
-            "label": "当局欠下的人情",
-            "description": "我掌握了某些让人欠我情的东西，只管一次用。[这会使你或你的一名追随者免受牢狱之灾……但并不够可靠。]",
+            "label": "當局欠下的人情",
+            "description": "我掌握了某些讓人欠我情的東西，只管一次用。[這會使你或你的一名追隨者免受牢獄之災……但並不夠可靠。]",
             "aspects": {
                 "suspicious": 1
             },
@@ -22,11 +22,11 @@
         },
         {
             "id": "mistakenidentity",
-            "label": "错认身份",
+            "label": "錯認身份",
             "aspects": {
                 "mortal": 1
             },
-            "description": "到头来，这并不是你要寻找的人。他无足轻重，不会让你留下任何印象。或许已经没有什么人值得你去见了。",
+            "description": "到頭來，這並不是你要尋找的人。他無足輕重，不會讓你留下任何印象。或許已經沒有什麼人值得你去見了。",
             "xtriggers": {
                 "rebellion": "generic_r"
             },
@@ -35,15 +35,15 @@
         },
         {
             "id": "funds",
-            "label": "资金",
+            "label": "資金",
             "aspects": {
                 "ingredient": 1
             },
-            "description": "足够供我舒舒服服地生活一小段时间。"
+            "description": "足夠供我舒舒服服地生活一小段時間。"
         },
         {
             "id": "compensation",
-            "label": "古铁币",
+            "label": "古鐵幣",
             "aspects": {
                 "edge": 2,
                 "secrethistories": 1,
@@ -51,11 +51,11 @@
                 "ingredient": 1,
                 "auctionable": 2
             },
-            "description": "隐秘世界的新晋者用斯宾特里亚古币支付各种费用。古铁币面值最低，背面画着凶杀的情景。[“古钱币”可以在拍卖行换成份数的普通资金。]"
+            "description": "隱秘世界的新晉者用斯賓特里亞古幣支付各種費用。古鐵幣面值最低，背面畫著兇殺的情景。[“古錢幣”可以在拍賣行換成份數的普通資金。]"
         },
         {
             "id": "compensationb",
-            "label": "古铜币",
+            "label": "古銅幣",
             "aspects": {
                 "forge": 4,
                 "secrethistories": 1,
@@ -63,11 +63,11 @@
                 "ingredient": 1,
                 "auctionable": 3
             },
-            "description": "隐秘世界的新晋者用斯宾特里亚古币支付各种费用。古青铜币背面通常画着塑造的场景。[“古钱币”可以在拍卖行换成份数的普通资金。]"
+            "description": "隱秘世界的新晉者用斯賓特里亞古幣支付各種費用。古青銅幣背面通常畫著塑造的場景。[“古錢幣”可以在拍賣行換成份數的普通資金。]"
         },
         {
             "id": "compensationc",
-            "label": "古银币",
+            "label": "古銀幣",
             "aspects": {
                 "grail": 6,
                 "secrethistories": 1,
@@ -75,11 +75,11 @@
                 "ingredient": 1,
                 "auctionable": 4
             },
-            "description": "隐秘世界的新晋者用斯宾特里亚古币支付各种费用。古币很容易卖出数值更高的普通货币。古银币更具价值，背面通常画着淫荡的情景。[“古钱币”可以在拍卖行换成份数的普通资金。]"
+            "description": "隱秘世界的新晉者用斯賓特里亞古幣支付各種費用。古幣很容易賣出數值更高的普通貨幣。古銀幣更具價值，背面通常畫著淫蕩的情景。[“古錢幣”可以在拍賣行換成份數的普通資金。]"
         },
         {
             "id": "compensationd",
-            "label": "古金币",
+            "label": "古金幣",
             "aspects": {
                 "lantern": 8,
                 "secrethistories": 1,
@@ -87,23 +87,23 @@
                 "ingredient": 1,
                 "auctionable": 5
             },
-            "description": "隐秘世界的新晋者用斯宾特里亚古币支付各种费用。古币很容易卖出数值更高的普通货币。古金币背面画着凡人肉眼不可见的情形。[“古钱币”可以在拍卖行换成份数的普通资金。]"
+            "description": "隱秘世界的新晉者用斯賓特里亞古幣支付各種費用。古幣很容易賣出數值更高的普通貨幣。古金幣背面畫著凡人肉眼不可見的情形。[“古錢幣”可以在拍賣行換成份數的普通資金。]"
         },
         {
             "id": "mapbookdealer",
-            "label": "去往莫兰书店的路线",
+            "label": "去往莫蘭書店的路線",
             "aspects": {
                 "legacyplotitem": 1
             },
-            "description": "语焉不详的路线说明，教人如何去往某个不为人知的地址，找到名为莫兰的稀有书籍商贩。"
+            "description": "語焉不詳的路線說明，教人如何去往某個不為人知的地址，找到名為莫蘭的稀有書籍商販。"
         },
         {
             "id": "jumble",
-            "label": "一堆杂物",
+            "label": "一堆雜物",
             "aspects": {
                 "auctionable": 1
             },
-            "description": "一堆旧衣服与没什么价值的首饰。或许它们能在哪换得几个便士，但对我没有什么用处。"
+            "description": "一堆舊衣服與沒什麼價值的首飾。或許它們能在哪換得幾個便士，但對我沒有什麼用處。"
         },
         {
             "id": "snare",
@@ -111,7 +111,7 @@
             "aspects": {
                 "snarelevel": 1
             },
-            "description": "我为我的对手下好了圈套。[圈套可用于任何无派人士，或者用于挫败其搜刮藏宝地的企图。]",
+            "description": "我為我的對手下好了圈套。[圈套可用於任何無派人士，或者用於挫敗其搜刮藏寶地的企圖。]",
             "lifetime": 300
         }
     ]

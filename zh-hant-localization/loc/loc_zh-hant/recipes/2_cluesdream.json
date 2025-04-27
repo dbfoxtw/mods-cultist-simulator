@@ -2,12 +2,12 @@
     "recipes": [
         {
             "id": "temptationremembrancehintdream",
-            "label": "诱惑？",
+            "label": "誘惑？",
             "actionId": "dream",
             "requirements": {
                 "temptation.remembrance": 1
             },
-            "startdescription": "这世上有着各种颜色，漫宿则有另一番色彩，而其他的，便是失落的色彩。它们的缺失让我放不下画刀。[回忆的诱惑已将它的牙齿没入了你，其他的诱惑将无法再染指你。]",
+            "startdescription": "這世上有著各種顏色，漫宿則有另一番色彩，而其他的，便是失落的色彩。它們的缺失讓我放不下畫刀。[回憶的誘惑已將它的牙齒沒入了你，其他的誘惑將無法再染指你。]",
             "craftable": false,
             "hintonly": true
         },
@@ -18,31 +18,31 @@
             "requirements": {
                 "vitality": 1
             },
-            "startdescription": "它无法激发梦境。但研究它能增进我的健康。",
+            "startdescription": "它無法激發夢境。但研究它能增進我的健康。",
             "craftable": false,
             "hintonly": true,
             "comments": "Not currently possible with restrictions on Dream primary slot"
         },
         {
             "id": "eruditionhintdream",
-            "label": "博闻",
+            "label": "博聞",
             "actionId": "dream",
             "requirements": {
                 "erudition": 1
             },
-            "startdescription": "它无法激发梦境。但研究它能增进我的理性。",
+            "startdescription": "它無法激發夢境。但研究它能增進我的理性。",
             "craftable": false,
             "hintonly": true,
             "comments": "Not currently possible with restrictions on Dream primary slot"
         },
         {
             "id": "glimmeringhintdream",
-            "label": "灵感",
+            "label": "靈感",
             "actionId": "dream",
             "requirements": {
                 "glimmering": 1
             },
-            "startdescription": "它现在还无法激发梦境。但研究它能增进我的激情。",
+            "startdescription": "它現在還無法激發夢境。但研究它能增進我的激情。",
             "craftable": false,
             "hintonly": true,
             "comments": "Not currently possible with restrictions on Dream primary slot"
@@ -54,7 +54,7 @@
             "requirements": {
                 "contentment": 1
             },
-            "startdescription": "安逸不是通往梦境的钥匙，但梦境有时让我感到安逸。",
+            "startdescription": "安逸不是通往夢境的鑰匙，但夢境有時讓我感到安逸。",
             "craftable": false,
             "hintonly": true,
             "comments": "Not currently possible with restrictions on Dream primary slot"
@@ -66,7 +66,7 @@
             "requirements": {
                 "ascensionpowerb": 1
             },
-            "startdescription": "我已经在梦境中来到了我所能抵达的最远处。我必须要开始施行“功业”了（在<b><作业></b>进行）。",
+            "startdescription": "我已經在夢境中來到了我所能抵達的最遠處。我必須要開始施行“功業”了（在<b><作業></b>進行）。",
             "craftable": false,
             "hintonly": true
         },
@@ -77,40 +77,40 @@
             "requirements": {
                 "ascensionenlightenmentb": 1
             },
-            "startdescription": "我已经在梦境中来到了我所能抵达的最远处。我必须要开始施行“功业”了。",
+            "startdescription": "我已經在夢境中來到了我所能抵達的最遠處。我必須要開始施行“功業”了。",
             "craftable": false,
             "hintonly": true
         },
         {
             "id": "tryreducefascination",
-            "label": "寻求冷静？",
+            "label": "尋求冷靜？",
             "actionId": "dream",
             "requirements": {
                 "fascination": 1
             },
-            "startdescription": "幻象之门纷纷向我敞开。些微的黑暗会让我的光更加圆融。恐惧亦有其作用。",
+            "startdescription": "幻象之門紛紛向我敞開。些微的黑暗會讓我的光更加圓融。恐懼亦有其作用。",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "tryrecoverreason",
-            "label": "放空头脑？",
+            "label": "放空頭腦？",
             "actionId": "dream",
             "requirements": {
                 "dread": 1
             },
-            "startdescription": "我只记得我有所改变；但我暂时想不起来，我是如何改变的。[使用正确的资源可以平息“恐惧”。]",
+            "startdescription": "我只記得我有所改變；但我暫時想不起來，我是如何改變的。[使用正確的資源可以平息“恐懼”。]",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "tryrecoverillhealth",
-            "label": "恢复？",
+            "label": "恢復？",
             "actionId": "dream",
             "requirements": {
                 "illhealth": 1
             },
-            "startdescription": "休息能够让我恢复——如果我拥有所需的资源的话。",
+            "startdescription": "休息能夠讓我恢復——如果我擁有所需的資源的話。",
             "craftable": false,
             "hintonly": true,
             "comments": "This one's generic."

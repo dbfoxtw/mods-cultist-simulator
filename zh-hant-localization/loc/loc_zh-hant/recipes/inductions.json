@@ -7,74 +7,74 @@
             "effects": {
                 "previtality": 1
             },
-            "startdescription": "每当心之准则浮现时，我便可以获得<b>活力</b>。",
-            "description": "今天，我自己的心脏搏动地更有力了。",
+            "startdescription": "每當心之準則浮現時，我便可以獲得<b>活力</b>。",
+            "description": "今天，我自己的心臟搏動地更有力了。",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "lanterninduction",
-            "label": "颅内之光",
+            "label": "顱內之光",
             "actionId": "lanterninduction",
             "effects": {
                 "preerudition": 1
             },
-            "startdescription": "每当灯之准则放光时，我便可以多记起一些残篇知识。",
-            "description": "脑海中的灰尘一扫而空，至少暂时如此。",
+            "startdescription": "每當燈之準則放光時，我便可以多記起一些殘篇知識。",
+            "description": "腦海中的灰塵一掃而空，至少暫時如此。",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "mothinduction",
-            "label": "陈旧遥远的不快之事",
+            "label": "陳舊遙遠的不快之事",
             "actionId": "mothinduction",
             "effects": {
                 "prerestlessness": 1
             },
-            "startdescription": "蛾在黑暗中寻见光，我亦如是。",
-            "description": "一种似有似无的惆怅染上了我。",
+            "startdescription": "蛾在黑暗中尋見光，我亦如是。",
+            "description": "一種似有似無的惆悵染上了我。",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "mothglimmeringinduction",
-            "label": "黑暗与光",
+            "label": "黑暗與光",
             "actionId": "mothinduction",
             "effects": {
                 "preglimmering": 1
             },
-            "startdescription": "蛾在黑暗中寻见光，我亦如是。",
-            "description": "若不为此，何去何从？",
+            "startdescription": "蛾在黑暗中尋見光，我亦如是。",
+            "description": "若不為此，何去何從？",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "grailinduction",
-            "label": "欲望的背后",
+            "label": "欲望的背後",
             "actionId": "grailinduction",
             "effects": {
                 "preglimmering": 1
             },
-            "startdescription": "从满足欲望的过程中能学到什么吗？",
-            "description": "有种启明般的感觉。",
+            "startdescription": "從滿足欲望的過程中能學到什麼嗎？",
+            "description": "有種啟明般的感覺。",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "dreadinduction",
-            "label": "暗夜惊魂",
+            "label": "暗夜驚魂",
             "actionId": "dreadinduction",
             "effects": {
                 "predread": 1
             },
-            "startdescription": "我在半夜惊醒。我的手掌，我的脸上都渗出汗珠。",
-            "description": "慢慢地，我松开紧攥的拳头。我又滑落回睡梦中。但某种东西留下了，好像房间角落的蛛网。",
+            "startdescription": "我在半夜驚醒。我的手掌，我的臉上都滲出汗珠。",
+            "description": "慢慢地，我鬆開緊攥的拳頭。我又滑落回睡夢中。但某種東西留下了，好像房間角落的蛛網。",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "dreadinduction_ifdread",
-            "label": "暗夜惊魂",
+            "label": "暗夜驚魂",
             "actionId": "dreadinduction",
             "requirements": {
                 "dread": 1
@@ -83,8 +83,8 @@
                 "predread": 1
             },
             "comments": "Only triggers if there's already Dread in whatever called this.",
-            "startdescription": "我在半夜惊醒。我的手掌，我的脸上都渗出汗珠。",
-            "description": "慢慢地，我松开紧攥的拳头。我又滑落回睡梦中。但某种东西留下了，好像房间角落的蛛网。",
+            "startdescription": "我在半夜驚醒。我的手掌，我的臉上都滲出汗珠。",
+            "description": "慢慢地，我鬆開緊攥的拳頭。我又滑落回睡夢中。但某種東西留下了，好像房間角落的蛛網。",
             "warmup": 30,
             "craftable": false
         },
@@ -95,8 +95,8 @@
             "effects": {
                 "prefascination": 1
             },
-            "startdescription": "我开始留意世间那些我无法命名的色彩。",
-            "description": "我正在看我不该看的东西。我知道这么做的危险性，但要按捺住想看的念头是很难的。",
+            "startdescription": "我開始留意世間那些我無法命名的色彩。",
+            "description": "我正在看我不該看的東西。我知道這麼做的危險性，但要按捺住想看的念頭是很難的。",
             "warmup": 30,
             "craftable": false
         },
@@ -110,16 +110,16 @@
             "effects": {
                 "prefascination": 1
             },
-            "startdescription": "我开始留意世间那些我无法命名的色彩。",
-            "description": "我正在看我不该看的东西。我知道这么做的危险性，但要按捺住想看的念头是很难的。",
+            "startdescription": "我開始留意世間那些我無法命名的色彩。",
+            "description": "我正在看我不該看的東西。我知道這麼做的危險性，但要按捺住想看的念頭是很難的。",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "poison.notoriety.induction",
             "actionId": "poison.notoriety.induction",
-            "label": "众目睽睽",
-            "startdescription": "我们派的追随者有些过分出名了。防剿局也许会听闻此事。",
+            "label": "眾目睽睽",
+            "startdescription": "我們派的追隨者有些過分出名了。防剿局也許會聽聞此事。",
             "effects": {
                 "notoriety": 1
             },
@@ -128,8 +128,8 @@
         {
             "id": "poison.passion.dread.induction",
             "actionId": "poison.passion.dread.induction",
-            "label": "渗人的颜色",
-            "startdescription": "我的激情被毒侵入。每一阵精神上的剧痛都会唤起一阵凶猛的灰颜色。",
+            "label": "滲人的顏色",
+            "startdescription": "我的激情被毒侵入。每一陣精神上的劇痛都會喚起一陣兇猛的灰顏色。",
             "effects": {
                 "dread": 1
             },
@@ -139,7 +139,7 @@
             "id": "poison.reason.fascination.induction",
             "actionId": "poison.reason.fascination.induction",
             "label": "不息之光",
-            "startdescription": "蜡烛，点火便会发光。我的思绪点燃时，会发生什么？",
+            "startdescription": "蠟燭，點火便會發光。我的思緒點燃時，會發生什麼？",
             "effects": {
                 "fascination": 1
             },
@@ -149,7 +149,7 @@
             "id": "poison.health.dread.induction",
             "actionId": "poison.health.dread.induction",
             "label": "款待痛苦",
-            "startdescription": "我邀请一位老友在我的肌骨里再居留一天。",
+            "startdescription": "我邀請一位老友在我的肌骨裡再居留一天。",
             "effects": {
                 "dread": 1
             },
@@ -158,13 +158,13 @@
         {
             "id": "secret.induction",
             "actionId": "unsuspicion",
-            "label": "隐私的好处",
-            "startdescription": "我们已特意将总部设在某个冷僻无人的地方……",
-            "description": "……也许能让防剿局更难摸上门。要维持响亮的声名可能也更难了。",
+            "label": "隱私的好處",
+            "startdescription": "我們已特意將總部設在某個冷僻無人的地方……",
+            "description": "……也許能讓防剿局更難摸上門。要維持響亮的聲名可能也更難了。",
             "slots": [
                 {
                     "id": "reputation",
-                    "label": "声名",
+                    "label": "聲名",
                     "required": {
                         "reputation": 1
                     },

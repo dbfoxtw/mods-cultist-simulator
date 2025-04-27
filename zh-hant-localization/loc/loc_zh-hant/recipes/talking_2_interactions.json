@@ -2,14 +2,14 @@
     "recipes": [
         {
             "id": "lockfollowerincupboard",
-            "label": "背叛一名追随者并将之囚禁",
+            "label": "背叛一名追隨者並將之囚禁",
             "actionId": "talk",
             "requirements": {
                 "hq": 1,
                 "follower": 1
             },
-            "startdescription": "此人必定心怀异念。送他进橱柜。",
-            "description": "我把此人牢牢关了起来。等他的尖叫和咆哮弱下来后，我再将他彻底制服。",
+            "startdescription": "此人必定心懷異念。送他進櫥櫃。",
+            "description": "我把此人牢牢關了起來。等他的尖叫和咆哮弱下來後，我再將他徹底制服。",
             "aspects": {
                 "capturefollower": 1
             },
@@ -28,7 +28,7 @@
         },
         {
             "id": "sulochanachat",
-            "label": "和苏洛恰那聊天",
+            "label": "和蘇洛恰那聊天",
             "actionId": "talk",
             "requirements": {
                 "sulochana": 1
@@ -36,12 +36,12 @@
             "slots": [
                 {
                     "id": "Subject",
-                    "label": "话题",
-                    "description": "谈话的主题"
+                    "label": "話題",
+                    "description": "談話的主題"
                 }
             ],
-            "startdescription": "\"\t@#ascensionlessonhearta|“想知道更多？”\r\n#ascensionlessonheartb|“想知道更多？”\r\n#ascensionlessonheartc|“想知道更多？”\r\n#ascensionlessonheartd|“想知道更多？”\r\n#ascensionlessonhearte|“想知道更多？”\r\n#ascensionlessonheartf|“想知道更多？”\r\n#ascensionlessonmotha|“想知道更多？”\r\n#ascensionlessonmothb|“想知道更多？”\r\n#ascensionlessonmothc|“想知道更多？”\r\n#ascensionlessonmothd|“想知道更多？”\r\n#ascensionlessonmothe|“想知道更多？”\r\n#ascensionlessonmothf|“想知道更多？”\r\n#|苏洛恰那踩灭香烟。“可以，如果你想跟我学这门语言的话。行，没问题。还有别的事吗？”@\"",
-            "description": "\"@#ascensionlessonhearta|“不是我的专长。”苏洛恰那微笑道。\r\n#ascensionlessonheartb|“不是我的专长。”苏洛恰那蛇一般耸着肩道。\r\n#ascensionlessonheartc|“不是我的专长。”苏洛恰那微笑道。.\r\n#ascensionlessonheartd|“不是我的专长。”苏洛恰那蛇一般耸着肩道。\r\n#ascensionlessonhearte|“不是我的专长。”苏洛恰那微笑道。.\r\n#ascensionlessonheartf|“不是我的专长。”苏洛恰那蛇一般耸着肩道。\r\n#ascensionlessonmotha|“我能教你的就这些。我是你的雇主，不是老师。”苏洛恰那伸伸懒腰。“多点耐性如何。”\r\n#ascensionlessonmothb|“我能教你的就这些。我是你的雇主，不是老师。”苏洛恰那伸伸懒腰。“多点耐性如何。”\r\n#ascensionlessonmothc|“我能教你的就这些。我是你的雇主，不是老师。”苏洛恰那伸伸懒腰。“多点耐性如何。”\r\n#ascensionlessonmothd|“我能教你的就这些。找老师到忘却会找去。”苏洛恰那咧嘴一笑，露出满口牙齿。“他们理你才怪。”\r\n#ascensionlessonmothe|“我能教你的就这些。找老师到忘却会找去。”苏洛恰那咧嘴一笑，露出满口牙齿。“他们理你才怪。”\r\n#ascensionlessonmothf|“我能教你的就这些。找老师到忘却会找去。”苏洛恰那咧嘴一笑，露出满口牙齿。“他们理你才怪。”\r\n#|我让她失望了？很难说，对于苏洛恰那这人。@\"",
+            "startdescription": "\"\t@#ascensionlessonhearta|“想知道更多？”\r\n#ascensionlessonheartb|“想知道更多？”\r\n#ascensionlessonheartc|“想知道更多？”\r\n#ascensionlessonheartd|“想知道更多？”\r\n#ascensionlessonhearte|“想知道更多？”\r\n#ascensionlessonheartf|“想知道更多？”\r\n#ascensionlessonmotha|“想知道更多？”\r\n#ascensionlessonmothb|“想知道更多？”\r\n#ascensionlessonmothc|“想知道更多？”\r\n#ascensionlessonmothd|“想知道更多？”\r\n#ascensionlessonmothe|“想知道更多？”\r\n#ascensionlessonmothf|“想知道更多？”\r\n#|蘇洛恰那踩滅香煙。“可以，如果你想跟我學這門語言的話。行，沒問題。還有別的事嗎？”@\"",
+            "description": "\"@#ascensionlessonhearta|“不是我的專長。”蘇洛恰那微笑道。\r\n#ascensionlessonheartb|“不是我的專長。”蘇洛恰那蛇一般聳著肩道。\r\n#ascensionlessonheartc|“不是我的專長。”蘇洛恰那微笑道。.\r\n#ascensionlessonheartd|“不是我的專長。”蘇洛恰那蛇一般聳著肩道。\r\n#ascensionlessonhearte|“不是我的專長。”蘇洛恰那微笑道。.\r\n#ascensionlessonheartf|“不是我的專長。”蘇洛恰那蛇一般聳著肩道。\r\n#ascensionlessonmotha|“我能教你的就這些。我是你的雇主，不是老師。”蘇洛恰那伸伸懶腰。“多點耐性如何。”\r\n#ascensionlessonmothb|“我能教你的就這些。我是你的雇主，不是老師。”蘇洛恰那伸伸懶腰。“多點耐性如何。”\r\n#ascensionlessonmothc|“我能教你的就這些。我是你的雇主，不是老師。”蘇洛恰那伸伸懶腰。“多點耐性如何。”\r\n#ascensionlessonmothd|“我能教你的就這些。找老師到忘卻會找去。”蘇洛恰那咧嘴一笑，露出滿口牙齒。“他們理你才怪。”\r\n#ascensionlessonmothe|“我能教你的就這些。找老師到忘卻會找去。”蘇洛恰那咧嘴一笑，露出滿口牙齒。“他們理你才怪。”\r\n#ascensionlessonmothf|“我能教你的就這些。找老師到忘卻會找去。”蘇洛恰那咧嘴一笑，露出滿口牙齒。“他們理你才怪。”\r\n#|我讓她失望了？很難說，對於蘇洛恰那這人。@\"",
             "alt": [
                 {
                     "id": "talk.apostleforge.sulochanaechidna"
@@ -87,39 +87,39 @@
         {
             "id": "sulochanachat_health",
             "actionId": "talk",
-            "label": "探讨身体机能",
+            "label": "探討身體機能",
             "requirements": {
                 "sulochana": 1,
                 "health": 1
             },
-            "startdescription": "“你还年轻，可喜可贺。”",
-            "description": "“我们都曾年轻过，每个人都是。这是我们中大部分人的唯一共同点。”"
+            "startdescription": "“你還年輕，可喜可賀。”",
+            "description": "“我們都曾年輕過，每個人都是。這是我們中大部分人的唯一共同點。”"
         },
         {
             "id": "sulochanachat_passion",
-            "label": "探讨激情",
+            "label": "探討激情",
             "actionId": "talk",
             "requirements": {
                 "sulochana": 1,
                 "passion": 1
             },
-            "startdescription": "“对。它会让你陷入麻烦的。”",
-            "description": "“你有潜力。你的表现让我这么认为。空有潜力还不够，还有别的吗？”"
+            "startdescription": "“對。它會讓你陷入麻煩的。”",
+            "description": "“你有潛力。你的表現讓我這麼認為。空有潛力還不夠，還有別的嗎？”"
         },
         {
             "id": "sulochanachat_cabaret",
-            "label": "探讨蜕衣俱乐部",
+            "label": "探討蛻衣俱樂部",
             "actionId": "talk",
             "requirements": {
                 "sulochana": 1,
                 "locationcabaret": 1
             },
-            "startdescription": "“怎么？”",
-            "description": "“有条你能走的路，起点就在我家房子里。你要想和我聊聊这条路，就去我家找我。”"
+            "startdescription": "“怎麼？”",
+            "description": "“有條你能走的路，起點就在我家房子裡。你要想和我聊聊這條路，就去我家找我。”"
         },
         {
             "id": "sulochanachat_desireheart_track",
-            "label": "探讨新形体",
+            "label": "探討新形體",
             "actionId": "talk",
             "requirements": {
                 "sulochana": 1,
@@ -128,13 +128,13 @@
             "effects": {
                 "locationcabaret": 1
             },
-            "startdescription": "“找我来褪掉你的皮肤，嗯？”",
-            "description": "“你想要走的路我们称之为新形体。不是全新的，并不是复原。但如果你能忍受痛楚的话，你会发现它的好处。去我家找我，我们可以谈谈你最后会用到的那个搭档。这是地址。"
+            "startdescription": "“找我來褪掉你的皮膚，嗯？”",
+            "description": "“你想要走的路我們稱之為新形體。不是全新的，並不是復原。但如果你能忍受痛楚的話，你會發現它的好處。去我家找我，我們可以談談你最後會用到的那個搭檔。這是地址。"
         },
         {
             "id": "sulochanachat_desiremoth_track",
             "actionId": "talk",
-            "label": "探讨旧形体",
+            "label": "探討舊形體",
             "requirements": {
                 "sulochana": 1,
                 "desiremoth_track": 1
@@ -142,41 +142,41 @@
             "effects": {
                 "locationcabaret": 1
             },
-            "startdescription": "不容易——我们终于开始理解对方了。",
-            "description": "你想要走的路我们称之为旧形体。我自己走过这条路，最终走成了现在的样子。在这条路上你得放弃所有东西。你得褪去你的皮肤，还不止一次……去我家找我，我们可以谈谈你最后会用到的那个搭档。这是地址。"
+            "startdescription": "不容易——我們終於開始理解對方了。",
+            "description": "你想要走的路我們稱之為舊形體。我自己走過這條路，最終走成了現在的樣子。在這條路上你得放棄所有東西。你得褪去你的皮膚，還不止一次……去我家找我，我們可以談談你最後會用到的那個搭檔。這是地址。"
         },
         {
             "id": "sulochanachat_desire_change",
             "actionId": "talk",
-            "label": "探讨欲望",
+            "label": "探討欲望",
             "requirements": {
                 "sulochana": 1,
                 "changemarks": 1
             },
-            "startdescription": "你说舞蹈，嗯？",
-            "description": "去我家找我，我们可以谈谈你最后会用到的那个搭档。这是地址。"
+            "startdescription": "你說舞蹈，嗯？",
+            "description": "去我家找我，我們可以談談你最後會用到的那個搭檔。這是地址。"
         },
         {
             "id": "sulochanachat_desire",
             "actionId": "talk",
-            "label": "探讨欲望",
+            "label": "探討欲望",
             "requirements": {
                 "sulochana": 1,
                 "desire": 1
             },
-            "startdescription": "你是受这个的激励吗？",
-            "description": "我们在这个问题上没有共同立场。我很久以前就选择了不同的道路。但如果你想走上这条路……到蜕衣俱乐部再来找我聊吧。"
+            "startdescription": "你是受這個的激勵嗎？",
+            "description": "我們在這個問題上沒有共同立場。我很久以前就選擇了不同的道路。但如果你想走上這條路……到蛻衣俱樂部再來找我聊吧。"
         },
         {
             "id": "sulochanachat_secrethistoriesrouter",
             "actionId": "talk",
-            "label": "探讨隐秘场所",
+            "label": "探討隱秘場所",
             "requirements": {
                 "sulochana": 1,
                 "lore": 1,
                 "secrethistories": 1
             },
-            "startdescription": "这个嘛……",
+            "startdescription": "這個嘛……",
             "description": ".",
             "linked": [
                 {
@@ -212,13 +212,13 @@
         {
             "id": "sulochanachat_secrethistoriesg",
             "actionId": "talk",
-            "label": "探讨通往白骨之途",
+            "label": "探討通往白骨之途",
             "requirements": {
                 "sulochana": 1,
                 "fragmentsecrethistoriesg": 1
             },
-            "startdescription": "“你要去午港？哈，对你表示遗憾。”苏洛恰那的话中透出非同寻常的恶毒。",
-            "description": "“给你。这张地图短时间会有点用。要是他们有谁问起我，你就告诉他我下一个就找上他的孩子。”",
+            "startdescription": "“你要去午港？哈，對你表示遺憾。”蘇洛恰那的話中透出非同尋常的惡毒。",
+            "description": "“給你。這張地圖短時間會有點用。要是他們有誰問起我，你就告訴他我下一個就找上他的孩子。”",
             "effects": {
                 "lore": -1,
                 "vaulteveningislesdefault": 1
@@ -227,13 +227,13 @@
         {
             "id": "sulochanachat_secrethistoriesf",
             "actionId": "talk",
-            "label": "探讨通往瞳仁之途",
+            "label": "探討通往瞳仁之途",
             "requirements": {
                 "sulochana": 1,
                 "fragmentsecrethistoriesf": 1
             },
-            "startdescription": "“你要去弥阿？给我带点那儿产的椰枣。”",
-            "description": "“给你。住在这个地址的人会给你指路。要是‘窃景之贼’问起我来……让她替我问候克勒杜……算了，不要提任何关于我的事。好了，地址拿去。”",
+            "startdescription": "“你要去彌啊？給我帶點那兒產的椰棗。”",
+            "description": "“給你。住在這個地址的人會給你指路。要是‘竊景之賊’問起我來……讓她替我問候克勒杜……算了，不要提任何關於我的事。好了，地址拿去。”",
             "effects": {
                 "lore": -1,
                 "vaultloneandlevelsandsdefault": 1
@@ -242,25 +242,25 @@
         {
             "id": "sulochanachat_secrethistoriese",
             "actionId": "talk",
-            "label": "别去那里——",
+            "label": "別去那裡——",
             "requirements": {
                 "sulochana": 1,
                 "fragmentsecrethistoriese": 1
             },
-            "startdescription": "“无影众王？不——”",
-            "description": "“对我们或你们族人来说那儿没什么好去的。不值当去那儿跳任何一种舞蹈。你该到更往南的地方去。",
+            "startdescription": "“無影眾王？不——”",
+            "description": "“對我們或你們族人來說那兒沒什麼好去的。不值當去那兒跳任何一種舞蹈。你該到更往南的地方去。",
             "effects": {}
         },
         {
             "id": "sulochanachat_secrethistoriesd",
             "actionId": "talk",
-            "label": "探讨通往柱头之途",
+            "label": "探討通往柱頭之途",
             "requirements": {
                 "sulochana": 1,
                 "fragmentsecrethistoriesd": 1
             },
-            "startdescription": "“你要去那个原野？嗯……”",
-            "description": "“在一年中的这个时候这条路是最好走的。不过也好走不到哪去。好好享受吧。”",
+            "startdescription": "“你要去那個原野？嗯……”",
+            "description": "“在一年中的這個時候這條路是最好走的。不過也好走不到哪去。好好享受吧。”",
             "effects": {
                 "lore": -1,
                 "vaultlandbeyondforestdefault": 1
@@ -269,13 +269,13 @@
         {
             "id": "sulochanachat_secrethistoriesc",
             "actionId": "talk",
-            "label": "探讨通往伪影之途",
+            "label": "探討通往偽影之途",
             "requirements": {
                 "sulochana": 1,
                 "fragmentsecrethistoriesc": 1
             },
-            "startdescription": "“你要去巨石阵？”",
-            "description": "“给你。这个能指引你到还差最后一里地的地方，之后就要靠你自己走了。那里有座小客栈，我以前去的时候时常留宿。不过我把它给烧了。”她点了一支烟。",
+            "startdescription": "“你要去巨石陣？”",
+            "description": "“給你。這個能指引你到還差最後一里地的地方，之後就要靠你自己走了。那裡有座小客棧，我以前去的時候時常留宿。不過我把它給燒了。”她點了一支煙。",
             "effects": {
                 "lore": -1,
                 "vaultcontinentdefault": 1
@@ -284,13 +284,13 @@
         {
             "id": "sulochanachat_secrethistoriesb",
             "actionId": "talk",
-            "label": "探讨通往珍珠之途",
+            "label": "探討通往珍珠之途",
             "requirements": {
                 "sulochana": 1,
                 "fragmentsecrethistoriesb": 1
             },
-            "startdescription": "“你要去凯尔伊苏姆？是的，火车是挺不好坐的。”",
-            "description": "苏洛恰那递给你一张印刷的纸条。“这是这个月的站台号。一定要找到正确的站台。有了这个去那儿可容易多了吧，嗯？要是在从前你非得穿过‘错误的门’不可，我才不要浪费那个时间。”她咯咯笑了起来。",
+            "startdescription": "“你要去凱爾伊蘇姆？是的，火車是挺不好坐的。”",
+            "description": "蘇洛恰那遞給你一張印刷的紙條。“這是這個月的站台號。一定要找到正確的站台。有了這個去那兒可容易多了吧，嗯？要是在從前你非得穿過‘錯誤的門’不可，我才不要浪費那個時間。”她咯咯笑了起來。",
             "effects": {
                 "lore": -1,
                 "vaultshiresdefault": 1
@@ -299,17 +299,17 @@
         {
             "id": "sulochanachat_secrethistoriesa",
             "actionId": "talk",
-            "label": "探讨通往蜕变的一众路途",
+            "label": "探討通往蛻變的一眾路途",
             "requirements": {
                 "sulochana": 1,
                 "fragmentsecrethistories": 1
             },
-            "startdescription": "“你想蜕变的话……我可以帮你。”",
-            "description": "“我们第一次总是在海边变。现今的凯尔伊苏姆可是个好地方。然后地点会越来越远。不过不是让你亲自去，绝对不要亲自去，要让另一个你去。如果你不确定该去哪儿，尽管带着更多密传回来找我。如果你要寻求蜕变之外的东西，不管是什么……我都帮不了你。”"
+            "startdescription": "“你想蛻變的話……我可以幫你。”",
+            "description": "“我們第一次總是在海邊變。現今的凱爾伊蘇姆可是個好地方。然後地點會越來越遠。不過不是讓你親自去，絕對不要親自去，要讓另一個你去。如果你不確定該去哪兒，儘管帶著更多密傳回來找我。如果你要尋求蛻變之外的東西，不管是什麼……我都幫不了你。”"
         },
         {
             "id": "poppyoffer",
-            "label": "与波比·拉舍莱斯对话",
+            "label": "與波比·拉舍萊斯對話",
             "actionId": "talk",
             "requirements": {
                 "poppyready": 1
@@ -318,7 +318,7 @@
                 {
                     "id": "Consent",
                     "label": "合意",
-                    "description": "放入<b>激情</b>，接受条件；或放入<b>理性</b>，进一步盘问波比。.",
+                    "description": "放入<b>激情</b>，接受條件；或放入<b>理性</b>，進一步盤問波比。.",
                     "required": {
                         "passion": 1,
                         "reason": 1
@@ -335,20 +335,20 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "“亲爱的，我一直想和你聊聊。我有时会资助研究无形之术的学者。我愿意为你提供捐助，一大笔款子。而你需要做的只是在以后某一天，给我介绍一个适合结尾之人。”她露出和善的微笑。[放入<b>激情</b>，接受条件；或放入<b>理性</b>，进一步盘问她。]",
-            "description": "我没有接受波比的提议。",
+            "startdescription": "“親愛的，我一直想和你聊聊。我有時會資助研究無形之術的學者。我願意為你提供捐助，一大筆款子。而你需要做的只是在以後某一天，給我介紹一個適合結尾之人。”她露出和善的微笑。[放入<b>激情</b>，接受條件；或放入<b>理性</b>，進一步盤問她。]",
+            "description": "我沒有接受波比的提議。",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "poppyofferaccept",
-            "label": "接受波比的提议",
+            "label": "接受波比的提議",
             "actionId": "talk",
             "requirements": {
                 "passion": 1
             },
-            "startdescription": "“对，正是如此。我今晚还会来。”",
-            "description": "一个装着少许财宝的小小包裹——波比送来的礼物。她会在“残季”再来见我一次，让我介绍我许诺的人给她。",
+            "startdescription": "“對，正是如此。我今晚還會來。”",
+            "description": "一個裝著少許財寶的小小包裹——波比送來的禮物。她會在“殘季”再來見我一次，讓我介紹我許諾的人給她。",
             "effects": {
                 "funds": 10,
                 "compensationc": 1,
@@ -357,13 +357,13 @@
         },
         {
             "id": "poppyofferquery",
-            "label": "仔细询问波比",
+            "label": "仔細詢問波比",
             "actionId": "talk",
             "requirements": {
                 "reason": 1
             },
-            "startdescription": "适合结尾之人？",
-            "description": "“是的。当‘残季’再度到来时，我的赞助人会要求拿一个人结尾。你可以给我一个对你足够忠诚的人，也可以你自己上，都随你的便。我不想给你添麻烦。”",
+            "startdescription": "適合結尾之人？",
+            "description": "“是的。當‘殘季’再度到來時，我的贊助人會要求拿一個人結尾。你可以給我一個對你足夠忠誠的人，也可以你自己上，都隨你的便。我不想給你添麻煩。”",
             "effects": {
                 "influencewinter": 1
             }
@@ -372,7 +372,7 @@
             "id": "poppytimebomb",
             "label": "波比的要求",
             "actionId": "poppytime",
-            "startdescription": "待到“残季”，波比会再来……",
+            "startdescription": "待到“殘季”，波比會再來……",
             "description": ".",
             "linked": [
                 {
@@ -390,7 +390,7 @@
             "id": "poppysafefornow",
             "actionId": "poppytime",
             "label": "波比的沉默",
-            "startdescription": "波比经常出现在镇上参加慈善活动，脸上挂着和善的笑容。",
+            "startdescription": "波比經常出現在鎮上參加慈善活動，臉上掛著和善的笑容。",
             "description": ".",
             "linked": [
                 {
@@ -402,12 +402,12 @@
         },
         {
             "id": "poppywantssoul",
-            "label": "波比友好来访",
+            "label": "波比友好來訪",
             "actionId": "poppytime",
             "slots": [
                 {
                     "id": "Sacrifice",
-                    "label": "祭献",
+                    "label": "祭獻",
                     "required": {
                         "follower": 1
                     },
@@ -426,18 +426,18 @@
             "warmup": 60,
             "signalEndingFlavour": "Melancholy",
             "ending": "wintersacrifice",
-            "startdescription": "“亲爱的，到时候了。残阳在索要他的终局之人。是你来？还是你有朋友？”",
+            "startdescription": "“親愛的，到時候了。殘陽在索要他的終局之人。是你來？還是你有朋友？”",
             "description": "."
         },
         {
             "id": "poppysatiated",
             "actionId": "poppytime",
-            "label": "适当的终局",
+            "label": "適當的終局",
             "requirements": {
                 "follower": 1
             },
-            "startdescription": "“你有一个多么忠实的朋友啊！趁现在好好道别吧。”",
-            "description": "我的追随者去了，而我还在。波比·拉舍莱斯仍然时不时在各处现身。她说不定还有更多事情要对我说。",
+            "startdescription": "“你有一個多麼忠實的朋友啊！趁現在好好道別吧。”",
+            "description": "我的追隨者去了，而我還在。波比·拉舍萊斯仍然時不時在各處現身。她說不定還有更多事情要對我說。",
             "effects": {
                 "poppycommissionready": 1,
                 "influencewinter": 1,

@@ -2,10 +2,10 @@
     "recipes": [
         {
             "id": "legacydancer_openstudy",
-            "label": "遗落的谜团",
+            "label": "遺落的謎團",
             "actionId": "study",
-            "startdescription": "有上百名舞者曾穿行于这间更衣室。人们时不时会发现他们留下的痕迹，如同片片零落的花瓣：落单的手套、褪色的照片、爱慕者的留言……",
-            "description": "一篇被揉成一团的诗文——足有十二页长——被塞进了一只没人要的鞋里。不是情诗。我基本可以肯定不是。但当我读这首诗时，我的呼吸逐渐急促，不知是不是忆起了某些已被我遗失的东西。",
+            "startdescription": "有上百名舞者曾穿行於這間更衣室。人們時不時會發現他們留下的痕跡，如同片片零落的花瓣：落單的手套、褪色的照片、愛慕者的留言……",
+            "description": "一篇被揉成一團的詩文——足有十二頁長——被塞進了一隻沒人要的鞋裡。不是情詩。我基本可以肯定不是。但當我讀這首詩時，我的呼吸逐漸急促，不知是不是憶起了某些已被我遺失的東西。",
             "effects": {
                 "dancerlegacy_plotitem_a": 1
             },
@@ -15,17 +15,17 @@
         {
             "id": "legacydancer_study_plotitema_heart",
             "actionId": "study",
-            "label": "把破解揉皱的诗文视作一个现实中的挑战",
+            "label": "把破解揉皺的詩文視作一個現實中的挑戰",
             "requirements": {
                 "dancerlegacy_plotitem_a": 1,
                 "heart": 1
             },
-            "startdescription": "这是不是某种密文？里面是否含有指向某种不同寻常的舞步的线索？",
+            "startdescription": "這是不是某種密文？裡面是否含有指向某種不同尋常的舞步的線索？",
             "effects": {
                 "vitality": 2,
                 "dancerlegacy_plotitem_a": -1
             },
-            "description": "方向逐渐明朗。显然，里面记载了舞步——我开始有所觉察——这舞步终于某处——某个潜伏在醒时生活之下的地方。那个地方的我和这儿的不一样。我活动着肩膀：为何我感觉我身上的皮肤和我不太配套？",
+            "description": "方向逐漸明朗。顯然，裡面記載了舞步——我開始有所覺察——這舞步終於某處——某個潛伏在醒時生活之下的地方。那個地方的我和這兒的不一樣。我活動著肩膀：為何我感覺我身上的皮膚和我不太配套？",
             "alt": [
                 {
                     "id": "legacydancer_opendream_heart",
@@ -39,13 +39,13 @@
         {
             "id": "legacydancer_study_plotitema_moth",
             "actionId": "study",
-            "label": "把破解揉皱的诗文视作一个梦境中的挑战",
+            "label": "把破解揉皺的詩文視作一個夢境中的挑戰",
             "requirements": {
                 "dancerlegacy_plotitem_a": 1,
                 "moth": 1
             },
-            "startdescription": "我觉得我梦到过一次类似的东西，那是一个月光将床单染得斑驳的夜晚——我梦见我的手与人手既似而非，某些不仅是血液的东西在我皮下涌动——那副皮肤也并非我原先的皮肤。若我能重新寻见梦中的事物，会发生什么呢？",
-            "description": "我半睡半醒躺到半夜，确信房间里有什么东西存在。午夜过后片刻，我突然意识到我就是它，而后便心怀感激地沉入了睡眠。",
+            "startdescription": "我覺得我夢到過一次類似的東西，那是一個月光將床單染得斑駁的夜晚——我夢見我的手與人手既似而非，某些不僅是血液的東西在我皮下湧動——那副皮膚也並非我原先的皮膚。若我能重新尋見夢中的事物，會發生什麼呢？",
+            "description": "我半睡半醒躺到半夜，確信房間裡有什麼東西存在。午夜過後片刻，我突然意識到我就是它，而後便心懷感激地沉入了睡眠。",
             "effects": {
                 "glimmering": 2,
                 "dancerlegacy_plotitem_a": -1
@@ -63,9 +63,9 @@
         {
             "id": "legacydancer_opendream_heart",
             "actionId": "dream",
-            "label": "关于另一个自己的梦境",
-            "startdescription": "梦中，我渐渐明白，此舞既非一人的独舞，也非与另一人的合舞。这是一支与人偶合跳的舞蹈。",
-            "description": "我已经和布娃娃一起践行过这种舞步了，但感觉不太对劲。当我像剥皮一样撕下娃娃表面的布料时，我感觉松了一口气，然而随后，可想而知，娃娃散架了……哪里有问题——问题出在人偶娃娃，或这个世界，又或者在我身上。",
+            "label": "關於另一個自己的夢境",
+            "startdescription": "夢中，我漸漸明白，此舞既非一人的獨舞，也非與另一人的合舞。這是一支與人偶合跳的舞蹈。",
+            "description": "我已經和布娃娃一起踐行過這種舞步了，但感覺不太對勁。當我像剝皮一樣撕下娃娃表面的布料時，我感覺鬆了一口氣，然而隨後，可想而知，娃娃散架了……哪裡有問題——問題出在人偶娃娃，或這個世界，又或者在我身上。",
             "effects": {
                 "ascensionchangea": 1,
                 "dancerlegacy_plotitem_a": -1
@@ -89,7 +89,7 @@
         {
             "id": "L_desire_addhearttrack",
             "actionId": "dream",
-            "label": "关于另一个自己的梦境",
+            "label": "關於另一個自己的夢境",
             "mutations": [
                 {
                     "filterOnAspectId": "desire",
@@ -101,14 +101,14 @@
         },
         {
             "id": "legacydancer_opendream_moth",
-            "label": "关于更远久的自己的梦境",
+            "label": "關於更遠久的自己的夢境",
             "actionId": "dream",
-            "startdescription": "今晚我会在睡前剪下自己一缕头发。诗文里是这样写的。喀嚓，喀嚓。",
+            "startdescription": "今晚我會在睡前剪下自己一縷頭髮。詩文裡是這樣寫的。喀嚓，喀嚓。",
             "effects": {
                 "ascensionchangea": 1,
                 "dancerlegacy_plotitem_a": -1
             },
-            "description": "我梦到第一块大陆中心一片广大的林地，我们穿行于树间，先亮，后暗，再又亮，先上，后下，最后冲入烈火。我梦到我们曾是人以外的什么东西——或者那东西曾是我们。或许我们曾是有翅的生物。有时候，比如现在，我的肩胛骨会发痒。",
+            "description": "我夢到第一塊大陸中心一片廣大的林地，我們穿行於樹間，先亮，後暗，再又亮，先上，後下，最後衝入烈火。我夢到我們曾是人以外的什麼東西——或者那東西曾是我們。或許我們曾是有翅的生物。有時候，比如現在，我的肩胛骨會發癢。",
             "comments": "opened from studying about first plot object with passion",
             "alt": [
                 {
@@ -128,7 +128,7 @@
         {
             "id": "L_desire_addmothtrack",
             "actionId": "dream",
-            "label": "关于更远久的自己的梦境",
+            "label": "關於更遠久的自己的夢境",
             "mutations": [
                 {
                     "filterOnAspectId": "desire",
@@ -142,8 +142,8 @@
             "id": "legacydancer_openexplore_heart",
             "actionId": "explore",
             "label": "新舞伴",
-            "startdescription": "我午后有时会去逛市集。我跳了诗文里的舞，也毁了我的布娃娃。那里肯定有卖更好的娃娃，这样我就能再次踏起舞步了。",
-            "description": "我找到了！当做破烂卖的，只要半先令。尽管不完全符合，却也不远了。它的外观、伤疤、四肢的形状都是。",
+            "startdescription": "我午後有時會去逛市集。我跳了詩文裡的舞，也毀了我的布娃娃。那裡肯定有賣更好的娃娃，這樣我就能再次踏起舞步了。",
+            "description": "我找到了！當做破爛賣的，只要半先令。儘管不完全符合，卻也不遠了。它的外觀、傷疤、四肢的形狀都是。",
             "effects": {
                 "reason": 1,
                 "toolheartb": 1
@@ -154,9 +154,9 @@
         {
             "id": "legacydancer_openexplore_moth",
             "actionId": "explore",
-            "label": "旧舞伴",
-            "startdescription": "月亮出来时，我翻过围栏进入上锁的公园，在各个角落的树枝下翻找。我不知道自己为何这样做，至少现在还不。",
-            "description": "我发现了一只掉在泥里的包裹。我一下就明白了那是我要寻找的东西。也许我注定该拥有它，也许我取走它属于偷盗，就像有人偷盗被遗弃的婴儿那样。在那个飞翔林地的梦中，我和略似它的东西共舞过。",
+            "label": "舊舞伴",
+            "startdescription": "月亮出來時，我翻過圍欄進入上鎖的公園，在各個角落的樹枝下翻找。我不知道自己為何這樣做，至少現在還不。",
+            "description": "我發現了一隻掉在泥裡的包裹。我一下就明白了那是我要尋找的東西。也許我注定該擁有它，也許我取走它屬於偷盜，就像有人偷盜被遺棄的嬰兒那樣。在那個飛翔林地的夢中，我和略似它的東西共舞過。",
             "effects": {
                 "reason": 1,
                 "toolmothb": 1
@@ -167,9 +167,9 @@
         {
             "id": "legacydancer_opentalk",
             "actionId": "talk",
-            "label": "我们要说的话题，与说话的时机",
+            "label": "我們要說的話題，與說話的時機",
             "comments": "opened from first audience interaction",
-            "startdescription": "我是否与部分看我的人有共通之处？",
+            "startdescription": "我是否與部分看我的人有共通之處？",
             "effects": {
                 "fleeting": 1
             },
@@ -177,7 +177,7 @@
         },
         {
             "id": "worklegacydancerjob_pleadforreinstatement",
-            "label": "在欢腾剧院恳求复职",
+            "label": "在歡騰劇院懇求復職",
             "actionId": "work",
             "requirements": {
                 "legacydancerjob_suspended": 1,
@@ -186,14 +186,14 @@
             "aspects": {
                 "plead": 1
             },
-            "startdescription": "我得要回这份工作。我会跟他们说我下次一定改，或许他们会理解。",
-            "description": "我不求人；我这不是求。",
+            "startdescription": "我得要回這份工作。我會跟他們說我下次一定改，或許他們會理解。",
+            "description": "我不求人；我這不是求。",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "worklegacydancerjob",
-            "label": "在欢腾剧院表演",
+            "label": "在歡騰劇院表演",
             "actionId": "work",
             "requirements": {
                 "legacydancerjob": 1,
@@ -212,7 +212,7 @@
                     "chance": 70
                 }
             ],
-            "startdescription": "舞台就在前方，闷热、洁净、开阔而又明亮。只要我该走步走步，该跳舞跳舞，完成他们的要求，他们就会付钱给我。",
+            "startdescription": "舞台就在前方，悶熱、潔淨、開闊而又明亮。只要我該走步走步，該跳舞跳舞，完成他們的要求，他們就會付錢給我。",
             "description": ".",
             "effects": {
                 "funds": 1
@@ -223,14 +223,14 @@
         {
             "id": "worklegacydancerjob_more",
             "actionId": "work",
-            "label": "欢腾剧院里的机会",
-            "startdescription": "今晚我嗅到了机会。今晚我能吸引众人的目光，只要我不再拘束，只要我全身心投入。",
-            "description": "我不为所动。我该走步走步，该跳舞跳舞，完成了他们的要求，他们会付钱给我。",
+            "label": "歡騰劇院裡的機會",
+            "startdescription": "今晚我嗅到了機會。今晚我能吸引眾人的目光，只要我不再拘束，只要我全身心投入。",
+            "description": "我不為所動。我該走步走步，該跳舞跳舞，完成了他們的要求，他們會付錢給我。",
             "comments": "the better outcomes require heart or moth 2: enough for abilities or for restlessness, too much for fatigue",
             "slots": [
                 {
                     "id": "more",
-                    "label": "额外的努力",
+                    "label": "額外的努力",
                     "required": {
                         "ability": 1,
                         "restlessness": 1
@@ -268,9 +268,9 @@
                 "potentialbenefactorm": 1,
                 "heart": 2
             },
-            "label": "潜在的金主",
+            "label": "潛在的金主",
             "startdescription": ".",
-            "description": "一位先生说服了舞台监督，让他安排与我后台见面。此人彬彬有礼，对我的工作能力推崇倍至，还送给我一份礼物。他希望我们能成为朋友。",
+            "description": "一位先生說服了舞台監督，讓他安排與我後台見面。此人彬彬有禮，對我的工作能力推崇倍至，還送給我一份禮物。他希望我們能成為朋友。",
             "effects": {
                 "benefactorm": 1,
                 "funds": 2,
@@ -298,9 +298,9 @@
                 "potentialbenefactorf": 1,
                 "heart": 2
             },
-            "label": "潜在的金主",
+            "label": "潛在的金主",
             "startdescription": "",
-            "description": "一位女士安排我们在街对面光鲜富丽的咖啡馆见面。此人十分客气，聚精会神地倾听我说的一切，还送给我一份礼物。她希望我们能成为朋友。",
+            "description": "一位女士安排我們在街對面光鮮富麗的咖啡館見面。此人十分客氣，聚精會神地傾聽我說的一切，還送給我一份禮物。她希望我們能成為朋友。",
             "effects": {
                 "benefactorf": 1,
                 "funds": 2,
@@ -328,9 +328,9 @@
                 "potentialecdysiast": 1,
                 "moth": 2
             },
-            "label": "来自爱慕者的讯息？",
+            "label": "來自愛慕者的訊息？",
             "startdescription": ".",
-            "description": "一封由专人递送的信，收件人是我。散发着浓烈的香烟和丁香的味道。信上写道：“如果你想和人谈谈你的梦，就来找我。等你准备好再打电话。”上面还有电话号码和一个名字：苏洛恰那。",
+            "description": "一封由專人遞送的信，收件人是我。散發著濃烈的香煙和丁香的味道。信上寫道：“如果你想和人談談你的夢，就來找我。等你準備好再打電話。”上面還有電話號碼和一個名字：蘇洛恰那。",
             "effects": {
                 "sulochana": 1,
                 "funds": 1,
@@ -357,9 +357,9 @@
             "requirements": {
                 "heart": 2
             },
-            "label": "我是一副柔顺的血肉皮囊。",
-            "startdescription": "今晚，他们会注意到的。",
-            "description": "我感到他们的目光聚在我身上。之后，我收到了一位爱慕者送的礼物——以我的口味来说过分花哨了，但我可以到二手市场卖掉它。",
+            "label": "我是一副柔順的血肉皮囊。",
+            "startdescription": "今晚，他們會注意到的。",
+            "description": "我感到他們的目光聚在我身上。之後，我收到了一位愛慕者送的禮物——以我的口味來說過分花哨了，但我可以到二手市場賣掉它。",
             "effects": {
                 "funds": 1,
                 "influence": -1
@@ -371,9 +371,9 @@
             "requirements": {
                 "moth": 2
             },
-            "label": "我不只是一副柔顺的血肉皮囊。",
-            "startdescription": "今晚，他们会注意到的。",
-            "description": "我感到他们的目光聚在我身上。之后，我收到一位爱慕者送的礼物——礼物稍嫌私密，令我有点不适，不过我可以在二手市场卖掉它。",
+            "label": "我不只是一副柔順的血肉皮囊。",
+            "startdescription": "今晚，他們會注意到的。",
+            "description": "我感到他們的目光聚在我身上。之後，我收到一位愛慕者送的禮物——禮物稍嫌私密，令我有點不適，不過我可以在二手市場賣掉它。",
             "effects": {
                 "funds": 1,
                 "influence": -1
@@ -381,7 +381,7 @@
         },
         {
             "id": "workdancerjobbenefactor",
-            "label": "为金主表演",
+            "label": "為金主表演",
             "actionId": "work",
             "requirements": {
                 "benefactor": 1,
@@ -432,7 +432,7 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "要是我愿意为少量精挑细选的观众进行私下演出，我的金主会很高兴。他会在演出后请我吃晚餐，当然还会用够分量的礼物回报我付出的时间。",
+            "startdescription": "要是我願意為少量精挑細選的觀眾進行私下演出，我的金主會很高興。他會在演出後請我吃晚餐，當然還會用夠分量的禮物回報我付出的時間。",
             "description": ".",
             "warmup": 45,
             "craftable": true
@@ -441,7 +441,7 @@
             "id": "L_workdancerjobbenefactor_more_health",
             "actionId": "work",
             "label": "金主：活力四射",
-            "startdescription": "今晚，我的金主充满活力！我也应该如是！",
+            "startdescription": "今晚，我的金主充滿活力！我也應該如是！",
             "description": ".",
             "slots": [
                 {
@@ -467,13 +467,13 @@
         {
             "id": "L_workdancerjobbenefactor_more_passion",
             "actionId": "work",
-            "label": "金主：花样百出",
-            "startdescription": "今晚，我的金主将为我的花样百出，热情奔放，青春朝气而陶醉。激情燃烧。",
+            "label": "金主：花樣百出",
+            "startdescription": "今晚，我的金主將為我的花樣百出，熱情奔放，青春朝氣而陶醉。激情燃燒。",
             "description": ".",
             "slots": [
                 {
                     "id": "vivacity",
-                    "label": "朝气",
+                    "label": "朝氣",
                     "required": {
                         "passion": 1
                     }
@@ -494,13 +494,13 @@
         {
             "id": "L_workdancerjobbenefactor_more_funds",
             "actionId": "work",
-            "label": "金主：焕然一新",
-            "startdescription": "今晚，我的金主想看我穿点新东西。我应该快些去买……",
+            "label": "金主：煥然一新",
+            "startdescription": "今晚，我的金主想看我穿點新東西。我應該快些去買……",
             "description": ".",
             "slots": [
                 {
                     "id": "funds",
-                    "label": "资金",
+                    "label": "資金",
                     "required": {
                         "funds": 1
                     }
@@ -522,11 +522,11 @@
             "id": "L_workdancerjobbenefactor_more_reason",
             "actionId": "work",
             "label": "金主：精神交流",
-            "startdescription": "今晚，我的金主意在谈天。",
+            "startdescription": "今晚，我的金主意在談天。",
             "slots": [
                 {
                     "id": "L_conversation",
-                    "label": "谈话",
+                    "label": "談話",
                     "required": {
                         "reason": 1
                     }
@@ -551,7 +551,7 @@
                 "health": 1
             },
             "label": "金主被我所吸引",
-            "description": "表演结束后，我面色通红满身汗水，不过我的金主似乎喜欢这样。他送给我一个闪闪发亮的小玩意。",
+            "description": "表演結束後，我面色通紅滿身汗水，不過我的金主似乎喜歡這樣。他送給我一個閃閃發亮的小玩意。",
             "mutations": [
                 {
                     "filterOnAspectId": "benefactor",
@@ -570,8 +570,8 @@
             "requirements": {
                 "passion": 1
             },
-            "label": "金主感到高兴",
-            "startdescription": "所有客人都发自内心鼓掌欢呼！我的表演完成得很好。之后，我的金主态度恭敬而又含情脉脉。我得到了今夜的纪念品——价值还相当昂贵。",
+            "label": "金主感到高興",
+            "startdescription": "所有客人都發自內心鼓掌歡呼！我的表演完成得很好。之後，我的金主態度恭敬而又含情脈脈。我得到了今夜的紀念品——價值還相當昂貴。",
             "mutations": [
                 {
                     "filterOnAspectId": "benefactor",
@@ -590,8 +590,8 @@
             "requirements": {
                 "funds": 1
             },
-            "label": "金主对我颇有好感",
-            "description": "我的演出服装挑得很好。我的金主冲我毫不吝啬地抛洒赞词，还有礼物。",
+            "label": "金主對我頗有好感",
+            "description": "我的演出服裝挑得很好。我的金主衝我毫不吝嗇地拋灑讚詞，還有禮物。",
             "mutations": [
                 {
                     "filterOnAspectId": "benefactor",
@@ -612,7 +612,7 @@
                 "reason": 1
             },
             "label": "金主被我所吸引",
-            "description": "演出比平时要短，但是我与其他客人，以及之后与我的金主一对一地，聊得很好。我走时怀揣着一份阔绰的礼物。",
+            "description": "演出比平時要短，但是我與其他客人，以及之後與我的金主一對一地，聊得很好。我走時懷揣著一份闊綽的禮物。",
             "mutations": [
                 {
                     "filterOnAspectId": "benefactor",
@@ -630,7 +630,7 @@
             "actionId": "work",
             "label": "金主被我所吸引",
             "startdescription": ".",
-            "description": "今晚，我又舞又笑，对我的金主施展魅力，与我们的客人谈笑晏晏。每个人都很开心。而我也收获了点东西——足够我好一段时间的花销。",
+            "description": "今晚，我又舞又笑，對我的金主施展魅力，與我們的客人談笑晏晏。每個人都很開心。而我也收穫了點東西——足夠我好一段時間的花銷。",
             "mutations": [
                 {
                     "filterOnAspectId": "benefactor",
@@ -647,7 +647,7 @@
             "id": "L_workdancerjobbenefactor_bored",
             "actionId": "work",
             "label": "金主焦躁不安",
-            "description": "今晚不知是什么原因，尽管我已使出浑身解数，我的金主似乎对我并不感兴趣。他确有与我彬彬有礼地告别，但是他这次例行的礼物似乎是临时对付的。",
+            "description": "今晚不知是什麼原因，儘管我已使出渾身解數，我的金主似乎對我並不感興趣。他確有與我彬彬有禮地告別，但是他這次例行的禮物似乎是臨時對付的。",
             "mutations": [
                 {
                     "filterOnAspectId": "benefactor",
@@ -669,9 +669,9 @@
             "requirements": {
                 "boredom": 7
             },
-            "label": "金主厌倦我了？",
-            "startdescription": "我已多日没有金主的消息……",
-            "description": "我打电话过去，被告知这会儿没人约见访客。对方再三向我保证确实如此。最终，我收到了一份不大不小的礼物，附带着一张措辞礼貌的便签，祝我前程似锦。没有落款。或许这也是“没人“给我寄送的礼物吧。",
+            "label": "金主厭倦我了？",
+            "startdescription": "我已多日沒有金主的消息……",
+            "description": "我打電話過去，被告知這會兒沒人約見訪客。對方再三向我保證確實如此。最終，我收到了一份不大不小的禮物，附帶著一張措辭禮貌的便簽，祝我前程似錦。沒有落款。或許這也是“沒人“給我寄送的禮物吧。",
             "aspects": {
                 "rejection": 1
             },
@@ -686,8 +686,8 @@
                 "besotment": 10,
                 "benefactor_proposal": -1
             },
-            "label": "金主快要向我求婚了吗？",
-            "startdescription": "今晚的他散发出不动声色的兴奋劲。",
+            "label": "金主快要向我求婚了嗎？",
+            "startdescription": "今晚的他散發出不動聲色的興奮勁。",
             "description": ".",
             "effects": {
                 "funds": 5,
@@ -704,8 +704,8 @@
                 "besotment": 7,
                 "benefactor_proposal": -1
             },
-            "label": "金主快要向我求婚了吗？",
-            "startdescription": "今晚的他散发出不动声色的兴奋劲。",
+            "label": "金主快要向我求婚了嗎？",
+            "startdescription": "今晚的他散發出不動聲色的興奮勁。",
             "description": ".",
             "effects": {
                 "funds": 5,
@@ -725,15 +725,15 @@
             "slots": [
                 {
                     "id": "Yes",
-                    "label": "我愿意",
+                    "label": "我願意",
                     "required": {
                         "passion": 1
                     }
                 }
             ],
             "label": "收到求婚",
-            "startdescription": "我收到了结婚之邀——通过婚姻进入贵族名门之邀。附带平和、富裕、安逸，以及金主对我余生的深情陪伴。我必须要真诚。如果我无法自发地真诚，我也得做出真诚的样子来。",
-            "description": "金主仍在等待回复，脸色阴沉。",
+            "startdescription": "我收到了結婚之邀——通過婚姻進入貴族名門之邀。附帶平和、富裕、安逸，以及金主對我餘生的深情陪伴。我必須要真誠。如果我無法自發地真誠，我也得做出真誠的樣子來。",
+            "description": "金主仍在等待回復，臉色陰沉。",
             "alt": [
                 {
                     "id": "talk_benefactormarrycomplete",
@@ -746,12 +746,12 @@
         {
             "id": "talk_benefactormarrycomplete",
             "actionId": "talk",
-            "label": "“我愿意！”",
+            "label": "“我願意！”",
             "requirements": {
                 "benefactor_proposal": 1,
                 "passion": 1
             },
-            "startdescription": "现在我将离开此地，进入生命的另一个阶段。进入一个幸福的阶段，可以想见——",
+            "startdescription": "現在我將離開此地，進入生命的另一個階段。進入一個幸福的階段，可以想見——",
             "ending": "workvictorymarriage"
         }
     ]

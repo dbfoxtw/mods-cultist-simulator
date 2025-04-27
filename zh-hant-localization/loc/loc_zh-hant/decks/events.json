@@ -2,8 +2,8 @@
     "decks": [
         {
             "id": "seasonevents",
-            "label": "时节",
-            "description": "随着时间流逝，会有意想不到的事发生。",
+            "label": "時節",
+            "description": "隨著時間流逝，會有意想不到的事發生。",
             "spec": [
                 "seasonsickness",
                 "seasonsuspicion",
@@ -22,8 +22,8 @@
         },
         {
             "id": "cabaretevents",
-            "label": "俱乐部一夜",
-            "description": "每个夜晚都会带来不同的愉悦，但是，偶尔会有险情发生。",
+            "label": "俱樂部一夜",
+            "description": "每個夜晚都會帶來不同的愉悅，但是，偶爾會有險情發生。",
             "spec": [
                 "contentment",
                 "contentment",
@@ -42,8 +42,8 @@
         },
         {
             "id": "roserewards",
-            "label": "爱情的回报",
-            "description": "那时，此时，何时？",
+            "label": "愛情的回報",
+            "description": "那時，此時，何時？",
             "spec": [
                 "memorybittersweet",
                 "memorypleasant",
@@ -54,8 +54,8 @@
         },
         {
             "id": "dreamreasonresults",
-            "label": "梦境的腹地",
-            "description": "睡眠通常能歇息身体，平和心境；然而，总有例外——是了，总有例外。",
+            "label": "夢境的腹地",
+            "description": "睡眠通常能歇息身體，平和心境；然而，總有例外——是了，總有例外。",
             "spec": [
                 "dread",
                 "fascination",
@@ -68,8 +68,8 @@
         },
         {
             "id": "paintingresultsbasic",
-            "label": "艺术的回报",
-            "description": "作画能带来安逸，不过有些时候，作画也能让人产生全新的见地。",
+            "label": "藝術的回報",
+            "description": "作畫能帶來安逸，不過有些時候，作畫也能讓人產生全新的見地。",
             "spec": [
                 "contentment",
                 "contentment",
@@ -82,8 +82,8 @@
         },
         {
             "id": "paintingresults",
-            "label": "艺术的回报",
-            "description": "作画通常能带来安逸。不过，有时候，我的作品也会引人关注。",
+            "label": "藝術的回報",
+            "description": "作畫通常能帶來安逸。不過，有時候，我的作品也會引人關注。",
             "spec": [
                 "glimmering",
                 "glimmering",
@@ -109,7 +109,7 @@
         },
         {
             "id": "paintingresultsreputation",
-            "label": "名誉的回报",
+            "label": "名譽的回報",
             "description": "名能生利。",
             "spec": [
                 "overexposure",
@@ -137,8 +137,8 @@
         },
         {
             "id": "ecdysisrewards",
-            "label": "结束时的奉礼",
-            "description": "俱乐部有保底报酬，但是有时观众也会献出自己所有。",
+            "label": "結束時的奉禮",
+            "description": "俱樂部有保底報酬，但是有時觀眾也會獻出自己所有。",
             "spec": [
                 "funds",
                 "funds",
@@ -164,8 +164,8 @@
         },
         {
             "id": "robberyrewards",
-            "label": "罪业的报偿",
-            "description": "我的手下经常能为我带回琐碎的宝物；有时毫无价值；然而，极少情况下，会是奇特的物什。",
+            "label": "罪業的報償",
+            "description": "我的手下經常能為我帶回瑣碎的寶物；有時毫無價值；然而，極少情況下，會是奇特的物什。",
             "spec": [
                 "funds",
                 "funds",
@@ -217,7 +217,7 @@
         {
             "id": "exploreevents",
             "label": "探索首都",
-            "description": "搜寻城市能够发现……",
+            "description": "搜尋城市能夠發現……",
             "spec": [
                 "daycriminals",
                 "dayplaces",
@@ -228,8 +228,8 @@
         },
         {
             "id": "schemeevents",
-            "label": "阴谋诡计",
-            "description": "我的对手密谋着……",
+            "label": "陰謀詭計",
+            "description": "我的對手密謀著……",
             "spec": [
                 "schememurder",
                 "schememurder",
@@ -246,8 +246,8 @@
         },
         {
             "id": "talkevents",
-            "label": "午夜聚会",
-            "description": "这里能遇见新的信徒，盟友或者敌人。",
+            "label": "午夜聚會",
+            "description": "這裡能遇見新的信徒，盟友或者敵人。",
             "spec": [
                 "dayacquaintances",
                 "dayacquaintances",
@@ -263,8 +263,8 @@
         },
         {
             "id": "citysecrets",
-            "label": "城市的隐秘之处",
-            "description": "这样的地方通常很容易被忽略。",
+            "label": "城市的隱秘之處",
+            "description": "這樣的地方通常很容易被忽略。",
             "spec": [
                 "locationauctionhouse",
                 "locationcabaret",
@@ -275,8 +275,8 @@
         },
         {
             "id": "streetsstrangefinds",
-            "label": "呈现异相的街巷",
-            "description": "洞见真知，谋求影响之地。",
+            "label": "呈現異相的街巷",
+            "description": "洞見真知，謀求影響之地。",
             "spec": [
                 "influenceknockc",
                 "influenceknockc",
@@ -290,8 +290,8 @@
         },
         {
             "id": "troublemakerconversations",
-            "label": "与捣乱分子对话",
-            "description": "我会得知什么呢？",
+            "label": "與搗亂分子對話",
+            "description": "我會得知什麼呢？",
             "spec": [
                 "dread",
                 "dread",
@@ -307,8 +307,8 @@
         },
         {
             "id": "forgelong",
-            "label": "大功业之敌",
-            "description": "我们的敌人选择了常见的攻击方式，直到他实施计划之前，我们永远无法知晓他的计划细节，但是我们或许可以占卜出他大致的动向。",
+            "label": "大功業之敵",
+            "description": "我們的敵人選擇了常見的攻擊方式，直到他實施計劃之前，我們永遠無法知曉他的計劃細節，但是我們或許可以占卜出他大致的動向。",
             "spec": [
                 "julian_unknown",
                 "welland_unknown",
@@ -318,8 +318,8 @@
         },
         {
             "id": "graillong",
-            "label": "大功业之敌",
-            "description": "我们的敌人选择了常见的攻击方式，直到他实施计划之前，我们永远无法知晓他的计划细节，但是我们或许可以占卜出他大致的动向。",
+            "label": "大功業之敵",
+            "description": "我們的敵人選擇了常見的攻擊方式，直到他實施計劃之前，我們永遠無法知曉他的計劃細節，但是我們或許可以占卜出他大致的動向。",
             "spec": [
                 "tryphon_unknown",
                 "tryphon_unknown",
@@ -329,8 +329,8 @@
         },
         {
             "id": "lanternlong",
-            "label": "大功业之敌",
-            "description": "我们的敌人选择了常见的攻击方式，直到他实施计划之前，我们永远无法知晓他的计划细节，但是我们或许可以占卜出他大致的动向。",
+            "label": "大功業之敵",
+            "description": "我們的敵人選擇了常見的攻擊方式，直到他實施計劃之前，我們永遠無法知曉他的計劃細節，但是我們或許可以占卜出他大致的動向。",
             "spec": [
                 "julian_unknown",
                 "diarist_unknown",
@@ -340,8 +340,8 @@
         },
         {
             "id": "long.strategies",
-            "label": "大功业之敌",
-            "description": "我们的敌人选择了常见的攻击方式，直到他实施计划之前，我们永远无法知晓他的计划细节，但是我们或许可以占卜出他大致的动向。",
+            "label": "大功業之敵",
+            "description": "我們的敵人選擇了常見的攻擊方式，直到他實施計劃之前，我們永遠無法知曉他的計劃細節，但是我們或許可以占卜出他大致的動向。",
             "spec": [
                 "strategy.assault.concealed",
                 "strategy.intrigue.concealed",
@@ -353,8 +353,8 @@
         },
         {
             "id": "long.strategies.preference.assault",
-            "label": "大功业之敌",
-            "description": "我们的敌人选择了常见的攻击方式，直到他实施计划之前，我们永远无法知晓他的计划细节，但是我们或许可以占卜出他大致的动向。",
+            "label": "大功業之敵",
+            "description": "我們的敵人選擇了常見的攻擊方式，直到他實施計劃之前，我們永遠無法知曉他的計劃細節，但是我們或許可以占卜出他大致的動向。",
             "spec": [
                 "strategy.assault.concealed",
                 "strategy.assault.concealed",
@@ -367,8 +367,8 @@
         },
         {
             "id": "long.strategies.preference.intrigue",
-            "label": "大功业之敌",
-            "description": "我们的敌人选择了常见的攻击方式，直到他实施计划之前，我们永远无法知晓他的计划细节，但是我们或许可以占卜出他大致的动向。",
+            "label": "大功業之敵",
+            "description": "我們的敵人選擇了常見的攻擊方式，直到他實施計劃之前，我們永遠無法知曉他的計劃細節，但是我們或許可以占卜出他大致的動向。",
             "spec": [
                 "strategy.assault.concealed",
                 "strategy.intrigue.concealed",
@@ -381,8 +381,8 @@
         },
         {
             "id": "long.strategies.preference.dreamwork",
-            "label": "大功业之敌",
-            "description": "我们的敌人选择了常见的攻击方式，直到他实施计划之前，我们永远无法知晓他的计划细节，但是我们或许可以占卜出他大致的动向。",
+            "label": "大功業之敵",
+            "description": "我們的敵人選擇了常見的攻擊方式，直到他實施計劃之前，我們永遠無法知曉他的計劃細節，但是我們或許可以占卜出他大致的動向。",
             "spec": [
                 "strategy.assault.concealed",
                 "strategy.intrigue.concealed",
@@ -395,8 +395,8 @@
         },
         {
             "id": "priest.repevent",
-            "label": "会众们的激情",
-            "description": "将带来什么结果？",
+            "label": "會眾們的激情",
+            "description": "將帶來什麼結果？",
             "spec": [
                 "notoriety",
                 "notoriety",
@@ -415,8 +415,8 @@
         },
         {
             "id": "ghoul.memory",
-            "label": "种种回忆",
-            "description": "我将记住被其他所有人忘却的。",
+            "label": "種種回憶",
+            "description": "我將記住被其他所有人忘卻的。",
             "spec": [
                 "memory.unexpected",
                 "memory.joyful",

@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "studyknocklore",
-            "label": "研究开启的密传",
+            "label": "研究開啟的密傳",
             "actionId": "study",
             "requirements": {
                 "lore": 2,
@@ -17,14 +17,14 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "存在拆解事物的咒语，其词语间的空隙与实际的音节拥有相同效力。拆开某物，便知其本质。[与<b>启</b>一同研究的密传都将变为<b>启</b>。]",
+            "startdescription": "存在拆解事物的咒語，其詞語間的空隙與實際的音節擁有相同效力。拆開某物，便知其本質。[與<b>啟</b>一同研究的密傳都將變為<b>啟</b>。]",
             "description": ".",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "studyupgradelore_edge",
-            "label": "研究利刃的密传",
+            "label": "研究利刃的密傳",
             "actionId": "study",
             "requirements": {
                 "lore": 2,
@@ -42,14 +42,14 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "一切重大抗争皆以死亡告终。利刃的密传掌握着抗争的经验。",
+            "startdescription": "一切重大抗爭皆以死亡告終。利刃的密傳掌握著抗爭的經驗。",
             "description": ".",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "studysubvertlore_edgetowinter",
-            "label": "拗转利刃的密传",
+            "label": "拗轉利刃的密傳",
             "actionId": "study",
             "requirements": {
                 "lore": 2,
@@ -65,14 +65,14 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "万事皆有终结。我将思忖耐心胜于蛮力的道理。[将<b>刃</b>拗转为<b>冬</b>之密传。]",
+            "startdescription": "萬事皆有終結。我將思忖耐心勝於蠻力的道理。[將<b>刃</b>拗轉為<b>冬</b>之密傳。]",
             "description": ".",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "studyforgelore",
-            "label": "研究燃烧的密传",
+            "label": "研究燃燒的密傳",
             "actionId": "study",
             "requirements": {
                 "lore": 2,
@@ -90,13 +90,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "极少数人知晓铁匠与杀人犯会吟诵相同的祷辞。我要仔细调查那些祷辞。",
+            "startdescription": "極少數人知曉鐵匠與殺人犯會吟誦相同的禱辭。我要仔細調查那些禱辭。",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "studysubvertlore_forgetoedge",
-            "label": "拗转燃烧的密传",
+            "label": "拗轉燃燒的密傳",
             "actionId": "study",
             "requirements": {
                 "lore": 2,
@@ -112,13 +112,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "名为狮子匠的司辰打碎其剑，以此逃脱其主的支配。只要拥有足够的武力，万事万物皆可被战胜。[将<b>铸</b>拗转为<b>刃</b>之密传。]",
+            "startdescription": "名為獅子匠的司辰打碎其劍，以此逃脫其主的支配。只要擁有足夠的武力，萬事萬物皆可被戰勝。[將<b>鑄</b>拗轉為<b>刃</b>之密傳。]",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "studygraillore",
-            "label": "研究甘美的密传",
+            "label": "研究甘美的密傳",
             "actionId": "study",
             "requirements": {
                 "lore": 2,
@@ -136,13 +136,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "某些言辞会乞求人们将其说出口。花费时间来考虑这些乞求还挺诱人的——不仅诱人，或许也有用。",
+            "startdescription": "某些言辭會乞求人們將其說出口。花費時間來考慮這些乞求還挺誘人的——不僅誘人，或許也有用。",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "studysubvertlore_grailtomoth",
-            "label": "拗转甘美的密传",
+            "label": "拗轉甘美的密傳",
             "actionId": "study",
             "requirements": {
                 "lore": 2,
@@ -158,13 +158,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "据说杯诞生于第一场献祭。然而蛾知道真相并非如此。[将<b>杯</b>拗转为<b>蛾</b>之密传。]",
+            "startdescription": "據說杯誕生於第一場獻祭。然而蛾知道真相併非如此。[將<b>杯</b>拗轉為<b>蛾</b>之密傳。]",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "studyheartlore",
-            "label": "研究不休的密传",
+            "label": "研究不休的密傳",
             "actionId": "study",
             "requirements": {
                 "lore": 2,
@@ -182,13 +182,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "所有解剖家、舞蹈家和萨满都要学的一课。",
+            "startdescription": "所有解剖家、舞蹈家和薩滿都要學的一課。",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "studysubvertlore_hearttograil",
-            "label": "拗转不休的密传",
+            "label": "拗轉不休的密傳",
             "actionId": "study",
             "requirements": {
                 "lore": 2,
@@ -204,13 +204,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "不休之物终将屈从诱惑。[将<b>心</b>拗转为<b>杯</b>之密传。]",
+            "startdescription": "不休之物終將屈從誘惑。[將<b>心</b>拗轉為<b>杯</b>之密傳。]",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "studylanternlore",
-            "label": "研究辉煌的密传",
+            "label": "研究輝煌的密傳",
             "actionId": "study",
             "requirements": {
                 "lore": 2,
@@ -228,13 +228,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "无形之术的施行者中流传着一句谚语：“辉光会造访‘无墙的居屋’。”我想了解辉光。",
+            "startdescription": "無形之術的施行者中流傳著一句諺語：“輝光會造訪‘無牆的居屋’。”我想了解輝光。",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "studysubvertlore_lanterntoforge",
-            "label": "拗转辉煌的密传",
+            "label": "拗轉輝煌的密傳",
             "actionId": "study",
             "requirements": {
                 "lore": 2,
@@ -250,13 +250,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "术士朱利安·科赛利声称白日铸炉分裂了太阳。也许他是对的。[将<b>灯</b>拗转为<b>铸</b>之密传。]",
+            "startdescription": "術士朱利安·科賽利聲稱白日鑄爐分裂了太陽。也許他是對的。[將<b>燈</b>拗轉為<b>鑄</b>之密傳。]",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "studymothlore",
-            "label": "研究林地的密传",
+            "label": "研究林地的密傳",
             "actionId": "study",
             "requirements": {
                 "lore": 2,
@@ -274,13 +274,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "当气息于杯中变黑，雾气使肌肤绷紧，树林在冬季行走之际，我们听见这些语句。",
+            "startdescription": "當氣息於杯中變黑，霧氣使肌膚繃緊，樹林在冬季行走之際，我們聽見這些語句。",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "studysubvertlore_mothtolantern",
-            "label": "拗转林地的密传",
+            "label": "拗轉林地的密傳",
             "actionId": "study",
             "requirements": {
                 "lore": 2,
@@ -296,13 +296,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "辉光是一个疑问，飞蛾总以肯定作答。[将<b>蛾</b>拗转为<b>灯</b>之密传。]",
+            "startdescription": "輝光是一個疑問，飛蛾總以肯定作答。[將<b>蛾</b>拗轉為<b>燈</b>之密傳。]",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "studysecrethistorieslore",
-            "label": "研究历史",
+            "label": "研究歷史",
             "actionId": "study",
             "requirements": {
                 "lore": 2,
@@ -317,13 +317,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "历史不像我们一贯所学的的那样明确。我可以通过研究其模糊的边缘学到知识。",
+            "startdescription": "歷史不像我們一貫所學的的那樣明確。我可以通過研究其模糊的邊緣學到知識。",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "studywinterlore",
-            "label": "研究破败的密传",
+            "label": "研究破敗的密傳",
             "actionId": "study",
             "requirements": {
                 "lore": 2,
@@ -340,13 +340,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "这些语句使空气骤冷，血色褪下我的皮肤。",
+            "startdescription": "這些語句使空氣驟冷，血色褪下我的皮膚。",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "subvertwinterlore",
-            "label": "拗转破败的密传",
+            "label": "拗轉破敗的密傳",
             "actionId": "study",
             "requirements": {
                 "lore": 2,
@@ -362,13 +362,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "纵使在雪，在静默中，在没有色彩的纯白中，生命亦不尽休止。[将<b>冬</b>拗转为<b>心</b>之影响。]",
+            "startdescription": "縱使在雪，在靜默中，在沒有色彩的純白中，生命亦不盡休止。[將<b>冬</b>拗轉為<b>心</b>之影響。]",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "studyproject_upgrade_edge",
-            "label": "利刃的密传",
+            "label": "利刃的密傳",
             "actionId": "study",
             "requirements": {
                 "project_upgrade_edge": 1
@@ -380,11 +380,11 @@
             "aspects": {
                 "epiphany": 1
             },
-            "description": "我对利刃的密传更加精通了，这种密传可据其性相称为<b>刃</b>。"
+            "description": "我對利刃的密傳更加精通了，這種密傳可據其性相稱為<b>刃</b>。"
         },
         {
             "id": "studyproject_upgrade_forge",
-            "label": "燃烧的密传",
+            "label": "燃燒的密傳",
             "actionId": "study",
             "requirements": {
                 "project_upgrade_forge": 1
@@ -396,11 +396,11 @@
             "aspects": {
                 "epiphany": 1
             },
-            "description": "我对燃烧的密传更加精通了，这种密传可据其性相称为<b>铸</b>。"
+            "description": "我對燃燒的密傳更加精通了，這種密傳可據其性相稱為<b>鑄</b>。"
         },
         {
             "id": "studyproject_upgrade_grail",
-            "label": "甘美的密传",
+            "label": "甘美的密傳",
             "actionId": "study",
             "requirements": {
                 "project_upgrade_grail": 1
@@ -412,11 +412,11 @@
             "aspects": {
                 "epiphany": 1
             },
-            "description": "我对甘美的密传更加精通了，这种密传可据其性相称为<b>杯</b>。"
+            "description": "我對甘美的密傳更加精通了，這種密傳可據其性相稱為<b>杯</b>。"
         },
         {
             "id": "studyproject_upgrade_heart",
-            "label": "不休的密传",
+            "label": "不休的密傳",
             "actionId": "study",
             "requirements": {
                 "project_upgrade_heart": 1
@@ -428,11 +428,11 @@
             "aspects": {
                 "epiphany": 1
             },
-            "description": "我对不休的密传更加精通了，这种密传可据其性相称为<b>心</b>。"
+            "description": "我對不休的密傳更加精通了，這種密傳可據其性相稱為<b>心</b>。"
         },
         {
             "id": "studyproject_upgrade_lantern",
-            "label": "辉煌的密传",
+            "label": "輝煌的密傳",
             "actionId": "study",
             "requirements": {
                 "project_upgrade_lantern": 1
@@ -444,11 +444,11 @@
             "aspects": {
                 "epiphany": 1
             },
-            "description": "我对辉煌的密传更加精通了，这种密传可据其性相称为<b>灯</b>。"
+            "description": "我對輝煌的密傳更加精通了，這種密傳可據其性相稱為<b>燈</b>。"
         },
         {
             "id": "studyproject_upgrade_moth",
-            "label": "林地的密传",
+            "label": "林地的密傳",
             "actionId": "study",
             "requirements": {
                 "project_upgrade_moth": 1
@@ -460,11 +460,11 @@
             "aspects": {
                 "epiphany": 1
             },
-            "description": "我对林地的密传更加精通了，这种密传可据其性相称为<b>蛾</b>。"
+            "description": "我對林地的密傳更加精通了，這種密傳可據其性相稱為<b>蛾</b>。"
         },
         {
             "id": "studyproject_upgrade_secrethistories",
-            "label": "隐秘的历史",
+            "label": "隱秘的歷史",
             "actionId": "study",
             "requirements": {
                 "project_upgrade_secrethistories": 1
@@ -476,11 +476,11 @@
             "aspects": {
                 "epiphany": 1
             },
-            "description": "我对秘史相关的知识更加精通了，秘史是藏于我们所知的历史背后的历史。"
+            "description": "我對秘史相關的知識更加精通了，秘史是藏於我們所知的歷史背後的歷史。"
         },
         {
             "id": "studyproject_upgrade_winter",
-            "label": "破败的密传",
+            "label": "破敗的密傳",
             "actionId": "study",
             "requirements": {
                 "project_upgrade_winter": 1
@@ -492,11 +492,11 @@
             "aspects": {
                 "epiphany": 1
             },
-            "description": "我对破败的密传更加精通了，这种密传可据其性相称为<b>冬</b>。"
+            "description": "我對破敗的密傳更加精通了，這種密傳可據其性相稱為<b>冬</b>。"
         },
         {
             "id": "studyproject_subvert_edgetowinter",
-            "label": "万事皆有终结",
+            "label": "萬事皆有終結",
             "actionId": "study",
             "requirements": {
                 "project_subvert_edgetowinter": 1
@@ -508,11 +508,11 @@
             "aspects": {
                 "epiphany": 1
             },
-            "description": "耐心胜过蛮力。我已把<b>刃</b>之密传拗转为<b>冬</b>。"
+            "description": "耐心勝過蠻力。我已把<b>刃</b>之密傳拗轉為<b>冬</b>。"
         },
         {
             "id": "studyproject_subvert_forgetoedge",
-            "label": "武力征服万物",
+            "label": "武力征服萬物",
             "actionId": "study",
             "requirements": {
                 "project_subvert_forgetoedge": 1
@@ -524,11 +524,11 @@
             "aspects": {
                 "epiphany": 1
             },
-            "description": "我打碎了过往的信仰，将<b>铸</b>之密传拗转为<b>刃</b>。"
+            "description": "我打碎了過往的信仰，將<b>鑄</b>之密傳拗轉為<b>刃</b>。"
         },
         {
             "id": "studyproject_subvert_grailtomoth",
-            "label": "欲令智昏",
+            "label": "慾令智昏",
             "actionId": "study",
             "requirements": {
                 "project_subvert_grailtomoth": 1
@@ -540,11 +540,11 @@
             "aspects": {
                 "epiphany": 1
             },
-            "description": "即使是赤杯也深受脑中低语之害。我已把<b>杯</b>之密传拗转为<b>蛾</b>。"
+            "description": "即使是赤杯也深受腦中低語之害。我已把<b>杯</b>之密傳拗轉為<b>蛾</b>。"
         },
         {
             "id": "studyproject_subvert_hearttograil",
-            "label": "不休之物终将屈服",
+            "label": "不休之物終將屈服",
             "actionId": "study",
             "requirements": {
                 "project_subvert_hearttograil": 1
@@ -556,11 +556,11 @@
             "aspects": {
                 "epiphany": 1
             },
-            "description": "一切有生之物必将被饥饿压垮。我已把<b>心</b>之密传拗转为<b>杯</b>。"
+            "description": "一切有生之物必將被飢餓壓垮。我已把<b>心</b>之密傳拗轉為<b>杯</b>。"
         },
         {
             "id": "studyproject_subvert_lanterntoforge",
-            "label": "午时日落",
+            "label": "午時日落",
             "actionId": "study",
             "requirements": {
                 "project_subvert_lanterntoforge": 1
@@ -572,11 +572,11 @@
             "aspects": {
                 "epiphany": 1
             },
-            "description": "铸炉有技可裂日。我已把<b>灯</b>之密传拗转为<b>铸</b>。"
+            "description": "鑄爐有技可裂日。我已把<b>燈</b>之密傳拗轉為<b>鑄</b>。"
         },
         {
             "id": "studyproject_subvert_mothtolantern",
-            "label": "凌驾万物之光",
+            "label": "凌駕萬物之光",
             "actionId": "study",
             "requirements": {
                 "project_subvert_mothtolantern": 1
@@ -588,11 +588,11 @@
             "aspects": {
                 "epiphany": 1
             },
-            "description": "辉光是一个疑问，飞蛾总以肯定作答。我已把<b>蛾</b>之密传拗转为<b>灯</b>。"
+            "description": "輝光是一個疑問，飛蛾總以肯定作答。我已把<b>蛾</b>之密傳拗轉為<b>燈</b>。"
         },
         {
             "id": "studyproject_subvert_wintertoheart",
-            "label": "生机暗涌",
+            "label": "生機暗湧",
             "actionId": "study",
             "requirements": {
                 "project_subvert_wintertoheart": 1
@@ -604,11 +604,11 @@
             "aspects": {
                 "epiphany": 1
             },
-            "description": "降临的冬终将让位于春。我已把<b>冬</b>之密传拗转为<b>心</b>。"
+            "description": "降臨的冬終將讓位於春。我已把<b>冬</b>之密傳拗轉為<b>心</b>。"
         },
         {
             "id": "studyproject_upgrade_subvert_knock",
-            "label": "万物均将开启",
+            "label": "萬物均將開啟",
             "actionId": "study",
             "requirements": {
                 "project_upgrade_subvert_knock": 1
@@ -620,7 +620,7 @@
             "aspects": {
                 "epiphany": 1
             },
-            "description": "打开某物，便知其本质。我加深了对关于开启的密传的理解，这种密传可据其性相称为<b>启</b>。",
+            "description": "打開某物，便知其本質。我加深了對關於開啟的密傳的理解，這種密傳可據其性相稱為<b>啟</b>。",
             "linked": [
                 {
                     "id": "studyproject_upgrade_subvert_knock_remove_spare_knock",
@@ -630,7 +630,7 @@
         },
         {
             "id": "studyproject_upgrade_subvert_knock_remove_spare_knock",
-            "label": "万物均将开启",
+            "label": "萬物均將開啟",
             "comments": "This exists to remove a Knock lore, if we were combining Knock lores rather than Knock + another. Dangit Kennedy you wouldn't need hacks like this if you'd implemented OR conditions. Aspects don't *quite* always cut it.",
             "actionId": "study",
             "requirements": {
@@ -643,7 +643,7 @@
         },
         {
             "id": "studyresearchconsolation",
-            "label": "习学教训",
+            "label": "習學教訓",
             "actionId": "study",
             "requirements": {},
             "effects": {
@@ -654,13 +654,13 @@
                 "restore": 1
             },
             "startdescription": ".",
-            "description": "这一次的研究失败了。但我从中吸取了经验教训。",
+            "description": "這一次的研究失敗了。但我從中吸取了經驗教訓。",
             "warmup": 0,
             "craftable": false
         },
         {
             "id": "studydowngradefragmentedgeb",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentedgeb": 1,
@@ -670,8 +670,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "project": -1,
                 "fragmentedgeb": -1,
@@ -682,7 +682,7 @@
         },
         {
             "id": "studydowngradefragmentedgec",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentedgec": 1,
@@ -692,8 +692,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "project": -1,
                 "fragmentedgec": -1,
@@ -704,7 +704,7 @@
         },
         {
             "id": "studydowngradefragmentedged",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentedged": 1,
@@ -714,8 +714,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "project": -1,
                 "fragmentedged": -1,
@@ -726,7 +726,7 @@
         },
         {
             "id": "studydowngradefragmentedgee",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentedgee": 1,
@@ -736,8 +736,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "project": -1,
                 "fragmentedgee": -1,
@@ -748,7 +748,7 @@
         },
         {
             "id": "studydowngradefragmentedgef",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentedgef": 1,
@@ -758,8 +758,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "project": -1,
                 "fragmentedgef": -1,
@@ -770,7 +770,7 @@
         },
         {
             "id": "studydowngradefragmentedgeg",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentedgeg": 1,
@@ -780,8 +780,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "project": -1,
                 "fragmentedgeg": -1,
@@ -792,7 +792,7 @@
         },
         {
             "id": "studydowngradefragmentforgeb",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentforgeb": 1,
@@ -802,8 +802,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "project": -1,
                 "fragmentforgeb": -1,
@@ -814,7 +814,7 @@
         },
         {
             "id": "studydowngradefragmentforgec",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentforgec": 1,
@@ -824,8 +824,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "project": -1,
                 "fragmentforgec": -1,
@@ -836,7 +836,7 @@
         },
         {
             "id": "studydowngradefragmentforged",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentforged": 1,
@@ -846,8 +846,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "project": -1,
                 "fragmentforged": -1,
@@ -858,7 +858,7 @@
         },
         {
             "id": "studydowngradefragmentforgee",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentforgee": 1,
@@ -868,8 +868,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "project": -1,
                 "fragmentforgee": -1,
@@ -880,7 +880,7 @@
         },
         {
             "id": "studydowngradefragmentforgef",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentforgef": 1,
@@ -890,8 +890,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "project": -1,
                 "fragmentforgef": -1,
@@ -902,7 +902,7 @@
         },
         {
             "id": "studydowngradefragmentforgeg",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentforgeg": 1,
@@ -912,8 +912,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "project": -1,
                 "fragmentforgeg": -1,
@@ -924,7 +924,7 @@
         },
         {
             "id": "studydowngradefragmentgrailb",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentgrailb": 1,
@@ -934,8 +934,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "project": -1,
                 "fragmentgrailb": -1,
@@ -946,7 +946,7 @@
         },
         {
             "id": "studydowngradefragmentgrailc",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentgrailc": 1,
@@ -956,8 +956,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "project": -1,
                 "fragmentgrailc": -1,
@@ -968,7 +968,7 @@
         },
         {
             "id": "studydowngradefragmentgraild",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentgraild": 1,
@@ -978,8 +978,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "project": -1,
                 "fragmentgraild": -1,
@@ -990,7 +990,7 @@
         },
         {
             "id": "studydowngradefragmentgraile",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentgraile": 1,
@@ -1000,8 +1000,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "project": -1,
                 "fragmentgraile": -1,
@@ -1012,7 +1012,7 @@
         },
         {
             "id": "studydowngradefragmentgrailf",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentgrailf": 1,
@@ -1022,8 +1022,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "project": -1,
                 "fragmentgrailf": -1,
@@ -1034,7 +1034,7 @@
         },
         {
             "id": "studydowngradefragmentgrailg",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentgrailg": 1,
@@ -1044,8 +1044,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "project": -1,
                 "fragmentgrailg": -1,
@@ -1056,7 +1056,7 @@
         },
         {
             "id": "studydowngradefragmentheartb",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentheartb": 1,
@@ -1066,8 +1066,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "project": -1,
                 "fragmentheartb": -1,
@@ -1078,7 +1078,7 @@
         },
         {
             "id": "studydowngradefragmentheartc",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentheartc": 1,
@@ -1088,8 +1088,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "project": -1,
                 "fragmentheartc": -1,
@@ -1100,7 +1100,7 @@
         },
         {
             "id": "studydowngradefragmentheartd",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentheartd": 1,
@@ -1110,8 +1110,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "project": -1,
                 "fragmentheartd": -1,
@@ -1122,7 +1122,7 @@
         },
         {
             "id": "studydowngradefragmenthearte",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmenthearte": 1,
@@ -1132,8 +1132,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "project": -1,
                 "fragmenthearte": -1,
@@ -1144,7 +1144,7 @@
         },
         {
             "id": "studydowngradefragmentheartf",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentheartf": 1,
@@ -1154,8 +1154,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "project": -1,
                 "fragmentheartf": -1,
@@ -1166,7 +1166,7 @@
         },
         {
             "id": "studydowngradefragmentheartg",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentheartg": 1,
@@ -1176,8 +1176,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "project": -1,
                 "fragmentheartg": -1,
@@ -1188,7 +1188,7 @@
         },
         {
             "id": "studydowngradefragmentknockb",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentknockb": 1,
@@ -1198,8 +1198,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "fragmentknockb": -1,
                 "fragmentknock": 2
@@ -1209,7 +1209,7 @@
         },
         {
             "id": "studydowngradefragmentknockc",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentknockc": 1,
@@ -1219,8 +1219,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "fragmentknockc": -1,
                 "fragmentknockb": 2
@@ -1230,7 +1230,7 @@
         },
         {
             "id": "studydowngradefragmentknockd",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentknockd": 1,
@@ -1240,8 +1240,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "fragmentknockd": -1,
                 "fragmentknockc": 2
@@ -1251,7 +1251,7 @@
         },
         {
             "id": "studydowngradefragmentknocke",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentknocke": 1,
@@ -1261,8 +1261,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "fragmentknocke": -1,
                 "fragmentknockd": 2
@@ -1272,7 +1272,7 @@
         },
         {
             "id": "studydowngradefragmentknockf",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentknockf": 1,
@@ -1282,8 +1282,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "fragmentknockf": -1,
                 "fragmentknocke": 2
@@ -1293,7 +1293,7 @@
         },
         {
             "id": "studydowngradefragmentknockg",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentknockg": 1,
@@ -1303,8 +1303,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "fragmentknockg": -1,
                 "fragmentknockf": 2
@@ -1314,7 +1314,7 @@
         },
         {
             "id": "studydowngradefragmentlanternb",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentlanternb": 1,
@@ -1324,8 +1324,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "fragmentlanternb": -1,
                 "fragmentlantern": 2
@@ -1335,7 +1335,7 @@
         },
         {
             "id": "studydowngradefragmentlanternc",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentlanternc": 1,
@@ -1345,8 +1345,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "fragmentlanternc": -1,
                 "fragmentlanternb": 2
@@ -1356,7 +1356,7 @@
         },
         {
             "id": "studydowngradefragmentlanternd",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentlanternd": 1,
@@ -1366,8 +1366,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "fragmentlanternd": -1,
                 "fragmentlanternc": 2
@@ -1377,7 +1377,7 @@
         },
         {
             "id": "studydowngradefragmentlanterne",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentlanterne": 1,
@@ -1387,8 +1387,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "fragmentlanterne": -1,
                 "fragmentlanternd": 2
@@ -1398,7 +1398,7 @@
         },
         {
             "id": "studydowngradefragmentlanternf",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentlanternf": 1,
@@ -1408,8 +1408,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "fragmentlanternf": -1,
                 "fragmentlanterne": 2
@@ -1419,7 +1419,7 @@
         },
         {
             "id": "studydowngradefragmentlanterng",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentlanterng": 1,
@@ -1429,8 +1429,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "fragmentlanterng": -1,
                 "fragmentlanternf": 2
@@ -1440,7 +1440,7 @@
         },
         {
             "id": "studydowngradefragmentmothb",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentmothb": 1,
@@ -1450,8 +1450,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "fragmentmothb": -1,
                 "fragmentmoth": 2
@@ -1461,7 +1461,7 @@
         },
         {
             "id": "studydowngradefragmentmothc",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentmothc": 1,
@@ -1471,8 +1471,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "fragmentmothc": -1,
                 "fragmentmothb": 2
@@ -1482,7 +1482,7 @@
         },
         {
             "id": "studydowngradefragmentmothd",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentmothd": 1,
@@ -1492,8 +1492,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "fragmentmothd": -1,
                 "fragmentmothc": 2
@@ -1503,7 +1503,7 @@
         },
         {
             "id": "studydowngradefragmentmothe",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentmothe": 1,
@@ -1513,8 +1513,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "fragmentmothe": -1,
                 "fragmentmothd": 2
@@ -1524,7 +1524,7 @@
         },
         {
             "id": "studydowngradefragmentmothf",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentmothf": 1,
@@ -1534,8 +1534,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "fragmentmothf": -1,
                 "fragmentmothe": 2
@@ -1545,7 +1545,7 @@
         },
         {
             "id": "studydowngradefragmentmothg",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentmothg": 1,
@@ -1555,8 +1555,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "fragmentmothg": -1,
                 "fragmentmothf": 2
@@ -1566,7 +1566,7 @@
         },
         {
             "id": "studydowngradefragmentsecrethistoriesb",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentsecrethistoriesb": 1,
@@ -1576,8 +1576,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "fragmentsecrethistoriesb": -1,
                 "fragmentsecrethistories": 2
@@ -1587,7 +1587,7 @@
         },
         {
             "id": "studydowngradefragmentsecrethistoriesc",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentsecrethistoriesc": 1,
@@ -1597,8 +1597,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "fragmentsecrethistoriesc": -1,
                 "fragmentsecrethistoriesb": 2
@@ -1608,7 +1608,7 @@
         },
         {
             "id": "studydowngradefragmentsecrethistoriesd",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentsecrethistoriesd": 1,
@@ -1618,8 +1618,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "fragmentsecrethistoriesd": -1,
                 "fragmentsecrethistoriesc": 2
@@ -1629,7 +1629,7 @@
         },
         {
             "id": "studydowngradefragmentsecrethistoriese",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentsecrethistoriese": 1,
@@ -1639,8 +1639,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "fragmentsecrethistoriese": -1,
                 "fragmentsecrethistoriesd": 2
@@ -1650,7 +1650,7 @@
         },
         {
             "id": "studydowngradefragmentsecrethistoriesf",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentsecrethistoriesf": 1,
@@ -1660,8 +1660,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "fragmentsecrethistoriesf": -1,
                 "fragmentsecrethistoriese": 2
@@ -1671,7 +1671,7 @@
         },
         {
             "id": "studydowngradefragmentsecrethistoriesg",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentsecrethistoriesg": 1,
@@ -1681,8 +1681,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "fragmentsecrethistoriesg": -1,
                 "fragmentsecrethistoriesf": 2
@@ -1692,7 +1692,7 @@
         },
         {
             "id": "studydowngradefragmentwinterb",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentwinterb": 1,
@@ -1702,8 +1702,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "fragmentwinterb": -1,
                 "fragmentwinter": 2
@@ -1713,7 +1713,7 @@
         },
         {
             "id": "studydowngradefragmentwinterc",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentwinterc": 1,
@@ -1723,8 +1723,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "fragmentwinterc": -1,
                 "fragmentwinterb": 2
@@ -1734,7 +1734,7 @@
         },
         {
             "id": "studydowngradefragmentwinterd",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentwinterd": 1,
@@ -1744,8 +1744,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "fragmentwinterd": -1,
                 "fragmentwinterc": 2
@@ -1755,7 +1755,7 @@
         },
         {
             "id": "studydowngradefragmentwintere",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentwintere": 1,
@@ -1765,8 +1765,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "fragmentwintere": -1,
                 "fragmentwinterd": 2
@@ -1776,7 +1776,7 @@
         },
         {
             "id": "studydowngradefragmentwinterf",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentwinterf": 1,
@@ -1786,8 +1786,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "fragmentwinterf": -1,
                 "fragmentwintere": 2
@@ -1797,7 +1797,7 @@
         },
         {
             "id": "studydowngradefragmentwinterg",
-            "label": "回归基础",
+            "label": "回歸基礎",
             "actionId": "study",
             "requirements": {
                 "fragmentwinterg": 1,
@@ -1807,8 +1807,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "有时，我可能需要从更基础的层面理解某个密传。[将密传分解为两篇更低等级的片段。之后你能将其重组，但不会和分解它一样容易。]",
-            "description": "分析为一种解剖，而理性为其刀刃。",
+            "startdescription": "有時，我可能需要從更基礎的層面理解某個密傳。[將密傳分解為兩篇更低等級的片段。之後你能將其重組，但不會和分解它一樣容易。]",
+            "description": "分析為一種解剖，而理性為其刀刃。",
             "effects": {
                 "fragmentwinterg": -1,
                 "fragmentwinterf": 2

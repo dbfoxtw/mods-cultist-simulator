@@ -2,11 +2,11 @@
     "elements": [
         {
             "id": "gloverandgloverjuniorjob",
-            "label": "坐上格洛弗父子公司的高层职位",
+            "label": "坐上格洛弗父子公司的高層職位",
             "aspects": {
                 "job": 1
             },
-            "description": "我的才智必须被用到更合适的地方去！不过至少……现在的工资比干苦力的要多一些。[经常旷工会有降职之虞。]",
+            "description": "我的才智必須被用到更合適的地方去！不過至少……現在的工資比干苦力的要多一些。[經常曠工會有降職之虞。]",
             "xtriggers": {
                 "careeradvancement": "gloverandglover_difficultbossa_job",
                 "employment": "gloverandgloverjuniorjob"
@@ -16,11 +16,11 @@
         },
         {
             "id": "gloverandgloverjuniorjob_nodifficultbossa",
-            "label": "坐上格洛弗父子公司的高层职位",
+            "label": "坐上格洛弗父子公司的高層職位",
             "aspects": {
                 "job": 1
             },
-            "description": "我的才智必须被用到更合适的地方去！不过至少……现在的工资比干苦力的要多一些。[经常旷工会有降职之虞。]",
+            "description": "我的才智必須被用到更合適的地方去！不過至少……現在的工資比干苦力的要多一些。[經常曠工會有降職之虞。]",
             "xtriggers": {
                 "careeradvancement": "gloverandgloverjob",
                 "employment": "gloverandgloverjuniorjob_nodifficultbossa"
@@ -30,12 +30,12 @@
         },
         {
             "id": "gloverandglover_difficultbossa_job",
-            "label": "坐上格洛弗父子公司的职位",
+            "label": "坐上格洛弗父子公司的職位",
             "aspects": {
                 "annoyance": 1,
                 "job": 1
             },
-            "description": "现在我是一名记录在案的职员，直接领导人是奥尔登先生。工资多了一点，下班也晚了一点。而奥尔登先生也一直把我看得紧紧的。[经常旷工会有降职之虞。]",
+            "description": "現在我是一名記錄在案的職員，直接領導人是奧爾登先生。工資多了一點，下班也晚了一點。而奧爾登先生也一直把我看得緊緊的。[經常曠工會有降職之虞。]",
             "xtriggers": {
                 "endannoyance": "gloverandglover_difficultbossa_gone_job",
                 "careeradvancement": "gloverandgloverseniorjob",
@@ -46,16 +46,16 @@
         },
         {
             "id": "gloverandglover_difficultbossa_gone_job",
-            "label": "格洛弗父子公司的职位",
+            "label": "格洛弗父子公司的職位",
             "aspects": {
                 "job": 1
             },
-            "description": "那个叫奥尔登的人已经不在了，等我回到岗位上时，情况会变得更好。",
+            "description": "那個叫奧爾登的人已經不在了，等我回到崗位上時，情況會變得更好。",
             "comments": "interim job that immediately changes to standard one."
         },
         {
             "id": "gloverandgloverjob",
-            "label": "格洛弗父子公司的职位",
+            "label": "格洛弗父子公司的職位",
             "aspects": {
                 "job": 1
             },
@@ -67,10 +67,10 @@
                     "required": {
                         "reason": 1
                     },
-                    "description": "加倍努力工作，运气很好的话说不定管用。"
+                    "description": "加倍努力工作，運氣很好的話說不定管用。"
                 }
             ],
-            "description": "工资多了一点，下班晚了一点，而坐在我先前桌位上的高层职员，眼中正闪灭着嫉妒的火焰。[经常旷工会有降职之虞。]",
+            "description": "工資多了一點，下班晚了一點，而坐在我先前桌位上的高層職員，眼中正閃滅著嫉妒的火焰。[經常曠工會有降職之虞。]",
             "xtriggers": {
                 "careeradvancement": "gloverandgloverseniorjob",
                 "employment": "gloverandgloverjob"
@@ -80,7 +80,7 @@
         },
         {
             "id": "gloverandgloverjob_youngerglovergone",
-            "label": "格洛弗父子公司的职位",
+            "label": "格洛弗父子公司的職位",
             "aspects": {
                 "job": 1
             },
@@ -92,10 +92,10 @@
                     "required": {
                         "reason": 1
                     },
-                    "description": "加倍努力工作，运气很好的话说不定管用。"
+                    "description": "加倍努力工作，運氣很好的話說不定管用。"
                 }
             ],
-            "description": "工资多了一点，下班晚了一点，而坐在我先前桌位上的高层职员，眼中正闪灭着嫉妒的火焰。[经常旷工会有降职之虞。]",
+            "description": "工資多了一點，下班晚了一點，而坐在我先前桌位上的高層職員，眼中正閃滅著嫉妒的火焰。[經常曠工會有降職之虞。]",
             "xtriggers": {
                 "careeradvancement": "gloverandgloverseniorjob_youngerglovergone",
                 "employment": "gloverandgloverjob_youngerglovergone"
@@ -105,7 +105,7 @@
         },
         {
             "id": "gloverandgloverseniorjob",
-            "label": "坐上格洛弗父子公司的高层职位",
+            "label": "坐上格洛弗父子公司的高層職位",
             "aspects": {
                 "annoyance": 1,
                 "job": 1
@@ -113,15 +113,15 @@
             "slots": [
                 {
                     "id": "Devotion",
-                    "label": "敬业",
+                    "label": "敬業",
                     "required": {
                         "reason": 1
                     },
                     "actionId": "work",
-                    "description": "我现在的职位对人的要求十分苛刻，我必须集中精神。"
+                    "description": "我現在的職位對人的要求十分苛刻，我必須集中精神。"
                 }
             ],
-            "description": "理论上讲，假如有上司死了，我就还能再继续升职。[经常旷工会有降职之虞。]",
+            "description": "理論上講，假如有上司死了，我就還能再繼續升職。[經常曠工會有降職之虞。]",
             "xtriggers": {
                 "endannoyance": "gloverandgloverseniorjob_youngerglovergone",
                 "employment": "gloverandgloverseniorjob"
@@ -131,22 +131,22 @@
         },
         {
             "id": "gloverandgloverseniorjob_youngerglovergone",
-            "label": "坐上格洛弗父子公司的高层职位",
+            "label": "坐上格洛弗父子公司的高層職位",
             "aspects": {
                 "job": 1
             },
             "slots": [
                 {
                     "id": "Devotion",
-                    "label": "敬业",
+                    "label": "敬業",
                     "required": {
                         "reason": 1
                     },
                     "actionId": "work",
-                    "description": "我现在的职位对人的要求十分苛刻，我必须集中精神。"
+                    "description": "我現在的職位對人的要求十分苛刻，我必須集中精神。"
                 }
             ],
-            "description": "随着小格洛弗的离去，我应该能升到更高的职位了。[经常旷工会有降职之虞。]",
+            "description": "隨著小格洛弗的離去，我應該能升到更高的職位了。[經常曠工會有降職之虞。]",
             "xtriggers": {
                 "careeradvancement": "gloverandglovertopjob",
                 "employment": "gloverandgloverseniorjob_youngerglovergone"
@@ -160,7 +160,7 @@
                 "job": 1
             },
             "label": "坐上格洛弗父子公司的董事席位",
-            "description": "小格洛弗的消失在董事会中留下了空席，而我得到了它。[经常旷工会有降职之虞。]",
+            "description": "小格洛弗的消失在董事會中留下了空席，而我得到了它。[經常曠工會有降職之虞。]",
             "lifetime": 100,
             "decayTo": "gloverandglovertopjob_tainted_demotion",
             "xtriggers": {
@@ -173,7 +173,7 @@
                 "job": 1
             },
             "label": "坐上格洛弗父子公司的董事席位",
-            "description": "我对怪力乱神感兴趣的传闻进到了老格洛弗耳中。这可能会导致我的职位不稳。[经常旷工会有降职之虞。]",
+            "description": "我對怪力亂神感興趣的傳聞進到了老格洛弗耳中。這可能會導致我的職位不穩。[經常曠工會有降職之虞。]",
             "lifetime": 100,
             "decayTo": "gloverandglovertopjob_tainted_demotion",
             "xtriggers": {
@@ -186,18 +186,18 @@
                 "job": 1,
                 "demotion": 1
             },
-            "label": "职场困境：降至高层职位",
+            "label": "職場困境：降至高層職位",
             "slots": [
                 {
                     "id": "passion",
-                    "label": "说服",
+                    "label": "說服",
                     "required": {
                         "passion": 1
                     },
                     "actionId": "work"
                 }
             ],
-            "description": "旷工的事情暴露了。我也因此降职。我需要尽力说服上司来保住职位。",
+            "description": "曠工的事情暴露了。我也因此降職。我需要盡力說服上司來保住職位。",
             "xtriggers": {
                 "plead": "gloverandgloverjuniorjob"
             }
@@ -208,18 +208,18 @@
                 "job": 1,
                 "demotion": 1
             },
-            "label": "职场困境：降至高层职位",
+            "label": "職場困境：降至高層職位",
             "slots": [
                 {
                     "id": "passion",
-                    "label": "说服",
+                    "label": "說服",
                     "required": {
                         "passion": 1
                     },
                     "actionId": "work"
                 }
             ],
-            "description": "旷工的事情暴露了。我也因此降职。我需要尽力说服上司来保住职位。",
+            "description": "曠工的事情暴露了。我也因此降職。我需要盡力說服上司來保住職位。",
             "xtriggers": {
                 "plead": "gloverandgloverjuniorjob_nodifficultbossa"
             }
@@ -230,18 +230,18 @@
                 "job": 1,
                 "demotion": 1
             },
-            "label": "职场困境：降职",
+            "label": "職場困境：降職",
             "slots": [
                 {
                     "id": "passion",
-                    "label": "说服",
+                    "label": "說服",
                     "required": {
                         "passion": 1
                     },
                     "actionId": "work"
                 }
             ],
-            "description": "旷工的事情暴露了。我也因此降职。我需要尽力说服上司来保住职位。",
+            "description": "曠工的事情暴露了。我也因此降職。我需要盡力說服上司來保住職位。",
             "xtriggers": {
                 "plead": "gloverandgloverjob"
             }
@@ -252,18 +252,18 @@
                 "job": 1,
                 "demotion": 1
             },
-            "label": "职场困境：降职",
+            "label": "職場困境：降職",
             "slots": [
                 {
                     "id": "passion",
-                    "label": "说服",
+                    "label": "說服",
                     "required": {
                         "passion": 1
                     },
                     "actionId": "work"
                 }
             ],
-            "description": "旷工的事情暴露了。我也因此降职。我需要尽力说服上司来保住职位。",
+            "description": "曠工的事情暴露了。我也因此降職。我需要盡力說服上司來保住職位。",
             "xtriggers": {
                 "plead": "gloverandgloverjob_youngerglovergone"
             }
@@ -274,18 +274,18 @@
                 "job": 1,
                 "demotion": 1
             },
-            "label": "职场困境：降职危机",
+            "label": "職場困境：降職危機",
             "slots": [
                 {
                     "id": "passion",
-                    "label": "说服",
+                    "label": "說服",
                     "required": {
                         "passion": 1
                     },
                     "actionId": "work"
                 }
             ],
-            "description": "公司对我这个职位的人还是比较宽容的，然而我旷工的事情已经被发觉了。我得想点办法跟老格罗弗套套近乎了。",
+            "description": "公司對我這個職位的人還是比較寬容的，然而我曠工的事情已經被發覺了。我得想點辦法跟老格羅弗套套近乎了。",
             "xtriggers": {
                 "plead": "gloverandglovertopjob_tainted"
             }
@@ -295,16 +295,16 @@
             "aspects": {
                 "job": 1
             },
-            "description": "工作时间长，但酬劳优厚。",
-            "label": "研究所职位"
+            "description": "工作時間長，但酬勞優厚。",
+            "label": "研究所職位"
         },
         {
             "id": "investmentsjobc",
             "aspects": {
                 "benign": 1
             },
-            "label": "丰厚外快",
-            "description": "我手头十分宽裕。",
+            "label": "豐厚外快",
+            "description": "我手頭十分寬裕。",
             "xtriggers": {
                 "decline": "investmentsjobb"
             },
@@ -312,8 +312,8 @@
         },
         {
             "id": "investmentsjobb",
-            "label": "大笔外快",
-            "description": "这笔收入可供我舒服度日。",
+            "label": "大筆外快",
+            "description": "這筆收入可供我舒服度日。",
             "aspects": {
                 "benign": 1
             },
@@ -327,8 +327,8 @@
             "aspects": {
                 "benign": 1
             },
-            "label": "小笔外快",
-            "description": "我的投资所得供我度日绰绰有余。",
+            "label": "小筆外快",
+            "description": "我的投資所得供我度日綽綽有餘。",
             "xtriggers": {
                 "decline": "jumble"
             },
@@ -339,12 +339,12 @@
             "aspects": {
                 "job": 1
             },
-            "label": "一名令人信服的招魂师的日常工作",
-            "description": "有时候，当我特别灵验时，头一排的观众会昏倒。",
+            "label": "一名令人信服的招魂師的日常工作",
+            "description": "有時候，當我特別靈驗時，頭一排的觀眾會昏倒。",
             "slots": [
                 {
                     "id": "memory",
-                    "label": "资料",
+                    "label": "資料",
                     "actionId": "work",
                     "required": {
                         "memory": 1
@@ -360,12 +360,12 @@
             "aspects": {
                 "job": 1
             },
-            "label": "作为灵媒声名远扬",
-            "description": "有时我会用出乎我自己所料的嗓音说话。",
+            "label": "作為靈媒聲名遠揚",
+            "description": "有時我會用出乎我自己所料的嗓音說話。",
             "slots": [
                 {
                     "id": "memory",
-                    "label": "资料",
+                    "label": "資料",
                     "actionId": "work",
                     "required": {
                         "memory": 1
@@ -378,7 +378,7 @@
             "aspects": {
                 "job": 1
             },
-            "label": "就职于奥里弗拉姆拍卖行",
+            "label": "就職於奧里弗拉姆拍賣行",
             "description": "",
             "noartneeded": true
         },
@@ -400,7 +400,7 @@
                 },
                 {
                     "id": "doctrine",
-                    "label": "教义",
+                    "label": "教義",
                     "required": {
                         "lore": 1
                     },
@@ -408,15 +408,15 @@
                 },
                 {
                     "id": "fervour",
-                    "label": "热忱",
+                    "label": "熱忱",
                     "required": {
                         "fervour": 1
                     },
                     "actionId": "work"
                 }
             ],
-            "label": "就任于一个宁静的教区",
-            "description": "只要我不因渎职或丑闻引起主教的注意，我便可以在这里讨上一份生活。"
+            "label": "就任於一個寧靜的教區",
+            "description": "只要我不因瀆職或醜聞引起主教的注意，我便可以在這裡討上一份生活。"
         }
     ]
 }

@@ -3,8 +3,8 @@
         {
             "id": "explorevaultperil_treacherousground_encounter",
             "actionId": "explore",
-            "label": "诡变多端的地面",
-            "startdescription": "拉人下陷的泥浆，欺人眼目的裂缝——大地急于吞吃我们。我们需要用<b>灯</b>照亮前路，或<b>铸</b>一盏灯。",
+            "label": "詭變多端的地面",
+            "startdescription": "拉人下陷的泥漿，欺人眼目的裂縫——大地急於吞吃我們。我們需要用<b>燈</b>照亮前路，或<b>鑄</b>一盞燈。",
             "requirements": {
                 "peril_treacherousground": 1
             },
@@ -12,7 +12,7 @@
                 {
                     "id": "Assistance",
                     "label": "助力",
-                    "description": "资金对探险来说必不可少。追随者则会助我突破阻碍。",
+                    "description": "資金對探險來說必不可少。追隨者則會助我突破阻礙。",
                     "required": {
                         "follower": 1,
                         "funds": 1
@@ -60,8 +60,8 @@
             "requirements": {
                 "lantern": 10
             },
-            "label": "我们拜请守夜人，指引前路之神",
-            "startdescription": "守夜人令我们视物清晰，我们谅必不会走错路。",
+            "label": "我們拜請守夜人，指引前路之神",
+            "startdescription": "守夜人令我們視物清晰，我們諒必不會走錯路。",
             "description": ".",
             "linked": [
                 {
@@ -80,8 +80,8 @@
             "requirements": {
                 "lantern": 5
             },
-            "label": "我们拜请守夜人，照明驱暗之神",
-            "startdescription": "守夜人将美德赐给我们的灯火，令我们用其避开险境。大概能吧。",
+            "label": "我們拜請守夜人，照明驅暗之神",
+            "startdescription": "守夜人將美德賜給我們的燈火，令我們用其避開險境。大概能吧。",
             "description": ".",
             "linked": [
                 {
@@ -100,8 +100,8 @@
             "requirements": {
                 "lantern": 1
             },
-            "label": "我们拜请守夜人，无怜悯心之神",
-            "startdescription": "守夜人对我们和阻拦我们的障碍都不会容情。我们能否通过要看运气。",
+            "label": "我們拜請守夜人，無憐憫心之神",
+            "startdescription": "守夜人對我們和阻攔我們的障礙都不會容情。我們能否通過要看運氣。",
             "description": ".",
             "linked": [
                 {
@@ -120,8 +120,8 @@
             "requirements": {
                 "forge": 10
             },
-            "label": "我们拜请昕旦，永葆平衡之神。",
-            "startdescription": "我们祈求昕旦，<b>铸</b>与<b>冬</b>之司辰护佑。我们将开辟一条自己的通路。成功近在咫尺。",
+            "label": "我們拜請昕旦，永葆平衡之神。",
+            "startdescription": "我們祈求昕旦，<b>鑄</b>與<b>冬</b>之司辰護佑。我們將開闢一條自己的通路。成功近在咫尺。",
             "description": ".",
             "linked": [
                 {
@@ -140,8 +140,8 @@
             "requirements": {
                 "forge": 5
             },
-            "label": "我们拜请昕旦，平息靖声之神。",
-            "startdescription": "昕旦乃<b>铸</b>与<b>冬</b>之司辰，拥有平靖躁动大地的神力。大概我们能平安生还。",
+            "label": "我們拜請昕旦，平息靖聲之神。",
+            "startdescription": "昕旦乃<b>鑄</b>與<b>冬</b>之司辰，擁有平靖躁動大地的神力。大概我們能平安生還。",
             "description": ".",
             "linked": [
                 {
@@ -160,8 +160,8 @@
             "requirements": {
                 "forge": 1
             },
-            "label": "我们拜请昕旦，先于太阳而来之神",
-            "startdescription": "昕旦乃<b>铸</b>与<b>冬</b>之司辰。<b>铸</b>带来力量，然而雾气现已升腾凝聚。也许我们能成功通过。",
+            "label": "我們拜請昕旦，先於太陽而來之神",
+            "startdescription": "昕旦乃<b>鑄</b>與<b>冬</b>之司辰。<b>鑄</b>帶來力量，然而霧氣現已升騰凝聚。也許我們能成功通過。",
             "description": ".",
             "linked": [
                 {
@@ -177,8 +177,8 @@
         {
             "id": "explorevaultperil_treacherousground_success",
             "actionId": "explore",
-            "label": "平安通过诡变多端的土地",
-            "startdescription": "我们身上尽是点点泥浆和荆棘擦伤，但我们成功了。",
+            "label": "平安通過詭變多端的土地",
+            "startdescription": "我們身上盡是點點泥漿和荊棘擦傷，但我們成功了。",
             "description": ".",
             "effects": {
                 "peril_treacherousground": -1
@@ -195,8 +195,8 @@
         {
             "id": "explorevaultperil_treacherousground_failure",
             "actionId": "explore",
-            "label": "急于吞吃的大地",
-            "startdescription": "这条看似安全可行的通路实为让人深陷其中的圈套。我们得绕回去再找一条路。",
+            "label": "急於吞吃的大地",
+            "startdescription": "這條看似安全可行得通路實為讓人深陷其中的圈套。我們得繞回去再找一條路。",
             "description": ".",
             "craftable": false,
             "alt": [
@@ -223,8 +223,8 @@
         {
             "id": "explorevaultperil_forest_encounter",
             "actionId": "explore",
-            "label": "危机四伏的森林",
-            "startdescription": "现下树下的黑暗尚还安静，但这里不只我们存在。让<b>蛾</b>相为我指引方向，或<b>铸</b>相为我涤清道路。",
+            "label": "危機四伏的森林",
+            "startdescription": "現下樹下的黑暗尚還安靜，但這裡不只我們存在。讓<b>蛾</b>相為我指引方向，或<b>鑄</b>相為我滌清道路。",
             "requirements": {
                 "peril_forest": 1
             },
@@ -232,7 +232,7 @@
                 {
                     "id": "Assistance",
                     "label": "助力",
-                    "description": "资金对探险来说必不可少。追随者则会助我突破阻碍。",
+                    "description": "資金對探險來說必不可少。追隨者則會助我突破阻礙。",
                     "required": {
                         "follower": 1,
                         "funds": 1
@@ -280,8 +280,8 @@
             "requirements": {
                 "moth": 10
             },
-            "label": "我们拜请飞蛾，于林地树间寻觅之神",
-            "startdescription": "漫宿下面的林地的黑暗更甚此地。飞蛾指引我们的脚步。成功近在咫尺。",
+            "label": "我們拜請飛蛾，於林地樹間尋覓之神",
+            "startdescription": "漫宿下面的林地的黑暗更甚此地。飛蛾指引我們的腳步。成功近在咫尺。",
             "description": ".",
             "linked": [
                 {
@@ -300,8 +300,8 @@
             "requirements": {
                 "moth": 5
             },
-            "label": "我们拜请飞蛾，通体斑驳之神",
-            "startdescription": "路上映出斑驳阴影。也许这是飞蛾在为我们指路。大概是这样的。大概我们能成功通过。",
+            "label": "我們拜請飛蛾，通體斑駁之神",
+            "startdescription": "路上映出斑駁陰影。也許這是飛蛾在為我們指路。大概是這樣的。大概我們能成功通過。",
             "description": ".",
             "linked": [
                 {
@@ -320,8 +320,8 @@
             "requirements": {
                 "moth": 1
             },
-            "label": "我们拜请飞蛾，于颅内振翅之神",
-            "startdescription": "我们于危难中祈求飞蛾护佑。森林以拍打的翅，以想象中的眼脉动着。也许我们能成功通过。",
+            "label": "我們拜請飛蛾，於顱內振翅之神",
+            "startdescription": "我們於危難中祈求飛蛾護佑。森林以拍打的翅，以想像中的眼脈動著。也許我們能成功通過。",
             "description": ".",
             "linked": [
                 {
@@ -340,8 +340,8 @@
             "requirements": {
                 "forge": 10
             },
-            "label": "钢与焰",
-            "startdescription": "铸炉独具匠心，铸炉残酷无情。我们谅必能够成功通过。",
+            "label": "鋼與焰",
+            "startdescription": "鑄爐獨具匠心，鑄爐殘酷無情。我們諒必能夠成功通過。",
             "description": ".",
             "linked": [
                 {
@@ -360,8 +360,8 @@
             "requirements": {
                 "forge": 5
             },
-            "label": "斧与灯",
-            "startdescription": "森林包围了我们，但我们是务实的人，擅<b>铸</b>，大概能平安生还。",
+            "label": "斧與燈",
+            "startdescription": "森林包圍了我們，但我們是務實的人，擅<b>鑄</b>，大概能平安生還。",
             "description": ".",
             "linked": [
                 {
@@ -380,8 +380,8 @@
             "requirements": {
                 "forge": 1
             },
-            "label": "黄昏中的挣扎",
-            "startdescription": "我们祈求<b>铸</b>之力的护佑，助我披荆斩棘。前路艰难。也许我们能成功通过。",
+            "label": "黃昏中的掙扎",
+            "startdescription": "我們祈求<b>鑄</b>之力的護佑，助我披荊斬棘。前路艱難。也許我們能成功通過。",
             "description": ".",
             "linked": [
                 {
@@ -397,8 +397,8 @@
         {
             "id": "explorevaultperil_forest_success",
             "actionId": "explore",
-            "label": "“穿过树林的光……”",
-            "startdescription": "我们看到前方有东西。我们成功穿过了森林。",
+            "label": "“穿過樹林的光……”",
+            "startdescription": "我們看到前方有東西。我們成功穿過了森林。",
             "description": ".",
             "effects": {
                 "peril_forest": -1
@@ -415,8 +415,8 @@
         {
             "id": "explorevaultperil_forest_failure",
             "actionId": "explore",
-            "label": "愈加深沉的静默",
-            "startdescription": "我们迷路了。森林高耸，巨影倾倒在黄昏的天幕上。林中的野兽静默无声，但我们时常能看到它们的眼睛。",
+            "label": "愈加深沉的靜默",
+            "startdescription": "我們迷路了。森林高聳，巨影傾倒在黃昏的天幕上。林中的野獸靜默無聲，但我們時常能看到它們的眼睛。",
             "description": ".",
             "craftable": false,
             "alt": [
@@ -443,8 +443,8 @@
         {
             "id": "explorevaultperil_mountains_encounter",
             "actionId": "explore",
-            "label": "云中径",
-            "startdescription": "高峻的山峰划破天空。让<b>冬</b>相免我受寒，或<b>铸</b>相为我开道。若两者皆无，探险必失败。",
+            "label": "雲中徑",
+            "startdescription": "高峻的山峰劃破天空。讓<b>冬</b>相免我受寒，或<b>鑄</b>相為我開道。若兩者皆無，探險必失敗。",
             "requirements": {
                 "peril_mountains": 1
             },
@@ -452,7 +452,7 @@
                 {
                     "id": "Assistance",
                     "label": "助力",
-                    "description": "资金对探险来说必不可少。追随者则会助我突破阻碍。",
+                    "description": "資金對探險來說必不可少。追隨者則會助我突破阻礙。",
                     "required": {
                         "follower": 1,
                         "funds": 1
@@ -500,8 +500,8 @@
             "requirements": {
                 "winter": 10
             },
-            "label": "我们拜请昕旦，永葆平衡之神。",
-            "startdescription": "名为昕旦的司辰惯于寒冷。她令我们谅必不至坠落。",
+            "label": "我們拜請昕旦，永葆平衡之神。",
+            "startdescription": "名為昕旦的司辰慣於寒冷。她令我們諒必不至墜落。",
             "description": ".",
             "linked": [
                 {
@@ -520,8 +520,8 @@
             "requirements": {
                 "winter": 5
             },
-            "label": "我们拜请昕旦，平息靖声之神。",
-            "startdescription": "昕旦擅<b>冬</b>。她大概能令我们不遭雪崩。",
+            "label": "我們拜請昕旦，平息靖聲之神。",
+            "startdescription": "昕旦擅<b>冬</b>。她大概能令我們不遭雪崩。",
             "description": ".",
             "linked": [
                 {
@@ -540,8 +540,8 @@
             "requirements": {
                 "winter": 1
             },
-            "label": "我们拜请昕旦，先于太阳而去之神",
-            "startdescription": "对于通晓<b>冬</b>天、名为昕旦的司辰来说，黎明前的时辰是神圣的。若我们奋起反抗，求她护佑，或许她会保我周全。",
+            "label": "我們拜請昕旦，先於太陽而去之神",
+            "startdescription": "對於通曉<b>冬</b>天、名為昕旦的司辰來說，黎明前的時辰是神聖的。若我們奮起反抗，求她護佑，或許她會保我周全。",
             "description": ".",
             "linked": [
                 {
@@ -561,7 +561,7 @@
                 "forge": 10
             },
             "label": "登山者之途",
-            "startdescription": "我们精通<b>铸</b>之本领。我们谅必能够成功通过。",
+            "startdescription": "我們精通<b>鑄</b>之本領。我們諒必能夠成功通過。",
             "description": ".",
             "linked": [
                 {
@@ -581,7 +581,7 @@
                 "forge": 5
             },
             "label": "探索者之途",
-            "startdescription": "我们是务实的人，擅<b>铸</b>，大概能成功。",
+            "startdescription": "我們是務實的人，擅<b>鑄</b>，大概能成功。",
             "description": ".",
             "linked": [
                 {
@@ -600,8 +600,8 @@
             "requirements": {
                 "forge": 1
             },
-            "label": "浪迹者之途",
-            "startdescription": "<b>铸</b>相的追随者既能干又务实，但禁不住漫漫山脊上岩石尖利，冰封雪盖。我们前路艰难。运气好的话或能通过。",
+            "label": "浪跡者之途",
+            "startdescription": "<b>鑄</b>相的追隨者既能幹又務實，但禁不住漫漫山脊上岩石尖利，冰封雪蓋。我們前路艱難。運氣好的話或能通過。",
             "description": ".",
             "linked": [
                 {
@@ -617,8 +617,8 @@
         {
             "id": "explorevaultperil_mountains_success",
             "actionId": "explore",
-            "label": "穿过云中径",
-            "startdescription": "满身冻伤，瑟瑟发抖的我们成功穿过高山。",
+            "label": "穿過雲中徑",
+            "startdescription": "滿身凍傷，瑟瑟發抖的我們成功穿過高山。",
             "description": ".",
             "effects": {
                 "peril_mountains": -1
@@ -635,8 +635,8 @@
         {
             "id": "explorevaultperil_mountains_failure",
             "actionId": "explore",
-            "label": "愤怒的回响",
-            "startdescription": "滑坡和雪崩将我们逼退。如果能生还，我们会换一条路走。",
+            "label": "憤怒的迴響",
+            "startdescription": "滑坡和雪崩將我們逼退。如果能生還，我們會換一條路走。",
             "description": ".",
             "craftable": false,
             "alt": [
@@ -664,7 +664,7 @@
             "id": "explorevaultperil_desert_encounter",
             "actionId": "explore",
             "label": "荒漠",
-            "startdescription": "这片广袤的土地犹如一个几达天边的土黄色火炉。到了夜晚，莽莽星空撒下冷冽的光。我们必须小心前行，或以<b>铸</b>铺就前路，或以<b>杯</b>避免干渴。",
+            "startdescription": "這片廣袤的土地猶如一個幾達天邊的土黃色火爐。到了夜晚，莽莽星空撒下冷冽的光。我們必須小心前行，或以<b>鑄</b>鋪就前路，或以<b>杯</b>避免乾渴。",
             "requirements": {
                 "peril_desert": 1
             },
@@ -672,7 +672,7 @@
                 {
                     "id": "Assistance",
                     "label": "助力",
-                    "description": "资金对探险来说必不可少。追随者则会助我突破阻碍。",
+                    "description": "資金對探險來說必不可少。追隨者則會助我突破阻礙。",
                     "required": {
                         "follower": 1,
                         "funds": 1
@@ -720,8 +720,8 @@
             "requirements": {
                 "grail": 10
             },
-            "label": "我们拜请双生女巫，身为珍珠之神",
-            "startdescription": "双生女巫应能护我穿过干涸地。",
+            "label": "我們拜請雙生女巫，身為珍珠之神",
+            "startdescription": "雙生女巫應能護我穿過乾涸地。",
             "description": ".",
             "linked": [
                 {
@@ -740,8 +740,8 @@
             "requirements": {
                 "grail": 5
             },
-            "label": "我们拜请双生女巫，不可触碰之神",
-            "startdescription": "我们拜请双生女巫护我免遭太阳的炙烤和蜃景的迷惑。我们应能顺利通过。",
+            "label": "我們拜請雙生女巫，不可觸碰之神",
+            "startdescription": "我們拜請雙生女巫護我免遭太陽的炙烤和蜃景的迷惑。我們應能順利通過。",
             "description": ".",
             "linked": [
                 {
@@ -760,8 +760,8 @@
             "requirements": {
                 "grail": 1
             },
-            "label": "我们拜请双生女巫，不可分离之神",
-            "startdescription": "我们拜请双生女巫保护我们不因干涸地带的沙暴失散。这样应该足够了。",
+            "label": "我們拜請雙生女巫，不可分離之神",
+            "startdescription": "我們拜請雙生女巫保護我們不因乾涸地帶的沙暴失散。這樣應該足夠了。",
             "description": ".",
             "linked": [
                 {
@@ -780,8 +780,8 @@
             "requirements": {
                 "forge": 10
             },
-            "label": "炙阳之途",
-            "startdescription": "我们的<b>铸</b>之本领可保我们平安穿过炙热的岩石路到达绿洲。我们谅必能够通行无碍。",
+            "label": "炙陽之途",
+            "startdescription": "我們的<b>鑄</b>之本領可保我們平安穿過炙熱的岩石路到達綠洲。我們諒必能夠通行無礙。",
             "description": ".",
             "linked": [
                 {
@@ -800,8 +800,8 @@
             "requirements": {
                 "forge": 5
             },
-            "label": "干旱之途",
-            "startdescription": "我们是务实的人，擅<b>铸</b>，应该能穿过炙热的戈壁到达绿洲。",
+            "label": "乾旱之途",
+            "startdescription": "我們是務實的人，擅<b>鑄</b>，應該能穿過炙熱的戈壁到達綠洲。",
             "description": ".",
             "linked": [
                 {
@@ -820,8 +820,8 @@
             "requirements": {
                 "forge": 1
             },
-            "label": "无情之途",
-            "startdescription": "<b>铸</b>相的追随者既能干又务实，奈何此地荒瘠。我们或许能成功通过。",
+            "label": "無情之途",
+            "startdescription": "<b>鑄</b>相的追隨者既能幹又務實，奈何此地荒瘠。我們或許能成功通過。",
             "description": ".",
             "linked": [
                 {
@@ -837,8 +837,8 @@
         {
             "id": "explorevaultperil_desert_success",
             "actionId": "explore",
-            "label": "骄盛的太阳",
-            "startdescription": "太阳西沉。我们回首瞭望方才穿过的荒漠，和它在暮光中显现的所有色彩。夜幕降临，群星闪烁。抚过我们的脸颊风如同冰冷的手。旅途继续。",
+            "label": "驕盛的太陽",
+            "startdescription": "太陽西沉。我們回首瞭望方才穿過的荒漠，和它在暮光中顯現的所有色彩。夜幕降臨，群星閃爍。撫過我們的臉頰風如同冰冷的手。旅途繼續。",
             "description": ".",
             "effects": {
                 "peril_desert": -1
@@ -855,8 +855,8 @@
         {
             "id": "explorevaultperil_desert_failure",
             "actionId": "explore",
-            "label": "愤怒的太阳",
-            "startdescription": "日复一日，太阳令我们皮肤紧绷，口唇干燥，在我们的头顶倾泻毒辣的光。我们可能会迷路，也许已经迷路了。",
+            "label": "憤怒的太陽",
+            "startdescription": "日復一日，太陽令我們皮膚緊繃，口唇乾燥，在我們的頭頂傾瀉毒辣的光。我們可能會迷路，也許已經迷路了。",
             "description": ".",
             "craftable": false,
             "alt": [
@@ -883,8 +883,8 @@
         {
             "id": "explorevaultperil_sea_encounter",
             "actionId": "explore",
-            "label": "薄暮群屿周边海域",
-            "startdescription": "我们航行的海面风暴肆虐。我们要找寻的岛屿隐藏在没有记载的历史角落之中。我们需要<b>心</b>或<b>铸</b>，或两者皆需。",
+            "label": "薄暮群嶼周邊海域",
+            "startdescription": "我們航行的海面風暴肆虐。我們要找尋的島嶼隱藏在沒有記載的歷史角落之中。我們需要<b>心</b>或<b>鑄</b>，或兩者皆需。",
             "requirements": {
                 "peril_sea": 1
             },
@@ -892,7 +892,7 @@
                 {
                     "id": "Assistance",
                     "label": "助力",
-                    "description": "资金对探险来说必不可少。追随者则会助我突破阻碍。",
+                    "description": "資金對探險來說必不可少。追隨者則會助我突破阻礙。",
                     "required": {
                         "follower": 1,
                         "funds": 1
@@ -940,8 +940,8 @@
             "requirements": {
                 "heart": 10
             },
-            "label": "我们拜请双生女巫，不可触碰之神",
-            "startdescription": "风暴因轰雷之皮而起，又因双生巫女而息。恰当的言词应该能够带我们平安驶过这片海域。",
+            "label": "我們拜請雙生女巫，不可觸碰之神",
+            "startdescription": "風暴因轟雷之皮而起，又因雙生巫女而息。恰當的言詞應該能夠帶我們平安駛過這片海域。",
             "description": ".",
             "linked": [
                 {
@@ -960,8 +960,8 @@
             "requirements": {
                 "heart": 5
             },
-            "label": "我们拜请双生女巫，不可分离之神",
-            "startdescription": "若风暴来袭，双生巫女能保我们的船员和船只无虞。大概能吧。",
+            "label": "我們拜請雙生女巫，不可分離之神",
+            "startdescription": "若風暴來襲，雙生巫女能保我們的船員和船隻無虞。大概能吧。",
             "description": ".",
             "linked": [
                 {
@@ -980,8 +980,8 @@
             "requirements": {
                 "heart": 1
             },
-            "label": "我们拜请双生女巫，身为珍珠之神",
-            "startdescription": "双生女巫并未来自于海，却行于海边。她的庇护或许已足够保护我们。",
+            "label": "我們拜請雙生女巫，身為珍珠之神",
+            "startdescription": "雙生女巫並未來自於海，卻行於海邊。她的庇護或許已足夠保護我們。",
             "description": ".",
             "linked": [
                 {
@@ -1000,8 +1000,8 @@
             "requirements": {
                 "forge": 10
             },
-            "label": "水手的确信",
-            "startdescription": "我们精通<b>铸</b>之本领。我们谅必能够成功通过。",
+            "label": "水手的確信",
+            "startdescription": "我們精通<b>鑄</b>之本領。我們諒必能夠成功通過。",
             "description": ".",
             "linked": [
                 {
@@ -1020,8 +1020,8 @@
             "requirements": {
                 "forge": 5
             },
-            "label": "水手的气力",
-            "startdescription": "我们是务实的人，擅<b>铸</b>，大概能成功。",
+            "label": "水手的氣力",
+            "startdescription": "我們是務實的人，擅<b>鑄</b>，大概能成功。",
             "description": ".",
             "linked": [
                 {
@@ -1041,7 +1041,7 @@
                 "forge": 1
             },
             "label": "水手的希望",
-            "startdescription": "<b>铸</b>相的追随者既能干又务实，但禁不住海况变化无常。我们得使出全身解数维持住航路。",
+            "startdescription": "<b>鑄</b>相的追隨者既能幹又務實，但禁不住海況變化無常。我們得使出全身解數維持住航路。",
             "description": ".",
             "linked": [
                 {
@@ -1057,8 +1057,8 @@
         {
             "id": "explorevaultperil_sea_success",
             "actionId": "explore",
-            "label": "平安驶过海域",
-            "startdescription": "被海浪拍打，海水泼溅，阳光炙烤，盐渍粘身。但是我们到了。",
+            "label": "平安駛過海域",
+            "startdescription": "被海浪拍打，海水潑濺，陽光炙烤，鹽漬黏身。但是我們到了。",
             "description": ".",
             "effects": {
                 "peril_sea": -1
@@ -1075,8 +1075,8 @@
         {
             "id": "explorevaultperil_sea_failure",
             "actionId": "explore",
-            "label": "盐水与玄武岩的迷宫",
-            "startdescription": "又是被风暴吹打的一日。我们肯定离目标不远了。然而群屿仿佛一座诱人发狂的迷宫，且我们要找的地方不存在于任何公开的海图上。",
+            "label": "鹽水與玄武岩的迷宮",
+            "startdescription": "又是被風暴吹打的一日。我們肯定離目標不遠了。然而群嶼彷彿一座誘人發狂的迷宮，且我們要找的地方不存在於任何公開的海圖上。",
             "description": ".",
             "craftable": false,
             "alt": [

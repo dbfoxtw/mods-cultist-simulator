@@ -2,8 +2,8 @@
     "elements": [
         {
             "id": "apostleforge.mentor",
-            "label": "我们的塑形者#PREVIOUSCHARACTERNAME#",
-            "description": "斯人抚育我们，造就我们；斯人在流放中等待，必将于我们带来拂晓之时再起。",
+            "label": "我們的塑形者#PREVIOUSCHARACTERNAME#",
+            "description": "斯人撫育我們，造就我們；斯人在流放中等待，必將於我們帶來拂曉之時再起。",
             "comments": "Is an acquaintance so we can hijack the cult foundation recipe.",
             "aspects": {
                 "mentor": 1
@@ -11,8 +11,8 @@
         },
         {
             "id": "legacyapostleforgejob",
-            "label": "宝地",
-            "description": "我在我们塑形者的左手上已等待太久。随我成就“大功业”之时已至。",
+            "label": "寶地",
+            "description": "我在我們塑形者的左手上已等待太久。隨我成就“大功業”之時已至。",
             "aspects": {
                 "job": 1
             },
@@ -21,7 +21,7 @@
         {
             "id": "apostleforge.pillarfuel",
             "label": "塑形者的指引",
-            "description": "到时我们需要倚仗我们的塑形者的指引，用尸骸火花铸造出破晓器核心，将<b>铸</b>之原料精炼至最终形态，将一名追随者变为塑形者的罗盘，从名为苏洛恰那的丽姬亚成员处习得钥匙，而后完成功业。但如若我们不赶紧满足他的要求，<b>恐惧</b>将随之而至。",
+            "description": "到時我們需要倚仗我們的塑形者的指引，用屍骸火花鑄造出破曉器核心，將<b>鑄</b>之原料精煉至最終形態，將一名追隨者變為塑形者的羅盤，從名為蘇洛恰那的麗姬亞成員處習得鑰匙，而後完成功業。但如若我們不趕緊滿足他的要求，<b>恐懼</b>將隨之而至。",
             "aspects": {
                 "influence": 1
             },
@@ -31,13 +31,13 @@
         },
         {
             "id": "apostleforge.pillar1",
-            "label": "破晓技术",
-            "description": "<b>塑形者言道</b>：“我须得扮演铸炉。命你放置尸骸火花于引擎之正中心，用最高等级的奥秘将其唤醒，最猛烈的炼金素材为其燃料，找到在每重历史中名字都相同的大地边缘处的破绽，将装置带到那里，连带丽姬亚成员苏洛恰那所知的咬噬之钥。唤起铸炉最猛烈的热力，使用最强大的开启之秘；而后我将目送你融解。”"
+            "label": "破曉技術",
+            "description": "<b>塑形者言道</b>：“我須得扮演鑄爐。命你放置屍骸火花於引擎之正中心，用最高等級的奧秘將其喚醒，最猛烈的煉金素材為其燃料，找到在每重歷史中名字都相同的大地邊緣處的破綻，將裝置帶到那裡，連帶麗姬亞成員蘇洛恰那所知的咬噬之鑰。喚起鑄爐最猛烈的熱力，使用最強大的開啟之秘；而後我將目送你融解。”"
         },
         {
             "id": "apostleforge.pillar2.dormant",
-            "label": "休眠中的破晓器核心",
-            "description": "由弯曲金属构成的闪耀的牢笼，禁锢着远古光明的一个小小片段，柔光四射。它说不定可以做我们拂晓的起点，如果我们能用最猛烈的炼金素材再度点燃并净化之。",
+            "label": "休眠中的破曉器核心",
+            "description": "由彎曲金屬構成的閃耀的牢籠，禁錮著遠古光明的一個小小片段，柔光四射。它說不定可以做我們拂曉的起點，如果我們能用最猛烈的煉金素材再度點燃並淨化之。",
             "aspects": {
                 "tool": 1,
                 "greatwork": 1
@@ -45,8 +45,8 @@
         },
         {
             "id": "apostleforge.pillar2",
-            "label": "破晓器核心",
-            "description": "由弯曲金属构成的发光的牢笼，囚系着太阳之火的一点小小微粒，光芒炽烈。如果我们能将其携至世界露出破绽，空气为之着彩的地方，便能带来拂晓。",
+            "label": "破曉器核心",
+            "description": "由彎曲金屬構成的發光的牢籠，囚繫着太陽之火的一點小小微粒，光芒熾烈。如果我們能將其攜至世界露出破綻，空氣為之著彩的地方，便能帶來拂曉。",
             "aspects": {
                 "tool": 1,
                 "greatwork": 1
@@ -57,8 +57,8 @@
         },
         {
             "id": "apostleforge.pillar3",
-            "label": "蓝金",
-            "description": "这是绝顶狂暴的炼金素材：它致死的蓝焰比光更迅捷。人一触即死。",
+            "label": "藍金",
+            "description": "這是絕頂狂暴的煉金素材：它致死的藍焰比光更迅捷。人一觸即死。",
             "aspects": {
                 "ingredient": 1,
                 "greatwork": 1
@@ -69,8 +69,8 @@
         },
         {
             "id": "apostleforge.pillar5",
-            "label": "E夫人的协助",
-            "description": "E夫人交给我一个小小的青铜喀迈拉头颅作为信物。待我们做好正式仪式的准备，她将怀揣她所持的钥匙前往世界的破绽处，好让漫宿在我带来黎明之时为我们的塑形者敞开大门。但她不会永远等待下去。",
+            "label": "E夫人的協助",
+            "description": "E夫人交給我一個小小的青銅喀邁拉頭顱作為信物。待我們做好正式儀式的準備，她將懷揣她所持的鑰匙前往世界的破綻處，好讓漫宿在我帶來黎明之時為我們的塑形者敞開大門。但她不會永遠等待下去。",
             "aspects": {
                 "promise": 1
             },
@@ -79,8 +79,8 @@
         },
         {
             "id": "apostleforge.pillar2.dormant.sabotaged",
-            "label": "被毁的休眠中的破晓器核心",
-            "description": "由破烂的金属胡乱缠成的圆球，禁锢着光的一点小小微粒，醉酒般上下沉浮着。我们必须在它完全崩解前将其修复！",
+            "label": "被毀的休眠中的破曉器核心",
+            "description": "由破爛的金屬胡亂纏成的圓球，禁錮著光的一點小小微粒，醉酒般上下沉浮著。我們必須在它完全崩解前將其修復！",
             "aspects": {
                 "tool": 1,
                 "greatwork.sabotaged": 1
@@ -91,8 +91,8 @@
         },
         {
             "id": "apostleforge.pillar2.sabotaged",
-            "label": "被毁的破晓器核心",
-            "description": "由爆燃的金属胡乱缠成的圆球。太阳之火的一点小小微粒在其内时断时续地颤抖着，光芒炽烈。我们必须在它完全崩解前将其修复！",
+            "label": "被毀的破曉器核心",
+            "description": "由爆燃的金屬胡亂纏成的圓球。太陽之火的一點小小微粒在其內時斷時續地顫抖著，光芒熾烈。我們必須在它完全崩解前將其修復！",
             "aspects": {
                 "tool": 1,
                 "greatwork.sabotaged": 1
@@ -103,8 +103,8 @@
         },
         {
             "id": "apostleforge.pillar3.sabotaged",
-            "label": "不稳定的蓝金",
-            "description": "一种中了毒，一直发出怪响的高能素材锭。我们必须安抚住它的怒火，要快！",
+            "label": "不穩定的藍金",
+            "description": "一種中了毒，一直發出怪響的高能素材錠。我們必須安撫住它的怒火，要快！",
             "aspects": {
                 "ingredient": 1,
                 "greatwork.sabotaged": 1
@@ -115,8 +115,8 @@
         },
         {
             "id": "apostlegrail.mentor",
-            "label": "我们的愉悦者#PREVIOUSCHARACTERNAME#",
-            "description": "我们以之为甘露和欢乐之源者，斯人静待于放逐之途，直到最盛大的筵宴——“谢肉祭”来临。",
+            "label": "我們的愉悅者#PREVIOUSCHARACTERNAME#",
+            "description": "我們以之為甘露和歡樂之源者，斯人靜待於放逐之途，直到最盛大的筵宴——“謝肉祭”來臨。",
             "comments": "Is an acquaintance so we can hijack the cult foundation recipe.",
             "aspects": {
                 "mentor": 1
@@ -124,8 +124,8 @@
         },
         {
             "id": "legacyapostlegrailjob",
-            "label": "职责与愉悦",
-            "description": "赐我们愉悦者救我免于死亡，免于无趣。我们应为他献上一切。",
+            "label": "職責與愉悅",
+            "description": "賜我們愉悅者救我免於死亡，免於無趣。我們應為他獻上一切。",
             "aspects": {
                 "job": 1
             },
@@ -133,8 +133,8 @@
         },
         {
             "id": "apostlegrail.pillarfuel",
-            "label": "悦人之血",
-            "description": "我得到了一小瓶我们愉悦者的血液。我们的愉悦者在里面留下了以微小的细胞为文字的指示。我们可以口尝到他，如同他可以尝到我们。如果我们浪费这血，我们的愉悦者将震怒。",
+            "label": "悅人之血",
+            "description": "我得到了一小瓶我們愉悅者的血液。我們的愉悅者在裡面留下了以微小的細胞為文字的指示。我們可以口嚐到他，如同他可以嚐到我們。如果我們浪費這血，我們的愉悅者將震怒。",
             "aspects": {
                 "ingredient": 1,
                 "grail": 3,
@@ -146,16 +146,16 @@
         },
         {
             "id": "apostlegrail.pillar1",
-            "label": "谢肉祭的食谱",
-            "description": "“愉悦者当给予生命；愉悦者当夺取生命；愉悦者当永无餍足。我们须采购隐秘的滋味，将其以司辰的赐物浸渍；我们须聚集宴主；须于大吉之时，以无人能敌的声音高呼不休之秘，并用低语之觚共饮。”",
+            "label": "謝肉祭的食譜",
+            "description": "“愉悅者當給予生命；愉悅者當奪取生命；愉悅者當永無饜足。我們須採購隱秘的滋味，將其以司辰的賜物浸漬；我們須聚集宴主；須於大吉之時，以無人能敵的聲音高呼不休之秘，並用低語之觚共飲。”",
             "aspects": {
                 "lore": 1
             }
         },
         {
             "id": "apostlegrail.pillar2.dormant",
-            "label": "无助之血",
-            "description": "我生了一种病。我的血液有恙，筋骨不适。我会死去。不过若得了我们愉悦者的圣血，我或许能延命无虞。",
+            "label": "無助之血",
+            "description": "我生了一種病。我的血液有恙，筋骨不適。我會死去。不過若得了我們愉悅者的聖血，我或許能延命無虞。",
             "aspects": {
                 "illhealth": 1
             },
@@ -173,7 +173,7 @@
         {
             "id": "apostlegrail.pillar2",
             "label": "醇味之血",
-            "description": "我现在和悦人者流着相同的血。只要我的血管有他滋味的庇佑，病症便不能侵蚀于我。若离了他的恩泽，我会死去。",
+            "description": "我現在和悅人者流著相同的血。只要我的血管有他滋味的庇佑，病症便不能侵蝕於我。若離了他的恩澤，我會死去。",
             "aspects": {
                 "promise": 1
             },
@@ -183,7 +183,7 @@
         {
             "id": "apostlegrail.pillar3",
             "label": "七重庇佑",
-            "description": "某稀奇古怪的“T.R.N.有限公司之香料与风味分部”一贯致力于为我们这样的顾客提供餐饮服务。他们将这些诱人的食材运来，点缀装盘则由我们亲手操办……在将食材送进密不透风、昏暗无光的厨房处理妥当之后。",
+            "description": "某稀奇古怪的“T.R.N.有限公司之香料與風味分部”一貫致力於為我們這樣的顧客提供餐飲服務。他們將這些誘人的食材運來，點綴裝盤則由我們親手操辦……在將食材送進密不透風、昏暗無光的廚房處理妥當之後。",
             "aspects": {
                 "ingredient": 1,
                 "job": 1,
@@ -193,7 +193,7 @@
         {
             "id": "apostlegrail.pillar4.inprogress1",
             "label": "第一部分宴主",
-            "description": "我们钓到几个醉心食色性之人。他们为一场官能盛宴而来。",
+            "description": "我們釣到幾個醉心食色性之人。他們為一場官能盛宴而來。",
             "aspects": {
                 "summoned": 1
             },
@@ -207,7 +207,7 @@
         {
             "id": "apostlegrail.pillar4.inprogress2",
             "label": "第二部分宴主",
-            "description": "消息传开。好奇心和食欲会驱使陌生人参加我们的谢肉祭。",
+            "description": "消息傳開。好奇心和食慾會驅使陌生人參加我們的謝肉祭。",
             "aspects": {
                 "summoned": 1
             },
@@ -222,7 +222,7 @@
         {
             "id": "apostlegrail.pillar4.inprogress3",
             "label": "第三部分宴主",
-            "description": "零星前来的脏兮兮的精神病态之人与好打听之人。",
+            "description": "零星前來的髒兮兮的精神病態之人與好打聽之人。",
             "aspects": {
                 "summoned": 1
             },
@@ -237,7 +237,7 @@
         {
             "id": "apostlegrail.pillar4.inprogress4",
             "label": "第四部分宴主",
-            "description": "饥饿之人、贪婪之人、好奇之人，都收到了我们的请柬。",
+            "description": "飢餓之人、貪婪之人、好奇之人，都收到了我們的請柬。",
             "aspects": {
                 "summoned": 1
             },
@@ -252,7 +252,7 @@
         {
             "id": "apostlegrail.pillar4.inprogress5",
             "label": "第五部分宴主",
-            "description": "如今谢肉祭的大名在所有嗜肉的口舌间暗暗传扬。",
+            "description": "如今謝肉祭的大名在所有嗜肉的口舌間暗暗傳揚。",
             "aspects": {
                 "summoned": 1
             },
@@ -267,7 +267,7 @@
         {
             "id": "apostlegrail.pillar4.inprogress6",
             "label": "第六部分宴主",
-            "description": "时间一到，宾客会如鼠群般涌来。",
+            "description": "時間一到，賓客會如鼠群般湧來。",
             "aspects": {
                 "summoned": 1
             },
@@ -281,8 +281,8 @@
         },
         {
             "id": "apostlegrail.pillar4.inprogress7",
-            "label": "聚齐宴主",
-            "description": "我们只等持钥匙者前来，于我们的愉悦者扮演赤杯时打开王皮之门。",
+            "label": "聚齊宴主",
+            "description": "我們只等持鑰匙者前來，於我們的愉悅者扮演赤杯時打開王皮之門。",
             "aspects": {
                 "summoned": 1
             },
@@ -295,16 +295,16 @@
         },
         {
             "id": "apostlegrail.pillar4",
-            "label": "东道主与宾客",
-            "description": "一声令下，大批宴主即集合一处，死命瞪大眼睛——张大嘴巴——来飨食与被食——吸去我身上我们愉悦者的血。属于我们的愉悦将指引他们宴饮，操线仙娥则将拧转钥匙。",
+            "label": "東道主與賓客",
+            "description": "一聲令下，大批宴主即集合一處，死命瞪大眼睛——張大嘴巴——來饗食與被食——吸去我身上我們愉悅者的血。屬於我們的愉悅將指引他們宴飲，操線仙娥則將擰轉鑰匙。",
             "aspects": {
                 "summoned": 1
             }
         },
         {
             "id": "apostlelantern.mentor",
-            "label": "我们的沐光明者#PREVIOUSCHARACTERNAME#",
-            "description": "我们的物质源头，精神源头，现居于漫宿者。",
+            "label": "我們的沐光明者#PREVIOUSCHARACTERNAME#",
+            "description": "我們的物質源頭，精神源頭，現居於漫宿者。",
             "comments": "Is an acquaintance so we can hijack the cult foundation recipe.",
             "aspects": {
                 "mentor": 1
@@ -312,8 +312,8 @@
         },
         {
             "id": "legacyapostlelanternjob",
-            "label": "最初的梦境",
-            "description": "这些梦将我掏空，如一颗枯萎的橡树。现在我已大体做好准备。",
+            "label": "最初的夢境",
+            "description": "這些夢將我掏空，如一顆枯萎的橡樹。現在我已大體做好準備。",
             "aspects": {
                 "job": 1
             },
@@ -321,8 +321,8 @@
         },
         {
             "id": "apostlelantern.pillarfuel",
-            "label": "关于钥匙的梦境",
-            "description": "又是这个梦。这是给我，还有另外某人的指示，如果我能寻到他的话。它将领我进入漫宿。它将告诉我该做什么。对于那些对辉光有所了解的人来说，它是触及真正钥匙的前兆。",
+            "label": "關於鑰匙的夢境",
+            "description": "又是這個夢。這是給我，還有另外某人的指示，如果我能尋到他的話。它將領我進入漫宿。它將告訴我該做什麼。對於那些對輝光有所了解的人來說，它是觸及真正鑰匙的前兆。",
             "lifetime": 60,
             "aspects": {
                 "tool": 1
@@ -332,8 +332,8 @@
         },
         {
             "id": "apostlelantern.pillar1",
-            "label": "第三态",
-            "description": "“我们指引前路，我们照明驱暗，我们无有怜悯之心。令你寻找眼睛之门背后的十字路，在彼处育植诱饵，派遣银白色的死者带来凡人睡去的灵魂。待见证者数足，召来白日之钥，将三瓣之门‘向外’敞开，即，使它处于第三态。”",
+            "label": "第三態",
+            "description": "“我們指引前路，我們照明驅暗，我們無有憐憫之心。令你尋找眼睛之門背後的十字路，在彼處育植誘餌，派遣銀白色的死者帶來凡人睡去的靈魂。待見證者數足，召來白日之鑰，將三瓣之門‘向外’敞開，即，使它處於第三態。”",
             "aspects": {
                 "tool": 1
             }
@@ -344,7 +344,7 @@
             "slots": [
                 {
                     "id": "keydream",
-                    "label": "关于钥匙的梦境",
+                    "label": "關於鑰匙的夢境",
                     "required": {
                         "apostlelantern.pillarfuel": 1
                     },
@@ -352,14 +352,14 @@
                 },
                 {
                     "id": "lanterninfluence",
-                    "label": "关于光的梦境",
+                    "label": "關於光的夢境",
                     "required": {
                         "influencelanterng": 1
                     },
                     "actionId": "dream"
                 }
             ],
-            "description": "一双相互盘结的小路藏在树影之下，还有三尖之门的那只眼睛，在临近刀刃阶梯顶端的地方。是聚点的阴影？倒影？还是它的姐妹？",
+            "description": "一雙相互盤結的小路藏在樹影之下，還有三尖之門的那隻眼睛，在臨近刀刃階梯頂端的地方。是聚點的陰影？倒影？還是它的姐妹？",
             "aspects": {
                 "way": 1
             },
@@ -367,18 +367,18 @@
         },
         {
             "id": "apostlelantern.pillar3",
-            "label": "诱饵",
+            "label": "誘餌",
             "slots": [
                 {
                     "id": "fascination",
-                    "label": "垂钩待鱼来",
+                    "label": "垂鈎待魚來",
                     "required": {
                         "fascination": 1
                     },
                     "actionId": "study"
                 }
             ],
-            "description": "一旦被人瞧见，诱饵便会紧抓不放。没有几个活着的灵魂能如此深入漫宿。我必须找来一名镜中少女助我，先将诱饵拿给她看，她才会带灵魂来此。",
+            "description": "一旦被人瞧見，誘餌便會緊抓不放。沒有幾個活著的靈魂能如此深入漫宿。我必須找來一名鏡中少女助我，先將誘餌拿給她看，她才會帶靈魂來此。",
             "aspects": {
                 "influence": 1
             },
@@ -389,8 +389,8 @@
         },
         {
             "id": "apostlelantern.pillar4.inprogress1",
-            "label": "见证者：寻七得一",
-            "description": "一个孤影，在诱饵的金光与漫宿的蓝光笼罩下的十字路上游荡。",
+            "label": "見證者：尋七得一",
+            "description": "一個孤影，在誘餌的金光與漫宿的藍光籠罩下的十字路上遊蕩。",
             "aspects": {
                 "summoned": 1
             },
@@ -404,8 +404,8 @@
         },
         {
             "id": "apostlelantern.pillar4.inprogress2",
-            "label": "见证者：寻七得二",
-            "description": "一对见证者，在诱饵的金光与漫宿的蓝光笼罩下的十字路上游荡。",
+            "label": "見證者：尋七得二",
+            "description": "一對見證者，在誘餌的金光與漫宿的藍光籠罩下的十字路上遊蕩。",
             "aspects": {
                 "summoned": 1
             },
@@ -420,8 +420,8 @@
         },
         {
             "id": "apostlelantern.pillar4.inprogress3",
-            "label": "见证者：寻七得三",
-            "description": "他们的面孔变得前所未有的空洞，然而他们执起了彼此的双手。",
+            "label": "見證者：尋七得三",
+            "description": "他們的面孔變得前所未有的空洞，然而他們執起了彼此的雙手。",
             "aspects": {
                 "summoned": 1
             },
@@ -436,8 +436,8 @@
         },
         {
             "id": "apostlelantern.pillar4.inprogress4",
-            "label": "见证者：寻七得四",
-            "description": "光明将他们的颜色漂尽，但他们的天性注定其将随某一时刻临近而生出斑纹。",
+            "label": "見證者：尋七得四",
+            "description": "光明將他們的顏色漂盡，但他們的天性注定其將隨某一時刻臨近而生出斑紋。",
             "aspects": {
                 "summoned": 1
             },
@@ -452,8 +452,8 @@
         },
         {
             "id": "apostlelantern.pillar4.inprogress5",
-            "label": "见证者：寻七得五",
-            "description": "五名见证者等待着将会渐次长大，但永不会成熟的果实。",
+            "label": "見證者：尋七得五",
+            "description": "五名見證者等待著將會漸次長大，但永不會成熟的果實。",
             "aspects": {
                 "summoned": 1
             },
@@ -468,8 +468,8 @@
         },
         {
             "id": "apostlelantern.pillar4.inprogress6",
-            "label": "见证者：寻七得六",
-            "description": "气氛痛苦至极。他们无法移开视线。",
+            "label": "見證者：尋七得六",
+            "description": "氣氛痛苦至極。他們無法移開視線。",
             "aspects": {
                 "summoned": 1
             },
@@ -484,8 +484,8 @@
         },
         {
             "id": "apostlelantern.pillar4",
-            "label": "盘桓云集的见证者",
-            "description": "七名无声的灵魂轻柔地向发光之源头致以祈求。",
+            "label": "盤桓雲集的見證者",
+            "description": "七名無聲的靈魂輕柔地向發光之源頭致以祈求。",
             "aspects": {
                 "summoned": 1
             }

@@ -21,14 +21,14 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "对世界的表皮施以压力，它便会像熟透果实的表皮一样崩裂。[以<b>启</b>研究的影响亦将成为<b>启</b>。]",
+            "startdescription": "對世界的表皮施以壓力，它便會像熟透果實的表皮一樣崩裂。[以<b>啟</b>研究的影響亦將成為<b>啟</b>。]",
             "description": ".",
             "warmup": 5,
             "craftable": true
         },
         {
             "id": "studyupgradeinfluence_edge",
-            "label": "寻找对抗最激烈的一刻",
+            "label": "尋找對抗最激烈的一刻",
             "actionId": "study",
             "requirements": {
                 "influence": 2,
@@ -57,14 +57,14 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "一切重大抗争皆以死亡告终。[升级<b>刃</b>之影响。]",
+            "startdescription": "一切重大抗爭皆以死亡告終。[升級<b>刃</b>之影響。]",
             "description": ".",
             "warmup": 5,
             "craftable": true
         },
         {
             "id": "studysubvertinfluence_edgetowinter",
-            "label": "拗转刃之影响",
+            "label": "拗轉刃之影響",
             "actionId": "study",
             "requirements": {
                 "influence": 2,
@@ -91,14 +91,14 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "万事皆有终结。我将思忖耐心胜于蛮力的道理。[产生<b>冬</b>之影响，而不是<b>刃</b>。]",
+            "startdescription": "萬事皆有終結。我將思忖耐心勝於蠻力的道理。[產生<b>冬</b>之影響，而不是<b>刃</b>。]",
             "description": ".",
             "warmup": 5,
             "craftable": true
         },
         {
             "id": "studyforgeinfluence",
-            "label": "积攒更猛的热力",
+            "label": "積攢更猛的熱力",
             "actionId": "study",
             "requirements": {
                 "influence": 2,
@@ -120,13 +120,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "柴薪越多，火焰越旺。[升级<b>铸</b>之影响。]",
+            "startdescription": "柴薪越多，火焰越旺。[升級<b>鑄</b>之影響。]",
             "warmup": 5,
             "craftable": true
         },
         {
             "id": "studysubvertinfluence_forgetoedge",
-            "label": "拗转铸之影响",
+            "label": "拗轉鑄之影響",
             "actionId": "study",
             "requirements": {
                 "influence": 2,
@@ -146,13 +146,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "名为狮子匠的司辰打碎其剑，以此逃脱其主的支配。只要拥有足够的武力，万事万物皆可被战胜。[产生<b>刃</b>之影响，而不是<b>铸</b>。]",
+            "startdescription": "名為獅子匠的司辰打碎其劍，以此逃脫其主的支配。只要擁有足夠的武力，萬事萬物皆可被戰勝。[產生<b>刃</b>之影響，而不是<b>鑄</b>。]",
             "warmup": 5,
             "craftable": true
         },
         {
             "id": "studygrailinfluence",
-            "label": "统合食欲",
+            "label": "統合食慾",
             "actionId": "study",
             "requirements": {
                 "influence": 2,
@@ -174,13 +174,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "若遵循欲望至其根源，还将寻见藏于其下的欲望。[升级<b>杯</b>之影响。]",
+            "startdescription": "若遵循欲望至其根源，還將尋見藏於其下的欲望。[升級<b>杯</b>之影響。]",
             "warmup": 5,
             "craftable": true
         },
         {
             "id": "studysubvertinfluence_grailtomoth",
-            "label": "拗转杯之影响",
+            "label": "拗轉杯之影響",
             "actionId": "study",
             "requirements": {
                 "influence": 2,
@@ -200,13 +200,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "据说杯诞生于第一场献祭。然而蛾知道真相并非如此。[产生<b>蛾</b>之影响，而不是<b>杯</b>。]",
+            "startdescription": "據說杯誕生於第一場獻祭。然而蛾知道真相併非如此。[產生<b>蛾</b>之影響，而不是<b>杯</b>。]",
             "warmup": 5,
             "craftable": true
         },
         {
             "id": "studyheartinfluence",
-            "label": "穿插不休的节拍",
+            "label": "穿插不休的節拍",
             "actionId": "study",
             "requirements": {
                 "influence": 2,
@@ -228,13 +228,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "所有解剖家、舞蹈家和萨满都要学的一课。[升级<b>心</b>之影响。]",
+            "startdescription": "所有解剖家、舞蹈家和薩滿都要學的一課。[升級<b>心</b>之影響。]",
             "warmup": 5,
             "craftable": true
         },
         {
             "id": "studysubvertinfluence_hearttograil",
-            "label": "拗转心之影响",
+            "label": "拗轉心之影響",
             "actionId": "study",
             "requirements": {
                 "influence": 2,
@@ -254,13 +254,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "不休之物终将屈从于诱惑。[产生<b>杯</b>之影响，而不是<b>心</b>。]",
+            "startdescription": "不休之物終將屈從於誘惑。[產生<b>杯</b>之影響，而不是<b>心</b>。]",
             "warmup": 5,
             "craftable": true
         },
         {
             "id": "studylanterninfluence",
-            "label": "调和光度",
+            "label": "調和光度",
             "actionId": "study",
             "requirements": {
                 "influence": 2,
@@ -282,13 +282,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "于镜像交错、影子分离处，太阳金色的血液稠密已极。[升级<b>灯</b>之影响。]",
+            "startdescription": "於鏡像交錯、影子分離處，太陽金色的血液稠密已極。[升級<b>燈</b>之影響。]",
             "warmup": 5,
             "craftable": true
         },
         {
             "id": "studysubvertinfluence_lanterntoforge",
-            "label": "拗转灯之影响",
+            "label": "拗轉燈之影響",
             "actionId": "study",
             "requirements": {
                 "influence": 2,
@@ -308,13 +308,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "术士朱利安·科赛利声称白日铸炉分裂了太阳。也许他是对的。[产生<b>铸</b>之影响，而不是<b>灯</b>。]",
+            "startdescription": "術士朱利安·科賽利聲稱白日鑄爐分裂了太陽。也許他是對的。[產生<b>鑄</b>之影響，而不是<b>燈</b>。]",
             "warmup": 5,
             "craftable": true
         },
         {
             "id": "studymothinfluence",
-            "label": "拥抱危险的可能性",
+            "label": "擁抱危險的可能性",
             "actionId": "study",
             "requirements": {
                 "influence": 2,
@@ -343,13 +343,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "我于此背离我所明晓的事物。[升级<b>蛾</b>之影响。]",
+            "startdescription": "我於此背離我所明曉的事物。[升級<b>蛾</b>之影響。]",
             "warmup": 5,
             "craftable": true
         },
         {
             "id": "studysubvertinfluence_mothtolantern",
-            "label": "拗转蛾之影响",
+            "label": "拗轉蛾之影響",
             "actionId": "study",
             "requirements": {
                 "influence": 2,
@@ -376,13 +376,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "辉光是一个疑问，飞蛾总以肯定作答。[产生<b>灯</b>之影响，而不是<b>蛾</b>。]",
+            "startdescription": "輝光是一個疑問，飛蛾總以肯定作答。[產生<b>燈</b>之影響，而不是<b>蛾</b>。]",
             "warmup": 5,
             "craftable": true
         },
         {
             "id": "studywinterinfluence",
-            "label": "加深寂静",
+            "label": "加深寂靜",
             "actionId": "study",
             "requirements": {
                 "influence": 2,
@@ -403,13 +403,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "寂静等在世界以西，但并非永远。[升级<b>冬</b>之影响。]",
+            "startdescription": "寂靜等在世界以西，但並非永遠。[升級<b>冬</b>之影響。]",
             "warmup": 5,
             "craftable": true
         },
         {
             "id": "subvertwinterinfluence",
-            "label": "拗转冬之影响",
+            "label": "拗轉冬之影響",
             "actionId": "study",
             "requirements": {
                 "influence": 2,
@@ -429,18 +429,18 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "纵使在雪，在静默中，在没有色彩的纯白中，生命亦不尽休止。[产生<b>心</b>之影响，而不是<b>冬</b>。]",
+            "startdescription": "縱使在雪，在靜默中，在沒有色彩的純白中，生命亦不盡休止。[產生<b>心</b>之影響，而不是<b>冬</b>。]",
             "warmup": 5,
             "craftable": true
         },
         {
             "id": "studyinfluence_effectproject",
-            "label": "达成结果之刻",
+            "label": "達成結果之刻",
             "actionId": "study",
             "requirements": {
                 "influence": 2
             },
-            "startdescription": "效力与潜能相和——",
+            "startdescription": "效力與潛能相和——",
             "warmup": 5,
             "linked": [
                 {
@@ -507,7 +507,7 @@
         },
         {
             "id": "studyproject_influence_upgrade_edge",
-            "label": "更激烈的对抗",
+            "label": "更激烈的對抗",
             "actionId": "study",
             "requirements": {
                 "project_influence_upgrade_edge": 1
@@ -521,11 +521,11 @@
             "aspects": {
                 "upgradeinfluence": 1
             },
-            "description": "我强化了<b>刃</b>之影响。"
+            "description": "我強化了<b>刃</b>之影響。"
         },
         {
             "id": "studyproject_influence_upgrade_forge",
-            "label": "更剧烈的热力",
+            "label": "更劇烈的熱力",
             "actionId": "study",
             "requirements": {
                 "project_influence_upgrade_forge": 1
@@ -539,11 +539,11 @@
             "aspects": {
                 "upgradeinfluence": 1
             },
-            "description": "我强化了<b>铸</b>之影响。"
+            "description": "我強化了<b>鑄</b>之影響。"
         },
         {
             "id": "studyproject_influence_upgrade_grail",
-            "label": "更强烈的食欲",
+            "label": "更強烈的食慾",
             "actionId": "study",
             "requirements": {
                 "project_influence_upgrade_grail": 1
@@ -557,11 +557,11 @@
             "aspects": {
                 "upgradeinfluence": 1
             },
-            "description": "我强化了<b>杯</b>之影响。"
+            "description": "我強化了<b>杯</b>之影響。"
         },
         {
             "id": "studyproject_influence_upgrade_heart",
-            "label": "不休的节拍",
+            "label": "不休的節拍",
             "actionId": "study",
             "requirements": {
                 "project_influence_upgrade_heart": 1
@@ -575,7 +575,7 @@
             "aspects": {
                 "upgradeinfluence": 1
             },
-            "description": "我强化了<b>心</b>之影响。"
+            "description": "我強化了<b>心</b>之影響。"
         },
         {
             "id": "studyproject_influence_upgrade_lantern",
@@ -593,7 +593,7 @@
             "aspects": {
                 "upgradeinfluence": 1
             },
-            "description": "我强化了<b>灯</b>之影响。"
+            "description": "我強化了<b>燈</b>之影響。"
         },
         {
             "id": "studyproject_influence_upgrade_moth",
@@ -611,11 +611,11 @@
             "aspects": {
                 "upgradeinfluence": 1
             },
-            "description": "我强化了<b>蛾</b>之影响。"
+            "description": "我強化了<b>蛾</b>之影響。"
         },
         {
             "id": "studyproject_influence_upgrade_winter",
-            "label": "寂静之地",
+            "label": "寂靜之地",
             "actionId": "study",
             "requirements": {
                 "project_influence_upgrade_winter": 1
@@ -629,11 +629,11 @@
             "aspects": {
                 "upgradeinfluence": 1
             },
-            "description": "我强化了<b>冬</b>之影响。"
+            "description": "我強化了<b>冬</b>之影響。"
         },
         {
             "id": "studyproject_influence_subvert_edgetowinter",
-            "label": "万事皆有终结",
+            "label": "萬事皆有終結",
             "actionId": "study",
             "requirements": {
                 "project_influence_subvert_edgetowinter": 1
@@ -647,11 +647,11 @@
             "aspects": {
                 "upgradeinfluence": 1
             },
-            "description": "耐心胜过蛮力。"
+            "description": "耐心勝過蠻力。"
         },
         {
             "id": "studyproject_influence_subvert_forgetoedge",
-            "label": "武力征服万物",
+            "label": "武力征服萬物",
             "actionId": "study",
             "requirements": {
                 "project_influence_subvert_forgetoedge": 1
@@ -669,7 +669,7 @@
         },
         {
             "id": "studyproject_influence_subvert_grailtomoth",
-            "label": "欲令智昏",
+            "label": "慾令智昏",
             "actionId": "study",
             "requirements": {
                 "project_influence_subvert_grailtomoth": 1
@@ -683,11 +683,11 @@
             "aspects": {
                 "upgradeinfluence": 1
             },
-            "description": "即使是赤杯也深受脑中低语之害。"
+            "description": "即使是赤杯也深受腦中低語之害。"
         },
         {
             "id": "studyproject_influence_subvert_hearttograil",
-            "label": "不休之物终将屈服",
+            "label": "不休之物終將屈服",
             "actionId": "study",
             "requirements": {
                 "project_influence_subvert_hearttograil": 1
@@ -701,11 +701,11 @@
             "aspects": {
                 "upgradeinfluence": 1
             },
-            "description": "一切有生之物必将被饥饿压垮"
+            "description": "一切有生之物必將被飢餓壓垮"
         },
         {
             "id": "studyproject_influence_subvert_lanterntoforge",
-            "label": "午时日落",
+            "label": "午時日落",
             "actionId": "study",
             "requirements": {
                 "project_influence_subvert_lanterntoforge": 1
@@ -719,11 +719,11 @@
             "aspects": {
                 "upgradeinfluence": 1
             },
-            "description": "光让位于热。"
+            "description": "光讓位於熱。"
         },
         {
             "id": "studyproject_influence_subvert_mothtolantern",
-            "label": "凌驾万物之光",
+            "label": "凌駕萬物之光",
             "actionId": "study",
             "requirements": {
                 "project_influence_subvert_mothtolantern": 1
@@ -737,11 +737,11 @@
             "aspects": {
                 "upgradeinfluence": 1
             },
-            "description": "辉光是一个疑问，飞蛾总以肯定作答。"
+            "description": "輝光是一個疑問，飛蛾總以肯定作答。"
         },
         {
             "id": "studyproject_influence_subvert_wintertoheart",
-            "label": "生机暗涌",
+            "label": "生機暗湧",
             "actionId": "study",
             "requirements": {
                 "project_influence_subvert_wintertoheart": 1
@@ -755,7 +755,7 @@
             "aspects": {
                 "upgradeinfluence": 1
             },
-            "description": "严冬终将让位于春。"
+            "description": "嚴冬終將讓位於春。"
         },
         {
             "id": "studyproject_influence_upgrade_subvert_knock",
@@ -797,7 +797,7 @@
             "aspects": {
                 "upgradeinfluence": 1
             },
-            "description": "在脆弱处施压，撕开世界的表皮。",
+            "description": "在脆弱處施壓，撕開世界的表皮。",
             "linked": [
                 {
                     "id": "studyproject_influence_upgrade_subvert_knock_remove_spare_knock",
@@ -807,7 +807,7 @@
         },
         {
             "id": "studyproject_influence_upgrade_subvert_knock_remove_spare_knock",
-            "label": "万物均将开启",
+            "label": "萬物均將開啟",
             "comments": "This exists to remove a Knock influence, if we were combining Knock influences rather than Knock + another. Dangit Kennedy you wouldn't need hacks like this if you'd implemented OR conditions. Aspects don't *quite* always cut it.",
             "actionId": "study",
             "requirements": {

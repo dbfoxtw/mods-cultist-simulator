@@ -2,71 +2,71 @@
     "recipes": [
         {
             "id": "explore_movehq_hint",
-            "label": "改变场所？",
+            "label": "改變場所？",
             "actionId": "explore",
             "requirements": {
                 "hq.potential": 1
             },
-            "startdescription": "我们可以将我们的总部搬到这里，如果我们如此决定的话。",
+            "startdescription": "我們可以將我們的總部搬到這裡，如果我們如此決定的話。",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "explorevault_hint_sending",
-            "label": "第二个自我？",
+            "label": "第二個自我？",
             "actionId": "explore",
             "requirements": {
                 "vault": 1,
                 "sending": 1
             },
-            "startdescription": "如果这次探索成功，非我之我会代我实现形体。[如果成功，除了收获一般的奖赏，还会在蜕变飞升上更进一步。]",
+            "startdescription": "如果這次探索成功，非我之我會代我實現形體。[如果成功，除了收穫一般的獎賞，還會在蛻變飛升上更進一步。]",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "explorevault_hint_addfunds",
-            "label": "为探险做准备？",
+            "label": "為探險做準備？",
             "actionId": "explore",
             "requirements": {
                 "vault": 1,
                 "follower": 1
             },
-            "startdescription": "如果我投入至少一份资金，我就可以开始探险了。[探险时，突破一个阻碍需消耗至少一份资金；阻碍由追随者负责突破。资金或追随者耗尽时，探险将终止。]",
+            "startdescription": "如果我投入至少一份資金，我就可以開始探險了。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "explorevault_hint_addfollower",
-            "label": "为探险做准备？",
+            "label": "為探險做準備？",
             "actionId": "explore",
             "requirements": {
                 "vault": 1,
                 "funds": 1
             },
-            "startdescription": "如果我派遣至少一名追随者，我就可以开始探险了。[探险时，突破一个阻碍需消耗至少一份资金；阻碍由追随者负责突破。资金或追随者耗尽时，探险将终止。]",
+            "startdescription": "如果我派遣至少一名追隨者，我就可以開始探險了。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "explorevault_hint",
-            "label": "为探险做准备？",
+            "label": "為探險做準備？",
             "actionId": "explore",
             "requirements": {
                 "vault": 1
             },
-            "startdescription": "我可以派出一支探险队前往这里寻找书籍、宝藏以及存有法力的工具。但我需要可供派遣的追随者，和用来供给他们的资金。",
+            "startdescription": "我可以派出一支探險隊前往這裡尋找書籍、寶藏以及存有法力的工具。但我需要可供派遣的追隨者，和用來供給他們的資金。",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "exploresulochanacabaret_hint",
-            "label": "旧的形体与新的",
+            "label": "舊的形體與新的",
             "actionId": "explore",
             "requirements": {
                 "locationcabaret": 1,
                 "sulochana": 1
             },
-            "startdescription": "[如果你有舞者扩展包，你可以使用这项组合来在蜕衣俱乐部谋得一份工作，并追求蜕变飞升。]",
+            "startdescription": "[如果你有舞者擴展包，你可以使用這項組合來在蛻衣俱樂部謀得一份工作，並追求蛻變飛升。]",
             "hintonly": true,
             "craftable": false
         },
@@ -77,7 +77,7 @@
                 "location.cemetery": 1
             },
             "label": "掘墓？",
-            "startdescription": "我需要运用自己的力气，或者用朋友的。",
+            "startdescription": "我需要運用自己的力氣，或者用朋友的。",
             "craftable": false,
             "hintonly": true
         },
@@ -87,8 +87,8 @@
             "requirements": {
                 "location.cemetery.closing": 1
             },
-            "label": "小心谨慎地掘墓？",
-            "startdescription": "我需要运用自己的力气，或者用朋友的。",
+            "label": "小心謹慎地掘墓？",
+            "startdescription": "我需要運用自己的力氣，或者用朋友的。",
             "craftable": false,
             "hintonly": true
         }

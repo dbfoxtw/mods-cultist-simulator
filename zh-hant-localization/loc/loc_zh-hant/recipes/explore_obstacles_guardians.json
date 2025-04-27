@@ -4,7 +4,7 @@
             "id": "explorevaultguardian_serpent_encounter",
             "actionId": "explore",
             "label": "幼妹：巨蛇",
-            "startdescription": "巨蛇摆动着硕大的头，紧紧地盯着我们。没有<b>刃</b>和<b>启</b>，我们无法战胜它。",
+            "startdescription": "巨蛇擺動著碩大的頭，緊緊地盯著我們。沒有<b>刃</b>和<b>啟</b>，我們無法戰勝它。",
             "requirements": {
                 "guardian_serpent": 1
             },
@@ -12,7 +12,7 @@
                 {
                     "id": "Assistance",
                     "label": "助力",
-                    "description": "资金对探险来说必不可少。追随者则会助我突破阻碍。",
+                    "description": "資金對探險來說必不可少。追隨者則會助我突破阻礙。",
                     "required": {
                         "follower": 1,
                         "funds": 1
@@ -60,8 +60,8 @@
             "requirements": {
                 "edge": 10
             },
-            "label": "我们的力量无人能及。",
-            "startdescription": "目若汽灯，鳞似墨玉。巨蛇乃是强敌，但我们势不可挡。",
+            "label": "我們的力量無人能及。",
+            "startdescription": "目若汽燈，鱗似墨玉。巨蛇乃是強敵，但我們勢不可擋。",
             "description": ".",
             "linked": [
                 {
@@ -80,8 +80,8 @@
             "requirements": {
                 "edge": 5
             },
-            "label": "我们的力量不容小觑。",
-            "startdescription": "目似汽灯，齿若石笋。巨蛇乃是强敌，但我们于之亦如是。",
+            "label": "我們的力量不容小覷。",
+            "startdescription": "目似汽燈，齒若石筍。巨蛇乃是強敵，但我們於之亦如是。",
             "description": ".",
             "linked": [
                 {
@@ -100,8 +100,8 @@
             "requirements": {
                 "edge": 1
             },
-            "label": "我们的力量不足。",
-            "startdescription": "目似汽灯，口若血盆。我们或许能战胜这巨蛇，又或许会为挑战了它深感后悔。",
+            "label": "我們的力量不足。",
+            "startdescription": "目似汽燈，口若血盆。我們或許能戰勝這巨蛇，又或許會為挑戰了它深感後悔。",
             "description": ".",
             "linked": [
                 {
@@ -120,8 +120,8 @@
             "requirements": {
                 "knock": 10
             },
-            "label": "我们拜请蚁母，自创口现身之神",
-            "startdescription": "巨蛇之口足以吞人，其舌之厚堪比人的肩膀。不过谅必它不会小瞧我们的力量。",
+            "label": "我們拜請蟻母，自創口現身之神",
+            "startdescription": "巨蛇之口足以吞人，其舌之厚堪比人的肩膀。不過諒必它不會小瞧我們的力量。",
             "description": ".",
             "linked": [
                 {
@@ -140,8 +140,8 @@
             "requirements": {
                 "knock": 5
             },
-            "label": "我们拜请蚁母，盘伏环绕之神",
-            "startdescription": "巨蛇齿泛寒光，身长足以缠绕房屋。大概它不会小瞧我们的力量。",
+            "label": "我們拜請蟻母，盤伏環繞之神",
+            "startdescription": "巨蛇齒泛寒光，身長足以纏繞房屋。大概它不會小瞧我們的力量。",
             "description": ".",
             "linked": [
                 {
@@ -160,8 +160,8 @@
             "requirements": {
                 "knock": 1
             },
-            "label": "我们拜请蚁母，洞开之神",
-            "startdescription": "巨蛇抬起身躯，好似河水翻涌，细长的瞳孔中满是饥饿。也许它不会小瞧我们的力量。",
+            "label": "我們拜請蟻母，洞開之神",
+            "startdescription": "巨蛇抬起身軀，好似河水翻湧，細長的瞳孔中滿是飢餓。也許它不會小瞧我們的力量。",
             "description": ".",
             "linked": [
                 {
@@ -177,8 +177,8 @@
         {
             "id": "explorevaultguardian_serpent_success_edge",
             "actionId": "explore",
-            "label": "巨蛇的挣扎",
-            "startdescription": "巨蛇全身翻卷，嘶声轰鸣！垂死挣扎震天动地！但它已濒死，我们得以通过。",
+            "label": "巨蛇的掙扎",
+            "startdescription": "巨蛇全身翻卷，嘶聲轟鳴！垂死掙扎震天動地！但它已瀕死，我們得以通過。",
             "description": ".",
             "effects": {
                 "guardian_serpent": -1
@@ -195,8 +195,8 @@
         {
             "id": "explorevaultguardian_serpent_success_knock",
             "actionId": "explore",
-            "label": "巨蛇的哀伤",
-            "startdescription": "它垂下巨大的头，无睑的双眼渗出水汽。它在哭吗？对于我们拜请的神灵，它的长姐，它记得些什么呢？",
+            "label": "巨蛇的哀傷",
+            "startdescription": "它垂下巨大的頭，無瞼的雙眼滲出水氣。它在哭嗎？對於我們拜請的神靈，它的長姐，它記得些什麼呢？",
             "description": ".",
             "effects": {
                 "guardian_serpent": -1
@@ -214,7 +214,7 @@
             "id": "explorevaultguardian_serpent_failure",
             "actionId": "explore",
             "label": "巨蛇的力量",
-            "startdescription": "撤退，快撤退！我们赢不了它！",
+            "startdescription": "撤退，快撤退！我們贏不了它！",
             "description": ".",
             "craftable": false,
             "alt": [
@@ -242,7 +242,7 @@
             "id": "explorevaultguardian_watchers_encounter",
             "actionId": "explore",
             "label": "看守",
-            "startdescription": "一群当地人，有的心怀怨恨，有的是职责在身，也有的是拿钱办事。我们能用<b>蛾</b>欺骗他们，用<b>杯</b>引诱他们，或是用<b>刃</b>与他们较量一番。",
+            "startdescription": "一群當地人，有的心懷怨恨，有的是職責在身，也有的是拿錢辦事。我們能用<b>蛾</b>欺騙他們，用<b>杯</b>引誘他們，或是用<b>刃</b>與他們較量一番。",
             "requirements": {
                 "guardian_watchers": 1
             },
@@ -250,7 +250,7 @@
                 {
                     "id": "Assistance",
                     "label": "助力",
-                    "description": "资金对探险来说必不可少。追随者则会助我突破阻碍。",
+                    "description": "資金對探險來說必不可少。追隨者則會助我突破阻礙。",
                     "required": {
                         "follower": 1,
                         "funds": 1
@@ -310,8 +310,8 @@
             "requirements": {
                 "edge": 10
             },
-            "label": "我们的力量无人能及。",
-            "startdescription": "谅必这些看守将会后悔与我们为敌。",
+            "label": "我們的力量無人能及。",
+            "startdescription": "諒必這些看守將會後悔與我們為敵。",
             "description": ".",
             "linked": [
                 {
@@ -330,8 +330,8 @@
             "requirements": {
                 "edge": 5
             },
-            "label": "我们的力量不容小觑。",
-            "startdescription": "这些看守没料到我们会来。我们应该能够干掉他们。",
+            "label": "我們的力量不容小覷。",
+            "startdescription": "這些看守沒料到我們會來。我們應該能夠幹掉他們。",
             "description": ".",
             "linked": [
                 {
@@ -350,8 +350,8 @@
             "requirements": {
                 "edge": 1
             },
-            "label": "我们的力量不足。",
-            "startdescription": "这些看守可能不好对付——但我们还是有机会的。",
+            "label": "我們的力量不足。",
+            "startdescription": "這些看守可能不好對付——但我們還是有機會的。",
             "description": ".",
             "linked": [
                 {
@@ -370,8 +370,8 @@
             "requirements": {
                 "grail": 10
             },
-            "label": "对抗看守：杯之魅惑",
-            "startdescription": "“走近点呀，亲爱的。我们有好东西要给你瞧。”",
+            "label": "對抗看守：杯之魅惑",
+            "startdescription": "“走近點呀，親愛的。我們有好東西要給你瞧。”",
             "description": ".",
             "linked": [
                 {
@@ -390,8 +390,8 @@
             "requirements": {
                 "grail": 5
             },
-            "label": "对抗看守：杯之诱惑",
-            "startdescription": "我们的诱饵应该能使看守的心动神摇。",
+            "label": "對抗看守：杯之誘惑",
+            "startdescription": "我們的誘餌應該能使看守的心動神搖。",
             "description": ".",
             "linked": [
                 {
@@ -410,8 +410,8 @@
             "requirements": {
                 "grail": 1
             },
-            "label": "对抗看守：杯之扰乱",
-            "startdescription": "也许我们能转移看守的注意。",
+            "label": "對抗看守：杯之擾亂",
+            "startdescription": "也許我們能轉移看守的注意。",
             "description": ".",
             "linked": [
                 {
@@ -430,8 +430,8 @@
             "requirements": {
                 "moth": 10
             },
-            "label": "对抗看守：强力的骗局",
-            "startdescription": "“仔细看，再仔细点儿。盯住别放！盯住，别眨眼。现在，闭眼……”",
+            "label": "對抗看守：強力的騙局",
+            "startdescription": "“仔細看，再仔細點兒。盯住別放！盯住，別眨眼。現在，閉眼……”",
             "description": ".",
             "linked": [
                 {
@@ -450,8 +450,8 @@
             "requirements": {
                 "moth": 5
             },
-            "label": "对抗看守：有把握的骗局",
-            "startdescription": "“醒醒！醒醒！他们冲我们来了！往那边跑，快！”",
+            "label": "對抗看守：有把握的騙局",
+            "startdescription": "“醒醒！醒醒！他們衝我們來了！往那邊跑，快！”",
             "description": ".",
             "linked": [
                 {
@@ -470,8 +470,8 @@
             "requirements": {
                 "moth": 1
             },
-            "label": "对抗看守：孤注一掷的骗局",
-            "startdescription": "“他们往……那边去了？”",
+            "label": "對抗看守：孤注一擲的騙局",
+            "startdescription": "“他們往……那邊去了？”",
             "description": ".",
             "linked": [
                 {
@@ -488,7 +488,7 @@
             "id": "explorevaultguardian_watchers_success_edge",
             "actionId": "explore",
             "label": "看守的末路",
-            "startdescription": "他们流出鲜红的血，然后是黑色的。这些人不该挡我们的道。我们继续前进。",
+            "startdescription": "他們流出鮮紅的血，然後是黑色的。這些人不該擋我們的道。我們繼續前進。",
             "description": ".",
             "effects": {
                 "guardian_watchers": -1
@@ -505,8 +505,8 @@
         {
             "id": "explorevaultguardian_watchers_success_grail",
             "actionId": "explore",
-            "label": "看守的堕落",
-            "startdescription": "当下的欢愉最终会使他们落得惨痛的下场。也许他们会觉得这很值得。我们可以在这期间前进了。",
+            "label": "看守的墮落",
+            "startdescription": "當下的歡愉最終會使他們落得慘痛的下場。也許他們會覺得這很值得。我們可以在這期間前進了。",
             "description": ".",
             "effects": {
                 "guardian_watchers": -1
@@ -524,7 +524,7 @@
             "id": "explorevaultguardian_watchers_success_moth",
             "actionId": "explore",
             "label": "看守的迷惑",
-            "startdescription": "他们迷惑的这段时间是个好机会，我们会悄无声息地通过。",
+            "startdescription": "他們迷惑的這段時間是個好機會，我們會悄無聲息地通過。",
             "description": ".",
             "effects": {
                 "guardian_watchers": -1
@@ -541,8 +541,8 @@
         {
             "id": "explorevaultguardian_watchers_failure",
             "actionId": "explore",
-            "label": "看守的胜利",
-            "startdescription": "他们远比我们想象的要狡猾，数量也更多！这场战斗将以我们付出鲜血告终。",
+            "label": "看守的勝利",
+            "startdescription": "他們遠比我們想像的要狡猾，數量也更多！這場戰鬥將以我們付出鮮血告終。",
             "description": ".",
             "craftable": false,
             "alt": [
@@ -569,8 +569,8 @@
         {
             "id": "explorevaultguardian_monks_encounter",
             "actionId": "explore",
-            "label": "僧侣",
-            "startdescription": "一队恪守誓言，信奉传统的守卫。<b>杯</b>之魅惑对他们没有效果，我们必须用<b>刃</b>击败他们，或是用<b>蛾</b>迷惑他们。",
+            "label": "僧侶",
+            "startdescription": "一隊恪守誓言，信奉傳統的守衛。<b>杯</b>之魅惑對他們沒有效果，我們必須用<b>刃</b>擊敗他們，或是用<b>蛾</b>迷惑他們。",
             "requirements": {
                 "guardian_monks": 1
             },
@@ -578,7 +578,7 @@
                 {
                     "id": "Assistance",
                     "label": "助力",
-                    "description": "资金对探险来说必不可少。追随者则会助我突破阻碍。",
+                    "description": "資金對探險來說必不可少。追隨者則會助我突破阻礙。",
                     "required": {
                         "follower": 1,
                         "funds": 1
@@ -626,8 +626,8 @@
             "requirements": {
                 "edge": 10
             },
-            "label": "我们的力量势不可当。",
-            "startdescription": "我们将为土地染上神圣的血迹。",
+            "label": "我們的力量勢不可當。",
+            "startdescription": "我們將為土地染上神聖的血跡。",
             "description": ".",
             "linked": [
                 {
@@ -646,8 +646,8 @@
             "requirements": {
                 "edge": 5
             },
-            "label": "我们的力量不容小觑。",
-            "startdescription": "应付这些信神的蠢货，我们应该游刃有余。",
+            "label": "我們的力量不容小覷。",
+            "startdescription": "應付這些信神的蠢貨，我們應該游刃有餘。",
             "description": ".",
             "linked": [
                 {
@@ -666,8 +666,8 @@
             "requirements": {
                 "edge": 1
             },
-            "label": "我们的力量不足。",
-            "startdescription": "僧侣并不可怕，但许许多多的僧侣就不好对付了。我们或许能赢，运气好的话。",
+            "label": "我們的力量不足。",
+            "startdescription": "僧侶並不可怕，但許許多多的僧侶就不好對付了。我們或許能贏，運氣好的話。",
             "description": ".",
             "linked": [
                 {
@@ -686,8 +686,8 @@
             "requirements": {
                 "moth": 10
             },
-            "label": "对抗看守：有效的骗局",
-            "startdescription": "“我们带来了不容置疑的神圣书卷，其真意只有在月光中才会呈现。”",
+            "label": "對抗看守：有效的騙局",
+            "startdescription": "“我們帶來了不容置疑的神聖書卷，其真意只有在月光中才會呈現。”",
             "description": ".",
             "linked": [
                 {
@@ -706,8 +706,8 @@
             "requirements": {
                 "moth": 5
             },
-            "label": "对抗僧侣：有把握的骗局",
-            "startdescription": "“这份搜查令上盖的是当局最高层的大印。别挡我们的路——”",
+            "label": "對抗僧侶：有把握的騙局",
+            "startdescription": "“這份搜查令上蓋的是當局最高層的大印。別擋我們的路——”",
             "description": ".",
             "linked": [
                 {
@@ -726,8 +726,8 @@
             "requirements": {
                 "moth": 1
             },
-            "label": "对抗僧侣：孤注一掷的骗局",
-            "startdescription": "“我们有……圣物。<b><i>上古</i></b>圣物。”",
+            "label": "對抗僧侶：孤注一擲的騙局",
+            "startdescription": "“我們有……聖物。<b><i>上古</i></b>聖物。”",
             "description": ".",
             "linked": [
                 {
@@ -743,8 +743,8 @@
         {
             "id": "explorevaultguardian_monks_success_edge",
             "actionId": "explore",
-            "label": "僧侣沉默",
-            "startdescription": "他们的尸体瘫在蜷曲的长袍堆中，一个叠着一个，看不出差别。迈过他们，继续前进。",
+            "label": "僧侶沉默",
+            "startdescription": "他們的屍體癱在蜷曲的長袍堆中，一個疊著一個，看不出差別。邁過他們，繼續前進。",
             "description": ".",
             "effects": {
                 "guardian_monks": -1
@@ -761,8 +761,8 @@
         {
             "id": "explorevaultguardian_monks_success_moth",
             "actionId": "explore",
-            "label": "僧侣中计",
-            "startdescription": "信仰是把双刃剑。这些僧侣对相信某物有极高的天赋，因而他们信了我们的谎言。",
+            "label": "僧侶中計",
+            "startdescription": "信仰是把雙刃劍。這些僧侶對相信某物有極高的天賦，因而他們信了我們的謊言。",
             "description": ".",
             "effects": {
                 "guardian_monks": -1
@@ -779,8 +779,8 @@
         {
             "id": "explorevaultguardian_monks_failure",
             "actionId": "explore",
-            "label": "僧侣暴怒",
-            "startdescription": "他们比我们想象中的更强，也更聪明。而现在他们找到了出手的目标——",
+            "label": "僧侶暴怒",
+            "startdescription": "他們比我們想像中的更強，也更聰明。而現在他們找到了出手的目標——",
             "description": ".",
             "craftable": false,
             "alt": [
@@ -807,8 +807,8 @@
         {
             "id": "explorevaultguardian_dead_encounter",
             "actionId": "explore",
-            "label": "烦躁的亡者",
-            "startdescription": "亡者像是污浊的鬼火一样聚集在我们周围的空气中。没有<b>刃</b>或<b>冬</b>，我们无法与之抗衡。",
+            "label": "煩躁的亡者",
+            "startdescription": "亡者像是汙濁的鬼火一樣聚集在我們周圍的空氣中。沒有<b>刃</b>或<b>冬</b>，我們無法與之抗衡。",
             "requirements": {
                 "guardian_dead": 1
             },
@@ -816,7 +816,7 @@
                 {
                     "id": "Assistance",
                     "label": "助力",
-                    "description": "资金对探险来说必不可少。追随者则会助我突破阻碍。",
+                    "description": "資金對探險來說必不可少。追隨者則會助我突破阻礙。",
                     "required": {
                         "follower": 1,
                         "funds": 1
@@ -864,8 +864,8 @@
             "requirements": {
                 "edge": 10
             },
-            "label": "我们的力量无人能及。",
-            "startdescription": "亡者身形苍白，仿佛是颜色反转的阴影。它们行动如是微风中的飘忽的蛛网。谅必它们挡不住我们，我们会将它们赶回林地的阴影，让它们到那里咕哝去吧。",
+            "label": "我們的力量無人能及。",
+            "startdescription": "亡者身形蒼白，彷彿是顏色反轉的陰影。它們行動如是微風中的飄忽的蛛網。諒必它們擋不住我們，我們會將它們趕回林地的陰影，讓它們到那裡咕噥去吧。",
             "description": ".",
             "linked": [
                 {
@@ -884,8 +884,8 @@
             "requirements": {
                 "edge": 5
             },
-            "label": "我们的力量不容小觑。",
-            "startdescription": "这些眼神热切而卑微的亡者已经死过一次了。它们与醒时世界的连结很微弱，我们应该能够把它们赶回黑暗中去，但必须要小心谨慎。",
+            "label": "我們的力量不容小覷。",
+            "startdescription": "這些眼神熱切而卑微的亡者已經死過一次了。它們與醒時世界的連結很微弱，我們應該能夠把它們趕回黑暗中去，但必須要小心謹慎。",
             "description": ".",
             "linked": [
                 {
@@ -904,8 +904,8 @@
             "requirements": {
                 "edge": 1
             },
-            "label": "我们的力量不足。",
-            "startdescription": "亡者行动迟缓，如同日晷阴影的转动——慢，却不止不休。它们记得何为痛苦和恐惧，但不甚清晰。而对这两种情感我们也同样熟悉。我们可能赢不了它们。",
+            "label": "我們的力量不足。",
+            "startdescription": "亡者行動遲緩，如同日晷陰影的轉動——慢，卻不止不休。它們記得何為痛苦和恐懼，但不甚清晰。而對這兩種情感我們也同樣熟悉。我們可能贏不了它們。",
             "description": ".",
             "linked": [
                 {
@@ -924,8 +924,8 @@
             "requirements": {
                 "winter": 10
             },
-            "label": "我们拜请骨白鸽，通晓亡者姓名之神",
-            "startdescription": "亡者在我们的视野边缘围成一圈，仿佛是焦虑的梦。我们周围的空气带上了<b>冬</b>天阴影的寒意，这寒意它们肯定认得。",
+            "label": "我們拜請骨白鴿，通曉亡者姓名之神",
+            "startdescription": "亡者在我們的視野邊緣圍成一圈，彷彿是焦慮的夢。我們周圍的空氣帶上了<b>冬</b>天陰影的寒意，這寒意它們肯定認得。",
             "description": ".",
             "linked": [
                 {
@@ -944,8 +944,8 @@
             "requirements": {
                 "winter": 5
             },
-            "label": "我们拜请骨白鸽，不受欺骗之神",
-            "startdescription": "亡者紧紧地望着我们，仿佛圣徒的雕像般面无表情。但我们身上带有<b>冬</b>之力，亡者大概能认出此力。",
+            "label": "我們拜請骨白鴿，不受欺騙之神",
+            "startdescription": "亡者緊緊地望著我們，彷彿聖徒的雕像般面無表情。但我們身上帶有<b>冬</b>之力，亡者大概能認出此力。",
             "description": ".",
             "linked": [
                 {
@@ -964,8 +964,8 @@
             "requirements": {
                 "winter": 1
             },
-            "label": "我们拜请骨白鸽，被剥夺至夺无可夺之神",
-            "startdescription": "亡者在黑暗中沸腾翻滚，但我们已经受了众位<b>冬</b>之司辰的触摸。也许这些亡者能辨识出这点。",
+            "label": "我們拜請骨白鴿，被剝奪至奪無可奪之神",
+            "startdescription": "亡者在黑暗中沸騰翻滾，但我們已經受了眾位<b>冬</b>之司辰的觸摸。也許這些亡者能辨識出這點。",
             "description": ".",
             "linked": [
                 {
@@ -981,8 +981,8 @@
         {
             "id": "explorevaultguardian_dead_success_edge",
             "actionId": "explore",
-            "label": "悲惨的亡者",
-            "startdescription": "当亡者返回我们这边的时候，它们用上了肉体消逝时能用的一切：沙土、锈铁、蛛网、碎片、破布。如今它们已被我们毁灭，留下的就只有这些破烂了。",
+            "label": "悲慘的亡者",
+            "startdescription": "當亡者返回我們這邊的時候，它們用上了肉體消逝時能用的一切：沙土、鏽鐵、蛛網、碎片、破布。如今它們已被我們毀滅，留下的就只有這些破爛了。",
             "description": ".",
             "effects": {
                 "guardian_dead": -1
@@ -1000,7 +1000,7 @@
             "id": "explorevaultguardian_dead_success_winter",
             "actionId": "explore",
             "label": "小心翼翼的亡者",
-            "startdescription": "亡者缩了回去，几不可辨的面孔空洞而警觉。它们不会妨碍我们了。",
+            "startdescription": "亡者縮了回去，幾不可辨的面孔空洞而警覺。它們不會妨礙我們了。",
             "description": ".",
             "effects": {
                 "guardian_dead": -1
@@ -1018,7 +1018,7 @@
             "id": "explorevaultguardian_dead_failure",
             "actionId": "explore",
             "label": "亡者的暴怒",
-            "startdescription": "比起物体，亡者更像是风，但这并不意味着风可以被低估。就像现在，它们是苍白阴影的风暴，恐怖是它们的獠牙。撤，快撤！",
+            "startdescription": "比起物體，亡者更像是風，但這並不意味著風可以被低估。就像現在，它們是蒼白陰影的風暴，恐怖是它們的獠牙。撤，快撤！",
             "description": ".",
             "craftable": false,
             "alt": [
@@ -1046,7 +1046,7 @@
             "id": "explorevaultguardian_soucouyants_encounter",
             "actionId": "explore",
             "label": "黑暗中的索寇焰特",
-            "startdescription": "夜风随它们咔嗒作响。放低身子，它们太强大了，但我们或许能够骗过它们，或是用漫宿的光将它们驱散。",
+            "startdescription": "夜風隨它們喀嗒作響。放低身子，它們太強大了，但我們或許能夠騙過它們，或是用漫宿的光將它們驅散。",
             "requirements": {
                 "guardian_soucouyants": 1
             },
@@ -1054,7 +1054,7 @@
                 {
                     "id": "Assistance",
                     "label": "助力",
-                    "description": "资金对探险来说必不可少。追随者则会助我突破阻碍。",
+                    "description": "資金對探險來說必不可少。追隨者則會助我突破阻礙。",
                     "required": {
                         "follower": 1,
                         "funds": 1
@@ -1102,8 +1102,8 @@
             "requirements": {
                 "lantern": 10
             },
-            "label": "我们拜请守夜人，照明驱暗之神",
-            "startdescription": "我们的力量够强，想必能和它们保持距离。",
+            "label": "我們拜請守夜人，照明驅暗之神",
+            "startdescription": "我們的力量夠強，想必能和它們保持距離。",
             "description": ".",
             "linked": [
                 {
@@ -1122,8 +1122,8 @@
             "requirements": {
                 "lantern": 5
             },
-            "label": "我们拜请守夜人，无怜悯心之神",
-            "startdescription": "我们的力量应该足以使它们不敢靠近——但它们警戒着，随时准备抓住我们的疏漏。",
+            "label": "我們拜請守夜人，無憐憫心之神",
+            "startdescription": "我們的力量應該足以使它們不敢靠近——但它們警戒著，隨時準備抓住我們的疏漏。",
             "description": ".",
             "linked": [
                 {
@@ -1142,8 +1142,8 @@
             "requirements": {
                 "lantern": 1
             },
-            "label": "我们拜请守夜人，指引前路之神",
-            "startdescription": "很有可能我们的力量会确保我们安全通过这人挤人的夜晚。完全有可能。",
+            "label": "我們拜請守夜人，指引前路之神",
+            "startdescription": "很有可能我們的力量會確保我們安全通過這人擠人的夜晚。完全有可能。",
             "description": ".",
             "linked": [
                 {
@@ -1162,8 +1162,8 @@
             "requirements": {
                 "moth": 10
             },
-            "label": "我们拜请飞蛾，于林地树间寻觅之神",
-            "startdescription": "飞蛾能够在这人潮攒动的森林之夜发挥神力。我们将隐秘而安全地通过……除非我们特别不走运。",
+            "label": "我們拜請飛蛾，於林地樹間尋覓之神",
+            "startdescription": "飛蛾能夠在這人潮攢動的森林之夜發揮神力。我們將隱秘而安全地通過……除非我們特別不走運。",
             "description": ".",
             "linked": [
                 {
@@ -1182,8 +1182,8 @@
             "requirements": {
                 "moth": 5
             },
-            "label": "我们拜请飞蛾，于颅内振翅之神",
-            "startdescription": "我们的力量应该足以瞒过这些在夜里飞翔的干渴妖怪，让它们失去兴趣。",
+            "label": "我們拜請飛蛾，於顱內振翅之神",
+            "startdescription": "我們的力量應該足以瞞過這些在夜裡飛翔的乾渴妖怪，讓它們失去興趣。",
             "description": ".",
             "linked": [
                 {
@@ -1202,8 +1202,8 @@
             "requirements": {
                 "moth": 1
             },
-            "label": "我们拜请飞蛾，通体斑驳之神",
-            "startdescription": "飞蛾会在森林斑驳的阴影中给我们一些可能性——但也只是可能性而已。",
+            "label": "我們拜請飛蛾，通體斑駁之神",
+            "startdescription": "飛蛾會在森林斑駁的陰影中給我們一些可能性——但也只是可能性而已。",
             "description": ".",
             "linked": [
                 {
@@ -1219,8 +1219,8 @@
         {
             "id": "explorevaultguardian_soucouyants_success_lantern",
             "actionId": "explore",
-            "label": "索寇焰特的败退",
-            "startdescription": "它们不会靠近了。它们以食腐鸟和孩童的声音尖声奚落；它们晃动树冠；它们于黑暗中抛投石头。但它们不会靠近。我们得以通过。",
+            "label": "索寇焰特的敗退",
+            "startdescription": "它們不會靠近了。它們以食腐鳥和孩童的聲音尖聲奚落；它們晃動樹冠；它們於黑暗中拋投石頭。但它們不會靠近。我們得以通過。",
             "description": ".",
             "effects": {
                 "guardian_soucouyants": -1
@@ -1237,8 +1237,8 @@
         {
             "id": "explorevaultguardian_soucouyants_success_moth",
             "actionId": "explore",
-            "label": "索寇焰特的懊丧",
-            "startdescription": "从阴影赶往更深的阴影，将面孔压进海绵般的泥土中。它们知道我们在这，但不知道具体在哪。它们的哭号渐渐消失在我们身后。",
+            "label": "索寇焰特的懊喪",
+            "startdescription": "從陰影趕往更深的陰影，將面孔壓進海綿般的泥土中。它們知道我們在這，但不知道具體在哪。它們的哭號漸漸消失在我們身後。",
             "description": ".",
             "effects": {
                 "guardian_soucouyants": -1
@@ -1255,8 +1255,8 @@
         {
             "id": "explorevaultguardian_soucouyants_failure",
             "actionId": "explore",
-            "label": "索寇焰特的饥饿",
-            "startdescription": "它们追来了！其中一个长着有粗糙裂纹的翅膀，另一个嘶声尖叫的身躯则飞进黑暗之中——",
+            "label": "索寇焰特的飢餓",
+            "startdescription": "它們追來了！其中一個長著有粗糙裂紋的翅膀，另一個嘶聲尖叫的身軀則飛進黑暗之中——",
             "description": ".",
             "craftable": false,
             "alt": [
@@ -1283,8 +1283,8 @@
         {
             "id": "explorevaultguardian_long_encounter",
             "actionId": "explore",
-            "label": "长生者",
-            "startdescription": "午港建于那眼臭名昭著的泉水所在之处：饮用此泉，会令这个世界忘却你的存在。一些长生者从上层世界的纷扰中抽身而出，隐居在这里。它们对待入侵者的可不手软，只有蠢货才去打扰它们。但是，它们对<b>蛾</b>的乐趣或<b>杯</b>的魅惑却也非常敏感。",
+            "label": "長生者",
+            "startdescription": "午港建於那眼臭名昭著的泉水所在之處：飲用此泉，會令這個世界忘卻你的存在。一些長生者從上層世界的紛擾中抽身而出，隱居在這裡。它們對待入侵者的可不手軟，只有蠢貨才去打擾它們。但是，它們對<b>蛾</b>的樂趣或<b>杯</b>的魅惑卻也非常敏感。",
             "requirements": {
                 "guardian_long": 1
             },
@@ -1292,7 +1292,7 @@
                 {
                     "id": "Assistance",
                     "label": "助力",
-                    "description": "资金对探险来说必不可少。追随者则会助我突破阻碍。",
+                    "description": "資金對探險來說必不可少。追隨者則會助我突破阻礙。",
                     "required": {
                         "follower": 1,
                         "funds": 1
@@ -1340,8 +1340,8 @@
             "requirements": {
                 "grail": 10
             },
-            "label": "“我们是来为您提供欢愉的。”",
-            "startdescription": "即便是长生者也有欲望，也许正因为长生才更懂欲望。这名长生者谅必会屈服，心甘情愿地受我们服侍。",
+            "label": "“我們是來為您提供歡愉的。”",
+            "startdescription": "即便是長生者也有欲望，也許正因為長生才更懂欲望。這名長生者諒必會屈服，心甘情願地受我們服侍。",
             "description": ".",
             "linked": [
                 {
@@ -1360,8 +1360,8 @@
             "requirements": {
                 "grail": 5
             },
-            "label": "“我们是来为您提供消遣的。”",
-            "startdescription": "这名长生者很乐于接受我们所提供的娱乐，但它仍然心存疑虑。我们大概能成功。",
+            "label": "“我們是來為您提供消遣的。”",
+            "startdescription": "這名長生者很樂於接受我們所提供的娛樂，但它仍然心存疑慮。我們大概能成功。",
             "description": ".",
             "linked": [
                 {
@@ -1380,8 +1380,8 @@
             "requirements": {
                 "grail": 1
             },
-            "label": "“希望……我们希望能为您提供些乐子？”",
-            "startdescription": "长生者和凡人拥有相同的胃口，但却在漫长重复的经历中感到了厌倦。运气好的话，也许我们还能使一名长生者感到愉悦。",
+            "label": "“希望……我們希望能為您提供些樂子？”",
+            "startdescription": "長生者和凡人擁有相同的胃口，但卻在漫長重複的經歷中感到了厭倦。運氣好的話，也許我們還能使一名長生者感到愉悅。",
             "description": ".",
             "linked": [
                 {
@@ -1400,8 +1400,8 @@
             "requirements": {
                 "moth": 10
             },
-            "label": "“新闻！古老国度传来的新闻！从一切古老国度传来的新闻！”",
-            "startdescription": "长生者极度渴求新鲜感。我们会利用这一点，然后如果一切顺利的话，在它意识到不对之前走得远远的。",
+            "label": "“新聞！古老國度傳來的新聞！從一切古老國度傳來的新聞！”",
+            "startdescription": "長生者極度渴求新鮮感。我們會利用這一點，然後如果一切順利的話，在它意識到不對之前走得遠遠的。",
             "description": ".",
             "linked": [
                 {
@@ -1420,8 +1420,8 @@
             "requirements": {
                 "moth": 5
             },
-            "label": "“打赌吗，很好。”",
-            "startdescription": "这名长生者是在玩弄我们吗？很难说。但即便这只是个游戏，它也说不定会准许我们离开。大概能一切顺利。",
+            "label": "“打賭嗎，很好。”",
+            "startdescription": "這名長生者是在玩弄我們嗎？很難說。但即便這只是個遊戲，它也說不定會准許我們離開。大概能一切順利。",
             "description": ".",
             "linked": [
                 {
@@ -1440,8 +1440,8 @@
             "requirements": {
                 "moth": 1
             },
-            "label": "“这故事，呃，还挺好笑的……”",
-            "startdescription": "这名长生者的双眸不为所动，遥远如天边的地平线。他全身僵如蜥蜴。他有在听吗？",
+            "label": "“這故事，呃，還挺好笑的……”",
+            "startdescription": "這名長生者的雙眸不為所動，遙遠如天邊的地平線。他全身僵如蜥蜴。他有在聽嗎？",
             "description": ".",
             "linked": [
                 {
@@ -1457,8 +1457,8 @@
         {
             "id": "explorevaultguardian_long_success_grail",
             "actionId": "explore",
-            "label": "漫长而金光闪闪的午后",
-            "startdescription": "这名长生者真的沦陷在杯的魅惑中了吗？抑或是它很清楚自己在做的究竟是什么？无论如何，我们都已经赢得了足够的空间与时间——",
+            "label": "漫長而金光閃閃的午後",
+            "startdescription": "這名長生者真的淪陷在杯的魅惑中了嗎？抑或是它很清楚自己在做的究竟是什麼？無論如何，我們都已經贏得了足夠的空間與時間——",
             "description": ".",
             "effects": {
                 "guardian_long": -1
@@ -1475,8 +1475,8 @@
         {
             "id": "explorevaultguardian_long_success_moth",
             "actionId": "explore",
-            "label": "给长生者的谎言",
-            "startdescription": "这些午港的不死居民依旧或受骗，或沉沦，或被困于更宏大的计划之中。这次，它们不会多事了。",
+            "label": "給長生者的謊言",
+            "startdescription": "這些午港的不死居民依舊或受騙，或沉淪，或被困於更宏大的計劃之中。這次，它們不會多事了。",
             "description": ".",
             "effects": {
                 "guardian_long": -1
@@ -1493,8 +1493,8 @@
         {
             "id": "explorevaultguardian_long_failure",
             "actionId": "explore",
-            "label": "长生的痛苦",
-            "startdescription": "不死的居民怒了，它可能会选择将某人打倒在地，也可能会抑制住怒意。和不死者相关的事，都很难说——",
+            "label": "長生的痛苦",
+            "startdescription": "不死的居民怒了，它可能會選擇將某人打倒在地，也可能會抑制住怒意。和不死者相關的事，都很難說——",
             "description": ".",
             "craftable": false,
             "alt": [

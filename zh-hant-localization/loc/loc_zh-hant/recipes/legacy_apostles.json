@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "workapostleforgejob",
-            "label": "点算我手上的资源",
+            "label": "點算我手上的資源",
             "actionId": "work",
             "requirements": {
                 "legacyapostleforgejob": 1
@@ -18,17 +18,17 @@
                     "additional": true
                 }
             ],
-            "startdescription": "我们的组织拥有一些资源……",
-            "description": "……足够支持一段时间，但我需要去寻找其他的物资来源。",
+            "startdescription": "我們的組織擁有一些資源……",
+            "description": "……足夠支持一段時間，但我需要去尋找其他的物資來源。",
             "warmup": 10,
             "craftable": true
         },
         {
             "id": "apostleforgeopentalk",
-            "label": "我们的大业",
+            "label": "我們的大業",
             "actionId": "talk",
             "requirements": {},
-            "startdescription": "我并非孤身一人。",
+            "startdescription": "我並非孤身一人。",
             "alt": [
                 {
                     "id": "apostleforgeopenstudy",
@@ -36,7 +36,7 @@
                     "additional": true
                 }
             ],
-            "description": "我的同伴们、塑我形者。",
+            "description": "我的同伴們、塑我形者。",
             "effects": {
                 "LEVER_LastCult": 1,
                 "LEVER_LastFollower": 1,
@@ -53,9 +53,9 @@
         },
         {
             "id": "apostleforgeopenstudy",
-            "label": "我记得什么？",
+            "label": "我記得什麼？",
             "actionId": "study",
-            "startdescription": "我被赐予了秘密。",
+            "startdescription": "我被賜予了秘密。",
             "alt": [
                 {
                     "id": "apostleforgeopenexplore",
@@ -75,10 +75,10 @@
         },
         {
             "id": "apostleforgeopenexplore",
-            "label": "从这里开始",
+            "label": "從這裡開始",
             "actionId": "explore",
-            "startdescription": "上次说到哪来着？",
-            "description": "站在我们的会合地点，我得琢磨琢磨我收到的命令。",
+            "startdescription": "上次說到哪來著？",
+            "description": "站在我們的會合地點，我得琢磨琢磨我收到的命令。",
             "alt": [
                 {
                     "id": "apostleforgeopendream",
@@ -95,10 +95,10 @@
         },
         {
             "id": "apostleforgeopendream",
-            "label": "遥远的雷鸣",
+            "label": "遙遠的雷鳴",
             "actionId": "dream",
-            "startdescription": "什么来了？谁来了？",
-            "description": "我们的塑形者希望改变世界的秩序，甚至包括漫宿的。他遭到反对是必然的。",
+            "startdescription": "什麼來了？誰來了？",
+            "description": "我們的塑形者希望改變世界的秩序，甚至包括漫宿的。他遭到反對是必然的。",
             "warmup": 60,
             "effects": {
                 "passion": 1
@@ -114,7 +114,7 @@
         },
         {
             "id": "workapostlegrailjob",
-            "label": "点算我手上的资源",
+            "label": "點算我手上的資源",
             "actionId": "work",
             "requirements": {
                 "legacyapostlegrailjob": 1
@@ -132,17 +132,17 @@
                     "additional": true
                 }
             ],
-            "startdescription": "我们的组织拥有一些资源……",
-            "description": "……足够支持一段时间，但我需要去寻找其他的物资来源。而且我现在身体十分虚弱。我只能期望我们的愉悦者会支持我了。",
+            "startdescription": "我們的組織擁有一些資源……",
+            "description": "……足夠支持一段時間，但我需要去尋找其他的物資來源。而且我現在身體十分虛弱。我只能期望我們的愉悅者會支持我了。",
             "warmup": 10,
             "craftable": true
         },
         {
             "id": "apostlegrailopentalk",
-            "label": "我们的大业",
+            "label": "我們的大業",
             "actionId": "talk",
             "requirements": {},
-            "startdescription": "我并非孤身一人。",
+            "startdescription": "我並非孤身一人。",
             "alt": [
                 {
                     "id": "apostlegrailopenstudy",
@@ -150,7 +150,7 @@
                     "additional": true
                 }
             ],
-            "description": "我的同伴们、我的愉悦。",
+            "description": "我的同伴們、我的愉悅。",
             "effects": {
                 "LEVER_LastCult": 1,
                 "LEVER_LastFollower": 1,
@@ -167,9 +167,9 @@
         },
         {
             "id": "apostlegrailopenstudy",
-            "label": "我记得什么？",
+            "label": "我記得什麼？",
             "actionId": "study",
-            "startdescription": "我被赐予了秘密。",
+            "startdescription": "我被賜予了秘密。",
             "alt": [
                 {
                     "id": "apostlegrailopenexplore",
@@ -189,10 +189,10 @@
         },
         {
             "id": "apostlegrailopenexplore",
-            "label": "从这里开始",
+            "label": "從這裡開始",
             "actionId": "explore",
-            "startdescription": "上次说到哪来着？",
-            "description": "站在我们的会合地点，我得琢磨琢磨我收到的命令。",
+            "startdescription": "上次說到哪來著？",
+            "description": "站在我們的會合地點，我得琢磨琢磨我收到的命令。",
             "alt": [
                 {
                     "id": "apostlegrailopendream",
@@ -209,10 +209,10 @@
         },
         {
             "id": "apostlegrailopendream",
-            "label": "遥远的光",
+            "label": "遙遠的光",
             "actionId": "dream",
-            "startdescription": "什么来了？谁来了？",
-            "description": "我们的塑形者希望改变世界的秩序，甚至包括漫宿的。他遭到反对是必然的。",
+            "startdescription": "什麼來了？誰來了？",
+            "description": "我們的塑形者希望改變世界的秩序，甚至包括漫宿的。他遭到反對是必然的。",
             "warmup": 60,
             "effects": {
                 "passion": 1
@@ -228,7 +228,7 @@
         },
         {
             "id": "workapostlelanternjob",
-            "label": "我必须做的事",
+            "label": "我必須做的事",
             "actionId": "work",
             "requirements": {
                 "legacyapostlelanternjob": 1
@@ -245,17 +245,17 @@
                     "additional": true
                 }
             ],
-            "startdescription": "我一惊，回过神来。我刚才在做白日梦？",
-            "description": "这是一件包裹，里面装着钱。给我的指令装一个细长的蓝如天色的信封里。钱足够了。我其他的记忆现在不重要。",
+            "startdescription": "我一驚，回過神來。我剛才在做白日夢？",
+            "description": "這是一件包裹，裡面裝著錢。給我的指令裝一個細長的藍如天色的信封裡。錢足夠了。我其他的記憶現在不重要。",
             "warmup": 10,
             "craftable": true
         },
         {
             "id": "apostlelanternopentalk",
-            "label": "我们的大业",
+            "label": "我們的大業",
             "actionId": "talk",
             "requirements": {},
-            "startdescription": "我记得这些名字，虽然从未听别人提起过。",
+            "startdescription": "我記得這些名字，雖然從未聽別人提起過。",
             "alt": [
                 {
                     "id": "apostlelanternopenstudy",
@@ -263,7 +263,7 @@
                     "additional": true
                 }
             ],
-            "description": "我的同伴们、我的沐光明者。",
+            "description": "我的同伴們、我的沐光明者。",
             "effects": {
                 "LEVER_LastCult": 1,
                 "LEVER_LastFollower": 1,
@@ -280,9 +280,9 @@
         },
         {
             "id": "apostlelanternopenstudy",
-            "label": "我记得什么？",
+            "label": "我記得什麼？",
             "actionId": "study",
-            "startdescription": "我被赐予了秘密。",
+            "startdescription": "我被賜予了秘密。",
             "alt": [
                 {
                     "id": "apostlelanternopenexplore",
@@ -302,10 +302,10 @@
         },
         {
             "id": "apostlelanternopenexplore",
-            "label": "从这里开始",
+            "label": "從這裡開始",
             "actionId": "explore",
-            "startdescription": "上次说到哪来着？",
-            "description": "这是我在睡梦边缘的光里见过的那个地方。",
+            "startdescription": "上次說到哪來著？",
+            "description": "這是我在睡夢邊緣的光裡見過的那個地方。",
             "alt": [
                 {
                     "id": "apostlelanternopendream",
@@ -321,10 +321,10 @@
         },
         {
             "id": "apostlelanternopendream",
-            "label": "遥远的光",
+            "label": "遙遠的光",
             "actionId": "dream",
-            "startdescription": "什么来了？谁来了？",
-            "description": "我的梦向我警告过我，沐光明者将遭到反对。别人托给我的梦都是真的。",
+            "startdescription": "什麼來了？誰來了？",
+            "description": "我的夢向我警告過我，沐光明者將遭到反對。別人託給我的夢都是真的。",
             "warmup": 60,
             "effects": {
                 "passion": 1

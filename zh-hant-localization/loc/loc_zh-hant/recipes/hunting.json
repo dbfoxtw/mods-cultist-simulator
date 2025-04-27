@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "suspicion",
-            "label": "不合宜的关注",
+            "label": "不合宜的關注",
             "actionId": "suspicion",
             "requirements": {
                 "seasonsuspicion": 1
@@ -10,15 +10,15 @@
             "slots": [
                 {
                     "id": "Suspicion",
-                    "label": "敌对分子？",
+                    "label": "敵對分子？",
                     "required": {
                         "hunter": 1
                     },
                     "greedy": true
                 }
             ],
-            "startdescription": "这个城市充斥着记者、警探和其他好事家。他们能让我安宁多久？",
-            "description": "我暂时安全了。那些好事家的注意一定去了别处。可以松口气了。",
+            "startdescription": "這個城市充斥著記者、警探和其他好事家。他們能讓我安寧多久？",
+            "description": "我暫時安全了。那些好事家的注意一定去了別處。可以鬆口氣了。",
             "warmup": 10,
             "craftable": false,
             "linked": [
@@ -34,17 +34,17 @@
         },
         {
             "id": "suspiciongrabreputation",
-            "label": "正在寻找线索……",
+            "label": "正在尋找線索……",
             "actionId": "suspicion",
             "requirements": {
                 "hunter": 1
             },
-            "startdescription": "某个敌对分子正在到处盘问我的活动。",
+            "startdescription": "某個敵對分子正在到處盤問我的活動。",
             "description": "",
             "slots": [
                 {
                     "id": "Clues",
-                    "label": "线索",
+                    "label": "線索",
                     "required": {
                         "reputation": 1
                     },
@@ -66,13 +66,13 @@
         {
             "id": "suspiciongrabevidence",
             "actionId": "suspicion",
-            "label": "正在分析证据……",
-            "startdescription": "猎人一旦发现<b>邪名</b>，便会尝试用它构建或升级<b>证据</b>。如果他<b>一丝不苟</b>，便一定能成功。如果他<b>飘忽不定</b>，便多半会失败……但即使没有<b>邪名</b>，这样的猎人偶尔也能凭空造出<b>证据</b>。",
-            "description": "我安全了，至少现下如此。敌对分子没有足够的证据能控告我，也没有发现新的线索。",
+            "label": "正在分析證據……",
+            "startdescription": "獵人一旦發現<b>邪名</b>，便會嘗試用它構建或升級<b>證據</b>。如果他<b>一絲不苟</b>，便一定能成功。如果他<b>飄忽不定</b>，便多半會失敗……但即使沒有<b>邪名</b>，這樣的獵人偶爾也能憑空造出<b>證據</b>。",
+            "description": "我安全了，至少現下如此。敵對分子沒有足夠的證據能控告我，也沒有發現新的線索。",
             "slots": [
                 {
                     "id": "Evidence",
-                    "label": "证据",
+                    "label": "證據",
                     "required": {
                         "evidenceb": 1,
                         "evidence": 1
@@ -117,13 +117,13 @@
         {
             "id": "suspicionerratic_alwaysfail",
             "actionId": "suspicion",
-            "label": "诡异的行为",
+            "label": "詭異的行為",
             "requirements": {
                 "erratic": 1,
                 "reputation": 1
             },
-            "startdescription": "敌对分子行为反常。[这样的事情并不多见。]",
-            "description": "敌对分子莫非在练习乐器而不是在进行调查？还是在往木靶上掷飞镖？又或者只是在打长盹？关于他的报告前后不一致，不过他本人的行为也是一样。他没有取得任何进展。",
+            "startdescription": "敵對分子行為反常。[這樣的事情並不多見。]",
+            "description": "敵對分子莫非在練習樂器而不是在進行調查？還是在往木靶上擲飛鏢？又或者只是在打長盹？關於他的報告前後不一致，不過他本人的行為也是一樣。他沒有取得任何進展。",
             "effects": {
                 "reputation": -1
             }
@@ -139,7 +139,7 @@
             "effects": {
                 "notoriety": 1
             },
-            "startdescription": "有传闻称敌对分子开始靠易经来占卜神谕。也有的称他在梦中追寻答案。还有一种传闻，称他用掷骰子来选择要问的问题。他在本应无据可查的地方找到了证据。[这样的事情并不多见。]",
+            "startdescription": "有傳聞稱敵對分子開始靠易經來占卜神諭。也有的稱他在夢中追尋答案。還有一種傳聞，稱他用擲骰子來選擇要問的問題。他在本應無據可查的地方找到了證據。[這樣的事情並不多見。]",
             "linked": [
                 {
                     "id": "suspicionpromoteevidence",
@@ -158,15 +158,15 @@
             "requirements": {
                 "mystique": 1
             },
-            "label": "声望引来危机",
-            "startdescription": "我身上的<b>神秘氛围</b>引来了这名猎人的注意。他暂且还无法证实什么，但他会更加执着地调查。",
+            "label": "聲望引來危機",
+            "startdescription": "我身上的<b>神秘氛圍</b>引來了這名獵人的注意。他暫且還無法證實什麼，但他會更加執著地調查。",
             "effects": {
                 "mystique": -1
             },
             "slots": [
                 {
                     "id": "Clues",
-                    "label": "线索",
+                    "label": "線索",
                     "required": {
                         "reputation": 1
                     },
@@ -188,7 +188,7 @@
         {
             "id": "suspicionpromoteevidencemeticulous",
             "actionId": "suspicion",
-            "label": "构建确凿证据",
+            "label": "構建確鑿證據",
             "requirements": {
                 "evidence": 1,
                 "reputation": 1,
@@ -208,9 +208,9 @@
                 "evidence": 1,
                 "reputation": 1
             },
-            "label": "构建确凿证据",
-            "startdescription": "这名猎人正在对他的调查进行最后的整理。",
-            "description": "一旦事情发展到上法庭，我将陷入严重的危险。即使解决掉了这名猎人，他的笔记也可能被另一名猎人发现。",
+            "label": "構建確鑿證據",
+            "startdescription": "這名獵人正在對他的調查進行最後的整理。",
+            "description": "一旦事情發展到上法庭，我將陷入嚴重的危險。即使解決掉了這名獵人，他的筆記也可能被另一名獵人發現。",
             "effects": {
                 "evidence": -1,
                 "evidenceb": 1,
@@ -221,7 +221,7 @@
         {
             "id": "suspicioncreateevidencemeticulous",
             "actionId": "suspicion",
-            "label": "化线索为证据",
+            "label": "化線索為證據",
             "requirements": {
                 "reputation": 1,
                 "meticulous": 1
@@ -239,9 +239,9 @@
             "requirements": {
                 "reputation": 1
             },
-            "label": "化线索为证据",
-            "startdescription": "传闻骤起，四散至市井的每个角落。这名猎人的调查正在取得进展。",
-            "description": "我确信敌对分子将他笔记的副本寄存到其他地方了——给他的律师，他的上司，甚至是报社的联系人。这会给我带来麻烦。",
+            "label": "化線索為證據",
+            "startdescription": "傳聞驟起，四散至市井的每個角落。這名獵人的調查正在取得進展。",
+            "description": "我確信敵對分子將他筆記的副本寄存到其他地方了——給他的律師，他的上司，甚至是報社的聯繫人。這會給我帶來麻煩。",
             "effects": {
                 "reputation": -1,
                 "evidence": 1
@@ -250,13 +250,13 @@
         },
         {
             "id": "suspiciontrycreatehunter",
-            "label": "好奇的少数人",
+            "label": "好奇的少數人",
             "actionId": "suspicion",
-            "startdescription": "方向错误的声名或会引起好奇之人、保守之人或者寻仇之人的兴趣。[拥有<b>声名</b>或会诱发敌对分子出现。]",
+            "startdescription": "方向錯誤的聲名或會引起好奇之人、保守之人或者尋仇之人的興趣。[擁有<b>聲名</b>或會誘發敵對分子出現。]",
             "slots": [
                 {
                     "id": "Clues",
-                    "label": "线索",
+                    "label": "線索",
                     "required": {
                         "reputation": 1
                     },
@@ -273,7 +273,7 @@
                     "chance": 100
                 }
             ],
-            "description": "此刻，我的名声还是清白的。守卫们尚都蛰伏于阴影中。",
+            "description": "此刻，我的名聲還是清白的。守衛們尚都蟄伏於陰影中。",
             "effects": {
                 "contentment": 1
             },
@@ -282,12 +282,12 @@
         {
             "id": "suspicioncreatefirsthunter",
             "actionId": "suspicion",
-            "label": "敌对分子！",
+            "label": "敵對分子！",
             "requirements": {
                 "reputation": 1
             },
-            "startdescription": "有人在多管闲事。",
-            "description": "总有人不能理解，或者是理解得太透彻。该捣乱分子可能会搜寻我行动的证据，并呈报给当局。",
+            "startdescription": "有人在多管閒事。",
+            "description": "總有人不能理解，或者是理解得太透徹。該搗亂分子可能會搜尋我行動的證據，並呈報給當局。",
             "effects": {
                 "reputation": -1,
                 "defaulthunter": 1
@@ -298,12 +298,12 @@
         {
             "id": "suspicioncreatehunter",
             "actionId": "suspicion",
-            "label": "敌对分子！",
+            "label": "敵對分子！",
             "requirements": {
                 "reputation": 1
             },
-            "startdescription": "有人在多管闲事。",
-            "description": "总有人不能理解，或者是理解得太透彻。该捣乱分子可能会搜寻我行动的证据，并呈报给当局。",
+            "startdescription": "有人在多管閒事。",
+            "description": "總有人不能理解，或者是理解得太透徹。該搗亂分子可能會搜尋我行動的證據，並呈報給當局。",
             "deckeffect": {
                 "hunters": 1
             },
@@ -319,7 +319,7 @@
             "requirements": {
                 "evidenceb": 1
             },
-            "startdescription": "敌对分子已说服防剿局分析我的案子。防剿局负责惩治那些不太常见的罪犯——那些犯行或许只存于梦中的人。",
+            "startdescription": "敵對分子已說服防剿局分析我的案子。防剿局負責懲治那些不太常見的罪犯——那些犯行或許只存於夢中的人。",
             "description": ".",
             "warmup": 30,
             "craftable": false,
@@ -337,9 +337,9 @@
         },
         {
             "id": "suspicion_questionme",
-            "label": "我将上法庭接受裁决！",
+            "label": "我將上法庭接受裁決！",
             "actionId": "suspicion",
-            "startdescription": "防剿局已把我带走讯问。",
+            "startdescription": "防剿局已把我帶走訊問。",
             "description": ".",
             "craftable": false,
             "linked": [
@@ -352,7 +352,7 @@
         },
         {
             "id": "suspicion_questionfollower",
-            "label": "受审！",
+            "label": "受審！",
             "actionId": "suspicion",
             "slots": [
                 {
@@ -366,11 +366,11 @@
                         "summoned": 1,
                         "hireling": 1
                     },
-                    "description": "监管局迫切需要嫌疑人。",
+                    "description": "監管局迫切需要嫌疑人。",
                     "greedy": true
                 }
             ],
-            "startdescription": "防剿局正在找我的同伴讯问。如果找不到，他们则会直接找上我。",
+            "startdescription": "防剿局正在找我的同伴訊問。如果找不到，他們則會直接找上我。",
             "description": ".",
             "craftable": false,
             "linked": [
@@ -393,7 +393,7 @@
             "id": "suspicion_attemptmitigation_me",
             "actionId": "suspicion",
             "label": "防剿局要把我送上法庭！",
-            "startdescription": "世间存在国家不公开承认的罪行。我被控的罪行便在此列。防剿局进行了闭庭审判，他们毫无仁慈可言。除非我能善用人脉，不然就难逃牢狱之灾！",
+            "startdescription": "世間存在國家不公開承認的罪行。我被控的罪行便在此列。防剿局進行了閉庭審判，他們毫無仁慈可言。除非我能善用人脈，不然就難逃牢獄之災！",
             "description": ".",
             "slots": [
                 {
@@ -427,7 +427,7 @@
             "requirements": {
                 "follower": 1
             },
-            "startdescription": "世间存在国家不公开承认的罪行。我的同伴被控的罪行便在此列。防剿局进行了闭庭审判，他们毫无仁慈可言。除非我能善用人脉优势，不然我可能永远失去我的同伴……",
+            "startdescription": "世間存在國家不公開承認的罪行。我的同伴被控的罪行便在此列。防剿局進行了閉庭審判，他們毫無仁慈可言。除非我能善用人脈優勢，不然我可能永遠失去我的同伴……",
             "description": ".",
             "slots": [
                 {
@@ -456,12 +456,12 @@
         },
         {
             "id": "suspicion_attemptmitigation_rival",
-            "label": "防剿局要把我的对手送上法庭！",
+            "label": "防剿局要把我的對手送上法庭！",
             "actionId": "suspicion",
             "requirements": {
                 "independent": 1
             },
-            "startdescription": "世间存在国家不公开承认的罪行。我的对手被控的罪行便在此列。防剿局进行了闭庭审判，他们毫无仁慈可言。我的对手有可能就此完蛋……虽然我也可试试阻止此事。",
+            "startdescription": "世間存在國家不公開承認的罪行。我的對手被控的罪行便在此列。防剿局進行了閉庭審判，他們毫無仁慈可言。我的對手有可能就此完蛋……雖然我也可試試阻止此事。",
             "description": ".",
             "slots": [
                 {
@@ -491,14 +491,14 @@
         {
             "id": "suspicion_favourused",
             "actionId": "suspicion",
-            "label": "暗处的盟友",
+            "label": "暗處的盟友",
             "requirements": {
                 "favour": 1
             },
             "effects": {
                 "favour": -1
             },
-            "startdescription": "我已向某位显要人士求情。他大概能成为我的保护伞，不过世事难料。",
+            "startdescription": "我已向某位顯要人士求情。他大概能成為我的保護傘，不過世事難料。",
             "description": ".",
             "warmup": 30,
             "linked": [
@@ -523,8 +523,8 @@
         {
             "id": "suspicion_favourused_failure",
             "actionId": "suspicion",
-            "label": "不够！",
-            "startdescription": "我已经竭尽全力，但这还不够。防剿局是无情的。如果我有另一条人脉，现在许还用得上。不然的话，我们就只能在公堂上碰运气了。",
+            "label": "不夠！",
+            "startdescription": "我已經竭盡全力，但這還不夠。防剿局是無情的。如果我有另一條人脈，現在許還用得上。不然的話，我們就只能在公堂上碰運氣了。",
             "description": ".",
             "warmup": 30,
             "linked": [
@@ -545,8 +545,8 @@
         {
             "id": "suspicion_followerimprisoned",
             "actionId": "suspicion",
-            "label": "防剿局的胜利",
-            "description": "我的同伴被关进了禁止探视的监狱里，甚至连释放日期也暧昧不清。防剿局的胃口暂时饱了；然而他们都从我同伴那知道了什么？",
+            "label": "防剿局的勝利",
+            "description": "我的同伴被關進了禁止探視的監獄裡，甚至連釋放日期也曖昧不清。防剿局的胃口暫時飽了；然而他們都從我同伴那知道了什麼？",
             "aspects": {
                 "investigatingsetback": 1
             },
@@ -557,8 +557,8 @@
         {
             "id": "suspicion_meimprisoned",
             "actionId": "suspicion",
-            "label": "防剿局的胜利",
-            "startdescription": "我被裁定有罪！我的计策全完了。我得做好心理准备了。",
+            "label": "防剿局的勝利",
+            "startdescription": "我被裁定有罪！我的計策全完了。我得做好心理準備了。",
             "description": ".",
             "warmup": 10,
             "signalEndingFlavour": "Melancholy",
@@ -571,7 +571,7 @@
                 "follower": 1
             },
             "label": "防剿局的暴怒",
-            "startdescription": "我的同伴被判无罪！呈堂证供不足以给他定罪，于是他恢复了自由……虽说他可能会对我怀恨在心。防剿局暂且算栽了一跤。",
+            "startdescription": "我的同伴被判無罪！呈堂證供不足以給他定罪，於是他恢復了自由……雖說他可能會對我懷恨在心。防剿局暫且算栽了一跤。",
             "aspects": {
                 "investigatingsetback": 1
             },
@@ -588,7 +588,7 @@
             "id": "suspicion_meexonerated",
             "actionId": "suspicion",
             "label": "防剿局的暴怒",
-            "startdescription": "我被判无罪！呈堂证供不足以给我定罪，于是我恢复了自由。",
+            "startdescription": "我被判無罪！呈堂證供不足以給我定罪，於是我恢復了自由。",
             "requirements": {
                 "follower": -1
             },
@@ -612,8 +612,8 @@
         {
             "id": "suspicion_rivalimprisoned",
             "actionId": "suspicion",
-            "label": "防剿局的胜利",
-            "description": "我的对手不会再重见天日。防剿局的胃口暂时饱了；然而他们都从我对手那知道了什么？",
+            "label": "防剿局的勝利",
+            "description": "我的對手不會再重見天日。防剿局的胃口暫時飽了；然而他們都從我對手那知道了什麼？",
             "aspects": {
                 "investigatingsetback": 1
             },
@@ -628,7 +628,7 @@
                 "independent": 1
             },
             "label": "防剿局的暴怒",
-            "startdescription": "我的对手被判无罪！呈堂证供不足以给他定罪，于是他恢复了自由……虽说他毫无疑问会把自己受的困算在我头上。",
+            "startdescription": "我的對手被判無罪！呈堂證供不足以給他定罪，於是他恢復了自由……雖說他毫無疑問會把自己受的困算在我頭上。",
             "aspects": {
                 "investigatingsetback": 1
             },

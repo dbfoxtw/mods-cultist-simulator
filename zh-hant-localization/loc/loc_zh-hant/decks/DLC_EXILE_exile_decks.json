@@ -2,8 +2,8 @@
     "decks": [
         {
             "id": "rkx.events",
-            "label": "清算人的计划",
-            "description": "清算人正在计划下一步行动。",
+            "label": "清算人的計劃",
+            "description": "清算人正在計劃下一步行動。",
             "spec": [
                 "rkx.event.aggressive",
                 "rkx.event.aggressive",
@@ -14,7 +14,7 @@
         },
         {
             "id": "rkx.weaknesses.environment",
-            "label": "大敌的弱点：严酷环境",
+            "label": "大敵的弱點：嚴酷環境",
             "spec": [
                 "rkx.weakness.cold.hidden",
                 "rkx.weakness.heat.hidden",
@@ -24,7 +24,7 @@
         },
         {
             "id": "rkx.weaknesses.quirk",
-            "label": "大敌的弱点：特异之物",
+            "label": "大敵的弱點：特異之物",
             "spec": [
                 "rkx.weakness.faith.hidden",
                 "rkx.weakness.cats.hidden",
@@ -34,7 +34,7 @@
         },
         {
             "id": "rkx.weaknesses.disfavour",
-            "label": "大敌的弱点：司辰不佑",
+            "label": "大敵的弱點：司辰不佑",
             "spec": [
                 "rkx.weakness.horned.hidden",
                 "rkx.weakness.wolf.hidden",
