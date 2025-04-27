@@ -666,7 +666,7 @@
             "id": "use.uprising.wolf",
             "actionid": "use",
             "label": "為裂分之狼挑起混亂",
-            "startdescription": "“Caput gerat lupinum（罪人當佩狼首）。”那為什麼不這麼幹呢？說到底，我又欠別人什麼？[此舉會招致痛苦和破壞。這會帶來一個獲利的機會，清算人也將更難找到你的蹤跡。]",
+            "startdescription": "“Caput gerat lupinum（罪人當佩狼首）。”那為什麼不這麼做呢？說到底，我又欠別人什麼？[此舉會招致痛苦和破壞。這會帶來一個獲利的機會，清算人也將更難找到你的蹤跡。]",
             "requirements": {
                 "connection.radicals": 1,
                 "op.wolf": 1,
@@ -782,7 +782,7 @@
             "id": "use.patronage",
             "actionid": "use",
             "label": "接受贊助",
-            "startdescription": "掌權者最為渴求的莫過於更多的歲月，而且沒人能開出比他們更高的價碼。不過我得確保贊助人們沒法摸清我的手段，不然他們自己也該有想法了。[這是一種相對安全的方法，可以把偷來的歲月轉換成現金。]",
+            "startdescription": "掌權者最為渴求的莫過於更多的歲月，而且沒人能開出比他們更高的價碼。不過我得確保贊助人們沒辦法摸清我的手段，不然他們自己也該有想法了。[這是一種相對安全的方法，可以把偷來的歲月轉換成現金。]",
             "requirements": {
                 "connection.ruler": 1,
                 "year.stolen": 1
@@ -1630,7 +1630,7 @@
             "id": "opx.end",
             "actionid": "opx.",
             "label": "行動完成",
-            "startdescription": "@#opx.doctor|“我很高興看到你的氣色有所好轉。”\n#opx.sanatorium|“明年見。”\n#opx.miracles|“現在，我必須離開你們了。”\n#opx.flowermaker|“願你們想起我時心懷愛意。”\n#opx.horned|“這是一個結束，也是一個開始。”\n#opx.wolf|“你們的時候到了。”\n#opx.counterfeiting|'“把機器關掉。”\n#opx.smuggling|“可以歇業了。”\n#opx.import|“把總賬拿來。”\n#opx.fights|“……啊。”\n#opx.uprising|“我們準備了那麼久就是為了這一天！”\n#opx.betrayal|“你可以在這個地址找到他們……”\n#opx.patronage|“有一點小事需要我去處理。”@",
+            "startdescription": "@#opx.doctor|“我很高興看到你的氣色有所好轉。”\n#opx.sanatorium|“明年見。”\n#opx.miracles|“現在，我必須離開你們了。”\n#opx.flowermaker|“願你們想起我時心懷愛意。”\n#opx.horned|“這是一個結束，也是一個開始。”\n#opx.wolf|“你們的時候到了。”\n#opx.counterfeiting|'“把機器關掉。”\n#opx.smuggling|“可以歇業了。”\n#opx.import|“把總帳拿來。”\n#opx.fights|“……啊。”\n#opx.uprising|“我們準備了那麼久就是為了這一天！”\n#opx.betrayal|“你可以在這個地址找到他們……”\n#opx.patronage|“有一點小事需要我去處理。”@",
             "warmup": 5,
             "burnimage": "operation.complete",
             "aspects": {

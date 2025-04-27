@@ -35,7 +35,7 @@
             "requirements": {
                 "tenacious": -1
             },
-            "description": "\"“他們比看上去更堅強。”\\n\r\n從物理攻擊中活下來的獵人有時會變得堅韌。堅韌的獵人更難被殺死。\"",
+            "description": "\"“他們比看起來更堅強。”\\n\r\n從物理攻擊中活下來的獵人有時會變得堅韌。堅韌的獵人更難被殺死。\"",
             "mutations": [
                 {
                     "filterOnAspectId": "hunter",
@@ -358,7 +358,7 @@
             "id": "hunterattacknoedge",
             "label": "派不適合的人謀殺獵人",
             "actionId": "talk",
-            "startdescription": "我的手下沒有<b>刃</b>相，他實在不適合去襲擊這個獵人。他只有很小的概率能成功。[失敗會使你的手下死亡。]",
+            "startdescription": "我的手下沒有<b>刃</b>相，他實在不適合去襲擊這個獵人。他只有很低的機率能成功。[失敗會使你的手下死亡。]",
             "description": ".",
             "requirements": {
                 "hunter": 1,
@@ -442,7 +442,7 @@
             "id": "evidencedestroymidmoth",
             "label": "派一名陰險的手下毀滅證據",
             "actionId": "talk",
-            "startdescription": "我的計策很有可能成功。但事情出岔子的可能總是有的。",
+            "startdescription": "我的計策很有可能成功。但事情出差錯的可能總是有的。",
             "description": ".",
             "requirements": {
                 "follower": 1,
@@ -495,7 +495,7 @@
             "id": "evidencedestroynomoth",
             "label": "派不適合的人毀滅證據",
             "actionId": "talk",
-            "startdescription": "我的手下沒有<b>蛾</b>相，難以勝任。他只有很小的概率能成功。",
+            "startdescription": "我的手下沒有<b>蛾</b>相，難以勝任。他只有很低的機率能成功。",
             "description": ".",
             "requirements": {
                 "evidencelevel": 1

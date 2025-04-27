@@ -173,7 +173,7 @@
         {
             "id": "scout.avignon",
             "actionid": "scout",
-            "label": "勘察阿維尼翁",
+            "label": "勘察亞維農",
             "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {
@@ -377,7 +377,7 @@
         {
             "id": "scout.istanbul",
             "actionid": "scout",
-            "label": "勘察伊斯坦布爾",
+            "label": "勘察伊斯坦堡",
             "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {
@@ -857,7 +857,7 @@
         {
             "id": "scout.stalingrad",
             "actionid": "scout",
-            "label": "勘察斯大林格勒",
+            "label": "勘察史達林格勒",
             "startdescription": "走遍城市，尋找機會。[有時會產生一個痕跡。]",
             "warmup": 30,
             "aspects": {

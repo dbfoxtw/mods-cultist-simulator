@@ -431,7 +431,7 @@
                 "moth": 10
             },
             "label": "對抗看守：強力的騙局",
-            "startdescription": "“仔細看，再仔細點兒。盯住別放！盯住，別眨眼。現在，閉眼……”",
+            "startdescription": "“仔細看，再仔細點。盯住別放！盯住，別眨眼。現在，閉眼……”",
             "description": ".",
             "linked": [
                 {
@@ -488,7 +488,7 @@
             "id": "explorevaultguardian_watchers_success_edge",
             "actionId": "explore",
             "label": "看守的末路",
-            "startdescription": "他們流出鮮紅的血，然後是黑色的。這些人不該擋我們的道。我們繼續前進。",
+            "startdescription": "他們流出鮮紅的血，然後是黑色的。這些人不該擋我們的路。我們繼續前進。",
             "description": ".",
             "effects": {
                 "guardian_watchers": -1
@@ -707,7 +707,7 @@
                 "moth": 5
             },
             "label": "對抗僧侶：有把握的騙局",
-            "startdescription": "“這份搜查令上蓋的是當局最高層的大印。別擋我們的路——”",
+            "startdescription": "“這份搜索票上蓋的是當局最高層的大印。別擋我們的路——”",
             "description": ".",
             "linked": [
                 {
@@ -1284,7 +1284,7 @@
             "id": "explorevaultguardian_long_encounter",
             "actionId": "explore",
             "label": "長生者",
-            "startdescription": "午港建於那眼臭名昭著的泉水所在之處：飲用此泉，會令這個世界忘卻你的存在。一些長生者從上層世界的紛擾中抽身而出，隱居在這裡。它們對待入侵者的可不手軟，只有蠢貨才去打擾它們。但是，它們對<b>蛾</b>的樂趣或<b>杯</b>的魅惑卻也非常敏感。",
+            "startdescription": "午港建於那眼惡名昭彰的泉水所在之處：飲用此泉，會令這個世界忘卻你的存在。一些長生者從上層世界的紛擾中抽身而出，隱居在這裡。它們對待入侵者的可不手軟，只有蠢貨才去打擾它們。但是，它們對<b>蛾</b>的樂趣或<b>杯</b>的魅惑卻也非常敏感。",
             "requirements": {
                 "guardian_long": 1
             },

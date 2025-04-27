@@ -616,7 +616,7 @@
             "effects": {
                 "glimmering": 1
             },
-            "startdescription": "如果我是打算學點什麼，我是不會讀這玩意的。",
+            "startdescription": "如果我是打算學點什麼，我是不會讀這東西的。",
             "description": "我消磨掉了一段時光。其間先是被引得落淚，後又被逗笑了起來。與此同時，世界照常運轉。",
             "warmup": 60,
             "craftable": true

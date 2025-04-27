@@ -783,7 +783,7 @@
             "label": "奉上",
             "startdescription": "或許他愛著我。或許我愛著他。或許這些都不重要。",
             "actionId": "work",
-            "craftable": false,
+            "craftable": false
         },
         {
             "id": "minorlanternvictory_trigger",
@@ -1081,7 +1081,7 @@
             "requirements": {
                 "resentment": 3
             },
-            "startdescription": "我是做得太過，還是不足？不論如何，我已使某人難耐怒火。",
+            "startdescription": "我是做得太超過，還是不足？不論如何，我已使某人難耐怒火。",
             "description": "一個盟友背棄了我。此人也許不會與我為敵——現在還不會——還談不上為敵——但他不會再替我辦事。",
             "aspects": {
                 "rebellion": 1
@@ -1095,7 +1095,7 @@
             "requirements": {
                 "resentment": 3
             },
-            "startdescription": "我時做得太過，還是不足？不論如何，我已激起了某盟友的怒火。",
+            "startdescription": "我時做得太超過，還是不足？不論如何，我已激起了某盟友的怒火。",
             "description": "此人獨自生了一陣悶氣。他現將歸隊。",
             "mutations": [
                 {

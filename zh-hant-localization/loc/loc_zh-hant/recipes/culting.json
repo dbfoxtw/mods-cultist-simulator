@@ -564,7 +564,7 @@
                 "promotiontodisciple": 1
             },
             "startdescription": "我的追隨者將以門外之身跪拜，以入門之身站起。我將親自頌唱必要的禱詞。",
-            "description": "“時而剪子，時而小刀。時而為樹，時而為骨。時而是月之振翅，時而是魂之生斑。他曾是血，而我們也將和他一樣。”",
+            "description": "“時而剪刀，時而小刀。時而為樹，時而為骨。時而是月之振翅，時而是魂之生斑。他曾是血，而我們也將和他一樣。”",
             "warmup": 60,
             "craftable": true
         },
@@ -1212,7 +1212,7 @@
                         "patron": 1,
                         "hireling": 1
                     },
-                    "description": "一個準備停當之人。"
+                    "description": "一個準備妥當之人。"
                 }
             ],
             "warmup": 30,

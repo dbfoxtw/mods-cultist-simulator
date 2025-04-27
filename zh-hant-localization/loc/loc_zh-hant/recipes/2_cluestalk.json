@@ -158,7 +158,7 @@
             "requirements": {
                 "benefactor": 1
             },
-            "startdescription": "“我們可不能在這兒聊天，親愛的。我們得私下裡說。”",
+            "startdescription": "“我們可不能在這裡聊天，親愛的。我們得私下裡說。”",
             "craftable": false,
             "hintonly": true
         },
@@ -215,7 +215,7 @@
             "requirements": {
                 "jannings": 1
             },
-            "startdescription": "“拜託了，你會完成委託嗎？我的同僚十分需要這份信息。”",
+            "startdescription": "“拜託了，你會完成委託嗎？我的同僚十分需要這份資訊。”",
             "hintonly": true,
             "craftable": true
         },

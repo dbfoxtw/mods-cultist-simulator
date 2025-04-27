@@ -76,7 +76,7 @@
             "id": "rkx.foe.selector",
             "actionid": "rkx.foe",
             "label": "我的大敵正在追蹤我",
-            "startdescription": "即使我看不見他，我也清楚他就在那兒，隨時都可能發起攻擊。",
+            "startdescription": "即使我看不見他，我也清楚他就在那裡，隨時都可能發起攻擊。",
             "warmup": 5,
             "linked": [
                 {
@@ -207,7 +207,7 @@
             "label": "像獅子匠般大笑",
             "startdescription": "我可以以一種非常古老的姿勢來嘲諷我的大敵……同時將自己暴露在他的攻擊之下。或許名為獅子匠的司辰會讚賞我的勇莽。[受兩道傷，但將反抗提升一級。]",
             "requirements": {
-                "defiance.consecration.lionsmith": 1,
+                "defiance.consecration.lionsmith": 1
             },
             "mutations": [
                 {
@@ -456,7 +456,7 @@
             "id": "rkx.foe.weaknessexploited.wolf",
             "actionid": "rkx.foe",
             "label": "狼的吐息",
-            "startdescription": "在我那大敵漫長而可恥的生涯中，他曾做的某事引起了裂分之狼特別的恨意。在其氣息強烈之地，他便謹小慎微。",
+            "startdescription": "在我那大敵漫長而可恥的生涯中，他曾做的某事引起了裂分之狼特別的恨意。在其氣息強烈之地，他便小心謹慎。",
             "requirements": {
                 "op.wolf": 1
             },

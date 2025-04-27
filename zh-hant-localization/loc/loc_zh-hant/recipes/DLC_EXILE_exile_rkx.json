@@ -532,7 +532,7 @@
             "id": "rkx.enforcer.aggressive",
             "actionid": "rkx",
             "label": "一場襲擊！",
-            "startdescription": "刺客正在向我進攻！[如果清算人的直接攻擊成功則會造成傷口。除非你提供一張卡牌來保護自己，否則他的襲擊大概率會成功。你也可以用十年來賄賂此人，但他可能會貪得無厭。]",
+            "startdescription": "刺客正在向我進攻！[如果清算人的直接攻擊成功則會造成傷口。除非你提供一張卡牌來保護自己，否則他的襲擊高機率會成功。你也可以用十年來賄賂此人，但他可能會貪得無厭。]",
             "requirements": {
                 "rkx.enforcer": 1,
                 "rkx.event.aggressive": 1
@@ -876,7 +876,7 @@
             "id": "rkx.underling.attack.success",
             "actionid": "rkx",
             "label": "我受傷了！",
-            "startdescription": "我的敵人打傷了我！我沒法永遠都保持警惕。",
+            "startdescription": "我的敵人打傷了我！我沒辦法永遠都保持警惕。",
             "aspects": {
                 "fatiguing": 1
             },
@@ -1199,7 +1199,7 @@
                 {
                     "id": "more",
                     "label": "更多",
-                    "description": "要麼加倍，要麼走開。",
+                    "description": "要嘛加倍，要嘛走開。",
                     "required": {
                         "decade.stolen": 1
                     }
@@ -1222,7 +1222,7 @@
             "id": "rkx.underling.bribe.success",
             "actionid": "rkx",
             "label": "賄賂成功",
-            "startdescription": "'@#rkx.underboss|“你知道，我一直都很欣賞你。如果老頭子出了什麼事……記得聯繫我。”\n#rkx.enforcer|“成交。就當這件事從沒發生過。”\n#rkx.operative|“你人不賴。老頭子最後追上你的時候……我會倒杯酒來紀念你的。”\n#|“幸好你從沒來過這兒，對吧？”@",
+            "startdescription": "'@#rkx.underboss|“你知道，我一直都很欣賞你。如果老頭子出了什麼事……記得聯絡我。”\n#rkx.enforcer|“成交。就當這件事從沒發生過。”\n#rkx.operative|“你人不賴。老頭子最後追上你的時候……我會倒杯酒來紀念你的。”\n#|“幸好你從沒來過這裡，對吧？”@",
             "requirements": {
                 "decade.stolen": 1
             },

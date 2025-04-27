@@ -40,7 +40,7 @@
                     "description": "談話的主題"
                 }
             ],
-            "startdescription": "\"\t@#ascensionlessonhearta|“想知道更多？”\r\n#ascensionlessonheartb|“想知道更多？”\r\n#ascensionlessonheartc|“想知道更多？”\r\n#ascensionlessonheartd|“想知道更多？”\r\n#ascensionlessonhearte|“想知道更多？”\r\n#ascensionlessonheartf|“想知道更多？”\r\n#ascensionlessonmotha|“想知道更多？”\r\n#ascensionlessonmothb|“想知道更多？”\r\n#ascensionlessonmothc|“想知道更多？”\r\n#ascensionlessonmothd|“想知道更多？”\r\n#ascensionlessonmothe|“想知道更多？”\r\n#ascensionlessonmothf|“想知道更多？”\r\n#|蘇洛恰那踩滅香煙。“可以，如果你想跟我學這門語言的話。行，沒問題。還有別的事嗎？”@\"",
+            "startdescription": "\"\t@#ascensionlessonhearta|“想知道更多？”\r\n#ascensionlessonheartb|“想知道更多？”\r\n#ascensionlessonheartc|“想知道更多？”\r\n#ascensionlessonheartd|“想知道更多？”\r\n#ascensionlessonhearte|“想知道更多？”\r\n#ascensionlessonheartf|“想知道更多？”\r\n#ascensionlessonmotha|“想知道更多？”\r\n#ascensionlessonmothb|“想知道更多？”\r\n#ascensionlessonmothc|“想知道更多？”\r\n#ascensionlessonmothd|“想知道更多？”\r\n#ascensionlessonmothe|“想知道更多？”\r\n#ascensionlessonmothf|“想知道更多？”\r\n#|蘇洛恰那踩滅香菸。“可以，如果你想跟我學這門語言的話。行，沒問題。還有別的事嗎？”@\"",
             "description": "\"@#ascensionlessonhearta|“不是我的專長。”蘇洛恰那微笑道。\r\n#ascensionlessonheartb|“不是我的專長。”蘇洛恰那蛇一般聳著肩道。\r\n#ascensionlessonheartc|“不是我的專長。”蘇洛恰那微笑道。.\r\n#ascensionlessonheartd|“不是我的專長。”蘇洛恰那蛇一般聳著肩道。\r\n#ascensionlessonhearte|“不是我的專長。”蘇洛恰那微笑道。.\r\n#ascensionlessonheartf|“不是我的專長。”蘇洛恰那蛇一般聳著肩道。\r\n#ascensionlessonmotha|“我能教你的就這些。我是你的雇主，不是老師。”蘇洛恰那伸伸懶腰。“多點耐性如何。”\r\n#ascensionlessonmothb|“我能教你的就這些。我是你的雇主，不是老師。”蘇洛恰那伸伸懶腰。“多點耐性如何。”\r\n#ascensionlessonmothc|“我能教你的就這些。我是你的雇主，不是老師。”蘇洛恰那伸伸懶腰。“多點耐性如何。”\r\n#ascensionlessonmothd|“我能教你的就這些。找老師到忘卻會找去。”蘇洛恰那咧嘴一笑，露出滿口牙齒。“他們理你才怪。”\r\n#ascensionlessonmothe|“我能教你的就這些。找老師到忘卻會找去。”蘇洛恰那咧嘴一笑，露出滿口牙齒。“他們理你才怪。”\r\n#ascensionlessonmothf|“我能教你的就這些。找老師到忘卻會找去。”蘇洛恰那咧嘴一笑，露出滿口牙齒。“他們理你才怪。”\r\n#|我讓她失望了？很難說，對於蘇洛恰那這人。@\"",
             "alt": [
                 {
@@ -217,7 +217,7 @@
                 "sulochana": 1,
                 "fragmentsecrethistoriesg": 1
             },
-            "startdescription": "“你要去午港？哈，對你表示遺憾。”蘇洛恰那的話中透出非同尋常的惡毒。",
+            "startdescription": "“你要去午港？哈，對你表示遺憾。”蘇洛恰那的話中透出非比尋常的惡毒。",
             "description": "“給你。這張地圖短時間會有點用。要是他們有誰問起我，你就告訴他我下一個就找上他的孩子。”",
             "effects": {
                 "lore": -1,
@@ -232,7 +232,7 @@
                 "sulochana": 1,
                 "fragmentsecrethistoriesf": 1
             },
-            "startdescription": "“你要去彌啊？給我帶點那兒產的椰棗。”",
+            "startdescription": "“你要去彌啊？給我帶點那裡產的椰棗。”",
             "description": "“給你。住在這個地址的人會給你指路。要是‘竊景之賊’問起我來……讓她替我問候克勒杜……算了，不要提任何關於我的事。好了，地址拿去。”",
             "effects": {
                 "lore": -1,
@@ -248,7 +248,7 @@
                 "fragmentsecrethistoriese": 1
             },
             "startdescription": "“無影眾王？不——”",
-            "description": "“對我們或你們族人來說那兒沒什麼好去的。不值當去那兒跳任何一種舞蹈。你該到更往南的地方去。",
+            "description": "“對我們或你們族人來說那裡沒什麼好去的。不值得去那裡跳任何一種舞蹈。你該到更往南的地方去。",
             "effects": {}
         },
         {
@@ -275,7 +275,7 @@
                 "fragmentsecrethistoriesc": 1
             },
             "startdescription": "“你要去巨石陣？”",
-            "description": "“給你。這個能指引你到還差最後一里地的地方，之後就要靠你自己走了。那裡有座小客棧，我以前去的時候時常留宿。不過我把它給燒了。”她點了一支煙。",
+            "description": "“給你。這個能指引你到還差最後一里地的地方，之後就要靠你自己走了。那裡有座小客棧，我以前去的時候時常留宿。不過我把它給燒了。”她點了一支菸。",
             "effects": {
                 "lore": -1,
                 "vaultcontinentdefault": 1
@@ -290,7 +290,7 @@
                 "fragmentsecrethistoriesb": 1
             },
             "startdescription": "“你要去凱爾伊蘇姆？是的，火車是挺不好坐的。”",
-            "description": "蘇洛恰那遞給你一張印刷的紙條。“這是這個月的站台號。一定要找到正確的站台。有了這個去那兒可容易多了吧，嗯？要是在從前你非得穿過‘錯誤的門’不可，我才不要浪費那個時間。”她咯咯笑了起來。",
+            "description": "蘇洛恰那遞給你一張印刷的紙條。“這是這個月的站台號。一定要找到正確的站台。有了這個去那裡可容易多了吧，嗯？要是在從前你非得穿過‘錯誤的門’不可，我才不要浪費那個時間。”她咯咯笑了起來。",
             "effects": {
                 "lore": -1,
                 "vaultshiresdefault": 1
@@ -305,7 +305,7 @@
                 "fragmentsecrethistories": 1
             },
             "startdescription": "“你想蛻變的話……我可以幫你。”",
-            "description": "“我們第一次總是在海邊變。現今的凱爾伊蘇姆可是個好地方。然後地點會越來越遠。不過不是讓你親自去，絕對不要親自去，要讓另一個你去。如果你不確定該去哪兒，儘管帶著更多密傳回來找我。如果你要尋求蛻變之外的東西，不管是什麼……我都幫不了你。”"
+            "description": "“我們第一次總是在海邊變。現今的凱爾伊蘇姆可是個好地方。然後地點會越來越遠。不過不是讓你親自去，絕對不要親自去，要讓另一個你去。如果你不確定該去哪裡，儘管帶著更多密傳回來找我。如果你要尋求蛻變之外的東西，不管是什麼……我都幫不了你。”"
         },
         {
             "id": "poppyoffer",

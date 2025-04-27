@@ -263,7 +263,7 @@
             "label": "逃脫的召喚物敵不過你",
             "actionId": "haunting",
             "startdescription": ".",
-            "description": "它哪裡有我厲害！但是我沒法無聲無息地解決掉它。人們會議論的。",
+            "description": "它哪裡有我厲害！但是我沒辦法無聲無息地解決掉它。人們會議論的。",
             "effects": {
                 "notoriety": 1
             },

@@ -196,7 +196,7 @@
             "id": "explorevaultseal_hiddendoor_failure",
             "actionId": "explore",
             "label": "毫無成果的探索",
-            "startdescription": "它在哪兒？我們應該用上更多的<b>啟</b>或<b>燈</b>。",
+            "startdescription": "它在哪裡？我們應該用上更多的<b>啟</b>或<b>燈</b>。",
             "description": ".",
             "craftable": false,
             "linked": [

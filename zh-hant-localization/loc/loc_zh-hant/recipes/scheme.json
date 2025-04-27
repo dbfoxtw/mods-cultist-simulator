@@ -318,7 +318,7 @@
             "effects": {
                 "vault": -1
             },
-            "startdescription": "不論他來這兒是要找什麼，他都已經得手。",
+            "startdescription": "不論他來這裡是要找什麼，他都已經得手。",
             "warmup": 5,
             "craftable": false,
             "alt": [
@@ -362,7 +362,7 @@
                 "vault": 1
             },
             "effects": {},
-            "startdescription": "不論他來這兒是要找什麼，他都沒能得手。他已放棄了這次探索……至少現下如此。",
+            "startdescription": "不論他來這裡是要找什麼，他都沒能得手。他已放棄了這次探索……至少現下如此。",
             "warmup": 5,
             "craftable": false
         },
@@ -376,7 +376,7 @@
             "effects": {
                 "mystique": 1
             },
-            "startdescription": "他仍舊潛伏著。他的目的究竟為何？[此事有極大概率會無疾而終，但偶爾也會出現某個對手偷偷增長力量的情況。你可以考慮空出一處探險地點來引蛇出洞。]",
+            "startdescription": "他仍舊潛伏著。他的目的究竟為何？[此事有極高機率會無疾而終，但偶爾也會出現某個對手偷偷增長力量的情況。你可以考慮空出一處探險地點來引蛇出洞。]",
             "description": "對手在搞某些小破壞。防剿局可能會有所察覺。",
             "alt": [
                 {

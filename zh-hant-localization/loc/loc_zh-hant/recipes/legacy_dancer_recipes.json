@@ -25,7 +25,7 @@
                 "vitality": 2,
                 "dancerlegacy_plotitem_a": -1
             },
-            "description": "方向逐漸明朗。顯然，裡面記載了舞步——我開始有所覺察——這舞步終於某處——某個潛伏在醒時生活之下的地方。那個地方的我和這兒的不一樣。我活動著肩膀：為何我感覺我身上的皮膚和我不太配套？",
+            "description": "方向逐漸明朗。顯然，裡面記載了舞步——我開始有所覺察——這舞步終於某處——某個潛伏在醒時生活之下的地方。那個地方的我和這裡的不一樣。我活動著肩膀：為何我感覺我身上的皮膚和我不太配套？",
             "alt": [
                 {
                     "id": "legacydancer_opendream_heart",
@@ -224,7 +224,7 @@
             "id": "worklegacydancerjob_more",
             "actionId": "work",
             "label": "歡騰劇院裡的機會",
-            "startdescription": "今晚我嗅到了機會。今晚我能吸引眾人的目光，只要我不再拘束，只要我全身心投入。",
+            "startdescription": "今晚我嗅到了機會。今晚我能吸引眾人的目光，只要我不再拘束，只要我全心全意投入。",
             "description": "我不為所動。我該走步走步，該跳舞跳舞，完成了他們的要求，他們會付錢給我。",
             "comments": "the better outcomes require heart or moth 2: enough for abilities or for restlessness, too much for fatigue",
             "slots": [
@@ -330,7 +330,7 @@
             },
             "label": "來自愛慕者的訊息？",
             "startdescription": ".",
-            "description": "一封由專人遞送的信，收件人是我。散發著濃烈的香煙和丁香的味道。信上寫道：“如果你想和人談談你的夢，就來找我。等你準備好再打電話。”上面還有電話號碼和一個名字：蘇洛恰那。",
+            "description": "一封由專人遞送的信，收件人是我。散發著濃烈的香菸和丁香的味道。信上寫道：“如果你想和人談談你的夢，就來找我。等你準備好再打電話。”上面還有電話號碼和一個名字：蘇洛恰那。",
             "effects": {
                 "sulochana": 1,
                 "funds": 1,
@@ -359,7 +359,7 @@
             },
             "label": "我是一副柔順的血肉皮囊。",
             "startdescription": "今晚，他們會注意到的。",
-            "description": "我感到他們的目光聚在我身上。之後，我收到了一位愛慕者送的禮物——以我的口味來說過分花哨了，但我可以到二手市場賣掉它。",
+            "description": "我感到他們的目光聚在我身上。之後，我收到了一位愛慕者送的禮物——以我的口味來說過分花俏了，但我可以到二手市場賣掉它。",
             "effects": {
                 "funds": 1,
                 "influence": -1
@@ -551,7 +551,7 @@
                 "health": 1
             },
             "label": "金主被我所吸引",
-            "description": "表演結束後，我面色通紅滿身汗水，不過我的金主似乎喜歡這樣。他送給我一個閃閃發亮的小玩意。",
+            "description": "表演結束後，我臉色通紅滿身汗水，不過我的金主似乎喜歡這樣。他送給我一個閃閃發亮的小東西。",
             "mutations": [
                 {
                     "filterOnAspectId": "benefactor",

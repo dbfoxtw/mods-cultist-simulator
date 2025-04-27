@@ -151,7 +151,7 @@
             "id": "annoyanceattacknoedge",
             "label": "派不適合的人謀殺眼中釘",
             "actionId": "talk",
-            "startdescription": "我的手下沒有<b>刃</b>相，他實在不適合去襲擊這個眼中釘。他只有很小的概率能成功。[失敗會使你的手下死亡。]",
+            "startdescription": "我的手下沒有<b>刃</b>相，他實在不適合去襲擊這個眼中釘。他只有很低的機率能成功。[失敗會使你的手下死亡。]",
             "description": ".",
             "requirements": {
                 "annoyance": 1,

@@ -453,7 +453,7 @@
             "id": "long.executestrategy.assault.forge.greatwork.succeed",
             "actionId": "longassault",
             "label": "蓄意破壞！",
-            "startdescription": "我們的敵人用鈎刀和撬棍大幹了一場。",
+            "startdescription": "我們的敵人用鉤刀和撬棍大幹了一場。",
             "aspects": {
                 "sabotage": 1
             },
@@ -1604,7 +1604,7 @@
             "id": "long.executestrategy.intrigue.mystiquetonotoriety.begin",
             "actionId": "longintrigue",
             "label": "杜撰傳聞",
-            "startdescription": "我們敵人正在想辦法把現存的謠言煽動地更邪乎。",
+            "startdescription": "我們敵人正在想辦法把現存的謠言煽動地更離奇。",
             "slots": [
                 {
                     "id": "mystique",
@@ -2478,7 +2478,7 @@
             "id": "long.assault.confrontation.murderskill",
             "actionId": "long",
             "label": "踏入黑夜",
-            "startdescription": "我要直面這個生物。他擁有數世紀的力量……但我也不容小看。",
+            "startdescription": "我要面對這個生物。他擁有數世紀的力量……但我也不容小看。",
             "requirements": {
                 "murderskill": 1
             },

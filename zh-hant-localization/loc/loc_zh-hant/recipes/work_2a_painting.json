@@ -704,7 +704,7 @@
             "id": "paint.memory.generic",
             "actionId": "work",
             "label": "人生一幕幕",
-            "startdescription": "我不覺得這是我自己的人生，不過也許它終究是的。終有一天我將完全無法分辨是與不是。",
+            "startdescription": "我不覺得這是我自己的人生，不過也許它終究是的。總有一天我將完全無法分辨是與不是。",
             "requirements": {
                 "memory.profitable": 1
             },
@@ -1150,7 +1150,7 @@
             },
             "actionId": "work",
             "label": "相稱的介質",
-            "startdescription": "或早或晚，這張畫布終會毀壞，然而其上的色彩將愈發濃烈。",
+            "startdescription": "或早或晚，這張畫布終會毀壞，然而其上的色彩將越來越濃烈。",
             "effects": {
                 "insight": 2,
                 "influenceknockc": 1
@@ -1693,7 +1693,7 @@
         {
             "id": "paintingreputation_significant",
             "label": "對藝術家的回報？",
-            "description": "我的新作受到好評！我或可以此糊口，不過世事難料。",
+            "description": "我的新作受到好評！我或可以此餬口，不過世事難料。",
             "actionId": "work",
             "requirements": {
                 "reputation": 3,
@@ -1738,7 +1738,7 @@
             "id": "paintingreputation_unknown",
             "comments": "No links to over-exposure risk. The overexposure cards will happily decay to funds.",
             "label": "對藝術家的回報？",
-            "description": "我的新作無人問津。沒有進賬。也許作畫本身便是其回報吧，但願如此。",
+            "description": "我的新作無人問津。沒有進帳。也許作畫本身便是其回報吧，但願如此。",
             "actionId": "work",
             "requirements": {
                 "reputation": -1

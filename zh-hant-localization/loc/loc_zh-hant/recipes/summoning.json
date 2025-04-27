@@ -87,7 +87,7 @@
             "aspects": {
                 "renewburgeoning": 1
             },
-            "startdescription": "屍體內的新生命掙扎著想要逃離。我還能再困住它一小會兒。",
+            "startdescription": "屍體內的新生命掙扎著想要逃離。我還能再困住它一會兒。",
             "description": "屍體眼中的光不再那麼野蠻。他的藤蔓平息下來。有那麼一會兒，我以為它會開口說話。",
             "warmup": 60,
             "craftable": true
@@ -229,7 +229,7 @@
             "id": "summon_spirit_forgec_winter.success",
             "label": "召喚一種狀如煙霧的生物",
             "actionId": "work",
-            "description": "並非鑄爐的所有孩子都光鮮明亮。它產生的的碎料和殘次品像鐵匠鋪地縫裡積著廢渣一樣匯聚在邊境。現在就來了一個。",
+            "description": "並非鑄爐的所有孩子都光鮮明亮。它產生的的碎料和瑕疵品像鐵匠鋪地縫裡積著廢渣一樣匯聚在邊境。現在就來了一個。",
             "warmup": 0,
             "craftable": false
         },
@@ -299,7 +299,7 @@
             "id": "summon_spirit_lanternc_edge.success",
             "label": "召喚一種邊銳如刃的燈之物",
             "actionId": "work",
-            "description": "跡形不喜歡華麗登場。活人的注視會使它們碎裂。我知道它在這兒，現下這樣就夠了。",
+            "description": "跡形不喜歡華麗登場。活人的注視會使它們碎裂。我知道它在這裡，現下這樣就夠了。",
             "warmup": 0,
             "craftable": false
         },

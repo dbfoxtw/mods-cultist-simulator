@@ -128,7 +128,7 @@
         {
             "id": "poison.passion.dread.induction",
             "actionId": "poison.passion.dread.induction",
-            "label": "滲人的顏色",
+            "label": "嚇人的顏色",
             "startdescription": "我的激情被毒侵入。每一陣精神上的劇痛都會喚起一陣兇猛的灰顏色。",
             "effects": {
                 "dread": 1

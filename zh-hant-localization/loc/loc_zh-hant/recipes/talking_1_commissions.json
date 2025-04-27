@@ -25,7 +25,7 @@
             "requirements": {
                 "bechetready": 1
             },
-            "startdescription": "她正在為臭名昭著的《凱爾伊蘇姆評論報》取材。",
+            "startdescription": "她正在為惡名昭彰的《凱爾伊蘇姆評論報》取材。",
             "description": "她的需求如下。",
             "warmup": 10,
             "deckeffect": {
@@ -88,7 +88,7 @@
                 "erudition": 1
             },
             "startdescription": "我擁有博士所求之物。",
-            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的信息。",
+            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的資訊。",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -111,7 +111,7 @@
                 "erudition": 1
             },
             "startdescription": "我擁有博士所求之物。",
-            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的信息。",
+            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的資訊。",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -134,7 +134,7 @@
                 "erudition": 1
             },
             "startdescription": "我擁有博士所求之物。",
-            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的信息。",
+            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的資訊。",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -157,7 +157,7 @@
                 "erudition": 1
             },
             "startdescription": "我擁有博士所求之物。",
-            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的信息。",
+            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的資訊。",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -180,7 +180,7 @@
                 "erudition": 1
             },
             "startdescription": "我擁有博士所求之物。",
-            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的信息。",
+            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的資訊。",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -203,7 +203,7 @@
                 "erudition": 1
             },
             "startdescription": "我擁有博士所求之物。",
-            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的信息。",
+            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的資訊。",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -226,7 +226,7 @@
                 "erudition": 1
             },
             "startdescription": "我擁有對方所求之物。",
-            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的信息。",
+            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的資訊。",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -249,7 +249,7 @@
                 "erudition": 1
             },
             "startdescription": "我擁有對方所求之物。",
-            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的信息。",
+            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的資訊。",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -272,7 +272,7 @@
                 "erudition": 1
             },
             "startdescription": "我擁有對方所求之物。",
-            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的信息。",
+            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的資訊。",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -295,7 +295,7 @@
                 "glimmering": 1
             },
             "startdescription": "我擁有對方所求之物。",
-            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的信息。",
+            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的資訊。",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -318,7 +318,7 @@
                 "glimmering": 1
             },
             "startdescription": "我擁有對方所求之物。",
-            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的信息。",
+            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的資訊。",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -341,7 +341,7 @@
                 "glimmering": 1
             },
             "startdescription": "我擁有對方所求之物。",
-            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的信息。",
+            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的資訊。",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -364,7 +364,7 @@
                 "glimmering": 1
             },
             "startdescription": "我擁有對方所求之物。",
-            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的信息。",
+            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的資訊。",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -387,7 +387,7 @@
                 "glimmering": 1
             },
             "startdescription": "我擁有對方所求之物。",
-            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的信息。",
+            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的資訊。",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -410,7 +410,7 @@
                 "glimmering": 1
             },
             "startdescription": "我擁有對方所求之物。",
-            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的信息。",
+            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的資訊。",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -433,7 +433,7 @@
                 "glimmering": 1
             },
             "startdescription": "我擁有對方所求之物。",
-            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的信息。",
+            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的資訊。",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -456,7 +456,7 @@
                 "glimmering": 1
             },
             "startdescription": "我擁有對方所求之物。",
-            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的信息。",
+            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的資訊。",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -479,7 +479,7 @@
                 "glimmering": 1
             },
             "startdescription": "我擁有對方所求之物。",
-            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的信息。",
+            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的資訊。",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -502,7 +502,7 @@
                 "erudition": 1
             },
             "startdescription": "我擁有對方所求之物。",
-            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的信息。",
+            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的資訊。",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -525,7 +525,7 @@
                 "erudition": 1
             },
             "startdescription": "我擁有對方所求之物。",
-            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的信息。",
+            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的資訊。",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -548,7 +548,7 @@
                 "erudition": 1
             },
             "startdescription": "我擁有對方所求之物。",
-            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的信息。",
+            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的資訊。",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -571,7 +571,7 @@
                 "erudition": 1
             },
             "startdescription": "我擁有波比所求之物。",
-            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的信息。",
+            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的資訊。",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -594,7 +594,7 @@
                 "erudition": 1
             },
             "startdescription": "我擁有波比所求之物。",
-            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的信息。",
+            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的資訊。",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -617,7 +617,7 @@
                 "erudition": 1
             },
             "startdescription": "我擁有波比所求之物。",
-            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的信息。",
+            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的資訊。",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -640,7 +640,7 @@
                 "erudition": 1
             },
             "startdescription": "我擁有波比所求之物。",
-            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的信息。",
+            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的資訊。",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -663,7 +663,7 @@
                 "erudition": 1
             },
             "startdescription": "我擁有波比所求之物。",
-            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的信息。",
+            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的資訊。",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -686,7 +686,7 @@
                 "erudition": 1
             },
             "startdescription": "我擁有波比所求之物。",
-            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的信息。",
+            "description": "我收到了隱秘世界的貨幣，而我的贊助人還說漏了一些引人遐思的資訊。",
             "warmup": 10,
             "craftable": true,
             "aspects": {

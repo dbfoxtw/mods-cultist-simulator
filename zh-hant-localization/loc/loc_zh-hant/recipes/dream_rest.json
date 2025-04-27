@@ -152,7 +152,7 @@
             "aspects": {
                 "restorehealth": 1
             },
-            "startdescription": "這藥又黑又苦，跟焦油似的。這很容易讓我懷疑自己是不是被人下毒了。",
+            "startdescription": "這藥又黑又苦，跟焦油一樣。這很容易讓我懷疑自己是不是被人下毒了。",
             "description": "病房漸漸變得狹小和陳舊。起床的時候到了。",
             "warmup": 60,
             "craftable": true
@@ -266,7 +266,7 @@
             "id": "dream.decrepitude",
             "actionId": "dream",
             "label": "孤注一擲的舉措",
-            "startdescription": "我的靈魂像沼澤鬼火一樣在我衰弱的肉體中作祟。我的心臟遲慢，終有一天要休止。若我進食一些異質之物，也許能恢復我失去的氣力。不過可能性不大。",
+            "startdescription": "我的靈魂像沼澤鬼火一樣在我衰弱的肉體中作祟。我的心臟遲慢，總有一天要休止。若我進食一些異質之物，也許能恢復我失去的氣力。不過可能性不大。",
             "requirements": {
                 "decrepitude": 1,
                 "ingredient": 1

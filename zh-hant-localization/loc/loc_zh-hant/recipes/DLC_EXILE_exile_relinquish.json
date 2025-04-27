@@ -144,7 +144,7 @@
             "actionid": "relinquish",
             "label": "打碎偷來的十年",
             "startdescription": "偷來的一年比偷來的十年更容易出手。我有可以將十年化整為零的工具，但我必須謹慎下筆，字跡工整。先於太陽而來者從不容忍粗心大意。[十年是無法賣掉的，但一年不能用來治癒傷口。此外一年不能重新合為十年。]",
-            "description": "終於完成了。我對著灰燼賬簿仔細地填好了十份匯票，接著燒掉代表十年的那張。每一張新票都價值四千兩百萬次人類的心跳。我覺得自己甚至能聽到它們在紙上顫抖的聲音……",
+            "description": "終於完成了。我對著灰燼帳簿仔細地填好了十份匯票，接著燒掉代表十年的那張。每一張新票都價值四千兩百萬次人類的心跳。我覺得自己甚至能聽到它們在紙上顫抖的聲音……",
             "requirements": {
                 "decade.stolen": 1
             },
@@ -458,8 +458,8 @@
         {
             "id": "relinquish.provoke",
             "actionid": "relinquish",
-            "label": "激怒我的聯繫人",
-            "startdescription": "我不是唯一一個有敵人的人。如果我把自己與這一方的不和公之於眾，我可能會獲得@#connection.official|黑社會人脈\n#connection.holy|激進分子人脈\n#connection.radicals|官方人脈\n#connection.ruler|激進分子人脈\n#connection.underworld|官方人脈@。或者我可能會惹惱我現在的聯繫人。[這通常有用，但有時會失敗，且會讓你失去目前的人脈並產生痕跡。]",
+            "label": "激怒我的聯絡人",
+            "startdescription": "我不是唯一一個有敵人的人。如果我把自己與這一方的不和公之於眾，我可能會獲得@#connection.official|黑社會人脈\n#connection.holy|激進分子人脈\n#connection.radicals|官方人脈\n#connection.ruler|激進分子人脈\n#connection.underworld|官方人脈@。或者我可能會惹惱我現在的聯絡人。[這通常有用，但有時會失敗，且會讓你失去目前的人脈並產生痕跡。]",
             "requirements": {
                 "connection": 1,
                 "trace": -1

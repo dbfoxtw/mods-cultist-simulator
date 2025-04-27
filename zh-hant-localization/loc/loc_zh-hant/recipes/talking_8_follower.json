@@ -1554,7 +1554,7 @@
                 "follower_lustenlightenment": 1,
                 "locationstreetsstrange": 1
             },
-            "startdescription": "\"@#uqauclair|奧克萊爾揚起臉，把她的嘴調整成歡快的，明白的微笑。“我樂意”，她說道。\r\n#uqcat|卡特端起她的茶杯，喝乾，然後傾斜茶杯，仔細端詳剩下的茶渣。“為什麼不”，她說，“為什麼不呢。”\r\n#uqclifton|克利夫頓打了個嗝，擦擦嘴。“行啊”，他贊同道。\r\n#uqenid|伊妮德抬頭直視我，雙眼發出光芒。“好”，她說道。\r\n#uqneville|內維爾咽了咽口水。“真的嗎？謝謝你。我是說，嗯，當然！”\r\n#uqslee|有那麼一刻，思雷看上去驚恐地彷彿我提出了手術干預。然後他真誠地點了點頭。“我想知道後面會發生什麼”，他說道。@\"",
+            "startdescription": "\"@#uqauclair|奧克萊爾揚起臉，把她的嘴調整成歡快的，明白的微笑。“我樂意”，她說道。\r\n#uqcat|卡特端起她的茶杯，喝乾，然後傾斜茶杯，仔細端詳剩下的茶渣。“為什麼不”，她說，“為什麼不呢。”\r\n#uqclifton|克利夫頓打了個嗝，擦擦嘴。“行啊”，他贊同道。\r\n#uqenid|伊妮德抬頭直視我，雙眼發出光芒。“好”，她說道。\r\n#uqneville|內維爾嚥了咽口水。“真的嗎？謝謝你。我是說，嗯，當然！”\r\n#uqslee|有那麼一刻，思雷看起來驚恐地彷彿我提出了手術干預。然後他真誠地點了點頭。“我想知道後面會發生什麼”，他說道。@\"",
             "description": "地撒銀光，晚風涼爽；夜晚的寂靜引來言語，如暗色絲絨引來手指撫弄。[要想與該角色開始一段私情，請向其表明你們最深的欲望是一致的。]",
             "linked": [
                 {
@@ -2401,7 +2401,7 @@
             "id": "followeraction_craftworkhighforge",
             "label": "教團事務：出賣手藝",
             "actionId": "talk",
-            "startdescription": "我麾下的重塑者可以從各路不法實驗室和地下工廠賺來資金——偶爾會出岔子。",
+            "startdescription": "我麾下的重塑者可以從各路不法實驗室和地下工廠賺來資金——偶爾會出差錯。",
             "description": ".",
             "requirements": {
                 "society": 1,
@@ -2463,7 +2463,7 @@
         },
         {
             "id": "followeraction_craftworksuccess",
-            "label": "按照合同做工……",
+            "label": "按照契約做工……",
             "actionId": "talk",
             "startdescription": "這座城市裡存在著各種違背國家王法的勾當。個別的甚至違背自然規律。其中一些非常危險。",
             "description": "我的追隨者帶著勞動所得歸來。",
@@ -2474,7 +2474,7 @@
         },
         {
             "id": "followeraction_craftworkfailure",
-            "label": "按照合同做工……",
+            "label": "按照契約做工……",
             "actionId": "talk",
             "startdescription": "這座城市裡存在著各種違背國家王法的勾當。個別的甚至違背自然規律。其中一些非常危險。",
             "description": "我的追隨者空手而歸。今天的工作任務超出了他所能。",
@@ -2489,7 +2489,7 @@
         },
         {
             "id": "followeraction_craftworkfailure_losefollower",
-            "label": "按照合同做工……",
+            "label": "按照契約做工……",
             "actionId": "talk",
             "startdescription": "這座城市裡存在著各種違背國家王法的勾當。個別的甚至違背自然規律。其中一些非常危險。",
             "description": "發生了意外。[通過<b>談話</b>治療倒下的追隨者。]",
