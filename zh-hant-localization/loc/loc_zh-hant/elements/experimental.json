@@ -2,29 +2,29 @@
 	"elements": [
 		{
 			"id": "owl",
-			"label": "The Owl Without a Hat",
-			"description": "The Owl says that our last character was #PREVIOUSCHARACTERNAME#, our last desire was #LAST_DESIRE#, our last best follower was #LAST_FOLLOWER# and our last book was #LAST_BOOK#."
+			"label": "無帽之鴞",
+			"description": "貓頭鷹低語著，我們上一次的化身是#PREVIOUSCHARACTERNAME#，那時的渴求為#LAST_DESIRE#，最忠誠的追隨者是#LAST_FOLLOWER#，最後翻閱的典籍是#LAST_BOOK#。"
 		},
 		{
 			"id": "wolfatthedoor",
-			"label": "The Wolf at the Door",
-			"description": "The Wolf will accept anything, and then devour everything, no matter what."
+			"label": "門扉之狼",
+			"description": "狼接受一切，吞噬一切，從無意外。"
 		},
 		{
 			"id": "lionweb",
-			"label": "The Lion in the Web"
+			"label": "網中之獅"
 		},
 		{
 			"id": "boarwords",
-			"label": "The Boar in the Words"
+			"label": "言中之豭"
 		},
 		{
 			"id": "worldbull",
-			"label": "The World in the Bull"
+			"label": "牯中之世"
 		},
 		{
 			"id": "notaworm",
-			"label": "Possibly a Bird"
+			"label": "形若飛鳥"
 		}
 	]
 }
