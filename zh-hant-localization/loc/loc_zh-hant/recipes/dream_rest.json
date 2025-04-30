@@ -36,7 +36,7 @@
 			"id": "recoverfatigue",
 			"label": "小憩以除去疲憊",
 			"startdescription": "我只是需要一點時間來恢復精力。",
-			"description": "我重又精神抖擻。"
+			"description": "我精神抖擻。"
 		},
 		{
 			"id": "recover.apostlegrail.pillar2",

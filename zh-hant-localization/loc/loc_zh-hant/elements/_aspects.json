@@ -572,7 +572,7 @@
         {
             "id": "refiring",
             "label": "重燃",
-            "description": "演出召喚物的召喚時限。"
+            "description": "延長召喚物的召喚時限。"
         },
         {
             "id": "promotiontodisciple",
