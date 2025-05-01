@@ -7,8 +7,8 @@
         },
         {
             "id": "commontomes",
-            "label": "市面出售的書籍",
-            "description": "說不定能買到些教授無形之術的書籍。"
+            "label": "市面流通的書籍",
+            "description": "說不定能買到能教授我無形之術的書籍。"
         },
         {
             "id": "auctionedcommontomes",

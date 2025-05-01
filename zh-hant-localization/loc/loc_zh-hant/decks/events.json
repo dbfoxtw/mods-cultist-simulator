@@ -8,7 +8,7 @@
         {
             "id": "cabaretevents",
             "label": "俱樂部一夜",
-            "description": "每個夜晚都會帶來不同的愉悅，但是，偶爾會有險情發生。"
+            "description": "每個夜晚各有歡愉，偶爾也伴隨危機。"
         },
         {
             "id": "roserewards",
@@ -43,7 +43,7 @@
         {
             "id": "robberyrewards",
             "label": "罪業的報償",
-            "description": "我的手下經常能為我帶回瑣碎的寶物；有時毫無價值；然而，極少情況下，會是奇特的物什。"
+            "description": "我的手下經常帶回些許瑣物，有時只是廢品，極少時則是非凡之物。"
         },
         {
             "id": "exploreevents",
