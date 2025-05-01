@@ -51,12 +51,12 @@
 			},
 			{
 				"id": "credits.loc.jp",
-				"label": "Japanese Localisation",
+				"label": "日語在地化",
 				"description": "LocalizeDirect (Ramune)\n\nClocq\n\n版本資訊志願翻譯：Nirvana Studio"
 			},
 			{
 				"id": "credits.loc.de",
-				"label": "German Localisation",
+				"label": "德語在地化",
 				"description": "Localize Direct (Rolf Klischewski) \n\n版本資訊志願翻譯：Jan Zimmer"
 			},
 			{
