@@ -4,13 +4,13 @@
 			"id": "deathofthebody",
 			"label": "健康已耗盡",
 			"startdescription": "我的生命正在流失——",
-			"description": "他們會在哪裡將我找見呢？我不在此處。"
+			"description": "他們會在哪裡找到我呢？我不在此處。"
 		},
 		{
 			"id": "forlornblooddeathofthebody",
 			"label": "健康已耗盡",
 			"startdescription": "骨子裡的痼疾壓倒了我。除非我能振作起來，或者品嘗我們愉悅者的血，否則一切都將結束。",
-			"description": "他們會在哪裡將我找見呢？我不在此處。"
+			"description": "他們會在哪裡找到我呢？我不在此處。"
 		},
 		{
 			"id": "workvictory",

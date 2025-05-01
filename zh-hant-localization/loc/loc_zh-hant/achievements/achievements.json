@@ -40,8 +40,8 @@
     },
     {
       "id": "A_ENDING_DEATHOFTHEBODY",
-      "label": "他們會在哪裡將我找見呢？",
-      "descriptionunlocked": "我的身體已死。也許我的精神進入了漫宿。"
+      "label": "他們會在哪裡找到我呢？",
+      "descriptionunlocked": "我身已死。也許我的精神漂入了漫宿。"
     },
     {
       "id": "A_MANSUS_WOOD",
@@ -91,7 +91,7 @@
     {
       "id": "A_ENDING_WORKVICTORYB",
       "label": "高階主管辦公室",
-      "descriptionunlocked": "我將受我的同儕尊敬。然後總有一天，我將死去。"
+      "descriptionunlocked": "我將受同儕敬重。終有一日，我將如凡人般死去。"
     },
     {
       "id": "A_ENDING_ARREST",
@@ -231,7 +231,7 @@
     {
       "id": "A_ENDING_ENIDVICTORY",
       "label": "共度餘生：伊妮德",
-      "descriptionunlocked": "我的努力得到了厚報。"
+      "descriptionunlocked": "我的努力終得回報。"
     },
     {
       "id": "A_ENDING_RENIRAVICTORY",
@@ -261,17 +261,17 @@
     {
       "id": "A_ENDING_VALCIANEVICTORY",
       "label": "共度餘生：萬查妮",
-      "descriptionunlocked": "她渴求被人找見。"
+      "descriptionunlocked": "她渴求被人發現。"
     },
     {
       "id": "A_ENDING_LAIDLAWVICTORY",
       "label": "共度餘生：萊德勞",
-      "descriptionunlocked": "我們覺得我們已找到了一種可行的方式。"
+      "descriptionunlocked": "我們尋找，我們思考，也許能找到一個適合的相處方式。"
     },
     {
       "id": "A_ENDING_ELRIDGEVICTORY",
       "label": "共度餘生：埃爾里奇",
-      "descriptionunlocked": "我許會獎勵於他。"
+      "descriptionunlocked": "我或許會獎勵於他。"
     },
     {
       "id": "A_ENDING_ROSEVICTORY",
@@ -281,7 +281,7 @@
     {
       "id": "A_ENDING_SALIBAVICTORY",
       "label": "共度餘生：薩利巴",
-      "descriptionunlocked": "我不是說這個結果不好。"
+      "descriptionunlocked": "這樣的結局倒也稱不上糟。"
     },
     {
       "id": "A_ENDING_LEOVICTORY",
@@ -296,12 +296,12 @@
     {
       "id": "A_ENDING_NEVILLEVICTORY",
       "label": "共度餘生：內維爾",
-      "descriptionunlocked": "過後他會向我表示感謝。"
+      "descriptionunlocked": "他後來向我道謝。"
     },
     {
       "id": "A_ENDING_CLIFTONVICTORY",
       "label": "共度餘生：克利夫頓",
-      "descriptionunlocked": "他這個人啊，讓人笑也不是哭也不是。"
+      "descriptionunlocked": "他這個人啊，讓人哭笑不得。"
     },
     {
       "id": "A_ENDING_SLEEVICTORY",
@@ -321,7 +321,7 @@
     {
       "id": "A_ENDING_SYLVIAVICTORY",
       "label": "共度餘生：西爾維婭",
-      "descriptionunlocked": "與她生活並不輕鬆。"
+      "descriptionunlocked": "與她生活並不容易。"
     },
     {
       "id": "A_ENDING_CLOVETTEVICTORY",

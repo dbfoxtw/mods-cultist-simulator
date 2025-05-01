@@ -46,7 +46,7 @@
 				}
 			],
 			"startdescription": "快到頭了——[馬上尋求“安逸”，否則一切都完了。]",
-			"description": "他們會在哪裡將我找見呢？我不在此處。"
+			"description": "他們會在哪裡找到我呢？我不在此處。"
 		},
 		{
 			"id": "despairdefeated",
@@ -94,7 +94,7 @@
 				}
 			],
 			"startdescription": "萬物表面溢出的光都是什麼？輝光快要到來，但我不能停在這裡看它——[如果你不能馬上找到“恐懼”或“一瞬追憶”，一切都完了。]",
-			"description": "他們會在哪裡將我找見呢？我不在此處。"
+			"description": "他們會在哪裡找到我呢？我不在此處。"
 		},
 		{
 			"id": "visionsabate",
