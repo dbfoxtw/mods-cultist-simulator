@@ -159,7 +159,7 @@
 					"UI_UNIQUE": "獨一：不可同時存在複數個。",
 					"UI_UPCOMINGDRAWS": "即將抽取：",
 					"UI_DECAYS": "此類卡牌會隨時間推移消失，故無法堆疊。",
-					"UI_EMPTYSPACE": "“埏埴以為器，當其無，有器之用（碗空方有容物之用）。” —— 老子",
+					"UI_EMPTYSPACE": "“埏埴以為器，當其無，有器之用（碗空方有容物之用）。”——老子",
 					"UI_CANTMERGE": "卡牌無法合併",
 					"UI_CANTPUT": "不能放在這裡——",
 					"UI_ASPECTSREQUIRED": "此處<b>只能</b>放入下列性相的卡牌：",
