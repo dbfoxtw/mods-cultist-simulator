@@ -3,7 +3,7 @@
 		{
 			"id": "scout",
 			"label": "勘察",
-			"description": "嗅探可能性。",
+			"description": "探索可能性。",
 			"slot": {
 				"id": "scout",
 				"label": "勘察"
@@ -31,7 +31,7 @@
 		{
 			"id": "send",
 			"label": "交流",
-			"description": "送出消息、金錢和其它。小心行事。",
+			"description": "送出消息、金錢和其他。小心行事。",
 			"slot": {
 				"id": "send",
 				"label": "交流"

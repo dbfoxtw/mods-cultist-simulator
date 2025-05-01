@@ -3,7 +3,7 @@
 		{
 			"id": "work",
 			"label": "作業",
-			"description": "或賺錢餬口，或施展無形之術。",
+			"description": "賺錢餬口，或施展無形之術。",
 			"slot": {
 				"id": "work",
 				"label": "作業",
@@ -27,7 +27,7 @@
 			"slot": {
 				"id": "study",
 				"label": "研究",
-				"description": "研究無形之術足夠耗盡十世人生。"
+				"description": "無形之術足以讓人研究十生十世。"
 			}
 		},
 		{
