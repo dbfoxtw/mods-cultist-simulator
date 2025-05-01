@@ -1,0 +1,136 @@
+{
+  "shelves": [
+    {
+      "id": "tinygrox.Languages",
+      "name": "<sprite name=tinygrox.icon>\n全學問+書籍\n(緊湊布局)"
+    },
+    {
+      "id": "tinygrox.influences",
+      "name": "<sprite name=tinygrox.icon>\n影響\n(準則順序)"
+    },
+    {
+      "id": "tinygrox.rituals",
+      "name": "<sprite name=tinygrox.icon>\n儀式"
+    },
+    {
+      "id": "tinygrox.lorecolumns",
+      "name": "<sprite name=tinygrox.icon>\n密傳(列)"
+    },
+    {
+      "id": "tinygrox.lorerows",
+      "name": "<sprite name=tinygrox.icon>\n密傳(行)"
+    },
+    {
+      "id": "tinygrox.followers",
+      "name": "<sprite name=tinygrox.icon>\n4 x 9 追隨者"
+    },
+    {
+      "id": "tinygrox.painting",
+      "name": "<sprite name=tinygrox.icon>\n畫作(行)"
+    },
+    {
+      "id": "tinygrox.pigments",
+      "name": "<sprite name=tinygrox.icon>\n畫作顏料"
+    },
+    {
+      "id": "tinygrox.ability",
+      "name": "<sprite name=tinygrox.icon>\n3 x 4 能力"
+    },
+    {
+      "id": "tinygrox.commissions",
+      "name": "<sprite name=tinygrox.icon>\n4 x 3 贊助人+委託+文章"
+    },
+    {
+      "id": "tinygrox.Vault_Capital",
+      "name": "<sprite name=tinygrox.icon>\n[1]首都"
+    },
+    {
+      "id": "tinygrox.Vaults_Shires",
+      "name": "<sprite name=tinygrox.icon>\n[2]各郡"
+    },
+    {
+      "id": "tinygrox.Vaults_Continent",
+      "name": "<sprite name=tinygrox.icon>\n[3]大陸"
+    },
+    {
+      "id": "tinygrox.Vaults_Lanbeyondforest",
+      "name": "<sprite name=tinygrox.icon>\n[4]森林盡頭之地"
+    },
+    {
+      "id": "tinygrox.Vaults_RendingMountains",
+      "name": "<sprite name=tinygrox.icon>\n[5]撕身山脈"
+    },
+    {
+      "id": "tinygrox.Vaults_LoneandLevelsands",
+      "name": "<sprite name=tinygrox.icon>\n[6]荒寂而平闊的沙地"
+    },
+    {
+      "id": "tinygrox.Vaults_EveningIsles",
+      "name": "<sprite name=tinygrox.icon>\n[7]薄暮群嶼"
+    },
+    {
+      "id": "tinygrox.CityLocation",
+      "name": "<sprite name=tinygrox.icon>\n[0]城市"
+    },
+    {
+      "id": "tinygrox.followers.priest",
+      "name": "<sprite name=tinygrox.icon>\n義徒"
+    },
+    {
+      "id": "tinygrox.greekbooks",
+      "name": "<sprite name=tinygrox.icon>[1]\n希臘語"
+    },
+    {
+      "id": "tinygrox.phrygianbooks",
+      "name": "<sprite name=tinygrox.icon>[2]\n弗里吉亞語"
+    },
+    {
+      "id": "tinygrox.latinbooks",
+      "name": "<sprite name=tinygrox.icon>[3]\n拉丁語"
+    },
+    {
+      "id": "tinygrox.fucinebooks",
+      "name": "<sprite name=tinygrox.icon>[4]\n富奇諾語"
+    },
+    {
+      "id": "tinygrox.aramaicbooks",
+      "name": "<sprite name=tinygrox.icon>[5]\n亞蘭語"
+    },
+    {
+      "id": "tinygrox.mandaicbooks",
+      "name": "<sprite name=tinygrox.icon>[6]\n淵深曼達安語"
+    },
+    {
+      "id": "tinygrox.sanskritbooks",
+      "name": "<sprite name=tinygrox.icon>[7]\n梵語"
+    },
+    {
+      "id": "tinygrox.vakbooks",
+      "name": "<sprite name=tinygrox.icon>[8]\n伐訶語"
+    },
+    {
+      "id": "tinygrox.bookshelf",
+      "name": "<sprite name=tinygrox.icon>\n書架\n(已翻譯書籍)"
+    },
+    {
+      "id": "tinygrox.Headquarter",
+      "name": "<sprite name=tinygrox.icon>\n總部"
+    },
+    {
+      "id": "tinygrox.benefactor",
+      "name": "<sprite name=tinygrox.icon>\n金主"
+    },
+    {
+      "id": "tinygrox.ways",
+      "name": "<sprite name=tinygrox.icon>\n道路"
+    },
+    {
+      "id": "tinygrox.ghoul.remnants",
+      "name": "<sprite name=tinygrox.icon>\n殘骸 & 回憶"
+    },
+    {
+      "id": "tinygrox.ghoul.Patrons",
+      "name": "<sprite name=tinygrox.icon>\n贊助人"
+    }
+  ]
+}

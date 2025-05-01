@@ -1,0 +1,20 @@
+{
+  "shelves": [
+    {
+      "id": "tools",
+      "name": "工具"
+    },
+    {
+      "id": "stats",
+      "name": "狀態轉換 (健/理/激)"
+    },
+    {
+      "id": "skills",
+      "name": "技能"
+    },
+    {
+      "id": "commissions",
+      "name": "委託 & 文章"
+    }
+  ]
+}

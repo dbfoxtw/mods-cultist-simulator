@@ -1,0 +1,240 @@
+{
+	"shelves": [
+		{
+			"id": "kat.exorcist.tools",
+			"name": "<sprite name=colours.liminal> Exorcist 工具"
+		},
+		{
+			"id": "kat.abilities",
+			"name": "<sprite name=colours.liminal> 能力"
+		},
+		{
+			"name": "<sprite name=colours.liminal> 地點",
+			"id": "kat.locations"
+		},
+		{
+			"id": "kat.spintria",
+			"name": "<sprite name=colours.liminal> 古幣"
+		},
+		{
+			"name": "<sprite name=colours.liminal> 密傳",
+			"id": "kat.lore"
+		},
+		{
+			"id": "kat.skinstealer.lore",
+			"name": "<sprite name=colours.liminal> Skinstealer 密傳"
+		},
+		{
+			"name": "<sprite name=colours.liminal> 工具",
+			"id": "kat.tools"
+		},
+		{
+			"id": "kat.skinstealer.abilities",
+			"name": "<sprite name=colours.liminal> Skinstealer 能力"
+		},
+		{
+			"id": "kat.jwfollowers",
+			"name": "<sprite name=colours.liminal> JW 追隨者"
+		},
+		{
+			"id": "kat.skinstealer.stashes",
+			"name": "<sprite name=colours.liminal> Skinstealer 藏身處"
+		},
+		{
+			"id": "kat.rites",
+			"name": "<sprite name=colours.liminal> 儀式"
+		},
+		{
+			"id": "kat.followers",
+			"name": "<sprite name=colours.liminal> 追隨者"
+		},
+		{
+			"name": "<sprite name=colours.liminal> 密傳 (無秘史)",
+			"id": "kat.lore.compat"
+		},
+		{
+			"id": "kat.exile.pentiments",
+			"name": "<sprite name=colours.liminal> 覆畫殘跡"
+		},
+		{
+			"name": "<sprite name=colours.liminal> 重返夢境之途",
+			"id": "kat.mansus"
+		},
+		{
+			"id": "kat.apostle.lantern",
+			"name": "<sprite name=colours.liminal> 神示使徒"
+		},
+		{
+			"id": "kat.pigments",
+			"name": "<sprite name=colours.liminal> 顏料"
+		},
+		{
+			"id": "kat.apostle.grail",
+			"name": "<sprite name=colours.liminal> 侍宴使徒"
+		},
+		{
+			"id": "kat.apostle.forge",
+			"name": "<sprite name=colours.liminal> 炙熱使徒"
+		},
+		{
+			"id": "kat.cult",
+			"name": "<sprite name=colours.liminal> 教團、總部、導師"
+		},
+		{
+			"name": "<sprite name=colours.liminal> 盟友",
+			"id": "kat.exile.allies"
+		},
+		{
+			"id": "kat.exile.weapons",
+			"name": "<sprite name=colours.liminal> 武器"
+		},
+		{
+			"name": "<sprite name=colours.liminal> 流亡者基礎",
+			"id": "kat.exile.wincons"
+		},
+		{
+			"id": "kat.exile.wounds",
+			"name": "<sprite name=colours.liminal> 傷口"
+		},
+		{
+			"name": "<sprite name=colours.liminal> Skinstealer 儀式",
+			"id": "kat.ss.rites"
+		},
+		{
+			"id": "kat.skinstealer.ways",
+			"name": "<sprite name=colours.liminal> Skinstealer 重返夢境之途"
+		},
+		{
+			"id": "kat.waif.both",
+			"name": "<sprite name=colours.liminal> Waif 所有物品"
+		},
+		{
+			"id": "kat.waif.desires",
+			"name": "<sprite name=colours.liminal> Waif 慾望"
+		},
+		{
+			"id": "kat.waif.hour.mems",
+			"name": "<sprite name=colours.liminal> Waif 時之記憶"
+		},
+		{
+			"id": "kat.waif.occult",
+			"name": "<sprite name=colours.liminal> Waif 神秘物品"
+		},
+		{
+			"id": "kat.waif.practical",
+			"name": "<sprite name=colours.liminal> Waif 實用物品"
+		},
+		{
+			"id": "kat.waif.locations",
+			"name": "<sprite name=colours.liminal> Waif 地點"
+		},
+		{
+			"id": "kat.waif.choices",
+			"name": "<sprite name=colours.liminal> Waif 選擇"
+		},
+		{
+			"id": "kat.exorcist.job",
+			"name": "<sprite name=colours.liminal> Exorcist 工作"
+		},
+		{
+			"id": "kat.patrons",
+			"name": "<sprite name=colours.liminal> 贊助人與委託 [緊湊]"
+		},
+		{
+			"id": "kat.upfromnowhere",
+			"name": "<sprite name=colours.liminal> Up From Nowhere"
+		},
+		{
+			"id": "kat.apostlemoon",
+			"name": "<sprite name=colours.liminal> 孤月使徒"
+		},
+		{
+			"id": "kat.soulements",
+			"name": "<sprite name=colours.liminal> 孤月使徒靈魂元素"
+		},
+		{
+			"id": "kat.exile.years",
+			"name": "<sprite name=colours.liminal> 歲月與痕跡"
+		},
+		{
+			"name": "<sprite name=colours.liminal> BMap 流亡者 基本",
+			"id": "kat.bmap.wincons"
+		},
+		{
+			"name": "<sprite name=colours.liminal> BMap 武器",
+			"id": "kat.bmap.weapons"
+		},
+		{
+			"id": "kat.exile.assets",
+			"name": "<sprite name=colours.liminal> 資產"
+		},
+		{
+			"name": "<sprite name=colours.liminal> BMap 其他",
+			"id": "kat.bmap.misc"
+		},
+		{
+			"id": "kat.botanist.plants",
+			"name": "<sprite name=colours.liminal> Botanist 常見植物"
+		},
+		{
+			"id": "kat.botanist.seeds",
+			"name": "<sprite name=colours.liminal> Botanist 常見種子"
+		},
+		{
+			"id": "kat.botanist.advancedplants",
+			"name": "<sprite name=colours.liminal> Botanist 神秘植物"
+		},
+		{
+			"id": "kat.botanist.advancedseeds",
+			"name": "<sprite name=colours.liminal> Botanist 神秘種子"
+		},
+		{
+			"id": "kat.botanist.essentials",
+			"name": "<sprite name=colours.liminal> Botanist 基本"
+		},
+		{
+			"id": "kat.botanist.potions",
+			"name": "<sprite name=colours.liminal> Botanist 藥水"
+		},
+		{
+			"id": "kat.obdurant.allies",
+			"name": "<sprite name=colours.liminal> Obdurant 盟友"
+		},
+		{
+			"id": "kat.obdurant.enemies",
+			"name": "<sprite name=colours.liminal> Obdurant 敵人"
+		},
+		{
+			"id": "kat.obdurant.infrastructure",
+			"name": "<sprite name=colours.liminal> Obdurant 設施"
+		},
+		{
+			"id": "kat.obdurant.misc",
+			"name": "<sprite name=colours.liminal> Obdurant 主要"
+		},
+		{
+			"id": "kat.obdurant.occultweapons",
+			"name": "<sprite name=colours.liminal> Obdurant 技術"
+		},
+		{
+			"id": "kat.obdurant.weapons",
+			"name": "<sprite name=colours.liminal> Obdurant 武器"
+		},
+		{
+			"id": "kat.obdurant.toolsandsupplies",
+			"name": "<sprite name=colours.liminal> Obdurant 工具與補給"
+		},
+		{
+			"id": "kat.lore.smartcycle.cult",
+			"name": "<sprite name=colours.liminal> 智慧密傳 (教團)"
+		},
+		{
+			"id": "kat.lore.smartcycle.desire",
+			"name": "<sprite name=colours.liminal> 智慧密傳 (慾望)"
+		},
+		{
+			"id": "kat.scholar.class",
+			"name": "<sprite name=colours.liminal> Scholar 職業"
+		}
+	]
+}

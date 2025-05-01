@@ -1,0 +1,196 @@
+{
+	"shelves": [
+		{
+			"id": "tryn.followershelf",
+			"name": "<sprite name=more_shelves_small_ico> 追隨者"
+		},
+		{
+			"id": "tryn.tempfollowershelf",
+			"name": "<sprite name=more_shelves_small_ico> 臨時追隨者"
+		},
+		{
+			"id": "tryn.bookshelf",
+			"name": "<sprite name=more_shelves_small_ico> 書架"
+		},
+		{
+			"id": "tryn.languageshelf",
+			"name": "<sprite name=more_shelves_small_ico> 語言"
+		},
+		{
+			"id": "tryn.languageshelf.flat",
+			"name": "<sprite name=more_shelves_small_ico> 語言 (單行)"
+		},
+		{
+			"id": "tryn.advancementshelf",
+			"name": "<sprite name=more_shelves_small_ico> 學有所成"
+		},
+		{
+			"id": "tryn.statsplus",
+			"name": "<sprite name=more_shelves_small_ico> 狀態+"
+		},
+		{
+			"id": "tryn.fundshelf",
+			"name": "<sprite name=more_shelves_small_ico> 資金"
+		},
+		{
+			"id": "tryn.vaultshelf",
+			"name": "<sprite name=more_shelves_small_ico> 藏寶地"
+		},
+		{
+			"id": "tryn.vaulshelf.sh",
+			"name": "<sprite name=more_shelves_small_ico> 藏寶地 (無秘史)"
+		},
+		{
+			"id": "tryn.streetsshelf",
+			"name": "<sprite name=more_shelves_small_ico> 異象街巷"
+		},
+		{
+			"id": "tryn.huntershelf",
+			"name": "<sprite name=more_shelves_small_ico> 獵人"
+		},
+		{
+			"id": "tryn.loreshelf",
+			"name": "<sprite name=more_shelves_small_ico> 密傳"
+		},
+		{
+			"id": "tryn.wilderingmirriorshelf",
+			"name": "<sprite name=more_shelves_small_ico> 迷途之鏡"
+		},
+		{
+			"id": "tryn.watchmansglassshelf",
+			"name": "<sprite name=more_shelves_small_ico> 守夜人之鏡"
+		},
+		{
+			"id": "tryn.toolshelf",
+			"name": "<sprite name=more_shelves_small_ico> 智慧工具"
+		},
+		{
+			"id": "tryn.pigmentshelf",
+			"name": "<sprite name=more_shelves_small_ico> 顏料"
+		},
+		{
+			"id": "tryn.paintingpigmentshelf",
+			"name": "<sprite name=more_shelves_small_ico> 畫作顏料"
+		},
+		{
+			"id": "tryn.ingredientshelf",
+			"name": "<sprite name=more_shelves_small_ico> 智慧原料"
+		},
+		{
+			"id": "tryn.ingredientshelf.vanilla",
+			"name": "<sprite name=more_shelves_small_ico> 原料 (固定順序)"
+		},
+		{
+			"id": "tryn.influenceshelf",
+			"name": "<sprite name=more_shelves_small_ico> 準則影響"
+		},
+		{
+			"id": "tryn.riteshelf",
+			"name": "<sprite name=more_shelves_small_ico> 儀式"
+		},
+		{
+			"id": "tryn.wayshelf",
+			"name": "<sprite name=more_shelves_small_ico> 道路"
+		},
+		{
+			"id": "tryn.mindshelf",
+			"name": "<sprite name=more_shelves_small_ico> 心理影響"
+		},
+		{
+			"id": "tryn.cultshelf",
+			"name": "<sprite name=more_shelves_small_ico> 教團"
+		},
+		{
+			"id": "tryn.detectiveshelf",
+			"name": "<sprite name=more_shelves_small_ico> 警探"
+		},
+		{
+			"id": "tryn.snareshelf",
+			"name": "<sprite name=more_shelves_small_ico> 圈套"
+		},
+		{
+			"id": "tryn.dancerhelf",
+			"name": "<sprite name=more_shelves_small_ico> 舞者"
+		},
+		{
+			"id": "tryn.ghoulshelf.main",
+			"name": "<sprite name=more_shelves_small_ico> 食屍鬼"
+		},
+		{
+			"id": "tryn.ghoulshelf.canvas",
+			"name": "<sprite name=more_shelves_small_ico> 食屍鬼：淡白畫布"
+		},
+		{
+			"id": "tryn.priestshelf",
+			"name": "<sprite name=more_shelves_small_ico> 教士"
+		},
+		{
+			"id": "tryn.priestshelf.noreq",
+			"name": "<sprite name=more_shelves_small_ico> 教士 (無需求)"
+		},
+		{
+			"id": "tryn.soapatronshelf",
+			"name": "<sprite name=more_shelves_small_ico> SoA 委託"
+		},
+		{
+			"id": "tryn.soasecrecyshelf",
+			"name": "<sprite name=more_shelves_small_ico> SoA 藏身處"
+		},
+		{
+			"id": "tryn.soalocationshelf",
+			"name": "<sprite name=more_shelves_small_ico> SoA 地點"
+		},
+		{
+			"id": "tryn.soafollowershelf",
+			"name": "<sprite name=more_shelves_small_ico> SoA 追隨者"
+		},
+		{
+			"id": "tryn.soaresearchshelf",
+			"name": "<sprite name=more_shelves_small_ico> SoA 研究影響"
+		},
+		{
+			"id": "tryn.shelves.botanist.main",
+			"name": "<sprite name=more_shelves_small_ico> Botanist: 主要"
+		},
+		{
+			"id": "tryn.shelves.botanist.seeds.common",
+			"name": "<sprite name=more_shelves_small_ico> Botanist: 種子 (常見)"
+		},
+		{
+			"id": "tryn.shelves.botanist.seeds.rare",
+			"name": "<sprite name=more_shelves_small_ico> Botanist: 種子 (罕見)"
+		},
+		{
+			"id": "tryn.shelves.botanist.seeds.mythic",
+			"name": "<sprite name=more_shelves_small_ico> Botanist: 種子 (傳說)"
+		},
+		{
+			"id": "tryn.shelves.botanist.plants.common",
+			"name": "<sprite name=more_shelves_small_ico> Botanist: 植物 (常見)"
+		},
+		{
+			"id": "tryn.shelves.botanist.plants.rare",
+			"name": "<sprite name=more_shelves_small_ico> Botanist: 植物 (罕見)"
+		},
+		{
+			"id": "tryn.shelves.botanist.plants.mythic",
+			"name": "<sprite name=more_shelves_small_ico> Botanist: 植物 (傳說)"
+		},
+		{
+			"id": "tryn.shelves.botanist.entries.common",
+			"name": "<sprite name=more_shelves_small_ico> Botanist: 條目 (常見)"
+		},
+		{
+			"id": "tryn.shelves.botanist.entries.rare",
+			"name": "<sprite name=more_shelves_small_ico> Botanist: 條目 (罕見)"
+		},
+		{
+			"id": "tryn.shelves.botanist.entries.mythic",
+			"name": "<sprite name=more_shelves_small_ico> Botanist: 條目 (傳說)"
+		},
+		{
+			"id": "tryn.shelves.botanist.potions",
+			"name": "<sprite name=more_shelves_small_ico> Botanist: 藥水"
+		}
+	]
+}

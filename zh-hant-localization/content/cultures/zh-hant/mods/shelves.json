@@ -1,0 +1,38 @@
+{
+    "cultures": [
+        {
+            "id": "zh-hant",
+            "$mute": true,
+            "uilabels$add": {
+                "UI_SHELVES_SETTINGS": "架閣",
+                "UI_OPT_LOCKSHELVES": "鎖定架閣位置",
+                "UI_OPT_HIDESHELVES": "在桌上隱藏架閣",
+                "UI_OPT_AUTOSORTSHELVES": "自動排列",
+                "UI_SHELVES": "架閣",
+                "UI_SHELVES_DRAG_INSTRUCTIONS": "按住拖動創建一個架閣。",
+                "UI_SHELVES_CATEGORIES": "類別",
+                "UI_SHELVES_CATEGORY_ABILITIES": "能力",
+                "UI_SHELVES_CATEGORY_LORE": "密傳",
+                "UI_SHELVES_CATEGORY_FOLLOWERS": "追隨者",
+                "UI_SHELVES_CATEGORY_TOOLS": "工具",
+                "UI_SHELVES_CATEGORY_TEXTS": "文獻",
+                "UI_SHELVES_CATEGORY_VAULTS": "藏寶地",
+                "UI_SHELVES_CATEGORY_RITES": "儀式",
+                "UI_SHELVES_CATEGORY_INFLUENCES": "影響",
+                "UI_SHELVES_CATEGORY_JOBS": "工作",
+                "UI_SHELVES_CATEGORY_DREAM_WAYS": "重返夢境之途",
+                "UI_SHELVES_CATEGORY_REPUTATION": "聲名",
+                "UI_SHELVES_CATEGORY_INGREDIENTS": "原料",
+                "UI_SHELVES_CATEGORY_APOSTLES": "使徒",
+                "UI_SHELVES_CATEGORY_DANCER": "舞者",
+                "UI_SHELVES_CATEGORY_EXILE": "流亡者",
+                "UI_SHELVES_CATEGORY_GHOUL": "食屍鬼",
+                "UI_SHELVES_CATEGORY_PRIEST": "教士",
+                "UI_SHELVES_CATEGORY_OTHER": "其他",
+                "UI_NEXT": "下一個",
+                "UI_PREVIOUS": "上一個",
+                "UI_BACK": "返回"
+            }
+        }
+    ]
+}

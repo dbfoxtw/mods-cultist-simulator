@@ -1,0 +1,13 @@
+{
+    "cultures": [
+        {
+            "id": "zh-hant",
+            "$mute": true,
+            "uilabels$add": {
+                "UI_OPT_STARTTHEGAMEPAUSED": "開始遊戲後立刻暫停",
+                "UI_OPT_YES": "是",
+                "UI_OPT_NO": "否"
+            }
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "cultures": [
+        {
+            "id": "zh-hant",
+            "$mute": true,
+            "uilabels$add": {
+                "UI_ROOST_SETTINGS": "ROOST",
+                "UI_ROOST_MINIMIZE_PROMO": "最小化宣傳圖",
+                "UI_VERBOSITY": "主控台詳盡程度",
+                "UI_VERBOSITY_ESSENTIAL": "基本",
+                "UI_VERBOSITY_SIGNIFICANT": "重要",
+                "UI_VERBOSITY_CHATTER": "繁雜",
+                "UI_TRIVIA": "詳盡",
+
+                "UI_CHECKPOINT_SAVED_LABEL": "已達檢查點",
+                "UI_CHECKPOINT_SAVED": "悼歌詩人守護著這個世界的記憶……",
+                "UI_LOAD_CHECKPOINT": "重新載入檢查點"
+            }
+        }
+    ]
+}
