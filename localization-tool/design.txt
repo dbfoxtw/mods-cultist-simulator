@@ -1,0 +1,40 @@
+UI設計筆記
+
+英文資料夾：folder path [瀏覽]
+中文資料夾：folder path [瀏覽]
+
+原文JSON
+(遞迴每一層，只保留id, label, description, startdescription，如果是drawmessages則保留整個array)
+(要對應無法parse JSON的錯誤)
+(要對應無ID的錯誤)
+
+翻譯JSON
+..........................
+(要對應找不到同ID的情況)
+(要對應無法parse JSON的錯誤)
+(要對應無ID的錯誤)
+
+CHATGPT回應
+..................
+
+問CHATGPT
+..................
+
+---
+CHATGPT預設指令：
+我正在翻譯一個神祕學卡牌遊戲。
+我會給兩段文本，第一個是英文原文，第二個是中文翻譯。
+對照相同id的label、description、startdescription，請檢查：
+
+1. 翻譯缺失、錯誤、與原意相差太遠
+2. 明顯的語病
+3. 人名、地名、語句不合台灣用法
+
+不要自行修改，建議我哪邊需要改就好。
+---
+
+目前檔案：XXXXXX.json  [上一個] [下一個] [跳至]
+(要對應第一個、最後一個檔案、無檔案的狀況)
+目前ID：aaaaaaaaa [上一個] [下一個] [跳至] 當前筆數 / 總筆數
+(以原文ID為主)
+(要對應第一個、最後一個ID、無ID的狀況)
