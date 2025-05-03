@@ -38,3 +38,8 @@ CHATGPT預設指令：
 目前ID：aaaaaaaaa [上一個] [下一個] [跳至] 當前筆數 / 總筆數
 (以原文ID為主)
 (要對應第一個、最後一個ID、無ID的狀況)
+
+---
+
+需要pip install json5, python-dotenv, openai
+ChatGPT金鑰寫在.env (不要commit!!!)

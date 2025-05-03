@@ -2,12 +2,14 @@ import os
 from main_model import MainModel
 from main_view import MainView
 from app_settings import AppSettings
+from chatgpt_helper import ChatGPTHelper
 
 class MainPresenter:
     def __init__(self, model: MainModel, view: MainView):
         self.app_settings = AppSettings()
         self.model = model
         self.view = view
+        self.chatgpt = ChatGPTHelper()
 
     def load_app_settings(self):
         self.app_settings.load_settings()
@@ -39,10 +41,16 @@ class MainPresenter:
             self.app_settings.chinese_folder_path = path
             self.app_settings.save_settings()
 
-    def on_submit_question(self):
-        question = self.view.get_question()
-        print("送出詢問：", question)
-        # 實際可在這裡加上 ChatGPT 呼叫邏輯
+    def on_submit_review(self):
+        source_text = self.model.get_english_entry()
+        translated_text = self.model.get_chinese_entry()
+
+        if source_text and translated_text:
+            response = self.chatgpt.review(source_text, translated_text)
+            self.view.set_chatgpt_response(response)
+        else:
+            response = "有字串是空的，發送失敗"
+            self.view.set_chatgpt_response(response)
 
     def on_prev_file(self):
         if self.model.is_first_file():

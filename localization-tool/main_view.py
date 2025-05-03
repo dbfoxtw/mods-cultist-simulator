@@ -15,8 +15,8 @@ class MainView:
         self.original_json = self._text_area(2, "原文 JSON", 10, state="disabled")
         self.translated_json = self._text_area(3, "翻譯 JSON", 10, state="disabled")
         self.chatgpt_response = self._text_area(4, "CHATGPT 回應", 10, state="disabled")
-        self.question_box = self._text_area(5, "詢問", 3, state="normal")
-        tk.Button(root, text="送出", command=self.presenter.on_submit_question).grid(row=6, column=2, sticky="e", padx=5, pady=(0, 10))
+
+        tk.Button(root, text="送出", command=self.presenter.on_submit_review).grid(row=6, column=2, sticky="e", padx=5, pady=(0, 10))
 
         # === 檔案操作列 ===
         self.file_entry = self._nav_row(7, "目前檔案", [
@@ -99,6 +99,9 @@ class MainView:
 
     def get_question(self):
         return self.question_box.get("1.0", tk.END).strip()
+    
+    def set_chatgpt_response(self, response):
+        self._set_text(self.chatgpt_response, response)
 
     def set_count_label(self, current, total):
         self.count_label.config(text=f"當前筆數 / 總筆數：{current} / {total}")
