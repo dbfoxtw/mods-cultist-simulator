@@ -1,14 +1,16 @@
-import tkinter as tk
+import customtkinter as ctk
 from main_model import MainModel
 from main_view import MainView
 from main_presenter import MainPresenter
 
 def main():
-    root = tk.Tk()
+    ctk.set_appearance_mode("dark")
+    ctk.set_default_color_theme("blue")
+    root = ctk.CTk()
     model = MainModel()
-    presenter = MainPresenter(model, None)  # 先建 presenter，再綁 view
+    presenter = MainPresenter(model, None)
     view = MainView(root, presenter)
-    presenter.view = view  # 反向注入 view（避免循環依賴）
+    presenter.view = view
     presenter.load_app_settings()
     root.mainloop()
 

@@ -1,10 +1,9 @@
-import tkinter as tk
-from tkinter import ttk
-from tkinter import filedialog, simpledialog, scrolledtext, messagebox
-import sv_ttk
+import customtkinter as ctk
+from tkinter import messagebox
 
 class MainView:
     def __init__(self, root, presenter):
+        self.default_font = ("微軟正黑體", 14)
         self.presenter = presenter
         self.root = root
         root.title("密教模擬器潤稿工具")
@@ -20,11 +19,10 @@ class MainView:
             ("下一個", self.presenter.on_next_file)
         ])
 
-        # === JSON 顯示區 ===
-        self.original_json = self._text_area(3, "原文 JSON", 10, state="disabled")
-        self.translated_json = self._text_area(4, "翻譯 JSON", 10, state="disabled")
-        self.chatgpt_response = self._text_area(5, "CHATGPT 回應", 15, state="disabled")
-       
+        self.original_json = self._text_area(3, "原文 JSON", 10)
+        self.translated_json = self._text_area(4, "翻譯 JSON", 10)
+        self.chatgpt_response = self._text_area(5, "CHATGPT 回應", 15)
+
         self.id_entry = self._nav_row(6, "目前 ID", [
             ("跳至", self.presenter.on_jump_id),
             ("上一個", self.presenter.on_prev_id),
@@ -32,55 +30,55 @@ class MainView:
             ("審稿", self.presenter.on_submit_review)
         ])
 
-        self.count_label = ttk.Label(root, text="當前筆數 / 總筆數：0 / 0")
+        self.count_label = ctk.CTkLabel(root, text="當前筆數 / 總筆數：0 / 0")
         self.count_label.grid(row=7, column=2, sticky="e", padx=10)
 
-        root.update_idletasks()
-        root.geometry(f"{root.winfo_width()}x{root.winfo_height() + 50}")
-        root.resizable(False, False)
-
-        sv_ttk.set_theme("dark")
+        root.geometry("1050x900")
+        root.resizable(True, True)
 
     def _folder_row(self, row, label, browse_cmd):
-        ttk.Label(self.root, text=label).grid(row=row, column=0, sticky="w", padx=10, pady=5)
-        entry = ttk.Entry(self.root, width=80, state="readonly")
+        ctk.CTkLabel(self.root, text=label).grid(row=row, column=0, sticky="w", padx=10, pady=5)
+        entry = ctk.CTkEntry(self.root, width=600)
+        entry.configure(state="disabled")
         entry.grid(row=row, column=1, padx=5)
-        ttk.Button(self.root, text="瀏覽", command=browse_cmd).grid(row=row, column=2, padx=5)
+        ctk.CTkButton(self.root, text="瀏覽", command=browse_cmd, width=70).grid(row=row, column=2, padx=5)
         return entry
 
-    def _text_area(self, row, label, height, state="normal"):
-        ttk.Label(self.root, text=label).grid(row=row, column=0, sticky="nw", padx=10, pady=5)
-        text = scrolledtext.ScrolledText(self.root, height=height, width=100, state=state)
-        text.grid(row=row, column=1, columnspan=2, padx=5, pady=(0, 10))
-        return text
+    def _text_area(self, row, label, height):
+        ctk.CTkLabel(self.root, text=label).grid(row=row, column=0, sticky="nw", padx=10, pady=5)
+        textbox = ctk.CTkTextbox(self.root, height=height*20, width=800, font=self.default_font)
+        textbox.configure(state="disabled")
+        textbox.grid(row=row, column=1, columnspan=2, padx=5, pady=(0, 10))
+        return textbox
 
     def _nav_row(self, row, label, buttons):
-        ttk.Label(self.root, text=label).grid(row=row, column=0, sticky="w", padx=10, pady=10)
-        entry = ttk.Entry(self.root, width=40, state="readonly")
+        ctk.CTkLabel(self.root, text=label).grid(row=row, column=0, sticky="w", padx=10, pady=10)
+        entry = ctk.CTkEntry(self.root, width=400)
+        entry.configure(state="disabled")
         entry.grid(row=row, column=1, sticky="w", padx=5)
-        frame = ttk.Frame(self.root)
+        frame = ctk.CTkFrame(self.root)
         frame.grid(row=row, column=2, sticky="w")
         for text, command in buttons:
-            ttk.Button(frame, text=text, command=command).pack(side="left", padx=2)
+            ctk.CTkButton(frame, text=text, command=command, width=70).pack(side="left", padx=2)
         return entry
 
     def _set_folder_entry(self, entry_widget, path):
-        entry_widget.config(state="normal")
-        entry_widget.delete(0, tk.END)
+        entry_widget.configure(state="normal")
+        entry_widget.delete(0, 'end')
         entry_widget.insert(0, path)
-        entry_widget.config(state="readonly")
+        entry_widget.configure(state="disabled")
 
     def _set_entry_text(self, entry_widget, text):
-        entry_widget.config(state="normal")
-        entry_widget.delete(0, tk.END)
+        entry_widget.configure(state="normal")
+        entry_widget.delete(0, 'end')
         entry_widget.insert(0, text)
-        entry_widget.config(state="readonly")
+        entry_widget.configure(state="disabled")
 
     def _set_text(self, text_widget, text):
-        text_widget.config(state="normal")
-        text_widget.delete("1.0", tk.END)
-        text_widget.insert(tk.END, text)
-        text_widget.config(state="disabled")
+        text_widget.configure(state="normal")
+        text_widget.delete("1.0", 'end')
+        text_widget.insert('end', text)
+        text_widget.configure(state="disabled")
 
     def set_english_folder(self, path):
         self._set_folder_entry(self.english_folder_entry, path)
@@ -96,27 +94,29 @@ class MainView:
 
     def set_original_json(self, json):
         self._set_text(self.original_json, json)
-    
+
     def set_translated_json(self, json):
         self._set_text(self.translated_json, json)
 
     def get_question(self):
-        return self.question_box.get("1.0", tk.END).strip()
-    
+        return self.question_box.get("1.0", 'end').strip()
+
     def set_chatgpt_response(self, response):
         self._set_text(self.chatgpt_response, response)
 
     def set_count_label(self, current, total):
-        self.count_label.config(text=f"當前筆數 / 總筆數：{current} / {total}")
+        self.count_label.configure(text=f"當前筆數 / 總筆數：{current} / {total}")
 
     def ask_directory(self, path):
-        return filedialog.askdirectory(initialdir=path)
+        return ctk.filedialog.askdirectory(initialdir=path)
 
     def prompt_filename(self):
-        return simpledialog.askstring("跳至檔案", "請輸入檔案名稱（包含 .json）：")
-    
+        dialog = ctk.CTkInputDialog(title="跳至檔案", text="請輸入檔案名稱（包含 .json）：")
+        return dialog.get_input()
+
     def prompt_json_id(self):
-        return simpledialog.askstring("跳至檔案", "請輸入JSON ID：")
+        dialog = ctk.CTkInputDialog(title="跳至檔案", text="請輸入JSON ID：")
+        return dialog.get_input()
 
     def show_first_file_warning(self):
         messagebox.showwarning("警告", "已經是第一個檔案")
