@@ -34,7 +34,7 @@ class JsonFile:
     def _filter_entry(self, entry):
         base = {
             k: entry[k]
-            for k in ("id", "label", "startdescription", "descriptionunlocked")
+            for k in ("id", "label", "description", "startdescription", "descriptionunlocked")
             if k in entry
         }
         if "drawmessages" in entry:
