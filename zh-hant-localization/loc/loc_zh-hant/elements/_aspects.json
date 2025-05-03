@@ -18,7 +18,7 @@
         {
             "id": "follower",
             "label": "追隨者",
-            "description": "你的學生、合伙人、護衛、擁護者、被你欺騙、被你當作祭品的……伴侶。"
+            "description": "你的學生、助手、護衛、支持者、受騙者、祭品……以及伴侶。"
         },
         {
             "id": "hireling",
@@ -38,7 +38,7 @@
         {
             "id": "exalted",
             "label": "已擢升",
-            "description": "此人無法再進一步晉升……至少在我麾下不能。"
+            "description": "此人無法再進一步晉升……至少在我麾下是如此。"
         },
         {
             "id": "prisoner",
@@ -48,7 +48,7 @@
         {
             "id": "hunter",
             "label": "獵人",
-            "description": "雖然文明世界的法律出現晚於司辰的法則，但是它們共通之處在於，有時需要獻上犧牲。這個祭品是法律的代行人。"
+            "description": "雖然文明的律法誕生晚於司辰的法則，但它們有時也需要犧牲。此人是法律的代行者。"
         },
         {
             "id": "patron",
@@ -83,7 +83,7 @@
         {
             "id": "forge",
             "label": "鑄",
-            "description": "我曾經看到過這樣一句話，“火是嚴冬，卻是帶有溫度。火是暖春，卻會耗盡一切。”[<b>鑄</b>是變換與毀滅的準則。]"
+            "description": "我曾讀到過一句話，“火是溫暖的嚴冬，也是吞噬萬物的春天。”[<b>鑄</b>是變換與毀滅的準則。]"
         },
         {
             "id": "grail",
@@ -93,32 +93,32 @@
         {
             "id": "heart",
             "label": "心",
-            "description": "為了保護我們所知世界的表皮，不息之心無盡地搏動著。[<b>心</b>是長存與延續的準則。]"
+            "description": "不息之心搏動著，為了守護我們所知世界的表皮。[<b>心</b>是長存與延續的準則。]"
         },
         {
             "id": "knock",
             "label": "啟",
-            "description": "<b>啟</b>不允許封閉和孤立存在。它歡快地將我們推出無知的庇護。[<b>啟</b>是開啟與拆解的準則。]"
+            "description": "<b>啟</b>不允許鎖與門存在。它歡快地將我們推入未知之境。[<b>啟</b>是開啟與拆解的準則。]"
         },
         {
             "id": "lantern",
             "label": "燈",
-            "description": "“生命是束純淨的火焰，我們內心都擁有一顆無形的太陽。”——托馬斯·布朗。[<b>燈</b>是有“太陽之居屋”之稱的隱秘場所與其上光芒的準則。]"
+            "description": "“生命是束純淨的火焰，我們內心都擁有一顆無形的太陽。”——托馬斯·布朗。[<b>燈</b>是關於那個有時被稱為“太陽之居屋”隱秘場所，以及其上方光芒的準則。]"
         },
         {
             "id": "moth",
             "label": "蛾",
-            "description": "我知道有一個人會將蛾子捉來關在玻璃罩下。然後在如今夜一般的夜晚，將它們逐個放出，令其死於火燭。[<b>蛾</b>，狂野又凶險，是混沌與渴慕的準則。]"
+            "description": "我認識一個人，他會將飛蛾捉進玻璃罩裡。每逢如今晚一樣的夜晚，他會將牠們逐一釋放，任其葬身燭火。[<b>蛾</b>是混沌與渴慕的準則，狂野又危險。]"
         },
         {
             "id": "secrethistories",
             "label": "秘史",
-            "description": "歷史是時間在世界身上留下的傷疤。[<b>秘史</b>描繪了世界不為人知的千頭萬緒及它的重重過往。]"
+            "description": "歷史是世界表皮上的傷疤。[<b>秘史</b>描繪了世界不為人知的複雜奧秘以及重重過往。]"
         },
         {
             "id": "winter",
             "label": "冬",
-            "description": "……[<b>冬</b>是靜默、終結和不盡然逝去之物的準則。]"
+            "description": "……[<b>冬</b>是靜默、終結，以及那些未然死去之物的準則。]"
         },
         {
             "id": "ability",
@@ -173,7 +173,7 @@
         {
             "id": "rededicable",
             "label": "未確定",
-            "description": "組織的宗旨已經開始動搖。我能夠施加壓力來調整它的方向。"
+            "description": "組織的宗旨已經開始動搖。我能夠施加壓力來改變它的走向。"
         },
         {
             "id": "ingredient",
@@ -582,42 +582,42 @@
         {
             "id": "promotionto_d_edge",
             "label": "擢升：刃",
-            "description": "這是我們崇敬的真正奧秘。"
+            "description": "這些是我們所尊奉的真正奧秘。"
         },
         {
             "id": "promotionto_d_forge",
             "label": "擢升：鑄",
-            "description": "這是我們崇敬的真正奧秘。"
+            "description": "這些是我們所尊奉的真正奧秘。"
         },
         {
             "id": "promotionto_d_grail",
             "label": "擢升：杯",
-            "description": "這是我們崇敬的真正奧秘。"
+            "description": "這些是我們所尊奉的真正奧秘。"
         },
         {
             "id": "promotionto_d_heart",
             "label": "擢升：心",
-            "description": "這是我們崇敬的真正奧秘。"
+            "description": "這些是我們所尊奉的真正奧秘。"
         },
         {
             "id": "promotionto_d_knock",
             "label": "擢升：啟",
-            "description": "這是我們崇敬的真正奧秘。"
+            "description": "這些是我們所尊奉的真正奧秘。"
         },
         {
             "id": "promotionto_d_lantern",
             "label": "擢升：燈",
-            "description": "這是我們崇敬的真正奧秘。"
+            "description": "這些是我們所尊奉的真正奧秘。"
         },
         {
             "id": "promotionto_d_moth",
             "label": "擢升：蛾",
-            "description": "這是我們崇敬的真正奧秘。"
+            "description": "這些是我們所尊奉的真正奧秘。"
         },
         {
             "id": "promotionto_d_winter",
             "label": "擢升：冬",
-            "description": "這是我們崇敬的真正奧秘。"
+            "description": "這些是我們所尊奉的真正奧秘。"
         },
         {
             "id": "rival_promotion",
@@ -813,8 +813,8 @@
         },
         {
             "id": "glorify",
-            "label": "邁向<i>光</i>軍光",
-            "description": "將恐懼轉化為入迷，還可將其他元素轉換為更加<b>輝</b>煌的同等元素。"
+            "label": "邁向榮光",
+            "description": "將恐懼轉化為入迷，還可將其他元素轉換為更加輝煌的同等元素。"
         },
         {
             "id": "depiphany",
@@ -979,7 +979,7 @@
         {
             "id": "textmandaic",
             "label": "以淵深曼達安語寫就",
-            "description": "深遠的沙漠深處引藏最深的關於最隱秘儀式的手跡。據說，它是蟻母其人與生俱來的語言。[部分書籍需翻譯後方可閱讀。]"
+            "description": "沙漠深處的隱秘教派，其最核心儀式所用的文字。據說，它是蟻母與生俱來的語言。[部分書籍需翻譯後方可閱讀。]"
         },
         {
             "id": "textsanskrit",
@@ -1014,7 +1014,7 @@
         {
             "id": "follower_scar_edge",
             "label": "傷疤：殘暴的經歷",
-            "description": "<b>浮士德</b>：我以為地獄只是個傳說。<b>梅菲斯托費勒斯<b>：噯，儘管這麼想吧，經歷會改變你的看法。[落下三道同樣傷疤的凡人必死無疑。]"
+            "description": "<b>浮士德</b>：我以為地獄只是個傳說。<b>梅菲斯托費勒斯</b>：噯，儘管這麼想吧，經歷會改變你的看法。[落下三道同樣傷疤的凡人必死無疑。]"
         },
         {
             "id": "follower_scar_knock",
