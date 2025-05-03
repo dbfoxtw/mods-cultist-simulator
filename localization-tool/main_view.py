@@ -19,8 +19,8 @@ class MainView:
             ("下一個", self.presenter.on_next_file)
         ])
 
-        self.original_json = self._text_area(3, "原文 JSON", 10)
-        self.translated_json = self._text_area(4, "翻譯 JSON", 10)
+        self.original_json = self._text_area(3, "原文", 10)
+        self.translated_json = self._text_area(4, "翻譯 / 修訂", 10)
         self.chatgpt_response = self._text_area(5, "CHATGPT 回應", 15)
 
         self.id_entry = self._nav_row(6, "目前 ID", [
@@ -46,7 +46,7 @@ class MainView:
 
     def _text_area(self, row, label, height):
         ctk.CTkLabel(self.root, text=label).grid(row=row, column=0, sticky="nw", padx=10, pady=5)
-        textbox = ctk.CTkTextbox(self.root, height=height*20, width=800, font=self.default_font)
+        textbox = ctk.CTkTextbox(self.root, height=height*20, width=800, font=self.default_font, undo=True)
         textbox.configure(state="disabled")
         textbox.grid(row=row, column=1, columnspan=2, padx=5, pady=(0, 10))
         return textbox
@@ -74,11 +74,12 @@ class MainView:
         entry_widget.insert(0, text)
         entry_widget.configure(state="disabled")
 
-    def _set_text(self, text_widget, text):
+    def _set_text(self, text_widget, text, readonly):
         text_widget.configure(state="normal")
         text_widget.delete("1.0", 'end')
         text_widget.insert('end', text)
-        text_widget.configure(state="disabled")
+        if readonly:
+            text_widget.configure(state="disabled")
 
     def set_english_folder(self, path):
         self._set_folder_entry(self.english_folder_entry, path)
@@ -93,16 +94,16 @@ class MainView:
         self._set_entry_text(self.id_entry, id)
 
     def set_original_json(self, json):
-        self._set_text(self.original_json, json)
+        self._set_text(self.original_json, json, True)
 
     def set_translated_json(self, json):
-        self._set_text(self.translated_json, json)
+        self._set_text(self.translated_json, json, False)
 
-    def get_question(self):
-        return self.question_box.get("1.0", 'end').strip()
+    def get_translated_json(self):
+        return self.translated_json.get("1.0", "end").strip()
 
     def set_chatgpt_response(self, response):
-        self._set_text(self.chatgpt_response, response)
+        self._set_text(self.chatgpt_response, response, True)
 
     def set_count_label(self, current, total):
         self.count_label.configure(text=f"當前筆數 / 總筆數：{current} / {total}")

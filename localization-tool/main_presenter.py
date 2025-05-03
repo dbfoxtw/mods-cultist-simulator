@@ -43,7 +43,7 @@ class MainPresenter:
 
     def on_submit_review(self):
         source_text = self.model.get_english_entry()
-        translated_text = self.model.get_chinese_entry()
+        translated_text = self.view.get_translated_json()
 
         if source_text and translated_text:
             response = self.chatgpt.review(source_text, translated_text)
