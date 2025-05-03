@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import filedialog, scrolledtext
+from tkinter import filedialog, simpledialog, scrolledtext, messagebox
 
 class MainView:
     def __init__(self, root, presenter):
@@ -61,11 +61,17 @@ class MainView:
             tk.Button(frame, text=text, command=command).pack(side="left", padx=2)
         return entry
 
-    def set_folder_entry(self, entry_widget, path):
+    def _set_folder_entry(self, entry_widget, path):
         entry_widget.config(state="normal")
         entry_widget.delete(0, tk.END)
         entry_widget.insert(0, path)
         entry_widget.config(state="readonly")
+
+    def set_english_folder(self, path):
+        self._set_folder_entry(self.english_folder_entry, path)
+
+    def set_chinese_folder(self, path):
+        self._set_folder_entry(self.chinese_folder_entry, path)
 
     def set_entry_text(self, entry_widget, text):
         entry_widget.config(state="normal")
@@ -84,3 +90,18 @@ class MainView:
 
     def set_count_label(self, current, total):
         self.count_label.config(text=f"當前筆數 / 總筆數：{current} / {total}")
+
+    def ask_directory(self, path):
+        return filedialog.askdirectory(initialdir=path)
+
+    def prompt_filename(self):
+        return simpledialog.askstring("跳至檔案", "請輸入檔案名稱（包含 .json）：")
+
+    def show_first_file_warning(self):
+        messagebox.showwarning("警告", "已經是第一個檔案")
+
+    def show_last_file_warning(self):
+        messagebox.showwarning("警告", "已經是最後一個檔案")
+
+    def show_file_not_found_error(self, filename):
+        messagebox.showerror("錯誤", f"找不到檔案 {filename}")
