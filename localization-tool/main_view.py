@@ -14,6 +14,7 @@ class MainView:
 
         # === 檔案操作列 ===
         self.file_entry = self._nav_row(2, "目前檔案", [
+            ("重新讀取", self.presenter.on_reload_file),
             ("跳至", self.presenter.on_jump_file),
             ("上一個", self.presenter.on_prev_file),
             ("下一個", self.presenter.on_next_file)

@@ -29,6 +29,11 @@ class MainModel:
     def is_last_file(self):
         return self.english_file_set.is_last_file()
 
+    def reload_file(self):
+        current_id = self.get_current_entry_id()
+        self._update_both_files()
+        self.jump_to_index_by_id(current_id)
+
     def prev_file(self):
         self.english_file_set.prev_file()
         new_filename = self.english_file_set.get_current_filename()

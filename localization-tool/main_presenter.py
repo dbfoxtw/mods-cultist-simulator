@@ -52,6 +52,10 @@ class MainPresenter:
             response = "有字串是空的，發送失敗"
             self.view.set_chatgpt_response(response)
 
+    def on_reload_file(self):
+        self.model.reload_file()
+        self._update_both_json()
+
     def on_prev_file(self):
         if self.model.is_first_file():
             self.view.show_first_file_warning()
