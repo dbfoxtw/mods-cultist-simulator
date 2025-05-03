@@ -23,6 +23,13 @@ class FileSet:
         if self._files:
             return self._files[self._file_index]
         return ""
+    
+    def get_current_file_path(self):
+        folder = self.folder_path
+        filename = self.get_current_filename()
+        if filename:
+            return os.path.join(folder, filename)
+        return ""
 
     def is_first_file(self):
         return self._file_index == 0

@@ -13,15 +13,17 @@ class MainPresenter:
         self.app_settings.load_settings()
         self._update_english_folder(self.app_settings.english_folder_path)
         self._update_chinese_folder(self.app_settings.chinese_folder_path)
-        self.refresh_view()
 
     def _update_english_folder(self, path):
         self.model.set_english_folder(path)
         self.view.set_english_folder(path)
+        self._update_filename()
+        self._update_original_json()
 
     def _update_chinese_folder(self, path):
         self.model.set_chinese_folder(path)
         self.view.set_chinese_folder(path)
+        self._update_tranlated_json()
 
     def on_browse_english(self):
         path = self.view.ask_directory(self.app_settings.english_folder_path)
@@ -36,7 +38,6 @@ class MainPresenter:
             self._update_chinese_folder(path)
             self.app_settings.chinese_folder_path = path
             self.app_settings.save_settings()
-            self.refresh_view();
 
     def on_submit_question(self):
         question = self.view.get_question()
@@ -48,41 +49,56 @@ class MainPresenter:
             self.view.show_first_file_warning()
         else:
             self.model.prev_file()
-            self.refresh_view()
+            self._update_filename()
+            self._update_both_json()
 
     def on_next_file(self):
         if self.model.is_last_file():
             self.view.show_last_file_warning()
         else:
             self.model.next_file()
-            self.refresh_view()
+            self._update_filename()
+            self._update_both_json()
 
     def on_jump_file(self):
         filename = self.view.prompt_filename()
-        self.model.jump_to_file_by_name(filename)
-        self.refresh_view()
+        if filename:
+            self.model.jump_to_file_by_name(filename)
+            self._update_filename()
+            self._update_both_json()
 
     def on_prev_id(self):
-        # TODO: 實作上一個 ID
-        pass
+        self.model.prev_entry()
+        self._update_both_json()
 
     def on_next_id(self):
-        # TODO: 實作下一個 ID
-        pass
+        self.model.next_entry()
+        self._update_both_json()
 
     def on_jump_id(self):
-        # TODO: 實作跳至 ID
         pass
 
-    def refresh_view(self):
+    def _update_filename(self):
         filename = self.model.get_current_filename()
-        self.view.set_entry_text(self.view.file_entry, filename)
+        self.view.set_filename(filename)
 
-        # data = self.model.load_current_json()
+    def _update_original_json(self):
+        id = self.model.get_current_entry_id()
+        json = self.model.get_english_entry_content()
+        self.view.set_json_id(id)
+        self.view.set_original_json(json)
 
-        # 顯示 JSON 主體文字
-        # self.view.set_text(self.view.original_json, str(data))
-        # self.view.set_text(self.view.translated_json, "")  # 預留翻譯處
-        # self.view.set_text(self.view.chatgpt_response, "")
-        # self.view.set_count_label(self.model.current_file_index + 1, self.model.get_total_files())
+        current_index = self.model.get_current_index()
+        entry_count = self.model.get_entry_count()
+        if entry_count > 0:
+            self.view.set_count_label(current_index + 1, entry_count)
+        else:
+            self.view.set_count_label(0, 0)
 
+    def _update_tranlated_json(self):
+        json = self.model.get_chinese_entry_content()
+        self.view.set_translated_json(json)
+
+    def _update_both_json(self):
+        self._update_original_json()
+        self._update_tranlated_json()

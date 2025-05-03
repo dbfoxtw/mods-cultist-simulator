@@ -12,8 +12,8 @@ class MainView:
         self.chinese_folder_entry = self._folder_row(1, "中文資料夾", self.presenter.on_browse_chinese)
 
         # === JSON 顯示區 ===
-        self.original_json = self._text_area(2, "原文 JSON", 5, state="disabled")
-        self.translated_json = self._text_area(3, "翻譯 JSON", 5, state="disabled")
+        self.original_json = self._text_area(2, "原文 JSON", 10, state="disabled")
+        self.translated_json = self._text_area(3, "翻譯 JSON", 10, state="disabled")
         self.chatgpt_response = self._text_area(4, "CHATGPT 回應", 10, state="disabled")
         self.question_box = self._text_area(5, "詢問", 3, state="normal")
         tk.Button(root, text="送出", command=self.presenter.on_submit_question).grid(row=6, column=2, sticky="e", padx=5, pady=(0, 10))
@@ -67,23 +67,35 @@ class MainView:
         entry_widget.insert(0, path)
         entry_widget.config(state="readonly")
 
+    def _set_entry_text(self, entry_widget, text):
+        entry_widget.config(state="normal")
+        entry_widget.delete(0, tk.END)
+        entry_widget.insert(0, text)
+        entry_widget.config(state="readonly")
+
+    def _set_text(self, text_widget, text):
+        text_widget.config(state="normal")
+        text_widget.delete("1.0", tk.END)
+        text_widget.insert(tk.END, text)
+        text_widget.config(state="disabled")
+
     def set_english_folder(self, path):
         self._set_folder_entry(self.english_folder_entry, path)
 
     def set_chinese_folder(self, path):
         self._set_folder_entry(self.chinese_folder_entry, path)
 
-    def set_entry_text(self, entry_widget, text):
-        entry_widget.config(state="normal")
-        entry_widget.delete(0, tk.END)
-        entry_widget.insert(0, text)
-        entry_widget.config(state="readonly")
+    def set_filename(self, filename):
+        self._set_entry_text(self.file_entry, filename)
 
-    def set_text(self, text_widget, text):
-        text_widget.config(state="normal")
-        text_widget.delete("1.0", tk.END)
-        text_widget.insert(tk.END, text)
-        text_widget.config(state="disabled")
+    def set_json_id(self, id):
+        self._set_entry_text(self.id_entry, id)
+
+    def set_original_json(self, json):
+        self._set_text(self.original_json, json)
+    
+    def set_translated_json(self, json):
+        self._set_text(self.translated_json, json)
 
     def get_question(self):
         return self.question_box.get("1.0", tk.END).strip()
