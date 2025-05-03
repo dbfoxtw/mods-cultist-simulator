@@ -41,5 +41,5 @@ CHATGPT預設指令：
 
 ---
 
-需要pip install json5, python-dotenv, openai
+需要pip install json5, python-dotenv, openai, sv-ttk
 ChatGPT金鑰寫在.env (不要commit!!!)

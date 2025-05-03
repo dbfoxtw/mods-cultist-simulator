@@ -1,5 +1,7 @@
 import tkinter as tk
+from tkinter import ttk
 from tkinter import filedialog, simpledialog, scrolledtext, messagebox
+import sv_ttk
 
 class MainView:
     def __init__(self, root, presenter):
@@ -30,34 +32,36 @@ class MainView:
             ("審稿", self.presenter.on_submit_review)
         ])
 
-        self.count_label = tk.Label(root, text="當前筆數 / 總筆數：0 / 0")
+        self.count_label = ttk.Label(root, text="當前筆數 / 總筆數：0 / 0")
         self.count_label.grid(row=7, column=2, sticky="e", padx=10)
 
         root.update_idletasks()
-        root.geometry(f"{root.winfo_width()}x{root.winfo_height()}")
+        root.geometry(f"{root.winfo_width()}x{root.winfo_height() + 50}")
         root.resizable(False, False)
 
+        sv_ttk.set_theme("dark")
+
     def _folder_row(self, row, label, browse_cmd):
-        tk.Label(self.root, text=label).grid(row=row, column=0, sticky="w", padx=10, pady=5)
-        entry = tk.Entry(self.root, width=80, state="readonly")
+        ttk.Label(self.root, text=label).grid(row=row, column=0, sticky="w", padx=10, pady=5)
+        entry = ttk.Entry(self.root, width=80, state="readonly")
         entry.grid(row=row, column=1, padx=5)
-        tk.Button(self.root, text="瀏覽", command=browse_cmd).grid(row=row, column=2, padx=5)
+        ttk.Button(self.root, text="瀏覽", command=browse_cmd).grid(row=row, column=2, padx=5)
         return entry
 
     def _text_area(self, row, label, height, state="normal"):
-        tk.Label(self.root, text=label).grid(row=row, column=0, sticky="nw", padx=10, pady=5)
+        ttk.Label(self.root, text=label).grid(row=row, column=0, sticky="nw", padx=10, pady=5)
         text = scrolledtext.ScrolledText(self.root, height=height, width=100, state=state)
         text.grid(row=row, column=1, columnspan=2, padx=5, pady=(0, 10))
         return text
 
     def _nav_row(self, row, label, buttons):
-        tk.Label(self.root, text=label).grid(row=row, column=0, sticky="w", padx=10, pady=10)
-        entry = tk.Entry(self.root, width=40, state="readonly")
+        ttk.Label(self.root, text=label).grid(row=row, column=0, sticky="w", padx=10, pady=10)
+        entry = ttk.Entry(self.root, width=40, state="readonly")
         entry.grid(row=row, column=1, sticky="w", padx=5)
-        frame = tk.Frame(self.root)
+        frame = ttk.Frame(self.root)
         frame.grid(row=row, column=2, sticky="w")
         for text, command in buttons:
-            tk.Button(frame, text=text, command=command).pack(side="left", padx=2)
+            ttk.Button(frame, text=text, command=command).pack(side="left", padx=2)
         return entry
 
     def _set_folder_entry(self, entry_widget, path):
