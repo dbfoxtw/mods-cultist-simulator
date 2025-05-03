@@ -11,28 +11,27 @@ class MainView:
         self.english_folder_entry = self._folder_row(0, "英文資料夾", self.presenter.on_browse_english)
         self.chinese_folder_entry = self._folder_row(1, "中文資料夾", self.presenter.on_browse_chinese)
 
-        # === JSON 顯示區 ===
-        self.original_json = self._text_area(2, "原文 JSON", 10, state="disabled")
-        self.translated_json = self._text_area(3, "翻譯 JSON", 10, state="disabled")
-        self.chatgpt_response = self._text_area(4, "CHATGPT 回應", 10, state="disabled")
-
-        tk.Button(root, text="送出", command=self.presenter.on_submit_review).grid(row=6, column=2, sticky="e", padx=5, pady=(0, 10))
-
         # === 檔案操作列 ===
-        self.file_entry = self._nav_row(7, "目前檔案", [
+        self.file_entry = self._nav_row(2, "目前檔案", [
+            ("跳至", self.presenter.on_jump_file),
             ("上一個", self.presenter.on_prev_file),
-            ("下一個", self.presenter.on_next_file),
-            ("跳至", self.presenter.on_jump_file)
+            ("下一個", self.presenter.on_next_file)
         ])
 
-        self.id_entry = self._nav_row(8, "目前 ID", [
+        # === JSON 顯示區 ===
+        self.original_json = self._text_area(3, "原文 JSON", 10, state="disabled")
+        self.translated_json = self._text_area(4, "翻譯 JSON", 10, state="disabled")
+        self.chatgpt_response = self._text_area(5, "CHATGPT 回應", 15, state="disabled")
+       
+        self.id_entry = self._nav_row(6, "目前 ID", [
+            ("跳至", self.presenter.on_jump_id),
             ("上一個", self.presenter.on_prev_id),
             ("下一個", self.presenter.on_next_id),
-            ("跳至", self.presenter.on_jump_id)
+            ("審稿", self.presenter.on_submit_review)
         ])
 
         self.count_label = tk.Label(root, text="當前筆數 / 總筆數：0 / 0")
-        self.count_label.grid(row=9, column=2, sticky="e", padx=10)
+        self.count_label.grid(row=7, column=2, sticky="e", padx=10)
 
         root.update_idletasks()
         root.geometry(f"{root.winfo_width()}x{root.winfo_height()}")
