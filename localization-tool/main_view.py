@@ -33,7 +33,7 @@ class MainView:
         self.count_label = ctk.CTkLabel(root, text="當前筆數 / 總筆數：0 / 0")
         self.count_label.grid(row=7, column=2, sticky="e", padx=10)
 
-        root.geometry("1050x900")
+        root.geometry("1050x950")
         root.resizable(True, True)
 
     def _folder_row(self, row, label, browse_cmd):
