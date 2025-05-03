@@ -108,6 +108,9 @@ class MainView:
 
     def prompt_filename(self):
         return simpledialog.askstring("跳至檔案", "請輸入檔案名稱（包含 .json）：")
+    
+    def prompt_json_id(self):
+        return simpledialog.askstring("跳至檔案", "請輸入JSON ID：")
 
     def show_first_file_warning(self):
         messagebox.showwarning("警告", "已經是第一個檔案")

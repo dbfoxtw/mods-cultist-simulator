@@ -76,7 +76,10 @@ class MainPresenter:
         self._update_both_json()
 
     def on_jump_id(self):
-        pass
+        id = self.view.prompt_json_id()
+        if id:
+            self.model.jump_to_index_by_id(id)
+            self._update_both_json()
 
     def _update_filename(self):
         filename = self.model.get_current_filename()
@@ -84,7 +87,7 @@ class MainPresenter:
 
     def _update_original_json(self):
         id = self.model.get_current_entry_id()
-        json = self.model.get_english_entry_content()
+        json = self.model.get_english_entry()
         self.view.set_json_id(id)
         self.view.set_original_json(json)
 
@@ -96,7 +99,7 @@ class MainPresenter:
             self.view.set_count_label(0, 0)
 
     def _update_tranlated_json(self):
-        json = self.model.get_chinese_entry_content()
+        json = self.model.get_chinese_entry()
         self.view.set_translated_json(json)
 
     def _update_both_json(self):

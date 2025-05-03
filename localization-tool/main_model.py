@@ -72,7 +72,8 @@ class MainModel:
     def _update_chinese_entry(self):
         current_id = self.get_current_entry_id()
         if current_id:
-            self.chinese_json.find_entry(current_id)
+            index = self.chinese_json.find_index_by_id(current_id)
+            self.chinese_json.set_current_index(index)
 
     def get_current_entry_id(self):
         return self.english_json.get_current_entry_id()
@@ -85,11 +86,17 @@ class MainModel:
         self.english_json.next_entry()
         self._update_chinese_entry()
 
-    def get_english_entry_content(self):
-        return self.english_json.get_entry_content()
+    def jump_to_index_by_id(self, id):
+        index = self.english_json.find_index_by_id(id)
+        if index >= 0:
+            self.english_json.set_current_index(index)
+            self._update_chinese_entry()
+
+    def get_english_entry(self):
+        return self.english_json.get_entry()
     
-    def get_chinese_entry_content(self):
-        return self.chinese_json.get_entry_content()
+    def get_chinese_entry(self):
+        return self.chinese_json.get_entry()
     
     def get_current_index(self):
         return self.english_json.get_current_index()
