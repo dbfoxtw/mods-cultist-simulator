@@ -15,7 +15,7 @@ class ChatGPTHelper:
 2. 語病或句法錯誤
 3. 不符合台灣慣用語的人名、地名、表達（如直翻、陸式用語）
 
-請不要修改內容，只提供建議與理由。若無問題請回覆「無需修改」。"""
+只需提供建議與理由，不需要修正後的全文。若無問題請回覆「無需修改」。"""
 
         user_prompt = f"""英文原文：{source_text}\n翻譯：{translated_text}"""
 
@@ -23,7 +23,7 @@ class ChatGPTHelper:
             response = self.client.chat.completions.create(
                 model="gpt-4.1-mini",
                 messages=[
-                    {"role": "system", "content": source_text},
+                    {"role": "system", "content": system_prompt},
                     {"role": "user", "content": user_prompt}
                 ],
                 temperature=0.3
