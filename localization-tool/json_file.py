@@ -1,4 +1,3 @@
-import copy
 import json5
 
 class JsonFile:
