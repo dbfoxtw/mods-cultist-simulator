@@ -50,6 +50,9 @@ class JsonFile:
             self._current_index += 1
 
     def find_index_by_id(self, id_value):
+        if not id_value:
+            return -1
+
         found_index = None
         for i, entry in enumerate(self._filtered_data):
             if entry.get("id") == id_value:
@@ -65,11 +68,15 @@ class JsonFile:
         self._current_index = index
 
     def get_entry(self):
+        if self._current_index < 0 or self._current_index >= len(self._filtered_data):
+            return ""
         data = self._filtered_data[self._current_index]
         data = json5.dumps(data, ensure_ascii=False, indent=4)
         return data
     
     def get_current_entry_id(self):
+        if self._current_index < 0 or self._current_index >= len(self._filtered_data):
+            return ""
         data = self._filtered_data[self._current_index]
         if data:
             return data.get("id")
