@@ -211,7 +211,7 @@
 		},
 		{
 			"id": "dream.ghoul.sacrificeabilities",
-			"label": "死亡是朝下的",
+			"label": "死亡是向下的",
 			"startdescription": "於門的另一邊，是一道由墨玉燈照亮的螺旋階梯，而再遙遙其下，是死者順流而下所至的名為虛界處，在那裡沒有什麼能被完全遺忘。我朝下行。",
 			"slots": [
 				{
