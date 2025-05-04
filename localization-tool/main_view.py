@@ -14,27 +14,30 @@ class MainView:
 
         # === 檔案操作列 ===
         self.file_entry = self._nav_row(2, "目前檔案", [
-            ("重新讀取", self.presenter.on_reload_file),
             ("跳至", self.presenter.on_jump_file),
             ("上一個", self.presenter.on_prev_file),
-            ("下一個", self.presenter.on_next_file)
+            ("下一個", self.presenter.on_next_file),
+            ("重新讀取", self.presenter.on_reload_file)
         ])
 
-        self.original_json = self._text_area(3, "原文", 10)
-        self.translated_json = self._text_area(4, "翻譯 / 修訂", 10)
-        self.chatgpt_response = self._text_area(5, "CHATGPT 回應", 15)
-
-        self.id_entry = self._nav_row(6, "目前 ID", [
+        # === ID操作列 ===
+        self.id_entry = self._nav_row(3, "目前 ID", [
             ("跳至", self.presenter.on_jump_id),
             ("上一個", self.presenter.on_prev_id),
-            ("下一個", self.presenter.on_next_id),
-            ("審稿", self.presenter.on_submit_review)
+            ("下一個", self.presenter.on_next_id)
         ])
 
-        self.count_label = ctk.CTkLabel(root, text="當前筆數 / 總筆數：0 / 0")
-        self.count_label.grid(row=7, column=2, sticky="e", padx=10)
+        self.original_json = self._text_area(4, "原文", 10)
+        self.translated_json = self._text_area(5, "翻譯 / 修訂", 10)
+        self.chatgpt_response = self._text_area(6, "CHATGPT 回應", 15)
+        
+        footer_frame = ctk.CTkFrame(self.root)
+        footer_frame.grid(row=7, column=2, sticky="e")
+        self.count_label = ctk.CTkLabel(footer_frame, text="當前筆數 / 總筆數：0 / 0")
+        self.count_label.pack(side="left", padx=2)
+        ctk.CTkButton(footer_frame, text="審稿", command=self.presenter.on_submit_review, width=70).pack(side="left", padx=8)
 
-        root.geometry("1050x950")
+        root.geometry("1030x930")
         root.resizable(True, True)
 
     def _folder_row(self, row, label, browse_cmd):
@@ -53,7 +56,7 @@ class MainView:
         return textbox
 
     def _nav_row(self, row, label, buttons):
-        ctk.CTkLabel(self.root, text=label).grid(row=row, column=0, sticky="w", padx=10, pady=10)
+        ctk.CTkLabel(self.root, text=label).grid(row=row, column=0, sticky="w", padx=10, pady=5)
         entry = ctk.CTkEntry(self.root, width=400)
         entry.configure(state="disabled")
         entry.grid(row=row, column=1, sticky="w", padx=5)
