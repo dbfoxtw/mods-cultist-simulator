@@ -3,7 +3,7 @@
         {
             "id": "seasonevents",
             "label": "時節",
-            "description": "隨著時間流逝，會有意想不到的事發生。"
+            "description": "每當時間流逝，可能會發生意想不到的事件。"
         },
         {
             "id": "cabaretevents",
@@ -18,17 +18,17 @@
         {
             "id": "dreamreasonresults",
             "label": "夢境的腹地",
-            "description": "睡眠通常能歇息身體，平和心境；然而，總有例外——是了，總有例外。"
+            "description": "睡眠通常能歇息身體，平和心境；然而，總有例外——是的，總有例外。"
         },
         {
             "id": "paintingresultsbasic",
             "label": "藝術的回報",
-            "description": "作畫能帶來安逸，不過有些時候，作畫也能讓人產生全新的見地。"
+            "description": "作畫能帶來心靈的滿足，有時也能帶來全新的領悟。"
         },
         {
             "id": "paintingresults",
             "label": "藝術的回報",
-            "description": "作畫通常能帶來安逸。不過，有時候，我的作品也會引人關注。"
+            "description": "作畫能帶來心靈的滿足。有時候，我的作品也會引人關注。"
         },
         {
             "id": "paintingresultsreputation",
@@ -37,8 +37,8 @@
         },
         {
             "id": "ecdysisrewards",
-            "label": "結束時的奉禮",
-            "description": "俱樂部有保底報酬，但是有時觀眾也會獻出自己所有。"
+            "label": "演出結束的贈禮",
+            "description": "俱樂部有基本報酬，但觀眾有時會額外給予贈禮。"
         },
         {
             "id": "robberyrewards",
@@ -62,8 +62,8 @@
         },
         {
             "id": "citysecrets",
-            "label": "城市的隱秘之處",
-            "description": "這樣的地方通常很容易被忽略。"
+            "label": "城市祕密",
+            "description": "容易被忽略的地點。"
         },
         {
             "id": "streetsstrangefinds",
@@ -78,37 +78,37 @@
         {
             "id": "forgelong",
             "label": "大功業之敵",
-            "description": "我們的敵人選擇了常見的攻擊方式，直到他實施計劃之前，我們永遠無法知曉他的計劃細節，但是我們或許可以占卜出他大致的動向。"
+            "description": "我們的敵人選擇了一個大致的策略，我們或許能猜測出來，但在他們執行計劃之前，我們永遠無法知道細節。"
         },
         {
             "id": "graillong",
             "label": "大功業之敵",
-            "description": "我們的敵人選擇了常見的攻擊方式，直到他實施計劃之前，我們永遠無法知曉他的計劃細節，但是我們或許可以占卜出他大致的動向。"
+            "description": "我們的敵人選擇了一個大致的策略，我們或許能猜測出來，但在他們執行計劃之前，我們永遠無法知道細節。"
         },
         {
             "id": "lanternlong",
             "label": "大功業之敵",
-            "description": "我們的敵人選擇了常見的攻擊方式，直到他實施計劃之前，我們永遠無法知曉他的計劃細節，但是我們或許可以占卜出他大致的動向。"
+            "description": "我們的敵人選擇了一個大致的策略，我們或許能猜測出來，但在他們執行計劃之前，我們永遠無法知道細節。"
         },
         {
             "id": "long.strategies",
             "label": "大功業之敵",
-            "description": "我們的敵人選擇了常見的攻擊方式，直到他實施計劃之前，我們永遠無法知曉他的計劃細節，但是我們或許可以占卜出他大致的動向。"
+            "description": "我們的敵人選擇了一個大致的策略，我們或許能猜測出來，但在他們執行計劃之前，我們永遠無法知道細節。"
         },
         {
             "id": "long.strategies.preference.assault",
             "label": "大功業之敵",
-            "description": "我們的敵人選擇了常見的攻擊方式，直到他實施計劃之前，我們永遠無法知曉他的計劃細節，但是我們或許可以占卜出他大致的動向。"
+            "description": "我們的敵人選擇了一個大致的策略，我們或許能猜測出來，但在他們執行計劃之前，我們永遠無法知道細節。"
         },
         {
             "id": "long.strategies.preference.intrigue",
             "label": "大功業之敵",
-            "description": "我們的敵人選擇了常見的攻擊方式，直到他實施計劃之前，我們永遠無法知曉他的計劃細節，但是我們或許可以占卜出他大致的動向。"
+            "description": "我們的敵人選擇了一個大致的策略，我們或許能猜測出來，但在他們執行計劃之前，我們永遠無法知道細節。"
         },
         {
             "id": "long.strategies.preference.dreamwork",
             "label": "大功業之敵",
-            "description": "我們的敵人選擇了常見的攻擊方式，直到他實施計劃之前，我們永遠無法知曉他的計劃細節，但是我們或許可以占卜出他大致的動向。"
+            "description": "我們的敵人選擇了一個大致的策略，我們或許能猜測出來，但在他們執行計劃之前，我們永遠無法知道細節。"
         },
         {
             "id": "priest.repevent",
