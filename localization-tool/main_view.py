@@ -9,8 +9,8 @@ class MainView:
         root.title("密教模擬器潤稿工具")
 
         # === 資料夾欄位 ===
-        self.english_folder_entry = self._folder_row(0, "英文資料夾", self.presenter.on_browse_english)
-        self.chinese_folder_entry = self._folder_row(1, "中文資料夾", self.presenter.on_browse_chinese)
+        self.original_folder_entry = self._folder_row(0, "英文資料夾", self.presenter.on_browse_original)
+        self.translated_folder_entry = self._folder_row(1, "中文資料夾", self.presenter.on_browse_translated)
 
         # === 檔案操作列 ===
         self.file_entry = self._nav_row(2, "目前檔案", [
@@ -85,11 +85,11 @@ class MainView:
         if readonly:
             text_widget.configure(state="disabled")
 
-    def set_english_folder(self, path):
-        self._set_folder_entry(self.english_folder_entry, path)
+    def set_original_folder(self, path):
+        self._set_folder_entry(self.original_folder_entry, path)
 
-    def set_chinese_folder(self, path):
-        self._set_folder_entry(self.chinese_folder_entry, path)
+    def set_translated_folder(self, path):
+        self._set_folder_entry(self.translated_folder_entry, path)
 
     def set_filename(self, filename):
         self._set_entry_text(self.file_entry, filename)

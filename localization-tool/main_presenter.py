@@ -13,36 +13,36 @@ class MainPresenter:
 
     def load_app_settings(self):
         self.app_settings.load_settings()
-        self._update_english_folder(self.app_settings.english_folder_path)
-        self._update_chinese_folder(self.app_settings.chinese_folder_path)
+        self._update_original_folder(self.app_settings.original_folder_path)
+        self._update_translated_folder(self.app_settings.translated_folder_path)
 
-    def _update_english_folder(self, path):
-        self.model.set_english_folder(path)
-        self.view.set_english_folder(path)
+    def _update_original_folder(self, path):
+        self.model.set_original_folder(path)
+        self.view.set_original_folder(path)
         self._update_filename()
         self._update_original_json()
 
-    def _update_chinese_folder(self, path):
-        self.model.set_chinese_folder(path)
-        self.view.set_chinese_folder(path)
+    def _update_translated_folder(self, path):
+        self.model.set_translated_folder(path)
+        self.view.set_translated_folder(path)
         self._update_tranlated_json()
 
-    def on_browse_english(self):
-        path = self.view.ask_directory(self.app_settings.english_folder_path)
+    def on_browse_original(self):
+        path = self.view.ask_directory(self.app_settings.original_folder_path)
         if path:
-            self._update_english_folder(path)
-            self.app_settings.english_folder_path = path
+            self._update_original_folder(path)
+            self.app_settings.original_folder_path = path
             self.app_settings.save_settings()
 
-    def on_browse_chinese(self):
-        path = self.view.ask_directory(self.app_settings.chinese_folder_path)
+    def on_browse_translated(self):
+        path = self.view.ask_directory(self.app_settings.translated_folder_path)
         if path:
-            self._update_chinese_folder(path)
-            self.app_settings.chinese_folder_path = path
+            self._update_translated_folder(path)
+            self.app_settings.translated_folder_path = path
             self.app_settings.save_settings()
 
     def on_submit_review(self):
-        source_text = self.model.get_english_entry()
+        source_text = self.model.get_original_entry()
         translated_text = self.view.get_translated_json()
 
         if source_text and translated_text:
@@ -99,7 +99,7 @@ class MainPresenter:
 
     def _update_original_json(self):
         id = self.model.get_current_entry_id()
-        json = self.model.get_english_entry()
+        json = self.model.get_original_entry()
         self.view.set_json_id(id)
         self.view.set_original_json(json)
 
@@ -111,7 +111,7 @@ class MainPresenter:
             self.view.set_count_label(0, 0)
 
     def _update_tranlated_json(self):
-        json = self.model.get_chinese_entry()
+        json = self.model.get_translated_entry()
         self.view.set_translated_json(json)
 
     def _update_both_json(self):
