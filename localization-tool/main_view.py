@@ -7,15 +7,16 @@ class MainView:
         self.presenter = presenter
         self.root = root
         root.title("密教模擬器潤稿工具")
+        root.grid_columnconfigure(1, weight=1)
 
         # === ChatGPT 功能選擇列 ===
         self.chatgpt_mode = ctk.StringVar(value="web")  # 預設為網頁
 
-        ctk.CTkLabel(root, text="ChatGPT功能").grid(row=0, column=0, sticky="w", padx=10, pady=(10, 0))
+        ctk.CTkLabel(root, text="ChatGPT功能").grid(row=0, column=0, sticky="w", padx=10, pady=5)
         mode_frame = ctk.CTkFrame(root)
-        mode_frame.grid(row=0, column=1, columnspan=2, sticky="w", padx=5, pady=(10, 0))
+        mode_frame.grid(row=0, column=1, columnspan=2, sticky="w", padx=5, pady=5)
 
-        ctk.CTkRadioButton(mode_frame, text="網頁", variable=self.chatgpt_mode, value="web", command=self.presenter.on_chatgpt_mode_changed).pack(side="left", padx=5)
+        ctk.CTkRadioButton(mode_frame, text="網頁", variable=self.chatgpt_mode, value="web", command=self.presenter.on_chatgpt_mode_changed).pack(side="left")
         ctk.CTkRadioButton(mode_frame, text="API", variable=self.chatgpt_mode, value="api", command=self.presenter.on_chatgpt_mode_changed).pack(side="left", padx=5)
 
         # === 資料夾欄位 ===
@@ -27,7 +28,6 @@ class MainView:
             ("跳至", self.presenter.on_jump_file),
             ("上一個", self.presenter.on_prev_file),
             ("下一個", self.presenter.on_next_file),
-            ("重新讀取", self.presenter.on_reload_file)
         ])
 
         # === ID操作列 ===
@@ -37,40 +37,36 @@ class MainView:
             ("下一個", self.presenter.on_next_id)
         ])
 
-        self.original_json = self._text_area(5, "原文", 10)
-        self.translated_json = self._text_area(6, "翻譯 / 修訂", 10)
-
         # === 專有名詞 ===
-        ctk.CTkLabel(root, text="專有名詞").grid(row=7, column=0, sticky="w", padx=10, pady=(5, 0))
+        ctk.CTkLabel(root, text="專有名詞").grid(row=5, column=0, sticky="w", padx=10, pady=5)
         proper_frame = ctk.CTkFrame(root)
-        proper_frame.grid(row=7, column=1, columnspan=2, sticky="w", padx=5, pady=(5, 0))
+        proper_frame.grid(row=5, column=1, columnspan=2, sticky="w", padx=5, pady=5)
         self.proper_entry = ctk.CTkEntry(proper_frame, width=400)
-        self.proper_entry.pack(side="left", padx=5)
-        ctk.CTkButton(proper_frame, text="新增", width=70, command=self.presenter.on_add_proper_noun).pack(side="left", padx=2)
+        self.proper_entry.pack(side="left")
+        ctk.CTkButton(proper_frame, text="新增", width=70, command=self.presenter.on_add_proper_noun).pack(side="left", padx=(5, 2))
         ctk.CTkButton(proper_frame, text="刪除", width=70, command=self.presenter.on_remove_proper_noun).pack(side="left", padx=2)
         ctk.CTkButton(proper_frame, text="列表", width=70, command=self.presenter.on_show_proper_noun_list).pack(side="left", padx=2)
         self.proper_noun_window = None  # 新增一個追蹤視窗的變數
 
+        self.original_json = self._text_area(6, "原文", 10)
+        self.translated_json = self._text_area(7, "翻譯 / 修訂", 10)
+
         # === ChatGPT回應 ===
         self.chatgpt_response_label = ctk.CTkLabel(self.root, text="CHATGPT 回應")
         self.chatgpt_response_label.grid(row=8, column=0, sticky="nw", padx=10, pady=5)
-        self.chatgpt_response = ctk.CTkTextbox(self.root, height=15 * 20, width=800, font=self.default_font, undo=True)
+        self.chatgpt_response = ctk.CTkTextbox(self.root, height=15 * 20, font=self.default_font, undo=True)
         self.chatgpt_response.configure(state="disabled")
-        self.chatgpt_response.grid(row=8, column=1, columnspan=2, padx=5, pady=(0, 10))
+        self.chatgpt_response.grid(row=8, column=1, columnspan=2, padx=(5, 10), pady=5, sticky="nsew")
+
+        self.count_label = ctk.CTkLabel(self.root, text="當前筆數 / 總筆數：0 / 0")
+        self.count_label.grid(row=9, column=1, sticky="w", padx=5, pady=5)
 
         footer_frame = ctk.CTkFrame(self.root)
-        footer_frame.grid(row=9, column=2, sticky="e")
-        self.count_label = ctk.CTkLabel(footer_frame, text="當前筆數 / 總筆數：0 / 0")
-        self.count_label.pack(side="left", padx=2)
-
+        footer_frame.grid(row=9, column=2, sticky="e", padx=(0, 10))
         self.review_button = ctk.CTkButton(footer_frame, text="審稿", command=self.presenter.on_submit_review, width=70)
-        self.review_button.pack(side="left", padx=8)
-
-        self.common_cmd_button = ctk.CTkButton(footer_frame, text="共通指令", command=self.presenter.on_common_command, width=90)
-        self.common_cmd_button.pack(side="left", padx=4)
-
-        self.translate_cmd_button = ctk.CTkButton(footer_frame, text="翻譯指令", command=self.presenter.on_translate_command, width=90)
-        self.translate_cmd_button.pack(side="left", padx=4)
+        self.review_button.pack(side="left")
+        self.translate_cmd_button = ctk.CTkButton(footer_frame, text="複製指令", command=self.presenter.on_translate_command, width=90)
+        self.translate_cmd_button.pack(side="left")
 
         self.set_chatgpt_mode_web()
 
@@ -78,29 +74,47 @@ class MainView:
 
     def _folder_row(self, row, label, browse_cmd):
         ctk.CTkLabel(self.root, text=label).grid(row=row, column=0, sticky="w", padx=10, pady=5)
-        entry = ctk.CTkEntry(self.root, width=600)
+        
+        frame = ctk.CTkFrame(self.root)
+        frame.grid(row=row, column=1, columnspan=2, sticky="nsew", padx=(5, 10), pady=5)
+        frame.grid_columnconfigure(0, weight=1)
+
+        entry = ctk.CTkEntry(frame)
         entry.configure(state="disabled")
-        entry.grid(row=row, column=1, padx=5)
-        ctk.CTkButton(self.root, text="瀏覽", command=browse_cmd, width=70).grid(row=row, column=2, padx=5)
+        entry.grid(row=0, column=0, sticky="nsew")
+
+        button = ctk.CTkButton(frame, text="瀏覽", command=browse_cmd, width=70)
+        button.grid(row=0, column=1, padx=(5, 0), sticky="e")
+        return entry
+
+    def _nav_row(self, row, label, buttons):
+        ctk.CTkLabel(self.root, text=label).grid(row=row, column=0, sticky="w", padx=10, pady=5)
+
+        row_frame = ctk.CTkFrame(self.root)
+        row_frame.grid(row=row, column=1, columnspan=2, sticky="nsew", padx=(5, 10), pady=5)
+        row_frame.grid_columnconfigure(0, weight=1)
+
+        entry = ctk.CTkEntry(row_frame)
+        entry.configure(state="disabled")
+        entry.grid(row=0, column=0, sticky="nsew")
+        
+        button_frame = ctk.CTkFrame(row_frame)
+        button_frame.grid(row=0, column=1, padx=(5, 0), sticky="e")
+        
+        for i, (text, command) in enumerate(buttons):
+            if i == 0:
+                ctk.CTkButton(button_frame, text=text, command=command, width=70).pack(side="left")
+            else:
+                ctk.CTkButton(button_frame, text=text, command=command, width=70).pack(side="left", padx=(4, 0))
+
         return entry
 
     def _text_area(self, row, label, height):
         ctk.CTkLabel(self.root, text=label).grid(row=row, column=0, sticky="nw", padx=10, pady=5)
-        textbox = ctk.CTkTextbox(self.root, height=height*20, width=800, font=self.default_font, undo=True)
+        textbox = ctk.CTkTextbox(self.root, height=height*20, font=self.default_font, undo=True)
         textbox.configure(state="disabled")
-        textbox.grid(row=row, column=1, columnspan=2, padx=5, pady=(0, 10))
+        textbox.grid(row=row, column=1, columnspan=2, padx=(5, 10), pady=5, sticky="nsew")
         return textbox
-
-    def _nav_row(self, row, label, buttons):
-        ctk.CTkLabel(self.root, text=label).grid(row=row, column=0, sticky="w", padx=10, pady=5)
-        entry = ctk.CTkEntry(self.root, width=400)
-        entry.configure(state="disabled")
-        entry.grid(row=row, column=1, sticky="w", padx=5)
-        frame = ctk.CTkFrame(self.root)
-        frame.grid(row=row, column=2, sticky="w")
-        for text, command in buttons:
-            ctk.CTkButton(frame, text=text, command=command, width=70).pack(side="left", padx=2)
-        return entry
 
     def _set_folder_entry(self, entry_widget, path):
         entry_widget.configure(state="normal")
@@ -128,16 +142,14 @@ class MainView:
         self.chatgpt_response_label.grid_remove()
         self.chatgpt_response.grid_remove()
         self.review_button.pack_forget()
-        self.common_cmd_button.pack(side="left", padx=4)
-        self.translate_cmd_button.pack(side="left", padx=4)
+        self.translate_cmd_button.pack(side="left")
         self.root.geometry("1050x700")
 
     def set_chatgpt_mode_api(self):
         self.chatgpt_response_label.grid()
         self.chatgpt_response.grid()
-        self.common_cmd_button.pack_forget()
         self.translate_cmd_button.pack_forget()
-        self.review_button.pack(side="left", padx=8)
+        self.review_button.pack(side="left")
         self.root.geometry("1030x1000")
 
     def set_original_folder(self, path):

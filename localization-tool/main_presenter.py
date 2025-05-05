@@ -59,6 +59,7 @@ class MainPresenter:
             response = "有字串是空的，發送失敗"
             self.view.set_chatgpt_response(response)
 
+    # Not used
     def on_reload_file(self):
         self.model.reload_file()
         self._update_both_json()
@@ -125,6 +126,7 @@ class MainPresenter:
         self._update_original_json()
         self._update_tranlated_json()
 
+    # Not used
     def on_common_command(self):
         command = """你是神祕學卡牌遊戲翻譯審稿員，我會貼兩個文本，分別是英文原文、中文翻譯，請針對翻譯檢查以下問題：
 1. 漏譯或誤譯（與英文原文不符）
