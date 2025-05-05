@@ -65,7 +65,7 @@ class MainModel:
         self.translated_json.clear()
         file_path = self.translated_file_set.get_current_file_path()
         if file_path:
-            self.translated_json.parse(file_path)
+            self.translated_json.parse(file_path, filtered=False)
             self._update_translated_entry()
     
     def _update_both_files(self):

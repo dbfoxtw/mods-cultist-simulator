@@ -5,25 +5,26 @@ class JsonFile:
         self.clear()
 
     def clear(self):
-        self._filtered_data = []
+        self._entries = []
         self._current_index = 0
 
-    def parse(self, path):
+    def parse(self, path, filtered=True):
         self.clear()
 
         try:
             with open(path, 'r', encoding='utf-8') as f:
                 data = json.load(f)
 
-            # 確認只有一個 top-level key
             if len(data) != 1:
                 raise ValueError("JSON 應只有一個 top-level key")
 
             root_key = next(iter(data))
             original_array = data[root_key]
 
-            # 過濾後資料
-            self._filtered_data = [self._filter_entry(entry) for entry in original_array]
+            if filtered:
+                self._entries = [self._filter_entry(entry) for entry in original_array]
+            else:
+                self._entries = original_array
 
         except json.JSONDecodeError as e:
             print("json 解析錯誤")
@@ -46,7 +47,7 @@ class JsonFile:
             self._current_index -= 1
 
     def next_entry(self):
-        if self._current_index < len(self._filtered_data) - 1:
+        if self._current_index < len(self._entries) - 1:
             self._current_index += 1
 
     def find_index_by_id(self, id_value):
@@ -54,7 +55,7 @@ class JsonFile:
             return -1
 
         found_index = None
-        for i, entry in enumerate(self._filtered_data):
+        for i, entry in enumerate(self._entries):
             if entry.get("id") == id_value:
                 found_index = i
                 break
@@ -68,16 +69,16 @@ class JsonFile:
         self._current_index = index
 
     def get_entry(self):
-        if self._current_index < 0 or self._current_index >= len(self._filtered_data):
+        if self._current_index < 0 or self._current_index >= len(self._entries):
             return ""
-        data = self._filtered_data[self._current_index]
+        data = self._entries[self._current_index]
         data = json.dumps(data, ensure_ascii=False, indent=4)
         return data
     
     def get_current_entry_id(self):
-        if self._current_index < 0 or self._current_index >= len(self._filtered_data):
+        if self._current_index < 0 or self._current_index >= len(self._entries):
             return ""
-        data = self._filtered_data[self._current_index]
+        data = self._entries[self._current_index]
         if data:
             return data.get("id")
         else:
@@ -87,4 +88,4 @@ class JsonFile:
         return self._current_index
 
     def get_entry_count(self):
-        return len(self._filtered_data)
+        return len(self._entries)
