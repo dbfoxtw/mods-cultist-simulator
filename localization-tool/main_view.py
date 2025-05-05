@@ -8,12 +8,22 @@ class MainView:
         self.root = root
         root.title("密教模擬器潤稿工具")
 
+        # === ChatGPT 功能選擇列 ===
+        self.chatgpt_mode = ctk.StringVar(value="web")  # 預設為網頁
+
+        ctk.CTkLabel(root, text="ChatGPT功能").grid(row=0, column=0, sticky="w", padx=10, pady=(10, 0))
+        mode_frame = ctk.CTkFrame(root)
+        mode_frame.grid(row=0, column=1, columnspan=2, sticky="w", padx=5, pady=(10, 0))
+
+        ctk.CTkRadioButton(mode_frame, text="網頁", variable=self.chatgpt_mode, value="web", command=self.presenter.on_chatgpt_mode_changed).pack(side="left", padx=5)
+        ctk.CTkRadioButton(mode_frame, text="API", variable=self.chatgpt_mode, value="api", command=self.presenter.on_chatgpt_mode_changed).pack(side="left", padx=5)
+
         # === 資料夾欄位 ===
-        self.original_folder_entry = self._folder_row(0, "英文資料夾", self.presenter.on_browse_original)
-        self.translated_folder_entry = self._folder_row(1, "中文資料夾", self.presenter.on_browse_translated)
+        self.original_folder_entry = self._folder_row(1, "英文資料夾", self.presenter.on_browse_original)
+        self.translated_folder_entry = self._folder_row(2, "中文資料夾", self.presenter.on_browse_translated)
 
         # === 檔案操作列 ===
-        self.file_entry = self._nav_row(2, "目前檔案", [
+        self.file_entry = self._nav_row(3, "目前檔案", [
             ("跳至", self.presenter.on_jump_file),
             ("上一個", self.presenter.on_prev_file),
             ("下一個", self.presenter.on_next_file),
@@ -21,24 +31,39 @@ class MainView:
         ])
 
         # === ID操作列 ===
-        self.id_entry = self._nav_row(3, "目前 ID", [
+        self.id_entry = self._nav_row(4, "目前 ID", [
             ("跳至", self.presenter.on_jump_id),
             ("上一個", self.presenter.on_prev_id),
             ("下一個", self.presenter.on_next_id)
         ])
 
-        self.original_json = self._text_area(4, "原文", 10)
-        self.translated_json = self._text_area(5, "翻譯 / 修訂", 10)
-        self.chatgpt_response = self._text_area(6, "CHATGPT 回應", 15)
-        
+        self.original_json = self._text_area(5, "原文", 10)
+        self.translated_json = self._text_area(6, "翻譯 / 修訂", 10)
+
+        # === ChatGPT回應 ===
+        self.chatgpt_response_label = ctk.CTkLabel(self.root, text="CHATGPT 回應")
+        self.chatgpt_response_label.grid(row=7, column=0, sticky="nw", padx=10, pady=5)
+        self.chatgpt_response = ctk.CTkTextbox(self.root, height=15 * 20, width=800, font=self.default_font, undo=True)
+        self.chatgpt_response.configure(state="disabled")
+        self.chatgpt_response.grid(row=7, column=1, columnspan=2, padx=5, pady=(0, 10))
+
         footer_frame = ctk.CTkFrame(self.root)
-        footer_frame.grid(row=7, column=2, sticky="e")
+        footer_frame.grid(row=8, column=2, sticky="e")
         self.count_label = ctk.CTkLabel(footer_frame, text="當前筆數 / 總筆數：0 / 0")
         self.count_label.pack(side="left", padx=2)
-        ctk.CTkButton(footer_frame, text="審稿", command=self.presenter.on_submit_review, width=70).pack(side="left", padx=8)
 
-        root.geometry("1030x930")
-        root.resizable(True, True)
+        self.review_button = ctk.CTkButton(footer_frame, text="審稿", command=self.presenter.on_submit_review, width=70)
+        self.review_button.pack(side="left", padx=8)
+
+        self.common_cmd_button = ctk.CTkButton(footer_frame, text="共通指令", command=self.presenter.on_common_command, width=90)
+        self.common_cmd_button.pack(side="left", padx=4)
+
+        self.translate_cmd_button = ctk.CTkButton(footer_frame, text="翻譯指令", command=self.presenter.on_translate_command, width=90)
+        self.translate_cmd_button.pack(side="left", padx=4)
+
+        self.set_chatgpt_mode_web()
+
+        root.resizable(False, False)
 
     def _folder_row(self, row, label, browse_cmd):
         ctk.CTkLabel(self.root, text=label).grid(row=row, column=0, sticky="w", padx=10, pady=5)
@@ -84,6 +109,25 @@ class MainView:
         text_widget.insert('end', text)
         if readonly:
             text_widget.configure(state="disabled")
+
+    def get_chatgpt_mode(self):
+        return self.chatgpt_mode.get()
+    
+    def set_chatgpt_mode_web(self):
+        self.chatgpt_response_label.grid_remove()
+        self.chatgpt_response.grid_remove()
+        self.review_button.pack_forget()
+        self.common_cmd_button.pack(side="left", padx=4)
+        self.translate_cmd_button.pack(side="left", padx=4)
+        self.root.geometry("1050x670")
+
+    def set_chatgpt_mode_api(self):
+        self.chatgpt_response_label.grid()
+        self.chatgpt_response.grid()
+        self.common_cmd_button.pack_forget()
+        self.translate_cmd_button.pack_forget()
+        self.review_button.pack(side="left", padx=8)
+        self.root.geometry("1030x970")
 
     def set_original_folder(self, path):
         self._set_folder_entry(self.original_folder_entry, path)
@@ -131,3 +175,25 @@ class MainView:
 
     def show_file_not_found_error(self, filename):
         messagebox.showerror("錯誤", f"找不到檔案 {filename}")
+
+    def set_clipboard_string(self, str):
+        self.root.clipboard_clear()
+        self.root.clipboard_append(str)
+        self.root.update()
+
+    def show_toast(self, message, duration=1500):
+        toast = ctk.CTkToplevel(self.root)
+        toast.overrideredirect(True)  # 去掉邊框
+        toast.attributes("-topmost", True)  # 永遠在最上面
+
+        label = ctk.CTkLabel(toast, text=message, corner_radius=10, fg_color="#333333", text_color="white")
+        label.pack(padx=10, pady=5)
+
+        # 定位：畫面右下角
+        self.root.update_idletasks()
+        x = self.root.winfo_x() + self.root.winfo_width() - 200
+        y = self.root.winfo_y() + self.root.winfo_height() - 100
+        toast.geometry(f"+{x}+{y}")
+
+        # 設定自動關閉
+        toast.after(duration, toast.destroy)

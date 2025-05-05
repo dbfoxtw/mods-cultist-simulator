@@ -11,6 +11,13 @@ class MainPresenter:
         self.view = view
         self.chatgpt = ChatGPTHelper()
 
+    def on_chatgpt_mode_changed(self):
+        mode = self.view.get_chatgpt_mode()
+        if mode == "web":
+            self.view.set_chatgpt_mode_web()
+        elif mode == "api":
+            self.view.set_chatgpt_mode_api()
+
     def load_app_settings(self):
         self.app_settings.load_settings()
         self._update_original_folder(self.app_settings.original_folder_path)
@@ -117,3 +124,32 @@ class MainPresenter:
     def _update_both_json(self):
         self._update_original_json()
         self._update_tranlated_json()
+
+    def on_common_command(self):
+        command = """你是神祕學卡牌遊戲翻譯審稿員，我會貼兩個文本，分別是英文原文、中文翻譯，請針對翻譯檢查以下問題：
+1. 漏譯或誤譯（與英文原文不符）
+2. 語病或句法錯誤
+3. 不符合台灣慣用語的人名、地名、表達（如直翻、陸式用語）
+
+此外，請遵守以下規定：
+1. 保留引號用法。
+2. 如果有提供，則保留專有詞。
+3. 除非要求，否則只提供建議與理由，不要修正後的全文。
+4. 若無問題請回覆「無需修改」。"""
+        self.view.set_clipboard_string(command)
+        self.view.show_toast("已複製到剪貼簿")
+
+    def on_translate_command(self):
+        command = f"""英文：
+{self.model.get_original_entry()}
+
+中文：
+{self.model.get_translated_entry()}
+
+專有詞：
+無
+
+其他要求：
+無"""
+        self.view.set_clipboard_string(command)
+        self.view.show_toast("已複製到剪貼簿")
