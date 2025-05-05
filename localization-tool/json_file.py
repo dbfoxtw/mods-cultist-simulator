@@ -1,4 +1,4 @@
-import json5
+import json
 
 class JsonFile:
     def __init__(self):
@@ -13,7 +13,7 @@ class JsonFile:
 
         try:
             with open(path, 'r', encoding='utf-8') as f:
-                data = json5.load(f)
+                data = json.load(f)
 
             # 確認只有一個 top-level key
             if len(data) != 1:
@@ -25,8 +25,8 @@ class JsonFile:
             # 過濾後資料
             self._filtered_data = [self._filter_entry(entry) for entry in original_array]
 
-        except json5.JSONDecodeError as e:
-            print("JSON5 解析錯誤")
+        except json.JSONDecodeError as e:
+            print("json 解析錯誤")
             print(f"行：{e.lineno}, 欄：{e.colno}, 錯誤：{e.msg}")
         except Exception as e:
             print(f"其他錯誤：{e}")
@@ -71,7 +71,7 @@ class JsonFile:
         if self._current_index < 0 or self._current_index >= len(self._filtered_data):
             return ""
         data = self._filtered_data[self._current_index]
-        data = json5.dumps(data, ensure_ascii=False, indent=4)
+        data = json.dumps(data, ensure_ascii=False, indent=4)
         return data
     
     def get_current_entry_id(self):
