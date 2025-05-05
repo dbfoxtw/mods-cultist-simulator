@@ -140,16 +140,45 @@ class MainPresenter:
         self.view.show_toast("已複製到剪貼簿")
 
     def on_translate_command(self):
+        original = self.model.get_original_entry()
+        translated = self.model.get_translated_entry()
+        matched_nouns = self.app_settings.extract_proper_nouns_from_text(translated)
+
+        if matched_nouns:
+            proper_noun_text = "\n".join(matched_nouns)
+        else:
+            proper_noun_text = "無"
+
         command = f"""英文：
-{self.model.get_original_entry()}
+{original}
 
 中文：
-{self.model.get_translated_entry()}
+{translated}
 
 專有詞：
-無
+{proper_noun_text}
 
 其他要求：
 無"""
         self.view.set_clipboard_string(command)
         self.view.show_toast("已複製到剪貼簿")
+
+    def on_add_proper_noun(self):
+        word = self.view.get_proper_entry().strip()
+        if word:
+            self.app_settings.add_proper_noun(word)
+            self.view.show_toast(f"已新增：{word}")
+            if self.view.is_proper_noun_window_open():
+                self.view.show_proper_noun_list(self.app_settings.get_proper_nouns())
+
+    def on_remove_proper_noun(self):
+        word = self.view.get_proper_entry().strip()
+        if word:
+            self.app_settings.remove_proper_noun(word)
+            self.view.show_toast(f"已刪除：{word}")
+            if self.view.is_proper_noun_window_open():
+                self.view.show_proper_noun_list(self.app_settings.get_proper_nouns())
+
+    def on_show_proper_noun_list(self):
+        nouns = self.app_settings.get_proper_nouns()
+        self.view.show_proper_noun_list(nouns)

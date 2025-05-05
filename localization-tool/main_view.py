@@ -40,15 +40,26 @@ class MainView:
         self.original_json = self._text_area(5, "原文", 10)
         self.translated_json = self._text_area(6, "翻譯 / 修訂", 10)
 
+        # === 專有名詞 ===
+        ctk.CTkLabel(root, text="專有名詞").grid(row=7, column=0, sticky="w", padx=10, pady=(5, 0))
+        proper_frame = ctk.CTkFrame(root)
+        proper_frame.grid(row=7, column=1, columnspan=2, sticky="w", padx=5, pady=(5, 0))
+        self.proper_entry = ctk.CTkEntry(proper_frame, width=400)
+        self.proper_entry.pack(side="left", padx=5)
+        ctk.CTkButton(proper_frame, text="新增", width=70, command=self.presenter.on_add_proper_noun).pack(side="left", padx=2)
+        ctk.CTkButton(proper_frame, text="刪除", width=70, command=self.presenter.on_remove_proper_noun).pack(side="left", padx=2)
+        ctk.CTkButton(proper_frame, text="列表", width=70, command=self.presenter.on_show_proper_noun_list).pack(side="left", padx=2)
+        self.proper_noun_window = None  # 新增一個追蹤視窗的變數
+
         # === ChatGPT回應 ===
         self.chatgpt_response_label = ctk.CTkLabel(self.root, text="CHATGPT 回應")
-        self.chatgpt_response_label.grid(row=7, column=0, sticky="nw", padx=10, pady=5)
+        self.chatgpt_response_label.grid(row=8, column=0, sticky="nw", padx=10, pady=5)
         self.chatgpt_response = ctk.CTkTextbox(self.root, height=15 * 20, width=800, font=self.default_font, undo=True)
         self.chatgpt_response.configure(state="disabled")
-        self.chatgpt_response.grid(row=7, column=1, columnspan=2, padx=5, pady=(0, 10))
+        self.chatgpt_response.grid(row=8, column=1, columnspan=2, padx=5, pady=(0, 10))
 
         footer_frame = ctk.CTkFrame(self.root)
-        footer_frame.grid(row=8, column=2, sticky="e")
+        footer_frame.grid(row=9, column=2, sticky="e")
         self.count_label = ctk.CTkLabel(footer_frame, text="當前筆數 / 總筆數：0 / 0")
         self.count_label.pack(side="left", padx=2)
 
@@ -119,7 +130,7 @@ class MainView:
         self.review_button.pack_forget()
         self.common_cmd_button.pack(side="left", padx=4)
         self.translate_cmd_button.pack(side="left", padx=4)
-        self.root.geometry("1050x670")
+        self.root.geometry("1050x700")
 
     def set_chatgpt_mode_api(self):
         self.chatgpt_response_label.grid()
@@ -127,7 +138,7 @@ class MainView:
         self.common_cmd_button.pack_forget()
         self.translate_cmd_button.pack_forget()
         self.review_button.pack(side="left", padx=8)
-        self.root.geometry("1030x970")
+        self.root.geometry("1030x1000")
 
     def set_original_folder(self, path):
         self._set_folder_entry(self.original_folder_entry, path)
@@ -197,3 +208,30 @@ class MainView:
 
         # 設定自動關閉
         toast.after(duration, toast.destroy)
+
+    def get_proper_entry(self):
+        return self.proper_entry.get()
+
+    def is_proper_noun_window_open(self):
+        return self.proper_noun_window and self.proper_noun_window.winfo_exists()
+
+    def show_proper_noun_list(self, nouns):
+        if self.proper_noun_window and self.proper_noun_window.winfo_exists():
+            textbox = self.proper_noun_window.textbox
+            textbox.configure(state="normal")
+            textbox.delete("1.0", "end")
+            textbox.insert("1.0", "\n".join(nouns))
+            textbox.configure(state="disabled")
+            self.proper_noun_window.focus()
+            return
+
+        self.proper_noun_window = ctk.CTkToplevel(self.root)
+        self.proper_noun_window.title("專有名詞列表")
+        self.proper_noun_window.geometry("400x300")
+        self.proper_noun_window.transient(self.root)
+
+        textbox = ctk.CTkTextbox(self.proper_noun_window)
+        textbox.pack(expand=True, fill="both", padx=10, pady=10)
+        textbox.insert("1.0", "\n".join(nouns))
+        textbox.configure(state="disabled")
+        self.proper_noun_window.textbox = textbox  # 綁定屬性給視窗
