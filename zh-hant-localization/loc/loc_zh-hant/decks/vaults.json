@@ -8,7 +8,7 @@
         {
             "id": "vaultsshires",
             "label": "位於各郡的隱藏地點",
-            "description": "或許是個在偏遠鄉下待一天的機會。"
+            "description": "或許是個到鄉間走走、度過一天的機會。"
         },
         {
             "id": "vaultscontinent",
@@ -28,7 +28,7 @@
         {
             "id": "vaultsloneandlevelsands",
             "label": "荒寂而平闊的沙地的隱藏地點",
-            "description": "這裡埋藏著古老的寶藏，能者據之。"
+            "description": "這裡埋藏著古老的寶藏，能者得之。"
         },
         {
             "id": "vaultseveningisles",

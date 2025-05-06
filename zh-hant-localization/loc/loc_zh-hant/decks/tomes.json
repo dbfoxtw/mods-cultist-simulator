@@ -8,12 +8,12 @@
         {
             "id": "commontomes",
             "label": "市面流通的書籍",
-            "description": "說不定能買到能教授我無形之術的書籍。"
+            "description": "也許能買到能教我無形之術的書籍。"
         },
         {
             "id": "auctionedcommontomes",
-            "label": "私人收藏的書籍",
-            "description": "說不定能找到一批精挑細選過的書籍。"
+            "label": "藏書選集",
+            "description": "也許能找到稍微精選過的藏書。"
         }
     ]
 }
