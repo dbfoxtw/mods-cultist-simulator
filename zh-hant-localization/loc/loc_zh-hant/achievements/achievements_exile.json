@@ -17,12 +17,12 @@
     },
     {
       "id": "A_ENDING_OBSCURITYVICTORYC",
-      "label": "絲絨豪宅",
-      "descriptionunlocked": "我曾貧窮過，也曾富有過，而我發覺我更樂意當個有錢人。"
+      "label": "絲絨之家",
+      "descriptionunlocked": "我曾貧窮過，也曾富有過，而我還是寧願當個有錢人。"
     },
     {
       "id": "A_ENDING_OBSCURITYVICTORYA_FOESLAIN",
-      "label": "只要最佳人選",
+      "label": "最佳人選",
       "descriptionunlocked": "我可以推薦一位專業人士接受你的委託……"
     },
     {
@@ -33,7 +33,7 @@
     {
       "id": "A_ENDING_OBSCURITYVICTORYC_FOESLAIN",
       "label": "與夕陽作伴",
-      "descriptionunlocked": "世界很大，還有很多未被地圖標記的地方。"
+      "descriptionunlocked": "世界很大，還有很多未標記在地圖上的地方。"
     },
     {
       "id": "A_ENDING_COLONEL",
@@ -53,7 +53,7 @@
     {
       "id": "A_ENDING_VELVET",
       "label": "血裔",
-      "descriptionunlocked": "凡研諸史者皆知：內若如此，外亦如是。無論循何徑，終將展現。"
+      "descriptionunlocked": "凡研諸史者皆知：內若如此，外亦如是。道途雖異，終將揭示。"
     }
   ]
 }
