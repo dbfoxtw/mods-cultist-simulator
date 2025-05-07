@@ -158,10 +158,7 @@ class MainPresenter:
 {translated}
 
 專有詞：
-{proper_noun_text}
-
-其他要求：
-無"""
+{proper_noun_text}"""
         self.view.set_clipboard_string(command)
         self.view.show_toast("已複製到剪貼簿")
 
