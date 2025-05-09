@@ -3,42 +3,42 @@
 		{
 			"id": "articleedgec",
 			"label": "刃：一次極為詳盡的調查",
-			"description": "你的調查成果匯成的文稿。[與你的贊助人談話，領取酬勞。]"
+			"description": "你親筆撰寫的文稿。[與你的贊助人談話，領取酬勞。]"
 		},
 		{
 			"id": "articleforgec",
 			"label": "鑄：一次極為詳盡的調查",
-			"description": "你的調查成果匯成的文稿。[與你的贊助人談話，領取酬勞。]"
+			"description": "你親筆撰寫的文稿。[與你的贊助人談話，領取酬勞。]"
 		},
 		{
 			"id": "articlegrailc",
 			"label": "杯：一次極為詳盡的調查",
-			"description": "你的調查成果匯成的文稿。[與你的贊助人談話，領取酬勞。]"
+			"description": "你親筆撰寫的文稿。[與你的贊助人談話，領取酬勞。]"
 		},
 		{
 			"id": "articleheartc",
 			"label": "心：一次極為詳盡的調查",
-			"description": "你的調查成果匯成的文稿。[與你的贊助人談話，領取酬勞。]"
+			"description": "你親筆撰寫的文稿。[與你的贊助人談話，領取酬勞。]"
 		},
 		{
 			"id": "articleknockc",
 			"label": "啟：一次極為詳盡的調查",
-			"description": "你的調查成果匯成的文稿。[與你的贊助人談話，領取酬勞。]"
+			"description": "你親筆撰寫的文稿。[與你的贊助人談話，領取酬勞。]"
 		},
 		{
 			"id": "articlelanternc",
 			"label": "燈：一次極為詳盡的調查",
-			"description": "你的調查成果匯成的文稿。[與你的贊助人談話，領取酬勞。]"
+			"description": "你親筆撰寫的文稿。[與你的贊助人談話，領取酬勞。]"
 		},
 		{
 			"id": "articlemothc",
 			"label": "蛾：一次極為詳盡的調查",
-			"description": "你的調查成果匯成的文稿。[與你的贊助人談話，領取酬勞。]"
+			"description": "你親筆撰寫的文稿。[與你的贊助人談話，領取酬勞。]"
 		},
 		{
 			"id": "articlesecrethistoriesc",
-			"label": "“論歷史”：一次極為詳盡的調查",
-			"description": "一份非常重要的調查成果，關於那些未被記錄的事件，描述著醒時與夢中的世界。[與你的贊助人談話，領取酬勞。]"
+			"label": "“論歷史”：一次極為詳盡的論述", 
+			"description": "一份極為詳盡的著作，探討那些形塑醒時與夢中世界的未記之事。[與你的贊助人談話，領取酬勞。]"
 		},
 		{
 			"id": "articlewinterc",
@@ -48,92 +48,92 @@
 		{
 			"id": "articleedgeb",
 			"label": "刃：一次詳盡的調查",
-			"description": "你的調查成果匯成的文稿。[與你的贊助人談話，領取酬勞。]"
+			"description": "你親筆撰寫的文稿。[與你的贊助人談話，領取酬勞。]"
 		},
 		{
 			"id": "articleforgeb",
 			"label": "鑄：一次詳盡的調查",
-			"description": "你的調查成果匯成的文稿。[與你的贊助人談話，領取酬勞。]"
+			"description": "你親筆撰寫的文稿。[與你的贊助人談話，領取酬勞。]"
 		},
 		{
 			"id": "articlegrailb",
 			"label": "杯：一次詳盡的調查",
-			"description": "你的調查成果匯成的文稿。[與你的贊助人談話，領取酬勞。]"
+			"description": "你親筆撰寫的文稿。[與你的贊助人談話，領取酬勞。]"
 		},
 		{
 			"id": "articleheartb",
 			"label": "心：一次詳盡的調查",
-			"description": "你的調查成果匯成的文稿。[與你的贊助人談話，領取酬勞。]"
+			"description": "你親筆撰寫的文稿。[與你的贊助人談話，領取酬勞。]"
 		},
 		{
 			"id": "articleknockb",
 			"label": "啟：一次詳盡的調查",
-			"description": "你的調查成果匯成的文稿。[與你的贊助人談話，領取酬勞。]"
+			"description": "你親筆撰寫的文稿。[與你的贊助人談話，領取酬勞。]"
 		},
 		{
 			"id": "articlelanternb",
 			"label": "燈：一次詳盡的調查",
-			"description": "你的調查成果匯成的文稿。[與你的贊助人談話，領取酬勞。]"
+			"description": "你親筆撰寫的文稿。[與你的贊助人談話，領取酬勞。]"
 		},
 		{
 			"id": "articlemothb",
 			"label": "蛾：一次詳盡的調查",
-			"description": "你的調查成果匯成的文稿。[與你的贊助人談話，領取酬勞。]"
+			"description": "你親筆撰寫的文稿。[與你的贊助人談話，領取酬勞。]"
 		},
 		{
 			"id": "articlesecrethistoriesb",
 			"label": "“論歷史”：一次詳盡的調查",
-			"description": "一些模糊的資訊，關於被掩蓋的許多舊事的真相。[與你的贊助人談話，領取酬勞。]"
+			"description": "關於許多過去中被掩蓋真相的晦澀資訊。[與你的贊助人談話，領取酬勞。]"
 		},
 		{
 			"id": "articlewinterb",
 			"label": "純白：一次詳盡的調查",
-			"description": "你說過所有這些都是必需的。[與你的贊助人談話，領取酬勞。]"
+			"description": "你已說出所有必要之言。[與你的贊助人談話，領取酬勞。]"
 		},
 		{
 			"id": "articleedgea",
 			"label": "刃：一次簡短的討論",
-			"description": "你的調查成果匯成的文稿。[與你的贊助人談話，領取酬勞。]"
+			"description": "你親筆撰寫的文稿。[與你的贊助人談話，領取酬勞。]"
 		},
 		{
 			"id": "articleforgea",
 			"label": "鑄：一次簡短的討論",
-			"description": "你的調查成果匯成的文稿。[與你的贊助人談話，領取酬勞。]"
+			"description": "你親筆撰寫的文稿。[與你的贊助人談話，領取酬勞。]"
 		},
 		{
 			"id": "articlegraila",
 			"label": "杯：一次簡短的討論",
-			"description": "你的調查成果匯成的文稿。[與你的贊助人談話，領取酬勞。]"
+			"description": "你親筆撰寫的文稿。[與你的贊助人談話，領取酬勞。]"
 		},
 		{
 			"id": "articlehearta",
 			"label": "心：一次簡短的討論",
-			"description": "你的調查成果匯成的文稿。[與你的贊助人談話，領取酬勞。]"
+			"description": "你親筆撰寫的文稿。[與你的贊助人談話，領取酬勞。]"
 		},
 		{
 			"id": "articleknocka",
 			"label": "啟：一次簡短的討論",
-			"description": "你的調查成果匯成的文稿。[與你的贊助人談話，領取酬勞。]"
+			"description": "你親筆撰寫的文稿。[與你的贊助人談話，領取酬勞。]"
 		},
 		{
 			"id": "articlelanterna",
 			"label": "燈：一次簡短的討論",
-			"description": "你的調查成果匯成的文稿。[與你的贊助人談話，領取酬勞。]"
+			"description": "你親筆撰寫的文稿。[與你的贊助人談話，領取酬勞。]"
 		},
 		{
 			"id": "articlemotha",
 			"label": "蛾：一次簡短的討論",
-			"description": "你的調查成果匯成的文稿。[與你的贊助人談話，領取酬勞。]"
+			"description": "你親筆撰寫的文稿。[與你的贊助人談話，領取酬勞。]"
 		},
 		{
 			"id": "articlesecrethistoriesa",
 			"label": "秘史：一次簡短的討論",
-			"description": "有關通常被列為禁忌的歷史的誘人消息。[與你的贊助人談話，領取酬勞。]"
+			"description": "關於那些通常遭到掩蓋的歷史的誘人訊息。[與你的贊助人談話，領取酬勞。]"
 		},
 		{
 			"id": "articlewintera",
 			"label": "純白：一次簡短的討論",
-			"description": "關於<b>冬</b>的一次簡要的專題討論。[與你的贊助人交流以領取酬勞。]"
-		}
+			"description": "一篇關於<b>冬</b>的簡要論述。[與你的贊助人談話，領取酬勞。]"
+		}		
 	]
 }
