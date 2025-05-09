@@ -32,15 +32,33 @@ class JsonFile:
         except Exception as e:
             print(f"其他錯誤：{e}")
 
+    # 1. 如果key是drawmessages，保留原內容
+    # 2. 若不是，則檢查每一層，key保留"id", "label", "description", "startdescription", "descriptionunlocked"
+    # 3. 如果該層key只剩下"id"，或無內容，則去掉
     def _filter_entry(self, entry):
-        base = {
-            k: entry[k]
-            for k in ("id", "label", "description", "startdescription", "descriptionunlocked")
-            if k in entry
-        }
-        if "drawmessages" in entry:
-            base["drawmessages"] = entry["drawmessages"]
-        return base
+        def recursive_filter(obj):
+            if isinstance(obj, dict):
+                if "drawmessages" in obj:
+                    return {"drawmessages": obj["drawmessages"]}
+                filtered = {}
+                for k, v in obj.items():
+                    if k in ("id", "label", "description", "startdescription", "descriptionunlocked"):
+                        filtered[k] = v
+                    elif isinstance(v, dict):
+                        nested = recursive_filter(v)
+                        if nested and (list(nested.keys()) != ["id"]):
+                            filtered[k] = nested
+                    elif isinstance(v, list):
+                        nested_list = [recursive_filter(i) for i in v]
+                        nested_list = [i for i in nested_list if isinstance(i, dict) and i and list(i.keys()) != ["id"]]
+                        if nested_list:
+                            filtered[k] = nested_list
+                return filtered
+            elif isinstance(obj, list):
+                return [recursive_filter(i) for i in obj if isinstance(i, (dict, list))]
+            else:
+                return obj
+        return recursive_filter(entry)
     
     def prev_entry(self):
         if self._current_index > 0:
