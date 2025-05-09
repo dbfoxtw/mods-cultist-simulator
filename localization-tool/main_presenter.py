@@ -108,6 +108,16 @@ class MainPresenter:
     def _update_original_json(self):
         id = self.model.get_current_entry_id()
         json = self.model.get_original_entry()
+
+        if not self.model.is_original_parsed():
+            id = "讀取失敗"
+            json = "讀取失敗"
+        else:
+            if not id.strip():
+                id = "無內容"
+            if not json.strip():
+                json = "無內容"
+
         self.view.set_json_id(id)
         self.view.set_original_json(json)
 
@@ -120,6 +130,12 @@ class MainPresenter:
 
     def _update_tranlated_json(self):
         json = self.model.get_translated_entry()
+
+        if not self.model.is_translated_parsed():
+            json = "讀取失敗"
+        elif not json.strip():
+            json = "無內容"
+
         self.view.set_translated_json(json)
 
     def _update_both_json(self):

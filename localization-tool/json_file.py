@@ -5,6 +5,7 @@ class JsonFile:
         self.clear()
 
     def clear(self):
+        self.isParsed = False
         self._entries = []
         self._current_index = 0
 
@@ -26,6 +27,7 @@ class JsonFile:
             else:
                 self._entries = original_array
 
+            self.isParsed = True
         except json.JSONDecodeError as e:
             print("json 解析錯誤")
             print(f"行：{e.lineno}, 欄：{e.colno}, 錯誤：{e.msg}")
@@ -61,14 +63,23 @@ class JsonFile:
         return recursive_filter(entry)
     
     def prev_entry(self):
+        if not self.isParsed:
+            return
+        
         if self._current_index > 0:
             self._current_index -= 1
 
     def next_entry(self):
+        if not self.isParsed:
+            return
+        
         if self._current_index < len(self._entries) - 1:
             self._current_index += 1
 
     def find_index_by_id(self, id_value):
+        if not self.isParsed:
+            return -1
+        
         if not id_value:
             return -1
 
@@ -87,6 +98,9 @@ class JsonFile:
         self._current_index = index
 
     def get_entry(self):
+        if not self.isParsed:
+            return ""
+
         if self._current_index < 0 or self._current_index >= len(self._entries):
             return ""
         data = self._entries[self._current_index]
@@ -94,6 +108,9 @@ class JsonFile:
         return data
     
     def get_current_entry_id(self):
+        if not self.isParsed:
+            return ""
+
         if self._current_index < 0 or self._current_index >= len(self._entries):
             return ""
         data = self._entries[self._current_index]

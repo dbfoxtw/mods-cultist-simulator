@@ -74,6 +74,12 @@ class MainModel:
 # endregion
 
 # region Entry
+    def is_original_parsed(self):
+        return self.original_json.isParsed
+    
+    def is_translated_parsed(self):
+        return self.translated_json.isParsed
+
     def _update_translated_entry(self):
         current_id = self.get_current_entry_id()
         if current_id:
