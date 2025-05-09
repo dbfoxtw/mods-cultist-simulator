@@ -111,7 +111,7 @@
     {
       "id": "A_ENDING_VISIONSENDING",
       "label": "在巨大的精神壓力下",
-      "descriptionunlocked": "我再也分辨不出什麼是真實，什麼是虛幻。"
+      "descriptionunlocked": "我再也辨不出什麼是真實，什麼不是。"
     },
     {
       "id": "A_CULT_MOTH",
@@ -216,7 +216,7 @@
     {
       "id": "A_ENDING_CATVICTORY",
       "label": "共度餘生：卡特",
-      "descriptionunlocked": "她會確保我的睡夢甜蜜美好。"
+      "descriptionunlocked": "她會確保我有個甜美的夢。"
     },
     {
       "id": "A_ENDING_MINORLANTERNVICTORY_WITHRISEN",
@@ -246,12 +246,12 @@
     {
       "id": "A_ENDING_VICTORVICTORY",
       "label": "共度餘生：維克多",
-      "descriptionunlocked": "我們是幸福的，我覺得。"
+      "descriptionunlocked": "我認為，我們是幸福的。"
     },
     {
       "id": "A_ENDING_AUCLAIRVICTORY",
       "label": "共度餘生：奧克萊爾",
-      "descriptionunlocked": "如今我們是精通心靈的學者。"
+      "descriptionunlocked": "如今我們是心靈的學者。"
     },
     {
       "id": "A_ENDING_TRISTANVICTORY",
@@ -261,17 +261,17 @@
     {
       "id": "A_ENDING_VALCIANEVICTORY",
       "label": "共度餘生：瓦爾夏涅",
-      "descriptionunlocked": "她渴求被人發現。"
+      "descriptionunlocked": "她渴望我找到她。"
     },
     {
       "id": "A_ENDING_LAIDLAWVICTORY",
       "label": "共度餘生：萊德勞",
-      "descriptionunlocked": "我們尋找，我們思考，也許能找到一個適合的相處方式。"
+      "descriptionunlocked": "也許，這就是我們的相處之道。"
     },
     {
       "id": "A_ENDING_ELRIDGEVICTORY",
       "label": "共度餘生：埃爾里奇",
-      "descriptionunlocked": "我或許會獎勵於他。"
+      "descriptionunlocked": "我也許會獎勵他。"
     },
     {
       "id": "A_ENDING_ROSEVICTORY",
@@ -301,7 +301,7 @@
     {
       "id": "A_ENDING_CLIFTONVICTORY",
       "label": "共度餘生：克利夫頓",
-      "descriptionunlocked": "他這個人啊，讓人笑也不是哭也不是。"
+      "descriptionunlocked": "他這個人啊，有時候真搞不清楚，該對他哭還是笑。"
     },
     {
       "id": "A_ENDING_SLEEVICTORY",
@@ -316,7 +316,7 @@
     {
       "id": "A_ENDING_YSABETVICTORY",
       "label": "共度餘生：伊莎貝特",
-      "descriptionunlocked": "我們的家屋是振翅小生靈的家園。"
+      "descriptionunlocked": "我們的家是振翅小生靈的棲所。"
     },
     {
       "id": "A_ENDING_SYLVIAVICTORY",
@@ -326,7 +326,7 @@
     {
       "id": "A_ENDING_CLOVETTEVICTORY",
       "label": "共度餘生：克羅薇特",
-      "descriptionunlocked": "在一起的我們的心跳得更快。"
+      "descriptionunlocked": "我們的心跳一同加快。"
     },
     {
       "id": "A_ENDING_DOROTHYVICTORY",
