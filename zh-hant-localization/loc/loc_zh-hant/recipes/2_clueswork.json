@@ -203,7 +203,7 @@
 		{
 			"id": "hint_summon_spirit_lanterne_secret",
 			"label": "召喚不尋常之物？",
-			"startdescription": "我發現了一種有效的性相組合，但我還需要更多法力。用足量的<b>燈</b>，相當程度的<b>啟</b>和一絲撩人的秘密，也許我能召喚出什麼有趣的東西。"
+			"startdescription": "我發現了一種有效的性相組合，但我還需要更多法力。用足夠的<b>燈</b>，相當程度的<b>啟</b>和一絲撩人的秘密，也許我能召喚出什麼有趣的東西。"
 		},
 		{
 			"id": "hint_summon_spirit_lanterne_secret_exists",
