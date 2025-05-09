@@ -38,7 +38,7 @@
 		{
 			"id": "paint.prepareforcanvas.pale",
 			"label": "為淡白至極的畫作準備畫布",
-			"startdescription": "人或為畫家，或為畫布。今日，我是畫家。[準備畫布要花一些時間，且將占用<b><作業></b>行動槽。]",
+			"startdescription": "人或為畫家，或為畫布。今日，我是畫家。[準備畫布要花一些時間，且將占用<b>“作業”</b>行動槽。]",
 			"description": "世界可以為淡白至極的畫作再多等待一會兒。反正已經等待許久了。",
 			"slots": [
 				{
