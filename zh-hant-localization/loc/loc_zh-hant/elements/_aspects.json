@@ -681,7 +681,7 @@
         {
             "id": "damagereason",
             "label": "損害理性",
-            "description": "理性將轉化為恐懼"
+            "description": "理性將轉化為恐懼。"
         },
         {
             "id": "toreason",
@@ -716,22 +716,22 @@
         {
             "id": "killmortal",
             "label": "殺死凡人",
-            "description": "凡人將變作死屍"
+            "description": "凡人將變成死屍。"
         },
         {
             "id": "longded",
             "label": "殺死長生者",
-            "description": "長生者將變作其留下的獎賞"
+            "description": "長生者將變成其留下的獎賞。"
         },
         {
             "id": "killsummoned",
             "label": "殺死召喚物",
-            "description": "召喚物變作調味影響或阻礙召喚之人。"
+            "description": "召喚物變成調味影響或阻礙召喚之人。"
         },
         {
             "id": "killmanifesting",
             "label": "殺死顯形的召喚物",
-            "description": "召喚物變作調味影響或阻礙召喚之人。"
+            "description": "召喚物變成調味影響或阻礙召喚之人。"
         },
         {
             "id": "dissolution",
@@ -740,16 +740,16 @@
         },
         {
             "id": "raiseshattered",
-            "label": "把屍體轉化為破碎行屍"
+            "label": "把屍體轉化為破碎行屍。"
         },
         {
             "id": "raiseburgeoning",
-            "label": "將把體轉化為抽芽行屍"
+            "label": "將把體轉化為抽芽行屍。"
         },
         {
             "id": "rebellion",
             "label": "叛變",
-            "description": "追隨者將變為對手"
+            "description": "追隨者將變為對手。"
         },
         {
             "id": "endannoyance",
@@ -774,7 +774,7 @@
         {
             "id": "killhunter",
             "label": "殺死獵人",
-            "description": "獵人將變作死屍。"
+            "description": "獵人將變成死屍。"
         },
         {
             "id": "capturefollower",
