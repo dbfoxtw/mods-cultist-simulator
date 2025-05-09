@@ -10,7 +10,7 @@
 			"id": "recruitindependentforge",
 			"label": "喚起鑄之偉力來招募搗亂分子",
 			"startdescription": "此人快要決定加入我了……只要我送出一件<b>工具</b>表示我的敬意。[你必須在此放入一件工具，且該工具將一去不回。]",
-			"description": "火需熊熊燃燒，燒焦觀者的皮膚。"
+			"description": "火需熊熊燃燒，燒焦觀眾的皮膚。"
 		},
 		{
 			"id": "recruitindependentgrail",
@@ -70,7 +70,7 @@
 			"id": "recruitacquaintanceheart",
 			"label": "喚起心來招募熟人入教",
 			"startdescription": "此人已做好準備。",
-			"description": "典禮的鳴響如同雷鳴迴盪在教堂。我了解它，它是我親筆寫就。"
+			"description": "典禮的鳴響如同雷鳴迴盪在教堂。我了解它，它是我親筆著述。"
 		},
 		{
 			"id": "recruitacquaintanceknock",

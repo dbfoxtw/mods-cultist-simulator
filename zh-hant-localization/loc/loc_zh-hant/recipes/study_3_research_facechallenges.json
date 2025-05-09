@@ -56,7 +56,7 @@
 		{
 			"id": "studyresearch.attemptsolve.challenge.grim",
 			"label": "挑戰：嚴酷的教訓",
-			"startdescription": "這是一方缺失拼片的拼圖。也許我會在學海的偏遠之隅找到這些片段。[投入“恐懼”，或使用暗穴，或使用技能“無聲的厚重”。“恐懼”可能越增越多。]",
+			"startdescription": "這是一方缺失拼片的拼圖。也許我會在學海的偏遠之隅找到這些片段。[投入“恐懼”，或使用深坑，或使用技能“無聲的厚重”。“恐懼”可能越增越多。]",
 			"slots": [
 				{
 					"id": "solvechallenge",
@@ -76,7 +76,7 @@
 		},
 		{
 			"id": "studyresearch.attemptsolve.challenge.obsessive",
-			"label": "挑戰：走火入魔的研究",
+			"label": "挑戰：執著的研究",
 			"startdescription": "這是一方缺失拼片的拼圖。也許我會在學海的偏遠之隅找到這些片段。[交出你的“理性”，理性可能永久受損；或使用藏書室；或使用技能“永無止盡”。]",
 			"slots": [
 				{
@@ -93,11 +93,11 @@
 		{
 			"id": "studyresearch.solved.challenge.obsessive",
 			"label": "原來如此——！",
-			"startdescription": "——答案如此，對吧？[你破解了一關走火入魔挑戰。]"
+			"startdescription": "——答案如此，對吧？[你破解了一關執著挑戰。]"
 		},
 		{
 			"id": "studyresearch.damagereason",
-			"label": "走火入魔帶來的重負",
+			"label": "執著帶來的重負",
 			"startdescription": "我將我的思緒像磨刀一樣磨得鋒銳。現在這把刀的刀尖折斷了。[“理性”已永久受損。]"
 		},
 		{
@@ -149,7 +149,7 @@
 		},
 		{
 			"id": "studyresearch.attemptsolve.challenge.practical",
-			"label": "挑戰：應用試驗",
+			"label": "挑戰：實驗性應用",
 			"startdescription": "這是一方缺失拼片的拼圖。也許我會在學海的偏遠之隅找到這些片段。[用你的“健康”冒險，或使用一名囚犯。]",
 			"slots": [
 				{

@@ -3,7 +3,7 @@
 		{
 			"id": "explorevaultperil_treacherousground_encounter",
 			"label": "詭變多端的地面",
-			"startdescription": "拉人下陷的泥漿，欺人眼目的裂縫——大地急於吞吃我們。我們需要用<b>燈</b>照亮前路，或<b>鑄</b>一盞燈。",
+			"startdescription": "拉人下陷的泥漿，欺人眼目的裂縫——大地急於吞噬我們。我們需要用<b>燈</b>照亮前路，或<b>鑄</b>一盞燈。",
 			"slots": [
 				{
 					"id": "Assistance",
@@ -56,7 +56,7 @@
 		},
 		{
 			"id": "explorevaultperil_treacherousground_failure",
-			"label": "急於吞吃的大地",
+			"label": "急於吞噬的大地",
 			"startdescription": "這條看似安全可行得通路實為讓人深陷其中的圈套。我們得繞回去再找一條路。",
 			"description": "."
 		},
