@@ -44,7 +44,7 @@
 		{
 			"id": "weakness.foe.unknown",
 			"label": "大敵：一個未知的弱點",
-			"description": "我的大敵容易被特定事物干擾。[你可以通過試驗或啟示找到確切的答案。]"
+			"description": "我的大敵容易被特定事物干擾。[你可以透過試驗或啟示找到確切的答案。]"
 		},
 		{
 			"id": "weakness.foe",
