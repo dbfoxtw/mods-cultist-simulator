@@ -2,7 +2,7 @@
 	"recipes": [
 		{
 			"id": "legacyphysicianwork",
-			"label": "在研究所工作",
+			"label": "在醫院工作",
 			"startdescription": "#PREVIOUSCHARACTERNAME#是一個——一個棘手的病人。等到他完事後，我必需得休息一段時間。",
 			"description": "今天我下班很早。主任很體貼我，但現在我必須回歸全時工作了。"
 		},
@@ -45,7 +45,7 @@
 		{
 			"id": "legacyphysicianopentalk",
 			"label": "同道中人",
-			"startdescription": "研究所裡有位病人也包紮著一隻眼睛。他說這是自殘造成的傷口。或許我們很快就會聊一聊。",
+			"startdescription": "醫院裡有位病人也包紮著一隻眼睛。他說這是自殘造成的傷口。或許我們很快就會聊一聊。",
 			"description": "我的傷口已經痊癒，他的也是。他無法理解他為什麼會那樣做。但他也夢見了我，那天夜裡，我們緊密相連。"
 		}
 	]
