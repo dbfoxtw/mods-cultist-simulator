@@ -3,7 +3,7 @@
 		{
 			"id": "scout",
 			"label": "勘察",
-			"description": "探索可能性。",
+			"description": "嗅探可能性。",
 			"slot": {
 				"id": "scout",
 				"label": "勘察"
@@ -25,7 +25,7 @@
 			"slot": {
 				"id": "direction",
 				"label": "目的地",
-				"description": "路途，或其終點?"
+				"description": "路途，或其終點？"
 			}
 		},
 		{

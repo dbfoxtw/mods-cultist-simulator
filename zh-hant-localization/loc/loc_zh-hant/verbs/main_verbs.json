@@ -7,7 +7,7 @@
 			"slot": {
 				"id": "work",
 				"label": "作業",
-				"description": "我能做的，我知道的，或者我身為的。"
+				"description": "我能做的事，我知道的事，或我本身所是。"
 			}
 		},
 		{
@@ -17,7 +17,7 @@
 			"slot": {
 				"id": "dream",
 				"label": "入夢",
-				"description": "或做夢的方向，或待解的煩憂。"
+				"description": "入夢的方向，或待解的煩憂。"
 			}
 		},
 		{
@@ -27,27 +27,27 @@
 			"slot": {
 				"id": "study",
 				"label": "研究",
-				"description": "無形之術足以讓人研究十生十世。"
+				"description": "鑽研無形之術，可耗盡十生十世。"
 			}
 		},
 		{
 			"id": "talk",
 			"label": "談話",
-			"description": "逼問，威脅，誘騙，教導，招募。",
+			"description": "質問，威脅，誘騙，教導，招募。",
 			"slot": {
 				"id": "talk",
 				"label": "談話",
-				"description": "盟友，仇敵，或者敵友難辨之人。"
+				"description": "盟友、敵人，或介於兩者之間的人。"
 			}
 		},
 		{
 			"id": "explore",
 			"label": "探索",
-			"description": "投入健康或者追隨者來探索城市；調查各個地點；探究密傳之所示。探索的結果通常難以預期。",
+			"description": "投入健康或追隨者探索城市；調查各個地點；研究密傳中蘊含的可能。探索的結果通常難以預期。",
 			"slot": {
 				"id": "explore",
 				"label": "探索",
-				"description": "地點，人物，場所，秘密。"
+				"description": "地點、人物、傳聞、祕密。"
 			}
 		},
 		{
