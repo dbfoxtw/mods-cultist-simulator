@@ -13,7 +13,7 @@
 		{
 			"id": "debellismurorumlatin",
 			"label": "《牆垣之戰》",
-			"description": "拉丁語著。十八世紀史詩，作者託名為“索利浦西斯托斯”。"
+			"description": "拉丁語著。十八世紀史詩，作者化名為“索利浦西斯托斯”。"
 		},
 		{
 			"id": "onwhatiscontainedbysilvergreek",
@@ -22,7 +22,7 @@
 		},
 		{
 			"id": "truecompleteasclepiangreek",
-			"label": "《對居屋根基的阿斯克利庇之謎真實而完整的記述》",
+			"label": "《居屋根基中的阿斯克勒庇俄斯之謎：真實而完整的記述》",
 			"description": "一部——據推測——更古老的文獻的複製本，製作者署名“李利·格里斯”。希臘語著。"
 		},
 		{
@@ -53,17 +53,17 @@
 		{
 			"id": "textbookphrygiangreek",
 			"label": "《維爾朔恩銘文》",
-			"description": "抄自一面牆壁的數百行希臘語與對應的弗里吉亞語詩歌。類似於——甚至完全同於——在哈利卡納蘇斯發現的卡爾·維爾朔恩碑文。[如果你會希臘語，你可以憑藉此物學習弗里吉亞語。]"
+			"description": "抄自一面牆壁的數百行希臘語與對應的弗里吉亞語詩歌。類似於——甚至完全同於——在哈利卡納蘇斯發現的卡爾·維爾朔恩碑文。[如果你會希臘語，你可以藉此學習弗里吉亞語。]"
 		},
 		{
 			"id": "textbookmandaicaramaic",
 			"label": "奧古斯特石",
-			"description": "碩大的碗狀物，尺寸與鑼相當，由黑色的玄武岩雕刻而成，銘有亞蘭語和曼達安語的咒文。[如果你會亞蘭語，你可以憑藉此物學習曼達安語。]"
+			"description": "碩大的碗狀物，尺寸與鑼相當，由黑色的玄武岩雕刻而成，銘有亞蘭語和曼達安語的咒文。[如果你會亞蘭語，你可以藉此學習曼達安語。]"
 		},
 		{
 			"id": "textbookvaksanskrit",
 			"label": "神秘雕塑",
-			"description": "一尊複雜到難以置信的象牙雕塑。表面交錯盤繞著梵語與對應的伐訶語銘文。[如果你會梵語，你可以憑藉此物學習伐訶語——世界最初的語言。]"
+			"description": "一尊複雜到難以置信的象牙雕塑。表面交錯盤繞著梵語與對應的伐訶語銘文。[如果你會梵語，你可以藉此學習伐訶語——世界最初的語言。]"
 		},
 		{
 			"id": "irreproachabletraditionssocietynobleendeavourlatin",
@@ -117,7 +117,7 @@
 		},
 		{
 			"id": "indignitiesobliviatelatin",
-			"label": "《慣於欺瞞的忘卻互助會造成的種種侮辱傷害》",
+			"label": "《慣於欺瞞的忘卻教團所加之辱》",
 			"description": "本書同時以其語調中近乎語無倫次的憤怒，以及它所含有的知識而聞名。拉丁語著。"
 		},
 		{
@@ -203,7 +203,7 @@
 		{
 			"id": "flayedtantrasanskrit",
 			"label": "《剝皮密續》",
-			"description": "據記載，該密續由一個人稱“褪皮”的神秘人物口述而來，介紹了神話中的那伽大蛇的很多習性。《剝皮密續》在亞歷山大·斯派鷺那本充滿被害妄想的小冊子裡占很大比重。"
+			"description": "據記載，該密續由一個人稱“褪皮”的神秘人物口述而來，介紹了神話中的那伽大蛇的很多習性。《剝皮密續》在亞歷山大·斯派羅那本充滿被害妄想的小冊子裡占很大比重。"
 		},
 		{
 			"id": "watchfultantrasanskrit",
@@ -258,7 +258,7 @@
 		{
 			"id": "bookofdissolutionmandaic",
 			"label": "《融解之書》",
-			"description": "亞歷山大·普羅布斯特承襲傑·維苟財·詹森的基礎性工作，修復了本書存於波斯某山中寺廟的一份抄本。本書在別處也時有發現，通常是烙刻在石頭上。"
+			"description": "亞歷山大·普羅布斯特承襲霍斯蒂·塔斯曼的基礎性工作，修復了本書存於波斯某山中寺廟的一份抄本。本書在別處也時有發現，通常是烙刻在石頭上。"
 		},
 		{
 			"id": "catalogueofunchartedpleasuresphrygian",
@@ -318,7 +318,7 @@
 		{
 			"id": "highmysterieschurchsolarfucine",
 			"label": "《吾太陽神教……》",
-			"description": "《吾太陽神教核心廳室之極密》。本書記載了無敵太陽教會的秘密儀式，該教至少在兩重歷史上掌握過權勢。"
+			"description": "《吾太陽神教核心廳室之至高奧秘》。本書記載了無敵太陽教會的秘密儀式，該教至少在兩重歷史上掌握過權勢。"
 		},
 		{
 			"id": "medusaslamentgreek",
@@ -377,7 +377,7 @@
 		},
 		{
 			"id": "wherehasshegonevak",
-			"label": "《她去到過何地？》",
+			"label": "《她去過何處？》",
 			"description": "以伐訶語著述，討論了浪遊旅人的行程。"
 		},
 		{
