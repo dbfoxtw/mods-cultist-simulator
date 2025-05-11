@@ -3,6 +3,7 @@ from main_model import MainModel
 from main_view import MainView
 from app_settings import AppSettings
 from chatgpt_helper import ChatGPTHelper
+from proper_noun import ProperNounManager
 
 class MainPresenter:
     def __init__(self, model: MainModel, view: MainView):
@@ -10,6 +11,7 @@ class MainPresenter:
         self.model = model
         self.view = view
         self.chatgpt = ChatGPTHelper()
+        self.proper_noun_manager = ProperNounManager("proper_nouns.csv")
 
     def on_chatgpt_mode_changed(self):
         mode = self.view.get_chatgpt_mode()
@@ -51,7 +53,7 @@ class MainPresenter:
     def on_submit_review(self):
         source_text = self.model.get_original_entry()
         translated_text = self.view.get_translated_json()
-        match_nouns = self.app_settings.extract_proper_nouns_from_text(translated_text)
+        match_nouns = self.proper_noun_manager.search_in_text(translated_text)
 
         if source_text and translated_text:
             response = self.chatgpt.review(source_text, translated_text, match_nouns)
@@ -152,27 +154,33 @@ class MainPresenter:
     def on_translate_command(self):
         original = self.model.get_original_entry()
         translated = self.model.get_translated_entry()
-        matched_nouns = self.app_settings.extract_proper_nouns_from_text(translated)
+        matched_nouns = self.proper_noun_manager.search_in_text(translated)
         command = self.chatgpt.get_user_prompt(original, translated, matched_nouns)
         self.view.set_clipboard_string(command)
         self.view.show_toast("已複製到剪貼簿")
 
     def on_add_proper_noun(self):
-        word = self.view.get_proper_entry().strip()
-        if word:
-            self.app_settings.add_proper_noun(word)
-            self.view.show_toast(f"已新增：{word}")
-            if self.view.is_proper_noun_window_open():
-                self.view.show_proper_noun_list(self.app_settings.get_proper_nouns())
+        english = self.view.get_proper_noun_english_entry().strip()
+        chinese = self.view.get_proper_noun_chinese_entry().strip()
+
+        if english and chinese:
+            self.proper_noun_manager.add(english, chinese)
+            self.view.show_toast(f"已新增：{english} {chinese}")
+            if self.view.is_proper_noun_window_exist():
+                all_nouns = self.proper_noun_manager.list_all()
+                self.view._update_proper_noun_table(all_nouns)
 
     def on_remove_proper_noun(self):
-        word = self.view.get_proper_entry().strip()
-        if word:
-            self.app_settings.remove_proper_noun(word)
-            self.view.show_toast(f"已刪除：{word}")
-            if self.view.is_proper_noun_window_open():
-                self.view.show_proper_noun_list(self.app_settings.get_proper_nouns())
+        english = self.view.get_proper_noun_english_entry().strip()
+        chinese = self.view.get_proper_noun_chinese_entry().strip()
+
+        if english or chinese:
+            self.proper_noun_manager.delete(english, chinese)
+            self.view.show_toast(f"已刪除：{english} {chinese}")
+            if self.view.is_proper_noun_window_exist():
+                all_nouns = self.proper_noun_manager.list_all()
+                self.view._update_proper_noun_table(all_nouns)
 
     def on_show_proper_noun_list(self):
-        nouns = self.app_settings.get_proper_nouns()
-        self.view.show_proper_noun_list(nouns)
+        all_nouns = self.proper_noun_manager.list_all()
+        self.view.show_proper_noun_table(all_nouns)

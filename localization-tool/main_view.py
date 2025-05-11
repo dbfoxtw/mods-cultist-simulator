@@ -39,17 +39,26 @@ class MainView:
 
         # === 專有名詞 ===
         ctk.CTkLabel(root, text="專有名詞").grid(row=5, column=0, sticky="w", padx=10, pady=5)
-        proper_frame = ctk.CTkFrame(root)
-        proper_frame.grid(row=5, column=1, columnspan=2, sticky="w", padx=5, pady=5)
-        self.proper_entry = ctk.CTkEntry(proper_frame, width=400)
-        self.proper_entry.pack(side="left")
-        ctk.CTkButton(proper_frame, text="新增", width=70, command=self.presenter.on_add_proper_noun).pack(side="left", padx=(5, 2))
-        ctk.CTkButton(proper_frame, text="刪除", width=70, command=self.presenter.on_remove_proper_noun).pack(side="left", padx=2)
-        ctk.CTkButton(proper_frame, text="列表", width=70, command=self.presenter.on_show_proper_noun_list).pack(side="left", padx=2)
-        self.proper_noun_window = None  # 新增一個追蹤視窗的變數
+
+        _proper_noun_frame = ctk.CTkFrame(root)
+        _proper_noun_frame.grid(row=5, column=1, columnspan=2, sticky="w", padx=5, pady=5)
+
+        ctk.CTkLabel(_proper_noun_frame, text="英文").pack(side="left")
+        self._proper_noun_english_entry = ctk.CTkEntry(_proper_noun_frame, width=200)
+        self._proper_noun_english_entry.pack(side="left", padx=(5, 0))
+
+        ctk.CTkLabel(_proper_noun_frame, text="中文").pack(side="left", padx=(5, 0))
+        self._proper_noun_chinese_entry = ctk.CTkEntry(_proper_noun_frame, width=200)
+        self._proper_noun_chinese_entry.pack(side="left", padx=(5, 0))        
+
+        ctk.CTkButton(_proper_noun_frame, text="新增", width=70, command=self.presenter.on_add_proper_noun).pack(side="left", padx=(5, 2))
+        ctk.CTkButton(_proper_noun_frame, text="刪除", width=70, command=self.presenter.on_remove_proper_noun).pack(side="left", padx=2)
+        ctk.CTkButton(_proper_noun_frame, text="列表", width=70, command=self.presenter.on_show_proper_noun_list).pack(side="left", padx=2)
 
         self.original_json = self._text_area(6, "原文", 10)
         self.translated_json = self._text_area(7, "翻譯 / 修訂", 10)
+
+        self.proper_noun_window = None
 
         # === ChatGPT回應 ===
         self.chatgpt_response_label = ctk.CTkLabel(self.root, text="CHATGPT 回應")
@@ -221,29 +230,44 @@ class MainView:
         # 設定自動關閉
         toast.after(duration, toast.destroy)
 
-    def get_proper_entry(self):
-        return self.proper_entry.get()
-
-    def is_proper_noun_window_open(self):
+    def get_proper_noun_english_entry(self):
+        return self._proper_noun_english_entry.get()
+    
+    def get_proper_noun_chinese_entry(self):
+        return self._proper_noun_chinese_entry.get()
+    
+    def is_proper_noun_window_exist(self):
         return self.proper_noun_window and self.proper_noun_window.winfo_exists()
 
-    def show_proper_noun_list(self, nouns):
+    def show_proper_noun_table(self, proper_nouns):
         if self.proper_noun_window and self.proper_noun_window.winfo_exists():
-            textbox = self.proper_noun_window.textbox
-            textbox.configure(state="normal")
-            textbox.delete("1.0", "end")
-            textbox.insert("1.0", "\n".join(nouns))
-            textbox.configure(state="disabled")
-            self.proper_noun_window.focus()
+            self._update_proper_noun_table(proper_nouns)
             return
 
         self.proper_noun_window = ctk.CTkToplevel(self.root)
         self.proper_noun_window.title("專有名詞列表")
-        self.proper_noun_window.geometry("400x300")
-        self.proper_noun_window.transient(self.root)
+        self.proper_noun_window.geometry("400x500")
+        self.proper_noun_window.resizable(False, False)
 
-        textbox = ctk.CTkTextbox(self.proper_noun_window)
-        textbox.pack(expand=True, fill="both", padx=10, pady=10)
-        textbox.insert("1.0", "\n".join(nouns))
-        textbox.configure(state="disabled")
-        self.proper_noun_window.textbox = textbox  # 綁定屬性給視窗
+        self.proper_noun_window.transient(self.root)
+        self.proper_noun_window.lift()
+
+        self._table_scroll_frame = ctk.CTkScrollableFrame(self.proper_noun_window)
+        self._table_scroll_frame.pack(fill="both", expand=True, padx=10, pady=10)
+
+        self._update_proper_noun_table(proper_nouns)
+
+    def _update_proper_noun_table(self, proper_nouns):
+        for widget in self._table_scroll_frame.winfo_children():
+            widget.destroy()
+
+        header = ctk.CTkFrame(self._table_scroll_frame)
+        header.pack(fill="x", pady=(0, 5))
+        ctk.CTkLabel(header, text="英文", width=180, anchor="w").pack(side="left", padx=(10, 5))
+        ctk.CTkLabel(header, text="中文", width=180, anchor="w").pack(side="left")
+
+        for pn in proper_nouns:
+            row = ctk.CTkFrame(self._table_scroll_frame)
+            row.pack(fill="x", pady=2)
+            ctk.CTkLabel(row, text=pn.english, width=180, anchor="w").pack(side="left")
+            ctk.CTkLabel(row, text=pn.chinese, width=180, anchor="w").pack(side="left")

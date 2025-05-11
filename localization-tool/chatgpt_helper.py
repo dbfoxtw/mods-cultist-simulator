@@ -49,7 +49,7 @@ class ChatGPTHelper:
 
     def get_user_prompt(self, original, translated, matched_nouns):
         if matched_nouns:
-            proper_noun_text = "\n".join(matched_nouns)
+            proper_noun_text = "\n".join(f"{pn.english} {pn.chinese}" for pn in matched_nouns)
         else:
             proper_noun_text = "無"
 
