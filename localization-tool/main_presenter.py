@@ -184,3 +184,22 @@ class MainPresenter:
     def on_show_proper_noun_list(self):
         all_nouns = self.proper_noun_manager.list_all()
         self.view.show_proper_noun_table(all_nouns)
+
+    def on_filter_proper_nouns(self):
+        keyword = self.view.get_proper_noun_search_keyword().lower()
+        all_nouns = self.proper_noun_manager.list_all()
+        filtered = [
+            pn for pn in all_nouns
+            if keyword in pn.english.lower() or keyword in pn.chinese.lower()
+        ]
+        self._update_sorted_proper_noun_table(filtered)
+
+    def on_sort_proper_nouns(self, key: str):
+        self.view.toggle_sort_order(key)
+        self.on_filter_proper_nouns()  # 重新套用排序 + 搜尋
+
+    def _update_sorted_proper_noun_table(self, nouns):
+        key = self.view.get_proper_noun_sort_key()
+        reverse = not self.view.get_sort_order()
+        sorted_nouns = sorted(nouns, key=lambda pn: getattr(pn, key).lower(), reverse=reverse)
+        self.view._update_proper_noun_table(sorted_nouns)

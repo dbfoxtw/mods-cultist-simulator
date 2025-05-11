@@ -255,6 +255,21 @@ class MainView:
         self._table_scroll_frame = ctk.CTkScrollableFrame(self.proper_noun_window)
         self._table_scroll_frame.pack(fill="both", expand=True, padx=10, pady=10)
 
+        self.search_var = ctk.StringVar()
+        self.sort_key = "english"  # 預設排序
+        self.sort_ascending = True
+
+        search_frame = ctk.CTkFrame(self.proper_noun_window)
+        search_frame.pack(fill="x", padx=10)
+
+        ctk.CTkLabel(search_frame, text="搜尋：").pack(side="left")
+        search_entry = ctk.CTkEntry(search_frame, textvariable=self.search_var)
+        search_entry.pack(side="left", fill="x", expand=True, padx=5)
+        search_entry.bind("<Return>", lambda e: self.presenter.on_filter_proper_nouns())
+
+        ctk.CTkButton(search_frame, text="英文排序", command=lambda: self.presenter.on_sort_proper_nouns("english")).pack(side="left", padx=2)
+        ctk.CTkButton(search_frame, text="中文排序", command=lambda: self.presenter.on_sort_proper_nouns("chinese")).pack(side="left", padx=2)
+
         self._update_proper_noun_table(proper_nouns)
 
     def _update_proper_noun_table(self, proper_nouns):
@@ -271,3 +286,21 @@ class MainView:
             row.pack(fill="x", pady=2)
             ctk.CTkLabel(row, text=pn.english, width=280, anchor="w").pack(side="left")
             ctk.CTkLabel(row, text=pn.chinese, width=180, anchor="w").pack(side="left")
+
+        self._table_scroll_frame._parent_canvas.yview_moveto(0)
+
+    def get_proper_noun_search_keyword(self):
+        return self.search_var.get().strip()
+
+    def get_proper_noun_sort_key(self):
+        return self.sort_key
+
+    def toggle_sort_order(self, key):
+        if self.sort_key == key:
+            self.sort_ascending = not self.sort_ascending
+        else:
+            self.sort_key = key
+            self.sort_ascending = True
+
+    def get_sort_order(self):
+        return self.sort_ascending
