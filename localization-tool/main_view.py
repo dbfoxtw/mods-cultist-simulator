@@ -246,7 +246,7 @@ class MainView:
 
         self.proper_noun_window = ctk.CTkToplevel(self.root)
         self.proper_noun_window.title("專有名詞列表")
-        self.proper_noun_window.geometry("400x500")
+        self.proper_noun_window.geometry("500x500")
         self.proper_noun_window.resizable(False, False)
 
         self.proper_noun_window.transient(self.root)
@@ -263,11 +263,11 @@ class MainView:
 
         header = ctk.CTkFrame(self._table_scroll_frame)
         header.pack(fill="x", pady=(0, 5))
-        ctk.CTkLabel(header, text="英文", width=180, anchor="w").pack(side="left", padx=(10, 5))
+        ctk.CTkLabel(header, text="英文", width=280, anchor="w").pack(side="left", padx=(10, 5))
         ctk.CTkLabel(header, text="中文", width=180, anchor="w").pack(side="left")
 
         for pn in proper_nouns:
             row = ctk.CTkFrame(self._table_scroll_frame)
             row.pack(fill="x", pady=2)
-            ctk.CTkLabel(row, text=pn.english, width=180, anchor="w").pack(side="left")
+            ctk.CTkLabel(row, text=pn.english, width=280, anchor="w").pack(side="left")
             ctk.CTkLabel(row, text=pn.chinese, width=180, anchor="w").pack(side="left")
