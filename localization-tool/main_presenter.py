@@ -51,9 +51,10 @@ class MainPresenter:
     def on_submit_review(self):
         source_text = self.model.get_original_entry()
         translated_text = self.view.get_translated_json()
+        match_nouns = self.app_settings.extract_proper_nouns_from_text(translated_text)
 
         if source_text and translated_text:
-            response = self.chatgpt.review(source_text, translated_text)
+            response = self.chatgpt.review(source_text, translated_text, match_nouns)
             self.view.set_chatgpt_response(response)
         else:
             response = "有字串是空的，發送失敗"
@@ -144,16 +145,7 @@ class MainPresenter:
 
     # Not used
     def on_common_command(self):
-        command = """你是神祕學卡牌遊戲翻譯審稿員，我會貼兩個文本，分別是英文原文、中文翻譯，請針對翻譯檢查以下問題：
-1. 漏譯或誤譯（與英文原文不符）
-2. 語病或句法錯誤
-3. 不符合台灣慣用語的人名、地名、表達（如直翻、陸式用語）
-
-此外，請遵守以下規定：
-1. 保留引號用法。
-2. 如果有提供，則保留專有詞。
-3. 除了建議與理由，也需提供修正後的全文。
-4. 若無問題只需回覆「無需修改」。"""
+        command = self.chatgpt.get_system_prompt()
         self.view.set_clipboard_string(command)
         self.view.show_toast("已複製到剪貼簿")
 
@@ -161,20 +153,7 @@ class MainPresenter:
         original = self.model.get_original_entry()
         translated = self.model.get_translated_entry()
         matched_nouns = self.app_settings.extract_proper_nouns_from_text(translated)
-
-        if matched_nouns:
-            proper_noun_text = "\n".join(matched_nouns)
-        else:
-            proper_noun_text = "無"
-
-        command = f"""英文：
-{original}
-
-中文：
-{translated}
-
-專有詞：
-{proper_noun_text}"""
+        command = self.chatgpt.get_user_prompt(original, translated, matched_nouns)
         self.view.set_clipboard_string(command)
         self.view.show_toast("已複製到剪貼簿")
 
