@@ -2,13 +2,13 @@
 	"elements": [
 		{
 			"id": "legacyphysicianjob",
-			"description": "今天，我將回到工作崗位。",
-			"label": "醫院職位"
+			"label": "醫院職位",
+			"description": "今天我重返崗位。"
 		},
 		{
 			"id": "legacyphysiciannotes",
-			"description": "我親眼見證了#PREVIOUSCHARACTERNAME#被病魔壓垮的可怖過程。我手寫的病歷也越來越潦草了。",
-			"label": "#PREVIOUSCHARACTERNAME#的病歷筆記"
+			"label": "#PREVIOUSCHARACTERNAME#的病例筆記",
+			"description": "我親眼目睹了#PREVIOUSCHARACTERNAME#病情惡化的可怖過程。隨著紀錄的進行，我的字跡也變得越來越潦草。"
 		}
 	]
 }
