@@ -2,23 +2,23 @@
 	"elements": [
 		{
 			"id": "gloverandgloverjuniorjob",
-			"label": "坐上格洛弗父子公司的基層職位",
-			"description": "我的才智必須被用到更合適的地方去！不過至少……現在的工資比干苦力的要多一些。[經常曠工會有降職之虞。]"
+			"label": "格洛弗父子公司的基層職位",
+			"description": "我的聰明才智應該用在更有價值的地方！但這份工作的薪水總比做粗工來得多。[如果不定期上班，可能會被降職。]"
 		},
 		{
 			"id": "gloverandgloverjuniorjob_nodifficultbossa",
-			"label": "坐上格洛弗父子公司的基層職位",
-			"description": "我的才智必須被用到更合適的地方去！不過至少……現在的工資比干苦力的要多一些。[經常曠工會有降職之虞。]"
+			"label": "格洛弗父子公司的基層職位",
+			"description": "我的聰明才智應該用在更有價值的地方！但這份工作的薪水總比做粗工來得多。[如果不定期上班，可能會被降職。]"
 		},
 		{
 			"id": "gloverandglover_difficultbossa_job",
-			"label": "坐上格洛弗父子公司的職位",
-			"description": "現在我是一名記錄在案的職員，直接領導人是奧爾登先生。工資多了一點，下班也晚了一點。而奧爾登先生也一直把我看得緊緊的。[經常曠工會有降職之虞。]"
+			"label": "格洛弗父子公司的職位",
+			"description": "我現在是檔案部的職員，隸屬於奧爾登先生。薪水多了一點，下班也晚了一點，而奧爾登先生總是盯得我很緊。[如果不定期上班，可能會被降職。]"
 		},
 		{
 			"id": "gloverandglover_difficultbossa_gone_job",
 			"label": "格洛弗父子公司的職位",
-			"description": "那個叫奧爾登的人已經不在了，等我回到崗位上時，情況會變得更好。"
+			"description": "奧爾登那傢伙走了，當我回到崗位時，事情或許會輕鬆點。"
 		},
 		{
 			"id": "gloverandgloverjob",
@@ -27,10 +27,10 @@
 				{
 					"id": "Diligence",
 					"label": "勤勉",
-					"description": "加倍努力工作，運氣很好的話說不定管用。"
+					"description": "加倍努力工作，運氣好的話或許有用。"
 				}
 			],
-			"description": "工資多了一點，下班晚了一點，而坐在我先前桌位上的高層職員，眼中正閃滅著嫉妒的火焰。[經常曠工會有降職之虞。]"
+			"description": "薪水多了一點，下班也晚了一點。那個現在坐在我舊位子的基層職員，眼中閃過一絲嫉妒的神色。[如果不定期上班，可能會被降職。]"
 		},
 		{
 			"id": "gloverandgloverjob_youngerglovergone",
@@ -39,66 +39,66 @@
 				{
 					"id": "Diligence",
 					"label": "勤勉",
-					"description": "加倍努力工作，運氣很好的話說不定管用。"
+					"description": "加倍努力工作，運氣好的話或許有用。"
 				}
 			],
-			"description": "工資多了一點，下班晚了一點，而坐在我先前桌位上的高層職員，眼中正閃滅著嫉妒的火焰。[經常曠工會有降職之虞。]"
+			"description": "薪水多了一點，下班也晚了一點。那個現在坐在我舊位子的基層職員，眼中閃過一絲嫉妒的神色。[如果不定期上班，可能會被降職。]"
 		},
 		{
 			"id": "gloverandgloverseniorjob",
-			"label": "坐上格洛弗父子公司的高層職位",
+			"label": "格洛弗父子公司的高層職位",
 			"slots": [
 				{
 					"id": "Devotion",
 					"label": "敬業",
-					"description": "我現在的職位對人的要求十分苛刻，我必須集中精神。"
+					"description": "這個職位要求很高，我必須集中精神。"
 				}
 			],
-			"description": "理論上講，假如有上司死了，我就還能再繼續升職。[經常曠工會有降職之虞。]"
+			"description": "理論上，如果有人死了，也許我還能再次升職。[如果不定期上班，可能會被降職。]"
 		},
 		{
 			"id": "gloverandgloverseniorjob_youngerglovergone",
-			"label": "坐上格洛弗父子公司的高層職位",
+			"label": "格洛弗父子公司的高層職位",
 			"slots": [
 				{
 					"id": "Devotion",
 					"label": "敬業",
-					"description": "我現在的職位對人的要求十分苛刻，我必須集中精神。"
+					"description": "這個職位要求很高，我必須集中精神。"
 				}
 			],
-			"description": "隨著小格洛弗的離去，我應該能升到更高的職位了。[經常曠工會有降職之虞。]"
+			"description": "如今小格洛弗不在了，我也許能升得更高。[如果不定期上班，可能會被降職。]"
 		},
 		{
 			"id": "gloverandglovertopjob",
-			"label": "坐上格洛弗父子公司的董事席位",
-			"description": "小格洛弗的消失在董事會中留下了空席，而我得到了它。[經常曠工會有降職之虞。]"
+			"label": "格洛弗父子公司的董事席位",
+			"description": "小格洛弗消失後，董事會出現了一個空席。現在是我的了。[如果不定期上班，可能會被降職。]"
 		},
 		{
 			"id": "gloverandglovertopjob_tainted",
-			"label": "坐上格洛弗父子公司的董事席位",
-			"description": "我對神祕學感興趣的傳聞進到了老格洛弗耳中。這可能會導致我的職位不穩。[經常曠工會有降職之虞。]"
+			"label": "格洛弗父子公司的董事席位",
+			"description": "我涉獵神祕學的傳聞已傳到了老格洛弗耳中，這讓我的職位岌岌可危。[如果不定期上班，可能會被降職。]"
 		},
 		{
 			"id": "gloverandgloverjuniorjob_demotion",
-			"label": "職場困境：降至高層職位",
+			"label": "職場困境：降回基層",
 			"slots": [
 				{
 					"id": "passion",
 					"label": "說服"
 				}
 			],
-			"description": "曠工的事情暴露了。我也因此降職。我需要盡力說服上司來保住職位。"
+			"description": "我的缺勤引起了注意，結果被降職了。我得努力辯解，才能保住這份工作。"
 		},
 		{
 			"id": "gloverandgloverjuniorjob_nodifficultbossa_demotion",
-			"label": "職場困境：降至高層職位",
+			"label": "職場困境：降回基層",
 			"slots": [
 				{
 					"id": "passion",
 					"label": "說服"
 				}
 			],
-			"description": "曠工的事情暴露了。我也因此降職。我需要盡力說服上司來保住職位。"
+			"description": "我的缺勤引起了注意，結果被降職了。我得努力辯解，才能保住這份工作。"
 		},
 		{
 			"id": "gloverandgloverjob_demotion",
@@ -109,7 +109,7 @@
 					"label": "說服"
 				}
 			],
-			"description": "曠工的事情暴露了。我也因此降職。我需要盡力說服上司來保住職位。"
+			"description": "我的缺勤引起了注意，結果被降職了。我得努力辯解，才能保住這份工作。"
 		},
 		{
 			"id": "gloverandgloverjob_youngerglovergone_demotion",
@@ -120,7 +120,7 @@
 					"label": "說服"
 				}
 			],
-			"description": "曠工的事情暴露了。我也因此降職。我需要盡力說服上司來保住職位。"
+			"description": "我的缺勤引起了注意，結果被降職了。我得努力辯解，才能保住這份工作。"
 		},
 		{
 			"id": "gloverandglovertopjob_tainted_demotion",
@@ -131,32 +131,32 @@
 					"label": "說服"
 				}
 			],
-			"description": "公司對我這個職位的人還是比較寬容的，然而我曠工的事情已經被發覺了。我得想點辦法跟老格羅弗套套交情了。"
+			"description": "這個職位向來享有不少自由，但我缺勤的事已經引起了注意。我得設法討老格洛弗的歡心。"
 		},
 		{
 			"id": "institutephysicianjob",
-			"description": "工作時間長，但酬勞優厚。",
-			"label": "醫院職位"
+			"label": "醫院職位",
+			"description": "工時很長，但酬勞優渥。"
 		},
 		{
 			"id": "investmentsjobc",
-			"label": "豐厚外快",
-			"description": "我手頭十分寬裕。"
+			"label": "豐厚的投資收入",
+			"description": "我經濟無虞，生活無憂。"
 		},
 		{
 			"id": "investmentsjobb",
-			"label": "大筆外快",
-			"description": "這筆收入可供我舒服度日。"
+			"label": "可觀的投資收入",
+			"description": "足以讓我過得舒適安逸。"
 		},
 		{
 			"id": "investmentsjoba",
-			"label": "小筆外快",
-			"description": "我的投資所得供我度日綽綽有餘。"
+			"label": "適度的投資收入",
+			"description": "我的投資收入不多，卻足以應付生活所需。"
 		},
 		{
 			"id": "ghouljob.first",
-			"label": "一名令人信服的招魂師的日常工作",
-			"description": "有時候，當我特別靈驗時，頭一排的觀眾會昏倒。",
+			"label": "令人信服的招魂秀",
+			"description": "有時我特別靈驗時，前排觀眾會當場昏倒。",
 			"slots": [
 				{
 					"id": "memory",
@@ -166,8 +166,8 @@
 		},
 		{
 			"id": "ghouljob",
-			"label": "作為靈媒聲名遠揚",
-			"description": "有時我會用出乎我自己所料的嗓音說話。",
+			"label": "知名靈媒",
+			"description": "有時我會發出連自己都意想不到的聲音。",
 			"slots": [
 				{
 					"id": "memory",
@@ -177,7 +177,7 @@
 		},
 		{
 			"id": "auctioneerjob",
-			"label": "就職於奧里弗拉姆拍賣行",
+			"label": "奧里弗拉姆拍賣行職員",
 			"description": ""
 		},
 		{
@@ -196,8 +196,8 @@
 					"label": "熱忱"
 				}
 			],
-			"label": "就任於一個寧靜的教區",
-			"description": "只要我不因瀆職或醜聞引起主教的注意，我便可以在這裡討上一份生活。"
+			"label": "寧靜教區的神職",
+			"description": "只要我不因瀆職或醜聞惹來主教關注，就能安穩地在這裡謀生。"
 		}
 	]
 }
