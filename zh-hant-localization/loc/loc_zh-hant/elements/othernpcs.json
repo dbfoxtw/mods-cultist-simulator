@@ -3,17 +3,17 @@
 		{
 			"id": "lunatic",
 			"label": "可悲的瘋人",
-			"description": "過於強烈的感受攫奪了此人的心智。他不久便會消失，永遠離開人們的視線。"
+			"description": "某種過於強烈的經歷使他喪失了理性。"
 		},
 		{
 			"id": "genericprisonerm",
 			"label": "不幸的囚犯",
-			"description": "被你玩弄於股掌的傢伙，遲早要完。"
+			"description": "落入你手中之人，活不久了。"
 		},
 		{
 			"id": "genericprisonerf",
 			"label": "不幸的囚犯",
-			"description": "被你玩弄於股掌的傢伙，遲早要完。"
+			"description": "落入你手中之人，活不久了。"
 		}
 	]
 }
