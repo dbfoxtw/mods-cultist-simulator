@@ -2,18 +2,18 @@
 	"elements": [
 		{
 			"id": "legacybytjob",
-			"description": "出於興趣，可以涉獵寫作，也可以涉獵繪畫，但生活，畢竟靠的還是穩定的津貼。",
-			"label": "興趣所致"
+			"label": "東摸西摸",
+			"description": "寫過幾篇文章，也畫過幾幅畫，但說到底，還是靠家裡給的零用錢過活。"
 		},
 		{
 			"id": "legacybytjobmatured",
-			"description": "出於興趣，可以涉獵寫作，也可以涉獵繪畫，但生活，畢竟靠的還是相對穩定的津貼。",
-			"label": "興趣所致"
+			"label": "東摸西摸",
+			"description": "寫過幾篇文章，也畫過幾幅畫，但說到底，還是靠家裡給的零用錢過活。"
 		},
 		{
 			"id": "legacydiarylastcharacter",
 			"label": "加密的日記",
-			"description": "這本日記詳細記錄了名為#PREVIOUSCHARACTERNAME#之人越陷越深的痴迷。"
+			"description": "這本日記詳細記錄了作者對一名叫做#PREVIOUSCHARACTERNAME#之人的日益痴迷。"
 		}
 	]
 }
