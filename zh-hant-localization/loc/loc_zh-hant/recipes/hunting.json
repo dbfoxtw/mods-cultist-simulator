@@ -60,11 +60,11 @@
 		},
 		{
 			"id": "suspicionpromoteevidencemeticulous",
-			"label": "構建確鑿證據"
+			"label": "構建關鍵證據"
 		},
 		{
 			"id": "suspicionpromoteevidence",
-			"label": "構建確鑿證據",
+			"label": "構建關鍵證據",
 			"startdescription": "這名獵人正在對他的調查進行最後的整理。",
 			"description": "一旦事情發展到上法庭，我將陷入嚴重的危險。即使解決掉了這名獵人，他的筆記也可能被另一名獵人發現。"
 		},

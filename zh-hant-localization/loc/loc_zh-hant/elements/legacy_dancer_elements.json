@@ -3,7 +3,7 @@
 		{
 			"id": "legacydancerjob",
 			"label": "與歡騰劇院的合約",
-			"description": "我在歡騰劇院中的舞蹈隊任職。在我的好運，抑或美貌，消逝之前，這個職位都將歸我所有……又除非我找到了更好的工作。",
+			"description": "我是歡騰劇院舞群的一員。在我的好運或美貌還沒耗盡之前，這份職位就是我的……除非我另覓更好的出路。",
 			"slots": [
 				{
 					"id": "health",
@@ -14,7 +14,7 @@
 		{
 			"id": "legacydancerjob_suspended",
 			"label": "與歡騰劇院的合約：停職",
-			"description": "我錯過了太多的演出。如果我夠真情實意地懇求，也許還能挽回工作。",
+			"description": "我錯過了太多場演出。如果我求得夠懇切，也許還能挽回工作。",
 			"slots": [
 				{
 					"id": "passion",
@@ -24,8 +24,8 @@
 		},
 		{
 			"id": "dancerlegacy_plotitem_a",
-			"label": "揉成一團的詩文",
-			"description": "這是致另一名舞者的信，署名為#LAST_FOLLOWER#。寫信人描述了他於夢中一片昏暗的林地裡遇到該舞者的原委。他夢到了鼓聲、拍翅聲、影子的皮膚、月亮的血。怪不得信被扔掉了。但我看出這些話裡有層層深意尚待揭開。",
+			"label": "揉成一團的詩稿",
+			"description": "這是寫給另一名舞者的詩，署名為#LAST_FOLLOWER#。寫詩的人描述他如何在夢中，在一片昏暗的林地裡遇見那名舞者。他夢到了鼓聲、振翅聲、影之膚、月之血。難怪這首詩會被揉成一團扔掉。但我已看出，這詩中蘊藏著層層待揭的深意。",
 			"slots": [
 				{
 					"id": "Approach",
@@ -37,7 +37,7 @@
 		{
 			"id": "dancerjobecdysisa",
 			"label": "與蛻衣俱樂部的合約",
-			"description": "我在蛻衣俱樂部開業的夜晚表演。",
+			"description": "我在蛻衣俱樂部營業的夜晚表演。",
 			"slots": [
 				{
 					"id": "location",
@@ -47,17 +47,17 @@
 				{
 					"id": "purpose",
 					"label": "目的",
-					"description": "我可以展示<b>技能</b>以進修更複雜的舞蹈；或者用<b>欲望</b>來追求蛻變；又或者將其留空，如果我只想賺錢的話。"
+					"description": "我可以展示<b>技能</b>以晉身更艱深的舞碼；或以<b>欲望</b>追求蛻變；若只是為了賺錢，也可以留白。"
 				},
 				{
 					"id": "abilityfirst",
 					"label": "能力，或者傷疤",
-					"description": "我應當將自己的哪樣東西獻出？"
+					"description": "我要獻出自己哪一部分？"
 				},
 				{
 					"id": "influence",
 					"label": "影響",
-					"description": "今天是什麼讓我心神不寧？"
+					"description": "今天是什麼撩動了我？"
 				}
 			]
 		},
@@ -74,29 +74,29 @@
 				{
 					"id": "purpose",
 					"label": "目的",
-					"description": "我可以展示<b>技能</b>以進修更複雜的舞蹈；或者用<b>欲望</b>來追求蛻變；又或者將其留空，如果我只想賺錢的話。"
+					"description": "我可以展示<b>技能</b>以晉身更艱深的舞碼；或以<b>欲望</b>追求蛻變；若只是為了賺錢，也可以留白。"
 				},
 				{
 					"id": "abilityfirst",
 					"label": "能力，或者傷疤",
-					"description": "我應當將自己的哪樣東西獻出？"
+					"description": "我要獻出自己哪一部分？"
 				},
 				{
 					"id": "abilitysecond",
 					"label": "能力，或者傷疤",
-					"description": "我應當將自己的哪樣東西獻出？"
+					"description": "我要獻出自己哪一部分？"
 				},
 				{
 					"id": "influence",
 					"label": "影響",
-					"description": "今天是什麼讓我心神不寧？"
+					"description": "今天是什麼撩動了我？"
 				}
 			]
 		},
 		{
 			"id": "dancerjobecdysisc",
 			"label": "與蛻衣俱樂部的特殊合約",
-			"description": "我偶爾被聘以重金，為那些非常挑剔的鑑賞家表演非常特殊的舞蹈。",
+			"description": "我偶爾被重金聘請，為極具講究的鑑賞家演出特別指定的舞蹈。",
 			"slots": [
 				{
 					"id": "location",
@@ -106,27 +106,27 @@
 				{
 					"id": "purpose",
 					"label": "目的",
-					"description": "我可以使用<b>欲望</b>以追求蛻變；又或者將其留空，如果我只想賺錢的話。"
+					"description": "我可以使用<b>欲望</b>以追求蛻變；若只是為了賺錢，也可以留白。"
 				},
 				{
 					"id": "abilityfirst",
 					"label": "能力，或者傷疤",
-					"description": "我應當將自己的哪樣東西獻出？"
+					"description": "我要獻出自己哪一部分？"
 				},
 				{
 					"id": "abilitysecond",
 					"label": "能力，或者傷疤",
-					"description": "我應當將自己的哪樣東西獻出？"
+					"description": "我要獻出自己哪一部分？"
 				},
 				{
 					"id": "abilitythird",
 					"label": "能力，或者傷疤",
-					"description": "我應當將自己的哪樣東西獻出？"
+					"description": "我要獻出自己哪一部分？"
 				},
 				{
 					"id": "influence",
 					"label": "影響",
-					"description": "今天是什麼讓我心神不寧？"
+					"description": "今天是什麼撩動了我？"
 				}
 			]
 		}

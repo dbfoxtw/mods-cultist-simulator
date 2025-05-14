@@ -3,17 +3,17 @@
 		{
 			"id": "legacydetectivejob",
 			"label": "督察的職位",
-			"description": "我是首都警察局的高層職員。"
+			"description": "我在首都警察擔任資深職位。"
 		},
 		{
 			"id": "legacydetectivejob_matured",
 			"label": "督察的職位",
-			"description": "我是首都警察局的高層職員，但我被臨時調派到了防剿局。",
+			"description": "我在首都警察擔任資深職位，雖然目前被借調到防剿局。",
 			"slots": [
 				{
 					"id": "target",
-					"label": "話題",
-					"description": "在取得證據前，我得從直接監察我的獵物開始做起。"
+					"label": "目標",
+					"description": "我得親自監視調查對象，直到掌握證據。"
 				},
 				{
 					"id": "meticulous",
@@ -34,8 +34,8 @@
 		},
 		{
 			"id": "legacydetectivejob_suspended",
-			"label": "督察警[停職]",
-			"description": "我曠工的事情被注意到了。我已因此被停職。[盡快申辯你的情況，否則會永久失去工作。]",
+			"label": "督察[停職]",
+			"description": "我缺勤的事已被察覺，結果遭到停職。[儘快為自己申訴，否則將永遠失去這份職位。]",
 			"slots": [
 				{
 					"id": "passion",
@@ -45,33 +45,33 @@
 		},
 		{
 			"id": "legacydetectivejob_disgraced",
-			"label": "督察警[黜免]",
-			"description": "我丟掉了職位，我不太可能重新回去上班了。我需要在這個文明的世界裡自謀出路。"
+			"label": "督察[革職]",
+			"description": "我已被開除，復職的可能微乎其微。我只能在現實社會中另覓出路。"
 		},
 		{
 			"id": "legacydetective_plotitem",
-			"label": "加封的局裡文件",
-			"description": "一份有關神秘的#PREVIOUSCHARACTERNAME#的檔案文件。我親自將其加封。我對它的內容再熟悉不過了。如果我再去讀它，很可能又會做夢。"
+			"label": "封存的局內檔案",
+			"description": "一份關於神秘人物#PREVIOUSCHARACTERNAME#的調查檔案。我親手將它封存，對裡頭的內容瞭若指掌。若我再翻閱它，那些夢可能又會纏上我。"
 		},
 		{
 			"id": "myevidence",
-			"label": "不確鑿證據",
-			"description": "我掌握了我的獵物所進行活動的某些證據。"
+			"label": "初步證據",
+			"description": "我掌握了調查目標的一些活動證據。"
 		},
 		{
 			"id": "myevidenceb",
-			"label": "確鑿證據",
-			"description": "我掌握了某些令人信服的證據，直指我的獵物進行的某些活動。"
+			"label": "關鍵證據",
+			"description": "我掌握了關鍵證據，證實了調查目標的行動。"
 		},
 		{
 			"id": "legacydetective_plotitem_burning",
-			"label": "著火的局裡文件",
-			"description": "快燒光了！也許我能把它火裡撿出來——"
+			"label": "燃燒中的局內檔案",
+			"description": "快燒光了！我得趕快把它從火裡撈出來——"
 		},
 		{
 			"id": "legacydetective_plotitem_backup",
-			"label": "令人不安的局裡文件",
-			"description": "證據中包含了讓人不禁舔嘴唇的那種細節，如果那人這樣的事物感興趣的話。我不應該讀他。那些夢境也許會重現。"
+			"label": "令人不安的局內檔案",
+			"description": "這份證據中有些細節，對感興趣的人來說，著實讓人心癢難耐。我不該再讀它——那些夢可能又要開始了。"
 		}
 	]
 }
