@@ -3,32 +3,32 @@
 		{
 			"id": "corpse",
 			"label": "人類屍體",
-			"description": "裡面的魂靈已去。到某個時點，它散發的臭氣會重到讓你不得不把它處理掉，但現在還不至於。它有可能引來注意；也可用來打動那些可打動之人。[即便在“屍體”消失後，“邪名”也依然會留存。]"
+			"description": "其靈魂已離去。現在還可以擱著，但總有一天它會臭到你不得不處理。它可能引來注意，也能用來震懾易受影響的人。[即便在“屍體”消失後，“邪名”也依然會留存。]"
 		},
 		{
 			"id": "corpse.calcin",
 			"label": "人類屍體",
-			"description": "裡面的魂靈已去。"
+			"description": "其靈魂已離去。"
 		},
 		{
 			"id": "corpse.furious",
 			"label": "帶疤骨片",
-			"description": "碎骨內含一位更古老的司辰的回憶。"
+			"description": "這塊碎骨蘊藏著一位古老司辰的回憶。"
 		},
 		{
 			"id": "corpse.luxurious",
 			"label": "韌皮殘片",
-			"description": "感官回憶和嚮往，繩結的秘密，存於舊自我的一塊不被看好的碎片中。"
+			"description": "感官的回憶與渴望、繩結的秘密，都封存在一塊不起眼的舊形體殘片中。"
 		},
 		{
 			"id": "corpse.liminal",
 			"label": "長生碎片",
-			"description": "殘量極少，但其味道——這份出人意料的味道——"
+			"description": "所剩無幾，但這味道——真令人意外——"
 		},
 		{
 			"id": "corpse.horizon",
 			"label": "無影斷片",
-			"description": "眾王究竟是否知曉真正的輝光？"
+			"description": "眾王是否知曉真正的輝光？"
 		},
 		{
 			"id": "corpse.splendid",

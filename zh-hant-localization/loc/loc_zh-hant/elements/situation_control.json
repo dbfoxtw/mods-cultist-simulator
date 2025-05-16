@@ -3,32 +3,32 @@
 		{
 			"id": "insight",
 			"label": "洞見",
-			"description": "洞見奧秘。"
+			"description": "洞察奧秘的一線靈光。"
 		},
 		{
 			"id": "bid",
 			"label": "出價",
-			"description": "在拍賣行中出價。"
+			"description": "在拍賣行的一次出價。"
 		},
 		{
 			"id": "abductioninprogress",
-			"label": "上鎖的牢房",
-			"description": "他們說，思想是自由的，然而思想是鎖在肉體上的。"
+			"label": "結界牢房",
+			"description": "人們說，思想是自由的，然而思想仍被禁錮於肉體。"
 		},
 		{
 			"id": "assassinationinprogress.player",
 			"label": "暗殺",
-			"description": "此舉將以死亡告終。可能是我的死亡。"
+			"description": "此舉將以死亡告終，也許，死的是我。"
 		},
 		{
 			"id": "assassinationinprogress.follower",
 			"label": "暗殺",
-			"description": "此舉將以死亡告終——他們的，或我們的。"
+			"description": "此舉將以死亡告終——不是他們死，就是我們亡。"
 		},
 		{
 			"id": "scandalinprogress",
-			"label": "邪惡的流言",
-			"description": "他們所說的只是真理的影子，但我們的影子暴露了我們。"
+			"label": "惡毒流言",
+			"description": "人們所傳的只是真實的影子，但影子卻洩露了我們的蹤跡。"
 		}
 	]
 }
