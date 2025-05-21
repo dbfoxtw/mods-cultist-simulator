@@ -2,23 +2,23 @@
 	"elements": [
 		{
 			"id": "dayacquaintances",
-			"label": "結識新熟人的好日子",
+			"label": "結識新朋友的一天",
 			"description": "我或許能找到同道中人。"
 		},
 		{
 			"id": "daypatrons",
-			"label": "結交新贊助人的好日子",
-			"description": "我或許能夠找到提供資助的人。"
+			"label": "結交新贊助人的一天",
+    		"description": "我或許能找到願意資助我的人。"
 		},
 		{
 			"id": "daycriminals",
-			"label": "勾結惡徒的好日子",
-			"description": "我或許能夠找到做好弄髒自己雙手準備的人。"
+			"label": "勾結惡徒的一天",
+			"description": "我或許能找到肯弄髒雙手的人。"
 		},
 		{
 			"id": "dayplaces",
-			"label": "測繪地圖的好日子",
-			"description": "今日，我或許能路過一些有趣的地方。"
+			"label": "測繪地圖的一天",
+			"description": "我或許會路過有趣的地方。"
 		},
 		{
 			"id": "seasonsickness",
@@ -27,7 +27,7 @@
 		},
 		{
 			"id": "seasonserenities",
-			"label": "風靜浪平的時節",
+			"label": "風平浪靜的時節",
 			"description": "明天會是更好的一天。"
 		},
 		{
@@ -42,38 +42,38 @@
 		},
 		{
 			"id": "seasonvisions",
-			"label": "幻象頻出的時節",
+			"label": "幻象叢生的時節",
 			"description": "何等的奇觀。"
 		},
 		{
 			"id": "seasonambitions",
 			"label": "野心勃發的時節",
-			"description": "即林地之風逆轉方向的時節：食慾伴同凡人一併高升。"
+			"description": "此乃林地之風逆轉的時節：食慾與凡人一同高漲。"
 		},
 		{
 			"id": "seasonsilence",
-			"label": "寂然無聲的時節",
+			"label": "寂靜無聲的時節",
 			"description": "即未雨綢繆之期。"
 		},
 		{
 			"id": "seasonardours",
 			"label": "濃情蜜意的時節",
-			"description": "我們所有人既是猿猴，又是天使。"
+			"description": "我們既是猿猴，也是天使。"
 		},
 		{
 			"id": "schememurder",
-			"label": "兇殺的計策",
-			"description": "對手對其敵人下手的決定留下了痕跡。"
+			"label": "謀殺計策",
+			"description": "對手襲擊敵人，所留下的痕跡。"
 		},
 		{
 			"id": "schemeexpedition",
-			"label": "大膽的計策",
-			"description": "對手大膽的決定留下了痕跡。"
+			"label": "大膽計策",
+			"description": "對手大膽行動，所留下的痕跡。"
 		},
 		{
 			"id": "schemeactivities",
-			"label": "小心的計策",
-			"description": "對手小心的決定留下了痕跡。"
+			"label": "謹慎計策",
+			"description": "對手謹慎行動，所留下的痕跡。"
 		}
 	]
 }
