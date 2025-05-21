@@ -3,17 +3,17 @@
 		{
 			"id": "previtality",
 			"label": "活力",
-			"description": "[活力欣欣向榮……]"
+			"description": "[活力正在滋長……]"
 		},
 		{
 			"id": "preerudition",
 			"label": "博聞",
-			"description": "[博聞源於一瞬頓悟……]"
+			"description": "[博聞源於片刻的領悟……]"
 		},
 		{
 			"id": "prerestlessness",
 			"label": "躁動",
-			"description": "[躁動之心騷然……]"
+			"description": "[躁動起伏不定……]"
 		},
 		{
 			"id": "preglimmering",
@@ -23,37 +23,37 @@
 		{
 			"id": "predread",
 			"label": "恐懼",
-			"description": "[恐懼使我膽寒……]"
+			"description": "[恐懼冰封了我的心神……]"
 		},
 		{
 			"id": "prefascination",
 			"label": "入迷",
-			"description": "[入迷之光更甚……]"
+			"description": "[入迷漸盛……]"
 		},
 		{
 			"id": "pre.fragmentedgeb",
 			"label": "暗示：刃",
-			"description": "我正在對無形之術生出新的理解。"
+			"description": "我逐漸對無形之術有了新的理解。"
 		},
 		{
 			"id": "pre.fragmentforgeb",
 			"label": "暗示：鑄",
-			"description": "我正在對無形之術生出新的理解。"
+			"description": "我逐漸對無形之術有了新的理解。"
 		},
 		{
 			"id": "pre.fragmentgrailb",
 			"label": "暗示：杯",
-			"description": "我正在對無形之術生出新的理解。"
+			"description": "我逐漸對無形之術有了新的理解。"
 		},
 		{
 			"id": "pre.fragmentheartb",
 			"label": "暗示：心",
-			"description": "我正在對無形之術生出新的理解。"
+			"description": "我逐漸對無形之術有了新的理解。"
 		},
 		{
 			"id": "pre.fragmentknockb",
 			"label": "暗示：啟",
-			"description": "我正在對無形之術生出新的理解。"
+			"description": "我逐漸對無形之術有了新的理解。"
 		}
 	]
 }

@@ -2,18 +2,18 @@
 	"elements": [
 		{
 			"id": "project_upgrade_edge",
-			"label": "加強我對刃之密傳的理解",
-			"description": "我希望提升我的<b>刃</b>之密傳。"
+			"label": "增進我對刃之密傳的理解",
+			"description": "我希望能更精通<b>刃</b>之密傳。"
 		},
 		{
 			"id": "project_subvert_edgetowinter",
 			"label": "將刃拗轉為冬",
-			"description": "我將承認耐心勝於蠻力，把我的<b>刃</b>之密傳拗轉為<b>冬</b>之密傳。"
+			"description": "我認可耐心勝於蠻力，並將我的<b>刃</b>之密傳拗轉為<b>冬</b>之密傳。"
 		},
 		{
 			"id": "project_upgrade_forge",
-			"label": "加強我對鑄之密傳的理解",
-			"description": "我希望提升我的<b>鑄</b>之密傳。"
+			"label": "增進我對鑄之密傳的理解",
+			"description": "我希望能更精通<b>鑄</b>之密傳。"
 		},
 		{
 			"id": "project_subvert_forgetoedge",
@@ -22,8 +22,8 @@
 		},
 		{
 			"id": "project_upgrade_grail",
-			"label": "加強我對杯之密傳的理解",
-			"description": "我希望提升我的<b>杯</b>之密傳。"
+			"label": "增進我對杯之密傳的理解",
+			"description": "我希望能更精通<b>杯</b>之密傳。"
 		},
 		{
 			"id": "project_subvert_grailtomoth",
@@ -32,8 +32,8 @@
 		},
 		{
 			"id": "project_upgrade_heart",
-			"label": "加強我對心之密傳的理解",
-			"description": "我希望提升我的<b>心</b>之密傳。"
+			"label": "增進我對心之密傳的理解",
+			"description": "我希望能更精通<b>心</b>之密傳。"
 		},
 		{
 			"id": "project_subvert_hearttograil",
@@ -42,13 +42,13 @@
 		},
 		{
 			"id": "project_upgrade_subvert_knock",
-			"label": "加強我對啟之密傳的理解",
+			"label": "增進我對啟之密傳的理解",
 			"description": "我將加深我對<b>啟</b>之密傳的了解。"
 		},
 		{
 			"id": "project_upgrade_lantern",
-			"label": "加強我對燈之密傳的理解",
-			"description": "我希望提升我的<b>燈</b>之密傳。"
+			"label": "增進我對燈之密傳的理解",
+			"description": "我希望能更精通<b>燈</b>之密傳。"
 		},
 		{
 			"id": "project_subvert_lanterntoforge",
@@ -57,8 +57,8 @@
 		},
 		{
 			"id": "project_upgrade_moth",
-			"label": "加強我對蛾之密傳的理解",
-			"description": "我希望提升我的<b>蛾</b>之密傳。"
+			"label": "增進我對蛾之密傳的理解",
+			"description": "我希望能更精通<b>蛾</b>之密傳。"
 		},
 		{
 			"id": "project_subvert_mothtolantern",
@@ -67,13 +67,13 @@
 		},
 		{
 			"id": "project_upgrade_secrethistories",
-			"label": "加強我對秘史之密傳的理解",
-			"description": "我希望提升我的<b>秘史</b>之密傳。"
+			"label": "增進我對秘史之密傳的理解",
+			"description": "我希望能更精通<b>秘史</b>之密傳。"
 		},
 		{
 			"id": "project_upgrade_winter",
-			"label": "加強我對冬之密傳的理解",
-			"description": "我希望提升我的<b>冬</b>之密傳。"
+			"label": "增進我對冬之密傳的理解",
+			"description": "我希望能更精通<b>冬</b>之密傳。"
 		},
 		{
 			"id": "project_subvert_wintertoheart",
@@ -88,7 +88,7 @@
 		{
 			"id": "project_influence_subvert_edgetowinter",
 			"label": "將刃拗轉為冬",
-			"description": "我將承認耐心勝於蠻力，把我的<b>刃</b>之密傳拗轉為<b>冬</b>之密傳。"
+			"description": "我認可耐心勝於蠻力，並將我的<b>刃</b>之影響拗轉為<b>冬</b>之影響。"
 		},
 		{
 			"id": "project_influence_upgrade_forge",
@@ -98,7 +98,7 @@
 		{
 			"id": "project_influence_subvert_forgetoedge",
 			"label": "將鑄拗轉為刃",
-			"description": "我將把我的<b>鑄</b>之密傳拗轉為<b>刃</b>之密傳。"
+			"description": "我將把我的<b>鑄</b>之影響拗轉為<b>刃</b>之影響。"
 		},
 		{
 			"id": "project_influence_upgrade_grail",
@@ -108,7 +108,7 @@
 		{
 			"id": "project_influence_subvert_grailtomoth",
 			"label": "將杯之影響拗轉為蛾",
-			"description": "我將把我的<b>杯</b>之密傳拗轉為<b>蛾</b>之密傳。"
+			"description": "我將把我的<b>杯</b>之影響拗轉為<b>蛾</b>之影響。"
 		},
 		{
 			"id": "project_influence_upgrade_heart",
@@ -118,7 +118,7 @@
 		{
 			"id": "project_influence_subvert_hearttograil",
 			"label": "將心之影響拗轉為杯",
-			"description": "我將把我的<b>心</b>之密傳拗轉為<b>杯</b>之密傳。"
+			"description": "我將把我的<b>心</b>之影響拗轉為<b>杯</b>之影響。"
 		},
 		{
 			"id": "project_influence_upgrade_subvert_knock",
@@ -133,7 +133,7 @@
 		{
 			"id": "project_influence_subvert_lanterntoforge",
 			"label": "將燈之影響拗轉為鑄",
-			"description": "我將把我的<b>燈</b>之密傳拗轉為<b>鑄</b>之密傳。"
+			"description": "我將把我的<b>燈</b>之影響拗轉為<b>鑄</b>之影響。"
 		},
 		{
 			"id": "project_influence_upgrade_moth",
@@ -143,7 +143,7 @@
 		{
 			"id": "project_influence_subvert_mothtolantern",
 			"label": "將蛾之影響拗轉為燈",
-			"description": "我將把我的<b>蛾</b>之密傳拗轉為<b>燈</b>之密傳。"
+			"description": "我將把我的<b>蛾</b>之影響拗轉為<b>燈</b>之影響。"
 		},
 		{
 			"id": "project_influence_upgrade_winter",
@@ -153,7 +153,7 @@
 		{
 			"id": "project_influence_subvert_wintertoheart",
 			"label": "將冬影響拗轉為心",
-			"description": "我將把我的<b>冬</b>之密傳拗轉為<b>心</b>之密傳。"
+			"description": "我將把我的<b>冬</b>之影響拗轉為<b>心</b>之影響。"
 		}
 	]
 }

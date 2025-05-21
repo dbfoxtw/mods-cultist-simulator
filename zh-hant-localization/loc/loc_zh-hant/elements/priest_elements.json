@@ -3,117 +3,117 @@
 		{
 			"id": "fervour",
 			"label": "熱忱",
-			"description": "我會眾們的激情未必深刻，但在持續高漲。[你最好讓你的會眾保持滿足。“熱忱如果不使用，將退化成“恐懼”。]"
+			"description": "我會眾的激情或許不深，卻頗為熾烈。[務必讓他們心滿意足。若未使用“熱忱”，它將轉化為“恐懼”。]"
 		},
 		{
 			"id": "lockscaredge",
 			"label": "刃之傷疤鎖",
-			"description": "我為門關時，這道傷疤將在利刃的觸摸下開啟。"
+			"description": "當我成為門關時，這道傷疤將在利刃的觸摸下開啟。"
 		},
 		{
 			"id": "lockscarforge",
 			"label": "鑄之傷疤鎖",
-			"description": "我為門關時，這道傷疤將為炙鐵的觸摸而開啟。"
+			"description": "當我成為門關時，這道傷疤將在炙鐵的觸碰下開啟。"
 		},
 		{
 			"id": "lockscargrail",
 			"label": "杯之傷疤鎖",
-			"description": "我為門關時，這道傷疤將為熱吻開啟。"
+			"description": "當我成為門關時，這道傷疤將在熱吻下開啟。"
 		},
 		{
 			"id": "lockscarheart",
 			"label": "心之傷疤鎖",
-			"description": "我為門關時，這道傷疤將在鼓響時開啟。"
+			"description": "當我成為門關時，這道傷疤將在鼓響時開啟。"
 		},
 		{
 			"id": "lockscarlantern",
 			"label": "燈之傷疤鎖",
-			"description": "我為門關時，這道傷疤將在曙光下開啟。"
+			"description": "當我成為門關時，這道傷疤將在曙光下開啟。"
 		},
 		{
 			"id": "lockscarmoth",
 			"label": "蛾之傷疤鎖",
-			"description": "我為門關時，這道傷疤將對剪刀起反應。"
+			"description": "當我成為門關時，這道傷疤將在剪刀下開啟。"
 		},
 		{
 			"id": "lockscarwinter",
 			"label": "冬之傷疤鎖",
-			"description": "我為門關時，這道傷疤將在最後開啟。"
+			"description": "當我成為門關時，這道傷疤將在最後開啟。"
 		},
 		{
 			"id": "openedlockscaredge",
 			"label": "刃之傷疤鎖",
-			"description": "我為門關時，這道傷疤將在利刃的觸摸下開啟。"
+			"description": "當我成為門關時，這道傷疤將在利刃的觸摸下開啟。"
 		},
 		{
 			"id": "openedlockscarforge",
 			"label": "鑄之傷疤鎖",
-			"description": "我為門關時，這道傷疤將為炙鐵的觸摸而開啟。"
+			"description": "當我成為門關時，這道傷疤將在炙鐵的觸碰下開啟。"
 		},
 		{
 			"id": "openedlockscargrail",
 			"label": "杯之傷疤鎖",
-			"description": "我為門關時，這道傷疤將為熱吻開啟。"
+			"description": "當我成為門關時，這道傷疤將在熱吻下開啟。"
 		},
 		{
 			"id": "openedlockscarheart",
 			"label": "心之傷疤鎖",
-			"description": "我為門關時，這道傷疤將在鼓響時開啟。"
+			"description": "當我成為門關時，這道傷疤將在鼓響時開啟。"
 		},
 		{
 			"id": "openedlockscarlantern",
 			"label": "燈之傷疤鎖",
-			"description": "我為門關時，這道傷疤將在曙光下開啟。"
+			"description": "當我成為門關時，這道傷疤將在曙光下開啟。"
 		},
 		{
 			"id": "openedlockscarmoth",
 			"label": "蛾之傷疤鎖",
-			"description": "我為門關時，這道傷疤將對剪刀起反應。"
+			"description": "當我成為門關時，這道傷疤將在剪刀下開啟。"
 		},
 		{
 			"id": "openedlockscarwinter",
 			"label": "冬之傷疤鎖",
-			"description": "我為門關時，這道傷疤將在最後開啟。"
+			"description": "當我成為門關時，這道傷疤將在最後開啟。"
 		},
 		{
 			"id": "devotee_edge",
 			"label": "強壯的敬拜者",
-			"description": "有的時候，俗家人會在熱忱的驅使下投身於較為不尋常的義務。[若此人的熱情消退，他將變回會眾。]"
+			"description": "有時，熱忱會驅使俗人投身於較不尋常的義務。[當此人的熱情退卻時，他將重返會眾行列。]"
 		},
 		{
 			"id": "devotee_forge",
 			"label": "務實的敬拜者",
-			"description": "有的時候，俗家人會在熱忱的驅使下投身於較為不尋常的義務。[若此人的熱情消退，他將變回會眾。]"
+			"description": "有時，熱忱會驅使俗人投身於較不尋常的義務。[當此人的熱情退卻時，他將重返會眾行列。]"
 		},
 		{
 			"id": "devotee_grail",
 			"label": "急切的敬拜者",
-			"description": "有的時候，俗家人會在熱忱的驅使下投身於較為不尋常的義務。[若此人的熱情消退，他將變回會眾。]"
+			"description": "有時，熱忱會驅使俗人投身於較不尋常的義務。[當此人的熱情退卻時，他將重返會眾行列。]"
 		},
 		{
 			"id": "devotee_heart",
 			"label": "活潑的敬拜者",
-			"description": "有的時候，俗家人會在熱忱的驅使下投身於較為不尋常的義務。[若此人的熱情消退，他將變回會眾。]"
+			"description": "有時，熱忱會驅使俗人投身於較不尋常的義務。[當此人的熱情退卻時，他將重返會眾行列。]"
 		},
 		{
 			"id": "devotee_knock",
 			"label": "手巧的敬拜者",
-			"description": "有的時候，俗家人會在熱忱的驅使下投身於較為不尋常的義務。[若此人的熱情消退，他將變回會眾。]"
+			"description": "有時，熱忱會驅使俗人投身於較不尋常的義務。[當此人的熱情退卻時，他將重返會眾行列。]"
 		},
 		{
 			"id": "devotee_lantern",
 			"label": "機敏的敬拜者",
-			"description": "有的時候，俗家人會在熱忱的驅使下投身於較為不尋常的義務。[若此人的熱情消退，他將變回會眾。]"
+			"description": "有時，熱忱會驅使俗人投身於較不尋常的義務。[當此人的熱情退卻時，他將重返會眾行列。]"
 		},
 		{
 			"id": "devotee_moth",
 			"label": "古怪的敬拜者",
-			"description": "有的時候，俗家人會在熱忱的驅使下投身於較為不尋常的義務。[若此人的熱情消退，他將變回會眾。]"
+			"description": "有時，熱忱會驅使俗人投身於較不尋常的義務。[當此人的熱情退卻時，他將重返會眾行列。]"
 		},
 		{
 			"id": "devotee_winter",
 			"label": "靜默的敬拜者",
-			"description": "有的時候，俗家人會在熱忱的驅使下投身於較為不尋常的義務。[若此人的熱情消退，他將變回會眾。]"
+			"description": "有時，熱忱會驅使俗人投身於較不尋常的義務。[當此人的熱情退卻時，他將重返會眾行列。]"
 		}
 	]
 }
