@@ -55,6 +55,10 @@ class MainView:
         ctk.CTkButton(_proper_noun_frame, text="刪除", width=70, command=self.presenter.on_remove_proper_noun).pack(side="left", padx=2)
         ctk.CTkButton(_proper_noun_frame, text="列表", width=70, command=self.presenter.on_show_proper_noun_list).pack(side="left", padx=2)
 
+        _special_buttons_frame = ctk.CTkFrame(self.root)
+        _special_buttons_frame.grid(row=5, column=2, sticky="e", padx=(0, 10))
+        ctk.CTkButton(_special_buttons_frame, text="重新整理", width=70, command=self.presenter.on_reload_file).pack(side="left")
+
         self.original_json = self._text_area(6, "原文", 10)
         self.translated_json = self._text_area(7, "翻譯 / 修訂", 10)
 
