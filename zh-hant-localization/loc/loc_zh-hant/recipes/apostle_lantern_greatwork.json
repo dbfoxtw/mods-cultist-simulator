@@ -24,17 +24,17 @@
 		{
 			"id": "apostlelantern.createpillar3.hint2",
 			"label": "種下誘餌？",
-			"startdescription": "將關於鑰匙的夢境按進十字路鬆軟的土壤。用我們能收集到的最鮮烈的光照沐澤它。會生長出什麼來呢？"
+			"startdescription": "將鑰匙之夢按進十字路鬆軟的土壤。用我們能收集到的最鮮烈的光照沐澤它。會生長出什麼來呢？"
 		},
 		{
 			"id": "apostlelantern.createpillar3.hint1",
 			"label": "種下誘餌？",
-			"startdescription": "等到下一次關於鑰匙的夢境來臨，我便將其帶去十字路。"
+			"startdescription": "等到下一次鑰匙之夢來臨，我便將其帶去十字路。"
 		},
 		{
 			"id": "apostlelantern.createpillar3",
 			"label": "種下誘餌",
-			"startdescription": "將關於鑰匙的夢境按進十字路鬆軟的土壤。用守夜人的光沐澤它。一顆閃光的樹將會抽芽生發，枝頭遍結發光的碩果。",
+			"startdescription": "將鑰匙之夢按進十字路鬆軟的土壤。用守夜人的光沐澤它。一顆閃光的樹將會抽芽生發，枝頭遍結發光的碩果。",
 			"description": "這是我們的沐光明者為扮演守夜人所需的光明，不過它還有此外的另一功用。如燭之於蛾，如餌之於魚，光之於靈魂亦然。"
 		},
 		{
@@ -84,7 +84,7 @@
 		},
 		{
 			"id": "apostlelantern.recruitkleidouchos.teresa",
-			"label": "向德蕾莎詢問關於鑰匙的夢境",
+			"label": "向德蕾莎詢問鑰匙之夢",
 			"startdescription": "“也就是說伴我升天的伙伴眼光比我還高，嗯？此人說不定會後悔的。”德蕾莎擰轉她手上想像中的鑰匙。“一個關於白日之鑰的夢境；夢為假，鑰匙為真。但那不是你和我能碰的東西。”",
 			"description": "“我知道持鑰匙者——你要找的那個。我有一陣沒和她講過話了——我不常和麗姬亞成員講話——不過作為燈之長生者，我得給你的導師一個面子。我會遣人找來那個持鑰匙者。”"
 		},
