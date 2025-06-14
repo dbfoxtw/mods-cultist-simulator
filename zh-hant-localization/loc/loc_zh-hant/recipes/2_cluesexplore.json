@@ -2,8 +2,8 @@
 	"recipes": [
 		{
 			"id": "explore_movehq_hint",
-			"label": "改變場所？",
-			"startdescription": "我們可以將我們的總部搬到這裡，如果我們如此決定的話。"
+			"label": "更換據點？",
+			"startdescription": "若我們願意，可以將總部搬到這裡。"
 		},
 		{
 			"id": "explorevault_hint_sending",
@@ -13,32 +13,32 @@
 		{
 			"id": "explorevault_hint_addfunds",
 			"label": "為探險做準備？",
-			"startdescription": "如果我投入至少一份資金，我就可以開始探險了。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]"
+			"startdescription": "如果我投入至少一份資金，就能展開探險。[探險過程中，每個阻礙至少需一份資金支撐，並由追隨者負責突破。若資金或追隨者耗盡，探險將告終。]"
 		},
 		{
 			"id": "explorevault_hint_addfollower",
 			"label": "為探險做準備？",
-			"startdescription": "如果我派遣至少一名追隨者，我就可以開始探險了。[探險時，突破一個阻礙需消耗至少一份資金；阻礙由追隨者負責突破。資金或追隨者耗盡時，探險將終止。]"
+			"startdescription": "如果我派遣一名追隨者，就能展開探險。[探險過程中，每個阻礙至少需一份資金支撐，並由追隨者負責突破。若資金或追隨者耗盡，探險將告終。]"
 		},
 		{
 			"id": "explorevault_hint",
 			"label": "為探險做準備？",
-			"startdescription": "我可以派出一支探險隊前往這裡尋找書籍、寶藏以及存有法力的工具。但我需要可供派遣的追隨者，和用來供給他們的資金。"
+			"startdescription": "我可以派出一支探險隊前往這裡，尋找書籍、寶藏與蘊含法力的工具。但我得準備好可派遣的追隨者，還有足夠的資金來供應他們。"
 		},
 		{
 			"id": "exploresulochanacabaret_hint",
 			"label": "舊的形體與新的",
-			"startdescription": "[如果你有舞者擴展包，你可以使用這項組合來在蛻衣俱樂部謀得一份工作，並追求蛻變飛升。]"
+			"startdescription": "[如果你擁有舞者擴展包，可以用這項組合在蛻衣俱樂部謀得一份工作，並追求蛻變飛升。]"
 		},
 		{
 			"id": "explore.searchgraveyard.hint",
 			"label": "掘墓？",
-			"startdescription": "我需要運用自己的力氣，或者用朋友的。"
+			"startdescription": "我需要動用自己的力氣，或借助朋友的力量。"
 		},
 		{
 			"id": "explore.searchgraveyard.closing.hint",
 			"label": "小心謹慎地掘墓？",
-			"startdescription": "我需要運用自己的力氣，或者用朋友的。"
+			"startdescription": "我需要動用自己的力氣，或借助朋友的力量。"
 		}
 	]
 }
