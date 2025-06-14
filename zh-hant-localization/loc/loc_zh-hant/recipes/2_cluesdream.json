@@ -3,52 +3,52 @@
 		{
 			"id": "temptationremembrancehintdream",
 			"label": "誘惑？",
-			"startdescription": "這世上有著各種顏色，漫宿則有另一番色彩，而其他的，便是失落的色彩。它們的缺失讓我放不下畫刀。[回憶的誘惑已將它的牙齒沒入了你，其他的誘惑將無法再染指你。]"
+			"startdescription": "這世上有著各種顏色，漫宿則有另一番色彩，還有一些，則是失落的色彩。它們的缺席，令我無法放下畫刀。[回憶的誘惑已咬住你不放，其他的誘惑將無法觸及你。]"
 		},
 		{
 			"id": "vitalityhintdream",
 			"label": "活力",
-			"startdescription": "它無法激發夢境。但研究它能增進我的健康。"
+			"startdescription": "這不會引發夢境，但我可以研究它來增進我的健康。"
 		},
 		{
 			"id": "eruditionhintdream",
 			"label": "博聞",
-			"startdescription": "它無法激發夢境。但研究它能增進我的理性。"
+			"startdescription": "這不會引發夢境，但我可以研究它來增進我的理性。"
 		},
 		{
 			"id": "glimmeringhintdream",
 			"label": "靈感",
-			"startdescription": "它現在還無法激發夢境。但研究它能增進我的激情。"
+			"startdescription": "這目前不會引發夢境，但我可以研究它來增進我的激情。"
 		},
 		{
 			"id": "contentmenthintdream",
 			"label": "安逸",
-			"startdescription": "安逸不是通往夢境的鑰匙，但夢境有時讓我感到安逸。"
+			"startdescription": "安逸不是通往夢境的鑰匙，但夢境有時也能帶來安逸。"
 		},
 		{
 			"id": "dedicationtoobsession_power_hint",
 			"label": "下一步",
-			"startdescription": "我已經在夢境中來到了我所能抵達的最遠處。我必須要開始施行“功業”了（在<b>“作業”</b>進行）。"
+			"startdescription": "我在夢境中已抵達當前所能及之處。我必須施行“功業”（在<b>“作業”</b>進行）。"
 		},
 		{
 			"id": "dedicationtoobsession_enlightenment_hint",
 			"label": "下一步",
-			"startdescription": "我已經在夢境中來到了我所能抵達的最遠處。我必須要開始施行“功業”了。"
+			"startdescription": "我在夢境中已抵達當前所能及之處。我必須施行“功業”（在<b>“作業”</b>進行）。"
 		},
 		{
 			"id": "tryreducefascination",
 			"label": "尋求冷靜？",
-			"startdescription": "幻象之門紛紛向我敞開。些微的黑暗會讓我的光更加圓融。恐懼亦有其作用。"
+			"startdescription": "幻象之門紛紛向我敞開。些微的黑暗會讓我的光稍顯溫和。恐懼亦有其作用。"
 		},
 		{
 			"id": "tryrecoverreason",
 			"label": "放空頭腦？",
-			"startdescription": "我只記得我有所改變；但我暫時想不起來，我是如何改變的。[使用正確的資源可以平息“恐懼”。]"
+			"startdescription": "我記得我並非如此，但我回憶不起以前的模樣。[使用正確的資源可以平息“恐懼”。]"
 		},
 		{
 			"id": "tryrecoverillhealth",
 			"label": "恢復？",
-			"startdescription": "休息能夠讓我恢復——如果我擁有所需的資源的話。"
+			"startdescription": "休息能恢復自我——若我擁有所需資源。"
 		}
 	]
 }
