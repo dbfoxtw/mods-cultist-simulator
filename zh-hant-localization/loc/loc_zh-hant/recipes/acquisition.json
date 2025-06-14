@@ -9,47 +9,47 @@
 					"label": "出價"
 				}
 			],
-			"startdescription": "人群中是一張張繃緊的面孔和一雙雙發光的眼睛。誰會出價呢？[拍品顯示在右邊。如果競拍失敗，該物品將永久消失。]",
+			"startdescription": "人群中是一張張繃緊的面孔，一雙雙閃爍的眼睛。誰會出價？[拍品顯示在右邊。如果競拍失敗，該物品將永久消失。]",
 			"description": "."
 		},
 		{
 			"id": "playerincreasedbid",
 			"label": "我出價了！",
-			"startdescription": "我舉起了手。拍賣師敲下木槌表示收到。會有人跟價嗎？",
+			"startdescription": "我舉起了手。拍賣師隨即敲槌示意。會有人跟價嗎？",
 			"description": "."
 		},
 		{
 			"id": "auctionbidmatched",
 			"label": "另一位競拍者！",
-			"startdescription": "有人跟拍！我必須花更多資金追上，不然就只能放棄目標。",
+			"startdescription": "有人跟價了！我必須再加價，否則就得放棄這件拍品。",
 			"description": "."
 		},
 		{
 			"id": "auctionfailure",
-			"label": "我沒能競到拍品。",
+			"label": "我沒得標。",
 			"startdescription": ".",
-			"description": "拍賣結束了。拍品已歸他人所有。我仍保有我的資金。"
+			"description": "拍賣結束了。拍品已被他人帶走。我仍保有我的資金。"
 		},
 		{
 			"id": "auctionsuccess",
-			"label": "我已競到拍品！",
+			"label": "我得標了！",
 			"startdescription": ".",
-			"description": "拍賣師記下了我的名字，並向助手之一打手勢。我得到了我的目標。但願它值這個價。"
+			"description": "拍賣師記下了我的名字，並向助手之一打了個手勢。我拿到拍品了。希望它值這個價。"
 		},
 		{
 			"id": "expedition.corpse.find.vaultshires3",
 			"label": "尚餘一件寶物",
-			"startdescription": "其他來過此地的人都忽略了鎖在戰士國王遺體內的秘密。我不會犯同樣的錯誤。"
+			"startdescription": "其他來過此地的人都忽略了封藏於戰士國王遺體中的秘密。我不會犯同樣的錯誤。"
 		},
 		{
 			"id": "expedition.corpse.find.vaultcapital5",
 			"label": "尚餘一件寶物",
-			"startdescription": "我不該漏過最後的這一片教士。無疑它會很有嚼勁，但裡面也蘊含著力量與知識。"
+			"startdescription": "我不會漏過最後這一片教士。這嚼起來肯定費勁，但裡面蘊藏著力量與知識。"
 		},
 		{
 			"id": "expedition.corpse.find.vaultloneandlevelsands2",
 			"label": "尚餘一件寶物",
-			"startdescription": "我將盡我所能收集拉貢的屍骸。我會找到法子解開裡面所含的回憶。哪怕讓我把它泡成茶喝。"
+			"startdescription": "我會盡力收集拉貢的屍骸，設法解開其中的回憶。哪怕我得把它泡成茶喝。"
 		},
 		{
 			"id": "expedition.corpse.find.vaultrendingmountainsdefault",
@@ -59,32 +59,32 @@
 		{
 			"id": "expedition.corpse.find.vaultshires4",
 			"label": "尚餘一件寶物",
-			"startdescription": "“Caput gerat lupinum（拉丁語，罪人當佩狼首）”。從前，若有人犯下法外之事，人們會認為他變成了一匹狼。"
+			"startdescription": "“Caput gerat lupinum（罪人當佩狼首）”。古人認為，人若逾越身為人的界限，便不再是人，而是狼。"
 		},
 		{
 			"id": "expedition.corpse.find.vaultshires3.ransackedbyrival",
 			"label": "尚餘一件寶物",
-			"startdescription": "我的對手和其他來過此地的人一樣，都忽略了鎖在戰士國王遺體內的秘密。我不會犯同樣的錯誤。"
+			"startdescription": "我的對手和其他來過此地的人一樣，都忽略了封藏於戰士國王遺體中的秘密。我不會犯同樣的錯誤。"
 		},
 		{
 			"id": "expedition.corpse.find.vaultcapital5.ransackedbyrival",
 			"label": "尚餘一件寶物",
-			"startdescription": "現在我的對手已走，我們可以溜進去撿走最後的這一片教士了。無疑它會很有嚼勁，但裡面也蘊含著力量與知識。"
+			"startdescription": "現在我的對手已走，我們可以溜進去搜刮最後這一片教士了。這嚼起來肯定費勁，但裡面蘊藏著力量與知識。"
 		},
 		{
 			"id": "expedition.corpse.find.vaultloneandlevelsands2.ransackedbyrival",
 			"label": "尚餘一件寶物",
-			"startdescription": "現在我的對手已走，我們可以溜進去撿走我所需的這具曾永生不死的屍骸了。我將盡我所能收集拉貢的屍骸。我會找到法子解開裡面所含的回憶。哪怕讓我把它泡成茶喝。"
+			"startdescription": "現在我的對手已走，我們可以溜進去搜刮我所需的這具曾永生不死的屍骸了。我會盡力收集拉貢的屍骸，設法解開其中的回憶。哪怕我得把它泡成茶喝。"
 		},
 		{
 			"id": "expedition.corpse.find.vaultrendingmountainsdefault.ransackedbyrival",
 			"label": "尚餘一件寶物",
-			"startdescription": "現在我的對手已走，我們可以溜進去撿走我所需的這具半是凡人的屍骸了。我要獨吞這位王的殘餘。"
+			"startdescription": "現在我的對手已走，我們可以溜進去搜刮我所需的這具半是凡人的屍骸了。我要獨吞這位王的殘餘。"
 		},
 		{
 			"id": "expedition.corpse.find.vaultshires4.ransackedbyrival",
 			"label": "尚餘一件寶物",
-			"startdescription": "現在我的對手已走，我們可以溜進去撿走我所需的這具凡人屍骸了。"
+			"startdescription": "現在我的對手已走，我們可以溜進去搜刮我所需的這具凡人屍骸了。"
 		}
 	]
 }
