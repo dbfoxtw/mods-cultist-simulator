@@ -3,62 +3,62 @@
 		{
 			"id": "auctionentry6",
 			"label": "售賣價值極高之物",
-			"startdescription": "奧里弗拉姆拍賣行的顧客中極少有修習無形之術的人。但即使外行人也能認出這是件非比尋常的器物。[請謹慎，售出後無法回購。]"
+			"startdescription": "奧里弗拉姆拍賣行的顧客大多不是無形之術的修習者。但即使是外行人，也看得出這件東西非比尋常。[請謹慎出售，一旦賣出將無法取回。]"
 		},
 		{
 			"id": "auctionentry5",
 			"label": "售賣價值稀有之物",
-			"startdescription": "奧里弗拉姆拍賣行的顧客中極少有修習無形之術的人。他們會把存有法力的工具當成紀念品或奇珍買回家去，卻不能意識到它們真正的價值。但這件東西顯然是稀有品。[請謹慎，售出後無法回購。]"
+			"startdescription": "奧里弗拉姆拍賣行的顧客大多不是無形之術的修習者。他們常把蘊含法力的工具當作紀念品或奇珍購買，卻未察覺其真正價值。這件東西顯然是罕見之物。[請謹慎出售，一旦賣出將無法取回。]"
 		},
 		{
 			"id": "auctionentry4",
 			"label": "售賣價值名貴之物",
-			"startdescription": "奧里弗拉姆拍賣行的顧客中極少有修習無形之術的人。他們會把存有法力的工具當成紀念品或奇珍買回家去，卻不能意識到它們真正的價值。但這件東西會引起他們注意。[請謹慎，售出後無法回購。]"
+			"startdescription": "奧里弗拉姆拍賣行的顧客大多不是無形之術的修習者。他們常把蘊含法力的工具當作紀念品或奇珍購買，卻未察覺其真正價值。這件東西肯定會吸引他們的目光。[請謹慎出售，一旦賣出將無法取回。]"
 		},
 		{
 			"id": "auctionentry3",
 			"label": "售賣價值非常之物",
-			"startdescription": "這件不同尋常的物件肯定能換來資金。[請謹慎，售出後無法回購。]"
+			"startdescription": "這件不同尋常的物品肯定能換來資金。[請謹慎出售，一旦賣出將無法取回。]"
 		},
 		{
 			"id": "auctionentry2",
 			"label": "售賣價值尋常之物",
-			"startdescription": "這件珍奇的物件能換來資金。[請謹慎，售出後無法回購。]"
+			"startdescription": "這件新奇的物品能換來資金。[請謹慎出售，一旦賣出將無法取回。]"
 		},
 		{
 			"id": "auctionentry1",
 			"label": "售賣價值較低之物",
-			"startdescription": "這件怪異的物件大概值些錢，不過也很難講。"
+			"startdescription": "這件稀奇古怪的物品大概值點錢，但也說不準。"
 		},
 		{
 			"id": "auctionsell_worthless",
-			"label": "拍賣：鮮少有人問津",
-			"startdescription": "反響寥寥。拍賣師木槌落定。我的物件賣掉了，但價格極廉，不值一提。"
+			"label": "拍賣：乏人問津",
+			"startdescription": "場內一片冷清。拍賣師木槌落定。我的物品賣掉了，但價格低得可笑，不值一提。"
 		},
 		{
 			"id": "auctionsell_increasepetty",
 			"label": "拍賣：觀眾悄聲議論",
-			"startdescription": "不論出於什麼難以意料的原因，我的物件勾起了出價人的興趣。"
+			"startdescription": "不知為何，我的物品引起了出價人的興趣。"
 		},
 		{
 			"id": "auctionsell_increaseminor",
 			"label": "拍賣：踴躍出價",
-			"startdescription": "立時有觀眾站了起來。激情高漲。"
+			"startdescription": "有些觀眾已經站了起來，氣氛越發熱烈。"
 		},
 		{
 			"id": "auctionsell_increasemajor",
-			"label": "拍賣：興奮的喊聲",
-			"startdescription": "拍賣師不得不提高他的聲音來蓋過喧鬧的人群。"
+			"label": "拍賣：熱烈喊價",
+			"startdescription": "人聲鼎沸，拍賣師只得提高嗓門壓住場面。"
 		},
 		{
 			"id": "auctionsell_increasegrand",
-			"label": "拍賣：出價人的決鬥",
-			"startdescription": "兩位富有的收藏家將目光鎖定在拍賣師上，用最輕微的點頭表達著他們的意圖。除了拍賣師嚴肅的聲音外，房間裡鴉雀無聲。"
+			"label": "拍賣：競價對決",
+			"startdescription": "兩位富有的收藏家緊盯著拍賣師，以細微點頭示意。除了拍賣師嚴肅的聲音外，房間裡鴉雀無聲。"
 		},
 		{
 			"id": "auctioncleanup",
 			"label": "拍賣結束",
-			"description": "拍賣師木槌落定。我的物品已經售出。"
+			"description": "拍賣師木槌落定。我的物品成交了。"
 		}
 	]
 }
