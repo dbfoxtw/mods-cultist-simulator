@@ -3,20 +3,20 @@
 		{
 			"id": "dreampleasantmemory",
 			"label": "沉浸於愉快的回憶",
-			"startdescription": "理解後那甜蜜的沉靜？冬日暖光中的一刻？",
+			"startdescription": "心有靈犀的甜美靜謐？冬日暖光中的一刻？",
 			"description": "這也許能支持我。"
 		},
 		{
 			"id": "dreampassionatememory",
 			"label": "沉浸於激情的回憶",
-			"startdescription": "喘息與共，肢體交纏？不為人知的黑暗中的火熱？",
+			"startdescription": "肢體交纏，喘息交融？幽暗角落裡的火熱？",
 			"description": "這也許會使我分心。"
 		},
 		{
 			"id": "dreambittersweetmemory",
 			"label": "沉浸於苦樂參半的回憶",
-			"startdescription": "一份雙方都不敢大聲道出的互相理解？一次爭執及其餘波？",
-			"description": "或能寬限給我一些猶豫的時間。"
+			"startdescription": "彼此都不敢說出口的理解？一場爭執及其後果？",
+			"description": "這也許會讓我遲疑片刻。"
 		}
 	]
 }
