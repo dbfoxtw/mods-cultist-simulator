@@ -3,7 +3,7 @@
 		{
 			"id": "explorevaultseal_hiddendoor_encounter",
 			"label": "暗門",
-			"startdescription": "這裡肯定有一扇門，但若是沒有<b>燈</b>或<b>啟</b>，我們就無法打開它。",
+			"startdescription": "這裡肯定有一扇門，但若是沒有<b>燈</b>或<b>啟</b>，我們就無法揭示它。",
 			"slots": [
 				{
 					"id": "Assistance",
