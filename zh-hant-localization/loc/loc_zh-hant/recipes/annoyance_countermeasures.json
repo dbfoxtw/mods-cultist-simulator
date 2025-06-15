@@ -2,56 +2,56 @@
 	"recipes": [
 		{
 			"id": "annoyanceseducehighgrail",
-			"label": "派一名不可抗拒的手下引誘、羞辱眼中釘",
-			"startdescription": "我想擺脫這個討厭鬼。此人甚至有可能享受他的墮落。",
+			"label": "派出魅惑難擋的手下，引誘並羞辱眼中釘",
+			"startdescription": "我想擺脫這個討厭鬼，說不定他會樂在其中。",
 			"description": "."
 		},
 		{
 			"id": "annoyanceseducemidgrail",
-			"label": "派一名勾魂攝魄的手下引誘、羞辱眼中釘",
-			"startdescription": "每個人都有一個不敵特定快感的弱點。我會派去一名精通快感的多重本質的手下。他很有可能成功。",
+			"label": "派出勾魂攝魄的手下，引誘並羞辱眼中釘",
+			"startdescription": "每個人總有無法抵抗的某種快感。我會派出一名深諳快感百態的手下，他幾乎不會失手。",
 			"description": "."
 		},
 		{
 			"id": "annoyanceseducelowgrail",
-			"label": "派一名迷人的手下引誘、羞辱眼中釘",
-			"startdescription": "天知道這能不能成事？這顆眼中釘可能根本不覺得我的手下有魅力。",
+			"label": "派出迷人的手下，引誘並羞辱眼中釘",
+			"startdescription": "說不定會成功？搞不好這個眼中釘根本不覺得我的手下有魅力。",
 			"description": "."
 		},
 		{
 			"id": "annoyanceseducesuccess",
 			"label": "正在引誘眼中釘……",
 			"startdescription": "我靜待回音……",
-			"description": "我的手下回來了。他找到了可使眼中釘輕易屈服的特定誘惑；只付出小小的代價，便使他的名聲徹底毀滅。"
+			"description": "我的手下回來了。他找到了一個讓眼中釘甘心沉淪的誘惑；只需一點小代價，便毀他了的名聲。"
 		},
 		{
 			"id": "annoyanceseducefailure",
 			"label": "正在引誘眼中釘……",
 			"startdescription": "我靜待回音……",
-			"description": "我的手下帶回令人失望的消息。他沒能發現讓眼中釘不能自已的快感。"
+			"description": "我的手下帶回令人失望的消息。他沒能找到能讓眼中釘沉淪的快感。"
 		},
 		{
 			"id": "annoyanceattackhighedge",
-			"label": "派一支銳不可當的武力謀殺眼中釘",
-			"startdescription": "我對這個討嫌的傢伙徹底失去了耐心。除非他有什麼不同尋常的防護，不然他必死無疑。不過，他的去世會引人關注。",
+			"label": "派出銳不可當之力謀殺眼中釘",
+			"startdescription": "我已對這個討厭鬼徹底失去耐心。除非他有什麼異常的防護，否則必死無疑。不過，此舉恐引人側目。",
 			"description": "."
 		},
 		{
 			"id": "annoyanceattackmidedge",
-			"label": "派一名強大的手下謀殺眼中釘",
-			"startdescription": "我對這個討嫌的傢伙徹底失去了耐心。這次必要一了百了。但他仍有可能逃過一劫，而成功與否都會引發關注。[失敗會使你的手下死亡。]",
+			"label": "派出強悍的手下謀殺眼中釘",
+			"startdescription": "我已對這個討厭鬼徹底失去耐心。這次必要一了百了。但他仍有可能逃過一劫，而這次行動恐怕會引來關注。[失敗將導致你的手下喪命。]",
 			"description": "."
 		},
 		{
 			"id": "annoyanceattacklowedge",
-			"label": "派一名手下謀殺眼中釘",
-			"startdescription": "我想讓這顆眼中釘消失。但此法有風險：我的手下力氣有限。眼中釘很有可能逃過一劫，而成功與否都會引發關注。[失敗會使你的手下死亡。]",
+			"label": "派出手下謀殺眼中釘",
+			"startdescription": "我想讓這個眼中釘消失。但此法風險不小：我的手下實力不足。眼中釘很可能逃過一劫，而這次行動恐怕會引來關注。[失敗將導致你的手下喪命。]",
 			"description": "."
 		},
 		{
 			"id": "annoyanceattacknoedge",
-			"label": "派不適合的人謀殺眼中釘",
-			"startdescription": "我的手下沒有<b>刃</b>相，他實在不適合去襲擊這個眼中釘。他只有很低的機率能成功。[失敗會使你的手下死亡。]",
+			"label": "派出不適任之人謀殺眼中釘",
+			"startdescription": "我的手下沒有<b>刃</b>相，實在不適合對付這個眼中釘。成功的機率微乎其微。[失敗將導致你的手下喪命。]",
 			"description": "."
 		},
 		{
@@ -64,37 +64,37 @@
 			"id": "annoyancecapturesuccess",
 			"label": "正在消滅眼中釘……",
 			"startdescription": "我靜待回音……",
-			"description": "我的手下攜囚犯歸來！……囚犯現在有時間後悔他之前的選擇了。"
+			"description": "我的手下攜囚犯歸來！……現在他有的是時間來後悔自己的選擇。"
 		},
 		{
 			"id": "annoyanceattackfailure",
 			"label": "正在消滅眼中釘……",
 			"startdescription": "我靜待回音……",
-			"description": "我的手下沒有歸來。他一定是失敗了。情況可能變得很尷尬。"
+			"description": "我的手下沒有歸來。看來是失敗了。情況變得很尷尬。"
 		},
 		{
 			"id": "annoyancederangemidmoth",
-			"label": "派一名陰險的手下逼瘋眼中釘",
-			"startdescription": "我想擺脫這個討厭鬼。此計大概能成功，但如果失敗，則會引發關注。",
+			"label": "派出陰險的手下逼瘋眼中釘",
+			"startdescription": "我想擺脫這個討厭鬼。此計應該能成功，但若失敗，恐怕會引來關注。",
 			"description": "."
 		},
 		{
 			"id": "annoyancederangelowmoth",
-			"label": "派一名陰險的手下逼瘋眼中釘",
-			"startdescription": "我想讓這顆眼中釘消失。但我的手下能力有限。此事很容易失敗，且一旦失敗，則會引發關注。",
+			"label": "派出陰險的手下逼瘋眼中釘",
+			"startdescription": "我想讓這個眼中釘消失。但我的手下能力有限。此計非常冒險，且一旦失敗，恐怕會引來關注。",
 			"description": "."
 		},
 		{
 			"id": "annoyancederangesuccess",
 			"label": "正在為眼中釘安排暗夜驚魂……",
 			"startdescription": "我靜待回音……",
-			"description": "我的手下歸來。眼中釘已經不能清楚地說話了，更別提以後再來煩我。"
+			"description": "我的手下歸來。眼中釘已經不能清楚地說話了，連煩我都辦不到了。"
 		},
 		{
 			"id": "annoyancederangefailure",
 			"label": "正在為眼中釘安排暗夜驚魂……",
 			"startdescription": "我靜待回音……",
-			"description": "我的手下歸來。眼中釘看來比我們預想得更有韌性。他的心智完好無損。"
+			"description": "我的手下歸來。眼中釘比預期更加難纏，神智依然清醒。"
 		}
 	]
 }
