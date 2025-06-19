@@ -3,7 +3,7 @@
 		{
 			"id": "explorevault_expeditionbegun",
 			"label": "探險隊出發",
-			"startdescription": "我已經給了我的使者們為我辦事的機會。讓我們祈禱能有個好結果吧。",
+			"startdescription": "我已給予手下們表現的機會。希望一切順利。",
 			"description": "."
 		},
 		{
@@ -13,23 +13,23 @@
 				{
 					"id": "Assistance",
 					"label": "助力",
-					"description": "資金對探險來說必不可少。追隨者則會助我突破阻礙。"
+					"description": "探險離不開資金，追隨者則能助我突破難關。"
 				}
 			],
-			"startdescription": "我們的探險隊計劃迎接下一次挑戰，而這會消耗資金。我現在可以追加資金投入，或者再派一名追隨者。",
+			"startdescription": "我們的探險隊正準備迎接下一個挑戰，這將消耗資金。我可以追加資金，或是再派一名追隨者。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultfailure_nofunds",
 			"label": "後勤不力",
-			"startdescription": "補給開始緊缺。除非投入更多資金，否則我們只能被迫放棄這次探險了。",
+			"startdescription": "補給短缺。除非投入更多資金，否則我們只能放棄這次探險。",
 			"description": "塵埃落定後，我們可以再試一次。"
 		},
 		{
 			"id": "explorevaultfailure_nofollowers",
 			"label": "無人歸來",
-			"startdescription": "探險隊員全軍覆沒了。我必須派遣幫手，不然這次探險只能終止了。",
-			"description": "無人歸來。我可以再試一次，甚至可以重複利用之前的補給。"
+			"startdescription": "探險隊員全軍覆沒。我必須派遣幫手，否則這次探險將就此終止。",
+			"description": "無人歸來。我可以再次嘗試，甚至可以沿用之前的補給。"
 		},
 		{
 			"id": "explorevaultsuccesslink",
@@ -44,8 +44,8 @@
 		{
 			"id": "explorevault_casualty",
 			"label": "一名探險隊員倒下了！",
-			"startdescription": "我們的人手減少了。",
-			"description": "他傷得很重！[通過<b>談話</b>治療追隨者。]"
+			"startdescription": "我們的人手正在減少。",
+			"description": "他們傷勢嚴重。[可用<b>談話</b>治療追隨者。]"
 		},
 		{
 			"id": "explorevault_casualty_summoning",
