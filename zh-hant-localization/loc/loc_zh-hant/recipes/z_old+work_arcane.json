@@ -3,26 +3,26 @@
 		{
 			"id": "conjurationpower",
 			"label": "心之鑰匙",
-			"startdescription": "我能否利用這種儀式讓一位司辰附體呢？力量如氣味一般伴祂降臨。當然……我並不能得知哪位司辰會降臨。",
+			"startdescription": "我能使用這場儀式，讓一位司辰附體於我嗎？力量如氣味般隨祂而來。當然……我無法預知會是哪位司辰降臨。",
 			"description": "儀式完成，門扉即將洞開。"
 		},
 		{
 			"id": "conjurationpowerclue",
 			"label": "心之鑰匙？",
-			"startdescription": "我能否利用這種儀式讓一位司辰附體呢？力量如氣味一般伴祂降臨。",
-			"description": "不起作用。我還需要別的東西——用於開啟道路之物。並且我還需要一名自願的犧牲者。"
+			"startdescription": "我能使用這場儀式，讓一位司辰附體於我嗎？力量如氣味般隨祂而來。",
+			"description": "失敗了。我還需要另一件觸媒——開啟道路之物。以及一名自願的犧牲者。"
 		},
 		{
 			"id": "conjurationenlightenment",
 			"label": "夢中之扉",
-			"startdescription": "利用這種儀式，我應該能追上守夜人的腳步，獲悉更多關於這棟無牆居屋的知識。",
+			"startdescription": "我能利用這場儀式，循著守夜人的腳步，去了解無牆居屋。",
 			"description": "儀式完成，門扉即將洞開。"
 		},
 		{
 			"id": "conjurationenlightenmentclue",
 			"label": "夢中之扉？",
-			"startdescription": "利用這種儀式，我能不能追上守夜人的腳步，獲悉更多關於這棟無牆居屋的知識呢？",
-			"description": "不起作用。我需要拜請另一路神力——開啟之力。我還需要資金來購買用來點亮守夜人前路的稀罕蠟燭。"
+			"startdescription": "我能利用這場儀式，循著守夜人的腳步，去了解無牆居屋嗎？",
+			"description": "失敗了。我還需要召來另一股力量——開啟之力。以及資金購買照亮守夜人道路的稀有蠟燭。"
 		},
 		{
 			"id": "ascensionpowerapromotion",
@@ -30,7 +30,7 @@
 			"slots": [
 				{
 					"id": "Dedication",
-					"label": "奉上"
+					"label": "奉獻"
 				}
 			],
 			"startdescription": "心臟搏動如鼓，血液燃燒沸騰。快成功了。我一定會更加熱忱地奉獻己身。",
@@ -42,11 +42,11 @@
 			"slots": [
 				{
 					"id": "Dedication",
-					"label": "奉上"
+					"label": "奉獻"
 				}
 			],
 			"startdescription": "世界的壁障顫抖如薄紗。我快要成功了。我必須全神貫注。",
-			"description": "我的指尖幾乎已經要碰觸到我所尋求的真知了。僅僅毫釐之差。我必須再試一次。"
+			"description": "我的指尖已觸碰到我所尋求的真知。僅僅毫釐之差。我必須再試一次。"
 		}
 	]
 }
