@@ -4,23 +4,23 @@
 			"id": "health_expel_to_scar",
 			"label": "健康：落下傷疤",
 			"startdescription": "我的身體正在改變……",
-			"description": "有些動作會留下更深的印記。[“健康”已永久地成為一道傷疤。注意：傷疤不能治療生病與挨餓。]"
+			"description": "有些經歷會留下更深的印記。[“健康”已永久變為一道“傷疤”。注意：傷疤無法解決疾病與飢餓的問題。]"
 		},
 		{
 			"id": "passion_expel_to_scar",
 			"label": "激情：落下傷疤",
-			"startdescription": "我的多愁善感正在改變我……",
-			"description": "我的思緒將我的肉體與靈魂綁定得甚是牢靠。[“激情”已永久地成為一道傷疤。]"
+			"startdescription": "我的情感正在改變我……",
+			"description": "我的思緒將我的肉體與靈魂綁得過緊，已超出安全的程度。[“激情”已永久變為一道“傷疤”。]"
 		},
 		{
 			"id": "expel_independent",
-			"label": "渾然不查",
-			"startdescription": "我的對手不可能知道等待他的是什麼。"
+			"label": "毫無察覺",
+			"startdescription": "我的對手不可能知道等待著他的是什麼。"
 		},
 		{
 			"id": "expel_corpses",
 			"label": "一抹虛影",
-			"startdescription": "長眠於此。"
+			"startdescription": "它長眠於此。"
 		},
 		{
 			"id": "expel_injury",
