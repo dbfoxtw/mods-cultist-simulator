@@ -9,19 +9,19 @@
 				{
 					"id": "Expenses",
 					"label": "開銷",
-					"description": "我得付商店老闆的帳。不交錢就會挨餓。"
+					"description": "我得付清商店老闆的帳單。不交錢就會挨餓。"
 				}
 			]
 		},
 		{
 			"id": "presickness",
 			"label": "歡樂的代價",
-			"startdescription": "我的呼吸費力，我的思緒混亂。也許我不該那樣放縱自己沉溺於撫慰傷痛的行為。"
+			"startdescription": "我的呼吸費力，我的思緒混亂。也許我不該沉溺於止痛藥。"
 		},
 		{
 			"id": "sickness",
 			"label": "生病",
-			"startdescription": "我體況不佳！",
+			"startdescription": "我生病了！",
 			"description": "這場疾病損害了我的健康。我需要休息才能完全恢復。[用“資金”或“活力”治癒“病痛”。]",
 			"slots": [
 				{
@@ -33,7 +33,7 @@
 		{
 			"id": "signalupcomingsicknessdeath",
 			"label": "生病",
-			"startdescription": "我體況不佳！[如果被疾病耗盡“健康”，你會死掉……除非你有特殊防護。]"
+			"startdescription": "我生病了！[如果被疾病耗盡“健康”，你會死亡……除非你有特殊防護。]"
 		},
 		{
 			"id": "sickness.nohealthavailable.tryforstayofexecution",
@@ -44,7 +44,7 @@
 					"label": "防護"
 				}
 			],
-			"startdescription": "這場疾病快要置我於死地，除非我事先預備了不同尋常的健康防護措施……"
+			"startdescription": "這場疾病會要了我的命，除非我事先準備了特殊的健康防護……"
 		},
 		{
 			"id": "forlornbloodsickness",
@@ -55,19 +55,19 @@
 					"label": "病痛"
 				}
 			],
-			"startdescription": "疾病來向我索命了。要是我能活下來，我一定會品嘗我們愉悅者的鮮血，而且會迫不及待那樣做。[如果被疾病耗盡健康和醇味之血，你會死亡。]",
-			"description": "我縮成一團，臉色蒼白。疲倦噎住我的喉嚨。我必須確定我沒有白白死掉，而是為了實現某種目的。"
+			"startdescription": "疾病來向我索命了。若我能活下來，我必須盡快品嘗我們愉悅者的鮮血。[如果被疾病耗盡健康和醇味之血，你會死亡。]",
+			"description": "我縮成一團，臉色蒼白。疲倦噎住我的喉嚨。我必須確保我的死亡有所意義。"
 		},
 		{
 			"id": "savorousbloodrespite",
 			"label": "緩解",
-			"startdescription": "愉悅者的鮮血溫暖了我。它讓我的雙頰綻放紅花，將美酒傾倒入我的心臟；它以赤杯教給轟雷之皮的節拍撥動我的琴弦。我決定了，我要再活久一點。"
+			"startdescription": "愉悅者的鮮血溫暖了我。它使我雙頰綻放紅花，如美酒倒入心臟，又如赤杯教給轟雷之皮的節拍般撥動著琴弦。我決定了，我要再活久一點。"
 		},
 		{
 			"id": "deathofthewoundedfollower",
 			"label": "我的追隨者快死了！",
 			"startdescription": "傷口致命，此人已無藥可救。",
-			"description": "也許此人的精魂在居屋遊蕩。也許它迷失在林地，沉到更低的地方。而他的凡人軀殼將留在此處。"
+			"description": "也許此人的靈魂在居屋遊蕩。也許它迷失在林地，沉到更低的地方。而他的凡人軀殼將留在此處。"
 		},
 		{
 			"id": "rosenext",
@@ -76,7 +76,7 @@
 				{
 					"id": "Who?",
 					"label": "是誰？",
-					"description": "手與手相牽，目與目相對。."
+					"description": "手與手相牽，目與目相對。"
 				}
 			],
 			"startdescription": "如果我有位特別的朋友，那現在就是我倆再續前緣的時機。",
@@ -84,14 +84,14 @@
 		},
 		{
 			"id": "pleasantday",
-			"label": "愉快的一天。",
+			"label": "愉快的一天",
 			"startdescription": "這天清晨，我的腳步特別輕快，好像裝了彈簧一樣。我也不知道為什麼。",
 			"description": "有些日子就是比平日更好。有時候，天空不再像張骯髒的被單。有時候，河裡的流水更加清澈。"
 		},
 		{
 			"id": "starvation",
 			"label": "挨餓",
-			"startdescription": "沒有錢，我很快會挨餓。[如果被疾病耗盡健康，你會死亡。]",
+			"startdescription": "沒有錢，我很快就會挨餓。[如果被疾病耗盡健康，你會死亡。]",
 			"slots": [
 				{
 					"id": "starvation",
