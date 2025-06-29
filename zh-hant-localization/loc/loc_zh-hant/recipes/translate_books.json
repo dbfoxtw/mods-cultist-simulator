@@ -3,12 +3,12 @@
 		{
 			"id": "translatehint",
 			"label": "嘗試翻譯文獻？",
-			"startdescription": "若我擁有以這種語言寫作的文獻，我便能開始翻譯。"
+			"startdescription": "若我擁有以這個語言寫成的文獻，就能開始翻譯。"
 		},
 		{
 			"id": "translate",
 			"label": "開始翻譯文獻",
-			"startdescription": "鎖緊書房房門。開始作業。",
+			"startdescription": "鎖緊書房的門，開始工作。",
 			"description": "我已準備好要研究的文獻。"
 		}
 	]
