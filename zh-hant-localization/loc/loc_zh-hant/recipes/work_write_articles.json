@@ -2,165 +2,165 @@
 	"recipes": [
 		{
 			"id": "writeedgec",
-			"label": "撰寫一篇有關踐行<b>刃</b>以及主宰<b>刃</b>的司辰的泛述論文",
-			"startdescription": "或許能夠用於委託。",
-			"description": "我已完成了這份文稿。"
+			"label": "撰寫一篇關於踐行<b>刃</b>及主宰<b>刃</b>司辰的完整論文",
+			"startdescription": "或許能用於委託。",
+			"description": "我已完成這份文稿。"
 		},
 		{
 			"id": "writeforgec",
-			"label": "撰寫一篇關於鑄之準則的密傳的泛述論文",
-			"startdescription": "或許能夠用於委託。",
-			"description": "我已完成了這份文稿。"
+			"label": "撰寫一篇關於鑄之準則密傳的完整論文",
+			"startdescription": "或許能用於委託。",
+			"description": "我已完成這份文稿。"
 		},
 		{
 			"id": "writegrailc",
-			"label": "撰寫一篇關於赤杯之密傳的泛述論文",
-			"startdescription": "或許能夠用於委託。",
-			"description": "我已完成了這份文稿。"
+			"label": "撰寫一篇關於赤杯之密傳的完整論文",
+			"startdescription": "或許能用於委託。",
+			"description": "我已完成這份文稿。"
 		},
 		{
 			"id": "writeheartc",
-			"label": "撰寫一篇關於心之密傳的泛述論文",
-			"startdescription": "或許能夠用於委託。",
-			"description": "我已完成了這份文稿。"
+			"label": "撰寫一篇關於心之密傳的完整論文",
+			"startdescription": "或許能用於委託。",
+			"description": "我已完成這份文稿。"
 		},
 		{
 			"id": "writeknockc",
-			"label": "撰寫一篇關於啟之密傳的泛述論文",
-			"startdescription": "或許能夠用於委託。",
-			"description": "我已完成了這份文稿。"
+			"label": "撰寫一篇關於啟之密傳的完整論文",
+			"startdescription": "或許能用於委託。",
+			"description": "我已完成這份文稿。"
 		},
 		{
 			"id": "writelanternc",
-			"label": "撰寫一篇關於燈之密傳的泛述論文",
-			"startdescription": "或許能夠用於委託。",
-			"description": "我已完成了這份文稿。"
+			"label": "撰寫一篇關於燈之密傳的完整論文",
+			"startdescription": "或許能用於委託。",
+			"description": "我已完成這份文稿。"
 		},
 		{
 			"id": "writemothc",
-			"label": "撰寫一篇關蛾之密傳的泛述論文",
-			"startdescription": "或許能夠用於委託。",
-			"description": "我已完成了這份文稿。"
+			"label": "撰寫一篇關於蛾之密傳的完整論文",
+			"startdescription": "或許能用於委託。",
+			"description": "我已完成這份文稿。"
 		},
 		{
 			"id": "writesecrethistoriesc",
-			"label": "撰寫一篇關於秘史的泛述論文",
-			"startdescription": "或許能夠用於委託。",
-			"description": "我已完成了這份文稿。"
+			"label": "撰寫一篇關於秘史的完整論文",
+			"startdescription": "或許能用於委託。",
+			"description": "我已完成這份文稿。"
 		},
 		{
 			"id": "writewinterc",
-			"label": "撰寫一篇關於純白密傳的泛述論文",
-			"startdescription": "或許能夠用於委託。",
-			"description": "我已完成了這份文稿。"
+			"label": "撰寫一篇關於純白密傳的完整論文",
+			"startdescription": "或許能用於委託。",
+			"description": "我已完成這份文稿。"
 		},
 		{
 			"id": "writeedgeb",
-			"label": "撰寫一篇關於刃的實踐的詳盡論文",
-			"startdescription": "或許能夠用於委託。",
-			"description": "我已完成了這份文稿。"
+			"label": "撰寫一篇關於刃之實踐的詳盡論文",
+			"startdescription": "或許能用於委託。",
+			"description": "我已完成這份文稿。"
 		},
 		{
 			"id": "writeforgeb",
 			"label": "撰寫一篇關於鑄之準則的詳盡論文",
-			"startdescription": "或許能夠用於委託。",
-			"description": "我已完成了這份文稿。"
+			"startdescription": "或許能用於委託。",
+			"description": "我已完成這份文稿。"
 		},
 		{
 			"id": "writegrailb",
 			"label": "撰寫一篇關於赤杯儀式的詳盡論文",
-			"startdescription": "或許能夠用於委託。",
-			"description": "我已完成了這份文稿。"
+			"startdescription": "或許能用於委託。",
+			"description": "我已完成這份文稿。"
 		},
 		{
 			"id": "writeheartb",
 			"label": "撰寫一篇關於心之密傳的詳盡論文",
-			"startdescription": "或許能夠用於委託。",
-			"description": "我已完成了這份文稿。"
+			"startdescription": "或許能用於委託。",
+			"description": "我已完成這份文稿。"
 		},
 		{
 			"id": "writeknockb",
 			"label": "撰寫一篇關於啟之洞開儀式的詳盡論文",
-			"startdescription": "或許能夠用於委託。",
-			"description": "我已完成了這份文稿。"
+			"startdescription": "或許能用於委託。",
+			"description": "我已完成這份文稿。"
 		},
 		{
 			"id": "writelanternb",
 			"label": "撰寫一篇關於燈的詳盡論文",
-			"startdescription": "或許能夠用於委託。",
-			"description": "我已完成了這份文稿。"
+			"startdescription": "或許能用於委託。",
+			"description": "我已完成這份文稿。"
 		},
 		{
 			"id": "writemothb",
 			"label": "撰寫一篇關於蛾的詳盡論文",
-			"startdescription": "或許能夠用於委託。",
-			"description": "我已完成了這份文稿。"
+			"startdescription": "或許能用於委託。",
+			"description": "我已完成這份文稿。"
 		},
 		{
 			"id": "writesecrethistoriesb",
 			"label": "撰寫一篇關於秘史的詳盡論文",
-			"startdescription": "或許能夠用於委託。",
-			"description": "我已完成了這份文稿。"
+			"startdescription": "或許能用於委託。",
+			"description": "我已完成這份文稿。"
 		},
 		{
 			"id": "writewinterb",
 			"label": "撰寫一篇關於純白密傳的詳盡論文",
-			"startdescription": "或許能夠用於委託。",
-			"description": "我已完成了這份文稿。"
+			"startdescription": "或許能用於委託。",
+			"description": "我已完成這份文稿。"
 		},
 		{
 			"id": "writeedgea",
 			"label": "撰寫一篇關於刃之準則的簡要論文",
-			"startdescription": "或許能夠用於委託。",
-			"description": "我已完成了這份文稿。"
+			"startdescription": "或許能用於委託。",
+			"description": "我已完成這份文稿。"
 		},
 		{
 			"id": "writeforgea",
 			"label": "撰寫一篇關於鑄之準則的簡要論文",
-			"startdescription": "或許能夠用於委託。",
-			"description": "我已完成了這份文稿。"
+			"startdescription": "或許能用於委託。",
+			"description": "我已完成這份文稿。"
 		},
 		{
 			"id": "writegraila",
 			"label": "撰寫一篇關於赤杯之密傳的簡要論文",
-			"startdescription": "或許能夠用於委託。",
-			"description": "我已完成了這份文稿。"
+			"startdescription": "或許能用於委託。",
+			"description": "我已完成這份文稿。"
 		},
 		{
 			"id": "writehearta",
 			"label": "撰寫一篇關於心之密傳的簡要論文",
-			"startdescription": "或許能夠用於委託。",
-			"description": "我已完成了這份文稿。"
+			"startdescription": "或許能用於委託。",
+			"description": "我已完成這份文稿。"
 		},
 		{
 			"id": "writeknocka",
 			"label": "撰寫一篇關於啟之準則與洞開儀式的簡要論文",
-			"startdescription": "或許能夠用於委託。",
-			"description": "我已完成了這份文稿。"
+			"startdescription": "或許能用於委託。",
+			"description": "我已完成這份文稿。"
 		},
 		{
 			"id": "writelanterna",
 			"label": "撰寫一篇關於燈之密傳的簡要論文",
-			"startdescription": "或許能夠用於委託。",
-			"description": "我已完成了這份文稿。"
+			"startdescription": "或許能用於委託。",
+			"description": "我已完成這份文稿。"
 		},
 		{
 			"id": "writemotha",
 			"label": "撰寫一篇關於蛾的簡要論文",
-			"startdescription": "或許能夠用於委託。",
-			"description": "我已完成了這份文稿。"
+			"startdescription": "或許能用於委託。",
+			"description": "我已完成這份文稿。"
 		},
 		{
 			"id": "writesecrethistoriesa",
 			"label": "撰寫一篇關於秘史的簡要論文",
-			"startdescription": "或許能夠用於委託。",
-			"description": "我已完成了這份文稿。"
+			"startdescription": "或許能用於委託。",
+			"description": "我已完成這份文稿。"
 		},
 		{
 			"id": "writewintera",
 			"label": "撰寫一篇關於純白密傳的簡要論文",
-			"startdescription": "或許能夠用於委託。",
-			"description": "我已完成了這份文稿。"
+			"startdescription": "或許能用於委託。",
+			"description": "我已完成這份文稿。"
 		}
 	]
 }
