@@ -2,13 +2,13 @@
 	"recipes": [
 		{
 			"id": "recruitindependentresentmenthint",
-			"label": "招募一名無派人士？",
-			"startdescription": "不。此人還未與我們冰釋前嫌。也許，有一天，如果我不再繼續加害於他的話，他的想法應會有所改變。"
+			"label": "招募一名獨行者？",
+			"startdescription": "不。此人尚未放下我們之間的過節。只要我不再傷害他，也許有一天，他的想法會有所改變。"
 		},
 		{
 			"id": "recruitindependenthint",
-			"label": "招募一名無派人士？",
-			"startdescription": "此人可能入伙……只要我能將我教的性相提升至二十一階。[你可以招募與你信仰不同的搗亂分子，只要你能提供足夠的法力——但你必須將至少一件“工具”作為禮物送給這名無派人士。]"
+			"label": "招募一名獨行者？",
+			"startdescription": "此人可能入伙……只要我能將我們教派的性相提升至二十一階。[你可以招募與你信仰不同的搗亂分子，只要你能提供足夠的法力——但你必須將至少一件“工具”作為禮物送給這名獨行者。]"
 		},
 		{
 			"id": "promoteto_d_edgehint",
@@ -23,12 +23,12 @@
 		{
 			"id": "promoteto_d_grailhint",
 			"label": "擢升門徒？",
-			"startdescription": "要將門徒擢升為縱情者，我需要至少強達二十一級的<b>杯</b>。無論如何，適格之人必須食慾驚人。"
+			"startdescription": "要將門徒擢升為縱情者，我需要至少強達二十一級的<b>杯</b>。無論如何，適格之人必須欲壑難填。"
 		},
 		{
 			"id": "promoteto_d_hearthint",
 			"label": "擢升門徒？",
-			"startdescription": "要將門徒擢升為蠱舞者，我需要至少強達二十一級的<b>心</b>。無論如何，適格之人必須精力充沛。"
+			"startdescription": "要將門徒擢升為蠱舞者，我需要至少強達二十一級的<b>心</b>。無論如何，適格之人必須激情澎湃。"
 		},
 		{
 			"id": "promoteto_d_knockhint",
@@ -38,82 +38,82 @@
 		{
 			"id": "promoteto_d_lanternhint",
 			"label": "擢升門徒？",
-			"startdescription": "要將門徒擢升為先見者，我需要至少強達二十一級的<b>燈</b>。無論如何，適格之人必須眼明心亮。"
+			"startdescription": "要將門徒擢升為先見者，我需要至少強達二十一級的<b>燈</b>。無論如何，適格之人必須洞察幽微。"
 		},
 		{
 			"id": "promoteto_d_mothhint",
 			"label": "擢升門徒？",
-			"startdescription": "要將門徒擢升為易皮者，我需要至少強達二十一級的<b>蛾</b>。無論如何，適格之人百年難遇。"
+			"startdescription": "要將門徒擢升為易皮者，我需要至少強達二十一級的<b>蛾</b>。無論如何，適格之人寥若晨星。"
 		},
 		{
 			"id": "promoteto_d_winterhint",
 			"label": "擢升門徒？",
-			"startdescription": "要將門徒擢升至無名的位階，我需要至少強達二十一級的<b>冬</b>。無論如何，適格之人必須心如死灰。"
+			"startdescription": "要將門徒擢升至無名的位階，我需要至少強達二十一級的<b>冬</b>。無論如何，適格之人必須心若寒灰。"
 		},
 		{
 			"id": "promotetodisciplehint",
 			"label": "晉升信徒？",
-			"startdescription": "要將信徒晉升到門徒，我需要為其提供恰當的性相，且至少強達七級。"
+			"startdescription": "要將信徒晉升為門徒，我需要為其提供恰當的性相，且至少強達七級。"
 		},
 		{
 			"id": "talktobenefactorhint",
-			"label": "我的金主執著於會面的私密性。",
+			"label": "我的金主堅持低調行事。",
 			"startdescription": "“我們可不能在這裡聊天，親愛的。我們得私下裡說。”"
 		},
 		{
 			"id": "recruitacquaintancenoculthint",
 			"label": "招募新的追隨者？",
-			"startdescription": "[待你建立教派後，將<b>教派</b>放入<b><談話></b>中可招募<b>熟人</b>入教。]"
+			"startdescription": "[待你建立教派後，將<b>教派</b>放入<b>談話</b>中可招募<b>熟人</b>入教。]"
 		},
 		{
 			"id": "recruitacquaintancehint",
 			"label": "招募新的追隨者？",
-			"startdescription": "要招募追隨者，我需要一點我們所崇敬的神力。我可以從<b>影響</b>、<b>工具</b>、<b>原料</b>，或我教傳承中的<b>密傳</b>獲得。"
+			"startdescription": "要招募追隨者，我需要一點我們所崇敬的法力。我可以從<b>影響</b>、<b>工具</b>、<b>原料</b>，或我教傳承中的<b>密傳</b>獲得。"
 		},
 		{
 			"id": "talk_aladim_wantscommission",
 			"label": "委託？",
-			"startdescription": "“那份委託進展如何？我很想聽聽你的想法。”"
+			"startdescription": "“那份委託進展如何？我很期待你的想法。”"
 		},
 		{
 			"id": "talk_bechet_wantscommission",
 			"label": "委託？",
-			"startdescription": "“哈囉，有什麼要給我的嗎？委託如何了？”"
+			"startdescription": "“哈囉，有什麼要給我的嗎？是那份委託？”"
 		},
 		{
 			"id": "talk_jannings_wantscommission",
 			"label": "委託？",
-			"startdescription": "“拜託了，你會完成委託嗎？我的同僚十分需要這份資訊。”"
+			"startdescription": "“拜託了，能早點完成這份委託嗎？我的同僚急需這份資訊。”"
 		},
 		{
 			"id": "talk_poppy_wantscommission",
 			"label": "委託？",
-			"startdescription": "“噢，快點完成委託啊！我可等不及了。”"
+			"startdescription": "“噢，快點完成委託啊！我等不及了。”"
 		},
 		{
 			"id": "fulfilcommission_aladimhint",
 			"label": "完成博士的委託？",
-			"startdescription": "“唔，我想要的可不止這些。”[檢查委託細節。]"
+			"startdescription": "“唔，我期待的不只這些。”[檢查委託細節。]"
 		},
 		{
 			"id": "fulfilcommission_bechethint",
 			"label": "完成貝謝女士的委託？",
-			"startdescription": "“抱歉，不太對。和我想要的有些不一樣。”[檢查委託細節。]"
+			"startdescription": "“抱歉，差了點。和我想要的不太一樣。”[檢查委託細節。]"
 		},
 		{
 			"id": "fulfilcommission_janningshint",
 			"label": "完成伯爵的委託？",
-			"startdescription": "“不對不對不對，這可不行。我的要求可是相當具體的。”[檢查委託細節。]"
+			"startdescription": "“不，不，不對。我的需求非常具體。”[檢查委託細節。]"
 		},
 		{
 			"id": "fulfilcommission_poppyhint",
 			"label": "完成波比的委託？",
-			"startdescription": "“噢親愛的，我很抱歉。但我需要更多……深入的見解。”[檢查委託細節。]"
+			"startdescription": "“噢親愛的，很抱歉。但我需要更……深入的見解。”[檢查委託細節。]"
 		},
 		{
 			"id": "talk_nointeraction_mortal",
 			"label": "無話可說？",
-			"startdescription": "“我覺得我們之間無話可談了。”"
+			"startdescription": "“我們之間似乎無話可說。”"
 		}
 	]
 }
