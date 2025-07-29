@@ -3,97 +3,97 @@
 		{
 			"id": "ambition.apostleforge.emitfuel",
 			"label": "來自我們的塑形者的指引",
-			"startdescription": "我們的塑形者已賜我們以指引。我們應順之追求大功業的實現。"
+			"startdescription": "我們的塑形者已賜下指引。我們應依此追求大功業。"
 		},
 		{
 			"id": "work.apostleforge.majorvictory.postbetrayal",
 			"label": "儘管如此，大功業仍在繼續",
-			"startdescription": "<b>以火再造；終結不變之物；終結一切黑夜。</b>當破曉器開始旋轉，地球的自轉將減緩數分鐘。厄客德娜將用她的利爪握住鑰匙。羅盤將說出最後的言語。藍金將燃燒。狂暴之門將敞開。我們的塑形者將扮演鑄爐。而我；我將回到我們塑形者的身邊。我在很久之前就做出了決定。我將被吞食。",
+			"startdescription": "<b>以火再造；終結不變之物；終結一切黑夜。</b>當破曉器開始旋轉，地球的自轉將些微減緩。厄客德娜將用她的利爪握住鑰匙。羅盤將說出最後的言語。藍金將燃燒。狂暴之門將敞開。我們的塑形者將施行鑄爐之儀。而我——我將回歸塑形者身側。我已做出抉擇。我將被吞噬。",
 			"description": ""
 		},
 		{
 			"id": "work.apostleforge.majorvictory",
-			"label": "大功業最後的組成部分",
-			"startdescription": "<b>以火再造；終結不變之物；終結一切黑夜。</b>當破曉器開始旋轉，地球的自轉將減緩數分鐘。厄客德娜將用她的利爪握住鑰匙。羅盤將說出最後的言語。藍金將燃燒。狂暴之門將敞開。我們的塑形者將扮演鑄爐。我將被吞食。",
+			"label": "大功業的最後拼圖",
+			"startdescription": "<b>以火再造；終結不變之物；終結一切黑夜。</b>當破曉器開始旋轉，地球的自轉將些微減緩。厄客德娜將用她的利爪握住鑰匙。羅盤將說出最後的言語。藍金將燃燒。狂暴之門將敞開。我們的塑形者將施行鑄爐之儀。而我——我將被吞噬。",
 			"description": ""
 		},
 		{
 			"id": "work.apostleforge.createcore",
 			"label": "鑄造破曉器核心",
-			"startdescription": "憑藉我們塑形者的指引，及舊太陽的一星微粒，我們開始組建破曉裝置。",
-			"description": "我們一面做事一面哼唱，哼唱舊日的歌曲：“不改變者必當終結”。最終我們完成了核心。裝置現處於休眠態。鑄造之秘將賦予它生命。"
+			"startdescription": "憑藉我們塑形者的指引，及舊太陽的一星微粒，我們得以開始鑄造破曉器。",
+			"description": "我們一邊打造，一邊哼唱舊日之歌：“凡拒改變者，終將滅絕。”最終，我們完成了核心。破曉器正在沉眠。鑄造之秘將賦予它生命。"
 		},
 		{
 			"id": "work.apostleforge.awakencore",
 			"label": "喚醒破曉器核心",
-			"startdescription": "鑄爐，昕旦與弧月都記得太陽。我們將他們的回憶作為轉子線圈繞在核心之上，它會猛地閃爍出劇烈的意識。",
-			"description": "裝置伴著嗡嗡的轉動聲活了過來，且它如所有活物一樣，會飢餓。只有最高等級的煉金產物能餵飽它。"
+			"startdescription": "鑄爐、昕旦與弧月皆記得太陽。我們將他們的記憶組成電樞，環繞於核心之上——它將閃爍甦醒，意識如雷。",
+			"description": "裝置在低鳴之中甦醒。如同一切生命，它亦知飢餓。唯有至高的煉金之作足以供養它。"
 		},
 		{
 			"id": "work.apostleforge.upgradeingredientforgeb",
 			"label": "精煉苦黑鹽",
-			"startdescription": "憑藉我們塑形者的指引，我們可以把它精煉成更強大的東西。",
+			"startdescription": "憑藉我們塑形者的指引，我們可以將它精煉為更卓越之物。",
 			"description": "黑色淘澄為黃。"
 		},
 		{
 			"id": "work.apostleforge.upgradeingredientforged",
 			"label": "精煉黃化精華",
-			"startdescription": "憑藉我們塑形者的指引，我們可以把它精煉成更強大的東西。",
+			"startdescription": "憑藉我們塑形者的指引，我們可以將它精煉為更卓越之物。",
 			"description": "黃色熟成為赤。"
 		},
 		{
 			"id": "work.apostleforge.prepareingredientforgef",
 			"label": "精煉赤化精華",
-			"startdescription": "憑藉我們塑形者的指引，我們可以把它精煉成更強大的東西。",
-			"description": "赤色振顫為藍。"
+			"startdescription": "憑藉我們塑形者的指引，我們可以將它精煉為更卓越之物。",
+			"description": "赤色激盪為藍。"
 		},
 		{
 			"id": "work.apostleforge.baptisefollower",
 			"label": "選定羅盤",
-			"startdescription": "在我們的塑形者的協助下，我們送一名追隨者去尋找通往世界破綻處的道路。一旦該人找到道路，他便不再會找到任何其他事物。",
-			"description": "眼為餘燼，心為等待朝拜的廟宇。"
+			"startdescription": "在我們塑形者的協助下，我們將引領一名追隨者尋找世界破綻。一旦尋得，他將再無所見。",
+			"description": "眼如餘燼，心如空廟。"
 		},
 		{
 			"id": "explore.apostleforge.findflaw",
 			"label": "世界的破綻",
-			"startdescription": "極少有眼睛能看見這破綻，見者將永不能視物。",
-			"description": "這裡是諸歷史調和之地——是世界未被皮膚覆蓋的血肉。這裡的創口會造成別處七倍的傷害。若我們在此處引爆破曉器，或許可以擰轉插入狂暴之門的咬噬之鑰，讓我們的塑形者如當年的石源諸神般通過此門。"
+			"startdescription": "少有人能見此破綻，一旦見之，將再也見不到其他事物。",
+			"description": "這裡是諸歷史交匯之地——是世界肌膚裸露的裂口。此地每一道創口，皆將造成七倍之傷。若我們在此引爆破曉器，或可轉動狂暴之門的咬噬之鑰，使我們的塑形者如當年那群石之舊神般通過此門。"
 		},
 		{
 			"id": "talk.apostleforge.sulochanaechidna",
 			"label": "被引薦給E夫人",
-			"startdescription": "你們的塑形者想穿過狂暴之門，唔？他真的明白自己要做的是什麼嗎？我見鑄之長生者試過。大體來說，他們失敗了。不過我會給你想想辦法。我一個姐妹有你想要的鑰匙。我會和她聯繫……不過要花一些時間。",
+			"startdescription": "你們的塑形者想穿過狂暴之門，唔？他真的明白自己在做什麼嗎？我見過鑄之長生者嘗試。大體上，他們都失敗了。不過我會想辦法。我有個姐妹握有你想要的鑰匙。我會跟她聯繫……這得花點時間。",
 			"description": ""
 		},
 		{
 			"id": "talk.apostleforge.echidna",
 			"label": "對E夫人提出請求",
-			"startdescription": "“我當然會幫你了，小娃娃。找到我算你走運。我比其他姐妹好通融得多。不過我得要你一個可口的人……除非你給我一個不要的正當理由。”",
+			"startdescription": "“我當然會幫你了，小可愛。找到我算你走運，我比其他姐妹好說話得多。不過你得給我一個可口的人……或是一個夠好的理由。”",
 			"description": "“不接受？我可以再給你一點兒時間。”",
 			"slots": [
 				{
 					"id": "sacrifice",
-					"label": "一個可口的人，還是一個正當理由？"
+					"label": "一個可口的人，或一個好理由？"
 				}
 			]
 		},
 		{
 			"id": "talk.apostleforge.echidnahelp.independent",
 			"label": "可口的人",
-			"startdescription": "“你們兩個是鬧翻了嗎？不必擔心，一切都有我收拾。那麼聽我說——我是個說話算數的女人，卻不是個耐得住性子的女人。先等你準備好，然後我再辦了你那個可口的小麻煩。”",
-			"description": "“拿著這個，別弄丟。到時候我必去。”"
+			"startdescription": "“你們倆鬧翻了嗎？別擔心，我會處理好一切。聽好了——我說話算話，但我可不是什麼有耐性的女人。等你準備好了，我會親自去見你那個可口的小麻煩。”",
+			"description": "“拿著這個，別弄丟。我會到場。”"
 		},
 		{
 			"id": "talk.apostleforge.echidnahelp",
 			"label": "可口的人",
-			"startdescription": "“噢，好極了。那麼聽我說——我是個說話算數的女人，卻不是個耐得住性子的女人。等你準備好再把你的朋友給我。”",
-			"description": "“拿著這個，別弄丟。到時候我必去。”"
+			"startdescription": "“噢，好極了。聽好了——我說話算話，但我可不是什麼有耐性的女人。等你準備好了，再把你的朋友給我。”",
+			"description": "“拿著這個，別弄丟。我會到場。”"
 		},
 		{
 			"id": "talk.apostleforge.echidnahelp.sthydra",
-			"label": "正當理由",
-			"startdescription": "“看來我們同為為蛇哺乳之人。我的姐妹掛在嘴邊這樣一句話：‘麗姬亞永記不忘。’我會讓你滿意的。（你想過為什麼是五，不是七嗎？兩重歷史缺失掉了。那麼，為什麼只缺兩重呢？不過我們沒時間談這個了。我不是個耐煩得住性子的女人。）等你準備好再來叫我幫忙。”",
-			"description": "“拿著這個，別弄丟。到時候我必去。”"
+			"label": "好理由",
+			"startdescription": "“看來我們同為育蛇之人。如我姐妹常說：‘麗姬亞永記不忘。’就讓你如願吧。（你可曾想過，為何是五，不是七？有兩重歷史失落了。為什麼只缺兩重？不過現在沒空細談。我可不是什麼有耐性的女人。）等你準備好再來找我。”",
+			"description": "“拿著這個，別弄丟。我會到場。”"
 		}
 	]
 }
