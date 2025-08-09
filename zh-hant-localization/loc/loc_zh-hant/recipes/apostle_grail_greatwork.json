@@ -3,89 +3,89 @@
 		{
 			"id": "ambition.apostlegrail.emitfuel",
 			"label": "來自我們的愉悅者的指引",
-			"startdescription": "我們的愉悅者遣信使送來一小瓶他最神聖的血液。"
+			"startdescription": "我們的愉悅者派遣一名信使，送來一小瓶祂最神聖的血液。"
 		},
 		{
 			"id": "work.apostlegrail.majorvictory.postbetrayal",
-			"label": "謝肉祭如期舉行",
-			"startdescription": "為與杯同在，我們的愉悅者須得給予生命，奪取生命，並永不饜足。於是我則擔任謝肉祭的壓軸大菜。凡愉悅者的孩子的身體都符合要求，但罪犯天孽者不能大張旗鼓地進入漫宿。所以我站出來，在好歹逃過特里豐的誘惑之後，我將獻出己身，任由瑪麗內特醃製，任七重恩饌和三番滋味淹沒我，而當第一口咬下時，我簡直沒有什麼感覺；我簡直完全沒有感覺。"
+			"label": "儘管如此，謝肉祭如期舉行",
+			"startdescription": "為與杯同在，我們的愉悅者須得給予生命、奪取生命，並永不饜足；因此，我擔任謝肉祭的壓軸大菜。凡愉悅者血肉化生者皆可符合要求，但犯下天孽之罪者無法以凱旋之姿進入漫宿，所以由我站出來。儘管曾受特里豐的誘惑，我仍獻出己身，任由瑪麗內特醃漬調理，讓七重恩饌與三番滋味將我淹沒；當第一口咬下時，我幾乎沒有感覺——好似從一開始便毫無所覺。"
 		},
 		{
 			"id": "work.apostlegrail.majorvictory",
-			"label": "謝肉祭所需的最後環節",
-			"startdescription": "為與杯同在，我們的愉悅者須得給予生命，奪取生命，並永不饜足。於是我則擔任謝肉祭的壓軸大菜。凡愉悅者的孩子的身體都能符合要求，但罪犯天孽者不能大張旗鼓地進入漫宿。於是由我獻出己身，任由瑪麗內特醃製，任七重恩饌和三番滋味淹沒我，而當第一口咬下時，我簡直沒有什麼感覺；我簡直完全沒有感覺。"
+			"label": "謝肉祭的最後環節",
+			"startdescription": "為與杯同在，我們的愉悅者須得給予生命、奪取生命，並永不饜足；因此，我擔任謝肉祭的壓軸大菜。凡愉悅者血肉化生者皆可符合要求，但犯下天孽之罪者無法以凱旋之姿進入漫宿。所以由我站出來，獻出己身，並任由瑪麗內特醃漬調理，讓七重恩饌與三番滋味將我淹沒；當第一口咬下時，我幾乎沒有感覺——好似從一開始便毫無所覺。"
 		},
 		{
 			"id": "explore.apostlegrail.purchase.apostlegrail.pillar3",
 			"label": "競拍稀有香料",
-			"startdescription": "我們的愉悅者的血可以在特定鑑賞家處購買特定貨物。謝肉祭的一切用品須得完美無缺。"
+			"startdescription": "我們愉悅者的血，可用於向特定鑑賞家購買特殊貨物。謝肉祭的一切須得完美無缺。"
 		},
 		{
 			"id": "work.apostlegrail.upgrade.apostlegrail.pillar3.finished",
 			"label": "七重恩饌已備齊",
-			"startdescription": "備齊七重恩饌和三番滋味：鹹、甜、至甜。我們這些最尊貴的宴主理應享受最尊貴的待遇。"
+			"startdescription": "備齊七重恩饌和三番滋味：鹹、甜、至甜。我們這些宴主中的上選，將以此塗抹己身。"
 		},
 		{
 			"id": "work.apostlegrail.upgrade.apostlegrail.pillar3",
 			"label": "準備七重恩饌",
-			"startdescription": "氣味和滋味都得精確符合食譜所記。只有這樣才能激發我和我的同僚足夠的胃口——高漲到醒時的世界裡從未有過的程度。",
+			"startdescription": "氣味與滋味都得精確符合食譜所記。唯有如此，我與同僚方能變得足夠誘人——令食慾高漲至醒世間前所未見的程度。",
 			"description": "我找不到需要添加的某種香味或滋味。",
 			"slots": [
 				{
 					"id": "enhancement",
 					"label": "加料",
-					"description": "為謝肉祭加入一點特別的成分，確保其執行順利無誤。"
+					"description": "為謝肉祭加點特別成分，確保其恰到好處。"
 				}
 			]
 		},
 		{
 			"id": "work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.grail",
 			"label": "制花人的贈禮",
-			"startdescription": "如果我們死去，我們也仍活在殺死我們的人身上。"
+			"startdescription": "即使我們死去，我們也仍會活在殺死我們的人的身上。"
 		},
 		{
 			"id": "work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.heart",
 			"label": "雅努斯的滋味",
-			"startdescription": "雅努斯是除建立支配外，不管其他事務的神明。雅努斯是非死卻已死的聖徒。雅努斯是連結“不可能”與“注定”的門扉。"
+			"startdescription": "雅努斯是未曾崛起卻依舊主宰的神祇；雅努斯是未曾死去卻早已長逝的聖徒；雅努斯是連結“不可能”與“必然”的門扉。"
 		},
 		{
 			"id": "work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.moth",
 			"label": "漆黑亞麻的滋味",
-			"startdescription": "我們必須忘記自己原為何物。"
+			"startdescription": "我們必須忘卻自己曾為何物。"
 		},
 		{
 			"id": "talk.apostlegrail.createpillar4",
 			"label": "開始準備謝肉祭",
-			"startdescription": "在我們的愉悅者證實他的胃口之時，我們將舉辦一場盛大的慶祝。",
-			"description": "只能等我們知道赤杯的影響何時達到鼎盛，我們才能最終敲定日期。但是我們現在就可以，且應該，開始挑選宴主的組成者。"
+			"startdescription": "當我們的愉悅者展現祂的食慾之時，我們將舉辦一場盛大的慶典。",
+			"description": "當我們知道赤杯的影響何時達到鼎盛時，才能敲定最終日期。但我們現在就可以——且必須——開始挑選宴主。"
 		},
 		{
 			"id": "talk.apostlegrail.upgradepillar4.attempt",
 			"label": "邀請最後一名賓客",
-			"startdescription": "若持鑰匙者不來，一切準備皆徒勞。",
-			"description": "我們的持鑰匙者還未就位",
+			"startdescription": "若持鑰者不來，這一切準備皆徒勞。",
+			"description": "我們的持鑰者尚未現身",
 			"slots": [
 				{
 					"id": "finalguest",
-					"label": "持鑰匙者"
+					"label": "持鑰者"
 				}
 			]
 		},
 		{
 			"id": "talk.apostlegrail.upgradepillar4.inprogress.attempt",
-			"label": "進一步增多宴主",
-			"startdescription": "我們得招徠更多參加者。我們的幫手有：貪婪、好奇、淫慾和徹頭徹尾的無所事事。",
-			"description": "我們已經把期待的慾火煽動至極限。",
+			"label": "添增宴主",
+			"startdescription": "我們得招徠更多參加者。我們的幫手有：貪婪、好奇、淫慾，以及單純的懶散者。",
+			"description": "我們未將渴望之火煽得足夠旺盛。",
 			"slots": [
 				{
 					"id": "more",
-					"label": "還要更多"
+					"label": "更多"
 				}
 			]
 		},
 		{
 			"id": "talk.apostlegrail.upgradepillar4.marinetteready",
-			"label": "持鑰匙者",
+			"label": "持鑰者",
 			"startdescription": "“<sprite name=winter>。”"
 		},
 		{
@@ -96,12 +96,12 @@
 		{
 			"id": "talk.apostlegrail.upgradepillar4.succeed",
 			"label": "宴主增加中",
-			"startdescription": "神聖與神秘並重的名單上需要更多名字的出現，盛大的夜晚需要更多面孔的出現。"
+			"startdescription": "神聖與神秘並重的名單上添了更多名字；盛大的夜晚添了更多面孔。"
 		},
 		{
 			"id": "talk.apostlegrail.sulochanamarinette",
 			"label": "被引薦給操線仙娥",
-			"startdescription": "“你真的要這麼做嗎？”，蘇洛恰那一面沉思一面用一隻腳的靴底碾滅她抽剩的香菸。“那我離開，現在就走。我會把你的話遞給我說的那個姐妹。我確定她會來的……只要血管夠。”",
+			"startdescription": "“你真的要這麼做嗎？”蘇洛恰那一邊沉思一邊用靴底碾滅菸蒂。“那我要走了，馬上。別擔心，我會把你的話傳給那位姐妹。我確定她會來的……只要血夠多。”",
 			"description": ""
 		},
 		{
@@ -124,12 +124,12 @@
 		{
 			"id": "talk.apostlegrail.marinettenext.hireling",
 			"label": "血",
-			"startdescription": "瑪麗內特一般把皮膚剩下。有時把骨骼剩下。她滿會急切地食用掉我們雇來的幫手，但幫手通常會反抗，且最後場面通常不太體面。"
+			"startdescription": "瑪麗內特總是留下皮膚，有時會留下骨骼。她會急切地吞食我們雇來的幫手，但這些幫手通常會反抗，最後總會鬧出一番騷動。"
 		},
 		{
 			"id": "talk.apostlegrail.marinettenext.follower",
 			"label": "血",
-			"startdescription": "瑪麗內特一般會把皮膚剩下。有時把骨骼剩下。若我們讓我們忠實的追隨者閉上雙眼，事情便能很快辦完。"
+			"startdescription": "瑪麗內特總是留下皮膚，有時會留下骨骼。若我們讓忠實的追隨者閉上雙眼，就會很快結束。"
 		}
 	]
 }
