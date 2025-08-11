@@ -32,19 +32,19 @@
 		},
 		{
 			"id": "explorevaultguardian_serpent_highknock",
-			"label": "我們拜請蟻母，自創口現身之神",
+			"label": "我們呼喚蟻母，祂自創口現身",
 			"startdescription": "巨蛇之口足以吞人，其舌之厚堪比人的肩膀。不過諒必它不會小瞧我們的力量。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_serpent_midknock",
-			"label": "我們拜請蟻母，盤伏環繞之神",
+			"label": "我們呼喚蟻母，祂盤伏環繞",
 			"startdescription": "巨蛇齒泛寒光，身長足以纏繞房屋。大概它不會小瞧我們的力量。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_serpent_lowknock",
-			"label": "我們拜請蟻母，洞開之神",
+			"label": "我們呼喚蟻母，祂洞開傷口",
 			"startdescription": "巨蛇抬起身軀，好似河水翻湧，細長的瞳孔中滿是飢餓。也許它不會小瞧我們的力量。",
 			"description": "."
 		},
@@ -57,7 +57,7 @@
 		{
 			"id": "explorevaultguardian_serpent_success_knock",
 			"label": "巨蛇的哀傷",
-			"startdescription": "它垂下巨大的頭，無瞼的雙眼滲出水氣。它在哭嗎？對於我們拜請的神靈，它的長姐，它記得些什麼呢？",
+			"startdescription": "它垂下巨大的頭，無瞼的雙眼滲出水氣。它在哭嗎？對於我們呼喚的神靈，它的長姐，它記得些什麼呢？",
 			"description": "."
 		},
 		{
@@ -254,19 +254,19 @@
 		},
 		{
 			"id": "explorevaultguardian_dead_highwinter",
-			"label": "我們拜請骨白鴿，通曉亡者姓名之神",
+			"label": "我們呼喚骨白鴿，祂通曉亡者姓名",
 			"startdescription": "亡者在我們的視野邊緣圍成一圈，彷彿是焦慮的夢。我們周圍的空氣帶上了<b>冬</b>天陰影的寒意，這寒意它們肯定認得。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_dead_midwinter",
-			"label": "我們拜請骨白鴿，不受欺騙之神",
+			"label": "我們呼喚骨白鴿，祂不受欺騙",
 			"startdescription": "亡者緊緊地望著我們，彷彿聖徒的雕像般面無表情。但我們身上帶有<b>冬</b>之力，亡者大概能認出此力。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_dead_lowwinter",
-			"label": "我們拜請骨白鴿，被剝奪至奪無可奪之神",
+			"label": "我們呼喚骨白鴿，祂被剝奪至奪無可奪",
 			"startdescription": "亡者在黑暗中沸騰翻滾，但我們已經受了眾位<b>冬</b>之司辰的觸摸。也許這些亡者能辨識出這點。",
 			"description": "."
 		},
@@ -302,37 +302,37 @@
 		},
 		{
 			"id": "explorevaultguardian_soucouyants_highlantern",
-			"label": "我們拜請守夜人，照明驅暗之神",
+			"label": "我們呼喚守夜人，祂照明驅暗",
 			"startdescription": "我們的力量夠強，想必能和它們保持距離。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_soucouyants_midlantern",
-			"label": "我們拜請守夜人，無憐憫心之神",
+			"label": "我們呼喚守夜人，祂無憐憫心",
 			"startdescription": "我們的力量應該足以使它們不敢靠近——但它們警戒著，隨時準備抓住我們的疏漏。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_soucouyants_lowlantern",
-			"label": "我們拜請守夜人，指引前路之神",
+			"label": "我們呼喚守夜人，祂指引前路",
 			"startdescription": "很有可能我們的力量會確保我們安全通過這人擠人的夜晚。完全有可能。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_soucouyants_highmoth",
-			"label": "我們拜請飛蛾，於林地樹間尋覓之神",
+			"label": "我們呼喚飛蛾，祂於林地樹間尋覓",
 			"startdescription": "飛蛾能夠在這人潮攢動的森林之夜發揮神力。我們將隱秘而安全地通過……除非我們特別不走運。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_soucouyants_midmoth",
-			"label": "我們拜請飛蛾，於顱內振翅之神",
+			"label": "我們呼喚飛蛾，祂於顱內振翅",
 			"startdescription": "我們的力量應該足以瞞過這些在夜裡飛翔的乾渴妖怪，讓它們失去興趣。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_soucouyants_lowmoth",
-			"label": "我們拜請飛蛾，通體斑駁之神",
+			"label": "我們呼喚飛蛾，祂通體斑駁",
 			"startdescription": "飛蛾會在森林斑駁的陰影中給我們一些可能性——但也只是可能性而已。",
 			"description": "."
 		},

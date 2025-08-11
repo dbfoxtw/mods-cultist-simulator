@@ -914,42 +914,42 @@
         {
             "id": "venerationedge",
             "label": "崇敬：刃",
-            "description": "該組織崇敬<b>刃</b>之準則，我們特以上校和獅子匠之名拜請<b>刃</b>之力。"
+            "description": "該組織崇敬<b>刃</b>之準則，我們奉上校與獅子匠等之名，呼喚<b>刃</b>之力。"
         },
         {
             "id": "venerationforge",
             "label": "崇敬：鑄",
-            "description": "該組織崇敬<b>鑄</b>之準則，我們特以白日鑄爐本尊和昕旦之名拜請<b>鑄</b>之力。"
+            "description": "該組織崇敬<b>鑄</b>之準則，我們奉白日鑄爐本尊與昕旦之名，呼喚<b>鑄</b>之力。"
         },
         {
             "id": "venerationgrail",
             "label": "崇敬：杯",
-            "description": "該組織崇敬<b>杯</b>之準則，我們特以赤杯本尊和雙生女巫之名拜請<b>杯</b>之力。"
+            "description": "該組織崇敬<b>杯</b>之準則，我們奉赤杯本尊與雙生女巫之名，呼喚<b>杯</b>之力。"
         },
         {
             "id": "venerationheart",
             "label": "崇敬：心",
-            "description": "該組織崇敬<b>心</b>之準則，我們特以轟雷之皮和絲毧之名拜請<b>心</b>之力。"
+            "description": "該組織崇敬<b>心</b>之準則，我們奉轟雷之皮與絲毧之名，呼喚<b>心</b>之力。"
         },
         {
             "id": "venerationknock",
             "label": "崇敬：啟",
-            "description": "該組織崇敬<b>啟</b>之準則，我們特以蟻母和弧月之名拜請<b>啟</b>之力。"
+            "description": "該組織崇敬<b>啟</b>之準則，我們奉蟻母與弧月之名，呼喚<b>啟</b>之力。"
         },
         {
             "id": "venerationlantern",
             "label": "崇敬：燈",
-            "description": "該組織崇敬<b>燈</b>之準則，我們特以瞳中扉和制花人之名拜請<b>燈</b>之力。"
+            "description": "該組織崇敬<b>燈</b>之準則，我們奉瞳中扉與制花人之名，呼喚<b>燈</b>之力。"
         },
         {
             "id": "venerationmoth",
             "label": "崇敬：蛾",
-            "description": "該組織崇敬<b>蛾</b>之準則，我們特以飛蛾本尊和雙生巫女之名拜請<b>蛾</b>之力。"
+            "description": "該組織崇敬<b>蛾</b>之準則，我們奉飛蛾本尊與雙生巫女之名，呼喚<b>蛾</b>之力。"
         },
         {
             "id": "venerationwinter",
             "label": "崇敬：冬",
-            "description": "該組織崇敬<b>冬</b>準則，我們特以殘陽和雙角利斧之名拜請<b>冬</b>之力。"
+            "description": "該組織崇敬<b>冬</b>之準則，我們奉殘陽與雙角利斧之名，呼喚<b>冬</b>之力。"
         },
         {
             "id": "textlatin",

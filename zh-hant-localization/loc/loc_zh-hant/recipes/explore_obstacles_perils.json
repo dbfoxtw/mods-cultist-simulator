@@ -14,37 +14,37 @@
 		},
 		{
 			"id": "explorevaultperil_treacherousground_highlantern",
-			"label": "我們拜請守夜人，指引前路之神",
+			"label": "我們呼喚守夜人，祂指引前路",
 			"startdescription": "守夜人令我們視物清晰，我們諒必不會走錯路。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_treacherousground_midlantern",
-			"label": "我們拜請守夜人，照明驅暗之神",
+			"label": "我們呼喚守夜人，祂照明驅暗",
 			"startdescription": "守夜人將美德賜給我們的燈火，令我們用其避開險境。大概能吧。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_treacherousground_lowlantern",
-			"label": "我們拜請守夜人，無憐憫心之神",
+			"label": "我們呼喚守夜人，祂無憐憫心",
 			"startdescription": "守夜人對我們和阻攔我們的障礙都不會容情。我們能否通過要看運氣。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_treacherousground_highforge",
-			"label": "我們拜請昕旦，永葆平衡之神。",
+			"label": "我們呼喚昕旦，祂永葆平衡。",
 			"startdescription": "我們祈求昕旦，<b>鑄</b>與<b>冬</b>之司辰護佑。我們將開闢一條自己的通路。成功近在咫尺。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_treacherousground_midforge",
-			"label": "我們拜請昕旦，平息靖聲之神。",
+			"label": "我們呼喚昕旦，祂平息靖聲。",
 			"startdescription": "昕旦乃<b>鑄</b>與<b>冬</b>之司辰，擁有平靖躁動大地的神力。大概我們能平安生還。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_treacherousground_lowforge",
-			"label": "我們拜請昕旦，先於太陽而來之神",
+			"label": "我們呼喚昕旦，祂先於太陽而來",
 			"startdescription": "昕旦乃<b>鑄</b>與<b>冬</b>之司辰。<b>鑄</b>帶來力量，然而霧氣現已升騰凝聚。也許我們能成功通過。",
 			"description": "."
 		},
@@ -74,19 +74,19 @@
 		},
 		{
 			"id": "explorevaultperil_forest_highmoth",
-			"label": "我們拜請飛蛾，於林地樹間尋覓之神",
+			"label": "我們呼喚飛蛾，祂於林地樹間尋覓",
 			"startdescription": "漫宿下面的林地的黑暗更甚此地。飛蛾指引我們的腳步。成功近在咫尺。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_forest_midmoth",
-			"label": "我們拜請飛蛾，通體斑駁之神",
+			"label": "我們呼喚飛蛾，祂通體斑駁",
 			"startdescription": "路上映出斑駁陰影。也許這是飛蛾在為我們指路。大概是這樣的。大概我們能成功通過。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_forest_lowmoth",
-			"label": "我們拜請飛蛾，於顱內振翅之神",
+			"label": "我們呼喚飛蛾，祂於顱內振翅",
 			"startdescription": "我們於危難中祈求飛蛾護佑。森林以拍打的翅，以想像中的眼脈動著。也許我們能成功通過。",
 			"description": "."
 		},
@@ -134,19 +134,19 @@
 		},
 		{
 			"id": "explorevaultperil_mountains_highwinter",
-			"label": "我們拜請昕旦，永葆平衡之神。",
+			"label": "我們呼喚昕旦，祂永葆平衡。",
 			"startdescription": "名為昕旦的司辰慣於寒冷。她令我們諒必不至墜落。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_mountains_midwinter",
-			"label": "我們拜請昕旦，平息靖聲之神。",
+			"label": "我們呼喚昕旦，祂平息靖聲。",
 			"startdescription": "昕旦擅<b>冬</b>。她大概能令我們不遭雪崩。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_mountains_lowwinter",
-			"label": "我們拜請昕旦，先於太陽而去之神",
+			"label": "我們呼喚昕旦，祂先於太陽而去",
 			"startdescription": "對於通曉<b>冬</b>天、名為昕旦的司辰來說，黎明前的時辰是神聖的。若我們奮起反抗，求她護佑，或許她會保我周全。",
 			"description": "."
 		},
@@ -194,20 +194,20 @@
 		},
 		{
 			"id": "explorevaultperil_desert_highgrail",
-			"label": "我們拜請雙生女巫，身為珍珠之神",
+			"label": "我們呼喚雙生女巫，祂身為珍珠",
 			"startdescription": "雙生女巫應能護我穿過乾涸地。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_desert_midgrail",
-			"label": "我們拜請雙生女巫，不可觸碰之神",
-			"startdescription": "我們拜請雙生女巫護我免遭太陽的炙烤和蜃景的迷惑。我們應能順利通過。",
+			"label": "我們呼喚雙生女巫，祂不可觸碰",
+			"startdescription": "我們呼喚雙生女巫護我免遭太陽的炙烤和蜃景的迷惑。我們應能順利通過。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_desert_lowgrail",
-			"label": "我們拜請雙生女巫，不可分離之神",
-			"startdescription": "我們拜請雙生女巫保護我們不因乾涸地帶的沙暴失散。這樣應該足夠了。",
+			"label": "我們呼喚雙生女巫，祂不可分離",
+			"startdescription": "我們呼喚雙生女巫保護我們不因乾涸地帶的沙暴失散。這樣應該足夠了。",
 			"description": "."
 		},
 		{
@@ -254,19 +254,19 @@
 		},
 		{
 			"id": "explorevaultperil_sea_highheart",
-			"label": "我們拜請雙生女巫，不可觸碰之神",
+			"label": "我們呼喚雙生女巫，祂不可觸碰",
 			"startdescription": "風暴因轟雷之皮而起，又因雙生巫女而息。恰當的言詞應該能夠帶我們平安駛過這片海域。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_sea_midheart",
-			"label": "我們拜請雙生女巫，不可分離之神",
+			"label": "我們呼喚雙生女巫，祂不可分離",
 			"startdescription": "若風暴來襲，雙生巫女能保我們的船員和船隻無虞。大概能吧。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_sea_lowheart",
-			"label": "我們拜請雙生女巫，身為珍珠之神",
+			"label": "我們呼喚雙生女巫，祂身為珍珠",
 			"startdescription": "雙生女巫並未來自於海，卻行於海邊。她的庇護或許已足夠保護我們。",
 			"description": "."
 		},

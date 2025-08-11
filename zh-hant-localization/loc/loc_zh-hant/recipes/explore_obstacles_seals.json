@@ -14,37 +14,37 @@
 		},
 		{
 			"id": "explorevaultseal_hiddendoor_highlantern",
-			"label": "我們拜請守夜人，照明驅暗之神",
+			"label": "我們呼喚守夜人，祂照明驅暗",
 			"startdescription": "我們諒必能夠發現暗門。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultseal_hiddendoor_midlantern",
-			"label": "我們拜請守夜人，指引前路之神",
+			"label": "我們呼喚守夜人，祂指引前路",
 			"startdescription": "我們的五感變得敏銳。我們應該能夠找到暗門。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultseal_hiddendoor_lowlantern",
-			"label": "我們拜請守夜人，無憐憫心之神",
+			"label": "我們呼喚守夜人，祂無憐憫心",
 			"startdescription": "我們攜帶著光，或許能夠找到暗門。這可要費一番功夫。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultseal_hiddendoor_highknock",
-			"label": "我們拜請拾灘鴉，明曉失物之神",
+			"label": "我們呼喚拾灘鴉，祂明曉失物",
 			"startdescription": "我們擁有強大的洞開之力，諒必能夠發現暗門。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultseal_hiddendoor_midknock",
-			"label": "我們拜請拾灘鴉，開啟大地之神",
+			"label": "我們呼喚拾灘鴉，祂開啟大地",
 			"startdescription": "我們擅長尋找隱藏道路，大概能發現暗門。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultseal_hiddendoor_lowknock",
-			"label": "我們拜請拾灘鴉，轄無主之物之神",
+			"label": "我們呼喚拾灘鴉，祂轄無主之物",
 			"startdescription": "我們對“開啟”一事還有些能耐，或許能夠找到暗門。這可要費一番功夫。",
 			"description": "."
 		},
@@ -74,37 +74,37 @@
 		},
 		{
 			"id": "explorevaultseal_wardeddoor_highforge",
-			"label": "我們拜請白日鑄爐，終結所有夜晚之神",
+			"label": "我們呼喚白日鑄爐，祂終結所有夜晚",
 			"startdescription": "我們諒必能夠打碎這扇上鎖的門。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultseal_wardeddoor_midforge",
-			"label": "我們拜請白日鑄爐，終結不變之神",
+			"label": "我們呼喚白日鑄爐，祂終結不變",
 			"startdescription": "我們準備了工具，應該能夠打穿這扇上鎖的門。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultseal_wardeddoor_lowforge",
-			"label": "我們拜請白日鑄爐，以火再造之神",
+			"label": "我們呼喚白日鑄爐，祂以火再造",
 			"startdescription": "我們準備好了鑄爐之火，或許能夠打穿這扇上鎖的門。這可要費一番功夫。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultseal_wardeddoor_highknock",
-			"label": "我們拜請雙角斧，待於門關之神。",
+			"label": "我們呼喚雙角斧，祂待於門關。",
 			"startdescription": "我們擁有強大的洞開之力，諒必能夠能打碎這扇上鎖的門。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultseal_wardeddoor_midknock",
-			"label": "我們拜請雙角斧，因時允行之神",
+			"label": "我們呼喚雙角斧，祂因時允行",
 			"startdescription": "我們擅長打通上鎖的密道，大概能打穿這扇上鎖的門。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultseal_wardeddoor_lowknock",
-			"label": "我們拜請雙角斧，兩面雙刃之神",
+			"label": "我們呼喚雙角斧，祂兩面雙刃",
 			"startdescription": "我們對“開啟”一事還有些能耐，或許能夠打穿這扇上鎖的門。這可要費一番功夫。",
 			"description": "."
 		},

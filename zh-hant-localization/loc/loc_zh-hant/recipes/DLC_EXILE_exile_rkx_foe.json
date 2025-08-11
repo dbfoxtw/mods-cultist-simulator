@@ -110,7 +110,7 @@
 		{
 			"id": "rkx.foe.attack.success.wrongdistraction",
 			"label": "嗤之以鼻",
-			"startdescription": "@#op.cold|“我於雪中 <i>誕生</i>。”\n#op.heat|“正是我想要的天氣。”\n#op.sea|“好主意，我會用你屍體餵鯊魚的。”\n#op.cats|“過來，咪咪，來這裡。”\n#op.heights|“你有得摔呢。”\n#op.faith|“選錯神了。”\n#op.flowermaker|“我拜請制花人，祂永遠有我渴求之物……”\n#op.horned|“雙角利斧，割合剖聚之神。來啊，咱們分析一下你是個什麼貨色。”\n#op.wolf|“很恰當，你將屍骨無存。” [這並非大敵的弱點。]@"
+			"startdescription": "@#op.cold|“我於雪中 <i>誕生</i>。”\n#op.heat|“正是我想要的天氣。”\n#op.sea|“好主意，我會用你屍體餵鯊魚的。”\n#op.cats|“過來，咪咪，來這裡。”\n#op.heights|“你有得摔呢。”\n#op.faith|“選錯神了。”\n#op.flowermaker|“我呼喚制花人，祂永遠有我渴求之物……”\n#op.horned|“雙角利斧，割合剖聚之神。來啊，咱們分析一下你是個什麼貨色。”\n#op.wolf|“很恰當，你將屍骨無存。” [這並非大敵的弱點。]@"
 		},
 		{
 			"id": "rkx.foe.attack.success",
