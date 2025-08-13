@@ -3,7 +3,7 @@
 		{
 			"id": "explorevaultcurse_dread_encounter",
 			"label": "涸魂詛咒",
-			"startdescription": "前方的寶藏被涸魂詛咒保護著。若是沒有<b>燈</b>或者<b>心</b>，這詛咒會跟著我們回去，吸乾我們的魂。",
+			"startdescription": "前方的寶藏籠罩在涸魂詛咒之下。若是沒有<b>燈</b>或者<b>心</b>，這詛咒會跟著我們回去，使靈魂枯竭。",
 			"slots": [
 				{
 					"id": "Assistance",
@@ -21,49 +21,49 @@
 		{
 			"id": "explorevaultcurse_dread_midheart",
 			"label": "我們呼喚環杉，祂纏繞裹覆",
-			"startdescription": "我們的<b>心</b>相足夠強大，能夠平息這一詛咒……大概能吧。",
+			"startdescription": "我們的<b>心</b>相足夠強大，能夠平息這一詛咒……大概吧。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultcurse_dread_lowheart",
 			"label": "我們呼喚環杉，祂甘美多汁",
-			"startdescription": "或許環杉，古老而豐饒的司辰，能夠用她的神力幫我們抵禦詛咒。又或許不能。",
+			"startdescription": "或許古老而豐饒的司辰——環杉，能庇護我們免受詛咒。又或許不能。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultcurse_dread_highlantern",
 			"label": "我們呼喚上校，祂不容違抗",
-			"startdescription": "上校是位兇猛，卻通曉“光”的司辰，他曾經從比這嚴酷得多的境遇下生還。他的神力諒必能夠保護我們。",
+			"startdescription": "上校是位兇猛卻通曉“光”的司辰，他曾從比這嚴酷得多的境遇中生還。他的神力諒必能保護我們。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultcurse_dread_midlantern",
 			"label": "我們呼喚上校，祂身負傷疤",
-			"startdescription": "上校是位身負傷疤，卻通曉“光”的司辰，他曾經從比這嚴酷得多的境遇下生還。他的神力應該能夠保護我們。",
+			"startdescription": "上校是位身負傷疤卻通曉“光”的司辰，他曾經從比這嚴酷得多的境遇中生還。他的神力應該能保護我們。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultcurse_dread_lowlantern",
-			"label": "我們呼喚上校，祂目盲",
-			"startdescription": "上校是位通曉“光”的司辰，但他還記得光嗎？他的神力目前或許能夠保護我們。",
+			"label": "我們呼喚上校，祂雙目失明",
+			"startdescription": "上校是位通曉“光”的司辰，但他還記得光嗎？他的神力或許能夠保護我們。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultcurse_dread_success",
 			"label": "詛咒褪去",
-			"startdescription": "我們的力量比詛咒之力要強得多。這詛咒別想纏上我們。",
+			"startdescription": "我們的力量比詛咒之力要強得多。這詛咒無法傷及我們。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultcurse_dread_failure",
-			"label": "詛咒附身",
-			"startdescription": "擅闖這樣的地方是要付出代價的。不久之後，這個詛咒便會勒住我們。",
+			"label": "詛咒纏身",
+			"startdescription": "擅闖這樣的地方是要付出代價的。不久之後，這個詛咒會緊緊勒住我們。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultcurse_visions_encounter",
 			"label": "第五目詛咒",
-			"startdescription": "前方的寶藏被第五目詛咒保護著。若是沒有<b>冬</b>或者<b>心</b>，這詛咒會跟著我們回去，並開啟靈魂之眼。",
+			"startdescription": "前方的寶藏籠罩在第五目詛咒之下。若是沒有<b>冬</b>或者<b>心</b>，這詛咒會跟著我們回去，並撕開靈魂之眼。",
 			"slots": [
 				{
 					"id": "Assistance",
@@ -81,49 +81,49 @@
 		{
 			"id": "explorevaultcurse_visions_midheart",
 			"label": "我們呼喚環杉，祂纏繞裹覆",
-			"startdescription": "我們的<b>心</b>相足夠強大，能夠平息這一詛咒……大概能吧。",
+			"startdescription": "我們的<b>心</b>相足夠強大，能夠平息這一詛咒……大概吧。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultcurse_visions_lowheart",
 			"label": "我們呼喚環杉，祂甘美多汁",
-			"startdescription": "或許環杉，古老而豐饒的司辰，能夠用她的神力幫我們抵禦詛咒。又或許不能。",
+			"startdescription": "或許古老而豐饒的司辰——環杉，能庇護我們免受詛咒。又或許不能。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultcurse_visions_highwinter",
-			"label": "我們呼喚悼歌詩人，祂被剝奪至奪無可奪",
-			"startdescription": "悼歌詩人知曉已經失落之物。他的神力諒必能夠保護我們。",
+			"label": "我們呼喚悼歌詩人，祂已無可奪",
+			"startdescription": "悼歌詩人知曉已經失落之物。他的神力諒必能保護我們。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultcurse_visions_midwinter",
 			"label": "我們呼喚悼歌詩人，祂不受欺騙",
-			"startdescription": "悼歌詩人能分開真實與存於回憶者。他的神力應該能夠保護我們。",
+			"startdescription": "悼歌詩人能分開真實與回憶之物。他的神力應該能保護我們。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultcurse_visions_lowwinter",
-			"label": "我們呼喚悼歌詩人，祂一一喚亡者以姓名",
+			"label": "我們呼喚悼歌詩人，祂逐一喚亡者之名",
 			"startdescription": "悼歌詩人的嘲諷與哀傷或許能平息這些幻象。誰知道呢？",
 			"description": "."
 		},
 		{
 			"id": "explorevaultcurse_visions_success",
 			"label": "詛咒褪去",
-			"startdescription": "我們的力量比詛咒之力要強得多。這詛咒別想纏上我們。",
+			"startdescription": "我們的力量比詛咒之力要強得多。這詛咒無法傷及我們。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultcurse_visions_failure",
-			"label": "詛咒附身",
-			"startdescription": "擅闖這樣的地方是要付出代價的。不久之後，這個詛咒便會勒住我們。",
+			"label": "詛咒纏身",
+			"startdescription": "擅闖這樣的地方是要付出代價的。不久之後，這個詛咒會緊緊勒住我們。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultcurse_affliction_encounter",
 			"label": "遲息詛咒",
-			"startdescription": "前方的寶藏被遲息詛咒保護著。若是沒有<b>杯</b>或者<b>心</b>，這詛咒會跟著我們回去，並且在我們的肺裡播種孢子。",
+			"startdescription": "前方的寶藏籠罩在遲息詛咒之下。若是沒有<b>杯</b>或者<b>心</b>，這詛咒會跟著我們回去，如孢子般滲入我們的肺部。",
 			"slots": [
 				{
 					"id": "Assistance",
@@ -141,49 +141,49 @@
 		{
 			"id": "explorevaultcurse_affliction_midheart",
 			"label": "我們呼喚環杉，祂纏繞裹覆",
-			"startdescription": "我們的<b>心</b>相足夠強大，能夠平息這一詛咒……大概能吧。",
+			"startdescription": "我們的<b>心</b>相足夠強大，能夠平息這一詛咒……大概吧。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultcurse_affliction_lowheart",
 			"label": "我們呼喚環杉，祂甘美多汁",
-			"startdescription": "或許環杉，古老而豐饒的司辰，能夠用她的神力幫我們抵禦詛咒。又或許不能。",
+			"startdescription": "或許古老而豐饒的司辰——環杉，能庇護我們免受詛咒。又或許不能。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultcurse_affliction_highgrail",
-			"label": "我們呼喚赤杯，祂給與生命",
-			"startdescription": "赤杯的活力諒必足以保護我們免於詛咒的傷害。",
+			"label": "我們呼喚赤杯，祂給予生命",
+			"startdescription": "赤杯的活力諒必足以保護我們免受詛咒。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultcurse_affliction_midgrail",
 			"label": "我們呼喚赤杯，祂奪取生命",
-			"startdescription": "赤杯的飢餓應該能夠保護我們免於詛咒的傷害。",
+			"startdescription": "赤杯的飢餓應該能保護我們免受詛咒。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultcurse_affliction_lowgrail",
 			"label": "我們呼喚赤杯，祂永無饜足",
-			"startdescription": "赤杯或許能保護我們免於詛咒的傷害。它是一位喜新厭舊的司辰。",
+			"startdescription": "赤杯或許能保護我們免受詛咒，但祂是一位反覆無常的司辰。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultcurse_affliction_success",
 			"label": "詛咒褪去",
-			"startdescription": "我們的力量比詛咒之力要強得多。這詛咒別想纏上我們。",
+			"startdescription": "我們的力量比詛咒之力要強得多。這詛咒無法傷及我們。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultcurse_affliction_failure",
-			"label": "詛咒附身",
-			"startdescription": "擅闖這樣的地方是要付出代價的。不久之後，這個詛咒便會勒住我們。",
+			"label": "詛咒纏身",
+			"startdescription": "擅闖這樣的地方是要付出代價的。不久之後，這個詛咒會緊緊勒住我們。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultcurse_nowhere_encounter",
 			"label": "虛源詛咒",
-			"startdescription": "有一個世界的表皮因高燒而泛黃的地方。在那裡，<b>燈</b>或者<b>蛾</b>或許能夠保護我們。除它二者再無可能。",
+			"startdescription": "這裡是世界的表皮因高燒而泛黃之處。在這裡，<b>燈</b>或者<b>蛾</b>或許能保護我們，除此之外別無他法。",
 			"slots": [
 				{
 					"id": "Assistance",
@@ -201,25 +201,25 @@
 		{
 			"id": "explorevaultcurse_nowhere_midmoth",
 			"label": "我們呼喚笑鶇，祂永不停步",
-			"startdescription": "在我們的請求下，名為笑鶇的司辰或許會替我們帶走這一詛咒。我們大概能安然無恙。",
+			"startdescription": "我們或許能祈求名為笑鶇的司辰帶走這一詛咒。我們大概能安然無恙。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultcurse_nowhere_lowmoth",
-			"label": "我們呼喚笑鶇，祂向願者與不願者敘說",
-			"startdescription": "笑鶇是<b>蛾</b>之神靈，且不可靠。她或許能夠保護我們。",
+			"label": "我們呼喚笑鶇，祂向願與不願者述說故事",
+			"startdescription": "笑鶇是<b>蛾</b>之神靈，並不可靠。她或許能保護我們。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultcurse_nowhere_highlantern",
 			"label": "我們呼喚殘陽，祂仍在燃燒",
-			"startdescription": "殘陽借給我們了來自<b>燈</b>的光，諒必能夠終結這裡的詛咒。",
+			"startdescription": "殘陽將<b>燈</b>之光借予我們，諒必能終結這裡的詛咒。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultcurse_nowhere_midlantern",
-			"label": "我們呼喚殘陽，祂不類前身",
-			"startdescription": "殘陽，那位厭倦且冷冽的神靈，可以將<b>燈</b>借給我們。這能夠驅散詛咒……大概能吧。",
+			"label": "我們呼喚殘陽，祂已非昔日",
+			"startdescription": "殘陽，那位厭倦且冷冽的神靈，可以將<b>燈</b>借給我們。這能夠驅散詛咒……大概吧。",
 			"description": "."
 		},
 		{
@@ -231,13 +231,13 @@
 		{
 			"id": "explorevaultcurse_nowhere_success",
 			"label": "詛咒褪去",
-			"startdescription": "我們的力量比詛咒之力要強得多。這詛咒別想纏上我們。",
+			"startdescription": "我們的力量比詛咒之力要強得多。這詛咒無法傷及我們。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultcurse_nowhere_failure",
-			"label": "詛咒附身",
-			"startdescription": "擅闖這樣的地方當然是要付出代價的。不久的將來，我們會被這詛咒纏上。",
+			"label": "詛咒纏身",
+			"startdescription": "擅闖這樣的地方是要付出代價的。不久之後，這個詛咒會緊緊勒住我們。",
 			"description": "."
 		}
 	]
