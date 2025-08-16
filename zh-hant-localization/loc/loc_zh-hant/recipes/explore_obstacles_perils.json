@@ -3,7 +3,7 @@
 		{
 			"id": "explorevaultperil_treacherousground_encounter",
 			"label": "詭變多端的地面",
-			"startdescription": "拉人下陷的泥漿，欺人眼目的裂縫——大地急於吞噬我們。我們需要用<b>燈</b>照亮前路，或<b>鑄</b>一盞燈。",
+			"startdescription": "拉人下陷的泥漿，欺人眼目的裂縫——大地急於吞噬我們。我們需要用<b>燈</b>照亮前路，或用<b>鑄</b>開闢道路。",
 			"slots": [
 				{
 					"id": "Assistance",
@@ -15,55 +15,55 @@
 		{
 			"id": "explorevaultperil_treacherousground_highlantern",
 			"label": "我們呼喚守夜人，祂指引前路",
-			"startdescription": "守夜人令我們視物清晰，我們諒必不會走錯路。",
+			"startdescription": "守夜人為我們掃清視野，我們諒必不會走錯路。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_treacherousground_midlantern",
 			"label": "我們呼喚守夜人，祂照明驅暗",
-			"startdescription": "守夜人將美德賜給我們的燈火，令我們用其避開險境。大概能吧。",
+			"startdescription": "守夜人將力量賜予我們的燈火，使其照見應避之險。大概吧。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_treacherousground_lowlantern",
-			"label": "我們呼喚守夜人，祂無憐憫心",
-			"startdescription": "守夜人對我們和阻攔我們的障礙都不會容情。我們能否通過要看運氣。",
+			"label": "我們呼喚守夜人，祂不懷憐憫",
+			"startdescription": "守夜人既不憐憫前方障礙，也不憐憫我們。若運氣好，也許能闖過去。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_treacherousground_highforge",
 			"label": "我們呼喚昕旦，祂永葆平衡。",
-			"startdescription": "我們祈求昕旦，<b>鑄</b>與<b>冬</b>之司辰護佑。我們將開闢一條自己的通路。成功近在咫尺。",
+			"startdescription": "我們祈求昕旦，<b>鑄</b>與<b>冬</b>之司辰護佑。我們將開闢自己的道路。成功近在咫尺。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_treacherousground_midforge",
 			"label": "我們呼喚昕旦，祂平息靖聲。",
-			"startdescription": "昕旦乃<b>鑄</b>與<b>冬</b>之司辰，擁有平靖躁動大地的神力。大概我們能平安生還。",
+			"startdescription": "昕旦乃<b>鑄</b>與<b>冬</b>之司辰，擁有平靖躁動大地的神力。我們應該會平安無事。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_treacherousground_lowforge",
 			"label": "我們呼喚昕旦，祂先於太陽而來",
-			"startdescription": "昕旦乃<b>鑄</b>與<b>冬</b>之司辰。<b>鑄</b>帶來力量，然而霧氣現已升騰凝聚。也許我們能成功通過。",
+			"startdescription": "昕旦乃<b>鑄</b>與<b>冬</b>之司辰。<b>鑄</b>帶來力量，然而霧氣現已升騰凝聚。或許我們能過得去。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_treacherousground_success",
-			"label": "平安通過詭變多端的土地",
+			"label": "平安通過詭變多端的地面",
 			"startdescription": "我們身上盡是點點泥漿和荊棘擦傷，但我們成功了。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_treacherousground_failure",
-			"label": "急於吞噬的大地",
-			"startdescription": "這條看似安全可行得通路實為讓人深陷其中的圈套。我們得繞回去再找一條路。",
+			"label": "飢餓的大地",
+			"startdescription": "這條看似安全的道路，其實是會讓人深陷其中的圈套。我們得繞回去找另一條路。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_forest_encounter",
 			"label": "危機四伏的森林",
-			"startdescription": "現下樹下的黑暗尚還安靜，但這裡不只我們存在。讓<b>蛾</b>相為我指引方向，或<b>鑄</b>相為我滌清道路。",
+			"startdescription": "樹下的黑暗此刻十分安靜，但在此我們並不孤單。讓<b>蛾</b>相為我指引方向，或<b>鑄</b>相為我開闢道路。",
 			"slots": [
 				{
 					"id": "Assistance",
@@ -74,56 +74,56 @@
 		},
 		{
 			"id": "explorevaultperil_forest_highmoth",
-			"label": "我們呼喚飛蛾，祂於林地樹間尋覓",
-			"startdescription": "漫宿下面的林地的黑暗更甚此地。飛蛾指引我們的腳步。成功近在咫尺。",
+			"label": "我們呼喚飛蛾，祂尋覓於林地樹間",
+			"startdescription": "漫宿之下的林地，比此地更為幽暗。飛蛾指引我們的腳步。成功近在咫尺。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_forest_midmoth",
 			"label": "我們呼喚飛蛾，祂通體斑駁",
-			"startdescription": "路上映出斑駁陰影。也許這是飛蛾在為我們指路。大概是這樣的。大概我們能成功通過。",
+			"startdescription": "路上映出斑駁陰影。也許這是飛蛾賜予我們的道路。大概是如此。我們應該能平安通過。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_forest_lowmoth",
-			"label": "我們呼喚飛蛾，祂於顱內振翅",
-			"startdescription": "我們於危難中祈求飛蛾護佑。森林以拍打的翅，以想像中的眼脈動著。也許我們能成功通過。",
+			"label": "我們呼喚飛蛾，祂於顱中振翅",
+			"startdescription": "我們冒險呼喚飛蛾。森林隨著振翅與幻眼一同脈動。或許我們能闖得過去。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_forest_highforge",
 			"label": "鋼與焰",
-			"startdescription": "鑄爐獨具匠心，鑄爐殘酷無情。我們諒必能夠成功通過。",
+			"startdescription": "鑄爐獨具匠心，鑄爐殘酷無情。我們諒必能夠通過。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_forest_midforge",
 			"label": "斧與燈",
-			"startdescription": "森林包圍了我們，但我們是務實的人，擅<b>鑄</b>，大概能平安生還。",
+			"startdescription": "森林將我們籠罩，但我們是務實之輩，精於<b>鑄</b>。我們大概會平安無事。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_forest_lowforge",
 			"label": "黃昏中的掙扎",
-			"startdescription": "我們祈求<b>鑄</b>之力的護佑，助我披荊斬棘。前路艱難。也許我們能成功通過。",
+			"startdescription": "我們呼喚<b>鑄</b>之力，破林前行。但前路艱難。或許我們能闖過去。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_forest_success",
-			"label": "“穿過樹林的光……”",
-			"startdescription": "我們看到前方有東西。我們成功穿過了森林。",
+			"label": "“一道穿林之光……”",
+			"startdescription": "前方有什麼東西。我們穿過了森林。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_forest_failure",
-			"label": "愈加深沉的靜默",
-			"startdescription": "我們迷路了。森林高聳，巨影傾倒在黃昏的天幕上。林中的野獸靜默無聲，但我們時常能看到它們的眼睛。",
+			"label": "漸深的靜默",
+			"startdescription": "我們迷路了。森林高聳，巨影傾倒在黃昏的天幕上。林中的野獸靜默無聲，但偶爾能看到它們的眼睛。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_mountains_encounter",
 			"label": "雲中徑",
-			"startdescription": "高峻的山峰劃破天空。讓<b>冬</b>相免我受寒，或<b>鑄</b>相為我開道。若兩者皆無，探險必失敗。",
+			"startdescription": "高峻的山峰劃破天空。<b>冬</b>相可為我們避寒，<b>鑄</b>相可為我們開道。若兩者皆無，此次探險必將失敗。",
 			"slots": [
 				{
 					"id": "Assistance",
@@ -135,55 +135,55 @@
 		{
 			"id": "explorevaultperil_mountains_highwinter",
 			"label": "我們呼喚昕旦，祂永葆平衡。",
-			"startdescription": "名為昕旦的司辰慣於寒冷。她令我們諒必不至墜落。",
+			"startdescription": "昕旦這位司辰熟悉寒冷。她諒必能保我們不致墜落。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_mountains_midwinter",
 			"label": "我們呼喚昕旦，祂平息靖聲。",
-			"startdescription": "昕旦擅<b>冬</b>。她大概能令我們不遭雪崩。",
+			"startdescription": "昕旦精於<b>冬</b>。她大概能庇護我們免於雪崩。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_mountains_lowwinter",
-			"label": "我們呼喚昕旦，祂先於太陽而去",
-			"startdescription": "對於通曉<b>冬</b>天、名為昕旦的司辰來說，黎明前的時辰是神聖的。若我們奮起反抗，求她護佑，或許她會保我周全。",
+			"label": "我們呼喚昕旦，祂先於太陽而來",
+			"startdescription": "對於通曉<b>冬</b>的司辰昕旦而言，黎明前的時辰是神聖的。若我們在那時起身呼喚她，或許她會庇護我們平安。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_mountains_highforge",
 			"label": "登山者之途",
-			"startdescription": "我們精通<b>鑄</b>之本領。我們諒必能夠成功通過。",
+			"startdescription": "我們精通<b>鑄</b>之本領。我們諒必能夠通過。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_mountains_midforge",
 			"label": "探索者之途",
-			"startdescription": "我們是務實的人，擅<b>鑄</b>，大概能成功。",
+			"startdescription": "我們是務實之輩，精於<b>鑄</b>。我們應該不會有事。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_mountains_lowforge",
 			"label": "浪跡者之途",
-			"startdescription": "<b>鑄</b>相的追隨者既能幹又務實，但禁不住漫漫山脊上岩石尖利，冰封雪蓋。我們前路艱難。運氣好的話或能通過。",
+			"startdescription": "<b>鑄</b>相的追隨者既幹練又務實，但群山綿延，滿是尖銳冰封的岩石。前路艱難。說不定我們會走運。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_mountains_success",
 			"label": "穿過雲中徑",
-			"startdescription": "滿身凍傷，瑟瑟發抖的我們成功穿過高山。",
+			"startdescription": "身負凍痕，瑟縮顫抖，我們穿過了高山。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_mountains_failure",
-			"label": "憤怒的迴響",
-			"startdescription": "滑坡和雪崩將我們逼退。如果能生還，我們會換一條路走。",
+			"label": "暴烈的迴響",
+			"startdescription": "山崩與雪崩將我們逼退。若我們能活下來，只能另尋去路。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_desert_encounter",
 			"label": "荒漠",
-			"startdescription": "這片廣袤的土地猶如一個幾達天邊的土黃色火爐。到了夜晚，莽莽星空撒下冷冽的光。我們必須小心前行，或以<b>鑄</b>鋪就前路，或以<b>杯</b>避免乾渴。",
+			"startdescription": "這片廣袤的土地宛如一座土黃色火爐，浩瀚無邊，近乎撐破天際。在夜晚則是一片星辰荒原，寒意逼人。我們必須小心前行，或以<b>鑄</b>鋪就前路，或以<b>杯</b>避免乾渴。",
 			"slots": [
 				{
 					"id": "Assistance",
@@ -194,56 +194,56 @@
 		},
 		{
 			"id": "explorevaultperil_desert_highgrail",
-			"label": "我們呼喚雙生女巫，祂身為珍珠",
-			"startdescription": "雙生女巫應能護我穿過乾涸地。",
+			"label": "我們呼喚雙生女巫，祂即為珍珠",
+			"startdescription": "雙生女巫應能庇護我們穿越乾涸之地。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_desert_midgrail",
-			"label": "我們呼喚雙生女巫，祂不可觸碰",
-			"startdescription": "我們呼喚雙生女巫護我免遭太陽的炙烤和蜃景的迷惑。我們應能順利通過。",
+			"label": "我們呼喚雙生女巫，祂不容觸犯",
+			"startdescription": "我們呼喚雙生女巫，護我免遭太陽炙烤與蜃景迷惑。我們應能順利通過。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_desert_lowgrail",
-			"label": "我們呼喚雙生女巫，祂不可分離",
-			"startdescription": "我們呼喚雙生女巫保護我們不因乾涸地帶的沙暴失散。這樣應該足夠了。",
+			"label": "我們呼喚雙生女巫，祂不容分離",
+			"startdescription": "我們呼喚雙生女巫，庇護我們不失散於乾涸之地的沙暴中。但願這足夠了。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_desert_highforge",
 			"label": "炙陽之途",
-			"startdescription": "我們的<b>鑄</b>之本領可保我們平安穿過炙熱的岩石路到達綠洲。我們諒必能夠通行無礙。",
+			"startdescription": "我們的<b>鑄</b>之本領可保我們平安，穿過炙熱的岩石到達綠蔭。我們諒必能通行無礙。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_desert_midforge",
 			"label": "乾旱之途",
-			"startdescription": "我們是務實的人，擅<b>鑄</b>，應該能穿過炙熱的戈壁到達綠洲。",
+			"startdescription": "我們是務實的人，精於<b>鑄</b>，應該能穿過炙熱的戈壁，到達綠蔭。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_desert_lowforge",
 			"label": "無情之途",
-			"startdescription": "<b>鑄</b>相的追隨者既能幹又務實，奈何此地荒瘠。我們或許能成功通過。",
+			"startdescription": "<b>鑄</b>相的追隨者既幹練又務實，奈何此地荒瘠。我們或許能夠通過。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_desert_success",
 			"label": "驕盛的太陽",
-			"startdescription": "太陽西沉。我們回首瞭望方才穿過的荒漠，和它在暮光中顯現的所有色彩。夜幕降臨，群星閃爍。撫過我們的臉頰風如同冰冷的手。旅途繼續。",
+			"startdescription": "太陽西沉。我們回首瞭望方才穿過的荒漠，以及它在暮光中展現的所有色彩。夜幕降臨，群星閃爍。拂面的風，宛如冰冷的手。我們繼續前行。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_desert_failure",
 			"label": "憤怒的太陽",
-			"startdescription": "日復一日，太陽令我們皮膚緊繃，口唇乾燥，在我們的頭頂傾瀉毒辣的光。我們可能會迷路，也許已經迷路了。",
+			"startdescription": "日復一日，太陽令皮膚緊繃，口乾舌裂，毒辣的光穿過頭頂，傾瀉入顱。我們可能會迷路，也許早已迷路了。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_sea_encounter",
-			"label": "薄暮群嶼周邊海域",
-			"startdescription": "我們航行的海面風暴肆虐。我們要找尋的島嶼隱藏在沒有記載的歷史角落之中。我們需要<b>心</b>或<b>鑄</b>，或兩者皆需。",
+			"label": "薄暮群嶼環海",
+			"startdescription": "我們航行的海面風暴肆虐。我們所尋之島隱於未曾記載的歷史角落。我們需要<b>心</b>或<b>鑄</b>，或兩者皆需。",
 			"slots": [
 				{
 					"id": "Assistance",
@@ -254,50 +254,50 @@
 		},
 		{
 			"id": "explorevaultperil_sea_highheart",
-			"label": "我們呼喚雙生女巫，祂不可觸碰",
-			"startdescription": "風暴因轟雷之皮而起，又因雙生巫女而息。恰當的言詞應該能夠帶我們平安駛過這片海域。",
+			"label": "我們呼喚雙生女巫，祂不容觸犯",
+			"startdescription": "風暴因轟雷之皮而起，為巫女而息。恰當的言詞應能帶我們平安橫渡此海。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_sea_midheart",
-			"label": "我們呼喚雙生女巫，祂不可分離",
-			"startdescription": "若風暴來襲，雙生巫女能保我們的船員和船隻無虞。大概能吧。",
+			"label": "我們呼喚雙生女巫，祂不容分離",
+			"startdescription": "若風暴來襲，雙生巫女能保我們的船員和船隻無虞。大概吧。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_sea_lowheart",
-			"label": "我們呼喚雙生女巫，祂身為珍珠",
-			"startdescription": "雙生女巫並未來自於海，卻行於海邊。她的庇護或許已足夠保護我們。",
+			"label": "我們呼喚雙生女巫，祂即為珍珠",
+			"startdescription": "雙生女巫雖非出自海洋，卻行於海畔。她的庇護或許足以保護我們。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_sea_highforge",
 			"label": "水手的確信",
-			"startdescription": "我們精通<b>鑄</b>之本領。我們諒必能夠成功通過。",
+			"startdescription": "我們精於<b>鑄</b>之本領，諒必能夠順利通過。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_sea_midforge",
-			"label": "水手的氣力",
-			"startdescription": "我們是務實的人，擅<b>鑄</b>，大概能成功。",
+			"label": "水手的力量",
+			"startdescription": "我們是務實的人，精於<b>鑄</b>，大概能夠應付過去。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_sea_lowforge",
 			"label": "水手的希望",
-			"startdescription": "<b>鑄</b>相的追隨者既能幹又務實，但禁不住海況變化無常。我們得使出全身解數維持住航路。",
+			"startdescription": "<b>鑄</b>相的追隨者既幹練又務實，但大海詭譎多變。我們得竭力維持航向。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_sea_success",
-			"label": "平安駛過海域",
-			"startdescription": "被海浪拍打，海水潑濺，陽光炙烤，鹽漬黏身。但是我們到了。",
+			"label": "安然渡海",
+			"startdescription": "大浪拍打，海水潑濺，陽光炙烤，鹽漬黏身。但我們到了。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultperil_sea_failure",
 			"label": "鹽水與玄武岩的迷宮",
-			"startdescription": "又是被風暴吹打的一日。我們肯定離目標不遠了。然而群嶼彷彿一座誘人發狂的迷宮，且我們要找的地方不存在於任何公開的海圖上。",
+			"startdescription": "又是風吹雨打的一日。我們肯定離目標不遠了。然而群嶼彷彿一座誘人發狂的迷宮，且我們所尋之地不存在於任何公開海圖上。",
 			"description": "."
 		}
 	]

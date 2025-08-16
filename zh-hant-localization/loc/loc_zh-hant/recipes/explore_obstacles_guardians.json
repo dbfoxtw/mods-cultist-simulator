@@ -308,7 +308,7 @@
 		},
 		{
 			"id": "explorevaultguardian_soucouyants_midlantern",
-			"label": "我們呼喚守夜人，祂無憐憫心",
+			"label": "我們呼喚守夜人，祂不懷憐憫",
 			"startdescription": "我們的力量應該足以使它們不敢靠近——但它們警戒著，隨時準備抓住我們的疏漏。",
 			"description": "."
 		},
@@ -320,13 +320,13 @@
 		},
 		{
 			"id": "explorevaultguardian_soucouyants_highmoth",
-			"label": "我們呼喚飛蛾，祂於林地樹間尋覓",
+			"label": "我們呼喚飛蛾，祂尋覓於林地樹間",
 			"startdescription": "飛蛾能夠在這人潮攢動的森林之夜發揮神力。我們將隱秘而安全地通過……除非我們特別不走運。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_soucouyants_midmoth",
-			"label": "我們呼喚飛蛾，祂於顱內振翅",
+			"label": "我們呼喚飛蛾，祂於顱中振翅",
 			"startdescription": "我們的力量應該足以瞞過這些在夜裡飛翔的乾渴妖怪，讓它們失去興趣。",
 			"description": "."
 		},
