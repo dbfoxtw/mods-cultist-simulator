@@ -3,7 +3,7 @@
 		{
 			"id": "explorevaultguardian_serpent_encounter",
 			"label": "幼妹：巨蛇",
-			"startdescription": "巨蛇擺動著碩大的頭，緊緊地盯著我們。沒有<b>刃</b>和<b>啟</b>，我們無法戰勝它。",
+			"startdescription": "巨蛇擺動著碩大的頭顱，緊盯著我們。沒有<b>刃</b>和<b>啟</b>，我們無法戰勝它。",
 			"slots": [
 				{
 					"id": "Assistance",
@@ -21,49 +21,49 @@
 		{
 			"id": "explorevaultguardian_serpent_midedge",
 			"label": "我們的力量不容小覷。",
-			"startdescription": "目似汽燈，齒若石筍。巨蛇乃是強敵，但我們於之亦如是。",
+			"startdescription": "目似汽燈，齒若石筍。巨蛇乃是強敵，但我們同樣強大。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_serpent_lowedge",
-			"label": "我們的力量不足。",
-			"startdescription": "目似汽燈，口若血盆。我們或許能戰勝這巨蛇，又或許會為挑戰了它深感後悔。",
+			"label": "我們的力量或許不足。",
+			"startdescription": "目似汽燈，口若血盆。我們或許能戰勝這巨蛇，也或許會為此後悔。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_serpent_highknock",
 			"label": "我們呼喚蟻母，祂自創口現身",
-			"startdescription": "巨蛇之口足以吞人，其舌之厚堪比人的肩膀。不過諒必它不會小瞧我們的力量。",
+			"startdescription": "巨蛇之口足以吞人，其舌之厚堪比人的肩膀。不過它諒必會敬畏我們的力量。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_serpent_midknock",
 			"label": "我們呼喚蟻母，祂盤伏環繞",
-			"startdescription": "巨蛇齒泛寒光，身長足以纏繞房屋。大概它不會小瞧我們的力量。",
+			"startdescription": "巨蛇身長足以纏繞房屋，齒泛寒光。它大概會敬畏我們的力量。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_serpent_lowknock",
 			"label": "我們呼喚蟻母，祂洞開傷口",
-			"startdescription": "巨蛇抬起身軀，好似河水翻湧，細長的瞳孔中滿是飢餓。也許它不會小瞧我們的力量。",
+			"startdescription": "巨蛇抬起身軀，好似河水翻湧，細長的瞳孔宛如飢餓的深淵。它也許會敬畏我們的力量。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_serpent_success_edge",
 			"label": "巨蛇的掙扎",
-			"startdescription": "巨蛇全身翻卷，嘶聲轟鳴！垂死掙扎震天動地！但它已瀕死，我們得以通過。",
+			"startdescription": "巨蛇翻卷，嘶聲轟鳴！垂死掙扎，震天動地！它已瀕死，我們得以通過。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_serpent_success_knock",
 			"label": "巨蛇的哀傷",
-			"startdescription": "它垂下巨大的頭，無瞼的雙眼滲出水氣。它在哭嗎？對於我們呼喚的神靈，它的長姐，它記得些什麼呢？",
+			"startdescription": "它垂下巨大的頭，無瞼的雙眼滲出淚光。它在哭嗎？關於我們呼喚的力量——它的長姐——它記得什麼？",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_serpent_failure",
 			"label": "巨蛇的力量",
-			"startdescription": "撤退，快撤退！我們贏不了它！",
+			"startdescription": "撤退，快撤退！我們不是它的對手！",
 			"description": "."
 		},
 		{
@@ -81,49 +81,49 @@
 		{
 			"id": "explorevaultguardian_watchers_highedge",
 			"label": "我們的力量無人能及。",
-			"startdescription": "諒必這些看守將會後悔與我們為敵。",
+			"startdescription": "這些看守諒必將後悔與我們為敵。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_watchers_midedge",
 			"label": "我們的力量不容小覷。",
-			"startdescription": "這些看守沒料到我們會來。我們應該能夠幹掉他們。",
+			"startdescription": "這些看守毫無準備。我們應該能擊敗他們。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_watchers_lowedge",
-			"label": "我們的力量不足。",
-			"startdescription": "這些看守可能不好對付——但我們還是有機會的。",
+			"label": "我們的力量或許不足。",
+			"startdescription": "這些看守不好對付——但我們仍有一線機會。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_watchers_highgrail",
 			"label": "對抗看守：杯之魅惑",
-			"startdescription": "“走近點呀，親愛的。我們有好東西要給你瞧。”",
+			"startdescription": "“親愛的，靠近點。這裡有好東西呢。”",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_watchers_midgrail",
 			"label": "對抗看守：杯之誘惑",
-			"startdescription": "我們的誘餌應該能使看守的心動神搖。",
+			"startdescription": "我們的誘餌應該能使看守心動神搖。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_watchers_lowgrail",
 			"label": "對抗看守：杯之擾亂",
-			"startdescription": "也許我們能轉移看守的注意。",
+			"startdescription": "我們也許能轉移看守的注意力。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_watchers_highmoth",
 			"label": "對抗看守：強力的騙局",
-			"startdescription": "“仔細看，再仔細點。盯住別放！盯住，別眨眼。現在，閉眼……”",
+			"startdescription": "“仔細看。近一點。更近！繼續看。再近一點。現在，閉上眼睛……”",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_watchers_midmoth",
 			"label": "對抗看守：有把握的騙局",
-			"startdescription": "“醒醒！醒醒！他們衝我們來了！往那邊跑，快！”",
+			"startdescription": "“醒醒！醒醒！他們來了！在那邊，快！”",
 			"description": "."
 		},
 		{
@@ -135,31 +135,31 @@
 		{
 			"id": "explorevaultguardian_watchers_success_edge",
 			"label": "看守的末路",
-			"startdescription": "他們流出鮮紅的血，然後是黑色的。這些人不該擋我們的路。我們繼續前進。",
+			"startdescription": "先是鮮紅的血，繼而轉黑。他們不該與我們為敵。該前進了。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_watchers_success_grail",
 			"label": "看守的墮落",
-			"startdescription": "當下的歡愉最終會使他們落得慘痛的下場。也許他們會覺得這很值得。我們可以在這期間前進了。",
+			"startdescription": "此刻的歡愉終將換來惡果。也許他們會覺得這很值得。我們得以前行。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_watchers_success_moth",
 			"label": "看守的迷惑",
-			"startdescription": "他們迷惑的這段時間是個好機會，我們會悄無聲息地通過。",
+			"startdescription": "趁他們迷惑之時，我們悄然無聲地溜過。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_watchers_failure",
 			"label": "看守的勝利",
-			"startdescription": "他們遠比我們想像的要狡猾，數量也更多！這場戰鬥將以我們付出鮮血告終。",
+			"startdescription": "他們比我們預料的更狡猾，也更多人！這將以我們的鮮血收場——",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_monks_encounter",
 			"label": "僧侶",
-			"startdescription": "一隊恪守誓言，信奉傳統的守衛。<b>杯</b>之魅惑對他們沒有效果，我們必須用<b>刃</b>擊敗他們，或是用<b>蛾</b>迷惑他們。",
+			"startdescription": "一個恪守誓言，信奉傳統的守衛僧團。<b>杯</b>之魅惑無法撼動他們，我們必須用<b>刃</b>擊敗他們，或是用<b>蛾</b>迷惑他們。",
 			"slots": [
 				{
 					"id": "Assistance",
@@ -170,32 +170,32 @@
 		},
 		{
 			"id": "explorevaultguardian_monks_highedge",
-			"label": "我們的力量勢不可當。",
-			"startdescription": "我們將為土地染上神聖的血跡。",
+			"label": "我們的力量勢不可擋。",
+			"startdescription": "我們將為大地濺上神聖的血跡。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_monks_midedge",
 			"label": "我們的力量不容小覷。",
-			"startdescription": "應付這些信神的蠢貨，我們應該游刃有餘。",
+			"startdescription": "對付這些信神的蠢貨，我們應該游刃有餘。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_monks_lowedge",
-			"label": "我們的力量不足。",
-			"startdescription": "僧侶並不可怕，但許許多多的僧侶就不好對付了。我們或許能贏，運氣好的話。",
+			"label": "我們的力量或許不足。",
+			"startdescription": "一個僧侶不難，但許許多多個僧侶就不好對付了。我們或許能贏，運氣好的話。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_monks_highmoth",
-			"label": "對抗看守：有效的騙局",
-			"startdescription": "“我們帶來了不容置疑的神聖書卷，其真意只有在月光中才會呈現。”",
+			"label": "對抗僧侶：強力的騙局",
+			"startdescription": "“我們帶來了一些神聖書卷，其真意唯有在月光下才會顯現——”",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_monks_midmoth",
 			"label": "對抗僧侶：有把握的騙局",
-			"startdescription": "“這份搜索票上蓋的是當局最高層的大印。別擋我們的路——”",
+			"startdescription": "“這張搜索票上蓋的是當局最高層的大印。別擋我們的路——”",
 			"description": "."
 		},
 		{
@@ -207,25 +207,25 @@
 		{
 			"id": "explorevaultguardian_monks_success_edge",
 			"label": "僧侶沉默",
-			"startdescription": "他們的屍體癱在蜷曲的長袍堆中，一個疊著一個，看不出差別。邁過他們，繼續前進。",
+			"startdescription": "他們的屍體倒臥成一團長袍堆，分不出有多少。跨過他們，繼續前進。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_monks_success_moth",
 			"label": "僧侶中計",
-			"startdescription": "信仰是把雙刃劍。這些僧侶對相信某物有極高的天賦，因而他們信了我們的謊言。",
+			"startdescription": "信仰是一柄雙刃劍。這些僧侶深諳信仰之道，因此他們信了我們的謊言。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_monks_failure",
-			"label": "僧侶暴怒",
-			"startdescription": "他們比我們想像中的更強，也更聰明。而現在他們找到了出手的目標——",
+			"label": "僧侶之怒",
+			"startdescription": "他們比我們預料的更強，也更聰明。現在，他們的怒火正撲向我們——",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_dead_encounter",
-			"label": "煩躁的亡者",
-			"startdescription": "亡者像是汙濁的鬼火一樣聚集在我們周圍的空氣中。沒有<b>刃</b>或<b>冬</b>，我們無法與之抗衡。",
+			"label": "躁動的亡者",
+			"startdescription": "亡者如同穢濁的屍光，聚攏在我們周圍。沒有<b>刃</b>或<b>冬</b>，我們無法與之抗衡。",
 			"slots": [
 				{
 					"id": "Assistance",
@@ -237,61 +237,61 @@
 		{
 			"id": "explorevaultguardian_dead_highedge",
 			"label": "我們的力量無人能及。",
-			"startdescription": "亡者身形蒼白，彷彿是顏色反轉的陰影。它們行動如是微風中的飄忽的蛛網。諒必它們擋不住我們，我們會將它們趕回林地的陰影，讓它們到那裡咕噥去吧。",
+			"startdescription": "亡者蒼白如反轉的陰影，行動宛若微風中的蛛網。它們諒必擋不住我們。我們將它們趕回林地的陰影，在那裡喃喃低語。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_dead_midedge",
 			"label": "我們的力量不容小覷。",
-			"startdescription": "這些眼神熱切而卑微的亡者已經死過一次了。它們與醒時世界的連結很微弱，我們應該能夠把它們趕回黑暗中去，但必須要小心謹慎。",
+			"startdescription": "這些亡者那雙既渴求又卑微的眼睛，昭示著它們早已死過一次。它們對醒世的連結很脆弱，我們應能將它們驅入黑暗，但務必要小心謹慎。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_dead_lowedge",
-			"label": "我們的力量不足。",
-			"startdescription": "亡者行動遲緩，如同日晷陰影的轉動——慢，卻不止不休。它們記得何為痛苦和恐懼，但不甚清晰。而對這兩種情感我們也同樣熟悉。我們可能贏不了它們。",
+			"label": "我們的力量或許不足。",
+			"startdescription": "亡者行動遲緩，如同日晷陰影的轉動——慢，卻不止不休。它們依稀記得痛苦與恐懼，而我們對這兩個滋味卻再熟悉不過。也許，它們會壓倒我們。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_dead_highwinter",
 			"label": "我們呼喚骨白鴿，祂通曉亡者姓名",
-			"startdescription": "亡者在我們的視野邊緣圍成一圈，彷彿是焦慮的夢。我們周圍的空氣帶上了<b>冬</b>天陰影的寒意，這寒意它們肯定認得。",
+			"startdescription": "亡者在我們的視野邊緣盤旋，宛如殘破的夢。我們周遭的空氣因<b>冬</b>之陰影而凜冽，這寒意它們必然熟悉。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_dead_midwinter",
-			"label": "我們呼喚骨白鴿，祂不受欺騙",
-			"startdescription": "亡者緊緊地望著我們，彷彿聖徒的雕像般面無表情。但我們身上帶有<b>冬</b>之力，亡者大概能認出此力。",
+			"label": "我們呼喚骨白鴿，祂不受欺瞞",
+			"startdescription": "亡者緊緊注視著我們，神情如聖徒雕像般無神。我們身上承載著<b>冬</b>之力，亡者大概能識得這股力量。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_dead_lowwinter",
 			"label": "我們呼喚骨白鴿，祂已無可奪",
-			"startdescription": "亡者在黑暗中沸騰翻滾，但我們已經受了眾位<b>冬</b>之司辰的觸摸。也許這些亡者能辨識出這點。",
+			"startdescription": "亡者在黑暗中躁動喧響，但我們已受<b>冬</b>之司辰的觸摸。也許這些亡者能識得此力。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_dead_success_edge",
 			"label": "悲慘的亡者",
-			"startdescription": "當亡者返回我們這邊的時候，它們用上了肉體消逝時能用的一切：沙土、鏽鐵、蛛網、碎片、破布。如今它們已被我們毀滅，留下的就只有這些破爛了。",
+			"startdescription": "當亡者歸來時，若已失去肉身，它們便會聚攏一切殘餘之物：沙土、鏽鐵、蛛網、碎屑、破布。如今它們已被我們擊碎，僅餘下這些殘破的碎片。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_dead_success_winter",
-			"label": "小心翼翼的亡者",
-			"startdescription": "亡者縮了回去，幾不可辨的面孔空洞而警覺。它們不會妨礙我們了。",
+			"label": "警戒的亡者",
+			"startdescription": "亡者退卻，近乎虛假的臉孔空洞卻帶著警覺。它們不會再妨礙我們。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_dead_failure",
-			"label": "亡者的暴怒",
-			"startdescription": "比起物體，亡者更像是風，但這並不意味著風可以被低估。就像現在，它們是蒼白陰影的風暴，恐怖是它們的獠牙。撤，快撤！",
+			"label": "暴怒的亡者",
+			"startdescription": "亡者更像風，而非血肉——但風亦不可小覷。此刻，它們化作長滿獠牙的颶風，滿是蒼白的陰影。撤退！快撤退！",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_soucouyants_encounter",
 			"label": "黑暗中的索寇焰特",
-			"startdescription": "夜風隨它們喀嗒作響。放低身子，它們太強大了，但我們或許能夠騙過它們，或是用漫宿的光將它們驅散。",
+			"startdescription": "夜色因它們而嘎嘎作響。快蹲下。它們太強大了，但我們或許能夠騙過它們，或是用漫宿的光將它們驅散。",
 			"slots": [
 				{
 					"id": "Assistance",
@@ -315,49 +315,49 @@
 		{
 			"id": "explorevaultguardian_soucouyants_lowlantern",
 			"label": "我們呼喚守夜人，祂指引前路",
-			"startdescription": "很有可能我們的力量會確保我們安全通過這人擠人的夜晚。完全有可能。",
+			"startdescription": "我們的力量應該能護送我們安全度過這險惡的夜晚。大概。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_soucouyants_highmoth",
 			"label": "我們呼喚飛蛾，祂尋覓於林地樹間",
-			"startdescription": "飛蛾能夠在這人潮攢動的森林之夜發揮神力。我們將隱秘而安全地通過……除非我們特別不走運。",
+			"startdescription": "飛蛾能夠在這密集的森林之夜發揮神力。我們將隱秘而安全地通過……除非我們特別不走運。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_soucouyants_midmoth",
 			"label": "我們呼喚飛蛾，祂於顱中振翅",
-			"startdescription": "我們的力量應該足以瞞過這些在夜裡飛翔的乾渴妖怪，讓它們失去興趣。",
+			"startdescription": "我們的力量應該足以欺瞞這些夜翼的渴血者，讓它們受挫。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_soucouyants_lowmoth",
 			"label": "我們呼喚飛蛾，祂通體斑駁",
-			"startdescription": "飛蛾會在森林斑駁的陰影中給我們一些可能性——但也只是可能性而已。",
+			"startdescription": "飛蛾會在森林斑駁的陰影中給我們一點機會——但也就一點。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_soucouyants_success_lantern",
-			"label": "索寇焰特的敗退",
-			"startdescription": "它們不會靠近了。它們以食腐鳥和孩童的聲音尖聲奚落；它們晃動樹冠；它們於黑暗中拋投石頭。但它們不會靠近。我們得以通過。",
+			"label": "索寇焰特的退卻",
+			"startdescription": "它們不會靠近了。它們以食腐鳥和孩童的聲音尖聲奚落；它們晃動樹冠；它們於黑暗中拋投石頭。但它們不會靠近。我們通過了。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_soucouyants_success_moth",
-			"label": "索寇焰特的懊喪",
-			"startdescription": "從陰影趕往更深的陰影，將面孔壓進海綿般的泥土中。它們知道我們在這，但不知道具體在哪。它們的哭號漸漸消失在我們身後。",
+			"label": "索寇焰特的挫敗",
+			"startdescription": "從陰影趕往更深的陰影，將臉緊貼在鬆軟的泥土裡。它們知道我們在這裡，卻無法確知位置。它們的哭號漸漸消失在我們身後。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_soucouyants_failure",
 			"label": "索寇焰特的飢餓",
-			"startdescription": "它們追來了！其中一個長著有粗糙裂紋的翅膀，另一個嘶聲尖叫的身軀則飛進黑暗之中——",
+			"startdescription": "它們撲上來了！伴隨翅膀皮革般的劈啪聲，有個身軀被尖叫著拎起，拖進黑暗之中——",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_long_encounter",
 			"label": "長生者",
-			"startdescription": "午港建於那眼惡名昭彰的泉水所在之處：飲用此泉，會令這個世界忘卻你的存在。一些長生者從上層世界的紛擾中抽身而出，隱居在這裡。它們對待入侵者的可不手軟，只有蠢貨才去打擾它們。但是，它們對<b>蛾</b>的樂趣或<b>杯</b>的魅惑卻也非常敏感。",
+			"startdescription": "午港建於那眼惡名昭彰的泉水所在之處：飲用此泉，會令世界忘卻你的存在。一些長生者已經從外界的紛擾中抽身，隱居於此。他們對入侵者可不會仁慈，攻擊他們則是愚蠢之舉。不過，他們可能會受<b>蛾</b>的戲弄或<b>杯</b>的誘惑所動搖。",
 			"slots": [
 				{
 					"id": "Assistance",
@@ -368,56 +368,56 @@
 		},
 		{
 			"id": "explorevaultguardian_long_highgrail",
-			"label": "“我們是來為您提供歡愉的。”",
-			"startdescription": "即便是長生者也有欲望，也許正因為長生才更懂欲望。這名長生者諒必會屈服，心甘情願地受我們服侍。",
+			"label": "“我們是來讓您享樂的。”",
+			"startdescription": "即便是長生者也有欲望，也許正因為長生才更懂欲望。這名長生者諒必會心甘情願地沉溺於我們的誘惑。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_long_midgrail",
-			"label": "“我們是來為您提供消遣的。”",
-			"startdescription": "這名長生者很樂於接受我們所提供的娛樂，但它仍然心存疑慮。我們大概能成功。",
+			"label": "“我們是來讓您解悶的。”",
+			"startdescription": "這名長生者很樂於接受我們的誘惑，但它仍然心存疑慮。我們大概能成功。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_long_lowgrail",
-			"label": "“希望……我們希望能為您提供些樂子？”",
-			"startdescription": "長生者和凡人擁有相同的胃口，但卻在漫長重複的經歷中感到了厭倦。運氣好的話，也許我們還能使一名長生者感到愉悅。",
+			"label": "“我們……希望能逗您一樂？”",
+			"startdescription": "長生者也和凡人一樣懷有欲望，但在千百次的經歷後已經厭倦。若我們夠幸運，也許還能讓其中一位覺得有趣。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_long_highmoth",
-			"label": "“新聞！古老國度傳來的新聞！從一切古老國度傳來的新聞！”",
-			"startdescription": "長生者極度渴求新鮮感。我們會利用這一點，然後如果一切順利的話，在它意識到不對之前走得遠遠的。",
+			"label": "“消息！古老國度的消息！來自古老國度的一切消息！”",
+			"startdescription": "長生者極度渴求新鮮感。我們會利用這一點，若一切順利，在他們察覺之前就走得遠遠的。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_long_midmoth",
 			"label": "“打賭嗎，很好。”",
-			"startdescription": "這名長生者是在玩弄我們嗎？很難說。但即便這只是個遊戲，它也說不定會准許我們離開。大概能一切順利。",
+			"startdescription": "這名長生者是在玩弄我們嗎？很難說。但即便這只是個遊戲，它也可能允許我們離開。一切大概會順利。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_long_lowmoth",
 			"label": "“這故事，呃，還挺好笑的……”",
-			"startdescription": "這名長生者的雙眸不為所動，遙遠如天邊的地平線。他全身僵如蜥蜴。他有在聽嗎？",
+			"startdescription": "這名長生者的雙眸不為所動，遙遠如天邊的地平線。全身僵硬如蜥蜴。他有在聽嗎？",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_long_success_grail",
-			"label": "漫長而金光閃閃的午後",
-			"startdescription": "這名長生者真的淪陷在杯的魅惑中了嗎？抑或是它很清楚自己在做的究竟是什麼？無論如何，我們都已經贏得了足夠的空間與時間——",
+			"label": "金光漫漫的午後",
+			"startdescription": "這名長生者真的淪陷在杯的誘惑中了嗎？還是它非常清楚自己在做什麼？無論如何，我們已贏得足夠的空間與時間——",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_long_success_moth",
 			"label": "給長生者的謊言",
-			"startdescription": "這些午港的不死居民依舊或受騙，或沉淪，或被困於更宏大的計劃之中。這次，它們不會多事了。",
+			"startdescription": "這些午港的不死居民依舊或受騙、或沉淪、或被捲入更宏大的計劃之中。但這一次，它們不會多事了。",
 			"description": "."
 		},
 		{
 			"id": "explorevaultguardian_long_failure",
 			"label": "長生的痛苦",
-			"startdescription": "不死的居民怒了，它可能會選擇將某人打倒在地，也可能會抑制住怒意。和不死者相關的事，都很難說——",
+			"startdescription": "不死的居民怒了。它可能會擊倒某人，也可能抑制怒意。但與不死者相關的事，都很難說——",
 			"description": "."
 		}
 	]
