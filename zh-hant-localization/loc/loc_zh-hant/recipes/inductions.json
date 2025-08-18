@@ -2,9 +2,9 @@
 	"recipes": [
 		{
 			"id": "heartinduction",
-			"label": "心之行程",
+			"label": "心之流向",
 			"startdescription": "每當心之準則浮現時，我便可以獲得<b>活力</b>。",
-			"description": "今天，我自己的心臟搏動地更有力了。"
+			"description": "今天，我的心臟跳得更有力了。"
 		},
 		{
 			"id": "lanterninduction",
@@ -14,71 +14,71 @@
 		},
 		{
 			"id": "mothinduction",
-			"label": "陳舊遙遠的不快之事",
+			"label": "遙遠舊日的悲傷往事",
 			"startdescription": "蛾在黑暗中尋見光，我亦如是。",
-			"description": "一種似有似無的惆悵染上了我。"
+			"description": "一抹似有似無的惆悵掠過我心。"
 		},
 		{
 			"id": "mothglimmeringinduction",
-			"label": "黑暗與光",
+			"label": "黑暗與光明",
 			"startdescription": "蛾在黑暗中尋見光，我亦如是。",
-			"description": "若不為此，何去何從？"
+			"description": "若不為此，我將為何？"
 		},
 		{
 			"id": "grailinduction",
-			"label": "欲望的背後",
-			"startdescription": "從滿足欲望的過程中能學到什麼嗎？",
-			"description": "有種啟明般的感覺。"
+			"label": "欲望背後之所",
+			"startdescription": "從滿足欲望中，能學到什麼嗎？",
+			"description": "這有如一種頓悟。"
 		},
 		{
 			"id": "dreadinduction",
 			"label": "暗夜驚魂",
-			"startdescription": "我在半夜驚醒。我的手掌，我的臉上都滲出汗珠。",
-			"description": "慢慢地，我鬆開緊攥的拳頭。我又滑落回睡夢中。但某種東西留下了，好像房間角落的蛛網。"
+			"startdescription": "我在半夜驚醒。手掌與臉龐都滲出汗珠。",
+			"description": "慢慢地，我鬆開緊攥的拳頭，又滑回睡夢之中。但仍有些什麼殘留，好似房間角落的蛛網。"
 		},
 		{
 			"id": "dreadinduction_ifdread",
 			"label": "暗夜驚魂",
-			"startdescription": "我在半夜驚醒。我的手掌，我的臉上都滲出汗珠。",
-			"description": "慢慢地，我鬆開緊攥的拳頭。我又滑落回睡夢中。但某種東西留下了，好像房間角落的蛛網。"
+			"startdescription": "我在半夜驚醒。手掌與臉龐都滲出汗珠。",
+			"description": "慢慢地，我鬆開緊攥的拳頭，又滑回睡夢之中。但仍有些什麼殘留，好似房間角落的蛛網。"
 		},
 		{
 			"id": "fascinationinduction",
 			"label": "新的色彩",
 			"startdescription": "我開始留意世間那些我無法命名的色彩。",
-			"description": "我正在看我不該看的東西。我知道這麼做的危險性，但要按捺住想看的念頭是很難的。"
+			"description": "我看見了不該看見之物。我明白其中的危險，但我難以抑止對它的渴望。"
 		},
 		{
 			"id": "fascinationinduction_iffascination",
 			"label": "新的色彩",
 			"startdescription": "我開始留意世間那些我無法命名的色彩。",
-			"description": "我正在看我不該看的東西。我知道這麼做的危險性，但要按捺住想看的念頭是很難的。"
+			"description": "我看見了不該看見之物。我明白其中的危險，但我難以抑止對它的渴望。"
 		},
 		{
 			"id": "poison.notoriety.induction",
 			"label": "眾目睽睽",
-			"startdescription": "我們派的追隨者有些過分出名了。防剿局也許會聽聞此事。"
+			"startdescription": "我派出的追隨者過於出名了。防剿局也許會聽聞此事。"
 		},
 		{
 			"id": "poison.passion.dread.induction",
-			"label": "嚇人的顏色",
-			"startdescription": "我的激情被毒侵入。每一陣精神上的劇痛都會喚起一陣兇猛的灰顏色。"
+			"label": "侵蝕之色",
+			"startdescription": "我的激情已被毒害。每一次情感的悸動，都會引起一陣猛烈的灰色回響。"
 		},
 		{
 			"id": "poison.reason.fascination.induction",
 			"label": "不息之光",
-			"startdescription": "蠟燭，點火便會發光。我的思緒點燃時，會發生什麼？"
+			"startdescription": "點燃蠟燭，便會發光。若燃起思緒，又將如何？"
 		},
 		{
 			"id": "poison.health.dread.induction",
 			"label": "款待痛苦",
-			"startdescription": "我邀請一位老友在我的肌骨裡再居留一天。"
+			"startdescription": "我邀請一位老友在我的肌肉裡再住一日。"
 		},
 		{
 			"id": "secret.induction",
 			"label": "隱私的好處",
-			"startdescription": "我們已特意將總部設在某個冷僻無人的地方……",
-			"description": "……也許能讓防剿局更難摸上門。要維持響亮的聲名可能也更難了。",
+			"startdescription": "我們特意將總部設在冷僻之地……",
+			"description": "……也許能讓防剿局更難找上門，但或許也更難維持聲名。",
 			"slots": [
 				{
 					"id": "reputation",
