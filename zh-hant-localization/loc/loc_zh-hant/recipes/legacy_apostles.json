@@ -2,90 +2,90 @@
 	"recipes": [
 		{
 			"id": "workapostleforgejob",
-			"label": "點算我手上的資源",
+			"label": "審視我手上的資源",
 			"startdescription": "我們的組織擁有一些資源……",
-			"description": "……足夠支持一段時間，但我需要去尋找其他的物資來源。"
+			"description": "……足夠支持一段時間，但我需要去尋找其他的支援途徑。"
 		},
 		{
 			"id": "apostleforgeopentalk",
 			"label": "我們的大業",
 			"startdescription": "我並非孤身一人。",
-			"description": "我的同伴們、塑我形者。"
+			"description": "我的同伴們、我的塑形者。"
 		},
 		{
 			"id": "apostleforgeopenstudy",
 			"label": "我記得什麼？",
-			"startdescription": "我被賜予了秘密。"
+			"startdescription": "我曾受賜秘密。"
 		},
 		{
 			"id": "apostleforgeopenexplore",
-			"label": "從這裡開始",
-			"startdescription": "上次說到哪來著？",
-			"description": "站在我們的會合地點，我得琢磨琢磨我收到的命令。"
+			"label": "起手之地",
+			"startdescription": "上次說到哪了？",
+			"description": "在會合地點，我思索著收到的命令。"
 		},
 		{
 			"id": "apostleforgeopendream",
 			"label": "遙遠的雷鳴",
 			"startdescription": "什麼來了？誰來了？",
-			"description": "我們的塑形者希望改變世界的秩序，甚至包括漫宿的。他遭到反對是必然的。"
+			"description": "我們的塑形者希望改變世界——甚至漫宿的秩序。這勢必會遭到反對。"
 		},
 		{
 			"id": "workapostlegrailjob",
-			"label": "點算我手上的資源",
+			"label": "審視我手上的資源",
 			"startdescription": "我們的組織擁有一些資源……",
-			"description": "……足夠支持一段時間，但我需要去尋找其他的物資來源。而且我現在身體十分虛弱。我只能期望我們的愉悅者會支持我了。"
+			"description": "……足夠支持一段時間，但我需要去尋找其他的支援途徑。而且我的健康已大不如前。只能期望我們的愉悅者能支持我。"
 		},
 		{
 			"id": "apostlegrailopentalk",
 			"label": "我們的大業",
 			"startdescription": "我並非孤身一人。",
-			"description": "我的同伴們、我的愉悅。"
+			"description": "我的同伴們、我的愉悅者。"
 		},
 		{
 			"id": "apostlegrailopenstudy",
 			"label": "我記得什麼？",
-			"startdescription": "我被賜予了秘密。"
+			"startdescription": "我曾受賜秘密。"
 		},
 		{
 			"id": "apostlegrailopenexplore",
-			"label": "從這裡開始",
-			"startdescription": "上次說到哪來著？",
-			"description": "站在我們的會合地點，我得琢磨琢磨我收到的命令。"
+			"label": "起手之地",
+			"startdescription": "上次說到哪了？",
+			"description": "在會合地點，我思索著收到的命令。"
 		},
 		{
 			"id": "apostlegrailopendream",
 			"label": "遙遠的光",
 			"startdescription": "什麼來了？誰來了？",
-			"description": "我們的塑形者希望改變世界的秩序，甚至包括漫宿的。他遭到反對是必然的。"
+			"description": "我們的愉悅者希望改變世界——甚至漫宿的秩序。這勢必會遭到反對。"
 		},
 		{
 			"id": "workapostlelanternjob",
 			"label": "我必須做的事",
-			"startdescription": "我一驚，回過神來。我剛才在做白日夢？",
-			"description": "這是一件包裹，裡面裝著錢。給我的指令裝一個細長的藍如天色的信封裡。錢足夠了。我其他的記憶現在不重要。"
+			"startdescription": "我猛然回神。剛才是白日夢嗎？",
+			"description": "一個裝著錢的包裹。天藍色的細長信封裡裝著給我的指令。足夠了。其他瑣事並不重要。"
 		},
 		{
 			"id": "apostlelanternopentalk",
 			"label": "我們的大業",
-			"startdescription": "我記得這些名字，雖然從未聽別人提起過。",
+			"startdescription": "我記得這些名字，卻從未聽別人提起過。",
 			"description": "我的同伴們、我的沐光明者。"
 		},
 		{
 			"id": "apostlelanternopenstudy",
 			"label": "我記得什麼？",
-			"startdescription": "我被賜予了秘密。"
+			"startdescription": "我曾受賜秘密。"
 		},
 		{
 			"id": "apostlelanternopenexplore",
-			"label": "從這裡開始",
-			"startdescription": "上次說到哪來著？",
-			"description": "這是我在睡夢邊緣的光裡見過的那個地方。"
+			"label": "起手之地",
+			"startdescription": "上次說到哪了？",
+			"description": "這正是我在夢境邊緣之光中所見的地方。"
 		},
 		{
 			"id": "apostlelanternopendream",
 			"label": "遙遠的光",
 			"startdescription": "什麼來了？誰來了？",
-			"description": "我的夢向我警告過我，沐光明者將遭到反對。別人託給我的夢都是真的。"
+			"description": "我的夢曾警告我，沐光明者將遭到反對。託付於我的夢，皆為真實。"
 		}
 	]
 }
